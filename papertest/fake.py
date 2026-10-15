@@ -76,7 +76,7 @@ class FakeMarket:
             out[m] = {
                 "t": self.t, "price": k["price"], "symbol": k["symbol"], "name": k["name"],
                 "dex": "fake", "pair": m, "liquidity_usd": mcap * k["liq_ratio"], "mcap": mcap,
-                "m5_change": (k["price"] / ref - 1) * 100, "h1_change": None, "vol_m5": None,
+                "m5_change": (k["price"] / ref - 1) * 100, "h1_change": None, "vol_m5": self.rng.uniform(500, 20000),
                 "age_minutes": (self.t - k["created"]) / 60,
             }
         return out

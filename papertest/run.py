@@ -155,7 +155,9 @@ class Runner:
                     if self.cooldown.get((strat, m), 0) > now:
                         continue
                     # cheap checks first so RugCheck is only called when useful
-                    ok, reason = engine.check_entry({**rules, "safety_checks": False}, s, [])
+                    ok, reason = engine.check_tradeable(cfg["tradeable"], s)
+                    if ok:
+                        ok, reason = engine.check_entry({**rules, "safety_checks": False}, s, [])
                     f = s
                     if ok and rules.get("safety_checks"):
                         f = self.features(m, s, True)
@@ -164,7 +166,8 @@ class Runner:
                         self._log_decision(now, strat, m, f, ok, reason)
                     if ok:
                         _say(f"SIGNAL {strat:<13} {s.get('symbol')}  age {_int(f.get('age_minutes'))} min | "
-                             f"5m {_num(f.get('m5_change'))}% | mcap {_k(f.get('mcap'))} | liq {_pct(_ratio(f))} | "
+                             f"5m {_num(f.get('m5_change'))}% | mcap {_k(f.get('mcap'))} | liq {_k(f.get('liquidity_usd'))} ({_pct(_ratio(f))}) | "
+                             f"vol5m {_k(f.get('vol_m5'))} | "
                              f"holders {f.get('holders', '-')} | top10 {_pct(f.get('top10_pct'))} | "
                              f"insiders {_pct(f.get('insider_pct'))}")
                         pos = engine.Position(strat, m, s.get("symbol"), s["t"], s["price"])

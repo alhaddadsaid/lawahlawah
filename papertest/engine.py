@@ -107,6 +107,28 @@ def net_return(pos: Position, cost_per_side: float):
 
 # ---------------------------------------------------------------- entry filter
 
+def check_tradeable(t: dict, f: dict):
+    """Token must be alive and tradeable. Applies to every strategy."""
+    mcap, liq, vol = f.get("mcap"), f.get("liquidity_usd"), f.get("vol_m5")
+    if mcap is None:
+        return False, "missing_mcap"
+    if liq is None:
+        return False, "missing_liquidity_usd"
+    if vol is None:
+        return False, "missing_vol_m5"
+    if mcap < t["min_mcap"]:
+        return False, "mcap_too_small"
+    if mcap > t["max_mcap"]:
+        return False, "mcap_too_big"
+    if liq < t["min_liquidity_usd"]:
+        return False, "liquidity_too_small"
+    if mcap > 0 and liq / mcap > t["max_liq_ratio"]:
+        return False, "broken_liquidity_data"
+    if vol < t["min_vol_m5_usd"]:
+        return False, "no_recent_volume"
+    return True, "ok"
+
+
 def check_entry(strategy: dict, f: dict, blocklist: list):
     """Return (ok, reason). f is a dict of features for one token.
 
