@@ -22,7 +22,6 @@ import struct
 import sys
 import time
 import urllib.request
-from concurrent.futures import ThreadPoolExecutor
 from zoneinfo import ZoneInfo
 
 NY = ZoneInfo("America/New_York")
@@ -39,29 +38,44 @@ URL = "https://datafeed.dukascopy.com/datafeed/XAUUSD/{y}/{m:02d}/{d:02d}/BID_ca
 
 
 # ---------------------------------------------------------------- data
-def fetch_day(day):
-    url = URL.format(y=day.year, m=day.month - 1, d=day.day)
-    last = ""
-    for attempt in range(4):
-        try:
-            # the server resets connections that send a browser User-Agent
-            with urllib.request.urlopen(url, timeout=20) as r:
-                raw = r.read()
-            if not raw:
-                return day, []
-            data = lzma.decompress(raw)
-            rows = [struct.unpack(">5if", data[i:i + 24]) for i in range(0, len(data) - 23, 24)]
-            return day, rows
-        except urllib.error.HTTPError as e:
-            if e.code == 404:
-                return day, []
-            last = f"HTTP {e.code}"
-            time.sleep(2 + attempt * 3)
-        except Exception as e:
-            last = repr(e)[:200]
-            time.sleep(2 + attempt * 3)
-    print("failed", day, last, flush=True)
-    return day, None
+class Downloader:
+    """One request at a time. Backs off when the server says 'too many requests'."""
+
+    def __init__(self):
+        self.gap = 0.4
+        self.t_start = time.time()
+        self.failed = 0
+
+    def fetch_day(self, day):
+        url = URL.format(y=day.year, m=day.month - 1, d=day.day)
+        last = ""
+        for attempt in range(7):
+            time.sleep(self.gap)
+            try:
+                with urllib.request.urlopen(url, timeout=20) as r:
+                    raw = r.read()
+                self.gap = max(0.4, self.gap * 0.9)
+                if not raw:
+                    return []
+                data = lzma.decompress(raw)
+                return [struct.unpack(">5if", data[i:i + 24]) for i in range(0, len(data) - 23, 24)]
+            except urllib.error.HTTPError as e:
+                if e.code == 404:
+                    return []
+                last = f"HTTP {e.code}"
+            except Exception as e:
+                last = repr(e)[:150]
+            self.gap = min(5.0, self.gap * 2)
+            wait = min(120, 10 * 2 ** attempt)
+            print(f"  {day} {last}, waiting {wait}s", flush=True)
+            time.sleep(wait)
+        print("failed", day, last, flush=True)
+        self.failed += 1
+        return None
+
+
+DL = Downloader()
+TIME_BUDGET = 95 * 60   # stop downloading after this; the cache keeps progress for the next run
 
 
 def detect_layout(rows):
@@ -94,13 +108,16 @@ def load_month(y, m, layout_box):
     days = []
     d = dt.date(y, m, 1)
     while d.month == m:
-        if START <= d <= END:
+        if START <= d <= END and d.weekday() < 5:
             days.append(d)
         d += dt.timedelta(days=1)
-    with ThreadPoolExecutor(4) as ex:
-        res = list(ex.map(fetch_day, days))
-    if any(r is None for _, r in res):
-        raise SystemExit(f"download incomplete for {y}-{m:02d}")
+    res = []
+    for day in days:
+        if time.time() - DL.t_start > TIME_BUDGET:
+            return None
+        res.append((day, DL.fetch_day(day)))
+    complete = all(r is not None for _, r in res)
+    res = [(day, r) for day, r in res if r]
     out = []
     for day, rows in res:
         if not rows:
@@ -113,6 +130,8 @@ def load_month(y, m, layout_box):
         for r in rows:
             v = r[1:5]
             out.append((base + r[0], v[o] / div, v[h] / div, v[l] / div, v[c] / div, max(r[5], 0.0)))
+    if not complete:
+        return out
     with gzip.open(path, "wt") as f:
         for b in out:
             f.write(",".join(f"{x:.3f}" if i else str(int(x)) for i, x in enumerate(b)) + "\n")
@@ -126,6 +145,8 @@ def load_all():
     while (y, m) <= (END.year, END.month):
         t0 = time.time()
         mb = load_month(y, m, layout)
+        if mb is None:
+            return None
         bars.extend(mb)
         print(f"{y}-{m:02d}: {len(mb)} bars ({time.time() - t0:.0f}s)", flush=True)
         m += 1
@@ -344,8 +365,15 @@ def probe():
 
 def main():
     t0 = time.time()
-    probe()
+    pass
     bars = load_all()
+    if bars is None:
+        os.makedirs("reports", exist_ok=True)
+        with open("reports/gold.md", "w") as f:
+            f.write("# Gold intraday research\n\nData download not finished yet (server rate limits). "
+                    "Progress is cached; run the workflow again to continue.\n")
+        print("download budget used up; progress cached, run again", flush=True)
+        return
     if len(bars) < 100000:
         raise SystemExit("too little data")
     days = build_days(bars)
@@ -363,6 +391,7 @@ def main():
 
     years = sorted({d.year for d, _, _ in days})
     L = ["# Gold intraday research", "",
+         f"Days that could not be downloaded: {DL.failed}.",
          f"Data: Dukascopy 1-minute spot gold (XAUUSD), {days[0][0]} to {days[-1][0]}, {len(days)} trading days.",
          "Money is for 1 micro gold future (MGC, 10 oz). Normal costs $5 per round trip, pessimistic $10.",
          f"Older period 2018-{SPLIT_YEAR - 1}, recent period {SPLIT_YEAR}-now. Rules were fixed before any result.", "",
