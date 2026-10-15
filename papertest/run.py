@@ -90,6 +90,7 @@ class Runner:
         end = start + minutes * 60
         next_disc = start
         next_log_dec = start
+        self._next_status = start
         while self.clock() < end:
             loop_t = self.clock()
             self._rc_budget = 3
@@ -156,6 +157,12 @@ class Runner:
                 next_log_dec = now + cfg["discovery_seconds"]
                 self.f_dec.flush()
                 self.f_ticks.flush()
+            if now >= self._next_status:
+                self._next_status = now + 300
+                opened = {s: len(b) for s, b in self.open.items()}
+                print(f"[{dt.datetime.now(dt.timezone.utc):%H:%M}] watching {len(self.watch)} | "
+                      f"prices this tick {len(snaps)} | rugcheck cached {len(self.rc)} | "
+                      f"open {opened} | closed {self.n_closed}", flush=True)
 
             spent = self.clock() - loop_t
             self.sleep(max(0.0, cfg["price_poll_seconds"] - spent))
@@ -223,9 +230,18 @@ def main():
         r = Runner(cfg, src, out, clock=src.clock, sleep=src.sleep)
     else:
         from . import sources
+        # connection check, so a blocked data source shows up in the first minute
+        found = sources.discover()
+        sample = list(found)[:30]
+        prices = sources.poll_prices(sample)
+        rc = sources.rugcheck(sample[0]) if sample else {}
+        print(f"Connection check: discovered {len(found)} tokens, prices for {len(prices)}/{len(sample)}, "
+              f"rugcheck holders={rc.get('holders')} top10={rc.get('top10_pct')}", flush=True)
+        if not found or not prices:
+            print("WARNING: market data not reachable from this runner.", flush=True)
         r = Runner(cfg, sources, out)
 
-    print(f"Run {run_id}: {minutes} minutes, writing to {out}")
+    print(f"Run {run_id}: {minutes} minutes, writing to {out}", flush=True)
     r.run(minutes)
     gzip_file(os.path.join(out, "ticks.csv"))
     meta = {"run_id": run_id, "test_round": cfg["test_round"], "minutes": minutes,
