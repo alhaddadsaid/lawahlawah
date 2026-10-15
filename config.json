@@ -1,6 +1,6 @@
 {
   "_note": "Rules are FROZEN for the test. Do not edit during a test round. If you change anything, bump test_round so results are not mixed.",
-  "test_round": "v3-round1",
+  "test_round": "v3-round2",
   "run_minutes": 140,
   "end_date_utc": "2026-10-19T12:00:00Z",
   "price_poll_seconds": 5,
@@ -9,25 +9,34 @@
   "max_watchlist": 60,
   "max_open_per_strategy": 5,
   "reentry_cooldown_minutes": 5,
-  "costs_per_side": [0.025, 0.05],
-
+  "costs_per_side": [
+    0.025,
+    0.05
+  ],
+  "tradeable": {
+    "_note": "Applies to ALL strategies: the token must be alive and tradeable.",
+    "min_mcap": 50000,
+    "max_mcap": 20000000,
+    "min_liquidity_usd": 10000,
+    "max_liq_ratio": 1.0,
+    "min_vol_m5_usd": 1000
+  },
   "exits": {
-    "stop_loss": 0.20,
-    "take_half_at": 0.30,
-    "trail_from_peak": 0.20,
+    "stop_loss": 0.2,
+    "take_half_at": 0.3,
+    "trail_from_peak": 0.2,
     "time_stop_minutes": 10,
     "max_hold_minutes": 120
   },
-
   "strategies": {
     "v3": {
       "description": "Primary. Frozen v3 rules.",
       "min_age_minutes": 30,
       "min_holders": 1000,
-      "min_liq_ratio": 0.20,
-      "min_liq_ratio_above_200k": 0.20,
-      "max_top10": 0.30,
-      "max_insiders": 0.10,
+      "min_liq_ratio": 0.2,
+      "min_liq_ratio_above_200k": 0.2,
+      "max_top10": 0.3,
+      "max_insiders": 0.1,
       "pullback_m5_min": -20,
       "pullback_m5_max": 5,
       "safety_checks": true
@@ -36,10 +45,10 @@
       "description": "Shadow variant declared in advance: same as v3 but liquidity 10% is enough above 200K market cap.",
       "min_age_minutes": 30,
       "min_holders": 1000,
-      "min_liq_ratio": 0.20,
-      "min_liq_ratio_above_200k": 0.10,
-      "max_top10": 0.30,
-      "max_insiders": 0.10,
+      "min_liq_ratio": 0.2,
+      "min_liq_ratio_above_200k": 0.1,
+      "max_top10": 0.3,
+      "max_insiders": 0.1,
       "pullback_m5_min": -20,
       "pullback_m5_max": 5,
       "safety_checks": true
@@ -52,10 +61,28 @@
       "safety_checks": false
     }
   },
-
   "name_blocklist": [
-    "trump", "melania", "elon", "musk", "tesla", "spacex", "openai", "chatgpt",
-    "nvidia", "apple", "google", "binance", "coinbase", "solana", "usdc", "usdt",
-    "tether", "official", "airdrop", "farm", "farming", "free"
+    "trump",
+    "melania",
+    "elon",
+    "musk",
+    "tesla",
+    "spacex",
+    "openai",
+    "chatgpt",
+    "nvidia",
+    "apple",
+    "google",
+    "binance",
+    "coinbase",
+    "solana",
+    "usdc",
+    "usdt",
+    "tether",
+    "official",
+    "airdrop",
+    "farm",
+    "farming",
+    "free"
   ]
 }

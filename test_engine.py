@@ -89,5 +89,22 @@ class EntryFilter(unittest.TestCase):
         self.assertTrue(engine.check_entry(CFG["strategies"]["v3_tiered_liq"], f, [])[0])
 
 
+class Tradeable(unittest.TestCase):
+    T = CFG["tradeable"]
+    ok = {"mcap": 150_000, "liquidity_usd": 40_000, "vol_m5": 5_000}
+
+    def check(self, **over):
+        return engine.check_tradeable(self.T, {**self.ok, **over})
+
+    def test_rules(self):
+        self.assertEqual(self.check(), (True, "ok"))
+        self.assertEqual(self.check(mcap=3_000, liquidity_usd=3_500)[1], "mcap_too_small")  # dead coin
+        self.assertEqual(self.check(mcap=56_000_000)[1], "mcap_too_big")
+        self.assertEqual(self.check(liquidity_usd=8_000)[1], "liquidity_too_small")
+        self.assertEqual(self.check(mcap=60_000, liquidity_usd=70_000)[1], "broken_liquidity_data")
+        self.assertEqual(self.check(vol_m5=200)[1], "no_recent_volume")
+        self.assertEqual(self.check(vol_m5=None)[1], "missing_vol_m5")
+
+
 if __name__ == "__main__":
     unittest.main()

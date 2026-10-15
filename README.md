@@ -17,6 +17,10 @@ GitHub Actions starts a run 3 times a day (01:10, 09:10 and 17:10 UTC), each abo
 - **v3_tiered_liq** same, but 10% liquidity is enough above 200K market cap (declared before the test)
 - **baseline** no safety filter, only age and pullback, to see whether the filter adds value
 
+## Tradeable filter (all strategies, including baseline)
+
+Market cap between $50K and $20M, liquidity at least $10K and not above market cap, and at least $1K traded in the last 5 minutes. Added in round 2 because the data feeds also list dead coins.
+
 ## Rules (frozen for the whole round)
 
 Entry: age at least 30 min, at least 1,000 holders, liquidity at least 20% of market cap, top 10 holders at most 30% (pools excluded), insiders at most 10%, mint and freeze authority revoked, no brand or farm names, 5-minute change between -20% and +5%. Any missing data means no trade.
