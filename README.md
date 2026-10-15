@@ -4,11 +4,11 @@ Paper trading only. No wallet, no keys, no real money. The script reads public m
 
 ## What runs
 
-GitHub Actions starts a run 3 times a day (01:10, 09:10 and 17:10 UTC), each about 140 minutes, until the end date in `config.json`. Every run saves its files in `results/<round>/<run time>/`:
+GitHub Actions starts a run 4 times a day (00:05, 06:05, 12:05 and 18:05 UTC), each about 340 minutes, so data is collected almost around the clock. A daily research job (11:50 UTC) replays all data with a fixed list of rule variants and writes `reports/latest.md`. How rules may change is fixed in `RESEARCH_RULES.md`. Every run saves its files in `results/<round>/<run time>/`:
 
 - `trades.csv` every closed paper trade, with net results at 2.5% and 5% costs per side
 - `decisions.csv` why each token was entered or skipped
-- `ticks.csv.gz` every price seen, every 5 seconds, so other rules can be tested later on the same data
+- `ticks.csv.gz`, `loops.csv`, `rugcheck.csv`, `tokens.csv` everything needed to replay the run exactly with any rules
 - `meta.json` run info
 
 ## Strategies tested side by side

@@ -80,6 +80,13 @@ class EntryFilter(unittest.TestCase):
         self.assertEqual(self.check(name="Official Trump")[1], "blocked_name")
         self.assertEqual(self.check(name="Pineapple")[0], True)  # whole words only
 
+    def test_market_mood_rule(self):
+        rules = {**CFG["strategies"]["v3"], "min_breadth_1h": 0.5}
+        f = {**self.good, "breadth_1h": 0.3}
+        self.assertEqual(engine.check_entry(rules, f, [])[1], "weak_market")
+        self.assertEqual(engine.check_entry(rules, {**f, "breadth_1h": 0.7}, [])[0], True)
+        self.assertEqual(engine.check_entry(rules, {**f, "breadth_1h": None}, [])[1], "missing_breadth_1h")
+
     def test_missing_data_rejects(self):
         self.assertEqual(self.check(holders=None)[1], "missing_holders")
 
@@ -104,6 +111,26 @@ class Tradeable(unittest.TestCase):
         self.assertEqual(self.check(mcap=60_000, liquidity_usd=70_000)[1], "broken_liquidity_data")
         self.assertEqual(self.check(vol_m5=200)[1], "no_recent_volume")
         self.assertEqual(self.check(vol_m5=None)[1], "missing_vol_m5")
+
+
+class ReplayMatchesLive(unittest.TestCase):
+    """The research is only trustworthy if replaying a run with its own rules
+    reproduces the live trades exactly."""
+
+    def test_replay_equals_live(self):
+        import tempfile
+        from papertest import fake, backtest
+        from papertest.run import LiveRunner
+        for seed in (3, 7, 11):
+            with tempfile.TemporaryDirectory() as d:
+                src = fake.FakeMarket(seed=seed)
+                live = LiveRunner(CFG, src, d, clock=src.clock, sleep=src.sleep, verbose=False)
+                live.run(90)
+                run = backtest.load_run(d)
+                rep = backtest.replay(CFG, run)
+                key = lambda p: (p.strategy, p.mint, p.entry_time, tuple(f[:3] for f in p.fills))
+                self.assertGreater(len(live.core.trades), 10)
+                self.assertEqual([key(p) for p in live.core.trades], [key(p) for p in rep.trades])
 
 
 if __name__ == "__main__":
