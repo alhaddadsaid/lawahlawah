@@ -1,12 +1,10 @@
 name: memecoin paper test
 
-# 3 runs a day at different market hours (times are UTC):
-#   01:10 US evening / Asia morning, 09:10 Europe morning, 17:10 US day
-# Each run lasts about 140 minutes. The script stops by itself after the
-# end_date_utc in config.json, so the schedule costs almost nothing after that.
+# 4 runs a day of about 340 minutes, so data is collected almost around the clock.
+# The script stops by itself after end_date_utc in config.json.
 on:
   schedule:
-    - cron: "10 1,9,17 * * *"
+    - cron: "5 0,6,12,18 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -19,9 +17,14 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 160
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
+        with:
+          # results are not needed to run, and the folder grows every day
+          sparse-checkout: |
+            papertest
+            .github
 
       - name: Unit tests
         run: python3 -m unittest test_engine
@@ -32,17 +35,16 @@ jobs:
       - name: Save results to the repository
         if: always()
         run: |
-          # compress any tick file left uncompressed by an interrupted run
           find results -name "ticks.csv" -exec gzip -f {} \; 2>/dev/null || true
           git config user.name "papertest-bot"
           git config user.email "papertest-bot@users.noreply.github.com"
-          git add results || true
+          git add --sparse results || true
           if git diff --cached --quiet; then
             echo "No new results."
             exit 0
           fi
           git commit -m "results: run $(date -u +%Y%m%d-%H%M)"
-          for i in 1 2 3; do
+          for i in 1 2 3 4 5; do
             git pull --rebase && git push && break
-            sleep 5
+            sleep 10
           done
