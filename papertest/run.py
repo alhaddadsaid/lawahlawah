@@ -13,6 +13,7 @@ import json
 import os
 import shutil
 import time
+from collections import Counter
 
 from . import engine
 
@@ -79,6 +80,11 @@ class Runner:
                 _r(ef.get("age_minutes")), _r(ef.get("mcap")), _r(ef.get("liq_ratio")),
                 ef.get("holders"), _r(ef.get("top10_pct")), _r(ef.get("insider_pct"))]
         if pos.entry_price is not None:
+            if pos.fills and pos.fills[-1][2] in ("data_lost", "run_end"):
+                _say(f"   SELL {strategy:<13} {pos.symbol}  {pos.fills[-1][2]}")
+            net = engine.net_return(pos, self.cfg["costs_per_side"][0])
+            _say(f"CLOSED {strategy:<13} {pos.symbol}  net {net:+.1%} after costs  "
+                 f"(held {hold:.0f} min, {'+'.join(r for _, _, r, _ in pos.fills)})")
             self.w_trades.writerow(row)
             self.f_trades.flush()
         self.cooldown[(strategy, pos.mint)] = self.clock() + self.cfg["reentry_cooldown_minutes"] * 60
@@ -91,6 +97,7 @@ class Runner:
         next_disc = start
         next_log_dec = start
         self._next_status = start
+        self._skips = {st: Counter() for st in cfg["strategies"]}
         while self.clock() < end:
             loop_t = self.clock()
             self._rc_budget = 3
@@ -127,7 +134,13 @@ class Runner:
                             engine.force_close(pos, lp, now, "data_lost")
                     else:
                         self.missing_since.pop(m, None)
-                        engine.on_tick(pos, s["price"], s["t"], cfg["exits"])
+                        was_pending = pos.is_pending
+                        new = engine.on_tick(pos, s["price"], s["t"], cfg["exits"])
+                        if was_pending and not pos.is_pending:
+                            _say(f"   BUY  {strat:<13} {pos.symbol}  at mcap {_k(s.get('mcap'))}")
+                        for frac, px, why, _ in new:
+                            chg = px / pos.entry_price - 1
+                            _say(f"   SELL {strat:<13} {pos.symbol}  {int(frac * 100)}% {why}  {chg:+.1%} vs entry")
                     if not pos.is_open:
                         self.close_trade(strat, pos)
                         del book[m]
@@ -150,6 +163,10 @@ class Runner:
                     if log_dec or ok:
                         self._log_decision(now, strat, m, f, ok, reason)
                     if ok:
+                        _say(f"SIGNAL {strat:<13} {s.get('symbol')}  age {_int(f.get('age_minutes'))} min | "
+                             f"5m {_num(f.get('m5_change'))}% | mcap {_k(f.get('mcap'))} | liq {_pct(_ratio(f))} | "
+                             f"holders {f.get('holders', '-')} | top10 {_pct(f.get('top10_pct'))} | "
+                             f"insiders {_pct(f.get('insider_pct'))}")
                         pos = engine.Position(strat, m, s.get("symbol"), s["t"], s["price"])
                         pos.entry_features = {**f, "liq_ratio": _ratio(f)}
                         book[m] = pos
@@ -160,9 +177,13 @@ class Runner:
             if now >= self._next_status:
                 self._next_status = now + 300
                 opened = {s: len(b) for s, b in self.open.items()}
-                print(f"[{dt.datetime.now(dt.timezone.utc):%H:%M}] watching {len(self.watch)} | "
-                      f"prices this tick {len(snaps)} | rugcheck cached {len(self.rc)} | "
+                print(f"\n[{dt.datetime.now(dt.timezone.utc):%H:%M} UTC] watching {len(self.watch)} tokens | "
                       f"open {opened} | closed {self.n_closed}", flush=True)
+                for st, c in self._skips.items():
+                    top = ", ".join(f"{k} {v}" for k, v in c.most_common(4))
+                    print(f"   skipped by {st}: {top}", flush=True)
+                self._skips = {st: Counter() for st in cfg["strategies"]}
+                print("", flush=True)
 
             spent = self.clock() - loop_t
             self.sleep(max(0.0, cfg["price_poll_seconds"] - spent))
@@ -178,10 +199,34 @@ class Runner:
             f.close()
 
     def _log_decision(self, t, strat, m, f, ok, reason):
+        if not ok:
+            self._skips[strat][reason] += 1
         self.w_dec.writerow([round(t), strat, m, f.get("symbol"), "ENTER" if ok else "skip", reason,
                              _r(f.get("age_minutes")), f.get("m5_change"), _r(f.get("mcap")),
                              _r(_ratio(f)), f.get("holders"), _r(f.get("top10_pct")),
                              _r(f.get("insider_pct"))])
+
+
+def _say(msg):
+    print(f"{dt.datetime.now(dt.timezone.utc):%H:%M:%S} {msg}", flush=True)
+
+
+def _k(x):
+    if not x:
+        return "-"
+    return f"{x / 1e6:.2f}M" if x >= 1e6 else f"{x / 1e3:.0f}K"
+
+
+def _int(x):
+    return "-" if x is None else int(x)
+
+
+def _num(x):
+    return "-" if x is None else f"{x:+.1f}"
+
+
+def _pct(x):
+    return "-" if x is None else f"{x:.0%}"
 
 
 def _ratio(f):
