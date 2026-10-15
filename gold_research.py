@@ -44,8 +44,8 @@ def fetch_day(day):
     last = ""
     for attempt in range(4):
         try:
-            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=20) as r:
+            # the server resets connections that send a browser User-Agent
+            with urllib.request.urlopen(url, timeout=20) as r:
                 raw = r.read()
             if not raw:
                 return day, []
