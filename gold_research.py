@@ -41,10 +41,11 @@ URL = "https://datafeed.dukascopy.com/datafeed/XAUUSD/{y}/{m:02d}/{d:02d}/BID_ca
 # ---------------------------------------------------------------- data
 def fetch_day(day):
     url = URL.format(y=day.year, m=day.month - 1, d=day.day)
-    for attempt in range(5):
+    last = ""
+    for attempt in range(4):
         try:
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=30) as r:
+            with urllib.request.urlopen(req, timeout=20) as r:
                 raw = r.read()
             if not raw:
                 return day, []
@@ -54,10 +55,12 @@ def fetch_day(day):
         except urllib.error.HTTPError as e:
             if e.code == 404:
                 return day, []
+            last = f"HTTP {e.code}"
             time.sleep(2 + attempt * 3)
-        except Exception:
+        except Exception as e:
+            last = repr(e)[:200]
             time.sleep(2 + attempt * 3)
-    print("failed", day, flush=True)
+    print("failed", day, last, flush=True)
     return day, None
 
 
@@ -94,7 +97,7 @@ def load_month(y, m, layout_box):
         if START <= d <= END:
             days.append(d)
         d += dt.timedelta(days=1)
-    with ThreadPoolExecutor(8) as ex:
+    with ThreadPoolExecutor(4) as ex:
         res = list(ex.map(fetch_day, days))
     if any(r is None for _, r in res):
         raise SystemExit(f"download incomplete for {y}-{m:02d}")
@@ -320,8 +323,28 @@ def money(pnl_oz, cost):
     return (pnl_oz - cost) * USD_PER_OZ
 
 
+def probe():
+    """Print exactly what the data server answers, so a failure is easy to diagnose."""
+    import subprocess
+    url = URL.format(y=2024, m=2, d=5)
+    for ua in ("Mozilla/5.0", None):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": ua} if ua else {})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                print("probe urllib", ua, r.status, len(r.read()), flush=True)
+        except Exception as e:
+            print("probe urllib", ua, "error", repr(e)[:300], flush=True)
+    try:
+        out = subprocess.run(["curl", "-sS", "-o", "/dev/null", "-w", "%{http_code} %{size_download} %{remote_ip}", "--max-time", "20", url],
+                             capture_output=True, text=True)
+        print("probe curl", out.stdout, out.stderr[:300], flush=True)
+    except Exception as e:
+        print("probe curl error", e, flush=True)
+
+
 def main():
     t0 = time.time()
+    probe()
     bars = load_all()
     if len(bars) < 100000:
         raise SystemExit("too little data")
