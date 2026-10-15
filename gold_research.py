@@ -1,6 +1,6 @@
 """Gold intraday research (alerts only, no trading).
 
-Downloads free 1-minute spot gold (XAUUSD) candles from Dukascopy, which track
+Downloads free 1-minute spot gold (XAUUSD) candles from HistData.com, which track
 COMEX gold futures very closely during the day, and tests a short list of
 intraday rules that were fixed BEFORE looking at any result.
 
@@ -38,46 +38,6 @@ URL = "https://datafeed.dukascopy.com/datafeed/XAUUSD/{y}/{m:02d}/{d:02d}/BID_ca
 
 
 # ---------------------------------------------------------------- data
-class Downloader:
-    """One request at a time. Backs off when the server says 'too many requests'."""
-
-    def __init__(self):
-        self.gap = 0.4
-        self.t_start = time.time()
-        self.failed = 0
-
-    def fetch_day(self, day):
-        url = URL.format(y=day.year, m=day.month - 1, d=day.day)
-        last = ""
-        for attempt in range(7):
-            time.sleep(self.gap)
-            try:
-                with urllib.request.urlopen(url, timeout=20) as r:
-                    raw = r.read()
-                self.gap = max(0.4, self.gap * 0.9)
-                if not raw:
-                    return []
-                data = lzma.decompress(raw)
-                return [struct.unpack(">5if", data[i:i + 24]) for i in range(0, len(data) - 23, 24)]
-            except urllib.error.HTTPError as e:
-                if e.code == 404:
-                    return []
-                last = f"HTTP {e.code}"
-            except Exception as e:
-                last = repr(e)[:150]
-            self.gap = min(5.0, self.gap * 2)
-            wait = min(120, 10 * 2 ** attempt)
-            print(f"  {day} {last}, waiting {wait}s", flush=True)
-            time.sleep(wait)
-        print("failed", day, last, flush=True)
-        self.failed += 1
-        return None
-
-
-DL = Downloader()
-TIME_BUDGET = 95 * 60   # stop downloading after this; the cache keeps progress for the next run
-
-
 def detect_layout(rows):
     """Find which of the 4 int fields is high and which is low, and the price divisor."""
     hi = [0] * 4
@@ -99,60 +59,72 @@ def detect_layout(rows):
     return o, h, l, c, div
 
 
-def load_month(y, m, layout_box):
+HISTDATA_FAILED = []
+
+
+def histdata_zip(year, month=None):
+    """Download one HistData.com 1-minute XAUUSD file (EST without daylight saving)."""
+    from histdata import download_hist_data
+    from histdata.api import Platform, TimeFrame
     os.makedirs(CACHE, exist_ok=True)
-    path = f"{CACHE}/{y}-{m:02d}.csv.gz"
-    if os.path.exists(path):
-        with gzip.open(path, "rt") as f:
-            return [tuple(float(x) for x in line.split(",")) for line in f]
-    days = []
-    d = dt.date(y, m, 1)
-    while d.month == m:
-        if START <= d <= END and d.weekday() < 5:
-            days.append(d)
-        d += dt.timedelta(days=1)
-    res = []
-    for day in days:
-        if time.time() - DL.t_start > TIME_BUDGET:
-            return None
-        res.append((day, DL.fetch_day(day)))
-    complete = all(r is not None for _, r in res)
-    res = [(day, r) for day, r in res if r]
+    tag = f"{year}" if month is None else f"{year}-{month:02d}"
+    done = f"{CACHE}/{tag}.zipname"
+    if os.path.exists(done):
+        return open(done).read().strip()
+    for attempt in range(4):
+        try:
+            kw = dict(year=str(year), pair="xauusd", platform=Platform.GENERIC_ASCII,
+                      time_frame=TimeFrame.ONE_MINUTE, output_directory=CACHE, verbose=False)
+            if month is not None:
+                kw["month"] = str(month)
+            fn = download_hist_data(**kw)
+            if fn and os.path.getsize(fn) > 10000:
+                open(done, "w").write(fn)
+                print(f"downloaded {tag}: {os.path.getsize(fn) // 1024} KB", flush=True)
+                return fn
+            print(f"{tag}: empty answer", flush=True)
+        except Exception as e:
+            print(f"{tag}: {repr(e)[:200]}", flush=True)
+        time.sleep(5 + 10 * attempt)
+    return None
+
+
+def read_zip(fn):
+    import zipfile
     out = []
-    for day, rows in res:
-        if not rows:
-            continue
-        if layout_box[0] is None and len(rows) > 500:
-            layout_box[0] = detect_layout(rows)
-            print("layout", layout_box[0], flush=True)
-        o, h, l, c, div = layout_box[0] or detect_layout(rows)
-        base = int(dt.datetime(day.year, day.month, day.day, tzinfo=dt.timezone.utc).timestamp())
-        for r in rows:
-            v = r[1:5]
-            out.append((base + r[0], v[o] / div, v[h] / div, v[l] / div, v[c] / div, max(r[5], 0.0)))
-    if not complete:
-        return out
-    with gzip.open(path, "wt") as f:
-        for b in out:
-            f.write(",".join(f"{x:.3f}" if i else str(int(x)) for i, x in enumerate(b)) + "\n")
+    with zipfile.ZipFile(fn) as z:
+        for name in z.namelist():
+            if not name.lower().endswith(".csv"):
+                continue
+            with z.open(name) as f:
+                for line in f:
+                    p = line.decode().strip().split(";")
+                    if len(p) < 6:
+                        continue
+                    t = dt.datetime.strptime(p[0], "%Y%m%d %H%M%S") + dt.timedelta(hours=5)  # EST (no DST) -> UTC
+                    ts = int(t.replace(tzinfo=dt.timezone.utc).timestamp())
+                    out.append((ts, float(p[1]), float(p[2]), float(p[3]), float(p[4]), 1.0))
     return out
 
 
 def load_all():
-    layout = [None]
     bars = []
-    y, m = START.year, START.month
-    while (y, m) <= (END.year, END.month):
-        t0 = time.time()
-        mb = load_month(y, m, layout)
-        if mb is None:
-            return None
-        bars.extend(mb)
-        print(f"{y}-{m:02d}: {len(mb)} bars ({time.time() - t0:.0f}s)", flush=True)
-        m += 1
-        if m == 13:
-            y, m = y + 1, 1
+    for y in range(START.year, END.year + 1):
+        fn = histdata_zip(y)
+        if fn:
+            bars.extend(read_zip(fn))
+            continue
+        for m in range(1, 13):
+            if dt.date(y, m, 1) > END:
+                break
+            fn = histdata_zip(y, m)
+            if fn:
+                bars.extend(read_zip(fn))
+            else:
+                HISTDATA_FAILED.append(f"{y}-{m:02d}")
+    bars = [b for b in bars if START <= dt.datetime.fromtimestamp(b[0], dt.timezone.utc).date() <= END]
     bars.sort()
+    print(f"{len(bars)} bars loaded, missing files: {HISTDATA_FAILED}", flush=True)
     return bars
 
 
@@ -344,28 +316,8 @@ def money(pnl_oz, cost):
     return (pnl_oz - cost) * USD_PER_OZ
 
 
-def probe():
-    """Print exactly what the data server answers, so a failure is easy to diagnose."""
-    import subprocess
-    url = URL.format(y=2024, m=2, d=5)
-    for ua in ("Mozilla/5.0", None):
-        try:
-            req = urllib.request.Request(url, headers={"User-Agent": ua} if ua else {})
-            with urllib.request.urlopen(req, timeout=20) as r:
-                print("probe urllib", ua, r.status, len(r.read()), flush=True)
-        except Exception as e:
-            print("probe urllib", ua, "error", repr(e)[:300], flush=True)
-    try:
-        out = subprocess.run(["curl", "-sS", "-o", "/dev/null", "-w", "%{http_code} %{size_download} %{remote_ip}", "--max-time", "20", url],
-                             capture_output=True, text=True)
-        print("probe curl", out.stdout, out.stderr[:300], flush=True)
-    except Exception as e:
-        print("probe curl error", e, flush=True)
-
-
 def main():
     t0 = time.time()
-    pass
     bars = load_all()
     if bars is None:
         os.makedirs("reports", exist_ok=True)
@@ -391,8 +343,8 @@ def main():
 
     years = sorted({d.year for d, _, _ in days})
     L = ["# Gold intraday research", "",
-         f"Days that could not be downloaded: {DL.failed}.",
-         f"Data: Dukascopy 1-minute spot gold (XAUUSD), {days[0][0]} to {days[-1][0]}, {len(days)} trading days.",
+         f"Monthly files that could not be downloaded: {HISTDATA_FAILED or 'none'}.",
+         f"Data: HistData.com 1-minute spot gold (XAUUSD, bid), {days[0][0]} to {days[-1][0]}, {len(days)} trading days.",
          "Money is for 1 micro gold future (MGC, 10 oz). Normal costs $5 per round trip, pessimistic $10.",
          f"Older period 2018-{SPLIT_YEAR - 1}, recent period {SPLIT_YEAR}-now. Rules were fixed before any result.", "",
          "Pass bar (all must hold): recent period positive at pessimistic costs, older period positive at pessimistic costs,",
