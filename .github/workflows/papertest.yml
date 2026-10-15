@@ -1,0 +1,48 @@
+name: memecoin paper test
+
+# 3 runs a day at different market hours (times are UTC):
+#   01:10 US evening / Asia morning, 09:10 Europe morning, 17:10 US day
+# Each run lasts about 140 minutes. The script stops by itself after the
+# end_date_utc in config.json, so the schedule costs almost nothing after that.
+on:
+  schedule:
+    - cron: "10 1,9,17 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: papertest
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 160
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Unit tests
+        run: python3 -m unittest test_engine
+
+      - name: Paper trading run
+        run: python3 -m papertest.run
+
+      - name: Save results to the repository
+        if: always()
+        run: |
+          # compress any tick file left uncompressed by an interrupted run
+          find results -name "ticks.csv" -exec gzip -f {} \; 2>/dev/null || true
+          git config user.name "papertest-bot"
+          git config user.email "papertest-bot@users.noreply.github.com"
+          git add results || true
+          if git diff --cached --quiet; then
+            echo "No new results."
+            exit 0
+          fi
+          git commit -m "results: run $(date -u +%Y%m%d-%H%M)"
+          for i in 1 2 3; do
+            git pull --rebase && git push && break
+            sleep 5
+          done
