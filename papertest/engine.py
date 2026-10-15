@@ -149,6 +149,10 @@ def check_entry(strategy: dict, f: dict, blocklist: list):
         if not (strategy["pullback_m5_min"] <= m5 <= strategy["pullback_m5_max"]):
             return False, "no_pullback"
 
+        if "min_breadth_1h" in strategy:
+            if need("breadth_1h") < strategy["min_breadth_1h"]:
+                return False, "weak_market"
+
         if not strategy.get("safety_checks"):
             return True, "ok"
 
