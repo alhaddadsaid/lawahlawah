@@ -25,6 +25,7 @@ jobs:
       - name: Research
         run: |
           if [ ! -f gold_research.py ]; then echo "script not uploaded yet"; exit 0; fi
+          pip install -q histdata
           python3 -u gold_research.py
       - name: Save report
         if: always()
