@@ -277,7 +277,103 @@ def s_random(bars, atr, day):
     return None
 
 
+# ---------------------------------------------------------------- FCR + FVG (added 2026-10-20, before any result)
+# Source: Instagram reel by the_quant_room, "5 min FVG break strategy".
+# First Candle Range = the 5-minute candle starting at r0 (ET). On 1-minute bars after it:
+#   1. a candle CLOSES beyond the FCR high/low (a wick alone does not count)
+#   2. that move leaves a fair value gap: next candle's low above the high two candles back (bull), mirror for bear
+#   3. price comes back into the gap (retest)
+#   4. a candle in the trade direction engulfs the previous candle's body -> enter at next bar open
+#   stop one tick beyond the engulfing candle, target = rr x risk. One trade per day.
+#   The setup is cancelled if price closes beyond the far edge of the gap before the engulfing candle.
+# No parameter here is tuned; the variants change one thing each to see what matters.
+def fcr_fvg(bars, r0, rr=3.0, need_fvg=True, last_entry=660, exit_min=810):
+    fcr = [b for b in bars if r0 <= b[0] < r0 + 5]
+    if len(fcr) < 3:
+        return None
+    hi = max(b[3] for b in fcr)
+    lo = min(b[4] for b in fcr)
+    post = [i for i, b in enumerate(bars) if b[0] >= r0 + 5]
+    if not post:
+        return None
+    s = post[0]
+    d = 0
+    gap = None           # (near edge, far edge): price must touch near edge to retest
+    armed_at = None
+    for i in range(s, len(bars)):
+        tm, _, o, h, l, c, _ = bars[i]
+        if tm > last_entry:
+            return None
+        if d == 0:
+            # step 1: body close beyond the level
+            if c > hi + TICK / 2:
+                cand = 1
+            elif c < lo - TICK / 2:
+                cand = -1
+            else:
+                continue
+            if not need_fvg:
+                d, gap, armed_at = cand, ((hi, lo) if cand > 0 else (lo, hi)), i
+                continue
+            # step 2: the break candle is the middle of a 3-candle gap
+            if i - 1 < 0 or i + 1 >= len(bars):
+                continue
+            prev, nxt = bars[i - 1], bars[i + 1]
+            if cand > 0 and nxt[4] > prev[3]:
+                d, gap, armed_at = 1, (nxt[4], prev[3]), i + 1
+            elif cand < 0 and nxt[3] < prev[4]:
+                d, gap, armed_at = -1, (nxt[3], prev[4]), i + 1
+            continue
+        if i <= armed_at:
+            continue
+        near, far = gap[0], gap[1]
+        # cancelled: close beyond the far edge of the gap / back through the level
+        if (d > 0 and c < far) or (d < 0 and c > far):
+            return None
+        # step 3: retest = price trades back into the gap
+        if len(gap) == 2 and ((l <= near) if d > 0 else (h >= near)):
+            gap = (near, far, "retested")
+        # step 4: after the retest (same candle allowed), an engulfing candle in our direction
+        if len(gap) == 3:
+            p = bars[i - 1]
+            po, pc = p[2], p[5]
+            if d > 0 and c > o and pc < po and c >= po and o <= pc:
+                stop = l - TICK
+            elif d < 0 and c < o and pc > po and c <= po and o >= pc:
+                stop = h + TICK
+            else:
+                continue
+            if i + 1 >= len(bars):
+                return None
+            entry = bars[i + 1][2] + d * TICK
+            risk = (entry - stop) * d
+            if risk <= 0:
+                return None
+            return d, entry, run_trade(bars, i + 1, d, entry, stop, entry + d * rr * risk, exit_min, 0)
+    return None
+
+
+def s_fcr_fvg_930(bars, atr, day):
+    return fcr_fvg(bars, 570)
+
+
+def s_fcr_fvg_820(bars, atr, day):
+    return fcr_fvg(bars, 500)
+
+
+def s_fcr_fvg_930_2r(bars, atr, day):
+    return fcr_fvg(bars, 570, rr=2.0)
+
+
+def s_fcr_nofvg_930(bars, atr, day):
+    return fcr_fvg(bars, 570, need_fvg=False)
+
+
 STRATEGIES = {
+    "fcr_fvg_930": ("Reel rules: 9:30-9:35 ET first 5m candle, 1m close beyond it with a fair value gap, retest of the gap, engulfing entry, stop beyond engulfing candle, 3x risk target, entries until 11:00, out by 13:30 ET", s_fcr_fvg_930),
+    "fcr_fvg_820": ("Same, anchored on the 8:20-8:25 ET COMEX gold open instead of 9:30", s_fcr_fvg_820),
+    "fcr_fvg_930_2r": ("Same as reel rules but 2x risk target", s_fcr_fvg_930_2r),
+    "fcr_nofvg_930": ("Reel rules WITHOUT the fair value gap filter (tests the reel's claim that the gap filters out losers)", s_fcr_nofvg_930),
     "orb_ny_15": ("New York open range breakout, range 8:20-8:35 ET, stop other side, target 2x risk, out by 13:30 ET", s_orb_ny_15),
     "orb_ny_30": ("Same with a 30 minute range, 8:20-8:50 ET", s_orb_ny_30),
     "london_orb_30": ("London open range breakout, range 8:00-8:30 London, out by 16:00 London", s_london_orb_30),
