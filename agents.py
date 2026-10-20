@@ -37,10 +37,10 @@ RUN_MINUTES = float(os.environ.get("RUN_MINUTES", "345"))     # one GitHub run l
 SCAN_SECONDS = int(os.environ.get("SCAN_SECONDS", "180"))       # new memecoin scan every 3 minutes
 MEME_POLL = 5                                                   # open memecoin positions checked every 5 s
 MACRO_POLL = 30                                                 # open gold/forex positions every 30 s
-MACRO_REVIEW_MIN = 60                                           # agents look at gold/forex once an hour
-COOLDOWN_MIN = 60                                               # a token is discussed / re-entered at most hourly
-MAX_TALKS_PER_DAY = int(os.environ.get("MAX_TALKS_PER_DAY", "120"))   # hard cap on Claude calls (3 per talk)
-GIT_SYNC_MIN = 30
+MACRO_REVIEW_MIN = int(os.environ.get("MACRO_REVIEW_MIN", "15"))   # agents review gold/forex every 15 minutes
+COOLDOWN_MIN = int(os.environ.get("COOLDOWN_MIN", "15"))         # a token is re-discussed / re-entered after 15 min
+MAX_TALKS_PER_DAY = int(os.environ.get("MAX_TALKS_PER_DAY", "480"))   # hard cap: about $1 a day with Haiku
+GIT_SYNC_MIN = 10
 DIR = os.environ.get("AGENTS_DIR", "agents")
 REPORT = os.environ.get("AGENTS_REPORT", "reports/agents.md")
 
@@ -255,9 +255,9 @@ DESK = ("You are part of a three-person PAPER trading desk (fake money, results 
 
 def fmt_meme(rows):
     keep = ["symbol", "mint", "price", "mcap", "liquidity_usd", "vol_m5", "m5_change", "h1_change", "age_minutes",
-            "holders", "top10_pct", "insider_pct", "mint_authority", "freeze_authority", "rugged", "rc_score"]
+            "holders", "top10_pct", "insider_pct"]
     out = []
-    for r in rows:
+    for r in rows[:8]:
         out.append({k: (round(r[k], 4) if isinstance(r.get(k), float) else r.get(k)) for k in keep})
     return json.dumps(out)
 
@@ -266,35 +266,47 @@ def fmt_macro(m):
     return json.dumps({k: {kk: (round(vv, 5) if isinstance(vv, float) else vv) for kk, vv in v.items()} for k, v in m.items()})
 
 
+ORDER_SPEC = ("{\"orders\": [{\"market\": \"meme\" or \"macro\", \"symbol\": str, \"mint\": str (memecoin only), "
+              "\"side\": \"long\" or \"short\" (memecoins long only), \"stop\": price, \"target\": price, "
+              "\"max_hours\": number, \"thesis\": short str}]}. Memecoin stops 10-30% below entry, targets 15-150% "
+              "above, max 2 hours. Macro stops 0.3-3 atr_1h from price, targets 0.3-6 atr_1h, max 48 hours.")
+
+
+def _orders(text):
+    m = re.search(r"\{.*\}", text, re.S)
+    if not m:
+        return []
+    try:
+        return json.loads(m.group(0)).get("orders", []) or []
+    except Exception:
+        return []
+
+
 def discuss(meme, macro, st, record):
-    opn = [{k: p[k] for k in ("symbol", "market", "side", "entry", "stop", "target", "opened")} for p in st["desks"]["team"]["open"]]
-    data = (f"Time: {iso()}\nOpen team positions: {json.dumps(opn)}\nTrack record so far: {json.dumps(record)}\n"
-            f"Memecoin candidates (tradeable filter passed, RugCheck fields may be null): {fmt_meme(meme)}\n"
-            f"Macro snapshot (price, atr_1h, day_range, % changes, 5-day high/low): {fmt_macro(macro)}")
-    researcher = claude(DESK + " Your role: RESEARCHER. Read the data and propose at most 3 trade ideas "
-                        "(memecoin or macro) with a one-line thesis each, the key numbers behind it, and what "
-                        "would prove it wrong. Under 220 words.", data, MODEL)
-    if researcher.startswith("(model call failed"):
-        return researcher, "", "", []
-    analyst = claude(DESK + " Your role: ANALYST and risk manager. Challenge each idea: data quality, rug or "
-                     "manipulation risk, whether costs can be beaten, crowding with open positions, and what the "
-                     "track record says. Give each idea APPROVE, MODIFY (say how) or REJECT. Under 220 words.",
-                     data + "\n\nResearcher brief:\n" + researcher, ANALYST_MODEL)
-    sniper = claude(DESK + " Your role: SNIPER. Turn only APPROVED or MODIFIED ideas into orders. Reply with "
-                    "JSON only, no prose: {\"orders\": [{\"market\": \"meme\" or \"macro\", \"symbol\": str, "
-                    "\"mint\": str (memecoin only), \"side\": \"long\" or \"short\" (memecoins long only), "
-                    "\"stop\": price, \"target\": price, \"max_hours\": number, \"thesis\": short str}]}. "
-                    "Memecoin stops 10-30% below entry, targets 15-150% above, max 2 hours. Macro stops 0.3-3 "
-                    "atr_1h from price, targets 0.3-6 atr_1h, max 48 hours. Empty list if nothing is good.",
-                    data + "\n\nResearcher:\n" + researcher + "\n\nAnalyst:\n" + analyst, MODEL, 600)
-    m = re.search(r"\{.*\}", sniper, re.S)
-    orders = []
-    if m:
-        try:
-            orders = json.loads(m.group(0)).get("orders", []) or []
-        except Exception:
-            orders = []
-    return researcher, analyst, sniper, orders
+    """Cheap mode: ONE call where researcher, analyst and sniper debate briefly and the sniper writes orders.
+    Only if that produces orders does a SECOND call run: an independent analyst who must approve each order.
+    Most cycles end with no trade, so most cycles cost one small call."""
+    opn = [{k: p[k] for k in ("symbol", "market", "side", "entry", "stop", "target")} for p in st["desks"]["team"]["open"]]
+    data = (f"Time: {iso()}\nOpen team positions: {json.dumps(opn)}\nTrack record: {json.dumps(record)}\n"
+            f"Memecoin candidates (tradeable filter passed): {fmt_meme(meme)}\n"
+            + (f"Macro snapshot (price, atr_1h, day_range, % changes, 5-day high/low): {fmt_macro(macro)}" if macro else "Macro: not reviewed this cycle."))
+    debate = claude(DESK + " Play all three desk roles in one short note: RESEARCHER (at most 2 ideas, key numbers), "
+                    "ANALYST (APPROVE, MODIFY or REJECT each, with the reason), SNIPER (final decision). Under 150 words "
+                    "of prose, then on the last line JSON only: " + ORDER_SPEC + " Use {\"orders\": []} when nothing is good.",
+                    data, MODEL, 450)
+    if debate.startswith("(model call failed"):
+        return debate, "", "", []
+    orders = _orders(debate)
+    if not orders:
+        return debate, "", "", []
+    check = claude(DESK + " Your role: INDEPENDENT ANALYST. Another member of the desk wants to place the orders below. "
+                   "Be the skeptic: rug or manipulation risk, chasing a spike, costs, data quality. Keep only orders you "
+                   "would bet on. Under 80 words, then on the last line JSON only with the orders you approve, "
+                   "unchanged or corrected: " + ORDER_SPEC,
+                   data + "\n\nProposed by the desk:\n" + json.dumps(orders), ANALYST_MODEL, 350)
+    if check.startswith("(model call failed"):
+        return debate, check, "", []                 # no second opinion, no trade
+    return debate, check, json.dumps({"orders": _orders(check)}), _orders(check)
 
 
 # ------------------------------------------------------------------ guardrails and paper broker
@@ -511,7 +523,7 @@ def scan(st, log):
     cool = st.setdefault("cool", {})
     for k in [k for k, v in cool.items() if v < t]:
         del cool[k]
-    fresh = [r for r in meme if basic_safe(r) and f"talk:{r['mint']}" not in cool]
+    fresh = [r for r in meme if basic_safe(r) and f"talk:{r['mint']}" not in cool][:8]
     macro_due = bool(macro) and t - st.get("last_macro_talk", 0) >= MACRO_REVIEW_MIN * 60
     day = str(dt.datetime.now(dt.timezone.utc).date())
     talks = st.setdefault("talks", {})
@@ -543,7 +555,7 @@ def scan(st, log):
                 orders = []
             else:
                 log += [f"### {iso()} discussion ({len(fresh)} new tokens{', gold/forex review' if macro_due else ''})", "",
-                        "**Researcher**", "", researcher, "", "**Analyst**", "", analyst, "", "**Sniper**", "", "```", sniper.strip(), "```"]
+                        "**Desk debate**", "", researcher] + (["", "**Independent analyst check**", "", analyst, "", "```", sniper.strip(), "```"] if analyst else [])
     if len(orders) > CFG["max_new_per_run"]:
         log.append(f"- team: {len(orders) - CFG['max_new_per_run']} extra order(s) dropped (limit {CFG['max_new_per_run']} per discussion)")
     for desk_name, ords in (("team", orders[:CFG["max_new_per_run"]]), ("control", control_orders(meme, macro, st))):
@@ -574,6 +586,15 @@ def main():
     st = load_state()
     st["runs"] += 1
     log = [f"## Run started {iso()}" + ("" if API_KEY or FAKE else " (team desk idle: no ANTHROPIC_API_KEY secret)")]
+    import signal
+
+    def stop(signum, frame):                         # GitHub cancel or timeout: save everything first
+        log.append(f"## Run stopped {iso()}")
+        flush(st, log)
+        git_sync("agent desk run (stopped)")
+        sys.exit(0)
+    signal.signal(signal.SIGTERM, stop)
+    signal.signal(signal.SIGINT, stop)
     opn = [p for d in st["desks"].values() for p in d["open"]]
     for e in check_exits(st, meme_prices([p["mint"] for p in opn if p["market"] == "meme"]),
                          macro_prices(sorted({p["symbol"] for p in opn if p["market"] == "macro"}))):
