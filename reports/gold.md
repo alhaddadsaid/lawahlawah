@@ -67,4 +67,4 @@ bootstrap chance of a positive recent average at least 95%, and better than the 
 - vwap_revert: 9:30-12:00 ET, if price is more than 0.35 day-ranges from the session average, fade it back to the average
 - random_control: Benchmark: random time and random direction, stop 0.3 range, target 0.6 range
 
-Runtime 131s. Spot gold is a proxy for futures; real fills may differ slightly.
+Runtime 142s. Spot gold is a proxy for futures; real fills may differ slightly.
