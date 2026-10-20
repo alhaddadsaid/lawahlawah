@@ -412,9 +412,35 @@ def money(pnl_oz, cost):
     return (pnl_oz - cost) * USD_PER_OZ
 
 
+def export_years(bars):
+    """Save the 1-minute history as one small compressed file per year in data/m1/ and stage it,
+    so research can run offline on the same data. Format: int64 arrays, minute = UTC minutes since
+    1970, prices in cents, stored as differences (np.cumsum to restore)."""
+    try:
+        import numpy as np
+    except ImportError:
+        import subprocess
+        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "numpy"], check=False)
+        import numpy as np
+    import subprocess
+    os.makedirs("data/m1", exist_ok=True)
+    by = {}
+    for b in bars:
+        by.setdefault(dt.datetime.fromtimestamp(b[0], dt.timezone.utc).year, []).append(b)
+    for y, rows in by.items():
+        a = np.array([(r[0] // 60, round(r[1] * 100), round(r[2] * 100), round(r[3] * 100), round(r[4] * 100))
+                      for r in rows], dtype=np.int64)
+        d = np.diff(a, axis=0, prepend=np.zeros((1, 5), dtype=np.int64))
+        np.savez_compressed(f"data/m1/xauusd_{y}.npz", d=d.astype(np.int32))
+    subprocess.run(["git", "add", "-f", "data/m1"], check=False)
+    print("exported years:", sorted(by), flush=True)
+
+
 def main():
     t0 = time.time()
     bars = load_all()
+    if bars:
+        export_years(bars)
     if bars is None:
         os.makedirs("reports", exist_ok=True)
         with open("reports/gold.md", "w") as f:
