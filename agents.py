@@ -24,6 +24,7 @@ import random
 import re
 import sys
 import time
+import urllib.error
 import urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -230,10 +231,19 @@ def claude(system, user, model, max_tokens=900):
             with urllib.request.urlopen(req, timeout=90) as r:
                 d = json.loads(r.read().decode())
             return "".join(b.get("text", "") for b in d.get("content", []))
+        except urllib.error.HTTPError as e:
+            try:
+                detail = json.loads(e.read().decode()).get("error", {}).get("message", "")
+            except Exception:
+                detail = ""
+            err = f"HTTP {e.code}: {detail or e.reason}"
+            if e.code in (400, 401, 403, 404):          # account or request problem: retrying will not help
+                break
+            time.sleep(5 * (attempt + 1))
         except Exception as e:
             err = str(e)
             time.sleep(5 * (attempt + 1))
-    return f"(model call failed: {err[:200]})"
+    return f"(model call failed: {err[:300]})"
 
 
 DESK = ("You are part of a three-person PAPER trading desk (fake money, results are logged and judged). "
@@ -264,6 +274,8 @@ def discuss(meme, macro, st, record):
     researcher = claude(DESK + " Your role: RESEARCHER. Read the data and propose at most 3 trade ideas "
                         "(memecoin or macro) with a one-line thesis each, the key numbers behind it, and what "
                         "would prove it wrong. Under 220 words.", data, MODEL)
+    if researcher.startswith("(model call failed"):
+        return researcher, "", "", []
     analyst = claude(DESK + " Your role: ANALYST and risk manager. Challenge each idea: data quality, rug or "
                      "manipulation risk, whether costs can be beaten, crowding with open positions, and what the "
                      "track record says. Give each idea APPROVE, MODIFY (say how) or REJECT. Under 220 words.",
@@ -504,7 +516,7 @@ def scan(st, log):
     day = str(dt.datetime.now(dt.timezone.utc).date())
     talks = st.setdefault("talks", {})
     orders = []
-    if (fresh or macro_due) and (API_KEY or FAKE):
+    if (fresh or macro_due) and (API_KEY or FAKE) and "api_pause" not in cool:
         if talks.get(day, 0) >= MAX_TALKS_PER_DAY:
             if not st.get("cap_logged") == day:
                 log.append(f"- team: daily limit of {MAX_TALKS_PER_DAY} discussions reached, agents pause until tomorrow (UTC)")
@@ -519,8 +531,19 @@ def scan(st, log):
             if macro_due:
                 st["last_macro_talk"] = t
             researcher, analyst, sniper, orders = discuss(fresh, macro if macro_due else {}, st, record_summary(closed_trades()))
-            log += [f"### {iso()} discussion ({len(fresh)} new tokens{', gold/forex review' if macro_due else ''})", "",
-                    "**Researcher**", "", researcher, "", "**Analyst**", "", analyst, "", "**Sniper**", "", "```", sniper.strip(), "```"]
+            if researcher.startswith("(model call failed"):
+                # do not burn the daily budget or skip these tokens: undo, pause the agents 10 minutes, retry later
+                talks[day] -= 1
+                for r in fresh:
+                    cool.pop(f"talk:{r['mint']}", None)
+                if macro_due:
+                    st["last_macro_talk"] = 0
+                cool["api_pause"] = t + 600
+                log.append(f"- team: Claude API error, agents paused 10 minutes: {researcher[19:-1]}")
+                orders = []
+            else:
+                log += [f"### {iso()} discussion ({len(fresh)} new tokens{', gold/forex review' if macro_due else ''})", "",
+                        "**Researcher**", "", researcher, "", "**Analyst**", "", analyst, "", "**Sniper**", "", "```", sniper.strip(), "```"]
     if len(orders) > CFG["max_new_per_run"]:
         log.append(f"- team: {len(orders) - CFG['max_new_per_run']} extra order(s) dropped (limit {CFG['max_new_per_run']} per discussion)")
     for desk_name, ords in (("team", orders[:CFG["max_new_per_run"]]), ("control", control_orders(meme, macro, st))):
