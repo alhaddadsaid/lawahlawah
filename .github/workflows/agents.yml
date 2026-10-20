@@ -1,8 +1,10 @@
 name: agent desk
 
+# Four long runs a day (about 5h45 each), the same pattern as the memecoin paper test.
+# Inside each run the desk scans every 3 minutes and checks open positions every 5 seconds.
 on:
   schedule:
-    - cron: "5 * * * *"
+    - cron: "5 0,6,12,18 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -15,7 +17,7 @@ concurrency:
 jobs:
   run:
     runs-on: ubuntu-latest
-    timeout-minutes: 58
+    timeout-minutes: 355
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -24,8 +26,12 @@ jobs:
       - name: Desk
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          MONITOR_MINUTES: "48"
-        run: python3 -u agents.py
+          RUN_MINUTES: "345"
+          AGENTS_GIT: "1"
+        run: |
+          git config user.name "agent-desk"
+          git config user.email "agent-desk@users.noreply.github.com"
+          python3 -u agents.py
       - name: Save
         if: always()
         run: |
