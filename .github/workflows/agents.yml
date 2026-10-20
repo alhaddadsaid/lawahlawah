@@ -1,0 +1,37 @@
+name: agent desk
+
+on:
+  schedule:
+    - cron: "5 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: agents
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 58
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Desk
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          MONITOR_MINUTES: "48"
+        run: python3 -u agents.py
+      - name: Save
+        if: always()
+        run: |
+          git config user.name "agent-desk"
+          git config user.email "agent-desk@users.noreply.github.com"
+          git add agents reports/agents.md 2>/dev/null || true
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "agent desk run"
+          for i in 1 2 3 4 5; do git pull --rebase && git push && break; sleep 7; done
