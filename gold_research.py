@@ -62,18 +62,20 @@ def detect_layout(rows):
 HISTDATA_FAILED = []
 
 
-def histdata_zip(year, month=None):
+def histdata_zip(year, month=None, pair="xauusd"):
     """Download one HistData.com 1-minute XAUUSD file (EST without daylight saving)."""
     from histdata import download_hist_data
     from histdata.api import Platform, TimeFrame
     os.makedirs(CACHE, exist_ok=True)
     tag = f"{year}" if month is None else f"{year}-{month:02d}"
+    if pair != "xauusd":
+        tag = f"{pair}-{tag}"
     done = f"{CACHE}/{tag}.zipname"
     if os.path.exists(done):
         return open(done).read().strip()
     for attempt in range(4):
         try:
-            kw = dict(year=str(year), pair="xauusd", platform=Platform.GENERIC_ASCII,
+            kw = dict(year=str(year), pair=pair, platform=Platform.GENERIC_ASCII,
                       time_frame=TimeFrame.ONE_MINUTE, output_directory=CACHE, verbose=False)
             if month is not None:
                 kw["month"] = str(month)
@@ -107,17 +109,17 @@ def read_zip(fn):
     return out
 
 
-def load_all():
+def load_all(pair="xauusd"):
     bars = []
     for y in range(START.year, END.year + 1):
-        fn = histdata_zip(y)
+        fn = histdata_zip(y, pair=pair)
         if fn:
             bars.extend(read_zip(fn))
             continue
         for m in range(1, 13):
             if dt.date(y, m, 1) > END:
                 break
-            fn = histdata_zip(y, m)
+            fn = histdata_zip(y, m, pair=pair)
             if fn:
                 bars.extend(read_zip(fn))
             else:
@@ -412,7 +414,7 @@ def money(pnl_oz, cost):
     return (pnl_oz - cost) * USD_PER_OZ
 
 
-def export_years(bars):
+def export_years(bars, name="xauusd", folder="data/m1", scale=100):
     """Save the 1-minute history as one small compressed file per year in data/m1/ and stage it,
     so research can run offline on the same data. Format: int64 arrays, minute = UTC minutes since
     1970, prices in cents, stored as differences (np.cumsum to restore)."""
@@ -423,21 +425,35 @@ def export_years(bars):
         subprocess.run([sys.executable, "-m", "pip", "install", "-q", "numpy"], check=False)
         import numpy as np
     import subprocess
-    os.makedirs("data/m1", exist_ok=True)
+    os.makedirs(folder, exist_ok=True)
     by = {}
     for b in bars:
         by.setdefault(dt.datetime.fromtimestamp(b[0], dt.timezone.utc).year, []).append(b)
     for y, rows in by.items():
-        a = np.array([(r[0] // 60, round(r[1] * 100), round(r[2] * 100), round(r[3] * 100), round(r[4] * 100))
+        a = np.array([(r[0] // 60, round(r[1] * scale), round(r[2] * scale), round(r[3] * scale), round(r[4] * scale))
                       for r in rows], dtype=np.int64)
         d = np.diff(a, axis=0, prepend=np.zeros((1, 5), dtype=np.int64))
-        np.savez_compressed(f"data/m1/xauusd_{y}.npz", d=d.astype(np.int32))
-    subprocess.run(["git", "add", "-f", "data/m1"], check=False)
+        np.savez_compressed(f"{folder}/{name}_{y}.npz", d=d.astype(np.int32))
+    subprocess.run(["git", "add", "-f", folder], check=False)
     print("exported years:", sorted(by), flush=True)
+
+
+FX_PAIRS = ("eurusd", "gbpusd")
+
+
+def export_fx():
+    """One-time export of 1-minute forex history (prices x 100000) to data/m1fx/ for offline research."""
+    for p in FX_PAIRS:
+        if os.path.exists(f"data/m1fx/{p}_2026.npz"):
+            continue
+        fx = load_all(p)
+        if fx:
+            export_years(fx, name=p, folder="data/m1fx", scale=100000)
 
 
 def main():
     t0 = time.time()
+    export_fx()
     bars = load_all()
     if bars:
         export_years(bars)
