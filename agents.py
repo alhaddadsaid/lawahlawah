@@ -1,6 +1,6 @@
 """Three-agent PAPER trading desk (no real money, no wallet, no broker).
 
-Every hour (GitHub Actions):
+Runs continuously on GitHub Actions (4 runs a day of almost 6 hours each). Every 3 minutes:
   1. Researcher  gathers free data: Solana memecoins (GeckoTerminal trending, DexScreener boosts and
                  profiles, RugCheck safety) plus gold, EUR/USD and GBP/USD (Yahoo Finance), and writes a brief.
   2. Analyst     challenges the brief using the rules and the desk's own track record.
@@ -32,7 +32,14 @@ FAKE = os.environ.get("AGENTS_FAKE") == "1"
 API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 MODEL = os.environ.get("AGENT_MODEL", "claude-haiku-5-5")
 ANALYST_MODEL = os.environ.get("ANALYST_MODEL", MODEL)
-MONITOR_MINUTES = float(os.environ.get("MONITOR_MINUTES", "48"))
+RUN_MINUTES = float(os.environ.get("RUN_MINUTES", "345"))     # one GitHub run lasts almost 6 hours
+SCAN_SECONDS = int(os.environ.get("SCAN_SECONDS", "180"))       # new memecoin scan every 3 minutes
+MEME_POLL = 5                                                   # open memecoin positions checked every 5 s
+MACRO_POLL = 30                                                 # open gold/forex positions every 30 s
+MACRO_REVIEW_MIN = 60                                           # agents look at gold/forex once an hour
+COOLDOWN_MIN = 60                                               # a token is discussed / re-entered at most hourly
+MAX_TALKS_PER_DAY = int(os.environ.get("MAX_TALKS_PER_DAY", "120"))   # hard cap on Claude calls (3 per talk)
+GIT_SYNC_MIN = 30
 DIR = os.environ.get("AGENTS_DIR", "agents")
 REPORT = os.environ.get("AGENTS_REPORT", "reports/agents.md")
 
@@ -402,12 +409,14 @@ def control_orders(meme, macro, st):
             and r.get("insider_pct") is not None and r["insider_pct"] <= V["max_insiders"] \
             and r.get("mint_authority") is False and r.get("freeze_authority") is False and not r.get("rugged") \
             and r.get("m5_change") is not None and V["m5_min"] <= r["m5_change"] <= V["m5_max"]
-        if ok:
+        if ok and f"control:{r['mint']}" not in st.get("cool", {}):
             out.append(dict(market="meme", symbol=r.get("symbol"), mint=r["mint"], side="long",
                             stop=r["price"] * 0.8, target=r["price"] * 1.4, max_hours=2, thesis="control: frozen v3 rules"))
             break
-    rnd = random.Random(int(now() // 3600))
-    if macro and rnd.random() < 0.25:            # about 6 random macro trades a day, same pace as a busy desk
+    hour = int(now() // 3600)
+    rnd = random.Random(hour)
+    if macro and st.get("ctrl_macro_hour") != hour and rnd.random() < 0.25:   # about 6 random macro trades a day
+        st["ctrl_macro_hour"] = hour
         sym = rnd.choice(sorted(macro))
         m = macro[sym]
         s = rnd.choice((1, -1))
@@ -445,36 +454,84 @@ def write_report(st, record, last):
 
 
 # ------------------------------------------------------------------ main
-def main():
-    t0 = now()
-    st = load_state()
-    st["runs"] += 1
-    # close anything that hit its levels or time while we were away (checked at current price)
-    opn = [p for d in st["desks"].values() for p in d["open"]]
-    ev = check_exits(st, meme_prices([p["mint"] for p in opn if p["market"] == "meme"]),
-                     macro_prices(sorted({p["symbol"] for p in opn if p["market"] == "macro"})))
+def basic_safe(r):
+    return not r.get("rugged") and r.get("mint_authority") is False and r.get("freeze_authority") is False
+
+
+def git_sync(msg="agent desk update"):
+    if os.environ.get("AGENTS_GIT") != "1":
+        return
+    import subprocess
+    sh = lambda *a: subprocess.run(list(a), capture_output=True, text=True)
+    sh("git", "add", DIR, REPORT)
+    if sh("git", "diff", "--cached", "--quiet").returncode == 0:
+        return
+    sh("git", "commit", "-m", msg)
+    for _ in range(4):
+        if sh("git", "pull", "--rebase").returncode == 0 and sh("git", "push").returncode == 0:
+            return
+        time.sleep(5)
+
+
+def flush(st, log):
+    if not log:
+        return
+    text = "\n".join(log) + "\n"
+    os.makedirs(f"{DIR}/discussions", exist_ok=True)
+    with open(f"{DIR}/discussions/{dt.datetime.now(dt.timezone.utc).date()}.md", "a") as f:
+        f.write(text + "\n")
+    save_state(st)
+    write_report(st, record_summary(closed_trades()), text)
+    print(text, flush=True)
+    log.clear()
+
+
+def log_close(log, e, extra=""):
+    log.append(f"- {e['desk']}: CLOSED {e['symbol']} ({e['reason_exit']}{extra}) P&L ${e['pnl_normal']} normal, "
+               f"${e['pnl_pessimistic']} pessimistic")
+
+
+def scan(st, log):
+    """One research cycle: data, (maybe) a short agent discussion, guardrails, paper orders."""
     meme = meme_data()
     macro = macro_data()
-    record = record_summary(closed_trades())
-    log = [f"## {iso()}", "", f"Data: {len(meme)} tradeable memecoins, macro: {', '.join(macro) or 'none (closed)'}."]
-    for e in ev:
-        log.append(f"- {e['desk']}: CLOSED {e['symbol']} ({e['reason_exit']}, while away) P&L ${e['pnl_normal']} normal, ${e['pnl_pessimistic']} pessimistic")
-    ev = []
+    t = now()
+    cool = st.setdefault("cool", {})
+    for k in [k for k, v in cool.items() if v < t]:
+        del cool[k]
+    fresh = [r for r in meme if basic_safe(r) and f"talk:{r['mint']}" not in cool]
+    macro_due = bool(macro) and t - st.get("last_macro_talk", 0) >= MACRO_REVIEW_MIN * 60
+    day = str(dt.datetime.now(dt.timezone.utc).date())
+    talks = st.setdefault("talks", {})
     orders = []
-    if API_KEY or FAKE:
-        researcher, analyst, sniper, orders = discuss(meme, macro, st, record)
-        log += ["", "**Researcher**", "", researcher, "", "**Analyst**", "", analyst, "", "**Sniper**", "", "```", sniper.strip(), "```"]
-    else:
-        log += ["", "Team desk idle: no ANTHROPIC_API_KEY secret."]
+    if (fresh or macro_due) and (API_KEY or FAKE):
+        if talks.get(day, 0) >= MAX_TALKS_PER_DAY:
+            if not st.get("cap_logged") == day:
+                log.append(f"- team: daily limit of {MAX_TALKS_PER_DAY} discussions reached, agents pause until tomorrow (UTC)")
+                st["cap_logged"] = day
+        else:
+            talks[day] = talks.get(day, 0) + 1
+            for k in list(talks):
+                if k < day:
+                    del talks[k]
+            for r in fresh:
+                cool[f"talk:{r['mint']}"] = t + COOLDOWN_MIN * 60
+            if macro_due:
+                st["last_macro_talk"] = t
+            researcher, analyst, sniper, orders = discuss(fresh, macro if macro_due else {}, st, record_summary(closed_trades()))
+            log += [f"### {iso()} discussion ({len(fresh)} new tokens{', gold/forex review' if macro_due else ''})", "",
+                    "**Researcher**", "", researcher, "", "**Analyst**", "", analyst, "", "**Sniper**", "", "```", sniper.strip(), "```"]
     if len(orders) > CFG["max_new_per_run"]:
-        log.append(f"- team: {len(orders) - CFG['max_new_per_run']} extra order(s) dropped (limit {CFG['max_new_per_run']} per run)")
-    opened = []
+        log.append(f"- team: {len(orders) - CFG['max_new_per_run']} extra order(s) dropped (limit {CFG['max_new_per_run']} per discussion)")
     for desk_name, ords in (("team", orders[:CFG["max_new_per_run"]]), ("control", control_orders(meme, macro, st))):
         for o in ords:
             chk, why = check_order(o, meme, macro, st["desks"][desk_name])
             if not chk:
                 log.append(f"- {desk_name}: order {o.get('symbol')} REJECTED by guardrails: {why}")
                 continue
+            key = f"{desk_name}:{chk['mint'] or chk['symbol']}"
+            if key in cool:
+                continue                                   # traded this recently, wait out the cooldown
             if chk["market"] == "meme":
                 px = meme_prices([chk["mint"]]).get(chk["mint"])
             else:
@@ -484,32 +541,55 @@ def main():
                 log.append(f"- {desk_name}: {chk['symbol']} skipped, no live price")
                 continue
             p = open_pos(st, desk_name, chk, px)
-            opened.append(p)
-            log.append(f"- {desk_name}: OPENED {p['symbol']} {'long' if p['side'] > 0 else 'short'} at {px:.6g} "
+            cool[key] = now() + COOLDOWN_MIN * 60
+            log.append(f"- {iso()} {desk_name}: OPENED {p['symbol']} {'long' if p['side'] > 0 else 'short'} at {px:.6g} "
                        f"(stop {p['stop']:.6g}, target {p['target']:.6g}) - {p['thesis']}")
-    save_state(st)
-    # watch open positions until the next run
-    end = t0 + MONITOR_MINUTES * 60
-    while now() < end:
+
+
+def main():
+    t0 = now()
+    st = load_state()
+    st["runs"] += 1
+    log = [f"## Run started {iso()}" + ("" if API_KEY or FAKE else " (team desk idle: no ANTHROPIC_API_KEY secret)")]
+    opn = [p for d in st["desks"].values() for p in d["open"]]
+    for e in check_exits(st, meme_prices([p["mint"] for p in opn if p["market"] == "meme"]),
+                         macro_prices(sorted({p["symbol"] for p in opn if p["market"] == "macro"}))):
+        log_close(log, e, ", while away")
+    end = t0 + RUN_MINUTES * 60
+    next_scan = next_macro = 0.0
+    last_sync = now()
+    while True:
+        t = now()
+        if t >= next_scan:
+            try:
+                scan(st, log)
+            except Exception as ex:                       # a bad feed must never stop the desk
+                log.append(f"- scan error: {repr(ex)[:200]}")
+            next_scan = t + SCAN_SECONDS
+            flush(st, log)
         opn = [p for d in st["desks"].values() for p in d["open"]]
-        if not opn:
-            break
         mm = [p["mint"] for p in opn if p["market"] == "meme"]
-        xs = sorted({p["symbol"] for p in opn if p["market"] == "macro"})
-        ev += check_exits(st, meme_prices(mm) if mm else {}, macro_prices(xs) if xs else {})
-        save_state(st)
-        if FAKE:
+        xs = sorted({p["symbol"] for p in opn if p["market"] == "macro"}) if now() >= next_macro else []
+        if xs:
+            next_macro = now() + MACRO_POLL
+        try:
+            ev = check_exits(st, meme_prices(mm) if mm else {}, macro_prices(xs) if xs else {})
+        except Exception as ex:
+            ev = []
+            log.append(f"- price check error: {repr(ex)[:200]}")
+        for e in ev:
+            log_close(log, e)
+        if ev:
+            flush(st, log)
+        if now() - last_sync >= GIT_SYNC_MIN * 60:
+            git_sync()
+            last_sync = now()
+        if FAKE or now() >= end:
             break
-        time.sleep(20 if mm else 60)
-    for e in ev:
-        log.append(f"- {e['desk']}: CLOSED {e['symbol']} ({e['reason_exit']}) P&L ${e['pnl_normal']} normal, ${e['pnl_pessimistic']} pessimistic")
-    record = record_summary(closed_trades())
-    text = "\n".join(log) + "\n"
-    os.makedirs(f"{DIR}/discussions", exist_ok=True)
-    with open(f"{DIR}/discussions/{dt.datetime.now(dt.timezone.utc).date()}.md", "a") as f:
-        f.write(text + "\n")
-    write_report(st, record, text)
-    print(text)
+        time.sleep(MEME_POLL)
+    log.append(f"## Run ended {iso()}")
+    flush(st, log)
+    git_sync("agent desk run")
 
 
 if __name__ == "__main__":
