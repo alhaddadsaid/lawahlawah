@@ -36,12 +36,27 @@
      "size": 2338907.730090048,
      "deadline": 1792525404.0551872,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 6,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "GBPUSD",
+     "mint": "",
+     "side": 1,
+     "opened": 1792519319.2514904,
+     "entry": 1.338114857673645,
+     "stop": 1.336555847099849,
+     "target": 1.340453373534339,
+     "size": 64143.24680076859,
+     "deadline": 1792605719.2514908,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 6,
- "runs": 3,
+ "next_id": 7,
+ "runs": 4,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
   "control:7gUDvf45et6627atavR45Md4BjgYqJHMZe9EPqeR9Sya": 1792520870.1104991,
@@ -62,10 +77,21 @@
   "talk:GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": 1792521713.367441,
   "talk:7XBdVqzZFYwpBz7VshzWZWd7ms1sG9f9UQ8YiHqapump": 1792521713.367441,
   "talk:fpam8wyNiDSHtwx1znYeipGgRNnBcBTcN1iechcpump": 1792521713.367441,
-  "control:7XBdVqzZFYwpBz7VshzWZWd7ms1sG9f9UQ8YiHqapump": 1792521804.0551915
+  "control:7XBdVqzZFYwpBz7VshzWZWd7ms1sG9f9UQ8YiHqapump": 1792521804.0551915,
+  "talk:F7jZrB2aUG9v7rQY348F2EB9UvHLwV5tjEEL6B2ypump": 1792522398.244718,
+  "talk:3WNuLjzMuUxDDwhoz8pfEQoUy96wNRrrMvcTsbynpump": 1792522398.244718,
+  "talk:8Q63AzMLYCpPxFRHmjfLESEgcVtHjo3wVFHnCHDUpump": 1792522398.244718,
+  "talk:7Yw1146iXePQpXXYyqtdBHkHom5wc9XC3S9YCjXDpump": 1792522398.244718,
+  "talk:2x3kudsxqCWdWeZA1vSNr9uKkHUBQG81m5mBGRAPpump": 1792522398.244718,
+  "talk:6gXN9N4yGwstzHHEABzpkPFWqZfpS9aBqMHewe5Vpump": 1792522398.244718,
+  "talk:CcfmQBZ6o3suCyd638CbjCVZtdsYHSwYnkHbPbSgpump": 1792522541.0852847,
+  "talk:7gUDvf45et6627atavR45Md4BjgYqJHMZe9EPqeR9Sya": 1792522541.0852847,
+  "talk:89kHnimrkoH2hwrDVDGNzYTqwiXzuwytLPWFaufU8Jo6": 1792522909.2753909,
+  "control:GBPUSD": 1792522919.2514951
  },
  "talks": {
-  "2026-10-20": 2
+  "2026-10-20": 5
  },
- "last_macro_talk": 1792517941.3497245
+ "last_macro_talk": 1792517941.3497245,
+ "ctrl_macro_hour": 497922
 }
