@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 16:05 UTC. Runs so far: 10. Model: claude-haiku-5-5.
+Updated 2026-10-21 16:14 UTC. Runs so far: 10. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -33,11 +33,11 @@ API spend today: $0.08 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 16:05 UTC team all (memecoins), spent today $0.081
+### 2026-10-21 16:14 UTC team all (memecoins), spent today $0.083
 
-Lead: Hold. 100T is 5.7m old and passes age and top10 (14.5%), but h1 is +52%, far below the +1000% filter, and liquidity is only $21k. Sniper: No orders. Scout: No macro catalyst in the data given. Gold 41 stays on its stop 4095 and target 4180. Watch 100T for the next scan in case h1 accelerates, and log a separate hypothesis only if we want to test young-coin momentum at lower thresholds.
+Lead: No new orders. The under-10m memecoin test has no qualifier. DCY is 10.04m old with h1 +186%, which fails the h1 test. KIMCHINU has h1 +1048% and top10 2.7%, but it is 33.9m old, so it fails the age test. Scout: a 30-60m band is a separate hypothesis and would need its own log. Sniper: keep gold 41 on its stop at 4095 and target at 4180. Costs and the journal argue against forcing a trade.
 
-{"orders": [], "close": [], "note": "16:05 no new orders. Hold gold 41 (stop 4095, target 4180, ~18.6h left, +0.32%). Memecoin filter: 100T 5.7m old, h1 +52%, top10 14.5%, liq $21k fails h1>+1000%, watch only. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity adequate."}
+{"orders": [], "close": [], "note": "16:14 no new orders. Hold gold 41 (stop 4095, target 4180, price 4150.1, ~18.4h left). Memecoin filter: DCY 10.0m old, h1 +186% fails; KIMCHINU 33.9m, h1 +1048%, top10 2.7% fails age (log-only candidate for a separate 30-60m band test). Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity adequate."}
 
-- control: order MOMO REJECTED by guardrails: desk already has the maximum open positions
+- control: order Pokémon REJECTED by guardrails: desk already has the maximum open positions
 
