@@ -50,7 +50,7 @@ DEFAULT_TEAM = [
          instructions="Turn approved ideas into exact orders: size, optional stop and target, holding time, and early exits."),
 ]
 
-ORDER_FORMAT = ('Reply with short discussion (under 140 words), then on the LAST line JSON only: '
+ORDER_FORMAT = ('Reply with a short discussion (under 90 words, plain text), then on the LAST line JSON only: '
                 '{"orders": [{"market": "meme" or "macro", "symbol": str, "mint": str (memecoin only), '
                 '"side": "long" or "short", "size_pct": number 0.5-10, "stop": price or null, "target": price or null, '
                 '"max_hours": number, "by": agent name, "hypothesis": short testable reason}], '
@@ -305,7 +305,7 @@ def cycle(st, meme, fresh, macro, trades, log, ask, prices, close_pos, iso, fake
                      "Economic calendar (high impact, next 24h): " + (" | ".join(nw.get("calendar", [])) or "none")]
         system = (DESK + f"\nYour team for this mission ({g}):\n{roster}\nDebate briefly in your roles, then decide. "
                   + ORDER_FORMAT)
-        text, usage = ask(system, "\n".join(data), 500)
+        text, usage = ask(system, "\n".join(data), 1000)
         add_spend(st, usage)
         if due_meme:
             st[f"last_meme_{g}"] = t
@@ -315,6 +315,8 @@ def cycle(st, meme, fresh, macro, trades, log, ask, prices, close_pos, iso, fake
             log.append(f"- team: model call failed: {text[19:-1]}")
             return
         j = parse_json(text)
+        if not j:
+            log.append(f"- team: reply had no decision (stop reason {usage.get('stop_reason')}, {len(text)} chars), skipped")
         log += [f"### {iso()} team {g} ({'memecoins' if due_meme else ''}{' + ' if due_meme and due_macro else ''}"
                 f"{'gold/forex' if due_macro else ''}), spent today ${spend_today(st)[1]:.3f}", "", text.strip(), ""]
         for pid in j.get("close", []) or []:
@@ -364,7 +366,7 @@ def review(st, trades, log, ask, iso):
               "under 120 words, then on the last line JSON only: {\"hire\": [{\"name\": str, \"role\": str, "
               "\"mission\": \"meme\"|\"macro\"|\"all\", \"instructions\": str}], \"fire\": [names], "
               "\"missions\": {name: mission}, \"note\": str}.")
-    text, usage = ask(system, f"Team:\n{roster}\n\nJournal:\n{journal_text(trades, 25)}\nLosing streak: {streak}.", 450)
+    text, usage = ask(system, f"Team:\n{roster}\n\nJournal:\n{journal_text(trades, 25)}\nLosing streak: {streak}.", 900)
     add_spend(st, usage)
     if text.startswith("(model call failed"):
         return

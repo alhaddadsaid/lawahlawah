@@ -249,6 +249,7 @@ def claude(system, user, model, max_tokens=900):
                 d = json.loads(r.read().decode())
             LAST_USAGE.clear()
             LAST_USAGE.update(d.get("usage", {}))
+            LAST_USAGE["stop_reason"] = d.get("stop_reason")
             return "".join(b.get("text", "") for b in d.get("content", []))
         except urllib.error.HTTPError as e:
             try:
