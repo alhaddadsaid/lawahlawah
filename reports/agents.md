@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 19:38 UTC. Runs so far: 10. Model: claude-haiku-5-5.
+Updated 2026-10-21 19:47 UTC. Runs so far: 10. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -33,17 +33,13 @@ API spend today: $0.12 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 19:38 UTC team all (memecoins), spent today $0.119
+### 2026-10-21 19:47 UTC team all (memecoins), spent today $0.120
 
-Lead: No new trades. Memecoin filter is still empty. "4" is 7 minutes old, but h1 is +106% (needs >1000%) and top10 is 25.6% (needs <15%). MADE, JONATHAN and PHP fail on age. Gold 41 is up about 0.05% from entry, with the stop at 4095 and target at 4180. Thesis is intact, so we hold.
+Scout: The only fresh memecoin, KIMCHI (2.5m old, h1 +596%), fails the h1 >1000% rule, and its top10 holds 59%, far above the 15% limit.
+Sniper: No memecoin entry. Gold 41 is at 4147.9, inside its 4095 stop and 4180 target, with about 15h left. Hold it unchanged.
+Lead: No new edge is visible. Gold's thesis is intact and costs are already sunk. The memecoin rule has been unmet for many scans, so I'm not forcing an entry.
 
-Scout: The crypto news flow (SpaceX earnings, BTC at $84.6K, MiCA/DeFi regulation pieces) gives no clear memecoin catalyst. Nothing to test this scan.
+{"orders": [], "close": [], "note": "19:47 no new orders. Hold gold 41 (4147.9, stop 4095, target 4180, ~14.9h left). Memecoin scan: KIMCHI 2.5m old, h1 +596% (fails >1000%), top10 59% (fails <15%); MCDx/Pokecity/Dacity/KIMCHINU/CBUCKS/DOOD fail age or h1. Watch next scan: under-10m, h1>+1000%, top10<15%, liq adequate."}
 
-Sniper: No orders. Gold 41 keeps its existing stop and target.
-
-Hypothesis for next scan: under-10m memecoins with h1 above +1000% and top10 below 15% keep rising 20% or more. Our closed sample for that rule is mixed and small, so keep size at 0.5%.
-
-{"orders": [], "close": [], "note": "19:38 no new orders. Hold gold 41 (price 4140.2, stop 4095, target 4180, ~15h left). Memecoin scan: '4' 7m old but h1 +106% and top10 25.6% fail; MADE/JONATHAN/PHP fail age. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity OK; keep size at 0.5% for any entry."}
-
-- control: order KIMCHI REJECTED by guardrails: desk already has the maximum open positions
+- control: order Jeetjak REJECTED by guardrails: desk already has the maximum open positions
 
