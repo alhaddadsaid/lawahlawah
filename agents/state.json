@@ -22,23 +22,8 @@
    ]
   },
   "control": {
-   "cash": 6615.073282993783,
+   "cash": 6742.097521651058,
    "open": [
-    {
-     "id": 6,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "GBPUSD",
-     "mint": "",
-     "side": 1,
-     "opened": 1792519319.2514904,
-     "entry": 1.338114857673645,
-     "stop": 1.336555847099849,
-     "target": 1.340453373534339,
-     "size": 64143.24680076859,
-     "deadline": 1792605719.2514908,
-     "thesis": "control: random direction"
-    },
     {
      "id": 78,
      "desk": "control",
@@ -61,25 +46,24 @@
  "runs": 10,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:B7emCzRFDZAXdse7wCkWgdv5zAW9jsNtFteXQfhGpump": 1792605297.2716634,
-  "seen:4xwPPTRf8WS1tWouCM1SFyQmo2nVs8DRUKzPQycNpump": 1792605479.1679404,
-  "seen:HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": 1792605479.1679404,
-  "seen:2VhD6xfGpTr6KJUXAtdaZeKZpwuATdfTXDyFQZDcpump": 1792605660.9599593,
-  "seen:85kRJ3iv4B4eX3UU7jqpzrwcArRgN1NSrYrXK1xRpump": 1792605660.9599593,
-  "seen:EBzm1AYQSBiJqpJm77nXWjPedxGiyy5N6f75q7o4pump": 1792605660.9599593,
-  "seen:4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792605660.9599593,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792605660.9599593,
-  "seen:CnBntmvyzW8zV2gYnjmjnCCTWkft5vAUMtwitzK9pump": 1792605660.9599593,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792605660.9599593,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1792605660.9599593,
-  "seen:utLyQQCPvjuCc6zeaXdsFeEC3JNdxKS3vxaZWoGdoge": 1792605844.778358,
-  "seen:BYbbYQ6biqJmB7o8tw3otsz2BSZFMDuZPozm68CSpump": 1792605844.778358,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792605844.778358,
-  "seen:HYgZeYJnKiNCupzTkXtPiG16tTiiuEmwsUNAYFuJpump": 1792605844.778358,
   "seen:9askTPDEKmYBsiwwoUmPf3mBwXqkxj9yB5UNtmD7pump": 1792606040.6560993,
   "seen:E7iyjoUegGg4zVu7pVvkbpWvDYjAes1sX5LyXMvwpump": 1792606040.6560993,
   "seen:YKVRK6dCgdxbY4YhNf7Csr7a8JP9v78AWgtMqnwpump": 1792606040.6560993,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792606040.6560993
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792606040.6560993,
+  "seen:419RpM6KRAVWAJurhEW87yRrt8X4GbGLoFSy7NWapump": 1792606396.5907087,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792606396.5907087,
+  "seen:85kRJ3iv4B4eX3UU7jqpzrwcArRgN1NSrYrXK1xRpump": 1792606578.0359068,
+  "seen:2VhD6xfGpTr6KJUXAtdaZeKZpwuATdfTXDyFQZDcpump": 1792606578.0359068,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792606578.0359068,
+  "seen:EBzm1AYQSBiJqpJm77nXWjPedxGiyy5N6f75q7o4pump": 1792606578.0359068,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1792606578.0359068,
+  "seen:4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792606578.0359068,
+  "seen:HYgZeYJnKiNCupzTkXtPiG16tTiiuEmwsUNAYFuJpump": 1792606758.916617,
+  "seen:BYbbYQ6biqJmB7o8tw3otsz2BSZFMDuZPozm68CSpump": 1792606758.916617,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792606758.916617,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792606758.916617,
+  "seen:GVwf8AwFNN6PX8zBm9zFEPqB8UBAXYzqUA1kxSNepump": 1792606940.2096457,
+  "seen:utLyQQCPvjuCc6zeaXdsFeEC3JNdxKS3vxaZWoGdoge": 1792606940.2096457
  },
  "talks": {
   "2026-10-21": 109
@@ -108,13 +92,13 @@
  ],
  "last_review": 1792571535.8670912,
  "news": {
-  "t": 1792604760.9604297,
+  "t": 1792605678.036432,
   "crypto": [
-   "UK financial watchdog opens consultations for DeFi guidance, crypto laws (0h ago)",
+   "UK financial watchdog opens consultations for DeFi guidance, crypto laws (1h ago)",
    "Treasury Secretary Bessent likens GENIUS Act to Lincoln-era banking reform (1h ago)",
-   "Trump to throw spotlight on overseas crypto abuses at White House event (1h ago)",
+   "Trump to throw spotlight on overseas crypto abuses at White House event (2h ago)",
    "Chainlink, Cardano, other blockchain groups push SEC for clearer crypto rules (2h ago)",
-   "How a16z-backed DATA is rethinking its blockchain strategy after $30 million Sui deal (2h ago)",
+   "How a16z-backed DATA is rethinking its blockchain strategy after $30 million Sui deal (3h ago)",
    "Bitcoin price tags $84.6K as US stocks head higher on SpaceX Q3 earnings beat (3h ago)",
    "Bybit will look for big broker partnerships to take on Robinhood in the U.S. (3h ago)",
    "Crypto Long & Short: Why real-world assets need fixed-rate loans onchain (3h ago)",
@@ -125,15 +109,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-21": 0.099796
+  "2026-10-21": 0.101959
  },
- "last_meme_all": 1792605140.6565409,
- "last_macro_all": 1792604760.9604201,
+ "last_meme_all": 1792606040.21021,
+ "last_macro_all": 1792606040.21021,
  "notes": [
-  "2026-10-21 16:48 UTC [all] 16:48 no new orders. Hold gold 41 (stop 4095, target 4180, price ~4150, ~17.9h left). Memecoin filter empty: KIMBULL 19m old, h1 +236%, top10 27% fails; Dacity and VEIL old and fail. Watch next scan: under-10m, h1>+1000%",
-  "2026-10-21 16:51 UTC [all] 16:51 no new orders. Hold gold 41 (stop 4095, target 4180, ~17.8h left, price 4149). Memecoin filter empty: JONATHAN 9.6m old but h1 +102%, top10 22.8% fails; DCT 19m fails age; MILK, ALPENGLOW fail. Watch next scan: und",
-  "2026-10-21 16:54 UTC [all] 16:54 no new orders. Hold gold 41 (stop 4095, target 4180, ~17.8h left, price 4150.8). Memecoin scan: PILL, BATON, GLITCH all fail age and/or h1 filter. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity adequat",
-  "2026-10-21 16:57 UTC [all] 16:57 no new orders. Hold gold 41 (stop 4095, target 4180, price 4150.7, ~17.7h left). Memecoin scan: DOOD (~12.7k h old, h1 -23%) and GATO (~57 days old, h1 -8%) fail the age and h1 filters. Watch next scan: under-10m t",
   "2026-10-21 17:00 UTC [all] 16:00 scan: no new orders. Hold gold 41 (stop 4095, target 4180, price ~4151, ~17.7h left). Memecoin filter empty again: KIMCHINU 79m old (h1 +82%), QUARTZ 37m old (h1 +27%) fail age; Pokecity and PHP old. Watch next sca",
   "2026-10-21 17:03 UTC [all] 17:03 no new orders. Hold gold 41 (stop 4095, target 4180, price ~4150, ~17.6h left). Memecoin filter empty: KimchiWeen 4.5m old but top10 62%, h1 +16%; KIMBULL 35m and FIRSTJET 25m fail age; Dacity old. Watch next scan:",
   "2026-10-21 17:06 UTC [all] 17:06 no new orders. Hold gold 41 (stop 4095, target 4180, price ~4150.6, ~17.6h left). Memecoin filter empty: JONATHAN 24.8m old but top10 21% fails; DCT 34m, MILK 70m, KAIROS 94m fail age/h1. Watch next scan: under-10m",
@@ -149,6 +129,10 @@
   "2026-10-21 17:43 UTC [all] 17:42 no new orders. Hold gold 41 (stop 4095, target 4180, price 4151, ~17h left). Memecoin filter empty: LORE 60m old, h1 +166%, top10 19% fails; SI276 ~15d old. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidi",
   "2026-10-21 17:46 UTC [all] 17:46 no new orders. Hold gold 41 (stop 4095, target 4180, price 4151.7, ~16.9h left). Memecoin filter empty: MrBeast h1 +1177% and top10 13.9% pass but age 17.6m fails under-10m; JOCAT 26.8m, KICITY 14.5m fail age. Watc",
   "2026-10-21 17:49 UTC [all] 17:49 no new orders. Hold gold 41 (stop 4095, target 4180, price 4153.1, ~16.9h left). Memecoin filter empty: PNL 5.8m old but h1 +14%; kimchi/acc 23.6m old fails age; PANGEA 74m, OGDOGE old. Watch next scan: under-10m, ",
-  "2026-10-21 17:52 UTC [all] 17:52 no new orders. Hold gold 41 (stop 4095, target 4180, price ~4155, ~16.8h left). Memecoin filter empty: BUNK 2m old but h1 +24%; o/acc 6m old h1 +22%; JONATHAN 70m old; DOPE 4d old. Watch next scan: under-10m, h1>+1"
+  "2026-10-21 17:52 UTC [all] 17:52 no new orders. Hold gold 41 (stop 4095, target 4180, price ~4155, ~16.8h left). Memecoin filter empty: BUNK 2m old but h1 +24%; o/acc 6m old h1 +22%; JONATHAN 70m old; DOPE 4d old. Watch next scan: under-10m, h1>+1",
+  "2026-10-21 17:58 UTC [all] 17:58 no new orders. Hold gold 41 (stop 4095, target 4180, price ~4152, ~16.8h left). PLAZA 25m old, h1 +28.8% fails age. Dacity ~10d old fails. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity OK.",
+  "2026-10-21 18:01 UTC [all] 18:01 no new orders. Hold gold 41 (stop 4095, target 4180, price 4153.7, ~16.7h left). KICITY 29.8m old and JOCAT 42m old fail the under-10m age filter. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity OK; re-",
+  "2026-10-21 18:04 UTC [all] 18:04 no new orders. Hold gold 41 (stop 4095, target 4180, price 4155.1, ~16.6h left). Memecoin filter empty on age: kimchi/acc 38.8m, PNL 21m, PANGEA 90m, PHP 770m all fail under-10m. Watch next scan: under-10m, h1>+100",
+  "2026-10-21 18:07 UTC [all] 18:07 no new orders. Hold gold 41 (stop 4095, target 4180, price 4154.7, ~16.6h left). KIMCHI 19.3m old, h1 +191%, top10 4.4%, fails age; recheck at under-10m if it stays on the scan. OGDOGE old, h1 -34%, passes nothing."
  ]
 }
