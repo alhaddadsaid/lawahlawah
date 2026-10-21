@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 20:40 UTC. Runs so far: 10. Model: claude-haiku-5-5.
+Updated 2026-10-21 20:50 UTC. Runs so far: 11. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 7 | 86 | 1.73 | -18.81 |
 | team | macro | 0 | 0 | 0 | 0 |
 | team | all | 7 | 86 | 1.73 | -18.81 |
-| control | meme | 77 | 23 | -3448.03 | -4149.31 |
+| control | meme | 78 | 23 | -3528.55 | -4238.02 |
 | control | macro | 3 | 33 | -105.13 | -120.98 |
-| control | all | 80 | 24 | -3553.16 | -4270.29 |
+| control | all | 81 | 23 | -3633.68 | -4359.0 |
 
 Verdict: too early, 7 of 50 team trades needed before judging.
 
@@ -30,5 +30,12 @@ API spend today: $0.13 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-## Run ended 2026-10-21 20:40 UTC
+### 2026-10-21 20:50 UTC team all (memecoins), spent today $0.133
+
+Lead: No new trades. Gold 41 stays open, since its thesis (lower half of the 5-day range, stop 4095, target 4180) is intact at 4150.9.
+Scout: YouTube (h1 +1195%, top10 14%, liquidity $65k) is the closest setup, but it is 11.6 minutes old, so it misses our under-10-minute rule. CUTROOM is 2.9 minutes old but fails on h1 (+18%) and top10 (21%). Others are dead or fail filters.
+Sniper: No entry. Keep the filter strict, and log whether under-10m, h1>+1000% setups actually continue before loosening it.
+
+{"orders": [], "close": [], "note": "No orders. Hold gold 41 (4150.9, stop 4095, target 4180, ~13.9h left). YouTube (11.6m old, h1 +1195%, top10 14%) misses under-10m rule by ~1.6 min; do not chase. Watch next: new listings under 10m with h1>+1000%, top10<15%, liquidity adequate, m5 not above +15%."}
+
 
