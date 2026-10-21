@@ -22,7 +22,7 @@
    ]
   },
   "control": {
-   "cash": 7664.116568383903,
+   "cash": 7592.500865904563,
    "open": [
     {
      "id": 6,
@@ -83,21 +83,6 @@
      "size": 1485884.101040119,
      "deadline": 1792601920.6019604,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 64,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "shiit",
-     "mint": "412ECWXN3jGbd1kn8ck7eeupWttkmrFkNm9JqfAzpump",
-     "side": 1,
-     "opened": 1792595081.1113749,
-     "entry": 0.0001452,
-     "stop": 0.00011616000000000001,
-     "target": 0.00020328,
-     "size": 1377410.4683195592,
-     "deadline": 1792602281.1113753,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -106,18 +91,6 @@
  "runs": 10,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7uCYgyuNRWTTuReNnBrs9FiNPoiX2tkUnKy77hjcpump": 1792595142.7601051,
-  "seen:54UN9YwDyazXjRXhxMvzWG7yNstGqjtHnh1WGgpepump": 1792595323.50054,
-  "seen:D42TjMjz5H7toPu5md5KBXreZkCSdZMEfLQwmBhJXvb1": 1792595323.50054,
-  "control:54UN9YwDyazXjRXhxMvzWG7yNstGqjtHnh1WGgpepump": 1792595327.3562002,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1792595430.9136913,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1792595430.9136913,
-  "seen:5C69sv7RdXsfqeLkyNKLxUD2rE4HDxR9vJMNTvw5pump": 1792595613.2596347,
-  "seen:DNq98kymaw7GxhvLDTtrpUTBzi3L2KvnSedutZMyVhbm": 1792595613.2596347,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792595613.2596347,
-  "seen:4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792595613.2596347,
-  "seen:HgTGdc29D5bDMrDvsCLnorxz899VyDj7ZN7FPa6vpump": 1792595613.2596347,
-  "control:8uWftzVoVBqyPJj6Xq9kRUtnz54W5GP4pd4smwZHpump": 1792595620.6019642,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792595794.7796247,
   "seen:6tbzEBd4X4meokjh4ZnCaJcbHZU9NCfeUPYT7wtapump": 1792595794.7796247,
   "seen:HRpF1uxz1b5D5zTabQ1wYbrW2La3Q6rXPjo6Fjeopump": 1792595794.7796247,
@@ -125,7 +98,16 @@
   "seen:412ECWXN3jGbd1kn8ck7eeupWttkmrFkNm9JqfAzpump": 1792595977.818661,
   "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792595977.818661,
   "seen:8uWftzVoVBqyPJj6Xq9kRUtnz54W5GP4pd4smwZHpump": 1792595977.818661,
-  "control:412ECWXN3jGbd1kn8ck7eeupWttkmrFkNm9JqfAzpump": 1792595981.1113794
+  "control:412ECWXN3jGbd1kn8ck7eeupWttkmrFkNm9JqfAzpump": 1792595981.1113794,
+  "seen:7uCYgyuNRWTTuReNnBrs9FiNPoiX2tkUnKy77hjcpump": 1792596162.7902365,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792596162.7902365,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792596162.7902365,
+  "seen:DvdmEnztCmXwBnAbedD48XVGZJSxq31zNvnyftXdpump": 1792596345.1407053,
+  "seen:t9bnCGiZVUYsRKvx4d5dPcoDCSyuBM9C33ZNGNULARP": 1792596345.1407053,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1792596345.1407053,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792596527.8533592,
+  "seen:4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792596527.8533592,
+  "seen:HgTGdc29D5bDMrDvsCLnorxz899VyDj7ZN7FPa6vpump": 1792596527.8533592
  },
  "talks": {
   "2026-10-21": 109
@@ -154,31 +136,28 @@
  ],
  "last_review": 1792571535.8670912,
  "news": {
-  "t": 1792594713.2601097,
+  "t": 1792595627.8538213,
   "crypto": [
+   "Bybit will look for big broker partnerships to take on Robinhood in the U.S. (0h ago)",
+   "Crypto Long & Short: Why real-world assets need fixed-rate loans onchain (0h ago)",
    "Solana\u2019s Alpenglow launches on mainnet, targets 99% faster finality (1h ago)",
-   "Here\u2019s what happened in crypto today (1h ago)",
-   "Big Tech\u2019s eMudhra fixes may leave crypto bots exposed, CertiK warns (1h ago)",
-   "5 alternatives to Ledger to store your Bitcoin (1h ago)",
+   "Here\u2019s what happened in crypto today (2h ago)",
+   "Big Tech\u2019s eMudhra fixes may leave crypto bots exposed, CertiK warns (2h ago)",
+   "5 alternatives to Ledger to store your Bitcoin (2h ago)",
    "OCC finalizes GENIUS Act rules for stablecoin issuers and custody (3h ago)",
    "Why centralized exchanges refuse to list legacy crypto tokens without explicit SEC immunity (3h ago)",
    "Japanese visitors may be able to pay with yen stablecoins in South Korea under Shinhan-SBI pact (3h ago)",
-   "Standard Chartered signs definitive deal to acquire Zodia Custody (3h ago)",
-   "Dogecoin wallet, app teams unite in push to give DOGE more everyday uses (3h ago)",
-   "Bitcoin risk management grows more popular as the 'just bet on price' era fades (4h ago)"
+   "Standard Chartered signs definitive deal to acquire Zodia Custody (3h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-21": 0.070305
+  "2026-10-21": 0.071887
  },
- "last_meme_all": 1792595077.819124,
+ "last_meme_all": 1792595627.853812,
  "last_macro_all": 1792594530.9141486,
  "notes": [
-  "2026-10-21 14:08 UTC [all] 14:08 flat, no new orders. Hold gold 41 (stop 4095, target 4180, ~20.6h left, +0.31%). HUMANOID (66m, h1 +440%, top10 17%) fails age and top10 filters. Memecoin hypothesis stays paused. Watch next scan: under-10m, h1>+10",
-  "2026-10-21 14:11 UTC [all] 14:11 flat, no new orders. Hold gold 41 (stop 4095, target 4180, ~20.5h left, +0.21%). chud (24.8m, h1 +20%) fails age filter. No macro events in 24h. Watch next scan: under-10m, h1>+1000%, top10<15%; memecoin hypothesis",
-  "2026-10-21 14:14 UTC [all] 14:14 flat, no new orders. Hold gold 41 (stop 4095, target 4180, ~20.5h left, +0.21%). SOL (6.9m, h1 +23%, top10 25.8%), Dacity, GATO, Bonnie fail memecoin filter. Watch next scan: under-10m, h1>+1000%, top10<15%; no mac",
   "2026-10-21 14:17 UTC [all] 14:17 flat, no new orders. Hold gold 41 (stop 4095, target 4180, ~20.4h left, +0.13%). SF (5.7m, h1 +165%, top10 22%), GIGADOPE (10.5m, top10 9%), Chupacabra (38m) fail filter. Watch next scan: under-10m, h1>+1000%, top1",
   "2026-10-21 14:20 UTC [all] 14:20 flat, no new orders. Hold gold 41 (stop 4095, target 4180, ~20.4h left, +0.09%). MONEYBIZ (25h old, h1 +152%), CBUCKS, COMPUTE fail memecoin filter. Watch next scan: under-10m, h1>+1000%, top10<15%; no macro events",
   "2026-10-21 14:23 UTC [all] 14:23 flat, no new orders. Hold gold 41 (stop 4095, target 4180, ~20.4h left, +0.18%). Speed (54m, h1 +2862%, top10 14%) fails age filter; HUMANOID (81m) fails age and h1. Watch next scan: under-10m, h1>+1000%, top10<15%",
@@ -195,6 +174,9 @@
   "2026-10-21 14:55 UTC [all] 14:55 flat, no new orders. Hold gold 41 (stop 4095, target 4180, ~19.8h left, +0.23%). JEANPHIL (45828m) and GTA6 (109160m) fail the under-10m age filter. Watch next scan: under-10m, h1>+1000%, top10<15%. No macro events",
   "2026-10-21 14:58 UTC [all] 14:58 flat, no new orders. Kemchi (2m, h1 +51%, top10 25%) fails top10 and h1 filters. Gold 41 held (stop 4095, target 4180, ~19.7h left). Watch next scan: under-10m, h1>+1000%, top10<15%; no macro events until gold leve",
   "2026-10-21 15:01 UTC [all] 15:01 no new orders. Gold 41 held (stop 4095, target 4180, ~19.7h left, +0.29%). NeoClouds (11.9m, h1 +165%, top10 18%) fails age/h1/top10. YouTube now 28m, h1 +1878%, fails under-10m filter; not chasing. Watch next scan",
-  "2026-10-21 15:04 UTC [all] 15:04 flat on new orders. Hold gold 41 (stop 4095, target 4180, ~19.6h left, +0.22%). No memecoin passes filter (HUMANOID 56m, h1 +643%; shiit 35m, h1 +161%; MONEYBIZ and wifchi fail). Watch next scan for under-10m, h1>+"
+  "2026-10-21 15:04 UTC [all] 15:04 flat on new orders. Hold gold 41 (stop 4095, target 4180, ~19.6h left, +0.22%). No memecoin passes filter (HUMANOID 56m, h1 +643%; shiit 35m, h1 +161%; MONEYBIZ and wifchi fail). Watch next scan for under-10m, h1>+",
+  "2026-10-21 15:07 UTC [all] 15:07 no new orders. Hold gold 41 (stop 4095, target 4180, ~19.6h left, +0.24%). KIMCHI 22.6m old, h1 +137%, top10 6% fails age filter. DOPE and GATO fail h1. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity a",
+  "2026-10-21 15:10 UTC [all] 15:10 no new orders. Hold gold 41 (stop 4095, target 4180, ~19.5h left, +0.25%). Memecoin filter still empty: PILL 54219m, LARPCHECK 15455m, JEANPHIL 45843m all fail age. Watch next scan: under-10m, h1>+1000%, top10<15%,",
+  "2026-10-21 15:13 UTC [all] 15:13 no new orders. Hold gold 41 (stop 4095, target 4180, ~19.5h left, +0.25%). Memecoin filter still empty: PHP 599m, Pokecity 973m, VEIL 12732m all fail age/h1. Watch next scan: under-10m, h1>+1000%, top10<15%, liquid"
  ]
 }
