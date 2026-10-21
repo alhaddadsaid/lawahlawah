@@ -1,4 +1,8 @@
-"""Three-agent PAPER trading desk (no real money, no wallet, no broker).
+"""Agent PAPER trading desk (no real money, no wallet, no broker).
+
+Since 2026-10-21 the team desk is the EXPERIMENTAL self-organizing team in team.py (no strategy rules,
+news and calendar feeds, journal, hire/fire, $3/day API cap). The description below is the original design.
+
 
 Runs continuously on GitHub Actions (4 runs a day of almost 6 hours each). Every 3 minutes:
   1. Researcher  gathers free data: Solana memecoins (GeckoTerminal trending, DexScreener boosts and
@@ -195,6 +199,7 @@ def closed_trades():
 
 
 def write_trade(t):
+    os.makedirs(DIR, exist_ok=True)
     p = f"{DIR}/trades.csv"
     new = not os.path.exists(p)
     with open(p, "a", newline="") as f:
@@ -218,6 +223,18 @@ def record_summary(trades):
 
 
 # ------------------------------------------------------------------ Claude
+LAST_USAGE = {}
+
+
+def ask(system, user, max_tokens=500):
+    """Claude call that also returns token usage (for the team's budget)."""
+    LAST_USAGE.clear()
+    text = claude(system, user, MODEL, max_tokens)
+    if FAKE:
+        LAST_USAGE.update(input_tokens=len(system + user) // 4, output_tokens=len(text) // 4)
+    return text, dict(LAST_USAGE)
+
+
 def claude(system, user, model, max_tokens=900):
     if FAKE:
         import agents_fake
@@ -230,6 +247,8 @@ def claude(system, user, model, max_tokens=900):
         try:
             with urllib.request.urlopen(req, timeout=90) as r:
                 d = json.loads(r.read().decode())
+            LAST_USAGE.clear()
+            LAST_USAGE.update(d.get("usage", {}))
             return "".join(b.get("text", "") for b in d.get("content", []))
         except urllib.error.HTTPError as e:
             try:
@@ -410,8 +429,8 @@ def check_exits(st, mp, xp):
                     continue
                 px, hi, lo = q
             s = p["side"]
-            hit_stop = (lo <= p["stop"]) if s > 0 else (hi >= p["stop"])
-            hit_tgt = (hi >= p["target"]) if s > 0 else (lo <= p["target"])
+            hit_stop = p["stop"] is not None and ((lo <= p["stop"]) if s > 0 else (hi >= p["stop"]))
+            hit_tgt = p["target"] is not None and ((hi >= p["target"]) if s > 0 else (lo <= p["target"]))
             if hit_stop:
                 fill = min(p["stop"], px) if s > 0 else max(p["stop"], px)   # gaps fill at the worse price
                 events.append(close_pos(st, p, fill, "stop"))
@@ -454,8 +473,9 @@ def write_report(st, record, last):
     L = ["# Agent desk (paper trading)", "",
          f"Updated {iso()}. Runs so far: {st['runs']}. Model: {MODEL}"
          + ("" if API_KEY or FAKE else " (NO API KEY: team desk is idle, add the ANTHROPIC_API_KEY secret)") + ".", "",
-         "Money is paper. Memecoins $200 per trade, costs 2.5% (normal) and 5% (pessimistic) per side. "
-         "Macro trades risk $100 each (1% of $10,000).", "",
+         "Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. "
+         "Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). "
+         "Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.", "",
          "| desk | market | closed trades | win % | P&L normal $ | P&L pessimistic $ |", "|---|---|---|---|---|---|"]
     for desk in ("team", "control"):
         for mk in ("meme", "macro", "all"):
@@ -470,8 +490,13 @@ def write_report(st, record, last):
     L += ["", "## Open positions", ""]
     for d in ("team", "control"):
         for p in st["desks"][d]["open"]:
-            L.append(f"- {d}: {p['symbol']} {'long' if p['side'] > 0 else 'short'} at {p['entry']:.6g}, stop {p['stop']:.6g}, "
-                     f"target {p['target']:.6g}, opened {iso(p['opened'])}")
+            f6 = lambda v: "none" if v is None else f"{v:.6g}"
+            L.append(f"- {d}: {p['symbol']} {'long' if p['side'] > 0 else 'short'} at {p['entry']:.6g}, stop {f6(p['stop'])}, "
+                     f"target {f6(p['target'])}, opened {iso(p['opened'])}")
+    if st.get("team"):
+        sp = sorted(st.get("spend", {}).items())
+        L += ["", "## Team", "", f"API spend today: ${sp[-1][1]:.2f} (cap $3, aiming for about $1.50)" if sp else "API spend today: $0"]
+        L += [f"- {x['name']} ({x['role']}, mission {x['mission']}): {x['instructions']}" for x in st["team"]]
     L += ["", "## Last run", "", last]
     os.makedirs(os.path.dirname(REPORT), exist_ok=True)
     open(REPORT, "w").write("\n".join(L) + "\n")
@@ -524,49 +549,25 @@ def log_close(log, e, extra=""):
 
 
 def scan(st, log):
-    """One research cycle: data, (maybe) a short agent discussion, guardrails, paper orders."""
+    """One cycle: fresh data, the experimental team (when the API key is set), and the rule-based control desk."""
+    import team
     meme = meme_data()
     macro = macro_data()
     t = now()
     cool = st.setdefault("cool", {})
-    for k in [k for k, v in cool.items() if v < t]:
+    for k in [k for k in cool if cool[k] < t]:
         del cool[k]
-    fresh = [r for r in meme if basic_safe(r) and f"talk:{r['mint']}" not in cool][:8]
-    macro_due = bool(macro) and t - st.get("last_macro_talk", 0) >= MACRO_REVIEW_MIN * 60
-    day = str(dt.datetime.now(dt.timezone.utc).date())
-    talks = st.setdefault("talks", {})
-    orders = []
-    if (fresh or macro_due) and (API_KEY or FAKE) and "api_pause" not in cool:
-        if talks.get(day, 0) >= MAX_TALKS_PER_DAY:
-            if not st.get("cap_logged") == day:
-                log.append(f"- team: daily limit of {MAX_TALKS_PER_DAY} discussions reached, agents pause until tomorrow (UTC)")
-                st["cap_logged"] = day
-        else:
-            talks[day] = talks.get(day, 0) + 1
-            for k in list(talks):
-                if k < day:
-                    del talks[k]
-            for r in fresh:
-                cool[f"talk:{r['mint']}"] = t + COOLDOWN_MIN * 60
-            if macro_due:
-                st["last_macro_talk"] = t
-            researcher, analyst, sniper, orders = discuss(fresh, macro if macro_due else {}, st, record_summary(closed_trades()))
-            if researcher.startswith("(model call failed"):
-                # do not burn the daily budget or skip these tokens: undo, pause the agents 10 minutes, retry later
-                talks[day] -= 1
-                for r in fresh:
-                    cool.pop(f"talk:{r['mint']}", None)
-                if macro_due:
-                    st["last_macro_talk"] = 0
-                cool["api_pause"] = t + 600
-                log.append(f"- team: Claude API error, agents paused 10 minutes: {researcher[19:-1]}")
-                orders = []
-            else:
-                log += [f"### {iso()} discussion ({len(fresh)} new tokens{', gold/forex review' if macro_due else ''})", "",
-                        "**Desk debate**", "", researcher] + (["", "**Independent analyst check**", "", analyst, "", "```", sniper.strip(), "```"] if analyst else [])
-    if len(orders) > CFG["max_new_per_run"]:
-        log.append(f"- team: {len(orders) - CFG['max_new_per_run']} extra order(s) dropped (limit {CFG['max_new_per_run']} per discussion)")
-    for desk_name, ords in (("team", orders[:CFG["max_new_per_run"]]), ("control", control_orders(meme, macro, st))):
+    fresh = [r for r in meme if f"seen:{r['mint']}" not in cool][:8]
+    for r in fresh:
+        cool[f"seen:{r['mint']}"] = t + COOLDOWN_MIN * 60
+    if API_KEY or FAKE:
+        def live(market, key):
+            if market == "meme":
+                return meme_prices([key]).get(key)
+            q = macro_prices([key]).get(key)
+            return q[0] if q else None
+        team.cycle(st, meme, fresh, macro, closed_trades(), log, ask, live, close_pos, iso, fake=FAKE)
+    for desk_name, ords in (("control", control_orders(meme, macro, st)),):
         for o in ords:
             chk, why = check_order(o, meme, macro, st["desks"][desk_name])
             if not chk:
