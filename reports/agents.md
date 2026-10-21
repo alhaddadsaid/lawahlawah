@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 02:48 UTC. Runs so far: 5. Model: claude-haiku-5-5.
+Updated 2026-10-21 03:00 UTC. Runs so far: 5. Model: claude-haiku-5-5.
 
 Money is paper. Memecoins $200 per trade, costs 2.5% (normal) and 5% (pessimistic) per side. Macro trades risk $100 each (1% of $10,000).
 
@@ -25,10 +25,10 @@ Verdict: too early, 0 of 50 team trades needed before judging.
 
 ## Last run
 
-### 2026-10-21 02:48 UTC discussion (6 new tokens)
+### 2026-10-21 03:00 UTC discussion (5 new tokens)
 
 **Desk debate**
 
-**RESEARCHER:** Two ide
-- 2026-10-21 02:48 UTC control: OPENED Trencher long at 0.0001888 (stop 0.00015104, target 0.00026432) - control: frozen v3 rules
+**RESEARCHER:** Two ideas. (1) Trencher: +97% in 1h, +12.6% in 5
+- control: order GOLD REJECTED by guardrails: desk already has the maximum open positions
 
