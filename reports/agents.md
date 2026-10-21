@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 17:36 UTC. Runs so far: 10. Model: claude-haiku-5-5.
+Updated 2026-10-21 17:46 UTC. Runs so far: 10. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -30,11 +30,12 @@ API spend today: $0.10 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 17:36 UTC team all (memecoins), spent today $0.097
+### 2026-10-21 17:46 UTC team all (memecoins + gold/forex), spent today $0.099
 
-Lead: Hold. The memecoin filter is still empty. None of the tradeable names are under 10 minutes old with h1 above +1000% and top10 below 15%. Gold 41 is at about 4149, inside its stop (4095) and target (4180) range with about 17h left, so no change. Scout: no macro catalyst is flagged in the calendar or news. Sniper: no orders, no early exits. Next scan: keep the under-10m, h1>+1000%, top10<15%, liquidity filter.
+Scout: MrBeast is +1177% in 1h with top10 at 13.9%, but it is 17.6 min old, so it fails the under-10-min rule. JOCAT (26.8m) and KICITY (14.5m) also fail age, and the rest are mature or have weak 1h moves.
+Sniper: No order passes the filter, so there is no entry.
+Lead: Hold gold 41 unchanged. Its stop and target are intact, and the 5-day range position still supports the thesis. Nothing qualifies, so no trades.
 
-{"orders": [], "close": [], "note": "17:36 no new orders. Hold gold 41 (stop 4095, target 4180, price ~4149, ~17.1h left). Memecoin filter empty again: DOPE 4d old, h1 +21.7%; ALPENGLOW, RIBBIT, MCDx fail age/h1/top10. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity OK; no macro catalyst."}
+{"orders": [], "close": [], "note": "17:46 no new orders. Hold gold 41 (stop 4095, target 4180, price 4151.7, ~16.9h left). Memecoin filter empty: MrBeast h1 +1177% and top10 13.9% pass but age 17.6m fails under-10m; JOCAT 26.8m, KICITY 14.5m fail age. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity OK; MrBeast re-check only if it is still tradeable and passes age (it will not). No macro catalyst in 24h."}
 
-- control: order Pokémon REJECTED by guardrails: Pokémon already open
 
