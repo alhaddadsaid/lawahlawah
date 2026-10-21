@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 9127.625120199173,
+   "cash": 8922.343568534,
    "open": [
     {
      "id": 6,
@@ -38,68 +38,125 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 29,
+     "id": 31,
      "desk": "control",
      "market": "meme",
-     "symbol": "startupSI",
-     "mint": "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
+     "symbol": "COMPUTE",
+     "mint": "GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump",
      "side": 1,
-     "opened": 1792560248.7244036,
-     "entry": 7.716e-05,
-     "stop": 6.1728e-05,
-     "target": 0.000108024,
-     "size": 2592016.588906169,
-     "deadline": 1792567448.7244039,
+     "opened": 1792571539.959865,
+     "entry": 0.0002347,
+     "stop": 0.00018776,
+     "target": 0.00032858,
+     "size": 852151.6829995739,
+     "deadline": 1792578739.9598656,
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 30,
+     "id": 32,
      "desk": "control",
      "market": "meme",
-     "symbol": "CPU",
-     "mint": "cpuxtvVNNVGDHpk1MHyv4cC6d1rFmHBf7xAJCPHF3NY",
+     "symbol": "GUZZLEGOAT",
+     "mint": "4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump",
      "side": 1,
-     "opened": 1792560432.4797108,
-     "entry": 0.0001246,
-     "stop": 9.968000000000001e-05,
-     "target": 0.00017444,
-     "size": 1605136.436597111,
-     "deadline": 1792567632.479711,
+     "opened": 1792571722.4028268,
+     "entry": 0.0003,
+     "stop": 0.00024,
+     "target": 0.0004199999999999999,
+     "size": 666666.6666666667,
+     "deadline": 1792578922.4028273,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 33,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "earth",
+     "mint": "2qgnTgJbZU6Tu6CMrm5Z5ePDGuUAyGTACbBoBCw6pump",
+     "side": 1,
+     "opened": 1792571904.4161844,
+     "entry": 6.647e-05,
+     "stop": 5.317600000000001e-05,
+     "target": 9.3058e-05,
+     "size": 3008876.1847449974,
+     "deadline": 1792579104.4161847,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 31,
- "runs": 5,
+ "next_id": 34,
+ "runs": 6,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "talk:4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792560966.5467434,
-  "talk:Df6yfrKC8kZE3KNkrHERKzAetSxbrWeniQfyJY4Jpump": 1792560966.5467434,
-  "talk:FhTRVAkQeiaLRJHYc13DBNhgw9N8ZPacvonaKfXxpump": 1792560966.5467434,
-  "talk:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792560966.5467434,
-  "control:8bBQP9ngcjyr7g1ytggodjaaQSHSyNcnxCrm8YN9pump": 1792560969.9778388,
-  "talk:7wY4rfVsUcNcwKcrLw6CHazzXw4bihcwP73ynj6jpump": 1792561145.7320383,
-  "talk:DvdmEnztCmXwBnAbedD48XVGZJSxq31zNvnyftXdpump": 1792561145.7320383,
-  "control:EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump": 1792561148.724407,
-  "talk:AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump": 1792561329.490425,
-  "talk:BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t": 1792561329.490425,
-  "talk:E1FTwWrBi3tVQqYTmLVBJP36db3EfzbiiTpMFkD7Qsmh": 1792561329.490425,
-  "talk:FRCQ4yQd2kkXKwmnVLw15KMxNLXASrjrJHJCnpeMpump": 1792561329.490425,
-  "talk:8XtRWb4uAAJFMP4QQhoYYCWR6XXb7ybcCdiqPwz9s5WS": 1792561329.490425,
-  "control:cpuxtvVNNVGDHpk1MHyv4cC6d1rFmHBf7xAJCPHF3NY": 1792561332.4797142,
-  "talk:7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump": 1792561513.316787,
-  "talk:8J6YRpyBDtKkLYmknBrCv9msioNiSoqVD4bUSyT8pump": 1792561513.316787,
-  "talk:cpuxtvVNNVGDHpk1MHyv4cC6d1rFmHBf7xAJCPHF3NY": 1792561513.316787,
-  "talk:2qq8b3qgAi8TRf7p3y2s5nDJeH3wD7BGwaQQJ2pYpump": 1792561696.8417897,
-  "talk:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792561696.8417897,
-  "talk:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1792561696.8417897,
-  "talk:8bBQP9ngcjyr7g1ytggodjaaQSHSyNcnxCrm8YN9pump": 1792561696.8417897,
-  "talk:EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump": 1792561696.8417897
+  "seen:F7uXVws14u2tmWaG4GNgC36Q1LBxt9exTG6mfRTZkAUB": 1792572435.866825,
+  "seen:4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump": 1792572435.866825,
+  "seen:65ruvkKxdqmR2aaohdLykPQ9GmYQkjrVcWhX8Lcrpump": 1792572435.866825,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792572435.866825,
+  "seen:7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump": 1792572435.866825,
+  "seen:4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792572435.866825,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1792572435.866825,
+  "seen:A2Pzp4WaVET8voXy8eh36TrfivW62KSrpLtmzuEXpump": 1792572435.866825,
+  "control:GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": 1792572439.9598694,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792572618.4991896,
+  "seen:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": 1792572618.4991896,
+  "seen:AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump": 1792572618.4991896,
+  "seen:GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": 1792572618.4991896,
+  "seen:D42TjMjz5H7toPu5md5KBXreZkCSdZMEfLQwmBhJXvb1": 1792572618.4991896,
+  "control:4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump": 1792572622.4028306,
+  "seen:HizwEB1ywB4wrHBYtBf5R7hotsuidonJPAiHCGxpump": 1792572800.9398189,
+  "seen:2qgnTgJbZU6Tu6CMrm5Z5ePDGuUAyGTACbBoBCw6pump": 1792572800.9398189,
+  "control:2qgnTgJbZU6Tu6CMrm5Z5ePDGuUAyGTACbBoBCw6pump": 1792572804.4161882,
+  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792572982.8460329
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 497932
+ "ctrl_macro_hour": 497932,
+ "team": [
+  {
+   "name": "Lead",
+   "role": "team lead and analyst",
+   "mission": "all",
+   "instructions": "Decide what the team trades. Weigh every idea against costs and the journal. Look for repeatable edges, not one-off bets."
+  },
+  {
+   "name": "Scout",
+   "role": "researcher",
+   "mission": "all",
+   "instructions": "Bring ideas from prices, news, the economic calendar and politics. State each idea as a testable hypothesis."
+  },
+  {
+   "name": "Sniper",
+   "role": "execution",
+   "mission": "all",
+   "instructions": "Turn approved ideas into exact orders: size, optional stop and target, holding time, and early exits."
+  }
+ ],
+ "last_review": 1792571535.8670912,
+ "news": {
+  "t": 1792571535.8670964,
+  "crypto": [
+   "Ether ETF outflows continue, pass $1B in October so far (0h ago)",
+   "Zcash developers confirm November date for upgrade that triples payment speed (0h ago)",
+   "Here\u2019s what happened in crypto today (3h ago)",
+   "Malaysia central bank launches DLT platform for tokenized bonds (3h ago)",
+   "Ripple brings Wall Street into 24/7 stock bets, but HSBC warns markets are still thin (3h ago)",
+   "Tech giants rush to block 8 eMudhra certs that could enable fake sites (3h ago)",
+   "Solana\u2019s Alpenglow, its biggest network overhaul since 2020, goes live Wednesday (4h ago)",
+   "A company that vouches for websites had secret keys so weak that 8 of them were cracked (4h ago)",
+   "Bitcoin hovers around $83,000 as AI earnings revive tech, ZEC jumps 11% (4h ago)",
+   "Musk says SpaceX-Tesla merger a \u2018good idea\u2019 as AI revenue jumps ninefold (7h ago)"
+  ],
+  "macro": [],
+  "calendar": [
+   "GBP CPI y/y was 2.5h, forecast 3.4%, previous 3.1%"
+  ]
+ },
+ "spend": {
+  "2026-10-21": 0.001698
+ },
+ "last_meme_all": 1792572082.8462749,
+ "last_macro_all": 1792571535.8670902
 }
