@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 09:28 UTC. Runs so far: 9. Model: claude-haiku-5-5.
+Updated 2026-10-21 09:37 UTC. Runs so far: 9. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -31,12 +31,12 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 09:28 UTC team all (memecoins), spent today $0.010
+### 2026-10-21 09:37 UTC team all (memecoins + gold/forex), spent today $0.011
 
-Lead: No trade. No live token passes the under-10-min, >1000% 1h filter. GATO (about 57 days old) and MONEYBIZ (about 20 hours old) both fail it, and costs of 2.5-5% per side would swamp any small move. Macro has no edge: ETH ETF outflows are news, not a tested signal.
-Scout: Hypothesis to test next: after a fresh token (under 10 min, h1 over 1000%) appears, does price reverse or continue over the next hour? Log the price path.
-Sniper: No orders. Stay flat until a qualifying token appears.
+Lead: No trade. No live memecoin passes the under-10-min, >1000% 1h filter. LOAN (+66% 1h, 263 min old) and the others fail it.
+Scout: Macro is quiet. No high-impact calendar events in 24h, and the macro news gives no clear FX or gold edge.
+Sniper: Nothing to size. Staying flat and watching for the next fresh token with h1 over 1000%, then logging its price path for the reversal-vs-continuation test.
 
-{"orders": [], "close": [], "note": "No trades. Flat, no open positions. Watch: next fresh token with age under 10 min and h1 over 1000%; log its price path for the reversal-vs-continuation test. Track MONEYBIZ and GATO only for filter changes. Macro: ETH ETF outflows over $1B in October, no tested edge yet."}
+{"orders": [], "close": [], "note": "Flat, no trades. Watch: next token under 10 min old with h1 over 1000%; log price path for reversal-vs-continuation test. Track TikTok US, MONEYBIZ, GATO, LWK, LARRY only for filter changes. Macro: no calendar events, no edge."}
 
 
