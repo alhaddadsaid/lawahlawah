@@ -492,8 +492,16 @@ def git_sync(msg="agent desk update"):
         return
     sh("git", "commit", "-m", msg)
     for _ in range(4):
-        if sh("git", "pull", "--rebase").returncode == 0 and sh("git", "push").returncode == 0:
-            return
+        # -X theirs: when replaying our commit, our own desk files win any conflict with an older save
+        p = sh("git", "pull", "--rebase", "--autostash", "-X", "theirs")
+        if p.returncode != 0:
+            sh("git", "rebase", "--abort")
+            print(f"git pull failed: {(p.stderr or p.stdout)[-300:]}", flush=True)
+        else:
+            q = sh("git", "push")
+            if q.returncode == 0:
+                return
+            print(f"git push failed: {(q.stderr or q.stdout)[-300:]}", flush=True)
         time.sleep(5)
 
 
