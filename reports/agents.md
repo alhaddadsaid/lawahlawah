@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 01:38 UTC. Runs so far: 5. Model: claude-haiku-5-5.
+Updated 2026-10-21 01:47 UTC. Runs so far: 5. Model: claude-haiku-5-5.
 
 Money is paper. Memecoins $200 per trade, costs 2.5% (normal) and 5% (pessimistic) per side. Macro trades risk $100 each (1% of $10,000).
 
@@ -24,9 +24,10 @@ Verdict: too early, 0 of 50 team trades needed before judging.
 
 ## Last run
 
-### 2026-10-21 01:38 UTC discussion (4 new tokens)
+### 2026-10-21 01:47 UTC discussion (4 new tokens)
 
 **Desk debate**
 
-**RESEARCHER:** Four memecoin candidates passed the filter. The strongest-looking one is ORANGIE (2.2 min old, +57% in 5m, 917 holders, top10 at 40%, liquidity $20.8k). Its age and spike with no base make it closer to a launch-pump than a setup. Macro was not review
+
+- control: order startupSI REJECTED by guardrails: startupSI already open
 
