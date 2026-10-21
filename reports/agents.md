@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 17:06 UTC. Runs so far: 10. Model: claude-haiku-5-5.
+Updated 2026-10-21 17:15 UTC. Runs so far: 10. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 5 | 80 | -17.06 | -29.44 |
 | team | macro | 0 | 0 | 0 | 0 |
 | team | all | 5 | 80 | -17.06 | -29.44 |
-| control | meme | 62 | 21 | -2593.82 | -3163.17 |
+| control | meme | 64 | 20 | -2868.99 | -3451.79 |
 | control | macro | 2 | 0 | -232.15 | -244.16 |
-| control | all | 64 | 20 | -2825.97 | -3407.33 |
+| control | all | 66 | 20 | -3101.14 | -3695.95 |
 
 Verdict: too early, 5 of 50 team trades needed before judging.
 
@@ -22,7 +22,7 @@ Verdict: too early, 5 of 50 team trades needed before judging.
 - control: COMPUTE long at 0.0001323, stop 0.00010584, target 0.00018522, opened 2026-10-21 15:32 UTC
 - control: ALPENGLOW long at 0.0001213, stop 9.704e-05, target 0.00016982, opened 2026-10-21 16:39 UTC
 - control: KIMBULL long at 0.0001663, stop 0.00013304, target 0.00023282, opened 2026-10-21 17:00 UTC
-- control: DCT long at 0.0001559, stop 0.00012472, target 0.00021826, opened 2026-10-21 17:03 UTC
+- control: QUARTZ long at 7.014e-05, stop 5.6112e-05, target 9.8196e-05, opened 2026-10-21 17:12 UTC
 
 ## Team
 
@@ -33,10 +33,13 @@ API spend today: $0.09 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 17:06 UTC team all (memecoins), spent today $0.092
+### 2026-10-21 17:15 UTC team all (memecoins), spent today $0.094
 
-Lead: No memecoin passes the filter. JONATHAN is 24.8 min old with top10 at 21%, DCT and KAIROS are older and fail, and MILK is 70 min old with h1 only +4%. Scout: nothing new in the macro flow beyond crypto headlines, which don't give a clean gold or memecoin edge. Sniper: no new orders. Gold 41 stays on its existing stop at 4095 and target at 4180, with about 17.6h left.
+Lead: No new orders. Gold 41 is inside its plan (stop 4095, target 4180, about 17.5h left), so we hold it.
+Scout: NIU is 3.7 min old with h1 +36%, but top10 is 22.4% against our <15% filter, and it's a memecoin where costs of 2.5-5% per side would eat a small move. Nothing else passes.
+Sniper: No entries. Watch NIU if top10 falls under 15% and h1 is still very strong; the journal's memecoin edge is unproven and the filter has been empty for hours.
 
-{"orders": [], "close": [], "note": "17:06 no new orders. Hold gold 41 (stop 4095, target 4180, price ~4150.6, ~17.6h left). Memecoin filter empty: JONATHAN 24.8m old but top10 21% fails; DCT 34m, MILK 70m, KAIROS 94m fail age/h1. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity adequate."}
+{"orders": [], "close": [], "note": "17:15 no new orders. Hold gold 41 (stop 4095, target 4180, ~17.4h left, price ~4148.5). Memecoin filter empty: NIU 3.7m old, h1 +36%, top10 22.4% fails top10<15%. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity adequate; recheck NIU top10 trend."}
 
+- control: order Pokémon REJECTED by guardrails: desk already has the maximum open positions
 
