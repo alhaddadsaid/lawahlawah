@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 08:41 UTC. Runs so far: 6. Model: claude-haiku-5-5.
+Updated 2026-10-21 08:44 UTC. Runs so far: 6. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -32,13 +32,11 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 08:41 UTC team all (memecoins), spent today $0.002
+### 2026-10-21 08:44 UTC team all (memecoins), spent today $0.002
 
 **Discussion**
 
-- **Scout:** Only one memecoin passed the filter, MONEYBIZ. It bounced +7.75% over 5 minutes after a -9.39% hour, but that's a single noisy candle. The news flow (ETF outflows, Solana Alpenglow, Zcash upgrade) doesn't clearly map to this token. No macro data was supplied, so there's no calendar-based idea.
-- **Sniper:** Round-trip cost on memecoins is roughly 5-10% (2.5-5% per side). A 0.5% position would need a move of well over 5% just to break even. Liquidity is about $63k, so exits could slip badly. Any stop or target I set would be arbitrary.
-- **Lead:** No repeatable edge, no journal history, and costs exceed any plausible short-term move. The team should not trade this. We'll watch MONEYBIZ and log whether post
+- **Scout:** CBUCKS is up 11% over both
 
 - control: order BACKERS REJECTED by guardrails: desk already has the maximum open positions
 
