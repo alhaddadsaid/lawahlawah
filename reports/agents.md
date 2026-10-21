@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 21:20 UTC. Runs so far: 11. Model: claude-haiku-5-5.
+Updated 2026-10-21 21:29 UTC. Runs so far: 11. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 8 | 75 | -98.27 | -121.37 |
 | team | macro | 0 | 0 | 0 | 0 |
 | team | all | 8 | 75 | -98.27 | -121.37 |
-| control | meme | 80 | 22 | -3547.79 | -4277.28 |
+| control | meme | 81 | 22 | -3747.94 | -4482.56 |
 | control | macro | 3 | 33 | -105.13 | -120.98 |
-| control | all | 83 | 23 | -3652.92 | -4398.26 |
+| control | all | 84 | 23 | -3853.07 | -4603.54 |
 
 Verdict: too early, 8 of 50 team trades needed before judging.
 
 ## Open positions
 
 - team: GOLD long at 4138.1, stop 4095, target 4180, opened 2026-10-21 10:41 UTC
+- team: YouTube long at 0.0004972, stop 0.000422874, target 0.000596998, opened 2026-10-21 21:26 UTC
 - control: GBPUSD long at 1.3389, stop 1.33788, target 1.34044, opened 2026-10-21 21:02 UTC
-- control: 4 long at 0.0001746, stop 0.00013968, target 0.00024444, opened 2026-10-21 21:20 UTC
 
 ## Team
 
@@ -30,11 +30,10 @@ API spend today: $0.14 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 21:20 UTC team all (memecoins + gold/forex), spent today $0.139
+### 2026-10-21 21:29 UTC team all (memecoins), spent today $0.141
 
-Lead: No new orders. Kimchipad (9 min old) fails the filter at +228% 1h and 22% top10. Dacity and LARPCHECK are old. Macro calendar is empty and crypto news isn't a clear catalyst. Gold 41 stays open under its stop 4095 and target 4180. Scout: the under-10m, +1000% 1h, top10<15% memecoin setup has had no passes in this session's scans. Sniper: no orders. Speed 93 appears in the notes but not in the live open-position list, so it needs checking before anything else is done with it.
+Lead: No new trades. Gold 41 stays open under its plan (stop 4095, target 4180). YouTube 95 is +6.9% with about 1h left, so it runs to its time stop with its stop in place. KIMCHI (34m old, h1 +1649%, top10 1.4%) and KIMCHI 2 (22m old) fail the under-10-minute age rule, so no memecoin entries. Scout: the rule still needs a fresh under-10m listing. Sniper: Speed 93 is in the notes but not in the live book, so it needs checking before anything else is done with it.
 
-{"orders": [], "close": [], "note": "21:20 no new orders; hold gold 41 (4159.5, stop 4095, target 4180, ~13.3h left). Kimchipad 9m old fails (h1 +228%, top10 22%). Speed 93 is in notes but not in live open list; verify. Watch next: under-10m listings with h1>+1000%, top10<15%, adequate liquidity."}
+{"orders": [], "close": [], "note": "21:29 no new orders; hold gold 41 (4159.5, stop 4095, target 4180, ~13.2h left) and YouTube 95 (+6.9%, stop 0.000423, target 0.000597, ~1h to time stop). KIMCHI 34m and KIMCHI 2 22m fail age rule. Speed 93 still unverified, not in live book. Watch next: under-10m listings with h1>+1000%, top10<15%, liquidity adequate."}
 
-- 2026-10-21 21:20 UTC control: OPENED 4 long at 0.0001746 (stop 0.00013968, target 0.00024444) - control: frozen v3 rules
 
