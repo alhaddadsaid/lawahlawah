@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 00:28 UTC. Runs so far: 5. Model: claude-haiku-5-5.
+Updated 2026-10-21 00:37 UTC. Runs so far: 5. Model: claude-haiku-5-5.
 
 Money is paper. Memecoins $200 per trade, costs 2.5% (normal) and 5% (pessimistic) per side. Macro trades risk $100 each (1% of $10,000).
 
@@ -25,11 +25,11 @@ Verdict: too early, 0 of 50 team trades needed before judging.
 
 ## Last run
 
-### 2026-10-21 00:28 UTC discussion (1 new tokens)
+### 2026-10-21 00:37 UTC discussion (2 new tokens)
 
 **Desk debate**
 
-**RESEARCHER:** One candidate: Pokecity (4wopER...pump). Price 0.0006, mcap $554.8k, liquidity $64.4k, 2,675 holders, top10 4.5%, insider 0%. Age 87 min, +336% over 1h, but only +6.8% over 5m. Volume over 5m is $8,976.
-
-**ANALYST:** REJECT. The 1h move is a parabolic run, and the 5m
+**RESEARCHER**
+- **umi:** +566% in 1h, 12.9 min old, top10 holds 79.3%, m5 -4.3%. Parabolic with heavy concentration, so a rug or dump risk is high.
+- **claytonkimm:** +289% in 1h, 38 min old, top10 at 2.5%, liquidity $53k, m5 +11.8% on $9.4k volume. Cleaner distribution, but volume is thin and the price is
 
