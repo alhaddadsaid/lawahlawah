@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 14:02 UTC. Runs so far: 9. Model: claude-haiku-5-5.
+Updated 2026-10-21 14:11 UTC. Runs so far: 9. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -32,12 +32,12 @@ API spend today: $0.06 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 14:02 UTC team all (memecoins), spent today $0.058
+### 2026-10-21 14:11 UTC team all (memecoins), spent today $0.060
 
-Scout: no memecoin passes our filter. wifchi is 12.9m old, h1 +404%, top10 73.7%. Grok is 52.9m old. Nothing qualifies.
-Sniper: no new entry. Gold 41 is +0.37% with stop 4095 and target 4180, about 20.7h left.
-Lead: hold gold, no new orders, memecoin hypothesis stays paused. Macro calendar is quiet for 24h, so there is no event risk to trade around.
+Lead: No new trades. Gold 41 is working toward its target, and its stop and target stay in place.
+Scout: No memecoin passes under-10m age, h1>+1000%, and top10<15%. chud is 24.8m old with h1 +20%, so it fails. No macro events in 24h.
+Sniper: No orders. Hold gold 41 (stop 4095, target 4180).
 
-{"orders": [], "close": [], "note": "14:02 flat, no new orders. Hold gold 41 (stop 4095, target 4180, ~20.7h left, +0.37%). wifchi (12.9m, h1 +404%, top10 73.7%) and Grok (53m) fail memecoin filter. Watch next scan: under-10m, h1>+1000%, top10<15%; no macro events in 24h."}
+{"orders": [], "close": [], "note": "14:11 flat, no new orders. Hold gold 41 (stop 4095, target 4180, ~20.5h left, +0.21%). chud (24.8m, h1 +20%) fails age filter. No macro events in 24h. Watch next scan: under-10m, h1>+1000%, top10<15%; memecoin hypothesis stays paused."}
 
 
