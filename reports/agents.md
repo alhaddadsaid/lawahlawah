@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 03:00 UTC. Runs so far: 5. Model: claude-haiku-5-5.
+Updated 2026-10-21 03:09 UTC. Runs so far: 5. Model: claude-haiku-5-5.
 
 Money is paper. Memecoins $200 per trade, costs 2.5% (normal) and 5% (pessimistic) per side. Macro trades risk $100 each (1% of $10,000).
 
@@ -25,10 +25,12 @@ Verdict: too early, 0 of 50 team trades needed before judging.
 
 ## Last run
 
-### 2026-10-21 03:00 UTC discussion (5 new tokens)
+### 2026-10-21 03:09 UTC discussion (4 new tokens)
 
 **Desk debate**
 
-**RESEARCHER:** Two ideas. (1) Trencher: +97% in 1h, +12.6% in 5
-- control: order GOLD REJECTED by guardrails: desk already has the maximum open positions
+**RESEARCHER:** Four memecoins passed the filter. BAAUMI (6 min old) is down 53% over 5 min on $114k 5-min volume against $18k liquidity, which looks like a dump. fomo is up 1118% in 1h and 26% in 5 min at 6 min old, so it's a chase. ORANGIE is down 22% in 1h with 39% top-10 concentration. GTA6 is mature ($3.3M mcap) with flat moves (1.7% over 5 min).
+
+**ANALYST:**
+- BAAUMI: REJECT. Active distribution, and a 10-30%
 
