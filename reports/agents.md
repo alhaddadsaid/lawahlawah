@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 01:29 UTC. Runs so far: 5. Model: claude-haiku-5-5.
+Updated 2026-10-21 01:38 UTC. Runs so far: 5. Model: claude-haiku-5-5.
 
 Money is paper. Memecoins $200 per trade, costs 2.5% (normal) and 5% (pessimistic) per side. Macro trades risk $100 each (1% of $10,000).
 
@@ -24,12 +24,9 @@ Verdict: too early, 0 of 50 team trades needed before judging.
 
 ## Last run
 
-### 2026-10-21 01:29 UTC discussion (1 new tokens)
+### 2026-10-21 01:38 UTC discussion (4 new tokens)
 
 **Desk debate**
 
-**RESEARCHER:** One candidate: Pokecity. Price 0.0006, mcap $582k, liquidity $66k, age 148 min, 2,804 holders, top10 at 4.49%, insider 0%. m5 change is -46% with h1 at +2.84%, so the token just had a sharp flush. Volume over 5 minutes is $6.3k. No macro review this cycle.
-
-**ANALYST:** REJECT. The -46% m5 move is a dump, not a base. Entering now means catching a falling knife, and the 2.5-5% per-side cost eats any bounce. Holder and
-- 2026-10-21 01:29 UTC control: OPENED startupSI long at 8.566e-05 (stop 6.8528e-05, target 0.000119924) - control: frozen v3 rules
+**RESEARCHER:** Four memecoin candidates passed the filter. The strongest-looking one is ORANGIE (2.2 min old, +57% in 5m, 917 holders, top10 at 40%, liquidity $20.8k). Its age and spike with no base make it closer to a launch-pump than a setup. Macro was not review
 
