@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 16:45 UTC. Runs so far: 10. Model: claude-haiku-5-5.
+Updated 2026-10-21 16:54 UTC. Runs so far: 10. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 5 | 80 | -17.06 | -29.44 |
 | team | macro | 0 | 0 | 0 | 0 |
 | team | all | 5 | 80 | -17.06 | -29.44 |
-| control | meme | 61 | 21 | -2515.45 | -3076.56 |
+| control | meme | 62 | 21 | -2593.82 | -3163.17 |
 | control | macro | 2 | 0 | -232.15 | -244.16 |
-| control | all | 63 | 21 | -2747.6 | -3320.72 |
+| control | all | 64 | 20 | -2825.97 | -3407.33 |
 
 Verdict: too early, 5 of 50 team trades needed before judging.
 
@@ -31,12 +31,10 @@ API spend today: $0.09 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 16:45 UTC team all (memecoins), spent today $0.088
+### 2026-10-21 16:54 UTC team all (memecoins), spent today $0.090
 
-Scout: No memecoin passes the filter. Kimchipad is 4 min old with +427% h1, but top10 holds 60.6%, far above the 15% limit. QUARTZ and KIMCHINU fail on age and h1.
-Sniper: No new entries. Gold position 41 keeps its stop at 4095 and target at 4180.
-Lead: Stay flat on memes. The fresh-launch thesis has cost money in the journal, and this scan has no qualifying setup. Hold gold, no new orders. Keep watching for under-10-minute tokens with top10 under 15%.
+Lead: Hold. Gold 41 stays open with its stop at 4095 and target at 4180. No memecoin passes the under-10-minute, h1 above +1000%, top10 below 15% filter. The Scout's ideas are not testable here, and the Sniper has no valid entry, so no orders.
 
-{"orders": [], "close": [], "note": "16:45 no new orders. Hold gold 41 (stop 4095, target 4180, price ~4150, ~18h left). Memecoin filter empty: Kimchipad 4m old, h1 +427% but top10 60.6% fails; QUARTZ 21m and KIMCHINU 64m fail age. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity adequate. Consider dropping meme-chasing if filter stays empty; journal shows losses on that setup."}
+{"orders": [], "close": [], "note": "16:54 no new orders. Hold gold 41 (stop 4095, target 4180, ~17.8h left, price 4150.8). Memecoin scan: PILL, BATON, GLITCH all fail age and/or h1 filter. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity adequate. Scout idea to test if one appears: fresh memecoins with extreme h1 gain and low top10 continue up 20%."}
 
 
