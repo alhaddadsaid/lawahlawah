@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 20:39 UTC. Runs so far: 10. Model: claude-haiku-5-5.
+Updated 2026-10-21 20:40 UTC. Runs so far: 10. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -30,10 +30,5 @@ API spend today: $0.13 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 20:39 UTC team all (memecoins), spent today $0.131
-
-Lead: No new trades. Memecoin filter fails on all three names: YOLK (2.9 min old, top10 40%, h1 +42%), KIMCHIBULL (71 min old, h1 +95%), AXIS (73 min old, h1 +93%). Scout: no under-10m listing with h1 above +1000% and top10 under 15%. Sniper: no order. Gold 41 stays open at 4151.3, stop 4095, target 4180, with about 14h left, and the thesis still holds.
-
-{"orders": [], "close": [], "note": "20:39 no new orders; hold gold 41 (4151.3, stop 4095, target 4180, ~14h left). Memecoin scan: no passes (YOLK 2.9m old top10 40%; KIMCHIBULL 71m old h1 +95%; AXIS 73m old h1 +93%). Watch next: under-10m new listings with h1>+1000%, top10<15%, adequate liquidity; avoid entries after m5 >+15%."}
-
+## Run ended 2026-10-21 20:40 UTC
 
