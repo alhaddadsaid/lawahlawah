@@ -2,10 +2,27 @@
  "desks": {
   "team": {
    "cash": 10000.0,
-   "open": []
+   "open": [
+    {
+     "id": 34,
+     "desk": "team",
+     "market": "meme",
+     "symbol": "TikTok US",
+     "mint": "6GLAW26M4w7P5Bnu7Bb6G5AyddyjghPDZeDPei4Wpump",
+     "side": 1,
+     "opened": 1792573213.4728606,
+     "entry": 0.0004939,
+     "stop": 0.00037,
+     "target": 0.000593,
+     "size": 101235.06782749544,
+     "deadline": 1792576813.4728606,
+     "thesis": "[Lead] Memecoins under 10 min old with >1000% 1h gain and top10 under 15% continue up 20% within 1h despite 5-10% round-trip costs",
+     "size_pct": 0.5
+    }
+   ]
   },
   "control": {
-   "cash": 8922.343568534,
+   "cash": 8990.343568534,
    "open": [
     {
      "id": 6,
@@ -53,21 +70,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 32,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GUZZLEGOAT",
-     "mint": "4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump",
-     "side": 1,
-     "opened": 1792571722.4028268,
-     "entry": 0.0003,
-     "stop": 0.00024,
-     "target": 0.0004199999999999999,
-     "size": 666666.6666666667,
-     "deadline": 1792578922.4028273,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 33,
      "desk": "control",
      "market": "meme",
@@ -81,37 +83,53 @@
      "size": 3008876.1847449974,
      "deadline": 1792579104.4161847,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 35,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "GUZZLEGOAT",
+     "mint": "4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump",
+     "side": 1,
+     "opened": 1792573579.9266534,
+     "entry": 0.0004156,
+     "stop": 0.00033248,
+     "target": 0.00058184,
+     "size": 481231.9538017324,
+     "deadline": 1792580779.9266536,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 34,
- "runs": 7,
+ "next_id": 36,
+ "runs": 8,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792572982.8460329,
-  "seen:EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump": 1792573166.0569196,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1792573166.0569196,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1792573220.3672206,
-  "seen:F7uXVws14u2tmWaG4GNgC36Q1LBxt9exTG6mfRTZkAUB": 1792573402.7027848,
-  "seen:4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump": 1792573402.7027848,
-  "seen:7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump": 1792573402.7027848,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792573402.7027848,
-  "seen:4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792573402.7027848,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1792573402.7027848,
   "seen:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": 1792573587.46986,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792573587.46986,
   "seen:AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump": 1792573587.46986,
   "seen:D42TjMjz5H7toPu5md5KBXreZkCSdZMEfLQwmBhJXvb1": 1792573587.46986,
   "seen:9zCtWZThGtJvRm1fPA3Qz6LnXdb5MveJMsCQyA3pump": 1792573587.46986,
   "seen:4gk3n1iCFj2n84MkuRenGHDRZHBRvXy81vLa35krpump": 1792573771.256729,
-  "seen:65ruvkKxdqmR2aaohdLykPQ9GmYQkjrVcWhX8Lcrpump": 1792573771.256729
+  "seen:65ruvkKxdqmR2aaohdLykPQ9GmYQkjrVcWhX8Lcrpump": 1792573771.256729,
+  "seen:FjLFsaPKSxJGh25iTKCLEkthbeHKLJrxvHyJG9wqpump": 1792573926.4966218,
+  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792573926.4966218,
+  "seen:6GLAW26M4w7P5Bnu7Bb6G5AyddyjghPDZeDPei4Wpump": 1792574107.9737434,
+  "seen:F7uXVws14u2tmWaG4GNgC36Q1LBxt9exTG6mfRTZkAUB": 1792574472.8487194,
+  "seen:4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump": 1792574472.8487194,
+  "seen:7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump": 1792574472.8487194,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792574472.8487194,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1792574472.8487194,
+  "seen:4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792574472.8487194,
+  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1792574472.8487194,
+  "control:4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump": 1792574479.9266584
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 497932,
+ "ctrl_macro_hour": 497937,
  "team": [
   {
    "name": "Lead",
@@ -134,27 +152,28 @@
  ],
  "last_review": 1792571535.8670912,
  "news": {
-  "t": 1792572502.7030127,
+  "t": 1792573572.8489647,
   "crypto": [
    "Tether leads $15 million funding round for AI-focused payment startup Mural (0h ago)",
    "Ether ETF outflows continue, pass $1B in October so far (1h ago)",
    "Zcash developers confirm November date for upgrade that triples payment speed (1h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "Malaysia central bank launches DLT platform for tokenized bonds (3h ago)",
-   "Ripple brings Wall Street into 24/7 stock bets, but HSBC warns markets are still thin (3h ago)",
+   "Ripple brings Wall Street into 24/7 stock bets, but HSBC warns markets are still thin (4h ago)",
    "Tech giants rush to block 8 eMudhra certs that could enable fake sites (4h ago)",
-   "Solana\u2019s Alpenglow, its biggest network overhaul since 2020, goes live Wednesday (4h ago)",
+   "Solana\u2019s Alpenglow, its biggest network overhaul since 2020, goes live Wednesday (5h ago)",
    "A company that vouches for websites had secret keys so weak that 8 of them were cracked (5h ago)",
    "Bitcoin hovers around $83,000 as AI earnings revive tech, ZEC jumps 11% (5h ago)"
   ],
   "macro": [],
-  "calendar": [
-   "GBP CPI y/y was 2.8h, forecast 3.4%, previous 3.1%"
-  ]
+  "calendar": []
  },
  "spend": {
-  "2026-10-21": 0.004026
+  "2026-10-21": 0.005967
  },
- "last_meme_all": 1792572871.2569351,
- "last_macro_all": 1792572871.2569351
+ "last_meme_all": 1792573572.84896,
+ "last_macro_all": 1792572871.2569351,
+ "notes": [
+  "2026-10-21 09:00 UTC [all] Test 1: fresh-meme momentum at 0.5% size. Watch: if it fails, test whether the 1h gain predicts reversal instead. Log costs and slippage actuals. Macro: no edge yet, watch crypto news for ETF-flow impact on BTC/ETH befor"
+ ]
 }
