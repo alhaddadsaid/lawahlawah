@@ -1,7 +1,7 @@
 {
  "desks": {
   "team": {
-   "cash": 10007.281585341163,
+   "cash": 10014.90330453924,
    "open": []
   },
   "control": {
@@ -85,20 +85,10 @@
    ]
   }
  },
- "next_id": 36,
- "runs": 8,
+ "next_id": 37,
+ "runs": 9,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": 1792573587.46986,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792573587.46986,
-  "seen:AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump": 1792573587.46986,
-  "seen:D42TjMjz5H7toPu5md5KBXreZkCSdZMEfLQwmBhJXvb1": 1792573587.46986,
-  "seen:9zCtWZThGtJvRm1fPA3Qz6LnXdb5MveJMsCQyA3pump": 1792573587.46986,
-  "seen:4gk3n1iCFj2n84MkuRenGHDRZHBRvXy81vLa35krpump": 1792573771.256729,
-  "seen:65ruvkKxdqmR2aaohdLykPQ9GmYQkjrVcWhX8Lcrpump": 1792573771.256729,
-  "seen:FjLFsaPKSxJGh25iTKCLEkthbeHKLJrxvHyJG9wqpump": 1792573926.4966218,
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792573926.4966218,
-  "seen:6GLAW26M4w7P5Bnu7Bb6G5AyddyjghPDZeDPei4Wpump": 1792574107.9737434,
   "seen:F7uXVws14u2tmWaG4GNgC36Q1LBxt9exTG6mfRTZkAUB": 1792574472.8487194,
   "seen:4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump": 1792574472.8487194,
   "seen:7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump": 1792574472.8487194,
@@ -106,7 +96,17 @@
   "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1792574472.8487194,
   "seen:4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792574472.8487194,
   "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1792574472.8487194,
-  "control:4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump": 1792574479.9266584
+  "control:4tieigPJCAQbw1C9wBLtg9QZGgPFeuyibRD6Hi2spump": 1792574479.9266584,
+  "seen:4gk3n1iCFj2n84MkuRenGHDRZHBRvXy81vLa35krpump": 1792574713.3402433,
+  "seen:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": 1792574713.3402433,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792574713.3402433,
+  "seen:AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump": 1792574713.3402433,
+  "seen:EuU6J1KkvSH16efBGEjP48bzrUHLusGFtk64fsvBpump": 1792574713.3402433,
+  "seen:EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump": 1792574713.3402433,
+  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792574895.916589,
+  "seen:6GLAW26M4w7P5Bnu7Bb6G5AyddyjghPDZeDPei4Wpump": 1792575077.2729871,
+  "seen:DvdmEnztCmXwBnAbedD48XVGZJSxq31zNvnyftXdpump": 1792575077.2729871,
+  "seen:AE7VNgCFnTsXiPH4cExpsMwxRsagyEpYWcLfPJ8Gpump": 1792575260.9203513
  },
  "talks": {
   "2026-10-21": 109
@@ -152,11 +152,15 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-21": 0.005967
+  "2026-10-21": 0.008266
  },
- "last_meme_all": 1792573572.84896,
- "last_macro_all": 1792572871.2569351,
+ "last_meme_all": 1792574360.9206288,
+ "last_macro_all": 1792574177.2732613,
  "notes": [
-  "2026-10-21 09:00 UTC [all] Test 1: fresh-meme momentum at 0.5% size. Watch: if it fails, test whether the 1h gain predicts reversal instead. Log costs and slippage actuals. Macro: no edge yet, watch crypto news for ETF-flow impact on BTC/ETH befor"
+  "2026-10-21 09:00 UTC [all] Test 1: fresh-meme momentum at 0.5% size. Watch: if it fails, test whether the 1h gain predicts reversal instead. Log costs and slippage actuals. Macro: no edge yet, watch crypto news for ETF-flow impact on BTC/ETH befor",
+  "2026-10-21 09:10 UTC [all] Test 1 live on fomo at 0.5%. Log actual slippage and fees. If it stops out, next test: 1h gain >1000% predicts reversal. Watch MEME (31 min, top10 22%) for reversal only.",
+  "2026-10-21 09:13 UTC [all] Holding fomo (id 36) to target 0.000693, stop 0.000433, or 1h expiry. No new trades. Watch list: MONEYBIZ fails the under-10-min filter, so do not test it as fresh-meme; only track if its age and top10 stay in filter. Ne",
+  "2026-10-21 09:16 UTC [all] Closed fomo (id 36) at ~0.0006977, above 0.0006928 target, to lock the Test 1 gain; log actual slippage/fees. No new trades. Watch: TikTok US (23 min, top10 14%, h1 +1472%) fails the under-10-min filter, track only; next",
+  "2026-10-21 09:19 UTC [all] No trades. Watch LWK (AE7V..., 6.6 min, h1 +144%, liq $27k, top10 10%): fails the >1000% 1h filter, so track only. Next test: does 1h gain >1000% reverse? Log LWK price path for a reversal check. Macro: still no edge; wa"
  ]
 }
