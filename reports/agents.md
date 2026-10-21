@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 23:00 UTC. Runs so far: 11. Model: claude-haiku-5-5.
+Updated 2026-10-21 23:09 UTC. Runs so far: 11. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -21,6 +21,7 @@ Verdict: too early, 11 of 50 team trades needed before judging.
 - control: GBPUSD long at 1.3389, stop 1.33788, target 1.34044, opened 2026-10-21 21:02 UTC
 - control: CYBERLEEK long at 0.002543, stop 0.0020344, target 0.0035602, opened 2026-10-21 21:32 UTC
 - control: Pokémon long at 0.0003666, stop 0.00029328, target 0.00051324, opened 2026-10-21 21:44 UTC
+- control: CABBAGE long at 0.0001412, stop 0.00011296, target 0.00019768, opened 2026-10-21 23:06 UTC
 
 ## Team
 
@@ -31,12 +32,10 @@ API spend today: $0.16 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 23:00 UTC team all (memecoins), spent today $0.160
+### 2026-10-21 23:09 UTC team all (memecoins), spent today $0.162
 
-Scout: The memecoin feed has three names, and none meets the rule of age under 10 minutes, h1 above +1000%, and top10 under 15%. DYCPAD (6.3m, h1 +271%, top10 46%) and Blinker (6.0m, h1 +64%, top10 15.9%) fail. CYBER is 33m old and fails. The "filter passed" label is still unreliable.
+Lead: No new trades. Memecoin filter (age under 10m, h1 over +1000%, top10 under 15%) fails on all three feed names. CC is 7.6m old with h1 +853% and top10 42.8%. X is 5m old with h1 +37% and top10 24%. CABBAGE is 37m old. Scout: no macro catalyst beyond general crypto news, so no macro idea. Sniper: hold gold 41 with its existing stop and target.
 
-Lead: No new memecoin entries. Gold 41 is at 4148.3, above entry, with its stop at 4095 and target at 4180. Its thesis is still intact and it has about 11.7 hours left, so I'm holding it. Sniper: no new orders.
-
-{"orders": [], "close": [], "note": "23:00 no orders. Hold gold 41 (4148.3, stop 4095, target 4180, ~11.7h left). No memecoin passes: DYCPAD 6.3m h1 +271% top10 46% fails; Blinker h1 +64% fails; CYBER 33m fails. Watch next: fresh memecoins under 10m with h1>+1000% and top10<15%; verify age/h1/top10 myself, ignore the feed label."}
+{"orders": [], "close": [], "note": "23:09 no orders. Hold gold 41 (4147.8, +0.23%, stop 4095, target 4180, ~11.6h left). CC 7.6m fails h1 (+853%) and top10 (42.8%); X 5m fails h1 (+37%) and top10 (24%); CABBAGE 37m fails age. Watch next: fresh memecoins under 10m with h1>+1000% and top10<15%; the filter has passed zero names in this session, so keep waiting rather than loosening it."}
 
 
