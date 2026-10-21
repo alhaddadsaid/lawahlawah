@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 12:51 UTC. Runs so far: 9. Model: claude-haiku-5-5.
+Updated 2026-10-21 13:01 UTC. Runs so far: 9. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -31,11 +31,13 @@ API spend today: $0.05 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 12:51 UTC team all (memecoins), spent today $0.046
+### 2026-10-21 13:01 UTC team all (memecoins), spent today $0.048
 
-Scout: Datacenter (10.3m old, h1 +1414%) fails on top10 at 29% vs the <15% rule. Lovot fails age (30m) and h1 (+419%). No new memecoin setup.
-Sniper: No clean entry. Gold 41 is inside its stop and target and has about 21.8h left, so I'm holding it.
-Lead: Do nothing. The memecoin hypothesis stays paused, and I'll resume it only if a token passes all three filters.
-{"orders": [], "close": [], "note": "12:51 flat, no new orders. Hold gold 41 (stop 4095, target 4180, ~21.8h left, +0.19%). Datacenter fails top10 (29%), Lovot fails age (30m). Memecoin hypothesis stays paused. Watch: under-10m, h1>+1000%, top10<15%. Calendar empty; no macro edge identified."}
+Scout: Grok is under 10 minutes old but its 1h gain is +79%, far below the +1000% filter. Every other memecoin fails age or top10, so the memecoin hypothesis stays paused.
+Sniper: No valid entry. Gold 41 keeps its stop at 4095 and target at 4180.
+Lead: No new orders. Hold gold 41 and keep the memecoin filter on watch.
 
+{"orders": [], "close": [], "note": "13:01 flat, no new orders. Hold gold 41 (stop 4095, target 4180, ~21.5h left). Grok 6m old but h1 +79%, fails +1000% filter; memecoin hypothesis stays paused. Watch next scan: under-10m, h1>+1000%, top10<15%. No macro catalyst beyond gold range."}
+
+- control: order EURUSD REJECTED by guardrails: EURUSD already open
 
