@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 8724.959394911419,
+   "cash": 8674.290237302723,
    "open": [
     {
      "id": 6,
@@ -53,42 +53,43 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 37,
+     "id": 38,
      "desk": "control",
      "market": "meme",
-     "symbol": "MEME",
-     "mint": "4gk3n1iCFj2n84MkuRenGHDRZHBRvXy81vLa35krpump",
+     "symbol": "startupSI",
+     "mint": "EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump",
      "side": 1,
-     "opened": 1792574723.719267,
-     "entry": 0.0001472,
-     "stop": 0.00011776000000000001,
-     "target": 0.00020607999999999998,
-     "size": 1358695.652173913,
-     "deadline": 1792581923.7192671,
+     "opened": 1792576180.2327769,
+     "entry": 6.068e-05,
+     "stop": 4.854400000000001e-05,
+     "target": 8.4952e-05,
+     "size": 3295978.9057350033,
+     "deadline": 1792583380.232777,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 38,
+ "next_id": 39,
  "runs": 9,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": 1792575619.763378,
-  "seen:4gk3n1iCFj2n84MkuRenGHDRZHBRvXy81vLa35krpump": 1792575619.763378,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792575619.763378,
-  "seen:AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump": 1792575619.763378,
-  "seen:EuU6J1KkvSH16efBGEjP48bzrUHLusGFtk64fsvBpump": 1792575619.763378,
-  "control:4gk3n1iCFj2n84MkuRenGHDRZHBRvXy81vLa35krpump": 1792575623.7192717,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792575801.24298,
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792575801.24298,
-  "seen:6GLAW26M4w7P5Bnu7Bb6G5AyddyjghPDZeDPei4Wpump": 1792575982.7093668,
-  "seen:CymGUyYFMxtwdfHeA8rj7rywS1NkrTCGVt1cw1x5pump": 1792576163.7852652,
   "seen:F7uXVws14u2tmWaG4GNgC36Q1LBxt9exTG6mfRTZkAUB": 1792576348.1239302,
   "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792576348.1239302,
   "seen:7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump": 1792576348.1239302,
   "seen:4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792576348.1239302,
-  "seen:DvdmEnztCmXwBnAbedD48XVGZJSxq31zNvnyftXdpump": 1792576348.1239302
+  "seen:DvdmEnztCmXwBnAbedD48XVGZJSxq31zNvnyftXdpump": 1792576348.1239302,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792576530.2167623,
+  "seen:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": 1792576530.2167623,
+  "seen:4gk3n1iCFj2n84MkuRenGHDRZHBRvXy81vLa35krpump": 1792576530.2167623,
+  "seen:AMuS3KCHeipZwTZmEFRuzW6Dr9YMYksWU8Rgboaupump": 1792576530.2167623,
+  "seen:EuU6J1KkvSH16efBGEjP48bzrUHLusGFtk64fsvBpump": 1792576530.2167623,
+  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792576710.9802804,
+  "seen:BdXfLfcbDE8YvpbvvmmGTduqcDesaQVUm5xLxgUc2S5t": 1792576710.9802804,
+  "seen:EGjvnJtmo2ChNYxP8XvTVix3jCfMHjsoAjNNyGBjpump": 1792576896.0506587,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792576896.0506587,
+  "seen:EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump": 1792577076.5190883,
+  "control:EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump": 1792577080.232782
  },
  "talks": {
   "2026-10-21": 109
@@ -134,9 +135,9 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-21": 0.011168
+  "2026-10-21": 0.013173
  },
- "last_meme_all": 1792575448.1242213,
+ "last_meme_all": 1792576176.5193856,
  "last_macro_all": 1792575448.1242213,
  "notes": [
   "2026-10-21 09:00 UTC [all] Test 1: fresh-meme momentum at 0.5% size. Watch: if it fails, test whether the 1h gain predicts reversal instead. Log costs and slippage actuals. Macro: no edge yet, watch crypto news for ETF-flow impact on BTC/ETH befor",
@@ -149,6 +150,10 @@
   "2026-10-21 09:28 UTC [all] No trades. Flat, no open positions. Watch: next fresh token with age under 10 min and h1 over 1000%; log its price path for the reversal-vs-continuation test. Track MONEYBIZ and GATO only for filter changes. Macro: ETH E",
   "2026-10-21 09:31 UTC [all] No trades. Flat. TikTok US (38 min, h1 +1928%) fails the age filter, track only. Next: when a token is under 10 min old with h1 over 1000%, log its price path for the reversal-vs-continuation test. Macro: no edge; ETH ET",
   "2026-10-21 09:34 UTC [all] No trades. Flat. TRENCHPAD (18 min, h1 +22%, liq $18.8k, top10 26%) fails both the age and >1000% filters, track only. Next: when a token is under 10 min old with h1 over 1000%, log its price path for the reversal-vs-con",
-  "2026-10-21 09:37 UTC [all] Flat, no trades. Watch: next token under 10 min old with h1 over 1000%; log price path for reversal-vs-continuation test. Track TikTok US, MONEYBIZ, GATO, LWK, LARRY only for filter changes. Macro: no calendar events, no"
+  "2026-10-21 09:37 UTC [all] Flat, no trades. Watch: next token under 10 min old with h1 over 1000%; log price path for reversal-vs-continuation test. Track TikTok US, MONEYBIZ, GATO, LWK, LARRY only for filter changes. Macro: no calendar events, no",
+  "2026-10-21 09:40 UTC [all] No trades, flat. Fomo (id 36) now 0.001378 vs our 0.0006977 exit, so we left a large move on the table; log as a target-too-tight observation, not yet a rule. Next: any token under 10 min old with h1 over 1000%, log pric",
+  "2026-10-21 09:43 UTC [all] No trades, flat. Filter still unmet: MONEYBIZ 1235 min old, texcat 18403 min old. Watch: next token under 10 min old with h1 over 1000%, log its price path for the reversal-vs-continuation test. Log the fomo target-too-t",
+  "2026-10-21 09:46 UTC [all] No trades, flat. Watch GTA 6 Coin (EGjvnJtmo2ChNYxP8XvTVix3jCfMHjsoAjNNyGBjpump, 0.0004422, age 4.3m, h1 +897%, liq $55.8k, top10 13.9%): enter only if h1 passes +1000% while age is under 10 min, and log its path for the",
+  "2026-10-21 09:49 UTC [all] No trades, flat. Filter unmet: startupSI 3795 min old, h1 +7.9%. Watch GTA 6 Coin (EGjvnJtmo2ChNYxP8XvTVix3jCfMHjsoAjNNyGBjpump, h1 +897%, age 4.3m): enter only if h1 passes +1000% while age is under 10 min, and log its "
  ]
 }
