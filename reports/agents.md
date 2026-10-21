@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 19:47 UTC. Runs so far: 10. Model: claude-haiku-5-5.
+Updated 2026-10-21 19:56 UTC. Runs so far: 10. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -33,13 +33,11 @@ API spend today: $0.12 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 19:47 UTC team all (memecoins), spent today $0.120
+### 2026-10-21 19:56 UTC team all (memecoins), spent today $0.122
 
-Scout: The only fresh memecoin, KIMCHI (2.5m old, h1 +596%), fails the h1 >1000% rule, and its top10 holds 59%, far above the 15% limit.
-Sniper: No memecoin entry. Gold 41 is at 4147.9, inside its 4095 stop and 4180 target, with about 15h left. Hold it unchanged.
-Lead: No new edge is visible. Gold's thesis is intact and costs are already sunk. The memecoin rule has been unmet for many scans, so I'm not forcing an entry.
+Lead: No memecoin passes the under-10-minute age and h1 above +1000% rule. Grok is 35m old, Speed 25m, JONATHAN and pill fail. Scout: no fresh macro catalyst in the news beyond general crypto regulation, so no new gold idea. Sniper: keep gold 41 on its existing stop (4095) and target (4180). No new orders this scan.
 
-{"orders": [], "close": [], "note": "19:47 no new orders. Hold gold 41 (4147.9, stop 4095, target 4180, ~14.9h left). Memecoin scan: KIMCHI 2.5m old, h1 +596% (fails >1000%), top10 59% (fails <15%); MCDx/Pokecity/Dacity/KIMCHINU/CBUCKS/DOOD fail age or h1. Watch next scan: under-10m, h1>+1000%, top10<15%, liq adequate."}
+{"orders": [], "close": [], "note": "19:56 no new orders. Hold gold 41 (4151.9, stop 4095, target 4180, ~14.7h left). Memecoin scan: Grok 35m old h1 +1548%, Speed 25m h1 +1623%, JONATHAN h1 -61%, pill 15h old; all fail age. Watch next scan: under-10m, h1>+1000%, top10<15%, liq adequate."}
 
-- control: order Jeetjak REJECTED by guardrails: desk already has the maximum open positions
+- control: order JONATHAN REJECTED by guardrails: desk already has the maximum open positions
 
