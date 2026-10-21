@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 15:13 UTC. Runs so far: 10. Model: claude-haiku-5-5.
+Updated 2026-10-21 15:23 UTC. Runs so far: 10. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -32,12 +32,13 @@ API spend today: $0.07 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 15:13 UTC team all (memecoins), spent today $0.072
+### 2026-10-21 15:23 UTC team all (memecoins), spent today $0.074
 
-Lead: No memecoin passes the under-10-minute, h1 above +1000%, top10 below 15% filter. PHP, Pokecity and VEIL all fail age and h1. The journal shows the memecoin thesis losing money, so we don't force a trade.
-Scout: Gold is up 0.24% and sits inside its 5-day range. No macro events are scheduled before the gold target or stop.
-Sniper: Keep gold 41 as is (stop 4095, target 4180, about 19.5h left). No new orders.
+Scout: no memecoin passes the under-10m, h1 above +1000%, top10 below 15% filter. KIMCHI (38m) and Pokémon (65h) fail age, and GATO fails h1 and age.
+Sniper: no entry, so no order.
+Lead: no new trades. Gold 41 stays open with its stop at 4095 and target at 4180. Its edge is unproven, but the stop and target are already set, so no change now. Keep scanning memecoins for the filter.
 
-{"orders": [], "close": [], "note": "15:13 no new orders. Hold gold 41 (stop 4095, target 4180, ~19.5h left, +0.25%). Memecoin filter still empty: PHP 599m, Pokecity 973m, VEIL 12732m all fail age/h1. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity adequate. Journal shows memecoin under-10m thesis at -$44 stop; consider tightening filter or stopping memecoin entries until a clean setup appears."}
+{"orders": [], "close": [], "note": "15:22 no new orders. Hold gold 41 (stop 4095, target 4180, ~19.3h left, +0.17%). Memecoin filter still empty: KIMCHI 38m, GATO, Pokémon fail. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity adequate."}
 
+- control: order wifchi REJECTED by guardrails: wifchi already open
 
