@@ -22,7 +22,7 @@
    ]
   },
   "control": {
-   "cash": 8314.584127955673,
+   "cash": 8263.72698509853,
    "open": [
     {
      "id": 6,
@@ -55,21 +55,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 44,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "COMPUTE",
-     "mint": "GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump",
-     "side": 1,
-     "opened": 1792580008.3787458,
-     "entry": 0.0001575,
-     "stop": 0.00012600000000000003,
-     "target": 0.00022050000000000002,
-     "size": 1269841.2698412698,
-     "deadline": 1792587208.378746,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 45,
      "desk": "control",
      "market": "macro",
@@ -83,29 +68,49 @@
      "size": 154257.0396543043,
      "deadline": 1792666952.0142548,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 46,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "BACKERS",
+     "mint": "CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump",
+     "side": 1,
+     "opened": 1792581278.4602516,
+     "entry": 0.000301,
+     "stop": 0.00024079999999999997,
+     "target": 0.00042139999999999994,
+     "size": 664451.827242525,
+     "deadline": 1792588478.4602518,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 46,
+ "next_id": 47,
  "runs": 9,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HKuQM1KVHi5no2smae8WvC3J2HHPkm7893guzTWtpump": 1792581085.7897072,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792581085.7897072,
-  "seen:HuShD8S8AqrFGDWeqtkm3oJAdQyWkRgaHRZ1jZFBFuNd": 1792581085.7897072,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792581085.7897072,
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792581266.5413423,
-  "seen:D42TjMjz5H7toPu5md5KBXreZkCSdZMEfLQwmBhJXvb1": 1792581448.3711014,
-  "seen:BAkdiNu6qqYtQ3knyVStkJgZybbgyrhDgUXjwZLa8x4i": 1792581448.3711014,
-  "control:EURUSD": 1792581452.0142586,
-  "seen:Eb2i5vHczEoXzt3uDkMGcscLZX6qii4yySJqcGCRpump": 1792581629.6046762,
-  "seen:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": 1792581629.6046762,
   "seen:7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump": 1792581810.391992,
   "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792581810.391992,
   "seen:6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump": 1792581810.391992,
   "seen:4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792581810.391992,
-  "seen:GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": 1792581810.391992
+  "seen:GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": 1792581810.391992,
+  "seen:2B2o663NCtfs8uhk8K7fdtSEKdH1f9PWYRbu6ZGopump": 1792581994.0281453,
+  "seen:HKuQM1KVHi5no2smae8WvC3J2HHPkm7893guzTWtpump": 1792581994.0281453,
+  "seen:HuShD8S8AqrFGDWeqtkm3oJAdQyWkRgaHRZ1jZFBFuNd": 1792581994.0281453,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792581994.0281453,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792581994.0281453,
+  "seen:RBLXDGRD64AtRamHMFVcjqne3Ar7NLWtFtYNtsrf1cE": 1792582175.3624973,
+  "seen:C5H2mUUgEXzKmmh5h1e8ZZVsSKuM5BWYf4kwGhEpump": 1792582175.3624973,
+  "control:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": 1792582178.460256,
+  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792582356.9079986,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1792582356.9079986,
+  "seen:EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump": 1792582356.9079986,
+  "seen:Eb2i5vHczEoXzt3uDkMGcscLZX6qii4yySJqcGCRpump": 1792582540.6141407,
+  "seen:6QuY1RdbemGvwvkP1BWrCtUz6LKcDesJqaCazfGppump": 1792582540.6141407,
+  "seen:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": 1792582540.6141407,
+  "seen:D42TjMjz5H7toPu5md5KBXreZkCSdZMEfLQwmBhJXvb1": 1792582540.6141407
  },
  "talks": {
   "2026-10-21": 109
@@ -151,15 +156,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-21": 0.027368
+  "2026-10-21": 0.02952
  },
- "last_meme_all": 1792580910.3923347,
+ "last_meme_all": 1792581640.6144726,
  "last_macro_all": 1792580548.371442,
  "notes": [
-  "2026-10-21 10:10 UTC [all] 10:10 flat, no token under 10m with h1 over +1000% in feed. GTA 6 Coin unverifiable (last seen 10:01 at +950%, 6.0m). Watch: any new token under 10m with h1 over +1000% and top10 under 15%; log price path at 5, 15, 30, 6",
-  "2026-10-21 10:13 UTC [all] 10:13 flat. Filters unmet: SHELLSHOCK age 19m, h1 +443%, liq $42k vs m5 vol $159k. Watch list: any token under 10m with h1 over +1000% and top10 under 15%; log price at 5, 15, 30, 60m to test reversal vs continuation. GT",
-  "2026-10-21 10:16 UTC [all] 10:16 flat. BAKDINU age 5.9m h1 +27% (fails h1 filter). zTERM age 20.7m h1 +100% (fails age filter). Watch: BAKDINU if h1 passes +1000% while age under 10m and top10 under 15%; log price at 5/15/30/60m. Also GTA 6 Coin (",
-  "2026-10-21 10:19 UTC [all] 10:19 flat. GATO fails filters (81952m old, h1 -6%). GTA 6 Coin unverifiable. Watch: any memecoin under 10m with h1 over +1000% and top10 under 15%; log price at 5/15/30/60m for reversal-vs-continuation test. Also BAKDIN",
   "2026-10-21 10:22 UTC [all] 10:22 flat, no filter-passing memecoin. Watch: any token under 10m with h1 over +1000% and top10 under 15%, log price at 5/15/30/60m for reversal-vs-continuation test. GTA 6 Coin and BAKDINU still unverified. Macro has n",
   "2026-10-21 10:26 UTC [all] 10:26 flat, no filter-passing memecoin. Watch: any token under 10m with h1 over +1000% and top10 under 15%, log price at 5/15/30/60m for reversal-vs-continuation test. fomo (84m, +216%) fails age filter. GTA 6 Coin and B",
   "2026-10-21 10:29 UTC [all] 10:29 flat, no filter-passing memecoin (MONEYBIZ 1281m +33%, COMPUTE 2771m -16% both fail). No macro price data in feed, so no macro trade. Watch: any token under 10m with h1 over +1000% and top10 under 15%; log price at",
@@ -175,6 +176,10 @@
   "2026-10-21 10:59 UTC [all] 10:59 flat, no new orders. MONEYBIZ (22h old, h1 +10%) fails age/h1 filters. Hold gold 41 (stop 4095, target 4180, 24h). Verify YouTube 42 is closed (journal says stopped, feed shows only 41). Watch: any token under 10m ",
   "2026-10-21 11:02 UTC [all] 11:02 flat on new orders. Hold gold 41 (stop 4095, target 4180, 24h). Verify YouTube 42 is closed (journal says stopped, feed shows only 41). Watch: any token under 10m old with h1 over +1000% and top10 under 15%; log 5/",
   "2026-10-21 11:05 UTC [all] 11:05 flat on new orders. LASTAGENCY (22m, h1 +481%) and BACKERS fail filters. Hold gold 41 (stop 4095, target 4180, 24h). YouTube 42 treated as closed (journal stop -44, not in open feed). Watch: any token under 10m wit",
-  "2026-10-21 11:08 UTC [all] 11:08 flat on new orders; no memecoin passes filters (KIMCHI, PHP, EXFIL, Pokecity, COMPUTE all fail age or h1). Hold gold 41 (stop 4095, target 4180, ~23.5h left). Verify YouTube 42 is closed (journal says stopped at -4"
+  "2026-10-21 11:08 UTC [all] 11:08 flat on new orders; no memecoin passes filters (KIMCHI, PHP, EXFIL, Pokecity, COMPUTE all fail age or h1). Hold gold 41 (stop 4095, target 4180, ~23.5h left). Verify YouTube 42 is closed (journal says stopped at -4",
+  "2026-10-21 11:11 UTC [all] 11:11 flat on new orders. Hold gold 41 (stop 4095, target 4180, ~23.5h left). YouTube 42 treated as closed (journal stop -44, not in open feed). Watch: any memecoin under 10m old with h1 over +1000% and top10 under 15%; ",
+  "2026-10-21 11:14 UTC [all] 11:14 flat on new orders. Coca Cola (31m, h1 +114%, top10 15.5%) fails age and h1 filters; RBLX fails age. Hold gold 41 (stop 4095, target 4180, ~23.4h left). YouTube 42 treated as closed (journal stop -44, not in open f",
+  "2026-10-21 11:17 UTC [all] 11:17 flat, no new orders. Hold gold 41 (stop 4095, target 4180, ~23.4h left). YouTube 42 still treated as closed (journal stop -44, not in open feed; verify). Watch: memecoin under 10m old with h1 over +1000% and top10 ",
+  "2026-10-21 11:20 UTC [all] 11:20 flat, no new orders. Hold gold 41 (stop 4095, target 4180, ~23h left). MrBeast 14m old, top10 14.2%, h1 +1519%: fails the under-10m age filter, watch next scan. Verify YouTube 42 closed. Watch: memecoin under 10m w"
  ]
 }
