@@ -22,7 +22,7 @@
    ]
   },
   "control": {
-   "cash": 8373.277507746614,
+   "cash": 8314.584127955673,
    "open": [
     {
      "id": 6,
@@ -55,21 +55,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 43,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "BAKDINU",
-     "mint": "BAkdiNu6qqYtQ3knyVStkJgZybbgyrhDgUXjwZLa8x4i",
-     "side": 1,
-     "opened": 1792579825.5500603,
-     "entry": 7.749e-05,
-     "stop": 6.199200000000001e-05,
-     "target": 0.000108486,
-     "size": 2580978.190734288,
-     "deadline": 1792587025.5500607,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 44,
      "desk": "control",
      "market": "meme",
@@ -83,38 +68,50 @@
      "size": 1269841.2698412698,
      "deadline": 1792587208.378746,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 45,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "EURUSD",
+     "mint": "",
+     "side": 1,
+     "opened": 1792580552.0142543,
+     "entry": 1.1233429908752441,
+     "stop": 1.1226947222437178,
+     "target": 1.1243153938225336,
+     "size": 154257.0396543043,
+     "deadline": 1792666952.0142548,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 45,
+ "next_id": 46,
  "runs": 9,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1792580539.7460399,
-  "seen:BAkdiNu6qqYtQ3knyVStkJgZybbgyrhDgUXjwZLa8x4i": 1792580539.7460399,
-  "seen:EKosQw4oJFbXmeJ4qRnbH1quGFRTc3Eok6nwnFKDpump": 1792580539.7460399,
-  "seen:Eb2i5vHczEoXzt3uDkMGcscLZX6qii4yySJqcGCRpump": 1792580721.7734723,
-  "seen:6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump": 1792580721.7734723,
-  "control:BAkdiNu6qqYtQ3knyVStkJgZybbgyrhDgUXjwZLa8x4i": 1792580725.550064,
-  "seen:8baAbriKUgFP63CCZ9p45q2VmgCMSfdV6GbkbqjTpump": 1792580904.2184048,
-  "seen:7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump": 1792580904.2184048,
-  "seen:4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792580904.2184048,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792580904.2184048,
-  "seen:GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": 1792580904.2184048,
-  "seen:DvdmEnztCmXwBnAbedD48XVGZJSxq31zNvnyftXdpump": 1792580904.2184048,
-  "control:GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": 1792580908.3787498,
   "seen:HKuQM1KVHi5no2smae8WvC3J2HHPkm7893guzTWtpump": 1792581085.7897072,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792581085.7897072,
   "seen:HuShD8S8AqrFGDWeqtkm3oJAdQyWkRgaHRZ1jZFBFuNd": 1792581085.7897072,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792581085.7897072,
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792581266.5413423
+  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792581266.5413423,
+  "seen:D42TjMjz5H7toPu5md5KBXreZkCSdZMEfLQwmBhJXvb1": 1792581448.3711014,
+  "seen:BAkdiNu6qqYtQ3knyVStkJgZybbgyrhDgUXjwZLa8x4i": 1792581448.3711014,
+  "control:EURUSD": 1792581452.0142586,
+  "seen:Eb2i5vHczEoXzt3uDkMGcscLZX6qii4yySJqcGCRpump": 1792581629.6046762,
+  "seen:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": 1792581629.6046762,
+  "seen:7thgKgtK1rp1UtLpWUZEuu9vakedTMoZzuyps6RGpump": 1792581810.391992,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792581810.391992,
+  "seen:6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump": 1792581810.391992,
+  "seen:4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792581810.391992,
+  "seen:GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": 1792581810.391992
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 497937,
+ "ctrl_macro_hour": 497939,
  "team": [
   {
    "name": "Lead",
@@ -137,31 +134,28 @@
  ],
  "last_review": 1792571535.8670912,
  "news": {
-  "t": 1792580004.2187448,
+  "t": 1792580910.3923428,
   "crypto": [
+   "OCC's final rule to start fresh in weighing stablecoin rewards against GENIUS Act ban (0h ago)",
+   "PancakeSwap TVL tops $380M as major fee overhaul heads to vote (0h ago)",
    "France proposes liability for crypto exchanges offering DeFi access (0h ago)",
    "Bitcoin \u2018top buyers\u2019 halt BTC price upside with $87.7K now key: Glassnode (0h ago)",
-   "Crypto rises with Asian tech stocks, zcash extends gain after setting upgrade date (0h ago)",
-   "Live updates: Bitcoin clings to $82,500 as SpaceX results lift stock futures (0h ago)",
+   "Crypto rises with Asian tech stocks, zcash extends gain after setting upgrade date (1h ago)",
+   "Live updates: Bitcoin clings to $82,500 as SpaceX results lift stock futures (1h ago)",
    "Shinhan, SBI make Japan-Korea tourist spending a test case for yen stablecoins (1h ago)",
    "Zcash rallies 12% as developers finalize NU7 activation height (1h ago)",
    "Drift exploiter sends $109M in Ether to Tornado Cash in 2 days (1h ago)",
-   "SpaceX and Tesla explore merger that would unite more than 30,000 bitcoin (2h ago)",
-   "Monero futures are again heating with leverage, raising volatility risks (2h ago)",
-   "Tether leads $15 million funding round for AI-focused payment startup Mural (2h ago)"
+   "SpaceX and Tesla explore merger that would unite more than 30,000 bitcoin (2h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-21": 0.025674
+  "2026-10-21": 0.027368
  },
- "last_meme_all": 1792580366.5416653,
- "last_macro_all": 1792579274.914475,
+ "last_meme_all": 1792580910.3923347,
+ "last_macro_all": 1792580548.371442,
  "notes": [
-  "2026-10-21 09:58 UTC [all] No trades, flat. Filter unmet: SHELLSHOCK 3.9m old but h1 +116%, liq $25k vs m5 vol $97k (slippage risk). Watch SHELLSHOCK (9yxQvtqzsdHay96y7kxE8ikrGdi2FnytaCmMr9c9pump): enter only if h1 passes +1000% while age is under",
-  "2026-10-21 10:01 UTC [all] Flat. GTA 6 Coin (DFZK7HajCqfNa1Bmq5n2MGACLrguDsQJc6mdgo8pump) at h1 +950%, age 6.0m: enter only if h1 passes +1000% while age under 10m; log path. zTERM (8fuSQjn3dAK9u6Eeou3pugKunXe1azyY4fdnCN4pump) h1 +74%, age 5.5m, l",
-  "2026-10-21 10:07 UTC [all] No trades, flat. Filter unmet: KIMCHI 617m, PHP 293m, Pokecity 667m, none under 10m with h1 over 1000%. GTA 6 Coin not in current feed, so unverifiable; last seen h1 +950% at age 6.0m (10:01). Watch: any token under 10 m",
   "2026-10-21 10:10 UTC [all] 10:10 flat, no token under 10m with h1 over +1000% in feed. GTA 6 Coin unverifiable (last seen 10:01 at +950%, 6.0m). Watch: any new token under 10m with h1 over +1000% and top10 under 15%; log price path at 5, 15, 30, 6",
   "2026-10-21 10:13 UTC [all] 10:13 flat. Filters unmet: SHELLSHOCK age 19m, h1 +443%, liq $42k vs m5 vol $159k. Watch list: any token under 10m with h1 over +1000% and top10 under 15%; log price at 5, 15, 30, 60m to test reversal vs continuation. GT",
   "2026-10-21 10:16 UTC [all] 10:16 flat. BAKDINU age 5.9m h1 +27% (fails h1 filter). zTERM age 20.7m h1 +100% (fails age filter). Watch: BAKDINU if h1 passes +1000% while age under 10m and top10 under 15%; log price at 5/15/30/60m. Also GTA 6 Coin (",
@@ -178,6 +172,9 @@
   "2026-10-21 10:50 UTC [all] 10:50 flat, no new orders. LASTAGENCY (6.7m, h1 +217%, top10 11%) fails h1>1000% filter; EXFIL fails age. Hold gold 41 (stop 4095, target 4180, 24h). Discrepancy: journal lists YouTube 42 open but open feed shows only 41",
   "2026-10-21 10:53 UTC [all] 10:53 flat on memecoins (Truth 9m old fails h1 and top10; others fail). Hold gold 41 (stop 4095, target 4180, 24h). YouTube 42 appears already stopped out (journal shows stop -44), so treat 10:44 as closed; verify. Watch",
   "2026-10-21 10:56 UTC [all] 10:56 flat on memecoins: HUSH (1.4m, h1 +31%) and PHP (38m, h1 +315%) fail. Hold gold 41 (stop 4095, target 4180, 24h). Verify YouTube 42 is closed (open feed shows only 41). Watch: any token under 10m with h1 over +1000",
-  "2026-10-21 10:59 UTC [all] 10:59 flat, no new orders. MONEYBIZ (22h old, h1 +10%) fails age/h1 filters. Hold gold 41 (stop 4095, target 4180, 24h). Verify YouTube 42 is closed (journal says stopped, feed shows only 41). Watch: any token under 10m "
+  "2026-10-21 10:59 UTC [all] 10:59 flat, no new orders. MONEYBIZ (22h old, h1 +10%) fails age/h1 filters. Hold gold 41 (stop 4095, target 4180, 24h). Verify YouTube 42 is closed (journal says stopped, feed shows only 41). Watch: any token under 10m ",
+  "2026-10-21 11:02 UTC [all] 11:02 flat on new orders. Hold gold 41 (stop 4095, target 4180, 24h). Verify YouTube 42 is closed (journal says stopped, feed shows only 41). Watch: any token under 10m old with h1 over +1000% and top10 under 15%; log 5/",
+  "2026-10-21 11:05 UTC [all] 11:05 flat on new orders. LASTAGENCY (22m, h1 +481%) and BACKERS fail filters. Hold gold 41 (stop 4095, target 4180, 24h). YouTube 42 treated as closed (journal stop -44, not in open feed). Watch: any token under 10m wit",
+  "2026-10-21 11:08 UTC [all] 11:08 flat on new orders; no memecoin passes filters (KIMCHI, PHP, EXFIL, Pokecity, COMPUTE all fail age or h1). Hold gold 41 (stop 4095, target 4180, ~23.5h left). Verify YouTube 42 is closed (journal says stopped at -4"
  ]
 }
