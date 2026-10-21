@@ -1,10 +1,12 @@
 name: agent desk
 
-# Four long runs a day (about 5h45 each), the same pattern as the memecoin paper test.
-# Inside each run the desk scans every 3 minutes and checks open positions every 5 seconds.
+# Long runs (about 5h45 each) back to back. The hourly schedule keeps one run waiting in line behind the
+# current one (GitHub keeps at most one pending run per concurrency group), so if a scheduled start is skipped
+# or late, the desk still restarts within the hour. Inside each run the desk scans every 3 minutes and checks
+# open positions every 5 seconds. To stop the desk: Actions > agent desk > ... > Disable workflow.
 on:
   schedule:
-    - cron: "5 0,6,12,18 * * *"
+    - cron: "5 * * * *"
   workflow_dispatch: {}
 
 permissions:
