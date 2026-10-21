@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 10:29 UTC. Runs so far: 9. Model: claude-haiku-5-5.
+Updated 2026-10-21 10:38 UTC. Runs so far: 9. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -31,10 +31,12 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 10:29 UTC team all (memecoins), spent today $0.020
+### 2026-10-21 10:38 UTC team all (memecoins), spent today $0.021
 
-Lead: Flat again. The filter (under 10 min old, h1 over +1000%, top10 under 15%) is unmet. MONEYBIZ is about 21 hours old at +33% and COMPUTE is about 46 hours old at -16%, so both fail. GTA 6 Coin is unverifiable in the feed. No macro prices are supplied, so I can't size a macro idea responsibly. Scout: keep logging the reversal-vs-continuation test on any new qualifying token. Sniper: no order is ready.
+Lead: No trade. Nothing passes the filter: no token under 10 minutes old with h1 above +1000% and top10 under 15%. The feed's tradeable list is all older or falling (KIMCHI h1 -43%, PHP 324m old, pill 54,000m old). Macro has no price data, so no macro trade.
+Scout: The reversal-vs-continuation watch list is still empty. Logging it again.
+Sniper: No orders. Nothing to size or place.
 
-{"orders": [], "close": [], "note": "10:29 flat, no filter-passing memecoin (MONEYBIZ 1281m +33%, COMPUTE 2771m -16% both fail). No macro price data in feed, so no macro trade. Watch: any token under 10m with h1 over +1000% and top10 under 15%; log price at 5/15/30/60m for reversal-vs-continuation test. GTA 6 Coin and BAKDINU still unverified."}
+{"orders": [], "close": [], "note": "Flat, no filter-passing memecoin or macro price data. Watch: any token under 10m with h1 over +1000% and top10 under 15%; log price at 5/15/30/60m. Journal sample is only 2 trades, so no edge is established yet."}
 
 
