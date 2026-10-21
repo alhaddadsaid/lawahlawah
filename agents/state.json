@@ -1,7 +1,7 @@
 {
  "desks": {
   "team": {
-   "cash": 9982.938981414012,
+   "cash": 9990.610864135062,
    "open": [
     {
      "id": 41,
@@ -17,22 +17,6 @@
      "size": 0.12100847089478953,
      "deadline": 1792665680.9663918,
      "thesis": "[Sniper] Gold near lower half of 5d range (4138 vs 4095-4220) with no high-impact event in 24h tends to drift back toward the 5d midpoint (~4158) and the 4180 target.",
-     "size_pct": 0.5
-    },
-    {
-     "id": 86,
-     "desk": "team",
-     "market": "meme",
-     "symbol": "YouTube",
-     "mint": "FUfEAZrsNYxFAFzsRsnc8Dbm7eXeqhGuYtZpKRSJpump",
-     "side": 1,
-     "opened": 1792610050.8011346,
-     "entry": 0.0005088,
-     "stop": 0.00038140031397174254,
-     "target": 0.000636,
-     "size": 98102.7808708138,
-     "deadline": 1792617250.8011346,
-     "thesis": "[Sniper] Memecoin under 10m old with h1 over +1000% and top10 under 15% continues up 20% within 2h; small test given prior stop loss on this filter",
      "size_pct": 0.5
     }
    ]
@@ -122,17 +106,6 @@
  "runs": 10,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HYgZeYJnKiNCupzTkXtPiG16tTiiuEmwsUNAYFuJpump": 1792610399.9906218,
-  "seen:CaRCU7dm1Wz4MkxwpuKNgSWvprWxQsG4cCDpNo8rpump": 1792610581.5824616,
-  "seen:2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump": 1792610581.5824616,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792610581.5824616,
-  "seen:DNq98kymaw7GxhvLDTtrpUTBzi3L2KvnSedutZMyVhbm": 1792610581.5824616,
-  "control:2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump": 1792610588.1678343,
-  "seen:5Jj9FDm7hAFRjA9ikSGA8DDz6sa9NAi7PFM36FcBpump": 1792610764.048436,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792610764.048436,
-  "seen:96AsCWA8TjVcZDqVfMMPT2J3BfMYjYhyyMdYLjg3pump": 1792610764.048436,
-  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1792610764.048436,
-  "seen:FrtbBAaSZksfh4oV46E7Pvb43QiiUmYLD3dcGS6gpump": 1792610764.048436,
   "seen:Dna9AWXP9sEinbqGXExdxweQFeMRQUpMxQX9nZ6ppump": 1792610945.0879984,
   "seen:FUfEAZrsNYxFAFzsRsnc8Dbm7eXeqhGuYtZpKRSJpump": 1792610945.0879984,
   "seen:DvdmEnztCmXwBnAbedD48XVGZJSxq31zNvnyftXdpump": 1792610945.0879984,
@@ -143,7 +116,13 @@
   "seen:EBzm1AYQSBiJqpJm77nXWjPedxGiyy5N6f75q7o4pump": 1792611128.4471662,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792611128.4471662,
   "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1792611128.4471662,
-  "control:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1792611134.1197486
+  "control:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1792611134.1197486,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1792611316.7193463,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792611493.036351,
+  "seen:YKVRK6dCgdxbY4YhNf7Csr7a8JP9v78AWgtMqnwpump": 1792611493.036351,
+  "seen:5Jj9FDm7hAFRjA9ikSGA8DDz6sa9NAi7PFM36FcBpump": 1792611676.6920893,
+  "seen:DMeDhgxyqZYxrsmhYxuWZ4KdED46RyQVNhNaikgBpump": 1792611676.6920893,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792611676.6920893
  },
  "talks": {
   "2026-10-21": 109
@@ -189,14 +168,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-21": 0.114865
+  "2026-10-21": 0.116729
  },
- "last_meme_all": 1792610228.447627,
+ "last_meme_all": 1792610776.6926825,
  "last_macro_all": 1792609864.0491178,
  "notes": [
-  "2026-10-21 18:16 UTC [all] 18:16 no new orders. Hold gold 41 (stop 4095, target 4180, price 4157.8, ~16.4h left). Memecoin filter empty: JOCAT 57m old h1 +548% and KICITY 45m old fail. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity OK",
-  "2026-10-21 18:19 UTC [all] 18:19 no new orders. Hold gold 41 (stop 4095, target 4180, price ~4157, ~16.4h left). Memecoin filter empty again: PNL 36m, kimchi/acc 54m, others older. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity OK.",
-  "2026-10-21 18:22 UTC [all] 18:22 no new orders. Hold gold 41 (stop 4095, target 4180, price 4157.1, ~16.3h left). KIMCHI 34m old, h1 +204%, top10 3.5%, fails under-10m age; recheck if it drops below 10m (it won't), so likely dead. DOOD 9d old, fai",
   "2026-10-21 18:28 UTC [all] 18:28 no new orders. Hold gold 41 (stop 4095, target 4180, price 4157.8, ~16.2h left). Memecoin filter empty: YouTube 15.8m old (fails under-10m, h1 +1246%), Jeetjak 23m old (h1 +349%, fails h1>1000%), Dacity and GTA6 ol",
   "2026-10-21 18:31 UTC [all] 18:31 no new orders. Hold gold 41 (stop 4095, target 4180, price 4156.5, ~16.2h left). Memecoin filter empty again: PHP2SHELL 33m old (h1 +59%) fails under-10m; others older. Watch next scan: under-10m, h1>+1000%, top10<",
   "2026-10-21 18:34 UTC [all] 18:34 no new orders. Hold gold 41 (stop 4095, target 4180, price 4157.5, ~16.1h left). Memecoin filter empty again: fone, Pokemon 68h old, DARKCAT 33h old all fail. Watch next scan: under-10m, h1>+1000%, top10<15%, liqui",
@@ -213,6 +189,9 @@
   "2026-10-21 19:08 UTC [all] 19:08 no new orders. Hold gold 41 (stop 4095, target 4180, price 4136.9, ~15.6h left). Memecoin filter empty: Kimchi 18.6m old, h1 +27%, top10 26% fails; others old or weak. Watch next scan: under-10m, h1>+1000%, top10<1",
   "2026-10-21 19:11 UTC [all] 19:11 no new orders. Hold gold 41 (stop 4095, target 4180, price 4130.9, ~15.5h left). Memecoin filter empty: KIMCHI 25.6m old, h1 +174%, top10 3.8%, fails age; PULLBACK 30m fails. Watch next scan: under-10m, h1>+1000%, ",
   "2026-10-21 19:14 UTC [all] 19:14 YouTube small test at 0.5% (entry ~0.0005096, stop 0.000382, target 0.000637). Hold gold 41 (4128, stop 4095, target 4180, ~15.5h). Watch: under-10m, h1>+1000%, top10<15%, liquidity OK; Jeetjak top10 15.29% fails b",
-  "2026-10-21 19:17 UTC [all] 19:17 no new orders. Hold gold 41 (price 4135.5, stop 4095, target 4180, ~15.4h left) and YouTube 86 (price 0.0005388, stop 0.000381, target 0.000636, ~2h left). Memecoin filter empty: PHP2SHELL 79m old fails age despite"
+  "2026-10-21 19:17 UTC [all] 19:17 no new orders. Hold gold 41 (price 4135.5, stop 4095, target 4180, ~15.4h left) and YouTube 86 (price 0.0005388, stop 0.000381, target 0.000636, ~2h left). Memecoin filter empty: PHP2SHELL 79m old fails age despite",
+  "2026-10-21 19:20 UTC [all] 19:20 hold gold 41 (4132.5, stop 4095, target 4180, ~15.4h) and YouTube 86 (0.0005648, stop 0.000381, target 0.000636, ~1.9h). Memecoin scan empty again (GLITCH ~124h old fails age). Watch next scan: under-10m, h1>+1000%",
+  "2026-10-21 19:23 UTC [all] 19:23 close YouTube 86 at ~+20.9% (price_now 0.0006151) to lock the +20% hypothesis target before costs eat it; hold gold 41 (stop 4095, target 4180, ~15h). Memecoin scan empty: PHP 14h, JONATHAN 2.7h fail age. Watch nex",
+  "2026-10-21 19:26 UTC [all] 19:26 no new orders. Hold gold 41 (price 4136, stop 4095, target 4180, ~15h). Memecoin scan: Grok 5.2m old, top10 13.9%, liq 56k, but h1 +893% fails the >1000% rule. Watch Grok next scan: enter only if h1 >1000% and top1"
  ]
 }

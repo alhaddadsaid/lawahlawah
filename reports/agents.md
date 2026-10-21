@@ -1,24 +1,23 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 19:17 UTC. Runs so far: 10. Model: claude-haiku-5-5.
+Updated 2026-10-21 19:26 UTC. Runs so far: 10. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
 | desk | market | closed trades | win % | P&L normal $ | P&L pessimistic $ |
 |---|---|---|---|---|---|
-| team | meme | 5 | 80 | -17.06 | -29.44 |
+| team | meme | 6 | 83 | -9.39 | -24.52 |
 | team | macro | 0 | 0 | 0 | 0 |
-| team | all | 5 | 80 | -17.06 | -29.44 |
+| team | all | 6 | 83 | -9.39 | -24.52 |
 | control | meme | 72 | 22 | -3417.42 | -4068.2 |
 | control | macro | 3 | 33 | -105.13 | -120.98 |
 | control | all | 75 | 23 | -3522.55 | -4189.18 |
 
-Verdict: too early, 5 of 50 team trades needed before judging.
+Verdict: too early, 6 of 50 team trades needed before judging.
 
 ## Open positions
 
 - team: GOLD long at 4138.1, stop 4095, target 4180, opened 2026-10-21 10:41 UTC
-- team: YouTube long at 0.0005088, stop 0.0003814, target 0.000636, opened 2026-10-21 19:14 UTC
 - control: ALPENGLOW long at 9.25e-05, stop 7.4e-05, target 0.0001295, opened 2026-10-21 18:10 UTC
 - control: DARKCAT long at 8.757e-05, stop 7.0056e-05, target 0.000122598, opened 2026-10-21 18:34 UTC
 - control: Pokémon long at 0.0004, stop 0.00032, target 0.00056, opened 2026-10-21 18:40 UTC
@@ -27,18 +26,18 @@ Verdict: too early, 5 of 50 team trades needed before judging.
 
 ## Team
 
-API spend today: $0.11 (cap $3, aiming for about $1.50)
+API spend today: $0.12 (cap $3, aiming for about $1.50)
 - Lead (team lead and analyst, mission all): Decide what the team trades. Weigh every idea against costs and the journal. Look for repeatable edges, not one-off bets.
 - Scout (researcher, mission all): Bring ideas from prices, news, the economic calendar and politics. State each idea as a testable hypothesis.
 - Sniper (execution, mission all): Turn approved ideas into exact orders: size, optional stop and target, holding time, and early exits.
 
 ## Last run
 
-### 2026-10-21 19:17 UTC team all (memecoins), spent today $0.115
+### 2026-10-21 19:26 UTC team all (memecoins), spent today $0.117
 
-Lead: The memecoin filter is still empty. PHP2SHELL is +555% on the hour with 5% top10, but it is 79 minutes old, so it fails the under-10-minute rule. Others are old or weak. Gold 41 is near the middle of its range with no edge over the stop/target plan, so we hold. YouTube 86 is +5.9% with 2h left and a stop well below. Scout: no new hypothesis passes the filter. Sniper: no new orders. Hold both positions to their stops, targets and time limits.
+Lead: No new trade. Grok (5 min old, top10 13.9%) fails the h1 filter at +893% versus the >1000% threshold, so the memecoin hypothesis isn't met. KIMCHI fails on age and DOOD is mature. Scout: Grok is the only near-miss to watch. Sniper: No order. Gold 41 stays open with its stop at 4095 and target at 4180 (price 4136, about 15h left). YouTube 86 was already closed per the 19:23 note, so nothing to exit now.
 
-{"orders": [], "close": [], "note": "19:17 no new orders. Hold gold 41 (price 4135.5, stop 4095, target 4180, ~15.4h left) and YouTube 86 (price 0.0005388, stop 0.000381, target 0.000636, ~2h left). Memecoin filter empty: PHP2SHELL 79m old fails age despite h1 +555% and top10 5%; KIMCHINU, Dacity, DacityCoin fail. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity OK. Hypothesis to keep testing: the under-10m rule is the core filter, so do not relax it for older coins."}
+{"orders": [], "close": [], "note": "19:26 no new orders. Hold gold 41 (price 4136, stop 4095, target 4180, ~15h). Memecoin scan: Grok 5.2m old, top10 13.9%, liq 56k, but h1 +893% fails the >1000% rule. Watch Grok next scan: enter only if h1 >1000% and top10 <15% still hold (small size, 0.5%). KIMCHI and DOOD fail age/size. Hypothesis to keep testing: under-10m memes with h1 >1000% and top10 <15% continue +20%."}
 
-- 2026-10-21 19:17 UTC control: OPENED DacityCoin long at 0.000189 (stop 0.0001512, target 0.0002646) - control: frozen v3 rules
+- control: order JONATHAN REJECTED by guardrails: desk already has the maximum open positions
 
