@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 18:37 UTC. Runs so far: 10. Model: claude-haiku-5-5.
+Updated 2026-10-21 18:46 UTC. Runs so far: 10. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -20,6 +20,7 @@ Verdict: too early, 5 of 50 team trades needed before judging.
 - team: GOLD long at 4138.1, stop 4095, target 4180, opened 2026-10-21 10:41 UTC
 - control: ALPENGLOW long at 9.25e-05, stop 7.4e-05, target 0.0001295, opened 2026-10-21 18:10 UTC
 - control: DARKCAT long at 8.757e-05, stop 7.0056e-05, target 0.000122598, opened 2026-10-21 18:34 UTC
+- control: Pokémon long at 0.0004, stop 0.00032, target 0.00056, opened 2026-10-21 18:40 UTC
 
 ## Team
 
@@ -30,12 +31,10 @@ API spend today: $0.11 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 18:37 UTC team all (memecoins), spent today $0.107
+### 2026-10-21 18:46 UTC team all (memecoins), spent today $0.109
 
-Lead: Hold gold 41 as planned. Stop 4095, target 4180, about 16 hours left. No new trades.
-Scout: The memecoin filter is empty again. PHP is 13 hours old with +37% h1, and DOOD is a large-cap. Neither passes under-10m, h1>+1000%, top10<15%.
-Sniper: No orders. Nothing qualifies, and a new gold entry would add cost without an edge.
+Lead: No trade. The memecoin filter (under 10 min old, h1 above +1000%, top10 under 15%) finds nothing. PULLBACK is 6 min old but h1 is only +88% and top10 is 21%. Gold 41 stays open with its stop at 4095 and target at 4180. Scout: no new macro catalyst beyond crypto policy headlines, and none is a clear gold trigger. Sniper: no orders.
 
-{"orders": [], "close": [], "note": "18:37 no new orders. Hold gold 41 (stop 4095, target 4180, price ~4158, ~16h left). Memecoin filter empty: PHP 13h old, h1 +37%; DOOD large-cap. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity OK. Test hypothesis: 5d-range lower-half gold longs continue to upper range."}
+{"orders": [], "close": [], "note": "18:46 no new orders. Hold gold 41 (stop 4095, target 4180, price 4158.3, ~15.9h left). Memecoin filter empty: PULLBACK 6m old but h1 +89%, top10 21%, fails; PHP2SHELL 48m old fails. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity OK. Hypothesis still untested: filtered early-stage memecoins continue +20%."}
 
 
