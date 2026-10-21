@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 00:16 UTC. Runs so far: 5. Model: claude-haiku-5-5.
+Updated 2026-10-21 00:28 UTC. Runs so far: 5. Model: claude-haiku-5-5.
 
 Money is paper. Memecoins $200 per trade, costs 2.5% (normal) and 5% (pessimistic) per side. Macro trades risk $100 each (1% of $10,000).
 
@@ -25,15 +25,11 @@ Verdict: too early, 0 of 50 team trades needed before judging.
 
 ## Last run
 
-### 2026-10-21 00:16 UTC discussion (1 new tokens)
+### 2026-10-21 00:28 UTC discussion (1 new tokens)
 
 **Desk debate**
 
-**RESEARCHER:** One candidate, Kimchi. Price 0.0011, mcap $1.09M, liquidity $87.3K, age 36 min, 2,096 holders. Its 1h change is +20,079% and its 5m change is -17.88%, so the spike is already rolling over. Top 10 holders control 65.9%. The 5m volume of $1.03M is about 12x liquidity, which suggests churn or wash activity.
+**RESEARCHER:** One candidate: Pokecity (4wopER...pump). Price 0.0006, mcap $554.8k, liquidity $64.4k, 2,675 holders, top10 4.5%, insider 0%. Age 87 min, +336% over 1h, but only +6.8% over 5m. Volume over 5m is $8,976.
 
-**ANALYST:** REJECT. Entry at this point means buying after a parabolic move with a fading 5m candle and heavy top-10 concentration. A 2.5-5% per-side cost plus a 10-30% stop is too wide for a token this unstable. The setup doesn't meet the "clear setup" bar.
-
-**SNIPER:** No trade. Standing aside. No macro review this cycle, so no macro orders.
-
-{"orders
+**ANALYST:** REJECT. The 1h move is a parabolic run, and the 5m
 
