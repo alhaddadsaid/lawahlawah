@@ -1,7 +1,7 @@
 {
  "desks": {
   "team": {
-   "cash": 9809.59421528646,
+   "cash": 9766.527978313805,
    "open": [
     {
      "id": 41,
@@ -22,7 +22,7 @@
    ]
   },
   "control": {
-   "cash": 6069.208060352666,
+   "cash": 6008.3841508211635,
    "open": [
     {
      "id": 92,
@@ -68,35 +68,54 @@
      "size": 545553.7370430987,
      "deadline": 1792626283.4751112,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 102,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "NUTCOIN",
+     "mint": "6VVQE38thkLzR65EPjqU2FuMtvqfN5sMCXTUCMnapump",
+     "side": 1,
+     "opened": 1792620911.6897993,
+     "entry": 8.081e-05,
+     "stop": 6.464800000000001e-05,
+     "target": 0.00011313399999999999,
+     "size": 2474941.220146022,
+     "deadline": 1792628111.6897998,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 100,
+ "next_id": 103,
  "runs": 11,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792620711.0146334,
-  "seen:78eScNDytri8VqmNKtN1FSVz7c1V4gfH7MbgsDLgpump": 1792620711.0146334,
-  "seen:6VVQE38thkLzR65EPjqU2FuMtvqfN5sMCXTUCMnapump": 1792620711.0146334,
-  "seen:HgAP8Ps8LgzTWPvfTpjPu4LuUyUrg79wJy7XL7URpump": 1792620711.0146334,
-  "seen:D25wGmiwJruat7EuYQTFWrk2pDpAoKprdxfNXDH9pump": 1792620892.6914976,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792620892.6914976,
-  "seen:DfwTZe6QcGhNRK3CfmFRd783AWaHDky4fbNthoNspump": 1792620892.6914976,
-  "seen:54PyFJGjCWxe96vc5f4yzN7KppHhTvuPMSq6gDJ3pump": 1792620892.6914976,
-  "seen:BoTx8y9ynfdxf5ZjWtCoBVkff52qKA82ysaLU8ZM6d8T": 1792620892.6914976,
-  "seen:BCwXmVMj4x2sG5z37oMnps2B1GrGVA9J7AFiBEShpump": 1792620892.6914976,
-  "seen:4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792620892.6914976,
-  "seen:AWkWWNjoNtEnE2pnr7oAYSAoJGGYGbu4bELvnoeApump": 1792621072.9776669,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792621072.9776669,
-  "seen:9ACRV9BBbLfiykXqHP96Xtz5y42CbjgS81ybVd57pump": 1792621072.9776669,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792621257.5649395,
-  "seen:6rhi8eyuANzCkCmGKKhaqUMZc2jgvzEg842bc85Ypump": 1792621257.5649395,
   "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792621441.8075473,
   "seen:FrtbBAaSZksfh4oV46E7Pvb43QiiUmYLD3dcGS6gpump": 1792621441.8075473,
   "seen:D42TjMjz5H7toPu5md5KBXreZkCSdZMEfLQwmBhJXvb1": 1792621441.8075473,
   "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1792621441.8075473,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1792621441.8075473
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1792621441.8075473,
+  "seen:HDEwv3rUz72gUhF3cioyz14PogecD6zgXE8QhSdHpump": 1792621622.4368973,
+  "seen:Bo61v44TWErCNGF4qzu2nEWyGgPWeNrNpu1FsV8dpump": 1792621622.4368973,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792621622.4368973,
+  "seen:6VVQE38thkLzR65EPjqU2FuMtvqfN5sMCXTUCMnapump": 1792621622.4368973,
+  "seen:A2imNLVESDGF4ZLvevu8YGBgZtQoWVY4WDimZ9cupump": 1792621622.4368973,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792621622.4368973,
+  "control:Bo61v44TWErCNGF4qzu2nEWyGgPWeNrNpu1FsV8dpump": 1792621629.340124,
+  "seen:6ombVv3YMs9qpx1QkycD9XW8HKSfv7vGrCFX3cxCYMVY": 1792621807.376571,
+  "seen:D25wGmiwJruat7EuYQTFWrk2pDpAoKprdxfNXDH9pump": 1792621807.376571,
+  "seen:BCwXmVMj4x2sG5z37oMnps2B1GrGVA9J7AFiBEShpump": 1792621807.376571,
+  "seen:54PyFJGjCWxe96vc5f4yzN7KppHhTvuPMSq6gDJ3pump": 1792621807.376571,
+  "control:6VVQE38thkLzR65EPjqU2FuMtvqfN5sMCXTUCMnapump": 1792621811.6898026,
+  "seen:Zw9LHAbEmnuWKo8ucmSkE2Zp2KqRzwvDK3YD6hGpump": 1792621987.142934,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792621987.142934,
+  "seen:7555Qpbx1bNDTiRJ8jqhPSRGJmFqDyLLYSEkoy1ppump": 1792621987.142934,
+  "seen:96AsCWA8TjVcZDqVfMMPT2J3BfMYjYhyyMdYLjg3pump": 1792621987.142934,
+  "seen:4wopERxtKHjzaANSywo9BVVycGJ7q7uXJ38Q6EoCpump": 1792621987.142934,
+  "seen:2WhKXN2Ks5N2kDEyYUhECRHdt51WwZVi9Ga5Uy9sgJfH": 1792622170.5976775,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792622170.5976775,
+  "seen:6rhi8eyuANzCkCmGKKhaqUMZc2jgvzEg842bc85Ypump": 1792622170.5976775
  },
  "talks": {
   "2026-10-21": 109
@@ -125,7 +144,7 @@
  ],
  "last_review": 1792571535.8670912,
  "news": {
-  "t": 1792620357.5655057,
+  "t": 1792621270.598256,
   "crypto": [
    "American Bankers Association: OCC\u2019s GENIUS rules \u2018undermine\u2019 US Congress (0h ago)",
    "Tether backs Bolivian fintech bringing USDT payments to food delivery and banking (2h ago)",
@@ -142,15 +161,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-21": 0.149284
+  "2026-10-21": 0.152118
  },
- "last_meme_all": 1792620541.8081326,
+ "last_meme_all": 1792621270.5982475,
  "last_macro_all": 1792620172.978215,
  "notes": [
-  "2026-10-21 21:11 UTC [all] 21:11 no orders; hold gold 41 (4159.5, stop 4095, target 4180, ~13.5h left). Memphis 0.8m old but top10 17.5% and liq $18k fail; KIMCHIBULL 104m old fails age. Watch next: under-10m listings with h1>+1000%, top10<15%, li",
-  "2026-10-21 21:14 UTC [all] 21:14 Speed long 1% (stop 0.000465, target 0.000657, 1h max). Gold 41 held (4159.5, stop 4095, target 4180, ~13.4h). Watch: KIMCHI 6m old h1 +432% and KIMCHI 19m old both fail; watch for under-10m listings with h1>+1000%",
-  "2026-10-21 21:17 UTC [all] 21:17 no new orders; hold gold 41 (4159.5, stop 4095, target 4180, ~13.4h left) and Speed 93 (0.0005846, stop 0.000467, target 0.00066, ~1h left). Memecoin scan: MoonMe 20m old fails age; pill 15d old fails. Watch next: ",
-  "2026-10-21 21:20 UTC [all] 21:20 no new orders; hold gold 41 (4159.5, stop 4095, target 4180, ~13.3h left). Kimchipad 9m old fails (h1 +228%, top10 22%). Speed 93 is in notes but not in live open list; verify. Watch next: under-10m listings with h",
   "2026-10-21 21:23 UTC [all] 21:23 no new orders; hold gold 41 (4159.5, stop 4095, target 4180, ~13.3h left). Verify Speed 93 (in notes, not in live open list). Memecoin scan: PULLBACK 163m old, Pokecity and DOPE old, CHOO 153m, DOOD old; no passes.",
   "2026-10-21 21:26 UTC [all] 21:26 YouTube long 0.5% (stop 0.000425, target 0.0006, 1h max). Gold 41 held (stop 4095, target 4180). Verify Speed 93 status. GTA6 fails h1 (+315%). Watch next: under-10m listings with h1>+1000% and top10<15%.",
   "2026-10-21 21:29 UTC [all] 21:29 no new orders; hold gold 41 (4159.5, stop 4095, target 4180, ~13.2h left) and YouTube 95 (+6.9%, stop 0.000423, target 0.000597, ~1h to time stop). KIMCHI 34m and KIMCHI 2 22m fail age rule. Speed 93 still unverifi",
@@ -166,6 +181,10 @@
   "2026-10-21 21:59 UTC [all] No orders. Hold gold 41 (4159.5, stop 4095, target 4180, ~12.7h left). UncleClaw 4.6m old, top10 9%, but h1 +63% fails the +1000% filter. Watch next: fresh listings under 10m with h1>+1000% and top10<15%; gold close outs",
   "2026-10-21 22:02 UTC [all] Gold 41 held (stop 4095, target 4180). FOMO test at 1% size, 2h max. Watch: KUMCHI if h1 stays >1000% and top10 <15% on next scan; gold close beyond 4095-4220 range.",
   "2026-10-21 22:06 UTC [all] 22:05 no orders; hold gold 41 (4159.5, stop 4095, target 4180, ~12.6h left). MrBeast 36.5m fails age (h1 +1604%, top10 13.9%); Dacity fails momentum. Watch next: fresh listings under 10m with h1>+1000% and top10<15%; gol",
-  "2026-10-21 22:09 UTC [all] 22:09 no orders; hold gold 41 (4159.5, stop 4095, target 4180, ~12.5h left). DOPE, RIBBIT, Pokemon, GTA6, CHOO fail age/momentum filters. Watch next: fresh listings under 10m with h1>+1000% and top10<15%; gold close beyo"
+  "2026-10-21 22:09 UTC [all] 22:09 no orders; hold gold 41 (4159.5, stop 4095, target 4180, ~12.5h left). DOPE, RIBBIT, Pokemon, GTA6, CHOO fail age/momentum filters. Watch next: fresh listings under 10m with h1>+1000% and top10<15%; gold close beyo",
+  "2026-10-21 22:12 UTC [all] 21:12 scan: YouTube 0.5% test entered (stop 0.0004213, target 0.0005947, 2h max). Gold 41 held (stop 4095, target 4180, ~12h left). Watch: whether YouTube fills and whether the team's memecoin filter gets a positive resu",
+  "2026-10-21 22:15 UTC [all] 22:15 no orders. Hold gold 41 (4156.2, stop 4095, target 4180, ~12h left). No memecoin passes filter (wECX 14049m old; KIMCHI variants 52-80m old, fail age). Journal's YouTube 0.5% test not in open positions: verify. Wat",
+  "2026-10-21 22:18 UTC [all] 22:18 no orders. Hold gold 41 (4156.9, stop 4095, target 4180, ~12.4h left). Journal says YouTube 0.5% test entered at 22:12, but it is not in open positions: treat as not filled, verify. Watch next: fresh listings under",
+  "2026-10-21 22:21 UTC [all] 22:21 no orders; hold gold 41 (4156, stop 4095, target 4180, ~12h left). PHP2SHELL 18m old/top10 24% and MrBeast 52m old fail filters; YouTube test not filled. Watch: fresh listings under 10m with h1>+1000% and top10<15%"
  ]
 }
