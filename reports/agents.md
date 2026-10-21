@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 13:01 UTC. Runs so far: 9. Model: claude-haiku-5-5.
+Updated 2026-10-21 13:10 UTC. Runs so far: 9. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 4 | 75 | -22.7 | -32.38 |
 | team | macro | 0 | 0 | 0 | 0 |
 | team | all | 4 | 75 | -22.7 | -32.38 |
-| control | meme | 45 | 20 | -1785.5 | -2201.23 |
+| control | meme | 46 | 20 | -1835.67 | -2260.37 |
 | control | macro | 1 | 0 | -104.66 | -108.95 |
-| control | all | 46 | 20 | -1890.16 | -2310.18 |
+| control | all | 47 | 19 | -1940.33 | -2369.32 |
 
 Verdict: too early, 4 of 50 team trades needed before judging.
 
@@ -31,13 +31,12 @@ API spend today: $0.05 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 13:01 UTC team all (memecoins), spent today $0.048
+### 2026-10-21 13:10 UTC team all (memecoins + gold/forex), spent today $0.049
 
-Scout: Grok is under 10 minutes old but its 1h gain is +79%, far below the +1000% filter. Every other memecoin fails age or top10, so the memecoin hypothesis stays paused.
-Sniper: No valid entry. Gold 41 keeps its stop at 4095 and target at 4180.
-Lead: No new orders. Hold gold 41 and keep the memecoin filter on watch.
+Scout: Pokecity (849m old, h1 +51%) and PHP (476m old, h1 -9%) fail the under-10-minute, h1 above +1000%, top10 under 15% filter. Memecoin hypothesis stays paused.
+Sniper: No clean setup. No new orders.
+Lead: Hold gold 41 with its stop at 4095 and target at 4180. No macro catalyst and no calendar events in 24h, so no new macro entry. Stay flat on memecoins.
 
-{"orders": [], "close": [], "note": "13:01 flat, no new orders. Hold gold 41 (stop 4095, target 4180, ~21.5h left). Grok 6m old but h1 +79%, fails +1000% filter; memecoin hypothesis stays paused. Watch next scan: under-10m, h1>+1000%, top10<15%. No macro catalyst beyond gold range."}
+{"orders": [], "close": [], "note": "13:10 flat, no new orders. Hold gold 41 (stop 4095, target 4180, ~21.4h left). Pokecity 849m and PHP 476m fail age/h1 filter; memecoin hypothesis stays paused. Watch next scan: under-10m, h1>+1000%, top10<15%. No macro catalyst or high-impact calendar events in next 24h."}
 
-- control: order EURUSD REJECTED by guardrails: EURUSD already open
 
