@@ -278,12 +278,12 @@ def fmt_meme(rows):
             "holders", "top10_pct", "insider_pct"]
     out = []
     for r in rows[:8]:
-        out.append({k: (round(r[k], 4) if isinstance(r.get(k), float) else r.get(k)) for k in keep})
+        out.append({k: (float(f"{r[k]:.5g}") if isinstance(r.get(k), float) else r.get(k)) for k in keep})
     return json.dumps(out)
 
 
 def fmt_macro(m):
-    return json.dumps({k: {kk: (round(vv, 5) if isinstance(vv, float) else vv) for kk, vv in v.items()} for k, v in m.items()})
+    return json.dumps({k: {kk: (float(f"{vv:.6g}") if isinstance(vv, float) else vv) for kk, vv in v.items()} for k, v in m.items()})
 
 
 ORDER_SPEC = ("{\"orders\": [{\"market\": \"meme\" or \"macro\", \"symbol\": str, \"mint\": str (memecoin only), "

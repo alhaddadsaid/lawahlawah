@@ -54,7 +54,7 @@ ORDER_FORMAT = ('Reply with a short discussion (under 90 words, plain text), the
                 '{"orders": [{"market": "meme" or "macro", "symbol": str, "mint": str (memecoin only), '
                 '"side": "long" or "short", "size_pct": number 0.5-10, "stop": price or null, "target": price or null, '
                 '"max_hours": number, "by": agent name, "hypothesis": short testable reason}], '
-                '"close": [ids of open positions to exit now], "note": one line for the journal}. '
+                '"close": [ids of open positions to exit now], "note": one line for the journal, including any plan or watch list for next time}. '
                 'Use empty lists when you do nothing.')
 
 
@@ -293,7 +293,8 @@ def cycle(st, meme, fresh, macro, trades, log, ask, prices, close_pos, iso, fake
         roster = "\n".join(f"- {a['name']} ({a['role']}): {a['instructions']}" for a in members)
         data = [f"Time: {iso()}. Paper account cash ${equity:,.0f}.",
                 f"Open team positions: {open_text(st)}",
-                f"Journal:\n{journal_text(trades)}"]
+                f"Journal:\n{journal_text(trades)}",
+                "Your recent notes (plans, watch lists, hypotheses to test):\n" + ("\n".join(st.get("notes", [])[-8:]) or "none yet")]
         if due_meme:
             from agents import fmt_meme                        # same compact format as the rest of the desk
             data += [f"Memecoins (tradeable filter passed): {fmt_meme(fresh or meme[:6])}",
@@ -315,6 +316,9 @@ def cycle(st, meme, fresh, macro, trades, log, ask, prices, close_pos, iso, fake
             log.append(f"- team: model call failed: {text[19:-1]}")
             return
         j = parse_json(text)
+        if j.get("note"):
+            st.setdefault("notes", []).append(f"{iso()} [{g}] {str(j['note'])[:220]}")
+            st["notes"] = st["notes"][-20:]
         if not j:
             log.append(f"- team: reply had no decision (stop reason {usage.get('stop_reason')}, {len(text)} chars), skipped")
         log += [f"### {iso()} team {g} ({'memecoins' if due_meme else ''}{' + ' if due_meme and due_macro else ''}"
