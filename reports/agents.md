@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 19:56 UTC. Runs so far: 10. Model: claude-haiku-5-5.
+Updated 2026-10-21 20:08 UTC. Runs so far: 10. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -33,11 +33,13 @@ API spend today: $0.12 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 19:56 UTC team all (memecoins), spent today $0.122
+### 2026-10-21 20:08 UTC team all (memecoins), spent today $0.125
 
-Lead: No memecoin passes the under-10-minute age and h1 above +1000% rule. Grok is 35m old, Speed 25m, JONATHAN and pill fail. Scout: no fresh macro catalyst in the news beyond general crypto regulation, so no new gold idea. Sniper: keep gold 41 on its existing stop (4095) and target (4180). No new orders this scan.
+Lead: No new trades. The memecoin rule (under 10 min old, 1h gain over +1000%, top10 under 15%) is still unmet. '4' is 37m old with +136% h1 and 25% top10. Macca and PHP are old, and COMPUTE is 56h old.
+Scout: Crypto news is generic regulatory noise, with no clear catalyst to trade.
+Sniper: Keep gold 41 as planned, stop 4095, target 4180, about 14.6h left. Its entry at 4138 is 0.33% in the money.
 
-{"orders": [], "close": [], "note": "19:56 no new orders. Hold gold 41 (4151.9, stop 4095, target 4180, ~14.7h left). Memecoin scan: Grok 35m old h1 +1548%, Speed 25m h1 +1623%, JONATHAN h1 -61%, pill 15h old; all fail age. Watch next scan: under-10m, h1>+1000%, top10<15%, liq adequate."}
+{"orders": [], "close": [], "note": "20:08 no new orders. Hold gold 41 (4151.8, stop 4095, target 4180, ~14.5h left). Memecoin scan: '4' 37m old h1 +136% top10 25%; Macca, PHP, COMPUTE fail age/h1. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity adequate. Still no edge; test the rule only when a candidate passes."}
 
-- control: order JONATHAN REJECTED by guardrails: desk already has the maximum open positions
+- control: order 4 REJECTED by guardrails: desk already has the maximum open positions
 
