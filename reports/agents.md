@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 05:03 UTC. Runs so far: 5. Model: claude-haiku-5-5.
+Updated 2026-10-21 05:13 UTC. Runs so far: 5. Model: claude-haiku-5-5.
 
 Money is paper. Memecoins $200 per trade, costs 2.5% (normal) and 5% (pessimistic) per side. Macro trades risk $100 each (1% of $10,000).
 
@@ -9,9 +9,9 @@ Money is paper. Memecoins $200 per trade, costs 2.5% (normal) and 5% (pessimisti
 | team | meme | 0 | 0 | 0 | 0 |
 | team | macro | 0 | 0 | 0 | 0 |
 | team | all | 0 | 0 | 0 | 0 |
-| control | meme | 23 | 22 | -714.41 | -931.96 |
+| control | meme | 24 | 21 | -764.44 | -990.97 |
 | control | macro | 0 | 0 | 0 | 0 |
-| control | all | 23 | 22 | -714.41 | -931.96 |
+| control | all | 24 | 21 | -764.44 | -990.97 |
 
 Verdict: too early, 0 of 50 team trades needed before judging.
 
@@ -23,10 +23,5 @@ Verdict: too early, 0 of 50 team trades needed before judging.
 
 ## Last run
 
-### 2026-10-21 05:03 UTC discussion (5 new tokens)
-
-**Desk debate**
-
-
-- control: order startupSI REJECTED by guardrails: startupSI already open
+- control: CLOSED smol (stop) P&L $-50.03 normal, $-59.01 pessimistic
 
