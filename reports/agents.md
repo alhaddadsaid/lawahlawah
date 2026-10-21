@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 02:30 UTC. Runs so far: 5. Model: claude-haiku-5-5.
+Updated 2026-10-21 02:39 UTC. Runs so far: 5. Model: claude-haiku-5-5.
 
 Money is paper. Memecoins $200 per trade, costs 2.5% (normal) and 5% (pessimistic) per side. Macro trades risk $100 each (1% of $10,000).
 
@@ -9,9 +9,9 @@ Money is paper. Memecoins $200 per trade, costs 2.5% (normal) and 5% (pessimisti
 | team | meme | 0 | 0 | 0 | 0 |
 | team | macro | 0 | 0 | 0 | 0 |
 | team | all | 0 | 0 | 0 | 0 |
-| control | meme | 12 | 8 | -578.69 | -686.91 |
+| control | meme | 13 | 8 | -650.08 | -766.72 |
 | control | macro | 0 | 0 | 0 | 0 |
-| control | all | 12 | 8 | -578.69 | -686.91 |
+| control | all | 13 | 8 | -650.08 | -766.72 |
 
 Verdict: too early, 0 of 50 team trades needed before judging.
 
@@ -24,9 +24,11 @@ Verdict: too early, 0 of 50 team trades needed before judging.
 
 ## Last run
 
-### 2026-10-21 02:30 UTC discussion (4 new tokens)
+### 2026-10-21 02:39 UTC discussion (3 new tokens)
 
 **Desk debate**
 
-
+**RESEARCHER**
+1. ORANGIE: age 63 min, mcap $95k, liquidity $25.9k, h1 +42%, m5 -4.3%. Momentum after a fast run, but liquidity is thin and top10 holds 37%.
+2. Dacity and baton: mature tokens (31.6k and 82.4
 
