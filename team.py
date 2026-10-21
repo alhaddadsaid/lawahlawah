@@ -180,15 +180,30 @@ def journal_text(trades, n=12):
     return "\n".join(lines)
 
 
-def open_text(st):
-    return json.dumps([{"id": p["id"], "symbol": p["symbol"], "market": p["market"], "side": "long" if p["side"] > 0 else "short",
-                        "entry": round(p["entry"], 8), "stop": p["stop"], "target": p["target"],
-                        "hours_left": round((p["deadline"] - time.time()) / 3600, 1), "thesis": p["thesis"][:60]}
-                       for p in st["desks"]["team"]["open"]])
+def open_text(st, prices=None):
+    def now_px(p):
+        try:
+            v = prices(p["market"], p["mint"] or p["symbol"]) if prices else None
+        except Exception:
+            v = None
+        return None if v is None else float(f"{v:.6g}")
+
+    def pnl_pct(p, v):
+        return None if v is None else round(p["side"] * (v / p["entry"] - 1) * 100, 2)
+    rows = []
+    for p in st["desks"]["team"]["open"]:
+        v = now_px(p)
+        rows.append({"id": p["id"], "symbol": p["symbol"], "market": p["market"], "side": "long" if p["side"] > 0 else "short",
+                     "entry": float(f"{p['entry']:.6g}"), "price_now": v, "move_pct": pnl_pct(p, v), "stop": p["stop"],
+                     "target": p["target"], "hours_left": round((p["deadline"] - time.time()) / 3600, 1),
+                     "thesis": p["thesis"][:60]})
+    return json.dumps(rows)
 
 
-def parse_json(text):
-    """Return the last JSON object in the text (the decision line), ignoring prose and stray braces."""
+def parse_json(text, keys=None):
+    """Return the outermost JSON object in the text (the decision line), ignoring prose and stray braces.
+    With keys, only objects containing at least one of them count (so a lone order cut from a truncated
+    reply is never mistaken for the decision)."""
     dec = json.JSONDecoder()
     best, key = {}, None
     for m in re.finditer(r"\{", text):
@@ -197,6 +212,8 @@ def parse_json(text):
         except Exception:
             continue
         k = (m.start() + n, -m.start())          # ends last, and among those starts first = outermost object
+        if keys and not any(x in obj for x in keys) if isinstance(obj, dict) else True:
+            continue
         if isinstance(obj, dict) and obj and (key is None or k > key):
             best, key = obj, k
     return best
@@ -292,7 +309,7 @@ def cycle(st, meme, fresh, macro, trades, log, ask, prices, close_pos, iso, fake
         members = team_for(st, g)
         roster = "\n".join(f"- {a['name']} ({a['role']}): {a['instructions']}" for a in members)
         data = [f"Time: {iso()}. Paper account cash ${equity:,.0f}.",
-                f"Open team positions: {open_text(st)}",
+                f"Open team positions (price_now is live): {open_text(st, prices)}",
                 f"Journal:\n{journal_text(trades)}",
                 "Your recent notes (plans, watch lists, hypotheses to test):\n" + ("\n".join(st.get("notes", [])[-8:]) or "none yet")]
         if due_meme:
@@ -306,7 +323,7 @@ def cycle(st, meme, fresh, macro, trades, log, ask, prices, close_pos, iso, fake
                      "Economic calendar (high impact, next 24h): " + (" | ".join(nw.get("calendar", [])) or "none")]
         system = (DESK + f"\nYour team for this mission ({g}):\n{roster}\nDebate briefly in your roles, then decide. "
                   + ORDER_FORMAT)
-        text, usage = ask(system, "\n".join(data), 1000)
+        text, usage = ask(system, "\n".join(data), 2000)
         add_spend(st, usage)
         if due_meme:
             st[f"last_meme_{g}"] = t
@@ -315,7 +332,7 @@ def cycle(st, meme, fresh, macro, trades, log, ask, prices, close_pos, iso, fake
         if text.startswith("(model call failed"):
             log.append(f"- team: model call failed: {text[19:-1]}")
             return
-        j = parse_json(text)
+        j = parse_json(text, ("orders", "close", "note"))
         if j.get("note"):
             st.setdefault("notes", []).append(f"{iso()} [{g}] {str(j['note'])[:220]}")
             st["notes"] = st["notes"][-20:]
@@ -370,11 +387,11 @@ def review(st, trades, log, ask, iso):
               "under 120 words, then on the last line JSON only: {\"hire\": [{\"name\": str, \"role\": str, "
               "\"mission\": \"meme\"|\"macro\"|\"all\", \"instructions\": str}], \"fire\": [names], "
               "\"missions\": {name: mission}, \"note\": str}.")
-    text, usage = ask(system, f"Team:\n{roster}\n\nJournal:\n{journal_text(trades, 25)}\nLosing streak: {streak}.", 900)
+    text, usage = ask(system, f"Team:\n{roster}\n\nJournal:\n{journal_text(trades, 25)}\nLosing streak: {streak}.", 2000)
     add_spend(st, usage)
     if text.startswith("(model call failed"):
         return
-    j = parse_json(text)
+    j = parse_json(text, ("hire", "fire", "missions", "note"))
     lead = st["team"][0]["name"]
     for name in j.get("fire", []) or []:
         if name != lead and any(a["name"] == name for a in st["team"]):
