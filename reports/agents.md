@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 09:58 UTC. Runs so far: 9. Model: claude-haiku-5-5.
+Updated 2026-10-21 10:07 UTC. Runs so far: 9. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -32,14 +32,13 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 09:58 UTC team all (memecoins + gold/forex), spent today $0.015
+### 2026-10-21 10:07 UTC team all (memecoins), spent today $0.016
 
-Sniper: SHELLSHOCK is 3.9 min old, but its h1 is +116%, well short of the >1000% filter. Its m5 volume (~$97k) is about 4x its liquidity ($25k), so slippage on a memecoin entry would eat the 2.5-5% per-side cost. No trade.
+Scout: no memecoin in today's filtered list is under 10 minutes old with h1 over +1000%. KIMCHI, PHP and Pokecity are all hours old and fading or flat. GTA 6 Coin was +950% at 10:01 but is not in the current feed, so I can't verify its age or price now.
 
-Scout: GOLD, EURUSD and GBPUSD show no calendar catalyst in the next 24h and small 1h moves against ATR, so there is no macro edge to test.
+Lead: the entry rule is unmet, and the journal shows a tiny sample (2 trades). Chasing a stale or unverified print adds risk without evidence. Sniper: no order. Stay flat and keep logging the watch list.
 
-Lead: Stay flat. Keep the filter test running and log SHELLSHOCK's path in case it reaches the threshold while still under 10 minutes old.
+{"orders": [], "close": [], "note": "No trades, flat. Filter unmet: KIMCHI 617m, PHP 293m, Pokecity 667m, none under 10m with h1 over 1000%. GTA 6 Coin not in current feed, so unverifiable; last seen h1 +950% at age 6.0m (10:01). Watch: any token under 10 min old with h1 over 1000%, log its price path for the reversal-vs-continuation test and the fomo target-too-tight observation."}
 
-{"orders": [], "close": [], "note": "No trades, flat. Filter unmet: SHELLSHOCK 3.9m old but h1 +116%, liq $25k vs m5 vol $97k (slippage risk). Watch SHELLSHOCK (9yxQvtqzsdHay96y7kxE8ikrGdi2FnytaCmMr9c9pump): enter only if h1 passes +1000% while age is under 10 min and liquidity holds; log its price path for reversal-vs-continuation. Still track fomo target-too-tight observation. No macro events in 24h."}
-
+- control: order MEME REJECTED by guardrails: desk already has the maximum open positions
 
