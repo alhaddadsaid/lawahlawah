@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 14:11 UTC. Runs so far: 9. Model: claude-haiku-5-5.
+Updated 2026-10-21 14:23 UTC. Runs so far: 9. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -22,6 +22,7 @@ Verdict: too early, 4 of 50 team trades needed before judging.
 - control: EURUSD long at 1.12334, stop 1.12269, target 1.12432, opened 2026-10-21 11:02 UTC
 - control: COMPUTE long at 0.0001422, stop 0.00011376, target 0.00019908, opened 2026-10-21 12:24 UTC
 - control: Gato long at 0.0001456, stop 0.00011648, target 0.00020384, opened 2026-10-21 13:28 UTC
+- control: HUMANOID long at 0.0001283, stop 0.00010264, target 0.00017962, opened 2026-10-21 14:20 UTC
 
 ## Team
 
@@ -32,12 +33,13 @@ API spend today: $0.06 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 14:11 UTC team all (memecoins), spent today $0.060
+### 2026-10-21 14:23 UTC team all (memecoins), spent today $0.062
 
-Lead: No new trades. Gold 41 is working toward its target, and its stop and target stay in place.
-Scout: No memecoin passes under-10m age, h1>+1000%, and top10<15%. chud is 24.8m old with h1 +20%, so it fails. No macro events in 24h.
-Sniper: No orders. Hold gold 41 (stop 4095, target 4180).
+Scout: no memecoin passes the filter. Speed has h1 +2862% and top10 14.1%, but it is 54 min old, not under 10. HUMANOID and the rest fail age or h1. No macro catalyst in the feed.
+Lead: Do nothing. Keep gold 41 open with its stop at 4095 and target at 4180. Its thesis (lower half of the 5-day range) is unchanged and it has about 20 hours left. The memecoin hypothesis stays paused until a fresh launch meets all three filters.
+Sniper: No orders. Watch for new launches under 10 minutes old with h1 above +1000% and top10 below 15%.
 
-{"orders": [], "close": [], "note": "14:11 flat, no new orders. Hold gold 41 (stop 4095, target 4180, ~20.5h left, +0.21%). chud (24.8m, h1 +20%) fails age filter. No macro events in 24h. Watch next scan: under-10m, h1>+1000%, top10<15%; memecoin hypothesis stays paused."}
+{"orders": [], "close": [], "note": "14:23 flat, no new orders. Hold gold 41 (stop 4095, target 4180, ~20.4h left, +0.18%). Speed (54m, h1 +2862%, top10 14%) fails age filter; HUMANOID (81m) fails age and h1. Watch next scan: under-10m, h1>+1000%, top10<15%; no macro events."}
 
+- control: order Chupacabra REJECTED by guardrails: desk already has the maximum open positions
 
