@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-21 18:46 UTC. Runs so far: 10. Model: claude-haiku-5-5.
+Updated 2026-10-21 18:55 UTC. Runs so far: 10. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -31,10 +31,11 @@ API spend today: $0.11 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-21 18:46 UTC team all (memecoins), spent today $0.109
+### 2026-10-21 18:55 UTC team all (memecoins), spent today $0.110
 
-Lead: No trade. The memecoin filter (under 10 min old, h1 above +1000%, top10 under 15%) finds nothing. PULLBACK is 6 min old but h1 is only +88% and top10 is 21%. Gold 41 stays open with its stop at 4095 and target at 4180. Scout: no new macro catalyst beyond crypto policy headlines, and none is a clear gold trigger. Sniper: no orders.
+Lead: Hold. No memecoin passes the under-10-minute filter: PLAZA is 82 minutes old with h1 at -5.8%, and the rest are older. Scout: No fresh macro catalyst beyond crypto headlines, which are regulatory and not gold-specific. Sniper: Gold 41 stays on its existing stop 4095 and target 4180, about 16 hours left. Watch list: the under-10m, h1 above +1000%, top10 below 15% filter, with liquidity OK. Cost discipline matters, since the journal is net negative after costs.
 
-{"orders": [], "close": [], "note": "18:46 no new orders. Hold gold 41 (stop 4095, target 4180, price 4158.3, ~15.9h left). Memecoin filter empty: PULLBACK 6m old but h1 +89%, top10 21%, fails; PHP2SHELL 48m old fails. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity OK. Hypothesis still untested: filtered early-stage memecoins continue +20%."}
+{"orders": [], "close": [], "note": "18:55 no new orders. Hold gold 41 (stop 4095, target 4180, price 4156.2, ~15.8h left). Memecoin filter empty again: PLAZA 82m old, h1 -5.8%, fails. Watch next scan: under-10m, h1>+1000%, top10<15%, liquidity OK. Journal still net negative after costs; keep sizing small and test the under-10m hypothesis only when a coin passes."}
 
+- control: order Pokémon REJECTED by guardrails: Pokémon already open
 
