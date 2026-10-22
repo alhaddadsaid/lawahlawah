@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 4042.0242832822873,
+   "cash": 3869.3991374246443,
    "open": [
     {
      "id": 188,
@@ -20,21 +20,6 @@
      "target": 0.00032298,
      "size": 866926.7446900737,
      "deadline": 1792683106.281452,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 191,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "LASTCALL",
-     "mint": "Bnq4KRE1i1gcvFjqPaPNtkFs2ZojsPGEoAaPTkvGpump",
-     "side": 1,
-     "opened": 1792677969.7707608,
-     "entry": 0.0005142,
-     "stop": 0.00041136000000000005,
-     "target": 0.00071988,
-     "size": 388953.7145079735,
-     "deadline": 1792685169.770761,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -59,27 +44,26 @@
  "runs": 14,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2AAVAbzcqb8of1Vsji3y5GGx9FVg3bfmwXYAFgWLpump": 1792679229.728368,
-  "seen:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792679229.728368,
-  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792679229.728368,
-  "control:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792679229.7868485,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792679414.5178285,
-  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1792679414.5178285,
-  "seen:3TNTAzujut9uRNNpj5Huut4Y6frrQYScd7wSJS3Tpump": 1792679414.5178285,
-  "seen:DMhsNrFYoKtENT2WKrF3JWC5P9VPg15kZ7qiRSxJpump": 1792679414.5178285,
-  "seen:Bnq4KRE1i1gcvFjqPaPNtkFs2ZojsPGEoAaPTkvGpump": 1792679599.2809808,
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792679599.2809808,
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792679599.2809808,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1792679599.2809808,
-  "seen:8NAtYWBvPEJvSEqHxjfB8tb2gkBZ2NUketXkJktKpump": 1792679599.2809808,
-  "seen:WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp": 1792679599.2809808,
-  "control:8ujgaCNgVEkpEnQKuWT6ANdkKhBKmK6JxxkqGZhipump": 1792679599.3915966,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792679779.5343277,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1792679779.5343277,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792679964.3131042,
   "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792679964.3131042,
   "seen:HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": 1792679964.3131042,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792679964.3131042
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792679964.3131042,
+  "seen:sWU4CmpMRom92sa7yhEvxRkR1VB5Mv9FP2SCL96pump": 1792680147.1509478,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792680147.1509478,
+  "seen:7L1oeyY33oMwZqyyeghqR4tAjEE5WGgvjLapPPw7pump": 1792680147.1509478,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1792680147.1509478,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1792680147.1509478,
+  "seen:6ATmh1gxLsUzKwWeYnex7Ki2Rhs4cYD83HrrpR2Ppump": 1792680326.7717276,
+  "seen:3TNTAzujut9uRNNpj5Huut4Y6frrQYScd7wSJS3Tpump": 1792680326.7717276,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792680326.7717276,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792680511.8171077,
+  "seen:5dvXTZ5qwgafnHtwu3Ls3QrWx1U4LQsFeCuJgkk4QEC6": 1792680511.8171077,
+  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792680511.8171077,
+  "seen:EXEm2pxezh7qB2pzsbaFMdJ9ZXnpdSX2vZ8mpwrxpump": 1792680696.4317026,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1792680696.4317026,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792680696.4317026,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792680696.4317026,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792680696.4317026
  },
  "talks": {
   "2026-10-21": 109
@@ -131,12 +115,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-22": 0.113641
+  "2026-10-22": 0.114196
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-22 08:23 UTC [all] 08:23 no orders. Hold gold 156 (entry 4108, now 4099.2, stop 4082.5, target 4140.5, ~22.5h left). No memecoin passes filter (Meta 33m old, h1 +217%, fails h1 gate; MONKO 222m old; KIMCHIBULL, Gato too old). Watch: any me",
   "2026-10-22 08:26 UTC [all] Hold gold 156 (entry 4108, now 4099.4, stop 4082.5, target 4140.5, ~22.5h left). No memecoin passes filter: CAPE fails top10 (27.8%), Smolklie/CAPY/GTA6 fail h1 or top10. Watch: any memecoin under 10m old with h1 over +1",
   "2026-10-22 08:29 UTC [all] 08:29 hold gold 156 (now ~4101.2, stop 4082.5, target 4140.5, ~22h left). No orders. Dodo 5.8m old, h1 +73%, top10 14.2%, liq $22k fails h1>+1000% gate and is too thin for costs. Watch: any memecoin under 10m old with h1",
   "2026-10-22 08:32 UTC [macro] 08:32 no orders. Hold gold 156 (entry 4108, now 4108.4, stop 4082.5, target 4140.5, ~22h left). No memecoin passes filter (no new candidates in notes). Watch: any memecoin under 10m old with h1 over +1000%, top10 under 1",
@@ -155,8 +138,9 @@
   "2026-10-22 13:10 UTC [macro] 13:10 no new orders. Hold gold 182 (entry 4092.4, now 4098.8, stop 4069.5, target 4119.5, ~11.6h left); early exit if hourly close below 4090. No memecoin passes filter (age<10m, h1>+1000%, top10<15%, adequate liquidity)",
   "2026-10-22 13:31 UTC [macro] 13:31 hold gold 182 (entry 4092.4, now 4092.0, stop 4069.5, target 4119.5, ~11.3h left). Early exit if hourly close below 4090. No memecoin passes filter; no forex setup; no high-impact events in 24h. Watch: memecoin und",
   "2026-10-22 13:53 UTC [macro] 13:52 close gold 182 (entry 4092.4, now ~4078, below 4090 early-exit level, near 5d low 4072.7). No new orders: no memecoin passes filter (age<10m, h1>+1000%, top10<15%, liquidity), no forex setup, no high-impact events.",
-  "2026-10-22 14:15 UTC [macro] 14:15 no orders. Gold 4067.6 just above 5d low 4064.1, down 1.95% 24h, no high-impact events. EUR/USD near 5d low, GBP/USD mid-range; no forex setup. No memecoin passes filter. Watch: gold reclaims 4090 (test long, stop "
+  "2026-10-22 14:15 UTC [macro] 14:15 no orders. Gold 4067.6 just above 5d low 4064.1, down 1.95% 24h, no high-impact events. EUR/USD near 5d low, GBP/USD mid-range; no forex setup. No memecoin passes filter. Watch: gold reclaims 4090 (test long, stop ",
+  "2026-10-22 14:36 UTC [macro] 14:36 no orders. Gold 4065 near 5d low 4059.5, no setup. Watch: gold closes above 4090 (test long, stop 4070, target 4120, max 12h); a break below 4059.5 with momentum is no-long. Memecoin filter (age<10m, h1>+1000%, top"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792678514.518697
+ "last_macro_macro": 1792679796.4326017
 }
