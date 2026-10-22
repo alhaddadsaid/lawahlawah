@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-22 00:53 UTC. Runs so far: 11. Model: claude-haiku-5-5.
+Updated 2026-10-22 01:02 UTC. Runs so far: 11. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -31,10 +31,13 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-22 00:53 UTC team all (memecoins + gold/forex), spent today $0.011
+### 2026-10-22 01:02 UTC team all (memecoins), spent today $0.012
 
-Lead: Hold gold 41. Price 4133.3 sits inside the stop (4095) and target (4180) band, with about 9.8h left. Scout: CHOO (6h old, h1 -8.8%) and Dacity (15,216m old, h1 -3.2%) both fail the fresh-memecoin filter (under 10m, h1 >+1000%, top10 <15%). No economic calendar events in 24h. Sniper: no new entries, no changes to stops or targets.
+Scout: FOMO (4.8m old, top10 13.9%) is close but h1 is +883%, under our +1000% filter. Others fail age or h1.
+Sniper: No memecoin entry. Journal shows the strategy has lost on most stops, so no forcing a trade.
+Lead: Hold gold 41 (4131.3, stop 4095, target 4180, ~9.6h left). Nothing else qualifies. Watch FOMO-type fresh coins if h1 crosses 1000% while still under 10 minutes old and top10 stays under 15%.
 
-{"orders": [], "close": [], "note": "00:53 no orders. Hold gold 41 (4133.3, stop 4095, target 4180, ~9.8h left). CHOO (364m, h1 -8.8%) and Dacity (15216m, h1 -3.2%) fail filters. No calendar events 24h. Watch next: fresh memecoins under 10m, h1>+1000%, top10<15%, checked live; keep logging near-misses."}
+{"orders": [], "close": [], "note": "No orders. Hold gold 41 (4131.3, stop 4095, target 4180, ~9.6h left). FOMO (4.8m, h1 +883%, top10 13.9%) fails h1>1000% filter; SURY (58m), CYBER, CYBERCAT, PHP, DOOD, pill fail age/h1. Watch next: fresh memecoins under 10m, h1>+1000%, top10<15%, liquidity adequate, checked live each cycle; FOMO if it crosses 1000% on re-check."}
 
+- control: order GBPUSD REJECTED by guardrails: GBPUSD already open
 
