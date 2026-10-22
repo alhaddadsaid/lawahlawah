@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 2579.7243946850667,
+   "cash": 2526.836177162408,
    "open": [
     {
      "id": 209,
@@ -66,21 +66,6 @@
      "size": 2613695.7658128594,
      "deadline": 1792716311.9501636,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 236,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MEMEMAN",
-     "mint": "79hQSeQtMsVLFH8vCT8LysFnJDqiwSxQyTA7cMVgyaHB",
-     "side": 1,
-     "opened": 1792709298.4011877,
-     "entry": 0.0001655,
-     "stop": 0.00013240000000000002,
-     "target": 0.0002317,
-     "size": 1208459.2145015106,
-     "deadline": 1792716498.401188,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,25 +74,28 @@
  "runs": 15,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FPmD41CzoS2oa74EsL9z3AeDRMDFpXA9mJMcABgupump": 1792709462.7647152,
-  "seen:9VAzmHRdAKSpPct4ji3zjz5wYT641g981p9hkWqmELKU": 1792709462.7647152,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792709462.7647152,
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792709462.7647152,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792709462.7647152,
-  "seen:79hQSeQtMsVLFH8vCT8LysFnJDqiwSxQyTA7cMVgyaHB": 1792709645.936434,
-  "seen:7nm89y3G2n77jThw5zANoJWkrBh94an5LSxuVXAYpump": 1792709645.936434,
-  "seen:EmZrLZhLaTSpg7xjmbWjGSPCnCpTVDoa6qeKj48Tpump": 1792709645.936434,
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792709645.936434,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792709827.4511333,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792709827.4511333,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792709827.4511333,
-  "control:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792709827.479776,
-  "seen:9RhEr8CvHZ92bKsnrwodi2qkcNxYyghjAzCSJgQPpump": 1792710011.9229836,
-  "control:9RhEr8CvHZ92bKsnrwodi2qkcNxYyghjAzCSJgQPpump": 1792710011.9501665,
-  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792710195.323387,
-  "seen:HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump": 1792710195.323387,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792710195.323387,
-  "control:79hQSeQtMsVLFH8vCT8LysFnJDqiwSxQyTA7cMVgyaHB": 1792710198.4011908
+  "seen:EfgEGG9PxLhyk1wqtqgGnwgfVC7JYic3vC9BCWLvpump": 1792710376.5344446,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792710376.5344446,
+  "seen:FPmD41CzoS2oa74EsL9z3AeDRMDFpXA9mJMcABgupump": 1792710376.5344446,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792710376.5344446,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792710376.5344446,
+  "seen:EHAbP7K7oCRz1GrMVa5kKKRKhUzYUZTSEdrDEnepump": 1792710376.5344446,
+  "seen:6mYfg1EmMVjbQv38QGY5XdRUQ4SyNpFauL1aiRiWpump": 1792710376.5344446,
+  "seen:5UHeHyfB4fo7sy4hHN9gGBJvYSQdz7w6ienZoSTDpump": 1792710560.2413623,
+  "seen:BnYKTZjTf42u5G9qqsBBzYCuGZT8CvrGL3JuRcLnpump": 1792710560.2413623,
+  "seen:EsUyx7daYGoicGVMjjiau5biup2AMxCiv4jhgAudpump": 1792710560.2413623,
+  "seen:7s6gA5V8WoMrvAqH7hnKeUJUEuYqmNpPWwgYzPYjpump": 1792710560.2413623,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792710560.2413623,
+  "seen:EmZrLZhLaTSpg7xjmbWjGSPCnCpTVDoa6qeKj48Tpump": 1792710560.2413623,
+  "seen:8ct4AAEVZpw4uz53ViQK4t7jjrW4WXseTDYN6oi3pump": 1792710740.287932,
+  "seen:DLGRpmkMGr7J4KD1xR5x2XjaGeQH64PLFQkyxNNSpump": 1792710740.287932,
+  "seen:9VAzmHRdAKSpPct4ji3zjz5wYT641g981p9hkWqmELKU": 1792710740.287932,
+  "seen:HdeYFPJzYGPsdCNM49Xmb2G8NgFAyt9ZG97oRBdypump": 1792710740.287932,
+  "seen:ALbRy139GYXvne7zkjQR5JruYRDnaEdnMgLtFW3Rpump": 1792711103.8854914,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792711103.8854914,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792711103.8854914,
+  "seen:HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump": 1792711103.8854914,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792711103.8854914
  },
  "talks": {
   "2026-10-21": 109
@@ -142,18 +130,18 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792708562.7660882,
+  "t": 1792709476.5358453,
   "crypto": [
+   "Senate's top Democratic investigator looking into Tether payments to Bo Hines' firm (0h ago)",
    "Circle shareholder sues Trump, World Liberty and Steve Witkoff over crypto deals (1h ago)",
    "Dune launches real-time data feeds covering 200 onchain trading venues (2h ago)",
-   "Here\u2019s what happened in crypto today (2h ago)",
+   "Here\u2019s what happened in crypto today (3h ago)",
    "Winklevoss PAC moves into Texas Senate race with $81K ad buy (3h ago)",
    "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech (4h ago)",
    "Underdog taps zerohash to bring crypto deposits to prediction markets (5h ago)",
    "Bitcoin hashrate hits seven-month high as AI shift fails to ease mining competition (6h ago)",
    "Irish cenbank fines Coinbase arm $3.6M for oversight, safeguard failures (6h ago)",
-   "Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower (6h ago)",
-   "Irish central bank fines Coinbase Ireland $3.6 million over fund safeguarding failures (7h ago)"
+   "Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower (7h ago)"
   ],
   "macro": [],
   "calendar": []
