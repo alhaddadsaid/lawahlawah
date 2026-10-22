@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-22 07:29 UTC. Runs so far: 12. Model: claude-haiku-5-5.
+Updated 2026-10-22 07:38 UTC. Runs so far: 12. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -29,10 +29,13 @@ API spend today: $0.09 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-22 07:29 UTC team all (memecoins), spent today $0.090
+### 2026-10-22 07:38 UTC team all (memecoins + gold/forex), spent today $0.092
 
-Lead: Hold gold 156. Entry 4108, now 4114, stop 4082.5, target 4140.5, about 23h left. Memecoin filter stays paused. AURACHI passes the age and h1 gates, but m5 is -17% with no firm volume, so no entry. Kimchi and LMT are outside the filter. Scout: no new macro catalyst beyond the crypto headlines. Sniper: no new orders. Journal shows the memecoin filter has been net negative, so waiting for a clean pass with firm m5 volume is the right call.
+Scout: Rockstar is now 20m old, so it fails the under-10m age gate despite h1 +1712%. The memecoin filter has no passes, and the journal shows the filter's record is negative.
+Sniper: No new entries. Gold 156 has room to run (about 23h left, stop 4082.5, target 4140.5), so I'm leaving it alone.
+Lead: Hold the gold position, take no new trades, and keep watching the memecoin filter.
 
-{"orders": [], "close": [], "note": "07:29 no new orders, gold 156 held (entry 4108, now 4114, stop 4082.5, target 4140.5, ~23h). Memecoin filter paused: AURACHI passes age/h1 gates but m5 -17%, no entry; Kimchi and LMT fail the filter. Watch next: any memecoin under 10m with h1 over +1000%, top10 under 15%, and firm m5 volume; otherwise stay flat and let gold run to target or stop."}
+{"orders": [], "close": [], "note": "07:38 hold gold 156 (entry 4108, now ~4111, stop 4082.5, target 4140.5, ~23h left). Memecoin filter: no pass (Rockstar 20m old, fails age; OA, MONEYBIZ, Dacity, PHP, NOOX, Gato fail h1/top10/age). Watch: any memecoin under 10m with h1 over +1000%, top10 under 15%, and firm m5 volume, to test the filter again. Next: review whether the filter's age gate is too tight given the journal's losses."}
 
+- control: order SURY REJECTED by guardrails: SURY already open
 
