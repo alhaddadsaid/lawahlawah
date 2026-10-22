@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-22 08:09 UTC. Runs so far: 12. Model: claude-haiku-5-5.
+Updated 2026-10-22 08:10 UTC. Runs so far: 12. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -30,13 +30,5 @@ API spend today: $0.10 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-22 08:09 UTC team all (memecoins), spent today $0.099
-
-Lead: Hold gold 156. Price is about 4101, near entry 4108, with the stop at 4082.5 and target at 4140.5. No high-impact events in 24h, so there's no reason to add or cut.
-Scout: No memecoin passes the filter. Rockstar fails the age gate at 50m, and OA, MONEYBIZ, Dacity, PHP and ClapCat all fail h1 or age.
-Sniper: No new orders. Keep the existing stop and target. Watch for any memecoin under 10m old with h1 above +1000%, top10 under 15% and adequate liquidity.
-
-{"orders": [], "close": [], "note": "08:09 no orders. Hold gold 156 (entry 4108, now ~4101.4, stop 4082.5, target 4140.5, ~22h left). No memecoin passes filter (Rockstar 50m old fails age gate despite h1 +4006%; OA, MONEYBIZ, Dacity, PHP, ClapCat fail). Watch: any memecoin under 10m with h1 >+1000%, top10 <15%, adequate liquidity and firm m5 volume."}
-
-- 2026-10-22 08:09 UTC control: OPENED ClapCat long at 7.35e-05 (stop 5.88e-05, target 0.0001029) - control: frozen v3 rules
+## Run ended 2026-10-22 08:10 UTC
 
