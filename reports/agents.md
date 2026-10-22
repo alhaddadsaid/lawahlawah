@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-22 22:33 UTC. Runs so far: 15. Model: claude-haiku-5-5.
+Updated 2026-10-22 22:42 UTC. Runs so far: 15. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 207 | 28 | -7546.66 | -9476.15 |
+| control | meme | 208 | 27 | -7597.47 | -9535.91 |
 | control | macro | 5 | 60 | 177.11 | 149.7 |
-| control | all | 212 | 28 | -7369.55 | -9326.45 |
+| control | all | 213 | 28 | -7420.36 | -9386.21 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -19,7 +19,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - control: GOLD short at 4060.6, stop 4079.08, target 4032.88, opened 2026-10-22 18:01 UTC
 - control: EURUSD long at 1.12196, stop 1.12077, target 1.12374, opened 2026-10-22 20:00 UTC
-- control: McRib long at 0.0002155, stop 0.0001724, target 0.0003017, opened 2026-10-22 22:26 UTC
+- control: McRib long at 0.0001924, stop 0.00015392, target 0.00026936, opened 2026-10-22 22:42 UTC
 
 ## Team
 
@@ -31,6 +31,5 @@ API spend today: $0.13 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED CYBERCAT (stop) P&L $-50.8 normal, $-59.75 pessimistic
-- control: CLOSED CYBER (target) P&L $68.0 normal, $56.0 pessimistic
+- 2026-10-22 22:42 UTC control: OPENED McRib long at 0.0001924 (stop 0.00015392, target 0.00026936) - control: frozen v3 rules
 
