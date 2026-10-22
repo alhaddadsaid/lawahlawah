@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 3641.0682271783326,
+   "cash": 3441.2972942562046,
    "open": [
     {
      "id": 197,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 205,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SOLYA",
-     "mint": "EvqFzEDwp727wQVYaJTt6BH6QPnaStcK4EvKM7HLpump",
-     "side": 1,
-     "opened": 1792690049.9850621,
-     "entry": 0.0001297,
-     "stop": 0.00010376000000000002,
-     "target": 0.00018158,
-     "size": 1542020.0462606014,
-     "deadline": 1792697249.9850624,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 206,
      "desk": "control",
      "market": "meme",
@@ -66,22 +51,29 @@
      "size": 646830.530401035,
      "deadline": 1792697980.783861,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 207,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "KIMCHAI",
+     "mint": "CQ4FfF2qkzDTuK23hpKHAgSWYAkRkmaU3yqFvjBhpump",
+     "side": 1,
+     "opened": 1792691331.8659768,
+     "entry": 0.0001004,
+     "stop": 8.031999999999999e-05,
+     "target": 0.00014055999999999997,
+     "size": 1992031.87250996,
+     "deadline": 1792698531.865977,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 207,
+ "next_id": 208,
  "runs": 14,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5rqev1HPtBMBekUXPCUVKnPGMULVR5skxxi9NW9Tpump": 1792690945.726177,
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792690945.726177,
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792690945.726177,
-  "seen:F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump": 1792690945.726177,
-  "control:EvqFzEDwp727wQVYaJTt6BH6QPnaStcK4EvKM7HLpump": 1792690949.9850652,
-  "seen:86QepwFpKztSf59BugCwt3nwmL67EdkEtpoZ8ZRpump": 1792691126.6952252,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792691311.3253953,
-  "seen:4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump": 1792691311.3253953,
   "seen:8rLSJYqyTXnepx1vSZn1eMYxi1h6ZVDUoUpNvhxbpump": 1792691496.2654788,
   "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792691496.2654788,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792691680.7296362,
@@ -90,7 +82,19 @@
   "seen:6mYfg1EmMVjbQv38QGY5XdRUQ4SyNpFauL1aiRiWpump": 1792691680.7296362,
   "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792691680.7296362,
   "seen:EvqFzEDwp727wQVYaJTt6BH6QPnaStcK4EvKM7HLpump": 1792691680.7296362,
-  "control:8rLSJYqyTXnepx1vSZn1eMYxi1h6ZVDUoUpNvhxbpump": 1792691680.7838635
+  "control:8rLSJYqyTXnepx1vSZn1eMYxi1h6ZVDUoUpNvhxbpump": 1792691680.7838635,
+  "seen:9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump": 1792691863.1418302,
+  "seen:5rqev1HPtBMBekUXPCUVKnPGMULVR5skxxi9NW9Tpump": 1792691863.1418302,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792691863.1418302,
+  "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792691863.1418302,
+  "seen:CYawpSUSHfMSj7RxFk2Kro148BAte3y9j1SARjZztq8A": 1792692043.5350628,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1792692043.5350628,
+  "seen:86QepwFpKztSf59BugCwt3nwmL67EdkEtpoZ8ZRpump": 1792692043.5350628,
+  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1792692227.8913271,
+  "seen:4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump": 1792692227.8913271,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792692227.8913271,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1792692227.8913271,
+  "control:CQ4FfF2qkzDTuK23hpKHAgSWYAkRkmaU3yqFvjBhpump": 1792692231.8659801
  },
  "talks": {
   "2026-10-21": 109
@@ -125,29 +129,28 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792690045.7271304,
+  "t": 1792690963.142766,
   "crypto": [
+   "Underdog taps zerohash to bring crypto deposits to prediction markets (0h ago)",
    "Bitcoin hashrate hits seven-month high as AI shift fails to ease mining competition (1h ago)",
    "Irish cenbank fines Coinbase arm $3.6M for oversight, safeguard failures (1h ago)",
    "Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower (1h ago)",
    "Irish central bank fines Coinbase Ireland $3.6 million over fund safeguarding failures (2h ago)",
-   "Crypto for Advisors: Stablecoins are ready for prime time (2h ago)",
+   "Crypto for Advisors: Stablecoins are ready for prime time (3h ago)",
    "Fireblocks disputes report of $2.5B Visa acquisition talks (3h ago)",
    "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa (3h ago)",
    "CryptoQuant CEO calls rising Bitcoin hashrate \u2018indirect bullish signal\u2019 from institutions (4h ago)",
-   "Here\u2019s what happened in crypto today (4h ago)",
-   "Thailand SEC says several companies eye crypto ETFs, none has applied (4h ago)"
+   "Here\u2019s what happened in crypto today (4h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-22": 0.118448
+  "2026-10-22": 0.119021
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-22 10:40 UTC [macro] 10:40 no orders. Hold gold 156 (entry 4108, now 4107.3, stop 4082.5, target 4140.5, ~20h left). Watch: memecoin under 10m old with h1 over +1000%, top10 under 15%, adequate liquidity; gold break below 4082.5 or above 414",
   "2026-10-22 11:02 UTC [macro] 11:02 hold gold 156 (entry 4108, now 4099, stop 4082.5, target 4140.5, ~19.9h left). No memecoin passes filter (age<10m, h1>+1000%, top10<15%, adequate liquidity); no forex setup; no high-impact events in 24h. Watch: mem",
   "2026-10-22 11:23 UTC [macro] 11:23 no orders. Hold gold 156 (entry 4108, now 4089.4, stop 4082.5, target 4140.5, ~19.5h left); stop is close to the 5d low at 4082.4. Watch: memecoin under 10m old with h1 over +1000%, top10 under 15%, adequate liquid",
   "2026-10-22 11:45 UTC [macro] No orders. Gold hold note is stale: no open positions, gold closed by stop. Gold 4075 at 5d low (4074), no long setup. No memecoin passes filter. Watch: memecoin under 10m old, h1>+1000%, top10<15%, adequate liquidity; g",
@@ -166,8 +169,9 @@
   "2026-10-22 16:23 UTC [macro] 16:23 no orders. Gold 4062 below 4090 trigger, 5d low 4059.5 (break below with momentum = no long). Watch: hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. EUR/USD near 5d low, GBP/USD mid-range, no fo",
   "2026-10-22 16:44 UTC [macro] 16:44 no orders. Gold 4059.3, at/below 5d low 4058.2 (prior low 4059.5), so no-long while below. Watch: hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. Memecoin filter (age<10m, h1>+1000%, top10<15%, ",
   "2026-10-22 17:06 UTC [macro] 16:06 UTC no orders. Gold 4050.7 at new 5d low 4049.1 (below 4059.5 no-long line), 5d -3.1%. EUR/USD near 5d low, GBP/USD mid-range, no high-impact events 24h. Watch: gold hourly close above 4090 = long 1%, stop 4070, ta",
-  "2026-10-22 17:27 UTC [macro] 22 17:27 no orders. Gold 4058.4 below 4059.5 no-long line, 5d low 4049.1. Watch: hourly close above 4090 = gold long 1%, stop 4070, target 4120, max 12h. Memecoin filter (age<10m, h1>+1000%, top10<15%, adequate liquidity"
+  "2026-10-22 17:27 UTC [macro] 22 17:27 no orders. Gold 4058.4 below 4059.5 no-long line, 5d low 4049.1. Watch: hourly close above 4090 = gold long 1%, stop 4070, target 4120, max 12h. Memecoin filter (age<10m, h1>+1000%, top10<15%, adequate liquidity",
+  "2026-10-22 17:48 UTC [macro] 17:48 no orders. Gold 4059.7 below 4090 reclaim trigger, 5d low 4049.1. Watch: hourly close above 4090 = gold long 1%, stop 4070, target 4120, max 12h. Memecoin filter (age<10m, h1>+1000%, top10<15%, adequate liquidity) "
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792690045.7271194
+ "last_macro_macro": 1792691327.8922515
 }
