@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": 3676.2583032116418,
+   "cash": 3616.339798897164,
    "open": [
-    {
-     "id": 195,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MONEYBIZ",
-     "mint": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
-     "side": 1,
-     "opened": 1792683266.4298441,
-     "entry": 0.0002086,
-     "stop": 0.00016688,
-     "target": 0.00029204,
-     "size": 958772.7708533078,
-     "deadline": 1792690466.4298444,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 197,
      "desk": "control",
@@ -36,33 +21,48 @@
      "size": 242453.63074312036,
      "deadline": 1792691562.5215874,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 198,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "KTA",
+     "mint": "BK7TyDvEbvNTqokhW5BkT2HmJFdk2WKkCQRq7Amgpump",
+     "side": 1,
+     "opened": 1792685462.309787,
+     "entry": 8.453e-05,
+     "stop": 6.762400000000002e-05,
+     "target": 0.000118342,
+     "size": 2366023.896841358,
+     "deadline": 1792692662.3097873,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 198,
+ "next_id": 199,
  "runs": 14,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": 1792685262.427108,
-  "seen:BK7TyDvEbvNTqokhW5BkT2HmJFdk2WKkCQRq7Amgpump": 1792685262.427108,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792685262.427108,
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792685262.427108,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792685262.427108,
-  "control:CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": 1792685262.5215905,
-  "seen:B8oWh1zqjF45uoih7Ndq6138pwLvFTmyHDvxPD9opump": 1792685446.9812145,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792685446.9812145,
-  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792685446.9812145,
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792685446.9812145,
-  "seen:EVQtaC7JhakRZr4deKv8nbhqs9YaRt3eVDxt6DyQo6ea": 1792685628.4073408,
-  "seen:J9MTHwpKBzN57BqnB4jeB95xdG343LdQDR786Y7gpump": 1792685628.4073408,
-  "seen:FdaBA8Wnmozw8utpk6aDGruQMPgA8QiA2zwE2W3mf2jX": 1792685812.7999861,
-  "seen:8iVfsEpwzuy9dUYD47i4jQG19AfueaYZ37rUa7mapump": 1792685812.7999861,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792685812.7999861,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792685812.7999861,
-  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792685812.7999861,
   "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792685995.5939956,
-  "seen:13CmifRrw9PxFQKAQvjcXmBjMgsXXs3JFKtsnLnHpump": 1792685995.5939956
+  "seen:13CmifRrw9PxFQKAQvjcXmBjMgsXXs3JFKtsnLnHpump": 1792685995.5939956,
+  "seen:BK7TyDvEbvNTqokhW5BkT2HmJFdk2WKkCQRq7Amgpump": 1792686180.3298388,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792686180.3298388,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792686180.3298388,
+  "seen:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792686180.3298388,
+  "seen:BpsCTaPPniHEkYR7eQP27TwpxxsLateaJcjGzYTcpump": 1792686361.5818174,
+  "seen:B8oWh1zqjF45uoih7Ndq6138pwLvFTmyHDvxPD9opump": 1792686361.5818174,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792686361.5818174,
+  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792686361.5818174,
+  "seen:6613AYsoJx67XRu5fnvHfDRS7iFbQBawzrYuLKUHpump": 1792686361.5818174,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792686361.5818174,
+  "control:BK7TyDvEbvNTqokhW5BkT2HmJFdk2WKkCQRq7Amgpump": 1792686362.3097897,
+  "seen:88cjts6PyeAmnVmngQGaW23UDyTQUKKqjtNnynQMpump": 1792686542.0128117,
+  "seen:DwfUT6u6vKYsoA3mPzLC8VPPU7MquMphegdgicKPpump": 1792686727.4644127,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792686727.4644127,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792686727.4644127,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792686727.4644127,
+  "seen:EVQtaC7JhakRZr4deKv8nbhqs9YaRt3eVDxt6DyQo6ea": 1792686727.4644127
  },
  "talks": {
   "2026-10-21": 109
@@ -97,12 +97,12 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792684546.9821355,
+  "t": 1792685461.5827591,
   "crypto": [
-   "Irish central bank fines Coinbase Ireland $3.6 million over fund safeguarding failures (0h ago)",
+   "Irish central bank fines Coinbase Ireland $3.6 million over fund safeguarding failures (1h ago)",
    "Crypto for Advisors: Stablecoins are ready for prime time (1h ago)",
-   "Fireblocks disputes report of $2.5B Visa acquisition talks (1h ago)",
-   "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa (1h ago)",
+   "Fireblocks disputes report of $2.5B Visa acquisition talks (2h ago)",
+   "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa (2h ago)",
    "CryptoQuant CEO calls rising Bitcoin hashrate \u2018indirect bullish signal\u2019 from institutions (2h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "Thailand SEC says several companies eye crypto ETFs, none has applied (3h ago)",
