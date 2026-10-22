@@ -22,42 +22,14 @@
    ]
   },
   "control": {
-   "cash": 4066.8066736802657,
-   "open": [
-    {
-     "id": 168,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SHAV",
-     "mint": "4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd",
-     "side": 1,
-     "opened": 1792663634.0852928,
-     "entry": 7.475e-05,
-     "stop": 5.9800000000000003e-05,
-     "target": 0.00010465000000000001,
-     "size": 2675585.2842809362,
-     "deadline": 1792670834.085293,
-     "thesis": "control: frozen v3 rules"
-    }
-   ]
+   "cash": 4134.806673680266,
+   "open": []
   }
  },
  "next_id": 169,
  "runs": 13,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792663984.349128,
-  "seen:9GgfXa8enRoGH1DJECLrWr53DGJXEKAtcbpWhzYXpump": 1792663984.349128,
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792663984.349128,
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792663984.349128,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792663984.349128,
-  "control:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792663987.2140527,
-  "seen:Bg3chyjU7jrBTAN1HcVceZiQS6dYJ1n5WD1GBTGjpump": 1792664169.6764119,
-  "seen:2fAbXUeYAaBqWwidqRDrm78BeAhAdPRvJQvheb3Dpump": 1792664169.6764119,
-  "seen:5P8isBsR2ercinDkGTQuVKMLeDqLvC96PgqSpcN3pump": 1792664349.5320852,
-  "seen:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792664349.5320852,
-  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792664349.5320852,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792664349.5320852,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792664534.0351462,
   "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792664534.0351462,
   "control:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792664534.0852957,
@@ -66,7 +38,15 @@
   "seen:Ez7eEs53hQiXgCGmcbhdX5i1jgg2gC3F6MoeosuVpump": 1792664719.4040592,
   "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792664719.4040592,
   "seen:FrtbBAaSZksfh4oV46E7Pvb43QiiUmYLD3dcGS6gpump": 1792664719.4040592,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792664719.4040592
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792664719.4040592,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792664899.5779583,
+  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792664899.5779583,
+  "seen:GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": 1792664899.5779583,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792664899.5779583,
+  "seen:7P8vfrUZGaWRmxtv9f3iPg69F1XU5MW77rJCD7YLpump": 1792665082.9763715,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792665082.9763715,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792665082.9763715,
+  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792665267.5071692
  },
  "talks": {
   "2026-10-21": 109
@@ -95,29 +75,28 @@
  ],
  "last_review": 1792657960.4037404,
  "news": {
-  "t": 1792663449.5327575,
+  "t": 1792664367.5079966,
   "crypto": [
    "Live updates: Bitcoin\u2019s round trip to $85,000 burns traders on both sides (0h ago)",
-   "Starknet voters back research into life beyond Ethereum (0h ago)",
+   "Starknet voters back research into life beyond Ethereum (1h ago)",
    "PHP flaw draws millions of exploit attempts, Cloudflare CEO warns (1h ago)",
-   "Asian stocks tumble, bitcoin retreats as China enters bear market (1h ago)",
-   "Bitcoin ETFs bag another $528M, taking 3-day haul past $1B (2h ago)",
+   "Asian stocks tumble, bitcoin retreats as China enters bear market (2h ago)",
+   "Bitcoin ETFs bag another $528M, taking 3-day haul past $1B (3h ago)",
    "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme (4h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
-   "Move over memecoins: Crypto \u2018meme games\u2019 coming, bagholders and all (4h ago)",
+   "Move over memecoins: Crypto \u2018meme games\u2019 coming, bagholders and all (5h ago)",
    "Solana\u2019s biggest network change since 2020 is live. Here\u2019s how users benefit (5h ago)",
-   "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally (5h ago)"
+   "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally (6h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-22": 0.106232
+  "2026-10-22": 0.106792
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-22 07:47 UTC [all] Hold gold 156 (entry 4108, now 4106, stop 4082.5, target 4140.5, ~23h left). No memecoin passes filter: DeepSeek 19m old, GTA 6 33m old, CYBER and RIBBIT too old. Watch: any memecoin under 10m with h1 over +1000%, top10 ",
   "2026-10-22 07:50 UTC [all] 07:50 no orders. Gold 156 held (entry 4108, now 4107.1, stop 4082.5, target 4140.5, ~23h left). Memecoin filter: no pass (ARTEX 1.4m old but h1 +22.7%, fails +1000% gate; MONKO, KIMCHIBULL, SURY fail). Watch next: any me",
   "2026-10-22 07:54 UTC [all] 07:54 no orders. Hold gold 156 (entry 4108, now 4106.3, stop 4082.5, target 4140.5, ~23h left). No memecoin passes filter: Rockstar 35m old fails age gate despite h1 +2709%; LMT, OA, MONEYBIZ, Kimchi, Dacity, PHP fail. W",
   "2026-10-22 07:57 UTC [all] Hold gold 156 (entry 4108, now 4106.7, stop 4082.5, target 4140.5, ~23h left). No memecoin passes filter (GATO ~58d old, h1 +5%). Watch: any memecoin under 10m with h1 >+1000%, top10 <15%, adequate liquidity and firm m5 ",
@@ -136,8 +115,9 @@
   "2026-10-22 08:54 UTC [macro] 08:54 no orders. Hold gold 156 (entry 4108, now 4109.3, stop 4082.5, target 4140.5, ~22h left). No memecoin passes filter. Watch: any memecoin under 10m old with h1 over +1000%, top10 under 15%, and adequate liquidity; t",
   "2026-10-22 09:15 UTC [macro] No orders. Hold gold 156 (entry 4108, now 4098.7, stop 4082.5, target 4140.5, ~21.7h left). No memecoin passes filter in current data. Watch: any memecoin under 10m old with h1 over +1000%, top10 under 15%, and adequate ",
   "2026-10-22 09:36 UTC [macro] No orders. Hold gold 156 (entry 4108, now 4101.4, stop 4082.5, target 4140.5, ~21h left). No memecoin passes filter; no high-impact events in 24h. Watch: any memecoin under 10m old with h1 over +1000%, top10 under 15%, a",
-  "2026-10-22 09:58 UTC [macro] 09:58 no orders. Hold gold 156 (entry 4108, now 4100.8, stop 4082.5, target 4140.5, ~21h left). No memecoin candidates in feed; filter still unmet. No high-impact events in 24h. Watch: any memecoin under 10m old with h1 "
+  "2026-10-22 09:58 UTC [macro] 09:58 no orders. Hold gold 156 (entry 4108, now 4100.8, stop 4082.5, target 4140.5, ~21h left). No memecoin candidates in feed; filter still unmet. No high-impact events in 24h. Watch: any memecoin under 10m old with h1 ",
+  "2026-10-22 10:19 UTC [macro] Hold gold 156 (entry 4108, now 4104.8, stop 4082.5, target 4140.5, ~20.6h left). No memecoin passes filter; no forex setup. Watch: memecoin under 10m old with h1 over +1000%, top10 under 15%, adequate liquidity; gold bre"
  ],
  "reviewed_streak_at": 16,
- "last_macro_macro": 1792663084.3497708
+ "last_macro_macro": 1792664367.5079868
 }
