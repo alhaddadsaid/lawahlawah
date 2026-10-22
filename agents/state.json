@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 3364.1156009078886,
+   "cash": 3362.2083844130434,
    "open": [
     {
      "id": 209,
@@ -53,55 +53,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 220,
+     "id": 222,
      "desk": "control",
      "market": "meme",
      "symbol": "RESOLVED",
      "mint": "BBEost5HN6rwjLkUrvPwBWDZ1skW5FScxvhvWmEfpump",
      "side": 1,
-     "opened": 1792697714.385219,
-     "entry": 0.0001261,
-     "stop": 0.00010088000000000002,
-     "target": 0.00017654,
-     "size": 1586042.8231562253,
-     "deadline": 1792704914.3852193,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 221,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Aape",
-     "mint": "FJY2PKySZ2WAbWBtdQqS9vSHfKeAdfwSqf6L9wjLpump",
-     "side": 1,
-     "opened": 1792698075.8776715,
-     "entry": 0.0001142,
-     "stop": 9.136e-05,
-     "target": 0.00015988,
-     "size": 1751313.4851138354,
-     "deadline": 1792705275.8776717,
+     "opened": 1792698679.133808,
+     "entry": 0.0001037,
+     "stop": 8.296e-05,
+     "target": 0.00014518,
+     "size": 1928640.3085824493,
+     "deadline": 1792705879.1338081,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 222,
- "runs": 14,
+ "next_id": 223,
+ "runs": 15,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4PbxcLPioEQNQT8jCdTnvfM2CddTzHrDStnxniRypump": 1792698243.735312,
-  "seen:2WgomNgjaLM1jzDCbfEHgr4Cu657d1Nb7TysB1i2pump": 1792698243.735312,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792698243.735312,
-  "seen:5uyemNHMGBaXxZW7SomVrnY2sfWLmiQ38W6PybNypump": 1792698429.0141854,
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792698429.0141854,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792698429.0141854,
-  "seen:9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump": 1792698429.0141854,
-  "control:5uyemNHMGBaXxZW7SomVrnY2sfWLmiQ38W6PybNypump": 1792698429.9769409,
-  "seen:AMZNw7cwU9L9c7ewZXxTws2PwQYxBGm2Rxg3FLDBJz9B": 1792698610.598788,
-  "seen:D5N9r2GmSCGTBEXKdTA5d6WfyJ4mi3J2yjSunPWDpump": 1792698610.598788,
-  "seen:HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump": 1792698610.598788,
-  "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792698610.598788,
-  "control:BBEost5HN6rwjLkUrvPwBWDZ1skW5FScxvhvWmEfpump": 1792698614.3852227,
   "seen:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 1792698794.866444,
   "seen:FJY2PKySZ2WAbWBtdQqS9vSHfKeAdfwSqf6L9wjLpump": 1792698794.866444,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792698794.866444,
@@ -110,7 +82,18 @@
   "seen:91ZVg32ZXX8qW9jKvAzMrQkJXNhatuZZfULHwi2Cpump": 1792698975.7226367,
   "seen:6tQyT3hXuyNecZnuA5tj7XobCvLVj3SDgx8xwN9pump": 1792698975.7226367,
   "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792698975.7226367,
-  "control:FJY2PKySZ2WAbWBtdQqS9vSHfKeAdfwSqf6L9wjLpump": 1792698975.877675
+  "control:FJY2PKySZ2WAbWBtdQqS9vSHfKeAdfwSqf6L9wjLpump": 1792698975.877675,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792699031.616422,
+  "seen:4PbxcLPioEQNQT8jCdTnvfM2CddTzHrDStnxniRypump": 1792699213.9128733,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792699213.9128733,
+  "seen:8NAtYWBvPEJvSEqHxjfB8tb2gkBZ2NUketXkJktKpump": 1792699213.9128733,
+  "seen:5uyemNHMGBaXxZW7SomVrnY2sfWLmiQ38W6PybNypump": 1792699396.529939,
+  "seen:6qD2TPPdYsQTyVYr5HfqpihigJ2XVKiggaUPx9Tspump": 1792699396.529939,
+  "seen:9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump": 1792699396.529939,
+  "seen:AMZNw7cwU9L9c7ewZXxTws2PwQYxBGm2Rxg3FLDBJz9B": 1792699579.1002772,
+  "seen:BBEost5HN6rwjLkUrvPwBWDZ1skW5FScxvhvWmEfpump": 1792699579.1002772,
+  "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792699579.1002772,
+  "control:BBEost5HN6rwjLkUrvPwBWDZ1skW5FScxvhvWmEfpump": 1792699579.1338124
  },
  "talks": {
   "2026-10-21": 109
@@ -145,8 +128,9 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792697529.0151417,
+  "t": 1792698496.5312257,
   "crypto": [
+   "Winklevoss PAC moves into Texas Senate race with $81K ad buy (0h ago)",
    "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech (1h ago)",
    "Underdog taps zerohash to bring crypto deposits to prediction markets (2h ago)",
    "Bitcoin hashrate hits seven-month high as AI shift fails to ease mining competition (3h ago)",
@@ -155,8 +139,7 @@
    "Irish central bank fines Coinbase Ireland $3.6 million over fund safeguarding failures (4h ago)",
    "Crypto for Advisors: Stablecoins are ready for prime time (5h ago)",
    "Fireblocks disputes report of $2.5B Visa acquisition talks (5h ago)",
-   "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa (5h ago)",
-   "CryptoQuant CEO calls rising Bitcoin hashrate \u2018indirect bullish signal\u2019 from institutions (6h ago)"
+   "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa (5h ago)"
   ],
   "macro": [],
   "calendar": []
