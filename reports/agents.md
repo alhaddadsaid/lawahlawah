@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-22 11:54 UTC. Runs so far: 13. Model: claude-haiku-5-5.
+Updated 2026-10-22 12:03 UTC. Runs so far: 13. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 2 | 0 | -11.67 | -11.84 |
 | team | all | 17 | 53 | -356.53 | -394.86 |
-| control | meme | 154 | 23 | -6491.16 | -7904.15 |
+| control | meme | 155 | 23 | -6540.6 | -7962.58 |
 | control | macro | 5 | 60 | 177.11 | 149.7 |
-| control | all | 159 | 25 | -6314.05 | -7754.45 |
+| control | all | 160 | 24 | -6363.49 | -7812.88 |
 
 Verdict: too early, 17 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 17 of 50 team trades needed before judging.
 
 - control: MONEYBIZ long at 0.0002003, stop 0.00016024, target 0.00028042, opened 2026-10-22 11:20 UTC
 - control: SHAV long at 0.0001602, stop 0.00012816, target 0.00022428, opened 2026-10-22 11:23 UTC
-- control: 抱擁 long at 0.0002324, stop 0.00018592, target 0.00032536, opened 2026-10-22 11:54 UTC
 
 ## Team
 
@@ -30,5 +29,5 @@ API spend today: $0.11 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-22 11:54 UTC control: OPENED 抱擁 long at 0.0002324 (stop 0.00018592, target 0.00032536) - control: frozen v3 rules
+- control: order MONEYBIZ REJECTED by guardrails: MONEYBIZ already open
 
