@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-22 06:47 UTC. Runs so far: 12. Model: claude-haiku-5-5.
+Updated 2026-10-22 06:59 UTC. Runs so far: 12. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 1 | 0 | -5.3 | -5.36 |
 | team | all | 16 | 56 | -350.16 | -388.38 |
-| control | meme | 132 | 23 | -5911.34 | -7113.55 |
+| control | meme | 133 | 23 | -5934.35 | -7146.23 |
 | control | macro | 5 | 60 | 177.11 | 149.7 |
-| control | all | 137 | 24 | -5734.23 | -6963.85 |
+| control | all | 138 | 24 | -5757.24 | -6996.53 |
 
 Verdict: too early, 16 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: Tokabu long at 0.001439, stop 0.0011512, target 0.0020146, opened 2026-10-22 04:54 UTC
+- team: GOLD long at 4108, stop 4082.5, target 4140.5, opened 2026-10-22 06:56 UTC
 - control: SURY long at 0.0001996, stop 0.00015968, target 0.00027944, opened 2026-10-22 05:52 UTC
+- control: NOOX long at 6.233e-05, stop 4.9864e-05, target 8.7262e-05, opened 2026-10-22 06:56 UTC
 
 ## Team
 
@@ -29,11 +30,12 @@ API spend today: $0.08 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-22 06:47 UTC team all (memecoins), spent today $0.081
+### 2026-10-22 06:59 UTC team all (memecoins), spent today $0.084
 
-Lead: Journal is -$350 over 16 trades, and the memecoin filter has failed repeatedly. No memecoin passes the gates (BIRB is over a year old, PHP and SURY are down on the hour, DOOD is 8.8 days old and down). Gold's setup still lacks a live quote and a calendar check, so no trade. Scout: the PHP security story is a risk-off signal for that name, not a long. Sniper: nothing to size. Stay flat and keep the watch list.
+Lead: Hold. Gold position 156 is open near entry with its stop and target intact, so no new trades.
+Scout: AURACHI (age 17.8m, h1 +616%) and YouTube (age 19.8m, h1 +373%) fail the under-10m and h1 above +1000% gates. Memecoin filter stays paused.
+Sniper: No new orders. Keep 156 as is, stop 4082.5, target 4140.5, 24h max.
 
-{"orders": [], "close": [], "note": "06:47 no orders, flat at $9,650. Memecoin filter stays paused; no candidate passes (BIRB 384k min old, PHP h1 -6.86%, DOOD 764k min old, SURY h1 -10.5%). Gold 4103.9 idea still needs live quote and high-impact calendar check before any trade. Watch: CYBER if top10<15% with volume; GTA6 if h1 reaches +1000% with top10<15%; Gato if top10<15% and h1 holds."}
+{"orders": [], "close": [], "note": "06:59 hold, flat on new trades. Gold 156 open (entry 4108, stop 4082.5, target 4140.5, 24h). AURACHI and YouTube fail age/h1 gates (17.8m/19.8m old, h1 +616%/+373%). Watch: X if m5 volume firms with age<10m, h1>+1000%, top10<15%; CYBER if top10<15% with volume; GTA6 if h1 reaches +1000% with top10<15%."}
 
-- control: order SURY REJECTED by guardrails: SURY already open
 

@@ -2,26 +2,28 @@
  "desks": {
   "team": {
    "cash": 9649.843932777667,
-   "open": []
-  },
-  "control": {
-   "cash": 4265.80454620878,
    "open": [
     {
-     "id": 141,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Tokabu",
-     "mint": "H8xQ6poBjB9DTPMDTKWzWPrnxu4bDEhybxiouF8Ppump",
+     "id": 156,
+     "desk": "team",
+     "market": "macro",
+     "symbol": "GOLD",
+     "mint": "",
      "side": 1,
-     "opened": 1792644896.1694264,
-     "entry": 0.001439,
-     "stop": 0.0011512,
-     "target": 0.0020146,
-     "size": 138985.4065323141,
-     "deadline": 1792652096.1694267,
-     "thesis": "control: frozen v3 rules"
-    },
+     "opened": 1792652186.133379,
+     "entry": 4108.0,
+     "stop": 4082.4968959220937,
+     "target": 4140.503956177724,
+     "size": 0.23490369846099482,
+     "deadline": 1792738586.1333797,
+     "thesis": "[Sniper] Gold in lower 18% of 5d range (4107.5 vs 4082-4220), no high-impact event in 24h, mean-reverts toward 4140 before the 5d low breaks",
+     "size_pct": 1.0
+    }
+   ]
+  },
+  "control": {
+   "cash": 4242.795512157356,
+   "open": [
     {
      "id": 152,
      "desk": "control",
@@ -36,34 +38,48 @@
      "size": 1002004.008016032,
      "deadline": 1792655560.5948484,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 157,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "NOOX",
+     "mint": "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump",
+     "side": 1,
+     "opened": 1792652186.1770926,
+     "entry": 6.233e-05,
+     "stop": 4.9863999999999996e-05,
+     "target": 8.726199999999999e-05,
+     "size": 3208727.739451308,
+     "deadline": 1792659386.1770928,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 156,
+ "next_id": 158,
  "runs": 12,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792651806.125078,
-  "seen:WXf1KYzGJxQj7HSCxx42vxMBUKC2HARppneLnQspump": 1792651806.125078,
-  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792651806.125078,
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792651987.023093,
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792651987.023093,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792651987.023093,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792651987.023093,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792651987.023093,
-  "seen:BXoHJddsWJLHtAopeiSbKUSELsu8hSFMs8baGMDkpump": 1792651987.023093,
-  "seen:FxzUDJHc9TbMJjGmthmnjbC9AF6FnGxNuFmbP1Jepump": 1792652167.5974157,
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792652167.5974157,
-  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1792652167.5974157,
-  "control:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792652170.9049559,
-  "seen:5aA5znUxUtAamxDgRxsbWzdVLe9bauYhTRXJZmvFpump": 1792652352.5260584,
-  "seen:jwzaJ1FzeF2YemZjYhBK26NDbL58umHT5yGra1Ypump": 1792652352.5260584,
-  "seen:55A3VxMBfzw6uSe64zms5iMPw9k6kx9WzzusbCU6pump": 1792652352.5260584,
   "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1792652537.303449,
   "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792652537.303449,
   "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792652537.303449,
-  "seen:DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump": 1792652537.303449
+  "seen:DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump": 1792652537.303449,
+  "seen:GdH4jijwdL3HjgWgby5CMXCqEevM6tbdhjsH2YqK7wZA": 1792652718.0360994,
+  "seen:8hAH8XF1okryXZAaACAJf4cUVT1GKCEwFq2bkrS7pump": 1792652718.0360994,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792652718.0360994,
+  "seen:GAKeQCxWapK681ZCj5tAWt1zMsYNYi984P7i4k1pump": 1792652718.0360994,
+  "seen:Ho64cWfach3gsH5d3EvT2LYPZC1A546KTtV5uYPXpump": 1792652718.0360994,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792652899.6484435,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792652899.6484435,
+  "seen:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792652899.6484435,
+  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792652899.6484435,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792652899.6484435,
+  "seen:FxzUDJHc9TbMJjGmthmnjbC9AF6FnGxNuFmbP1Jepump": 1792653079.7227173,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792653079.7227173,
+  "control:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792653086.1770957,
+  "seen:5aA5znUxUtAamxDgRxsbWzdVLe9bauYhTRXJZmvFpump": 1792653263.1716838,
+  "seen:jwzaJ1FzeF2YemZjYhBK26NDbL58umHT5yGra1Ypump": 1792653263.1716838
  },
  "talks": {
   "2026-10-21": 109
@@ -92,32 +108,28 @@
  ],
  "last_review": 1792571535.8670912,
  "news": {
-  "t": 1792651452.5270422,
+  "t": 1792652363.1726453,
   "crypto": [
-   "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme (0h ago)",
+   "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme (1h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
    "Move over memecoins: Crypto \u2018meme games\u2019 coming, bagholders and all (1h ago)",
-   "Solana\u2019s biggest network change since 2020 is live. Here\u2019s how users benefit (1h ago)",
+   "Solana\u2019s biggest network change since 2020 is live. Here\u2019s how users benefit (2h ago)",
    "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally (2h ago)",
    "XRP Ledger bug fix moved to November after validator support dipped for two hours (2h ago)",
    "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves (3h ago)",
    "PHP Foundation admits \u2018structural failure\u2019 delayed critical security fix (6h ago)",
    "American Bankers Association: OCC\u2019s GENIUS rules \u2018undermine\u2019 US Congress (9h ago)",
-   "Tether backs Bolivian fintech bringing USDT payments to food delivery and banking (10h ago)"
+   "Tether backs Bolivian fintech bringing USDT payments to food delivery and banking (11h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-22": 0.081014
+  "2026-10-22": 0.083934
  },
- "last_meme_all": 1792651637.3043973,
- "last_macro_all": 1792650906.1260438,
+ "last_meme_all": 1792652363.1726303,
+ "last_macro_all": 1792652179.7237103,
  "notes": [
-  "2026-10-22 05:49 UTC [all] No orders. Hold GOLD 41 (4097.9 vs entry 4138.1, stop 4095, target 4180, ~4.9h left). Memecoin age<10m + h1>+1000% + top10<15% filter has lost repeatedly; consider pausing it and reviewing. Watch: Waddles (23m, h1 +713%)",
-  "2026-10-22 05:52 UTC [all] Closed GOLD 41 at stop breach (4094.4 vs 4095 stop); enforce hard stops. No memecoin passes the age<10m + h1>+1000% + top10<15% filter. Pausing that filter after repeated losses; review before reuse. Watch: OA (h1 +61.6%",
-  "2026-10-22 05:55 UTC [all] No orders; memecoin age<10m + h1>+1000% + top10<15% filter paused after losses. Watch list: \u30e4\u30ae (38.7m, h1 +152%, top10 7.1%, liq $41k) and \u30e4\u30ae (67m, h1 +212%) only if the filter is revisited; OA and Waddles only if the h1",
-  "2026-10-22 05:58 UTC [all] No orders at 05:58. Flat account, no positions. Memecoin filter remains paused. Watch: CYBER (top10 15.04%, h1 +41%) if top10 falls below 15% with continued volume; PHP and NOOX only on a confirmed reversal. Gold: no set",
   "2026-10-22 06:01 UTC [all] 06:01 no orders, account flat at $9,650. Memecoin age<10m + h1>+1000% + top10<15% filter remains paused. FOMO (17.4m, h1 +1305%, top10 13.9%) fails age gate; watch only if the filter is reinstated. BATON fails h1 gate. N",
   "2026-10-22 06:04 UTC [all] 06:04 no orders, account flat at $9,650. Memecoin age<10m + h1>+1000% + top10<15% filter stays paused; review before reuse. Watch: CYBER if top10 drops below 15% with volume; Gato and KIMCHIBULL only if h1 turns strongly",
   "2026-10-22 06:07 UTC [all] 06:07 no orders, account flat at $9,650. Memecoin filter remains paused; OA (h1 +38%), Dacity and MONEYBIZ fail gates. No gold/macro setup in the data supplied. Watch: CYBER if top10 falls below 15% with volume; Gato and",
@@ -133,6 +145,10 @@
   "2026-10-22 06:38 UTC [all] 06:38 no orders, flat at $9,650. Memecoin filter paused: OA (218m, h1 +26%), MONEYBIZ, PANGEA, Dacity, GATO, CRAWL all fail age/h1 gates. Watch: CYBER if top10<15% with volume; GTA6 if h1 reaches +1000% with top10<15%; g",
   "2026-10-22 06:41 UTC [all] Flat at $9,650. Memecoin filter (age<10m, h1>+1000%, top10<15%) stays paused after 16 trades at -$350. Watch: gold near 4103.9 lower 5d range with live quote and no high-impact event; CYBER if top10<15% with volume; GTA6",
   "2026-10-22 06:44 UTC [all] 06:44 no orders, flat at $9,650. Memecoin filter paused: AURACHI h1 +161%, YouTube h1 +784% and top10 92.9%, Gato top10 16.4%. Watch: gold near 4103.9 (need live quote and calendar check); CYBER if top10<15% with volume;",
-  "2026-10-22 06:47 UTC [all] 06:47 no orders, flat at $9,650. Memecoin filter stays paused; no candidate passes (BIRB 384k min old, PHP h1 -6.86%, DOOD 764k min old, SURY h1 -10.5%). Gold 4103.9 idea still needs live quote and high-impact calendar c"
+  "2026-10-22 06:47 UTC [all] 06:47 no orders, flat at $9,650. Memecoin filter stays paused; no candidate passes (BIRB 384k min old, PHP h1 -6.86%, DOOD 764k min old, SURY h1 -10.5%). Gold 4103.9 idea still needs live quote and high-impact calendar c",
+  "2026-10-22 06:50 UTC [all] 06:50 no orders, flat at $9,650. Memecoin filter stays paused. X would pass age, h1 and top10 gates (8.6m, +1147%, 14.1%) but m5 volume is thin ($7.4k); watch for volume before any test. Postgeon fails h1 (+130%). Gold 4",
+  "2026-10-22 06:53 UTC [all] 06:53 no orders, flat at $9,650. Memecoin filter stays paused; OA (h1 -2.45%), Dacity (age 15576m), NOOX, MONEYBIZ, GATO fail gates. Watch: X if m5 volume firms with age<10m, h1>+1000%, top10<15%; CYBER if top10<15% with",
+  "2026-10-22 06:56 UTC [all] 06:56 gold long 1% test (stop 4082, target 4140, 24h). Memecoins: no pass; Yagi fails age and top10. Watch next: X if m5 volume firms (age<10m, h1>+1000%, top10<15%); CYBER if top10<15% with volume; GTA6 if h1 reaches +1",
+  "2026-10-22 06:59 UTC [all] 06:59 hold, flat on new trades. Gold 156 open (entry 4108, stop 4082.5, target 4140.5, 24h). AURACHI and YouTube fail age/h1 gates (17.8m/19.8m old, h1 +616%/+373%). Watch: X if m5 volume firms with age<10m, h1>+1000%, t"
  ]
 }
