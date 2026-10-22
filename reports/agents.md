@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-22 08:32 UTC. Runs so far: 13. Model: claude-haiku-5-5.
+Updated 2026-10-22 08:46 UTC. Runs so far: 13. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 1 | 0 | -5.3 | -5.36 |
 | team | all | 16 | 56 | -350.16 | -388.38 |
-| control | meme | 136 | 22 | -6139.66 | -7377.05 |
+| control | meme | 138 | 22 | -6123.55 | -7381.87 |
 | control | macro | 5 | 60 | 177.11 | 149.7 |
-| control | all | 141 | 23 | -5962.55 | -7227.35 |
+| control | all | 143 | 24 | -5946.44 | -7232.17 |
 
 Verdict: too early, 16 of 50 team trades needed before judging.
 
@@ -30,27 +30,5 @@ API spend today: $0.10 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: Scout now on mission macro
-- team: Sniper now on mission macro
-- team: Lead now on mission all
-### 2026-10-22 08:32 UTC team review
-
-The memecoin filter (under 10m old, h1 above +1000%, top10 under 15%) has produced most of the losses, including stops at -$98, -$100 and -$75. Its costs of 2.5-5% per side can't be covered by a 20% target that rarely hits. We pause memecoins and move the team to macro, where the only data point is one small gold loss, so we need a clean test.
-
-Decisions:
-- Memecoin filter paused. No new meme entries until a backtest shows positive expectancy after costs.
-- Scout tests one macro hypothesis at a time, using the calendar and gold/FX prices, with pre-set stops and targets.
-- Sniper executes only macro trades at 0.5-1% size, with stops set before entry.
-- No hires or firings yet. We'll revisit if the macro tests need a dedicated analyst.
-
-{"hire": [], "fire": [], "missions": {"Scout": "macro", "Sniper": "macro", "Lead": "all"}, "note": "Pause memecoin filter after repeated stop-outs and costs exceeding targets. Test gold/FX event hypotheses at 0.5-1% size with predefined stops. Review after 10 macro trades."}
-
-### 2026-10-22 08:32 UTC team macro (gold/forex), spent today $0.104
-
-Lead: Hold gold 156. Price is flat at entry, stop and target are intact, and there is no high-impact event in 24h.
-Scout: No memecoin passes the h1>+1000%, age under 10m, top10 under 15% filter. Gold 5d-range mean reversion is the only live idea, and recent gold journal trades are small.
-Sniper: No new orders. Keep the existing stop at 4082.5 and target at 4140.5.
-
-{"orders": [], "close": [], "note": "08:32 no orders. Hold gold 156 (entry 4108, now 4108.4, stop 4082.5, target 4140.5, ~22h left). No memecoin passes filter (no new candidates in notes). Watch: any memecoin under 10m old with h1 over +1000%, top10 under 15%, and adequate liquidity; test 2h continuation only if costs (2.5-5% per side) are covered. Gold: revisit if price breaks 4082 or 4140 or a high-impact event lands."}
-
+- control: CLOSED CAPY (target) P&L $68.0 normal, $56.0 pessimistic
 
