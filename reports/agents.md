@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-22 06:29 UTC. Runs so far: 12. Model: claude-haiku-5-5.
+Updated 2026-10-22 06:38 UTC. Runs so far: 12. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -29,10 +29,11 @@ API spend today: $0.08 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-22 06:29 UTC team all (memecoins), spent today $0.077
+### 2026-10-22 06:38 UTC team all (memecoins), spent today $0.079
 
-Lead: Flat account, no trade. PHP fails the momentum gate (h1 -17.45%) and has news risk (PHP Foundation security failure). Scout: Gold at 4103.9 sits in the lower 5-day range, but the dip hypothesis is unproven and costs are about $0.5-1/oz. Sniper: No valid setup, so no entry. The memecoin filter stays paused after 16 trades at -$350. Decision: stand aside and keep watching CYBER, Gato, and gold.
+Lead: Filter stays paused. None of the six memecoins pass the age<10m, h1>+1000%, top10<15% gate (OA is 218m old, h1 +26%). Scout's gold dip idea is unproven; the last gold trade lost $5 and costs eat most of a small move. Sniper: no orders, nothing to size or stop. Flat until a candidate clears every gate or a gold setup has a clear trigger.
 
-{"orders": [], "close": [], "note": "06:29 no orders, flat at $9,650. PHP fails h1 gate (-17.45%) and PHP Foundation security news. Memecoin filter stays paused. Watch: CYBER if top10 <15% with volume; Gato if top10 <15% and h1 holds; gold 4103.9 near lower 5d range, revisit only with a clear reversal signal and no high-impact event."}
+{"orders": [], "close": [], "note": "06:38 no orders, flat at $9,650. Memecoin filter paused: OA (218m, h1 +26%), MONEYBIZ, PANGEA, Dacity, GATO, CRAWL all fail age/h1 gates. Watch: CYBER if top10<15% with volume; GTA6 if h1 reaches +1000% with top10<15%; gold 4113 near lower 5d range, revisit only with a clear trigger."}
 
+- control: order SURY REJECTED by guardrails: SURY already open
 
