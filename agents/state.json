@@ -22,23 +22,8 @@
    ]
   },
   "control": {
-   "cash": 4242.795512157356,
+   "cash": 4147.214349832707,
    "open": [
-    {
-     "id": 152,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SURY",
-     "mint": "DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump",
-     "side": 1,
-     "opened": 1792648360.5948482,
-     "entry": 0.0001996,
-     "stop": 0.00015968000000000002,
-     "target": 0.00027944,
-     "size": 1002004.008016032,
-     "deadline": 1792655560.5948484,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 157,
      "desk": "control",
@@ -61,25 +46,23 @@
  "runs": 12,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1792652537.303449,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792652537.303449,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792652537.303449,
-  "seen:DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump": 1792652537.303449,
-  "seen:GdH4jijwdL3HjgWgby5CMXCqEevM6tbdhjsH2YqK7wZA": 1792652718.0360994,
-  "seen:8hAH8XF1okryXZAaACAJf4cUVT1GKCEwFq2bkrS7pump": 1792652718.0360994,
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792652718.0360994,
-  "seen:GAKeQCxWapK681ZCj5tAWt1zMsYNYi984P7i4k1pump": 1792652718.0360994,
-  "seen:Ho64cWfach3gsH5d3EvT2LYPZC1A546KTtV5uYPXpump": 1792652718.0360994,
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792652899.6484435,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792652899.6484435,
-  "seen:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792652899.6484435,
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792652899.6484435,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792652899.6484435,
   "seen:FxzUDJHc9TbMJjGmthmnjbC9AF6FnGxNuFmbP1Jepump": 1792653079.7227173,
   "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792653079.7227173,
   "control:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792653086.1770957,
   "seen:5aA5znUxUtAamxDgRxsbWzdVLe9bauYhTRXJZmvFpump": 1792653263.1716838,
-  "seen:jwzaJ1FzeF2YemZjYhBK26NDbL58umHT5yGra1Ypump": 1792653263.1716838
+  "seen:jwzaJ1FzeF2YemZjYhBK26NDbL58umHT5yGra1Ypump": 1792653263.1716838,
+  "seen:4xUswVvDkRNXnrwVrjdzFRTR7tXWTVgaNBQG9o7pump": 1792653444.6107836,
+  "seen:GdH4jijwdL3HjgWgby5CMXCqEevM6tbdhjsH2YqK7wZA": 1792653629.7023222,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792653629.7023222,
+  "seen:GAKeQCxWapK681ZCj5tAWt1zMsYNYi984P7i4k1pump": 1792653629.7023222,
+  "seen:8xCKpY9esucs1q2pbHaFENR89Epu3A2pPMMipYRJpump": 1792653629.7023222,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792653629.7023222,
+  "seen:3L4K9JwUtmYr7YnyGZT9GekuYsJrp976Rmw9axPuQJD7": 1792653811.2214072,
+  "seen:Aa4iwuxmvN6DiBieBc2T9CB7AFBnzffKrFcBVqoKpump": 1792653811.2214072,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792653811.2214072,
+  "seen:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792653811.2214072,
+  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792653811.2214072,
+  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1792653811.2214072
  },
  "talks": {
   "2026-10-21": 109
@@ -125,14 +108,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-22": 0.083934
+  "2026-10-22": 0.085928
  },
- "last_meme_all": 1792652363.1726303,
+ "last_meme_all": 1792652911.2224293,
  "last_macro_all": 1792652179.7237103,
  "notes": [
-  "2026-10-22 06:01 UTC [all] 06:01 no orders, account flat at $9,650. Memecoin age<10m + h1>+1000% + top10<15% filter remains paused. FOMO (17.4m, h1 +1305%, top10 13.9%) fails age gate; watch only if the filter is reinstated. BATON fails h1 gate. N",
-  "2026-10-22 06:04 UTC [all] 06:04 no orders, account flat at $9,650. Memecoin age<10m + h1>+1000% + top10<15% filter stays paused; review before reuse. Watch: CYBER if top10 drops below 15% with volume; Gato and KIMCHIBULL only if h1 turns strongly",
-  "2026-10-22 06:07 UTC [all] 06:07 no orders, account flat at $9,650. Memecoin filter remains paused; OA (h1 +38%), Dacity and MONEYBIZ fail gates. No gold/macro setup in the data supplied. Watch: CYBER if top10 falls below 15% with volume; Gato and",
   "2026-10-22 06:10 UTC [all] 06:10 no orders, account flat at $9,650. Memecoin age<10m + h1>+1000% + top10<15% filter stays paused; YouTube (6.8m, h1 +1101%, top10 14.1%) matches it but is not traded. Watch: CYBER if top10 falls below 15% with volum",
   "2026-10-22 06:13 UTC [all] 06:13 no orders, flat at $9,650. Memecoin filter stays paused. MONKO and PHP fail gates. Gold 4103.9 near lower 5d range (4082.4-4220.4), no high-impact event in 24h, dip hypothesis unproven; revisit only with a clear re",
   "2026-10-22 06:16 UTC [all] 06:16 no orders, flat at $9,650. Memecoin age<10m+h1>+1000%+top10<15% filter stays paused. FOMO (32.6m, h1 +2032%) fails age gate; NOOX (h1 -80%) fails momentum. Watch: CYBER if top10<15% with volume; gold 4103.9 lower-r",
@@ -149,6 +129,9 @@
   "2026-10-22 06:50 UTC [all] 06:50 no orders, flat at $9,650. Memecoin filter stays paused. X would pass age, h1 and top10 gates (8.6m, +1147%, 14.1%) but m5 volume is thin ($7.4k); watch for volume before any test. Postgeon fails h1 (+130%). Gold 4",
   "2026-10-22 06:53 UTC [all] 06:53 no orders, flat at $9,650. Memecoin filter stays paused; OA (h1 -2.45%), Dacity (age 15576m), NOOX, MONEYBIZ, GATO fail gates. Watch: X if m5 volume firms with age<10m, h1>+1000%, top10<15%; CYBER if top10<15% with",
   "2026-10-22 06:56 UTC [all] 06:56 gold long 1% test (stop 4082, target 4140, 24h). Memecoins: no pass; Yagi fails age and top10. Watch next: X if m5 volume firms (age<10m, h1>+1000%, top10<15%); CYBER if top10<15% with volume; GTA6 if h1 reaches +1",
-  "2026-10-22 06:59 UTC [all] 06:59 hold, flat on new trades. Gold 156 open (entry 4108, stop 4082.5, target 4140.5, 24h). AURACHI and YouTube fail age/h1 gates (17.8m/19.8m old, h1 +616%/+373%). Watch: X if m5 volume firms with age<10m, h1>+1000%, t"
+  "2026-10-22 06:59 UTC [all] 06:59 hold, flat on new trades. Gold 156 open (entry 4108, stop 4082.5, target 4140.5, 24h). AURACHI and YouTube fail age/h1 gates (17.8m/19.8m old, h1 +616%/+373%). Watch: X if m5 volume firms with age<10m, h1>+1000%, t",
+  "2026-10-22 07:02 UTC [all] 07:02 no new orders, flat on new trades, gold 156 held (entry 4108, now 4110, stop 4082.5, target 4140.5, ~24h). Memecoin filter paused: Claude AI fails age (11.9m) and h1 (+227%), m5 -63.6%. Watch: X if m5 volume firms ",
+  "2026-10-22 07:05 UTC [all] 07:05 no new orders, flat on new trades, gold 156 held (entry 4108, now 4110.7, stop 4082.5, target 4140.5, ~24h). Memecoin filter stays paused: MrBeast passes age/h1/top10 gates (5.1m, +1068%, 14.2%) but the filter reco",
+  "2026-10-22 07:08 UTC [all] 07:08 no new orders, flat on new trades, gold 156 held (entry 4108, now 4110.2, stop 4082.5, target 4140.5, ~24h). Memecoin filter paused: Penguin fails h1 (+542%) and m5 (-28.5%), Dino fails h1 (+21.7%). Watch: X if m5 "
  ]
 }
