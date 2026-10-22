@@ -1,28 +1,11 @@
 {
  "desks": {
   "team": {
-   "cash": 9649.843932777667,
-   "open": [
-    {
-     "id": 156,
-     "desk": "team",
-     "market": "macro",
-     "symbol": "GOLD",
-     "mint": "",
-     "side": 1,
-     "opened": 1792652186.133379,
-     "entry": 4108.0,
-     "stop": 4082.4968959220937,
-     "target": 4140.503956177724,
-     "size": 0.23490369846099482,
-     "deadline": 1792738586.1333797,
-     "thesis": "[Sniper] Gold in lower 18% of 5d range (4107.5 vs 4082-4220), no high-impact event in 24h, mean-reverts toward 4140 before the 5d low breaks",
-     "size_pct": 1.0
-    }
-   ]
+   "cash": 9643.47801960956,
+   "open": []
   },
   "control": {
-   "cash": 3804.2948081338827,
+   "cash": 3746.809993114556,
    "open": [
     {
      "id": 175,
@@ -57,31 +40,29 @@
    ]
   }
  },
- "next_id": 177,
+ "next_id": 178,
  "runs": 13,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5hyyjwZqJgnPZorMdb7X4r2J1dT3VujKVkLD8Ptbpump": 1792668389.1605287,
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792668389.1605287,
-  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1792668389.1605287,
-  "seen:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792668389.1605287,
-  "control:6mS8uh4tK5gWemzNmyFp731PqukqEuo9Mmy2zny4pump": 1792668389.21544,
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792668570.4636202,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792668570.4636202,
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792668570.4636202,
-  "seen:DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump": 1792668570.4636202,
-  "control:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792668570.5258737,
-  "seen:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792668755.0701811,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792668755.0701811,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792668755.0701811,
-  "seen:2wMTr4ZttVr5tmS4wLStee59wi8f9QQfMtT2Hoispump": 1792668755.0701811,
   "seen:1RjmyJbkSeQFd2fmc2LBhnPF45dSGGBzNGo6bw9pump": 1792668938.10966,
   "seen:GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": 1792668938.10966,
   "control:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792668938.7065306,
   "seen:5vSf2wnmuqV54mQqyxzdbPahwAXxJnvycm7w3B7gpump": 1792669123.5347073,
   "seen:6mS8uh4tK5gWemzNmyFp731PqukqEuo9Mmy2zny4pump": 1792669123.5347073,
   "seen:Di3YBHLp5hwnq2CrJBFRgcynWFwozKGRFT95coPnpump": 1792669123.5347073,
-  "control:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792669129.0731316
+  "control:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792669129.0731316,
+  "seen:5hyyjwZqJgnPZorMdb7X4r2J1dT3VujKVkLD8Ptbpump": 1792669304.4081347,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792669304.4081347,
+  "seen:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792669304.4081347,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792669304.4081347,
+  "seen:Z49BKHrUGBNYt5mRtiRgzppHo7Kmk8cZbPnAe51pump": 1792669304.4081347,
+  "control:1RjmyJbkSeQFd2fmc2LBhnPF45dSGGBzNGo6bw9pump": 1792669304.476036,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792669489.4524019,
+  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792669489.4524019,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1792669489.4524019,
+  "seen:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792669673.8302832,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792669673.8302832,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792669673.8302832
  },
  "talks": {
   "2026-10-21": 109
