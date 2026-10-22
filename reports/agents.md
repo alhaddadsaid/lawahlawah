@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-22 23:42 UTC. Runs so far: 15. Model: claude-haiku-5-5.
+Updated 2026-10-22 23:55 UTC. Runs so far: 15. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 210 | 27 | -7730.95 | -9686.48 |
+| control | meme | 211 | 27 | -7792.31 | -9756.52 |
 | control | macro | 5 | 60 | 177.11 | 149.7 |
-| control | all | 215 | 28 | -7553.84 | -9536.78 |
+| control | all | 216 | 28 | -7615.2 | -9606.82 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -21,7 +21,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: EURUSD long at 1.12196, stop 1.12077, target 1.12374, opened 2026-10-22 20:00 UTC
 - control: McRib long at 0.0001924, stop 0.00015392, target 0.00026936, opened 2026-10-22 22:42 UTC
 - control: TRENCHERS long at 7.652e-05, stop 6.1216e-05, target 0.000107128, opened 2026-10-22 22:45 UTC
-- control: Falcons long at 0.0001191, stop 9.528e-05, target 0.00016674, opened 2026-10-22 23:15 UTC
+- control: scribes long at 8.72e-05, stop 6.976e-05, target 0.00012208, opened 2026-10-22 23:55 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.13 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order McRib REJECTED by guardrails: desk already has the maximum open positions
+- 2026-10-22 23:55 UTC control: OPENED scribes long at 8.72e-05 (stop 6.976e-05, target 0.00012208) - control: frozen v3 rules
 
