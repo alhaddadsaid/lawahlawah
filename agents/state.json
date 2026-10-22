@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 3097.887122413515,
+   "cash": 3044.130352929173,
    "open": [
     {
      "id": 209,
@@ -35,21 +35,6 @@
      "target": 0.00017052,
      "size": 1642036.1247947454,
      "deadline": 1792704363.0930984,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 223,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Au",
-     "mint": "6mYfg1EmMVjbQv38QGY5XdRUQ4SyNpFauL1aiRiWpump",
-     "side": 1,
-     "opened": 1792699227.4050298,
-     "entry": 8.494e-05,
-     "stop": 6.7952e-05,
-     "target": 0.00011891599999999998,
-     "size": 2354603.249352484,
-     "deadline": 1792706427.4050305,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -89,14 +74,6 @@
  "runs": 15,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:B1Y2fJW8rtirrBuUcda14pSaeiASHaGqTxQdxU8Mpump": 1792703052.1338608,
-  "seen:3kwg8xu8w8N4GHSs7S2ygSVBEoTWt9uoEHec3mtPpump": 1792703052.1338608,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792703052.1338608,
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792703052.1338608,
-  "seen:4KNxJGDJsYL5shBQXEvkaKkFygsnxymSY8aLq29bpump": 1792703052.1338608,
-  "seen:CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": 1792703237.0520184,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792703237.0520184,
-  "seen:G6LkAVDbinGXPVtTtXyQ2XtgjFG9WQuTPhDEt4Srpump": 1792703237.0520184,
   "seen:1RjmyJbkSeQFd2fmc2LBhnPF45dSGGBzNGo6bw9pump": 1792703417.7120345,
   "seen:DgCcDaw3roKY8YAKMT7Bv5fZpTSCCGvFEVdx2Caqpump": 1792703417.7120345,
   "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792703600.8191247,
@@ -105,7 +82,15 @@
   "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792703600.8191247,
   "seen:GdXGPxzSVXabVKBAd61oPd87zsaBEzn2N5df3PSFSTNK": 1792703784.778105,
   "seen:HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump": 1792703784.778105,
-  "seen:JEMRUbZYJfddpmPr3YVVavTxZcDiT6H1wo5WGVQpump": 1792703784.778105
+  "seen:JEMRUbZYJfddpmPr3YVVavTxZcDiT6H1wo5WGVQpump": 1792703784.778105,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792703974.6250446,
+  "seen:6H4VsBEgaUWh64uF9D5RYg4zX2SeNPnxX8oqXmyDpump": 1792703974.6250446,
+  "seen:6v8hoK4qvB3yNThaUAW1nyhxD4qJV6Z9AC24Hu6rpump": 1792703974.6250446,
+  "seen:B1Y2fJW8rtirrBuUcda14pSaeiASHaGqTxQdxU8Mpump": 1792703974.6250446,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792703974.6250446,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792704149.2119813,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792704149.2119813,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792704149.2119813
  },
  "talks": {
   "2026-10-21": 109
@@ -140,16 +125,16 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792702152.1352158,
+  "t": 1792703074.6264098,
   "crypto": [
    "Dune launches real-time data feeds covering 200 onchain trading venues (0h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
-   "Winklevoss PAC moves into Texas Senate race with $81K ad buy (1h ago)",
-   "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech (2h ago)",
-   "Underdog taps zerohash to bring crypto deposits to prediction markets (3h ago)",
+   "Winklevoss PAC moves into Texas Senate race with $81K ad buy (2h ago)",
+   "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech (3h ago)",
+   "Underdog taps zerohash to bring crypto deposits to prediction markets (4h ago)",
    "Bitcoin hashrate hits seven-month high as AI shift fails to ease mining competition (4h ago)",
    "Irish cenbank fines Coinbase arm $3.6M for oversight, safeguard failures (4h ago)",
-   "Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower (4h ago)",
+   "Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower (5h ago)",
    "Irish central bank fines Coinbase Ireland $3.6 million over fund safeguarding failures (5h ago)",
    "Crypto for Advisors: Stablecoins are ready for prime time (6h ago)"
   ],
