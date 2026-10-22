@@ -1,28 +1,11 @@
 {
  "desks": {
   "team": {
-   "cash": 9655.144109711475,
-   "open": [
-    {
-     "id": 41,
-     "desk": "team",
-     "market": "macro",
-     "symbol": "GOLD",
-     "mint": "",
-     "side": 1,
-     "opened": 1792579280.966391,
-     "entry": 4138.10009765625,
-     "stop": 4095.0,
-     "target": 4180.0,
-     "size": 0.12100847089478953,
-     "deadline": 1792665680.9663918,
-     "thesis": "[Sniper] Gold near lower half of 5d range (4138 vs 4095-4220) with no high-impact event in 24h tends to drift back toward the 5d midpoint (~4158) and the 4180 target.",
-     "size_pct": 0.5
-    }
-   ]
+   "cash": 9649.843932777667,
+   "open": []
   },
   "control": {
-   "cash": 4397.460459481238,
+   "cash": 4296.229393020651,
    "open": [
     {
      "id": 141,
@@ -53,34 +36,62 @@
      "size": 763941.9404125286,
      "deadline": 1792652461.959448,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 152,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SURY",
+     "mint": "DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump",
+     "side": 1,
+     "opened": 1792648360.5948482,
+     "entry": 0.0001996,
+     "stop": 0.00015968000000000002,
+     "target": 0.00027944,
+     "size": 1002004.008016032,
+     "deadline": 1792655560.5948484,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 153,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "\u30e4\u30ae",
+     "mint": "EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump",
+     "side": 1,
+     "opened": 1792648722.5079088,
+     "entry": 0.0001719,
+     "stop": 0.00013752,
+     "target": 0.00024066,
+     "size": 1163467.1320535194,
+     "deadline": 1792655922.507909,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 151,
+ "next_id": 154,
  "runs": 12,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6qJB5Bwsw5ZBJdhKfMSK844jdQa18EAZuBgvDGE4pump": 1792648165.6994338,
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792648165.6994338,
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792648165.6994338,
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792648346.6570995,
-  "seen:7KEPApdbBMByrmqihz3bht2uMhFQcatjfSFQCKq66kH3": 1792648346.6570995,
-  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792648346.6570995,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792648346.6570995,
-  "seen:FrtbBAaSZksfh4oV46E7Pvb43QiiUmYLD3dcGS6gpump": 1792648346.6570995,
-  "control:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792648349.821876,
-  "seen:FxzUDJHc9TbMJjGmthmnjbC9AF6FnGxNuFmbP1Jepump": 1792648528.0552883,
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792648528.0552883,
-  "seen:DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump": 1792648528.0552883,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792648528.0552883,
-  "control:BGYCrJaXNZ746wjk4rdnYR8bEdWeMAz4SStiGoCrpump": 1792648531.692766,
-  "seen:EQTmdBbD9wPi4LgebPNaeSRs4uXdhG9R6rKBYR7Hpump": 1792648708.4665985,
-  "seen:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792648708.4665985,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792648708.4665985,
-  "seen:5mLtZn2d9ppz7iHeZFJtew7UFGdLuuwM6HDXLyMDpump": 1792648708.4665985,
-  "seen:2qNrw4d9zVS58hQRHydsFNkz41PUgwDLcv6ZwVUxpump": 1792648708.4665985,
-  "control:5mLtZn2d9ppz7iHeZFJtew7UFGdLuuwM6HDXLyMDpump": 1792648715.8877015
+  "seen:6qJB5Bwsw5ZBJdhKfMSK844jdQa18EAZuBgvDGE4pump": 1792649075.9746797,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792649075.9746797,
+  "seen:55A3VxMBfzw6uSe64zms5iMPw9k6kx9WzzusbCU6pump": 1792649075.9746797,
+  "control:EQTmdBbD9wPi4LgebPNaeSRs4uXdhG9R6rKBYR7Hpump": 1792649079.9948287,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792649257.0051174,
+  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792649257.0051174,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792649257.0051174,
+  "control:DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump": 1792649260.5948508,
+  "seen:FxzUDJHc9TbMJjGmthmnjbC9AF6FnGxNuFmbP1Jepump": 1792649437.285186,
+  "seen:DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump": 1792649437.285186,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792649437.285186,
+  "seen:8NAtYWBvPEJvSEqHxjfB8tb2gkBZ2NUketXkJktKpump": 1792649437.285186,
+  "seen:FrtbBAaSZksfh4oV46E7Pvb43QiiUmYLD3dcGS6gpump": 1792649437.285186,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792649617.5274537,
+  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792649617.5274537,
+  "seen:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792649617.5274537,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792649617.5274537,
+  "control:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792649622.5079122
  },
  "talks": {
   "2026-10-21": 109
@@ -109,32 +120,28 @@
  ],
  "last_review": 1792571535.8670912,
  "news": {
-  "t": 1792647808.4675133,
+  "t": 1792648717.5283535,
   "crypto": [
    "Move over memecoins: Crypto \u2018meme games\u2019 coming, bagholders and all (0h ago)",
-   "Solana\u2019s biggest network change since 2020 is live. Here\u2019s how users benefit (0h ago)",
+   "Solana\u2019s biggest network change since 2020 is live. Here\u2019s how users benefit (1h ago)",
    "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally (1h ago)",
    "XRP Ledger bug fix moved to November after validator support dipped for two hours (1h ago)",
    "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves (2h ago)",
    "PHP Foundation admits \u2018structural failure\u2019 delayed critical security fix (5h ago)",
    "American Bankers Association: OCC\u2019s GENIUS rules \u2018undermine\u2019 US Congress (8h ago)",
-   "Tether backs Bolivian fintech bringing USDT payments to food delivery and banking (9h ago)",
-   "Trump didn\u2018t mention \u2018crypto\u2019 once in White House cybercrime roundtable (9h ago)",
+   "Tether backs Bolivian fintech bringing USDT payments to food delivery and banking (10h ago)",
+   "Trump didn\u2018t mention \u2018crypto\u2019 once in White House cybercrime roundtable (10h ago)",
    "Here\u2019s what happened in crypto today (10h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-22": 0.068921
+  "2026-10-22": 0.071541
  },
- "last_meme_all": 1792647808.4675,
- "last_macro_all": 1792647085.5411477,
+ "last_meme_all": 1792648717.5283396,
+ "last_macro_all": 1792648357.0060573,
  "notes": [
-  "2026-10-22 04:45 UTC [all] Hold GOLD 41 (4105.6 vs entry 4138.1, stop 4095, target 4180, ~5.9h left). No memecoin passes the pump filter; BROZO (109m, h1 +64%, m5 -8.8%, top10 11%) and 1GTA (70m, h1 +30%, m5 -12%, top10 21%) are watch-only, no ent",
-  "2026-10-22 04:48 UTC [all] Hold GOLD 41 (entry 4138.1, stop 4095, target 4180, ~5.9h left). No orders: no memecoin passes age<10m + h1>+1000% + top10<15%; Rockstar (8.6m, h1 +71%, m5 -84%) is a dump, not a setup. Watch: OA (top10 2.8%) as a low-to",
-  "2026-10-22 04:51 UTC [all] Hold GOLD 41 (entry 4138.1, stop 4095, target 4180, ~5.8h left). No orders: fomo fails the h1>+1000% filter at +987%, and the pump-continuation idea has lost repeatedly. Watch list: OA (top10 2.8%, liquidity $235k) as a ",
-  "2026-10-22 04:54 UTC [all] 04:54 no orders. Hold GOLD 41 (4105.9 vs entry 4138.1, stop 4095, target 4180, ~5.8h left). No memecoin passes age<10m + h1>+1000% + top10<15%; PATCHED fails on top10 64.6%. Watch: OA (top10 2.8%, liquidity $235k) as a l",
   "2026-10-22 04:58 UTC [all] 04:57 no orders. Hold GOLD 41 (4107.2 vs entry 4138.1, stop 4095, target 4180, ~5.7h left). No memecoin passes age<10m + h1>+1000% + top10<15%; NOOX, PHP, GATO fail. Watch: OA (top10 2.8%, liq $235k) as a low-top10 test;",
   "2026-10-22 05:01 UTC [all] 05:00 no orders. Hold GOLD 41 (4106 vs entry 4138.1, stop 4095, target 4180, ~5.7h left). No memecoin passes age<10m + h1>+1000% + top10<15%; BROZO (124m, h1 +49%) fails. Watch: OA (top10 2.8%, liq $235k) as a low-top10 ",
   "2026-10-22 05:04 UTC [all] 05:04 no orders. Hold GOLD 41 (4107.6 vs entry 4138.1, stop 4095, target 4180, ~5.6h left). MrBeast fails age (11.5m) and fartless fails h1/top10. Watch: OA (top10 2.8%, liq $235k) as a low-top10 test with a defined entr",
@@ -150,6 +157,10 @@
   "2026-10-22 05:34 UTC [all] Hold GOLD 41 (4101.5 vs entry 4138.1, stop 4095, target 4180, ~5h left). No orders. Waddles (7.7m, h1 +217%, top10 12.4%) fails h1>+1000% gate; KIMCHIBULL, MONEYBIZ fail age/pump. Watch list: Waddles only if h1>+1000% an",
   "2026-10-22 05:37 UTC [all] 05:37 no orders. Hold GOLD 41 (4101.8 vs entry 4138.1, stop 4095, target 4180, ~5h left). No memecoin passes age<10m + h1>+1000% + top10<15%; OA (top10 2.8%, h1 +26%) fails h1 gate. Watch: Waddles and OA only if h1 gate ",
   "2026-10-22 05:40 UTC [all] No orders. Hold GOLD 41 (4100.8 vs entry 4138.1, stop 4095, target 4180, ~5h left). No memecoin passes age<10m + h1>+1000% + top10<15%; \u30e4\u30ae tokens fail age (23m, 52m), Waddles and OA fail h1 gate. Watch: Waddles/OA only i",
-  "2026-10-22 05:43 UTC [all] 05:43 Hold GOLD 41 (4099.8 vs entry 4138.1, stop 4095, target 4180, ~5h left). Test MrBeast 0.5% at 0.0005057 (stop 0.0004, target 0.000607, 2h max). Watch: Waddles/OA only if h1 gate passes; TheGus (54m) fails age."
+  "2026-10-22 05:43 UTC [all] 05:43 Hold GOLD 41 (4099.8 vs entry 4138.1, stop 4095, target 4180, ~5h left). Test MrBeast 0.5% at 0.0005057 (stop 0.0004, target 0.000607, 2h max). Watch: Waddles/OA only if h1 gate passes; TheGus (54m) fails age.",
+  "2026-10-22 05:49 UTC [all] No orders. Hold GOLD 41 (4097.9 vs entry 4138.1, stop 4095, target 4180, ~4.9h left). Memecoin age<10m + h1>+1000% + top10<15% filter has lost repeatedly; consider pausing it and reviewing. Watch: Waddles (23m, h1 +713%)",
+  "2026-10-22 05:52 UTC [all] Closed GOLD 41 at stop breach (4094.4 vs 4095 stop); enforce hard stops. No memecoin passes the age<10m + h1>+1000% + top10<15% filter. Pausing that filter after repeated losses; review before reuse. Watch: OA (h1 +61.6%",
+  "2026-10-22 05:55 UTC [all] No orders; memecoin age<10m + h1>+1000% + top10<15% filter paused after losses. Watch list: \u30e4\u30ae (38.7m, h1 +152%, top10 7.1%, liq $41k) and \u30e4\u30ae (67m, h1 +212%) only if the filter is revisited; OA and Waddles only if the h1",
+  "2026-10-22 05:58 UTC [all] No orders at 05:58. Flat account, no positions. Memecoin filter remains paused. Watch: CYBER (top10 15.04%, h1 +41%) if top10 falls below 15% with continued volume; PHP and NOOX only on a confirmed reversal. Gold: no set"
  ]
 }
