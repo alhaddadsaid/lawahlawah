@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 3413.525049726786,
+   "cash": 3364.1156009078886,
    "open": [
     {
      "id": 209,
@@ -23,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 216,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Au",
-     "mint": "6mYfg1EmMVjbQv38QGY5XdRUQ4SyNpFauL1aiRiWpump",
-     "side": 1,
-     "opened": 1792696255.6270592,
-     "entry": 0.0001524,
-     "stop": 0.00012192,
-     "target": 0.00021335999999999998,
-     "size": 1312335.9580052495,
-     "deadline": 1792703455.6270595,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 218,
      "desk": "control",
      "market": "meme",
@@ -51,38 +36,81 @@
      "size": 1642036.1247947454,
      "deadline": 1792704363.0930984,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 219,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "MIDNIGHT",
+     "mint": "5uyemNHMGBaXxZW7SomVrnY2sfWLmiQ38W6PybNypump",
+     "side": 1,
+     "opened": 1792697529.9769373,
+     "entry": 0.0002668,
+     "stop": 0.00021344,
+     "target": 0.00037351999999999996,
+     "size": 749625.187406297,
+     "deadline": 1792704729.9769375,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 220,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "RESOLVED",
+     "mint": "BBEost5HN6rwjLkUrvPwBWDZ1skW5FScxvhvWmEfpump",
+     "side": 1,
+     "opened": 1792697714.385219,
+     "entry": 0.0001261,
+     "stop": 0.00010088000000000002,
+     "target": 0.00017654,
+     "size": 1586042.8231562253,
+     "deadline": 1792704914.3852193,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 221,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Aape",
+     "mint": "FJY2PKySZ2WAbWBtdQqS9vSHfKeAdfwSqf6L9wjLpump",
+     "side": 1,
+     "opened": 1792698075.8776715,
+     "entry": 0.0001142,
+     "stop": 9.136e-05,
+     "target": 0.00015988,
+     "size": 1751313.4851138354,
+     "deadline": 1792705275.8776717,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 219,
+ "next_id": 222,
  "runs": 14,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1792697338.9096465,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792697338.9096465,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792697338.9096465,
-  "seen:CZUZUGtea7ByynBmuZn9RvpkUKZLpeCsyvv3jEwHpump": 1792697338.9096465,
-  "seen:5uyemNHMGBaXxZW7SomVrnY2sfWLmiQ38W6PybNypump": 1792697518.462334,
-  "seen:9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump": 1792697518.462334,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792697518.462334,
-  "seen:HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump": 1792697518.462334,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792697518.462334,
-  "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792697518.462334,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792697518.462334,
-  "control:BBEost5HN6rwjLkUrvPwBWDZ1skW5FScxvhvWmEfpump": 1792697519.2848291,
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792697699.893607,
-  "seen:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 1792697882.4051166,
-  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792697882.4051166,
-  "seen:FJY2PKySZ2WAbWBtdQqS9vSHfKeAdfwSqf6L9wjLpump": 1792697882.4051166,
-  "seen:BBEost5HN6rwjLkUrvPwBWDZ1skW5FScxvhvWmEfpump": 1792697882.4051166,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1792697882.4051166,
-  "seen:DhZVjBrgec4yGvgLeB1qbmKBWKMxMj43jJeJwVExpump": 1792698063.0052066,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792698063.0052066,
-  "seen:91ZVg32ZXX8qW9jKvAzMrQkJXNhatuZZfULHwi2Cpump": 1792698063.0052066,
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792698063.0052066,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792698063.0052066,
-  "control:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792698063.093101
+  "seen:4PbxcLPioEQNQT8jCdTnvfM2CddTzHrDStnxniRypump": 1792698243.735312,
+  "seen:2WgomNgjaLM1jzDCbfEHgr4Cu657d1Nb7TysB1i2pump": 1792698243.735312,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792698243.735312,
+  "seen:5uyemNHMGBaXxZW7SomVrnY2sfWLmiQ38W6PybNypump": 1792698429.0141854,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792698429.0141854,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792698429.0141854,
+  "seen:9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump": 1792698429.0141854,
+  "control:5uyemNHMGBaXxZW7SomVrnY2sfWLmiQ38W6PybNypump": 1792698429.9769409,
+  "seen:AMZNw7cwU9L9c7ewZXxTws2PwQYxBGm2Rxg3FLDBJz9B": 1792698610.598788,
+  "seen:D5N9r2GmSCGTBEXKdTA5d6WfyJ4mi3J2yjSunPWDpump": 1792698610.598788,
+  "seen:HfWDdM3mLB8Qjw9jTRKV7sYBmu5FdX3LrQWa2d9rpump": 1792698610.598788,
+  "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792698610.598788,
+  "control:BBEost5HN6rwjLkUrvPwBWDZ1skW5FScxvhvWmEfpump": 1792698614.3852227,
+  "seen:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 1792698794.866444,
+  "seen:FJY2PKySZ2WAbWBtdQqS9vSHfKeAdfwSqf6L9wjLpump": 1792698794.866444,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792698794.866444,
+  "seen:6mYfg1EmMVjbQv38QGY5XdRUQ4SyNpFauL1aiRiWpump": 1792698794.866444,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792698975.7226367,
+  "seen:91ZVg32ZXX8qW9jKvAzMrQkJXNhatuZZfULHwi2Cpump": 1792698975.7226367,
+  "seen:6tQyT3hXuyNecZnuA5tj7XobCvLVj3SDgx8xwN9pump": 1792698975.7226367,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792698975.7226367,
+  "control:FJY2PKySZ2WAbWBtdQqS9vSHfKeAdfwSqf6L9wjLpump": 1792698975.877675
  },
  "talks": {
   "2026-10-21": 109
@@ -117,15 +145,15 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792696618.4634306,
+  "t": 1792697529.0151417,
   "crypto": [
    "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech (1h ago)",
    "Underdog taps zerohash to bring crypto deposits to prediction markets (2h ago)",
-   "Bitcoin hashrate hits seven-month high as AI shift fails to ease mining competition (2h ago)",
-   "Irish cenbank fines Coinbase arm $3.6M for oversight, safeguard failures (2h ago)",
+   "Bitcoin hashrate hits seven-month high as AI shift fails to ease mining competition (3h ago)",
+   "Irish cenbank fines Coinbase arm $3.6M for oversight, safeguard failures (3h ago)",
    "Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower (3h ago)",
    "Irish central bank fines Coinbase Ireland $3.6 million over fund safeguarding failures (4h ago)",
-   "Crypto for Advisors: Stablecoins are ready for prime time (4h ago)",
+   "Crypto for Advisors: Stablecoins are ready for prime time (5h ago)",
    "Fireblocks disputes report of $2.5B Visa acquisition talks (5h ago)",
    "Crypto custody specialist Fireblocks denies it's in talks to be acquired by Visa (5h ago)",
    "CryptoQuant CEO calls rising Bitcoin hashrate \u2018indirect bullish signal\u2019 from institutions (6h ago)"
@@ -134,12 +162,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-22": 0.121297
+  "2026-10-22": 0.121886
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-22 12:27 UTC [macro] 12:27 no orders. Gold 4086.3, below 4090 reclaim trigger. Watch: gold closes above 4090 (test long, stop 4070, target 4120, max 12h) or breaks below 4072.7 5d low with momentum (no long). Memecoin filter (age<10m, h1>+10",
   "2026-10-22 12:49 UTC [macro] 12:49 long gold 1% (entry ~4093, stop 4070, target 4120, 12h). Early exit if hourly close back below 4090. Watch: memecoin under 10m old with h1>+1000%, top10<15%, adequate liquidity; EUR/USD and GBP/USD no setup.",
   "2026-10-22 13:10 UTC [macro] 13:10 no new orders. Hold gold 182 (entry 4092.4, now 4098.8, stop 4069.5, target 4119.5, ~11.6h left); early exit if hourly close below 4090. No memecoin passes filter (age<10m, h1>+1000%, top10<15%, adequate liquidity)",
   "2026-10-22 13:31 UTC [macro] 13:31 hold gold 182 (entry 4092.4, now 4092.0, stop 4069.5, target 4119.5, ~11.3h left). Early exit if hourly close below 4090. No memecoin passes filter; no forex setup; no high-impact events in 24h. Watch: memecoin und",
@@ -158,8 +185,9 @@
   "2026-10-22 18:10 UTC [macro] 18:10 no orders. Gold 4061.5, below 4090 reclaim trigger; 5d low 4049.1. Watch: hourly close above 4090 = gold long 1%, stop 4070, target 4120, max 12h; break below 4049.1 = no long. EUR/USD near 5d low 1.11907, GBP/USD ",
   "2026-10-22 18:31 UTC [macro] 18:31 no orders. Gold 4054.4 below 4090 trigger, 5d low 4049.1. Watch: hourly close above 4090 = gold long 1%, stop 4070, target 4120, max 12h; break below 4049.1 with momentum = no long. EUR/USD 1.12259 near 5d low 1.11",
   "2026-10-22 18:52 UTC [macro] 18:52 no orders. Gold 4048.2, new 5d low 4047.3 (below 4049.1 no-long line). Watch: hourly close above 4090 = gold long 1%, stop 4070, target 4120, max 12h. EUR/USD 1.12221 mid-range, GBP/USD 1.34005 near 5d high 1.3418,",
-  "2026-10-22 19:14 UTC [macro] 16:23-19:13 UTC: no orders. Gold 4042.2, new 5d low 4041.2, below 4049.1 no-long line. Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD near 5d high 1.3418: hourly close above it = "
+  "2026-10-22 19:14 UTC [macro] 16:23-19:13 UTC: no orders. Gold 4042.2, new 5d low 4041.2, below 4049.1 no-long line. Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD near 5d high 1.3418: hourly close above it = ",
+  "2026-10-22 19:35 UTC [macro] 19:35 no orders. Gold 4043.4 below 4090 trigger, 5d low 4041.2. Watch: hourly close above 4090 = gold long 1%, stop 4070, target 4120, max 12h. Break below 4041.2 = no long. GBP/USD 1.34005 near 5d high 1.3418: hourly cl"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792696438.9106872
+ "last_macro_macro": 1792697710.5997946
 }
