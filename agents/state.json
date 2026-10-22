@@ -22,7 +22,7 @@
    ]
   },
   "control": {
-   "cash": 5083.781708282924,
+   "cash": 4946.193190931753,
    "open": [
     {
      "id": 129,
@@ -38,31 +38,63 @@
      "size": 580551.5239477503,
      "deadline": 1792647527.6796813,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 135,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "RETAIL",
+     "mint": "86j9yoVzuuCjLAq4hFyaX1cphRc9SJhWhSN4h9Hh79Be",
+     "side": 1,
+     "opened": 1792643073.186251,
+     "entry": 0.0002137,
+     "stop": 0.00017096,
+     "target": 0.00029917999999999996,
+     "size": 935891.4365933553,
+     "deadline": 1792650273.1862512,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 136,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "BROZO",
+     "mint": "5mLtZn2d9ppz7iHeZFJtew7UFGdLuuwM6HDXLyMDpump",
+     "side": 1,
+     "opened": 1792643254.2890873,
+     "entry": 0.0001031,
+     "stop": 8.248000000000001e-05,
+     "target": 0.00014434,
+     "size": 1939864.2095053347,
+     "deadline": 1792650454.2890875,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 133,
+ "next_id": 137,
  "runs": 12,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6mYfg1EmMVjbQv38QGY5XdRUQ4SyNpFauL1aiRiWpump": 1792642694.3060267,
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792642694.3060267,
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792642694.3060267,
-  "seen:8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4": 1792642694.3060267,
-  "seen:H178pHox53TZkieS5EAwhU7pSNjgQ6btxLy6ohBWBEib": 1792642882.1661317,
-  "seen:7ojw6StnugtF9RQJFk7SUoWTKPVGVAgjV4Mnr5CDpump": 1792642882.1661317,
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792642882.1661317,
-  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792642882.1661317,
-  "seen:GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": 1792643071.782669,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792643071.782669,
-  "seen:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792643237.5165875,
-  "seen:86j9yoVzuuCjLAq4hFyaX1cphRc9SJhWhSN4h9Hh79Be": 1792643237.5165875,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792643237.5165875,
-  "control:5mLtZn2d9ppz7iHeZFJtew7UFGdLuuwM6HDXLyMDpump": 1792643240.4529457,
   "seen:5mLtZn2d9ppz7iHeZFJtew7UFGdLuuwM6HDXLyMDpump": 1792643422.4057674,
   "seen:5V8QnDgzmzG6gPtikA3YmfYUF9eaMoYJyvygG2C9pump": 1792643422.4057674,
-  "seen:EyrBQ2eDRuEn3TiTZrrhH1dCg2Nmribzyxp2f7L1pump": 1792643422.4057674
+  "seen:EyrBQ2eDRuEn3TiTZrrhH1dCg2Nmribzyxp2f7L1pump": 1792643422.4057674,
+  "seen:6mYfg1EmMVjbQv38QGY5XdRUQ4SyNpFauL1aiRiWpump": 1792643604.0251865,
+  "seen:E3MbXgxn8UsuRXBJPQfZZNPD1wksmQBhJdZdynNDZAS4": 1792643604.0251865,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792643604.0251865,
+  "control:E3MbXgxn8UsuRXBJPQfZZNPD1wksmQBhJdZdynNDZAS4": 1792643607.4329073,
+  "seen:H178pHox53TZkieS5EAwhU7pSNjgQ6btxLy6ohBWBEib": 1792643784.316881,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792643784.316881,
+  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792643784.316881,
+  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1792643784.316881,
+  "control:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792643786.8309677,
+  "seen:DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump": 1792643968.8509338,
+  "control:86j9yoVzuuCjLAq4hFyaX1cphRc9SJhWhSN4h9Hh79Be": 1792643973.1862543,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792644150.715612,
+  "seen:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792644150.715612,
+  "seen:86j9yoVzuuCjLAq4hFyaX1cphRc9SJhWhSN4h9Hh79Be": 1792644150.715612,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792644150.715612,
+  "control:5mLtZn2d9ppz7iHeZFJtew7UFGdLuuwM6HDXLyMDpump": 1792644154.2890904
  },
  "talks": {
   "2026-10-21": 109
@@ -91,11 +123,11 @@
  ],
  "last_review": 1792571535.8670912,
  "news": {
-  "t": 1792642337.5174494,
+  "t": 1792643250.7165012,
   "crypto": [
-   "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves (0h ago)",
-   "PHP Foundation admits \u2018structural failure\u2019 delayed critical security fix (3h ago)",
-   "American Bankers Association: OCC\u2019s GENIUS rules \u2018undermine\u2019 US Congress (6h ago)",
+   "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves (1h ago)",
+   "PHP Foundation admits \u2018structural failure\u2019 delayed critical security fix (4h ago)",
+   "American Bankers Association: OCC\u2019s GENIUS rules \u2018undermine\u2019 US Congress (7h ago)",
    "Tether backs Bolivian fintech bringing USDT payments to food delivery and banking (8h ago)",
    "Trump didn\u2018t mention \u2018crypto\u2019 once in White House cybercrime roundtable (8h ago)",
    "Here\u2019s what happened in crypto today (8h ago)",
@@ -108,15 +140,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-22": 0.050136
+  "2026-10-22": 0.052503
  },
- "last_meme_all": 1792642522.406575,
- "last_macro_all": 1792641982.1669452,
+ "last_meme_all": 1792643250.7164893,
+ "last_macro_all": 1792643250.7164893,
  "notes": [
-  "2026-10-22 03:17 UTC [all] 03:17 no orders. Hold gold 41 (4129.0 vs entry 4138.1, stop 4095, target 4180, ~7.4h left). moggersha (7.2m, h1 +237%) fails top10 (21.8%). No macro events 24h. Watch next: fresh memecoins under 10m with h1>+1000% and to",
-  "2026-10-22 03:20 UTC [all] 03:20 no orders. Hold gold 41 (4126.8 vs entry 4138.1, stop 4095, target 4180, ~7.3h left). NOOX (8.8m, h1 +56%), FISHFATHER (13m), OA (20.6m) fail filters. No macro events 24h. Watch next: fresh memecoins under 10m with",
-  "2026-10-22 03:23 UTC [all] 03:23 no orders. Hold gold 41 (4125.6 vs entry 4138.1, stop 4095, target 4180, ~7.3h left; price near 5d low 4122.3). PHP (5.8m, h1 +142%, top10 26%) fails h1 and top10 filters; RETAIL, CYBER, COMPUTE fail age/h1. No mac",
-  "2026-10-22 03:26 UTC [all] 03:26 no orders. Hold gold 41 (4120.2 vs entry 4138.1, stop 4095, target 4180, ~7h left, near 5d low 4122.3). 'simulator' memecoin fails age (~205 days old). Memecoin fast-pump filter has lost money in journal; keep it s",
   "2026-10-22 03:29 UTC [all] Hold gold 41 (entry 4138.1, stop 4095, target 4180, ~7h left, near 5d low 4122.3). No orders: BROZO (33m old) fails age filter; memecoin fast-pump filter has lost money in journal, so stay out unless a fresh (<10m) coin ",
   "2026-10-22 03:32 UTC [all] 03:32 no orders. Hold gold 41 (4124.9 vs entry 4138.1, stop 4095, target 4180, ~7h left, near 5d low 4122.3). No memecoin passes under-10m age plus h1>+1000% plus top10<15%: moggersha 22m, Au 114m, AgentxAlph 220m, KIMCH",
   "2026-10-22 03:35 UTC [all] 03:35 no orders. Hold gold 41 (4113.5 vs entry 4138.1, stop 4095, target 4180, ~7h left, below 5d low 4122.3; watch for stop proximity). No memecoin passes age<10m + h1>+1000% + top10<15% (ZILLIONS 13m, OA 36m, PHP 22h).",
@@ -132,6 +160,10 @@
   "2026-10-22 04:06 UTC [all] Hold GOLD 41 (4107.3 vs entry 4138.1, stop 4095, target 4180, ~6.6h left; live price feed shows 4107.3 though position price_now is null). No orders: no memecoin passes age<10m + h1>+1000% + top10<15% (Hackinu 10m old bu",
   "2026-10-22 04:09 UTC [all] 04:09 no orders. Hold GOLD 41 (~4107 vs entry 4138.1, stop 4095, target 4180, ~6.5h left). Watch: close below 4095 stops out; 4180 hits target. Memecoin: no pass on age<10m + h1>+1000% + top10<15%; fast-pump filter remai",
   "2026-10-22 04:12 UTC [all] 04:12 no orders. Hold GOLD 41 (~4107 vs entry 4138.1, stop 4095, target 4180, ~6.5h left). Watch: close below 4095 stops out; 4180 hits target. Memecoin: no pass on age<10m + h1>+1000% + top10<15%; NOOX 60m old fails age",
-  "2026-10-22 04:15 UTC [all] 04:15 no orders. Hold GOLD 41 (~4107 vs entry 4138.1, stop 4095, target 4180, ~6.4h left). No memecoin passes age<10m + h1>+1000% + top10<15% (YouTube 41m old, h1 +2334%, top10 14%, fails age). Watch: close below 4095 st"
+  "2026-10-22 04:15 UTC [all] 04:15 no orders. Hold GOLD 41 (~4107 vs entry 4138.1, stop 4095, target 4180, ~6.4h left). No memecoin passes age<10m + h1>+1000% + top10<15% (YouTube 41m old, h1 +2334%, top10 14%, fails age). Watch: close below 4095 st",
+  "2026-10-22 04:18 UTC [all] 04:18 no orders. Hold GOLD 41 (~4107 vs entry 4138.1, stop 4095, target 4180, ~6.4h left; position price_now null, live feed used). No memecoin passes age<10m + h1>+1000% + top10<15%; fast-pump filter remains a journal l",
+  "2026-10-22 04:21 UTC [all] 04:21 hold GOLD 41 (~4107 vs entry 4138.1, stop 4095, target 4180, ~6.3h left). No memecoin passes age<10m + h1>+1000% + top10<15%; fast-pump filter stays a journal loser. Watch: close below 4095 stops out; 4180 hits tar",
+  "2026-10-22 04:24 UTC [all] 04:24 no orders. Hold GOLD 41 (4107.3 vs entry 4138.1, stop 4095, target 4180, ~6.3h left). SURY fails age (259m), h1 (+416%) and top10 (20%). Plan: test a new memecoin hypothesis outside the failed pump filter, with age",
+  "2026-10-22 04:27 UTC [all] 04:27 hold GOLD 41 (4105 vs entry 4138.1, stop 4095, target 4180, ~6.2h left). Price near 5d low 4104.4; a close below 4095 stops out. No memecoin passes age<10m + h1>+1000% + top10<15%; PHP (23h old), NOOX (76m) and RET"
  ]
 }
