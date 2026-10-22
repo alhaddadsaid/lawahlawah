@@ -22,7 +22,7 @@
    ]
   },
   "control": {
-   "cash": 3947.4608795003073,
+   "cash": 3887.443638120997,
    "open": [
     {
      "id": 185,
@@ -70,37 +70,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 189,
+     "id": 190,
      "desk": "control",
      "market": "meme",
-     "symbol": "YAPROACH",
-     "mint": "roAcHsquApzVNWPGUvorogh8YUxLvLuhfKbY7KjzsGm",
+     "symbol": "LASTCALL",
+     "mint": "Bnq4KRE1i1gcvFjqPaPNtkFs2ZojsPGEoAaPTkvGpump",
      "side": 1,
-     "opened": 1792676085.6110651,
-     "entry": 0.000377,
-     "stop": 0.0003016,
-     "target": 0.0005278,
-     "size": 530503.9787798409,
-     "deadline": 1792683285.6110654,
+     "opened": 1792676447.451094,
+     "entry": 0.0003166,
+     "stop": 0.00025328,
+     "target": 0.00044323999999999996,
+     "size": 631711.9393556538,
+     "deadline": 1792683647.4510944,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 190,
+ "next_id": 191,
  "runs": 13,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8ujgaCNgVEkpEnQKuWT6ANdkKhBKmK6JxxkqGZhipump": 1792676257.8449957,
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792676257.8449957,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792676257.8449957,
-  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792676257.8449957,
-  "control:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792676258.576378,
-  "seen:roAcHsquApzVNWPGUvorogh8YUxLvLuhfKbY7KjzsGm": 1792676438.3814745,
-  "seen:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792676438.3814745,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792676438.3814745,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1792676438.3814745,
-  "control:Bnq4KRE1i1gcvFjqPaPNtkFs2ZojsPGEoAaPTkvGpump": 1792676438.4599254,
   "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792676618.917936,
   "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792676618.917936,
   "control:DMhsNrFYoKtENT2WKrF3JWC5P9VPg15kZ7qiRSxJpump": 1792676618.9614172,
@@ -111,7 +101,18 @@
   "seen:BifnYRDJ2BxZqx8w5eCpwem5BtSVUP2zeh9tYpGspump": 1792676985.5336108,
   "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1792676985.5336108,
   "seen:DMhsNrFYoKtENT2WKrF3JWC5P9VPg15kZ7qiRSxJpump": 1792676985.5336108,
-  "control:roAcHsquApzVNWPGUvorogh8YUxLvLuhfKbY7KjzsGm": 1792676985.6110687
+  "control:roAcHsquApzVNWPGUvorogh8YUxLvLuhfKbY7KjzsGm": 1792676985.6110687,
+  "seen:8ujgaCNgVEkpEnQKuWT6ANdkKhBKmK6JxxkqGZhipump": 1792677166.4761865,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792677166.4761865,
+  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792677166.4761865,
+  "seen:HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": 1792677166.4761865,
+  "seen:roAcHsquApzVNWPGUvorogh8YUxLvLuhfKbY7KjzsGm": 1792677347.383452,
+  "seen:9L9mE43Au1GPzHFXq4LV7zVpLjWB1BkW2P4zN235pump": 1792677347.383452,
+  "seen:9RhEr8CvHZ92bKsnrwodi2qkcNxYyghjAzCSJgQPpump": 1792677347.383452,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792677347.383452,
+  "seen:3TNTAzujut9uRNNpj5Huut4Y6frrQYScd7wSJS3Tpump": 1792677347.383452,
+  "seen:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792677347.383452,
+  "control:Bnq4KRE1i1gcvFjqPaPNtkFs2ZojsPGEoAaPTkvGpump": 1792677347.4510982
  },
  "talks": {
   "2026-10-21": 109
@@ -140,18 +141,18 @@
  ],
  "last_review": 1792657960.4037404,
  "news": {
-  "t": 1792675357.8459065,
+  "t": 1792676266.477134,
   "crypto": [
+   "Here\u2019s what happened in crypto today (0h ago)",
+   "Thailand SEC says several companies eye crypto ETFs, none has applied (0h ago)",
    "SoFi unveils bank-issued tokenized deposit for yield-bearing crypto funds (0h ago)",
-   "Crypto is making a splash in U.S. elections \u2014 but chiefly in jabs about industry influence (0h ago)",
-   "Bitcoin ETF buyers are trend followers, not setters, DWF Labs says (0h ago)",
+   "Crypto is making a splash in U.S. elections \u2014 but chiefly in jabs about industry influence (1h ago)",
+   "Bitcoin ETF buyers are trend followers, not setters, DWF Labs says (1h ago)",
    "Ethereum\u2019s four-minute settlement plan could lower the cost of moving crypto (1h ago)",
-   "The UK needs a workable route to regulated DeFi access (1h ago)",
+   "The UK needs a workable route to regulated DeFi access (2h ago)",
    "Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble (2h ago)",
-   "CoinDCX admits \u2018operational losses\u2019 after $16M wallet transfers draw scrutiny (2h ago)",
-   "Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines (3h ago)",
-   "Bitcoin corrects below $82K after Tesla Q3 results, KOSPI falls (3h ago)",
-   "Crypto traders price India telecoms company Reliance Jio's IPO at about $110 billion (3h ago)"
+   "CoinDCX admits \u2018operational losses\u2019 after $16M wallet transfers draw scrutiny (3h ago)",
+   "Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines (3h ago)"
   ],
   "macro": [],
   "calendar": []
