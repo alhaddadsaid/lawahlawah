@@ -1,7 +1,7 @@
 {
  "desks": {
   "team": {
-   "cash": 9769.517388026561,
+   "cash": 9777.854683933658,
    "open": [
     {
      "id": 41,
@@ -17,22 +17,6 @@
      "size": 0.12100847089478953,
      "deadline": 1792665680.9663918,
      "thesis": "[Sniper] Gold near lower half of 5d range (4138 vs 4095-4220) with no high-impact event in 24h tends to drift back toward the 5d midpoint (~4158) and the 4180 target.",
-     "size_pct": 0.5
-    },
-    {
-     "id": 119,
-     "desk": "team",
-     "market": "meme",
-     "symbol": "Speed",
-     "mint": "2JtxAW5CMFDRhFZiqUwX7kNZ1PRdmFGAh3cxFeVXpump",
-     "side": 1,
-     "opened": 1792631888.138671,
-     "entry": 0.0005156,
-     "stop": 0.00036092,
-     "target": 0.0006456260920209667,
-     "size": 94739.30748668117,
-     "deadline": 1792639088.1386712,
-     "thesis": "[Sniper] Filter test (age<10m, h1>+1000%, top10<15%, liquidity adequate): continues up 25% within 2h net of costs; test at 0.5% for sample size",
      "size_pct": 0.5
     }
    ]
@@ -69,30 +53,48 @@
      "size": 114399.76621402691,
      "deadline": 1792713716.6558387,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 120,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SURY",
+     "mint": "DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump",
+     "side": 1,
+     "opened": 1792632429.0897138,
+     "entry": 0.0001972,
+     "stop": 0.00015776,
+     "target": 0.00027608,
+     "size": 1014198.7829614604,
+     "deadline": 1792639629.0897138,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 120,
+ "next_id": 121,
  "runs": 11,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:A7qC5p5MmBwGSQbJi5bFEwZaFQTv96LKDdmriru1pump": 1792632416.072083,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792632416.072083,
-  "seen:8NAtYWBvPEJvSEqHxjfB8tb2gkBZ2NUketXkJktKpump": 1792632416.072083,
-  "seen:BaBDzVBE3pTxuCjU7gcqNENUCfJpo24hDxDEsufhpump": 1792632598.3963907,
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792632598.3963907,
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792632598.3963907,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792632598.3963907,
-  "seen:HVBXp1v8jGWxxed866eV7UHuhJt5JqBJtMrof5DPpump": 1792632782.5232697,
-  "seen:DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump": 1792632782.5232697,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792632782.5232697,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792632782.5232697,
-  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792632782.5232697,
-  "seen:2JtxAW5CMFDRhFZiqUwX7kNZ1PRdmFGAh3cxFeVXpump": 1792632782.5232697,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792632782.5232697,
   "seen:jebnkrAULDzAxRHoHkE8vVmFsi5rNqv3xuriYWmpump": 1792633143.9826617,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792633143.9826617
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792633143.9826617,
+  "seen:GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": 1792633325.0731454,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792633325.0731454,
+  "seen:8NAtYWBvPEJvSEqHxjfB8tb2gkBZ2NUketXkJktKpump": 1792633325.0731454,
+  "seen:FjLFsaPKSxJGh25iTKCLEkthbeHKLJrxvHyJG9wqpump": 1792633325.0731454,
+  "control:DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump": 1792633329.0897171,
+  "seen:H178pHox53TZkieS5EAwhU7pSNjgQ6btxLy6ohBWBEib": 1792633509.744841,
+  "seen:ca8JV7Pgr7voBqRHr69puq8DemMuFREWpxwfLJApump": 1792633509.744841,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792633509.744841,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1792633509.744841,
+  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792633509.744841,
+  "seen:71m6o4WC6EMvbC6Pnuo53Q7SYQLuHS2VUTFe8YcBpump": 1792633690.2339883,
+  "seen:BaBDzVBE3pTxuCjU7gcqNENUCfJpo24hDxDEsufhpump": 1792633690.2339883,
+  "seen:DvdmEnztCmXwBnAbedD48XVGZJSxq31zNvnyftXdpump": 1792633690.2339883,
+  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792633690.2339883,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792633690.2339883,
+  "seen:2JtxAW5CMFDRhFZiqUwX7kNZ1PRdmFGAh3cxFeVXpump": 1792633690.2339883,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792633690.2339883
  },
  "talks": {
   "2026-10-21": 109
@@ -138,14 +140,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-22": 0.016811
+  "2026-10-22": 0.01892
  },
- "last_meme_all": 1792632243.9833212,
+ "last_meme_all": 1792632790.234669,
  "last_macro_all": 1792631698.3970513,
  "notes": [
-  "2026-10-22 00:23 UTC [all] 00:23 no orders. Hold gold 41 (4139.8, stop 4095, target 4180, ~10.3h left). Dacity (15186m old) and GATO (82795m old) fail age. No fresh memecoin passed the filter. Watch next: fresh memecoins under 10m with h1>+1000% a",
-  "2026-10-22 00:26 UTC [all] 00:26 no orders. Hold gold 41 (4139.8, stop 4095, target 4180, ~10.3h left). SURY (20.8m, h1 +379%) fails age filter; DOPE old. Watch next: fresh memecoins under 10m with h1>+1000% and top10<15%, checked live. Consider w",
-  "2026-10-22 00:29 UTC [all] 00:29 no orders. Hold gold 41 (4136, stop 4095, target 4180, ~10.2h left). KIMCHIBULL, KIMCHI, MONEYBIZ fail age/h1 filters. Watch next: fresh memecoins under 10m with h1>+1000% and top10<15%, checked live. Track filter ",
   "2026-10-22 00:32 UTC [all] 00:32 no orders. Hold gold 41 (4137.1, stop 4095, target 4180, ~10.2h left). CYBERCAT (51.5m, h1 +635%) fails age. Other memecoins old or weak h1. Watch: fresh memecoins under 10m, h1>+1000%, top10<15%. Filter has passed",
   "2026-10-22 00:35 UTC [all] 00:35 no orders. Hold gold 41 (4134.8, stop 4095, target 4180, ~10.1h left). POINTLESS (6.1m, h1 +177%, top10 23%) fails h1>1000% and top10<15%. Watch next: fresh memecoins under 10m with h1>+1000% and top10<15%, checked",
   "2026-10-22 00:38 UTC [all] 00:38 no orders. Hold gold 41 (4135.6, stop 4095, target 4180, ~10h left). Dacity (15201m old, h1 -2.6%) fails age. No fresh memecoin passed. Watch: fresh memecoins under 10m, h1>+1000%, top10<15%, checked live; track fi",
@@ -162,6 +161,9 @@
   "2026-10-22 01:12 UTC [all] 01:11 Hold gold 41 (4128, stop 4095, target 4180, ~9.5h left). Test 0.5% MrBeast under the memecoin filter; journal shows this filter lost on most trades, so judge by sample size. Watch next: fresh memecoins under 10m, h",
   "2026-10-22 01:15 UTC [all] 01:14 Close MrBeast 118 at +11% to bank gains before the 2h limit and given the filter's losing record. Hold gold 41 (4130, stop 4095, target 4180, ~9.4h). No memecoin passed. MERCURY top10 20.6% fails. Watch next: fresh",
   "2026-10-22 01:18 UTC [all] 01:18 Test Speed 0.5% (entry ~0.0005151, stop -30%, target +25%, 2h max). Hold gold 41 (4131.8, stop 4095, target 4180, ~9.4h left). Watch next: fresh memecoins under 10m, h1>+1000%, top10<15%, liquidity; judge filter by",
-  "2026-10-22 01:24 UTC [all] 01:24 no orders. Hold gold 41 (4133, stop 4095, target 4180, ~9.3h left) and Speed 119 (+10.7%, stop 0.00036092, target 0.000646, ~1.9h left). GTACHI (19.6m, h1 +108%) and DOPE (old) fail filter. Watch next: fresh memeco"
+  "2026-10-22 01:24 UTC [all] 01:24 no orders. Hold gold 41 (4133, stop 4095, target 4180, ~9.3h left) and Speed 119 (+10.7%, stop 0.00036092, target 0.000646, ~1.9h left). GTACHI (19.6m, h1 +108%) and DOPE (old) fail filter. Watch next: fresh memeco",
+  "2026-10-22 01:27 UTC [all] 01:27 no orders. Hold gold 41 (4130, stop 4095, target 4180, ~9.2h left) and Speed 119 (+16.8%, price 0.0006023, stop 0.00036092, target 0.000646, ~1.9h left). No memecoin passed; COMPUTE, GATO, FRENS, PHP2SHELL fail age",
+  "2026-10-22 01:30 UTC [all] 01:30 Close Speed 119 at about +22.6% (0.0006323) since the +20% thesis target is met and the filter has a losing record. Hold gold 41 (4129, stop 4095, target 4180, ~9.2h). No memecoin passed. Watch next: fresh memecoin",
+  "2026-10-22 01:33 UTC [all] 01:33 no orders. Hold gold 41 (4126.6, stop 4095, target 4180, ~9h left). fAu (11m, h1 +37%, top10 19.9%), MERCURY (top10 20.2%) and Speed (23m) fail filter. Watch next: fresh memecoins under 10m, h1>+1000%, top10<15%, l"
  ]
 }
