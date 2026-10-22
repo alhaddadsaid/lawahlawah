@@ -22,7 +22,7 @@
    ]
   },
   "control": {
-   "cash": 4012.3585645994185,
+   "cash": 3962.488805455797,
    "open": [
     {
      "id": 171,
@@ -38,35 +38,49 @@
      "size": 1582278.4810126582,
      "deadline": 1792673769.8945017,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 172,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Kimchi",
+     "mint": "1RjmyJbkSeQFd2fmc2LBhnPF45dSGGBzNGo6bw9pump",
+     "side": 1,
+     "opened": 1792667304.929947,
+     "entry": 0.0001271,
+     "stop": 0.00010168,
+     "target": 0.00017794,
+     "size": 1573564.1227380016,
+     "deadline": 1792674504.9299471,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 172,
+ "next_id": 174,
  "runs": 13,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:1RjmyJbkSeQFd2fmc2LBhnPF45dSGGBzNGo6bw9pump": 1792667102.4888935,
-  "seen:EJvN8fjPdqbyWtCZnGs915xLCXhyQVsC7ohrtR3Qpump": 1792667102.4888935,
-  "seen:8NAtYWBvPEJvSEqHxjfB8tb2gkBZ2NUketXkJktKpump": 1792667102.4888935,
-  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792667102.4888935,
-  "control:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792667103.2160766,
-  "seen:6mS8uh4tK5gWemzNmyFp731PqukqEuo9Mmy2zny4pump": 1792667286.162527,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792667286.162527,
-  "seen:FrtbBAaSZksfh4oV46E7Pvb43QiiUmYLD3dcGS6gpump": 1792667286.162527,
-  "seen:5hyyjwZqJgnPZorMdb7X4r2J1dT3VujKVkLD8Ptbpump": 1792667469.824515,
-  "seen:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792667469.824515,
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792667469.824515,
-  "seen:DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump": 1792667469.824515,
-  "seen:9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump": 1792667469.824515,
-  "control:DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump": 1792667469.8945045,
   "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792667654.1855686,
   "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792667654.1855686,
   "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1792667654.1855686,
   "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792667654.1855686,
   "seen:8rQWzTQzfwcLUDNqzUVckMQKeg9EVXfe4FonjfHKpump": 1792667842.017152,
   "seen:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792667842.017152,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792667842.017152
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792667842.017152,
+  "seen:1RjmyJbkSeQFd2fmc2LBhnPF45dSGGBzNGo6bw9pump": 1792668020.5533676,
+  "seen:Di3YBHLp5hwnq2CrJBFRgcynWFwozKGRFT95coPnpump": 1792668020.5533676,
+  "seen:o6ZfrJ3XJzBvbFMLxzfSJ9YSYwDVVM3qGFGhoTUpump": 1792668020.5533676,
+  "seen:EJvN8fjPdqbyWtCZnGs915xLCXhyQVsC7ohrtR3Qpump": 1792668020.5533676,
+  "seen:6mS8uh4tK5gWemzNmyFp731PqukqEuo9Mmy2zny4pump": 1792668204.8820636,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792668204.8820636,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792668204.8820636,
+  "control:1RjmyJbkSeQFd2fmc2LBhnPF45dSGGBzNGo6bw9pump": 1792668204.9299498,
+  "seen:5hyyjwZqJgnPZorMdb7X4r2J1dT3VujKVkLD8Ptbpump": 1792668389.1605287,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792668389.1605287,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1792668389.1605287,
+  "seen:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792668389.1605287,
+  "control:6mS8uh4tK5gWemzNmyFp731PqukqEuo9Mmy2zny4pump": 1792668389.21544
  },
  "talks": {
   "2026-10-21": 109
@@ -95,8 +109,9 @@
  ],
  "last_review": 1792657960.4037404,
  "news": {
-  "t": 1792666202.4897754,
+  "t": 1792667120.5542343,
   "crypto": [
+   "Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines (0h ago)",
    "Bitcoin corrects below $82K after Tesla Q3 results, KOSPI falls (0h ago)",
    "Crypto traders price India telecoms company Reliance Jio's IPO at about $110 billion (1h ago)",
    "Live updates: Bitcoin\u2019s round trip to $85,000 burns traders on both sides (1h ago)",
@@ -104,9 +119,8 @@
    "PHP flaw draws millions of exploit attempts, Cloudflare CEO warns (2h ago)",
    "Asian stocks tumble, bitcoin retreats as China enters bear market (2h ago)",
    "Bitcoin ETFs bag another $528M, taking 3-day haul past $1B (3h ago)",
-   "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme (4h ago)",
-   "Here\u2019s what happened in crypto today (5h ago)",
-   "Move over memecoins: Crypto \u2018meme games\u2019 coming, bagholders and all (5h ago)"
+   "China seeks to seize 61,800 BTC tied to $5.7 billion fraud scheme (5h ago)",
+   "Here\u2019s what happened in crypto today (5h ago)"
   ],
   "macro": [],
   "calendar": []
