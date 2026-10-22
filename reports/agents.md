@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-22 08:29 UTC. Runs so far: 13. Model: claude-haiku-5-5.
+Updated 2026-10-22 08:32 UTC. Runs so far: 13. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -25,17 +25,32 @@ Verdict: too early, 16 of 50 team trades needed before judging.
 
 API spend today: $0.10 (cap $3, aiming for about $1.50)
 - Lead (team lead and analyst, mission all): Decide what the team trades. Weigh every idea against costs and the journal. Look for repeatable edges, not one-off bets.
-- Scout (researcher, mission all): Bring ideas from prices, news, the economic calendar and politics. State each idea as a testable hypothesis.
-- Sniper (execution, mission all): Turn approved ideas into exact orders: size, optional stop and target, holding time, and early exits.
+- Scout (researcher, mission macro): Bring ideas from prices, news, the economic calendar and politics. State each idea as a testable hypothesis.
+- Sniper (execution, mission macro): Turn approved ideas into exact orders: size, optional stop and target, holding time, and early exits.
 
 ## Last run
 
-### 2026-10-22 08:29 UTC team all (memecoins), spent today $0.103
+- team: Scout now on mission macro
+- team: Sniper now on mission macro
+- team: Lead now on mission all
+### 2026-10-22 08:32 UTC team review
 
-Scout: Dodo (5.8m old, h1 +73%, top10 14.2%) fails our own h1 >+1000% gate. Its $22k liquidity against $144k 5-minute volume is also thin for 2.5-5% per-side costs. Nothing else passes.
-Sniper: No entry. Gold 156 is inside its stop (4082.5) and target (4140.5), so we keep it.
-Lead: No new edge. Hold gold and watch for a memecoin that actually passes the filter.
+The memecoin filter (under 10m old, h1 above +1000%, top10 under 15%) has produced most of the losses, including stops at -$98, -$100 and -$75. Its costs of 2.5-5% per side can't be covered by a 20% target that rarely hits. We pause memecoins and move the team to macro, where the only data point is one small gold loss, so we need a clean test.
 
-{"orders": [], "close": [], "note": "08:29 hold gold 156 (now ~4101.2, stop 4082.5, target 4140.5, ~22h left). No orders. Dodo 5.8m old, h1 +73%, top10 14.2%, liq $22k fails h1>+1000% gate and is too thin for costs. Watch: any memecoin under 10m old with h1 >+1000%, top10 <15%, liquidity adequate."}
+Decisions:
+- Memecoin filter paused. No new meme entries until a backtest shows positive expectancy after costs.
+- Scout tests one macro hypothesis at a time, using the calendar and gold/FX prices, with pre-set stops and targets.
+- Sniper executes only macro trades at 0.5-1% size, with stops set before entry.
+- No hires or firings yet. We'll revisit if the macro tests need a dedicated analyst.
+
+{"hire": [], "fire": [], "missions": {"Scout": "macro", "Sniper": "macro", "Lead": "all"}, "note": "Pause memecoin filter after repeated stop-outs and costs exceeding targets. Test gold/FX event hypotheses at 0.5-1% size with predefined stops. Review after 10 macro trades."}
+
+### 2026-10-22 08:32 UTC team macro (gold/forex), spent today $0.104
+
+Lead: Hold gold 156. Price is flat at entry, stop and target are intact, and there is no high-impact event in 24h.
+Scout: No memecoin passes the h1>+1000%, age under 10m, top10 under 15% filter. Gold 5d-range mean reversion is the only live idea, and recent gold journal trades are small.
+Sniper: No new orders. Keep the existing stop at 4082.5 and target at 4140.5.
+
+{"orders": [], "close": [], "note": "08:32 no orders. Hold gold 156 (entry 4108, now 4108.4, stop 4082.5, target 4140.5, ~22h left). No memecoin passes filter (no new candidates in notes). Watch: any memecoin under 10m old with h1 over +1000%, top10 under 15%, and adequate liquidity; test 2h continuation only if costs (2.5-5% per side) are covered. Gold: revisit if price breaks 4082 or 4140 or a high-impact event lands."}
 
 
