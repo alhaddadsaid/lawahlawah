@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-22 18:19 UTC. Runs so far: 14. Model: claude-haiku-5-5.
+Updated 2026-10-22 18:25 UTC. Runs so far: 14. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 186 | 27 | -6780.17 | -8513.93 |
+| control | meme | 188 | 28 | -6644.17 | -8401.93 |
 | control | macro | 5 | 60 | 177.11 | 149.7 |
-| control | all | 191 | 28 | -6603.06 | -8364.23 |
+| control | all | 193 | 29 | -6467.06 | -8252.23 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GOLD short at 4060.6, stop 4079.08, target 4032.88, opened 2026-10-22 18:01 UTC
-- control: umi long at 0.0001609, stop 0.00012872, target 0.00022526, opened 2026-10-22 18:04 UTC
-- control: CHRM long at 0.0004195, stop 0.0003356, target 0.0005873, opened 2026-10-22 18:07 UTC
+- control: KIMCHAI long at 0.0001001, stop 8.008e-05, target 0.00014014, opened 2026-10-22 18:25 UTC
 
 ## Team
 
@@ -31,5 +30,5 @@ API spend today: $0.12 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED MONEYBIZ (target) P&L $68.0 normal, $56.0 pessimistic
+- 2026-10-22 18:25 UTC control: OPENED KIMCHAI long at 0.0001001 (stop 8.008e-05, target 0.00014014) - control: frozen v3 rules
 
