@@ -30,5 +30,5 @@ API spend today: $0.11 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED CODEX (target) P&L $68.0 normal, $56.0 pessimistic
+## Run ended 2026-10-22 13:56 UTC
 
