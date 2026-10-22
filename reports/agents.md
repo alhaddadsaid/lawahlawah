@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-22 07:38 UTC. Runs so far: 12. Model: claude-haiku-5-5.
+Updated 2026-10-22 07:47 UTC. Runs so far: 12. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 1 | 0 | -5.3 | -5.36 |
 | team | all | 16 | 56 | -350.16 | -388.38 |
-| control | meme | 135 | 22 | -6085.86 | -7314.37 |
+| control | meme | 136 | 22 | -6139.66 | -7377.05 |
 | control | macro | 5 | 60 | 177.11 | 149.7 |
-| control | all | 140 | 24 | -5908.75 | -7164.67 |
+| control | all | 141 | 23 | -5962.55 | -7227.35 |
 
 Verdict: too early, 16 of 50 team trades needed before judging.
 
@@ -29,13 +29,12 @@ API spend today: $0.09 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-22 07:38 UTC team all (memecoins + gold/forex), spent today $0.092
+### 2026-10-22 07:47 UTC team all (memecoins), spent today $0.094
 
-Scout: Rockstar is now 20m old, so it fails the under-10m age gate despite h1 +1712%. The memecoin filter has no passes, and the journal shows the filter's record is negative.
-Sniper: No new entries. Gold 156 has room to run (about 23h left, stop 4082.5, target 4140.5), so I'm leaving it alone.
-Lead: Hold the gold position, take no new trades, and keep watching the memecoin filter.
+Scout: no memecoin passes the filter. DeepSeek is 19m old, GTA 6 is 33m, and CYBER and RIBBIT are far older. Journal memecoin results are net negative and the filter has had no clean passes today.
+Sniper: gold 156 is at 4106 versus entry 4108, with stop 4082.5 and target 4140.5 still intact, so hold.
+Lead: no new orders. Hold gold to its stop or target and keep the memecoin filter as a watch.
 
-{"orders": [], "close": [], "note": "07:38 hold gold 156 (entry 4108, now ~4111, stop 4082.5, target 4140.5, ~23h left). Memecoin filter: no pass (Rockstar 20m old, fails age; OA, MONEYBIZ, Dacity, PHP, NOOX, Gato fail h1/top10/age). Watch: any memecoin under 10m with h1 over +1000%, top10 under 15%, and firm m5 volume, to test the filter again. Next: review whether the filter's age gate is too tight given the journal's losses."}
+{"orders": [], "close": [], "note": "Hold gold 156 (entry 4108, now 4106, stop 4082.5, target 4140.5, ~23h left). No memecoin passes filter: DeepSeek 19m old, GTA 6 33m old, CYBER and RIBBIT too old. Watch: any memecoin under 10m with h1 over +1000%, top10 under 15% and firm m5 volume; DeepSeek if it ages under 10m and h1 clears the gate."}
 
-- control: order SURY REJECTED by guardrails: SURY already open
 
