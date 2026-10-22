@@ -1,7 +1,7 @@
 {
  "desks": {
   "team": {
-   "cash": 9703.032156103443,
+   "cash": 9655.144109711475,
    "open": [
     {
      "id": 41,
@@ -22,23 +22,8 @@
    ]
   },
   "control": {
-   "cash": 4598.1869643133205,
+   "cash": 4397.460459481238,
    "open": [
-    {
-     "id": 129,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Gato",
-     "mint": "55A3VxMBfzw6uSe64zms5iMPw9k6kx9WzzusbCU6pump",
-     "side": 1,
-     "opened": 1792640327.679681,
-     "entry": 0.0003445,
-     "stop": 0.00027560000000000003,
-     "target": 0.0004823,
-     "size": 580551.5239477503,
-     "deadline": 1792647527.6796813,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 141,
      "desk": "control",
@@ -68,40 +53,14 @@
      "size": 763941.9404125286,
      "deadline": 1792652461.959448,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 147,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "NOOX",
-     "mint": "Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump",
-     "side": 1,
-     "opened": 1792647449.8218727,
-     "entry": 0.0001154,
-     "stop": 9.232000000000001e-05,
-     "target": 0.00016156,
-     "size": 1733102.253032929,
-     "deadline": 1792654649.821873,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 148,
+ "next_id": 151,
  "runs": 12,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FxzUDJHc9TbMJjGmthmnjbC9AF6FnGxNuFmbP1Jepump": 1792647621.6157174,
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792647621.6157174,
-  "seen:DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump": 1792647621.6157174,
-  "control:BGYCrJaXNZ746wjk4rdnYR8bEdWeMAz4SStiGoCrpump": 1792647626.3253553,
-  "seen:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792647803.1622021,
-  "seen:BXoHJddsWJLHtAopeiSbKUSELsu8hSFMs8baGMDkpump": 1792647803.1622021,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792647803.1622021,
-  "seen:CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump": 1792647803.1622021,
-  "control:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792647807.245232,
-  "seen:BGYCrJaXNZ746wjk4rdnYR8bEdWeMAz4SStiGoCrpump": 1792647985.5402644,
-  "seen:DvdmEnztCmXwBnAbedD48XVGZJSxq31zNvnyftXdpump": 1792647985.5402644,
   "seen:6qJB5Bwsw5ZBJdhKfMSK844jdQa18EAZuBgvDGE4pump": 1792648165.6994338,
   "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792648165.6994338,
   "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792648165.6994338,
@@ -110,7 +69,18 @@
   "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792648346.6570995,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792648346.6570995,
   "seen:FrtbBAaSZksfh4oV46E7Pvb43QiiUmYLD3dcGS6gpump": 1792648346.6570995,
-  "control:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792648349.821876
+  "control:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792648349.821876,
+  "seen:FxzUDJHc9TbMJjGmthmnjbC9AF6FnGxNuFmbP1Jepump": 1792648528.0552883,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792648528.0552883,
+  "seen:DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump": 1792648528.0552883,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792648528.0552883,
+  "control:BGYCrJaXNZ746wjk4rdnYR8bEdWeMAz4SStiGoCrpump": 1792648531.692766,
+  "seen:EQTmdBbD9wPi4LgebPNaeSRs4uXdhG9R6rKBYR7Hpump": 1792648708.4665985,
+  "seen:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792648708.4665985,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792648708.4665985,
+  "seen:5mLtZn2d9ppz7iHeZFJtew7UFGdLuuwM6HDXLyMDpump": 1792648708.4665985,
+  "seen:2qNrw4d9zVS58hQRHydsFNkz41PUgwDLcv6ZwVUxpump": 1792648708.4665985,
+  "control:5mLtZn2d9ppz7iHeZFJtew7UFGdLuuwM6HDXLyMDpump": 1792648715.8877015
  },
  "talks": {
   "2026-10-21": 109
@@ -139,9 +109,10 @@
  ],
  "last_review": 1792571535.8670912,
  "news": {
-  "t": 1792646903.163078,
+  "t": 1792647808.4675133,
   "crypto": [
-   "Solana completes Alpenglow upgrade. Here\u2019s what it means for users (0h ago)",
+   "Move over memecoins: Crypto \u2018meme games\u2019 coming, bagholders and all (0h ago)",
+   "Solana\u2019s biggest network change since 2020 is live. Here\u2019s how users benefit (0h ago)",
    "Bitcoin ETFs attract $1.08 billion in 3 days but it may not be enough for a steep rally (1h ago)",
    "XRP Ledger bug fix moved to November after validator support dipped for two hours (1h ago)",
    "Bitcoin gives back its run at $85,000 as Tesla and Meta fail to calm AI nerves (2h ago)",
@@ -149,20 +120,17 @@
    "American Bankers Association: OCC\u2019s GENIUS rules \u2018undermine\u2019 US Congress (8h ago)",
    "Tether backs Bolivian fintech bringing USDT payments to food delivery and banking (9h ago)",
    "Trump didn\u2018t mention \u2018crypto\u2019 once in White House cybercrime roundtable (9h ago)",
-   "Here\u2019s what happened in crypto today (9h ago)",
-   "Cardano Foundation urges EU against expanding MiCA rules to DeFi and staking (12h ago)"
+   "Here\u2019s what happened in crypto today (10h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-22": 0.067255
+  "2026-10-22": 0.068921
  },
- "last_meme_all": 1792647446.6580117,
+ "last_meme_all": 1792647808.4675,
  "last_macro_all": 1792647085.5411477,
  "notes": [
-  "2026-10-22 04:39 UTC [all] 04:39 no orders. Hold GOLD 41 (4105.4 vs entry 4138.1, stop 4095, target 4180, ~6h left). No memecoin passes age<10m + h1>+1000% + top10<15%; PATCHED (11.4m, h1 +40%, top10 69%) fails. Watch: close below 4095 stops out; ",
-  "2026-10-22 04:42 UTC [all] 04:42 no orders. Hold GOLD 41 (~4104 vs entry 4138.1, stop 4095, target 4180, ~6h left). No memecoin passes age<10m + h1>+1000% + top10<15%; PATCHED and Dolly fail. Watch: OA (top10 2.8%) as a low-top10 test with a defin",
   "2026-10-22 04:45 UTC [all] Hold GOLD 41 (4105.6 vs entry 4138.1, stop 4095, target 4180, ~5.9h left). No memecoin passes the pump filter; BROZO (109m, h1 +64%, m5 -8.8%, top10 11%) and 1GTA (70m, h1 +30%, m5 -12%, top10 21%) are watch-only, no ent",
   "2026-10-22 04:48 UTC [all] Hold GOLD 41 (entry 4138.1, stop 4095, target 4180, ~5.9h left). No orders: no memecoin passes age<10m + h1>+1000% + top10<15%; Rockstar (8.6m, h1 +71%, m5 -84%) is a dump, not a setup. Watch: OA (top10 2.8%) as a low-to",
   "2026-10-22 04:51 UTC [all] Hold GOLD 41 (entry 4138.1, stop 4095, target 4180, ~5.8h left). No orders: fomo fails the h1>+1000% filter at +987%, and the pump-continuation idea has lost repeatedly. Watch list: OA (top10 2.8%, liquidity $235k) as a ",
@@ -180,6 +148,8 @@
   "2026-10-22 05:28 UTC [all] 05:28 no orders. Hold GOLD 41 (4103.9 vs entry 4138.1, stop 4095, target 4180, ~5.2h left). No memecoin passes age<10m + h1>+1000% + top10<15%; NOOX, CRAWL, PHP, GOAT fail. Watch: OA (top10 2.8%, liq $235k, h1 +24%) as l",
   "2026-10-22 05:31 UTC [all] 05:31 no orders. Hold GOLD 41 (4104.4 vs entry 4138.1, stop 4095, target 4180, ~5.2h left). No memecoin passes age<10m + h1>+1000% + top10<15%; PATCHED (63m, h1 +85%, top10 24.7%) and pill (55k min old) fail. Watch: OA (",
   "2026-10-22 05:34 UTC [all] Hold GOLD 41 (4101.5 vs entry 4138.1, stop 4095, target 4180, ~5h left). No orders. Waddles (7.7m, h1 +217%, top10 12.4%) fails h1>+1000% gate; KIMCHIBULL, MONEYBIZ fail age/pump. Watch list: Waddles only if h1>+1000% an",
-  "2026-10-22 05:37 UTC [all] 05:37 no orders. Hold GOLD 41 (4101.8 vs entry 4138.1, stop 4095, target 4180, ~5h left). No memecoin passes age<10m + h1>+1000% + top10<15%; OA (top10 2.8%, h1 +26%) fails h1 gate. Watch: Waddles and OA only if h1 gate "
+  "2026-10-22 05:37 UTC [all] 05:37 no orders. Hold GOLD 41 (4101.8 vs entry 4138.1, stop 4095, target 4180, ~5h left). No memecoin passes age<10m + h1>+1000% + top10<15%; OA (top10 2.8%, h1 +26%) fails h1 gate. Watch: Waddles and OA only if h1 gate ",
+  "2026-10-22 05:40 UTC [all] No orders. Hold GOLD 41 (4100.8 vs entry 4138.1, stop 4095, target 4180, ~5h left). No memecoin passes age<10m + h1>+1000% + top10<15%; \u30e4\u30ae tokens fail age (23m, 52m), Waddles and OA fail h1 gate. Watch: Waddles/OA only i",
+  "2026-10-22 05:43 UTC [all] 05:43 Hold GOLD 41 (4099.8 vs entry 4138.1, stop 4095, target 4180, ~5h left). Test MrBeast 0.5% at 0.0005057 (stop 0.0004, target 0.000607, 2h max). Watch: Waddles/OA only if h1 gate passes; TheGus (54m) fails age."
  ]
 }
