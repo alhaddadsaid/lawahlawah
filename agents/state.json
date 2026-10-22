@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 3044.130352929173,
+   "cash": 2845.210894801094,
    "open": [
     {
      "id": 209,
@@ -21,21 +21,6 @@
      "size": 5.411664560599583,
      "deadline": 1792778464.36513,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 218,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MONEYBIZ",
-     "mint": "EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump",
-     "side": 1,
-     "opened": 1792697163.0930982,
-     "entry": 0.0001218,
-     "stop": 9.744000000000002e-05,
-     "target": 0.00017052,
-     "size": 1642036.1247947454,
-     "deadline": 1792704363.0930984,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 224,
@@ -66,31 +51,47 @@
      "size": 1862197.39292365,
      "deadline": 1792708807.3629465,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 228,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CYBER",
+     "mint": "CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump",
+     "side": 1,
+     "opened": 1792703984.2119434,
+     "entry": 0.0001869,
+     "stop": 0.00014952,
+     "target": 0.00026165999999999993,
+     "size": 1070090.9577314071,
+     "deadline": 1792711184.2119436,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 228,
+ "next_id": 229,
  "runs": 15,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:1RjmyJbkSeQFd2fmc2LBhnPF45dSGGBzNGo6bw9pump": 1792703417.7120345,
-  "seen:DgCcDaw3roKY8YAKMT7Bv5fZpTSCCGvFEVdx2Caqpump": 1792703417.7120345,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792703600.8191247,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792703600.8191247,
-  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792703600.8191247,
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792703600.8191247,
-  "seen:GdXGPxzSVXabVKBAd61oPd87zsaBEzn2N5df3PSFSTNK": 1792703784.778105,
-  "seen:HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump": 1792703784.778105,
-  "seen:JEMRUbZYJfddpmPr3YVVavTxZcDiT6H1wo5WGVQpump": 1792703784.778105,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792703974.6250446,
-  "seen:6H4VsBEgaUWh64uF9D5RYg4zX2SeNPnxX8oqXmyDpump": 1792703974.6250446,
-  "seen:6v8hoK4qvB3yNThaUAW1nyhxD4qJV6Z9AC24Hu6rpump": 1792703974.6250446,
-  "seen:B1Y2fJW8rtirrBuUcda14pSaeiASHaGqTxQdxU8Mpump": 1792703974.6250446,
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792703974.6250446,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792704149.2119813,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792704149.2119813,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792704149.2119813
+  "seen:DgCcDaw3roKY8YAKMT7Bv5fZpTSCCGvFEVdx2Caqpump": 1792704332.327689,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792704517.524657,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792704517.524657,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792704517.524657,
+  "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792704517.524657,
+  "seen:GdXGPxzSVXabVKBAd61oPd87zsaBEzn2N5df3PSFSTNK": 1792704700.8566954,
+  "seen:HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump": 1792704700.8566954,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1792704700.8566954,
+  "seen:B9XYKgYE65XNUfGDDVHK1ySdEqbaqw2cMNuTmCA2pump": 1792704883.7610784,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792704883.7610784,
+  "seen:B1Y2fJW8rtirrBuUcda14pSaeiASHaGqTxQdxU8Mpump": 1792704883.7610784,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792704883.7610784,
+  "seen:FuMxhpn1Z3s373VPffZ2t5unTHwe7PTama6KS477pump": 1792704883.7610784,
+  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792704883.7610784,
+  "control:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792704884.2119472,
+  "seen:ToUsq135rPcCRGKhkj5Xj3TmCnNxkqBZPi8HaZTpump": 1792705067.1379848,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792705067.1379848,
+  "seen:7JJvLXiP5kiVsBsoGRJeqAhLEmHycA4hmC3oa5Fbpump": 1792705067.1379848
  },
  "talks": {
   "2026-10-21": 109
@@ -125,29 +126,28 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792703074.6264098,
+  "t": 1792703983.7624424,
   "crypto": [
-   "Dune launches real-time data feeds covering 200 onchain trading venues (0h ago)",
+   "Dune launches real-time data feeds covering 200 onchain trading venues (1h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
    "Winklevoss PAC moves into Texas Senate race with $81K ad buy (2h ago)",
    "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech (3h ago)",
    "Underdog taps zerohash to bring crypto deposits to prediction markets (4h ago)",
    "Bitcoin hashrate hits seven-month high as AI shift fails to ease mining competition (4h ago)",
-   "Irish cenbank fines Coinbase arm $3.6M for oversight, safeguard failures (4h ago)",
+   "Irish cenbank fines Coinbase arm $3.6M for oversight, safeguard failures (5h ago)",
    "Bitcoin circles $81.5K ETF cost basis as Trump Iran comments send stocks lower (5h ago)",
-   "Irish central bank fines Coinbase Ireland $3.6 million over fund safeguarding failures (5h ago)",
+   "Irish central bank fines Coinbase Ireland $3.6 million over fund safeguarding failures (6h ago)",
    "Crypto for Advisors: Stablecoins are ready for prime time (6h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-22": 0.124127
+  "2026-10-22": 0.124702
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-22 14:15 UTC [macro] 14:15 no orders. Gold 4067.6 just above 5d low 4064.1, down 1.95% 24h, no high-impact events. EUR/USD near 5d low, GBP/USD mid-range; no forex setup. No memecoin passes filter. Watch: gold reclaims 4090 (test long, stop ",
   "2026-10-22 14:36 UTC [macro] 14:36 no orders. Gold 4065 near 5d low 4059.5, no setup. Watch: gold closes above 4090 (test long, stop 4070, target 4120, max 12h); a break below 4059.5 with momentum is no-long. Memecoin filter (age<10m, h1>+1000%, top",
   "2026-10-22 14:58 UTC [macro] 14:57 no orders. Gold 4077, below 4090 reclaim trigger; 5d low 4059.5. Watch: gold closes hourly above 4090 (long 1%, stop 4070, target 4120, max 12h) or breaks below 4059.5 with momentum (no long). Memecoin filter (age<",
   "2026-10-22 15:19 UTC [macro] No orders 15:19. Gold 4072, below 4090 reclaim trigger; 5d low 4059.5. Watch: hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h; break below 4059.5 with momentum = no long. Memecoin filter (age<10m, h1>+",
@@ -166,8 +166,9 @@
   "2026-10-22 19:57 UTC [macro] 2026-10-22 19:57 no orders. Gold 4038.8 at new 5d low 4037.2, below 4041.2 no-long line. Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD hourly close above 1.3418 = test long, stop",
   "2026-10-22 20:18 UTC [macro] 20:18 no orders. Gold 4042.2 below 4090 trigger and 4041.2 no-long line (5d low 4037.2). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD hourly close above 1.3418 = test long. EUR/",
   "2026-10-22 20:40 UTC [macro] 20:40 no orders. Gold 4038.4 at new 5d low 4037.1, below the 4041.2 no-long line; trigger still hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD hourly close above 1.3418 = test long (stop and ",
-  "2026-10-22 21:01 UTC [macro] 21:01 UTC no orders. Gold 4038.6 below 4090 trigger and 4041.2 no-long line (5d low 4036.8). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD hourly close above 1.3418 = test long ("
+  "2026-10-22 21:01 UTC [macro] 21:01 UTC no orders. Gold 4038.6 below 4090 trigger and 4041.2 no-long line (5d low 4036.8). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD hourly close above 1.3418 = test long (",
+  "2026-10-22 21:22 UTC [macro] 21:22 no orders. Gold 4039.8, 5d low 4036.8, below 4041.2 no-long line. Watch: hourly close above 4090 = gold long 1%, stop 4070, target 4120, max 12h; break below 4036.8 = no long. GBP/USD hourly close above 1.3418 = te"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792702884.7794201
+ "last_macro_macro": 1792704167.1393697
 }
