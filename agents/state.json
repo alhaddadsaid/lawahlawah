@@ -22,7 +22,7 @@
    ]
   },
   "control": {
-   "cash": 4759.767895259906,
+   "cash": 4706.604041822277,
    "open": [
     {
      "id": 92,
@@ -72,25 +72,30 @@
    ]
   }
  },
- "next_id": 127,
+ "next_id": 128,
  "runs": 12,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7u4JmWrWG41kYkKpyqbuYJR4uZhE7oLCUMCGfNkNCFWq": 1792637773.3133304,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792637773.3133304,
-  "seen:CMYkt87ERZcK1yTUdEfMN87L85262r5Lo1wPZMFvpump": 1792637954.0853431,
-  "seen:H178pHox53TZkieS5EAwhU7pSNjgQ6btxLy6ohBWBEib": 1792638134.5069833,
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792638134.5069833,
-  "seen:6mYfg1EmMVjbQv38QGY5XdRUQ4SyNpFauL1aiRiWpump": 1792638134.5069833,
-  "seen:GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": 1792638134.5069833,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792638314.686944,
-  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792638314.686944,
-  "control:7u4JmWrWG41kYkKpyqbuYJR4uZhE7oLCUMCGfNkNCFWq": 1792638317.8340235,
   "seen:86j9yoVzuuCjLAq4hFyaX1cphRc9SJhWhSN4h9Hh79Be": 1792638495.4813044,
   "seen:2CvGN3ynUisRVdgeycFS6GrZZtyjxwtTPr9U1XPhpump": 1792638495.4813044,
   "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1792638495.4813044,
   "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792638495.4813044,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792638495.4813044
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792638495.4813044,
+  "seen:FcSPDLGD7V2zM5v68X89D2RGhgQnwVBrMPWHu1yFpump": 1792638677.0975647,
+  "seen:E9nVx27B8B6RhGEe2ZZZahAWVpz2LaEsypAv8mN8pump": 1792638677.0975647,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792638677.0975647,
+  "seen:BxCiPQD1RK59KKk2NC6wG5uLw68NXAWJJmrkGiLqpump": 1792638677.0975647,
+  "control:2CvGN3ynUisRVdgeycFS6GrZZtyjxwtTPr9U1XPhpump": 1792638681.677736,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792638859.4861112,
+  "seen:H178pHox53TZkieS5EAwhU7pSNjgQ6btxLy6ohBWBEib": 1792639040.1596124,
+  "seen:6mYfg1EmMVjbQv38QGY5XdRUQ4SyNpFauL1aiRiWpump": 1792639040.1596124,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792639040.1596124,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792639040.1596124,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792639222.1793296,
+  "seen:AfFRZTpyxkHE3hsWVLtR2gC1kmUZ54ccY8yuf2kYc4ZD": 1792639222.1793296,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792639222.1793296,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792639222.1793296,
+  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792639222.1793296
  },
  "talks": {
   "2026-10-21": 109
@@ -119,32 +124,28 @@
  ],
  "last_review": 1792571535.8670912,
  "news": {
-  "t": 1792636873.3141134,
+  "t": 1792637777.098366,
   "crypto": [
    "PHP Foundation admits \u2018structural failure\u2019 delayed critical security fix (2h ago)",
    "American Bankers Association: OCC\u2019s GENIUS rules \u2018undermine\u2019 US Congress (5h ago)",
-   "Tether backs Bolivian fintech bringing USDT payments to food delivery and banking (6h ago)",
-   "Trump didn\u2018t mention \u2018crypto\u2019 once in White House cybercrime roundtable (6h ago)",
+   "Tether backs Bolivian fintech bringing USDT payments to food delivery and banking (7h ago)",
+   "Trump didn\u2018t mention \u2018crypto\u2019 once in White House cybercrime roundtable (7h ago)",
    "Here\u2019s what happened in crypto today (7h ago)",
    "Cardano Foundation urges EU against expanding MiCA rules to DeFi and staking (9h ago)",
-   "UK financial watchdog opens consultations for DeFi guidance, crypto laws (9h ago)",
+   "UK financial watchdog opens consultations for DeFi guidance, crypto laws (10h ago)",
    "Treasury Secretary Bessent likens GENIUS Act to Lincoln-era banking reform (10h ago)",
-   "Trump to throw spotlight on overseas crypto abuses at White House event (10h ago)",
+   "Trump to throw spotlight on overseas crypto abuses at White House event (11h ago)",
    "Chainlink, Cardano, other blockchain groups push SEC for clearer crypto rules (11h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-22": 0.033741
+  "2026-10-22": 0.036352
  },
- "last_meme_all": 1792637595.4821188,
- "last_macro_all": 1792636873.3141015,
+ "last_meme_all": 1792638322.18015,
+ "last_macro_all": 1792638140.1604276,
  "notes": [
-  "2026-10-22 01:51 UTC [all] 01:51 no orders. Hold gold 41 (4130.7, stop 4095, target 4180, ~8.8h left). RETAIL (34m old, h1 +1087%, top10 20.9%) fails age filter; PANGEA and DOPE fail h1 filter. Watch next: fresh memecoins under 10m with h1>+1000%,",
-  "2026-10-22 01:57 UTC [all] No orders. Hold gold 41 (4128.8, stop 4095, target 4180, ~8.8h left). Memebers (4.6m, h1 +87%, top10 23%) and Dacity (~10d old) fail filter. Watch next: fresh memecoins under 10m with h1>+1000%, top10<15%, adequate liqui",
-  "2026-10-22 02:00 UTC [all] 02:00 no orders. Hold gold 41 (4128, stop 4095, target 4180, ~8.7h left). SURY (115m, h1 -3%) and AgentxAlph (128m, h1 +84%) fail age filter; no meme candidates qualify. Watch next: fresh memecoins under 10m, h1>+1000%, ",
-  "2026-10-22 02:03 UTC [all] 02:03 no orders. Hold gold 41 (4127.3 vs stop 4095, target 4180, ~8.7h left). No memecoin passes filter (MERCURY 55m old, FRENS 138m, others older or weak h1). Watch next: fresh memecoins under 10m with h1>+1000%, top10<",
   "2026-10-22 02:06 UTC [all] 02:06 no orders. Hold gold 41 (4129.5, stop 4095, target 4180, ~8.6h left). BKING (8.8m old, h1 +17%, top10 32%) fails h1 filter; RETAIL (49m) fails age. Watch next: fresh memecoins under 10m with h1>+1000%, top10<15%, a",
   "2026-10-22 02:09 UTC [all] 02:09 no orders. Hold gold 41 (~4129, stop 4095, target 4180, ~8.5h left). CI (212m) and GATO (23d) fail age filter. Watch next: fresh memecoins under 10m with h1>+1000%, top10<15%, adequate liquidity; keep judging the f",
   "2026-10-22 02:12 UTC [all] 02:12 no orders. Hold gold 41 (4128.2, stop 4095, target 4180, ~8.5h left). Tokabu (~500d old, h1 +25.6%) fails age and h1 filters. Watch next: fresh memecoins under 10m with h1>+1000%, top10<15%, adequate liquidity; kee",
@@ -160,6 +161,10 @@
   "2026-10-22 02:44 UTC [all] 02:44 no orders. Hold gold 41 (entry 4138.1, stop 4095, target 4180, ~8h left). WIFCHI (5.7m, h1 +364%, top10 37.7%) fails filters. Watch next: fresh memecoins under 10m with h1>+1000%, top10<15%, adequate liquidity; con",
   "2026-10-22 02:47 UTC [all] 02:47 no orders. Hold gold 41 (4135.9 vs entry 4138.1, stop 4095, target 4180, ~7.9h left). Au (69m, h1 +1478%, top10 23.5%) fails age and top10. Watch next: fresh memecoins under 10m with h1>+1000%, top10<15%, adequate ",
   "2026-10-22 02:50 UTC [all] 02:50 no orders. Hold gold 41 (4135.5 vs entry 4138.1, stop 4095, target 4180, ~7.9h left). PHP (1296m, h1 +83%) and CYBER (263m, h1 -27%) fail age filter. Watch next: fresh memecoins under 10m with h1>+1000%, top10<15%,",
-  "2026-10-22 02:53 UTC [all] 02:53 no orders. Hold gold 41 (4134.1 vs entry 4138.1, stop 4095, target 4180, ~7.8h left). RETAIL (96m, h1 +20%) and Pilly (31m, h1 +82%) fail age/h1 filters; BIRB, MONEYBIZ, Dacity fail. Watch next: fresh memecoins und"
+  "2026-10-22 02:53 UTC [all] 02:53 no orders. Hold gold 41 (4134.1 vs entry 4138.1, stop 4095, target 4180, ~7.8h left). RETAIL (96m, h1 +20%) and Pilly (31m, h1 +82%) fail age/h1 filters; BIRB, MONEYBIZ, Dacity fail. Watch next: fresh memecoins und",
+  "2026-10-22 02:56 UTC [all] No orders. Hold gold 41 (4133, stop 4095, target 4180, ~7.8h left). Speed (7.9m, h1 +1112%, top10 14.1%) passes the filter but I'm passing: the filter has net losses and entries chase spikes. GRUM (h1 +168%) and TikTok U",
+  "2026-10-22 02:59 UTC [all] 02:59 no orders. Hold gold 41 (4130.4 vs entry 4138.1, stop 4095, target 4180, ~7.7h left). DOOD (old, h1 -1.8%, top10 71%) fails all filters. Watch next: fresh memecoins under 10m with h1>+1000%, top10<15%, adequate liq",
+  "2026-10-22 03:02 UTC [all] 02:xx no orders. Hold gold 41 (4129.6 vs entry 4138.1, stop 4095, target 4180, ~7.7h left). Au (84m, h1 +1854%, top10 23%) and AgentxAlph (189m) fail age; KIMCHIBULL and PANGEA fail h1/age. No macro events 24h. Watch nex",
+  "2026-10-22 03:05 UTC [all] 03:05 no orders. Hold gold 41 (4130.9 vs entry 4138.1, stop 4095, target 4180, ~7.6h left). OA (5.5m, h1 +651%, top10 33%) fails top10. Rolo (2.7m, h1 +43%) fails h1. No macro events 24h. Watch next: fresh memecoins unde"
  ]
 }
