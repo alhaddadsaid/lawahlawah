@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-22 01:02 UTC. Runs so far: 11. Model: claude-haiku-5-5.
+Updated 2026-10-22 01:12 UTC. Runs so far: 11. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 11 | 64 | -233.48 | -263.24 |
 | team | macro | 0 | 0 | 0 | 0 |
 | team | all | 11 | 64 | -233.48 | -263.24 |
-| control | meme | 99 | 21 | -4810.06 | -5702.05 |
+| control | meme | 100 | 21 | -4866.16 | -5766.97 |
 | control | macro | 3 | 33 | -105.13 | -120.98 |
-| control | all | 102 | 22 | -4915.19 | -5823.03 |
+| control | all | 103 | 21 | -4971.29 | -5887.95 |
 
 Verdict: too early, 11 of 50 team trades needed before judging.
 
 ## Open positions
 
 - team: GOLD long at 4138.1, stop 4095, target 4180, opened 2026-10-21 10:41 UTC
+- team: MrBeast long at 0.0005146, stop 0.000386199, target 0.000617122, opened 2026-10-22 01:12 UTC
 - control: GBPUSD long at 1.3389, stop 1.33788, target 1.34044, opened 2026-10-21 21:02 UTC
 - control: EURUSD long at 1.12385, stop 1.12297, target 1.12516, opened 2026-10-22 00:01 UTC
-- control: KIMCHI long at 8.993e-05, stop 7.1944e-05, target 0.000125902, opened 2026-10-22 00:38 UTC
 
 ## Team
 
@@ -31,13 +31,11 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-22 01:02 UTC team all (memecoins), spent today $0.012
+### 2026-10-22 01:12 UTC team all (memecoins), spent today $0.014
 
-Scout: FOMO (4.8m old, top10 13.9%) is close but h1 is +883%, under our +1000% filter. Others fail age or h1.
-Sniper: No memecoin entry. Journal shows the strategy has lost on most stops, so no forcing a trade.
-Lead: Hold gold 41 (4131.3, stop 4095, target 4180, ~9.6h left). Nothing else qualifies. Watch FOMO-type fresh coins if h1 crosses 1000% while still under 10 minutes old and top10 stays under 15%.
+Scout: MrBeast passes every filter (5.4m old, h1 +1062%, top10 14.2%, liquidity $60.6k). Lead: the same filter has lost on most journal trades, with four stops, so this is only a small test, not a bet. Sniper: 0.5% size, stop -25% (0.000388), target +20% (0.00062), 2h max. Gold 41 stays open, with no new macro idea and no calendar events in 24h. GATO, FRENS and the other names fail the age or h1 filters.
 
-{"orders": [], "close": [], "note": "No orders. Hold gold 41 (4131.3, stop 4095, target 4180, ~9.6h left). FOMO (4.8m, h1 +883%, top10 13.9%) fails h1>1000% filter; SURY (58m), CYBER, CYBERCAT, PHP, DOOD, pill fail age/h1. Watch next: fresh memecoins under 10m, h1>+1000%, top10<15%, liquidity adequate, checked live each cycle; FOMO if it crosses 1000% on re-check."}
+{"orders": [{"market": "meme", "symbol": "MrBeast", "mint": "A7qC5p5MmBwGSQbJi5bFEwZaFQTv96LKDdmriru1pump", "side": "long", "size_pct": 0.5, "stop": 0.000388, "target": 0.00062, "max_hours": 2, "by": "Sniper", "hypothesis": "Filter (under 10m old, h1>+1000%, top10<15%) continues up 20% within 2h, net of 2.5-5% costs per side; small test of a historically losing setup"}], "close": [], "note": "01:11 Hold gold 41 (4128, stop 4095, target 4180, ~9.5h left). Test 0.5% MrBeast under the memecoin filter; journal shows this filter lost on most trades, so judge by sample size. Watch next: fresh memecoins under 10m, h1>+1000%, top10<15%; if MrBeast stops, pause new memecoin entries and review filter."}
 
-- control: order GBPUSD REJECTED by guardrails: GBPUSD already open
+- 2026-10-22 01:12 UTC team: OPENED MrBeast long 0.5% at 0.0005146 (stop 0.000386199, target 0.000617122, max 2.0h) [Sniper] Filter (under 10m old, h1>+1000%, top10<15%) continues up 20% within 2h, net of 2.5-5% costs per side; small test of a historically losing setup
 
