@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 3371.0969898851326,
+   "cash": 3380.2162928341945,
    "open": [
     {
      "id": 204,
@@ -23,54 +23,81 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 206,
+     "id": 209,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "GOLD",
+     "mint": "",
+     "side": -1,
+     "opened": 1792692064.3651295,
+     "entry": 4060.60009765625,
+     "stop": 4079.07870047433,
+     "target": 4032.8821934291295,
+     "size": 5.411664560599583,
+     "deadline": 1792778464.36513,
+     "thesis": "control: random direction"
+    },
+    {
+     "id": 210,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "umi",
+     "mint": "GCnULgLuFH8Xy2xFbhsjhdvmaAm18t4xMccdHd6Bpump",
+     "side": 1,
+     "opened": 1792692271.6208167,
+     "entry": 0.0001609,
+     "stop": 0.00012872000000000003,
+     "target": 0.00022526,
+     "size": 1243008.079552517,
+     "deadline": 1792699471.6208167,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 211,
      "desk": "control",
      "market": "meme",
      "symbol": "CHRM",
      "mint": "8rLSJYqyTXnepx1vSZn1eMYxi1h6ZVDUoUpNvhxbpump",
      "side": 1,
-     "opened": 1792690780.783861,
-     "entry": 0.0003092,
-     "stop": 0.00024735999999999996,
-     "target": 0.0004328799999999999,
-     "size": 646830.530401035,
-     "deadline": 1792697980.783861,
+     "opened": 1792692423.7748036,
+     "entry": 0.0004195,
+     "stop": 0.0003356,
+     "target": 0.0005872999999999999,
+     "size": 476758.0452920143,
+     "deadline": 1792699623.7748039,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 208,
+ "next_id": 212,
  "runs": 14,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CYawpSUSHfMSj7RxFk2Kro148BAte3y9j1SARjZztq8A": 1792692043.5350628,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1792692043.5350628,
-  "seen:86QepwFpKztSf59BugCwt3nwmL67EdkEtpoZ8ZRpump": 1792692043.5350628,
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1792692227.8913271,
-  "seen:4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump": 1792692227.8913271,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792692227.8913271,
-  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1792692227.8913271,
-  "control:CQ4FfF2qkzDTuK23hpKHAgSWYAkRkmaU3yqFvjBhpump": 1792692231.8659801,
-  "seen:8rLSJYqyTXnepx1vSZn1eMYxi1h6ZVDUoUpNvhxbpump": 1792692417.301113,
-  "seen:3wEmieqXr9bhf4n62QgtepNcJECsd9R5wepBWzSSpump": 1792692417.301113,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792692417.301113,
-  "seen:CQ4FfF2qkzDTuK23hpKHAgSWYAkRkmaU3yqFvjBhpump": 1792692591.23651,
-  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792692591.23651,
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792692591.23651,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792692591.23651,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792692591.23651,
   "seen:9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump": 1792692775.7249985,
   "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792692775.7249985,
   "seen:E7DTr6RANsHApnidgGT1VqzAJKcqYXBEvf2QeyvJMUZ2": 1792692775.7249985,
   "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792692775.7249985,
-  "seen:GCnULgLuFH8Xy2xFbhsjhdvmaAm18t4xMccdHd6Bpump": 1792692775.7249985
+  "seen:GCnULgLuFH8Xy2xFbhsjhdvmaAm18t4xMccdHd6Bpump": 1792692775.7249985,
+  "seen:HbXn9Lcug7KrXxLr6TrKFe1pymCmqbVb3kbP9N1Kpump": 1792692964.128843,
+  "seen:6RyT4sUBRMfgRY4o675YodDZsmaU8wvuE7wFuTNQpump": 1792692964.128843,
+  "control:6RyT4sUBRMfgRY4o675YodDZsmaU8wvuE7wFuTNQpump": 1792692964.190823,
+  "control:GOLD": 1792692964.3651323,
+  "seen:4krFcF31xNiRQseavbJ579r9fYfaqmbycXEZi49gpump": 1792693171.4633968,
+  "control:GCnULgLuFH8Xy2xFbhsjhdvmaAm18t4xMccdHd6Bpump": 1792693171.6208203,
+  "seen:8rLSJYqyTXnepx1vSZn1eMYxi1h6ZVDUoUpNvhxbpump": 1792693323.7204146,
+  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1792693323.7204146,
+  "control:8rLSJYqyTXnepx1vSZn1eMYxi1h6ZVDUoUpNvhxbpump": 1792693323.7748063,
+  "seen:CQ4FfF2qkzDTuK23hpKHAgSWYAkRkmaU3yqFvjBhpump": 1792693516.2469444,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792693516.2469444,
+  "seen:FdaBA8Wnmozw8utpk6aDGruQMPgA8QiA2zwE2W3mf2jX": 1792693516.2469444,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792693516.2469444
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 497953,
+ "ctrl_macro_hour": 497970,
  "team": [
   {
    "name": "Lead",
@@ -116,12 +143,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-22": 0.119021
+  "2026-10-22": 0.119536
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-22 11:02 UTC [macro] 11:02 hold gold 156 (entry 4108, now 4099, stop 4082.5, target 4140.5, ~19.9h left). No memecoin passes filter (age<10m, h1>+1000%, top10<15%, adequate liquidity); no forex setup; no high-impact events in 24h. Watch: mem",
   "2026-10-22 11:23 UTC [macro] 11:23 no orders. Hold gold 156 (entry 4108, now 4089.4, stop 4082.5, target 4140.5, ~19.5h left); stop is close to the 5d low at 4082.4. Watch: memecoin under 10m old with h1 over +1000%, top10 under 15%, adequate liquid",
   "2026-10-22 11:45 UTC [macro] No orders. Gold hold note is stale: no open positions, gold closed by stop. Gold 4075 at 5d low (4074), no long setup. No memecoin passes filter. Watch: memecoin under 10m old, h1>+1000%, top10<15%, adequate liquidity; g",
   "2026-10-22 12:06 UTC [macro] No orders at 12:06. Gold 4074.6 at 5d low 4073.6, no high-impact events in 24h, last two gold longs lost. Watch: gold reclaims 4090 (test long, stop 4070, target 4120, max 12h) or breaks below 4073.6 with momentum (no lo",
@@ -140,8 +166,9 @@
   "2026-10-22 16:44 UTC [macro] 16:44 no orders. Gold 4059.3, at/below 5d low 4058.2 (prior low 4059.5), so no-long while below. Watch: hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. Memecoin filter (age<10m, h1>+1000%, top10<15%, ",
   "2026-10-22 17:06 UTC [macro] 16:06 UTC no orders. Gold 4050.7 at new 5d low 4049.1 (below 4059.5 no-long line), 5d -3.1%. EUR/USD near 5d low, GBP/USD mid-range, no high-impact events 24h. Watch: gold hourly close above 4090 = long 1%, stop 4070, ta",
   "2026-10-22 17:27 UTC [macro] 22 17:27 no orders. Gold 4058.4 below 4059.5 no-long line, 5d low 4049.1. Watch: hourly close above 4090 = gold long 1%, stop 4070, target 4120, max 12h. Memecoin filter (age<10m, h1>+1000%, top10<15%, adequate liquidity",
-  "2026-10-22 17:48 UTC [macro] 17:48 no orders. Gold 4059.7 below 4090 reclaim trigger, 5d low 4049.1. Watch: hourly close above 4090 = gold long 1%, stop 4070, target 4120, max 12h. Memecoin filter (age<10m, h1>+1000%, top10<15%, adequate liquidity) "
+  "2026-10-22 17:48 UTC [macro] 17:48 no orders. Gold 4059.7 below 4090 reclaim trigger, 5d low 4049.1. Watch: hourly close above 4090 = gold long 1%, stop 4070, target 4120, max 12h. Memecoin filter (age<10m, h1>+1000%, top10<15%, adequate liquidity) ",
+  "2026-10-22 18:10 UTC [macro] 18:10 no orders. Gold 4061.5, below 4090 reclaim trigger; 5d low 4049.1. Watch: hourly close above 4090 = gold long 1%, stop 4070, target 4120, max 12h; break below 4049.1 = no long. EUR/USD near 5d low 1.11907, GBP/USD "
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792691327.8922515
+ "last_macro_macro": 1792692616.2478766
 }
