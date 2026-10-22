@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-22 08:20 UTC. Runs so far: 13. Model: claude-haiku-5-5.
+Updated 2026-10-22 08:29 UTC. Runs so far: 13. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -30,10 +30,12 @@ API spend today: $0.10 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-22 08:20 UTC team all (memecoins + gold/forex), spent today $0.101
+### 2026-10-22 08:29 UTC team all (memecoins), spent today $0.103
 
-Lead: No memecoin passes the filter. GATO (h1 +8%), BIRB (h1 -0.5%, 384k min old) and PANGEA (h1 -9.9%) all fail the age and h1 gates. Gold 156 stays open: price 4099.7 sits above the 4082.5 stop, about 22.6h remain, and no high-impact events are due in 24h. Scout: no new macro setup beyond the range idea already on the book. Sniper: no new orders. Keep the filter running on every scan.
+Scout: Dodo (5.8m old, h1 +73%, top10 14.2%) fails our own h1 >+1000% gate. Its $22k liquidity against $144k 5-minute volume is also thin for 2.5-5% per-side costs. Nothing else passes.
+Sniper: No entry. Gold 156 is inside its stop (4082.5) and target (4140.5), so we keep it.
+Lead: No new edge. Hold gold and watch for a memecoin that actually passes the filter.
 
-{"orders": [], "close": [], "note": "08:20 no orders. Hold gold 156 (entry 4108, now 4099.7, stop 4082.5, target 4140.5, ~22.6h left). No memecoin passes filter (GATO h1 +8%, BIRB 384k min old, PANGEA h1 -9.9%). No high-impact events in 24h. Watch: any memecoin under 10m old with h1 >+1000%, top10 <15%, adequate liquidity and firm m5 momentum; test whether gold mean-reversion in lower 5d range holds."}
+{"orders": [], "close": [], "note": "08:29 hold gold 156 (now ~4101.2, stop 4082.5, target 4140.5, ~22h left). No orders. Dodo 5.8m old, h1 +73%, top10 14.2%, liq $22k fails h1>+1000% gate and is too thin for costs. Watch: any memecoin under 10m old with h1 >+1000%, top10 <15%, liquidity adequate."}
 
 
