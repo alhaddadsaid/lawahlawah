@@ -23,30 +23,50 @@
   },
   "control": {
    "cash": 4012.3585645994185,
-   "open": []
+   "open": [
+    {
+     "id": 171,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SURY",
+     "mint": "DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump",
+     "side": 1,
+     "opened": 1792666569.8945014,
+     "entry": 0.0001264,
+     "stop": 0.00010112000000000002,
+     "target": 0.00017695999999999999,
+     "size": 1582278.4810126582,
+     "deadline": 1792673769.8945017,
+     "thesis": "control: frozen v3 rules"
+    }
+   ]
   }
  },
- "next_id": 171,
+ "next_id": 172,
  "runs": 13,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6mS8uh4tK5gWemzNmyFp731PqukqEuo9Mmy2zny4pump": 1792666373.8928046,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792666373.8928046,
-  "seen:5hyyjwZqJgnPZorMdb7X4r2J1dT3VujKVkLD8Ptbpump": 1792666552.3286445,
-  "seen:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792666552.3286445,
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792666552.3286445,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792666552.3286445,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792666552.3286445,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792666552.3286445,
-  "seen:y2z8q1zbWxS8a5aGrDeqyGCoWTdPGk7MsMuUA6Rpump": 1792666735.5925255,
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792666735.5925255,
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792666735.5925255,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792666735.5925255,
   "seen:1RjmyJbkSeQFd2fmc2LBhnPF45dSGGBzNGo6bw9pump": 1792667102.4888935,
   "seen:EJvN8fjPdqbyWtCZnGs915xLCXhyQVsC7ohrtR3Qpump": 1792667102.4888935,
   "seen:8NAtYWBvPEJvSEqHxjfB8tb2gkBZ2NUketXkJktKpump": 1792667102.4888935,
   "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792667102.4888935,
-  "control:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792667103.2160766
+  "control:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792667103.2160766,
+  "seen:6mS8uh4tK5gWemzNmyFp731PqukqEuo9Mmy2zny4pump": 1792667286.162527,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792667286.162527,
+  "seen:FrtbBAaSZksfh4oV46E7Pvb43QiiUmYLD3dcGS6gpump": 1792667286.162527,
+  "seen:5hyyjwZqJgnPZorMdb7X4r2J1dT3VujKVkLD8Ptbpump": 1792667469.824515,
+  "seen:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792667469.824515,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792667469.824515,
+  "seen:DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump": 1792667469.824515,
+  "seen:9XKzy4KahcZaGJPJtz1PtqGPB3CiseoBrx7TcQhEpump": 1792667469.824515,
+  "control:DYR8KqxtvkRHxcoFSMw62335Se3UfuE8GitP2iePpump": 1792667469.8945045,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792667654.1855686,
+  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792667654.1855686,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1792667654.1855686,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792667654.1855686,
+  "seen:8rQWzTQzfwcLUDNqzUVckMQKeg9EVXfe4FonjfHKpump": 1792667842.017152,
+  "seen:Hx4cDZzRjfCNeqZCLS8sR4uwPRH5NVVrE4PF9Fugpump": 1792667842.017152,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792667842.017152
  },
  "talks": {
   "2026-10-21": 109
@@ -92,12 +112,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-22": 0.107305
+  "2026-10-22": 0.107831
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-22 07:54 UTC [all] 07:54 no orders. Hold gold 156 (entry 4108, now 4106.3, stop 4082.5, target 4140.5, ~23h left). No memecoin passes filter: Rockstar 35m old fails age gate despite h1 +2709%; LMT, OA, MONEYBIZ, Kimchi, Dacity, PHP fail. W",
   "2026-10-22 07:57 UTC [all] Hold gold 156 (entry 4108, now 4106.7, stop 4082.5, target 4140.5, ~23h left). No memecoin passes filter (GATO ~58d old, h1 +5%). Watch: any memecoin under 10m with h1 >+1000%, top10 <15%, adequate liquidity and firm m5 ",
   "2026-10-22 08:00 UTC [all] 08:00 no orders. Hold gold 156 (entry 4108, now 4103.4, stop 4082.5, target 4140.5, ~23h left). No memecoin passes filter (fone 56d old, h1 -6.8%). No high-impact events in 24h. Watch: any memecoin under 10m with h1 >+10",
   "2026-10-22 08:03 UTC [all] 08:03 hold gold 156 (entry 4108, now 4103.6, stop 4082.5, target 4140.5, ~23h left). Memecoin filter still no pass: GTA 6 Coin 49m old fails age gate (h1 +2650%); PANGEA and RIBBIT fail h1/age. Watch: any memecoin under ",
@@ -116,8 +135,9 @@
   "2026-10-22 09:36 UTC [macro] No orders. Hold gold 156 (entry 4108, now 4101.4, stop 4082.5, target 4140.5, ~21h left). No memecoin passes filter; no high-impact events in 24h. Watch: any memecoin under 10m old with h1 over +1000%, top10 under 15%, a",
   "2026-10-22 09:58 UTC [macro] 09:58 no orders. Hold gold 156 (entry 4108, now 4100.8, stop 4082.5, target 4140.5, ~21h left). No memecoin candidates in feed; filter still unmet. No high-impact events in 24h. Watch: any memecoin under 10m old with h1 ",
   "2026-10-22 10:19 UTC [macro] Hold gold 156 (entry 4108, now 4104.8, stop 4082.5, target 4140.5, ~20.6h left). No memecoin passes filter; no forex setup. Watch: memecoin under 10m old with h1 over +1000%, top10 under 15%, adequate liquidity; gold bre",
-  "2026-10-22 10:40 UTC [macro] 10:40 no orders. Hold gold 156 (entry 4108, now 4107.3, stop 4082.5, target 4140.5, ~20h left). Watch: memecoin under 10m old with h1 over +1000%, top10 under 15%, adequate liquidity; gold break below 4082.5 or above 414"
+  "2026-10-22 10:40 UTC [macro] 10:40 no orders. Hold gold 156 (entry 4108, now 4107.3, stop 4082.5, target 4140.5, ~20h left). Watch: memecoin under 10m old with h1 over +1000%, top10 under 15%, adequate liquidity; gold break below 4082.5 or above 414",
+  "2026-10-22 11:02 UTC [macro] 11:02 hold gold 156 (entry 4108, now 4099, stop 4082.5, target 4140.5, ~19.9h left). No memecoin passes filter (age<10m, h1>+1000%, top10<15%, adequate liquidity); no forex setup; no high-impact events in 24h. Watch: mem"
  ],
  "reviewed_streak_at": 16,
- "last_macro_macro": 1792665652.3294823
+ "last_macro_macro": 1792666942.0179477
 }
