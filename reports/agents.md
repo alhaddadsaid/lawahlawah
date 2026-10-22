@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-22 05:07 UTC. Runs so far: 12. Model: claude-haiku-5-5.
+Updated 2026-10-22 05:16 UTC. Runs so far: 12. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -31,12 +31,14 @@ API spend today: $0.06 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-22 05:07 UTC team all (memecoins), spent today $0.060
+### 2026-10-22 05:16 UTC team all (memecoins), spent today $0.062
 
-Lead: Hold GOLD 41. It is above its stop at 4095 and still has room to the 4180 target.
-Scout: OA fails the age (127m) and h1 (+27.8%) tests of the pump hypothesis. Its low top10 (2.8%) alone isn't an edge.
-Sniper: No new orders. Pump-continuation has lost repeatedly, so we don't force a trade.
+Lead: Hold. GOLD 41 is still inside its stop (4095) and target (4180) with about 5.5h left, so no change.
 
-{"orders": [], "close": [], "note": "05:07 no orders. Hold GOLD 41 (4108.1 vs entry 4138.1, stop 4095, target 4180, ~5.6h left). OA fails age (127m) and h1 (+27.8%) so no pump entry; keep on watch only. Next: check whether the pump filter has any passing candidate before forcing a trade."}
+Scout: TheGus (age 27.7m, h1 +171%, top10 32%) fails the age and h1 filter. PATCHED fails top10 (30%). fomo is at 10.0m and h1 +994%, just under the +1000% threshold, and the pump-continuation idea has lost repeatedly. No candidate passes.
+
+Sniper: No orders. Keep GOLD 41 management as planned.
+
+{"orders": [], "close": [], "note": "05:16 no orders. Hold GOLD 41 (entry 4138.1, stop 4095, target 4180, ~5.5h left). No memecoin passes age<10m + h1>+1000% + top10<15%: TheGus (27.7m, h1 +171%, top10 32%), PATCHED (top10 30%), fomo (h1 +994%, just under threshold). Watch: OA (top10 2.8%, liq $235k) only if it becomes a fresh pump under 10m old. Pump-continuation idea on hold; consider retiring it unless a passing candidate appears."}
 
 
