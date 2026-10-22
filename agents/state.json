@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 3636.55125489454,
+   "cash": 3704.55125489454,
    "open": [
     {
      "id": 175,
@@ -36,21 +36,6 @@
      "size": 1248439.4506866417,
      "deadline": 1792675429.0731285,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 180,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SHAVCOIN",
-     "mint": "Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump",
-     "side": 1,
-     "opened": 1792670966.471731,
-     "entry": 0.0001424,
-     "stop": 0.00011392000000000001,
-     "target": 0.00019935999999999996,
-     "size": 1404494.382022472,
-     "deadline": 1792678166.471731,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -59,26 +44,25 @@
  "runs": 13,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792671324.703372,
-  "seen:8NAtYWBvPEJvSEqHxjfB8tb2gkBZ2NUketXkJktKpump": 1792671324.703372,
-  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792671324.703372,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792671324.703372,
-  "seen:DarKbNHeW6yHtPv425gH5odvVYMxXb2ZbhyRX3PtfUND": 1792671504.7871845,
-  "seen:FXzZco3cDgRxxfhvpgGDC5NpJpvNcaCG6weFj37Spump": 1792671504.7871845,
-  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792671504.7871845,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792671684.2188618,
-  "seen:FrtbBAaSZksfh4oV46E7Pvb43QiiUmYLD3dcGS6gpump": 1792671684.2188618,
-  "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792671866.402488,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792671866.402488,
-  "seen:WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp": 1792671866.402488,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792671866.402488,
-  "seen:1RjmyJbkSeQFd2fmc2LBhnPF45dSGGBzNGo6bw9pump": 1792671866.402488,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792671866.402488,
-  "control:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792671866.4717336,
   "seen:HixDimzzq8HaYQyxuoCEs1oAr3Sy1ZKMjGMcDkjxpump": 1792672087.4040918,
   "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792672087.4040918,
   "seen:4vT4trZuQpoPxBAKNwBF4gVhZdy6UCUqxeeYNmuQtfQd": 1792672087.4040918,
-  "seen:GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": 1792672087.4040918
+  "seen:GWe3TNg1UPxeaSazxK8U49PDAqXCaX9Jc8zbttFLpump": 1792672087.4040918,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792672232.006326,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792672232.006326,
+  "seen:8NAtYWBvPEJvSEqHxjfB8tb2gkBZ2NUketXkJktKpump": 1792672232.006326,
+  "seen:HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": 1792672232.006326,
+  "seen:EHPugw1ghE46BeySAa7cHvoZHwYometbp1aK1Q7jpump": 1792672415.0018013,
+  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792672415.0018013,
+  "seen:BXoHJddsWJLHtAopeiSbKUSELsu8hSFMs8baGMDkpump": 1792672598.0143871,
+  "seen:DAbApVtUxjjSadE4jYVtFv2ET8FBePqzKnJXDej8pump": 1792672598.0143871,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792672598.0143871,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792672598.0143871,
+  "seen:BK7TyDvEbvNTqokhW5BkT2HmJFdk2WKkCQRq7Amgpump": 1792672781.6466782,
+  "seen:WXMRyRZhsa19ety5erZhHg4N3xj3EVN92u94422teJp": 1792672781.6466782,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792672781.6466782,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792672781.6466782,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792672781.6466782
  },
  "talks": {
   "2026-10-21": 109
@@ -107,18 +91,18 @@
  ],
  "last_review": 1792657960.4037404,
  "news": {
-  "t": 1792670784.219752,
+  "t": 1792671698.0153112,
   "crypto": [
+   "Ethereum\u2019s four-minute settlement plan could lower the cost of moving crypto (0h ago)",
+   "The UK needs a workable route to regulated DeFi access (0h ago)",
    "Crypto traders seek shelter in bitcoin as altcoins slide and ETF flows wobble (1h ago)",
    "CoinDCX pledges no user losses after $16M transfers draw scrutiny (1h ago)",
-   "Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines (1h ago)",
-   "Bitcoin corrects below $82K after Tesla Q3 results, KOSPI falls (1h ago)",
+   "Bitcoin slides below $82,000 as AI doubts return, with DeFi tokens leading declines (2h ago)",
+   "Bitcoin corrects below $82K after Tesla Q3 results, KOSPI falls (2h ago)",
    "Crypto traders price India telecoms company Reliance Jio's IPO at about $110 billion (2h ago)",
    "Live updates: Bitcoin slumps below $82,000 as markets go risk off on AI selloff, oil surge (2h ago)",
-   "Starknet voters back research into life beyond Ethereum (2h ago)",
-   "PHP flaw draws millions of exploit attempts, Cloudflare CEO warns (3h ago)",
-   "Asian stocks tumble, bitcoin retreats as China enters bear market (3h ago)",
-   "Bitcoin ETFs bag another $528M, taking 3-day haul past $1B (4h ago)"
+   "Starknet voters back research into life beyond Ethereum (3h ago)",
+   "PHP flaw draws millions of exploit attempts, Cloudflare CEO warns (3h ago)"
   ],
   "macro": [],
   "calendar": []
