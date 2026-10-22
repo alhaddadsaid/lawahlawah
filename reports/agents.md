@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-22 22:42 UTC. Runs so far: 15. Model: claude-haiku-5-5.
+Updated 2026-10-22 22:48 UTC. Runs so far: 15. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -20,6 +20,8 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: GOLD short at 4060.6, stop 4079.08, target 4032.88, opened 2026-10-22 18:01 UTC
 - control: EURUSD long at 1.12196, stop 1.12077, target 1.12374, opened 2026-10-22 20:00 UTC
 - control: McRib long at 0.0001924, stop 0.00015392, target 0.00026936, opened 2026-10-22 22:42 UTC
+- control: TRENCHERS long at 7.652e-05, stop 6.1216e-05, target 0.000107128, opened 2026-10-22 22:45 UTC
+- control: MEMEMAN long at 0.0001655, stop 0.0001324, target 0.0002317, opened 2026-10-22 22:48 UTC
 
 ## Team
 
@@ -31,5 +33,11 @@ API spend today: $0.13 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-22 22:42 UTC control: OPENED McRib long at 0.0001924 (stop 0.00015392, target 0.00026936) - control: frozen v3 rules
+### 2026-10-22 22:48 UTC team macro (gold/forex), spent today $0.127
+
+Lead: Flat again. Gold is at 4044.8, still below the 4090 trigger and above the 4036.8 five-day low, so the long setup is not confirmed. GBP/USD is at 1.34032, below the 1.3418 trigger. The calendar is empty for 24h, so no event-driven trade. Scout and FX Scout have no fresh edge. Sniper sees no order that clears costs. The memecoin filter has lost money in the journal, so no memecoin trades. Keep the watch list.
+
+{"orders": [], "close": [], "note": "22:48 no orders, flat. Gold 4044.8 (5d low 4036.8, 5d high 4220.4): long only on hourly close above 4090, stop 4070, target 4120, max 12h; break below 4036.8 = no long. GBP/USD 1.34032: test long only on hourly close above 1.3418, with stop and target set at entry. No memecoin trades; the filter has lost money in the journal. Review after the next high-impact calendar event."}
+
+- 2026-10-22 22:48 UTC control: OPENED MEMEMAN long at 0.0001655 (stop 0.0001324, target 0.0002317) - control: frozen v3 rules
 
