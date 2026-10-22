@@ -33,5 +33,5 @@ API spend today: $0.12 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-22 19:41 UTC control: OPENED Aape long at 0.0001142 (stop 9.136e-05, target 0.00015988) - control: frozen v3 rules
+## Run ended 2026-10-22 19:41 UTC
 
