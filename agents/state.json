@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 2010.0993709065833,
+   "cash": 1937.0031365969598,
    "open": [
     {
      "id": 224,
@@ -23,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 275,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "OA",
-     "mint": "EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump",
-     "side": 1,
-     "opened": 1792734557.8558247,
-     "entry": 0.0002151,
-     "stop": 0.00017208000000000002,
-     "target": 0.00030114,
-     "size": 929800.0929800093,
-     "deadline": 1792741757.855825,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 277,
      "desk": "control",
      "market": "meme",
@@ -51,24 +36,29 @@
      "size": 1563721.657544957,
      "deadline": 1792742483.3845713,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 280,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "MEOWE",
+     "mint": "FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump",
+     "side": 1,
+     "opened": 1792736742.0475779,
+     "entry": 0.0001452,
+     "stop": 0.00011616000000000001,
+     "target": 0.00020328,
+     "size": 1377410.4683195592,
+     "deadline": 1792743942.047578,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 280,
+ "next_id": 281,
  "runs": 16,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5h86r9mEnhhpy8kXU6vYUQLvkzLmmCSstTxdVLYDURFG": 1792736547.4872482,
-  "seen:EEYiaTri4LSfhipyYzeT5hsanWdhF52fKK2mTttPpump": 1792736547.4872482,
-  "seen:54wCUkznEA5W4bxhR4BF3wDqEvZwfv1DRFYckmUmpump": 1792736547.4872482,
-  "seen:oauuU9s5TXPBfb32bHfiTwW7x3bQWHYA3xhGBkyrcan": 1792736547.4872482,
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792736547.4872482,
-  "control:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792736547.536811,
-  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792736732.4698458,
-  "seen:6rxfDZe3un6vUx8q5CwZf3WcdsjNGd69RoiXXc6pump": 1792736732.4698458,
-  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792736913.8212023,
-  "seen:4zX9vyXFvCmAZ8mTKYK3D7ZYZtGy1pmEkioVPWhDpump": 1792736913.8212023,
   "seen:vqeAuApujp4PELabpxftY42EMsGELAyA1TVLzbHpump": 1792737093.7134466,
   "seen:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792737093.7134466,
   "seen:ExQPzfqSwWCfQoYELYRf6QYSoBeZGuo7Fji1EVPKpump": 1792737093.7134466,
@@ -77,7 +67,17 @@
   "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792737275.8795235,
   "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792737275.8795235,
   "seen:6mYfg1EmMVjbQv38QGY5XdRUQ4SyNpFauL1aiRiWpump": 1792737275.8795235,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792737275.8795235
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792737275.8795235,
+  "seen:5h86r9mEnhhpy8kXU6vYUQLvkzLmmCSstTxdVLYDURFG": 1792737457.7102973,
+  "seen:dxX4xuDDXfmXd7Kh59s8ajUJCDP1wPtkb2RjUgGpump": 1792737457.7102973,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792737641.9537444,
+  "control:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792737642.0475814,
+  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792737826.7588255,
+  "seen:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792737826.7588255,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792737826.7588255,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792737826.7588255,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792737826.7588255,
+  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792737826.7588255
  },
  "talks": {
   "2026-10-21": 109
@@ -112,7 +112,7 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792736013.8224964,
+  "t": 1792736926.7601252,
   "crypto": [
    "Here\u2019s what happened in crypto today (1h ago)",
    "Ethereum delays Glamsterdam Hoodi testnet launch over security risks (1h ago)",
@@ -122,8 +122,8 @@
    "Bitcoin Core changes security policy as AI makes bugs easier to find (2h ago)",
    "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100 (3h ago)",
    "Switzerland\u2019s first retail spot Bitcoin ETF targets November launch (5h ago)",
-   "Pentagon bans US forces from using military info to bet in prediction markets (6h ago)",
-   "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express (7h ago)"
+   "Pentagon bans US forces from using military info to bet in prediction markets (7h ago)",
+   "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express (8h ago)"
   ],
   "macro": [],
   "calendar": []
