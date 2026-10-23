@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": 52.36743491224343,
+   "cash": 5.8931711307941725,
    "open": [
-    {
-     "id": 360,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ARCTIS",
-     "mint": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
-     "side": 1,
-     "opened": 1792784284.0716164,
-     "entry": 0.0001394,
-     "stop": 0.00011151999999999999,
-     "target": 0.00019515999999999997,
-     "size": 1434720.2295552366,
-     "deadline": 1792791484.0716166,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 361,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PHP",
-     "mint": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
-     "side": 1,
-     "opened": 1792784467.7497406,
-     "entry": 0.000291,
-     "stop": 0.00023280000000000005,
-     "target": 0.0004074,
-     "size": 687285.2233676976,
-     "deadline": 1792791667.7497408,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 368,
      "desk": "control",
@@ -59,26 +29,25 @@
  "runs": 19,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2VsoQGmA5QdASeRu3pNrYKqvPrieRZjwnbCmj6N1pump": 1792791410.7161937,
-  "seen:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792791410.7161937,
-  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792791410.7161937,
-  "seen:AFTT85geTb4xkr7QDPNChNXobFiTHvEL2Anon7JNpump": 1792791410.7161937,
-  "control:FxwWTze7qwWM8GMRcdyHWpocmCw8Th8QLRGETBJbeSUo": 1792791411.0270336,
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792791593.3506358,
-  "seen:26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump": 1792791593.3506358,
-  "seen:C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE": 1792791593.3506358,
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792791593.3506358,
-  "seen:472FgQyy5JRycJxegxrQqDkhBx8xSZ9kv8UL5fPvpump": 1792791776.4994898,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792791776.4994898,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792791776.4994898,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792791776.4994898,
   "seen:BUKrMGQvT9Q3pQEePhCYtA76WyWRLwPLZTiiPiwopump": 1792791958.6176379,
   "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792791958.6176379,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792791958.6176379,
   "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792791958.6176379,
   "seen:SEEDmqvNitzZZ3Q8LpjgAoQRaR4uq1Qt2GrnHxjvh3A": 1792792140.7805688,
   "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792792140.7805688,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792792140.7805688
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792792140.7805688,
+  "seen:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792792323.9926171,
+  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792792323.9926171,
+  "seen:2VsoQGmA5QdASeRu3pNrYKqvPrieRZjwnbCmj6N1pump": 1792792323.9926171,
+  "seen:AFTT85geTb4xkr7QDPNChNXobFiTHvEL2Anon7JNpump": 1792792323.9926171,
+  "seen:2QXMkvpsu4GKUT3k3SrxjM3iooDjYTR1opojQGK6pump": 1792792505.6180289,
+  "seen:26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump": 1792792505.6180289,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792792505.6180289,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792792505.6180289,
+  "seen:J8NLpWf52NrMMXLEhf26NUVrpst8Xm3CS91KZ5RPpump": 1792792687.5665739,
+  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792792687.5665739,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792792687.5665739,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792792687.5665739
  },
  "talks": {
   "2026-10-21": 109
@@ -119,14 +88,14 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792790510.7187617,
+  "t": 1792791423.9950464,
   "crypto": [
-   "IRS plans lower tax disclosure penalties, including for crypto: Forbes (0h ago)",
+   "IRS plans lower tax disclosure penalties, including for crypto: Forbes (1h ago)",
    "Initia halts blockchain after exploit reportedly drains over $2.6M (3h ago)",
    "US senator probes Tether after reported deal with ex-Trump crypto adviser (4h ago)",
    "SEC flags tokenization as high-risk area in 2027 market examinations (5h ago)",
    "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March (6h ago)",
-   "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (7h ago)",
+   "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (8h ago)",
    "Here\u2019s what happened in crypto today (8h ago)",
    "China targets 2030 for its national blockchain network buildout (8h ago)",
    "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (9h ago)",
@@ -136,12 +105,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-23": 0.033876
+  "2026-10-23": 0.034441
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-23 14:29 UTC [macro] 14:29 flat, no orders. Triggers unmet: gold hourly close >4090 for long 1% (stop 4070, target 4120, max 12h); GBPUSD >1.3418 long test; EURUSD short plan at <1.11894 is stale (price 1.12057), retire or re-base. Memecoin ",
   "2026-10-23 14:50 UTC [macro] 14:50 flat. Gold broke 5d low 4000.9 to 3989.1 (chg_5d -4.1%); retire 4090 long plan. Watch: gold hourly close back below 4000 with failed retest of 4020 = short hypothesis (stop 4035, target 3960, max 12h, confirm no hi",
   "2026-10-23 15:12 UTC [macro] 15:12 flat, no triggers met. Gold 4016.8 after 5d low break (3989.1). Watch: hourly close <4000 with failed retest of 4020 = gold short 1% (stop 4035, target 3960, max 12h, confirm no high-impact event). EURUSD hourly cl",
   "2026-10-23 15:33 UTC [macro] 2026-10-23 15:33 UTC flat, no triggers met. Watch: gold hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h, no high-impact event). EURUSD hourly close <1.11894 short (confirm). GBPU",
@@ -160,8 +128,9 @@
   "2026-10-23 20:11 UTC [macro] No triggers met, no positions. Watch: GOLD hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h). EURUSD hourly close <1.11894 = short 0.5-1% (stop 1.1215, target 1.1160, max 12h). Me",
   "2026-10-23 20:33 UTC [macro] 20:33 flat, no triggers. Watch: GOLD hourly close <4000 with failed 4020 retest = short 1% (stop 4035, target 3960, max 12h). EURUSD hourly close <1.11894 = short 0.5-1% (stop 1.1215, target 1.1160, max 12h). No event ri",
   "2026-10-23 20:54 UTC [macro] No triggers met, flat. Watch: GOLD hourly close <4000 with failed 4020 retest = short 1% (stop 4035, target 3960, max 12h, no high-impact event). EURUSD hourly close <1.11894 = short 0.5% (stop 1.1215, target 1.1160, max",
-  "2026-10-23 21:15 UTC [macro] 21:15 flat, no triggers. Watch: GOLD hourly close <4000 with failed 4020 retest = short 1% (stop 4035, target 3960, max 12h, no high-impact event). EURUSD hourly close <1.11894 = short 0.5% (stop 1.1215, target 1.1160, m"
+  "2026-10-23 21:15 UTC [macro] 21:15 flat, no triggers. Watch: GOLD hourly close <4000 with failed 4020 retest = short 1% (stop 4035, target 3960, max 12h, no high-impact event). EURUSD hourly close <1.11894 = short 0.5% (stop 1.1215, target 1.1160, m",
+  "2026-10-23 21:37 UTC [macro] 21:37 flat, no triggers met. Watch: GOLD hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h, no high-impact event). EURUSD hourly close <1.11894 = short 0.5% (stop 1.1215, target 1."
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792790150.3738005
+ "last_macro_macro": 1792791423.9950197
 }
