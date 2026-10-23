@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-23 14:08 UTC. Runs so far: 18. Model: claude-haiku-5-5.
+Updated 2026-10-23 14:14 UTC. Runs so far: 18. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 299 | 31 | -9360.97 | -12187.5 |
+| control | meme | 301 | 31 | -9465.42 | -12309.79 |
 | control | macro | 8 | 62 | 327.77 | 290.38 |
-| control | all | 307 | 32 | -9033.2 | -11897.12 |
+| control | all | 309 | 31 | -9137.65 | -12019.41 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: LilPengu long at 8.378e-05, stop 6.7024e-05, target 0.000117292, opened 2026-10-23 13:58 UTC
 - control: MEOWE long at 7.646e-05, stop 6.1168e-05, target 0.000107044, opened 2026-10-23 14:05 UTC
-- control: KIMCHI long at 0.0001714, stop 0.00013712, target 0.00023996, opened 2026-10-23 14:08 UTC
+- control: GUST long at 0.0001315, stop 0.0001052, target 0.0001841, opened 2026-10-23 14:11 UTC
+- control: TC67 long at 0.0001797, stop 0.00014376, target 0.00025158, opened 2026-10-23 14:14 UTC
 
 ## Team
 
@@ -32,11 +32,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-23 14:08 UTC team macro (gold/forex), spent today $0.022
-
-Lead: No triggers are met. Gold is 4037.9, below the 4090 long trigger. EUR/USD is 1.12045, above the 1.11894 short level, so that short no longer applies. GBP/USD is 1.33731, below the 1.3418 long test. Calendar is empty and there is no memecoin data. Scout and FX Scout have no fresh edge. Skeptic: any trade now would lack a pre-registered trigger and would fail the costs check. Desk stays flat.
-
-{"orders": [], "close": [], "note": "13:xx flat, no orders, no triggers met. Watch: gold hourly close >4090 for long 1% (stop 4070, target 4120, max 12h); gold 5d low 4000.9 is a break-level to reassess. EURUSD short plan at <1.11894 is stale while price is 1.12045; re-register a new level if needed. GBPUSD hourly close >1.3418 long test. Memecoins: no data, no trades. Calendar empty 24h."}
-
-- 2026-10-23 14:08 UTC control: OPENED KIMCHI long at 0.0001714 (stop 0.00013712, target 0.00023996) - control: frozen v3 rules
+- 2026-10-23 14:14 UTC control: OPENED TC67 long at 0.0001797 (stop 0.00014376, target 0.00025158) - control: frozen v3 rules
 
