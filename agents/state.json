@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 594.602148291538,
+   "cash": 662.602148291538,
    "open": [
     {
      "id": 340,
@@ -36,24 +36,29 @@
      "size": 2469135.8024691357,
      "deadline": 1792781928.3016365,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 344,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SAM",
+     "mint": "7r5KAnezcuQNsPHTbeRxr5uERHXAnVb8mCpdpvxdkmvf",
+     "side": 1,
+     "opened": 1792774912.4412813,
+     "entry": 7.951e-05,
+     "stop": 6.3608e-05,
+     "target": 0.000111314,
+     "size": 2515406.867060747,
+     "deadline": 1792782112.4412813,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 344,
+ "next_id": 346,
  "runs": 18,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5ScfM97pvKnGXnn1YeHt1GBusrAhH4VyUcX5HZnjpump": 1792774897.2149525,
-  "seen:7r5KAnezcuQNsPHTbeRxr5uERHXAnVb8mCpdpvxdkmvf": 1792774897.2149525,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792774897.2149525,
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792774897.2149525,
-  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792774897.2149525,
-  "seen:EdZ9miwTbdbqs5Q13iZ1EA1bsX2gucVp4edCHRAZpump": 1792774897.2149525,
-  "seen:84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump": 1792774897.2149525,
-  "seen:HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": 1792774897.2149525,
-  "control:84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump": 1792774898.0503948,
-  "seen:CH9oKtvyCC9RsxnF282NAWN13wFeEwPDkih2ebtNpump": 1792775079.8868804,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792775261.2615378,
   "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792775261.2615378,
   "seen:4nZJvocTBuShVKUpgPf4eKgUcrbxh69FJfkXuNurQd37": 1792775440.2409587,
@@ -63,7 +68,19 @@
   "seen:Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": 1792775624.3847978,
   "seen:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792775624.3847978,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792775624.3847978,
-  "control:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792775628.3016384
+  "control:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792775628.3016384,
+  "seen:AnyG2EqNR9yjyb7LSoysYRHxWukW8RqiY7M2p2LAY1KC": 1792775811.4767447,
+  "seen:7r5KAnezcuQNsPHTbeRxr5uERHXAnVb8mCpdpvxdkmvf": 1792775811.4767447,
+  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792775811.4767447,
+  "seen:EdZ9miwTbdbqs5Q13iZ1EA1bsX2gucVp4edCHRAZpump": 1792775811.4767447,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792775811.4767447,
+  "seen:PairUottr9sWf6REag62Y8xeFfrWSpL1F9zikNyqWLV": 1792775811.4767447,
+  "control:7r5KAnezcuQNsPHTbeRxr5uERHXAnVb8mCpdpvxdkmvf": 1792775812.441284,
+  "seen:CP3YBLFEQcaudRX1gga9p4HjsVSfXGCYzKJLL8Pcpump": 1792775991.5831313,
+  "seen:DLGRpmkMGr7J4KD1xR5x2XjaGeQH64PLFQkyxNNSpump": 1792775991.5831313,
+  "seen:BqVngDCWkrdnahmcG7ZbBQzXCqsnNDbHRGgL9NThpump": 1792775991.5831313,
+  "seen:84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump": 1792775991.5831313,
+  "control:AnyG2EqNR9yjyb7LSoysYRHxWukW8RqiY7M2p2LAY1KC": 1792775991.6760783
  },
  "talks": {
   "2026-10-21": 109
@@ -104,18 +121,18 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792773997.216141,
+  "t": 1792774911.4779603,
   "crypto": [
    "SEC flags tokenization as high-risk area in 2027 market examinations (1h ago)",
    "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March (1h ago)",
    "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (3h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
-   "China targets 2030 for its national blockchain network buildout (3h ago)",
+   "China targets 2030 for its national blockchain network buildout (4h ago)",
    "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (4h ago)",
-   "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness (4h ago)",
+   "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness (5h ago)",
    "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy (5h ago)",
    "Was crypto self-custody ever designed for beginners? (5h ago)",
-   "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro (5h ago)"
+   "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro (6h ago)"
   ],
   "macro": [],
   "calendar": []
