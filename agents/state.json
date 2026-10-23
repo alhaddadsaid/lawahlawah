@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 150.8254961039138,
+   "cash": 169.1433288684189,
    "open": [
     {
      "id": 351,
@@ -51,38 +51,14 @@
      "size": 687285.2233676976,
      "deadline": 1792791667.7497408,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 365,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "KIMCHICITY",
-     "mint": "Z2DFRqQvHCSgfxTonU5ctcTkqf9We5VgHYZmWwspump",
-     "side": 1,
-     "opened": 1792787218.3850138,
-     "entry": 0.0002053,
-     "stop": 0.00016424,
-     "target": 0.00028742,
-     "size": 974184.120798831,
-     "deadline": 1792794418.385014,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 366,
+ "next_id": 367,
  "runs": 19,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:AVKYgzccwrWTNtW2ejz3VRthG3UYsVMmJ5piVEhzpump": 1792787751.6826944,
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792787751.6826944,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792787751.6826944,
-  "seen:26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump": 1792787934.4818294,
-  "seen:9V9uvHiVZwg7LDTx1gmehFWuSMq4P6Cri1dh2Yvypump": 1792787934.4818294,
-  "seen:Z2DFRqQvHCSgfxTonU5ctcTkqf9We5VgHYZmWwspump": 1792787934.4818294,
-  "seen:SNAPcESrvnH8yUdgeMF6xm1hym9b6hW6s8YeqeHdZFz": 1792787934.4818294,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792787934.4818294,
-  "seen:7FTTUbLrUCPgKTxK4x1gDFChSQUmhbRrjNzkz52npump": 1792787934.4818294,
   "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792788118.3567204,
   "seen:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792788118.3567204,
   "seen:AzsRDaPns1p345H16fVBkXoXA6RwrwMzVvQoxUnzpump": 1792788118.3567204,
@@ -92,7 +68,17 @@
   "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1792788305.6683867,
   "seen:Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": 1792788481.6091983,
   "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792788481.6091983,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792788481.6091983
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792788481.6091983,
+  "seen:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792788663.8407023,
+  "seen:BseB8SRwmA5v6sUZ7ozbnoRYdNLe63T8tfNK9QkTpump": 1792788663.8407023,
+  "seen:AVKYgzccwrWTNtW2ejz3VRthG3UYsVMmJ5piVEhzpump": 1792788663.8407023,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792788663.8407023,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792788663.8407023,
+  "seen:26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump": 1792788847.4974144,
+  "seen:Z2DFRqQvHCSgfxTonU5ctcTkqf9We5VgHYZmWwspump": 1792788847.4974144,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792788847.4974144,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792788847.4974144,
+  "control:AVKYgzccwrWTNtW2ejz3VRthG3UYsVMmJ5piVEhzpump": 1792788847.588393
  },
  "talks": {
   "2026-10-21": 109
@@ -133,18 +119,18 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792786851.6851742,
+  "t": 1792787763.843188,
   "crypto": [
    "Initia halts blockchain after exploit reportedly drains over $2.6M (2h ago)",
    "US senator probes Tether after reported deal with ex-Trump crypto adviser (3h ago)",
    "SEC flags tokenization as high-risk area in 2027 market examinations (4h ago)",
    "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March (5h ago)",
-   "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (6h ago)",
+   "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (7h ago)",
    "Here\u2019s what happened in crypto today (7h ago)",
    "China targets 2030 for its national blockchain network buildout (7h ago)",
    "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (8h ago)",
    "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness (8h ago)",
-   "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy (8h ago)"
+   "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy (9h ago)"
   ],
   "macro": [],
   "calendar": []
