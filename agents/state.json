@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 916.6810505161488,
+   "cash": 984.6810505161488,
    "open": [
     {
      "id": 311,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 314,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ARCTIS",
-     "mint": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
-     "side": 1,
-     "opened": 1792758003.9198835,
-     "entry": 0.0001017,
-     "stop": 8.136000000000001e-05,
-     "target": 0.00014238,
-     "size": 1966568.3382497542,
-     "deadline": 1792765203.9198837,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 315,
      "desk": "control",
      "market": "meme",
@@ -74,27 +59,26 @@
  "runs": 17,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792758351.3935323,
-  "seen:EHsTvXsE9LKgmzEhY51hadrQRMNQTwmuKoLPpPYWpump": 1792758351.3935323,
-  "seen:7PQzoStgXyhk5rSyw5VjFQrbPyzD6ggq16krAQ8rpump": 1792758533.442184,
-  "seen:BBAgzTp5gk6k8Lb5q7GqtQCYr2qpt9FRCDtzfXEHpump": 1792758533.442184,
-  "seen:GzcBbrfrHMYLSXT7wmRN4SZNTWFBnDDPmZoYwH2Npump": 1792758533.442184,
-  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792758533.442184,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792758533.442184,
-  "seen:3ZjCykbkzm8mRoshXQhxr2ZTBWNULBpxBEPvWUanpump": 1792758717.2931676,
-  "seen:MRNAzXzhNcaEXJPibHEn8cd4vyekCDiivTyEwswLUCT": 1792758717.2931676,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792758717.2931676,
-  "seen:DVoq6pjLDFedxeMRJn9WrSePKLsFdR8Gty1SFnmPpump": 1792758899.394328,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792758899.394328,
-  "seen:ChNVqpDgDBqR3PMRyidBAig1zvieDqxiNdgqVL3gpump": 1792758899.394328,
-  "seen:2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump": 1792758899.394328,
-  "seen:F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump": 1792758899.394328,
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792758899.394328,
-  "control:2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump": 1792758903.9198866,
-  "seen:7xpp2XTeXaLFZ163kdutMT8NX8GgHQvTaBebBTJZpump": 1792759082.1746767,
-  "seen:6mYfg1EmMVjbQv38QGY5XdRUQ4SyNpFauL1aiRiWpump": 1792759082.1746767,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792759082.1746767,
-  "control:6mYfg1EmMVjbQv38QGY5XdRUQ4SyNpFauL1aiRiWpump": 1792759082.2746687
+  "seen:KHAfbh3sncU1V35zEycs7FMCpwHZ9m2Mj7m1PDMuaHM": 1792759448.7515805,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792759448.7515805,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792759448.7515805,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792759448.7515805,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1792759448.7515805,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792759630.858317,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792759630.858317,
+  "seen:6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump": 1792759630.858317,
+  "seen:DxTnsNR6sqVLwPdWGn9XdZ5xzXMQASigh4sXiswcpump": 1792759813.1122456,
+  "seen:TinDLfBx9vVCmRmg42rycthJWFD6JB34W9Zuetjpump": 1792759813.1122456,
+  "seen:3ZjCykbkzm8mRoshXQhxr2ZTBWNULBpxBEPvWUanpump": 1792759813.1122456,
+  "seen:DVoq6pjLDFedxeMRJn9WrSePKLsFdR8Gty1SFnmPpump": 1792759813.1122456,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792759813.1122456,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792759813.1122456,
+  "seen:2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump": 1792759813.1122456,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792759813.1122456,
+  "seen:F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump": 1792759995.8824205,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792759995.8824205,
+  "seen:DjBGgYBCAUsCjZ9zgfMmPTjiWkvgur7dCiRGNh7opump": 1792760178.0626795,
+  "seen:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792760178.0626795
  },
  "talks": {
   "2026-10-21": 109
@@ -129,29 +113,28 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792757999.3961332,
+  "t": 1792758913.1140754,
   "crypto": [
+   "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness (0h ago)",
    "Was crypto self-custody ever designed for beginners? (1h ago)",
    "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro (1h ago)",
    "Live updates: Bitcoin holds above $81,000 as markets calm, oil continues to gain (1h ago)",
-   "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13% (1h ago)",
-   "Bitcoin appears to have decoupled from midterm cycle bottom history (1h ago)",
+   "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13% (2h ago)",
+   "Bitcoin appears to have decoupled from midterm cycle bottom history (2h ago)",
    "HSBC rolls out its first stablecoin to over 3 million everyday app users (2h ago)",
    "Cysic dangles a 10% bounty, hacker pours loot into Tornado Cash (2h ago)",
-   "Bybit secures first full Dubai license for spot trading services (2h ago)",
-   "Sweden\u2019s central bank revives e-krona debate as stablecoins and digital euro loom (3h ago)",
-   "HSBC launches Hong Kong dollar stablecoin for retail payments (4h ago)"
+   "Bybit secures first full Dubai license for spot trading services (3h ago)",
+   "Sweden\u2019s central bank revives e-krona debate as stablecoins and digital euro loom (4h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-23": 0.018837
+  "2026-10-23": 0.019493
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-23 05:34 UTC [macro] 05:34 flat, no orders. Gold 4028.8 (5d low 4000.9, hi 4220.4): watch gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD 1.33892: long only on hourly close above 1.3418. EUR/USD 1.12145, no t",
   "2026-10-23 05:55 UTC [macro] 05:55 flat, no orders. Gold 4038.3 (5d low 4000.9, hi 4220.4). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h, only if trend stabilises; 3 gold longs lost recently, so need confirmation. G",
   "2026-10-23 06:16 UTC [macro] 06:16 flat, no orders. Gold 4034.7 (5d low 4000.9, hi 4220.4). Still waiting for hourly close above 4090 for 1% long (stop 4070, target 4120, max 12h). GBP/USD 1.33897, long only above 1.3418. EUR/USD 1.12145, no trigger",
   "2026-10-23 06:38 UTC [macro] 06:37 flat, no orders. Gold 4028.9 (5d low 4000.9, hi 4220.4). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD 1.33908, long only on hourly close above 1.3418. EUR/USD 1.12158, no ",
@@ -170,8 +153,9 @@
   "2026-10-23 11:16 UTC [macro] 11:16 flat, no orders. Gold 4039.6 needs hourly close >4090 for long 1% (refresh stop: below 4000.9 5d low or 4070 if preferred, target 4120, max 12h). EURUSD 1.11982 needs hourly close <1.11894 for short (confirm, no ev",
   "2026-10-23 11:37 UTC [macro] 11:37 flat, no orders. Gold 4043.9 needs hourly close >4090 for long 1%, stop below 4000.9 5d low (or 4070 only if reconciled), target 4120, max 12h. GBP/USD needs hourly close >1.3418 (long test). EUR/USD needs hourly c",
   "2026-10-23 11:58 UTC [macro] 11:58 flat, no orders. Watch: gold hourly close >4090 = long 1%, stop below 4000.9 5d low, target 4120, max 12h. EURUSD hourly close <1.11894 = short (confirm, no event 24h). GBPUSD hourly close >1.3418 = long test. Meme",
-  "2026-10-23 12:20 UTC [macro] Flat, no triggers hit. Watch: gold hourly close >4090 for long 1%, but stop at 4000.9 is ~90 pts vs 15 pt ATR, so set a tighter stop (e.g. 4070) before entry, target 4120, max 12h. EURUSD hourly close <1.11894 for short,"
+  "2026-10-23 12:20 UTC [macro] Flat, no triggers hit. Watch: gold hourly close >4090 for long 1%, but stop at 4000.9 is ~90 pts vs 15 pt ATR, so set a tighter stop (e.g. 4070) before entry, target 4120, max 12h. EURUSD hourly close <1.11894 for short,",
+  "2026-10-23 12:41 UTC [macro] 12:41 flat, no orders; no triggers hit, calendar empty 24h. Watch: gold hourly close >4090 = long 1%, but 4000.9 stop is ~90pts vs 15pt ATR, so use a tighter stop (e.g. 4070) before entry, target 4120, max 12h. EURUSD ho"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792757999.396111
+ "last_macro_macro": 1792759278.0645373
 }
