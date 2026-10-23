@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": 725.2359664272585,
+   "cash": 741.0897229559849,
    "open": [
-    {
-     "id": 332,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "KINS",
-     "mint": "Tqj8yFmagrg7oorpQkVGYR52r96RFTamvWfth9bpump",
-     "side": 1,
-     "opened": 1792766489.7942498,
-     "entry": 0.0002489,
-     "stop": 0.00019912,
-     "target": 0.0003484599999999999,
-     "size": 803535.5564483729,
-     "deadline": 1792773689.79425,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 340,
      "desk": "control",
@@ -51,32 +36,50 @@
      "size": 1500375.0937734435,
      "deadline": 1792780101.2304635,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 342,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "TC67",
+     "mint": "84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump",
+     "side": 1,
+     "opened": 1792773998.0503929,
+     "entry": 0.0001191,
+     "stop": 9.528000000000001e-05,
+     "target": 0.00016674,
+     "size": 1679261.125104954,
+     "deadline": 1792781198.0503929,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 342,
+ "next_id": 343,
  "runs": 18,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4nZJvocTBuShVKUpgPf4eKgUcrbxh69FJfkXuNurQd37": 1792773617.5823646,
-  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792773617.5823646,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792773617.5823646,
-  "seen:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792773801.173331,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792773801.173331,
-  "control:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792773801.2304657,
-  "seen:F2mnGB8pPXz8hfoyXpBMZSdKSu6bAcoA77ST8ai6pump": 1792773980.3630965,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792773980.3630965,
-  "seen:CH9oKtvyCC9RsxnF282NAWN13wFeEwPDkih2ebtNpump": 1792773980.3630965,
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792773980.3630965,
-  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792773980.3630965,
-  "seen:9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump": 1792773980.3630965,
-  "seen:84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump": 1792773980.3630965,
   "seen:ChqcxP3n28ALLN2KGSePHuwhB7dMX3RZgyiuTUXvy2TR": 1792774165.3617191,
   "seen:F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump": 1792774165.3617191,
   "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792774345.8962803,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792774345.8962803,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792774345.8962803
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792774345.8962803,
+  "seen:4nZJvocTBuShVKUpgPf4eKgUcrbxh69FJfkXuNurQd37": 1792774527.850925,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792774527.850925,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792774527.850925,
+  "seen:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792774527.850925,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792774527.850925,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792774527.850925,
+  "seen:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792774710.2236867,
+  "seen:5ScfM97pvKnGXnn1YeHt1GBusrAhH4VyUcX5HZnjpump": 1792774897.2149525,
+  "seen:7r5KAnezcuQNsPHTbeRxr5uERHXAnVb8mCpdpvxdkmvf": 1792774897.2149525,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792774897.2149525,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792774897.2149525,
+  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792774897.2149525,
+  "seen:EdZ9miwTbdbqs5Q13iZ1EA1bsX2gucVp4edCHRAZpump": 1792774897.2149525,
+  "seen:84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump": 1792774897.2149525,
+  "seen:HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": 1792774897.2149525,
+  "control:84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump": 1792774898.0503948
  },
  "talks": {
   "2026-10-21": 109
@@ -117,16 +120,16 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792773080.3643,
+  "t": 1792773997.216141,
   "crypto": [
-   "SEC flags tokenization as high-risk area in 2027 market examinations (0h ago)",
+   "SEC flags tokenization as high-risk area in 2027 market examinations (1h ago)",
    "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March (1h ago)",
    "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (3h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "China targets 2030 for its national blockchain network buildout (3h ago)",
    "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (4h ago)",
    "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness (4h ago)",
-   "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy (4h ago)",
+   "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy (5h ago)",
    "Was crypto self-custody ever designed for beginners? (5h ago)",
    "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro (5h ago)"
   ],
