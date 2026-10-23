@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 1605.916980993367,
+   "cash": 1556.3202067998186,
    "open": [
     {
      "id": 287,
@@ -23,45 +23,61 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 288,
+     "id": 291,
      "desk": "control",
      "market": "meme",
      "symbol": "PHP",
      "mint": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
      "side": 1,
-     "opened": 1792742850.7303493,
-     "entry": 0.0002418,
-     "stop": 0.00019344000000000002,
-     "target": 0.00033852,
-     "size": 827129.859387924,
-     "deadline": 1792750050.7303495,
+     "opened": 1792744130.4629583,
+     "entry": 0.000196,
+     "stop": 0.00015680000000000002,
+     "target": 0.00027439999999999995,
+     "size": 1020408.1632653062,
+     "deadline": 1792751330.4629586,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 292,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "GUST",
+     "mint": "z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump",
+     "side": 1,
+     "opened": 1792744313.7771497,
+     "entry": 0.0001466,
+     "stop": 0.00011728000000000002,
+     "target": 0.00020524,
+     "size": 1364256.4802182808,
+     "deadline": 1792751513.77715,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 291,
+ "next_id": 293,
  "runs": 17,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Dt7akmmwV3o27TBbWCeFbFg3JBWUiQ2UNt1KMx6ipump": 1792743932.9792192,
-  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792743932.9792192,
-  "seen:2MLsobfXUqjf5JkB7GtpPXHoKnELDeWiEJKKyyFopump": 1792743932.9792192,
-  "control:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792743932.9973521,
-  "seen:HbVPTLRijQg9PWyu66ZLwug5ERuyXw4p3c3Rfx9hpump": 1792744117.318588,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792744117.318588,
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792744117.318588,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792744117.318588,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792744117.318588,
-  "control:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792744117.3383775,
-  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792744299.4953704,
   "seen:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792744481.9758155,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792744481.9758155,
   "seen:5h86r9mEnhhpy8kXU6vYUQLvkzLmmCSstTxdVLYDURFG": 1792744664.445365,
   "seen:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792744664.445365,
   "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792744664.445365,
   "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792744664.445365,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792744664.445365
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792744664.445365,
+  "seen:7pChUehw9YjzKpmM9MUP1jAMZKoLte1hkFFKdLdGpump": 1792744845.0578334,
+  "seen:Dt7akmmwV3o27TBbWCeFbFg3JBWUiQ2UNt1KMx6ipump": 1792744845.0578334,
+  "seen:14gtyM6oG24vmmNuCGqbLZSQYMgEugNNG1kkN251pump": 1792744845.0578334,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792745030.438939,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792745030.438939,
+  "seen:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP": 1792745030.438939,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1792745030.438939,
+  "control:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792745030.4629614,
+  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792745213.41853,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792745213.41853,
+  "seen:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792745213.41853,
+  "control:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792745213.7771528
  },
  "talks": {
   "2026-10-21": 109
@@ -96,15 +112,15 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792743399.4970937,
+  "t": 1792744313.4202194,
   "crypto": [
    "India's largest exchange denies hack after sleuths pointed to $16 million in suspicious outflows (0h ago)",
    "Malaysia, Thailand join Singapore\u2019s cross-border stablecoin push (1h ago)",
    "Bitcoin ETFs bleed $635M as October slides back into the red (1h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "Ethereum delays Glamsterdam Hoodi testnet launch over security risks (3h ago)",
-   "Polymarket has reportedly fired its marketing chief, also a close friend of the CEO (3h ago)",
-   "Ethereum delays Glamsterdam test after security devs flag risk to existing contracts (3h ago)",
+   "Polymarket has reportedly fired its marketing chief, also a close friend of the CEO (4h ago)",
+   "Ethereum delays Glamsterdam test after security devs flag risk to existing contracts (4h ago)",
    "Cardano holders are being asked to bet $5 million on copper hitting a new record (4h ago)",
    "Bitcoin Core changes security policy as AI makes bugs easier to find (4h ago)",
    "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100 (5h ago)"
@@ -113,12 +129,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-23": 0.012287
+  "2026-10-23": 0.012784
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-23 01:17 UTC [macro] 01:17 UTC flat. Gold 4029.5, new 5d low 4028.6, below no-long line 4036.8. Plan unchanged: gold long 1% only on hourly close above 4090, stop 4070, target 4120, max 12h. GBP/USD 1.34055: long only on hourly close above 1",
   "2026-10-23 01:39 UTC [macro] Flat. Gold 4027.8 (5d low 4026.4), no hourly close above 4090. Watch: gold long 1% only on hourly close above 4090, stop 4070, target 4120, max 12h. GBP/USD 1.34032: long only on hourly close above 1.3418. No high-impact",
   "2026-10-23 02:00 UTC [macro] 02:00 UTC flat. Gold 4025 (new 5d low 4024.1, chg_24h -2.6%). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h; a new low below 4024 weakens this. GBP/USD 1.33937: long only on hourly close ",
   "2026-10-23 02:22 UTC [macro] 02:22 flat. Gold 4025.8, new 5d low 4000.9 (below 4024 weakening line), chg_24h -2.6%. Plan: gold long 1% only on hourly close above 4090, stop 4070, target 4120, max 12h, and only if the trend stabilises; otherwise no l",
@@ -137,8 +152,9 @@
   "2026-10-23 06:59 UTC [macro] 06:59 flat, no orders. Gold 4030.4 below 4090 trigger (long 1%, stop 4070, target 4120, max 12h, needs hourly close). GBP/USD 1.33826, long only on hourly close above 1.3418. EUR/USD 1.12133, no trigger. No high-impact e",
   "2026-10-23 07:21 UTC [macro] 07:21 flat, no orders. Gold 4029.7 (5d low 4000.9, hi 4220.4): watch hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD 1.33718: long only on hourly close above 1.3418. EUR/USD 1.11995 near 5d lo",
   "2026-10-23 07:43 UTC [macro] 07:43 flat. Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD long only on hourly close above 1.3418. EUR/USD: watch a break below 1.11907 (5d low) for a possible short only if there",
-  "2026-10-23 08:04 UTC [macro] 08:04 flat, no orders. Gold 4028.4 below 4090 trigger (long 1%, stop 4070, target 4120, max 12h, needs hourly close). GBP/USD 1.33781 long only on hourly close above 1.3418. EUR/USD 1.12007 near 5d low 1.11907: short onl"
+  "2026-10-23 08:04 UTC [macro] 08:04 flat, no orders. Gold 4028.4 below 4090 trigger (long 1%, stop 4070, target 4120, max 12h, needs hourly close). GBP/USD 1.33781 long only on hourly close above 1.3418. EUR/USD 1.12007 near 5d low 1.11907: short onl",
+  "2026-10-23 08:25 UTC [macro] 08:25 flat, no orders. Gold 4029.9 below 4090 trigger (long 1%, stop 4070, target 4120, max 12h, needs hourly close). GBP/USD 1.33803 long only on hourly close above 1.3418. EUR/USD 1.12032: short only on a break and hou"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792742665.7195787
+ "last_macro_macro": 1792743945.0595589
 }
