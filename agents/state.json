@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": 1237.7709727450967,
+   "cash": 1250.8697024776177,
    "open": [
-    {
-     "id": 296,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MEOWE",
-     "mint": "FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump",
-     "side": 1,
-     "opened": 1792745954.026364,
-     "entry": 9.683e-05,
-     "stop": 7.746400000000002e-05,
-     "target": 0.000135562,
-     "size": 2065475.5757513165,
-     "deadline": 1792753154.0263643,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 307,
      "desk": "control",
@@ -44,25 +29,24 @@
  "runs": 17,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:djAVgJBeFod7GsJTNvoPPDYVxivYvopw3WWq2pzpump": 1792753065.2729368,
-  "seen:F9D62GrQaHS5R7CpuJqzRtipBiUeXJMzWr3MS25npump": 1792753065.2729368,
-  "seen:WU5VydaS4xEyWyqdUGtiCsFnMU3fJpPko2AsFd7pump": 1792753065.2729368,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1792753065.2729368,
-  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792753065.2729368,
-  "seen:4ZvWNP1DGKdTzjDVftLaAE2kQhfM5X83At1xcKKepump": 1792753249.2505562,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792753249.2505562,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792753249.2505562,
-  "control:FHMsg9KBBAQZhbukybN8axS4p3ctPrPXw6PrKbA4pump": 1792753249.2690144,
-  "seen:6LyUFZwGvMF69ET9FKhaRGpYq7EaRDyWgLPdpS1LSYm6": 1792753431.236139,
-  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792753431.236139,
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792753431.236139,
-  "control:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792753431.5106328,
   "seen:6yERjojF2jgWaCNpgoJd5Dojx4J4dEA22rxqwAgNpump": 1792753614.745184,
   "seen:FHMsg9KBBAQZhbukybN8axS4p3ctPrPXw6PrKbA4pump": 1792753796.7092474,
   "seen:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792753796.7092474,
   "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792753796.7092474,
   "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792753796.7092474,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792753796.7092474
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792753796.7092474,
+  "seen:F9D62GrQaHS5R7CpuJqzRtipBiUeXJMzWr3MS25npump": 1792753978.9180312,
+  "seen:9RhEr8CvHZ92bKsnrwodi2qkcNxYyghjAzCSJgQPpump": 1792753978.9180312,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1792753978.9180312,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792754161.0143192,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792754161.0143192,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792754161.0143192,
+  "seen:6LyUFZwGvMF69ET9FKhaRGpYq7EaRDyWgLPdpS1LSYm6": 1792754343.0096285,
+  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792754343.0096285,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792754343.0096285,
+  "seen:2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump": 1792754343.0096285,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1792754343.0096285,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792754343.0096285
  },
  "talks": {
   "2026-10-21": 109
@@ -97,18 +81,18 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792752531.2379324,
+  "t": 1792753443.0114682,
   "crypto": [
-   "HSBC rolls out its first stablecoin to over 3 million everyday app users (0h ago)",
+   "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13% (0h ago)",
+   "Bitcoin appears to have decoupled from midterm cycle bottom history (0h ago)",
+   "HSBC rolls out its first stablecoin to over 3 million everyday app users (1h ago)",
    "Cysic dangles a 10% bounty, hacker pours loot into Tornado Cash (1h ago)",
    "Bybit secures first full Dubai license for spot trading services (1h ago)",
    "Sweden\u2019s central bank revives e-krona debate as stablecoins and digital euro loom (2h ago)",
    "HSBC launches Hong Kong dollar stablecoin for retail payments (2h ago)",
    "India's largest exchange denies hack after sleuths pointed to $16 million in suspicious outflows (3h ago)",
    "Malaysia, Thailand join Singapore\u2019s cross-border stablecoin push (4h ago)",
-   "Bitcoin ETFs bleed $635M as October slides back into the red (4h ago)",
-   "Here\u2019s what happened in crypto today (6h ago)",
-   "Ethereum delays Glamsterdam Hoodi testnet launch over security risks (6h ago)"
+   "Bitcoin ETFs bleed $635M as October slides back into the red (4h ago)"
   ],
   "macro": [],
   "calendar": []
