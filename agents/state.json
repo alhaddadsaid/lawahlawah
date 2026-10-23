@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 2394.370534763294,
+   "cash": 2462.370534763294,
    "open": [
     {
      "id": 224,
@@ -38,48 +38,62 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 263,
+     "id": 265,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "POOT",
+     "mint": "6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump",
+     "side": 1,
+     "opened": 1792730525.9454684,
+     "entry": 5.654e-05,
+     "stop": 4.5232e-05,
+     "target": 7.915599999999999e-05,
+     "size": 3537318.712415989,
+     "deadline": 1792737725.9454684,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 266,
      "desk": "control",
      "market": "meme",
      "symbol": "zonki",
      "mint": "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump",
      "side": 1,
-     "opened": 1792728695.6914687,
-     "entry": 0.0001601,
-     "stop": 0.00012808,
-     "target": 0.00022413999999999998,
-     "size": 1249219.237976265,
-     "deadline": 1792735895.691469,
+     "opened": 1792730890.9114463,
+     "entry": 0.0001864,
+     "stop": 0.00014912,
+     "target": 0.00026095999999999997,
+     "size": 1072961.373390558,
+     "deadline": 1792738090.9114466,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 265,
+ "next_id": 267,
  "runs": 16,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:BuCZGiG3oqL6CNWPjPYGME8WB96nmjJpU3bjAg7Cov5w": 1792730510.9152048,
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792730510.9152048,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792730510.9152048,
-  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792730510.9152048,
-  "seen:9eMqkyTz2enBdvuNfuryyvpgB8mJUjNf3aYSuTEGpump": 1792730510.9152048,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792730510.9152048,
-  "seen:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792730692.340453,
-  "seen:FZPUHqK5WgWb4j632gBo6tAzdEow7Uipfs4VnQZgpump": 1792730692.340453,
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792730692.340453,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792730692.340453,
-  "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792730692.340453,
-  "seen:3Mwk685F6j5QTkT3AJH7pUxCo93H7LbkxnbVoqYJpump": 1792730875.005319,
-  "seen:39QfGBAnwxtWt3s1HQWYp9yagQNYj4UdgaYbAzDPpump": 1792730875.005319,
-  "seen:KENJSUYLASHUMfHyy5o4Hp2FdNqZg1AsUPhfH2kYvEP": 1792730875.005319,
   "seen:zrVjZmMtjpdMwWdonnWsAoMFMk2GwqEmyZEsjVcpump": 1792731059.7548037,
   "seen:5qNTWCmhUtbeCr5Aw57tL7suBsRKpw2kotEQ4V6Apump": 1792731059.7548037,
   "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792731059.7548037,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792731059.7548037,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792731059.7548037,
   "seen:G8ftMKqsBUghkoMbUgezty4c57eTte4KyAPspEPnpump": 1792731244.4407365,
-  "seen:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792731244.4407365
+  "seen:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792731244.4407365,
+  "seen:7kpAkXpjeLZNBg9WM8ruShqnZ2kTQppDJYy9RBhEpump": 1792731425.3718407,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792731425.3718407,
+  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792731425.3718407,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792731425.3718407,
+  "control:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792731425.9454718,
+  "seen:BoTx8y9ynfdxf5ZjWtCoBVkff52qKA82ysaLU8ZM6d8T": 1792731606.0159807,
+  "seen:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792731606.0159807,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792731606.0159807,
+  "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792731606.0159807,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792731606.0159807,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792731790.8531113,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792731790.8531113,
+  "control:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792731790.9114501
  },
  "talks": {
   "2026-10-21": 109
@@ -114,18 +128,18 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792729610.9164753,
+  "t": 1792730525.3730736,
   "crypto": [
+   "Cardano holders are being asked to bet $5 million on copper hitting a new record (0h ago)",
+   "Bitcoin Core changes security policy as AI makes bugs easier to find (0h ago)",
    "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100 (1h ago)",
-   "Switzerland approves first spot Bitcoin ETF for retail investors (3h ago)",
+   "Switzerland approves first spot Bitcoin ETF for retail investors (4h ago)",
    "Pentagon bans US forces from using military info to bet in prediction markets (5h ago)",
    "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express (6h ago)",
    "Senate's top Democratic investigator looking into Tether payments to Bo Hines' firm (6h ago)",
    "Circle shareholder sues Trump, World Liberty and Steve Witkoff over crypto deals (7h ago)",
    "Dune launches real-time data feeds covering 200 onchain trading venues (8h ago)",
-   "Here\u2019s what happened in crypto today (8h ago)",
-   "Winklevoss PAC moves into Texas Senate race with $81K ad buy (9h ago)",
-   "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech (10h ago)"
+   "Here\u2019s what happened in crypto today (9h ago)"
   ],
   "macro": [],
   "calendar": []
