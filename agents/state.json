@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 2411.475430044017,
+   "cash": 2357.8400668745376,
    "open": [
     {
      "id": 224,
@@ -40,22 +40,10 @@
    ]
   }
  },
- "next_id": 255,
+ "next_id": 256,
  "runs": 16,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2LSQcdPsYvp1jqkth71xDPYRd7VcPYJX2972nj9spump": 1792723572.4601908,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792723572.4601908,
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792723572.4601908,
-  "seen:iMjheLWDgyCzUaEbfNT83xBVXBxQyPKeMXZX9Hvpump": 1792723572.4601908,
-  "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792723572.4601908,
-  "seen:8TiMkgvsrat9tM2esko8zVTt99LZLpefUM4SnZaziXaQ": 1792723758.4084067,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792723758.4084067,
-  "seen:4xZKsXaUUdfaU61kF1pCXpcFtbNB7od3qhYt9G5TNGJH": 1792723935.7508414,
-  "seen:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792723935.7508414,
-  "seen:BbaZXnPRUWYfvuhNWwK25vzhWd5PRwDJ5N47nJtgpump": 1792723935.7508414,
-  "seen:2tr16FEyrYgWEyysKnAqmN6XE5HiTYNtoAwoBrSPpump": 1792723935.7508414,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792723935.7508414,
   "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1792724300.7869697,
   "seen:PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m": 1792724300.7869697,
   "seen:FZPUHqK5WgWb4j632gBo6tAzdEow7Uipfs4VnQZgpump": 1792724300.7869697,
@@ -63,7 +51,19 @@
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792724300.7869697,
   "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792724300.7869697,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792724300.7869697,
-  "control:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792724303.8790302
+  "control:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792724303.8790302,
+  "seen:Ebb22P14GFEryYeH8cZSAMKz72MZWQacDCg8t6onpump": 1792724483.9195056,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792724483.9195056,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792724483.9195056,
+  "seen:5UHeHyfB4fo7sy4hHN9gGBJvYSQdz7w6ienZoSTDpump": 1792724664.8967106,
+  "seen:6mYfg1EmMVjbQv38QGY5XdRUQ4SyNpFauL1aiRiWpump": 1792724664.8967106,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792724664.8967106,
+  "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792724664.8967106,
+  "control:FZPUHqK5WgWb4j632gBo6tAzdEow7Uipfs4VnQZgpump": 1792724664.948472,
+  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1792724844.8147252,
+  "seen:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792724844.8147252,
+  "seen:Go9ySVFuNCEF1NZrLC4JSBuABKQUfUbq7F9AXPLVpump": 1792724844.8147252,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792725030.5817368
  },
  "talks": {
   "2026-10-21": 109
@@ -98,7 +98,7 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792723217.9341502,
+  "t": 1792724130.5829024,
   "crypto": [
    "Switzerland approves first spot Bitcoin ETF for retail investors (2h ago)",
    "Pentagon bans US forces from using military info to bet in prediction markets (3h ago)",
@@ -109,7 +109,7 @@
    "Here\u2019s what happened in crypto today (7h ago)",
    "Winklevoss PAC moves into Texas Senate race with $81K ad buy (7h ago)",
    "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech (8h ago)",
-   "Underdog taps zerohash to bring crypto deposits to prediction markets (9h ago)"
+   "Underdog taps zerohash to bring crypto deposits to prediction markets (10h ago)"
   ],
   "macro": [],
   "calendar": []
