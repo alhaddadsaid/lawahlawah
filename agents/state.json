@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 347.2390247645049,
+   "cash": 239.02256134987073,
    "open": [
     {
      "id": 351,
@@ -38,38 +38,42 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 358,
+     "id": 360,
      "desk": "control",
      "market": "meme",
-     "symbol": "SQUADS",
-     "mint": "CokrQHPjaWjyXyU15LiN9rb62tgBuFiU78KD7fKiZtu1",
+     "symbol": "ARCTIS",
+     "mint": "2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump",
      "side": 1,
-     "opened": 1792783743.7410445,
-     "entry": 0.0001968,
-     "stop": 0.00015744,
-     "target": 0.00027552,
-     "size": 1016260.1626016259,
-     "deadline": 1792790943.7410448,
+     "opened": 1792784284.0716164,
+     "entry": 0.0001394,
+     "stop": 0.00011151999999999999,
+     "target": 0.00019515999999999997,
+     "size": 1434720.2295552366,
+     "deadline": 1792791484.0716166,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 361,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PHP",
+     "mint": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
+     "side": 1,
+     "opened": 1792784467.7497406,
+     "entry": 0.000291,
+     "stop": 0.00023280000000000005,
+     "target": 0.0004074,
+     "size": 687285.2233676976,
+     "deadline": 1792791667.7497408,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 359,
+ "next_id": 362,
  "runs": 19,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792784086.1572056,
-  "seen:CokrQHPjaWjyXyU15LiN9rb62tgBuFiU78KD7fKiZtu1": 1792784086.1572056,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792784086.1572056,
-  "seen:4gwgHGZFWWRhgUug6n73MAZUdZ1HoUtp1G4k7jt1pump": 1792784086.1572056,
-  "seen:2DtF5QVs1zPwpZVR7PGiCcnNsi36gJvMWxNbeDVCpump": 1792784268.6610289,
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792784268.6610289,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792784268.6610289,
-  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792784452.2377088,
-  "seen:HgRx2RZCSSVvj2PSGzRaoKEUcw77oEJT6dzP5UHSpump": 1792784452.2377088,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792784452.2377088,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792784452.2377088,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792784640.1779487,
   "seen:2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump": 1792784640.1779487,
   "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792784640.1779487,
@@ -77,7 +81,21 @@
   "seen:4gCkAqLXo2cyYzi47tsoDWtcPhNzwi5HjpVHSDiWpump": 1792784816.3883054,
   "seen:E8YeG61gTkBADYtnPcobeyMe6iBwbx5MkUGyNyhxpump": 1792784816.3883054,
   "seen:Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": 1792784816.3883054,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792784816.3883054
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792784816.3883054,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792785000.709986,
+  "seen:CokrQHPjaWjyXyU15LiN9rb62tgBuFiU78KD7fKiZtu1": 1792785000.709986,
+  "control:HgRx2RZCSSVvj2PSGzRaoKEUcw77oEJT6dzP5UHSpump": 1792785001.1759393,
+  "seen:9HCJfz2LwkmQieYCyApuk6dVJRr6zX4nGbqnPV5Rpump": 1792785184.0390704,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792785184.0390704,
+  "control:2JSj9dzLQwAi3q1dHYjCPF5Gveg81hBTRy8EeM3Fpump": 1792785184.0716205,
+  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792785367.722949,
+  "seen:Z2DFRqQvHCSgfxTonU5ctcTkqf9We5VgHYZmWwspump": 1792785367.722949,
+  "seen:HgRx2RZCSSVvj2PSGzRaoKEUcw77oEJT6dzP5UHSpump": 1792785367.722949,
+  "seen:ADkd6izPxJtKueHAzKsDEnGRNEq5ERu1g3ses1wKpump": 1792785367.722949,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792785367.722949,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792785367.722949,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792785367.722949,
+  "control:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792785367.749745
  },
  "talks": {
   "2026-10-21": 109
@@ -118,18 +136,18 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792783186.1595151,
+  "t": 1792784100.7123275,
   "crypto": [
    "Initia halts blockchain after exploit reportedly drains over $2.6M (1h ago)",
    "US senator probes Tether after reported deal with ex-Trump crypto adviser (2h ago)",
    "SEC flags tokenization as high-risk area in 2027 market examinations (3h ago)",
    "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March (4h ago)",
-   "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (5h ago)",
+   "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (6h ago)",
    "Here\u2019s what happened in crypto today (6h ago)",
    "China targets 2030 for its national blockchain network buildout (6h ago)",
    "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (7h ago)",
    "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness (7h ago)",
-   "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy (7h ago)"
+   "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy (8h ago)"
   ],
   "macro": [],
   "calendar": []
