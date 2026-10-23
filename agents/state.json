@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 475.0264901126841,
+   "cash": 494.0264901126841,
    "open": [
     {
      "id": 340,
@@ -20,21 +20,6 @@
      "target": 0.00011946199999999999,
      "size": 2343841.5563107934,
      "deadline": 1792779546.844014,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 343,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GUST",
-     "mint": "z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump",
-     "side": 1,
-     "opened": 1792774728.301636,
-     "entry": 8.1e-05,
-     "stop": 6.48e-05,
-     "target": 0.00011339999999999999,
-     "size": 2469135.8024691357,
-     "deadline": 1792781928.3016365,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -55,19 +40,10 @@
    ]
   }
  },
- "next_id": 349,
+ "next_id": 350,
  "runs": 18,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HsbVYEPo3z5TJbPYZJ15dZDmpQXksJqgX5QSJnRwpump": 1792777458.6863356,
-  "seen:jyF5pxtWMRzVTwFTGedwLewy76f7SVBRyfpeKumpump": 1792777458.6863356,
-  "seen:Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": 1792777458.6863356,
-  "control:7r5KAnezcuQNsPHTbeRxr5uERHXAnVb8mCpdpvxdkmvf": 1792777458.74918,
-  "seen:HsAf8r11yFtDuh7dXok1yWT9BDa9G7iSQEcs7L4Fpump": 1792777642.8829758,
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792777642.8829758,
-  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792777642.8829758,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792777827.0043695,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792777827.0043695,
   "seen:cRu8MQ2dqh5jUhfJEY57H8rfnHu6kfgeAGF6YZTpump": 1792778010.2240345,
   "seen:4tWei1qS8VvuogrFXQfpTSbfYquZEN3qPRtkw4rLpump": 1792778010.2240345,
   "seen:D3Rv6TuicNWthX3My1Qz7oTKR4K1h2Vjsui4zJBUpump": 1792778010.2240345,
@@ -76,7 +52,16 @@
   "seen:4panwwdzU6XKdyrqUcUoNr2eVZV4LxsQPA7t9DXvpump": 1792778192.9694343,
   "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792778192.9694343,
   "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792778192.9694343,
-  "seen:EdZ9miwTbdbqs5Q13iZ1EA1bsX2gucVp4edCHRAZpump": 1792778192.9694343
+  "seen:EdZ9miwTbdbqs5Q13iZ1EA1bsX2gucVp4edCHRAZpump": 1792778192.9694343,
+  "seen:Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": 1792778375.235715,
+  "seen:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792778375.235715,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792778375.235715,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792778375.235715,
+  "control:D3Rv6TuicNWthX3My1Qz7oTKR4K1h2Vjsui4zJBUpump": 1792778375.309377,
+  "seen:4SsqwCqP5WDwrGiUEEYCDH4pKVhtqKH2juew4RNMpump": 1792778558.8913388,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792778558.8913388,
+  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792778558.8913388,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792778743.6225765
  },
  "talks": {
   "2026-10-21": 109
@@ -117,16 +102,16 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792776742.8842242,
+  "t": 1792777658.8926291,
   "crypto": [
-   "SEC flags tokenization as high-risk area in 2027 market examinations (1h ago)",
+   "SEC flags tokenization as high-risk area in 2027 market examinations (2h ago)",
    "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March (2h ago)",
    "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (4h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
    "China targets 2030 for its national blockchain network buildout (4h ago)",
    "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (5h ago)",
    "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness (5h ago)",
-   "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy (5h ago)",
+   "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy (6h ago)",
    "Was crypto self-custody ever designed for beginners? (6h ago)",
    "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro (6h ago)"
   ],
