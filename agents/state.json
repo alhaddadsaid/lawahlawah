@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 1411.3434698709927,
+   "cash": 1479.3434698709927,
    "open": [
     {
      "id": 291,
@@ -51,21 +51,6 @@
      "size": 1602564.1025641025,
      "deadline": 1792753709.1182418,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 298,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GUST",
-     "mint": "z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump",
-     "side": 1,
-     "opened": 1792746687.401792,
-     "entry": 0.0001061,
-     "stop": 8.488000000000001e-05,
-     "target": 0.00014854,
-     "size": 1885014.137606032,
-     "deadline": 1792753887.4017923,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,26 +59,24 @@
  "runs": 17,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792746853.9760914,
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792746853.9760914,
-  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792746853.9760914,
-  "control:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792746854.0263677,
-  "seen:8tK8wXLjFCXHPXb6H5HiXWsVfa4ihd12ts64pt8Jpump": 1792747038.3413794,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792747038.3413794,
-  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792747038.3413794,
-  "seen:GFzKQAwDwHQm8hNQbm4AUuYCnidWJgtvdCoKxfjQpump": 1792747038.3413794,
-  "seen:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792747038.3413794,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792747222.3217938,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792747222.3217938,
-  "seen:GqrAofnssgmWofUJe3xgXJJbmHqVFiQsGam8UoTZSDf": 1792747406.158851,
-  "seen:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792747406.158851,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792747406.158851,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792747406.158851,
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1792747406.158851,
-  "control:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792747409.1182454,
   "seen:EQqrVvGo7NCnZu1FqNgMkFSkEByMmgKAdc5hW6UTYDVC": 1792747587.3121116,
   "seen:CrUwntBYLzRqvVJQtqBn7hpCwY1nwsP39bHwZGDPpump": 1792747587.3121116,
-  "control:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792747587.4017956
+  "control:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792747587.4017956,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792747771.4621933,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792747771.4621933,
+  "seen:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792747771.4621933,
+  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792747953.2817206,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1792747953.2817206,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792747953.2817206,
+  "seen:GND33SAPkgdhBR9rMXoNUwXo34nZhLVcUhUsL4Zzpump": 1792747953.2817206,
+  "seen:Sqes8aTmMqP7iWWqPthdC4GnwiSnvBVEaDkh1VNpump": 1792747953.2817206,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792747953.2817206,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792748135.751554,
+  "seen:GFzKQAwDwHQm8hNQbm4AUuYCnidWJgtvdCoKxfjQpump": 1792748135.751554,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792748135.751554,
+  "seen:85d1VuJDBTnMFrKrjb4JXfmjUJ7yttPhEsAKjU1ypump": 1792748317.7054868,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792748317.7054868,
+  "seen:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792748317.7054868
  },
  "talks": {
   "2026-10-21": 109
@@ -128,7 +111,7 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792746138.3432033,
+  "t": 1792747053.2835004,
   "crypto": [
    "Sweden\u2019s central bank revives e-krona debate as stablecoins and digital euro loom (0h ago)",
    "HSBC launches Hong Kong dollar stablecoin for retail payments (0h ago)",
@@ -139,7 +122,7 @@
    "Ethereum delays Glamsterdam Hoodi testnet launch over security risks (4h ago)",
    "Polymarket has reportedly fired its marketing chief, also a close friend of the CEO (4h ago)",
    "Ethereum delays Glamsterdam test after security devs flag risk to existing contracts (4h ago)",
-   "Cardano holders are being asked to bet $5 million on copper hitting a new record (4h ago)"
+   "Cardano holders are being asked to bet $5 million on copper hitting a new record (5h ago)"
   ],
   "macro": [],
   "calendar": []
