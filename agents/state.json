@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 187.83279589144854,
+   "cash": 132.75552609106217,
    "open": [
     {
      "id": 351,
@@ -53,45 +53,61 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 362,
+     "id": 363,
      "desk": "control",
      "market": "meme",
-     "symbol": "SQUADS",
-     "mint": "CokrQHPjaWjyXyU15LiN9rb62tgBuFiU78KD7fKiZtu1",
+     "symbol": "KIMCHICITY",
+     "mint": "Z2DFRqQvHCSgfxTonU5ctcTkqf9We5VgHYZmWwspump",
      "side": 1,
-     "opened": 1792785386.0754504,
-     "entry": 0.0001553,
-     "stop": 0.00012424000000000002,
-     "target": 0.00021742,
-     "size": 1287830.00643915,
-     "deadline": 1792792586.0754507,
+     "opened": 1792786119.513174,
+     "entry": 0.000149,
+     "stop": 0.00011919999999999998,
+     "target": 0.00020859999999999997,
+     "size": 1342281.879194631,
+     "deadline": 1792793319.5131743,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 364,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "GRINDCORE",
+     "mint": "24AdeFEAbyF1pjDuT9ZEHaqNyUmHw8eSzrJZN8zrpump",
+     "side": 1,
+     "opened": 1792786310.2887685,
+     "entry": 7.003e-05,
+     "stop": 5.6024000000000004e-05,
+     "target": 9.804200000000001e-05,
+     "size": 2855918.89190347,
+     "deadline": 1792793510.2887688,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 363,
+ "next_id": 365,
  "runs": 19,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3muYhLvrVSuLkV66ti5bzriNPg2UYC5bbCxyc4bapump": 1792785553.169446,
-  "seen:4gwgHGZFWWRhgUug6n73MAZUdZ1HoUtp1G4k7jt1pump": 1792785553.169446,
-  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792785553.169446,
-  "seen:E8YeG61gTkBADYtnPcobeyMe6iBwbx5MkUGyNyhxpump": 1792785737.795728,
-  "seen:Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": 1792785737.795728,
-  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792785737.795728,
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792785920.7920182,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792785920.7920182,
-  "seen:CokrQHPjaWjyXyU15LiN9rb62tgBuFiU78KD7fKiZtu1": 1792785920.7920182,
-  "seen:CzZ3VKZj5WpL9VF4ASkCe3DP2XfgXjWwLJPu8HLopump": 1792785920.7920182,
-  "seen:24AdeFEAbyF1pjDuT9ZEHaqNyUmHw8eSzrJZN8zrpump": 1792786102.1552653,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792786102.1552653,
-  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792786286.0469515,
-  "seen:6T9cdyDT8cceci7uiTUsBeTF9tuYBNU4aEg31Mbzpump": 1792786286.0469515,
-  "seen:HgRx2RZCSSVvj2PSGzRaoKEUcw77oEJT6dzP5UHSpump": 1792786286.0469515,
-  "seen:ozs7qW8XGM27Yx4vJUfiPPgSXZLzu2cXPN5KqGgpump": 1792786286.0469515,
-  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1792786286.0469515,
-  "control:CokrQHPjaWjyXyU15LiN9rb62tgBuFiU78KD7fKiZtu1": 1792786286.0754547
+  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1792786469.2482855,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792786469.2482855,
+  "seen:4gwgHGZFWWRhgUug6n73MAZUdZ1HoUtp1G4k7jt1pump": 1792786652.0554395,
+  "seen:E8YeG61gTkBADYtnPcobeyMe6iBwbx5MkUGyNyhxpump": 1792786652.0554395,
+  "seen:Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": 1792786652.0554395,
+  "seen:FLnL8hxcbdXMYKyPo2KoKxZRDPhfiDR5RH1PWvPTpump": 1792786836.0104988,
+  "seen:AVKYgzccwrWTNtW2ejz3VRthG3UYsVMmJ5piVEhzpump": 1792786836.0104988,
+  "seen:SNAPcESrvnH8yUdgeMF6xm1hym9b6hW6s8YeqeHdZFz": 1792786836.0104988,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792786836.0104988,
+  "seen:Z2DFRqQvHCSgfxTonU5ctcTkqf9We5VgHYZmWwspump": 1792787019.4517112,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792787019.4517112,
+  "seen:24AdeFEAbyF1pjDuT9ZEHaqNyUmHw8eSzrJZN8zrpump": 1792787019.4517112,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792787019.4517112,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792787019.4517112,
+  "control:Z2DFRqQvHCSgfxTonU5ctcTkqf9We5VgHYZmWwspump": 1792787019.5131774,
+  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792787206.2609556,
+  "seen:6T9cdyDT8cceci7uiTUsBeTF9tuYBNU4aEg31Mbzpump": 1792787206.2609556,
+  "seen:HgRx2RZCSSVvj2PSGzRaoKEUcw77oEJT6dzP5UHSpump": 1792787206.2609556,
+  "control:24AdeFEAbyF1pjDuT9ZEHaqNyUmHw8eSzrJZN8zrpump": 1792787210.2887726
  },
  "talks": {
   "2026-10-21": 109
@@ -132,7 +148,7 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792785020.7945251,
+  "t": 1792785936.013059,
   "crypto": [
    "Initia halts blockchain after exploit reportedly drains over $2.6M (1h ago)",
    "US senator probes Tether after reported deal with ex-Trump crypto adviser (2h ago)",
@@ -140,21 +156,20 @@
    "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March (4h ago)",
    "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (6h ago)",
    "Here\u2019s what happened in crypto today (6h ago)",
-   "China targets 2030 for its national blockchain network buildout (6h ago)",
-   "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (7h ago)",
-   "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness (7h ago)",
+   "China targets 2030 for its national blockchain network buildout (7h ago)",
+   "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (8h ago)",
+   "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness (8h ago)",
    "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy (8h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-23": 0.031592
+  "2026-10-23": 0.03221
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-23 13:04 UTC [macro] Flat 13:04 UTC. Triggers unmet: gold >4090 for long 1% (stop 4070, target 4120, max 12h); EURUSD <1.11894 short (confirm, no event 24h); GBPUSD >1.3418 long test. Memecoins: no data, no trades. Calendar empty.",
   "2026-10-23 13:25 UTC [macro] 13:25 flat, no orders; no triggers met, calendar empty, no memecoin data. Watch: gold hourly close >4090 for long 1% (stop 4070 preferred, target 4120, max 12h; 4000.9 stop too wide vs 14.9 ATR). EURUSD hourly close <1.1",
   "2026-10-23 13:46 UTC [macro] 13:46 flat, no triggers met. Watch: gold hourly close >4090 for long 1% (stop 4070, target 4120, max 12h; 4000.9 stop too wide vs 15.2 ATR). EURUSD hourly close <1.11894 short (confirm, no event 24h). GBPUSD hourly close",
   "2026-10-23 14:08 UTC [macro] 13:xx flat, no orders, no triggers met. Watch: gold hourly close >4090 for long 1% (stop 4070, target 4120, max 12h); gold 5d low 4000.9 is a break-level to reassess. EURUSD short plan at <1.11894 is stale while price is",
@@ -173,8 +188,9 @@
   "2026-10-23 18:46 UTC [macro] 18:46 flat, no triggers met. Watch: GOLD hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h, no high-impact event). EURUSD hourly close <1.11894 = short 0.5-1% (stop 1.1215, target ",
   "2026-10-23 19:07 UTC [macro] Flat, no triggers. Watch: GOLD hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h). Note 5d low now 3989.1, so reference levels shifted. EURUSD hourly close <1.11894 = short 0.5-1% ",
   "2026-10-23 19:29 UTC [macro] 19:29 flat, no triggers. Watch: GOLD hourly close <4000 with failed 4020 retest = short 1% (stop 4035, target 3960, max 12h). EURUSD hourly close <1.11894 = short 0.5-1% (stop 1.1215, target 1.1160, max 12h, no event 24h",
-  "2026-10-23 19:50 UTC [macro] 20:50 flat, no triggers. Watch: GOLD hourly close <4000 with failed 4020 retest = short 1% (stop 4035, target 3960, max 12h). Gold 5d low now 3989.1. EURUSD hourly close <1.11894 = short 0.5-1% (stop 1.1215, target 1.116"
+  "2026-10-23 19:50 UTC [macro] 20:50 flat, no triggers. Watch: GOLD hourly close <4000 with failed 4020 retest = short 1% (stop 4035, target 3960, max 12h). Gold 5d low now 3989.1. EURUSD hourly close <1.11894 = short 0.5-1% (stop 1.1215, target 1.116",
+  "2026-10-23 20:11 UTC [macro] No triggers met, no positions. Watch: GOLD hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h). EURUSD hourly close <1.11894 = short 0.5-1% (stop 1.1215, target 1.1160, max 12h). Me"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792785020.7944968
+ "last_macro_macro": 1792786306.263606
 }
