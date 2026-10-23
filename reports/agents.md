@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-23 00:25 UTC. Runs so far: 15. Model: claude-haiku-5-5.
+Updated 2026-10-23 00:34 UTC. Runs so far: 15. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -21,6 +21,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: EURUSD long at 1.12196, stop 1.12077, target 1.12374, opened 2026-10-22 20:00 UTC
 - control: TRENCHERS long at 7.652e-05, stop 6.1216e-05, target 0.000107128, opened 2026-10-22 22:45 UTC
 - control: MEGA long at 0.0001286, stop 0.00010288, target 0.00018004, opened 2026-10-23 00:01 UTC
+- control: TURRI long at 5.67e-05, stop 4.536e-05, target 7.938e-05, opened 2026-10-23 00:34 UTC
 
 ## Team
 
@@ -32,5 +33,11 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order MEGA REJECTED by guardrails: MEGA already open
+### 2026-10-23 00:34 UTC team macro (gold/forex), spent today $0.001
+
+Lead: Gold is 4037.2, under the 4041.2 no-long line and at a new 5d low (4034.4). Our trigger needs an hourly close above 4090, which hasn't happened. GBP/USD is 1.34059, below the 1.3418 test level. No high-impact events in 24h. Journal is net negative, so no edge justifies a trade. Scout and FX Scout have no qualifying setup. Sniper: no orders. Memecoin desk stays idle.
+
+{"orders": [], "close": [], "note": "00:34 flat. Gold 4037.2, 5d low 4034.4 (no-long line 4041.2). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD 1.34059: long only on hourly close above 1.3418. No high-impact events in 24h. Journal net negative, so no trades without a trigger."}
+
+- 2026-10-23 00:34 UTC control: OPENED TURRI long at 5.67e-05 (stop 4.536e-05, target 7.938e-05) - control: frozen v3 rules
 
