@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": 978.0946995416102,
+   "cash": 1081.0302111495207,
    "open": [
-    {
-     "id": 312,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PHP",
-     "mint": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
-     "side": 1,
-     "opened": 1792755265.1293187,
-     "entry": 0.0002326,
-     "stop": 0.00018608,
-     "target": 0.00032564,
-     "size": 859845.2278589854,
-     "deadline": 1792762465.129319,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 321,
      "desk": "control",
@@ -36,36 +21,48 @@
      "size": 877192.9824561403,
      "deadline": 1792769132.0304306,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 323,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "TC67",
+     "mint": "84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump",
+     "side": 1,
+     "opened": 1792762478.0133758,
+     "entry": 0.0001447,
+     "stop": 0.00011576,
+     "target": 0.00020257999999999997,
+     "size": 1382170.00691085,
+     "deadline": 1792769678.013376,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 322,
+ "next_id": 324,
  "runs": 18,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792762093.9213042,
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792762093.9213042,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792762093.9213042,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792762093.9213042,
-  "seen:kYKkyj3ZzpkJXM8CEKQeEgY8MgkTkWbpX4LtXr6pump": 1792762276.3064365,
-  "seen:FWz2EY9qhMpLeKYUgunVbfj6pNSbX3Nq3KnGE9whpump": 1792762460.9428325,
-  "seen:Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": 1792762460.9428325,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792762460.9428325,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792762460.9428325,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792762460.9428325,
-  "control:EseixJpngT2z1prgmpd8kUz71kACKiRjkbQHxWELpump": 1792762461.0227222,
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792762644.7300346,
-  "seen:84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump": 1792762644.7300346,
-  "seen:TinDLfBx9vVCmRmg42rycthJWFD6JB34W9Zuetjpump": 1792762644.7300346,
-  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792762644.7300346,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792762644.7300346,
   "seen:A3WqngzJwDfeuhd7vRtw9w367pGRF4tH4KVdmh34pump": 1792762828.9436004,
   "seen:3tChUePoURMMYUUeV8JjSxi3WTZF7V31Zr9wLdaBpump": 1792762828.9436004,
   "seen:9vukpREefYQAyYgn9W4tiA1ZBhUVDzpoUFfLL2Eepump": 1792762828.9436004,
   "seen:3JpttAJ2SZzvgLd8GdjYRVmVg1dWD6iEKqy5XUpLpump": 1792762828.9436004,
   "seen:EseixJpngT2z1prgmpd8kUz71kACKiRjkbQHxWELpump": 1792762828.9436004,
-  "control:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792762832.0304327
+  "control:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792762832.0304327,
+  "seen:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792763011.419328,
+  "seen:a3cyGPiA24kLJpoqMLDwSmA3H8v59KRVFvfWAYRpump": 1792763194.5150118,
+  "seen:6V8ZLegByoWKpRCmfFtpK5mvMbZ5wFTSaajhr5Ckpump": 1792763194.5150118,
+  "control:TinDLfBx9vVCmRmg42rycthJWFD6JB34W9Zuetjpump": 1792763194.611046,
+  "seen:FWz2EY9qhMpLeKYUgunVbfj6pNSbX3Nq3KnGE9whpump": 1792763377.9519885,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792763377.9519885,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792763377.9519885,
+  "control:84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump": 1792763378.0133786,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792763562.852001,
+  "seen:TinDLfBx9vVCmRmg42rycthJWFD6JB34W9Zuetjpump": 1792763562.852001,
+  "seen:84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump": 1792763562.852001,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792763562.852001,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792763562.852001
  },
  "talks": {
   "2026-10-21": 109
@@ -100,18 +97,18 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792761744.7311237,
+  "t": 1792762662.853153,
   "crypto": [
+   "China targets 2030 for its national blockchain network buildout (0h ago)",
    "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (1h ago)",
    "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness (1h ago)",
    "Was crypto self-custody ever designed for beginners? (2h ago)",
    "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro (2h ago)",
    "Live updates: Bitcoin holds above $81,000 as markets calm, oil continues to gain (2h ago)",
-   "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13% (2h ago)",
-   "Bitcoin appears to have decoupled from midterm cycle bottom history (2h ago)",
+   "Bitcoin steadies near $81,700 as altcoins rebound, pepe climbs 13% (3h ago)",
+   "Bitcoin appears to have decoupled from midterm cycle bottom history (3h ago)",
    "HSBC rolls out its first stablecoin to over 3 million everyday app users (3h ago)",
-   "Cysic dangles a 10% bounty, hacker pours loot into Tornado Cash (3h ago)",
-   "Bybit secures first full Dubai license for spot trading services (4h ago)"
+   "Cysic dangles a 10% bounty, hacker pours loot into Tornado Cash (3h ago)"
   ],
   "macro": [],
   "calendar": []
