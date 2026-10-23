@@ -6,32 +6,47 @@
   },
   "control": {
    "cash": -146.1162158113858,
-   "open": []
+   "open": [
+    {
+     "id": 371,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Peekhole",
+     "mint": "2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump",
+     "side": 1,
+     "opened": 1792797259.3621647,
+     "entry": 0.0001605,
+     "stop": 0.0001284,
+     "target": 0.0002247,
+     "size": 1246105.9190031153,
+     "deadline": 1792804459.362165,
+     "thesis": "control: frozen v3 rules"
+    }
+   ]
   }
  },
- "next_id": 371,
+ "next_id": 372,
  "runs": 19,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Ad6VdigRAwP7ioqiqWd1jbeAcNVvkzjLmKco8PHDpump": 1792796701.6850162,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792796701.6850162,
-  "seen:MRVLSjkR2ceUBukujaD3xCyHP1H3B2SzpsNTZF546jo": 1792796701.6850162,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792796701.6850162,
-  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1792796883.434038,
-  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792796883.434038,
-  "seen:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792796883.434038,
-  "seen:FxwWTze7qwWM8GMRcdyHWpocmCw8Th8QLRGETBJbeSUo": 1792796883.434038,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792796883.434038,
-  "control:Ad6VdigRAwP7ioqiqWd1jbeAcNVvkzjLmKco8PHDpump": 1792796883.7893167,
-  "seen:26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump": 1792797065.9151375,
-  "seen:HAMTCT6uBAtu1idkameapeeqtiWBZCSniC47CyaJpump": 1792797065.9151375,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1792797065.9151375,
-  "seen:Cn9fH16vWPEbe3GJcRJ5X1aeYGESoJd1jiHsp6KCpump": 1792797065.9151375,
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792797065.9151375,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792797065.9151375,
-  "seen:J8NLpWf52NrMMXLEhf26NUVrpst8Xm3CS91KZ5RPpump": 1792797248.0910034,
-  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792797248.0910034,
-  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792797428.8763008
+  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792797428.8763008,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792797612.720236,
+  "seen:2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": 1792797612.720236,
+  "seen:Ad6VdigRAwP7ioqiqWd1jbeAcNVvkzjLmKco8PHDpump": 1792797612.720236,
+  "seen:FMT1WhMLo8NXGqrjNzUUzR8P1dopSzQhzSzvho1npump": 1792797794.5539374,
+  "seen:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792797794.5539374,
+  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792797794.5539374,
+  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1792797794.5539374,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792797794.5539374,
+  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1792797794.5539374,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792797978.6673923,
+  "seen:Cn9fH16vWPEbe3GJcRJ5X1aeYGESoJd1jiHsp6KCpump": 1792797978.6673923,
+  "seen:26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump": 1792797978.6673923,
+  "seen:F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump": 1792797978.6673923,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792797978.6673923,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792797978.6673923,
+  "seen:J8NLpWf52NrMMXLEhf26NUVrpst8Xm3CS91KZ5RPpump": 1792798159.3027806,
+  "control:2Nyb2GXVoXM42hVQxJg5RppTbiN5SCZFL4LtZVVDpump": 1792798159.362169
  },
  "talks": {
   "2026-10-21": 109
@@ -72,9 +87,9 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792795983.436902,
+  "t": 1792796894.5564134,
   "crypto": [
-   "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (1h ago)",
+   "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (2h ago)",
    "IRS plans lower tax disclosure penalties, including for crypto: Forbes (2h ago)",
    "Initia halts blockchain after exploit reportedly drains over $2.6M (4h ago)",
    "US senator probes Tether after reported deal with ex-Trump crypto adviser (5h ago)",
@@ -83,7 +98,7 @@
    "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (9h ago)",
    "Here\u2019s what happened in crypto today (9h ago)",
    "China targets 2030 for its national blockchain network buildout (10h ago)",
-   "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (10h ago)"
+   "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (11h ago)"
   ],
   "macro": [],
   "calendar": []
