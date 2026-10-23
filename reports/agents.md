@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-23 12:08 UTC. Runs so far: 17. Model: claude-haiku-5-5.
+Updated 2026-10-23 12:23 UTC. Runs so far: 17. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 284 | 29 | -9479.19 | -12148.84 |
+| control | meme | 285 | 29 | -9411.19 | -12092.84 |
 | control | macro | 8 | 62 | 327.77 | 290.38 |
-| control | all | 292 | 30 | -9151.42 | -11858.46 |
+| control | all | 293 | 30 | -9083.42 | -11802.46 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: ARCTIS long at 7.338e-05, stop 5.8704e-05, target 0.000102732, opened 2026-10-23 11:07 UTC
 - control: TRENCHERS long at 9.182e-05, stop 7.3456e-05, target 0.000128548, opened 2026-10-23 11:19 UTC
 - control: PHP long at 0.0002326, stop 0.00018608, target 0.00032564, opened 2026-10-23 11:34 UTC
+- control: ARCTIS long at 0.0001017, stop 8.136e-05, target 0.00014238, opened 2026-10-23 12:20 UTC
+- control: Au long at 9.585e-05, stop 7.668e-05, target 0.00013419, opened 2026-10-23 12:23 UTC
 
 ## Team
 
@@ -31,5 +32,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED PRB (stop) P&L $-200.98 normal, $-206.08 pessimistic
+- 2026-10-23 12:23 UTC control: OPENED Au long at 9.585e-05 (stop 7.668e-05, target 0.00013419) - control: frozen v3 rules
 
