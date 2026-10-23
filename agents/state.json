@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 2544.2380955344593,
+   "cash": 2493.557823425616,
    "open": [
     {
      "id": 224,
@@ -53,39 +53,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 269,
+     "id": 270,
      "desk": "control",
      "market": "meme",
-     "symbol": "MEOWE",
-     "mint": "FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump",
+     "symbol": "POOT",
+     "mint": "6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump",
      "side": 1,
-     "opened": 1792732175.9951699,
-     "entry": 0.0001764,
-     "stop": 0.00014112,
-     "target": 0.00024696,
-     "size": 1133786.8480725624,
-     "deadline": 1792739375.99517,
+     "opened": 1792732540.1269011,
+     "entry": 0.0001085,
+     "stop": 8.68e-05,
+     "target": 0.00015189999999999998,
+     "size": 1843317.9723502304,
+     "deadline": 1792739740.1269014,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 270,
+ "next_id": 271,
  "runs": 16,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792732339.6602025,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792732339.6602025,
-  "seen:sg7M5vu9BA5FV8jT2XrJ4gRSEMmXxTvDZRJ84fZpump": 1792732339.6602025,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792732339.6602025,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792732339.6602025,
-  "control:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792732340.3492026,
-  "seen:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792732521.6543155,
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792732521.6543155,
-  "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792732521.6543155,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792732521.6543155,
-  "seen:5vT4FuUVvnYaKxRQjRygFkWy8zjdRR2UirXUKLWDpump": 1792732706.592683,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792732706.592683,
   "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792732891.5770907,
   "seen:KmsnaLx9NH2UMqTwVnWyvoT5feaajNNqorue34hpump": 1792732891.5770907,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792732891.5770907,
@@ -93,7 +81,20 @@
   "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792732891.5770907,
   "seen:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792733075.8948326,
   "seen:Cr3NZtjcCWD9Rd3J7V7MTj5akAiYon2GFH8WJ1nepump": 1792733075.8948326,
-  "control:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792733075.9951732
+  "control:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792733075.9951732,
+  "seen:Qq5cVuXnpYR1tXbwA7HDpdJW4bG6DAJoWA9wc1gpump": 1792733256.9436505,
+  "seen:sg7M5vu9BA5FV8jT2XrJ4gRSEMmXxTvDZRJ84fZpump": 1792733256.9436505,
+  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792733256.9436505,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792733256.9436505,
+  "seen:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792733440.0769475,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792733440.0769475,
+  "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792733440.0769475,
+  "seen:A4P24Y2HQsbRbJVmU6mcCsTwffVS4hwJUXCRPbN6pump": 1792733440.0769475,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792733440.0769475,
+  "control:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792733440.1269038,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792733626.912378,
+  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792733626.912378,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792733626.912378
  },
  "talks": {
   "2026-10-21": 109
@@ -128,29 +129,28 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792731439.6614234,
+  "t": 1792732356.944838,
   "crypto": [
-   "Cardano holders are being asked to bet $5 million on copper hitting a new record (0h ago)",
-   "Bitcoin Core changes security policy as AI makes bugs easier to find (0h ago)",
+   "Polymarket has reportedly fired its marketing chief, also a close friend of the CEO (0h ago)",
+   "Ethereum delays Glamsterdam test after security devs flag risk to existing contracts (0h ago)",
+   "Cardano holders are being asked to bet $5 million on copper hitting a new record (1h ago)",
+   "Bitcoin Core changes security policy as AI makes bugs easier to find (1h ago)",
    "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100 (2h ago)",
    "Switzerland approves first spot Bitcoin ETF for retail investors (4h ago)",
    "Pentagon bans US forces from using military info to bet in prediction markets (5h ago)",
    "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express (6h ago)",
    "Senate's top Democratic investigator looking into Tether payments to Bo Hines' firm (6h ago)",
-   "Circle shareholder sues Trump, World Liberty and Steve Witkoff over crypto deals (7h ago)",
-   "Dune launches real-time data feeds covering 200 onchain trading venues (8h ago)",
-   "Here\u2019s what happened in crypto today (9h ago)"
+   "Circle shareholder sues Trump, World Liberty and Steve Witkoff over crypto deals (8h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-23": 0.007586
+  "2026-10-23": 0.008091
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-22 22:05 UTC [macro] 22:05 UTC no orders, flat. Gold 4039.8, 5d low 4036.8 (below 4041.2 no-long line). Watch: hourly close above 4090 = gold long 1%, stop 4070, target 4120, max 12h; break below 4036.8 = no long. GBP/USD 1.34003: hourly clo",
   "2026-10-22 22:26 UTC [macro] 22:26 no orders, flat. Gold 4043.6, 5d low 4036.8, 5d high 4220.4. Watch: hourly close above 4090 = gold long 1%, stop 4070, target 4120, max 12h; break below 4036.8 = no long. GBP/USD hourly close above 1.3418 = test lo",
   "2026-10-22 22:48 UTC [macro] 22:48 no orders, flat. Gold 4044.8 (5d low 4036.8, 5d high 4220.4): long only on hourly close above 4090, stop 4070, target 4120, max 12h; break below 4036.8 = no long. GBP/USD 1.34032: test long only on hourly close abo",
   "2026-10-22 23:09 UTC [macro] 23:09 UTC no orders, flat. Gold 4042.8 (5d low 4036.8, high 4220.4): long 1% only on hourly close above 4090, stop 4070, target 4120, max 12h; break below 4036.8 = no long. GBP/USD 1.34045: test long only on hourly close",
@@ -169,8 +169,9 @@
   "2026-10-23 03:47 UTC [macro] 03:47 UTC flat, no orders. Gold 4032.6 (5d low 4000.9, hi 4220.4). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h, only if trend stabilises. GBP/USD 1.33957: long only on hourly close abov",
   "2026-10-23 04:08 UTC [macro] 04:08 flat, no orders. Gold 4030.8 (5d low 4030.8, hi 4220.4), needs hourly close above 4090 for 1% long, stop 4070, target 4120, max 12h, only if trend stabilises. GBP/USD 1.33948, long only on hourly close above 1.3418",
   "2026-10-23 04:29 UTC [macro] 04:29 flat, no orders. Gold 4023.3 (5d low 4000.9, hi 4220.4). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h, only if trend stabilises. GBP/USD 1.33933: long only on hourly close above 1.",
-  "2026-10-23 04:51 UTC [macro] 04:51 flat, no orders. Gold 4020.5 (5d low 4000.9, hi 4220.4): long 1% only on hourly close above 4090, stop 4070, target 4120, max 12h; 4024 line broken, so trend is weak. GBP/USD 1.33903: long only on hourly close abov"
+  "2026-10-23 04:51 UTC [macro] 04:51 flat, no orders. Gold 4020.5 (5d low 4000.9, hi 4220.4): long 1% only on hourly close above 4090, stop 4070, target 4120, max 12h; 4024 line broken, so trend is weak. GBP/USD 1.33903: long only on hourly close abov",
+  "2026-10-23 05:12 UTC [macro] 05:12 flat, no orders. Gold 4022.4 below 4090 trigger; 5d low 4000.9 still in play. Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD 1.3389 long only above 1.3418. EUR/USD 1.12133, "
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792731072.040828
+ "last_macro_macro": 1792732356.9448254
 }
