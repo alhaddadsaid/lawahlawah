@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 2493.557823425616,
+   "cash": 2420.9319152911703,
    "open": [
     {
      "id": 224,
@@ -23,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 259,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GLOOB",
-     "mint": "FZPUHqK5WgWb4j632gBo6tAzdEow7Uipfs4VnQZgpump",
-     "side": 1,
-     "opened": 1792726142.7318547,
-     "entry": 7.641e-05,
-     "stop": 6.1128e-05,
-     "target": 0.00010697399999999998,
-     "size": 2617458.4478471405,
-     "deadline": 1792733342.731855,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 266,
      "desk": "control",
      "market": "meme",
@@ -51,41 +36,14 @@
      "size": 1072961.373390558,
      "deadline": 1792738090.9114466,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 270,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "POOT",
-     "mint": "6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump",
-     "side": 1,
-     "opened": 1792732540.1269011,
-     "entry": 0.0001085,
-     "stop": 8.68e-05,
-     "target": 0.00015189999999999998,
-     "size": 1843317.9723502304,
-     "deadline": 1792739740.1269014,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 271,
+ "next_id": 272,
  "runs": 16,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792732891.5770907,
-  "seen:KmsnaLx9NH2UMqTwVnWyvoT5feaajNNqorue34hpump": 1792732891.5770907,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792732891.5770907,
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792732891.5770907,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792732891.5770907,
-  "seen:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792733075.8948326,
-  "seen:Cr3NZtjcCWD9Rd3J7V7MTj5akAiYon2GFH8WJ1nepump": 1792733075.8948326,
-  "control:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792733075.9951732,
-  "seen:Qq5cVuXnpYR1tXbwA7HDpdJW4bG6DAJoWA9wc1gpump": 1792733256.9436505,
-  "seen:sg7M5vu9BA5FV8jT2XrJ4gRSEMmXxTvDZRJ84fZpump": 1792733256.9436505,
-  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792733256.9436505,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792733256.9436505,
   "seen:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792733440.0769475,
   "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792733440.0769475,
   "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792733440.0769475,
@@ -94,7 +52,16 @@
   "control:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792733440.1269038,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792733626.912378,
   "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792733626.912378,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792733626.912378
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792733626.912378,
+  "seen:5h86r9mEnhhpy8kXU6vYUQLvkzLmmCSstTxdVLYDURFG": 1792733809.8943298,
+  "seen:AGug1oFLCZ5XTAonN4ihy2AXRXxiPA2j2DgxYmxupump": 1792733809.8943298,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792733809.8943298,
+  "seen:CNLSd9wMkAov9RwLm8jcQtUS61issZhyQSX6NpVapump": 1792733809.8943298,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792733809.8943298,
+  "seen:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792733989.2348146,
+  "seen:Cr3NZtjcCWD9Rd3J7V7MTj5akAiYon2GFH8WJ1nepump": 1792733989.2348146,
+  "control:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792733989.3371763,
+  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792734174.7682228
  },
  "talks": {
   "2026-10-21": 109
@@ -129,18 +96,18 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792732356.944838,
+  "t": 1792733274.7694466,
   "crypto": [
+   "Here\u2019s what happened in crypto today (0h ago)",
+   "Ethereum delays Glamsterdam Hoodi testnet launch over security risks (0h ago)",
    "Polymarket has reportedly fired its marketing chief, also a close friend of the CEO (0h ago)",
    "Ethereum delays Glamsterdam test after security devs flag risk to existing contracts (0h ago)",
    "Cardano holders are being asked to bet $5 million on copper hitting a new record (1h ago)",
    "Bitcoin Core changes security policy as AI makes bugs easier to find (1h ago)",
    "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100 (2h ago)",
    "Switzerland approves first spot Bitcoin ETF for retail investors (4h ago)",
-   "Pentagon bans US forces from using military info to bet in prediction markets (5h ago)",
-   "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express (6h ago)",
-   "Senate's top Democratic investigator looking into Tether payments to Bo Hines' firm (6h ago)",
-   "Circle shareholder sues Trump, World Liberty and Steve Witkoff over crypto deals (8h ago)"
+   "Pentagon bans US forces from using military info to bet in prediction markets (6h ago)",
+   "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express (7h ago)"
   ],
   "macro": [],
   "calendar": []
