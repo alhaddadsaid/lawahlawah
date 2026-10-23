@@ -31,5 +31,5 @@ API spend today: $0.03 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-23 18:42 UTC control: OPENED GUST long at 7.035e-05 (stop 5.628e-05, target 9.849e-05) - control: frozen v3 rules
+## Run ended 2026-10-23 18:42 UTC
 
