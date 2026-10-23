@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 803.9422363842986,
+   "cash": 795.8785070373276,
    "open": [
     {
      "id": 327,
@@ -23,59 +23,45 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 329,
+     "id": 332,
      "desk": "control",
      "market": "meme",
-     "symbol": "GUST",
-     "mint": "z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump",
+     "symbol": "KINS",
+     "mint": "Tqj8yFmagrg7oorpQkVGYR52r96RFTamvWfth9bpump",
      "side": 1,
-     "opened": 1792764667.9984078,
-     "entry": 0.0001315,
-     "stop": 0.00010520000000000001,
-     "target": 0.00018409999999999998,
-     "size": 1520912.5475285172,
-     "deadline": 1792771867.9984078,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 331,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "TC67",
-     "mint": "84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump",
-     "side": 1,
-     "opened": 1792765762.332211,
-     "entry": 0.0001271,
-     "stop": 0.00010168,
-     "target": 0.00017794,
-     "size": 1573564.1227380016,
-     "deadline": 1792772962.332211,
+     "opened": 1792766489.7942498,
+     "entry": 0.0002489,
+     "stop": 0.00019912,
+     "target": 0.0003484599999999999,
+     "size": 803535.5564483729,
+     "deadline": 1792773689.79425,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 332,
+ "next_id": 333,
  "runs": 18,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792766295.1652675,
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792766478.5031636,
-  "seen:PairUottr9sWf6REag62Y8xeFfrWSpL1F9zikNyqWLV": 1792766478.5031636,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792766478.5031636,
-  "seen:84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump": 1792766478.5031636,
-  "seen:EGvNs5sVKNNhe8x5eojGG2h7xtp3hfxbE4FLJhekpump": 1792766478.5031636,
-  "seen:Tqj8yFmagrg7oorpQkVGYR52r96RFTamvWfth9bpump": 1792766478.5031636,
-  "seen:3TDaXKrvXehfGS6JdUatmwb17fM3nJVEPVZXPTXR7uyD": 1792766658.429789,
-  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792766658.429789,
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792766658.429789,
-  "control:84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump": 1792766662.3322132,
   "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792766841.93738,
   "seen:6V8ZLegByoWKpRCmfFtpK5mvMbZ5wFTSaajhr5Ckpump": 1792766841.93738,
   "seen:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792766841.93738,
   "seen:Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": 1792766841.93738,
   "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792766841.93738,
-  "seen:FWz2EY9qhMpLeKYUgunVbfj6pNSbX3Nq3KnGE9whpump": 1792767025.1421878
+  "seen:FWz2EY9qhMpLeKYUgunVbfj6pNSbX3Nq3KnGE9whpump": 1792767025.1421878,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1792767208.2557447,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792767208.2557447,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792767389.0752661,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1792767389.0752661,
+  "seen:84qut46jTfT8nqdviG4HBZ5JQMN1sJg7hBzJgXvfpump": 1792767389.0752661,
+  "seen:EGvNs5sVKNNhe8x5eojGG2h7xtp3hfxbE4FLJhekpump": 1792767389.0752661,
+  "seen:Tqj8yFmagrg7oorpQkVGYR52r96RFTamvWfth9bpump": 1792767389.0752661,
+  "control:Tqj8yFmagrg7oorpQkVGYR52r96RFTamvWfth9bpump": 1792767389.794252,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792767573.4044836,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792767573.4044836,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792767573.4044836,
+  "seen:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792767573.4044836
  },
  "talks": {
   "2026-10-21": 109
@@ -116,14 +102,14 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792765578.5043118,
+  "t": 1792766489.0764449,
   "crypto": [
-   "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (0h ago)",
+   "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (1h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
    "China targets 2030 for its national blockchain network buildout (1h ago)",
    "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (2h ago)",
    "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness (2h ago)",
-   "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy (2h ago)",
+   "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy (3h ago)",
    "Was crypto self-custody ever designed for beginners? (3h ago)",
    "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro (3h ago)",
    "Live updates: Bitcoin dips back to $81,000 as oil prices hit six-month high (3h ago)",
