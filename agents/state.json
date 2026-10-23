@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": 2401.9661765517144,
+   "cash": 2429.9310500261804,
    "open": [
-    {
-     "id": 209,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "GOLD",
-     "mint": "",
-     "side": -1,
-     "opened": 1792692064.3651295,
-     "entry": 4060.60009765625,
-     "stop": 4079.07870047433,
-     "target": 4032.8821934291295,
-     "size": 5.411664560599583,
-     "deadline": 1792778464.36513,
-     "thesis": "control: random direction"
-    },
     {
      "id": 224,
      "desk": "control",
@@ -38,74 +23,46 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 235,
+     "id": 244,
      "desk": "control",
      "market": "meme",
-     "symbol": "TRENCHERS",
-     "mint": "9RhEr8CvHZ92bKsnrwodi2qkcNxYyghjAzCSJgQPpump",
+     "symbol": "CYBER",
+     "mint": "CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump",
      "side": 1,
-     "opened": 1792709111.9501634,
-     "entry": 7.652e-05,
-     "stop": 6.1216e-05,
-     "target": 0.000107128,
-     "size": 2613695.7658128594,
-     "deadline": 1792716311.9501636,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 240,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MEGA",
-     "mint": "DcHRotuS9ueBpbxanzBwTrnHpHJkhvhniafDQNKKpump",
-     "side": 1,
-     "opened": 1792713683.7232463,
-     "entry": 0.0001286,
-     "stop": 0.00010288,
-     "target": 0.00018004,
-     "size": 1555209.9533437013,
-     "deadline": 1792720883.7232468,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 243,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "TURRI",
-     "mint": "DqYemNm4ez4Epxgjgws74NpyGAaddgTyQQercSgpump",
-     "side": 1,
-     "opened": 1792715688.604424,
-     "entry": 5.67e-05,
-     "stop": 4.5360000000000006e-05,
-     "target": 7.938e-05,
-     "size": 3527336.860670194,
-     "deadline": 1792722888.6044242,
+     "opened": 1792716050.54294,
+     "entry": 0.0002152,
+     "stop": 0.00017216,
+     "target": 0.00030127999999999996,
+     "size": 929368.029739777,
+     "deadline": 1792723250.5429401,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 244,
+ "next_id": 245,
  "runs": 15,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792715851.7198536,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792715851.7198536,
-  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792715851.7198536,
-  "seen:8JUmK89f7v4m3LxcfHdpGhEoGjrEFpkvkx9XGJnjpump": 1792715851.7198536,
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792716035.0403368,
-  "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792716035.0403368,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792716035.0403368,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792716219.0946467,
-  "seen:DqYemNm4ez4Epxgjgws74NpyGAaddgTyQQercSgpump": 1792716219.0946467,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792716219.0946467,
   "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792716401.8367245,
   "seen:DcHRotuS9ueBpbxanzBwTrnHpHJkhvhniafDQNKKpump": 1792716401.8367245,
   "seen:HKh5uh37FyRhRbDPcmPCoTcfByRLdY65RFZj9AvZpump": 1792716584.6890473,
   "seen:BbaZXnPRUWYfvuhNWwK25vzhWd5PRwDJ5N47nJtgpump": 1792716584.6890473,
   "seen:ncWL78jBmGAQwskqD3hLwhcY9FgfMep7K6xanicpump": 1792716584.6890473,
   "seen:J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": 1792716584.6890473,
-  "control:DqYemNm4ez4Epxgjgws74NpyGAaddgTyQQercSgpump": 1792716588.6044278
+  "control:DqYemNm4ez4Epxgjgws74NpyGAaddgTyQQercSgpump": 1792716588.6044278,
+  "seen:XsoBhf2ufR8fTyNSjqfU71DYGaE6Z3SUGAidpzriAA4": 1792716767.690055,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792716767.690055,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792716767.690055,
+  "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792716767.690055,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792716767.690055,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792716950.519805,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792716950.519805,
+  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792716950.519805,
+  "control:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792716950.5429432,
+  "seen:FxwWTze7qwWM8GMRcdyHWpocmCw8Th8QLRGETBJbeSUo": 1792717133.5043702,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792717133.5043702,
+  "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792717133.5043702
  },
  "talks": {
   "2026-10-21": 109
@@ -140,7 +97,7 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792714951.7213395,
+  "t": 1792715867.691479,
   "crypto": [
    "Pentagon bans US forces from using military info to bet in prediction markets (1h ago)",
    "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express (2h ago)",

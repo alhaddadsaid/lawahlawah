@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-23 00:34 UTC. Runs so far: 15. Model: claude-haiku-5-5.
+Updated 2026-10-23 00:45 UTC. Runs so far: 15. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 215 | 27 | -7775.23 | -9780.9 |
-| control | macro | 5 | 60 | 177.11 | 149.7 |
-| control | all | 220 | 28 | -7598.12 | -9631.2 |
+| control | meme | 218 | 28 | -7894.56 | -9927.94 |
+| control | macro | 6 | 67 | 324.4 | 294.29 |
+| control | all | 224 | 29 | -7570.16 | -9633.65 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: GOLD short at 4060.6, stop 4079.08, target 4032.88, opened 2026-10-22 18:01 UTC
 - control: EURUSD long at 1.12196, stop 1.12077, target 1.12374, opened 2026-10-22 20:00 UTC
-- control: TRENCHERS long at 7.652e-05, stop 6.1216e-05, target 0.000107128, opened 2026-10-22 22:45 UTC
-- control: MEGA long at 0.0001286, stop 0.00010288, target 0.00018004, opened 2026-10-23 00:01 UTC
-- control: TURRI long at 5.67e-05, stop 4.536e-05, target 7.938e-05, opened 2026-10-23 00:34 UTC
+- control: CYBER long at 0.0002152, stop 0.00017216, target 0.00030128, opened 2026-10-23 00:40 UTC
 
 ## Team
 
@@ -33,11 +30,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-23 00:34 UTC team macro (gold/forex), spent today $0.001
-
-Lead: Gold is 4037.2, under the 4041.2 no-long line and at a new 5d low (4034.4). Our trigger needs an hourly close above 4090, which hasn't happened. GBP/USD is 1.34059, below the 1.3418 test level. No high-impact events in 24h. Journal is net negative, so no edge justifies a trade. Scout and FX Scout have no qualifying setup. Sniper: no orders. Memecoin desk stays idle.
-
-{"orders": [], "close": [], "note": "00:34 flat. Gold 4037.2, 5d low 4034.4 (no-long line 4041.2). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD 1.34059: long only on hourly close above 1.3418. No high-impact events in 24h. Journal net negative, so no trades without a trigger."}
-
-- 2026-10-23 00:34 UTC control: OPENED TURRI long at 5.67e-05 (stop 4.536e-05, target 7.938e-05) - control: frozen v3 rules
+- control: CLOSED TRENCHERS (time) P&L $13.85 normal, $3.24 pessimistic
 
