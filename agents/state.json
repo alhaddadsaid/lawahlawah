@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": 1517.9278516679694,
+   "cash": 1411.3434698709927,
    "open": [
-    {
-     "id": 287,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "POOT",
-     "mint": "6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump",
-     "side": 1,
-     "opened": 1792741019.4116507,
-     "entry": 6.946e-05,
-     "stop": 5.5568e-05,
-     "target": 9.724399999999999e-05,
-     "size": 2879355.0244745174,
-     "deadline": 1792748219.411651,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 291,
      "desk": "control",
@@ -38,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 292,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GUST",
-     "mint": "z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump",
-     "side": 1,
-     "opened": 1792744313.7771497,
-     "entry": 0.0001466,
-     "stop": 0.00011728000000000002,
-     "target": 0.00020524,
-     "size": 1364256.4802182808,
-     "deadline": 1792751513.77715,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 296,
      "desk": "control",
      "market": "meme",
@@ -66,27 +36,44 @@
      "size": 2065475.5757513165,
      "deadline": 1792753154.0263643,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 297,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "zonki",
+     "mint": "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump",
+     "side": 1,
+     "opened": 1792746509.1182415,
+     "entry": 0.0001248,
+     "stop": 9.984e-05,
+     "target": 0.00017471999999999998,
+     "size": 1602564.1025641025,
+     "deadline": 1792753709.1182418,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 298,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "GUST",
+     "mint": "z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump",
+     "side": 1,
+     "opened": 1792746687.401792,
+     "entry": 0.0001061,
+     "stop": 8.488000000000001e-05,
+     "target": 0.00014854,
+     "size": 1885014.137606032,
+     "deadline": 1792753887.4017923,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 297,
+ "next_id": 299,
  "runs": 17,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792746305.1037645,
-  "seen:CMo7GfUhSGXuEfnY7qAzv8hhsV2M2P8GpWqmWikhpump": 1792746305.1037645,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792746305.1037645,
-  "seen:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792746486.992088,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792746486.992088,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792746486.992088,
-  "seen:F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump": 1792746486.992088,
-  "seen:9RhEr8CvHZ92bKsnrwodi2qkcNxYyghjAzCSJgQPpump": 1792746486.992088,
-  "control:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792746487.0125496,
-  "seen:6zU2HmGKXXabRPofrNqsMp7AJm7fmBzNHLtyKM41DuCE": 1792746671.7573037,
-  "seen:CrUwntBYLzRqvVJQtqBn7hpCwY1nwsP39bHwZGDPpump": 1792746671.7573037,
-  "seen:DzQjNcuiZ1ZDMTHGYRw2EeXRzh9QxLDjAGS2DYykpump": 1792746671.7573037,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792746671.7573037,
   "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792746853.9760914,
   "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792746853.9760914,
   "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792746853.9760914,
@@ -95,7 +82,18 @@
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792747038.3413794,
   "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792747038.3413794,
   "seen:GFzKQAwDwHQm8hNQbm4AUuYCnidWJgtvdCoKxfjQpump": 1792747038.3413794,
-  "seen:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792747038.3413794
+  "seen:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792747038.3413794,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792747222.3217938,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792747222.3217938,
+  "seen:GqrAofnssgmWofUJe3xgXJJbmHqVFiQsGam8UoTZSDf": 1792747406.158851,
+  "seen:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792747406.158851,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792747406.158851,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792747406.158851,
+  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1792747406.158851,
+  "control:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792747409.1182454,
+  "seen:EQqrVvGo7NCnZu1FqNgMkFSkEByMmgKAdc5hW6UTYDVC": 1792747587.3121116,
+  "seen:CrUwntBYLzRqvVJQtqBn7hpCwY1nwsP39bHwZGDPpump": 1792747587.3121116,
+  "control:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792747587.4017956
  },
  "talks": {
   "2026-10-21": 109
@@ -147,12 +145,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-23": 0.013333
+  "2026-10-23": 0.013852
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-23 02:00 UTC [macro] 02:00 UTC flat. Gold 4025 (new 5d low 4024.1, chg_24h -2.6%). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h; a new low below 4024 weakens this. GBP/USD 1.33937: long only on hourly close ",
   "2026-10-23 02:22 UTC [macro] 02:22 flat. Gold 4025.8, new 5d low 4000.9 (below 4024 weakening line), chg_24h -2.6%. Plan: gold long 1% only on hourly close above 4090, stop 4070, target 4120, max 12h, and only if the trend stabilises; otherwise no l",
   "2026-10-23 02:43 UTC [macro] 02:43 flat. Gold 4032.5, 5d low 4000.9 (broke 4024 weakening line). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h, only if trend stabilises. GBP/USD 1.33966: long only on hourly close abo",
   "2026-10-23 03:04 UTC [macro] 03:04 flat. Gold 4037.4 (5d low 4000.9, hi 4220.4). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h, only if trend stabilises. GBP/USD 1.33955: long only on hourly close above 1.3418. No me",
@@ -171,8 +168,9 @@
   "2026-10-23 07:43 UTC [macro] 07:43 flat. Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD long only on hourly close above 1.3418. EUR/USD: watch a break below 1.11907 (5d low) for a possible short only if there",
   "2026-10-23 08:04 UTC [macro] 08:04 flat, no orders. Gold 4028.4 below 4090 trigger (long 1%, stop 4070, target 4120, max 12h, needs hourly close). GBP/USD 1.33781 long only on hourly close above 1.3418. EUR/USD 1.12007 near 5d low 1.11907: short onl",
   "2026-10-23 08:25 UTC [macro] 08:25 flat, no orders. Gold 4029.9 below 4090 trigger (long 1%, stop 4070, target 4120, max 12h, needs hourly close). GBP/USD 1.33803 long only on hourly close above 1.3418. EUR/USD 1.12032: short only on a break and hou",
-  "2026-10-23 08:47 UTC [macro] 08:47 flat. Watch: gold hourly close >4090 = long 1%, stop 4070, target 4120, max 12h. EUR/USD hourly close <1.11894 (5d low) = short only if confirmed. GBP/USD hourly close >1.3418 = long. No meme data this cycle, no me"
+  "2026-10-23 08:47 UTC [macro] 08:47 flat. Watch: gold hourly close >4090 = long 1%, stop 4070, target 4120, max 12h. EUR/USD hourly close <1.11894 (5d low) = short only if confirmed. GBP/USD hourly close >1.3418 = long. No meme data this cycle, no me",
+  "2026-10-23 09:08 UTC [macro] 09:08 flat, no orders. Gold 4037.5 needs hourly close >4090 (long 1%, stop 4070, target 4120, max 12h). EUR/USD needs hourly close <1.11894 (short only if confirmed). GBP/USD needs hourly close >1.3418 (long). No high-im"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792745224.0652251
+ "last_macro_macro": 1792746506.160601
 }
