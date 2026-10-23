@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-23 11:04 UTC. Runs so far: 17. Model: claude-haiku-5-5.
+Updated 2026-10-23 11:13 UTC. Runs so far: 17. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,15 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 280 | 29 | -9077.0 | -11715.94 |
+| control | meme | 281 | 29 | -9276.28 | -11920.37 |
 | control | macro | 8 | 62 | 327.77 | 290.38 |
-| control | all | 288 | 30 | -8749.23 | -11425.56 |
+| control | all | 289 | 30 | -8948.51 | -11629.99 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: zonki long at 8.507e-05, stop 6.8056e-05, target 0.000119098, opened 2026-10-23 10:48 UTC
+- control: ARCTIS long at 7.338e-05, stop 5.8704e-05, target 0.000102732, opened 2026-10-23 11:07 UTC
+- control: MEOWE long at 9.409e-05, stop 7.5272e-05, target 0.000131726, opened 2026-10-23 11:13 UTC
 
 ## Team
 
@@ -29,5 +30,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order zonki REJECTED by guardrails: zonki already open
+- 2026-10-23 11:13 UTC control: OPENED MEOWE long at 9.409e-05 (stop 7.5272e-05, target 0.000131726) - control: frozen v3 rules
 
