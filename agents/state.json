@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 1298.183248008581,
+   "cash": 1237.7709727450967,
    "open": [
     {
      "id": 296,
@@ -21,32 +21,48 @@
      "size": 2065475.5757513165,
      "deadline": 1792753154.0263643,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 307,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "zonki",
+     "mint": "2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump",
+     "side": 1,
+     "opened": 1792752531.5106297,
+     "entry": 8.507e-05,
+     "stop": 6.8056e-05,
+     "target": 0.00011909799999999999,
+     "size": 2351005.0546608674,
+     "deadline": 1792759731.51063,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 306,
+ "next_id": 308,
  "runs": 17,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FHMsg9KBBAQZhbukybN8axS4p3ctPrPXw6PrKbA4pump": 1792751972.436207,
-  "seen:4Az5PiqMYnqMgC1LXMgDDSxmtB5YfHB5EUoUpe5wpump": 1792751972.436207,
-  "seen:EHsTvXsE9LKgmzEhY51hadrQRMNQTwmuKoLPpPYWpump": 1792751972.436207,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792751972.436207,
-  "control:EHsTvXsE9LKgmzEhY51hadrQRMNQTwmuKoLPpPYWpump": 1792751972.5012302,
-  "seen:djAVgJBeFod7GsJTNvoPPDYVxivYvopw3WWq2pzpump": 1792752155.8351634,
-  "seen:WU5VydaS4xEyWyqdUGtiCsFnMU3fJpPko2AsFd7pump": 1792752155.8351634,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792752155.8351634,
-  "seen:7HYZgusu6h3DoNpa3a1A9vgWthnFXLQcdNaRadyepump": 1792752337.6229331,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792752337.6229331,
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792752337.6229331,
-  "control:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792752337.689419,
-  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792752519.6944299,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792752519.6944299,
-  "seen:BEpRFSjX3uGLVZ47vQGzbu49ersj3LDdrNtfc9vGpump": 1792752701.5677507,
-  "seen:6yERjojF2jgWaCNpgoJd5Dojx4J4dEA22rxqwAgNpump": 1792752701.5677507,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792752701.5677507,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792752701.5677507
+  "seen:djAVgJBeFod7GsJTNvoPPDYVxivYvopw3WWq2pzpump": 1792753065.2729368,
+  "seen:F9D62GrQaHS5R7CpuJqzRtipBiUeXJMzWr3MS25npump": 1792753065.2729368,
+  "seen:WU5VydaS4xEyWyqdUGtiCsFnMU3fJpPko2AsFd7pump": 1792753065.2729368,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1792753065.2729368,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792753065.2729368,
+  "seen:4ZvWNP1DGKdTzjDVftLaAE2kQhfM5X83At1xcKKepump": 1792753249.2505562,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792753249.2505562,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792753249.2505562,
+  "control:FHMsg9KBBAQZhbukybN8axS4p3ctPrPXw6PrKbA4pump": 1792753249.2690144,
+  "seen:6LyUFZwGvMF69ET9FKhaRGpYq7EaRDyWgLPdpS1LSYm6": 1792753431.236139,
+  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792753431.236139,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792753431.236139,
+  "control:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792753431.5106328,
+  "seen:6yERjojF2jgWaCNpgoJd5Dojx4J4dEA22rxqwAgNpump": 1792753614.745184,
+  "seen:FHMsg9KBBAQZhbukybN8axS4p3ctPrPXw6PrKbA4pump": 1792753796.7092474,
+  "seen:z1gC6KiMdhnp5RjRtH63JjXhrWKpqK1qaDVBLfCpump": 1792753796.7092474,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792753796.7092474,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792753796.7092474,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792753796.7092474
  },
  "talks": {
   "2026-10-21": 109
@@ -81,29 +97,28 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792751619.6961617,
+  "t": 1792752531.2379324,
   "crypto": [
    "HSBC rolls out its first stablecoin to over 3 million everyday app users (0h ago)",
-   "Cysic dangles a 10% bounty, hacker pours loot into Tornado Cash (0h ago)",
+   "Cysic dangles a 10% bounty, hacker pours loot into Tornado Cash (1h ago)",
    "Bybit secures first full Dubai license for spot trading services (1h ago)",
    "Sweden\u2019s central bank revives e-krona debate as stablecoins and digital euro loom (2h ago)",
    "HSBC launches Hong Kong dollar stablecoin for retail payments (2h ago)",
    "India's largest exchange denies hack after sleuths pointed to $16 million in suspicious outflows (3h ago)",
-   "Malaysia, Thailand join Singapore\u2019s cross-border stablecoin push (3h ago)",
-   "Bitcoin ETFs bleed $635M as October slides back into the red (3h ago)",
-   "Here\u2019s what happened in crypto today (5h ago)",
-   "Ethereum delays Glamsterdam Hoodi testnet launch over security risks (5h ago)"
+   "Malaysia, Thailand join Singapore\u2019s cross-border stablecoin push (4h ago)",
+   "Bitcoin ETFs bleed $635M as October slides back into the red (4h ago)",
+   "Here\u2019s what happened in crypto today (6h ago)",
+   "Ethereum delays Glamsterdam Hoodi testnet launch over security risks (6h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-23": 0.015988
+  "2026-10-23": 0.016562
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-23 03:47 UTC [macro] 03:47 UTC flat, no orders. Gold 4032.6 (5d low 4000.9, hi 4220.4). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h, only if trend stabilises. GBP/USD 1.33957: long only on hourly close abov",
   "2026-10-23 04:08 UTC [macro] 04:08 flat, no orders. Gold 4030.8 (5d low 4030.8, hi 4220.4), needs hourly close above 4090 for 1% long, stop 4070, target 4120, max 12h, only if trend stabilises. GBP/USD 1.33948, long only on hourly close above 1.3418",
   "2026-10-23 04:29 UTC [macro] 04:29 flat, no orders. Gold 4023.3 (5d low 4000.9, hi 4220.4). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h, only if trend stabilises. GBP/USD 1.33933: long only on hourly close above 1.",
   "2026-10-23 04:51 UTC [macro] 04:51 flat, no orders. Gold 4020.5 (5d low 4000.9, hi 4220.4): long 1% only on hourly close above 4090, stop 4070, target 4120, max 12h; 4024 line broken, so trend is weak. GBP/USD 1.33903: long only on hourly close abov",
@@ -122,8 +137,9 @@
   "2026-10-23 09:29 UTC [macro] 09:29 flat. Gold 4043.3 needs hourly close >4090 (long 1%, stop 4070, target 4120, max 12h). GBP/USD needs hourly close >1.3418 (long). EUR/USD needs hourly close <1.11894 (short only if confirmed). No high-impact events",
   "2026-10-23 09:51 UTC [macro] 09:51 flat, no orders. Watch: gold hourly close >4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD hourly close >1.3418 = long (test). EUR/USD hourly close <1.11894 = short only if confirmed, no event in 24h. Jour",
   "2026-10-23 10:12 UTC [macro] 10:12 flat, no orders. Gold 4035.3 needs hourly close >4090 (long 1%, stop 4070, target 4120, max 12h). GBP/USD needs hourly close >1.3418 (long test). EUR/USD needs hourly close <1.11894 (short only if confirmed, no eve",
-  "2026-10-23 10:33 UTC [macro] 10:33 flat, no orders. Gold 4038.6 needs hourly close >4090 (long 1%, stop 4070, target 4120, max 12h). Note 5d low now 4000.9, so stop-levels from earlier notes may be stale. EURUSD 1.11995 needs hourly close <1.11894 ("
+  "2026-10-23 10:33 UTC [macro] 10:33 flat, no orders. Gold 4038.6 needs hourly close >4090 (long 1%, stop 4070, target 4120, max 12h). Note 5d low now 4000.9, so stop-levels from earlier notes may be stale. EURUSD 1.11995 needs hourly close <1.11894 (",
+  "2026-10-23 10:55 UTC [macro] 11:00 flat, no orders. Gold 4038.3 needs hourly close >4090 (long 1%, stop 4070, target 4120, max 12h); earlier stops stale since 5d low now 4000.9. EURUSD 1.11995 needs hourly close <1.11894 (short only if confirmed, no"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792751619.6961405
+ "last_macro_macro": 1792752896.7110574
 }
