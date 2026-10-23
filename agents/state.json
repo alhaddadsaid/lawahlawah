@@ -5,40 +5,14 @@
    "open": []
   },
   "control": {
-   "cash": -68.32662219194033,
-   "open": [
-    {
-     "id": 370,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Kit",
-     "mint": "Ad6VdigRAwP7ioqiqWd1jbeAcNVvkzjLmKco8PHDpump",
-     "side": 1,
-     "opened": 1792795983.7893126,
-     "entry": 7.899e-05,
-     "stop": 6.3192e-05,
-     "target": 0.00011058599999999999,
-     "size": 2531966.0716546397,
-     "deadline": 1792803183.7893128,
-     "thesis": "control: frozen v3 rules"
-    }
-   ]
+   "cash": -146.1162158113858,
+   "open": []
   }
  },
  "next_id": 371,
  "runs": 19,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Cn9fH16vWPEbe3GJcRJ5X1aeYGESoJd1jiHsp6KCpump": 1792796153.7693355,
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792796153.7693355,
-  "seen:26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump": 1792796153.7693355,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1792796153.7693355,
-  "seen:F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump": 1792796153.7693355,
-  "seen:J8NLpWf52NrMMXLEhf26NUVrpst8Xm3CS91KZ5RPpump": 1792796337.8661687,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792796337.8661687,
-  "seen:A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": 1792796337.8661687,
-  "seen:AZxJBxAPoi3jyJQUJAT7b1czKw7ZTcvQgQf2R5g4pump": 1792796520.6974504,
-  "seen:hqQLFfpgyu3absr4ZLHXVjHUM7aM39sZmVJcvhzpump": 1792796520.6974504,
   "seen:Ad6VdigRAwP7ioqiqWd1jbeAcNVvkzjLmKco8PHDpump": 1792796701.6850162,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792796701.6850162,
   "seen:MRVLSjkR2ceUBukujaD3xCyHP1H3B2SzpsNTZF546jo": 1792796701.6850162,
@@ -48,7 +22,16 @@
   "seen:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792796883.434038,
   "seen:FxwWTze7qwWM8GMRcdyHWpocmCw8Th8QLRGETBJbeSUo": 1792796883.434038,
   "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792796883.434038,
-  "control:Ad6VdigRAwP7ioqiqWd1jbeAcNVvkzjLmKco8PHDpump": 1792796883.7893167
+  "control:Ad6VdigRAwP7ioqiqWd1jbeAcNVvkzjLmKco8PHDpump": 1792796883.7893167,
+  "seen:26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump": 1792797065.9151375,
+  "seen:HAMTCT6uBAtu1idkameapeeqtiWBZCSniC47CyaJpump": 1792797065.9151375,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1792797065.9151375,
+  "seen:Cn9fH16vWPEbe3GJcRJ5X1aeYGESoJd1jiHsp6KCpump": 1792797065.9151375,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792797065.9151375,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792797065.9151375,
+  "seen:J8NLpWf52NrMMXLEhf26NUVrpst8Xm3CS91KZ5RPpump": 1792797248.0910034,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792797248.0910034,
+  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792797428.8763008
  },
  "talks": {
   "2026-10-21": 109
@@ -106,12 +89,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-23": 0.036083
+  "2026-10-23": 0.03665
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-23 15:54 UTC [macro] 16:00 flat, no triggers met. Watch: gold hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h, no high-impact event); EURUSD hourly close <1.11894 short (confirm, no event 24h); GBPUS",
   "2026-10-23 16:16 UTC [macro] 16:16 flat, no triggers met. Watch: gold hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h, no high-impact event). EURUSD: re-base short plan below 1.11894 (price 1.12007, plan sta",
   "2026-10-23 16:37 UTC [macro] 16:37 flat, no triggers met. Watch: gold hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h, no high-impact event; 4000 is the break-level). EURUSD: re-base short below ~1.1189 (5d ",
   "2026-10-23 16:58 UTC [macro] 16:58 flat, no orders, no triggers met. Watch: gold hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h, no high-impact event). EURUSD hourly close <1.11894 short 0.5-1% (confirm, no",
@@ -130,8 +112,9 @@
   "2026-10-23 21:37 UTC [macro] 21:37 flat, no triggers met. Watch: GOLD hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h, no high-impact event). EURUSD hourly close <1.11894 = short 0.5% (stop 1.1215, target 1.",
   "2026-10-23 21:58 UTC [macro] 21:58 flat, no triggers (GOLD 4010 vs 4000 break; EURUSD 1.12045 vs 1.11894). Watch: GOLD hourly close <4000 with failed 4020 retest = short 1% (stop 4035, target 3960, max 12h, no high-impact event). EURUSD hourly close",
   "2026-10-23 22:19 UTC [macro] 23 Oct 22:19 flat, no triggers. Watch: GOLD hourly close below 4000 with failed 4020 retest = short 1% (stop 4035, target 3960, max 12h, no high-impact event). EURUSD hourly close below 1.11894 = short 0.5% (stop 1.1215,",
-  "2026-10-23 22:40 UTC [macro] 22:40 flat, no triggers. Keep watch: GOLD hourly close <4000 with failed 4020 retest = short 1% (stop 4035, target 3960, max 12h); EURUSD hourly close <1.11894 = short 0.5% (stop 1.1215, target 1.1160, max 12h); GBPUSD 1"
+  "2026-10-23 22:40 UTC [macro] 22:40 flat, no triggers. Keep watch: GOLD hourly close <4000 with failed 4020 retest = short 1% (stop 4035, target 3960, max 12h); EURUSD hourly close <1.11894 = short 0.5% (stop 1.1215, target 1.1160, max 12h); GBPUSD 1",
+  "2026-10-23 23:02 UTC [macro] 23 Oct 23:02 flat, no triggers. Watch (unchanged): GOLD hourly close <4000 with failed 4020 retest = short 1% (stop 4035, target 3960, max 12h, no high-impact event). EURUSD hourly close <1.11894 = short 0.5% (stop 1.121"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792795253.7717056
+ "last_macro_macro": 1792796528.878799
 }
