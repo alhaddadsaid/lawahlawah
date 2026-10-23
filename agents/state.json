@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 2462.370534763294,
+   "cash": 2476.2380955344593,
    "open": [
     {
      "id": 224,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 265,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "POOT",
-     "mint": "6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump",
-     "side": 1,
-     "opened": 1792730525.9454684,
-     "entry": 5.654e-05,
-     "stop": 4.5232e-05,
-     "target": 7.915599999999999e-05,
-     "size": 3537318.712415989,
-     "deadline": 1792737725.9454684,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 266,
      "desk": "control",
      "market": "meme",
@@ -66,26 +51,29 @@
      "size": 1072961.373390558,
      "deadline": 1792738090.9114466,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 268,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "POOT",
+     "mint": "6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump",
+     "side": 1,
+     "opened": 1792731440.3491993,
+     "entry": 7.195e-05,
+     "stop": 5.7560000000000005e-05,
+     "target": 0.00010073,
+     "size": 2779708.1306462823,
+     "deadline": 1792738640.3491995,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 267,
+ "next_id": 269,
  "runs": 16,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:zrVjZmMtjpdMwWdonnWsAoMFMk2GwqEmyZEsjVcpump": 1792731059.7548037,
-  "seen:5qNTWCmhUtbeCr5Aw57tL7suBsRKpw2kotEQ4V6Apump": 1792731059.7548037,
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792731059.7548037,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792731059.7548037,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792731059.7548037,
-  "seen:G8ftMKqsBUghkoMbUgezty4c57eTte4KyAPspEPnpump": 1792731244.4407365,
-  "seen:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792731244.4407365,
-  "seen:7kpAkXpjeLZNBg9WM8ruShqnZ2kTQppDJYy9RBhEpump": 1792731425.3718407,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792731425.3718407,
-  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792731425.3718407,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792731425.3718407,
-  "control:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792731425.9454718,
   "seen:BoTx8y9ynfdxf5ZjWtCoBVkff52qKA82ysaLU8ZM6d8T": 1792731606.0159807,
   "seen:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792731606.0159807,
   "seen:EhuiZVks9ExNTQUg2ZLeW4SQUMAGiwwhK73rASzBpump": 1792731606.0159807,
@@ -93,7 +81,21 @@
   "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792731606.0159807,
   "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792731790.8531113,
   "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792731790.8531113,
-  "control:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792731790.9114501
+  "control:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792731790.9114501,
+  "seen:6LRTa2e6WyAeqsUWwkGX2r8Y9SveZNuvyMTJHJxgpump": 1792731972.0396302,
+  "seen:fs5EZ5rv9CGHaXRYksbc63zkHG2weeeqTcag5UWpump": 1792731972.0396302,
+  "seen:5qNTWCmhUtbeCr5Aw57tL7suBsRKpw2kotEQ4V6Apump": 1792731972.0396302,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792731972.0396302,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792731972.0396302,
+  "control:FiYTnrwt6CPmWQyWY4evBLK5Lu21jJSRHPYtX4Aepump": 1792731975.3358674,
+  "seen:CVeNtoNLZXXQkGyJBdVJyuqaAkRjC4igyBbEusUNpump": 1792732154.8972726,
+  "seen:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792732154.8972726,
+  "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792732339.6602025,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792732339.6602025,
+  "seen:sg7M5vu9BA5FV8jT2XrJ4gRSEMmXxTvDZRJ84fZpump": 1792732339.6602025,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792732339.6602025,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792732339.6602025,
+  "control:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792732340.3492026
  },
  "talks": {
   "2026-10-21": 109
@@ -128,11 +130,11 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792730525.3730736,
+  "t": 1792731439.6614234,
   "crypto": [
    "Cardano holders are being asked to bet $5 million on copper hitting a new record (0h ago)",
    "Bitcoin Core changes security policy as AI makes bugs easier to find (0h ago)",
-   "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100 (1h ago)",
+   "Bitcoin, gold trim early losses as yen gives up gains. Oil stays near $100 (2h ago)",
    "Switzerland approves first spot Bitcoin ETF for retail investors (4h ago)",
    "Pentagon bans US forces from using military info to bet in prediction markets (5h ago)",
    "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express (6h ago)",
@@ -145,12 +147,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-23": 0.007037
+  "2026-10-23": 0.007586
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-22 21:44 UTC [macro] 22:00 UTC no orders, flat. Gold 4039.8, 5d low 4036.8 (below 4041.2 no-long line). Watch: hourly close above 4090 = gold long 1%, stop 4070, target 4120, max 12h; break below 4036.8 = no long. GBP/USD 1.33964: hourly clo",
   "2026-10-22 22:05 UTC [macro] 22:05 UTC no orders, flat. Gold 4039.8, 5d low 4036.8 (below 4041.2 no-long line). Watch: hourly close above 4090 = gold long 1%, stop 4070, target 4120, max 12h; break below 4036.8 = no long. GBP/USD 1.34003: hourly clo",
   "2026-10-22 22:26 UTC [macro] 22:26 no orders, flat. Gold 4043.6, 5d low 4036.8, 5d high 4220.4. Watch: hourly close above 4090 = gold long 1%, stop 4070, target 4120, max 12h; break below 4036.8 = no long. GBP/USD hourly close above 1.3418 = test lo",
   "2026-10-22 22:48 UTC [macro] 22:48 no orders, flat. Gold 4044.8 (5d low 4036.8, 5d high 4220.4): long only on hourly close above 4090, stop 4070, target 4120, max 12h; break below 4036.8 = no long. GBP/USD 1.34032: test long only on hourly close abo",
@@ -169,8 +170,9 @@
   "2026-10-23 03:26 UTC [macro] 03:25 flat. Gold 4028.9 (5d low 4000.9, hi 4220.4), no hourly close above 4090. Watch: gold long 1% only on hourly close above 4090, stop 4070, target 4120, max 12h, only if trend stabilises. GBP/USD 1.33964: long only o",
   "2026-10-23 03:47 UTC [macro] 03:47 UTC flat, no orders. Gold 4032.6 (5d low 4000.9, hi 4220.4). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h, only if trend stabilises. GBP/USD 1.33957: long only on hourly close abov",
   "2026-10-23 04:08 UTC [macro] 04:08 flat, no orders. Gold 4030.8 (5d low 4030.8, hi 4220.4), needs hourly close above 4090 for 1% long, stop 4070, target 4120, max 12h, only if trend stabilises. GBP/USD 1.33948, long only on hourly close above 1.3418",
-  "2026-10-23 04:29 UTC [macro] 04:29 flat, no orders. Gold 4023.3 (5d low 4000.9, hi 4220.4). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h, only if trend stabilises. GBP/USD 1.33933: long only on hourly close above 1."
+  "2026-10-23 04:29 UTC [macro] 04:29 flat, no orders. Gold 4023.3 (5d low 4000.9, hi 4220.4). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h, only if trend stabilises. GBP/USD 1.33933: long only on hourly close above 1.",
+  "2026-10-23 04:51 UTC [macro] 04:51 flat, no orders. Gold 4020.5 (5d low 4000.9, hi 4220.4): long 1% only on hourly close above 4090, stop 4070, target 4120, max 12h; 4024 line broken, so trend is weak. GBP/USD 1.33903: long only on hourly close abov"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792729792.3416264
+ "last_macro_macro": 1792731072.040828
 }
