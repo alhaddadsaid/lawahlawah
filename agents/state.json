@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 2425.8400668745376,
+   "cash": 2369.4918644777335,
    "open": [
     {
      "id": 224,
@@ -23,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 256,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "POOT",
-     "mint": "6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump",
-     "side": 1,
-     "opened": 1792724685.1884468,
-     "entry": 0.0001502,
-     "stop": 0.00012015999999999999,
-     "target": 0.00021028,
-     "size": 1331557.9227696406,
-     "deadline": 1792731885.188447,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 257,
      "desk": "control",
      "market": "meme",
@@ -51,21 +36,29 @@
      "size": 1910219.6752626554,
      "deadline": 1792732062.176985,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 258,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "scribes",
+     "mint": "5UHeHyfB4fo7sy4hHN9gGBJvYSQdz7w6ienZoSTDpump",
+     "side": 1,
+     "opened": 1792725230.9329052,
+     "entry": 5.719e-05,
+     "stop": 4.5752e-05,
+     "target": 8.006599999999999e-05,
+     "size": 3497114.8802238153,
+     "deadline": 1792732430.9329054,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 258,
+ "next_id": 259,
  "runs": 16,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792725030.5817368,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1792725212.4581606,
-  "seen:FZPUHqK5WgWb4j632gBo6tAzdEow7Uipfs4VnQZgpump": 1792725212.4581606,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792725212.4581606,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792725212.4581606,
-  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792725212.4581606,
-  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792725212.4581606,
   "seen:4C8xh6tW9wbeG7vX2DwmPJasXL7fQ6dUiNMCneu8pump": 1792725396.4767745,
   "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792725396.4767745,
   "seen:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": 1792725582.1968427,
@@ -75,7 +68,16 @@
   "control:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792725585.18845,
   "seen:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792725762.1226013,
   "seen:2QY2C5xpdcwjSzVha8vwJe3F4SJh7YU6Gx1Ne7g7pump": 1792725762.1226013,
-  "control:FZPUHqK5WgWb4j632gBo6tAzdEow7Uipfs4VnQZgpump": 1792725762.1769884
+  "control:FZPUHqK5WgWb4j632gBo6tAzdEow7Uipfs4VnQZgpump": 1792725762.1769884,
+  "seen:AHTAdKSqFBiNyGtMYWXfMwH66FTnQErqT5qSdJpWpump": 1792725943.728415,
+  "seen:5UHeHyfB4fo7sy4hHN9gGBJvYSQdz7w6ienZoSTDpump": 1792725943.728415,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792725943.728415,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792726130.8400455,
+  "seen:GNE7e774tkGyxMMzP36ofhNuRrUZ15H4e1LE1xekpump": 1792726130.8400455,
+  "seen:FZPUHqK5WgWb4j632gBo6tAzdEow7Uipfs4VnQZgpump": 1792726130.8400455,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792726130.8400455,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792726130.8400455,
+  "control:5UHeHyfB4fo7sy4hHN9gGBJvYSQdz7w6ienZoSTDpump": 1792726130.932909
  },
  "talks": {
   "2026-10-21": 109
@@ -110,17 +112,17 @@
  ],
  "last_review": 1792677358.2941637,
  "news": {
-  "t": 1792724130.5829024,
+  "t": 1792725043.72959,
   "crypto": [
    "Switzerland approves first spot Bitcoin ETF for retail investors (2h ago)",
    "Pentagon bans US forces from using military info to bet in prediction markets (3h ago)",
    "New DeepSeek ban in US, Swiss-Asia crypto ties deepen: Asia Express (4h ago)",
    "Senate's top Democratic investigator looking into Tether payments to Bo Hines' firm (4h ago)",
-   "Circle shareholder sues Trump, World Liberty and Steve Witkoff over crypto deals (5h ago)",
-   "Dune launches real-time data feeds covering 200 onchain trading venues (6h ago)",
+   "Circle shareholder sues Trump, World Liberty and Steve Witkoff over crypto deals (6h ago)",
+   "Dune launches real-time data feeds covering 200 onchain trading venues (7h ago)",
    "Here\u2019s what happened in crypto today (7h ago)",
-   "Winklevoss PAC moves into Texas Senate race with $81K ad buy (7h ago)",
-   "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech (8h ago)",
+   "Winklevoss PAC moves into Texas Senate race with $81K ad buy (8h ago)",
+   "A16z is the latest VC giant to widen bets beyond crypto and into AI and emerging tech (9h ago)",
    "Underdog taps zerohash to bring crypto deposits to prediction markets (10h ago)"
   ],
   "macro": [],
