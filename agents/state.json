@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": 443.19406208443854,
+   "cash": 312.6485637891364,
    "open": [
-    {
-     "id": 340,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "TRENCHERS",
-     "mint": "9RhEr8CvHZ92bKsnrwodi2qkcNxYyghjAzCSJgQPpump",
-     "side": 1,
-     "opened": 1792772346.844014,
-     "entry": 8.533e-05,
-     "stop": 6.8264e-05,
-     "target": 0.00011946199999999999,
-     "size": 2343841.5563107934,
-     "deadline": 1792779546.844014,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 347,
      "desk": "control",
@@ -51,36 +36,6 @@
      "size": 101423.68384690768,
      "deadline": 1792864977.2166889,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 352,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "RSN",
-     "mint": "CH9oKtvyCC9RsxnF282NAWN13wFeEwPDkih2ebtNpump",
-     "side": 1,
-     "opened": 1792778937.198944,
-     "entry": 6.458e-05,
-     "stop": 5.1664e-05,
-     "target": 9.041199999999999e-05,
-     "size": 3096934.0353050483,
-     "deadline": 1792786137.1989443,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 353,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SHEKEL",
-     "mint": "D3Rv6TuicNWthX3My1Qz7oTKR4K1h2Vjsui4zJBUpump",
-     "side": 1,
-     "opened": 1792779117.9511554,
-     "entry": 0.000132,
-     "stop": 0.00010560000000000002,
-     "target": 0.00018480000000000002,
-     "size": 1515151.5151515151,
-     "deadline": 1792786317.9511557,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,14 +44,6 @@
  "runs": 18,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8hnMfF4XL717GVwzDmvqjJvULozKW6w7BhHFABjvHje4": 1792779296.2601433,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792779296.2601433,
-  "seen:Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": 1792779296.2601433,
-  "seen:EdZ9miwTbdbqs5Q13iZ1EA1bsX2gucVp4edCHRAZpump": 1792779296.2601433,
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792779472.947704,
-  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792779472.947704,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792779472.947704,
-  "control:EURUSD": 1792779477.2166917,
   "seen:AyRRw6GjViSyxG8Kr4iUHJNeRd2NoeXLofFTYfhHpump": 1792779651.9264863,
   "seen:8KagkuN1895fMBu2BFwWb9VdRbV9oy8thETW1Qrbpump": 1792779651.9264863,
   "seen:CokrQHPjaWjyXyU15LiN9rb62tgBuFiU78KD7fKiZtu1": 1792779651.9264863,
@@ -110,7 +57,18 @@
   "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792780017.8623774,
   "seen:DAKWYrU5hLj8vpkC3tED9QTyHnvCF9QovTbWvPuvpump": 1792780017.8623774,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792780017.8623774,
-  "control:D3Rv6TuicNWthX3My1Qz7oTKR4K1h2Vjsui4zJBUpump": 1792780017.9511578
+  "control:D3Rv6TuicNWthX3My1Qz7oTKR4K1h2Vjsui4zJBUpump": 1792780017.9511578,
+  "seen:6NQ6R8ndUED8s1MN6zawrhwoekF6Ep78656W9cwTpump": 1792780200.026203,
+  "seen:E8YeG61gTkBADYtnPcobeyMe6iBwbx5MkUGyNyhxpump": 1792780200.026203,
+  "seen:Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": 1792780200.026203,
+  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792780200.026203,
+  "seen:9g4Pib6AM3oVdP9YA7ZcssAXAuhoUzkjR8w27doYpump": 1792780200.026203,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792780379.8465526,
+  "seen:BM2Ea5SAYaiGtotofyatY1bmeWj2Zsdc6ADbtdFrpump": 1792780379.8465526,
+  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792780379.8465526,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792780379.8465526,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792780379.8465526,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792780379.8465526
  },
  "talks": {
   "2026-10-21": 109
@@ -151,18 +109,18 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792778572.9489722,
+  "t": 1792779479.8478305,
   "crypto": [
-   "US senator probes Tether after reported deal with ex-Trump crypto adviser (0h ago)",
+   "US senator probes Tether after reported deal with ex-Trump crypto adviser (1h ago)",
    "SEC flags tokenization as high-risk area in 2027 market examinations (2h ago)",
-   "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March (2h ago)",
+   "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March (3h ago)",
    "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (4h ago)",
-   "Here\u2019s what happened in crypto today (4h ago)",
+   "Here\u2019s what happened in crypto today (5h ago)",
    "China targets 2030 for its national blockchain network buildout (5h ago)",
-   "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (5h ago)",
+   "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (6h ago)",
    "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness (6h ago)",
    "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy (6h ago)",
-   "Was crypto self-custody ever designed for beginners? (6h ago)"
+   "Was crypto self-custody ever designed for beginners? (7h ago)"
   ],
   "macro": [],
   "calendar": []

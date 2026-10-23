@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-23 18:11 UTC. Runs so far: 18. Model: claude-haiku-5-5.
+Updated 2026-10-23 18:19 UTC. Runs so far: 18. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 322 | 31 | -9884.67 | -12933.69 |
+| control | meme | 325 | 30 | -10015.22 | -13091.66 |
 | control | macro | 8 | 62 | 327.77 | 290.38 |
-| control | all | 330 | 32 | -9556.9 | -12643.31 |
+| control | all | 333 | 31 | -9687.45 | -12801.28 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: TRENCHERS long at 8.533e-05, stop 6.8264e-05, target 0.000119462, opened 2026-10-23 16:19 UTC
 - control: PHP long at 0.0002757, stop 0.00022056, target 0.00038598, opened 2026-10-23 17:17 UTC
 - control: EURUSD short at 1.1197, stop 1.12068, target 1.11822, opened 2026-10-23 18:02 UTC
-- control: RSN long at 6.458e-05, stop 5.1664e-05, target 9.0412e-05, opened 2026-10-23 18:08 UTC
-- control: SHEKEL long at 0.000132, stop 0.0001056, target 0.0001848, opened 2026-10-23 18:11 UTC
 
 ## Team
 
@@ -34,5 +31,5 @@ API spend today: $0.03 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-23 18:11 UTC control: OPENED SHEKEL long at 0.000132 (stop 0.0001056, target 0.0001848) - control: frozen v3 rules
+- control: CLOSED TRENCHERS (time) P&L $-16.01 normal, $-25.86 pessimistic
 
