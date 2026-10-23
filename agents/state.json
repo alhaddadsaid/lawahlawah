@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": 546.2976374519643,
+   "cash": 475.0264901126841,
    "open": [
     {
      "id": 340,
@@ -51,21 +51,6 @@
      "size": 725426.1878853827,
      "deadline": 1792783025.3072057,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 348,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SAM",
-     "mint": "7r5KAnezcuQNsPHTbeRxr5uERHXAnVb8mCpdpvxdkmvf",
-     "side": 1,
-     "opened": 1792776558.749178,
-     "entry": 6.502e-05,
-     "stop": 5.2016000000000005e-05,
-     "target": 9.1028e-05,
-     "size": 3075976.6225776686,
-     "deadline": 1792783758.7491782,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,26 +59,24 @@
  "runs": 18,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792776724.3653243,
-  "seen:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792776724.3653243,
-  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792776724.3653243,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792776724.3653243,
-  "seen:7r5KAnezcuQNsPHTbeRxr5uERHXAnVb8mCpdpvxdkmvf": 1792776724.3653243,
-  "control:Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump": 1792776725.3072078,
-  "seen:EdZ9miwTbdbqs5Q13iZ1EA1bsX2gucVp4edCHRAZpump": 1792776909.0905797,
-  "seen:cRu8MQ2dqh5jUhfJEY57H8rfnHu6kfgeAGF6YZTpump": 1792777092.234981,
-  "seen:D3Rv6TuicNWthX3My1Qz7oTKR4K1h2Vjsui4zJBUpump": 1792777092.234981,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792777092.234981,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792777092.234981,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1792777092.234981,
-  "seen:BqVngDCWkrdnahmcG7ZbBQzXCqsnNDbHRGgL9NThpump": 1792777092.234981,
-  "seen:4nZJvocTBuShVKUpgPf4eKgUcrbxh69FJfkXuNurQd37": 1792777276.4510493,
-  "seen:4panwwdzU6XKdyrqUcUoNr2eVZV4LxsQPA7t9DXvpump": 1792777276.4510493,
-  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792777276.4510493,
   "seen:HsbVYEPo3z5TJbPYZJ15dZDmpQXksJqgX5QSJnRwpump": 1792777458.6863356,
   "seen:jyF5pxtWMRzVTwFTGedwLewy76f7SVBRyfpeKumpump": 1792777458.6863356,
   "seen:Cy7qKnoNQEsUUafCvSYWroqrHD4vu7jrCoeurXyxpump": 1792777458.6863356,
-  "control:7r5KAnezcuQNsPHTbeRxr5uERHXAnVb8mCpdpvxdkmvf": 1792777458.74918
+  "control:7r5KAnezcuQNsPHTbeRxr5uERHXAnVb8mCpdpvxdkmvf": 1792777458.74918,
+  "seen:HsAf8r11yFtDuh7dXok1yWT9BDa9G7iSQEcs7L4Fpump": 1792777642.8829758,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792777642.8829758,
+  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792777642.8829758,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792777827.0043695,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792777827.0043695,
+  "seen:cRu8MQ2dqh5jUhfJEY57H8rfnHu6kfgeAGF6YZTpump": 1792778010.2240345,
+  "seen:4tWei1qS8VvuogrFXQfpTSbfYquZEN3qPRtkw4rLpump": 1792778010.2240345,
+  "seen:D3Rv6TuicNWthX3My1Qz7oTKR4K1h2Vjsui4zJBUpump": 1792778010.2240345,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792778010.2240345,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792778010.2240345,
+  "seen:4panwwdzU6XKdyrqUcUoNr2eVZV4LxsQPA7t9DXvpump": 1792778192.9694343,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792778192.9694343,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792778192.9694343,
+  "seen:EdZ9miwTbdbqs5Q13iZ1EA1bsX2gucVp4edCHRAZpump": 1792778192.9694343
  },
  "talks": {
   "2026-10-21": 109
@@ -134,29 +117,28 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792775824.3665874,
+  "t": 1792776742.8842242,
   "crypto": [
    "SEC flags tokenization as high-risk area in 2027 market examinations (1h ago)",
    "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March (2h ago)",
-   "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (3h ago)",
+   "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (4h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
    "China targets 2030 for its national blockchain network buildout (4h ago)",
    "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (5h ago)",
    "Bitcoin consolidates after 3% loss as AI fears stoke fresh stock-market weakness (5h ago)",
    "Bitcoin Core changes security rules as AI makes finding code bugs dangerously easy (5h ago)",
-   "Was crypto self-custody ever designed for beginners? (5h ago)",
+   "Was crypto self-custody ever designed for beginners? (6h ago)",
    "Bitcoin's price is as jumpy as Nvidia's and eight times more turbulent than the euro (6h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-23": 0.027577
+  "2026-10-23": 0.028106
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-23 10:33 UTC [macro] 10:33 flat, no orders. Gold 4038.6 needs hourly close >4090 (long 1%, stop 4070, target 4120, max 12h). Note 5d low now 4000.9, so stop-levels from earlier notes may be stale. EURUSD 1.11995 needs hourly close <1.11894 (",
   "2026-10-23 10:55 UTC [macro] 11:00 flat, no orders. Gold 4038.3 needs hourly close >4090 (long 1%, stop 4070, target 4120, max 12h); earlier stops stale since 5d low now 4000.9. EURUSD 1.11995 needs hourly close <1.11894 (short only if confirmed, no",
   "2026-10-23 11:16 UTC [macro] 11:16 flat, no orders. Gold 4039.6 needs hourly close >4090 for long 1% (refresh stop: below 4000.9 5d low or 4070 if preferred, target 4120, max 12h). EURUSD 1.11982 needs hourly close <1.11894 for short (confirm, no ev",
   "2026-10-23 11:37 UTC [macro] 11:37 flat, no orders. Gold 4043.9 needs hourly close >4090 for long 1%, stop below 4000.9 5d low (or 4070 only if reconciled), target 4120, max 12h. GBP/USD needs hourly close >1.3418 (long test). EUR/USD needs hourly c",
@@ -175,8 +157,9 @@
   "2026-10-23 16:16 UTC [macro] 16:16 flat, no triggers met. Watch: gold hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h, no high-impact event). EURUSD: re-base short plan below 1.11894 (price 1.12007, plan sta",
   "2026-10-23 16:37 UTC [macro] 16:37 flat, no triggers met. Watch: gold hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h, no high-impact event; 4000 is the break-level). EURUSD: re-base short below ~1.1189 (5d ",
   "2026-10-23 16:58 UTC [macro] 16:58 flat, no orders, no triggers met. Watch: gold hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h, no high-impact event). EURUSD hourly close <1.11894 short 0.5-1% (confirm, no",
-  "2026-10-23 17:20 UTC [macro] 16:58+ flat, no triggers. Watch: GOLD hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h, no high-impact event). EURUSD hourly close <1.11894 short 0.5-1% (confirm, no event 24h). G"
+  "2026-10-23 17:20 UTC [macro] 16:58+ flat, no triggers. Watch: GOLD hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h, no high-impact event). EURUSD hourly close <1.11894 short 0.5-1% (confirm, no event 24h). G",
+  "2026-10-23 17:41 UTC [macro] 17:41 flat, no triggers. Watch: GOLD hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h, no high-impact event). EURUSD hourly close <1.11894 short 0.5-1% (stop 1.1215, target 1.1160"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792776009.0917082
+ "last_macro_macro": 1792777292.9707108
 }
