@@ -59,14 +59,6 @@
  "runs": 17,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GtP1B5pVAzkRpRDQvN15rj2xzA4swtmH3rKfZqQhpump": 1792741191.8899984,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792741191.8899984,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792741191.8899984,
-  "seen:2JA9JtPe7nbppkesuBHGCGxJGvNZB9xecY9UoQcPpump": 1792741191.8899984,
-  "seen:HbVPTLRijQg9PWyu66ZLwug5ERuyXw4p3c3Rfx9hpump": 1792741373.928413,
-  "seen:Baw61KXAJk4MMnNJPBa87S8F77oNhMy7gQ63S8SLpump": 1792741373.928413,
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792741373.928413,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792741373.928413,
   "seen:8rw77Zt4UTrgUvpYNKt1bbZLfg8Ebr4jRKBtL1qipump": 1792741557.3660254,
   "seen:2hPYWv4SydoBYmiecpqVi1AdTDSM4xeHbKeBDBQMpump": 1792741557.3660254,
   "seen:49a5PnzSAnZg5GjJGR7iQ4V1EcKHMrYZtuzmXw4jpump": 1792741737.0337448,
@@ -77,7 +69,16 @@
   "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792741919.3926878,
   "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792741919.3926878,
   "seen:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792741919.3926878,
-  "control:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792741919.4116547
+  "control:6CaTKnA3eJEisxYrS4dKGmqBPJ8apePbc65xteJhpump": 1792741919.4116547,
+  "seen:4eWHVRRUMA4YxfoYrFWbkctU13zdnzbqqJ3hXWyLpump": 1792742101.663331,
+  "seen:Dt7akmmwV3o27TBbWCeFbFg3JBWUiQ2UNt1KMx6ipump": 1792742101.663331,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792742101.663331,
+  "seen:GtP1B5pVAzkRpRDQvN15rj2xzA4swtmH3rKfZqQhpump": 1792742101.663331,
+  "seen:2MLsobfXUqjf5JkB7GtpPXHoKnELDeWiEJKKyyFopump": 1792742101.663331,
+  "seen:HbVPTLRijQg9PWyu66ZLwug5ERuyXw4p3c3Rfx9hpump": 1792742285.2589602,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792742285.2589602,
+  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792742285.2589602,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792742285.2589602
  },
  "talks": {
   "2026-10-21": 109
@@ -129,12 +130,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-23": 0.011253
+  "2026-10-23": 0.011775
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-23 00:34 UTC [macro] 00:34 flat. Gold 4037.2, 5d low 4034.4 (no-long line 4041.2). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD 1.34059: long only on hourly close above 1.3418. No high-impact events",
   "2026-10-23 00:56 UTC [macro] 00:56 UTC flat. Gold 4035.9, new 5d low 4031.6 (no-long line broken). Plan unchanged: gold long 1% only on hourly close above 4090, stop 4070, target 4120, max 12h. GBP/USD 1.34045: long only on hourly close above 1.3418",
   "2026-10-23 01:17 UTC [macro] 01:17 UTC flat. Gold 4029.5, new 5d low 4028.6, below no-long line 4036.8. Plan unchanged: gold long 1% only on hourly close above 4090, stop 4070, target 4120, max 12h. GBP/USD 1.34055: long only on hourly close above 1",
   "2026-10-23 01:39 UTC [macro] Flat. Gold 4027.8 (5d low 4026.4), no hourly close above 4090. Watch: gold long 1% only on hourly close above 4090, stop 4070, target 4120, max 12h. GBP/USD 1.34032: long only on hourly close above 1.3418. No high-impact",
@@ -153,8 +153,9 @@
   "2026-10-23 06:16 UTC [macro] 06:16 flat, no orders. Gold 4034.7 (5d low 4000.9, hi 4220.4). Still waiting for hourly close above 4090 for 1% long (stop 4070, target 4120, max 12h). GBP/USD 1.33897, long only above 1.3418. EUR/USD 1.12145, no trigger",
   "2026-10-23 06:38 UTC [macro] 06:37 flat, no orders. Gold 4028.9 (5d low 4000.9, hi 4220.4). Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD 1.33908, long only on hourly close above 1.3418. EUR/USD 1.12158, no ",
   "2026-10-23 06:59 UTC [macro] 06:59 flat, no orders. Gold 4030.4 below 4090 trigger (long 1%, stop 4070, target 4120, max 12h, needs hourly close). GBP/USD 1.33826, long only on hourly close above 1.3418. EUR/USD 1.12133, no trigger. No high-impact e",
-  "2026-10-23 07:21 UTC [macro] 07:21 flat, no orders. Gold 4029.7 (5d low 4000.9, hi 4220.4): watch hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD 1.33718: long only on hourly close above 1.3418. EUR/USD 1.11995 near 5d lo"
+  "2026-10-23 07:21 UTC [macro] 07:21 flat, no orders. Gold 4029.7 (5d low 4000.9, hi 4220.4): watch hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD 1.33718: long only on hourly close above 1.3418. EUR/USD 1.11995 near 5d lo",
+  "2026-10-23 07:43 UTC [macro] 07:43 flat. Watch: gold hourly close above 4090 = long 1%, stop 4070, target 4120, max 12h. GBP/USD long only on hourly close above 1.3418. EUR/USD: watch a break below 1.11907 (5d low) for a possible short only if there"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792740110.4765863
+ "last_macro_macro": 1792741385.2605937
 }
