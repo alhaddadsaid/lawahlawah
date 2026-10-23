@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-23 15:18 UTC. Runs so far: 18. Model: claude-haiku-5-5.
+Updated 2026-10-23 15:27 UTC. Runs so far: 18. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,15 +9,14 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 306 | 31 | -9522.79 | -12416.97 |
+| control | meme | 307 | 31 | -9584.92 | -12487.76 |
 | control | macro | 8 | 62 | 327.77 | 290.38 |
-| control | all | 314 | 32 | -9195.02 | -12126.59 |
+| control | all | 315 | 31 | -9257.15 | -12197.38 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: MEOWE long at 7.646e-05, stop 6.1168e-05, target 0.000107044, opened 2026-10-23 14:05 UTC
 - control: KINS long at 0.0002489, stop 0.00019912, target 0.00034846, opened 2026-10-23 14:41 UTC
 - control: GUST long at 0.0001661, stop 0.00013288, target 0.00023254, opened 2026-10-23 14:59 UTC
 - control: TC67 long at 7.926e-05, stop 6.3408e-05, target 0.000110964, opened 2026-10-23 15:05 UTC
@@ -34,5 +33,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order CHUNKEE REJECTED by guardrails: desk already has the maximum open positions
+- control: order GUST REJECTED by guardrails: GUST already open
 
