@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-23 19:50 UTC. Runs so far: 19. Model: claude-haiku-5-5.
+Updated 2026-10-23 19:56 UTC. Runs so far: 19. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -20,6 +20,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: EURUSD short at 1.1197, stop 1.12068, target 1.11822, opened 2026-10-23 18:02 UTC
 - control: ARCTIS long at 0.0001394, stop 0.00011152, target 0.00019516, opened 2026-10-23 19:38 UTC
 - control: PHP long at 0.000291, stop 0.0002328, target 0.0004074, opened 2026-10-23 19:41 UTC
+- control: SQUADS long at 0.0001553, stop 0.00012424, target 0.00021742, opened 2026-10-23 19:56 UTC
 
 ## Team
 
@@ -32,10 +33,5 @@ API spend today: $0.03 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-23 19:50 UTC team macro (gold/forex), spent today $0.032
-
-Lead: No trigger is met. Gold is at 4014, above the 4000 short trigger, and EURUSD at 1.1197 is above the 1.11894 breakout level. Scout and FX Scout have no new edge, and the journal shows the memecoin filter and gold scalps losing after costs. Skeptic: any order now would lack a confirmed signal, so we stay flat. Sniper: no orders. Keeping the gold and EURUSD watch levels unchanged.
-
-{"orders": [], "close": [], "note": "20:50 flat, no triggers. Watch: GOLD hourly close <4000 with failed 4020 retest = short 1% (stop 4035, target 3960, max 12h). Gold 5d low now 3989.1. EURUSD hourly close <1.11894 = short 0.5-1% (stop 1.1215, target 1.1160, max 12h, no event 24h). Memecoin filter lost money in 5 of 5 journal trades; no new memecoin entries until a rule is changed."}
-
+- 2026-10-23 19:56 UTC control: OPENED SQUADS long at 0.0001553 (stop 0.00012424, target 0.00021742) - control: frozen v3 rules
 
