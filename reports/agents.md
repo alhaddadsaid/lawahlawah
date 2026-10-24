@@ -34,5 +34,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-24 06:13 UTC control: OPENED BERU long at 6.207e-05 (stop 4.9656e-05, target 8.6898e-05) - control: frozen v3 rules
+## Run ended 2026-10-24 06:13 UTC
 
