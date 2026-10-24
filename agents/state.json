@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -459.4585036264067,
+   "cash": -454.54516006812446,
    "open": [
     {
      "id": 390,
@@ -36,36 +36,6 @@
      "size": 303812.8512836093,
      "deadline": 1792819534.3687897,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 397,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PRIVACY",
-     "mint": "9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump",
-     "side": 1,
-     "opened": 1792812518.9237604,
-     "entry": 5.73e-05,
-     "stop": 4.5839999999999995e-05,
-     "target": 8.021999999999999e-05,
-     "size": 3490401.396160559,
-     "deadline": 1792819718.9237607,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 398,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "LOLSHOES",
-     "mint": "CHSSBJXpKcptQUMyeGYF8XhtCHSZBZ8ARjKwtbnjpump",
-     "side": 1,
-     "opened": 1792813066.6291826,
-     "entry": 0.0001304,
-     "stop": 0.00010432,
-     "target": 0.00018256,
-     "size": 1533742.3312883435,
-     "deadline": 1792820266.6291828,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,15 +44,6 @@
  "runs": 20,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792813418.1166923,
-  "seen:DsmfENFp5jDJuwMzJXPeNJgDfFbUwwSnpiqmgQTZpump": 1792813418.1166923,
-  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792813418.1166923,
-  "control:9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump": 1792813418.9237628,
-  "seen:DPJ4Mock2JTPkGzHEaTht5rCq1uNa9ui1Sbhv1Drpump": 1792813599.047349,
-  "seen:9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump": 1792813599.047349,
-  "seen:HWVv5ebDZgbmULt8ZGW4Yp5Jsj7U1dHWjTWAGLfvFG6Z": 1792813599.047349,
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792813599.047349,
-  "seen:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792813599.047349,
   "seen:AX4Uk2RTdPPCyh219o3TFWUqcyKJbtBWiW6emwkRVZTj": 1792813782.8409176,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792813782.8409176,
   "seen:2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump": 1792813782.8409176,
@@ -91,7 +52,16 @@
   "seen:Biiv46yBzZwwdg3HvYQ52yPXmnMb5EnF8dboTx2qpump": 1792814150.205374,
   "seen:CePvX5yJSR3ZkSnU5SoeMuYS1exwBJR1YKyN5Ps8pump": 1792814150.205374,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792814150.205374,
-  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792814150.205374
+  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792814150.205374,
+  "seen:CuUnefXcu3NksR8EKmvoUH4FM8pB7Tty4sXXDWZKpump": 1792814333.1917117,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792814333.1917117,
+  "seen:BLAZEgnrPc5rw1NGPAdUYT3S5AtyoDaPM2WneBk7uYz8": 1792814333.1917117,
+  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792814333.1917117,
+  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792814333.1917117,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792814517.6237571,
+  "seen:HWVv5ebDZgbmULt8ZGW4Yp5Jsj7U1dHWjTWAGLfvFG6Z": 1792814517.6237571,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1792814517.6237571,
+  "seen:9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump": 1792814517.6237571
  },
  "talks": {
   "2026-10-21": 109
@@ -132,15 +102,15 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792812518.1181848,
+  "t": 1792813433.1933844,
   "crypto": [
    "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (6h ago)",
    "IRS plans lower tax disclosure penalties, including for crypto: Forbes (7h ago)",
    "Initia halts blockchain after exploit reportedly drains over $2.6M (9h ago)",
    "US senator probes Tether after reported deal with ex-Trump crypto adviser (10h ago)",
-   "SEC flags tokenization as high-risk area in 2027 market examinations (11h ago)",
+   "SEC flags tokenization as high-risk area in 2027 market examinations (12h ago)",
    "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March (12h ago)",
-   "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (13h ago)",
+   "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (14h ago)",
    "Here\u2019s what happened in crypto today (14h ago)",
    "China targets 2030 for its national blockchain network buildout (14h ago)",
    "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (15h ago)"
