@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 04:11 UTC. Runs so far: 20. Model: claude-haiku-5-5.
+Updated 2026-10-24 04:17 UTC. Runs so far: 20. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 371 | 31 | -10641.96 | -14174.1 |
+| control | meme | 372 | 31 | -10694.11 | -14235.17 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 380 | 31 | -10448.59 | -14023.19 |
+| control | all | 381 | 31 | -10500.74 | -14084.26 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -19,8 +19,9 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - control: McRib long at 0.0002784, stop 0.00022272, target 0.00038976, opened 2026-10-24 02:33 UTC
 - control: PsyopAnime long at 0.0006583, stop 0.00052664, target 0.00092162, opened 2026-10-24 03:25 UTC
-- control: TRUTH long at 0.0001008, stop 8.064e-05, target 0.00014112, opened 2026-10-24 03:53 UTC
 - control: ELIZABETH long at 0.0001956, stop 0.00015648, target 0.00027384, opened 2026-10-24 04:02 UTC
+- control: PRIVACY long at 0.0001309, stop 0.00010472, target 0.00018326, opened 2026-10-24 04:14 UTC
+- control: TRUTH long at 8.148e-05, stop 6.5184e-05, target 0.000114072, opened 2026-10-24 04:17 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order TRUTH REJECTED by guardrails: TRUTH already open
+- 2026-10-24 04:17 UTC control: OPENED TRUTH long at 8.148e-05 (stop 6.5184e-05, target 0.000114072) - control: frozen v3 rules
 
