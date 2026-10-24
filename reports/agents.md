@@ -34,5 +34,5 @@ API spend today: $0.03 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-24 17:43 UTC control: OPENED HeeHaw long at 0.0002343 (stop 0.00018744, target 0.00032802) - control: frozen v3 rules
+## Run ended 2026-10-24 17:43 UTC
 
