@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -1583.4500466194295,
+   "cash": -1447.4500466194295,
    "open": [
     {
      "id": 420,
@@ -38,36 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 427,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "\u2588\u2588\u2588",
-     "mint": "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump",
-     "side": 1,
-     "opened": 1792829582.411426,
-     "entry": 6.807e-05,
-     "stop": 5.445600000000001e-05,
-     "target": 9.5298e-05,
-     "size": 2938151.902453357,
-     "deadline": 1792836782.4114263,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 428,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "COIL",
-     "mint": "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump",
-     "side": 1,
-     "opened": 1792829761.5806391,
-     "entry": 8.268e-05,
-     "stop": 6.614400000000001e-05,
-     "target": 0.000115752,
-     "size": 2418964.6831156267,
-     "deadline": 1792836961.5806396,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 429,
      "desk": "control",
      "market": "meme",
@@ -81,37 +51,64 @@
      "size": 321543.4083601286,
      "deadline": 1792837148.962899,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 430,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PUMP DEV",
+     "mint": "BSBsxXFGHrew8FcxjYHDgx5EnzoRs9cWkZWxkvP5KAZQ",
+     "side": 1,
+     "opened": 1792830680.3672123,
+     "entry": 9.021e-05,
+     "stop": 7.2168e-05,
+     "target": 0.000126294,
+     "size": 2217049.107637734,
+     "deadline": 1792837880.3672123,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 431,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "COIL",
+     "mint": "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump",
+     "side": 1,
+     "opened": 1792830863.519561,
+     "entry": 0.0001122,
+     "stop": 8.976000000000001e-05,
+     "target": 0.00015708,
+     "size": 1782531.1942959002,
+     "deadline": 1792838063.519561,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 430,
+ "next_id": 432,
  "runs": 21,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792830482.3551989,
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1792830482.3551989,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792830482.3551989,
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792830482.3551989,
-  "control:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792830482.4114296,
-  "seen:DjtS7UxVA5giVKCSVfL7aF8zF9o33e1xEcyKX4jxPMRP": 1792830661.513013,
-  "seen:Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump": 1792830661.513013,
-  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1792830661.513013,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1792830661.513013,
-  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792830661.513013,
-  "control:Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump": 1792830661.5806425,
-  "seen:CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": 1792830844.3750103,
-  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792830844.3750103,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792830844.3750103,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792830844.3750103,
-  "control:CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": 1792830848.9629025,
   "seen:BSBsxXFGHrew8FcxjYHDgx5EnzoRs9cWkZWxkvP5KAZQ": 1792831026.776102,
   "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1792831026.776102,
   "seen:rDg4zv276Gybpe8kKUT1364uNGtqT2Fkwe6baAHpump": 1792831026.776102,
   "seen:6D7UG9okpchL5QHEo5bqDhLHdtAtEtLugH9CSVGCE17c": 1792831209.233615,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792831209.233615,
   "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792831209.233615,
-  "seen:F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump": 1792831209.233615
+  "seen:F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump": 1792831209.233615,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792831393.023212,
+  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792831393.023212,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792831393.023212,
+  "seen:DjtS7UxVA5giVKCSVfL7aF8zF9o33e1xEcyKX4jxPMRP": 1792831580.3096519,
+  "seen:Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump": 1792831580.3096519,
+  "seen:A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": 1792831580.3096519,
+  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792831580.3096519,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792831580.3096519,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792831580.3096519,
+  "control:BSBsxXFGHrew8FcxjYHDgx5EnzoRs9cWkZWxkvP5KAZQ": 1792831580.3672156,
+  "seen:9wSVpVK8SxdRqdPvATgK2khhtQkRjYpPjG2RBQtVpump": 1792831762.9023077,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1792831762.9023077,
+  "control:Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump": 1792831763.5195644
  },
  "talks": {
   "2026-10-21": 109
@@ -152,16 +149,16 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792829944.3772175,
+  "t": 1792830862.9042234,
   "crypto": [
    "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet (4h ago)",
    "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (11h ago)",
-   "IRS plans lower tax disclosure penalties, including for crypto: Forbes (11h ago)",
+   "IRS plans lower tax disclosure penalties, including for crypto: Forbes (12h ago)",
    "Initia halts blockchain after exploit reportedly drains over $2.6M (14h ago)",
    "US senator probes Tether after reported deal with ex-Trump crypto adviser (15h ago)",
    "SEC flags tokenization as high-risk area in 2027 market examinations (16h ago)",
    "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March (17h ago)",
-   "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (18h ago)",
+   "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (19h ago)",
    "Here\u2019s what happened in crypto today (19h ago)",
    "China targets 2030 for its national blockchain network buildout (19h ago)"
   ],
