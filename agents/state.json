@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -828.6082331023412,
+   "cash": -1081.6708411864088,
    "open": [
     {
      "id": 412,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 417,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DPM",
-     "mint": "59NZWxgJWRoHdXxsBFrXLBq4NEa9RBsmmFUqseLzpump",
-     "side": 1,
-     "opened": 1792822224.7052603,
-     "entry": 0.0001476,
-     "stop": 0.00011808000000000001,
-     "target": 0.00020664,
-     "size": 1355013.5501355012,
-     "deadline": 1792829424.7052605,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 418,
      "desk": "control",
      "market": "meme",
@@ -85,18 +70,10 @@
    ]
   }
  },
- "next_id": 419,
- "runs": 20,
+ "next_id": 420,
+ "runs": 21,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792822573.9337122,
-  "seen:9549YjpuBFiBqqYhFyrPbDkbP18GThvTj49PWLGspump": 1792822573.9337122,
-  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792822573.9337122,
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792822754.608979,
-  "seen:59NZWxgJWRoHdXxsBFrXLBq4NEa9RBsmmFUqseLzpump": 1792822754.608979,
-  "seen:BLAZEgnrPc5rw1NGPAdUYT3S5AtyoDaPM2WneBk7uYz8": 1792822754.608979,
-  "seen:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792822754.608979,
-  "control:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792822754.6950471,
   "seen:B7cX5wW3wxHhRzSYTpM56YgMo8pesJjJk6ehz8aXpump": 1792823121.7287207,
   "seen:3w67qwokqjcS6KbZhzNonhmFNGjYbWneB7g5HTXwpump": 1792823121.7287207,
   "seen:74aMfYvUdY9ZxKCC3dtheMZfQYin3omzmnRLpWGPpump": 1792823121.7287207,
@@ -108,7 +85,18 @@
   "seen:AMC1qwR9KhiyrQBRPrxnfo4JfMeMZqEBvt5tgTytNNoc": 1792823303.085742,
   "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792823303.085742,
   "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792823303.085742,
-  "control:74aMfYvUdY9ZxKCC3dtheMZfQYin3omzmnRLpWGPpump": 1792823303.1546218
+  "control:74aMfYvUdY9ZxKCC3dtheMZfQYin3omzmnRLpWGPpump": 1792823303.1546218,
+  "seen:FMshU5gvU1dNJMrvboCneWoimVzgoT31VCTvXnF5pump": 1792823343.440702,
+  "seen:jWkjp7uAzfh3qC7sNTTPBfpz1TfTYqnf7KMces4pump": 1792823343.440702,
+  "seen:DjtS7UxVA5giVKCSVfL7aF8zF9o33e1xEcyKX4jxPMRP": 1792823525.9848747,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792823525.9848747,
+  "seen:WjGTic4mr2f9LJUEBJXSesRzzeuPEFep3VFsBgzpump": 1792823525.9848747,
+  "seen:9549YjpuBFiBqqYhFyrPbDkbP18GThvTj49PWLGspump": 1792823525.9848747,
+  "seen:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792823708.9830961,
+  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792823708.9830961,
+  "seen:FFPSPaZ6pZEeVET743ZBxAhbwQqKZhRp997dMWDNpump": 1792823708.9830961,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792823708.9830961,
+  "control:B7cX5wW3wxHhRzSYTpM56YgMo8pesJjJk6ehz8aXpump": 1792823709.0250251
  },
  "talks": {
   "2026-10-21": 109
@@ -149,17 +137,17 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792821673.9354084,
+  "t": 1792822625.9866002,
   "crypto": [
-   "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet (1h ago)",
-   "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (8h ago)",
+   "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet (2h ago)",
+   "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (9h ago)",
    "IRS plans lower tax disclosure penalties, including for crypto: Forbes (9h ago)",
-   "Initia halts blockchain after exploit reportedly drains over $2.6M (11h ago)",
-   "US senator probes Tether after reported deal with ex-Trump crypto adviser (12h ago)",
+   "Initia halts blockchain after exploit reportedly drains over $2.6M (12h ago)",
+   "US senator probes Tether after reported deal with ex-Trump crypto adviser (13h ago)",
    "SEC flags tokenization as high-risk area in 2027 market examinations (14h ago)",
-   "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March (14h ago)",
+   "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March (15h ago)",
    "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (16h ago)",
-   "Here\u2019s what happened in crypto today (16h ago)",
+   "Here\u2019s what happened in crypto today (17h ago)",
    "China targets 2030 for its national blockchain network buildout (17h ago)"
   ],
   "macro": [],
