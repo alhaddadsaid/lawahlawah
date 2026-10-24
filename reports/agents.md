@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 07:11 UTC. Runs so far: 21. Model: claude-haiku-5-5.
+Updated 2026-10-24 07:24 UTC. Runs so far: 21. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 390 | 30 | -11377.56 | -15085.7 |
+| control | meme | 392 | 30 | -11361.63 | -15090.69 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 399 | 31 | -11184.19 | -14934.79 |
+| control | all | 401 | 31 | -11168.26 | -14939.78 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -20,8 +20,8 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: TRUTH long at 5.351e-05, stop 4.2808e-05, target 7.4914e-05, opened 2026-10-24 05:30 UTC
 - control: ODIE long at 0.0001907, stop 0.00015256, target 0.00026698, opened 2026-10-24 06:04 UTC
 - control: YMB long at 0.0002913, stop 0.00023304, target 0.00040782, opened 2026-10-24 06:35 UTC
-- control: HYPEST long at 0.000101, stop 8.08e-05, target 0.0001414, opened 2026-10-24 06:38 UTC
 - control: ARCTIS long at 0.0001357, stop 0.00010856, target 0.00018998, opened 2026-10-24 07:08 UTC
+- control: BERU long at 5.001e-05, stop 4.0008e-05, target 7.0014e-05, opened 2026-10-24 07:24 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order ODIE REJECTED by guardrails: desk already has the maximum open positions
+- 2026-10-24 07:24 UTC control: OPENED BERU long at 5.001e-05 (stop 4.0008e-05, target 7.0014e-05) - control: frozen v3 rules
 
