@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 12:57 UTC. Runs so far: 22. Model: claude-haiku-5-5.
+Updated 2026-10-24 13:06 UTC. Runs so far: 22. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 430 | 30 | -12401.32 | -16493.47 |
+| control | meme | 433 | 30 | -12434.36 | -16556.43 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 439 | 31 | -12207.95 | -16342.56 |
+| control | all | 442 | 31 | -12240.99 | -16405.52 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: YMB long at 0.0002529, stop 0.00020232, target 0.00035406, opened 2026-10-24 12:11 UTC
 - control: HUG long at 0.0001031, stop 8.248e-05, target 0.00014434, opened 2026-10-24 12:32 UTC
-- control: COIL long at 9.111e-05, stop 7.2888e-05, target 0.000127554, opened 2026-10-24 12:38 UTC
-- control: Friendship long at 0.0001716, stop 0.00013728, target 0.00024024, opened 2026-10-24 12:57 UTC
+- control: YMB long at 0.0002047, stop 0.00016376, target 0.00028658, opened 2026-10-24 13:03 UTC
+- control: PHP long at 0.0001722, stop 0.00013776, target 0.00024108, opened 2026-10-24 13:06 UTC
 
 ## Team
 
@@ -33,11 +32,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-24 12:57 UTC team macro (gold/forex), spent today $0.020
-
-Scout: Feeds are about 16 hours stale (GOLD age 962m, FX about 932m), so no current price can support an entry. Skeptic: Any order would be unverifiable against stop and target, and the team's memecoin and gold trades have lost money overall. FX Scout: No high-impact events in the next 24h, so there is no calendar trigger. Lead: Stay flat and keep the gold short watch list, to act only on live quotes.
-
-{"orders": [], "close": [], "note": "12:57 UTC flat, no orders. Feeds stale about 16h (GOLD age 962m, FX about 932m), so no trigger is verifiable. Watch list unchanged: GOLD short 1% on an hourly close below 4000 with a failed 4020 retest (stop 4035), only on live quotes under 15m old. No high-impact events in 24h. Journal shows memecoin filter trades losing; do not re-enter that setup without a new hypothesis."}
-
-- 2026-10-24 12:57 UTC control: OPENED Friendship long at 0.0001716 (stop 0.00013728, target 0.00024024) - control: frozen v3 rules
+- 2026-10-24 13:06 UTC control: OPENED PHP long at 0.0001722 (stop 0.00013776, target 0.00024108) - control: frozen v3 rules
 
