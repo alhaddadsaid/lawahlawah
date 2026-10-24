@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -2505.420010144423,
+   "cash": -2437.420010144423,
    "open": [
-    {
-     "id": 484,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SHADOW",
-     "mint": "F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump",
-     "side": 1,
-     "opened": 1792861620.1930892,
-     "entry": 0.0001767,
-     "stop": 0.00014136000000000002,
-     "target": 0.00024738,
-     "size": 1131861.9128466325,
-     "deadline": 1792868820.1930895,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 487,
      "desk": "control",
@@ -51,26 +36,51 @@
      "size": 853606.4874093042,
      "deadline": 1792871023.4309108,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 489,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "COIL",
+     "mint": "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump",
+     "side": 1,
+     "opened": 1792865693.9801774,
+     "entry": 0.0001069,
+     "stop": 8.552000000000001e-05,
+     "target": 0.00014965999999999997,
+     "size": 1870907.390084191,
+     "deadline": 1792872893.9801776,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 489,
+ "next_id": 490,
  "runs": 23,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792865679.2675133,
-  "seen:CbTbAY45Tfp8Lbk2ovjkS7wthxNka19MbGbGAZAdpump": 1792865679.2675133,
-  "seen:5C1KYte7uCe1sDT2scodWY1B4s7xASxWFSqK2pfipump": 1792865861.0116808,
-  "seen:2ZTZPzwUH2fFBVy6rDSidVtq6hXVeZPZmxUSLqd7pump": 1792865861.0116808,
-  "seen:4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump": 1792866043.980754,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1792866043.980754,
-  "seen:DUxnHraorABWJEno1RQRW4vvxJq1CFoXJ7izVLQtpump": 1792866226.2265875,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1792866226.2265875,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792866226.2265875,
-  "seen:2mrT8hizpKykdYUHN2uYcNkxGbGnZSumvXQMuwSkpump": 1792866226.2265875,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792866226.2265875,
-  "seen:F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump": 1792866408.021689
+  "seen:F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump": 1792866408.021689,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792866593.6230159,
+  "seen:CbTbAY45Tfp8Lbk2ovjkS7wthxNka19MbGbGAZAdpump": 1792866593.6230159,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1792866593.6230159,
+  "seen:Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump": 1792866593.6230159,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792866593.6230159,
+  "control:Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump": 1792866593.980182,
+  "seen:uD5TW2H5U2JDViTmLpZMxbLgiynohGABUN79Lu1pump": 1792866776.0950947,
+  "seen:C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE": 1792866776.0950947,
+  "seen:2ZTZPzwUH2fFBVy6rDSidVtq6hXVeZPZmxUSLqd7pump": 1792866776.0950947,
+  "seen:B89Hd5Juz7JP2dxCZXFJWk4tMTcbw7feDhuWGb3kq5qE": 1792866776.0950947,
+  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792866776.0950947,
+  "seen:RBLXDGRD64AtRamHMFVcjqne3Ar7NLWtFtYNtsrf1cE": 1792866961.385377,
+  "seen:4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump": 1792866961.385377,
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1792866961.385377,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792866961.385377,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1792867142.9770484,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792867142.9770484,
+  "seen:H6TgEP8cEjvFR9yw8g27hoyk6oEV6eDVadq7F4q3pump": 1792867142.9770484,
+  "seen:mzDd8js7kV8B8o1oaLRkhszYTNZgzRjLBqPhKucpump": 1792867142.9770484,
+  "seen:2mrT8hizpKykdYUHN2uYcNkxGbGnZSumvXQMuwSkpump": 1792867142.9770484,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792867142.9770484
  },
  "talks": {
   "2026-10-21": 109
@@ -111,29 +121,28 @@
  ],
  "last_review": 1792850286.0145006,
  "news": {
-  "t": 1792864779.2701023,
+  "t": 1792865693.6256788,
   "crypto": [
    "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends (2h ago)",
    "Block's new voice AI sounds eerily human, sparking awe and scam fears (3h ago)",
    "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations (3h ago)",
    "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker (3h ago)",
-   "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA (3h ago)",
+   "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA (4h ago)",
    "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan (4h ago)",
    "Bitcoin\u2019s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO (4h ago)",
    "U.S. Clarity Act failure gives Asia and Middle East a competitive edge, says Apex Group CEO (6h ago)",
    "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet (13h ago)",
-   "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (20h ago)"
+   "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (21h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-24": 0.028303
+  "2026-10-24": 0.028859
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-24 11:09 UTC [macro] 11:09 UTC flat, no orders. Feeds still stale (GOLD age 855m, EURUSD/GBPUSD ~825m), so no trigger is verifiable. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), only on ",
   "2026-10-24 11:31 UTC [macro] 11:31 UTC flat, no orders. Feeds stale about 14.6h (GOLD age 876m, EURUSD/GBPUSD ~846m), so no trigger is verifiable. Watch list unchanged: GOLD short 1% on an hourly close below 4000 with a failed 4020 retest (stop 4035",
   "2026-10-24 11:52 UTC [macro] 11:52 UTC flat, no orders. Feeds still stale (GOLD age 897m, FX ~867m), so no trigger is verifiable. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), only on live quotes",
   "2026-10-24 12:14 UTC [macro] 12:14 UTC no orders. Feeds still stale about 15.3h (GOLD age 920m, FX about 890m), so no trigger is verifiable. Watch list unchanged: GOLD short 1% on an hourly close below 4000 with failed 4020 retest (stop 4035), only ",
@@ -152,8 +161,9 @@
   "2026-10-24 16:51 UTC [macro] 16:51 UTC flat, no orders. GOLD feed age about 1197m, FX about 1167m, so no verifiable trigger. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on li",
   "2026-10-24 17:13 UTC [macro] 17:13 UTC flat, no orders. GOLD feed age 1218m and FX about 1188m, so no verifiable trigger. Watch list: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on live quotes. Re",
   "2026-10-24 17:34 UTC [macro] 17:34 UTC flat, no orders. Feeds stale about 20.7h (GOLD age 1240m, FX about 1210m), so no trigger verifiable. Watch list: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, live ",
-  "2026-10-24 17:56 UTC [macro] 17:56 UTC flat, no orders. GOLD age 1262m, FX 1232m, so no verifiable trigger. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on live quotes. Resume"
+  "2026-10-24 17:56 UTC [macro] 17:56 UTC flat, no orders. GOLD age 1262m, FX 1232m, so no verifiable trigger. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on live quotes. Resume",
+  "2026-10-24 18:17 UTC [macro] 18:17 UTC flat, no orders. GOLD feed age 1283m, FX 1253m, no verifiable trigger. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on live quotes. Resu"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792864599.858545
+ "last_macro_macro": 1792865876.0978358
 }
