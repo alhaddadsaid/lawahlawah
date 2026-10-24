@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -595.5773087116296,
+   "cash": -527.5773087116296,
    "open": [
     {
      "id": 396,
@@ -53,47 +53,49 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 405,
+     "id": 406,
      "desk": "control",
      "market": "meme",
-     "symbol": "\u2588\u2588\u2588",
-     "mint": "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump",
+     "symbol": "BERU",
+     "mint": "74aMfYvUdY9ZxKCC3dtheMZfQYin3omzmnRLpWGPpump",
      "side": 1,
-     "opened": 1792816548.8243237,
-     "entry": 0.0001424,
-     "stop": 0.00011392,
-     "target": 0.00019936,
-     "size": 1404494.382022472,
-     "deadline": 1792823748.824324,
+     "opened": 1792817643.150941,
+     "entry": 8.507e-05,
+     "stop": 6.8056e-05,
+     "target": 0.00011909799999999998,
+     "size": 2351005.0546608674,
+     "deadline": 1792824843.1509411,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 406,
+ "next_id": 407,
  "runs": 20,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:E2waBWy4rhVvSm9zbSRdhKzsDmac5pD8RN3woGdmpump": 1792817632.7339435,
-  "seen:Cd68GQ2ed9AV2AbmVBSPdvSEX9mrLyevH9GyK8ktaqFz": 1792817816.4448252,
-  "seen:Biiv46yBzZwwdg3HvYQ52yPXmnMb5EnF8dboTx2qpump": 1792817816.4448252,
-  "seen:8PipyZ2UXmwThH3E5PS93bVMdrhCMv5Zhrfbrdo8Pd4V": 1792817996.489465,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792817996.489465,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792817996.489465,
-  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792817996.489465,
   "seen:59NZWxgJWRoHdXxsBFrXLBq4NEa9RBsmmFUqseLzpump": 1792818179.2588928,
   "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792818179.2588928,
   "seen:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792818179.2588928,
   "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1792818362.8681958,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792818362.8681958,
   "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792818362.8681958,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792818362.8681958
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792818362.8681958,
+  "seen:74aMfYvUdY9ZxKCC3dtheMZfQYin3omzmnRLpWGPpump": 1792818543.109986,
+  "seen:GZYL4JVHikj6H71a7mTdWay1q7DwsWdJFEhkQCsYz4WT": 1792818543.109986,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792818543.109986,
+  "control:74aMfYvUdY9ZxKCC3dtheMZfQYin3omzmnRLpWGPpump": 1792818543.150944,
+  "seen:Cd68GQ2ed9AV2AbmVBSPdvSEX9mrLyevH9GyK8ktaqFz": 1792818727.012798,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792818910.3397455,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792818910.3397455,
+  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792818910.3397455,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792818910.3397455
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498004,
+ "ctrl_macro_hour": 498005,
  "team": [
   {
    "name": "Lead",
@@ -128,8 +130,9 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792817096.4911907,
+  "t": 1792818010.3413813,
   "crypto": [
+   "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet (0h ago)",
    "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (7h ago)",
    "IRS plans lower tax disclosure penalties, including for crypto: Forbes (8h ago)",
    "Initia halts blockchain after exploit reportedly drains over $2.6M (10h ago)",
@@ -138,8 +141,7 @@
    "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March (13h ago)",
    "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (15h ago)",
    "Here\u2019s what happened in crypto today (15h ago)",
-   "China targets 2030 for its national blockchain network buildout (15h ago)",
-   "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (16h ago)"
+   "China targets 2030 for its national blockchain network buildout (16h ago)"
   ],
   "macro": [],
   "calendar": []
