@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 00:46 UTC. Runs so far: 20. Model: claude-haiku-5-5.
+Updated 2026-10-24 00:52 UTC. Runs so far: 20. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 348 | 30 | -10488.06 | -13788.27 |
+| control | meme | 350 | 30 | -10476.7 | -13797.71 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 357 | 31 | -10294.69 | -13637.36 |
+| control | all | 359 | 31 | -10283.33 | -13646.8 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: Peekhole long at 0.0001605, stop 0.0001284, target 0.0002247, opened 2026-10-23 23:14 UTC
 - control: POP long at 5.876e-05, stop 4.7008e-05, target 8.2264e-05, opened 2026-10-23 23:47 UTC
 - control: PHP long at 0.000296, stop 0.0002368, target 0.0004144, opened 2026-10-24 00:34 UTC
 - control: e/acc long at 0.0004813, stop 0.00038504, target 0.00067382, opened 2026-10-24 00:37 UTC
-- control: KURIBO long at 0.0001848, stop 0.00014784, target 0.00025872, opened 2026-10-24 00:40 UTC
+- control: TRUTH long at 0.0002061, stop 0.00016488, target 0.00028854, opened 2026-10-24 00:50 UTC
 
 ## Team
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order TRUTH REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED Peekhole (target) P&L $68.0 normal, $56.0 pessimistic
 
