@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 23:06 UTC. Runs so far: 23. Model: claude-haiku-5-5.
+Updated 2026-10-24 23:15 UTC. Runs so far: 23. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 486 | 31 | -12994.66 | -17645.93 |
+| control | meme | 487 | 31 | -13051.25 | -17711.33 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 495 | 32 | -12801.29 | -17495.02 |
+| control | all | 496 | 32 | -12857.88 | -17560.42 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - control: Bunnett long at 0.0001817, stop 0.00014536, target 0.00025438, opened 2026-10-24 21:53 UTC
 - control: Moustache long at 0.000175, stop 0.00014, target 0.000245, opened 2026-10-24 22:51 UTC
-- control: WILDWOOD long at 5.102e-05, stop 4.0816e-05, target 7.1428e-05, opened 2026-10-24 23:04 UTC
 
 ## Team
 
@@ -32,5 +31,11 @@ API spend today: $0.04 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order Bunnett REJECTED by guardrails: Bunnett already open
+### 2026-10-24 23:15 UTC team macro (gold/forex), spent today $0.036
+
+Lead: Feeds are still stale (GOLD 1581m, FX 1551m), so no quote is verifiable. Scout: the GOLD short trigger (hourly close below 4000 with a failed 4020 retest) is not met. The last print is 4007.9, above 4000, and it can't be confirmed live. Sniper: no order without live pricing and a stop. Skeptic: the watch list needs a live hourly close, so nothing passes. Team stays flat and keeps the watch list.
+
+{"orders": [], "close": [], "note": "23:15 UTC flat, no orders. Feeds stale ~26h (GOLD 1581m, FX 1551m). Last GOLD 4007.9 is above the 4000 trigger, so the short is not armed. Watch list unchanged: GOLD short 1% on live hourly close below 4000 with failed 4020 retest, stop 4035, max 12h. Priority: restore live feed before any trade."}
+
+- control: order Moustache REJECTED by guardrails: Moustache already open
 
