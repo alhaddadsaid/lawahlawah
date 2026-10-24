@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -2368.411139899544,
+   "cash": -2473.525932511633,
    "open": [
-    {
-     "id": 458,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HUG",
-     "mint": "DEL3KmMovmE57YmwzFYFkMuNDs3PZyi3qMvP9Jyfpump",
-     "side": 1,
-     "opened": 1792845163.5020428,
-     "entry": 0.0001031,
-     "stop": 8.248000000000001e-05,
-     "target": 0.00014434,
-     "size": 1939864.2095053347,
-     "deadline": 1792852363.5020432,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 462,
      "desk": "control",
@@ -66,21 +51,6 @@
      "size": 956022.9445506693,
      "deadline": 1792855850.1132917,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 467,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "mil",
-     "mint": "3w67qwokqjcS6KbZhzNonhmFNGjYbWneB7g5HTXwpump",
-     "side": 1,
-     "opened": 1792849740.2749429,
-     "entry": 0.0001606,
-     "stop": 0.00012848000000000002,
-     "target": 0.00022484,
-     "size": 1245330.0124533002,
-     "deadline": 1792856940.274943,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,21 +59,25 @@
  "runs": 22,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": 1792849905.675614,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792849905.675614,
-  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792849905.675614,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792849905.675614,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1792850090.2359252,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792850270.5293534,
-  "seen:AU7usKfEZT8BDGv6n8EVC7jkNqCXYY2XAnfR5YqBpump": 1792850270.5293534,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792850270.5293534,
   "seen:95MV9VPQC7pBZRRS9t8CJvBCi4J3VEH37ZJSGAWapump": 1792850455.2279053,
   "seen:BzoYWZL3fXC5KkzkA6dEh9pBKcv9NAqwkTxJReNxpump": 1792850455.2279053,
   "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1792850455.2279053,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792850455.2279053,
   "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792850455.2279053,
   "seen:3w67qwokqjcS6KbZhzNonhmFNGjYbWneB7g5HTXwpump": 1792850640.1485622,
-  "control:3w67qwokqjcS6KbZhzNonhmFNGjYbWneB7g5HTXwpump": 1792850640.2749472
+  "control:3w67qwokqjcS6KbZhzNonhmFNGjYbWneB7g5HTXwpump": 1792850640.2749472,
+  "seen:J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": 1792850820.977515,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792850820.977515,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792850820.977515,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792850820.977515,
+  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792850820.977515,
+  "seen:4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump": 1792851005.43631,
+  "seen:HwGYjtbj1Sgued8GQH923pEaKnEXC4iLKuFbufr1pump": 1792851005.43631,
+  "seen:EjMkPmaurfKohA2Kxax6XbaYB589k3oZ2XswCBcEpump": 1792851005.43631,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1792851005.43631,
+  "seen:fbsPyxXB4Baj48CkdmVPx8MBxADQoF8nXCyguNxpump": 1792851186.0117207,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792851186.0117207,
+  "seen:WrGMCopUbW7SFqJv8j8nww5Kfw3x4S1hzyRPj3Kpump": 1792851186.0117207
  },
  "talks": {
   "2026-10-21": 109
@@ -142,9 +116,9 @@
    "instructions": "Before any trade, check the hypothesis against the journal and costs. Reject any idea without a pre-registered entry, stop, target, max hold and expected net edge. Track hit rate and net P&L per hypothesis."
   }
  ],
- "last_review": 1792763758.9118564,
+ "last_review": 1792850286.0145006,
  "news": {
-  "t": 1792849190.2387414,
+  "t": 1792850105.4391534,
   "crypto": [
    "U.S. Clarity Act failure gives Asia and Middle East a competitive edge, says Apex Group CEO (2h ago)",
    "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet (9h ago)",
@@ -161,7 +135,7 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-24": 0.021252
+  "2026-10-24": 0.021942
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
