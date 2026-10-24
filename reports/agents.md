@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 04:35 UTC. Runs so far: 20. Model: claude-haiku-5-5.
+Updated 2026-10-24 04:51 UTC. Runs so far: 20. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 373 | 31 | -10695.77 | -14247.05 |
+| control | meme | 374 | 30 | -10789.04 | -14348.19 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 382 | 31 | -10502.4 | -14096.14 |
+| control | all | 383 | 31 | -10595.67 | -14197.28 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - control: PsyopAnime long at 0.0006583, stop 0.00052664, target 0.00092162, opened 2026-10-24 03:25 UTC
 - control: ELIZABETH long at 0.0001956, stop 0.00015648, target 0.00027384, opened 2026-10-24 04:02 UTC
-- control: PRIVACY long at 0.0001309, stop 0.00010472, target 0.00018326, opened 2026-10-24 04:14 UTC
 - control: TRUTH long at 8.148e-05, stop 6.5184e-05, target 0.000114072, opened 2026-10-24 04:17 UTC
 - control: ███ long at 0.0001424, stop 0.00011392, target 0.00019936, opened 2026-10-24 04:35 UTC
 
@@ -34,5 +33,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-24 04:35 UTC control: OPENED ███ long at 0.0001424 (stop 0.00011392, target 0.00019936) - control: frozen v3 rules
+- control: order ███ REJECTED by guardrails: ███ already open
 
