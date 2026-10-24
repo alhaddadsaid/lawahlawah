@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 09:56 UTC. Runs so far: 21. Model: claude-haiku-5-5.
+Updated 2026-10-24 10:05 UTC. Runs so far: 21. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 408 | 30 | -11689.85 | -15574.59 |
+| control | meme | 409 | 30 | -11621.85 | -15518.59 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 417 | 31 | -11496.48 | -15423.68 |
+| control | all | 418 | 31 | -11428.48 | -15367.68 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -21,7 +21,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: ODIE long at 0.0001324, stop 0.00010592, target 0.00018536, opened 2026-10-24 08:40 UTC
 - control: SHADOW long at 0.0001502, stop 0.00012016, target 0.00021028, opened 2026-10-24 09:04 UTC
 - control: HUG long at 0.0001069, stop 8.552e-05, target 0.00014966, opened 2026-10-24 09:41 UTC
-- control: BIO long at 9.053e-05, stop 7.2424e-05, target 0.000126742, opened 2026-10-24 09:56 UTC
+- control: COIL long at 0.0001609, stop 0.00012872, target 0.00022526, opened 2026-10-24 10:05 UTC
 
 ## Team
 
@@ -34,5 +34,13 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-24 09:56 UTC control: OPENED BIO long at 9.053e-05 (stop 7.2424e-05, target 0.000126742) - control: frozen v3 rules
+### 2026-10-24 10:05 UTC team macro (gold/forex), spent today $0.016
+
+Lead: Stay flat. Gold and FX quotes are about 13 hours old, so no trigger can be verified and any fill would use an unknown price.
+Skeptic: Rejecting the GOLD short. Its trigger (hourly close below 4000 with a failed 4020 retest) cannot be checked on stale data, and the journal's recent gold longs lost money.
+Scout: Watch list stands. Re-check once quotes are under 15 minutes old. Gold trigger: hourly close below 4000 with failed 4020 retest, stop 4035. No high-impact events in the next 24h.
+
+{"orders": [], "close": [], "note": "10:05 UTC flat, no orders. GOLD 4007.9 age 791m, EURUSD/GBPUSD age ~761m, so no verifiable trigger. Watch list: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), only with live quotes under 15m old. Journal flag: memecoin filter-based longs and recent gold longs are net negative; keep sizes small."}
+
+- 2026-10-24 10:05 UTC control: OPENED COIL long at 0.0001609 (stop 0.00012872, target 0.00022526) - control: frozen v3 rules
 
