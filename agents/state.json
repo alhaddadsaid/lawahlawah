@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -2837.006729895297,
+   "cash": -2769.006729895297,
    "open": [
     {
      "id": 506,
@@ -38,38 +38,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 508,
+     "id": 509,
      "desk": "control",
      "market": "meme",
-     "symbol": "WILDWOOD",
-     "mint": "5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump",
+     "symbol": "HCAT",
+     "mint": "3AQmLmBUKGGenieXnkNh1QGoFC1sSTkbdoiEU2Cxpump",
      "side": 1,
-     "opened": 1792879552.2681274,
-     "entry": 0.0001578,
-     "stop": 0.00012623999999999998,
-     "target": 0.00022091999999999997,
-     "size": 1267427.122940431,
-     "deadline": 1792886752.2681277,
+     "opened": 1792880101.2871006,
+     "entry": 8.579e-05,
+     "stop": 6.8632e-05,
+     "target": 0.00012010600000000002,
+     "size": 2331274.0412635505,
+     "deadline": 1792887301.287101,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 509,
+ "next_id": 510,
  "runs": 23,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump": 1792879721.7529893,
-  "seen:3AQmLmBUKGGenieXnkNh1QGoFC1sSTkbdoiEU2Cxpump": 1792879721.7529893,
-  "seen:hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump": 1792879721.7529893,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1792879721.7529893,
-  "seen:CbTbAY45Tfp8Lbk2ovjkS7wthxNka19MbGbGAZAdpump": 1792879721.7529893,
-  "control:41thoMqVENHtGhuSp5Jhy9yPWghqrPfeETrMe97JK4tg": 1792879721.8287177,
-  "seen:CrSCphSin4iVXFwKT7JKBTGUh8M7PTp9fsivKoREpump": 1792880088.305094,
-  "seen:CW8ZQeKbGTk1TYY79QMjhp81R48AKVv1imNimgmrpump": 1792880088.305094,
-  "seen:41thoMqVENHtGhuSp5Jhy9yPWghqrPfeETrMe97JK4tg": 1792880088.305094,
-  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792880088.305094,
-  "control:CW8ZQeKbGTk1TYY79QMjhp81R48AKVv1imNimgmrpump": 1792880088.3253727,
   "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792880270.1937099,
   "seen:HtFHBp2ZxwkyH297SBttaNMRkVqt4nW1iUM34BDNpump": 1792880270.1937099,
   "seen:EfMZfcStz5oxorWLhBLcPzkePLz91BG5knrGAGiXpump": 1792880270.1937099,
@@ -80,7 +69,17 @@
   "seen:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": 1792880452.2411346,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792880452.2411346,
   "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792880452.2411346,
-  "control:5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump": 1792880452.2681303
+  "control:5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump": 1792880452.2681303,
+  "seen:5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump": 1792880635.3878708,
+  "seen:3AQmLmBUKGGenieXnkNh1QGoFC1sSTkbdoiEU2Cxpump": 1792880635.3878708,
+  "seen:hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump": 1792880635.3878708,
+  "seen:CbTbAY45Tfp8Lbk2ovjkS7wthxNka19MbGbGAZAdpump": 1792880635.3878708,
+  "seen:9WZ9ZWspJdrNEWs8Tby6hqZhjonqbuAiadEmoSutpump": 1792880816.808387,
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1792880816.808387,
+  "seen:Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump": 1792880816.808387,
+  "seen:CrSCphSin4iVXFwKT7JKBTGUh8M7PTp9fsivKoREpump": 1792881001.2614555,
+  "seen:CW8ZQeKbGTk1TYY79QMjhp81R48AKVv1imNimgmrpump": 1792881001.2614555,
+  "control:3AQmLmBUKGGenieXnkNh1QGoFC1sSTkbdoiEU2Cxpump": 1792881001.287104
  },
  "talks": {
   "2026-10-21": 109
@@ -138,12 +137,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-24": 0.034153
+  "2026-10-24": 0.034685
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-24 15:05 UTC [macro] 14:43+ UTC flat, no orders. GOLD feed age 1090m and FX about 1060m, so no trigger is verifiable. Last GOLD 4007.9 is above the 4000 trigger. Watch list: GOLD short 1% on hourly close below 4000 with failed 4020 retest (s",
   "2026-10-24 15:26 UTC [macro] 15:26 UTC flat, no orders. GOLD feed age 1111m, FX 1081m, no verifiable trigger. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on live quotes. Note",
   "2026-10-24 15:47 UTC [macro] 15:47 UTC flat, no orders. GOLD feed age 1133m, FX about 1103m, so no verifiable trigger. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on live quo",
   "2026-10-24 16:09 UTC [macro] 16:09 UTC flat, no orders. GOLD feed age about 1154m and FX about 1124m, so no verifiable trigger. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on",
@@ -162,8 +160,9 @@
   "2026-10-24 20:46 UTC [macro] 20:46 UTC flat, no orders. Feeds stale about 24h (GOLD 1432m, FX 1402m), so no verifiable trigger. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on",
   "2026-10-24 21:08 UTC [macro] 21:08 UTC flat, no orders. GOLD age 1453m and FX about 1423m, so no live verification possible. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on li",
   "2026-10-24 21:29 UTC [macro] 21:29 UTC flat, no orders. Feeds stale about 24.5h (GOLD age 1474m, FX about 1444m), so no verifiable trigger. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold ",
-  "2026-10-24 21:50 UTC [macro] 21:50 UTC flat, no orders; feeds stale about 25h (GOLD 1495m, FX 1465m). Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest, stop 4035, max 12h, only on live quotes. Priority: restore "
+  "2026-10-24 21:50 UTC [macro] 21:50 UTC flat, no orders; feeds stale about 25h (GOLD 1495m, FX 1465m). Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest, stop 4035, max 12h, only on live quotes. Priority: restore ",
+  "2026-10-24 22:11 UTC [macro] 22:11 UTC flat, no orders. Feeds stale about 25h (GOLD age 1517m, FX about 1487m), no live verification possible. Priority: restore live feed, then re-check. Watch list unchanged: GOLD short 1% on hourly close below 4000"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792878637.4263182
+ "last_macro_macro": 1792879916.8111844
 }
