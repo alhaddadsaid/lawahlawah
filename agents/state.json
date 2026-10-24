@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -2769.006729895297,
+   "cash": -2824.822208688476,
    "open": [
     {
      "id": 506,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 507,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Hercules",
-     "mint": "CW8ZQeKbGTk1TYY79QMjhp81R48AKVv1imNimgmrpump",
-     "side": 1,
-     "opened": 1792879188.3253698,
-     "entry": 6.861e-05,
-     "stop": 5.4888e-05,
-     "target": 9.605399999999999e-05,
-     "size": 2915026.963999417,
-     "deadline": 1792886388.32537,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 509,
      "desk": "control",
      "market": "meme",
@@ -51,25 +36,44 @@
      "size": 2331274.0412635505,
      "deadline": 1792887301.287101,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 510,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Hercules",
+     "mint": "CW8ZQeKbGTk1TYY79QMjhp81R48AKVv1imNimgmrpump",
+     "side": 1,
+     "opened": 1792880284.983332,
+     "entry": 5.29e-05,
+     "stop": 4.232e-05,
+     "target": 7.405999999999999e-05,
+     "size": 3780718.336483932,
+     "deadline": 1792887484.9833322,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 511,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "WILDWOOD",
+     "mint": "5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump",
+     "side": 1,
+     "opened": 1792880467.0100229,
+     "entry": 0.0001845,
+     "stop": 0.0001476,
+     "target": 0.0002583,
+     "size": 1084010.840108401,
+     "deadline": 1792887667.010023,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 510,
+ "next_id": 512,
  "runs": 23,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792880270.1937099,
-  "seen:HtFHBp2ZxwkyH297SBttaNMRkVqt4nW1iUM34BDNpump": 1792880270.1937099,
-  "seen:EfMZfcStz5oxorWLhBLcPzkePLz91BG5knrGAGiXpump": 1792880270.1937099,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792880270.1937099,
-  "seen:4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump": 1792880270.1937099,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1792880270.1937099,
-  "seen:4EhPoCc5mZqrd67tPum8kPs33aNXwRNtYdk16GWuUVzF": 1792880452.2411346,
-  "seen:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": 1792880452.2411346,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792880452.2411346,
-  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792880452.2411346,
-  "control:5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump": 1792880452.2681303,
   "seen:5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump": 1792880635.3878708,
   "seen:3AQmLmBUKGGenieXnkNh1QGoFC1sSTkbdoiEU2Cxpump": 1792880635.3878708,
   "seen:hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump": 1792880635.3878708,
@@ -79,7 +83,15 @@
   "seen:Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump": 1792880816.808387,
   "seen:CrSCphSin4iVXFwKT7JKBTGUh8M7PTp9fsivKoREpump": 1792881001.2614555,
   "seen:CW8ZQeKbGTk1TYY79QMjhp81R48AKVv1imNimgmrpump": 1792881001.2614555,
-  "control:3AQmLmBUKGGenieXnkNh1QGoFC1sSTkbdoiEU2Cxpump": 1792881001.287104
+  "control:3AQmLmBUKGGenieXnkNh1QGoFC1sSTkbdoiEU2Cxpump": 1792881001.287104,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792881184.1780117,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792881184.1780117,
+  "seen:4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump": 1792881184.1780117,
+  "control:CW8ZQeKbGTk1TYY79QMjhp81R48AKVv1imNimgmrpump": 1792881184.9833353,
+  "seen:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": 1792881366.9843895,
+  "seen:qEUxJEhMBuj5V9MUiP7CMvn2Rp5LkZ3FrZdfKcLpump": 1792881366.9843895,
+  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792881366.9843895,
+  "control:5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump": 1792881367.0100262
  },
  "talks": {
   "2026-10-21": 109
@@ -120,17 +132,17 @@
  ],
  "last_review": 1792850286.0145006,
  "news": {
-  "t": 1792879370.1964912,
+  "t": 1792880284.1808152,
   "crypto": [
    "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends (6h ago)",
    "Block's new voice AI sounds eerily human, sparking awe and scam fears (7h ago)",
    "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations (7h ago)",
    "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker (7h ago)",
-   "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA (7h ago)",
+   "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA (8h ago)",
    "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan (8h ago)",
    "Bitcoin\u2019s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO (8h ago)",
    "U.S. Clarity Act failure gives Asia and Middle East a competitive edge, says Apex Group CEO (10h ago)",
-   "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet (17h ago)",
+   "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet (18h ago)",
    "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (25h ago)"
   ],
   "macro": [],

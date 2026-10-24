@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 22:15 UTC. Runs so far: 23. Model: claude-haiku-5-5.
+Updated 2026-10-24 22:21 UTC. Runs so far: 23. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 479 | 31 | -12962.49 | -17542.81 |
+| control | meme | 480 | 31 | -13018.31 | -17607.45 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 488 | 32 | -12769.12 | -17391.9 |
+| control | all | 489 | 32 | -12824.94 | -17456.54 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: Bunnett long at 0.0001817, stop 0.00014536, target 0.00025438, opened 2026-10-24 21:53 UTC
-- control: Hercules long at 6.861e-05, stop 5.4888e-05, target 9.6054e-05, opened 2026-10-24 21:59 UTC
 - control: HCAT long at 8.579e-05, stop 6.8632e-05, target 0.000120106, opened 2026-10-24 22:15 UTC
+- control: Hercules long at 5.29e-05, stop 4.232e-05, target 7.406e-05, opened 2026-10-24 22:18 UTC
+- control: WILDWOOD long at 0.0001845, stop 0.0001476, target 0.0002583, opened 2026-10-24 22:21 UTC
 
 ## Team
 
@@ -32,5 +33,5 @@ API spend today: $0.03 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-24 22:15 UTC control: OPENED HCAT long at 8.579e-05 (stop 6.8632e-05, target 0.000120106) - control: frozen v3 rules
+- 2026-10-24 22:21 UTC control: OPENED WILDWOOD long at 0.0001845 (stop 0.0001476, target 0.0002583) - control: frozen v3 rules
 
