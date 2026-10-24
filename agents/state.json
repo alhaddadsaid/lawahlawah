@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -1493.835088479058,
+   "cash": -1550.266034770618,
    "open": [
     {
      "id": 434,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 444,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HUG",
-     "mint": "DEL3KmMovmE57YmwzFYFkMuNDs3PZyi3qMvP9Jyfpump",
-     "side": 1,
-     "opened": 1792837805.5482535,
-     "entry": 0.0001173,
-     "stop": 9.384000000000001e-05,
-     "target": 0.00016422,
-     "size": 1705029.8380221652,
-     "deadline": 1792845005.5482535,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 445,
      "desk": "control",
      "market": "meme",
@@ -66,23 +51,44 @@
      "size": 989119.6834817013,
      "deadline": 1792845371.8202913,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 446,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "COIL",
+     "mint": "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump",
+     "side": 1,
+     "opened": 1792838351.4452994,
+     "entry": 0.000138,
+     "stop": 0.0001104,
+     "target": 0.00019319999999999998,
+     "size": 1449275.3623188406,
+     "deadline": 1792845551.4452996,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 447,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "HUG",
+     "mint": "DEL3KmMovmE57YmwzFYFkMuNDs3PZyi3qMvP9Jyfpump",
+     "side": 1,
+     "opened": 1792838717.4676037,
+     "entry": 9.047e-05,
+     "stop": 7.237600000000001e-05,
+     "target": 0.000126658,
+     "size": 2210677.572676025,
+     "deadline": 1792845917.467604,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 446,
+ "next_id": 448,
  "runs": 21,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1792838339.5052893,
-  "seen:95MV9VPQC7pBZRRS9t8CJvBCi4J3VEH37ZJSGAWapump": 1792838522.4068484,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1792838522.4068484,
-  "seen:BRdrs5tdpxgedmEfZGnjxMmDB7KMUEE2CEXLrMyspump": 1792838522.4068484,
-  "seen:75LU2pCf9nD1y5RKNYcqSekNrTomj6o6r45eD1g2pump": 1792838705.4788291,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792838705.4788291,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792838705.4788291,
-  "seen:A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": 1792838705.4788291,
-  "control:DEL3KmMovmE57YmwzFYFkMuNDs3PZyi3qMvP9Jyfpump": 1792838705.5482562,
   "seen:GorDnf8Xfp9bWm9XCuzi7NXy7i5x5MRYZecrVbrWxVoA": 1792838888.1899009,
   "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792838888.1899009,
   "seen:DEL3KmMovmE57YmwzFYFkMuNDs3PZyi3qMvP9Jyfpump": 1792838888.1899009,
@@ -91,7 +97,19 @@
   "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792838888.1899009,
   "seen:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792838888.1899009,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792839071.2195547,
-  "control:GorDnf8Xfp9bWm9XCuzi7NXy7i5x5MRYZecrVbrWxVoA": 1792839071.8202946
+  "control:GorDnf8Xfp9bWm9XCuzi7NXy7i5x5MRYZecrVbrWxVoA": 1792839071.8202946,
+  "seen:BPEtujorjTND3qWFPT4jgz73Acr1SadgGyRYSUmHpump": 1792839251.3745313,
+  "seen:XmEWmajopTvMcmxJknjjMk2kohMEyRyhGXdDWASpump": 1792839251.3745313,
+  "seen:GEVdmj23jNmrVL6xpdp6F1gR98jJSkpprvv8DCqcpump": 1792839251.3745313,
+  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792839251.3745313,
+  "control:Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump": 1792839251.4453025,
+  "seen:FwGqRtVJgXi11wMcmYAF2VhmaS9TnnfiBSJzfrEBpump": 1792839434.6431632,
+  "seen:95MV9VPQC7pBZRRS9t8CJvBCi4J3VEH37ZJSGAWapump": 1792839434.6431632,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1792839434.6431632,
+  "seen:75LU2pCf9nD1y5RKNYcqSekNrTomj6o6r45eD1g2pump": 1792839617.4099107,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792839617.4099107,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792839617.4099107,
+  "control:DEL3KmMovmE57YmwzFYFkMuNDs3PZyi3qMvP9Jyfpump": 1792839617.4676073
  },
  "talks": {
   "2026-10-21": 109
