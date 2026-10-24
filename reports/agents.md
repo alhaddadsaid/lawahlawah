@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 10:57 UTC. Runs so far: 21. Model: claude-haiku-5-5.
+Updated 2026-10-24 11:04 UTC. Runs so far: 21. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 417 | 30 | -11846.35 | -15819.39 |
+| control | meme | 419 | 30 | -11917.02 | -15908.76 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 426 | 31 | -11652.98 | -15668.48 |
+| control | all | 428 | 31 | -11723.65 | -15757.85 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: SHADOW long at 0.0001502, stop 0.00012016, target 0.00021028, opened 2026-10-24 09:04 UTC
 - control: YMB long at 0.0003175, stop 0.000254, target 0.0004445, opened 2026-10-24 10:08 UTC
-- control: COIL long at 0.000138, stop 0.0001104, target 0.0001932, opened 2026-10-24 10:39 UTC
 - control: ELIZABETH long at 0.0001678, stop 0.00013424, target 0.00023492, opened 2026-10-24 10:54 UTC
+- control: HUG long at 0.0001251, stop 0.00010008, target 0.00017514, opened 2026-10-24 11:00 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order COIL REJECTED by guardrails: COIL already open
+- control: CLOSED SHADOW (time) P&L $-17.01 normal, $-26.83 pessimistic
 
