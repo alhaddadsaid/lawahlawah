@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 05:00 UTC. Runs so far: 20. Model: claude-haiku-5-5.
+Updated 2026-10-24 05:12 UTC. Runs so far: 20. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 375 | 31 | -10721.04 | -14292.19 |
+| control | meme | 377 | 31 | -10850.51 | -14438.85 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 384 | 31 | -10527.67 | -14141.28 |
+| control | all | 386 | 31 | -10657.14 | -14287.94 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -20,7 +20,8 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: PsyopAnime long at 0.0006583, stop 0.00052664, target 0.00092162, opened 2026-10-24 03:25 UTC
 - control: ELIZABETH long at 0.0001956, stop 0.00015648, target 0.00027384, opened 2026-10-24 04:02 UTC
 - control: TRUTH long at 8.148e-05, stop 6.5184e-05, target 0.000114072, opened 2026-10-24 04:17 UTC
-- control: BERU long at 8.507e-05, stop 6.8056e-05, target 0.000119098, opened 2026-10-24 04:54 UTC
+- control: DESSA long at 0.0001836, stop 0.00014688, target 0.00025704, opened 2026-10-24 05:03 UTC
+- control: ███ long at 0.0001836, stop 0.00014688, target 0.00025704, opened 2026-10-24 05:12 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order GOLD REJECTED by guardrails: GOLD market closed or data stale
+- 2026-10-24 05:12 UTC control: OPENED ███ long at 0.0001836 (stop 0.00014688, target 0.00025704) - control: frozen v3 rules
 
