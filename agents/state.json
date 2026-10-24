@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -283.23598309822347,
+   "cash": -406.8504239670891,
    "open": [
-    {
-     "id": 373,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "POP",
-     "mint": "FxwWTze7qwWM8GMRcdyHWpocmCw8Th8QLRGETBJbeSUo",
-     "side": 1,
-     "opened": 1792799263.7538018,
-     "entry": 5.876e-05,
-     "stop": 4.7008e-05,
-     "target": 8.2264e-05,
-     "size": 3403675.9700476513,
-     "deadline": 1792806463.753802,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 378,
      "desk": "control",
@@ -70,38 +55,34 @@
    ]
   }
  },
- "next_id": 382,
+ "next_id": 383,
  "runs": 20,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:YHhs8Zk3fHn5cb7JuhLt1UraJFyhZu2j9Q3MzfJKLcn": 1792803163.3443182,
-  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1792803163.3443182,
-  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792803163.3443182,
-  "seen:CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": 1792803163.3443182,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1792803163.3443182,
-  "control:CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": 1792803163.4040449,
-  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792803343.8334124,
-  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792803343.8334124,
-  "seen:FxwWTze7qwWM8GMRcdyHWpocmCw8Th8QLRGETBJbeSUo": 1792803343.8334124,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792803343.8334124,
-  "control:8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump": 1792803344.511529,
-  "seen:8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump": 1792803528.2620597,
-  "seen:BNg2vG2Z3HrkDLUJRUNFcQJo2mEJviyk2QDZtAHJpump": 1792803528.2620597,
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792803528.2620597,
-  "seen:26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump": 1792803528.2620597,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792803528.2620597,
-  "seen:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792803528.2620597,
-  "seen:Biiv46yBzZwwdg3HvYQ52yPXmnMb5EnF8dboTx2qpump": 1792803711.766286,
-  "seen:J8NLpWf52NrMMXLEhf26NUVrpst8Xm3CS91KZ5RPpump": 1792803711.766286,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792803896.9464178,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792803896.9464178,
-  "control:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792803900.3565881
+  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792804262.5105937,
+  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792804262.5105937,
+  "seen:26Aawi1sZSNR8Raumc3hdvKbke6RJ1dYaKqgrHXopump": 1792804446.1196353,
+  "seen:8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump": 1792804446.1196353,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792804446.1196353,
+  "seen:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792804446.1196353,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792804446.1196353,
+  "seen:J8NLpWf52NrMMXLEhf26NUVrpst8Xm3CS91KZ5RPpump": 1792804624.450529,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792804624.450529,
+  "seen:3Xq3nspu91fEzGbzi9kSJ4FYAnBeeiLHPoxQx6cPSQj1": 1792804624.450529,
+  "control:8WRdyRqn2GeAxNb5MpGqHytXTD1MHEiTewbadR5hpump": 1792804624.503544,
+  "seen:HJcPYoVCbJM3mqMNRMNUDu4h7DiC7tb7WfJZfumvpump": 1792804808.2641656,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1792804808.2641656,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792804808.2641656,
+  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792804991.6421702,
+  "seen:Biiv46yBzZwwdg3HvYQ52yPXmnMb5EnF8dboTx2qpump": 1792804991.6421702,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792804991.6421702,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1792804991.6421702
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 497994,
+ "ctrl_macro_hour": 498001,
  "team": [
   {
    "name": "Lead",
@@ -136,7 +117,7 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792802443.8348286,
+  "t": 1792803362.5121458,
   "crypto": [
    "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (3h ago)",
    "IRS plans lower tax disclosure penalties, including for crypto: Forbes (4h ago)",
@@ -146,7 +127,7 @@
    "Bitcoin seeks support above $81K as Brent crude oil hits highest level since March (9h ago)",
    "Robinhood sees surge in bitcoin, gold prediction markets as traders move beyond sports (11h ago)",
    "Here\u2019s what happened in crypto today (11h ago)",
-   "China targets 2030 for its national blockchain network buildout (11h ago)",
+   "China targets 2030 for its national blockchain network buildout (12h ago)",
    "New York AG seeks $1.37B from NovaTech founders over Ponzi scheme (12h ago)"
   ],
   "macro": [],
