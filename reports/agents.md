@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 22:40 UTC. Runs so far: 23. Model: claude-haiku-5-5.
+Updated 2026-10-24 22:54 UTC. Runs so far: 23. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -18,6 +18,8 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 ## Open positions
 
 - control: Bunnett long at 0.0001817, stop 0.00014536, target 0.00025438, opened 2026-10-24 21:53 UTC
+- control: WILDWOOD long at 6.339e-05, stop 5.0712e-05, target 8.8746e-05, opened 2026-10-24 22:48 UTC
+- control: Moustache long at 0.000175, stop 0.00014, target 0.000245, opened 2026-10-24 22:51 UTC
 
 ## Team
 
@@ -30,5 +32,12 @@ API spend today: $0.04 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED Hercules (stop) P&L $-57.85 normal, $-66.62 pessimistic
+### 2026-10-24 22:54 UTC team macro (gold/forex), spent today $0.036
+
+Scout: Gold is at 4007.9, still above the 4000 trigger, and every feed is about 25 to 26 hours stale, so nothing is verifiable.
+Skeptic: The watch-list short has no live hourly close below 4000 and no confirmed 4020 retest. Costs also rule out fresh memecoin and FX entries without live data.
+Lead: Stay flat and restore the live feed before any new hypothesis. The recent gold and memecoin losses argue against forcing a trade.
+
+{"orders": [], "close": [], "note": "22:54 UTC flat, no orders; feeds stale about 26h (GOLD age 1560m, FX 1530m). Watch list unchanged: GOLD short 1% on live hourly close below 4000 with failed 4020 retest, stop 4035, max 12h. Priority: restore live feed before any new trade."}
+
 
