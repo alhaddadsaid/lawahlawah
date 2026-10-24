@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 12:17 UTC. Runs so far: 22. Model: claude-haiku-5-5.
+Updated 2026-10-24 12:27 UTC. Runs so far: 22. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 426 | 30 | -12201.73 | -16257.97 |
+| control | meme | 428 | 30 | -12306.95 | -16381.01 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 435 | 31 | -12008.36 | -16107.06 |
+| control | all | 437 | 31 | -12113.58 | -16230.1 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - control: ELIZABETH long at 0.0001678, stop 0.00013424, target 0.00023492, opened 2026-10-24 10:54 UTC
 - control: YMB long at 0.0002529, stop 0.00020232, target 0.00035406, opened 2026-10-24 12:11 UTC
-- control: HUG long at 0.0001481, stop 0.00011848, target 0.00020734, opened 2026-10-24 12:17 UTC
 
 ## Team
 
@@ -32,5 +31,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-24 12:17 UTC control: OPENED HUG long at 0.0001481 (stop 0.00011848, target 0.00020734) - control: frozen v3 rules
+- control: CLOSED COIL (stop) P&L $-51.11 normal, $-60.06 pessimistic
 
