@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -405.71605649649734,
+   "cash": -459.4585036264067,
    "open": [
     {
      "id": 390,
@@ -23,44 +23,59 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 395,
+     "id": 396,
      "desk": "control",
      "market": "meme",
-     "symbol": "TRUTH",
-     "mint": "6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump",
+     "symbol": "PsyopAnime",
+     "mint": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
      "side": 1,
-     "opened": 1792811783.4972398,
-     "entry": 0.0001324,
-     "stop": 0.00010592,
-     "target": 0.00018535999999999997,
-     "size": 1510574.0181268882,
-     "deadline": 1792818983.49724,
+     "opened": 1792812334.3687894,
+     "entry": 0.0006583,
+     "stop": 0.0005266400000000001,
+     "target": 0.0009216200000000001,
+     "size": 303812.8512836093,
+     "deadline": 1792819534.3687897,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 397,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PRIVACY",
+     "mint": "9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump",
+     "side": 1,
+     "opened": 1792812518.9237604,
+     "entry": 5.73e-05,
+     "stop": 4.5839999999999995e-05,
+     "target": 8.021999999999999e-05,
+     "size": 3490401.396160559,
+     "deadline": 1792819718.9237607,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 396,
+ "next_id": 398,
  "runs": 20,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792812135.2231982,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792812135.2231982,
-  "control:9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump": 1792812135.3310099,
-  "seen:CePvX5yJSR3ZkSnU5SoeMuYS1exwBJR1YKyN5Ps8pump": 1792812319.2939775,
-  "seen:AuRrdM53LM83knCqCzcPp8XWDSMU1YFWpKFTm2aspump": 1792812319.2939775,
-  "seen:Biiv46yBzZwwdg3HvYQ52yPXmnMb5EnF8dboTx2qpump": 1792812319.2939775,
-  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792812319.2939775,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792812319.2939775,
-  "seen:DsmfENFp5jDJuwMzJXPeNJgDfFbUwwSnpiqmgQTZpump": 1792812499.543572,
-  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792812499.543572,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792812499.543572,
   "seen:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792812683.4542449,
   "seen:9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump": 1792812683.4542449,
   "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792812683.4542449,
   "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792812683.4542449,
   "control:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792812683.4972436,
-  "seen:2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump": 1792812867.147894
+  "seen:2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump": 1792812867.147894,
+  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792813050.9538465,
+  "seen:Biiv46yBzZwwdg3HvYQ52yPXmnMb5EnF8dboTx2qpump": 1792813234.3013191,
+  "seen:CePvX5yJSR3ZkSnU5SoeMuYS1exwBJR1YKyN5Ps8pump": 1792813234.3013191,
+  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792813234.3013191,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792813234.3013191,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792813234.3013191,
+  "control:2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump": 1792813234.3687928,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792813418.1166923,
+  "seen:DsmfENFp5jDJuwMzJXPeNJgDfFbUwwSnpiqmgQTZpump": 1792813418.1166923,
+  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792813418.1166923,
+  "control:9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump": 1792813418.9237628
  },
  "talks": {
   "2026-10-21": 109
@@ -101,10 +116,10 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792811599.5452588,
+  "t": 1792812518.1181848,
   "crypto": [
    "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (6h ago)",
-   "IRS plans lower tax disclosure penalties, including for crypto: Forbes (6h ago)",
+   "IRS plans lower tax disclosure penalties, including for crypto: Forbes (7h ago)",
    "Initia halts blockchain after exploit reportedly drains over $2.6M (9h ago)",
    "US senator probes Tether after reported deal with ex-Trump crypto adviser (10h ago)",
    "SEC flags tokenization as high-risk area in 2027 market examinations (11h ago)",
