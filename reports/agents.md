@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 15:20 UTC. Runs so far: 22. Model: claude-haiku-5-5.
+Updated 2026-10-24 15:30 UTC. Runs so far: 22. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 444 | 30 | -12578.74 | -16809.93 |
+| control | meme | 446 | 30 | -12642.41 | -16892.47 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 453 | 31 | -12385.37 | -16659.02 |
+| control | all | 455 | 31 | -12449.04 | -16741.56 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: SHADOW long at 0.0002092, stop 0.00016736, target 0.00029288, opened 2026-10-24 13:30 UTC
 - control: PHP long at 0.0001296, stop 0.00010368, target 0.00018144, opened 2026-10-24 14:19 UTC
-- control: HUG long at 6.898e-05, stop 5.5184e-05, target 9.6572e-05, opened 2026-10-24 15:05 UTC
 
 ## Team
 
@@ -32,5 +30,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order SHADOW REJECTED by guardrails: SHADOW already open
+- control: CLOSED SHADOW (time) P&L $-10.47 normal, $-20.45 pessimistic
 
