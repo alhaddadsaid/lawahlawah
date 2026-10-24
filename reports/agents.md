@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 16:51 UTC. Runs so far: 22. Model: claude-haiku-5-5.
+Updated 2026-10-24 16:54 UTC. Runs so far: 22. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -19,6 +19,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - control: McRib long at 0.0002843, stop 0.00022744, target 0.00039802, opened 2026-10-24 15:44 UTC
 - control: ber long at 6.63e-05, stop 5.304e-05, target 9.282e-05, opened 2026-10-24 16:48 UTC
+- control: bye long at 0.0001006, stop 8.048e-05, target 0.00014084, opened 2026-10-24 16:54 UTC
 
 ## Team
 
@@ -31,10 +32,5 @@ API spend today: $0.03 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-24 16:51 UTC team macro (gold/forex), spent today $0.027
-
-Lead: Gold, EUR/USD and GBP/USD feeds are about 20 hours stale (GOLD age 1197m), so the watch-list trigger (hourly close below 4000 with failed 4020 retest) cannot be verified. Scout: no fresh catalyst; calendar is empty for 24h. Sniper: no order without live quotes. FX Scout: no pre-registered EUR/USD or GBP/USD setup passes costs on stale data. Skeptic: the journal shows memecoin filter trades losing and gold trades small-negative; no new hypothesis qualifies. Decision: stay flat and keep the gold watch list armed for when live quotes return.
-
-{"orders": [], "close": [], "note": "16:51 UTC flat, no orders. GOLD feed age about 1197m, FX about 1167m, so no verifiable trigger. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on live quotes. Also note the journal's memecoin filter (age<10m, h1>+1000%, top10<15%) has lost money in every variant; do not revive it without a new hypothesis."}
-
+- 2026-10-24 16:54 UTC control: OPENED bye long at 0.0001006 (stop 8.048e-05, target 0.00014084) - control: frozen v3 rules
 
