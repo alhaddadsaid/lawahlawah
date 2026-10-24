@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -2380.93162372345,
+   "cash": -2432.6085918431636,
    "open": [
     {
      "id": 470,
@@ -66,21 +66,6 @@
      "size": 1618122.9773462783,
      "deadline": 1792864428.923571,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 479,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MEMEWAR",
-     "mint": "58YoqjCKAdp9W7bPq16P2YvfTsxM8h7eqos3hUuMpump",
-     "side": 1,
-     "opened": 1792857414.7049026,
-     "entry": 9.222e-05,
-     "stop": 7.377599999999999e-05,
-     "target": 0.00012910799999999996,
-     "size": 2168726.957276079,
-     "deadline": 1792864614.704903,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,18 +74,6 @@
  "runs": 22,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:JDTh2sJHiCALKw2Wccu9f1uzKTFdFKAe1scVrFnLpump": 1792857765.648423,
-  "seen:6WAFc6of7UUPJEKomtp9bcLmKC4N47tt3vQ2icEBpump": 1792857765.648423,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792857765.648423,
-  "control:Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump": 1792857768.7117562,
-  "seen:9oRPma8GTCDBdXLgHwSV4sYmhXKLWBfPMZ4hYwQwpump": 1792857947.993802,
-  "seen:3WUfWQADbhWwogJk7Y37o5PUUVEy7KK1xsxB3YTvpump": 1792857947.993802,
-  "seen:CbTbAY45Tfp8Lbk2ovjkS7wthxNka19MbGbGAZAdpump": 1792857947.993802,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792857947.993802,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1792857947.993802,
-  "seen:GZYL4JVHikj6H71a7mTdWay1q7DwsWdJFEhkQCsYz4WT": 1792858128.8549783,
-  "seen:EU1MHvQvBoJ7DnLorurze1hwR2JWuyoKyAmkwymwpump": 1792858128.8549783,
-  "control:JDTh2sJHiCALKw2Wccu9f1uzKTFdFKAe1scVrFnLpump": 1792858128.9235747,
   "seen:CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": 1792858313.7518463,
   "seen:58YoqjCKAdp9W7bPq16P2YvfTsxM8h7eqos3hUuMpump": 1792858313.7518463,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1792858313.7518463,
@@ -108,7 +81,21 @@
   "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792858313.7518463,
   "control:58YoqjCKAdp9W7bPq16P2YvfTsxM8h7eqos3hUuMpump": 1792858314.7049065,
   "seen:2ZTZPzwUH2fFBVy6rDSidVtq6hXVeZPZmxUSLqd7pump": 1792858494.7351809,
-  "seen:4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump": 1792858494.7351809
+  "seen:4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump": 1792858494.7351809,
+  "seen:DAdHkaH6QSXhE3Ls3UAxLdrSgPYYu1Q3Ta2Pir3vpump": 1792858675.8008013,
+  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1792858675.8008013,
+  "seen:JDTh2sJHiCALKw2Wccu9f1uzKTFdFKAe1scVrFnLpump": 1792858675.8008013,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792858675.8008013,
+  "seen:CHeF6oKrec7pMDo1HcRhVmNXjKkJtaphpRhmiDnHpump": 1792858860.536341,
+  "seen:CrAr4RRJMBVwRsZtT62pEhfA9H5utymC2mVx8e7FreP2": 1792858860.536341,
+  "seen:3WUfWQADbhWwogJk7Y37o5PUUVEy7KK1xsxB3YTvpump": 1792858860.536341,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792858860.536341,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792858860.536341,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792858860.536341,
+  "seen:DExDNSLdF87CwQrM9fxotNXmw6tYTKPsyJstb7NCpump": 1792859047.0946512,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1792859047.0946512,
+  "seen:CbTbAY45Tfp8Lbk2ovjkS7wthxNka19MbGbGAZAdpump": 1792859047.0946512,
+  "seen:Dx7D4Xg338GoUUjqPb4DXVYc43Ko1e9gjAKiJ7acpump": 1792859047.0946512
  },
  "talks": {
   "2026-10-21": 109
@@ -166,12 +153,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-24": 0.025136
+  "2026-10-24": 0.025643
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-24 09:01 UTC [macro] 09:01 UTC flat, no orders. Feeds ~12h stale (GOLD 4007.9 age 727m, EURUSD/GBPUSD ~697m), so no trigger is verifiable. Watch list unchanged, act only on live quotes: GOLD short 1% on hourly close below 4000 with failed 40",
   "2026-10-24 09:23 UTC [macro] 09:23 UTC flat, no orders. Feeds stale about 12.5h (GOLD 4007.9 age 748m; EURUSD/GBPUSD age about 718m), so no trigger is verifiable. Watch list unchanged, act only on live quotes: GOLD short 1% on hourly close below 400",
   "2026-10-24 09:44 UTC [macro] 09:44 UTC no orders. Feeds still ~12.8h stale (GOLD 4007.9 age 769m, EURUSD/GBPUSD ~739m), so triggers are unverifiable. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035);",
   "2026-10-24 10:05 UTC [macro] 10:05 UTC flat, no orders. GOLD 4007.9 age 791m, EURUSD/GBPUSD age ~761m, so no verifiable trigger. Watch list: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), only with live quotes under 15",
@@ -190,8 +176,9 @@
   "2026-10-24 14:43 UTC [macro] 14:43 UTC flat, no orders. Feeds stale about 17.8h (GOLD age 1069m, FX about 1039m), so no trigger is verifiable. Last GOLD 4007.9 is still above the 4000 trigger. Watch list unchanged: GOLD short 1% on hourly close belo",
   "2026-10-24 15:05 UTC [macro] 14:43+ UTC flat, no orders. GOLD feed age 1090m and FX about 1060m, so no trigger is verifiable. Last GOLD 4007.9 is above the 4000 trigger. Watch list: GOLD short 1% on hourly close below 4000 with failed 4020 retest (s",
   "2026-10-24 15:26 UTC [macro] 15:26 UTC flat, no orders. GOLD feed age 1111m, FX 1081m, no verifiable trigger. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on live quotes. Note",
-  "2026-10-24 15:47 UTC [macro] 15:47 UTC flat, no orders. GOLD feed age 1133m, FX about 1103m, so no verifiable trigger. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on live quo"
+  "2026-10-24 15:47 UTC [macro] 15:47 UTC flat, no orders. GOLD feed age 1133m, FX about 1103m, so no verifiable trigger. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on live quo",
+  "2026-10-24 16:09 UTC [macro] 16:09 UTC flat, no orders. GOLD feed age about 1154m and FX about 1124m, so no verifiable trigger. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792856865.651225
+ "last_macro_macro": 1792858147.097469
 }
