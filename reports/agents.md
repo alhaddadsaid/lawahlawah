@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 08:34 UTC. Runs so far: 21. Model: claude-haiku-5-5.
+Updated 2026-10-24 08:43 UTC. Runs so far: 21. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,19 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 399 | 30 | -11640.92 | -15434.61 |
+| control | meme | 401 | 30 | -11697.9 | -15510.64 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 408 | 31 | -11447.55 | -15283.7 |
+| control | all | 410 | 30 | -11504.53 | -15359.73 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: YMB long at 0.0002913, stop 0.00023304, target 0.00040782, opened 2026-10-24 06:35 UTC
 - control: ARCTIS long at 0.0001357, stop 0.00010856, target 0.00018998, opened 2026-10-24 07:08 UTC
 - control: BURNIE long at 0.000622, stop 0.0004976, target 0.0008708, opened 2026-10-24 08:19 UTC
-- control: PUMP DEV long at 9.021e-05, stop 7.2168e-05, target 0.000126294, opened 2026-10-24 08:31 UTC
 - control: COIL long at 0.0001122, stop 8.976e-05, target 0.00015708, opened 2026-10-24 08:34 UTC
+- control: ███ long at 9.175e-05, stop 7.34e-05, target 0.00012845, opened 2026-10-24 08:37 UTC
+- control: ODIE long at 0.0001324, stop 0.00010592, target 0.00018536, opened 2026-10-24 08:40 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-24 08:34 UTC control: OPENED COIL long at 0.0001122 (stop 8.976e-05, target 0.00015708) - control: frozen v3 rules
+- control: order YMB REJECTED by guardrails: desk already has the maximum open positions
 
