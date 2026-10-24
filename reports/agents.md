@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 14:40 UTC. Runs so far: 22. Model: claude-haiku-5-5.
+Updated 2026-10-24 14:43 UTC. Runs so far: 22. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 441 | 30 | -12532.0 | -16733.62 |
+| control | meme | 443 | 30 | -12520.83 | -16743.25 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 450 | 31 | -12338.63 | -16582.71 |
+| control | all | 452 | 31 | -12327.46 | -16592.34 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -19,9 +19,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - control: SHADOW long at 0.0002092, stop 0.00016736, target 0.00029288, opened 2026-10-24 13:30 UTC
 - control: PHP long at 0.0001296, stop 0.00010368, target 0.00018144, opened 2026-10-24 14:19 UTC
-- control: YMB long at 0.0002893, stop 0.00023144, target 0.00040502, opened 2026-10-24 14:22 UTC
 - control: COIL long at 0.0001118, stop 8.944e-05, target 0.00015652, opened 2026-10-24 14:34 UTC
-- control: VELK long at 0.0001399, stop 0.00011192, target 0.00019586, opened 2026-10-24 14:40 UTC
 
 ## Team
 
@@ -34,5 +32,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-24 14:40 UTC control: OPENED VELK long at 0.0001399 (stop 0.00011192, target 0.00019586) - control: frozen v3 rules
+- control: CLOSED VELK (stop) P&L $-56.83 normal, $-65.63 pessimistic
 
