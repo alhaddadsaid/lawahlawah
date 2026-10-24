@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -427.68559325427657,
+   "cash": -486.30615952748934,
    "open": [
-    {
-     "id": 378,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PHP",
-     "mint": "Cbkg5w7V7W2J2sUmecnyN825CbvwvXwasfhduVtNpump",
-     "side": 1,
-     "opened": 1792802078.9525137,
-     "entry": 0.000296,
-     "stop": 0.00023679999999999998,
-     "target": 0.00041439999999999994,
-     "size": 675675.6756756757,
-     "deadline": 1792809278.952514,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 379,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "e/acc",
-     "mint": "CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU",
-     "side": 1,
-     "opened": 1792802263.4040403,
-     "entry": 0.0004813,
-     "stop": 0.00038504,
-     "target": 0.00067382,
-     "size": 415541.242468315,
-     "deadline": 1792809463.4040408,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 389,
      "desk": "control",
@@ -51,37 +21,63 @@
      "size": 1049317.9433368312,
      "deadline": 1792815501.3129494,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 390,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "McRib",
+     "mint": "8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump",
+     "side": 1,
+     "opened": 1792809217.89622,
+     "entry": 0.0002784,
+     "stop": 0.00022272,
+     "target": 0.00038975999999999995,
+     "size": 718390.8045977012,
+     "deadline": 1792816417.8962202,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 391,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "YMB",
+     "mint": "Cn9fH16vWPEbe3GJcRJ5X1aeYGESoJd1jiHsp6KCpump",
+     "side": 1,
+     "opened": 1792809583.1628206,
+     "entry": 0.0001823,
+     "stop": 0.00014584000000000003,
+     "target": 0.00025522,
+     "size": 1097092.704333516,
+     "deadline": 1792816783.1628208,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 390,
+ "next_id": 392,
  "runs": 20,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1792808465.7021475,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792808465.7021475,
-  "seen:GZYL4JVHikj6H71a7mTdWay1q7DwsWdJFEhkQCsYz4WT": 1792808465.7021475,
-  "seen:EiUA7VFjkjFUWtChVpK2EDsE6878KTFZaXLyCJdspump": 1792808465.7021475,
-  "control:Biiv46yBzZwwdg3HvYQ52yPXmnMb5EnF8dboTx2qpump": 1792808465.8675003,
-  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792808649.308588,
-  "seen:Biiv46yBzZwwdg3HvYQ52yPXmnMb5EnF8dboTx2qpump": 1792808649.308588,
-  "seen:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792808649.308588,
-  "seen:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792808649.308588,
-  "seen:BvPTsmYk37MoHuf7QobL99rQTbZzbcnTCH49iUohpump": 1792808835.1993608,
-  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792808835.1993608,
-  "seen:GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump": 1792808835.1993608,
-  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792808835.1993608,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792808835.1993608,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792809019.0433042,
-  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792809019.0433042,
-  "seen:9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump": 1792809019.0433042,
-  "seen:91jtL322bn1HuHGSvNGDsW3yPLVHNBRYRj9gSCwFpump": 1792809019.0433042,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1792809019.0433042,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792809019.0433042,
-  "seen:LefwTNQrJd3jnNcK1663bykMDiMY9Rg9LFi2Etdpump": 1792809201.264977,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792809201.264977,
-  "control:6bW6xsZxYqcvqabk9rRgQwgjPNwe8SACPusx5o1wpump": 1792809201.3129525
+  "seen:3a9gC4bHNFRzoUvFWqwafKufNhTPqvyu8YUrrxtzpump": 1792809750.1856234,
+  "seen:4vBiQYhRLPbtTQKiE1fkki5wxrGDsHfNJQsCre7pump": 1792809750.1856234,
+  "seen:AFYC4gSWuRZysQQ7q3Kn9qJEHyjmAegF4KThbAjKpump": 1792809750.1856234,
+  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792809750.1856234,
+  "seen:9daaq4QBFia2C9BcAEwMP2RfWqseDsTYudqM4Lfmpump": 1792809934.2008238,
+  "seen:6LGGCwCUHDvcipZNtqWrb4MRtsPygNGbUx1df7LYpump": 1792809934.2008238,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792809934.2008238,
+  "seen:91jtL322bn1HuHGSvNGDsW3yPLVHNBRYRj9gSCwFpump": 1792809934.2008238,
+  "seen:Ce9isdvv6RTDPmicJeVDTiERh58eFpAtcbmLkHjuNo5S": 1792810117.8186524,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1792810117.8186524,
+  "control:8idEA8QovsZJka6d9Z35fejE5MbL37BJxvw5k5r6pump": 1792810117.8962238,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792810301.4490592,
+  "seen:Cn9fH16vWPEbe3GJcRJ5X1aeYGESoJd1jiHsp6KCpump": 1792810301.4490592,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1792810301.4490592,
+  "seen:Biiv46yBzZwwdg3HvYQ52yPXmnMb5EnF8dboTx2qpump": 1792810483.070176,
+  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792810483.070176,
+  "seen:GZYL4JVHikj6H71a7mTdWay1q7DwsWdJFEhkQCsYz4WT": 1792810483.070176,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1792810483.070176,
+  "control:Cn9fH16vWPEbe3GJcRJ5X1aeYGESoJd1jiHsp6KCpump": 1792810483.1628242
  },
  "talks": {
   "2026-10-21": 109
@@ -122,10 +118,10 @@
  ],
  "last_review": 1792763758.9118564,
  "news": {
-  "t": 1792807935.2010255,
+  "t": 1792808850.187314,
   "crypto": [
    "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (5h ago)",
-   "IRS plans lower tax disclosure penalties, including for crypto: Forbes (5h ago)",
+   "IRS plans lower tax disclosure penalties, including for crypto: Forbes (6h ago)",
    "Initia halts blockchain after exploit reportedly drains over $2.6M (8h ago)",
    "US senator probes Tether after reported deal with ex-Trump crypto adviser (9h ago)",
    "SEC flags tokenization as high-risk area in 2027 market examinations (10h ago)",
@@ -139,12 +135,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-24": 0.003927
+  "2026-10-24": 0.004496
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-23 19:29 UTC [macro] 19:29 flat, no triggers. Watch: GOLD hourly close <4000 with failed 4020 retest = short 1% (stop 4035, target 3960, max 12h). EURUSD hourly close <1.11894 = short 0.5-1% (stop 1.1215, target 1.1160, max 12h, no event 24h",
   "2026-10-23 19:50 UTC [macro] 20:50 flat, no triggers. Watch: GOLD hourly close <4000 with failed 4020 retest = short 1% (stop 4035, target 3960, max 12h). Gold 5d low now 3989.1. EURUSD hourly close <1.11894 = short 0.5-1% (stop 1.1215, target 1.116",
   "2026-10-23 20:11 UTC [macro] No triggers met, no positions. Watch: GOLD hourly close <4000 with failed retest of 4020 = short 1% (stop 4035, target 3960, max 12h). EURUSD hourly close <1.11894 = short 0.5-1% (stop 1.1215, target 1.1160, max 12h). Me",
   "2026-10-23 20:33 UTC [macro] 20:33 flat, no triggers. Watch: GOLD hourly close <4000 with failed 4020 retest = short 1% (stop 4035, target 3960, max 12h). EURUSD hourly close <1.11894 = short 0.5-1% (stop 1.1215, target 1.1160, max 12h). No event ri",
@@ -163,8 +158,9 @@
   "2026-10-24 01:11 UTC [macro] 00:50-ish flat, no orders, feeds stale 3-4h, verify live prices before acting. Watch unchanged: GOLD short 1% on hourly close <4000 with failed 4020 retest (stop 4035, target 3960, max 12h); EURUSD short 0.5% on close <1",
   "2026-10-24 01:32 UTC [macro] 01:32 flat, feeds 4-4.5h stale (GOLD 4010, EURUSD 1.12045, GBPUSD 1.33749); no orders. Watch unchanged, verify live first: GOLD short 1% on hourly close <4000 with failed 4020 retest (stop 4035, target 3960, max 12h); EU",
   "2026-10-24 01:53 UTC [macro] 01:53 flat, no triggers. Feeds 4.5h stale. Watch unchanged: GOLD short 1% on hourly close <4000 with failed 4020 retest (stop 4035, target 3960, max 12h); EURUSD short 0.5% on close <1.11894 (stop 1.1215, target 1.1160, ",
-  "2026-10-24 02:15 UTC [macro] 02:15 flat, no orders: feeds 4.5-5h stale (GOLD 4010, EURUSD 1.12045, GBPUSD 1.33749), so no trigger can be verified. Watch for next session, only after live price confirmation: GOLD short 1% on hourly close <4000 with f"
+  "2026-10-24 02:15 UTC [macro] 02:15 flat, no orders: feeds 4.5-5h stale (GOLD 4010, EURUSD 1.12045, GBPUSD 1.33749), so no trigger can be verified. Watch for next session, only after live price confirmation: GOLD short 1% on hourly close <4000 with f",
+  "2026-10-24 02:36 UTC [macro] 02:36 flat, no orders. Feeds 5h stale (GOLD 4010 age 337m, EURUSD 1.12045 age 312m, GBPUSD 1.33749); no trigger verifiable. Watch unchanged, act only on live quotes: GOLD short 1% on hourly close <4000 with failed 4020 r"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792808119.0449476
+ "last_macro_macro": 1792809401.4507377
 }
