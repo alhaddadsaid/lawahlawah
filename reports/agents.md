@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 15:05 UTC. Runs so far: 22. Model: claude-haiku-5-5.
+Updated 2026-10-24 15:20 UTC. Runs so far: 22. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 443 | 30 | -12520.83 | -16743.25 |
+| control | meme | 444 | 30 | -12578.74 | -16809.93 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 452 | 31 | -12327.46 | -16592.34 |
+| control | all | 453 | 31 | -12385.37 | -16659.02 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - control: SHADOW long at 0.0002092, stop 0.00016736, target 0.00029288, opened 2026-10-24 13:30 UTC
 - control: PHP long at 0.0001296, stop 0.00010368, target 0.00018144, opened 2026-10-24 14:19 UTC
-- control: COIL long at 0.0001118, stop 8.944e-05, target 0.00015652, opened 2026-10-24 14:34 UTC
 - control: HUG long at 6.898e-05, stop 5.5184e-05, target 9.6572e-05, opened 2026-10-24 15:05 UTC
 
 ## Team
@@ -33,11 +32,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-24 15:05 UTC team macro (gold/forex), spent today $0.024
-
-Lead: Feeds are stale, with GOLD at 1090 min and FX at 1060 min, so no entry can be verified against live quotes. GOLD is at 4007.9, still above the 4000 short trigger. Scout's and FX Scout's ideas lack live prices. Skeptic: the memecoin filter has lost money across 18 trades, so no new meme orders. Sniper: no order passes the pre-registered checks. Stay flat and keep the GOLD short watch list.
-
-{"orders": [], "close": [], "note": "14:43+ UTC flat, no orders. GOLD feed age 1090m and FX about 1060m, so no trigger is verifiable. Last GOLD 4007.9 is above the 4000 trigger. Watch list: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on live quotes. Memecoin filter remains suspended after 18 trades at -$360."}
-
-- 2026-10-24 15:05 UTC control: OPENED HUG long at 6.898e-05 (stop 5.5184e-05, target 9.6572e-05) - control: frozen v3 rules
+- control: order SHADOW REJECTED by guardrails: SHADOW already open
 

@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -2327.3576428174015,
+   "cash": -2385.270433515076,
    "open": [
     {
      "id": 465,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 472,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "COIL",
-     "mint": "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump",
-     "side": 1,
-     "opened": 1792852480.4230204,
-     "entry": 0.0001118,
-     "stop": 8.944e-05,
-     "target": 0.00015651999999999997,
-     "size": 1788908.7656529518,
-     "deadline": 1792859680.4230204,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 474,
      "desk": "control",
      "market": "meme",
@@ -74,24 +59,20 @@
  "runs": 22,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792854473.9863007,
-  "seen:BzoYWZL3fXC5KkzkA6dEh9pBKcv9NAqwkTxJReNxpump": 1792854473.9863007,
-  "seen:J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": 1792854473.9863007,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1792854658.5382185,
-  "seen:4DHko6D4awaaaFfwEVL1Y93NTaUv46bd4k9YuZGipump": 1792854658.5382185,
-  "seen:2ZTZPzwUH2fFBVy6rDSidVtq6hXVeZPZmxUSLqd7pump": 1792854838.4134023,
-  "seen:4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump": 1792854838.4134023,
-  "seen:Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump": 1792854838.4134023,
-  "seen:6WAFc6of7UUPJEKomtp9bcLmKC4N47tt3vQ2icEBpump": 1792855020.053915,
-  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792855020.053915,
-  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792855020.053915,
-  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792855020.053915,
-  "seen:CbTbAY45Tfp8Lbk2ovjkS7wthxNka19MbGbGAZAdpump": 1792855199.7919495,
-  "seen:5fzHiF14Pcwto4irb4M8U5tKxZB7kf9viSHjpfBUpump": 1792855199.7919495,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1792855199.7919495,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792855199.7919495,
-  "seen:DEL3KmMovmE57YmwzFYFkMuNDs3PZyi3qMvP9Jyfpump": 1792855199.7919495,
-  "control:DEL3KmMovmE57YmwzFYFkMuNDs3PZyi3qMvP9Jyfpump": 1792855203.1118746
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1792855382.739024,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792855382.739024,
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1792855567.1343305,
+  "seen:2ZTZPzwUH2fFBVy6rDSidVtq6hXVeZPZmxUSLqd7pump": 1792855749.359178,
+  "seen:4ipcoJ37nXNXs66SR9MVYTz6vwUdqsXYfLD4vYE6pump": 1792855749.359178,
+  "seen:F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump": 1792855749.359178,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1792855928.3901865,
+  "seen:HqaUT1abZq6WkeRpCYD7yHNdcxgu6biXejNkeJUNpump": 1792855928.3901865,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792856112.9436934,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1792856112.9436934,
+  "seen:5fzHiF14Pcwto4irb4M8U5tKxZB7kf9viSHjpfBUpump": 1792856112.9436934,
+  "seen:CbTbAY45Tfp8Lbk2ovjkS7wthxNka19MbGbGAZAdpump": 1792856112.9436934,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792856112.9436934,
+  "seen:2TKDNLwVTbhVVy7jCvSDz6ic4REAqQshZ9n9ZTxmpump": 1792856112.9436934
  },
  "talks": {
   "2026-10-21": 109
@@ -132,18 +113,18 @@
  ],
  "last_review": 1792850286.0145006,
  "news": {
-  "t": 1792853758.5410638,
+  "t": 1792854667.1371555,
   "crypto": [
-   "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA (0h ago)",
+   "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker (0h ago)",
+   "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA (1h ago)",
    "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan (1h ago)",
    "Bitcoin\u2019s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO (1h ago)",
    "U.S. Clarity Act failure gives Asia and Middle East a competitive edge, says Apex Group CEO (3h ago)",
    "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet (10h ago)",
-   "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (17h ago)",
+   "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (18h ago)",
    "IRS plans lower tax disclosure penalties, including for crypto: Forbes (18h ago)",
-   "Initia halts blockchain after exploit reportedly drains over $2.6M (20h ago)",
-   "US senator probes Tether after reported deal with ex-Trump crypto adviser (21h ago)",
-   "SEC flags tokenization as high-risk area in 2027 market examinations (23h ago)"
+   "Initia halts blockchain after exploit reportedly drains over $2.6M (21h ago)",
+   "US senator probes Tether after reported deal with ex-Trump crypto adviser (21h ago)"
   ],
   "macro": [],
   "calendar": []
