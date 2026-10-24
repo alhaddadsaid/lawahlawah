@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-24 18:33 UTC. Runs so far: 23. Model: claude-haiku-5-5.
+Updated 2026-10-24 18:42 UTC. Runs so far: 23. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 459 | 31 | -12630.91 | -17014.59 |
+| control | meme | 460 | 31 | -12820.9 | -17209.97 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 468 | 31 | -12437.54 | -16863.68 |
+| control | all | 469 | 31 | -12627.53 | -17059.06 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -20,7 +20,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: PRIVACY long at 8.614e-05, stop 6.8912e-05, target 0.000120596, opened 2026-10-24 17:40 UTC
 - control: HeeHaw long at 0.0002343, stop 0.00018744, target 0.00032802, opened 2026-10-24 17:43 UTC
 - control: COIL long at 0.0001069, stop 8.552e-05, target 0.00014966, opened 2026-10-24 18:14 UTC
-- control: VIRTUAL long at 0.00027, stop 0.000216, target 0.000378, opened 2026-10-24 18:33 UTC
+- control: bye long at 5.208e-05, stop 4.1664e-05, target 7.2912e-05, opened 2026-10-24 18:36 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.03 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-24 18:33 UTC control: OPENED VIRTUAL long at 0.00027 (stop 0.000216, target 0.000378) - control: frozen v3 rules
+- control: order PRIVACY REJECTED by guardrails: PRIVACY already open
 
