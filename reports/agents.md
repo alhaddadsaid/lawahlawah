@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 01:46 UTC. Runs so far: 24. Model: claude-haiku-5-5.
+Updated 2026-10-25 02:08 UTC. Runs so far: 24. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -18,6 +18,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 ## Open positions
 
 - control: PsyopAnime long at 0.0005386, stop 0.00043088, target 0.00075404, opened 2026-10-25 00:42 UTC
+- control: PUMP long at 0.0001566, stop 0.00012528, target 0.00021924, opened 2026-10-25 02:08 UTC
 
 ## Team
 
@@ -30,13 +31,11 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-25 01:46 UTC team macro (gold/forex), spent today $0.003
+### 2026-10-25 02:08 UTC team macro (gold/forex), spent today $0.004
 
-Scout: Gold short trigger is still unarmed. Last GOLD print is 4007.9, above the 4000 trigger, and the data is about 29h old.
-Skeptic: Feeds are stale for FX and gold, so no entry, stop, or target can be checked against live prices. Journal is -$360 after costs.
-Sniper: No orders without live data.
-Lead: Stay flat. Restore the live feed before any trade. The watch list stays unchanged.
+Lead: Feeds are stale (GOLD age about 1753m, FX about 1723m), so the 4000 short trigger cannot be verified live. Scout: the gold short watch list still stands, but it needs a live hourly close below 4000. FX Scout: no high-impact events in 24h, and the stale FX prices can't give a valid entry, stop or target. Skeptic: no pre-registered trade can be checked against live prices, so no orders. Sniper: nothing to size. Stay flat and keep the watch list.
 
-{"orders": [], "close": [], "note": "01:46 UTC flat, no orders. GOLD age ~1732m and FX ~1702m, so feeds are still stale (~29h) and no live verification is possible. Watch list unchanged: GOLD short 1% only on a live hourly close below 4000 after a failed 4020 retest, stop 4035, max 12h. Priority: restore the live feed before any trade."}
+{"orders": [], "close": [], "note": "02:08 UTC flat, no orders; GOLD and FX feeds stale ~29h (GOLD 4007.9, age 1753m), no live verification. Priority: restore live feed before any trade. Watch list unchanged: GOLD short 1% only on a live hourly close below 4000 after a failed 4020 retest, stop 4035, max 12h. FX: no high-impact events in next 24h, no setup."}
 
+- 2026-10-25 02:08 UTC control: OPENED PUMP long at 0.0001566 (stop 0.00012528, target 0.00021924) - control: frozen v3 rules
 
