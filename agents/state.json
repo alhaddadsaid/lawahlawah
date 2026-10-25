@@ -59,26 +59,24 @@
  "runs": 25,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FaCjQic5Xc4XBTt9tZ6R7HdavMk6ribBjUSAatauziak": 1792919283.1841545,
-  "seen:SATqS9DYpLQsM2z51P4QCoqJRHa5wboV4qjJerJRUSH": 1792919283.1841545,
-  "seen:hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump": 1792919283.1841545,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792919283.1841545,
-  "seen:2LVYAfg3ZtgFLp2B9QrTZy18sVzxqmocNmAgBS9Vpump": 1792919466.338798,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792919466.338798,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1792919466.338798,
-  "control:9jBBwEK6UZgLv5vm7F1KsULgYAy5dHo9LEYmCfLWKPDj": 1792919466.4182603,
-  "seen:FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump": 1792919648.969824,
-  "seen:AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump": 1792919648.969824,
-  "seen:9jBBwEK6UZgLv5vm7F1KsULgYAy5dHo9LEYmCfLWKPDj": 1792919648.969824,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792919648.969824,
-  "control:FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump": 1792919649.0429685,
   "seen:8BzFqSjGXUBm5nfHK9u9JtA1oMhSvu6HD4awa8mNixSH": 1792919829.84671,
   "seen:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": 1792919829.84671,
   "seen:EE9VvwocTVZfSrdvAEZETgXc5Z53tPut7wtNGi6Npump": 1792919829.84671,
   "seen:3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump": 1792919829.84671,
   "seen:35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump": 1792920010.6178298,
   "seen:Cp3m6ERyidBWyERxMT156gfY6XFEFr4PDjTYPXkpump": 1792920010.6178298,
-  "control:2LVYAfg3ZtgFLp2B9QrTZy18sVzxqmocNmAgBS9Vpump": 1792920010.670031
+  "control:2LVYAfg3ZtgFLp2B9QrTZy18sVzxqmocNmAgBS9Vpump": 1792920010.670031,
+  "seen:FwfAN1vbaJjDE6LYZvtofu5YsfSNpbRk2G275fZEpump": 1792920192.586251,
+  "seen:SATqS9DYpLQsM2z51P4QCoqJRHa5wboV4qjJerJRUSH": 1792920192.586251,
+  "seen:hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump": 1792920192.586251,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792920192.586251,
+  "seen:SAtoZGJkh4Eid9EQZYXWnCNVn5asZrWZLouBMX1SHi1": 1792920192.586251,
+  "seen:DFvWGCf6B3YNKrFfGr872bUHpnZw7Agrjm4tn5jfwokf": 1792920373.2071075,
+  "seen:2LVYAfg3ZtgFLp2B9QrTZy18sVzxqmocNmAgBS9Vpump": 1792920373.2071075,
+  "seen:FpmsKRqB5oQSsa7KS5C4MRZbYEuMVkLmxi3zNrjfpump": 1792920373.2071075,
+  "seen:AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump": 1792920553.363046,
+  "seen:9jBBwEK6UZgLv5vm7F1KsULgYAy5dHo9LEYmCfLWKPDj": 1792920553.363046,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792920553.363046
  },
  "talks": {
   "2026-10-21": 109
@@ -136,12 +134,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-25": 0.01346
+  "2026-10-25": 0.013995
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-25 02:08 UTC [macro] 02:08 UTC flat, no orders; GOLD and FX feeds stale ~29h (GOLD 4007.9, age 1753m), no live verification. Priority: restore live feed before any trade. Watch list unchanged: GOLD short 1% only on a live hourly close below ",
   "2026-10-25 02:29 UTC [macro] 02:29 UTC flat, no orders. GOLD (age 1774m) and FX (age 1744m) feeds still stale, so no live verification. Priority: restore live feed. Watch list: GOLD short 1% only on a live hourly close below 4000 after a failed 4020",
   "2026-10-25 02:50 UTC [macro] 02:50 UTC flat, no orders. GOLD (age 1796m) and FX (age 1766m) feeds still stale ~30h, so no live verification. Priority: restore live feed before any trade. Watch list unchanged: GOLD short 1% only on live hourly close ",
   "2026-10-25 03:12 UTC [macro] 03:12 UTC flat, no orders. GOLD (age ~1817m) and FX (~1787m) feeds still stale ~30h, no live verification. GOLD 4007.9 is above the 4000 short trigger, so the watch list is not active. Priority: restore live feed. Watch ",
@@ -160,8 +157,9 @@
   "2026-10-25 07:49 UTC [macro] 07:49 UTC flat, no orders. GOLD (4007.9, age ~2089m) and FX (age ~2064m) feeds still stale ~35h, so no live verification. Priority: restore live feed before any trade. Watch: GOLD short 1% only on a live hourly close bel",
   "2026-10-25 08:10 UTC [macro] 10-25 08:10 UTC flat, no orders. Feeds still stale ~35h (GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749), so no live verification. Priority: restore live feed before any trade. Watch: GOLD short 1% only on a live hourly clo",
   "2026-10-25 08:31 UTC [macro] 08:31 UTC flat, no orders. Feeds still stale ~35h (GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749). Priority: restore live feed before any trade. Watch: GOLD short 1% only on a live hourly close below 4000 after a failed 40",
-  "2026-10-25 08:53 UTC [macro] 08:53 UTC flat, no orders. Feeds stale ~36h (GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749), so no live verification. Priority: restore live feed before any trade. Watch: GOLD short 1% only on a live hourly close below 400"
+  "2026-10-25 08:53 UTC [macro] 08:53 UTC flat, no orders. Feeds stale ~36h (GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749), so no live verification. Priority: restore live feed before any trade. Watch: GOLD short 1% only on a live hourly close below 400",
+  "2026-10-25 09:14 UTC [macro] 10-25 09:14 UTC flat, no orders. Feeds stale ~36h (GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749), no live verification. Priority: restore live feed before any trade. Watch: GOLD short 1% only on a live hourly close below "
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792918383.1864839
+ "last_macro_macro": 1792919653.365382
 }
