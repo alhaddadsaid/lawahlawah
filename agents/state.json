@@ -5,46 +5,64 @@
    "open": []
   },
   "control": {
-   "cash": -3385.994861143876,
+   "cash": -3440.0048788221316,
    "open": [
     {
-     "id": 534,
+     "id": 535,
      "desk": "control",
      "market": "meme",
-     "symbol": "swordansem",
-     "mint": "BFokd6zmXHqgoUea3mnidSqTsC66eiAuJxPt6QApump",
+     "symbol": "PUMP",
+     "mint": "28ZdKbDwAWSsKPFMwxJTUiB9HbjWxetsHvK1NYwtpump",
      "side": 1,
-     "opened": 1792897014.7862382,
-     "entry": 0.0001697,
-     "stop": 0.00013576,
-     "target": 0.00023757999999999999,
-     "size": 1178550.3830288744,
-     "deadline": 1792904214.7862384,
+     "opened": 1792897563.9153893,
+     "entry": 0.0001152,
+     "stop": 9.216e-05,
+     "target": 0.00016127999999999997,
+     "size": 1736111.1111111112,
+     "deadline": 1792904763.9153895,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 536,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "WILDWOOD",
+     "mint": "5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump",
+     "side": 1,
+     "opened": 1792897746.7921965,
+     "entry": 6.412e-05,
+     "stop": 5.1296000000000005e-05,
+     "target": 8.9768e-05,
+     "size": 3119151.590767311,
+     "deadline": 1792904946.7921968,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 535,
+ "next_id": 537,
  "runs": 24,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump": 1792897184.9899209,
-  "seen:28ZdKbDwAWSsKPFMwxJTUiB9HbjWxetsHvK1NYwtpump": 1792897184.9899209,
-  "seen:hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump": 1792897184.9899209,
-  "seen:3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump": 1792897184.9899209,
-  "seen:GkrpmRvhNdyubgHfqW5f58kfvkBtF6TbmwQEtHGnpump": 1792897184.9899209,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792897184.9899209,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792897366.2888646,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1792897366.2888646,
-  "seen:BFokd6zmXHqgoUea3mnidSqTsC66eiAuJxPt6QApump": 1792897551.1287758,
-  "seen:AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump": 1792897731.7414036,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1792897731.7414036,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792897731.7414036,
-  "seen:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": 1792897914.2482288,
-  "seen:D9WqM4s6whVxregsjYHtTkuKX2GbGMkaK3A4DHcApump": 1792897914.2482288,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792897914.2482288,
-  "control:BFokd6zmXHqgoUea3mnidSqTsC66eiAuJxPt6QApump": 1792897914.7862413
+  "seen:FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump": 1792898098.0607169,
+  "seen:hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump": 1792898098.0607169,
+  "seen:3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump": 1792898098.0607169,
+  "seen:28ZdKbDwAWSsKPFMwxJTUiB9HbjWxetsHvK1NYwtpump": 1792898098.0607169,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792898098.0607169,
+  "seen:GkrpmRvhNdyubgHfqW5f58kfvkBtF6TbmwQEtHGnpump": 1792898281.7926927,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792898281.7926927,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1792898281.7926927,
+  "seen:BFokd6zmXHqgoUea3mnidSqTsC66eiAuJxPt6QApump": 1792898463.8568814,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792898463.8568814,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1792898463.8568814,
+  "control:28ZdKbDwAWSsKPFMwxJTUiB9HbjWxetsHvK1NYwtpump": 1792898463.915393,
+  "seen:9LepYg9iRDy2APTZnSz8NyoTtVqG9wHobzfU7ZEvpump": 1792898646.7506435,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792898646.7506435,
+  "seen:5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump": 1792898646.7506435,
+  "control:5Dw9h4ySRjRPcED7g23kabJ5KSpReKLitktM9TREpump": 1792898646.7921996,
+  "seen:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": 1792898829.8803785,
+  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1792898829.8803785,
+  "seen:AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump": 1792898829.8803785
  },
  "talks": {
   "2026-10-21": 109
@@ -85,29 +103,28 @@
  ],
  "last_review": 1792850286.0145006,
  "news": {
-  "t": 1792897014.2513723,
+  "t": 1792897929.8833342,
   "crypto": [
    "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends (11h ago)",
    "Block's new voice AI sounds eerily human, sparking awe and scam fears (12h ago)",
    "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations (12h ago)",
    "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker (12h ago)",
-   "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA (12h ago)",
+   "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA (13h ago)",
    "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan (13h ago)",
    "Bitcoin\u2019s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO (13h ago)",
    "U.S. Clarity Act failure gives Asia and Middle East a competitive edge, says Apex Group CEO (15h ago)",
    "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet (22h ago)",
-   "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (29h ago)"
+   "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (30h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-25": 0.004645
+  "2026-10-25": 0.005178
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-24 20:04 UTC [macro] 20:04 UTC flat, no orders. GOLD age 1389m, FX 1359m, feeds stale about 23h, so no verifiable trigger. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, live",
   "2026-10-24 20:25 UTC [macro] 20:25 UTC flat, no orders. Feeds still stale (GOLD 1410m, FX 1380m). Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on live quotes. Resume only when",
   "2026-10-24 20:46 UTC [macro] 20:46 UTC flat, no orders. Feeds stale about 24h (GOLD 1432m, FX 1402m), so no verifiable trigger. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on",
   "2026-10-24 21:08 UTC [macro] 21:08 UTC flat, no orders. GOLD age 1453m and FX about 1423m, so no live verification possible. Watch list unchanged: GOLD short 1% on hourly close below 4000 with failed 4020 retest (stop 4035), max hold 12h, only on li",
@@ -126,8 +143,9 @@
   "2026-10-25 01:46 UTC [macro] 01:46 UTC flat, no orders. GOLD age ~1732m and FX ~1702m, so feeds are still stale (~29h) and no live verification is possible. Watch list unchanged: GOLD short 1% only on a live hourly close below 4000 after a failed 40",
   "2026-10-25 02:08 UTC [macro] 02:08 UTC flat, no orders; GOLD and FX feeds stale ~29h (GOLD 4007.9, age 1753m), no live verification. Priority: restore live feed before any trade. Watch list unchanged: GOLD short 1% only on a live hourly close below ",
   "2026-10-25 02:29 UTC [macro] 02:29 UTC flat, no orders. GOLD (age 1774m) and FX (age 1744m) feeds still stale, so no live verification. Priority: restore live feed. Watch list: GOLD short 1% only on a live hourly close below 4000 after a failed 4020",
-  "2026-10-25 02:50 UTC [macro] 02:50 UTC flat, no orders. GOLD (age 1796m) and FX (age 1766m) feeds still stale ~30h, so no live verification. Priority: restore live feed before any trade. Watch list unchanged: GOLD short 1% only on live hourly close "
+  "2026-10-25 02:50 UTC [macro] 02:50 UTC flat, no orders. GOLD (age 1796m) and FX (age 1766m) feeds still stale ~30h, so no live verification. Priority: restore live feed before any trade. Watch list unchanged: GOLD short 1% only on live hourly close ",
+  "2026-10-25 03:12 UTC [macro] 03:12 UTC flat, no orders. GOLD (age ~1817m) and FX (~1787m) feeds still stale ~30h, no live verification. GOLD 4007.9 is above the 4000 short trigger, so the watch list is not active. Priority: restore live feed. Watch "
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792896651.1316721
+ "last_macro_macro": 1792897929.8833003
 }
