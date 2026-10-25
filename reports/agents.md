@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 19:57 UTC. Runs so far: 27. Model: claude-haiku-5-5.
+Updated 2026-10-25 20:06 UTC. Runs so far: 27. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 596 | 32 | -16282.45 | -21977.67 |
+| control | meme | 597 | 32 | -16346.72 | -22050.55 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 605 | 32 | -16089.08 | -21826.76 |
+| control | all | 606 | 32 | -16153.35 | -21899.64 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -20,7 +20,8 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: GME long at 0.0001277, stop 0.00010216, target 0.00017878, opened 2026-10-25 18:41 UTC
 - control: goon long at 6.965e-05, stop 5.572e-05, target 9.751e-05, opened 2026-10-25 19:17 UTC
 - control: LAUNCHCAT long at 0.0001668, stop 0.00013344, target 0.00023352, opened 2026-10-25 19:41 UTC
-- control: INU long at 7.298e-05, stop 5.8384e-05, target 0.000102172, opened 2026-10-25 19:47 UTC
+- control: Bunnett long at 0.0001933, stop 0.00015464, target 0.00027062, opened 2026-10-25 20:03 UTC
+- control: AMC long at 0.0001641, stop 0.00013128, target 0.00022974, opened 2026-10-25 20:06 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.03 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order LAUNCHCAT REJECTED by guardrails: LAUNCHCAT already open
+- 2026-10-25 20:06 UTC control: OPENED AMC long at 0.0001641 (stop 0.00013128, target 0.00022974) - control: frozen v3 rules
 
