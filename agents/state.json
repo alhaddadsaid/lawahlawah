@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -6153.2375318022805,
+   "cash": -6205.230484034074,
    "open": [
-    {
-     "id": 615,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GME",
-     "mint": "9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump",
-     "side": 1,
-     "opened": 1792953682.2882133,
-     "entry": 0.0001277,
-     "stop": 0.00010216,
-     "target": 0.00017877999999999997,
-     "size": 1566170.7126076743,
-     "deadline": 1792960882.2882135,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 621,
      "desk": "control",
@@ -89,23 +74,26 @@
  "runs": 27,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HJDvou3SdCXsfkYMSP8TuJ89obskrAqiXyXu8N4Fpump": 1792959668.2176976,
-  "seen:4yzkM1ts8avWd1EXDcayWWWxu8oEKVBECRAT8qNnQxXx": 1792959668.2176976,
-  "seen:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": 1792959668.2176976,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792959668.2176976,
-  "control:B3utmoAez4taLJQ5usxEeya7T5ZijchsETdQCMazpump": 1792959668.2970653,
-  "seen:JmAHYcJiSRwvuEw1nBBtRCgXJh86QcMtfBPAHA4pump": 1792959850.5280054,
-  "seen:B3utmoAez4taLJQ5usxEeya7T5ZijchsETdQCMazpump": 1792959850.5280054,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1792959850.5280054,
-  "seen:GCN58WHB85WJ2kt3vwsmNUs8yhLTQNGcFguP77AKpump": 1792960031.0879006,
-  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1792960031.0879006,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792960213.1464405,
   "seen:6mKrM1kb4jcZeBCo5596nWkM4JrERxkWsj7i157kpump": 1792960213.1464405,
   "seen:ABTGtvVT28SAxRM22EdwrxzywgqKAfPTuhR6QJ3dpump": 1792960213.1464405,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1792960213.1464405,
   "seen:FQGkrwzdg5LJciMdA4NhUGJ48aRFJpA6BvWB2orQpump": 1792960397.0580993,
   "seen:2G1dG5fZRnogyBPuQXgaPxDhGAYC9aWGQ6aWGR4gpump": 1792960397.0580993,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792960397.0580993
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792960397.0580993,
+  "seen:HJDvou3SdCXsfkYMSP8TuJ89obskrAqiXyXu8N4Fpump": 1792960579.043335,
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1792960579.043335,
+  "seen:HGS5NmToJnbM1wNtRgFhDYmAzy45D23jeT4TC3gZpump": 1792960579.043335,
+  "seen:4yzkM1ts8avWd1EXDcayWWWxu8oEKVBECRAT8qNnQxXx": 1792960579.043335,
+  "seen:41thoMqVENHtGhuSp5Jhy9yPWghqrPfeETrMe97JK4tg": 1792960579.043335,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1792960759.6095345,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792960759.6095345,
+  "seen:B3utmoAez4taLJQ5usxEeya7T5ZijchsETdQCMazpump": 1792960759.6095345,
+  "seen:FqrHvgGgKtbNSn42WEirPP4SPd4omdHd9eTa1dkhRCPG": 1792960940.152144,
+  "seen:3nm2Fa1LRtC4dLt8cvdzicK8U6stnVFLRxtjBVbgpump": 1792960940.152144,
+  "seen:GCN58WHB85WJ2kt3vwsmNUs8yhLTQNGcFguP77AKpump": 1792960940.152144,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1792960940.152144,
+  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1792960940.152144
  },
  "talks": {
   "2026-10-21": 109
@@ -146,7 +134,7 @@
  ],
  "last_review": 1792936850.5833156,
  "news": {
-  "t": 1792959131.0913994,
+  "t": 1792960040.1555626,
   "crypto": [
    "ECB official sees digital euro as key to protecting EU \u2018sovereignty\u2019 (5h ago)",
    "Latvia targets tokenization rules in 2027 with commercial property in focus (5h ago)",
