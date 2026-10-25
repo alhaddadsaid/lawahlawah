@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -5077.42377009865,
+   "cash": -5116.6613886449,
    "open": [
-    {
-     "id": 609,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GME",
-     "mint": "9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump",
-     "side": 1,
-     "opened": 1792951134.8157992,
-     "entry": 0.0001789,
-     "stop": 0.00014312000000000003,
-     "target": 0.00025046000000000004,
-     "size": 1117942.9849077696,
-     "deadline": 1792958334.8157995,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 613,
      "desk": "control",
@@ -36,24 +21,29 @@
      "size": 1631321.370309951,
      "deadline": 1792960519.5571606,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 615,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "GME",
+     "mint": "9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump",
+     "side": 1,
+     "opened": 1792953682.2882133,
+     "entry": 0.0001277,
+     "stop": 0.00010216,
+     "target": 0.00017877999999999997,
+     "size": 1566170.7126076743,
+     "deadline": 1792960882.2882135,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 614,
+ "next_id": 617,
  "runs": 27,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1792953489.7933779,
-  "seen:Ecc1zaxaCQGM8YUszrVwNezMnCbn6U1L8qEec6tspump": 1792953489.7933779,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792953489.7933779,
-  "seen:9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump": 1792953489.7933779,
-  "seen:BZQnYXMu2L8XqC6S7atLgZUr3kXELCAdd6cuXuk9pump": 1792953670.3027964,
-  "seen:BhPGFJfTWhmVRUFp7HJXwTMecMGJsKR6hpCxhd4Fpump": 1792953670.3027964,
-  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1792953670.3027964,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1792953670.3027964,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1792953859.0429857,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792953859.0429857,
   "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1792954038.6507418,
   "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792954038.6507418,
   "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792954038.6507418,
@@ -64,7 +54,19 @@
   "seen:4yzkM1ts8avWd1EXDcayWWWxu8oEKVBECRAT8qNnQxXx": 1792954219.5192661,
   "seen:7te6N3TmHCrrBstucpSho4UYDMw8gwT4TPRCpuUfpump": 1792954219.5192661,
   "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792954219.5192661,
-  "control:BZQnYXMu2L8XqC6S7atLgZUr3kXELCAdd6cuXuk9pump": 1792954219.5571637
+  "control:BZQnYXMu2L8XqC6S7atLgZUr3kXELCAdd6cuXuk9pump": 1792954219.5571637,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1792954405.90911,
+  "seen:J8GeV63GywfcfGoGCqKY4D5jRPc4gnxtE6HSgLJfpump": 1792954405.90911,
+  "seen:C1mBfBoDkwWfd6uTFZp62ARHLjeVp3bDpCDMfMZtPngE": 1792954405.90911,
+  "seen:9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump": 1792954405.90911,
+  "control:J8GeV63GywfcfGoGCqKY4D5jRPc4gnxtE6HSgLJfpump": 1792954405.9541125,
+  "seen:BZQnYXMu2L8XqC6S7atLgZUr3kXELCAdd6cuXuk9pump": 1792954581.751589,
+  "seen:BhPGFJfTWhmVRUFp7HJXwTMecMGJsKR6hpCxhd4Fpump": 1792954581.751589,
+  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1792954581.751589,
+  "seen:2twakgqVuuaQ7EL1mmxv8kUBrXvmfkn9KbBA7ejKD62P": 1792954581.751589,
+  "control:9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump": 1792954582.288217,
+  "seen:7tRWoXAnFchdqtXLiVeZpqQU4WuiJJSdRy1isLPJnveW": 1792954763.0674527,
+  "control:4yzkM1ts8avWd1EXDcayWWWxu8oEKVBECRAT8qNnQxXx": 1792954763.1435037
  },
  "talks": {
   "2026-10-21": 109
@@ -105,18 +107,18 @@
  ],
  "last_review": 1792936850.5833156,
  "news": {
-  "t": 1792952770.3060722,
+  "t": 1792953681.7549107,
   "crypto": [
-   "ECB official sees digital euro as key to protecting EU \u2018sovereignty\u2019 (3h ago)",
-   "Latvia targets tokenization rules in 2027 with commercial property in focus (3h ago)",
-   "UK banks face 10,000 complaints in 3 months over crypto restrictions (5h ago)",
+   "ECB official sees digital euro as key to protecting EU \u2018sovereignty\u2019 (4h ago)",
+   "Latvia targets tokenization rules in 2027 with commercial property in focus (4h ago)",
+   "UK banks face 10,000 complaints in 3 months over crypto restrictions (6h ago)",
    "Netanyahu floats use of blockchain as solution to potential financial sanctions (7h ago)",
-   "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends (26h ago)",
+   "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends (27h ago)",
    "Block's new voice AI sounds eerily human, sparking awe and scam fears (27h ago)",
    "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations (27h ago)",
-   "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker (27h ago)",
+   "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker (28h ago)",
    "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA (28h ago)",
-   "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan (28h ago)"
+   "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan (29h ago)"
   ],
   "macro": [],
   "calendar": []
