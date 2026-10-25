@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 12:40 UTC. Runs so far: 26. Model: claude-haiku-5-5.
+Updated 2026-10-25 12:47 UTC. Runs so far: 26. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -18,6 +18,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 ## Open positions
 
 - control: PMUP long at 0.0001755, stop 0.0001404, target 0.0002457, opened 2026-10-25 12:38 UTC
+- control: Marvin long at 0.0001016, stop 8.128e-05, target 0.00014224, opened 2026-10-25 12:44 UTC
 
 ## Team
 
@@ -30,5 +31,13 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED LAUNCH (target) P&L $68.0 normal, $56.0 pessimistic
+### 2026-10-25 12:47 UTC team macro (gold/forex), spent today $0.019
+
+Lead: Gold and FX prices are about 40 hours stale (gold age 2388 min, EUR/USD 2363 min). A stop or target set on a stale price could fire at the wrong level, so no trade is allowed until live data returns.
+Skeptic: Rejects any order without a live price. The memecoin pattern (under-10m filter) has lost money across 18 trades, so it is not reopened.
+Sniper: Standing by. Gold short 1% is pre-registered only if the feed is live and an hourly close prints below 4000 after a failed rebound.
+FX Scout: No live EUR/USD or GBP/USD levels, no calendar events in 24h, so no hypothesis is tested.
+
+{"orders": [], "close": [], "note": "12:47 UTC flat, no orders. GOLD (4007.9, age 2388m) and FX (EURUSD 1.12045, GBPUSD 1.33749, age 2363m) still stale ~39h. Priority: restore live feed. If live: GOLD short 1% only on hourly close below 4000 after failed rebound (stop above rebound high, target 3989 low, max 12h); FX only with live levels and a calendar event; memecoin filter remains retired after 18 losing-or-flat trades."}
+
 
