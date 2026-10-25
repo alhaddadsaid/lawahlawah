@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -4003.7687400765035,
+   "cash": -3988.8997336504035,
    "open": [
-    {
-     "id": 546,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Marvin",
-     "mint": "FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump",
-     "side": 1,
-     "opened": 1792906405.5566983,
-     "entry": 0.0002023,
-     "stop": 0.00016184,
-     "target": 0.00028322,
-     "size": 988630.7464162135,
-     "deadline": 1792913605.5566986,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 550,
      "desk": "control",
@@ -51,22 +36,29 @@
      "size": 3408897.221748764,
      "deadline": 1792920126.615207,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 553,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Moustache",
+     "mint": "J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump",
+     "side": 1,
+     "opened": 1792913474.0297575,
+     "entry": 0.0001275,
+     "stop": 0.00010200000000000001,
+     "target": 0.00017849999999999997,
+     "size": 1568627.450980392,
+     "deadline": 1792920674.0297577,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 553,
+ "next_id": 554,
  "runs": 25,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9jBBwEK6UZgLv5vm7F1KsULgYAy5dHo9LEYmCfLWKPDj": 1792913283.8217268,
-  "seen:8PoBRXa31T4tQVWNfW1iHf3suDDo1RRQdxudLMFCpump": 1792913283.8217268,
-  "seen:9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump": 1792913283.8217268,
-  "seen:27GPe4GYJJpGNVqgyJgfZB2GZvqwk9LEK6FnCoiYSTNK": 1792913464.114385,
-  "seen:35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump": 1792913464.114385,
-  "seen:3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump": 1792913464.114385,
-  "seen:hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump": 1792913646.3845387,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792913646.3845387,
   "seen:DX7w1XFAyTJVHEzvBVisPQyQZrYwDeDtuhkMmWK3nQEQ": 1792913826.563065,
   "seen:GdELBAHY5gpgLwdhtcBbqX61t8C4E4d3fP8PVxj6pump": 1792913826.563065,
   "seen:SATqS9DYpLQsM2z51P4QCoqJRHa5wboV4qjJerJRUSH": 1792913826.563065,
@@ -74,7 +66,19 @@
   "seen:GkrpmRvhNdyubgHfqW5f58kfvkBtF6TbmwQEtHGnpump": 1792913826.563065,
   "control:35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump": 1792913826.6152105,
   "seen:AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump": 1792914007.5261798,
-  "control:GdELBAHY5gpgLwdhtcBbqX61t8C4E4d3fP8PVxj6pump": 1792914007.656689
+  "control:GdELBAHY5gpgLwdhtcBbqX61t8C4E4d3fP8PVxj6pump": 1792914007.656689,
+  "seen:9jBBwEK6UZgLv5vm7F1KsULgYAy5dHo9LEYmCfLWKPDj": 1792914189.772383,
+  "seen:8PoBRXa31T4tQVWNfW1iHf3suDDo1RRQdxudLMFCpump": 1792914189.772383,
+  "seen:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792914189.772383,
+  "seen:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": 1792914189.772383,
+  "seen:FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump": 1792914373.3702855,
+  "seen:3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump": 1792914373.3702855,
+  "control:J9WL4zQVCFvLTydjtHoMGcLasjhRMZomnVmp4Y2cpump": 1792914374.029761,
+  "seen:4PAPJyck7pCwLnXtBNSu1b5APLyLhDp9upQFgYJrpump": 1792914554.453194,
+  "seen:5uzhR58hbDSUGwsyrc5onNvPG3t2kmCMZF9BSi4Apump": 1792914554.453194,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792914554.453194,
+  "seen:hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump": 1792914554.453194,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792914554.453194
  },
  "talks": {
   "2026-10-21": 109
@@ -115,16 +119,16 @@
  ],
  "last_review": 1792850286.0145006,
  "news": {
-  "t": 1792912564.1165462,
+  "t": 1792913473.3726203,
   "crypto": [
-   "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends (15h ago)",
+   "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends (16h ago)",
    "Block's new voice AI sounds eerily human, sparking awe and scam fears (16h ago)",
    "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations (16h ago)",
-   "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker (16h ago)",
+   "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker (17h ago)",
    "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA (17h ago)",
    "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan (17h ago)",
-   "Bitcoin\u2019s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO (17h ago)",
-   "U.S. Clarity Act failure gives Asia and Middle East a competitive edge, says Apex Group CEO (19h ago)",
+   "Bitcoin\u2019s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO (18h ago)",
+   "U.S. Clarity Act failure gives Asia and Middle East a competitive edge, says Apex Group CEO (20h ago)",
    "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet (27h ago)",
    "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (34h ago)"
   ],
@@ -132,12 +136,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-25": 0.010915
+  "2026-10-25": 0.011467
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-25 00:21 UTC [macro] 00:21 UTC flat, no orders; feeds stale ~27h (GOLD 1646m, FX 1617m), no live verification. Watch list unchanged: GOLD short 1% on live hourly close below 4000 with failed 4020 retest, stop 4035, max 12h. Priority: restore",
   "2026-10-25 00:42 UTC [macro] 00:42 UTC flat, no orders; feeds stale ~28h (GOLD age 1668m, FX 1638m), no live verification. Watch list unchanged: GOLD short 1% on live hourly close below 4000 with failed 4020 retest, stop 4035, max 12h, only on live ",
   "2026-10-25 01:04 UTC [macro] 01:04 UTC flat, no orders. Feeds stale ~28h (GOLD age 1689m, FX 1659m), no live verification possible. Priority: restore live feed before any trade. Watch list unchanged: GOLD short 1% on live hourly close below 4000 wit",
   "2026-10-25 01:25 UTC [macro] 01:25 UTC flat, no orders. GOLD and FX feeds stale ~28h (GOLD age 1710m, FX 1680m), so no live verification. Priority: restore live feed before any trade. Watch list unchanged: GOLD short 1% only on a live hourly close b",
@@ -156,8 +159,9 @@
   "2026-10-25 06:03 UTC [macro] Flat, no orders. Feeds still stale (~33h, GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749). Priority: restore live feed before any trade. Watch: GOLD short 1% only on a live hourly close below 4000 after a failed 4020 retest",
   "2026-10-25 06:24 UTC [macro] 06:24 UTC flat, no orders. Feeds still stale ~33h (GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749). Priority: restore live feed before any trade. Watch: GOLD short 1% only on a live hourly close below 4000 after a failed 40",
   "2026-10-25 06:45 UTC [macro] 06:45 UTC flat, no orders. Feeds still stale ~34h (GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749), so no live verification. Priority: restore live feed before any trade. Watch: GOLD short 1% only on a live hourly close bel",
-  "2026-10-25 07:07 UTC [macro] 07:06 UTC flat, no orders. GOLD (4007.9, age ~2047m) and EURUSD/GBPUSD (age ~2022m) feeds still stale ~34h, so no live verification. Priority: restore live feed before any trade. Watch: GOLD short 1% only on a live hourl"
+  "2026-10-25 07:07 UTC [macro] 07:06 UTC flat, no orders. GOLD (4007.9, age ~2047m) and EURUSD/GBPUSD (age ~2022m) feeds still stale ~34h, so no live verification. Priority: restore live feed before any trade. Watch: GOLD short 1% only on a live hourl",
+  "2026-10-25 07:28 UTC [macro] 07:28 UTC flat, no orders. GOLD (4007.9, age ~2068m) and FX (age ~2043m) feeds still stale ~34h. Priority: restore live feed before any trade. Watch: GOLD short 1% only on a live hourly close below 4000 after a failed 40"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792912019.7245975
+ "last_macro_macro": 1792913289.7746198
 }
