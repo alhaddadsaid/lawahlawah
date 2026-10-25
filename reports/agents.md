@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 15:11 UTC. Runs so far: 26. Model: claude-haiku-5-5.
+Updated 2026-10-25 15:22 UTC. Runs so far: 26. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,15 +9,14 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 567 | 32 | -15272.74 | -20696.41 |
+| control | meme | 569 | 32 | -15136.74 | -20584.41 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 576 | 32 | -15079.37 | -20545.5 |
+| control | all | 578 | 32 | -14943.37 | -20433.5 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: KURUMI long at 7.389e-05, stop 5.9112e-05, target 0.000103446, opened 2026-10-25 14:37 UTC
 - control: Bunnett long at 0.0001804, stop 0.00014432, target 0.00025256, opened 2026-10-25 14:46 UTC
 - control: Marvin long at 6.387e-05, stop 5.1096e-05, target 8.9418e-05, opened 2026-10-25 14:49 UTC
 
@@ -32,5 +31,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED TEMPTATION (stop) P&L $-65.4 normal, $-73.98 pessimistic
+- control: CLOSED KURUMI (target) P&L $68.0 normal, $56.0 pessimistic
 
