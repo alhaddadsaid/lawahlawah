@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 03:27 UTC. Runs so far: 24. Model: claude-haiku-5-5.
+Updated 2026-10-25 03:33 UTC. Runs so far: 24. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -18,6 +18,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 ## Open positions
 
 - control: COIL long at 0.0001309, stop 0.00010472, target 0.00018326, opened 2026-10-25 03:18 UTC
+- control: PUMP long at 0.0001622, stop 0.00012976, target 0.00022708, opened 2026-10-25 03:33 UTC
 
 ## Team
 
@@ -30,5 +31,11 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED WILDWOOD (stop) P&L $-77.03 normal, $-85.31 pessimistic
+### 2026-10-25 03:33 UTC team macro (gold/forex), spent today $0.006
+
+Lead: Feeds are still stale (GOLD age about 1838 min, FX about 1808 min), so there is no live price to size, set stops against, or verify the watch-list trigger. The GOLD short trigger (live hourly close below 4000) is not met, since the last price is 4007.9. Scout and FX Scout have no fresh, verifiable setup. Skeptic: no pre-registered entry can be checked against live data. Journal shows memecoin filters have lost money, so no memecoin trades. Decision: stay flat and keep the watch list until a live feed is restored.
+
+{"orders": [], "close": [], "note": "03:33 UTC flat, no orders. GOLD (age ~1838m) and FX (~1808m) feeds still stale ~30h, so no live verification. Watch list unchanged: GOLD short 1% only on live hourly close below 4000 after a failed 4020 retest, stop 4035, max 12h. Priority: restore live feed before any trade. Memecoin filter (age<10m, h1>+1000%, top10<15%) remains unprofitable in journal (0 of recent passes profitable), so do not trade it."}
+
+- 2026-10-25 03:33 UTC control: OPENED PUMP long at 0.0001622 (stop 0.00012976, target 0.00022708) - control: frozen v3 rules
 
