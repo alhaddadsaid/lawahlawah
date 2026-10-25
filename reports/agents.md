@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 22:01 UTC. Runs so far: 27. Model: claude-haiku-5-5.
+Updated 2026-10-25 22:19 UTC. Runs so far: 27. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -18,6 +18,9 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 ## Open positions
 
 - control: LAUNCHCAT long at 8.026e-05, stop 6.4208e-05, target 0.000112364, opened 2026-10-25 21:55 UTC
+- control: PRESIDENT long at 0.000217, stop 0.0001736, target 0.0003038, opened 2026-10-25 22:10 UTC
+- control: kimback long at 9.882e-05, stop 7.9056e-05, target 0.000138348, opened 2026-10-25 22:13 UTC
+- control: GME long at 0.0001551, stop 0.00012408, target 0.00021714, opened 2026-10-25 22:19 UTC
 
 ## Team
 
@@ -30,10 +33,5 @@ API spend today: $0.03 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-25 22:01 UTC team macro (gold/forex), spent today $0.033
-
-Lead: Stay flat. Gold, EURUSD and GBPUSD prices are about 49 hours old, so any entry or stop would be set on data we cannot trust. Scout: no fresh macro catalyst, and the calendar shows no high-impact events in the next 24h. FX Scout: no valid EUR/USD or GBP/USD setup without live prices. Sniper: no order can be sized safely. Skeptic: the journal's last memecoin cluster lost money and no pre-registered edge is available. No orders this cycle.
-
-{"orders": [], "close": [], "note": "22:01 UTC flat, no orders. GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749 still stale ~49h; do not trade stale prices. Priority: restore live feeds. Watch if live: GOLD short 1% only on hourly close below 4000 after a failed rebound toward 4020, stop above 4030, target 3980, max 8h. Memecoin filter idea remains unproven (journal net negative); no new memecoin entries."}
-
+- 2026-10-25 22:19 UTC control: OPENED GME long at 0.0001551 (stop 0.00012408, target 0.00021714) - control: frozen v3 rules
 
