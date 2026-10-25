@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 03:21 UTC. Runs so far: 24. Model: claude-haiku-5-5.
+Updated 2026-10-25 03:27 UTC. Runs so far: 24. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,14 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 507 | 31 | -13633.49 | -18483.78 |
+| control | meme | 509 | 31 | -13642.52 | -18513.09 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 516 | 32 | -13440.12 | -18332.87 |
+| control | all | 518 | 32 | -13449.15 | -18362.18 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: PUMP long at 0.0001152, stop 9.216e-05, target 0.00016128, opened 2026-10-25 03:06 UTC
-- control: WILDWOOD long at 6.412e-05, stop 5.1296e-05, target 8.9768e-05, opened 2026-10-25 03:09 UTC
 - control: COIL long at 0.0001309, stop 0.00010472, target 0.00018326, opened 2026-10-25 03:18 UTC
 
 ## Team
@@ -32,5 +30,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order PUMP REJECTED by guardrails: PUMP already open
+- control: CLOSED WILDWOOD (stop) P&L $-77.03 normal, $-85.31 pessimistic
 
