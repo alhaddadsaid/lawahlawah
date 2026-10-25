@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 08:56 UTC. Runs so far: 25. Model: claude-haiku-5-5.
+Updated 2026-10-25 09:05 UTC. Runs so far: 25. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 530 | 32 | -14211.02 | -19282.39 |
+| control | meme | 531 | 31 | -14260.43 | -19340.79 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 539 | 32 | -14017.65 | -19131.48 |
+| control | all | 540 | 32 | -14067.06 | -19189.88 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: Moustache long at 0.0001275, stop 0.000102, target 0.0001785, opened 2026-10-25 07:31 UTC
-- control: WHITEWHALE long at 7.328e-05, stop 5.8624e-05, target 0.000102592, opened 2026-10-25 08:56 UTC
+- control: Marvin long at 0.0001217, stop 9.736e-05, target 0.00017038, opened 2026-10-25 08:59 UTC
+- control: Chubby long at 0.0001437, stop 0.00011496, target 0.00020118, opened 2026-10-25 09:05 UTC
 
 ## Team
 
@@ -31,5 +32,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-25 08:56 UTC control: OPENED WHITEWHALE long at 7.328e-05 (stop 5.8624e-05, target 0.000102592) - control: frozen v3 rules
+- 2026-10-25 09:05 UTC control: OPENED Chubby long at 0.0001437 (stop 0.00011496, target 0.00020118) - control: frozen v3 rules
 
