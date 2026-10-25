@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 21:18 UTC. Runs so far: 27. Model: claude-haiku-5-5.
+Updated 2026-10-25 21:27 UTC. Runs so far: 27. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -17,6 +17,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
+- control: SWORDOPE long at 0.0001373, stop 0.00010984, target 0.00019222, opened 2026-10-25 21:27 UTC
 
 ## Team
 
@@ -29,10 +30,5 @@ API spend today: $0.03 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-25 21:18 UTC team macro (gold/forex), spent today $0.032
-
-Lead: Prices are stale (GOLD age about 48h, FX about 48h), so no execution is safe. Skeptic: no pre-registered entry is verifiable on current data, and costs can't be audited. Sniper: no order. FX Scout: no live EUR/USD or GBP/USD levels, so no valid hypothesis. Scout: the GOLD short idea (1% on an hourly close below 4000 after a failed rebound toward 4020) stays on watch until live feeds return. Decision: stand flat.
-
-{"orders": [], "close": [], "note": "21:18 UTC flat, no orders. GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749 still stale ~48h; do not trade stale prices. Priority: restore live feeds. Watch if live: GOLD short 1% only on hourly close below 4000 after a failed rebound toward 4020, stop above rebound high, target 3980, max 12h. No high-impact calendar events in next 24h. Memecoin filter ideas: 0 trades, journal 18 trades -360 net, keep sidelined until edge re-tested."}
-
+- 2026-10-25 21:27 UTC control: OPENED SWORDOPE long at 0.0001373 (stop 0.00010984, target 0.00019222) - control: frozen v3 rules
 

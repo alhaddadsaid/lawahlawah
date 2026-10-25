@@ -6,31 +6,46 @@
   },
   "control": {
    "cash": -6772.738196755772,
-   "open": []
+   "open": [
+    {
+     "id": 635,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SWORDOPE",
+     "mint": "3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump",
+     "side": 1,
+     "opened": 1792963671.7737665,
+     "entry": 0.0001373,
+     "stop": 0.00010984,
+     "target": 0.00019222,
+     "size": 1456664.2388929352,
+     "deadline": 1792970871.7737668,
+     "thesis": "control: frozen v3 rules"
+    }
+   ]
   }
  },
- "next_id": 635,
+ "next_id": 636,
  "runs": 27,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5kCnFSTh2KXCxGeMmoV5Lsz7MrnJRfUNmMkBJqHUpump": 1792963295.9451432,
-  "seen:ieaVheZogxGLpvV34d3rvSwPw2841agM5rwib7Xpump": 1792963295.9451432,
-  "seen:9PPQ5jEY3UpXjAa22a1aMb12VjoYYfL21aC9RhSspump": 1792963295.9451432,
-  "control:3nm2Fa1LRtC4dLt8cvdzicK8U6stnVFLRxtjBVbgpump": 1792963295.9842386,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792963477.8950992,
-  "seen:3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": 1792963658.235446,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1792963658.235446,
-  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1792963658.235446,
-  "seen:Pairn5qtjZqVDMGbFuxMvLF6Mf7f2ZRSE46bNjyme67": 1792963658.235446,
-  "seen:5KtxmGhFfy6QaoU3Qtu2ouweqq1qfXfNZHg3CJH7y6ea": 1792963658.235446,
-  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1792963658.235446,
-  "seen:3aRSQQFNMB883KyHaumijyGNjwHT337ivFwxZmAhpump": 1792963658.235446,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792963658.235446,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792963838.9370542,
   "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792963838.9370542,
   "seen:HHQ6NZacEyfPTsHUnbU5Y8JNjEAhCvRHkXRwqZLVpump": 1792963838.9370542,
   "seen:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": 1792964019.4077234,
-  "seen:ABTGtvVT28SAxRM22EdwrxzywgqKAfPTuhR6QJ3dpump": 1792964019.4077234
+  "seen:ABTGtvVT28SAxRM22EdwrxzywgqKAfPTuhR6QJ3dpump": 1792964019.4077234,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1792964202.6195114,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792964387.1124973,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792964387.1124973,
+  "seen:3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": 1792964571.2014093,
+  "seen:V8JyJ1CQ4vUE12ZKQEbjQv2dEqtwUHVD41sRyEQpump": 1792964571.2014093,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792964571.2014093,
+  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1792964571.2014093,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1792964571.2014093,
+  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1792964571.2014093,
+  "seen:Pairn5qtjZqVDMGbFuxMvLF6Mf7f2ZRSE46bNjyme67": 1792964571.2014093,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1792964571.2014093,
+  "control:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": 1792964571.77377
  },
  "talks": {
   "2026-10-21": 109
@@ -71,7 +86,7 @@
  ],
  "last_review": 1792936850.5833156,
  "news": {
-  "t": 1792962758.238935,
+  "t": 1792963671.2048388,
   "crypto": [
    "ECB official sees digital euro as key to protecting EU \u2018sovereignty\u2019 (6h ago)",
    "Latvia targets tokenization rules in 2027 with commercial property in focus (6h ago)",
