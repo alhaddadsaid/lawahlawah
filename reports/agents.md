@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 06:24 UTC. Runs so far: 25. Model: claude-haiku-5-5.
+Updated 2026-10-25 06:33 UTC. Runs so far: 25. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 517 | 32 | -13758.3 | -18707.95 |
+| control | meme | 518 | 31 | -13827.48 | -18785.61 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 526 | 32 | -13564.93 | -18557.04 |
+| control | all | 527 | 32 | -13634.11 | -18634.7 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -20,7 +20,6 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: KID long at 7.243e-05, stop 5.7944e-05, target 0.000101402, opened 2026-10-25 05:24 UTC
 - control: Marvin long at 0.0002023, stop 0.00016184, target 0.00028322, opened 2026-10-25 05:33 UTC
 - control: COIL long at 8.927e-05, stop 7.1416e-05, target 0.000124978, opened 2026-10-25 05:51 UTC
-- control: BILLIONS long at 0.0001776, stop 0.00014208, target 0.00024864, opened 2026-10-25 06:24 UTC
 
 ## Team
 
@@ -33,11 +32,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-25 06:24 UTC team macro (gold/forex), spent today $0.010
-
-Lead: Price data is about 33 hours stale (GOLD age ~2005 min, FX ~1980 min), so no entry can be verified against live prices. Skeptic: any trade now would rely on a 4007.9 print that may be far from market. Scout: the GOLD short watch list (hourly close below 4000 after a failed 4020 retest) still needs live confirmation. FX Scout: no high-impact events in 24h, so no FX setup either. Sniper: no orders. Team stays flat until the feed is restored.
-
-{"orders": [], "close": [], "note": "06:24 UTC flat, no orders. Feeds still stale ~33h (GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749). Priority: restore live feed before any trade. Watch: GOLD short 1% only on a live hourly close below 4000 after a failed 4020 retest, stop 4035. Note: stale hi_5d/lo_5d (4211/3989) differ from journal ranges; re-check on live data."}
-
-- 2026-10-25 06:24 UTC control: OPENED BILLIONS long at 0.0001776 (stop 0.00014208, target 0.00024864) - control: frozen v3 rules
+- control: order Marvin REJECTED by guardrails: Marvin already open
 
