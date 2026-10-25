@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 03:47 UTC. Runs so far: 24. Model: claude-haiku-5-5.
+Updated 2026-10-25 04:01 UTC. Runs so far: 24. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,15 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 510 | 31 | -13719.96 | -18598.81 |
+| control | meme | 511 | 32 | -13651.96 | -18542.81 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 519 | 32 | -13526.59 | -18447.9 |
+| control | all | 520 | 32 | -13458.59 | -18391.9 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: COIL long at 0.0001309, stop 0.00010472, target 0.00018326, opened 2026-10-25 03:18 UTC
+- control: Marvin long at 0.0001708, stop 0.00013664, target 0.00023912, opened 2026-10-25 04:01 UTC
 
 ## Team
 
@@ -30,5 +30,6 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED PUMP (stop) P&L $-77.44 normal, $-85.72 pessimistic
+- 2026-10-25 04:01 UTC control: OPENED Marvin long at 0.0001708 (stop 0.00013664, target 0.00023912) - control: frozen v3 rules
+- control: order EURUSD REJECTED by guardrails: EURUSD market closed or data stale
 
