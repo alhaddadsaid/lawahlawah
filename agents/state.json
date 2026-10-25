@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -6835.054087008859,
+   "cash": -6888.024447833601,
    "open": [
-    {
-     "id": 637,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GME",
-     "mint": "9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump",
-     "side": 1,
-     "opened": 1792964766.5797608,
-     "entry": 0.0001552,
-     "stop": 0.00012416,
-     "target": 0.00021728,
-     "size": 1288659.793814433,
-     "deadline": 1792971966.5797613,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 639,
      "desk": "control",
@@ -44,18 +29,6 @@
  "runs": 27,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GLdCa2VQSXho38SFqy91UDPvoDNFPgQc91dM8APYpump": 1792965485.0980818,
-  "seen:9rjHzQPpVL4XuYZ3S2bRk4CPYTubpAYpRvpY5pwzpump": 1792965485.0980818,
-  "seen:3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": 1792965485.0980818,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792965485.0980818,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1792965485.0980818,
-  "seen:H4F4711qnUzBo4rhDtRUqT2sGimvb3LXUsuPe6onpump": 1792965485.0980818,
-  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1792965485.0980818,
-  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1792965485.0980818,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792965666.5024755,
-  "seen:57NjZU9XFhTnFEKvCRcRArHkeRvDVhkjsoexbSwFpump": 1792965666.5024755,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792965666.5024755,
-  "control:9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump": 1792965666.5797644,
   "seen:FcqKM8X2Fme8GLkPsyRpsbXZhLkRSbuaorrnheu5pump": 1792965846.9896655,
   "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1792965846.9896655,
   "seen:4yzkM1ts8avWd1EXDcayWWWxu8oEKVBECRAT8qNnQxXx": 1792965846.9896655,
@@ -63,7 +36,17 @@
   "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792966031.8671951,
   "control:3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": 1792966031.9063714,
   "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792966212.7433014,
-  "control:4yzkM1ts8avWd1EXDcayWWWxu8oEKVBECRAT8qNnQxXx": 1792966212.8189924
+  "control:4yzkM1ts8avWd1EXDcayWWWxu8oEKVBECRAT8qNnQxXx": 1792966212.8189924,
+  "seen:9rjHzQPpVL4XuYZ3S2bRk4CPYTubpAYpRvpY5pwzpump": 1792966393.8376894,
+  "seen:GLdCa2VQSXho38SFqy91UDPvoDNFPgQc91dM8APYpump": 1792966393.8376894,
+  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1792966393.8376894,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1792966393.8376894,
+  "seen:3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": 1792966393.8376894,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792966393.8376894,
+  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1792966393.8376894,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1792966393.8376894,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792966576.3704946,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1792966576.3704946
  },
  "talks": {
   "2026-10-21": 109
@@ -104,14 +87,14 @@
  ],
  "last_review": 1792936850.5833156,
  "news": {
-  "t": 1792964585.10151,
+  "t": 1792965493.8412116,
   "crypto": [
    "ECB official sees digital euro as key to protecting EU \u2018sovereignty\u2019 (7h ago)",
    "Latvia targets tokenization rules in 2027 with commercial property in focus (7h ago)",
    "UK banks face 10,000 complaints in 3 months over crypto restrictions (9h ago)",
    "Netanyahu floats use of blockchain as solution to potential financial sanctions (10h ago)",
    "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends (30h ago)",
-   "Block's new voice AI sounds eerily human, sparking awe and scam fears (30h ago)",
+   "Block's new voice AI sounds eerily human, sparking awe and scam fears (31h ago)",
    "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations (31h ago)",
    "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker (31h ago)",
    "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA (31h ago)",
@@ -121,12 +104,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-25": 0.032888
+  "2026-10-25": 0.033415
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-25 14:55 UTC [macro] 14:55 UTC flat, no orders. GOLD (4007.9), EURUSD (1.12045) and GBPUSD (1.33749) feeds still stale ~42h, so no live verification. Priority: restore live feed. If live: GOLD short 1% only on hourly close below 4000 after a",
   "2026-10-25 15:16 UTC [macro] 16:15 UTC flat, no orders. GOLD, EURUSD and GBPUSD feeds still stale ~42h, so no live verification. Priority: restore live feed. Watch if live: GOLD short 1% only on hourly close below 4000 after failed rebound (stop abo",
   "2026-10-25 15:38 UTC [macro] 15:38 UTC flat, no orders. GOLD (4007.9), EURUSD (1.12045) and GBPUSD (1.33749) feeds stale ~42h, so no live verification. Priority: restore live feed. Watch if live: GOLD short 1% only on hourly close below 4000 after f",
   "2026-10-25 15:59 UTC [macro] 15:59 UTC flat, no orders. GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749 still stale ~43h, so no live verification. Priority: restore live feed. Watch if live: GOLD short 1% only on hourly close below 4000 after a failed r",
@@ -145,8 +127,9 @@
   "2026-10-25 20:36 UTC [macro] 20:36 UTC flat, no orders. GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749 still stale ~47h. Priority: restore live feeds. Watch if live: GOLD short 1% only on hourly close below 4000 after a failed rebound toward 4020, stop",
   "2026-10-25 20:57 UTC [macro] 20:57 UTC flat, no orders. GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749 still stale ~48h. Priority: restore live feeds. Watch if live: GOLD short 1% only on hourly close below 4000 after failed rebound toward 4020, stop a",
   "2026-10-25 21:18 UTC [macro] 21:18 UTC flat, no orders. GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749 still stale ~48h; do not trade stale prices. Priority: restore live feeds. Watch if live: GOLD short 1% only on hourly close below 4000 after a faile",
-  "2026-10-25 21:40 UTC [macro] 21:40 UTC flat again. GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749 still stale ~48h; do not trade stale prices. Priority: restore live feeds. Watch if live: GOLD short 1% only on hourly close below 4000 after a failed reb"
+  "2026-10-25 21:40 UTC [macro] 21:40 UTC flat again. GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749 still stale ~48h; do not trade stale prices. Priority: restore live feeds. Watch if live: GOLD short 1% only on hourly close below 4000 after a failed reb",
+  "2026-10-25 22:01 UTC [macro] 22:01 UTC flat, no orders. GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749 still stale ~49h; do not trade stale prices. Priority: restore live feeds. Watch if live: GOLD short 1% only on hourly close below 4000 after a faile"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792964401.654143
+ "last_macro_macro": 1792965676.3739176
 }
