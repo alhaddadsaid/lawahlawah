@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 16:21 UTC. Runs so far: 26. Model: claude-haiku-5-5.
+Updated 2026-10-25 16:33 UTC. Runs so far: 26. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -19,6 +19,8 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - control: Bunnett long at 0.0001804, stop 0.00014432, target 0.00025256, opened 2026-10-25 14:46 UTC
 - control: Marvin long at 6.387e-05, stop 5.1096e-05, target 8.9418e-05, opened 2026-10-25 14:49 UTC
+- control: SHADOW long at 0.000221, stop 0.0001768, target 0.0003094, opened 2026-10-25 16:30 UTC
+- control: LMAO! long at 0.0001775, stop 0.000142, target 0.0002485, opened 2026-10-25 16:33 UTC
 
 ## Team
 
@@ -31,13 +33,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-25 16:21 UTC team macro (gold/forex), spent today $0.025
-
-Scout: Gold, EURUSD and GBPUSD prices are about 43 hours stale, so no hypothesis can be checked against live data.
-Skeptic: Any stop, target or entry set on these prices is unverifiable. Reject all ideas.
-Lead: Stay flat. No high-impact events in 24h. The only useful work is restoring the live feed, then re-testing the GOLD short setup (hourly close below 4000 after a failed rebound) once prices update.
-Sniper: No orders.
-
-{"orders": [], "close": [], "note": "16:20 UTC flat, no orders. GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749 still stale ~43h, so no live verification. Priority: restore live feed. Watch if live: GOLD short 1% only on hourly close below 4000 after failed rebound (stop above rebound high, target 3989). Team journal: 18 trades, -$360; memecoin filter-based longs have lost repeatedly, so do not re-enter that pattern without a new hypothesis."}
-
+- 2026-10-25 16:33 UTC control: OPENED LMAO! long at 0.0001775 (stop 0.000142, target 0.0002485) - control: frozen v3 rules
 
