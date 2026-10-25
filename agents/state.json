@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -3596.1507653906892,
+   "cash": -3578.040327971893,
    "open": [
     {
      "id": 540,
@@ -23,59 +23,60 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 542,
+     "id": 544,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "COIL",
+     "mint": "Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump",
+     "side": 1,
+     "opened": 1792905496.2579908,
+     "entry": 0.0001099,
+     "stop": 8.792000000000001e-05,
+     "target": 0.00015386,
+     "size": 1819836.2147406733,
+     "deadline": 1792912696.2579908,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 545,
      "desk": "control",
      "market": "meme",
      "symbol": "KID",
      "mint": "3R1Kry3rj4xpFwud5quHtpQQxh6e8gwp25qiaEqBXkid",
      "side": 1,
-     "opened": 1792904517.8962195,
-     "entry": 6.927e-05,
-     "stop": 5.5416000000000006e-05,
-     "target": 9.6978e-05,
-     "size": 2887252.7789807995,
-     "deadline": 1792911717.8962197,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 543,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "BILLIONS",
-     "mint": "9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump",
-     "side": 1,
-     "opened": 1792905242.7245944,
-     "entry": 0.0001896,
-     "stop": 0.00015168,
-     "target": 0.00026544,
-     "size": 1054852.3206751056,
-     "deadline": 1792912442.7245946,
+     "opened": 1792905861.2051644,
+     "entry": 7.243e-05,
+     "stop": 5.7944000000000006e-05,
+     "target": 0.00010140199999999999,
+     "size": 2761286.7596299876,
+     "deadline": 1792913061.205165,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 544,
- "runs": 24,
+ "next_id": 546,
+ "runs": 25,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1792905417.8423903,
-  "seen:hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump": 1792905417.8423903,
-  "seen:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": 1792905417.8423903,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792905417.8423903,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792905417.8423903,
-  "control:3R1Kry3rj4xpFwud5quHtpQQxh6e8gwp25qiaEqBXkid": 1792905417.896223,
-  "seen:9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump": 1792905600.4913614,
-  "seen:GkrpmRvhNdyubgHfqW5f58kfvkBtF6TbmwQEtHGnpump": 1792905600.4913614,
-  "seen:FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump": 1792905600.4913614,
-  "seen:5zNok7994UpHYFXSnVT1xfTzVid5xPYDtwC8ou6Tpump": 1792905780.9117558,
-  "seen:3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump": 1792905780.9117558,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1792905780.9117558,
-  "seen:AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump": 1792905780.9117558,
   "seen:4hHnD2qM6XXx5iHSS1JkkEgWw9yGCM3Pj497DFjppump": 1792905961.577423,
   "seen:5fWVNqCStj1ZqP2tvymbEsgn763uBc6dVXS31N15pump": 1792906142.0953836,
   "seen:6iHdvY6gVbwGTqWeZknCeDr6wsiqiRcRGeA3wFbMpump": 1792906142.0953836,
-  "control:9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump": 1792906142.7245986
+  "control:9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump": 1792906142.7245986,
+  "seen:Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump": 1792906216.0194254,
+  "seen:9Um6YSZ4oyF2V7WmTggxi5cxY46PBm767xku9u62Sgda": 1792906396.2066746,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792906396.2066746,
+  "seen:hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump": 1792906396.2066746,
+  "seen:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": 1792906396.2066746,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792906396.2066746,
+  "control:Bdmz1BAj5B2YbYVdMyZexWbjX33kfhNonHGDtQjipump": 1792906396.257995,
+  "seen:9uNgkUWsRDCMsnE6UX9aJ9bCwj3Lw3pjTU4TnMEnpump": 1792906577.569156,
+  "seen:3R1Kry3rj4xpFwud5quHtpQQxh6e8gwp25qiaEqBXkid": 1792906577.569156,
+  "seen:GkrpmRvhNdyubgHfqW5f58kfvkBtF6TbmwQEtHGnpump": 1792906577.569156,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792906577.569156,
+  "seen:AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump": 1792906761.1446543,
+  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1792906761.1446543,
+  "control:3R1Kry3rj4xpFwud5quHtpQQxh6e8gwp25qiaEqBXkid": 1792906761.205168
  },
  "talks": {
   "2026-10-21": 109
@@ -133,12 +134,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-25": 0.007794
+  "2026-10-25": 0.008323
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-24 22:11 UTC [macro] 22:11 UTC flat, no orders. Feeds stale about 25h (GOLD age 1517m, FX about 1487m), no live verification possible. Priority: restore live feed, then re-check. Watch list unchanged: GOLD short 1% on hourly close below 4000",
   "2026-10-24 22:33 UTC [macro] 22:33 UTC flat, no orders. Feeds stale ~25.6h (GOLD 1538m, FX 1508m), so no verifiable trigger. Priority: restore live feed. Watch list unchanged: GOLD short 1% on live hourly close below 4000 with failed 4020 retest, st",
   "2026-10-24 22:54 UTC [macro] 22:54 UTC flat, no orders; feeds stale about 26h (GOLD age 1560m, FX 1530m). Watch list unchanged: GOLD short 1% on live hourly close below 4000 with failed 4020 retest, stop 4035, max 12h. Priority: restore live feed be",
   "2026-10-24 23:15 UTC [macro] 23:15 UTC flat, no orders. Feeds stale ~26h (GOLD 1581m, FX 1551m). Last GOLD 4007.9 is above the 4000 trigger, so the short is not armed. Watch list unchanged: GOLD short 1% on live hourly close below 4000 with failed 4",
@@ -157,8 +157,9 @@
   "2026-10-25 03:54 UTC [macro] 03:54 UTC flat, no orders. GOLD (4007.9, age ~1860m) and FX (~1830m) feeds still stale ~31h, so no live verification. Watch list unchanged: GOLD short 1% only on a live hourly close below 4000 after a failed 4020 retest,",
   "2026-10-25 04:16 UTC [macro] 04:16 UTC flat, no orders. GOLD (4007.9, age ~1876m) and FX (~1851m) feeds still stale ~31h, so no live verification. Priority: restore live feed before any trade. Watch list unchanged: GOLD short 1% only on a live hourl",
   "2026-10-25 04:37 UTC [macro] 04:37 UTC flat, no orders. Feeds still stale ~31h (GOLD 4007.9, age ~1898m; EURUSD 1.12045, GBPUSD 1.33749, age ~1873m). Priority: restore live feed before any trade. Watch list: GOLD short 1% only on a live hourly close",
-  "2026-10-25 04:58 UTC [macro] 04:58 UTC flat, no orders. GOLD (4007.9, age ~1919m) and FX (age ~1894m) feeds still stale ~32h, so no live verification. Priority: restore live feed before any trade. Watch list: GOLD short 1% only on a live hourly clos"
+  "2026-10-25 04:58 UTC [macro] 04:58 UTC flat, no orders. GOLD (4007.9, age ~1919m) and FX (age ~1894m) feeds still stale ~32h, so no live verification. Priority: restore live feed before any trade. Watch list: GOLD short 1% only on a live hourly clos",
+  "2026-10-25 05:21 UTC [macro] 05:21 UTC flat, no orders. GOLD (4007.9, age ~1941m) and FX (age ~1916m) feeds still stale ~32h, no live verification. Priority: restore live feed before any trade. Watch list unchanged: GOLD short 1% only on a live hour"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792904334.2081926
+ "last_macro_macro": 1792905677.571034
 }
