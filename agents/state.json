@@ -6,31 +6,46 @@
   },
   "control": {
    "cash": -3534.922976134491,
-   "open": []
+   "open": [
+    {
+     "id": 540,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Marvin",
+     "mint": "FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump",
+     "side": 1,
+     "opened": 1792902516.984038,
+     "entry": 0.0001405,
+     "stop": 0.0001124,
+     "target": 0.00019669999999999998,
+     "size": 1423487.5444839858,
+     "deadline": 1792909716.9840384,
+     "thesis": "control: frozen v3 rules"
+    }
+   ]
   }
  },
- "next_id": 540,
+ "next_id": 541,
  "runs": 24,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DkxTPRzMLrvmTy2h682dv9E83htmwFwhF74JRgSfG7Km": 1792901958.6458359,
-  "seen:2Qm9Pgq23GNAdxZRpzb5WHCNxRNLMjeWSr6uULvwpump": 1792901958.6458359,
-  "seen:GkrpmRvhNdyubgHfqW5f58kfvkBtF6TbmwQEtHGnpump": 1792901958.6458359,
-  "seen:8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump": 1792901958.6458359,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1792902139.4471712,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792902139.4471712,
-  "seen:3R1Kry3rj4xpFwud5quHtpQQxh6e8gwp25qiaEqBXkid": 1792902320.6170902,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1792902320.6170902,
-  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1792902320.6170902,
-  "seen:3KMHtbaxxMwp1EWWE5yFvLbJA9eLLiy11RucstArXwy7": 1792902500.3327339,
-  "seen:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": 1792902500.3327339,
-  "seen:AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump": 1792902500.3327339,
   "seen:FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump": 1792902682.2606585,
   "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1792902682.2606585,
   "seen:3KpyR7uM657Bbcw64gLHQpJfPYByJEiVhu4ED3cnpump": 1792902682.2606585,
   "seen:hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump": 1792902682.2606585,
   "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792902682.2606585,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792902682.2606585
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792902682.2606585,
+  "seen:GkrpmRvhNdyubgHfqW5f58kfvkBtF6TbmwQEtHGnpump": 1792902864.6961522,
+  "seen:HR88RVhreHsPgxscVZVgg5Kpp2M63dP5fpN8JMVdpump": 1792902864.6961522,
+  "seen:HuJC18beCvfAAv6scjWM5hfo8dsvd85MsJmQWvfbpsZJ": 1792903049.6585803,
+  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1792903049.6585803,
+  "seen:3R1Kry3rj4xpFwud5quHtpQQxh6e8gwp25qiaEqBXkid": 1792903230.653097,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792903230.653097,
+  "seen:3KMHtbaxxMwp1EWWE5yFvLbJA9eLLiy11RucstArXwy7": 1792903416.3933034,
+  "seen:AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump": 1792903416.3933034,
+  "seen:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": 1792903416.3933034,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1792903416.3933034,
+  "control:FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump": 1792903416.9840422
  },
  "talks": {
   "2026-10-21": 109
@@ -71,7 +86,7 @@
  ],
  "last_review": 1792850286.0145006,
  "news": {
-  "t": 1792901600.335716,
+  "t": 1792902516.3963308,
   "crypto": [
    "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends (12h ago)",
    "Block's new voice AI sounds eerily human, sparking awe and scam fears (13h ago)",
@@ -81,7 +96,7 @@
    "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan (14h ago)",
    "Bitcoin\u2019s wealthy holders turning to loans and yield as investment habits mature: Xapo CEO (14h ago)",
    "U.S. Clarity Act failure gives Asia and Middle East a competitive edge, says Apex Group CEO (16h ago)",
-   "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet (23h ago)",
+   "Franklin Templeton adds $150 million in fund shares to XRP Ledger, all in one wallet (24h ago)",
    "Wells Fargo and five others object to OKX-ICE tokenized stock listings: Report (31h ago)"
   ],
   "macro": [],
