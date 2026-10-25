@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 11:14 UTC. Runs so far: 26. Model: claude-haiku-5-5.
+Updated 2026-10-25 11:30 UTC. Runs so far: 26. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,15 +9,14 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 542 | 32 | -14431.05 | -19619.85 |
+| control | meme | 544 | 32 | -14414.54 | -19624.28 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 551 | 32 | -14237.68 | -19468.94 |
+| control | all | 553 | 32 | -14221.17 | -19473.37 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: Moustache long at 0.0001049, stop 8.392e-05, target 0.00014686, opened 2026-10-25 10:45 UTC
 
 ## Team
 
@@ -30,5 +29,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED Chubby (target) P&L $68.0 normal, $56.0 pessimistic
+- control: CLOSED Moustache (stop) P&L $-51.49 normal, $-60.43 pessimistic
 
