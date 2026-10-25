@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -6888.024447833601,
+   "cash": -6958.920500271442,
    "open": [
     {
      "id": 639,
@@ -23,36 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 640,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PRESIDENT",
-     "mint": "3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump",
-     "side": 1,
-     "opened": 1792966222.539754,
-     "entry": 0.000217,
-     "stop": 0.0001736,
-     "target": 0.00030379999999999996,
-     "size": 921658.9861751152,
-     "deadline": 1792973422.5397542,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 641,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "kimback",
-     "mint": "FcqKM8X2Fme8GLkPsyRpsbXZhLkRSbuaorrnheu5pump",
-     "side": 1,
-     "opened": 1792966403.6859593,
-     "entry": 9.882e-05,
-     "stop": 7.905600000000001e-05,
-     "target": 0.000138348,
-     "size": 2023881.80530257,
-     "deadline": 1792973603.6859596,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 642,
      "desk": "control",
      "market": "meme",
@@ -66,21 +36,29 @@
      "size": 1289490.6511927787,
      "deadline": 1792973949.0643916,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 644,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "TSLA",
+     "mint": "9rjHzQPpVL4XuYZ3S2bRk4CPYTubpAYpRvpY5pwzpump",
+     "side": 1,
+     "opened": 1792967297.5622032,
+     "entry": 0.0001688,
+     "stop": 0.00013504,
+     "target": 0.00023632,
+     "size": 1184834.1232227487,
+     "deadline": 1792974497.5622034,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 643,
+ "next_id": 645,
  "runs": 27,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CsovxRtEM6g4jcVGtcTB3xwycoAuPjEafpUTR6zrpump": 1792966761.3590636,
-  "seen:FcqKM8X2Fme8GLkPsyRpsbXZhLkRSbuaorrnheu5pump": 1792966761.3590636,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1792966761.3590636,
-  "seen:ERXyWGqsEhfxSCuZrpgH3tm16moY47uXtcBknS29kmch": 1792966945.6252396,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792966945.6252396,
-  "seen:5mwvdzB1CoYDoLTAKBUX9kSxxUALgU5YHKmgm4Lhpump": 1792967122.5050733,
-  "control:3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": 1792967122.5397577,
   "seen:9rjHzQPpVL4XuYZ3S2bRk4CPYTubpAYpRvpY5pwzpump": 1792967303.1668878,
   "seen:3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": 1792967303.1668878,
   "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1792967303.1668878,
@@ -92,7 +70,18 @@
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792967649.026662,
   "seen:9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump": 1792967649.026662,
   "seen:H4F4711qnUzBo4rhDtRUqT2sGimvb3LXUsuPe6onpump": 1792967649.026662,
-  "control:9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump": 1792967649.0643954
+  "control:9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump": 1792967649.0643954,
+  "seen:FcqKM8X2Fme8GLkPsyRpsbXZhLkRSbuaorrnheu5pump": 1792967833.5449345,
+  "seen:tybY2LFHH91VdoPJJkkFAsYaD7wnQQAm3BYg1x3mint": 1792967833.5449345,
+  "seen:v2pFf95jmJQQhLU9ZZRNLwtciKtZAxnHFQStUYmpump": 1792967833.5449345,
+  "seen:ERXyWGqsEhfxSCuZrpgH3tm16moY47uXtcBknS29kmch": 1792968014.855315,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1792968014.855315,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792968014.855315,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792968014.855315,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1792968014.855315,
+  "control:H4F4711qnUzBo4rhDtRUqT2sGimvb3LXUsuPe6onpump": 1792968014.891983,
+  "seen:5mwvdzB1CoYDoLTAKBUX9kSxxUALgU5YHKmgm4Lhpump": 1792968197.5235016,
+  "control:9rjHzQPpVL4XuYZ3S2bRk4CPYTubpAYpRvpY5pwzpump": 1792968197.562207
  },
  "talks": {
   "2026-10-21": 109
@@ -150,12 +139,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-25": 0.033415
+  "2026-10-25": 0.034014
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-25 15:16 UTC [macro] 16:15 UTC flat, no orders. GOLD, EURUSD and GBPUSD feeds still stale ~42h, so no live verification. Priority: restore live feed. Watch if live: GOLD short 1% only on hourly close below 4000 after failed rebound (stop abo",
   "2026-10-25 15:38 UTC [macro] 15:38 UTC flat, no orders. GOLD (4007.9), EURUSD (1.12045) and GBPUSD (1.33749) feeds stale ~42h, so no live verification. Priority: restore live feed. Watch if live: GOLD short 1% only on hourly close below 4000 after f",
   "2026-10-25 15:59 UTC [macro] 15:59 UTC flat, no orders. GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749 still stale ~43h, so no live verification. Priority: restore live feed. Watch if live: GOLD short 1% only on hourly close below 4000 after a failed r",
   "2026-10-25 16:21 UTC [macro] 16:20 UTC flat, no orders. GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749 still stale ~43h, so no live verification. Priority: restore live feed. Watch if live: GOLD short 1% only on hourly close below 4000 after failed reb",
@@ -174,8 +162,9 @@
   "2026-10-25 20:57 UTC [macro] 20:57 UTC flat, no orders. GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749 still stale ~48h. Priority: restore live feeds. Watch if live: GOLD short 1% only on hourly close below 4000 after failed rebound toward 4020, stop a",
   "2026-10-25 21:18 UTC [macro] 21:18 UTC flat, no orders. GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749 still stale ~48h; do not trade stale prices. Priority: restore live feeds. Watch if live: GOLD short 1% only on hourly close below 4000 after a faile",
   "2026-10-25 21:40 UTC [macro] 21:40 UTC flat again. GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749 still stale ~48h; do not trade stale prices. Priority: restore live feeds. Watch if live: GOLD short 1% only on hourly close below 4000 after a failed reb",
-  "2026-10-25 22:01 UTC [macro] 22:01 UTC flat, no orders. GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749 still stale ~49h; do not trade stale prices. Priority: restore live feeds. Watch if live: GOLD short 1% only on hourly close below 4000 after a faile"
+  "2026-10-25 22:01 UTC [macro] 22:01 UTC flat, no orders. GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749 still stale ~49h; do not trade stale prices. Priority: restore live feeds. Watch if live: GOLD short 1% only on hourly close below 4000 after a faile",
+  "2026-10-25 22:22 UTC [macro] Flat. GOLD 4008 live (10m), EURUSD/GBPUSD still stale ~49h, no forex trades. Watch: GOLD short 1% only on hourly close below 4000 after failed rebound to ~4020; stop ~4030, target ~3980, max 8h, net of costs. Restore EUR"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792965676.3739176
+ "last_macro_macro": 1792966933.5483599
 }
