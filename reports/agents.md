@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 13:30 UTC. Runs so far: 26. Model: claude-haiku-5-5.
+Updated 2026-10-25 13:42 UTC. Runs so far: 26. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -18,6 +18,9 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 ## Open positions
 
 - control: LAUNCH long at 0.0002006, stop 0.00016048, target 0.00028084, opened 2026-10-25 13:24 UTC
+- control: GME long at 0.0001858, stop 0.00014864, target 0.00026012, opened 2026-10-25 13:33 UTC
+- control: KURUMI long at 0.0001704, stop 0.00013632, target 0.00023856, opened 2026-10-25 13:36 UTC
+- control: BASE long at 0.0001345, stop 0.0001076, target 0.0001883, opened 2026-10-25 13:42 UTC
 
 ## Team
 
@@ -30,10 +33,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-25 13:30 UTC team macro (gold/forex), spent today $0.020
-
-Lead: Feeds for GOLD, EURUSD and GBPUSD are about 40 hours stale, so no live entry can be verified. Scout's gold short is conditional on a live hourly close below 4000 and a failed rebound. FX Scout has no pre-registered edge without fresh prices and no high-impact events in 24h. Skeptic: no entry, stop, target or net edge can be checked against current data. Decision: stay flat and keep the watch list.
-
-{"orders": [], "close": [], "note": "13:30 UTC flat, no orders. Feeds still stale ~40h (GOLD 4007.9, EURUSD 1.12045, GBPUSD 1.33749). Watch if live: GOLD short 1% only on hourly close below 4000 after failed rebound (stop above rebound high, target 3989). FX: no high-impact events in 24h, so no FX trade without a fresh catalyst."}
-
+- 2026-10-25 13:42 UTC control: OPENED BASE long at 0.0001345 (stop 0.0001076, target 0.0001883) - control: frozen v3 rules
 
