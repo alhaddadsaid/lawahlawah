@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 12:59 UTC. Runs so far: 26. Model: claude-haiku-5-5.
+Updated 2026-10-25 13:12 UTC. Runs so far: 26. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 551 | 32 | -14688.49 | -19963.02 |
+| control | meme | 552 | 32 | -14738.27 | -20021.78 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 560 | 32 | -14495.12 | -19812.11 |
+| control | all | 561 | 32 | -14544.9 | -19870.87 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: PMUP long at 0.0001755, stop 0.0001404, target 0.0002457, opened 2026-10-25 12:38 UTC
 - control: Marvin long at 0.0001016, stop 8.128e-05, target 0.00014224, opened 2026-10-25 12:44 UTC
+- control: LAUNCH long at 0.0001873, stop 0.00014984, target 0.00026222, opened 2026-10-25 13:05 UTC
+- control: Catoween long at 5.426e-05, stop 4.3408e-05, target 7.5964e-05, opened 2026-10-25 13:12 UTC
 
 ## Team
 
@@ -31,5 +32,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order PMUP REJECTED by guardrails: PMUP already open
+- 2026-10-25 13:12 UTC control: OPENED Catoween long at 5.426e-05 (stop 4.3408e-05, target 7.5964e-05) - control: frozen v3 rules
 
