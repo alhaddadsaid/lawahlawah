@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 14:00 UTC. Runs so far: 26. Model: claude-haiku-5-5.
+Updated 2026-10-25 14:13 UTC. Runs so far: 26. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -19,6 +19,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - control: LAUNCH long at 0.0002006, stop 0.00016048, target 0.00028084, opened 2026-10-25 13:24 UTC
 - control: KURUMI long at 0.0001704, stop 0.00013632, target 0.00023856, opened 2026-10-25 13:36 UTC
+- control: BASE long at 0.000102, stop 8.16e-05, target 0.0001428, opened 2026-10-25 14:03 UTC
 
 ## Team
 
@@ -31,16 +32,11 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: Lead now on mission all
-- team: Scout now on mission macro
-- team: Sniper now on mission macro
-- team: FX Scout now on mission macro
-- team: Skeptic now on mission all
-### 2026-10-25 14:00 UTC team review
+### 2026-10-25 14:13 UTC team macro (gold/forex), spent today $0.022
 
-**Review:** The memecoin momentum filter (under 10m old, h1 over +1000%, top10 under 15%) has lost most of the money, and the losing streak is at 5. Gold trades are small losers. I'm pausing memecoin trading until a pre-registered backtest shows a net edge after 2.5-5% per side costs. No new hires or firings this round, since the existing team is small and the problem is the hypothesis, not the people. Scout and Sniper move to macro. FX Scout keeps EUR/USD and GBP/USD. Skeptic must reject any trade without a pre-registered entry, stop, target, max hold and expected net edge. Gold ideas need the same test and a bigger sample before more capital.
+Lead: Feeds are still stale (GOLD age ~2473 min, FX ~2448 min), so the 4007.9 and FX prices can't be verified against live markets. Scout: the GOLD short idea needs a live hourly close below 4000. FX Scout: no high-impact events in 24h and no live FX levels, so nothing to size. Skeptic: any stop, target, or fill set on stale data fails the audit. Memecoin book is 18 trades, -$360, so no new memecoin entries. Sniper: no orders. Decision: stay flat until live data returns.
 
-{"hire": [], "fire": [], "missions": {"Lead": "all", "Scout": "macro", "Sniper": "macro", "FX Scout": "macro", "Skeptic": "all"}, "note": "Memecoin momentum paused pending a pre-registered backtest net of 2.5-5% per side costs. Gold and FX ideas must pass Skeptic's pre-registration check. Track hit rate and net P&L per hypothesis."}
+{"orders": [], "close": [], "note": "14:12 UTC flat, no orders. GOLD 4007.9 and EURUSD/GBPUSD feeds stale ~41h, no live verification. Priority: restore live feed. Watch if live: GOLD short 1% only on hourly close below 4000 after failed rebound (stop above rebound high, target 3989, max hold 12h); FX only with fresh levels and a pre-registered stop/target/hold. Memecoin book -$360 over 18 trades; no new memecoin entries."}
 
 - control: order KURUMI REJECTED by guardrails: KURUMI already open
 
