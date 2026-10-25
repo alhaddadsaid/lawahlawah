@@ -32,5 +32,5 @@ API spend today: $0.03 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order Bunnett REJECTED by guardrails: Bunnett already open
+## Run ended 2026-10-25 16:45 UTC
 
