@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 05:33 UTC. Runs so far: 25. Model: claude-haiku-5-5.
+Updated 2026-10-25 05:42 UTC. Runs so far: 25. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -32,5 +32,10 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-25 05:33 UTC control: OPENED Marvin long at 0.0002023 (stop 0.00016184, target 0.00028322) - control: frozen v3 rules
+### 2026-10-25 05:42 UTC team macro (gold/forex), spent today $0.009
+
+Lead: Feeds are about 33 hours stale (GOLD age 1962m, FX about 1937m), so no price is verified live. Scout's GOLD short trigger at 4000 can't be checked. Skeptic: no pre-registered entry can be validated against current data, and the memecoin journal is negative (-$360 over 18 trades). Sniper: no order is valid until feeds are live. Desk stays flat and re-checks the feed next cycle.
+
+{"orders": [], "close": [], "note": "05:42 UTC flat, no orders. GOLD (4007.9, age ~1962m) and FX (age ~1937m) feeds still stale ~33h, so no live verification. Priority: restore live feed before any trade. Watch list unchanged: GOLD short 1% only on a live hourly close below 4000 after a failed 4020 retest, stop 4035. Memecoin filter ideas stay parked (journal -$360)."}
+
 
