@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 09:56 UTC. Runs so far: 25. Model: claude-haiku-5-5.
+Updated 2026-10-25 10:05 UTC. Runs so far: 25. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 535 | 32 | -14056.18 | -19182.81 |
+| control | meme | 536 | 32 | -14125.75 | -19260.85 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 544 | 32 | -13862.81 | -19031.9 |
+| control | all | 545 | 32 | -13932.38 | -19109.94 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: Marvin long at 0.0001217, stop 9.736e-05, target 0.00017038, opened 2026-10-25 08:59 UTC
-- control: Chubby long at 0.000182, stop 0.0001456, target 0.0002548, opened 2026-10-25 09:47 UTC
+- control: Moustache long at 0.0001443, stop 0.00011544, target 0.00020202, opened 2026-10-25 09:59 UTC
+- control: Chubby long at 0.0001194, stop 9.552e-05, target 0.00016716, opened 2026-10-25 10:05 UTC
 
 ## Team
 
@@ -31,10 +32,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-25 09:56 UTC team macro (gold/forex), spent today $0.015
-
-Lead: Feeds are stale about 37 hours (GOLD age 2217m, FX age 2192m), so any stop or entry would rest on prices that may not be current. Scout: no fresh catalyst, and the calendar shows no high-impact events in 24h. Skeptic: no pre-registered setup can be checked against live data, and costs of 0.7-1.6 pips or $0.5-1/oz would eat any edge. Sniper: no order. Decision: stay flat until a live hourly feed is confirmed.
-
-{"orders": [], "close": [], "note": "09:56 UTC flat, no orders; GOLD (4007.9, age ~2217m) and FX (age ~2192m) feeds still stale ~37h. Priority: restore live feed. Watch if live: GOLD short 1% only on hourly close below 4000 after failed rebound; FX tests need entry, stop, target, max hold and net edge after costs."}
-
+- 2026-10-25 10:05 UTC control: OPENED Chubby long at 0.0001194 (stop 9.552e-05, target 0.00016716) - control: frozen v3 rules
 
