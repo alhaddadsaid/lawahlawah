@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -6200.189117127599,
+   "cash": -6476.831477748884,
    "open": [
     {
      "id": 621,
@@ -23,50 +23,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 629,
+     "id": 631,
      "desk": "control",
      "market": "meme",
-     "symbol": "AMC",
-     "mint": "B3utmoAez4taLJQ5usxEeya7T5ZijchsETdQCMazpump",
+     "symbol": "NMS",
+     "mint": "6mKrM1kb4jcZeBCo5596nWkM4JrERxkWsj7i157kpump",
      "side": 1,
-     "opened": 1792958768.2970617,
-     "entry": 0.0001641,
-     "stop": 0.00013128,
-     "target": 0.00022973999999999998,
-     "size": 1218769.043266301,
-     "deadline": 1792965968.2970622,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 630,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "LUCIASS",
-     "mint": "HJDvou3SdCXsfkYMSP8TuJ89obskrAqiXyXu8N4Fpump",
-     "side": 1,
-     "opened": 1792960404.9419992,
-     "entry": 8.128e-05,
-     "stop": 6.502399999999999e-05,
-     "target": 0.00011379199999999998,
-     "size": 2460629.921259843,
-     "deadline": 1792967604.9419994,
+     "opened": 1792960948.570779,
+     "entry": 0.0002168,
+     "stop": 0.00017344000000000002,
+     "target": 0.00030351999999999994,
+     "size": 922509.2250922509,
+     "deadline": 1792968148.5707796,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 631,
+ "next_id": 632,
  "runs": 27,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1792960759.6095345,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1792960759.6095345,
-  "seen:B3utmoAez4taLJQ5usxEeya7T5ZijchsETdQCMazpump": 1792960759.6095345,
-  "seen:FqrHvgGgKtbNSn42WEirPP4SPd4omdHd9eTa1dkhRCPG": 1792960940.152144,
-  "seen:3nm2Fa1LRtC4dLt8cvdzicK8U6stnVFLRxtjBVbgpump": 1792960940.152144,
-  "seen:GCN58WHB85WJ2kt3vwsmNUs8yhLTQNGcFguP77AKpump": 1792960940.152144,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1792960940.152144,
-  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1792960940.152144,
   "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1792961122.8632078,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792961122.8632078,
   "seen:ABTGtvVT28SAxRM22EdwrxzywgqKAfPTuhR6QJ3dpump": 1792961122.8632078,
@@ -77,7 +54,16 @@
   "seen:HJDvou3SdCXsfkYMSP8TuJ89obskrAqiXyXu8N4Fpump": 1792961492.0356622,
   "seen:4yzkM1ts8avWd1EXDcayWWWxu8oEKVBECRAT8qNnQxXx": 1792961492.0356622,
   "seen:7oWm3WKuG4qknnKyw8tNvMbP6gwzAeG3wEothAbrpump": 1792961492.0356622,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792961492.0356622
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792961492.0356622,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1792961666.5617893,
+  "seen:B3utmoAez4taLJQ5usxEeya7T5ZijchsETdQCMazpump": 1792961666.5617893,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792961666.5617893,
+  "seen:HFbPZqFdHBXaTjP3jkbsN7WTjB4Z65h8uLt7sj8fmJX4": 1792961847.4582808,
+  "seen:GCN58WHB85WJ2kt3vwsmNUs8yhLTQNGcFguP77AKpump": 1792961847.4582808,
+  "seen:3nm2Fa1LRtC4dLt8cvdzicK8U6stnVFLRxtjBVbgpump": 1792961847.4582808,
+  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1792961847.4582808,
+  "seen:41thoMqVENHtGhuSp5Jhy9yPWghqrPfeETrMe97JK4tg": 1792961847.4582808,
+  "control:6mKrM1kb4jcZeBCo5596nWkM4JrERxkWsj7i157kpump": 1792961848.5707831
  },
  "talks": {
   "2026-10-21": 109
@@ -118,18 +104,18 @@
  ],
  "last_review": 1792936850.5833156,
  "news": {
-  "t": 1792960040.1555626,
+  "t": 1792960947.4617052,
   "crypto": [
-   "ECB official sees digital euro as key to protecting EU \u2018sovereignty\u2019 (5h ago)",
-   "Latvia targets tokenization rules in 2027 with commercial property in focus (5h ago)",
-   "UK banks face 10,000 complaints in 3 months over crypto restrictions (7h ago)",
+   "ECB official sees digital euro as key to protecting EU \u2018sovereignty\u2019 (6h ago)",
+   "Latvia targets tokenization rules in 2027 with commercial property in focus (6h ago)",
+   "UK banks face 10,000 complaints in 3 months over crypto restrictions (8h ago)",
    "Netanyahu floats use of blockchain as solution to potential financial sanctions (9h ago)",
-   "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends (28h ago)",
+   "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends (29h ago)",
    "Block's new voice AI sounds eerily human, sparking awe and scam fears (29h ago)",
-   "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations (29h ago)",
-   "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker (29h ago)",
+   "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations (30h ago)",
+   "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker (30h ago)",
    "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA (30h ago)",
-   "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan (30h ago)"
+   "Wells Fargo, Cisco, Marvell among latest firms objecting to OKXICE's tokenized stock plan (31h ago)"
   ],
   "macro": [],
   "calendar": []
