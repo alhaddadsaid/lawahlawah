@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 09:47 UTC. Runs so far: 25. Model: claude-haiku-5-5.
+Updated 2026-10-25 09:56 UTC. Runs so far: 25. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -22,7 +22,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Team
 
-API spend today: $0.01 (cap $3, aiming for about $1.50)
+API spend today: $0.02 (cap $3, aiming for about $1.50)
 - Lead (team lead and analyst, mission all): Decide what the team trades. Weigh every idea against costs and the journal. Look for repeatable edges, not one-off bets.
 - Scout (researcher, mission macro): Bring ideas from prices, news, the economic calendar and politics. State each idea as a testable hypothesis.
 - Sniper (execution, mission macro): Turn approved ideas into exact orders: size, optional stop and target, holding time, and early exits.
@@ -31,5 +31,10 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED WHITEWHALE (target) P&L $68.0 normal, $56.0 pessimistic
+### 2026-10-25 09:56 UTC team macro (gold/forex), spent today $0.015
+
+Lead: Feeds are stale about 37 hours (GOLD age 2217m, FX age 2192m), so any stop or entry would rest on prices that may not be current. Scout: no fresh catalyst, and the calendar shows no high-impact events in 24h. Skeptic: no pre-registered setup can be checked against live data, and costs of 0.7-1.6 pips or $0.5-1/oz would eat any edge. Sniper: no order. Decision: stay flat until a live hourly feed is confirmed.
+
+{"orders": [], "close": [], "note": "09:56 UTC flat, no orders; GOLD (4007.9, age ~2217m) and FX (age ~2192m) feeds still stale ~37h. Priority: restore live feed. Watch if live: GOLD short 1% only on hourly close below 4000 after failed rebound; FX tests need entry, stop, target, max hold and net edge after costs."}
+
 
