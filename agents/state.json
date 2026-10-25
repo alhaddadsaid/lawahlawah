@@ -6,20 +6,29 @@
   },
   "control": {
    "cash": -3385.994861143876,
-   "open": []
+   "open": [
+    {
+     "id": 534,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "swordansem",
+     "mint": "BFokd6zmXHqgoUea3mnidSqTsC66eiAuJxPt6QApump",
+     "side": 1,
+     "opened": 1792897014.7862382,
+     "entry": 0.0001697,
+     "stop": 0.00013576,
+     "target": 0.00023757999999999999,
+     "size": 1178550.3830288744,
+     "deadline": 1792904214.7862384,
+     "thesis": "control: frozen v3 rules"
+    }
+   ]
   }
  },
- "next_id": 534,
+ "next_id": 535,
  "runs": 24,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792896822.1009867,
-  "seen:AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump": 1792896822.1009867,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792896822.1009867,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1792896822.1009867,
-  "seen:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": 1792897005.262142,
-  "seen:D9WqM4s6whVxregsjYHtTkuKX2GbGMkaK3A4DHcApump": 1792897005.262142,
-  "control:28ZdKbDwAWSsKPFMwxJTUiB9HbjWxetsHvK1NYwtpump": 1792897005.8423676,
   "seen:FmuciqKXRRnKqhi7BNin5mYH6fm3oTrfVB5A5Fyrpump": 1792897184.9899209,
   "seen:28ZdKbDwAWSsKPFMwxJTUiB9HbjWxetsHvK1NYwtpump": 1792897184.9899209,
   "seen:hFF4rkdzsaoYhkz4dGEQepGmHCBTVFFCoaLXbJqpump": 1792897184.9899209,
@@ -28,7 +37,14 @@
   "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792897184.9899209,
   "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792897366.2888646,
   "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1792897366.2888646,
-  "seen:BFokd6zmXHqgoUea3mnidSqTsC66eiAuJxPt6QApump": 1792897551.1287758
+  "seen:BFokd6zmXHqgoUea3mnidSqTsC66eiAuJxPt6QApump": 1792897551.1287758,
+  "seen:AUHK6bsTMU6nemt7epnvELJtGezx9JS76Lm48pxipump": 1792897731.7414036,
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1792897731.7414036,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1792897731.7414036,
+  "seen:3SVjZ7BfT9FxiR49nZc7UdBmLgzRLJY7XBZDKhEFpump": 1792897914.2482288,
+  "seen:D9WqM4s6whVxregsjYHtTkuKX2GbGMkaK3A4DHcApump": 1792897914.2482288,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792897914.2482288,
+  "control:BFokd6zmXHqgoUea3mnidSqTsC66eiAuJxPt6QApump": 1792897914.7862413
  },
  "talks": {
   "2026-10-21": 109
@@ -69,10 +85,10 @@
  ],
  "last_review": 1792850286.0145006,
  "news": {
-  "t": 1792896105.2651398,
+  "t": 1792897014.2513723,
   "crypto": [
    "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends (11h ago)",
-   "Block's new voice AI sounds eerily human, sparking awe and scam fears (11h ago)",
+   "Block's new voice AI sounds eerily human, sparking awe and scam fears (12h ago)",
    "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations (12h ago)",
    "Why McDonalds, Microsoft and Google saying no to tokenized stocks isn't a dealbreaker (12h ago)",
    "Argentina drops criminal probe into President Milei over crashed memecoin LIBRA (12h ago)",
