@@ -32,5 +32,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-25 05:14 UTC control: OPENED BILLIONS long at 0.0001896 (stop 0.00015168, target 0.00026544) - control: frozen v3 rules
+## Run ended 2026-10-25 05:14 UTC
 
