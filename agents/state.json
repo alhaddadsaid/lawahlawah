@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -9115.66553970288,
+   "cash": -9165.809483211844,
    "open": [
     {
      "id": 710,
@@ -20,21 +20,6 @@
      "target": 0.00011243399999999999,
      "size": 2490349.8941601296,
      "deadline": 1793009888.1646266,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 712,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PRESIDENT",
-     "mint": "3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump",
-     "side": 1,
-     "opened": 1793003971.0781143,
-     "entry": 0.0001841,
-     "stop": 0.00014728,
-     "target": 0.00025774,
-     "size": 1086366.1053775123,
-     "deadline": 1793011171.0781145,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -89,20 +74,23 @@
  "runs": 29,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:PairUottr9sWf6REag62Y8xeFfrWSpL1F9zikNyqWLV": 1793008346.597355,
-  "seen:4GyUcwKq2xJmtHdL96UjwKNT4bUadaKGHuZatABgpump": 1793008346.597355,
-  "control:PairUottr9sWf6REag62Y8xeFfrWSpL1F9zikNyqWLV": 1793008346.6994796,
-  "seen:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP": 1793008531.374909,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793008711.0041964,
-  "seen:BEwvuL9EsEukMbETMcgRDJ2MVvVjTyEz4SAUxLuh2zL1": 1793008711.0041964,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793008711.0041964,
   "seen:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1793008894.6295972,
   "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793008894.6295972,
   "seen:HEPG65DZHGePLKrTqkkkJLUb7vt9A2436kdTxTJSSTNK": 1793009075.1107965,
   "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793009075.1107965,
   "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793009075.1107965,
   "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1793009075.1107965,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793009075.1107965
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793009075.1107965,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793009260.2998085,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793009260.2998085,
+  "seen:4GyUcwKq2xJmtHdL96UjwKNT4bUadaKGHuZatABgpump": 1793009260.2998085,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793009260.2998085,
+  "seen:PairUottr9sWf6REag62Y8xeFfrWSpL1F9zikNyqWLV": 1793009443.3453937,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793009630.4175096,
+  "seen:3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": 1793009630.4175096,
+  "seen:BEwvuL9EsEukMbETMcgRDJ2MVvVjTyEz4SAUxLuh2zL1": 1793009630.4175096,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793009630.4175096,
+  "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793009630.4175096
  },
  "talks": {
   "2026-10-21": 109
@@ -143,17 +131,17 @@
  ],
  "last_review": 1792936850.5833156,
  "news": {
-  "t": 1793007811.0074055,
+  "t": 1793008730.42056,
   "crypto": [
-   "Fed, ECB and BOJ interest-rate decisions, Coinbase earnings: Crypto Week Ahead (0h ago)",
-   "Bitcoin ETFs break 2-week outflow streak with $301M comeback (1h ago)",
-   "Over 11 million bitcoin has no known owner. Here's what it means (2h ago)",
+   "Fed, ECB and BOJ interest-rate decisions, Coinbase earnings: Crypto Week Ahead (1h ago)",
+   "Bitcoin ETFs break 2-week outflow streak with $301M comeback (2h ago)",
+   "Over 11 million bitcoin has no known owner. Here's what it means (3h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
    "India's largest crypto exchange absorbs $16 million loss from internal process failure tied to retired wallet (4h ago)",
-   "Bitcoin wallet bug let rogue servers steal funds when users tried to speed up payments (4h ago)",
-   "Musk warns over 200 AI neoclouds face \u2018guppy-level death\u2019 (4h ago)",
+   "Bitcoin wallet bug let rogue servers steal funds when users tried to speed up payments (5h ago)",
+   "Musk warns over 200 AI neoclouds face \u2018guppy-level death\u2019 (5h ago)",
    "Bitcoin slips under $80,000 as traders de-risk ahead of Fed meeting (5h ago)",
-   "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise (6h ago)",
+   "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise (7h ago)",
    "Elon Musk issues a warning for 'AI neoclouds' as SpaceX borrows $40 billion for chips (7h ago)"
   ],
   "macro": [],
