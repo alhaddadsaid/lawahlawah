@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-26 15:33 UTC. Runs so far: 30. Model: claude-haiku-5-5.
+Updated 2026-10-26 15:45 UTC. Runs so far: 30. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 723 | 31 | -20008.76 | -26910.97 |
+| control | meme | 725 | 31 | -20120.83 | -27040.69 |
 | control | macro | 11 | 45 | -58.52 | -116.18 |
-| control | all | 734 | 31 | -20067.28 | -27027.15 |
+| control | all | 736 | 31 | -20179.35 | -27156.87 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -19,8 +19,8 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - control: RAYPAD long at 0.0002046, stop 0.00016368, target 0.00028644, opened 2026-10-26 14:32 UTC
 - control: GME long at 0.0001226, stop 9.808e-05, target 0.00017164, opened 2026-10-26 15:14 UTC
-- control: Shitcoin long at 0.0001712, stop 0.00013696, target 0.00023968, opened 2026-10-26 15:18 UTC
-- control: PUMP long at 5.803e-05, stop 4.6424e-05, target 8.1242e-05, opened 2026-10-26 15:32 UTC
+- control: GINNAN long at 4.515e-08, stop 3.612e-08, target 6.321e-08, opened 2026-10-26 15:42 UTC
+- control: Shitcoin long at 0.0001042, stop 8.336e-05, target 0.00014588, opened 2026-10-26 15:45 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED ARROW (stop) P&L $-59.65 normal, $-68.38 pessimistic
+- 2026-10-26 15:45 UTC control: OPENED Shitcoin long at 0.0001042 (stop 8.336e-05, target 0.00014588) - control: frozen v3 rules
 
