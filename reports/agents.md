@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-26 04:53 UTC. Runs so far: 29. Model: claude-haiku-5-5.
+Updated 2026-10-26 05:06 UTC. Runs so far: 29. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 654 | 31 | -18226.1 | -24466.36 |
+| control | meme | 656 | 32 | -18233.7 | -24494.28 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 663 | 32 | -18032.73 | -24315.45 |
+| control | all | 665 | 32 | -18040.33 | -24343.37 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GBPUSD long at 1.33828, stop 1.33748, target 1.33947, opened 2026-10-26 03:02 UTC
-- control: RAYPAD long at 9.464e-05, stop 7.5712e-05, target 0.000132496, opened 2026-10-26 04:19 UTC
 - control: ROFLAMP long at 0.0001689, stop 0.00013512, target 0.00023646, opened 2026-10-26 04:44 UTC
 - control: maxxing long at 0.0003393, stop 0.00027144, target 0.00047502, opened 2026-10-26 04:50 UTC
 
@@ -33,5 +32,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order RAYPAD REJECTED by guardrails: RAYPAD already open
+- control: CLOSED RAYPAD (target) P&L $68.0 normal, $56.0 pessimistic
 
