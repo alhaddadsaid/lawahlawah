@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -9791.683264684054,
+   "cash": -10026.305643313899,
    "open": [
-    {
-     "id": 742,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Chop",
-     "mint": "3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump",
-     "side": 1,
-     "opened": 1793021847.0760722,
-     "entry": 0.0001145,
-     "stop": 9.16e-05,
-     "target": 0.0001603,
-     "size": 1746724.8908296942,
-     "deadline": 1793029047.0760725,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 743,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GME",
-     "mint": "9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump",
-     "side": 1,
-     "opened": 1793022034.849897,
-     "entry": 0.0001096,
-     "stop": 8.768e-05,
-     "target": 0.00015344,
-     "size": 1824817.5182481753,
-     "deadline": 1793029234.8498974,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 748,
      "desk": "control",
@@ -53,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 749,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ANT",
-     "mint": "BTZK1B3pCoBDD1vy5e4bDBM4bwvvhkKUMTuKABkGWwGp",
-     "side": 1,
-     "opened": 1793026039.9776258,
-     "entry": 0.0001818,
-     "stop": 0.00014544000000000002,
-     "target": 0.00025452,
-     "size": 1100110.0110011,
-     "deadline": 1793033239.977626,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 750,
      "desk": "control",
      "market": "meme",
@@ -81,34 +36,48 @@
      "size": 1319261.2137203165,
      "deadline": 1793033604.057893,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 752,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "GME",
+     "mint": "9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump",
+     "side": 1,
+     "opened": 1793027681.459326,
+     "entry": 0.0001226,
+     "stop": 9.808e-05,
+     "target": 0.00017164,
+     "size": 1631321.370309951,
+     "deadline": 1793034881.4593263,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 751,
+ "next_id": 753,
  "runs": 30,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3E8N8HpqFodCEqcRpi6TtopyJUT5FnPPcZXoj6zxpump": 1793027121.812753,
-  "seen:ETFpgjkR5iAHejxHpErvjBHPoPjNvaxtssK7z4Lfpump": 1793027121.812753,
-  "seen:AA39p6RQP2a6zX2tHwnaSR8wY6AyFftb3wxKrDqMpump": 1793027121.812753,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793027304.0290978,
-  "seen:3P1CM6VJFrqPgewDgFvkJY1qrWR3tmsUT1AKkYbRpump": 1793027304.0290978,
-  "seen:GJC9ZFS5nV4XM8Wi8Hyej898qH9hJNm8KBGnGRgGpump": 1793027304.0290978,
-  "control:5QLhJag4UGsLod7H2Ci9HmgtMprgvG574Bv93v1NhDvq": 1793027304.0578957,
-  "seen:4wYiX21uJQj5MUPVDAHeVAbqCaEYVisEkHpWcKpApump": 1793027488.2041428,
-  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793027488.2041428,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793027488.2041428,
-  "seen:EEjGcoWPXkvcdaBuyM9zJ5rZu2KQh5aFCYzoi4KCpump": 1793027670.4835188,
-  "seen:HmGmVS7hQ9jJKJh43s4hcys9eTF1AM637yde4HZ2pump": 1793027670.4835188,
-  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793027670.4835188,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793027670.4835188,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793027670.4835188,
-  "seen:CzGXLpVjYaQTDM8FxKtiCwkm3YxYHL21XUVeSgWMxa7u": 1793027670.4835188,
   "seen:VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 1793027852.5416174,
   "seen:5QLhJag4UGsLod7H2Ci9HmgtMprgvG574Bv93v1NhDvq": 1793027852.5416174,
   "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793027852.5416174,
-  "seen:4oePuPMSNuA2gtaAcNz5sRu8kYNLkj9khMorVLDGpump": 1793027852.5416174
+  "seen:4oePuPMSNuA2gtaAcNz5sRu8kYNLkj9khMorVLDGpump": 1793027852.5416174,
+  "seen:ETFpgjkR5iAHejxHpErvjBHPoPjNvaxtssK7z4Lfpump": 1793028035.657791,
+  "seen:AA39p6RQP2a6zX2tHwnaSR8wY6AyFftb3wxKrDqMpump": 1793028035.657791,
+  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793028035.657791,
+  "seen:5Mbttpskm2EesN4ECWJiZSMh9cYNkAWLUoKHAbvtpump": 1793028216.1147678,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793028216.1147678,
+  "control:ETFpgjkR5iAHejxHpErvjBHPoPjNvaxtssK7z4Lfpump": 1793028216.1825848,
+  "seen:4wYiX21uJQj5MUPVDAHeVAbqCaEYVisEkHpWcKpApump": 1793028399.2577367,
+  "seen:4t3L2M4Sj5qsLvVwgpriUeS6d1SzPKmGrMYyxNXBpump": 1793028399.2577367,
+  "seen:EEjGcoWPXkvcdaBuyM9zJ5rZu2KQh5aFCYzoi4KCpump": 1793028581.4313982,
+  "seen:HmGmVS7hQ9jJKJh43s4hcys9eTF1AM637yde4HZ2pump": 1793028581.4313982,
+  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793028581.4313982,
+  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793028581.4313982,
+  "seen:9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump": 1793028581.4313982,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1793028581.4313982,
+  "control:9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump": 1793028581.4593298
  },
  "talks": {
   "2026-10-21": 109
@@ -149,29 +118,28 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793026221.8167558,
+  "t": 1793027135.6619525,
   "crypto": [
-   "PHP flaw shows AI \u2018vulnerability apocalypse\u2019 is on schedule: Immunefi CEO (0h ago)",
-   "Canada opens consultation on draft stablecoin rules, maintains ban on yields (0h ago)",
-   "Strategy skips Bitcoin purchases, spends $205M on STRC buybacks (1h ago)",
-   "Here\u2019s what happened in crypto today (1h ago)",
-   "AI giant Anthropic files for blockbuster IPO (1h ago)",
+   "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029 (0h ago)",
+   "PHP flaw shows AI \u2018vulnerability apocalypse\u2019 is on schedule: Immunefi CEO (1h ago)",
+   "Canada opens consultation on draft stablecoin rules, maintains ban on yields (1h ago)",
+   "Strategy skips Bitcoin purchases, spends $205M on STRC buybacks (2h ago)",
+   "Here\u2019s what happened in crypto today (2h ago)",
+   "AI giant Anthropic files for blockbuster IPO (2h ago)",
    "HOOD\u2019s prediction markets to add $1.7B to revenue, exceed crypto by 2028: Bernstein (2h ago)",
    "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000 (3h ago)",
    "Aviva Investors launches tokenized share class of $29B Sterling fund on XRP Ledger (3h ago)",
-   "Bitcoin holds near $80,000 as oil retreats and the Fed decision looms (3h ago)",
-   "Live news: Bitcoin slips below $80,000 as Anthropic files for massive IPO (4h ago)"
+   "Bitcoin holds near $80,000 as oil retreats and the Fed decision looms (4h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-26": 0.023578
+  "2026-10-26": 0.024168
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-26 07:59 UTC [macro] 07:59 UTC flat, no orders. GOLD 4022.7, 5d low now 3989.1, trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no calendar ca",
   "2026-10-26 08:21 UTC [macro] 08:21 UTC flat, no orders. GOLD 4027.5, short trigger not met (needs failed rebound to ~4020, then hourly close <4000). Watch: GOLD short 1% only after that; stop 4030, target 3980, max 8h, net of costs. FX: no calendar ",
   "2026-10-26 08:42 UTC [macro] 08:42 flat, no orders. GOLD 4028.1, short trigger not met (needs failed rebound to ~4020, then hourly close <4000). Watch: GOLD short 1% only after that; stop 4030, target 3980, max 8h, net of costs. FX: no calendar cata",
   "2026-10-26 09:03 UTC [macro] 09:03 UTC flat, no orders. GOLD 4034.6, short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no calendar catalyst, no pr",
@@ -190,8 +158,9 @@
   "2026-10-26 13:40 UTC [macro] 13:40 flat. GOLD 4019.8, 5d low now 3989.1 (old 4072 ref stale). Gold short 1% only if hourly close <4000 after failed rebound to ~4020; stop 4030, target 3980, max 8h, net of costs. Memecoin: no new filter-passing setup",
   "2026-10-26 14:02 UTC [macro] 10:14 UTC flat, no orders. Gold 4010.4 (5d low 3989.1, 5d high 4197.1). Watch: GOLD short 1% only if hourly close <4000 after a failed rebound to ~4020; stop 4030, target 3980, max 8h, net of costs. FX: no high-impact ev",
   "2026-10-26 14:23 UTC [macro] 14:23 flat, no orders. Gold 4016 (5d low 3989.1, high 4197.1). Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. Memecoin filter paused: 9 losin",
-  "2026-10-26 14:44 UTC [macro] 14:44 flat, no orders. Gold 4027 (5d low 3989.1, high 4197.1); short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no h"
+  "2026-10-26 14:44 UTC [macro] 14:44 flat, no orders. Gold 4027 (5d low 3989.1, high 4197.1); short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no h",
+  "2026-10-26 15:05 UTC [macro] 14:50 UTC flat. Gold 4036.2 above 4020 rebound level; short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs (5d low now 3989.1"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1793025857.7383275
+ "last_macro_macro": 1793027135.6619096
 }
