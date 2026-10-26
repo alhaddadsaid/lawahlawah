@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-26 17:15 UTC. Runs so far: 31. Model: claude-haiku-5-5.
+Updated 2026-10-26 17:24 UTC. Runs so far: 31. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 736 | 31 | -20645.74 | -27664.95 |
+| control | meme | 737 | 31 | -20577.74 | -27608.95 |
 | control | macro | 11 | 45 | -58.52 | -116.18 |
-| control | all | 747 | 31 | -20704.26 | -27781.13 |
+| control | all | 748 | 31 | -20636.26 | -27725.13 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -19,8 +19,9 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - control: SIB long at 0.000288, stop 0.0002304, target 0.0004032, opened 2026-10-26 15:50 UTC
 - control: GOLD short at 4032.1, stop 4044.41, target 4013.64, opened 2026-10-26 17:00 UTC
-- control: MoonCoin long at 0.0001356, stop 0.00010848, target 0.00018984, opened 2026-10-26 17:12 UTC
 - control: Grokbot long at 0.0001128, stop 9.024e-05, target 0.00015792, opened 2026-10-26 17:15 UTC
+- control: ANT long at 0.0001253, stop 0.00010024, target 0.00017542, opened 2026-10-26 17:18 UTC
+- control: Shitcoin long at 8.609e-05, stop 6.8872e-05, target 0.000120526, opened 2026-10-26 17:24 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.03 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-26 17:15 UTC control: OPENED Grokbot long at 0.0001128 (stop 9.024e-05, target 0.00015792) - control: frozen v3 rules
+- 2026-10-26 17:24 UTC control: OPENED Shitcoin long at 8.609e-05 (stop 6.8872e-05, target 0.000120526) - control: frozen v3 rules
 
