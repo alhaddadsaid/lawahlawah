@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-26 08:18 UTC. Runs so far: 29. Model: claude-haiku-5-5.
+Updated 2026-10-26 08:25 UTC. Runs so far: 29. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 677 | 31 | -18974.82 | -25431.76 |
+| control | meme | 678 | 31 | -18906.82 | -25375.76 |
 | control | macro | 10 | 50 | 72.9 | 22.91 |
-| control | all | 687 | 31 | -18901.92 | -25408.85 |
+| control | all | 688 | 32 | -18833.92 | -25352.85 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - control: PRESIDENT long at 0.0002286, stop 0.00018288, target 0.00032004, opened 2026-10-26 06:46 UTC
 - control: SIB long at 0.0002137, stop 0.00017096, target 0.00029918, opened 2026-10-26 07:50 UTC
-- control: STM long at 0.0001639, stop 0.00013112, target 0.00022946, opened 2026-10-26 08:05 UTC
 - control: ApeLax long at 0.0001035, stop 8.28e-05, target 0.0001449, opened 2026-10-26 08:15 UTC
 - control: Bow long at 8.031e-05, stop 6.4248e-05, target 0.000112434, opened 2026-10-26 08:18 UTC
 
@@ -34,5 +33,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-26 08:18 UTC control: OPENED Bow long at 8.031e-05 (stop 6.4248e-05, target 0.000112434) - control: frozen v3 rules
+- control: CLOSED STM (target) P&L $68.0 normal, $56.0 pessimistic
 
