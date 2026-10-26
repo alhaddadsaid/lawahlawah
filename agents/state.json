@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -8734.886921599036,
+   "cash": -8655.668726730923,
    "open": [
     {
      "id": 695,
@@ -20,21 +20,6 @@
      "target": 0.00018199999999999998,
      "size": 1538461.5384615385,
      "deadline": 1793003095.5170226,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 696,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ApeLax",
-     "mint": "BTvAbqm2z6r81UX9f3Kt9eijZwAr824QyjCeYaNCpump",
-     "side": 1,
-     "opened": 1792996451.115377,
-     "entry": 7.916e-05,
-     "stop": 6.3328e-05,
-     "target": 0.00011082399999999998,
-     "size": 2526528.5497726128,
-     "deadline": 1793003651.1153772,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -53,63 +38,45 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 702,
+     "id": 704,
      "desk": "control",
      "market": "meme",
      "symbol": "STM",
      "mint": "8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5",
      "side": 1,
-     "opened": 1792999569.9208272,
-     "entry": 0.0001135,
-     "stop": 9.08e-05,
-     "target": 0.00015889999999999999,
-     "size": 1762114.537444934,
-     "deadline": 1793006769.9208276,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 703,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ROFLAMP",
-     "mint": "8cFU1FJHVZQAricMRXPE5wa3zg6GvdG52mcutMMBpump",
-     "side": 1,
-     "opened": 1793000308.0789547,
-     "entry": 5.573e-05,
-     "stop": 4.4584e-05,
-     "target": 7.802199999999999e-05,
-     "size": 3588731.3834559484,
-     "deadline": 1793007508.078955,
+     "opened": 1793000854.4048197,
+     "entry": 0.0001715,
+     "stop": 0.0001372,
+     "target": 0.00024009999999999998,
+     "size": 1166180.7580174927,
+     "deadline": 1793008054.40482,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 704,
+ "next_id": 705,
  "runs": 29,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:EyS3pPRHX6Q3eQAXxkoWKQyrEaExVfyByvFo8GQQpump": 1793000469.1835885,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793000469.1835885,
-  "control:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1793000469.9208314,
-  "seen:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1793000653.6022925,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793000653.6022925,
-  "seen:6aTCKV9YPJU97xCXESWHUgCRrNL41YALoTrk41B8pump": 1793000653.6022925,
-  "seen:BTvAbqm2z6r81UX9f3Kt9eijZwAr824QyjCeYaNCpump": 1793000653.6022925,
-  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1793000653.6022925,
-  "seen:3MYBdTcuPKq1J6pyeFrKxpxwKQC7FGkz1WnYvSTTpump": 1793000838.1776898,
-  "seen:35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump": 1793000838.1776898,
-  "seen:EcHrGPcNZUrcqKE1wUya6WA548anFUDsgF1VJ4Jupump": 1793000838.1776898,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793000838.1776898,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793000838.1776898,
-  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793000838.1776898,
   "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793001021.7150578,
   "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793001021.7150578,
   "seen:6yf56qzdBkmaXgt3iUwXXuuB9bVKBR95EQ6zmKfApump": 1793001021.7150578,
   "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1793001205.0421271,
   "seen:8cFU1FJHVZQAricMRXPE5wa3zg6GvdG52mcutMMBpump": 1793001205.0421271,
   "seen:5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": 1793001205.0421271,
-  "control:8cFU1FJHVZQAricMRXPE5wa3zg6GvdG52mcutMMBpump": 1793001208.0789583
+  "control:8cFU1FJHVZQAricMRXPE5wa3zg6GvdG52mcutMMBpump": 1793001208.0789583,
+  "seen:8pzKGfM1KFUKkojDUa8iTV5yvEh38NhcsEt6RnQwpump": 1793001387.7088354,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793001387.7088354,
+  "seen:BEwvuL9EsEukMbETMcgRDJ2MVvVjTyEz4SAUxLuh2zL1": 1793001387.7088354,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793001387.7088354,
+  "seen:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1793001571.4039435,
+  "seen:BTvAbqm2z6r81UX9f3Kt9eijZwAr824QyjCeYaNCpump": 1793001571.4039435,
+  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1793001571.4039435,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793001571.4039435,
+  "seen:EcHrGPcNZUrcqKE1wUya6WA548anFUDsgF1VJ4Jupump": 1793001754.2934277,
+  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793001754.2934277,
+  "control:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1793001754.4048235
  },
  "talks": {
   "2026-10-21": 109
@@ -150,7 +117,7 @@
  ],
  "last_review": 1792936850.5833156,
  "news": {
-  "t": 1792999569.186389,
+  "t": 1793000487.7116246,
   "crypto": [
    "Over 11 million bitcoin has no known owner. Here's what it means (0h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
