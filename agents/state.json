@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -10608.349554298056,
+   "cash": -10722.585370079743,
    "open": [
     {
      "id": 760,
@@ -38,32 +38,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 763,
+     "id": 766,
      "desk": "control",
      "market": "meme",
      "symbol": "Shitcoin",
      "mint": "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump",
      "side": 1,
-     "opened": 1793031269.1443884,
-     "entry": 0.0001549,
-     "stop": 0.00012392,
-     "target": 0.00021685999999999998,
-     "size": 1291155.5842479018,
-     "deadline": 1793038469.1443884,
+     "opened": 1793032916.4293466,
+     "entry": 0.0001244,
+     "stop": 9.952e-05,
+     "target": 0.00017415999999999997,
+     "size": 1607717.0418006433,
+     "deadline": 1793040116.4293468,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 765,
+ "next_id": 767,
  "runs": 31,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 1793032714.9277227,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793032714.9277227,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1793032714.9277227,
-  "seen:JiGs2TwqyCBZeiUzNKBUwQaMG6Z2rfNt31ipois6JiG": 1793032898.913706,
-  "seen:42nvgmxdtEyHLD1qJUeTyexenLpCGoZsLfQPQnsdpump": 1793032898.913706,
   "seen:A1vV5Us4iWRmFrDqssLF8RLxMknkv3d2mzGN69Fvpump": 1793033084.331158,
   "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793033084.331158,
   "seen:3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": 1793033084.331158,
@@ -77,7 +72,15 @@
   "seen:SNAPcESrvnH8yUdgeMF6xm1hym9b6hW6s8YeqeHdZFz": 1793033449.898916,
   "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793033449.898916,
   "seen:2h6No4wqsn2ckqsWR2JFp1wMF5fiKuJinEQPneT9mdn3": 1793033449.898916,
-  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793033449.898916
+  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793033449.898916,
+  "seen:5QREAgtfP1NkuymRaFdHxr5QNF2Yry9M1YCyaompump": 1793033630.728831,
+  "seen:VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 1793033630.728831,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793033630.728831,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793033630.728831,
+  "control:2h6No4wqsn2ckqsWR2JFp1wMF5fiKuJinEQPneT9mdn3": 1793033631.3081248,
+  "seen:42nvgmxdtEyHLD1qJUeTyexenLpCGoZsLfQPQnsdpump": 1793033816.3407707,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793033816.3407707,
+  "control:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793033816.4293501
  },
  "talks": {
   "2026-10-21": 109
@@ -118,18 +121,18 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793031814.9310958,
+  "t": 1793032730.7322545,
   "crypto": [
-   "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines (0h ago)",
-   "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks (0h ago)",
-   "Kalshi strikes deal with S&P Dow Jones Indices to expand financial event contracts (0h ago)",
+   "South Korea lawmakers mull pushing crypto tax implementation to 2029 (0h ago)",
+   "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines (1h ago)",
+   "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks (1h ago)",
+   "Kalshi strikes deal with S&P Dow Jones Indices to expand financial event contracts (1h ago)",
    "OCC calls on community banks to enter the stablecoin payments market (1h ago)",
    "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029 (2h ago)",
    "PHP flaw shows AI \u2018vulnerability apocalypse\u2019 is on schedule: Immunefi CEO (2h ago)",
    "Canada opens consultation on draft stablecoin rules, maintains ban on yields (2h ago)",
    "Strategy skips Bitcoin purchases, spends $205M on STRC buybacks (3h ago)",
-   "Here\u2019s what happened in crypto today (3h ago)",
-   "AI giant Anthropic files for blockbuster IPO (3h ago)"
+   "Here\u2019s what happened in crypto today (3h ago)"
   ],
   "macro": [],
   "calendar": []
