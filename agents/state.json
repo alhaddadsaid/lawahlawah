@@ -51,24 +51,44 @@
      "size": 1631321.370309951,
      "deadline": 1793034881.4593263,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 753,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Shitcoin",
+     "mint": "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump",
+     "side": 1,
+     "opened": 1793027899.2127347,
+     "entry": 0.0001712,
+     "stop": 0.00013696,
+     "target": 0.00023967999999999995,
+     "size": 1168224.2990654206,
+     "deadline": 1793035099.212735,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 754,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "TICTACTOE",
+     "mint": "ETFpgjkR5iAHejxHpErvjBHPoPjNvaxtssK7z4Lfpump",
+     "side": 1,
+     "opened": 1793028228.07117,
+     "entry": 0.0001802,
+     "stop": 0.00014416,
+     "target": 0.00025227999999999996,
+     "size": 1109877.913429523,
+     "deadline": 1793035428.07117,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 753,
+ "next_id": 755,
  "runs": 30,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 1793027852.5416174,
-  "seen:5QLhJag4UGsLod7H2Ci9HmgtMprgvG574Bv93v1NhDvq": 1793027852.5416174,
-  "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793027852.5416174,
-  "seen:4oePuPMSNuA2gtaAcNz5sRu8kYNLkj9khMorVLDGpump": 1793027852.5416174,
-  "seen:ETFpgjkR5iAHejxHpErvjBHPoPjNvaxtssK7z4Lfpump": 1793028035.657791,
-  "seen:AA39p6RQP2a6zX2tHwnaSR8wY6AyFftb3wxKrDqMpump": 1793028035.657791,
-  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793028035.657791,
-  "seen:5Mbttpskm2EesN4ECWJiZSMh9cYNkAWLUoKHAbvtpump": 1793028216.1147678,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793028216.1147678,
-  "control:ETFpgjkR5iAHejxHpErvjBHPoPjNvaxtssK7z4Lfpump": 1793028216.1825848,
   "seen:4wYiX21uJQj5MUPVDAHeVAbqCaEYVisEkHpWcKpApump": 1793028399.2577367,
   "seen:4t3L2M4Sj5qsLvVwgpriUeS6d1SzPKmGrMYyxNXBpump": 1793028399.2577367,
   "seen:EEjGcoWPXkvcdaBuyM9zJ5rZu2KQh5aFCYzoi4KCpump": 1793028581.4313982,
@@ -77,7 +97,21 @@
   "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793028581.4313982,
   "seen:9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump": 1793028581.4313982,
   "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1793028581.4313982,
-  "control:9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump": 1793028581.4593298
+  "control:9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump": 1793028581.4593298,
+  "seen:Ep1EjfNk8mTdiwKLEUsX4YLHpGXeMBL2wXvhCa6Kf4mx": 1793028799.184043,
+  "seen:VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 1793028799.184043,
+  "seen:5QLhJag4UGsLod7H2Ci9HmgtMprgvG574Bv93v1NhDvq": 1793028799.184043,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793028799.184043,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793028799.184043,
+  "seen:8achnsC8MXRbSd3b7dvDEGigX8hKNwgFi4J4APSipump": 1793028799.184043,
+  "control:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793028799.2127378,
+  "seen:ETFpgjkR5iAHejxHpErvjBHPoPjNvaxtssK7z4Lfpump": 1793028945.8628094,
+  "seen:AA39p6RQP2a6zX2tHwnaSR8wY6AyFftb3wxKrDqMpump": 1793028945.8628094,
+  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793028945.8628094,
+  "seen:5Mbttpskm2EesN4ECWJiZSMh9cYNkAWLUoKHAbvtpump": 1793029128.011506,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793029128.011506,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793029128.011506,
+  "control:ETFpgjkR5iAHejxHpErvjBHPoPjNvaxtssK7z4Lfpump": 1793029128.071174
  },
  "talks": {
   "2026-10-21": 109
@@ -118,7 +152,7 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793027135.6619525,
+  "t": 1793028045.8668668,
   "crypto": [
    "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029 (0h ago)",
    "PHP flaw shows AI \u2018vulnerability apocalypse\u2019 is on schedule: Immunefi CEO (1h ago)",
@@ -128,7 +162,7 @@
    "AI giant Anthropic files for blockbuster IPO (2h ago)",
    "HOOD\u2019s prediction markets to add $1.7B to revenue, exceed crypto by 2028: Bernstein (2h ago)",
    "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000 (3h ago)",
-   "Aviva Investors launches tokenized share class of $29B Sterling fund on XRP Ledger (3h ago)",
+   "Aviva Investors launches tokenized share class of $29B Sterling fund on XRP Ledger (4h ago)",
    "Bitcoin holds near $80,000 as oil retreats and the Fed decision looms (4h ago)"
   ],
   "macro": [],
