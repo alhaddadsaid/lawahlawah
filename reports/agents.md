@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-26 23:13 UTC. Runs so far: 32. Model: claude-haiku-5-5.
+Updated 2026-10-26 23:19 UTC. Runs so far: 32. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 775 | 31 | -21612.75 | -29007.17 |
+| control | meme | 776 | 31 | -21544.75 | -28951.17 |
 | control | macro | 11 | 45 | -58.52 | -116.18 |
-| control | all | 786 | 31 | -21671.27 | -29123.35 |
+| control | all | 787 | 31 | -21603.27 | -29067.35 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -20,7 +20,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: GOLD short at 4032.1, stop 4044.41, target 4013.64, opened 2026-10-26 17:00 UTC
 - control: RAYPAD long at 0.0001274, stop 0.00010192, target 0.00017836, opened 2026-10-26 21:44 UTC
 - control: GINNAN long at 4.302e-08, stop 3.4416e-08, target 6.0228e-08, opened 2026-10-26 22:48 UTC
-- control: Wifoween long at 9.979e-05, stop 7.9832e-05, target 0.000139706, opened 2026-10-26 23:13 UTC
+- control: Nothing long at 0.0002061, stop 0.00016488, target 0.00028854, opened 2026-10-26 23:19 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.04 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-26 23:13 UTC control: OPENED Wifoween long at 9.979e-05 (stop 7.9832e-05, target 0.000139706) - control: frozen v3 rules
+- 2026-10-26 23:19 UTC control: OPENED Nothing long at 0.0002061 (stop 0.00016488, target 0.00028854) - control: frozen v3 rules
 
