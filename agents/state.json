@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -8042.237015140512,
+   "cash": -8092.182771362593,
    "open": [
     {
      "id": 666,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 673,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Bow",
-     "mint": "5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump",
-     "side": 1,
-     "opened": 1792982991.449109,
-     "entry": 0.0001567,
-     "stop": 0.00012536,
-     "target": 0.00021937999999999998,
-     "size": 1276324.1863433314,
-     "deadline": 1792990191.4491093,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 674,
      "desk": "control",
      "market": "macro",
@@ -66,25 +51,29 @@
      "size": 125596.76598293158,
      "deadline": 1793070122.0784976,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 675,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Bow",
+     "mint": "5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump",
+     "side": 1,
+     "opened": 1792984269.8199048,
+     "entry": 0.0001294,
+     "stop": 0.00010352000000000001,
+     "target": 0.00018115999999999998,
+     "size": 1545595.0540958268,
+     "deadline": 1792991469.819905,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 675,
+ "next_id": 676,
  "runs": 28,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1792983891.069346,
-  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1792983891.069346,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792983891.069346,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792983891.069346,
-  "control:5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": 1792983891.4491115,
-  "seen:9qavhGwcNHiYgLeztWqHQtW6kVJqTtT5h3YYbsbtpump": 1792984073.2248654,
-  "seen:6iaMAnGphKAiXN7q1VkhL8YJsp7Qbg9r9j4ismC8pump": 1792984073.2248654,
-  "seen:ABp2bT8ovFYYY8etNQmJauRDXgk3tYkt2jpmGqZSpump": 1792984073.2248654,
-  "seen:35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump": 1792984073.2248654,
-  "seen:5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": 1792984073.2248654,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1792984255.9613557,
   "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1792984437.5716958,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1792984437.5716958,
   "seen:GGNP47kqyXoR69eWSj1wHnEuJdw1ThgJW7hhwQCMpump": 1792984437.5716958,
@@ -92,7 +81,19 @@
   "seen:5uXsRw3FThpUAKfwV8uNsS6WyKg376YTpYyo47Hvpump": 1792984622.0067935,
   "seen:RJB5xnuPgknw87mP6cuREVAjU9UyGmnFe2o4kBjpump": 1792984622.0067935,
   "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1792984622.0067935,
-  "control:GBPUSD": 1792984622.0785012
+  "control:GBPUSD": 1792984622.0785012,
+  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1792984805.4746168,
+  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1792984805.4746168,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792984805.4746168,
+  "seen:35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump": 1792984987.8731863,
+  "seen:NACAmJ9XitM4B132ur6ntbAM2WRCmAKcWY3JKa4pump": 1792984987.8731863,
+  "seen:ABp2bT8ovFYYY8etNQmJauRDXgk3tYkt2jpmGqZSpump": 1792984987.8731863,
+  "seen:6iaMAnGphKAiXN7q1VkhL8YJsp7Qbg9r9j4ismC8pump": 1792984987.8731863,
+  "seen:5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": 1792984987.8731863,
+  "seen:4WgxC56hGyNXLd14mCgxBuR2DUyDReF8koFDynhepump": 1792984987.8731863,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1792985169.8002868,
+  "seen:3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": 1792985169.8002868,
+  "control:5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": 1792985169.8199084
  },
  "talks": {
   "2026-10-21": 109
@@ -133,9 +134,9 @@
  ],
  "last_review": 1792936850.5833156,
  "news": {
-  "t": 1792982991.0729332,
+  "t": 1792983905.4782484,
   "crypto": [
-   "Keystone says website breach exposed hardware wallet buyers\u2019 addresses (0h ago)",
+   "Keystone says website breach exposed hardware wallet buyers\u2019 addresses (1h ago)",
    "Standard Chartered-led Anchorpoint says it\u2019s not rushing retail stablecoin (3h ago)",
    "AI agents help rescue ETH\u2019s Glamsterdam fork, \u2018Steal My Bitcoin\u2019 site: Hodler\u2019s Digest (4h ago)",
    "ECB official sees digital euro as key to protecting EU \u2018sovereignty\u2019 (12h ago)",
@@ -143,7 +144,7 @@
    "UK banks face 10,000 complaints in 3 months over crypto restrictions (14h ago)",
    "Netanyahu floats use of blockchain as solution to potential financial sanctions (15h ago)",
    "Strategy, Strive face balancing act between bitcoin buying and preferred stock dividends (35h ago)",
-   "Block's new voice AI sounds eerily human, sparking awe and scam fears (35h ago)",
+   "Block's new voice AI sounds eerily human, sparking awe and scam fears (36h ago)",
    "Crypto under weekend pressure, bitcoin slides below $80,000 on U.S. Middle East evacuations (36h ago)"
   ],
   "macro": [],
