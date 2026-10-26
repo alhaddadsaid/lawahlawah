@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-25 23:47 UTC. Runs so far: 28. Model: claude-haiku-5-5.
+Updated 2026-10-26 00:00 UTC. Runs so far: 28. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 624 | 31 | -17711.39 | -23657.15 |
+| control | meme | 625 | 31 | -17760.92 | -23715.67 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 633 | 31 | -17518.02 | -23506.24 |
+| control | all | 634 | 31 | -17567.55 | -23564.76 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GME long at 0.0001215, stop 9.72e-05, target 0.0001701, opened 2026-10-25 22:34 UTC
-- control: LINKR long at 9.866e-05, stop 7.8928e-05, target 0.000138124, opened 2026-10-25 23:41 UTC
+- control: Olivia long at 9.727e-05, stop 7.7816e-05, target 0.000136178, opened 2026-10-25 23:59 UTC
 
 ## Team
 
@@ -31,10 +31,5 @@ API spend today: $0.04 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-25 23:47 UTC team macro (gold/forex), spent today $0.036
-
-Lead: No trade. Gold is live at 4015.2 (10m old), above the 4000 trigger, and there is no hourly close below 4000 after a failed rebound. EUR/USD and GBP/USD prices are about 50h stale, so forex stays off. No high-impact events in 24h. Scout's gold short setup is still only a watch. Skeptic: the gold journal losses are small but show no repeatable edge yet. Sniper has nothing to size. Desk stays flat and keeps the gold watch.
-
-{"orders": [], "close": [], "note": "23:47 UTC flat. GOLD 4015.2 live (10m), no trigger. EURUSD/GBPUSD stale ~50h, no forex until live feeds return. Watch: GOLD short 1% only on hourly close below 4000 after failed rebound toward ~4020; stop ~4030, target ~3980, max 8h, net of costs. Priority: restore EUR/GBP feeds before any forex hypothesis."}
-
+- control: CLOSED LINKR (stop) P&L $-49.53 normal, $-58.52 pessimistic
 
