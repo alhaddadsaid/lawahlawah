@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -9002.201783205399,
+   "cash": -9065.069033879254,
    "open": [
     {
      "id": 710,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 711,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Bunnett",
-     "mint": "41thoMqVENHtGhuSp5Jhy9yPWghqrPfeETrMe97JK4tg",
-     "side": 1,
-     "opened": 1793003781.8270993,
-     "entry": 8.904e-05,
-     "stop": 7.123200000000001e-05,
-     "target": 0.00012465599999999998,
-     "size": 2246181.49146451,
-     "deadline": 1793010981.8270993,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 712,
      "desk": "control",
      "market": "meme",
@@ -51,34 +36,46 @@
      "size": 1086366.1053775123,
      "deadline": 1793011171.0781145,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 713,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "STM",
+     "mint": "8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5",
+     "side": 1,
+     "opened": 1793006162.8196597,
+     "entry": 0.0001449,
+     "stop": 0.00011592,
+     "target": 0.00020286000000000002,
+     "size": 1380262.2498274671,
+     "deadline": 1793013362.8196597,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 713,
+ "next_id": 714,
  "runs": 29,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:foZLgxXkZ694b9hRVbEqSUVxZrK8daJasXWASR4pump": 1793005780.3406692,
-  "seen:3MJVa7JmYMHDGGLYnQzizvYbkef87jF5ETqohZTTHZpE": 1793005780.3406692,
-  "seen:33KYzLdX9oLvJhoE8BkmjkQen1mbkH62DEvEwYe6pump": 1793005780.3406692,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793005960.5604327,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793005960.5604327,
-  "seen:BEwvuL9EsEukMbETMcgRDJ2MVvVjTyEz4SAUxLuh2zL1": 1793005960.5604327,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793006148.3826897,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793006148.3826897,
-  "seen:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1793006148.3826897,
-  "seen:41thoMqVENHtGhuSp5Jhy9yPWghqrPfeETrMe97JK4tg": 1793006148.3826897,
-  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793006148.3826897,
-  "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793006148.3826897,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1793006148.3826897,
   "seen:HEPG65DZHGePLKrTqkkkJLUb7vt9A2436kdTxTJSSTNK": 1793006328.9898221,
   "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1793006328.9898221,
   "seen:GqFnrbsqCzUPyEjd8j7cTzKMspZuEQn1yd6RgsBapump": 1793006328.9898221,
   "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793006328.9898221,
   "seen:EkzRU9kmU9BbgZ5z3gbmdK4ZNiQUDE95J2pztuRuQZn": 1793006510.140306,
   "seen:4GyUcwKq2xJmtHdL96UjwKNT4bUadaKGHuZatABgpump": 1793006510.140306,
-  "seen:BTvAbqm2z6r81UX9f3Kt9eijZwAr824QyjCeYaNCpump": 1793006510.140306
+  "seen:BTvAbqm2z6r81UX9f3Kt9eijZwAr824QyjCeYaNCpump": 1793006510.140306,
+  "seen:F9Yz51QZpvS5fWdqgmt8wgEWHjg2E5YdwLvSjsrGpump": 1793006693.4911456,
+  "seen:3De53oyUQT2ZcvUAhQPAVcaxjSzuUqDhtBQbzEGVpump": 1793006693.4911456,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793006878.8614745,
+  "seen:BEwvuL9EsEukMbETMcgRDJ2MVvVjTyEz4SAUxLuh2zL1": 1793006878.8614745,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793006878.8614745,
+  "seen:5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": 1793006878.8614745,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793006878.8614745,
+  "seen:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1793007062.7048671,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793007062.7048671,
+  "control:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1793007062.8196642
  },
  "talks": {
   "2026-10-21": 109
@@ -119,15 +116,15 @@
  ],
  "last_review": 1792936850.5833156,
  "news": {
-  "t": 1793005060.5644546,
+  "t": 1793005978.8643935,
   "crypto": [
    "Bitcoin ETFs break 2-week outflow streak with $301M comeback (1h ago)",
    "Over 11 million bitcoin has no known owner. Here's what it means (2h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
-   "India's largest crypto exchange absorbs $16 million loss from internal process failure tied to retired wallet (3h ago)",
+   "India's largest crypto exchange absorbs $16 million loss from internal process failure tied to retired wallet (4h ago)",
    "Bitcoin wallet bug let rogue servers steal funds when users tried to speed up payments (4h ago)",
    "Musk warns over 200 AI neoclouds face \u2018guppy-level death\u2019 (4h ago)",
-   "Bitcoin slips under $80,000 as traders de-risk ahead of Fed meeting (4h ago)",
+   "Bitcoin slips under $80,000 as traders de-risk ahead of Fed meeting (5h ago)",
    "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise (6h ago)",
    "Elon Musk issues a warning for 'AI neoclouds' as SpaceX borrows $40 billion for chips (6h ago)",
    "Keystone says website breach exposed hardware wallet buyers\u2019 addresses (7h ago)"
