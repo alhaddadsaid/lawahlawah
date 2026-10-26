@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-26 16:14 UTC. Runs so far: 31. Model: claude-haiku-5-5.
+Updated 2026-10-26 16:23 UTC. Runs so far: 31. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 731 | 31 | -20617.97 | -27586.61 |
+| control | meme | 732 | 31 | -20549.97 | -27530.61 |
 | control | macro | 11 | 45 | -58.52 | -116.18 |
-| control | all | 742 | 31 | -20676.49 | -27702.79 |
+| control | all | 743 | 31 | -20608.49 | -27646.79 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -32,5 +32,5 @@ API spend today: $0.03 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-26 16:14 UTC control: OPENED Shitcoin long at 0.0001549 (stop 0.00012392, target 0.00021686) - control: frozen v3 rules
+- control: CLOSED Ginnan (target) P&L $68.0 normal, $56.0 pessimistic
 
