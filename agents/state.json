@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -9446.978670606904,
+   "cash": -9429.018670606905,
    "open": [
     {
      "id": 719,
@@ -20,21 +20,6 @@
      "target": 8.5064e-05,
      "size": 3291639.236339697,
      "deadline": 1793017205.9781158,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 722,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Bow",
-     "mint": "5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump",
-     "side": 1,
-     "opened": 1793010734.6490598,
-     "entry": 0.0001125,
-     "stop": 8.999999999999999e-05,
-     "target": 0.00015749999999999995,
-     "size": 1777777.7777777778,
-     "deadline": 1793017934.64906,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -68,44 +53,45 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 726,
+     "id": 727,
      "desk": "control",
      "market": "meme",
-     "symbol": "Shitcoin",
-     "mint": "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump",
+     "symbol": "Bow",
+     "mint": "5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump",
      "side": 1,
-     "opened": 1793016014.680228,
-     "entry": 0.0001181,
-     "stop": 9.448e-05,
-     "target": 0.00016533999999999999,
-     "size": 1693480.101608806,
-     "deadline": 1793023214.6802287,
+     "opened": 1793016741.8463595,
+     "entry": 9.079e-05,
+     "stop": 7.2632e-05,
+     "target": 0.00012710599999999999,
+     "size": 2202885.7803722876,
+     "deadline": 1793023941.8463597,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 727,
+ "next_id": 728,
  "runs": 30,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793016188.5379698,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1793016188.5379698,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793016188.5379698,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793016188.5379698,
-  "seen:ECW3x9jPetgg587DMKDP8uVJS9EyoGfcZN7wdaQmpump": 1793016369.848535,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793016369.848535,
-  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793016369.848535,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793016369.848535,
-  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793016552.7286143,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793016552.7286143,
-  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1793016552.7286143,
-  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793016552.7286143,
-  "control:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1793016556.455872,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793016732.9600723,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793016914.2475805,
   "seen:DHPT3nibFk6kNMPCwKhgmsDSkt6CHZgu1n8oZaKdpump": 1793016914.2475805,
-  "control:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793016914.6802316
+  "control:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793016914.6802316,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793017098.1366212,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793017098.1366212,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793017098.1366212,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1793017098.1366212,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793017279.6653962,
+  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793017279.6653962,
+  "seen:5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": 1793017279.6653962,
+  "seen:CsovxRtEM6g4jcVGtcTB3xwycoAuPjEafpUTR6zrpump": 1793017279.6653962,
+  "seen:GDhYmQrkbXQd6N2hEeEMFa6A5Syj8vneQYVrwCcdYEBL": 1793017461.4342036,
+  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793017461.4342036,
+  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1793017461.4342036,
+  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793017461.4342036,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793017641.799664,
+  "seen:48iJcUv9jsiZ7cCisyVFLPFLMoNBKg3L43bRvktXpump": 1793017641.799664,
+  "control:5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": 1793017641.8463626
  },
  "talks": {
   "2026-10-21": 109
