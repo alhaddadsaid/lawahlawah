@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -8685.089584145097,
+   "cash": -8734.886921599036,
    "open": [
     {
      "id": 695,
@@ -51,22 +51,29 @@
      "size": 874890.6386701663,
      "deadline": 1793004381.11401,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 702,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "STM",
+     "mint": "8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5",
+     "side": 1,
+     "opened": 1792999569.9208272,
+     "entry": 0.0001135,
+     "stop": 9.08e-05,
+     "target": 0.00015889999999999999,
+     "size": 1762114.537444934,
+     "deadline": 1793006769.9208276,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 701,
+ "next_id": 703,
  "runs": 29,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8cFU1FJHVZQAricMRXPE5wa3zg6GvdG52mcutMMBpump": 1792999185.4934216,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1792999185.4934216,
-  "seen:6yf56qzdBkmaXgt3iUwXXuuB9bVKBR95EQ6zmKfApump": 1792999185.4934216,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792999185.4934216,
-  "seen:5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump": 1792999368.714437,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792999553.5728753,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792999553.5728753,
-  "seen:35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump": 1792999553.5728753,
   "seen:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1792999737.5341558,
   "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1792999737.5341558,
   "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792999737.5341558,
@@ -77,7 +84,15 @@
   "seen:3MYBdTcuPKq1J6pyeFrKxpxwKQC7FGkz1WnYvSTTpump": 1792999920.5630772,
   "seen:12sgEXCPheQYMK2MXrq19XaX3MPZndZc3nBpJZeipump": 1792999920.5630772,
   "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1792999920.5630772,
-  "seen:EcHrGPcNZUrcqKE1wUya6WA548anFUDsgF1VJ4Jupump": 1792999920.5630772
+  "seen:EcHrGPcNZUrcqKE1wUya6WA548anFUDsgF1VJ4Jupump": 1792999920.5630772,
+  "seen:8cFU1FJHVZQAricMRXPE5wa3zg6GvdG52mcutMMBpump": 1793000102.6882904,
+  "seen:6yf56qzdBkmaXgt3iUwXXuuB9bVKBR95EQ6zmKfApump": 1793000102.6882904,
+  "seen:b3Etx6q6i4qdAFUMTPY1Yn69jPBFCvFxSKkcpAopump": 1793000102.6882904,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793000285.6934059,
+  "control:8cFU1FJHVZQAricMRXPE5wa3zg6GvdG52mcutMMBpump": 1793000285.7500646,
+  "seen:EyS3pPRHX6Q3eQAXxkoWKQyrEaExVfyByvFo8GQQpump": 1793000469.1835885,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793000469.1835885,
+  "control:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1793000469.9208314
  },
  "talks": {
   "2026-10-21": 109
@@ -118,9 +133,10 @@
  ],
  "last_review": 1792936850.5833156,
  "news": {
-  "t": 1792998653.5756834,
+  "t": 1792999569.186389,
   "crypto": [
-   "Here\u2019s what happened in crypto today (1h ago)",
+   "Over 11 million bitcoin has no known owner. Here's what it means (0h ago)",
+   "Here\u2019s what happened in crypto today (2h ago)",
    "India's largest crypto exchange absorbs $16 million loss from internal process failure tied to retired wallet (2h ago)",
    "Bitcoin wallet bug let rogue servers steal funds when users tried to speed up payments (2h ago)",
    "Musk warns over 200 AI neoclouds face \u2018guppy-level death\u2019 (2h ago)",
@@ -128,8 +144,7 @@
    "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise (4h ago)",
    "Elon Musk issues a warning for 'AI neoclouds' as SpaceX borrows $40 billion for chips (4h ago)",
    "Keystone says website breach exposed hardware wallet buyers\u2019 addresses (5h ago)",
-   "Standard Chartered-led Anchorpoint says it\u2019s not rushing retail stablecoin (7h ago)",
-   "AI agents help rescue ETH\u2019s Glamsterdam fork, \u2018Steal My Bitcoin\u2019 site: Hodler\u2019s Digest (8h ago)"
+   "Standard Chartered-led Anchorpoint says it\u2019s not rushing retail stablecoin (7h ago)"
   ],
   "macro": [],
   "calendar": []
