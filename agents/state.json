@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -8835.582789923657,
+   "cash": -8901.796583027106,
    "open": [
     {
      "id": 698,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 706,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ROFLAMP",
-     "mint": "8cFU1FJHVZQAricMRXPE5wa3zg6GvdG52mcutMMBpump",
-     "side": 1,
-     "opened": 1793001223.3068793,
-     "entry": 0.0001015,
-     "stop": 8.120000000000001e-05,
-     "target": 0.0001421,
-     "size": 1970443.3497536946,
-     "deadline": 1793008423.3068795,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 708,
      "desk": "control",
      "market": "meme",
@@ -66,33 +51,64 @@
      "size": 1220256.2538133007,
      "deadline": 1793009155.7311256,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 709,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ApeLax",
+     "mint": "BTvAbqm2z6r81UX9f3Kt9eijZwAr824QyjCeYaNCpump",
+     "side": 1,
+     "opened": 1793002503.4166987,
+     "entry": 0.0001035,
+     "stop": 8.280000000000001e-05,
+     "target": 0.00014489999999999997,
+     "size": 1932367.1497584542,
+     "deadline": 1793009703.416699,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 710,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Bow",
+     "mint": "5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump",
+     "side": 1,
+     "opened": 1793002688.1646266,
+     "entry": 8.031e-05,
+     "stop": 6.4248e-05,
+     "target": 0.00011243399999999999,
+     "size": 2490349.8941601296,
+     "deadline": 1793009888.1646266,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 709,
+ "next_id": 711,
  "runs": 29,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8cFU1FJHVZQAricMRXPE5wa3zg6GvdG52mcutMMBpump": 1793002123.1951675,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793002123.1951675,
-  "seen:6yf56qzdBkmaXgt3iUwXXuuB9bVKBR95EQ6zmKfApump": 1793002123.1951675,
-  "control:8cFU1FJHVZQAricMRXPE5wa3zg6GvdG52mcutMMBpump": 1793002123.3068829,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793002306.3245378,
-  "seen:4U6QvbLXyTpJTiU9HbgaN9yGa6CQ7gXFnWL1HFaWpump": 1793002306.3245378,
-  "seen:BEwvuL9EsEukMbETMcgRDJ2MVvVjTyEz4SAUxLuh2zL1": 1793002306.3245378,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793002306.3245378,
-  "seen:BTvAbqm2z6r81UX9f3Kt9eijZwAr824QyjCeYaNCpump": 1793002489.8783283,
-  "seen:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1793002489.8783283,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793002489.8783283,
-  "seen:bdgDQrbomy5ZbHnpMi3KfMUnwfpKKH38hsk6cJmpump": 1793002489.8783283,
-  "control:BTvAbqm2z6r81UX9f3Kt9eijZwAr824QyjCeYaNCpump": 1793002492.6668344,
-  "seen:GZJ2TwpLvpH2ge5dGhQK7ntYnwQCDUEJZwPcLoN8pump": 1793002672.5534513,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793002672.5534513,
-  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793002672.5534513,
   "seen:EkzRU9kmU9BbgZ5z3gbmdK4ZNiQUDE95J2pztuRuQZn": 1793002855.684327,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793002855.684327,
-  "control:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1793002855.7311282
+  "control:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1793002855.7311282,
+  "seen:8cFU1FJHVZQAricMRXPE5wa3zg6GvdG52mcutMMBpump": 1793003039.3504407,
+  "seen:5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": 1793003039.3504407,
+  "seen:6yf56qzdBkmaXgt3iUwXXuuB9bVKBR95EQ6zmKfApump": 1793003039.3504407,
+  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1793003039.3504407,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793003219.2012239,
+  "seen:BEwvuL9EsEukMbETMcgRDJ2MVvVjTyEz4SAUxLuh2zL1": 1793003219.2012239,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793003219.2012239,
+  "seen:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1793003403.370191,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793003403.370191,
+  "seen:BTvAbqm2z6r81UX9f3Kt9eijZwAr824QyjCeYaNCpump": 1793003403.370191,
+  "seen:bdgDQrbomy5ZbHnpMi3KfMUnwfpKKH38hsk6cJmpump": 1793003403.370191,
+  "seen:41thoMqVENHtGhuSp5Jhy9yPWghqrPfeETrMe97JK4tg": 1793003403.370191,
+  "control:BTvAbqm2z6r81UX9f3Kt9eijZwAr824QyjCeYaNCpump": 1793003403.416702,
+  "seen:GZJ2TwpLvpH2ge5dGhQK7ntYnwQCDUEJZwPcLoN8pump": 1793003588.0978768,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793003588.0978768,
+  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793003588.0978768,
+  "control:5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": 1793003588.1646311
  },
  "talks": {
   "2026-10-21": 109
@@ -133,14 +149,14 @@
  ],
  "last_review": 1792936850.5833156,
  "news": {
-  "t": 1793001406.327304,
+  "t": 1793002319.2042363,
   "crypto": [
    "Over 11 million bitcoin has no known owner. Here's what it means (1h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
-   "India's largest crypto exchange absorbs $16 million loss from internal process failure tied to retired wallet (2h ago)",
+   "India's largest crypto exchange absorbs $16 million loss from internal process failure tied to retired wallet (3h ago)",
    "Bitcoin wallet bug let rogue servers steal funds when users tried to speed up payments (3h ago)",
    "Musk warns over 200 AI neoclouds face \u2018guppy-level death\u2019 (3h ago)",
-   "Bitcoin slips under $80,000 as traders de-risk ahead of Fed meeting (3h ago)",
+   "Bitcoin slips under $80,000 as traders de-risk ahead of Fed meeting (4h ago)",
    "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise (5h ago)",
    "Elon Musk issues a warning for 'AI neoclouds' as SpaceX borrows $40 billion for chips (5h ago)",
    "Keystone says website breach exposed hardware wallet buyers\u2019 addresses (6h ago)",
