@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-26 00:00 UTC. Runs so far: 28. Model: claude-haiku-5-5.
+Updated 2026-10-26 00:09 UTC. Runs so far: 28. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,20 +9,19 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 625 | 31 | -17760.92 | -23715.67 |
+| control | meme | 627 | 31 | -17748.93 | -23724.5 |
 | control | macro | 9 | 56 | 193.37 | 150.91 |
-| control | all | 634 | 31 | -17567.55 | -23564.76 |
+| control | all | 636 | 31 | -17555.56 | -23573.59 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: GME long at 0.0001215, stop 9.72e-05, target 0.0001701, opened 2026-10-25 22:34 UTC
-- control: Olivia long at 9.727e-05, stop 7.7816e-05, target 0.000136178, opened 2026-10-25 23:59 UTC
+- control: BTC long at 0.0001095, stop 8.76e-05, target 0.0001533, opened 2026-10-26 00:05 UTC
 
 ## Team
 
-API spend today: $0.04 (cap $3, aiming for about $1.50)
+API spend today: $0.00 (cap $3, aiming for about $1.50)
 - Lead (team lead and analyst, mission all): Decide what the team trades. Weigh every idea against costs and the journal. Look for repeatable edges, not one-off bets.
 - Scout (researcher, mission macro): Bring ideas from prices, news, the economic calendar and politics. State each idea as a testable hypothesis.
 - Sniper (execution, mission macro): Turn approved ideas into exact orders: size, optional stop and target, holding time, and early exits.
@@ -31,5 +30,5 @@ API spend today: $0.04 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED LINKR (stop) P&L $-49.53 normal, $-58.52 pessimistic
+- control: CLOSED GME (stop) P&L $-56.01 normal, $-64.83 pessimistic
 
