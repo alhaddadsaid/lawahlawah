@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -9667.572603712506,
+   "cash": -9717.089548232867,
    "open": [
     {
      "id": 728,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 736,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Bow",
-     "mint": "5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump",
-     "side": 1,
-     "opened": 1793020022.1930041,
-     "entry": 7.318e-05,
-     "stop": 5.8544e-05,
-     "target": 0.000102452,
-     "size": 2732987.1549603716,
-     "deadline": 1793027222.1930044,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 742,
      "desk": "control",
      "market": "meme",
@@ -81,28 +66,29 @@
      "size": 1824817.5182481753,
      "deadline": 1793029234.8498974,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 744,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Shitcoin",
+     "mint": "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump",
+     "side": 1,
+     "opened": 1793022759.5730772,
+     "entry": 0.0001198,
+     "stop": 9.583999999999999e-05,
+     "target": 0.00016772,
+     "size": 1669449.081803005,
+     "deadline": 1793029959.5730774,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 744,
+ "next_id": 745,
  "runs": 30,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:BTZK1B3pCoBDD1vy5e4bDBM4bwvvhkKUMTuKABkGWwGp": 1793022381.184464,
-  "seen:CYGBNULVpJbooSocz7ppoJoGsyTnZgsC5Ngf9Us5pump": 1793022381.184464,
-  "seen:3P1CM6VJFrqPgewDgFvkJY1qrWR3tmsUT1AKkYbRpump": 1793022381.184464,
-  "control:7ACCyJGpkiqKjcG8eiRpkwm8GznKnp3EpteqMC6qpump": 1793022381.5162773,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793022564.8882055,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793022564.8882055,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793022564.8882055,
-  "control:CYGBNULVpJbooSocz7ppoJoGsyTnZgsC5Ngf9Us5pump": 1793022564.921613,
-  "seen:3bzqGFeB9ik8owLqSLgnhdTVVMwNN4UW1KLPxb63pump": 1793022747.0399415,
-  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793022747.0399415,
-  "seen:FNBBgtPhnBhbKFntfEMU8QGne4JqoEkNQj31SJWwpump": 1793022747.0399415,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793022747.0399415,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793022747.0399415,
-  "control:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793022747.0760763,
   "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793022929.3908162,
   "seen:7ACCyJGpkiqKjcG8eiRpkwm8GznKnp3EpteqMC6qpump": 1793022929.3908162,
   "seen:BEwvuL9EsEukMbETMcgRDJ2MVvVjTyEz4SAUxLuh2zL1": 1793022929.3908162,
@@ -110,7 +96,20 @@
   "control:9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump": 1793022934.8499012,
   "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793023111.9272103,
   "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793023111.9272103,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1793023111.9272103
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1793023111.9272103,
+  "seen:BTZK1B3pCoBDD1vy5e4bDBM4bwvvhkKUMTuKABkGWwGp": 1793023295.205319,
+  "seen:CYGBNULVpJbooSocz7ppoJoGsyTnZgsC5Ngf9Us5pump": 1793023295.205319,
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1793023295.205319,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793023295.205319,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793023478.0228148,
+  "seen:3ZzBtriJ1rd3ntcdsQ5wohwPWk1MRdrDd5BaKAsipump": 1793023478.0228148,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1793023478.0228148,
+  "seen:HtsFVhDAs1pHXGZX2VJnM2Q8bb6m4Nf4xk5oSvorpump": 1793023659.542958,
+  "seen:5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": 1793023659.542958,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793023659.542958,
+  "seen:3P1CM6VJFrqPgewDgFvkJY1qrWR3tmsUT1AKkYbRpump": 1793023659.542958,
+  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793023659.542958,
+  "control:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793023659.573081
  },
  "talks": {
   "2026-10-21": 109
@@ -151,18 +150,18 @@
  ],
  "last_review": 1792936850.5833156,
  "news": {
-  "t": 1793021481.1886356,
+  "t": 1793022395.209344,
   "crypto": [
+   "Strategy skips Bitcoin purchases, spends $205M on STRC buybacks (0h ago)",
+   "Here\u2019s what happened in crypto today (0h ago)",
    "AI giant Anthropic files for blockbuster IPO (0h ago)",
-   "HOOD\u2019s prediction markets to add $1.7B to revenue, exceed crypto by 2028: Bernstein (0h ago)",
+   "HOOD\u2019s prediction markets to add $1.7B to revenue, exceed crypto by 2028: Bernstein (1h ago)",
    "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000 (2h ago)",
    "Aviva Investors launches tokenized share class of $29B Sterling fund on XRP Ledger (2h ago)",
    "Bitcoin holds near $80,000 as oil retreats and the Fed decision looms (2h ago)",
-   "Live news: Bitcoin barely holding $80,000 ahead of Fed on Wednesday, tech earnings this week (2h ago)",
+   "Live news: Bitcoin slips below $80,000 as Anthropic files for massive IPO (3h ago)",
    "BTC price risks $80K loss into FOMC, earnings: Three things to know in Bitcoin this week (3h ago)",
-   "Calpers pulls back from big tech as AI jitters deepen neocloud sell-off (3h ago)",
-   "Securitize\u2019s tokenized stock value halves as Circle widens lead (3h ago)",
-   "Fed, ECB and BOJ interest-rate decisions, Coinbase earnings: Crypto Week Ahead (4h ago)"
+   "Calpers pulls back from big tech as AI jitters deepen neocloud sell-off (3h ago)"
   ],
   "macro": [],
   "calendar": []
