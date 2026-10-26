@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -10576.582417724148,
+   "cash": -10757.699579162385,
    "open": [
     {
      "id": 767,
@@ -23,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 776,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "TMNT",
-     "mint": "84z1YoLGgrXPgE39hcJrse2wGRBSWigomGqtQdMYpump",
-     "side": 1,
-     "opened": 1793039143.5209198,
-     "entry": 0.0001741,
-     "stop": 0.00013928,
-     "target": 0.00024374,
-     "size": 1148765.0775416428,
-     "deadline": 1793046343.52092,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 778,
      "desk": "control",
      "market": "meme",
@@ -53,38 +38,42 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 779,
+     "id": 781,
      "desk": "control",
      "market": "meme",
-     "symbol": "ANT",
-     "mint": "VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump",
+     "symbol": "MOON",
+     "mint": "4cDVSYnzoWsSzYRxe1rETA1hfcgs1ktgpQyeRm6Vpump",
      "side": 1,
-     "opened": 1793039876.4385407,
-     "entry": 9.459e-05,
-     "stop": 7.5672e-05,
-     "target": 0.00013242599999999997,
-     "size": 2114388.413151496,
-     "deadline": 1793047076.4385412,
+     "opened": 1793040237.908698,
+     "entry": 0.0001484,
+     "stop": 0.00011872000000000002,
+     "target": 0.00020776,
+     "size": 1347708.8948787062,
+     "deadline": 1793047437.9086983,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 782,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "TMNT",
+     "mint": "84z1YoLGgrXPgE39hcJrse2wGRBSWigomGqtQdMYpump",
+     "side": 1,
+     "opened": 1793040422.9555295,
+     "entry": 9.447e-05,
+     "stop": 7.5576e-05,
+     "target": 0.00013225799999999998,
+     "size": 2117074.203450831,
+     "deadline": 1793047622.9555297,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 780,
+ "next_id": 783,
  "runs": 31,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 1793040042.8162434,
-  "seen:EfyENGHhKTu72qjWtgKkoZZmzRRwh421mWuy42HSpump": 1793040042.8162434,
-  "seen:WJbYURhAuVEZqKHTwH3nsVtPZ55HKcHtnrUppTapump": 1793040042.8162434,
-  "control:84z1YoLGgrXPgE39hcJrse2wGRBSWigomGqtQdMYpump": 1793040043.520923,
-  "seen:AYqXTCgv7jw8RXU6UR7yoqMo7hD1ryNfctjVQs1zpump": 1793040222.7075174,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793040222.7075174,
-  "seen:EdSuZVh4ypz8cUqgi1Rjo1SE88wrRahPg85KStdpump": 1793040222.7075174,
-  "control:4cDVSYnzoWsSzYRxe1rETA1hfcgs1ktgpQyeRm6Vpump": 1793040222.7583933,
-  "seen:84z1YoLGgrXPgE39hcJrse2wGRBSWigomGqtQdMYpump": 1793040406.3802903,
-  "seen:4cDVSYnzoWsSzYRxe1rETA1hfcgs1ktgpQyeRm6Vpump": 1793040406.3802903,
-  "seen:idTqmbfQ5GjZzJb4ogA15d1pJHgHYCJjo1o4wuhpump": 1793040406.3802903,
   "seen:CyZ3khPnhAWmZNENcWN1VKwDCi3niJd5CCDa9NLrpump": 1793040587.8260748,
   "seen:43PDyK4tEps6pJsFWYRpETDNEvpfu8pHuY3ov8uQy9Pc": 1793040587.8260748,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793040587.8260748,
@@ -94,7 +83,18 @@
   "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793040773.0298762,
   "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793040773.0298762,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793040773.0298762,
-  "control:VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 1793040776.4385438
+  "control:VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 1793040776.4385438,
+  "seen:VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 1793040962.4383845,
+  "control:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793040963.1026886,
+  "seen:AYqXTCgv7jw8RXU6UR7yoqMo7hD1ryNfctjVQs1zpump": 1793041137.8417547,
+  "seen:EdSuZVh4ypz8cUqgi1Rjo1SE88wrRahPg85KStdpump": 1793041137.8417547,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793041137.8417547,
+  "control:4cDVSYnzoWsSzYRxe1rETA1hfcgs1ktgpQyeRm6Vpump": 1793041137.9087012,
+  "seen:EeRnxWKPmLByLXta19P5Y8EA1xNf4B1HxNsGkXAXpump": 1793041322.8994882,
+  "seen:84z1YoLGgrXPgE39hcJrse2wGRBSWigomGqtQdMYpump": 1793041322.8994882,
+  "seen:4cDVSYnzoWsSzYRxe1rETA1hfcgs1ktgpQyeRm6Vpump": 1793041322.8994882,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793041322.8994882,
+  "control:84z1YoLGgrXPgE39hcJrse2wGRBSWigomGqtQdMYpump": 1793041322.9555328
  },
  "talks": {
   "2026-10-21": 109
@@ -135,12 +135,12 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793039142.8199306,
+  "t": 1793040062.4419603,
   "crypto": [
    "NBA names Kalshi, Polymarket preferred exchanges, signs CFTC deal (1h ago)",
    "South Korea lawmakers mull pushing crypto tax implementation to 2029 (2h ago)",
-   "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines (2h ago)",
-   "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks (2h ago)",
+   "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines (3h ago)",
+   "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks (3h ago)",
    "Kalshi strikes deal with S&P Dow Jones Indices to expand financial event contracts (3h ago)",
    "OCC calls on community banks to enter the stablecoin payments market (3h ago)",
    "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029 (4h ago)",
