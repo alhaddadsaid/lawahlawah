@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-26 20:00 UTC. Runs so far: 31. Model: claude-haiku-5-5.
+Updated 2026-10-26 20:09 UTC. Runs so far: 31. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 755 | 31 | -21049.34 | -28253.05 |
+| control | meme | 756 | 31 | -21101.62 | -28314.24 |
 | control | macro | 11 | 45 | -58.52 | -116.18 |
-| control | all | 766 | 31 | -21107.86 | -28369.23 |
+| control | all | 767 | 31 | -21160.14 | -28430.42 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -21,7 +21,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: Grokbot long at 5.35e-05, stop 4.28e-05, target 7.49e-05, opened 2026-10-26 18:34 UTC
 - control: RAYPAD long at 0.0001825, stop 0.000146, target 0.0002555, opened 2026-10-26 19:05 UTC
 - control: Shitcoin long at 0.0001406, stop 0.00011248, target 0.00019684, opened 2026-10-26 19:29 UTC
-- control: REM long at 0.0001559, stop 0.00012472, target 0.00021826, opened 2026-10-26 19:45 UTC
+- control: PRESIDENT long at 0.0002007, stop 0.00016056, target 0.00028098, opened 2026-10-26 20:09 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.03 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order TMNT REJECTED by guardrails: desk already has the maximum open positions
+- 2026-10-26 20:09 UTC control: OPENED PRESIDENT long at 0.0002007 (stop 0.00016056, target 0.00028098) - control: frozen v3 rules
 
