@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -9394.54811505135,
+   "cash": -9446.978670606904,
    "open": [
     {
      "id": 719,
@@ -20,21 +20,6 @@
      "target": 8.5064e-05,
      "size": 3291639.236339697,
      "deadline": 1793017205.9781158,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 721,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GTA",
-     "mint": "9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump",
-     "side": 1,
-     "opened": 1793010556.6409743,
-     "entry": 0.0001296,
-     "stop": 0.00010368000000000001,
-     "target": 0.00018144,
-     "size": 1543209.87654321,
-     "deadline": 1793017756.6409745,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -66,30 +51,61 @@
      "size": 703729.7677691766,
      "deadline": 1793019574.7503006,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 725,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "GTA",
+     "mint": "9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump",
+     "side": 1,
+     "opened": 1793015656.455869,
+     "entry": 0.0001044,
+     "stop": 8.352000000000001e-05,
+     "target": 0.00014616,
+     "size": 1915708.8122605362,
+     "deadline": 1793022856.4558692,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 726,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Shitcoin",
+     "mint": "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump",
+     "side": 1,
+     "opened": 1793016014.680228,
+     "entry": 0.0001181,
+     "stop": 9.448e-05,
+     "target": 0.00016533999999999999,
+     "size": 1693480.101608806,
+     "deadline": 1793023214.6802287,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 725,
+ "next_id": 727,
  "runs": 30,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793015094.1371384,
-  "seen:DHPT3nibFk6kNMPCwKhgmsDSkt6CHZgu1n8oZaKdpump": 1793015094.1371384,
-  "seen:PairUottr9sWf6REag62Y8xeFfrWSpL1F9zikNyqWLV": 1793015094.1371384,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1793015094.1371384,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793015277.642235,
-  "seen:D3wgAXqmnMwSGH5JVNz6mi2MCp8UFaNpuwxUWqN1wD4B": 1793015277.642235,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793015458.6700373,
-  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793015458.6700373,
-  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793015458.6700373,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793015458.6700373,
-  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793015640.6953216,
-  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1793015640.6953216,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793015640.6953216,
-  "seen:5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": 1793015640.6953216,
-  "seen:9tJtTSPuwFYtQzcS7ds6dJUmg6y2hLmZwkyVDMmApump": 1793015822.7881932,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793015822.7881932
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793016188.5379698,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1793016188.5379698,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793016188.5379698,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793016188.5379698,
+  "seen:ECW3x9jPetgg587DMKDP8uVJS9EyoGfcZN7wdaQmpump": 1793016369.848535,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793016369.848535,
+  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793016369.848535,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793016369.848535,
+  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793016552.7286143,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793016552.7286143,
+  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1793016552.7286143,
+  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793016552.7286143,
+  "control:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1793016556.455872,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793016732.9600723,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793016914.2475805,
+  "seen:DHPT3nibFk6kNMPCwKhgmsDSkt6CHZgu1n8oZaKdpump": 1793016914.2475805,
+  "control:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793016914.6802316
  },
  "talks": {
   "2026-10-21": 109
@@ -130,29 +146,28 @@
  ],
  "last_review": 1792936850.5833156,
  "news": {
-  "t": 1793014194.1409693,
+  "t": 1793016014.2514203,
   "crypto": [
-   "Bitcoin holds near $80,000 as oil retreats and the Fed decision looms (0h ago)",
-   "Live news: Brent Crude slides below $110 as Iran deal hopes grow and Brazil stocks sink (0h ago)",
+   "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000 (0h ago)",
+   "Aviva Investors launches tokenized share class of $29B Sterling fund on XRP Ledger (0h ago)",
+   "Bitcoin holds near $80,000 as oil retreats and the Fed decision looms (1h ago)",
+   "Live news: Bitcoin barely holding $80,000 ahead of Fed on Wednesday, tech earnings this week (1h ago)",
    "BTC price risks $80K loss into FOMC, earnings: Three things to know in Bitcoin this week (1h ago)",
    "Calpers pulls back from big tech as AI jitters deepen neocloud sell-off (1h ago)",
-   "Securitize\u2019s tokenized stock value halves as Circle widens lead (1h ago)",
-   "Fed, ECB and BOJ interest-rate decisions, Coinbase earnings: Crypto Week Ahead (2h ago)",
-   "Bitcoin ETFs break 2-week outflow streak with $301M comeback (3h ago)",
-   "Over 11 million bitcoin has no known owner. Here's what it means (4h ago)",
-   "Here\u2019s what happened in crypto today (6h ago)",
-   "India's largest crypto exchange absorbs $16 million loss from internal process failure tied to retired wallet (6h ago)"
+   "Securitize\u2019s tokenized stock value halves as Circle widens lead (2h ago)",
+   "Fed, ECB and BOJ interest-rate decisions, Coinbase earnings: Crypto Week Ahead (3h ago)",
+   "Bitcoin ETFs break 2-week outflow streak with $301M comeback (4h ago)",
+   "Over 11 million bitcoin has no known owner. Here's what it means (5h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-26": 0.017903
+  "2026-10-26": 0.018484
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-26 04:47 UTC [macro] 04:47 UTC flat. Gold 4025, short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. No memecoin or FX entries: no pre-registered",
   "2026-10-26 05:08 UTC [macro] 05:08 UTC flat, no orders. GOLD 4028.6 above 4000, short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. No FX or memecoin en",
   "2026-10-26 05:29 UTC [macro] 05:29 UTC flat, no orders. GOLD 4026.2, short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. No FX or memecoin entries: no p",
   "2026-10-26 05:51 UTC [macro] 05:51 flat, no orders. GOLD 4025.7, short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no pre-registered hypothesis, n",
@@ -171,8 +186,9 @@
   "2026-10-26 10:29 UTC [macro] 10:29 UTC flat, no orders. GOLD 4031.1 above 4020 rebound level; short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no",
   "2026-10-26 10:50 UTC [macro] 10:50 UTC flat, no orders. GOLD 4026.4, short trigger still not met (needs failed rebound to ~4020, then hourly close <4000). Watch: GOLD short 1% only after that; stop 4030, target 3980, max 8h, net of costs. Memecoin f",
   "2026-10-26 11:11 UTC [macro] 10:11 UTC flat. Gold 4029.4 above 4020 rebound level; short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no high-impac",
-  "2026-10-26 11:33 UTC [macro] 11:32 flat, no orders. GOLD 4025.3 above 4020 rebound level; short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no hig"
+  "2026-10-26 11:33 UTC [macro] 11:32 flat, no orders. GOLD 4025.3 above 4020 rebound level; short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no hig",
+  "2026-10-26 11:54 UTC [macro] 11:54 UTC flat. Gold 4028.9 above 4020 rebound level; short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no high-impac"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1793014377.6461818
+ "last_macro_macro": 1793015652.7324386
 }
