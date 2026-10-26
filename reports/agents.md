@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-26 15:46 UTC. Runs so far: 30. Model: claude-haiku-5-5.
+Updated 2026-10-26 15:55 UTC. Runs so far: 31. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,22 +9,22 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 725 | 31 | -20120.83 | -27040.69 |
+| control | meme | 728 | 31 | -20309.61 | -27255.39 |
 | control | macro | 11 | 45 | -58.52 | -116.18 |
-| control | all | 736 | 31 | -20179.35 | -27156.87 |
+| control | all | 739 | 31 | -20368.13 | -27371.57 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: RAYPAD long at 0.0002046, stop 0.00016368, target 0.00028644, opened 2026-10-26 14:32 UTC
 - control: GME long at 0.0001226, stop 9.808e-05, target 0.00017164, opened 2026-10-26 15:14 UTC
-- control: GINNAN long at 4.515e-08, stop 3.612e-08, target 6.321e-08, opened 2026-10-26 15:42 UTC
-- control: Shitcoin long at 0.0001042, stop 8.336e-05, target 0.00014588, opened 2026-10-26 15:45 UTC
+- control: LAUNCH long at 0.0001147, stop 9.176e-05, target 0.00016058, opened 2026-10-26 15:47 UTC
+- control: SIB long at 0.000288, stop 0.0002304, target 0.0004032, opened 2026-10-26 15:50 UTC
+- control: RAYPAD long at 0.0001619, stop 0.00012952, target 0.00022666, opened 2026-10-26 15:53 UTC
 
 ## Team
 
-API spend today: $0.02 (cap $3, aiming for about $1.50)
+API spend today: $0.03 (cap $3, aiming for about $1.50)
 - Lead (team lead and analyst, mission all): Decide what the team trades. Weigh every idea against costs and the journal. Look for repeatable edges, not one-off bets.
 - Scout (researcher, mission macro): Bring ideas from prices, news, the economic calendar and politics. State each idea as a testable hypothesis.
 - Sniper (execution, mission macro): Turn approved ideas into exact orders: size, optional stop and target, holding time, and early exits.
@@ -33,5 +33,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-## Run ended 2026-10-26 15:46 UTC
+- control: CLOSED GINNAN (stop) P&L $-51.38 normal, $-60.31 pessimistic
 
