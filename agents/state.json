@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -11586.13246502449,
+   "cash": -11635.676560689662,
    "open": [
     {
      "id": 767,
@@ -21,21 +21,6 @@
      "size": 8.125406489953098,
      "deadline": 1793120412.447365,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 790,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PRESIDENT",
-     "mint": "3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump",
-     "side": 1,
-     "opened": 1793045362.6236863,
-     "entry": 0.0002007,
-     "stop": 0.00016056000000000002,
-     "target": 0.00028097999999999996,
-     "size": 996512.2072745392,
-     "deadline": 1793052562.6236866,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 792,
@@ -74,20 +59,6 @@
  "runs": 32,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8ttNP8EzDJeZXTdNLpYtpTd9fm2Dj9q9HenyqRfhpump": 1793051611.6740136,
-  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793051611.6740136,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1793051611.6740136,
-  "seen:3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": 1793051611.6740136,
-  "seen:DbbGZgzBEHrNEJUFDgPF8sxcxPw6m6zEGc3Gi5kXpaid": 1793051796.747089,
-  "seen:NTRNDMqQSiwEC2jJs3wJiZS6bpGYQJtMNQJgiX3WyV6": 1793051796.747089,
-  "seen:84z1YoLGgrXPgE39hcJrse2wGRBSWigomGqtQdMYpump": 1793051796.747089,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793051796.747089,
-  "seen:DEZrHa3CeoQs2kGqMPo6D1TFgHB2KWoPMJMjf9HJpump": 1793051977.9576597,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793051977.9576597,
-  "seen:72rZQyT14p1cNDCJsePibxKoZTsF5JxD5jaQnoyEpump": 1793051977.9576597,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793051977.9576597,
-  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793051977.9576597,
-  "control:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793051978.6259744,
   "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793052158.134921,
   "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793052158.134921,
   "seen:8nnaeWCw8mUypcGAgbmSuzAT85uWx4UN12adDrMhXrGF": 1793052158.134921,
@@ -96,7 +67,19 @@
   "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793052342.6507463,
   "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793052342.6507463,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793052342.6507463,
-  "seen:fR9dwtL4PhAcV19XyFnnsAvWcXsk93raxvWdWCqpump": 1793052342.6507463
+  "seen:fR9dwtL4PhAcV19XyFnnsAvWcXsk93raxvWdWCqpump": 1793052342.6507463,
+  "seen:6zyjCeCqa2RTkc8pR9BDnaEHjKVSqRYEEen8x1s3pump": 1793052526.8450015,
+  "seen:8ttNP8EzDJeZXTdNLpYtpTd9fm2Dj9q9HenyqRfhpump": 1793052526.8450015,
+  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793052526.8450015,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793052711.3294585,
+  "seen:84z1YoLGgrXPgE39hcJrse2wGRBSWigomGqtQdMYpump": 1793052711.3294585,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793052896.3200426,
+  "seen:DEZrHa3CeoQs2kGqMPo6D1TFgHB2KWoPMJMjf9HJpump": 1793052896.3200426,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1793052896.3200426,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793052896.3200426,
+  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793052896.3200426,
+  "seen:3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": 1793052896.3200426,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793052896.3200426
  },
  "talks": {
   "2026-10-21": 109
@@ -137,14 +120,14 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793051077.961068,
+  "t": 1793051996.3234363,
   "crypto": [
    "US OCC calls on community banks to become payment stablecoin issuers (0h ago)",
-   "Injective launches onchain futures market tracking Nvidia GPU rental costs (0h ago)",
+   "Injective launches onchain futures market tracking Nvidia GPU rental costs (1h ago)",
    "Canada opens consultation on stablecoins, citing US GENIUS Act (2h ago)",
    "AI company Anthropic announces IPO, expected as early as November (3h ago)",
    "NBA names Kalshi, Polymarket preferred exchanges, signs CFTC deal (4h ago)",
-   "South Korea lawmakers mull pushing crypto tax implementation to 2029 (5h ago)",
+   "South Korea lawmakers mull pushing crypto tax implementation to 2029 (6h ago)",
    "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines (6h ago)",
    "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks (6h ago)",
    "Kalshi strikes deal with S&P Dow Jones Indices to expand financial event contracts (6h ago)",
