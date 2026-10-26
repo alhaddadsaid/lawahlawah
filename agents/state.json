@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -10625.833412077984,
+   "cash": -10625.7207029956,
    "open": [
     {
      "id": 760,
@@ -36,49 +36,36 @@
      "size": 8.125406489953098,
      "deadline": 1793120412.447365,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 771,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Shitcoin",
-     "mint": "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump",
-     "side": 1,
-     "opened": 1793035480.144208,
-     "entry": 8.609e-05,
-     "stop": 6.8872e-05,
-     "target": 0.00012052599999999999,
-     "size": 2323150.191659891,
-     "deadline": 1793042680.1442082,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 772,
+ "next_id": 773,
  "runs": 31,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8WXp8KJRLSSQChp8URbq8xtbnp3w73A21F8cgRDTpump": 1793036034.6445758,
-  "seen:AAzxViJzzLRA5V97FG2Bhxzi8mpQgrQKXhCSjwyXpump": 1793036034.6445758,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793036034.6445758,
-  "seen:fR9dwtL4PhAcV19XyFnnsAvWcXsk93raxvWdWCqpump": 1793036034.6445758,
-  "seen:F7Pwpisgpnxq3Ho8nEHJovMA5kxqr9a5pDH6BDDCpump": 1793036034.6445758,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793036034.6445758,
-  "control:8WXp8KJRLSSQChp8URbq8xtbnp3w73A21F8cgRDTpump": 1793036034.7300339,
-  "seen:EXpWsM4B7rDTqiJy49QscEj6wTovWcFT6N24NHL9pump": 1793036194.3510215,
-  "seen:3My3UFmTdugQU6Meh4oUZ3YPHthvgXWooT3RCpAKpump": 1793036194.3510215,
-  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793036194.3510215,
-  "seen:VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 1793036379.12547,
-  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793036379.12547,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793036379.12547,
-  "control:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793036380.1442115,
-  "seen:EdSuZVh4ypz8cUqgi1Rjo1SE88wrRahPg85KStdpump": 1793036559.9626706,
-  "seen:84z1YoLGgrXPgE39hcJrse2wGRBSWigomGqtQdMYpump": 1793036559.9626706,
-  "seen:42nvgmxdtEyHLD1qJUeTyexenLpCGoZsLfQPQnsdpump": 1793036559.9626706,
-  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793036559.9626706,
-  "seen:6z1WVywJDVbVcaQmWdPaLcsvaQKB2L6QhQ7ZeDCNqStt": 1793036741.5921173,
-  "seen:3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": 1793036926.7770715
+  "seen:3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": 1793036926.7770715,
+  "seen:EXpWsM4B7rDTqiJy49QscEj6wTovWcFT6N24NHL9pump": 1793037116.6830904,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793037116.6830904,
+  "seen:AAzxViJzzLRA5V97FG2Bhxzi8mpQgrQKXhCSjwyXpump": 1793037116.6830904,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793037116.6830904,
+  "seen:CsovxRtEM6g4jcVGtcTB3xwycoAuPjEafpUTR6zrpump": 1793037116.6830904,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793037116.6830904,
+  "seen:fXUGJG3PdKBmS9Y9My1QeyRJkkK2tx2293Qu8tYpump": 1793037298.0765758,
+  "seen:1NJMqVM4PadjuzYmeB7zV7q7DV8oB3ExaQCd9x6KsLz": 1793037298.0765758,
+  "seen:DRAMjSWR7HRfJKjRkvQWYL2bcaejaVhuxEcjf4pAY4Cw": 1793037298.0765758,
+  "seen:VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 1793037298.0765758,
+  "seen:AYqXTCgv7jw8RXU6UR7yoqMo7hD1ryNfctjVQs1zpump": 1793037478.5272555,
+  "seen:DGvwrm6BUZMPnegAXMDTb52WjVZPTe21aAqkYv9Hpump": 1793037478.5272555,
+  "seen:EdSuZVh4ypz8cUqgi1Rjo1SE88wrRahPg85KStdpump": 1793037478.5272555,
+  "seen:42nvgmxdtEyHLD1qJUeTyexenLpCGoZsLfQPQnsdpump": 1793037478.5272555,
+  "seen:84z1YoLGgrXPgE39hcJrse2wGRBSWigomGqtQdMYpump": 1793037478.5272555,
+  "seen:E7YbmtzQ26RAhkaovmp37FKKRcBdspHiShzGbWHVpLrV": 1793037478.5272555,
+  "control:84z1YoLGgrXPgE39hcJrse2wGRBSWigomGqtQdMYpump": 1793037478.6159427,
+  "seen:GyGKQ6VxUUmP7ugxjgaTUy3dYZpCyQJUNinerbGHG3bZ": 1793037688.4951813,
+  "seen:Hfee8WbKZwJanNvj1GUEP9cPZqUr5BbjEWXJPGMNpump": 1793037688.4951813,
+  "seen:BTZK1B3pCoBDD1vy5e4bDBM4bwvvhkKUMTuKABkGWwGp": 1793037688.4951813,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793037688.4951813
  },
  "talks": {
   "2026-10-21": 109
@@ -119,11 +106,11 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793035479.129046,
+  "t": 1793036398.0801122,
   "crypto": [
    "South Korea lawmakers mull pushing crypto tax implementation to 2029 (1h ago)",
-   "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines (1h ago)",
-   "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks (1h ago)",
+   "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines (2h ago)",
+   "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks (2h ago)",
    "Kalshi strikes deal with S&P Dow Jones Indices to expand financial event contracts (2h ago)",
    "OCC calls on community banks to enter the stablecoin payments market (2h ago)",
    "South Korea weighs fourth delay on its crypto gains tax, pushing it to 2029 (3h ago)",
