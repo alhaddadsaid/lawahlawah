@@ -51,25 +51,44 @@
      "size": 977517.1065493645,
      "deadline": 1793032327.1765225,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 749,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ANT",
+     "mint": "BTZK1B3pCoBDD1vy5e4bDBM4bwvvhkKUMTuKABkGWwGp",
+     "side": 1,
+     "opened": 1793026039.9776258,
+     "entry": 0.0001818,
+     "stop": 0.00014544000000000002,
+     "target": 0.00025452,
+     "size": 1100110.0110011,
+     "deadline": 1793033239.977626,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 750,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ARROW",
+     "mint": "5QLhJag4UGsLod7H2Ci9HmgtMprgvG574Bv93v1NhDvq",
+     "side": 1,
+     "opened": 1793026404.0578928,
+     "entry": 0.0001516,
+     "stop": 0.00012128,
+     "target": 0.00021224,
+     "size": 1319261.2137203165,
+     "deadline": 1793033604.057893,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 749,
+ "next_id": 751,
  "runs": 30,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 1793026027.1431413,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1793026027.1431413,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793026027.1431413,
-  "control:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793026027.1765254,
-  "seen:3E8N8HpqFodCEqcRpi6TtopyJUT5FnPPcZXoj6zxpump": 1793026211.1558387,
-  "seen:ETFpgjkR5iAHejxHpErvjBHPoPjNvaxtssK7z4Lfpump": 1793026211.1558387,
-  "seen:BTZK1B3pCoBDD1vy5e4bDBM4bwvvhkKUMTuKABkGWwGp": 1793026211.1558387,
-  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793026211.1558387,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793026211.1558387,
-  "seen:GJC9ZFS5nV4XM8Wi8Hyej898qH9hJNm8KBGnGRgGpump": 1793026393.2139874,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793026393.2139874,
   "seen:4wYiX21uJQj5MUPVDAHeVAbqCaEYVisEkHpWcKpApump": 1793026575.1111188,
   "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793026575.1111188,
   "seen:CzGXLpVjYaQTDM8FxKtiCwkm3YxYHL21XUVeSgWMxa7u": 1793026575.1111188,
@@ -78,7 +97,17 @@
   "seen:HmGmVS7hQ9jJKJh43s4hcys9eTF1AM637yde4HZ2pump": 1793026757.7342036,
   "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793026757.7342036,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793026757.7342036,
-  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1793026757.7342036
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1793026757.7342036,
+  "seen:VFck39CHFLoX74ws4YzioK61TAGe1QTQB3tma7Rpump": 1793026939.951024,
+  "seen:5QLhJag4UGsLod7H2Ci9HmgtMprgvG574Bv93v1NhDvq": 1793026939.951024,
+  "control:BTZK1B3pCoBDD1vy5e4bDBM4bwvvhkKUMTuKABkGWwGp": 1793026939.9776294,
+  "seen:3E8N8HpqFodCEqcRpi6TtopyJUT5FnPPcZXoj6zxpump": 1793027121.812753,
+  "seen:ETFpgjkR5iAHejxHpErvjBHPoPjNvaxtssK7z4Lfpump": 1793027121.812753,
+  "seen:AA39p6RQP2a6zX2tHwnaSR8wY6AyFftb3wxKrDqMpump": 1793027121.812753,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793027304.0290978,
+  "seen:3P1CM6VJFrqPgewDgFvkJY1qrWR3tmsUT1AKkYbRpump": 1793027304.0290978,
+  "seen:GJC9ZFS5nV4XM8Wi8Hyej898qH9hJNm8KBGnGRgGpump": 1793027304.0290978,
+  "control:5QLhJag4UGsLod7H2Ci9HmgtMprgvG574Bv93v1NhDvq": 1793027304.0578957
  },
  "talks": {
   "2026-10-21": 109
@@ -119,18 +148,18 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793025311.1598346,
+  "t": 1793026221.8167558,
   "crypto": [
+   "PHP flaw shows AI \u2018vulnerability apocalypse\u2019 is on schedule: Immunefi CEO (0h ago)",
    "Canada opens consultation on draft stablecoin rules, maintains ban on yields (0h ago)",
    "Strategy skips Bitcoin purchases, spends $205M on STRC buybacks (1h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
    "AI giant Anthropic files for blockbuster IPO (1h ago)",
-   "HOOD\u2019s prediction markets to add $1.7B to revenue, exceed crypto by 2028: Bernstein (1h ago)",
+   "HOOD\u2019s prediction markets to add $1.7B to revenue, exceed crypto by 2028: Bernstein (2h ago)",
    "A $68 million bitcoin bet is targeting a post-midterm election breakout to $90,000 (3h ago)",
    "Aviva Investors launches tokenized share class of $29B Sterling fund on XRP Ledger (3h ago)",
    "Bitcoin holds near $80,000 as oil retreats and the Fed decision looms (3h ago)",
-   "Live news: Bitcoin slips below $80,000 as Anthropic files for massive IPO (3h ago)",
-   "BTC price risks $80K loss into FOMC, earnings: Three things to know in Bitcoin this week (4h ago)"
+   "Live news: Bitcoin slips below $80,000 as Anthropic files for massive IPO (4h ago)"
   ],
   "macro": [],
   "calendar": []
