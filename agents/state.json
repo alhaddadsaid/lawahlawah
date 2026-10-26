@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -8634.068343703295,
+   "cash": -8685.089584145097,
    "open": [
     {
      "id": 695,
@@ -51,21 +51,6 @@
      "size": 874890.6386701663,
      "deadline": 1793004381.11401,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 700,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ROFLAMP",
-     "mint": "8cFU1FJHVZQAricMRXPE5wa3zg6GvdG52mcutMMBpump",
-     "side": 1,
-     "opened": 1792998102.1860683,
-     "entry": 0.0001177,
-     "stop": 9.416e-05,
-     "target": 0.00016478,
-     "size": 1699235.3440951572,
-     "deadline": 1793005302.1860685,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,24 +59,25 @@
  "runs": 29,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792998634.453688,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792998634.453688,
-  "seen:3Vkkvo8jxHy6B4pxRLLV3F9EBYRS1NE8mKCxhi1Mpump": 1792998634.453688,
-  "seen:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1792998815.6240366,
-  "seen:dtrYLHXXfa3UHmbb9nqAWfbkbRnjp9jZ1dhJx4Fpump": 1792998815.6240366,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792998815.6240366,
-  "seen:BTvAbqm2z6r81UX9f3Kt9eijZwAr824QyjCeYaNCpump": 1792998815.6240366,
-  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1792998815.6240366,
-  "seen:5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": 1792998815.6240366,
-  "control:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1792998815.675679,
-  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1792999002.1300986,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1792999002.1300986,
-  "control:8cFU1FJHVZQAricMRXPE5wa3zg6GvdG52mcutMMBpump": 1792999002.1860719,
   "seen:8cFU1FJHVZQAricMRXPE5wa3zg6GvdG52mcutMMBpump": 1792999185.4934216,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1792999185.4934216,
   "seen:6yf56qzdBkmaXgt3iUwXXuuB9bVKBR95EQ6zmKfApump": 1792999185.4934216,
   "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1792999185.4934216,
-  "seen:5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump": 1792999368.714437
+  "seen:5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump": 1792999368.714437,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1792999553.5728753,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1792999553.5728753,
+  "seen:35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump": 1792999553.5728753,
+  "seen:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1792999737.5341558,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1792999737.5341558,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1792999737.5341558,
+  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1792999737.5341558,
+  "seen:BTvAbqm2z6r81UX9f3Kt9eijZwAr824QyjCeYaNCpump": 1792999737.5341558,
+  "seen:5qDiSWLy5mXog6L5u1rZGwCerDN29X5tFtVBp8j5pump": 1792999737.5341558,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1792999737.5341558,
+  "seen:3MYBdTcuPKq1J6pyeFrKxpxwKQC7FGkz1WnYvSTTpump": 1792999920.5630772,
+  "seen:12sgEXCPheQYMK2MXrq19XaX3MPZndZc3nBpJZeipump": 1792999920.5630772,
+  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1792999920.5630772,
+  "seen:EcHrGPcNZUrcqKE1wUya6WA548anFUDsgF1VJ4Jupump": 1792999920.5630772
  },
  "talks": {
   "2026-10-21": 109
@@ -132,13 +118,13 @@
  ],
  "last_review": 1792936850.5833156,
  "news": {
-  "t": 1792997734.456688,
+  "t": 1792998653.5756834,
   "crypto": [
    "Here\u2019s what happened in crypto today (1h ago)",
-   "India's largest crypto exchange absorbs $16 million loss from internal process failure tied to retired wallet (1h ago)",
+   "India's largest crypto exchange absorbs $16 million loss from internal process failure tied to retired wallet (2h ago)",
    "Bitcoin wallet bug let rogue servers steal funds when users tried to speed up payments (2h ago)",
    "Musk warns over 200 AI neoclouds face \u2018guppy-level death\u2019 (2h ago)",
-   "Bitcoin slips under $80,000 as traders de-risk ahead of Fed meeting (2h ago)",
+   "Bitcoin slips under $80,000 as traders de-risk ahead of Fed meeting (3h ago)",
    "Hong Kong names Nasdaq-listed Solana Company a strategic enterprise (4h ago)",
    "Elon Musk issues a warning for 'AI neoclouds' as SpaceX borrows $40 billion for chips (4h ago)",
    "Keystone says website breach exposed hardware wallet buyers\u2019 addresses (5h ago)",
@@ -149,12 +135,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-26": 0.010963
+  "2026-10-26": 0.011469
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-26 00:08 UTC [macro] No orders. Feeds live: GOLD 4011.3 (5d 3989.1-4211.2), EURUSD 1.12196, GBPUSD 1.33751, no high-impact events 24h. Watch: GOLD short 1% only on hourly close <4000 after failed rebound toward 4020; stop 4030, target 3980, ",
   "2026-10-26 00:30 UTC [macro] No orders. GOLD 4006.6 live, 5d 3989.1-4211.2, no trigger. Watch: GOLD short 1% only on hourly close <4000 after failed rebound toward 4020; stop 4030, target 3980, max 8h, net of costs. EURUSD 1.12208 and GBPUSD 1.33769",
   "2026-10-26 00:51 UTC [macro] No orders. GOLD 4001.4 live, 5d 3989.1-4211.2, no hourly close below 4000 yet. Watch: GOLD short 1% only on hourly close <4000 after failed rebound toward 4020; stop 4030, target 3980, max 8h, net of costs. FX: no high-i",
   "2026-10-26 01:12 UTC [macro] No orders. GOLD 3997.4 live, under 4000 but no failed rebound to ~4020 yet (recent high ~4015). Watch: GOLD short 1% only after a failed rebound to ~4020 and an hourly close below 4000; stop 4030, target 3980, max 8h, ne",
@@ -173,8 +158,9 @@
   "2026-10-26 05:51 UTC [macro] 05:51 flat, no orders. GOLD 4025.7, short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no pre-registered hypothesis, n",
   "2026-10-26 06:12 UTC [macro] 06:12 UTC flat. Gold 4025, trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no calendar catalyst, no pre-registered setup.",
   "2026-10-26 06:34 UTC [macro] 06:34 flat, no orders. GOLD 4019.6 near 4020 rebound level, no hourly close <4000, trigger not met. Watch (unchanged): GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max ",
-  "2026-10-26 06:55 UTC [macro] 06:55 UTC flat. GOLD 4020.1, short trigger not met (needs failed rebound to ~4020 then hourly close <4000). Watch: GOLD short 1% only after that; stop 4030, target 3980, max 8h, net of costs. FX: no calendar catalyst, no"
+  "2026-10-26 06:55 UTC [macro] 06:55 UTC flat. GOLD 4020.1, short trigger not met (needs failed rebound to ~4020 then hourly close <4000). Watch: GOLD short 1% only after that; stop 4030, target 3980, max 8h, net of costs. FX: no calendar catalyst, no",
+  "2026-10-26 07:17 UTC [macro] 07:17 UTC flat, no orders. GOLD 4020.4, trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no calendar catalyst, no pre-regi"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1792997734.456658
+ "last_macro_macro": 1792999020.5661771
 }
