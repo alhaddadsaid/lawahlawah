@@ -66,37 +66,54 @@
      "size": 1150086.2564692353,
      "deadline": 1793014646.699476,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 718,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "GBPUSD",
+     "mint": "",
+     "side": -1,
+     "opened": 1793008911.110524,
+     "entry": 1.3345255851745605,
+     "stop": 1.3353068743433272,
+     "target": 1.3333536514214106,
+     "size": 127993.58291100262,
+     "deadline": 1793095311.1105242,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 718,
- "runs": 29,
+ "next_id": 719,
+ "runs": 30,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8gnyYyngFtzPP6K9YRQ8a7kZWKQ5tzu5N2D23Rafxrn5": 1793008894.6295972,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793008894.6295972,
-  "seen:HEPG65DZHGePLKrTqkkkJLUb7vt9A2436kdTxTJSSTNK": 1793009075.1107965,
-  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793009075.1107965,
-  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793009075.1107965,
-  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1793009075.1107965,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793009075.1107965,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793009260.2998085,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793009260.2998085,
-  "seen:4GyUcwKq2xJmtHdL96UjwKNT4bUadaKGHuZatABgpump": 1793009260.2998085,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793009260.2998085,
-  "seen:PairUottr9sWf6REag62Y8xeFfrWSpL1F9zikNyqWLV": 1793009443.3453937,
   "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793009630.4175096,
   "seen:3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": 1793009630.4175096,
   "seen:BEwvuL9EsEukMbETMcgRDJ2MVvVjTyEz4SAUxLuh2zL1": 1793009630.4175096,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793009630.4175096,
-  "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793009630.4175096
+  "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793009630.4175096,
+  "seen:D3xt7L7biqSHUZRyJzHZzsdU5F13QaBCUEBAFZyHpump": 1793009811.021474,
+  "seen:JAFqCQSpy5YinrsmixWSMaD7jTn4MytJRkyWvYPnY6ea": 1793009811.021474,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793009811.021474,
+  "control:GBPUSD": 1793009811.1105285,
+  "seen:6pGX4HHt8YbKgQphzU8HEerPEx6yeMeNAMETP7PJ4AJE": 1793009992.8944838,
+  "seen:HEPG65DZHGePLKrTqkkkJLUb7vt9A2436kdTxTJSSTNK": 1793009992.8944838,
+  "seen:3p4LAKKCcsiBF5nuYYqLu8mJpfXStQJMk2LYubM3pump": 1793009992.8944838,
+  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793009992.8944838,
+  "seen:4GyUcwKq2xJmtHdL96UjwKNT4bUadaKGHuZatABgpump": 1793010173.390645,
+  "seen:9DGb9TWswLUqu85reo2kNoZkKkME9nB9YVfjYkqopump": 1793010173.390645,
+  "seen:tybY2LFHH91VdoPJJkkFAsYaD7wnQQAm3BYg1x3mint": 1793010173.390645,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793010358.4629247,
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1793010358.4629247,
+  "seen:9gexoGn8qnxT1XpncwNXJDwQci9cPGuNXG3uNfDkpump": 1793010358.4629247
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498055,
+ "ctrl_macro_hour": 498058,
  "team": [
   {
    "name": "Lead",
@@ -148,12 +165,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-26": 0.015152
+  "2026-10-26": 0.015695
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-26 02:59 UTC [macro] 02:58 UTC flat, no orders. GOLD 4011.8 above 4000, short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no pre-registere",
   "2026-10-26 03:20 UTC [macro] 03:20 UTC no orders. GOLD 4019.4 live, 5d 3989.1-4211.2, short trigger not met (no hourly close <4000 after failed rebound to ~4020). Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4",
   "2026-10-26 03:41 UTC [macro] 03:41 UTC no orders. GOLD 4028.3 (5d 3989.1-4211.2), above 4000, short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no",
   "2026-10-26 04:03 UTC [macro] 04:03 UTC flat, no orders. GOLD 4024 (5d 3989.1-4211.2), trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no pre-registere",
@@ -172,8 +188,9 @@
   "2026-10-26 08:42 UTC [macro] 08:42 flat, no orders. GOLD 4028.1, short trigger not met (needs failed rebound to ~4020, then hourly close <4000). Watch: GOLD short 1% only after that; stop 4030, target 3980, max 8h, net of costs. FX: no calendar cata",
   "2026-10-26 09:03 UTC [macro] 09:03 UTC flat, no orders. GOLD 4034.6, short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no calendar catalyst, no pr",
   "2026-10-26 09:25 UTC [macro] 09:25 UTC flat, no orders. GOLD 4028.9, short trigger not met. Watch (unchanged): GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no calendar cat",
-  "2026-10-26 09:46 UTC [macro] 09:46 UTC flat, no orders. GOLD 4031.7, short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no high-impact calendar in "
+  "2026-10-26 09:46 UTC [macro] 09:46 UTC flat, no orders. GOLD 4031.7, short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no high-impact calendar in ",
+  "2026-10-26 10:07 UTC [macro] 10:07 UTC flat, no orders. GOLD 4031.1, short trigger not met (needs failed rebound to ~4020, then hourly close <4000). Watch: GOLD short 1% only after that; stop 4030, target 3980, max 8h, net of costs. FX: no high-impa"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1793007994.6325939
+ "last_macro_macro": 1793009273.3941407
 }
