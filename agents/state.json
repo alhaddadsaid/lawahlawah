@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -11759.41296915606,
+   "cash": -11695.178275278507,
    "open": [
     {
      "id": 767,
@@ -21,21 +21,6 @@
      "size": 8.125406489953098,
      "deadline": 1793120412.447365,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 796,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "RAYPAD",
-     "mint": "5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray",
-     "side": 1,
-     "opened": 1793051078.6259706,
-     "entry": 0.0001274,
-     "stop": 0.00010192000000000001,
-     "target": 0.00017836,
-     "size": 1569858.7127158556,
-     "deadline": 1793058278.6259708,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 804,
@@ -66,25 +51,44 @@
      "size": 784006.2720501763,
      "deadline": 1793065227.641345,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 812,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Nothing",
+     "mint": "51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump",
+     "side": 1,
+     "opened": 1793058395.459508,
+     "entry": 0.000161,
+     "stop": 0.00012880000000000001,
+     "target": 0.00022539999999999998,
+     "size": 1242236.0248447205,
+     "deadline": 1793065595.4595082,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 813,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PRESIDENT",
+     "mint": "3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump",
+     "side": 1,
+     "opened": 1793058575.6147041,
+     "entry": 0.000231,
+     "stop": 0.00018480000000000002,
+     "target": 0.0003234,
+     "size": 865800.8658008658,
+     "deadline": 1793065775.6147041,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 812,
+ "next_id": 814,
  "runs": 32,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Aov3BtQvrGXM5V9oiHu8PKJWeV8a2rFnr24fwWcNpump": 1793058198.503586,
-  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793058198.503586,
-  "seen:DEZrHa3CeoQs2kGqMPo6D1TFgHB2KWoPMJMjf9HJpump": 1793058378.7134855,
-  "seen:EbBRhdxtbp7Wko67AbgLv47Kyi9kQbAh1CphmpHypump": 1793058378.7134855,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793058378.7134855,
-  "control:DtBatQsrazRRVp37UTMQH7TnXL1mT2qrJTj7PB9Rpump": 1793058379.3173888,
-  "seen:FsBZ8nkHfQvBX2YsfBii19fq7BiRvrf2vtC2JpczYTcs": 1793058562.5209095,
-  "seen:9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump": 1793058562.5209095,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793058562.5209095,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793058562.5209095,
-  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793058562.5209095,
   "seen:DNwtHLeLk6m8hb5LUnMy5gfr7gu667s5fvNxunWYpump": 1793058749.3574421,
   "seen:DtBatQsrazRRVp37UTMQH7TnXL1mT2qrJTj7PB9Rpump": 1793058749.3574421,
   "seen:DNjDuhQnsTXiCgPKUGa8yBznm4bUqnAm5yw3wY3jpump": 1793058749.3574421,
@@ -94,7 +98,19 @@
   "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793058927.5720677,
   "seen:84z1YoLGgrXPgE39hcJrse2wGRBSWigomGqtQdMYpump": 1793058927.5720677,
   "seen:3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": 1793058927.5720677,
-  "control:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793058927.6413484
+  "control:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793058927.6413484,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793059113.2668965,
+  "seen:9YFP31dKnPkxXSnqVR6nZ8t2NUdkiucGmJDapoGmpump": 1793059113.2668965,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793059113.2668965,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793059113.2668965,
+  "seen:DEZrHa3CeoQs2kGqMPo6D1TFgHB2KWoPMJMjf9HJpump": 1793059294.6038587,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793059294.6038587,
+  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793059294.6038587,
+  "control:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793059295.459511,
+  "seen:9hiSTieycVB894TMwhXWGnWMXNaVE6BimYoydxiNLR8Z": 1793059475.5707471,
+  "seen:7Mc5gW7g1et6rMSey59GF28CHuJxeeASMAUJ3ABipump": 1793059475.5707471,
+  "seen:wKsFriL4RGDLncR4HjdQ2vjd3A5Vc9CkiRRiJn3pump": 1793059475.5707471,
+  "control:3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": 1793059475.6147075
  },
  "talks": {
   "2026-10-21": 109
@@ -135,7 +151,7 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793057478.7170966,
+  "t": 1793058394.607502,
   "crypto": [
    "US OCC calls on community banks to become payment stablecoin issuers (2h ago)",
    "Injective launches onchain futures market tracking Nvidia GPU rental costs (2h ago)",
@@ -143,7 +159,7 @@
    "AI company Anthropic announces IPO, expected as early as November (5h ago)",
    "NBA names Kalshi, Polymarket preferred exchanges, signs CFTC deal (6h ago)",
    "South Korea lawmakers mull pushing crypto tax implementation to 2029 (7h ago)",
-   "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines (7h ago)",
+   "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines (8h ago)",
    "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks (8h ago)",
    "Kalshi strikes deal with S&P Dow Jones Indices to expand financial event contracts (8h ago)",
    "OCC calls on community banks to enter the stablecoin payments market (8h ago)"
