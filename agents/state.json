@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -12648.673610714539,
+   "cash": -12698.27101841289,
    "open": [
     {
      "id": 831,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 845,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Shitcoin",
-     "mint": "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump",
-     "side": 1,
-     "opened": 1793076597.7565587,
-     "entry": 7.638e-05,
-     "stop": 6.1104e-05,
-     "target": 0.00010693199999999999,
-     "size": 2618486.514794449,
-     "deadline": 1793083797.756559,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 847,
      "desk": "control",
      "market": "meme",
@@ -81,24 +66,29 @@
      "size": 3758691.975192633,
      "deadline": 1793087275.0551038,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 850,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "TGC",
+     "mint": "ASCcuz8Dy5edyvjZMcpyJEkfx87fgjw1pBVoLbj4pump",
+     "side": 1,
+     "opened": 1793080443.5588374,
+     "entry": 0.0001084,
+     "stop": 8.672000000000001e-05,
+     "target": 0.00015176,
+     "size": 1845018.4501845017,
+     "deadline": 1793087643.5588377,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 850,
+ "next_id": 851,
  "runs": 33,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CkyP7Td19tmCsGYhNCoY17gX4qBUoUwKvYgsn7DJCiWQ": 1793080245.8293989,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793080245.8293989,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793080245.8293989,
-  "seen:5zTLJ9JxQRDeTxfm8onF8Gbf7J9tfXFwRbubaLs3pump": 1793080429.308241,
-  "control:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793080429.8460813,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793080609.494563,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793080609.494563,
-  "seen:8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump": 1793080609.494563,
-  "seen:EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump": 1793080609.494563,
-  "control:E6exteuDy1u6u3FfQV7SvPyU4XPdcBGi4cBnqrusocat": 1793080613.772879,
   "seen:ASCcuz8Dy5edyvjZMcpyJEkfx87fgjw1pBVoLbj4pump": 1793080791.741598,
   "seen:Az5naRCqYLfMi9KT92QCzJwR74BR5X33nZtMkXyvpump": 1793080791.741598,
   "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793080791.741598,
@@ -110,7 +100,16 @@
   "seen:E6exteuDy1u6u3FfQV7SvPyU4XPdcBGi4cBnqrusocat": 1793080975.0162258,
   "seen:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793080975.0162258,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793080975.0162258,
-  "control:5zTLJ9JxQRDeTxfm8onF8Gbf7J9tfXFwRbubaLs3pump": 1793080975.055107
+  "control:5zTLJ9JxQRDeTxfm8onF8Gbf7J9tfXFwRbubaLs3pump": 1793080975.055107,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793081160.1961458,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1793081160.1961458,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793081343.0256517,
+  "control:ASCcuz8Dy5edyvjZMcpyJEkfx87fgjw1pBVoLbj4pump": 1793081343.5588412,
+  "seen:CScFM8f242ry6F8YvaEEmLzpYe8iE6BaEXCMmZNJQRn9": 1793081528.9967017,
+  "seen:GMNWkBjeP9pkmeNaUBpjfUtYkcG3ARTFhResuFEWhspn": 1793081528.9967017,
+  "seen:EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump": 1793081528.9967017,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793081528.9967017,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793081528.9967017
  },
  "talks": {
   "2026-10-21": 109
@@ -151,18 +150,18 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793079529.3129082,
+  "t": 1793080443.0303082,
   "crypto": [
    "Ripple gets a final go-ahead to launch its own U.S. national trust bank (1h ago)",
    "RedotPay weighs confidential US IPO filing by year-end: Bloomberg (1h ago)",
    "Keystone breach deepens: Hackers stole key used to verify wallets as genuine (4h ago)",
    "Ripple wins final US approval for national trust bank (6h ago)",
    "US OCC calls on community banks to become payment stablecoin issuers (8h ago)",
-   "Injective launches onchain futures market tracking Nvidia GPU rental costs (8h ago)",
+   "Injective launches onchain futures market tracking Nvidia GPU rental costs (9h ago)",
    "Canada opens consultation on stablecoins, citing US GENIUS Act (10h ago)",
    "AI company Anthropic announces IPO, expected as early as November (11h ago)",
    "NBA names Kalshi, Polymarket preferred exchanges, signs CFTC deal (12h ago)",
-   "South Korea lawmakers mull pushing crypto tax implementation to 2029 (13h ago)"
+   "South Korea lawmakers mull pushing crypto tax implementation to 2029 (14h ago)"
   ],
   "macro": [],
   "calendar": []
