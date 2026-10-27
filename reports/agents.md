@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 01:24 UTC. Runs so far: 32. Model: claude-haiku-5-5.
+Updated 2026-10-27 01:33 UTC. Runs so far: 32. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -19,6 +19,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - control: GOLD short at 4032.1, stop 4044.41, target 4013.64, opened 2026-10-26 17:00 UTC
 - control: PRESIDENT long at 0.000231, stop 0.0001848, target 0.0003234, opened 2026-10-26 23:49 UTC
+- control: CATTLEAXE long at 0.0002453, stop 0.00019624, target 0.00034342, opened 2026-10-27 01:33 UTC
 
 ## Team
 
@@ -31,13 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-27 01:24 UTC team macro (gold/forex), spent today $0.002
-
-Scout: Gold is at 4026.6, still above the 4020 rebound level, so the pre-registered short trigger is unmet.
-Skeptic: The gold short has no armed entry, and the stop still needs a decision (4030 sits inside 1 ATR of 12.4). Our gold journal is negative, so I won't force a trade.
-FX Scout: No high-impact events in 24h. EURUSD (1.11719) and GBPUSD (1.33353) are near 5-day lows with no catalyst, and the expected edge doesn't clear 0.7-1.6 pips round trip.
-Lead: Stay flat. Keep the gold short watch with the revised stop of about 4045.
-
-{"orders": [], "close": [], "note": "01:24 flat. Gold 4026.6 above 4020 rebound, no trigger. Watch GOLD short 1%: failed rebound to ~4020 then hourly close <4000; stop ~4045 (4030 inside 1 ATR 12.4), target 3980, max 8h, net of costs. FX: no catalyst; EURUSD 1.11719 near 5d low 1.11669, GBPUSD 1.33353 near 1.3311; no trade without a pre-registered edge above costs."}
-
+- 2026-10-27 01:33 UTC control: OPENED CATTLEAXE long at 0.0002453 (stop 0.00019624, target 0.00034342) - control: frozen v3 rules
 

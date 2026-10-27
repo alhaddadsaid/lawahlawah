@@ -36,30 +36,45 @@
      "size": 865800.8658008658,
      "deadline": 1793065775.6147041,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 821,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CATTLEAXE",
+     "mint": "H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump",
+     "side": 1,
+     "opened": 1793064793.8525162,
+     "entry": 0.0002453,
+     "stop": 0.00019624000000000003,
+     "target": 0.00034342,
+     "size": 815328.1695882593,
+     "deadline": 1793071993.8525164,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 821,
+ "next_id": 822,
  "runs": 32,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793064409.843574,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793064409.843574,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793064409.843574,
-  "seen:96egraTCizRpzNx4WvMMhPJf7TKS7W5kUHeenmd1XfuN": 1793064596.3176377,
-  "seen:CzbUy4v8Rv5ddKY1A49py31z4EFLjHgmJbv3mGJJpump": 1793064596.3176377,
-  "seen:3MBy23FwpMHks6o7n8ey96FN8y46xRp1WA7M4E2Fpump": 1793064596.3176377,
-  "seen:DEZrHa3CeoQs2kGqMPo6D1TFgHB2KWoPMJMjf9HJpump": 1793064777.6135612,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793064777.6135612,
-  "seen:Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": 1793064777.6135612,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793064777.6135612,
   "seen:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793064957.4254153,
   "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793064957.4254153,
   "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793064957.4254153,
   "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793065142.0178475,
   "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793065142.0178475,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793065142.0178475
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793065142.0178475,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793065326.6807446,
+  "seen:1226TMaWZiZYWdP7CBZBqfJGXoWXaKXJJiKf45e5xfun": 1793065326.6807446,
+  "seen:CzbUy4v8Rv5ddKY1A49py31z4EFLjHgmJbv3mGJJpump": 1793065513.9316683,
+  "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793065513.9316683,
+  "seen:3MBy23FwpMHks6o7n8ey96FN8y46xRp1WA7M4E2Fpump": 1793065513.9316683,
+  "seen:4zZzcMhLreTjyV3T8x7bLwGWX6krZHA8VmnhBVDLBWrs": 1793065693.2259462,
+  "seen:9XThr7bewz9VYXo7mecC12YZzo78V4WmZKnrMKjbpump": 1793065693.2259462,
+  "seen:DEZrHa3CeoQs2kGqMPo6D1TFgHB2KWoPMJMjf9HJpump": 1793065693.2259462,
+  "seen:CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": 1793065693.2259462,
+  "control:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793065693.8525193
  },
  "talks": {
   "2026-10-21": 109
@@ -100,7 +115,7 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793063877.6174057,
+  "t": 1793064793.229709,
   "crypto": [
    "Ripple wins final US approval for national trust bank (1h ago)",
    "US OCC calls on community banks to become payment stablecoin issuers (4h ago)",
@@ -110,8 +125,8 @@
    "NBA names Kalshi, Polymarket preferred exchanges, signs CFTC deal (8h ago)",
    "South Korea lawmakers mull pushing crypto tax implementation to 2029 (9h ago)",
    "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines (9h ago)",
-   "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks (9h ago)",
-   "Kalshi strikes deal with S&P Dow Jones Indices to expand financial event contracts (9h ago)"
+   "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks (10h ago)",
+   "Kalshi strikes deal with S&P Dow Jones Indices to expand financial event contracts (10h ago)"
   ],
   "macro": [],
   "calendar": []
