@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -11780.554201561308,
+   "cash": -11799.83666143413,
    "open": [
     {
      "id": 767,
@@ -23,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 804,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GINNAN",
-     "mint": "GinNabffZL4fUj9Vactxha74GDAW8kDPGaHqMtMzps2f",
-     "side": 1,
-     "opened": 1793054919.4747384,
-     "entry": 4.302e-08,
-     "stop": 3.4416e-08,
-     "target": 6.022799999999999e-08,
-     "size": 4649000464.900046,
-     "deadline": 1793062119.4747386,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 813,
      "desk": "control",
      "market": "meme",
@@ -51,49 +36,33 @@
      "size": 865800.8658008658,
      "deadline": 1793065775.6147041,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 816,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Nothing",
-     "mint": "51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump",
-     "side": 1,
-     "opened": 1793061498.6781318,
-     "entry": 0.0002104,
-     "stop": 0.00016832000000000001,
-     "target": 0.00029455999999999997,
-     "size": 950570.3422053233,
-     "deadline": 1793068698.678132,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 817,
+ "next_id": 818,
  "runs": 32,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793062031.9469225,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793062031.9469225,
-  "seen:DEZrHa3CeoQs2kGqMPo6D1TFgHB2KWoPMJMjf9HJpump": 1793062031.9469225,
-  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793062031.9469225,
-  "seen:8fsziCyXFgtX3NjkzLifanRkSidhfYFsdGftHuEhpump": 1793062213.750253,
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793062213.750253,
-  "seen:9wUMfwaaUwRH4aon3DG4AWFsRxbCu3fn1LWyPRCmpump": 1793062213.750253,
-  "seen:A3X5Dy5wDYTYHJ56J4qeD8cthFbLVA6b6sgmfd2Ypump": 1793062213.750253,
-  "seen:DNwtHLeLk6m8hb5LUnMy5gfr7gu667s5fvNxunWYpump": 1793062398.5818222,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793062398.5818222,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793062398.5818222,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793062398.5818222,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793062398.5818222,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793062398.5818222,
-  "control:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793062398.6781356,
   "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1793062583.4541774,
   "seen:Dh9NSMKWEp2DozGQXDvpf8U9JimL8swjaVc6bCafpump": 1793062766.1494243,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793062766.1494243,
   "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793062766.1494243,
-  "seen:3VWFAUqUXDYszfQCHSqEEW179pHVUyavvWEtW4kRpump": 1793062766.1494243
+  "seen:3VWFAUqUXDYszfQCHSqEEW179pHVUyavvWEtW4kRpump": 1793062766.1494243,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793062947.0548494,
+  "seen:EdSuZVh4ypz8cUqgi1Rjo1SE88wrRahPg85KStdpump": 1793062947.0548494,
+  "seen:DEZrHa3CeoQs2kGqMPo6D1TFgHB2KWoPMJMjf9HJpump": 1793062947.0548494,
+  "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793062947.0548494,
+  "control:DNwtHLeLk6m8hb5LUnMy5gfr7gu667s5fvNxunWYpump": 1793062947.7015772,
+  "seen:GrUJLzFhVXst7gC9EKuHf3PD4saqggjdeysSjPAVpump": 1793063127.3641732,
+  "seen:8fsziCyXFgtX3NjkzLifanRkSidhfYFsdGftHuEhpump": 1793063127.3641732,
+  "seen:AEtvs9AQzqKHVs2jhK9rv35qFiEsbkzAUAUNZSLhpump": 1793063127.3641732,
+  "seen:DNwtHLeLk6m8hb5LUnMy5gfr7gu667s5fvNxunWYpump": 1793063312.3052237,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793063312.3052237,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793063312.3052237,
+  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793063312.3052237,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793063312.3052237,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793063312.3052237
  },
  "talks": {
   "2026-10-21": 109
@@ -134,16 +103,16 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793061131.9506059,
+  "t": 1793062047.05863,
   "crypto": [
-   "Ripple wins final US approval for national trust bank (0h ago)",
+   "Ripple wins final US approval for national trust bank (1h ago)",
    "US OCC calls on community banks to become payment stablecoin issuers (3h ago)",
    "Injective launches onchain futures market tracking Nvidia GPU rental costs (3h ago)",
    "Canada opens consultation on stablecoins, citing US GENIUS Act (5h ago)",
    "AI company Anthropic announces IPO, expected as early as November (6h ago)",
    "NBA names Kalshi, Polymarket preferred exchanges, signs CFTC deal (7h ago)",
    "South Korea lawmakers mull pushing crypto tax implementation to 2029 (8h ago)",
-   "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines (8h ago)",
+   "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines (9h ago)",
    "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks (9h ago)",
    "Kalshi strikes deal with S&P Dow Jones Indices to expand financial event contracts (9h ago)"
   ],
