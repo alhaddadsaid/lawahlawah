@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 01:55 UTC. Runs so far: 32. Model: claude-haiku-5-5.
+Updated 2026-10-27 02:05 UTC. Runs so far: 32. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 793 | 31 | -21874.06 | -29446.38 |
+| control | meme | 794 | 31 | -21926.07 | -29507.31 |
 | control | macro | 11 | 45 | -58.52 | -116.18 |
-| control | all | 804 | 31 | -21932.58 | -29562.56 |
+| control | all | 805 | 31 | -21984.59 | -29623.49 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GOLD short at 4032.1, stop 4044.41, target 4013.64, opened 2026-10-26 17:00 UTC
-- control: RAYPAD long at 0.0001232, stop 9.856e-05, target 0.00017248, opened 2026-10-27 01:39 UTC
+- control: CATTLEAXE long at 0.0001586, stop 0.00012688, target 0.00022204, opened 2026-10-27 02:03 UTC
 
 ## Team
 
@@ -31,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED CATTLEAXE (stop) P&L $-55.61 normal, $-64.44 pessimistic
+- control: CLOSED RAYPAD (stop) P&L $-52.01 normal, $-60.93 pessimistic
 
