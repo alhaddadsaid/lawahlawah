@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -12878.395047710643,
+   "cash": -12810.395047710643,
    "open": [
-    {
-     "id": 857,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "RAYPAD",
-     "mint": "5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray",
-     "side": 1,
-     "opened": 1793084847.821958,
-     "entry": 0.0001056,
-     "stop": 8.448e-05,
-     "target": 0.00014784,
-     "size": 1893939.3939393938,
-     "deadline": 1793092047.8219583,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 861,
      "desk": "control",
@@ -66,32 +51,65 @@
      "size": 1893939.3939393938,
      "deadline": 1793098628.013385,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 868,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "GINNAN",
+     "mint": "GinNabffZL4fUj9Vactxha74GDAW8kDPGaHqMtMzps2f",
+     "side": 1,
+     "opened": 1793092152.764307,
+     "entry": 3.884e-08,
+     "stop": 3.1072e-08,
+     "target": 5.4375999999999997e-08,
+     "size": 5149330587.023686,
+     "deadline": 1793099352.7643073,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 869,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "RAYPAD",
+     "mint": "5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray",
+     "side": 1,
+     "opened": 1793092345.9055586,
+     "entry": 0.000149,
+     "stop": 0.00011919999999999998,
+     "target": 0.00020859999999999997,
+     "size": 1342281.879194631,
+     "deadline": 1793099545.9055588,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 868,
- "runs": 33,
+ "next_id": 870,
+ "runs": 34,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4ED2eJ9nLAdPonaWvTXpbLQLZsJf7TUBKCPA3Vzxpump": 1793091780.3415327,
-  "seen:2gRA2bmWpcs5VkYm2r3d4MXZWksgz3gxqNYZRFoZpump": 1793091780.3415327,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793091780.3415327,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793091780.3415327,
-  "seen:4i4RGoxSGW39fuoJaxrLsSRbr3SyXcga31UEU5MoeN47": 1793091962.7604647,
-  "seen:NTRNDMqQSiwEC2jJs3wJiZS6bpGYQJtMNQJgiX3WyV6": 1793092146.0581806,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793092146.0581806,
-  "seen:9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump": 1793092146.0581806,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793092146.0581806,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793092146.0581806,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793092327.4012237,
-  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793092327.4012237,
-  "control:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793092328.0133884,
   "seen:Xs2yquAgsHByNzx68WJC55WHjHBvG9JsMB7CWjTLyPy": 1793092511.056042,
   "seen:CyXDdjGUeV1nGzzr4g9octqkJNcqC19DD1gmfVq5hjrH": 1793092511.056042,
   "seen:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793092511.056042,
   "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1793092511.056042,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793092511.056042
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793092511.056042,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793092686.8299446,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793092686.8299446,
+  "seen:2gRA2bmWpcs5VkYm2r3d4MXZWksgz3gxqNYZRFoZpump": 1793092686.8299446,
+  "seen:33st2Lsw2f5oMWBhB9g6gAMcWGLzhfMMZ7evfbVgpump": 1793092869.6702156,
+  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793092869.6702156,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793092869.6702156,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793093052.7079203,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793093052.7079203,
+  "seen:GinNabffZL4fUj9Vactxha74GDAW8kDPGaHqMtMzps2f": 1793093052.7079203,
+  "control:GinNabffZL4fUj9Vactxha74GDAW8kDPGaHqMtMzps2f": 1793093052.764311,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793093244.7770205,
+  "seen:CfB5TKfKmcbpaYLF9v7S7zb4dmSCecJ5f4dvjbiHpump": 1793093244.7770205,
+  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793093244.7770205,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793093244.7770205,
+  "seen:3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": 1793093244.7770205,
+  "control:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793093245.9055626
  },
  "talks": {
   "2026-10-21": 109
@@ -132,16 +150,16 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793091427.4059932,
+  "t": 1793092344.7798517,
   "crypto": [
    "An AI label alone no longer wins lenders, JPMorgan says (1h ago)",
    "Binance files for Brazil crypto license ahead of Friday deadline (1h ago)",
    "Solana bug reports now cost 1 SOL as AI floods security teams with spam (1h ago)",
-   "Bitcoin ETFs claw back $110M after $774M exit (1h ago)",
+   "Bitcoin ETFs claw back $110M after $774M exit (2h ago)",
    "Ethereum fixes Glamsterdam bug that could have sent staking deposits to builders (2h ago)",
    "Zcash co-founder proposes ending grants funding, citing $125 million treasury (3h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
-   "Ripple gets a final go-ahead to launch its own U.S. national trust bank (4h ago)",
+   "Ripple gets a final go-ahead to launch its own U.S. national trust bank (5h ago)",
    "RedotPay weighs confidential US IPO filing by year-end: Bloomberg (5h ago)",
    "Keystone breach deepens: Hackers stole key used to verify wallets as genuine (7h ago)"
   ],
