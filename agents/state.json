@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -13464.365456394773,
+   "cash": -13445.415681765024,
    "open": [
     {
      "id": 904,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 928,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HACHI",
-     "mint": "DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump",
-     "side": 1,
-     "opened": 1793127644.2366526,
-     "entry": 0.0001553,
-     "stop": 0.00012424000000000002,
-     "target": 0.00021742,
-     "size": 1287830.00643915,
-     "deadline": 1793134844.2366529,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 929,
      "desk": "control",
      "market": "macro",
@@ -70,26 +55,28 @@
    ]
   }
  },
- "next_id": 930,
+ "next_id": 931,
  "runs": 35,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": 1793129820.1392605,
-  "seen:Cmk4EaLcvpBzndKAKPjvhe9JngjFC3KsDS6QmFLnpump": 1793129820.1392605,
-  "seen:9i63FDzq2bkfVxdNA27vLBQ5tN1cWBDEjN9hST2FeTew": 1793129820.1392605,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793129820.1392605,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793130010.2079954,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793130010.2079954,
-  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793130010.2079954,
-  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793130184.5241246,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793130184.5241246,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793130184.5241246,
-  "seen:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793130184.5241246,
-  "seen:2xm2WZ9krE2YAArRC6S6ZzJAYgN813K6hh2dawKjpump": 1793130366.124867,
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793130366.124867,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793130366.124867,
-  "seen:GJyNrRBNt85m7DX7PYJBHo9sjmpTxMEQYfRbvMoYpump": 1793130366.124867,
-  "seen:3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt": 1793130546.6347635
+  "seen:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": 1793130727.620998,
+  "seen:FEGXkJzswJ2XyESpUbiW6bc2CDDGYbV8xr6Qh12Wpump": 1793130727.620998,
+  "seen:9i63FDzq2bkfVxdNA27vLBQ5tN1cWBDEjN9hST2FeTew": 1793130727.620998,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793130727.620998,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793130727.620998,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793131091.0543554,
+  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793131091.0543554,
+  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793131091.0543554,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793131091.0543554,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793131091.0543554,
+  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793131091.0543554,
+  "seen:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793131091.0543554,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793131272.1226647,
+  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793131272.1226647,
+  "seen:2xm2WZ9krE2YAArRC6S6ZzJAYgN813K6hh2dawKjpump": 1793131272.1226647,
+  "seen:EewKK6jLaWNo4KmKgruGEp3b3jv2jbY8EtW9eziLpump": 1793131452.5793617,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793131452.5793617,
+  "control:9i63FDzq2bkfVxdNA27vLBQ5tN1cWBDEjN9hST2FeTew": 1793131452.6361513
  },
  "talks": {
   "2026-10-21": 109
@@ -130,25 +117,25 @@
  ],
  "last_review": 1793109877.0350306,
  "news": {
-  "t": 1793129110.212026,
+  "t": 1793130191.0579855,
   "crypto": [
-   "U.S. agency hits Utah with lawsuit to shield Kalshi's ability to offer betting there (0h ago)",
-   "Intel, Oracle, IBM join growing list of firms objecting to OKX\u2013ICE tokenized stock plans (1h ago)",
-   "Majority of Americans want candidates who support US-based financial technology: Poll (1h ago)",
-   "Brazilian companies turned to stablecoins on election day to dodge a currency crash (2h ago)",
+   "Here\u2019s what happened in crypto today (0h ago)",
+   "CFTC sues Utah to block action against prediction markets (0h ago)",
+   "U.S. agency hits Utah with lawsuit to shield Kalshi's ability to offer betting there (1h ago)",
+   "Intel, Oracle, IBM join growing list of firms objecting to OKX\u2013ICE tokenized stock plans (2h ago)",
+   "Majority of Americans want candidates who support US-based financial technology: Poll (2h ago)",
+   "Brazilian companies turned to stablecoins on election day to dodge a currency crash (3h ago)",
    "Janus Henderson, Centrifuge launch tokenized Nasdaq-100 fund on Stellar (3h ago)",
    "Robinhood taps Ripple\u2019s $2.5 billion RLUSD stablecoin despite backing rival USDG (3h ago)",
-   "USDC overtakes USDT in euro stablecoin trading as EU rules reshape market: Kaiko (3h ago)",
-   "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund (5h ago)",
-   "CF Benchmarks brings Wall Street pricing infrastructure onchain, including data used by BlackRock (5h ago)",
-   "Crypto could outperform AI stocks: Wall Street veteran Jordi Visser (6h ago)"
+   "USDC overtakes USDT in euro stablecoin trading as EU rules reshape market: Kaiko (4h ago)",
+   "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP Annual Budget Release in 17.1h",
-   "USD Federal Funds Rate in 22.6h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement in 22.6h",
-   "USD FOMC Press Conference in 23.1h"
+   "GBP Annual Budget Release in 16.8h",
+   "USD Federal Funds Rate in 22.3h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement in 22.3h",
+   "USD FOMC Press Conference in 22.8h"
   ]
  },
  "spend": {
