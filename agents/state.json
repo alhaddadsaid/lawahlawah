@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -13225.055809344263,
+   "cash": -13287.173613182216,
    "open": [
     {
      "id": 878,
@@ -66,36 +66,53 @@
      "size": 128346.07827064734,
      "deadline": 1793189012.1290944,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 885,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "DICTATOR",
+     "mint": "7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump",
+     "side": 1,
+     "opened": 1793103306.490174,
+     "entry": 0.0001312,
+     "stop": 0.00010496,
+     "target": 0.00018367999999999998,
+     "size": 1524390.243902439,
+     "deadline": 1793110506.4901745,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 884,
+ "next_id": 886,
  "runs": 34,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CyCx7B1bhc2HjqnicQtkELM2N6X6MMxwPLLZLFqdpump": 1793102742.7465236,
-  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1793102742.7465236,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793102742.7465236,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793102742.7465236,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793102742.7465236,
-  "seen:9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump": 1793102742.7465236,
-  "seen:HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump": 1793102925.5755503,
-  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793102925.5755503,
-  "seen:3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": 1793102925.5755503,
-  "seen:2586n7zr5h7jFgU7JK4si7o3ewzpufYk8U3LzzrJpump": 1793103109.767016,
-  "seen:Nwjeu8QowWv2VpQF8uDus2yUvWgDs2dTnfvuKNYSLEa": 1793103109.767016,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793103109.767016,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793103109.767016,
-  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793103292.6274905,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793103292.6274905,
-  "control:CyCx7B1bhc2HjqnicQtkELM2N6X6MMxwPLLZLFqdpump": 1793103293.2299926,
   "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793103511.9586995,
   "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793103511.9586995,
   "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793103511.9586995,
   "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793103511.9586995,
   "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793103511.9586995,
-  "control:GBPUSD": 1793103512.1290982
+  "control:GBPUSD": 1793103512.1290982,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793103657.0359557,
+  "seen:5QREAgtfP1NkuymRaFdHxr5QNF2Yry9M1YCyaompump": 1793103657.0359557,
+  "seen:CyXDdjGUeV1nGzzr4g9octqkJNcqC19DD1gmfVq5hjrH": 1793103657.0359557,
+  "seen:EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump": 1793103657.0359557,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793103657.0359557,
+  "control:EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump": 1793103660.4770236,
+  "seen:Hjz7W26tZNpDE53pnYSj6tMSzfrhhYpkTtReZHZAWCRw": 1793103839.3937337,
+  "seen:GS2W8sSBdSXwJWWEWkLBGiStwTV1AdWDV6Nd7tnnhcGH": 1793103839.3937337,
+  "seen:GQo5HattkKNSBZAgtcJ7ELJ11WLmCrHeAQymT2Lcpump": 1793103839.3937337,
+  "seen:2586n7zr5h7jFgU7JK4si7o3ewzpufYk8U3LzzrJpump": 1793104026.945234,
+  "seen:DEAY3bwSbXRCYfGBdRqUi7MNKgxhiB3fRJtdtYRrpump": 1793104026.945234,
+  "seen:GinNabffZL4fUj9Vactxha74GDAW8kDPGaHqMtMzps2f": 1793104026.945234,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793104026.945234,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793104205.8347225,
+  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793104205.8347225,
+  "seen:Nwjeu8QowWv2VpQF8uDus2yUvWgDs2dTnfvuKNYSLEa": 1793104205.8347225,
+  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793104205.8347225,
+  "control:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793104206.4901779
  },
  "talks": {
   "2026-10-21": 109
@@ -136,29 +153,28 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793102392.630764,
+  "t": 1793103305.8381574,
   "crypto": [
-   "Live updates: Bitcoin holds below $80,000 as AI buildout draws investor attention and capital (0h ago)",
-   "Japan's top yen stablecoin falls short of its target in a disappointing first year (0h ago)",
-   "Bitcoin drops below $80,000 as crypto ignores Asian tech rally, Fed meeting begins (0h ago)",
+   "Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP (0h ago)",
+   "Live updates: Bitcoin holds below $80,000 as AI buildout draws investor attention and capital (1h ago)",
+   "Japan's top yen stablecoin falls short of its target in a disappointing first year (1h ago)",
+   "Bitcoin drops below $80,000 as crypto ignores Asian tech rally, Fed meeting begins (1h ago)",
    "Crypto wallet maker Keystone to destroy almost 19,000 devices after security breach (1h ago)",
    "Investor who called for AI pivot in 2023 says bitcoin is going to $57,000 (1h ago)",
    "Zcash co-founder calls to stop funding \u2018over $125M\u2019 grants program (2h ago)",
-   "Now is the time to accumulate bitcoin, Galaxy says (2h ago)",
+   "Now is the time to accumulate bitcoin, Galaxy says (3h ago)",
    "Bloom bot hackers loot $953K faster than you can microwave popcorn (3h ago)",
-   "An AI label alone no longer wins lenders, JPMorgan says (4h ago)",
-   "Binance files for Brazil crypto license ahead of Friday deadline (4h ago)"
+   "An AI label alone no longer wins lenders, JPMorgan says (4h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-27": 0.018914
+  "2026-10-27": 0.019465
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-27 04:59 UTC [macro] 04:59 flat, no orders. Gold 4027 above 4020 rebound level; short trigger unmet. Resolved: 5d low is 3989.1 per live feed (notes' 4072.7 was stale). Watch GOLD short 1%: failed rebound to ~4020, then hourly close <4000; s",
   "2026-10-27 05:20 UTC [macro] Flat. Gold 4020.4 at rebound level; GOLD short 1% still unarmed. Trigger: failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs. 5d low resolved as 3989.1 (feed). FX: no calendar",
   "2026-10-27 05:41 UTC [macro] No orders. Watch GOLD short 1%: hourly close <4000 after failed rebound to ~4020; stop ~4045, target 3980, max 8h, net of costs. 5d low resolved as 3989.1 per feed. FX: no calendar catalyst, no edge. Memecoin: pause new ",
   "2026-10-27 06:03 UTC [macro] Flat, no orders. Watch list: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop ~4045, target 3980, max 8h, net of costs. 5d low = 3989.1 (feed; older 4072.7 note stale). FX: no calendar cataly",
@@ -177,8 +193,9 @@
   "2026-10-27 10:40 UTC [macro] 10:40 flat, no orders. Gold 4006.3 above 4000 trigger. Watch: GOLD short 1% only after failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: no calendar cataly",
   "2026-10-27 11:01 UTC [macro] 11:01 flat. Gold 4024.6 above 4020 rebound level, GOLD short 1% still unarmed: needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: no calendar catalys",
   "2026-10-27 11:23 UTC [macro] 11:23 flat, no orders. Gold 4025.7 above 4020. GOLD short 1% still unarmed: needs failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: no calendar catalyst, n",
-  "2026-10-27 11:44 UTC [macro] 11:44 flat, no orders. GOLD short 1% still unarmed: needs failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1; price 4024.9. FX: no calendar catalyst, no edge. Me"
+  "2026-10-27 11:44 UTC [macro] 11:44 flat, no orders. GOLD short 1% still unarmed: needs failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1; price 4024.9. FX: no calendar catalyst, no edge. Me",
+  "2026-10-27 12:06 UTC [macro] 10:05-12:05 flat, no orders. Memecoin paused (journal -$360 over 18 trades). FX: no calendar catalyst, no edge. Watch GOLD short 1%, armed only after a failed rebound to ~4020 and then an hourly close below 4000; stop ~4"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1793101477.2007833
+ "last_macro_macro": 1793102757.0393283
 }
