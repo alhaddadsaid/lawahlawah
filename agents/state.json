@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -13143.05200933955,
+   "cash": -13196.01420662248,
    "open": [
     {
      "id": 874,
@@ -20,21 +20,6 @@
      "target": 0.00017318,
      "size": 1616814.8746968473,
      "deadline": 1793102643.3886993,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 875,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "RAYPAD",
-     "mint": "5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray",
-     "side": 1,
-     "opened": 1793097821.5655167,
-     "entry": 0.0001693,
-     "stop": 0.00013544,
-     "target": 0.00023701999999999998,
-     "size": 1181334.9084465445,
-     "deadline": 1793105021.565517,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -81,33 +66,50 @@
      "size": 1651527.6630883566,
      "deadline": 1793107399.8007343,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 881,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "RAYPAD",
+     "mint": "5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray",
+     "side": 1,
+     "opened": 1793101108.8083532,
+     "entry": 0.0001418,
+     "stop": 0.00011344000000000001,
+     "target": 0.00019852,
+     "size": 1410437.2355430182,
+     "deadline": 1793108308.8083534,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 881,
+ "next_id": 882,
  "runs": 34,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793100730.344616,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793100730.344616,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793100730.344616,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793100730.344616,
-  "seen:GrtE7xGn3iBk93hhf1zz6i3Wbfv1uDd9unStGVhGpump": 1793100730.344616,
-  "seen:GinNabffZL4fUj9Vactxha74GDAW8kDPGaHqMtMzps2f": 1793100730.344616,
-  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793100730.344616,
-  "seen:EKGE6bNGqGvxWFEuzhUxwE6RDCSgeRfhECDjnb25afY4": 1793100913.474669,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793100913.474669,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793100913.474669,
-  "seen:9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump": 1793100913.474669,
-  "seen:GD11RzbXX4YBERfSyTTFVqGwHNsUCto2JYEkk2pnMFXd": 1793101096.0672204,
-  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793101096.0672204,
-  "seen:CCCPaCpzbr6BFQigZx7XPLXN2jFQNcSBTBsUdwQqpump": 1793101096.0672204,
-  "control:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793101099.8007376,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793101279.3283474,
-  "seen:Nwjeu8QowWv2VpQF8uDus2yUvWgDs2dTnfvuKNYSLEa": 1793101279.3283474,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793101279.3283474,
-  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793101462.4514282
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793101647.2111535,
+  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793101647.2111535,
+  "seen:GrtE7xGn3iBk93hhf1zz6i3Wbfv1uDd9unStGVhGpump": 1793101647.2111535,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793101647.2111535,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793101647.2111535,
+  "seen:CyCx7B1bhc2HjqnicQtkELM2N6X6MMxwPLLZLFqdpump": 1793101827.098774,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793101827.098774,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793101827.098774,
+  "seen:9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump": 1793101827.098774,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793101827.098774,
+  "seen:CCCPaCpzbr6BFQigZx7XPLXN2jFQNcSBTBsUdwQqpump": 1793102008.7540545,
+  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793102008.7540545,
+  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793102008.7540545,
+  "control:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793102008.8083563,
+  "seen:E9Qem2Y2Si8bWZBiSry8wjUbYtYZWFihz4SpzzDYWTHs": 1793102192.1637173,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793102192.1637173,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793102192.1637173,
+  "seen:Nwjeu8QowWv2VpQF8uDus2yUvWgDs2dTnfvuKNYSLEa": 1793102192.1637173,
+  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793102377.1951761,
+  "seen:87BceJVWWkEtKUqD1F9yCcuASNP2hsM91vT5NkL5pump": 1793102377.1951761,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793102377.1951761
  },
  "talks": {
   "2026-10-21": 109
@@ -148,29 +150,28 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793100562.454754,
+  "t": 1793101477.2008424,
   "crypto": [
-   "Crypto wallet maker Keystone to destroy almost 19,000 devices after security breach (0h ago)",
+   "Live updates: Bitcoin holds below $80,000 as AI buildout draws investor attention and capital (0h ago)",
+   "Japan's top yen stablecoin falls short of its target in a disappointing first year (0h ago)",
+   "Bitcoin drops below $80,000 as crypto ignores Asian tech rally, Fed meeting begins (0h ago)",
+   "Crypto wallet maker Keystone to destroy almost 19,000 devices after security breach (1h ago)",
    "Investor who called for AI pivot in 2023 says bitcoin is going to $57,000 (1h ago)",
-   "Zcash co-founder calls to stop funding \u2018over $125M\u2019 grants program (1h ago)",
+   "Zcash co-founder calls to stop funding \u2018over $125M\u2019 grants program (2h ago)",
    "Now is the time to accumulate bitcoin, Galaxy says (2h ago)",
-   "Bloom bot hackers loot $953K faster than you can microwave popcorn (2h ago)",
+   "Bloom bot hackers loot $953K faster than you can microwave popcorn (3h ago)",
    "An AI label alone no longer wins lenders, JPMorgan says (3h ago)",
-   "Binance files for Brazil crypto license ahead of Friday deadline (3h ago)",
-   "Solana bug reports now cost 1 SOL as AI floods security teams with spam (4h ago)",
-   "Bitcoin ETFs claw back $110M after $774M exit (4h ago)",
-   "Ethereum fixes Glamsterdam bug that could have sent staking deposits to builders (4h ago)"
+   "Binance files for Brazil crypto license ahead of Friday deadline (4h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-27": 0.018388
+  "2026-10-27": 0.018914
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-27 04:37 UTC [macro] No orders. Watch GOLD short 1%: failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs. Resolve 5d low (feed 3989.1 vs notes 4072.7) before arming. FX: no calendar catalyst. Memec",
   "2026-10-27 04:59 UTC [macro] 04:59 flat, no orders. Gold 4027 above 4020 rebound level; short trigger unmet. Resolved: 5d low is 3989.1 per live feed (notes' 4072.7 was stale). Watch GOLD short 1%: failed rebound to ~4020, then hourly close <4000; s",
   "2026-10-27 05:20 UTC [macro] Flat. Gold 4020.4 at rebound level; GOLD short 1% still unarmed. Trigger: failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs. 5d low resolved as 3989.1 (feed). FX: no calendar",
   "2026-10-27 05:41 UTC [macro] No orders. Watch GOLD short 1%: hourly close <4000 after failed rebound to ~4020; stop ~4045, target 3980, max 8h, net of costs. 5d low resolved as 3989.1 per feed. FX: no calendar catalyst, no edge. Memecoin: pause new ",
@@ -189,8 +190,9 @@
   "2026-10-27 10:19 UTC [macro] 10:19 flat, no orders. Gold 4011.4 above 4000. GOLD short 1% armed only after failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: no calendar catalyst, no ed",
   "2026-10-27 10:40 UTC [macro] 10:40 flat, no orders. Gold 4006.3 above 4000 trigger. Watch: GOLD short 1% only after failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: no calendar cataly",
   "2026-10-27 11:01 UTC [macro] 11:01 flat. Gold 4024.6 above 4020 rebound level, GOLD short 1% still unarmed: needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: no calendar catalys",
-  "2026-10-27 11:23 UTC [macro] 11:23 flat, no orders. Gold 4025.7 above 4020. GOLD short 1% still unarmed: needs failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: no calendar catalyst, n"
+  "2026-10-27 11:23 UTC [macro] 11:23 flat, no orders. Gold 4025.7 above 4020. GOLD short 1% still unarmed: needs failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: no calendar catalyst, n",
+  "2026-10-27 11:44 UTC [macro] 11:44 flat, no orders. GOLD short 1% still unarmed: needs failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1; price 4024.9. FX: no calendar catalyst, no edge. Me"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1793100196.0706873
+ "last_macro_macro": 1793101477.2007833
 }
