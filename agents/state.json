@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -13536.54794601828,
+   "cash": -13468.54794601828,
    "open": [
     {
      "id": 904,
@@ -38,21 +38,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 932,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Frongus",
-     "mint": "9i63FDzq2bkfVxdNA27vLBQ5tN1cWBDEjN9hST2FeTew",
-     "side": 1,
-     "opened": 1793131466.1278598,
-     "entry": 0.0001663,
-     "stop": 0.00013304000000000001,
-     "target": 0.00023281999999999998,
-     "size": 1202645.8208057727,
-     "deadline": 1793138666.12786,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 933,
      "desk": "control",
      "market": "meme",
@@ -74,28 +59,25 @@
  "runs": 35,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FEGXkJzswJ2XyESpUbiW6bc2CDDGYbV8xr6Qh12Wpump": 1793131653.4919016,
-  "seen:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": 1793131653.4919016,
-  "seen:9i63FDzq2bkfVxdNA27vLBQ5tN1cWBDEjN9hST2FeTew": 1793131653.4919016,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793131653.4919016,
-  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793132000.2297778,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793132000.2297778,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793132000.2297778,
-  "seen:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793132000.2297778,
-  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793132000.2297778,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793132000.2297778,
-  "control:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793132001.0846157,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793132183.3004057,
-  "seen:GJyNrRBNt85m7DX7PYJBHo9sjmpTxMEQYfRbvMoYpump": 1793132183.3004057,
-  "seen:2xm2WZ9krE2YAArRC6S6ZzJAYgN813K6hh2dawKjpump": 1793132183.3004057,
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793132183.3004057,
   "seen:2TXL3ytE3DoobtLsNK1LEFz4ggg6oE8gn7oJLVEtpump": 1793132365.967618,
   "seen:EewKK6jLaWNo4KmKgruGEp3b3jv2jbY8EtW9eziLpump": 1793132365.967618,
   "seen:7F968EUuLBzUcCzhD6FZpXaTWAybKZDkWFmwoVArcAc": 1793132365.967618,
   "control:9i63FDzq2bkfVxdNA27vLBQ5tN1cWBDEjN9hST2FeTew": 1793132366.1278641,
   "seen:2qPoPQQCHGtDbgdSxXfrzW1iRS3cGbKmMWSMapZ4pump": 1793132547.2870288,
   "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793132547.2870288,
-  "control:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793132547.4191468
+  "control:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793132547.4191468,
+  "seen:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": 1793132730.7960334,
+  "seen:HooDYv5RewLRiMLnEVq3VJqdqxhuE6c5eYvqejMC3e9A": 1793132730.7960334,
+  "seen:9i63FDzq2bkfVxdNA27vLBQ5tN1cWBDEjN9hST2FeTew": 1793132730.7960334,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793132730.7960334,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793132908.6988194,
+  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793132908.6988194,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793132908.6988194,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793132908.6988194,
+  "seen:EZDzKuPm5cfK2K1SVytUaGjXRFp5rcDFP1LtWGVapump": 1793133089.772612,
+  "seen:2xm2WZ9krE2YAArRC6S6ZzJAYgN813K6hh2dawKjpump": 1793133089.772612,
+  "seen:28vWTtEwxoWp5MpHutAMSK5DeVf8xXk8jEEtbrtppump": 1793133089.772612,
+  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793133089.772612
  },
  "talks": {
   "2026-10-21": 109
@@ -136,34 +118,33 @@
  ],
  "last_review": 1793109877.0350306,
  "news": {
-  "t": 1793131100.2334776,
+  "t": 1793132008.7027674,
   "crypto": [
-   "Here\u2019s what happened in crypto today (0h ago)",
+   "Ripple, Robinhood expand partnership to bring RLUSD to retail and institutional markets (0h ago)",
+   "Here\u2019s what happened in crypto today (1h ago)",
    "CFTC sues Utah to block action against prediction markets (1h ago)",
    "U.S. agency hits Utah with lawsuit to shield Kalshi's ability to offer betting there (1h ago)",
    "Intel, Oracle, IBM join growing list of firms objecting to OKX\u2013ICE tokenized stock plans (2h ago)",
    "Majority of Americans want candidates who support US-based financial technology: Poll (2h ago)",
    "Brazilian companies turned to stablecoins on election day to dodge a currency crash (3h ago)",
-   "Janus Henderson, Centrifuge launch tokenized Nasdaq-100 fund on Stellar (3h ago)",
-   "Robinhood taps Ripple\u2019s $2.5 billion RLUSD stablecoin despite backing rival USDG (3h ago)",
-   "USDC overtakes USDT in euro stablecoin trading as EU rules reshape market: Kaiko (4h ago)",
-   "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund (6h ago)"
+   "Janus Henderson, Centrifuge launch tokenized Nasdaq-100 fund on Stellar (4h ago)",
+   "Robinhood taps Ripple\u2019s $2.5 billion RLUSD stablecoin despite backing rival USDG (4h ago)",
+   "USDC overtakes USDT in euro stablecoin trading as EU rules reshape market: Kaiko (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP Annual Budget Release in 16.5h",
-   "USD Federal Funds Rate in 22.0h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement in 22.0h",
-   "USD FOMC Press Conference in 22.5h"
+   "GBP Annual Budget Release in 16.3h",
+   "USD Federal Funds Rate in 21.8h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement in 21.8h",
+   "USD FOMC Press Conference in 22.3h"
   ]
  },
  "spend": {
-  "2026-10-27": 0.033015
+  "2026-10-27": 0.033622
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-27 13:09 UTC [macro] 13:09 flat, no orders. Gold 4036.7, above 4020; GOLD short 1% still unarmed: needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: GBP budget release ~2",
   "2026-10-27 13:31 UTC [macro] 13:31 flat, no orders. Gold 4039.6 above 4020, GOLD short 1% still unarmed: needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: no pre-registered setu",
   "2026-10-27 13:52 UTC [macro] 13:52 flat, no orders. Gold 4044.1 above 4020; GOLD short 1% still unarmed: needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: no pre-registered setu",
   "2026-10-27 14:13 UTC [macro] 14:13 flat, no orders. Gold 4045.6, above 4020, so GOLD short 1% stays unarmed: needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: no pre-registered ",
@@ -182,8 +163,9 @@
   "2026-10-27 18:51 UTC [macro] Flat 18:51. Gold 4069.4 above 4020 trigger; GOLD short 1% only on rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h (5d low 3989.1). GBP budget release 17.8h and FOMC 23.3h: pre-register GBPUSD en",
   "2026-10-27 19:12 UTC [macro] 16:22-18:51 flat, no orders. GOLD short 1% still unarmed: needs rebound to ~4020, then hourly close <4000; stop 4045, target 3980, max 8h. GBPUSD pre-reg for budget release (~17h): short 0.5% only if hourly close <1.3300",
   "2026-10-27 19:34 UTC [macro] Flat 19:34. Gold 4075.5, GOLD short 1% armed only on rebound to ~4020 then hourly close <4000; stop 4045, target 3980, max 8h. GBPUSD 1.3317: pre-register before the budget release (~17h) with entry, stop, target, max ho",
-  "2026-10-27 19:55 UTC [macro] Flat 19:55. Watch: GOLD short 1% only on rebound to ~4020 then hourly close <4000; stop 4045, target 3980, max 8h. GBPUSD (pre-reg, not armed): short 0.5% only on hourly close <1.3300; stop 1.3340, target 1.3240, max 8h,"
+  "2026-10-27 19:55 UTC [macro] Flat 19:55. Watch: GOLD short 1% only on rebound to ~4020 then hourly close <4000; stop 4045, target 3980, max 8h. GBPUSD (pre-reg, not armed): short 0.5% only on hourly close <1.3300; stop 1.3340, target 1.3240, max 8h,",
+  "2026-10-27 20:16 UTC [macro] Flat 20:16. Gold 4073.8, GOLD short 1% armed only on rebound to ~4020 then hourly close <4000; stop 4045, target 3980, max 8h. GBPUSD short 0.5% only on hourly close <1.3300; stop 1.3340, target 1.3240, max 8h. Avoid new"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1793130920.1971266
+ "last_macro_macro": 1793132189.7762914
 }
