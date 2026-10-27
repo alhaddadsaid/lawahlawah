@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 17:59 UTC. Runs so far: 35. Model: claude-haiku-5-5.
+Updated 2026-10-27 18:09 UTC. Runs so far: 35. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -20,6 +20,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: GOLD long at 4065, stop 4051.11, target 4085.83, opened 2026-10-27 15:00 UTC
 - control: Darla long at 0.000119, stop 9.52e-05, target 0.0001666, opened 2026-10-27 17:32 UTC
 - control: HACHI long at 0.0001997, stop 0.00015976, target 0.00027958, opened 2026-10-27 17:41 UTC
+- control: maxxing long at 0.0004279, stop 0.00034232, target 0.00059906, opened 2026-10-27 18:05 UTC
 
 ## Team
 
@@ -32,5 +33,10 @@ API spend today: $0.03 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order Darla REJECTED by guardrails: Darla already open
+### 2026-10-27 18:09 UTC team macro (gold/forex), spent today $0.030
+
+Scout: Gold at 4070.6 is still above the 4020 rebound trigger, so the short setup is unarmed. Skeptic: the GBPUSD budget idea has no pre-registered entry, stop, target or hold, so it fails the rules. Sniper: no orders. Lead: stay flat. Journal shows net losses, so no forced trades. Re-check after the GBP budget release (~18h) and FOMC (~24h) with specific GBPUSD levels pre-registered from the 5d range (1.33058 low, 1.3418 high) and ATR (~0.00106). Gold short stays armed only on the defined trigger.
+
+{"orders": [], "close": [], "note": "18:09 flat. GOLD short 1% still unarmed: needs failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. GBPUSD: pre-register before/at GBP budget release (~18h): levels from 5d range 1.33058-1.3418, ATR1h ~0.00106, entry/stop/target/max hold/net edge must be written before any order. FOMC ~24h: no pre-trade positioning."}
+
 
