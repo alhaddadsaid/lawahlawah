@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 06:58 UTC. Runs so far: 33. Model: claude-haiku-5-5.
+Updated 2026-10-27 07:10 UTC. Runs so far: 33. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 822 | 31 | -22730.03 | -30577.84 |
+| control | meme | 823 | 31 | -22798.08 | -30654.4 |
 | control | macro | 13 | 54 | 225.17 | 154.7 |
-| control | all | 835 | 31 | -22504.86 | -30423.14 |
+| control | all | 836 | 31 | -22572.91 | -30499.7 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: Particle long at 5.321e-05, stop 4.2568e-05, target 7.4494e-05, opened 2026-10-27 05:47 UTC
 - control: wiener long at 0.0001466, stop 0.00011728, target 0.00020524, opened 2026-10-27 06:24 UTC
+- control: TGC long at 0.0001482, stop 0.00011856, target 0.00020748, opened 2026-10-27 07:01 UTC
+- control: RAYPAD long at 0.0001056, stop 8.448e-05, target 0.00014784, opened 2026-10-27 07:07 UTC
 
 ## Team
 
