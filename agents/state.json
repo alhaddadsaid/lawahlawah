@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -13355.941653335967,
+   "cash": -13412.58141855974,
    "open": [
     {
      "id": 904,
@@ -51,21 +51,6 @@
      "size": 1001502.2533800701,
      "deadline": 1793130107.568933,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 920,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "**",
-     "mint": "BjQCNrQeD8vAYoo4wvP7DxNUKrut84CoLgpq9XNEpump",
-     "side": 1,
-     "opened": 1793123088.0873234,
-     "entry": 0.0001363,
-     "stop": 0.00010904000000000001,
-     "target": 0.00019082,
-     "size": 1467351.4306676448,
-     "deadline": 1793130288.0873234,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,22 +59,25 @@
  "runs": 35,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GobZbWfRSPSgLY1hWZCebhmz1djXP1Ls2Sjmq2dWpump": 1793123449.179903,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793123449.179903,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793123449.179903,
-  "seen:7F968EUuLBzUcCzhD6FZpXaTWAybKZDkWFmwoVArcAc": 1793123624.3647232,
-  "seen:FuK9BkA4jXTBzj8HQRQT4538gy1BJzPYy9qwiHs2pump": 1793123624.3647232,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793123624.3647232,
-  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793123807.4987357,
-  "seen:AXvP72cnuD795Yv7ZMfnMSaeGVmwQg5HLcbSuSV6pump": 1793123807.4987357,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793123807.4987357,
-  "control:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793123807.5689366,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793123987.998312,
-  "seen:DNhQZ1CE9qZ2FNrVhsCXwQJ2vZG8ufZkcYakTS5Jpump": 1793123987.998312,
-  "seen:AG1Z8sn3kNpuY6HReZcMjUUTdgBQQZasXZARhh6Ppump": 1793123987.998312,
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793123987.998312,
-  "control:BjQCNrQeD8vAYoo4wvP7DxNUKrut84CoLgpq9XNEpump": 1793123988.0873275,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793124168.385598
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793124168.385598,
+  "seen:AH56KNHWiM7Lqs7YnWaGN2TQSxCmvNADGbhTrW2opump": 1793124348.7166502,
+  "seen:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1793124348.7166502,
+  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793124348.7166502,
+  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793124348.7166502,
+  "seen:GobZbWfRSPSgLY1hWZCebhmz1djXP1Ls2Sjmq2dWpump": 1793124533.8806984,
+  "seen:BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": 1793124533.8806984,
+  "seen:27F4ADeEKDJ7FhdgduVYLknhNLAUVKkM8ZPVCc4Wpump": 1793124533.8806984,
+  "seen:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP": 1793124533.8806984,
+  "seen:7F968EUuLBzUcCzhD6FZpXaTWAybKZDkWFmwoVArcAc": 1793124533.8806984,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793124533.8806984,
+  "seen:AXvP72cnuD795Yv7ZMfnMSaeGVmwQg5HLcbSuSV6pump": 1793124714.3770394,
+  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793124714.3770394,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793124714.3770394,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793124714.3770394,
+  "seen:3X2xbBx6ShSVkhP2RoHGZbrQWZpxx5mdjG2PaAXzpump": 1793124714.3770394,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793124894.475024,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793124894.475024,
+  "seen:28vWTtEwxoWp5MpHutAMSK5DeVf8xXk8jEEtbrtppump": 1793124894.475024
  },
  "talks": {
   "2026-10-21": 109
@@ -130,22 +118,22 @@
  ],
  "last_review": 1793109877.0350306,
  "news": {
-  "t": 1793122724.368428,
+  "t": 1793123633.8842773,
   "crypto": [
    "Brazilian companies turned to stablecoins on election day to dodge a currency crash (1h ago)",
    "Janus Henderson, Centrifuge launch tokenized Nasdaq-100 fund on Stellar (1h ago)",
+   "Robinhood taps Ripple\u2019s $2.5 billion RLUSD stablecoin despite backing rival USDG (1h ago)",
    "USDC overtakes USDT in euro stablecoin trading as EU rules reshape market: Kaiko (2h ago)",
-   "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund (3h ago)",
+   "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund (4h ago)",
    "CF Benchmarks brings Wall Street pricing infrastructure onchain, including data used by BlackRock (4h ago)",
    "Crypto could outperform AI stocks: Wall Street veteran Jordi Visser (4h ago)",
-   "Here\u2019s what happened in crypto today (4h ago)",
-   "Bitcoin miners' move into AI is creating a new market for trading computing power (4h ago)",
-   "Hayes details FLOP\u2019s AI compute derivatives vision after selling his altcoins (5h ago)",
-   "Luxor raises $16M from CMT Digital amid AI-Bitcoin miner convergence (5h ago)"
+   "Here\u2019s what happened in crypto today (5h ago)",
+   "Bitcoin miners' move into AI is creating a new market for trading computing power (5h ago)",
+   "Hayes details FLOP\u2019s AI compute derivatives vision after selling his altcoins (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP Annual Budget Release in 18.9h"
+   "GBP Annual Budget Release in 18.6h"
   ]
  },
  "spend": {
