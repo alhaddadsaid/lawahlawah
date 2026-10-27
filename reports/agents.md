@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 23:34 UTC. Runs so far: 36. Model: claude-haiku-5-5.
+Updated 2026-10-27 23:42 UTC. Runs so far: 36. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 911 | 32 | -23936.13 | -32665.84 |
+| control | meme | 912 | 32 | -24003.99 | -32742.21 |
 | control | macro | 18 | 44 | -152.98 | -251.79 |
-| control | all | 929 | 32 | -24089.11 | -32917.63 |
+| control | all | 930 | 32 | -24156.97 | -32994.0 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -20,7 +20,6 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: GOLD long at 4065, stop 4051.11, target 4085.83, opened 2026-10-27 15:00 UTC
 - control: SF long at 0.0001515, stop 0.0001212, target 0.0002121, opened 2026-10-27 22:26 UTC
 - control: Frongus long at 0.0002545, stop 0.0002036, target 0.0003563, opened 2026-10-27 23:15 UTC
-- control: Stonkz long at 0.0002029, stop 0.00016232, target 0.00028406, opened 2026-10-27 23:33 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.04 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED Wifoween (time) P&L $20.35 normal, $9.57 pessimistic
+- control: order SF REJECTED by guardrails: SF already open
 
