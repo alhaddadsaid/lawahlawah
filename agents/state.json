@@ -56,11 +56,9 @@
   }
  },
  "next_id": 935,
- "runs": 35,
+ "runs": 36,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793133275.1034424,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793133275.1034424,
   "seen:2TXL3ytE3DoobtLsNK1LEFz4ggg6oE8gn7oJLVEtpump": 1793133457.283401,
   "seen:E8hghmFbrwhLHy4xzSS6Y5ubkPsk2uUnH9Cpn4S9Z9ve": 1793133457.283401,
   "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793133457.283401,
@@ -76,7 +74,12 @@
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793133818.8565962,
   "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793133818.8565962,
   "seen:EZDzKuPm5cfK2K1SVytUaGjXRFp5rcDFP1LtWGVapump": 1793134000.2285225,
-  "seen:2xm2WZ9krE2YAArRC6S6ZzJAYgN813K6hh2dawKjpump": 1793134000.2285225
+  "seen:2xm2WZ9krE2YAArRC6S6ZzJAYgN813K6hh2dawKjpump": 1793134000.2285225,
+  "seen:ExD37VZjge3GUEot1yAtCZfhtEJLUetqui4FeVRepump": 1793134130.585622,
+  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793134130.585622,
+  "seen:5fYBASRkQ7GHypQMShaYRWUyXQ74tbwZ51hBfzPXpump": 1793134305.3099635,
+  "seen:9eATnxHCzDb3qTRKxUqK8PM7daTEJiP6b8zfs4wWpump": 1793134305.3099635,
+  "seen:FHAWdoGMGiqpQFZdzFzJjJwVNo6v2HTuQxe84VeEavhP": 1793134305.3099635
  },
  "talks": {
   "2026-10-21": 109
@@ -139,12 +142,11 @@
   ]
  },
  "spend": {
-  "2026-10-27": 0.033622
+  "2026-10-27": 0.034217
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-27 13:31 UTC [macro] 13:31 flat, no orders. Gold 4039.6 above 4020, GOLD short 1% still unarmed: needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: no pre-registered setu",
   "2026-10-27 13:52 UTC [macro] 13:52 flat, no orders. Gold 4044.1 above 4020; GOLD short 1% still unarmed: needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: no pre-registered setu",
   "2026-10-27 14:13 UTC [macro] 14:13 flat, no orders. Gold 4045.6, above 4020, so GOLD short 1% stays unarmed: needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: no pre-registered ",
   "2026-10-27 14:35 UTC [macro] 14:34 flat, no orders. Gold 4050.2, above 4020 trigger. GOLD short 1% still unarmed: needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: GBP budget re",
@@ -163,8 +165,9 @@
   "2026-10-27 19:12 UTC [macro] 16:22-18:51 flat, no orders. GOLD short 1% still unarmed: needs rebound to ~4020, then hourly close <4000; stop 4045, target 3980, max 8h. GBPUSD pre-reg for budget release (~17h): short 0.5% only if hourly close <1.3300",
   "2026-10-27 19:34 UTC [macro] Flat 19:34. Gold 4075.5, GOLD short 1% armed only on rebound to ~4020 then hourly close <4000; stop 4045, target 3980, max 8h. GBPUSD 1.3317: pre-register before the budget release (~17h) with entry, stop, target, max ho",
   "2026-10-27 19:55 UTC [macro] Flat 19:55. Watch: GOLD short 1% only on rebound to ~4020 then hourly close <4000; stop 4045, target 3980, max 8h. GBPUSD (pre-reg, not armed): short 0.5% only on hourly close <1.3300; stop 1.3340, target 1.3240, max 8h,",
-  "2026-10-27 20:16 UTC [macro] Flat 20:16. Gold 4073.8, GOLD short 1% armed only on rebound to ~4020 then hourly close <4000; stop 4045, target 3980, max 8h. GBPUSD short 0.5% only on hourly close <1.3300; stop 1.3340, target 1.3240, max 8h. Avoid new"
+  "2026-10-27 20:16 UTC [macro] Flat 20:16. Gold 4073.8, GOLD short 1% armed only on rebound to ~4020 then hourly close <4000; stop 4045, target 3980, max 8h. GBPUSD short 0.5% only on hourly close <1.3300; stop 1.3340, target 1.3240, max 8h. Avoid new",
+  "2026-10-27 20:36 UTC [macro] 20:36 flat, no orders. Armed (not filled): GOLD short 1% only on rebound to ~4020 then hourly close <4000; stop 4045, target 3980, max 8h. GBPUSD short 0.5% only on hourly close <1.3300; stop 1.3340, target 1.3240, max 8"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1793132189.7762914
+ "last_macro_macro": 1793133405.3134592
 }
