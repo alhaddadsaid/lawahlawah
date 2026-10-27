@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -13196.01420662248,
+   "cash": -13225.055809344263,
    "open": [
-    {
-     "id": 874,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "wiener",
-     "mint": "EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump",
-     "side": 1,
-     "opened": 1793095443.388699,
-     "entry": 0.0001237,
-     "stop": 9.896e-05,
-     "target": 0.00017318,
-     "size": 1616814.8746968473,
-     "deadline": 1793102643.3886993,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 878,
      "desk": "control",
@@ -53,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 880,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Shitcoin",
-     "mint": "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump",
-     "side": 1,
-     "opened": 1793100199.800734,
-     "entry": 0.0001211,
-     "stop": 9.688000000000001e-05,
-     "target": 0.00016954,
-     "size": 1651527.6630883566,
-     "deadline": 1793107399.8007343,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 881,
      "desk": "control",
      "market": "meme",
@@ -81,24 +51,29 @@
      "size": 1410437.2355430182,
      "deadline": 1793108308.8083534,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 883,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "GBPUSD",
+     "mint": "",
+     "side": 1,
+     "opened": 1793102612.129094,
+     "entry": 1.332196593284607,
+     "stop": 1.3314174498830522,
+     "target": 1.333365308386939,
+     "size": 128346.07827064734,
+     "deadline": 1793189012.1290944,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 882,
+ "next_id": 884,
  "runs": 34,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:E9Qem2Y2Si8bWZBiSry8wjUbYtYZWFihz4SpzzDYWTHs": 1793102192.1637173,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793102192.1637173,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793102192.1637173,
-  "seen:Nwjeu8QowWv2VpQF8uDus2yUvWgDs2dTnfvuKNYSLEa": 1793102192.1637173,
-  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793102377.1951761,
-  "seen:87BceJVWWkEtKUqD1F9yCcuASNP2hsM91vT5NkL5pump": 1793102377.1951761,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793102377.1951761,
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793102560.253853,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793102560.253853,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793102560.253853,
   "seen:CyCx7B1bhc2HjqnicQtkELM2N6X6MMxwPLLZLFqdpump": 1793102742.7465236,
   "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1793102742.7465236,
   "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793102742.7465236,
@@ -107,13 +82,26 @@
   "seen:9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump": 1793102742.7465236,
   "seen:HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump": 1793102925.5755503,
   "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793102925.5755503,
-  "seen:3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": 1793102925.5755503
+  "seen:3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": 1793102925.5755503,
+  "seen:2586n7zr5h7jFgU7JK4si7o3ewzpufYk8U3LzzrJpump": 1793103109.767016,
+  "seen:Nwjeu8QowWv2VpQF8uDus2yUvWgDs2dTnfvuKNYSLEa": 1793103109.767016,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793103109.767016,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793103109.767016,
+  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793103292.6274905,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793103292.6274905,
+  "control:CyCx7B1bhc2HjqnicQtkELM2N6X6MMxwPLLZLFqdpump": 1793103293.2299926,
+  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793103511.9586995,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793103511.9586995,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793103511.9586995,
+  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793103511.9586995,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793103511.9586995,
+  "control:GBPUSD": 1793103512.1290982
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498082,
+ "ctrl_macro_hour": 498084,
  "team": [
   {
    "name": "Lead",
@@ -148,7 +136,7 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793101477.2008424,
+  "t": 1793102392.630764,
   "crypto": [
    "Live updates: Bitcoin holds below $80,000 as AI buildout draws investor attention and capital (0h ago)",
    "Japan's top yen stablecoin falls short of its target in a disappointing first year (0h ago)",
@@ -158,7 +146,7 @@
    "Zcash co-founder calls to stop funding \u2018over $125M\u2019 grants program (2h ago)",
    "Now is the time to accumulate bitcoin, Galaxy says (2h ago)",
    "Bloom bot hackers loot $953K faster than you can microwave popcorn (3h ago)",
-   "An AI label alone no longer wins lenders, JPMorgan says (3h ago)",
+   "An AI label alone no longer wins lenders, JPMorgan says (4h ago)",
    "Binance files for Brazil crypto license ahead of Friday deadline (4h ago)"
   ],
   "macro": [],
