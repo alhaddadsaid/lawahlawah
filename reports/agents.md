@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 03:26 UTC. Runs so far: 33. Model: claude-haiku-5-5.
+Updated 2026-10-27 03:36 UTC. Runs so far: 33. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 798 | 31 | -22206.34 | -29821.42 |
+| control | meme | 800 | 31 | -22199.73 | -29835.5 |
 | control | macro | 11 | 45 | -58.52 | -116.18 |
-| control | all | 809 | 31 | -22264.86 | -29937.6 |
+| control | all | 811 | 31 | -22258.25 | -29951.68 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GOLD short at 4032.1, stop 4044.41, target 4013.64, opened 2026-10-26 17:00 UTC
-- control: CATTLEAXE long at 0.0001586, stop 0.00012688, target 0.00022204, opened 2026-10-27 02:03 UTC
-- control: Wifoween long at 6.113e-05, stop 4.8904e-05, target 8.5582e-05, opened 2026-10-27 02:09 UTC
 - control: EURUSD short at 1.11744, stop 1.11801, target 1.11659, opened 2026-10-27 03:01 UTC
 - control: HACHI long at 0.0002039, stop 0.00016312, target 0.00028546, opened 2026-10-27 03:13 UTC
 
@@ -34,5 +32,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order CATTLEAXE REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED Wifoween (target) P&L $68.0 normal, $56.0 pessimistic
 
