@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 11:44 UTC. Runs so far: 34. Model: claude-haiku-5-5.
+Updated 2026-10-27 11:53 UTC. Runs so far: 34. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -34,10 +34,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-27 11:44 UTC team macro (gold/forex), spent today $0.019
-
-Lead: No trade. Gold is 4024.9, above the 4020 rebound level, so the armed GOLD short (failed rebound, then hourly close below 4000) has not triggered. FX: no calendar catalyst, and EURUSD and GBPUSD at 5d lows give no pre-registered edge after costs. Skeptic: memecoins stay paused; the journal is -$360 with no fresh filter data. Sniper: no orders. Scout: keep the gold short watch with stop 4045, target 3980, 8h max.
-
-{"orders": [], "close": [], "note": "11:44 flat, no orders. GOLD short 1% still unarmed: needs failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1; price 4024.9. FX: no calendar catalyst, no edge. Memecoin paused (journal -$360 over 18 trades)."}
-
+- control: order Shitcoin REJECTED by guardrails: desk already has the maximum open positions
 
