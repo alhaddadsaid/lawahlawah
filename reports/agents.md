@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 09:45 UTC. Runs so far: 34. Model: claude-haiku-5-5.
+Updated 2026-10-27 10:01 UTC. Runs so far: 34. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 835 | 31 | -23029.13 | -31002.61 |
+| control | meme | 837 | 31 | -23012.13 | -31006.56 |
 | control | macro | 14 | 50 | 119.36 | 44.36 |
-| control | all | 849 | 31 | -22909.77 | -30958.25 |
+| control | all | 851 | 31 | -22892.77 | -30962.2 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -19,9 +19,8 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - control: Shitcoin long at 0.0001056, stop 8.448e-05, target 0.00014784, opened 2026-10-27 08:57 UTC
 - control: GINNAN long at 3.884e-08, stop 3.1072e-08, target 5.4376e-08, opened 2026-10-27 09:09 UTC
-- control: RAYPAD long at 0.000149, stop 0.0001192, target 0.0002086, opened 2026-10-27 09:12 UTC
 - control: Wifoween long at 0.0001326, stop 0.00010608, target 0.00018564, opened 2026-10-27 09:27 UTC
-- control: HIGGS long at 0.0001522, stop 0.00012176, target 0.00021308, opened 2026-10-27 09:45 UTC
+- control: GOLD short at 4010.6, stop 4022.1, target 3993.35, opened 2026-10-27 10:01 UTC
 
 ## Team
 
@@ -34,5 +33,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-27 09:45 UTC control: OPENED HIGGS long at 0.0001522 (stop 0.00012176, target 0.00021308) - control: frozen v3 rules
+- 2026-10-27 10:01 UTC control: OPENED GOLD short at 4010.6 (stop 4022.1, target 3993.35) - control: random direction
 
