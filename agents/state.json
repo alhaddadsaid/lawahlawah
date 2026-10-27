@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -12544.556452991772,
+   "cash": -12598.429483825217,
    "open": [
     {
      "id": 857,
@@ -20,21 +20,6 @@
      "target": 0.00014784,
      "size": 1893939.3939393938,
      "deadline": 1793092047.8219583,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 858,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CAT",
-     "mint": "E6exteuDy1u6u3FfQV7SvPyU4XPdcBGi4cBnqrusocat",
-     "side": 1,
-     "opened": 1793085208.8256912,
-     "entry": 7.427e-05,
-     "stop": 5.941600000000001e-05,
-     "target": 0.000103978,
-     "size": 2692877.3394371886,
-     "deadline": 1793092408.8256915,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -66,38 +51,68 @@
      "size": 876424.1893076249,
      "deadline": 1793093326.527048,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 863,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "TGC",
+     "mint": "ASCcuz8Dy5edyvjZMcpyJEkfx87fgjw1pBVoLbj4pump",
+     "side": 1,
+     "opened": 1793086305.6999638,
+     "entry": 0.0001019,
+     "stop": 8.152e-05,
+     "target": 0.00014266,
+     "size": 1962708.5377821394,
+     "deadline": 1793093505.699964,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 864,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "wiener",
+     "mint": "EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump",
+     "side": 1,
+     "opened": 1793086851.7364645,
+     "entry": 0.000154,
+     "stop": 0.0001232,
+     "target": 0.00021559999999999998,
+     "size": 1298701.2987012987,
+     "deadline": 1793094051.7364647,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 863,
+ "next_id": 865,
  "runs": 33,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:ASCcuz8Dy5edyvjZMcpyJEkfx87fgjw1pBVoLbj4pump": 1793086285.6617503,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793086285.6617503,
-  "seen:GTcUXtoWtb4i5erCs8s32taBjYADWXdBz39V89D2pump": 1793086285.6617503,
-  "control:ASCcuz8Dy5edyvjZMcpyJEkfx87fgjw1pBVoLbj4pump": 1793086285.7267902,
-  "seen:5vyE19yCzyJFnMEZ4HzEyVr8nAhBEP5buF41YX34xmL4": 1793086473.5222704,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793086473.5222704,
-  "seen:2PHaumD9sxEJzeDCCiq3HXxovUkfdrt7u2cKv4mFpump": 1793086473.5222704,
-  "seen:EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump": 1793086473.5222704,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793086473.5222704,
-  "control:EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump": 1793086473.558509,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793086657.9701216,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793086657.9701216,
-  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793086657.9701216,
-  "seen:9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump": 1793086657.9701216,
-  "control:9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump": 1793086658.0060356,
-  "seen:E6exteuDy1u6u3FfQV7SvPyU4XPdcBGi4cBnqrusocat": 1793086840.682265,
-  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1793086840.682265,
   "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793087023.7862713,
   "seen:3WVR22totzZrTLXwUVswnMrt7ogbcvQTLBVcrjB8pump": 1793087023.7862713,
   "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793087023.7862713,
   "seen:GinNabffZL4fUj9Vactxha74GDAW8kDPGaHqMtMzps2f": 1793087023.7862713,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793087023.7862713,
   "seen:DtBatQsrazRRVp37UTMQH7TnXL1mT2qrJTj7PB9Rpump": 1793087023.7862713,
-  "control:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793087026.5270517
+  "control:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793087026.5270517,
+  "seen:9w5Xy2nbVSPXyYAQori5ow35obbS2MeMMuGBs3Zpump": 1793087205.6605313,
+  "seen:E15RdRp8rGfpArU5N2iDg99rJjhzkidNAbTqXzAapump": 1793087205.6605313,
+  "seen:ASCcuz8Dy5edyvjZMcpyJEkfx87fgjw1pBVoLbj4pump": 1793087205.6605313,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793087205.6605313,
+  "seen:GTcUXtoWtb4i5erCs8s32taBjYADWXdBz39V89D2pump": 1793087205.6605313,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793087205.6605313,
+  "control:ASCcuz8Dy5edyvjZMcpyJEkfx87fgjw1pBVoLbj4pump": 1793087205.6999674,
+  "seen:B6CWFVEfGnjcDa5rHLG7TmEYjM83a6DbhHRC9cWSpump": 1793087388.5906997,
+  "seen:m7usrmZZaq69bdrTQ33femcJBUtWFrqxpimR7Ezpump": 1793087388.5906997,
+  "seen:EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump": 1793087388.5906997,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793087388.5906997,
+  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793087569.7471163,
+  "seen:9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump": 1793087569.7471163,
+  "seen:V6dx9KYny4AuFXk82BGb6iTVxDy1gctz6hL2ZFupump": 1793087751.2844114,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793087751.2844114,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793087751.2844114,
+  "control:EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump": 1793087751.7364686
  },
  "talks": {
   "2026-10-21": 109
@@ -138,15 +153,15 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793085940.6870167,
+  "t": 1793086851.2891424,
   "crypto": [
-   "Ethereum fixes Glamsterdam bug that could have sent staking deposits to builders (0h ago)",
+   "Ethereum fixes Glamsterdam bug that could have sent staking deposits to builders (1h ago)",
    "Zcash co-founder proposes ending grants funding, citing $125 million treasury (1h ago)",
-   "Here\u2019s what happened in crypto today (1h ago)",
+   "Here\u2019s what happened in crypto today (2h ago)",
    "Ripple gets a final go-ahead to launch its own U.S. national trust bank (3h ago)",
    "RedotPay weighs confidential US IPO filing by year-end: Bloomberg (3h ago)",
    "Keystone breach deepens: Hackers stole key used to verify wallets as genuine (6h ago)",
-   "Ripple wins final US approval for national trust bank (7h ago)",
+   "Ripple wins final US approval for national trust bank (8h ago)",
    "US OCC calls on community banks to become payment stablecoin issuers (10h ago)",
    "Injective launches onchain futures market tracking Nvidia GPU rental costs (10h ago)",
    "Canada opens consultation on stablecoins, citing US GENIUS Act (12h ago)"
