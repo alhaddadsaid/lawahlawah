@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -13464.547384946294,
+   "cash": -13519.464761010391,
    "open": [
     {
      "id": 904,
@@ -21,21 +21,6 @@
      "size": 7.2016768413291645,
      "deadline": 1793199634.4255648,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 919,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HACHI",
-     "mint": "DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump",
-     "side": 1,
-     "opened": 1793122907.5689328,
-     "entry": 0.0001997,
-     "stop": 0.00015976,
-     "target": 0.00027958,
-     "size": 1001502.2533800701,
-     "deadline": 1793130107.568933,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 921,
@@ -66,33 +51,67 @@
      "size": 2578316.3594173,
      "deadline": 1793132134.8796751,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 923,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Darla",
+     "mint": "7F968EUuLBzUcCzhD6FZpXaTWAybKZDkWFmwoVArcAc",
+     "side": 1,
+     "opened": 1793125276.682377,
+     "entry": 7.798e-05,
+     "stop": 6.2384e-05,
+     "target": 0.00010917199999999999,
+     "size": 2564760.194921775,
+     "deadline": 1793132476.6823776,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 924,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "HACHI",
+     "mint": "DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump",
+     "side": 1,
+     "opened": 1793125829.806082,
+     "entry": 0.0001307,
+     "stop": 0.00010456000000000002,
+     "target": 0.00018297999999999999,
+     "size": 1530221.882172915,
+     "deadline": 1793133029.8060822,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 923,
+ "next_id": 925,
  "runs": 35,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793125077.3281758,
-  "seen:BjQCNrQeD8vAYoo4wvP7DxNUKrut84CoLgpq9XNEpump": 1793125256.9102757,
-  "seen:32CdQdBUxbCsLy5AUHWmyidfwhgGUr9N573NBUrDpump": 1793125256.9102757,
-  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793125256.9102757,
-  "control:32CdQdBUxbCsLy5AUHWmyidfwhgGUr9N573NBUrDpump": 1793125256.9912481,
-  "seen:GobZbWfRSPSgLY1hWZCebhmz1djXP1Ls2Sjmq2dWpump": 1793125444.8926063,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793125444.8926063,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793125444.8926063,
-  "seen:7F968EUuLBzUcCzhD6FZpXaTWAybKZDkWFmwoVArcAc": 1793125444.8926063,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793125444.8926063,
-  "seen:CZNnEVybSvS492DsJrueEAmXTEMuxwM2vaLn918Rpump": 1793125627.3268998,
-  "seen:EVcoZp3PwQmrFTijE1iGaAtBnTxb3a2ZYDeErQ1rpump": 1793125627.3268998,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793125627.3268998,
-  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793125627.3268998,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793125627.3268998,
   "seen:FWQx8Q8Nxtc6S4YkcuUcT7eFPHYdAox8V1UZQ4YWpump": 1793125834.7364078,
   "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793125834.7364078,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793125834.7364078,
-  "control:BjQCNrQeD8vAYoo4wvP7DxNUKrut84CoLgpq9XNEpump": 1793125834.879678
+  "control:BjQCNrQeD8vAYoo4wvP7DxNUKrut84CoLgpq9XNEpump": 1793125834.879678,
+  "seen:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP": 1793126176.6199927,
+  "seen:BjQCNrQeD8vAYoo4wvP7DxNUKrut84CoLgpq9XNEpump": 1793126176.6199927,
+  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793126176.6199927,
+  "control:7F968EUuLBzUcCzhD6FZpXaTWAybKZDkWFmwoVArcAc": 1793126176.682381,
+  "seen:XsaBXg8dU5cPM6ehmVctMkVqoiRG2ZjMo1cyBJ3AykQ": 1793126358.6292038,
+  "seen:GobZbWfRSPSgLY1hWZCebhmz1djXP1Ls2Sjmq2dWpump": 1793126358.6292038,
+  "seen:AXvP72cnuD795Yv7ZMfnMSaeGVmwQg5HLcbSuSV6pump": 1793126358.6292038,
+  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793126358.6292038,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793126358.6292038,
+  "seen:7F968EUuLBzUcCzhD6FZpXaTWAybKZDkWFmwoVArcAc": 1793126358.6292038,
+  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793126358.6292038,
+  "seen:2j4iCzjv54siy96t6ySqGmatbhSwr4bmNRRzpJ8C9KBV": 1793126539.1105323,
+  "seen:CZNnEVybSvS492DsJrueEAmXTEMuxwM2vaLn918Rpump": 1793126539.1105323,
+  "seen:EVcoZp3PwQmrFTijE1iGaAtBnTxb3a2ZYDeErQ1rpump": 1793126539.1105323,
+  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793126539.1105323,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793126539.1105323,
+  "seen:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793126539.1105323,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793126539.1105323,
+  "control:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793126729.806086
  },
  "talks": {
   "2026-10-21": 109
@@ -133,8 +152,10 @@
  ],
  "last_review": 1793109877.0350306,
  "news": {
-  "t": 1793124544.8964326,
+  "t": 1793125458.632962,
   "crypto": [
+   "Intel, Oracle, IBM join growing list of firms objecting to OKX\u2013ICE tokenized stock plans (0h ago)",
+   "Majority of Americans want candidates who support US-based financial technology: Poll (0h ago)",
    "Brazilian companies turned to stablecoins on election day to dodge a currency crash (1h ago)",
    "Janus Henderson, Centrifuge launch tokenized Nasdaq-100 fund on Stellar (2h ago)",
    "Robinhood taps Ripple\u2019s $2.5 billion RLUSD stablecoin despite backing rival USDG (2h ago)",
@@ -142,24 +163,21 @@
    "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund (4h ago)",
    "CF Benchmarks brings Wall Street pricing infrastructure onchain, including data used by BlackRock (4h ago)",
    "Crypto could outperform AI stocks: Wall Street veteran Jordi Visser (5h ago)",
-   "Here\u2019s what happened in crypto today (5h ago)",
-   "Bitcoin miners' move into AI is creating a new market for trading computing power (5h ago)",
-   "Hayes details FLOP\u2019s AI compute derivatives vision after selling his altcoins (5h ago)"
+   "Here\u2019s what happened in crypto today (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP Annual Budget Release in 18.3h",
-   "USD Federal Funds Rate in 23.8h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement in 23.8h"
+   "GBP Annual Budget Release in 18.1h",
+   "USD Federal Funds Rate in 23.6h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement in 23.6h"
   ]
  },
  "spend": {
-  "2026-10-27": 0.029929
+  "2026-10-27": 0.030503
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-27 11:23 UTC [macro] 11:23 flat, no orders. Gold 4025.7 above 4020. GOLD short 1% still unarmed: needs failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: no calendar catalyst, n",
   "2026-10-27 11:44 UTC [macro] 11:44 flat, no orders. GOLD short 1% still unarmed: needs failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1; price 4024.9. FX: no calendar catalyst, no edge. Me",
   "2026-10-27 12:06 UTC [macro] 10:05-12:05 flat, no orders. Memecoin paused (journal -$360 over 18 trades). FX: no calendar catalyst, no edge. Watch GOLD short 1%, armed only after a failed rebound to ~4020 and then an hourly close below 4000; stop ~4",
   "2026-10-27 12:27 UTC [macro] 12:27 flat, no orders. Gold 4028.3 above 4020, GOLD short 1% still unarmed: needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. Memecoin paused (journal -",
@@ -178,8 +196,9 @@
   "2026-10-27 17:05 UTC [macro] Flat 17:05. Watch list: GOLD short 1% only on failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs (5d low 3989.1). GBP budget release ~19.6h: pre-register GBPUSD entry, stop, ta",
   "2026-10-27 17:26 UTC [macro] 17:26 flat, no orders. Gold 4073.3, short still unarmed (needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h; 5d low 3989.1). GBPUSD pre-reg after budget release (~19h): short 0.5% on ",
   "2026-10-27 17:47 UTC [macro] 17:47 flat. Gold 4077.9 above 4020 trigger; GOLD short 1% armed only on failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h (5d low 3989.1). GBP budget release in ~18.9h: pre-register GBPUSD ",
-  "2026-10-27 18:09 UTC [macro] 18:09 flat. GOLD short 1% still unarmed: needs failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. GBPUSD: pre-register before/at GBP budget release (~18h): leve"
+  "2026-10-27 18:09 UTC [macro] 18:09 flat. GOLD short 1% still unarmed: needs failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. GBPUSD: pre-register before/at GBP budget release (~18h): leve",
+  "2026-10-27 18:30 UTC [macro] Flat 18:30. Watch: GOLD short 1% only if price rebounds to ~4020 and an hourly close is below 4000; stop ~4045, target 3980, max 8h (5d low 3989.1). GBPUSD: pre-register entry, stop, target, max hold and net edge (after "
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1793124544.896378
+ "last_macro_macro": 1793125824.9899826
 }
