@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 22:23 UTC. Runs so far: 36. Model: claude-haiku-5-5.
+Updated 2026-10-27 22:26 UTC. Runs so far: 36. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -19,6 +19,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - control: GOLD long at 4065, stop 4051.11, target 4085.83, opened 2026-10-27 15:00 UTC
 - control: Wifoween long at 8.616e-05, stop 6.8928e-05, target 0.000120624, opened 2026-10-27 21:34 UTC
+- control: SF long at 0.0001515, stop 0.0001212, target 0.0002121, opened 2026-10-27 22:26 UTC
 
 ## Team
 
@@ -31,10 +32,5 @@ API spend today: $0.04 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-27 22:23 UTC team macro (gold/forex), spent today $0.037
-
-Lead: No orders. The journal is -$360 and the desk has no edge yet. Gold's trigger ("rebound to ~4020") sits below spot at 4073, so it is not armed. Scout: the GBPUSD short is still conditional on an hourly close below 1.3300, and spot is 1.3306. Skeptic: the budget release (14h) and FOMC (about 20h) add event risk to any entry now. Sniper: nothing filled, nothing to manage. Re-arm only with a defined gold level and a clean GBPUSD hourly close, both before the event window.
-
-{"orders": [], "close": [], "note": "22:23 flat, no orders. GBPUSD short 0.5% pre-registered only: hourly close <1.3300, stop 1.3340, target 1.3240, max 8h, and avoid entry inside 1h of GBP budget or FOMC. Gold: rewrite trigger as a defined level before arming (e.g., hourly close <4000 with stop 4045, target 3980, max 8h); no rebound-to-4020 order since it sits below spot. Review after FOMC presser."}
-
+- 2026-10-27 22:26 UTC control: OPENED SF long at 0.0001515 (stop 0.0001212, target 0.0002121) - control: frozen v3 rules
 
