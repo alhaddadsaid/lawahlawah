@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -13287.173613182216,
+   "cash": -13150.00822100928,
    "open": [
     {
      "id": 878,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 883,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "GBPUSD",
-     "mint": "",
-     "side": 1,
-     "opened": 1793102612.129094,
-     "entry": 1.332196593284607,
-     "stop": 1.3314174498830522,
-     "target": 1.333365308386939,
-     "size": 128346.07827064734,
-     "deadline": 1793189012.1290944,
-     "thesis": "control: random direction"
-    },
-    {
      "id": 885,
      "desk": "control",
      "market": "meme",
@@ -89,21 +74,6 @@
  "runs": 34,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793103511.9586995,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793103511.9586995,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793103511.9586995,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793103511.9586995,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793103511.9586995,
-  "control:GBPUSD": 1793103512.1290982,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793103657.0359557,
-  "seen:5QREAgtfP1NkuymRaFdHxr5QNF2Yry9M1YCyaompump": 1793103657.0359557,
-  "seen:CyXDdjGUeV1nGzzr4g9octqkJNcqC19DD1gmfVq5hjrH": 1793103657.0359557,
-  "seen:EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump": 1793103657.0359557,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793103657.0359557,
-  "control:EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump": 1793103660.4770236,
-  "seen:Hjz7W26tZNpDE53pnYSj6tMSzfrhhYpkTtReZHZAWCRw": 1793103839.3937337,
-  "seen:GS2W8sSBdSXwJWWEWkLBGiStwTV1AdWDV6Nd7tnnhcGH": 1793103839.3937337,
-  "seen:GQo5HattkKNSBZAgtcJ7ELJ11WLmCrHeAQymT2Lcpump": 1793103839.3937337,
   "seen:2586n7zr5h7jFgU7JK4si7o3ewzpufYk8U3LzzrJpump": 1793104026.945234,
   "seen:DEAY3bwSbXRCYfGBdRqUi7MNKgxhiB3fRJtdtYRrpump": 1793104026.945234,
   "seen:GinNabffZL4fUj9Vactxha74GDAW8kDPGaHqMtMzps2f": 1793104026.945234,
@@ -112,7 +82,15 @@
   "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793104205.8347225,
   "seen:Nwjeu8QowWv2VpQF8uDus2yUvWgDs2dTnfvuKNYSLEa": 1793104205.8347225,
   "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793104205.8347225,
-  "control:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793104206.4901779
+  "control:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793104206.4901779,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793104388.5092387,
+  "seen:7AkdszSHGa2KrVQLKds55iyPCZAwQbeC6LZWf9zppump": 1793104570.2458942,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793104570.2458942,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793104570.2458942,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793104570.2458942,
+  "seen:CyXDdjGUeV1nGzzr4g9octqkJNcqC19DD1gmfVq5hjrH": 1793104570.2458942,
+  "seen:HKZDfZnkHZxd9agRDNPyDv4iT6LmAurJnpRtj9wpump": 1793104749.290918,
+  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793104749.290918
  },
  "talks": {
   "2026-10-21": 109

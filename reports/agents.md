@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 12:15 UTC. Runs so far: 34. Model: claude-haiku-5-5.
+Updated 2026-10-27 12:25 UTC. Runs so far: 34. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -10,8 +10,8 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
 | control | meme | 847 | 31 | -23259.72 | -31350.38 |
-| control | macro | 15 | 47 | -27.6 | -106.94 |
-| control | all | 862 | 31 | -23287.32 | -31457.32 |
+| control | macro | 16 | 50 | 109.57 | 22.52 |
+| control | all | 863 | 32 | -23150.15 | -31327.86 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -20,7 +20,6 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: Blackout long at 5.418e-05, stop 4.3344e-05, target 7.5852e-05, opened 2026-10-27 11:07 UTC
 - control: Wifoween long at 0.0001774, stop 0.00014192, target 0.00024836, opened 2026-10-27 11:14 UTC
 - control: RAYPAD long at 0.0001418, stop 0.00011344, target 0.00019852, opened 2026-10-27 11:38 UTC
-- control: GBPUSD long at 1.3322, stop 1.33142, target 1.33337, opened 2026-10-27 12:03 UTC
 - control: DICTATOR long at 0.0001312, stop 0.00010496, target 0.00018368, opened 2026-10-27 12:15 UTC
 
 ## Team
@@ -34,5 +33,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-27 12:15 UTC control: OPENED DICTATOR long at 0.0001312 (stop 0.00010496, target 0.00018368) - control: frozen v3 rules
+- control: CLOSED GBPUSD (target) P&L $137.17 normal, $129.46 pessimistic
 
