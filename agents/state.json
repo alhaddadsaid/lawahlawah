@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -12719.782701015607,
+   "cash": -12878.395047710643,
    "open": [
     {
      "id": 857,
@@ -51,36 +51,6 @@
      "size": 876424.1893076249,
      "deadline": 1793093326.527048,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 864,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "wiener",
-     "mint": "EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump",
-     "side": 1,
-     "opened": 1793086851.7364645,
-     "entry": 0.000154,
-     "stop": 0.0001232,
-     "target": 0.00021559999999999998,
-     "size": 1298701.2987012987,
-     "deadline": 1793094051.7364647,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 866,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "GOLD",
-     "mint": "",
-     "side": 1,
-     "opened": 1793088135.1760292,
-     "entry": 4016.89990234375,
-     "stop": 4005.8427734375,
-     "target": 4033.485595703125,
-     "size": 9.04393905939501,
-     "deadline": 1793174535.1760297,
-     "thesis": "control: random direction"
     }
    ]
   }
@@ -89,26 +59,24 @@
  "runs": 33,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:PFER6ENqP8r8NF3CqVt4mFowxsin3V5MLidBNQFCC3x": 1793089767.249096,
-  "seen:CyXDdjGUeV1nGzzr4g9octqkJNcqC19DD1gmfVq5hjrH": 1793089767.249096,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793089767.249096,
-  "seen:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793089767.249096,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1793089767.249096,
-  "seen:CP6of3zegkkgqkurLHHqCi2Le98dZyvJ9R5qJfZYZBkP": 1793089950.2794874,
-  "seen:E15RdRp8rGfpArU5N2iDg99rJjhzkidNAbTqXzAapump": 1793089950.2794874,
-  "seen:4ED2eJ9nLAdPonaWvTXpbLQLZsJf7TUBKCPA3Vzxpump": 1793089950.2794874,
-  "seen:ASCcuz8Dy5edyvjZMcpyJEkfx87fgjw1pBVoLbj4pump": 1793089950.2794874,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793089950.2794874,
-  "seen:fpDuJf4bkHc5v2eBva9oaYh3oUCSQcNgzdHCy6tpump": 1793089950.2794874,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793089950.2794874,
-  "seen:2SA8KA84epVgJsWkWisYEzEBdCeCrzzMkPnxaxwtpump": 1793090133.3138616,
-  "seen:5SsPcWyEuLRyiaYW5uiMP8rs3kiTq1hU35TPjNt9pump": 1793090317.3157637,
-  "seen:4i9kbppdQ4m7CQhDyoDiFyYbZptRg8N9RDkeZktppump": 1793090317.3157637,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793090317.3157637,
-  "seen:DtBatQsrazRRVp37UTMQH7TnXL1mT2qrJTj7PB9Rpump": 1793090317.3157637,
   "seen:Cqr8CNYZQbK9DbxGd49P8FSfDTmYRJWmSTA4hXqojHbo": 1793090500.5380688,
   "seen:WJbYURhAuVEZqKHTwH3nsVtPZ55HKcHtnrUppTapump": 1793090500.5380688,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793090500.5380688
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793090500.5380688,
+  "seen:JAFGiftgdZDVfAjGbahRVLmw11P8cwpkNYxjDQkBrTNP": 1793090683.902925,
+  "seen:CyXDdjGUeV1nGzzr4g9octqkJNcqC19DD1gmfVq5hjrH": 1793090683.902925,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793090683.902925,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1793090683.902925,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793090683.902925,
+  "seen:4ED2eJ9nLAdPonaWvTXpbLQLZsJf7TUBKCPA3Vzxpump": 1793090868.4292493,
+  "seen:E15RdRp8rGfpArU5N2iDg99rJjhzkidNAbTqXzAapump": 1793090868.4292493,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793090868.4292493,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793090868.4292493,
+  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793090868.4292493,
+  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793090868.4292493,
+  "seen:FpSSpq3ihKik7gHy5R166ZB33V1tsdLtCbr4f4xtpump": 1793091049.961439,
+  "seen:5SsPcWyEuLRyiaYW5uiMP8rs3kiTq1hU35TPjNt9pump": 1793091233.5037792,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793091233.5037792,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793091233.5037792
  },
  "talks": {
   "2026-10-21": 109
@@ -166,12 +134,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-27": 0.013437
+  "2026-10-27": 0.014027
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-27 01:24 UTC [macro] 01:24 flat. Gold 4026.6 above 4020 rebound, no trigger. Watch GOLD short 1%: failed rebound to ~4020 then hourly close <4000; stop ~4045 (4030 inside 1 ATR 12.4), target 3980, max 8h, net of costs. FX: no catalyst; EURUS",
   "2026-10-27 01:45 UTC [macro] 01:45 flat, no orders. Gold 4027.8 above 4020, short unarmed. Watch GOLD short 1%: failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs. FX: no catalyst; EURUSD 1.11719 near 5d l",
   "2026-10-27 02:06 UTC [macro] 02:06 flat, no orders. Gold 4022.9 above 4020, short trigger unmet. Watch GOLD short 1%: failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs. FX: no catalyst, EURUSD/GBPUSD near",
   "2026-10-27 02:28 UTC [macro] 02:28 UTC flat, no orders. Gold 4029.8 above 4020, short unarmed. Watch GOLD short 1%: failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs. FX: no catalyst, EURUSD 1.11744 near ",
@@ -190,8 +157,9 @@
   "2026-10-27 07:07 UTC [macro] 07:07 flat, no orders. Gold 4012.6 above 4000 trigger; GOLD short 1% still unarmed: needs failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs. EURUSD and GBPUSD at 5d lows, no c",
   "2026-10-27 07:28 UTC [macro] 07:28 flat, no orders. Watch GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop ~4045, target 3980, max 8h, net of costs. 5d low 3989.1 (feed). FX: no calendar catalyst, no edge. Memecoin pause",
   "2026-10-27 07:50 UTC [macro] 07:50 flat, no orders. Gold 4016.5 above 4000 trigger. Watch: GOLD short 1% only after failed rebound to ~4020 and hourly close <4000; stop ~4045, target 3980, max 8h, net of costs. 5d low 3989.1 (feed). FX: no calendar ",
-  "2026-10-27 08:11 UTC [macro] 08:11 flat, no orders. Watch: GOLD short 1% only after failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1 (feed). FX: no calendar catalyst, EURUSD/GBPUSD at 5d l"
+  "2026-10-27 08:11 UTC [macro] 08:11 flat, no orders. Watch: GOLD short 1% only after failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1 (feed). FX: no calendar catalyst, EURUSD/GBPUSD at 5d l",
+  "2026-10-27 08:32 UTC [macro] 08:32 flat, no orders. Gold 4008.9 above 4000. Watch GOLD short 1% only after failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs. 5d low 3989.1 (feed). FX: no calendar catalyst"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1793088684.5652275
+ "last_macro_macro": 1793089968.4339936
 }

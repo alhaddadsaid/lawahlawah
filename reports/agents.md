@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 08:26 UTC. Runs so far: 33. Model: claude-haiku-5-5.
+Updated 2026-10-27 08:39 UTC. Runs so far: 33. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 830 | 31 | -22945.1 | -30869.45 |
-| control | macro | 13 | 54 | 225.17 | 154.7 |
-| control | all | 843 | 31 | -22719.93 | -30714.75 |
+| control | meme | 831 | 31 | -22997.9 | -30931.15 |
+| control | macro | 14 | 50 | 119.36 | 44.36 |
+| control | all | 845 | 31 | -22878.54 | -30886.79 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -20,8 +20,6 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: RAYPAD long at 0.0001056, stop 8.448e-05, target 0.00014784, opened 2026-10-27 07:07 UTC
 - control: N64 long at 6.828e-05, stop 5.4624e-05, target 9.5592e-05, opened 2026-10-27 07:22 UTC
 - control: SIB long at 0.0002282, stop 0.00018256, target 0.00031948, opened 2026-10-27 07:28 UTC
-- control: wiener long at 0.000154, stop 0.0001232, target 0.0002156, opened 2026-10-27 07:40 UTC
-- control: GOLD long at 4016.9, stop 4005.84, target 4033.49, opened 2026-10-27 08:02 UTC
 
 ## Team
 
@@ -34,5 +32,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order wiener REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED wiener (stop) P&L $-52.8 normal, $-61.7 pessimistic
 
