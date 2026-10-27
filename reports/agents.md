@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 21:43 UTC. Runs so far: 36. Model: claude-haiku-5-5.
+Updated 2026-10-27 21:49 UTC. Runs so far: 36. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 903 | 32 | -23785.22 | -32436.74 |
+| control | meme | 904 | 32 | -23856.95 | -32516.89 |
 | control | macro | 18 | 44 | -152.98 | -251.79 |
-| control | all | 921 | 32 | -23938.2 | -32688.53 |
+| control | all | 922 | 32 | -24009.93 | -32768.68 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -20,7 +20,6 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: GOLD long at 4065, stop 4051.11, target 4085.83, opened 2026-10-27 15:00 UTC
 - control: DOCK long at 9.643e-05, stop 7.7144e-05, target 0.000135002, opened 2026-10-27 21:25 UTC
 - control: Wifoween long at 8.616e-05, stop 6.8928e-05, target 0.000120624, opened 2026-10-27 21:34 UTC
-- control: DICTATOR long at 0.0001532, stop 0.00012256, target 0.00021448, opened 2026-10-27 21:43 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.04 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-27 21:43 UTC control: OPENED DICTATOR long at 0.0001532 (stop 0.00012256, target 0.00021448) - control: frozen v3 rules
+- control: order DOCK REJECTED by guardrails: DOCK already open
 
