@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 15:38 UTC. Runs so far: 35. Model: claude-haiku-5-5.
+Updated 2026-10-27 15:46 UTC. Runs so far: 35. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 867 | 31 | -23369.01 | -31662.0 |
+| control | meme | 869 | 31 | -23372.91 | -31686.32 |
 | control | macro | 17 | 47 | -35.82 | -129.12 |
-| control | all | 884 | 32 | -23404.83 | -31791.12 |
+| control | all | 886 | 32 | -23408.73 | -31815.44 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -20,11 +20,12 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: Groklet long at 0.0002402, stop 0.00019216, target 0.00033628, opened 2026-10-27 14:47 UTC
 - control: wiener long at 5.706e-05, stop 4.5648e-05, target 7.9884e-05, opened 2026-10-27 14:48 UTC
 - control: GOLD long at 4065, stop 4051.11, target 4085.83, opened 2026-10-27 15:00 UTC
-- control: ber long at 8.657e-05, stop 6.9256e-05, target 0.000121198, opened 2026-10-27 15:12 UTC
+- control: Himmel long at 0.0001783, stop 0.00014264, target 0.00024962, opened 2026-10-27 15:43 UTC
+- control: ber long at 0.0001319, stop 0.00010552, target 0.00018466, opened 2026-10-27 15:46 UTC
 
 ## Team
 
-API spend today: $0.02 (cap $3, aiming for about $1.50)
+API spend today: $0.03 (cap $3, aiming for about $1.50)
 - Lead (team lead and analyst, mission all): Decide what the team trades. Weigh every idea against costs and the journal. Look for repeatable edges, not one-off bets.
 - Scout (researcher, mission macro): Bring ideas from prices, news, the economic calendar and politics. State each idea as a testable hypothesis.
 - Sniper (execution, mission macro): Turn approved ideas into exact orders: size, optional stop and target, holding time, and early exits.
@@ -33,5 +34,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED Maxxing (target) P&L $68.0 normal, $56.0 pessimistic
+- 2026-10-27 15:46 UTC control: OPENED ber long at 0.0001319 (stop 0.00010552, target 0.00018466) - control: frozen v3 rules
 
