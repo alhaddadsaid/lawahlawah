@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -12822.793993229096,
+   "cash": -12909.621698657907,
    "open": [
-    {
-     "id": 862,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SIB",
-     "mint": "3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump",
-     "side": 1,
-     "opened": 1793086126.5270479,
-     "entry": 0.0002282,
-     "stop": 0.00018256000000000001,
-     "target": 0.00031947999999999997,
-     "size": 876424.1893076249,
-     "deadline": 1793093326.527048,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 867,
      "desk": "control",
@@ -66,24 +51,29 @@
      "size": 1342281.879194631,
      "deadline": 1793099545.9055588,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 871,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Wifoween",
+     "mint": "DtBatQsrazRRVp37UTMQH7TnXL1mT2qrJTj7PB9Rpump",
+     "side": 1,
+     "opened": 1793093252.1917074,
+     "entry": 0.0001326,
+     "stop": 0.00010608,
+     "target": 0.00018564,
+     "size": 1508295.6259426847,
+     "deadline": 1793100452.1917076,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 870,
+ "next_id": 872,
  "runs": 34,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793093052.7079203,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793093052.7079203,
-  "seen:GinNabffZL4fUj9Vactxha74GDAW8kDPGaHqMtMzps2f": 1793093052.7079203,
-  "control:GinNabffZL4fUj9Vactxha74GDAW8kDPGaHqMtMzps2f": 1793093052.764311,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793093244.7770205,
-  "seen:CfB5TKfKmcbpaYLF9v7S7zb4dmSCecJ5f4dvjbiHpump": 1793093244.7770205,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793093244.7770205,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793093244.7770205,
-  "seen:3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": 1793093244.7770205,
-  "control:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793093245.9055626,
   "seen:CyXDdjGUeV1nGzzr4g9octqkJNcqC19DD1gmfVq5hjrH": 1793093420.3215015,
   "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793093420.3215015,
   "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1793093420.3215015,
@@ -97,7 +87,13 @@
   "seen:7EqTnbCs8AfJXXtHPmyVvEKish47QzVafrncCpwRpump": 1793093783.9278402,
   "seen:5QREAgtfP1NkuymRaFdHxr5QNF2Yry9M1YCyaompump": 1793093783.9278402,
   "seen:33st2Lsw2f5oMWBhB9g6gAMcWGLzhfMMZ7evfbVgpump": 1793093783.9278402,
-  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793093783.9278402
+  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793093783.9278402,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793093968.9032161,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793093968.9032161,
+  "control:2gRA2bmWpcs5VkYm2r3d4MXZWksgz3gxqNYZRFoZpump": 1793093968.9692187,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793094151.4205463,
+  "seen:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793094151.4205463,
+  "control:DtBatQsrazRRVp37UTMQH7TnXL1mT2qrJTj7PB9Rpump": 1793094152.19171
  },
  "talks": {
   "2026-10-21": 109
@@ -138,18 +134,18 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793092344.7798517,
+  "t": 1793093251.4235115,
   "crypto": [
+   "Bloom bot hackers loot $953K faster than you can microwave popcorn (0h ago)",
    "An AI label alone no longer wins lenders, JPMorgan says (1h ago)",
    "Binance files for Brazil crypto license ahead of Friday deadline (1h ago)",
-   "Solana bug reports now cost 1 SOL as AI floods security teams with spam (1h ago)",
+   "Solana bug reports now cost 1 SOL as AI floods security teams with spam (2h ago)",
    "Bitcoin ETFs claw back $110M after $774M exit (2h ago)",
    "Ethereum fixes Glamsterdam bug that could have sent staking deposits to builders (2h ago)",
    "Zcash co-founder proposes ending grants funding, citing $125 million treasury (3h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "Ripple gets a final go-ahead to launch its own U.S. national trust bank (5h ago)",
-   "RedotPay weighs confidential US IPO filing by year-end: Bloomberg (5h ago)",
-   "Keystone breach deepens: Hackers stole key used to verify wallets as genuine (7h ago)"
+   "RedotPay weighs confidential US IPO filing by year-end: Bloomberg (5h ago)"
   ],
   "macro": [],
   "calendar": []
