@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 04:46 UTC. Runs so far: 33. Model: claude-haiku-5-5.
+Updated 2026-10-27 04:53 UTC. Runs so far: 33. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 810 | 31 | -22638.44 | -30365.54 |
+| control | meme | 811 | 31 | -22694.83 | -30430.74 |
 | control | macro | 11 | 45 | -58.52 | -116.18 |
-| control | all | 821 | 31 | -22696.96 | -30481.72 |
+| control | all | 822 | 31 | -22753.35 | -30546.92 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -21,7 +21,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: EURUSD short at 1.11744, stop 1.11801, target 1.11659, opened 2026-10-27 03:01 UTC
 - control: Wifoween long at 0.0001047, stop 8.376e-05, target 0.00014658, opened 2026-10-27 04:25 UTC
 - control: CRAZYROLL long at 0.0001548, stop 0.00012384, target 0.00021672, opened 2026-10-27 04:31 UTC
-- control: wiener long at 0.0001778, stop 0.00014224, target 0.00024892, opened 2026-10-27 04:43 UTC
+- control: Shitcoin long at 7.638e-05, stop 6.1104e-05, target 0.000106932, opened 2026-10-27 04:49 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order MISTAKE REJECTED by guardrails: desk already has the maximum open positions
+- control: order CRAZYROLL REJECTED by guardrails: desk already has the maximum open positions
 
