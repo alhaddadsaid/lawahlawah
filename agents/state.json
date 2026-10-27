@@ -66,32 +66,47 @@
      "size": 1135718.341851221,
      "deadline": 1793074926.2666516,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 829,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "STONK",
+     "mint": "DNwtHLeLk6m8hb5LUnMy5gfr7gu667s5fvNxunWYpump",
+     "side": 1,
+     "opened": 1793069741.1840427,
+     "entry": 6.811e-05,
+     "stop": 5.4488e-05,
+     "target": 9.535399999999998e-05,
+     "size": 2936426.3691087947,
+     "deadline": 1793076941.184043,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 829,
+ "next_id": 830,
  "runs": 32,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:322nR3uijcJBNFKAzNBY4PqwrJ3qNg33vLnfhkvrpump": 1793069357.509494,
-  "seen:1226TMaWZiZYWdP7CBZBqfJGXoWXaKXJJiKf45e5xfun": 1793069357.509494,
-  "seen:HZFrwE8NrqehL54sG5ob9L3kUTSSUVSyS5E7PHUPpump": 1793069539.3629217,
-  "seen:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793069539.3629217,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793069539.3629217,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793069539.3629217,
-  "seen:7ZuwfrKHivLyv1EUWBdP9Pos5VQuaQK1dnxbA9Bapump": 1793069719.5675893,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793069719.5675893,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793069719.5675893,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793069719.5675893,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793069719.5675893,
   "seen:DfQFCbm4sSgKYPjiHuLxXsqvuar5ZCa7PErsEgrJpump": 1793069904.4810092,
   "seen:91RBVuoCLvikHs4qeUGczABotGLd1Tjo84DMfpFUpump": 1793069904.4810092,
   "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793069904.4810092,
   "seen:5yoYggqaY6UcowhHvFijz8T3wLZngJDaSEchevyjpump": 1793069904.4810092,
   "seen:3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": 1793069904.4810092,
   "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793069904.4810092,
-  "seen:DtBatQsrazRRVp37UTMQH7TnXL1mT2qrJTj7PB9Rpump": 1793070089.3731136
+  "seen:DtBatQsrazRRVp37UTMQH7TnXL1mT2qrJTj7PB9Rpump": 1793070089.3731136,
+  "seen:322nR3uijcJBNFKAzNBY4PqwrJ3qNg33vLnfhkvrpump": 1793070272.2917013,
+  "seen:nYwfbB7WJUR8rukXHgveFznUpiMv5i4TDZfqb7qpump": 1793070272.2917013,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793070455.8907564,
+  "seen:DNwtHLeLk6m8hb5LUnMy5gfr7gu667s5fvNxunWYpump": 1793070455.8907564,
+  "seen:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793070455.8907564,
+  "seen:HZFrwE8NrqehL54sG5ob9L3kUTSSUVSyS5E7PHUPpump": 1793070455.8907564,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793070455.8907564,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793070641.06072,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793070641.06072,
+  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793070641.06072,
+  "control:DNwtHLeLk6m8hb5LUnMy5gfr7gu667s5fvNxunWYpump": 1793070641.1840458
  },
  "talks": {
   "2026-10-21": 109
@@ -132,29 +147,28 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793068457.5132594,
+  "t": 1793069372.2955408,
   "crypto": [
    "Keystone breach deepens: Hackers stole key used to verify wallets as genuine (1h ago)",
-   "Ripple wins final US approval for national trust bank (2h ago)",
+   "Ripple wins final US approval for national trust bank (3h ago)",
    "US OCC calls on community banks to become payment stablecoin issuers (5h ago)",
    "Injective launches onchain futures market tracking Nvidia GPU rental costs (5h ago)",
    "Canada opens consultation on stablecoins, citing US GENIUS Act (7h ago)",
    "AI company Anthropic announces IPO, expected as early as November (8h ago)",
    "NBA names Kalshi, Polymarket preferred exchanges, signs CFTC deal (9h ago)",
-   "South Korea lawmakers mull pushing crypto tax implementation to 2029 (10h ago)",
-   "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines (10h ago)",
+   "South Korea lawmakers mull pushing crypto tax implementation to 2029 (11h ago)",
+   "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines (11h ago)",
    "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks (11h ago)"
   ],
   "macro": [],
   "calendar": []
  },
  "spend": {
-  "2026-10-27": 0.004048
+  "2026-10-27": 0.004639
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-26 19:42 UTC [macro] 19:41 UTC flat, no orders. Gold 4023.2 (5d 3989.1-4174.9), 4020 rebound not yet failed. Watch: GOLD short 1% only after failed rebound to ~4020 then hourly close <4000; stop 4030, target 3980, max 8h, net of costs. No FX",
   "2026-10-26 20:03 UTC [macro] 20:03 UTC flat, no orders. Gold 4026.6 (5d 3989.1-4174.9), above the 4020 rebound level, short not triggered. Watch: GOLD short 1% only after a failed rebound to ~4020 then an hourly close <4000; stop 4030, target 3980, ",
   "2026-10-26 20:24 UTC [macro] 20:24 flat, no orders. Gold 4025.9 above 4020 rebound level, short not triggered. Watch: GOLD short 1% only after failed rebound to ~4020 then hourly close <4000; stop 4030, target 3980, max 8h, net of costs. No FX catal",
   "2026-10-26 20:46 UTC [macro] 20:45 flat, no orders. Gold 4027 above 4020, GOLD short 1% still waiting for failed rebound to ~4020 then hourly close <4000; stop 4030, target 3980, max 8h. EUR/USD 1.11769 and GBP/USD 1.33426 near 5d lows, no FX cataly",
@@ -173,8 +187,9 @@
   "2026-10-27 01:24 UTC [macro] 01:24 flat. Gold 4026.6 above 4020 rebound, no trigger. Watch GOLD short 1%: failed rebound to ~4020 then hourly close <4000; stop ~4045 (4030 inside 1 ATR 12.4), target 3980, max 8h, net of costs. FX: no catalyst; EURUS",
   "2026-10-27 01:45 UTC [macro] 01:45 flat, no orders. Gold 4027.8 above 4020, short unarmed. Watch GOLD short 1%: failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs. FX: no catalyst; EURUSD 1.11719 near 5d l",
   "2026-10-27 02:06 UTC [macro] 02:06 flat, no orders. Gold 4022.9 above 4020, short trigger unmet. Watch GOLD short 1%: failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs. FX: no catalyst, EURUSD/GBPUSD near",
-  "2026-10-27 02:28 UTC [macro] 02:28 UTC flat, no orders. Gold 4029.8 above 4020, short unarmed. Watch GOLD short 1%: failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs. FX: no catalyst, EURUSD 1.11744 near "
+  "2026-10-27 02:28 UTC [macro] 02:28 UTC flat, no orders. Gold 4029.8 above 4020, short unarmed. Watch GOLD short 1%: failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs. FX: no catalyst, EURUSD 1.11744 near ",
+  "2026-10-27 02:49 UTC [macro] 02:49 flat, no orders. Gold 4026, above 4020 rebound, short trigger unmet. Watch GOLD short 1% (hyp: failed rebound to ~4020 then hourly close <4000): stop ~4045, target 3980, max 8h, net of costs. FX: no calendar cataly"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1793068093.6554341
+ "last_macro_macro": 1793069372.2954721
 }
