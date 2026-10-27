@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 00:07 UTC. Runs so far: 32. Model: claude-haiku-5-5.
+Updated 2026-10-27 00:20 UTC. Runs so far: 32. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 780 | 31 | -21568.8 | -29015.62 |
+| control | meme | 781 | 31 | -21621.36 | -29077.09 |
 | control | macro | 11 | 45 | -58.52 | -116.18 |
-| control | all | 791 | 31 | -21627.32 | -29131.8 |
+| control | all | 792 | 31 | -21679.88 | -29193.27 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -21,11 +21,10 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: GINNAN long at 4.302e-08, stop 3.4416e-08, target 6.0228e-08, opened 2026-10-26 22:48 UTC
 - control: SIB long at 0.0002551, stop 0.00020408, target 0.00035714, opened 2026-10-26 23:40 UTC
 - control: PRESIDENT long at 0.000231, stop 0.0001848, target 0.0003234, opened 2026-10-26 23:49 UTC
-- control: STONK long at 0.0001457, stop 0.00011656, target 0.00020398, opened 2026-10-27 00:07 UTC
 
 ## Team
 
-API spend today: $0.04 (cap $3, aiming for about $1.50)
+API spend today: $0.00 (cap $3, aiming for about $1.50)
 - Lead (team lead and analyst, mission all): Decide what the team trades. Weigh every idea against costs and the journal. Look for repeatable edges, not one-off bets.
 - Scout (researcher, mission macro): Bring ideas from prices, news, the economic calendar and politics. State each idea as a testable hypothesis.
 - Sniper (execution, mission macro): Turn approved ideas into exact orders: size, optional stop and target, holding time, and early exits.
@@ -34,5 +33,5 @@ API spend today: $0.04 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-27 00:07 UTC control: OPENED STONK long at 0.0001457 (stop 0.00011656, target 0.00020398) - control: frozen v3 rules
+- control: CLOSED STONK (stop) P&L $-52.56 normal, $-61.47 pessimistic
 
