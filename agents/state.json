@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -13472.12899111687,
+   "cash": -13526.185353882318,
    "open": [
     {
      "id": 889,
@@ -68,34 +68,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 903,
+     "id": 904,
      "desk": "control",
-     "market": "meme",
-     "symbol": "Darla",
-     "mint": "7F968EUuLBzUcCzhD6FZpXaTWAybKZDkWFmwoVArcAc",
+     "market": "macro",
+     "symbol": "GOLD",
+     "mint": "",
      "side": 1,
-     "opened": 1793113078.650759,
-     "entry": 6.263e-05,
-     "stop": 5.010400000000001e-05,
-     "target": 8.768199999999999e-05,
-     "size": 3193357.815743254,
-     "deadline": 1793120278.6507592,
-     "thesis": "control: frozen v3 rules"
+     "opened": 1793113234.425564,
+     "entry": 4065.0,
+     "stop": 4051.11434500558,
+     "target": 4085.8284824916295,
+     "size": 7.2016768413291645,
+     "deadline": 1793199634.4255648,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 904,
+ "next_id": 905,
  "runs": 35,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump": 1793113152.382832,
-  "seen:EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump": 1793113152.382832,
-  "seen:7c95d1uqguq9RoFvSzydCXzufrUVi1cy4gQduzg8pump": 1793113335.9127607,
-  "seen:EdSuZVh4ypz8cUqgi1Rjo1SE88wrRahPg85KStdpump": 1793113335.9127607,
-  "control:4qH8A5GxvRMZgpRFjXASc6U9HAoEzKeUqxY2dPB7pump": 1793113335.9883473,
-  "control:EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump": 1793113401.5182195,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793113585.7724202,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793113787.4664197,
   "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793113787.4664197,
   "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793113787.4664197,
@@ -110,13 +103,20 @@
   "seen:32CdQdBUxbCsLy5AUHWmyidfwhgGUr9N573NBUrDpump": 1793113975.2351089,
   "seen:qgPpPb1AjAXVzebW1LQSk7qWEJ2HYkWcxCFeuPcpump": 1793113975.2351089,
   "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793113975.2351089,
-  "control:7F968EUuLBzUcCzhD6FZpXaTWAybKZDkWFmwoVArcAc": 1793113978.6507633
+  "control:7F968EUuLBzUcCzhD6FZpXaTWAybKZDkWFmwoVArcAc": 1793113978.6507633,
+  "seen:HaxJgLrwGmDcHxu4t75vYvwMKWj4VRpLh5Cuxh76pump": 1793114134.2468283,
+  "seen:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793114134.2468283,
+  "control:GOLD": 1793114134.425569,
+  "seen:EdSuZVh4ypz8cUqgi1Rjo1SE88wrRahPg85KStdpump": 1793114314.3158998,
+  "seen:EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump": 1793114314.3158998,
+  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793114500.690065,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793114500.690065
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498086,
+ "ctrl_macro_hour": 498087,
  "team": [
   {
    "name": "Lead",
@@ -151,11 +151,11 @@
  ],
  "last_review": 1793109877.0350306,
  "news": {
-  "t": 1793112685.7754648,
+  "t": 1793113600.6932094,
   "crypto": [
    "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund (1h ago)",
    "CF Benchmarks brings Wall Street pricing infrastructure onchain, including data used by BlackRock (1h ago)",
-   "Crypto could outperform AI stocks: Wall Street veteran Jordi Visser (1h ago)",
+   "Crypto could outperform AI stocks: Wall Street veteran Jordi Visser (2h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "Bitcoin miners' move into AI is creating a new market for trading computing power (2h ago)",
    "Hayes details FLOP\u2019s AI compute derivatives vision after selling his altcoins (2h ago)",
@@ -166,7 +166,7 @@
   ],
   "macro": [],
   "calendar": [
-   "GBP Annual Budget Release in 21.6h"
+   "GBP Annual Budget Release in 21.4h"
   ]
  },
  "spend": {

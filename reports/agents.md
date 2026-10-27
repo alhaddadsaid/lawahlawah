@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 14:57 UTC. Runs so far: 35. Model: claude-haiku-5-5.
+Updated 2026-10-27 15:06 UTC. Runs so far: 35. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 863 | 31 | -23436.45 | -31686.69 |
+| control | meme | 864 | 31 | -23490.51 | -31749.62 |
 | control | macro | 17 | 47 | -35.82 | -129.12 |
-| control | all | 880 | 32 | -23472.27 | -31815.81 |
+| control | all | 881 | 32 | -23526.33 | -31878.74 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -21,7 +21,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: DICTATOR long at 0.0001908, stop 0.00015264, target 0.00026712, opened 2026-10-27 14:35 UTC
 - control: Groklet long at 0.0002402, stop 0.00019216, target 0.00033628, opened 2026-10-27 14:47 UTC
 - control: wiener long at 5.706e-05, stop 4.5648e-05, target 7.9884e-05, opened 2026-10-27 14:48 UTC
-- control: Darla long at 6.263e-05, stop 5.0104e-05, target 8.7682e-05, opened 2026-10-27 14:57 UTC
+- control: GOLD long at 4065, stop 4051.11, target 4085.83, opened 2026-10-27 15:00 UTC
 
 ## Team
 
@@ -34,14 +34,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-27 14:57 UTC team macro (gold/forex), spent today $0.024
-
-Scout: Gold is at 4063.8, well above the 4020 rebound trigger, so the GOLD short is still unarmed. Nothing has fired.
-Skeptic: The memecoin book is -$360 over 18 trades with every recent filter trade losing, so the pause stands. FX has no pre-registered setup, and the GBP budget release is 21.6h out, too far for a clean entry.
-Sniper: No order is justified. Sizing or stops now would be guesswork.
-Lead: Stay flat and keep the GOLD short hypothesis armed only on its exact conditions.
-
-{"orders": [], "close": [], "note": "14:57 flat, no orders. Gold 4063.8 above 4020 rebound trigger; GOLD short 1% still unarmed: needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. Memecoin paused (journal -$360/18). FX: no pre-registered setup; GBP budget release in ~21.6h, watch only, pre-register entry/stop/target/hold before any trade."}
-
-- 2026-10-27 14:57 UTC control: OPENED Darla long at 6.263e-05 (stop 5.0104e-05, target 8.7682e-05) - control: frozen v3 rules
+- control: order maxxing REJECTED by guardrails: desk already has the maximum open positions
 
