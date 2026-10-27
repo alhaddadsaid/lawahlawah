@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 04:37 UTC. Runs so far: 33. Model: claude-haiku-5-5.
+Updated 2026-10-27 04:46 UTC. Runs so far: 33. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 809 | 31 | -22569.27 | -30287.88 |
+| control | meme | 810 | 31 | -22638.44 | -30365.54 |
 | control | macro | 11 | 45 | -58.52 | -116.18 |
-| control | all | 820 | 31 | -22627.79 | -30404.06 |
+| control | all | 821 | 31 | -22696.96 | -30481.72 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -21,7 +21,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: EURUSD short at 1.11744, stop 1.11801, target 1.11659, opened 2026-10-27 03:01 UTC
 - control: Wifoween long at 0.0001047, stop 8.376e-05, target 0.00014658, opened 2026-10-27 04:25 UTC
 - control: CRAZYROLL long at 0.0001548, stop 0.00012384, target 0.00021672, opened 2026-10-27 04:31 UTC
-- control: Particle long at 8.311e-05, stop 6.6488e-05, target 0.000116354, opened 2026-10-27 04:37 UTC
+- control: wiener long at 0.0001778, stop 0.00014224, target 0.00024892, opened 2026-10-27 04:43 UTC
 
 ## Team
 
@@ -34,14 +34,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-27 04:37 UTC team macro (gold/forex), spent today $0.008
-
-Scout: Gold short idea is still unarmed. Price is 4034, above the 4020 rebound trigger, and the feed's 5d low (3989.1) conflicts with the notes (4072.7), so the setup isn't clean.
-Skeptic: Recent gold longs lost money, and no pre-registered edge is confirmed. Memecoin filters have been net negative (about -$360 overall) and no fresh meme data was supplied.
-FX Scout: No high-impact calendar events in 24h; EURUSD and GBPUSD ranges are too small to clear costs with a defined edge.
-Lead: Stand aside. Keep the gold short watch list and resolve the 5d low before arming.
-
-{"orders": [], "close": [], "note": "No orders. Watch GOLD short 1%: failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs. Resolve 5d low (feed 3989.1 vs notes 4072.7) before arming. FX: no calendar catalyst. Memecoin: no fresh data, stay out."}
-
-- 2026-10-27 04:37 UTC control: OPENED Particle long at 8.311e-05 (stop 6.6488e-05, target 0.000116354) - control: frozen v3 rules
+- control: order MISTAKE REJECTED by guardrails: desk already has the maximum open positions
 
