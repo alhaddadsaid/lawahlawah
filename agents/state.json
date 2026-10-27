@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -13683.279675480555,
+   "cash": -13804.518233735715,
    "open": [
     {
      "id": 904,
@@ -36,36 +36,6 @@
      "size": 2818886.539816772,
      "deadline": 1793142435.798475,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 938,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DOCK",
-     "mint": "FYUyPWNLQtF4nNQ8nSHwpmwQ4j41UqAUz8gWEeWWpump",
-     "side": 1,
-     "opened": 1793135418.847885,
-     "entry": 0.000196,
-     "stop": 0.00015680000000000002,
-     "target": 0.00027439999999999995,
-     "size": 1020408.1632653062,
-     "deadline": 1793142618.8478851,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 939,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Duongus",
-     "mint": "2bQ29ZFP9fWUeEZ12vR84RvzaBd2N7viE3iUuwFTpump",
-     "side": 1,
-     "opened": 1793135602.9498122,
-     "entry": 0.0001921,
-     "stop": 0.00015368,
-     "target": 0.00026894,
-     "size": 1041124.4143675169,
-     "deadline": 1793142802.9498124,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,17 +44,6 @@
  "runs": 36,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2bQ29ZFP9fWUeEZ12vR84RvzaBd2N7viE3iUuwFTpump": 1793135769.1438608,
-  "seen:FYUyPWNLQtF4nNQ8nSHwpmwQ4j41UqAUz8gWEeWWpump": 1793135769.1438608,
-  "seen:CSRRgTwf9o5KLgguS2M16aEAhV5PUUzfshrAAQ8opump": 1793135769.1438608,
-  "seen:HWsZzx9r2RdB3vUxyXiwnkpGxTGi3jLV7ii1squspump": 1793135769.1438608,
-  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793135769.1438608,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793135769.1438608,
-  "seen:EZDzKuPm5cfK2K1SVytUaGjXRFp5rcDFP1LtWGVapump": 1793135954.0210779,
-  "seen:9i63FDzq2bkfVxdNA27vLBQ5tN1cWBDEjN9hST2FeTew": 1793135954.0210779,
-  "seen:BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": 1793135954.0210779,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793135954.0210779,
-  "seen:28vWTtEwxoWp5MpHutAMSK5DeVf8xXk8jEEtbrtppump": 1793135954.0210779,
   "seen:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793136135.7071757,
   "control:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793136135.798478,
   "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793136318.8105638,
@@ -96,7 +55,16 @@
   "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793136502.9198487,
   "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793136502.9198487,
   "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793136502.9198487,
-  "control:2bQ29ZFP9fWUeEZ12vR84RvzaBd2N7viE3iUuwFTpump": 1793136502.949815
+  "control:2bQ29ZFP9fWUeEZ12vR84RvzaBd2N7viE3iUuwFTpump": 1793136502.949815,
+  "seen:2bQ29ZFP9fWUeEZ12vR84RvzaBd2N7viE3iUuwFTpump": 1793136683.9355273,
+  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793136683.9355273,
+  "seen:JDzUd2tcvsijFkjZNEChkxvPAzK5kJpsWBuEAEmopump": 1793136683.9355273,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793136683.9355273,
+  "seen:8aiejCVNDWWVbDoygX6fYeH3PoBRiAH4raHWPrJ3pump": 1793136867.923277,
+  "seen:FYUyPWNLQtF4nNQ8nSHwpmwQ4j41UqAUz8gWEeWWpump": 1793136867.923277,
+  "seen:EZDzKuPm5cfK2K1SVytUaGjXRFp5rcDFP1LtWGVapump": 1793136867.923277,
+  "seen:DzfDFonCVcF4zygAFPRZpf85Pw7EUKwKWETmfsbzpump": 1793136867.923277,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793136867.923277
  },
  "talks": {
   "2026-10-21": 109
@@ -137,13 +105,13 @@
  ],
  "last_review": 1793109877.0350306,
  "news": {
-  "t": 1793134869.147722,
+  "t": 1793135783.9394948,
   "crypto": [
-   "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top (0h ago)",
-   "Quantum fears already limiting Bitcoin\u2019s growth, Stacks founder says (0h ago)",
-   "Robinhood's crypto revenue fell 55% from last year, but topped Street forecasts (0h ago)",
+   "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top (1h ago)",
+   "Quantum fears already limiting Bitcoin\u2019s growth, Stacks founder says (1h ago)",
+   "Robinhood's crypto revenue fell 55% from last year, but topped Street forecasts (1h ago)",
    "Ripple, Robinhood expand partnership to bring RLUSD to retail and institutional markets (1h ago)",
-   "Here\u2019s what happened in crypto today (1h ago)",
+   "Here\u2019s what happened in crypto today (2h ago)",
    "CFTC sues Utah to block action against prediction markets (2h ago)",
    "U.S. agency hits Utah with lawsuit to shield Kalshi's ability to offer betting there (2h ago)",
    "Intel, Oracle, IBM join growing list of firms objecting to OKX\u2013ICE tokenized stock plans (3h ago)",
@@ -152,19 +120,18 @@
   ],
   "macro": [],
   "calendar": [
-   "GBP Annual Budget Release in 15.5h",
-   "USD Federal Funds Rate in 21.0h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement in 21.0h",
-   "USD FOMC Press Conference in 21.5h"
+   "GBP Annual Budget Release in 15.2h",
+   "USD Federal Funds Rate in 20.7h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement in 20.7h",
+   "USD FOMC Press Conference in 21.2h"
   ]
  },
  "spend": {
-  "2026-10-27": 0.034781
+  "2026-10-27": 0.035377
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-27 14:13 UTC [macro] 14:13 flat, no orders. Gold 4045.6, above 4020, so GOLD short 1% stays unarmed: needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: no pre-registered ",
   "2026-10-27 14:35 UTC [macro] 14:34 flat, no orders. Gold 4050.2, above 4020 trigger. GOLD short 1% still unarmed: needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: GBP budget re",
   "2026-10-27 14:57 UTC [macro] 14:57 flat, no orders. Gold 4063.8 above 4020 rebound trigger; GOLD short 1% still unarmed: needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. Memecoin p",
   "2026-10-27 15:18 UTC [macro] 16:18 flat, no orders. Gold 4069.9, above 4020 trigger; GOLD short 1% still unarmed: needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. FX: no pre-regist",
@@ -183,8 +150,9 @@
   "2026-10-27 19:55 UTC [macro] Flat 19:55. Watch: GOLD short 1% only on rebound to ~4020 then hourly close <4000; stop 4045, target 3980, max 8h. GBPUSD (pre-reg, not armed): short 0.5% only on hourly close <1.3300; stop 1.3340, target 1.3240, max 8h,",
   "2026-10-27 20:16 UTC [macro] Flat 20:16. Gold 4073.8, GOLD short 1% armed only on rebound to ~4020 then hourly close <4000; stop 4045, target 3980, max 8h. GBPUSD short 0.5% only on hourly close <1.3300; stop 1.3340, target 1.3240, max 8h. Avoid new",
   "2026-10-27 20:36 UTC [macro] 20:36 flat, no orders. Armed (not filled): GOLD short 1% only on rebound to ~4020 then hourly close <4000; stop 4045, target 3980, max 8h. GBPUSD short 0.5% only on hourly close <1.3300; stop 1.3340, target 1.3240, max 8",
-  "2026-10-27 20:58 UTC [macro] 20:58 flat, no orders. Armed, not filled: GOLD short 1% only on rebound to ~4020 then hourly close <4000; stop 4045, target 3980, max 8h. GBPUSD short 0.5% only on hourly close <1.3300; stop 1.3340, target 1.3240, max 8h"
+  "2026-10-27 20:58 UTC [macro] 20:58 flat, no orders. Armed, not filled: GOLD short 1% only on rebound to ~4020 then hourly close <4000; stop 4045, target 3980, max 8h. GBPUSD short 0.5% only on hourly close <1.3300; stop 1.3340, target 1.3240, max 8h",
+  "2026-10-27 21:19 UTC [macro] 2026-10-27 21:19 flat, no orders. Gold 4073.1 and GBPUSD 1.33094 both above triggers. Armed, not filled: GOLD short 1% only on rebound to ~4020 then hourly close <4000; stop 4045, target 3980, max 8h. GBPUSD short 0.5% o"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1793134686.9794328
+ "last_macro_macro": 1793135967.9272616
 }
