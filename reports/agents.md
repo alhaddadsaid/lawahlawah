@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-27 09:36 UTC. Runs so far: 34. Model: claude-haiku-5-5.
+Updated 2026-10-27 09:45 UTC. Runs so far: 34. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -21,6 +21,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: GINNAN long at 3.884e-08, stop 3.1072e-08, target 5.4376e-08, opened 2026-10-27 09:09 UTC
 - control: RAYPAD long at 0.000149, stop 0.0001192, target 0.0002086, opened 2026-10-27 09:12 UTC
 - control: Wifoween long at 0.0001326, stop 0.00010608, target 0.00018564, opened 2026-10-27 09:27 UTC
+- control: HIGGS long at 0.0001522, stop 0.00012176, target 0.00021308, opened 2026-10-27 09:45 UTC
 
 ## Team
 
@@ -33,10 +34,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-27 09:36 UTC team macro (gold/forex), spent today $0.016
-
-Lead: Gold at 4008.8 is still above the 4000 trigger, and the short is not armed. The plan needs a failed rebound to about 4020, then an hourly close below 4000. Scout: no high-impact calendar events in 24h. Skeptic: the gold stop (~4045) is about 36 points against an ATR of 11.6, so costs and the stop distance make it marginal, and the journal's gold longs lost money. FX Scout: EURUSD and GBPUSD sit at 5-day lows with no catalyst and no pre-registered edge. Sniper: no order. Memecoins stay paused after 18 trades at -$360. Decision: stay flat and keep the gold short armed only on the stated trigger.
-
-{"orders": [], "close": [], "note": "09:36 flat, no orders. GOLD short 1% still unarmed: needs failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs. 5d low 3989.1. FX: no calendar catalyst, EURUSD/GBPUSD at 5d lows, no edge. Memecoin paused."}
-
+- 2026-10-27 09:45 UTC control: OPENED HIGGS long at 0.0001522 (stop 0.00012176, target 0.00021308) - control: frozen v3 rules
 
