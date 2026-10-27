@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -13540.685126161048,
+   "cash": -13404.685126161048,
    "open": [
-    {
-     "id": 899,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DICTATOR",
-     "mint": "7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump",
-     "side": 1,
-     "opened": 1793111700.6943278,
-     "entry": 0.0001908,
-     "stop": 0.00015264,
-     "target": 0.00026712,
-     "size": 1048218.0293501049,
-     "deadline": 1793118900.694328,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 901,
      "desk": "control",
@@ -85,27 +70,28 @@
    ]
   }
  },
- "next_id": 906,
+ "next_id": 907,
  "runs": 35,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7wKNhej9P1trJwuXKbFooD7snv6h6meLr14qoEg8pump": 1793115044.933142,
-  "seen:J7ZfGzTcDwHhxhRCDFgSy4avH2xoBQczz9d4wJXrpump": 1793115044.933142,
-  "seen:4UbLGxEkk5rKE8WxuUywupLMpjBL1WSQRZtfvXV2pump": 1793115044.933142,
-  "seen:J8wrk834d5CUjrVMKp26pwosKZBM1C1dLuMnv9tTpump": 1793115044.933142,
-  "seen:8ULZXvZMXcrpnwQo87aQVMNKf7HzgMQSEwr3ZUQKpump": 1793115044.933142,
-  "seen:32CdQdBUxbCsLy5AUHWmyidfwhgGUr9N573NBUrDpump": 1793115044.933142,
-  "seen:4RT1mgHgTmUsbRUChG6NKtBvX37phaJau7JYUyWrpump": 1793115044.933142,
-  "seen:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793115044.933142,
-  "seen:61uUYv7jRhZkpNuG6DCFppsSaFBea5TP7fLuRzQ4pump": 1793115226.5300808,
-  "seen:DtBatQsrazRRVp37UTMQH7TnXL1mT2qrJTj7PB9Rpump": 1793115226.5300808,
-  "seen:EdSuZVh4ypz8cUqgi1Rjo1SE88wrRahPg85KStdpump": 1793115226.5300808,
-  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793115409.4864295,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793115409.4864295,
   "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793115590.2765596,
   "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793115775.3522532,
   "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793115775.3522532,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793115775.3522532
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793115775.3522532,
+  "seen:985ZsufAhdeew9R1DsCDHJb6PzjfSvEwHoe1w1nepump": 1793115956.7269602,
+  "seen:8ULZXvZMXcrpnwQo87aQVMNKf7HzgMQSEwr3ZUQKpump": 1793115956.7269602,
+  "seen:7wKNhej9P1trJwuXKbFooD7snv6h6meLr14qoEg8pump": 1793115956.7269602,
+  "seen:J8wrk834d5CUjrVMKp26pwosKZBM1C1dLuMnv9tTpump": 1793115956.7269602,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793115956.7269602,
+  "seen:J7ZfGzTcDwHhxhRCDFgSy4avH2xoBQczz9d4wJXrpump": 1793115956.7269602,
+  "seen:32CdQdBUxbCsLy5AUHWmyidfwhgGUr9N573NBUrDpump": 1793115956.7269602,
+  "seen:61uUYv7jRhZkpNuG6DCFppsSaFBea5TP7fLuRzQ4pump": 1793116142.845092,
+  "control:J8wrk834d5CUjrVMKp26pwosKZBM1C1dLuMnv9tTpump": 1793116142.9320636,
+  "seen:ADawNqGrZGZCQFQX5c2UJTKhGwR1WjZdw53186E9pump": 1793116322.565283,
+  "seen:xQrtBBhh5A7iR57BQF3Q3EgXYYM1jZvDDQ18qnspump": 1793116322.565283,
+  "seen:AVBN6kXdaw27ySuvMevKYzNTL8d39b7sGQFDCmsvpump": 1793116322.565283,
+  "seen:qgPpPb1AjAXVzebW1LQSk7qWEJ2HYkWcxCFeuPcpump": 1793116322.565283,
+  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793116322.565283
  },
  "talks": {
   "2026-10-21": 109
@@ -146,22 +132,22 @@
  ],
  "last_review": 1793109877.0350306,
  "news": {
-  "t": 1793114509.4898071,
+  "t": 1793115422.568752,
   "crypto": [
    "Nasdaq-100 comes onchain as Janus Henderson and Centrifuge launch first licensed fund (1h ago)",
-   "CF Benchmarks brings Wall Street pricing infrastructure onchain, including data used by BlackRock (1h ago)",
+   "CF Benchmarks brings Wall Street pricing infrastructure onchain, including data used by BlackRock (2h ago)",
    "Crypto could outperform AI stocks: Wall Street veteran Jordi Visser (2h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "Bitcoin miners' move into AI is creating a new market for trading computing power (2h ago)",
-   "Hayes details FLOP\u2019s AI compute derivatives vision after selling his altcoins (2h ago)",
-   "Luxor raises $16M from CMT Digital amid AI-Bitcoin miner convergence (2h ago)",
+   "Hayes details FLOP\u2019s AI compute derivatives vision after selling his altcoins (3h ago)",
+   "Luxor raises $16M from CMT Digital amid AI-Bitcoin miner convergence (3h ago)",
    "Bitcoin price analysis sees \u2018strong rally\u2019 as old coins become dormant (3h ago)",
-   "Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP (3h ago)",
+   "Bitcoin shows signs of weakness while Ripple's bank win fails to bolster XRP (4h ago)",
    "Live updates: Bitcoin holds near $80,000 as AI buildout draws investor attention and capital (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP Annual Budget Release in 21.1h"
+   "GBP Annual Budget Release in 20.9h"
   ]
  },
  "spend": {
