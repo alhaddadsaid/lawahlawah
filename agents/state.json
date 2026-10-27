@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -11695.178275278507,
+   "cash": -11627.178275278507,
    "open": [
     {
      "id": 767,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 812,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Nothing",
-     "mint": "51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump",
-     "side": 1,
-     "opened": 1793058395.459508,
-     "entry": 0.000161,
-     "stop": 0.00012880000000000001,
-     "target": 0.00022539999999999998,
-     "size": 1242236.0248447205,
-     "deadline": 1793065595.4595082,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 813,
      "desk": "control",
      "market": "meme",
@@ -89,34 +74,36 @@
  "runs": 32,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DNwtHLeLk6m8hb5LUnMy5gfr7gu667s5fvNxunWYpump": 1793058749.3574421,
-  "seen:DtBatQsrazRRVp37UTMQH7TnXL1mT2qrJTj7PB9Rpump": 1793058749.3574421,
-  "seen:DNjDuhQnsTXiCgPKUGa8yBznm4bUqnAm5yw3wY3jpump": 1793058749.3574421,
-  "seen:wfWVrxkcC23vmaL4ao5kPKwiSSwgRMofTd1MZvCpump": 1793058749.3574421,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793058749.3574421,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793058749.3574421,
-  "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793058927.5720677,
-  "seen:84z1YoLGgrXPgE39hcJrse2wGRBSWigomGqtQdMYpump": 1793058927.5720677,
-  "seen:3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": 1793058927.5720677,
-  "control:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793058927.6413484,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793059113.2668965,
-  "seen:9YFP31dKnPkxXSnqVR6nZ8t2NUdkiucGmJDapoGmpump": 1793059113.2668965,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793059113.2668965,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793059113.2668965,
-  "seen:DEZrHa3CeoQs2kGqMPo6D1TFgHB2KWoPMJMjf9HJpump": 1793059294.6038587,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793059294.6038587,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793059294.6038587,
-  "control:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793059295.459511,
   "seen:9hiSTieycVB894TMwhXWGnWMXNaVE6BimYoydxiNLR8Z": 1793059475.5707471,
   "seen:7Mc5gW7g1et6rMSey59GF28CHuJxeeASMAUJ3ABipump": 1793059475.5707471,
   "seen:wKsFriL4RGDLncR4HjdQ2vjd3A5Vc9CkiRRiJn3pump": 1793059475.5707471,
-  "control:3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": 1793059475.6147075
+  "control:3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": 1793059475.6147075,
+  "seen:DNwtHLeLk6m8hb5LUnMy5gfr7gu667s5fvNxunWYpump": 1793059655.5278163,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793059655.5278163,
+  "seen:DNjDuhQnsTXiCgPKUGa8yBznm4bUqnAm5yw3wY3jpump": 1793059655.5278163,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793059655.5278163,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793059655.5278163,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793059655.5278163,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793059655.5278163,
+  "seen:zcWVoGBP8QxjGpx7eERJCfMaSTvuzmNq7cGWh6gpump": 1793059836.7757888,
+  "seen:DtBatQsrazRRVp37UTMQH7TnXL1mT2qrJTj7PB9Rpump": 1793059836.7757888,
+  "seen:3LPTanzycRAjguU6VAXE7T2Fd12LePQLpHATXXs9pump": 1793059836.7757888,
+  "seen:EMxxjFAnYNZ2jBibbASRSPZSfWLzhtBbWhbsGBgQTcQL": 1793060022.4994218,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793060022.4994218,
+  "seen:4wnVXwd7XHCzjw2mHczrccoG74stNPgUT61puF3Epump": 1793060022.4994218,
+  "seen:9YFP31dKnPkxXSnqVR6nZ8t2NUdkiucGmJDapoGmpump": 1793060022.4994218,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793060022.4994218,
+  "seen:FsBZ8nkHfQvBX2YsfBii19fq7BiRvrf2vtC2JpczYTcs": 1793060206.1682675,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793060206.1682675,
+  "seen:DEZrHa3CeoQs2kGqMPo6D1TFgHB2KWoPMJMjf9HJpump": 1793060206.1682675,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793060206.1682675,
+  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793060206.1682675
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498065,
+ "ctrl_macro_hour": 498072,
  "team": [
   {
    "name": "Lead",
@@ -151,14 +138,14 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793058394.607502,
+  "t": 1793059306.172009,
   "crypto": [
    "US OCC calls on community banks to become payment stablecoin issuers (2h ago)",
-   "Injective launches onchain futures market tracking Nvidia GPU rental costs (2h ago)",
+   "Injective launches onchain futures market tracking Nvidia GPU rental costs (3h ago)",
    "Canada opens consultation on stablecoins, citing US GENIUS Act (4h ago)",
    "AI company Anthropic announces IPO, expected as early as November (5h ago)",
    "NBA names Kalshi, Polymarket preferred exchanges, signs CFTC deal (6h ago)",
-   "South Korea lawmakers mull pushing crypto tax implementation to 2029 (7h ago)",
+   "South Korea lawmakers mull pushing crypto tax implementation to 2029 (8h ago)",
    "Tom Lee's Bitmine favors share buybacks to ether purchases as crypto declines (8h ago)",
    "NBA joins pro sports leagues on CFTC prediction markets bandwagon while NFL balks (8h ago)",
    "Kalshi strikes deal with S&P Dow Jones Indices to expand financial event contracts (8h ago)",
@@ -168,12 +155,11 @@
   "calendar": []
  },
  "spend": {
-  "2026-10-26": 0.037506
+  "2026-10-26": 0.038172
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-26 16:51 UTC [macro] 16:51 UTC flat, no orders. Gold 4033.6 (5d low 3989.1, high 4186.8), short trigger not met. Watch: GOLD short 1% only if failed rebound to ~4020 then hourly close <4000; stop 4030, target 3980, max 8h, net of costs. Meme",
   "2026-10-26 17:12 UTC [macro] 16:xx-17:12 UTC: flat, no orders. Gold 4037.2 (5d low 3989.1, hi 4174.9). Watch: GOLD short 1% only after failed rebound to ~4020 then hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no high-impact ",
   "2026-10-26 17:33 UTC [macro] 17:33 flat. Gold 4041.6, above 4020, short trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 then hourly close <4000; stop 4030, target 3980, max 8h, net of costs. No memecoin edge in journal; skip",
   "2026-10-26 17:55 UTC [macro] 17:55 flat, no orders. Gold 4033 above 4020; short not triggered. Watch: GOLD short 1% only after failed rebound to ~4020 then hourly close <4000; stop 4030, target 3980, max 8h, net of costs. No memecoin edge in journal",
@@ -192,8 +178,9 @@
   "2026-10-26 22:33 UTC [macro] 22:33 UTC flat, no orders. Gold 4029.4 above 4020 rebound, GOLD short 1% still waiting for failed rebound to ~4020 then hourly close <4000; stop 4030, target 3980, max 8h, net of costs. No high-impact events in 24h. EURU",
   "2026-10-26 22:54 UTC [macro] 22:54 UTC flat, no orders. Gold 4027.3 (5d 3989.1-4174.9), short still not triggered. Watch: GOLD short 1% only after failed rebound to ~4020 then hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: EUR",
   "2026-10-26 23:16 UTC [macro] 23:16 flat, no orders. Gold 4024.6, not triggered. Watch: GOLD short 1% only after failed rebound to ~4020 then hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX: no catalyst, no trade.",
-  "2026-10-26 23:37 UTC [macro] 23:37 flat, no orders. Gold 4027.2 above 4020, short 1% still unarmed: needs failed rebound to ~4020 then hourly close <4000; stop 4030, target 3980, max 8h, net of costs. EURUSD 1.11757 at 5d low and GBPUSD 1.33438 with"
+  "2026-10-26 23:37 UTC [macro] 23:37 flat, no orders. Gold 4027.2 above 4020, short 1% still unarmed: needs failed rebound to ~4020 then hourly close <4000; stop 4030, target 3980, max 8h, net of costs. EURUSD 1.11757 at 5d low and GBPUSD 1.33438 with",
+  "2026-10-26 23:58 UTC [macro] 23:58 flat. Gold 4020.2 (5d 3989.1-4174.9), trigger not met. Watch: GOLD short 1% only after failed rebound to ~4020 then hourly close <4000; stop 4030, target 3980, max 8h, net of costs. FX watch: EURUSD 1.11757 at 5d l"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1793057849.3610642
+ "last_macro_macro": 1793059122.5030797
 }
