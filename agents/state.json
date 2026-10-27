@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -13414.780306356302,
+   "cash": -13464.365456394773,
    "open": [
     {
      "id": 904,
@@ -35,21 +35,6 @@
      "target": 0.00059906,
      "size": 467398.92498247256,
      "deadline": 1793131556.9912443,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 923,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Darla",
-     "mint": "7F968EUuLBzUcCzhD6FZpXaTWAybKZDkWFmwoVArcAc",
-     "side": 1,
-     "opened": 1793125276.682377,
-     "entry": 7.798e-05,
-     "stop": 6.2384e-05,
-     "target": 0.00010917199999999999,
-     "size": 2564760.194921775,
-     "deadline": 1793132476.6823776,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -89,29 +74,21 @@
  "runs": 35,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt": 1793128727.8703418,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793128727.8703418,
-  "seen:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": 1793128912.3498535,
-  "seen:6Cj4EQFwFJfRamqD164MdXK5BXQkh4bsMZqZVLLVDLRX": 1793128912.3498535,
-  "seen:BjQCNrQeD8vAYoo4wvP7DxNUKrut84CoLgpq9XNEpump": 1793128912.3498535,
-  "seen:28vWTtEwxoWp5MpHutAMSK5DeVf8xXk8jEEtbrtppump": 1793128912.3498535,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793128912.3498535,
-  "seen:SATqS9DYpLQsM2z51P4QCoqJRHa5wboV4qjJerJRUSH": 1793129095.2654543,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793129095.2654543,
-  "seen:GinNabffZL4fUj9Vactxha74GDAW8kDPGaHqMtMzps2f": 1793129095.2654543,
-  "seen:EZYmWw5ZhNAAsm3RVrPUQJZkJu6W31YZFjV5LvW4pump": 1793129273.447578,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793129273.447578,
-  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793129273.447578,
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793129273.447578,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793129273.447578,
-  "seen:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793129273.447578,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793129273.447578,
-  "seen:GJyNrRBNt85m7DX7PYJBHo9sjmpTxMEQYfRbvMoYpump": 1793129454.2589867,
-  "seen:2xm2WZ9krE2YAArRC6S6ZzJAYgN813K6hh2dawKjpump": 1793129454.2589867,
-  "seen:3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": 1793129454.2589867,
-  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793129454.2589867,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793129454.2589867,
-  "seen:BFXYBD5v7W6Tkaa6SwqTDXsbZgekVDPESVQFovhkpump": 1793129454.2589867
+  "seen:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": 1793129820.1392605,
+  "seen:Cmk4EaLcvpBzndKAKPjvhe9JngjFC3KsDS6QmFLnpump": 1793129820.1392605,
+  "seen:9i63FDzq2bkfVxdNA27vLBQ5tN1cWBDEjN9hST2FeTew": 1793129820.1392605,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793129820.1392605,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793130010.2079954,
+  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793130010.2079954,
+  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793130010.2079954,
+  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793130184.5241246,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793130184.5241246,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793130184.5241246,
+  "seen:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793130184.5241246,
+  "seen:2xm2WZ9krE2YAArRC6S6ZzJAYgN813K6hh2dawKjpump": 1793130366.124867,
+  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793130366.124867,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793130366.124867,
+  "seen:GJyNrRBNt85m7DX7PYJBHo9sjmpTxMEQYfRbvMoYpump": 1793130366.124867
  },
  "talks": {
   "2026-10-21": 109
@@ -152,7 +129,7 @@
  ],
  "last_review": 1793109877.0350306,
  "news": {
-  "t": 1793128195.2691905,
+  "t": 1793129110.212026,
   "crypto": [
    "U.S. agency hits Utah with lawsuit to shield Kalshi's ability to offer betting there (0h ago)",
    "Intel, Oracle, IBM join growing list of firms objecting to OKX\u2013ICE tokenized stock plans (1h ago)",
@@ -167,10 +144,10 @@
   ],
   "macro": [],
   "calendar": [
-   "GBP Annual Budget Release in 17.3h",
-   "USD Federal Funds Rate in 22.8h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement in 22.8h",
-   "USD FOMC Press Conference in 23.3h"
+   "GBP Annual Budget Release in 17.1h",
+   "USD Federal Funds Rate in 22.6h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement in 22.6h",
+   "USD FOMC Press Conference in 23.1h"
   ]
  },
  "spend": {
