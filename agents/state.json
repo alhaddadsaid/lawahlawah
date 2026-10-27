@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -12083.703889028953,
+   "cash": -12264.709386574386,
    "open": [
     {
      "id": 767,
@@ -53,51 +53,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 828,
+     "id": 831,
      "desk": "control",
-     "market": "meme",
-     "symbol": "Shitcoin",
-     "mint": "JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump",
-     "side": 1,
-     "opened": 1793067726.2666514,
-     "entry": 0.0001761,
-     "stop": 0.00014088,
-     "target": 0.00024653999999999995,
-     "size": 1135718.341851221,
-     "deadline": 1793074926.2666516,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 829,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "STONK",
-     "mint": "DNwtHLeLk6m8hb5LUnMy5gfr7gu667s5fvNxunWYpump",
-     "side": 1,
-     "opened": 1793069741.1840427,
-     "entry": 6.811e-05,
-     "stop": 5.4488e-05,
-     "target": 9.535399999999998e-05,
-     "size": 2936426.3691087947,
-     "deadline": 1793076941.184043,
-     "thesis": "control: frozen v3 rules"
+     "market": "macro",
+     "symbol": "EURUSD",
+     "mint": "",
+     "side": -1,
+     "opened": 1793070107.833423,
+     "entry": 1.1174432039260864,
+     "stop": 1.1180148380143302,
+     "target": 1.1165857527937209,
+     "size": 174937.08310368,
+     "deadline": 1793156507.8334231,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 830,
+ "next_id": 832,
  "runs": 32,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DfQFCbm4sSgKYPjiHuLxXsqvuar5ZCa7PErsEgrJpump": 1793069904.4810092,
-  "seen:91RBVuoCLvikHs4qeUGczABotGLd1Tjo84DMfpFUpump": 1793069904.4810092,
-  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793069904.4810092,
-  "seen:5yoYggqaY6UcowhHvFijz8T3wLZngJDaSEchevyjpump": 1793069904.4810092,
-  "seen:3B7SHozUFoiGnFC7i6WHZ8zNMbDrhtz9WpXqWt51pump": 1793069904.4810092,
-  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793069904.4810092,
-  "seen:DtBatQsrazRRVp37UTMQH7TnXL1mT2qrJTj7PB9Rpump": 1793070089.3731136,
-  "seen:322nR3uijcJBNFKAzNBY4PqwrJ3qNg33vLnfhkvrpump": 1793070272.2917013,
-  "seen:nYwfbB7WJUR8rukXHgveFznUpiMv5i4TDZfqb7qpump": 1793070272.2917013,
   "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793070455.8907564,
   "seen:DNwtHLeLk6m8hb5LUnMy5gfr7gu667s5fvNxunWYpump": 1793070455.8907564,
   "seen:DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump": 1793070455.8907564,
@@ -106,13 +82,24 @@
   "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793070641.06072,
   "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793070641.06072,
   "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793070641.06072,
-  "control:DNwtHLeLk6m8hb5LUnMy5gfr7gu667s5fvNxunWYpump": 1793070641.1840458
+  "control:DNwtHLeLk6m8hb5LUnMy5gfr7gu667s5fvNxunWYpump": 1793070641.1840458,
+  "seen:91RBVuoCLvikHs4qeUGczABotGLd1Tjo84DMfpFUpump": 1793070822.5825906,
+  "seen:RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh": 1793070822.5825906,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793070822.5825906,
+  "seen:JVtVUduUFx3HL3fA87YA77YDGn5iQoYDeDaLFNopump": 1793070822.5825906,
+  "seen:5yoYggqaY6UcowhHvFijz8T3wLZngJDaSEchevyjpump": 1793070822.5825906,
+  "seen:H7VZNCBynDK5ikBS9krDJ2Tx8CUr1wxedV19ZgkWpump": 1793070822.5825906,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1793071007.650892,
+  "control:91RBVuoCLvikHs4qeUGczABotGLd1Tjo84DMfpFUpump": 1793071007.7069366,
+  "control:EURUSD": 1793071007.8334262,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793071188.324723,
+  "seen:322nR3uijcJBNFKAzNBY4PqwrJ3qNg33vLnfhkvrpump": 1793071188.324723
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498072,
+ "ctrl_macro_hour": 498075,
  "team": [
   {
    "name": "Lead",
@@ -147,12 +134,12 @@
  ],
  "last_review": 1793023316.910058,
  "news": {
-  "t": 1793069372.2955408,
+  "t": 1793070288.3284438,
   "crypto": [
    "Keystone breach deepens: Hackers stole key used to verify wallets as genuine (1h ago)",
    "Ripple wins final US approval for national trust bank (3h ago)",
    "US OCC calls on community banks to become payment stablecoin issuers (5h ago)",
-   "Injective launches onchain futures market tracking Nvidia GPU rental costs (5h ago)",
+   "Injective launches onchain futures market tracking Nvidia GPU rental costs (6h ago)",
    "Canada opens consultation on stablecoins, citing US GENIUS Act (7h ago)",
    "AI company Anthropic announces IPO, expected as early as November (8h ago)",
    "NBA names Kalshi, Polymarket preferred exchanges, signs CFTC deal (9h ago)",
