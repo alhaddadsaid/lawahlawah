@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -15780.727527881083,
+   "cash": -15778.829364275072,
    "open": [
     {
      "id": 1022,
@@ -23,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 1029,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ENVAR",
-     "mint": "FuK9BkA4jXTBzj8HQRQT4538gy1BJzPYy9qwiHs2pump",
-     "side": 1,
-     "opened": 1793192474.078103,
-     "entry": 0.0001105,
-     "stop": 8.840000000000001e-05,
-     "target": 0.0001547,
-     "size": 1809954.7511312217,
-     "deadline": 1793199674.0781033,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1030,
      "desk": "control",
      "market": "macro",
@@ -53,37 +38,27 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 1031,
+     "id": 1032,
      "desk": "control",
      "market": "meme",
-     "symbol": "QUBIT",
-     "mint": "HDwZkNNh8Bt9oPP51xrPwGyKxDUR2YorHiAHGuiypump",
+     "symbol": "Frongus",
+     "mint": "2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump",
      "side": 1,
-     "opened": 1793194301.1840131,
-     "entry": 0.0001797,
-     "stop": 0.00014376000000000002,
-     "target": 0.00025158,
-     "size": 1112966.0545353366,
-     "deadline": 1793201501.1840131,
+     "opened": 1793194668.6642041,
+     "entry": 0.0002354,
+     "stop": 0.00018832,
+     "target": 0.00032956,
+     "size": 849617.6720475786,
+     "deadline": 1793201868.6642044,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1032,
+ "next_id": 1033,
  "runs": 38,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793194468.6727989,
-  "seen:DDgEb1AyoqR81NNTJX44AgpfYkbnWAegf4BrxP1Bpump": 1793194468.6727989,
-  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793194468.6727989,
-  "seen:HDwZkNNh8Bt9oPP51xrPwGyKxDUR2YorHiAHGuiypump": 1793194650.952879,
-  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793194650.952879,
-  "seen:7j9v144oMVkxWgrpckQaQabn1m6iD9SCAHbKpmWXpump": 1793194650.952879,
-  "seen:Dd6dHMM4W9cBw6SB5bg9G5CaTsirFb9KYCrH5Bx2ru5V": 1793194835.342484,
-  "seen:6igRi89tQdNDH2qaLi6gUk6NVXudrTeF7vU39YrMpump": 1793194835.342484,
-  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793194835.342484,
-  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793194835.342484,
   "seen:HjVGL4kuW2H6eeY2sTxwp5VCUhCJChzZBHc3aQ3EMKRS": 1793195015.5834777,
   "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793195015.5834777,
   "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793195015.5834777,
@@ -92,7 +67,17 @@
   "seen:GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6": 1793195201.1001165,
   "seen:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793195201.1001165,
   "seen:MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump": 1793195201.1001165,
-  "control:HDwZkNNh8Bt9oPP51xrPwGyKxDUR2YorHiAHGuiypump": 1793195201.1840162
+  "control:HDwZkNNh8Bt9oPP51xrPwGyKxDUR2YorHiAHGuiypump": 1793195201.1840162,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793195382.892541,
+  "seen:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": 1793195382.892541,
+  "seen:HDwZkNNh8Bt9oPP51xrPwGyKxDUR2YorHiAHGuiypump": 1793195568.0548632,
+  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793195568.0548632,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793195568.0548632,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793195568.0548632,
+  "control:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": 1793195568.6642072,
+  "seen:6igRi89tQdNDH2qaLi6gUk6NVXudrTeF7vU39YrMpump": 1793195750.571494,
+  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793195750.571494,
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793195750.571494
  },
  "talks": {
   "2026-10-21": 109
@@ -133,29 +118,29 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793193750.9574943,
+  "t": 1793194668.0675452,
   "crypto": [
+   "DTCC unit launches tokenization services (0h ago)",
    "Wall Street backbone DTCC brings $30 trillion securities closer to blockchain with major banks (0h ago)",
-   "JPMorgan, Coca-Cola, Dell also say 'no' to OKX-ICE tokenized tock trading plan (0h ago)",
-   "Dissent and more: 3 things to watch for at the Fed meeting (1h ago)",
+   "JPMorgan, Coca-Cola, Dell also say 'no' to OKX-ICE tokenized tock trading plan (1h ago)",
+   "Dissent and more: 3 things to watch for at the Fed meeting (2h ago)",
    "XRP Ledger developers propose creating wallets with zero XRP for stablecoin payments (2h ago)",
    "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9% (2h ago)",
    "Settlement concerns prompt Euronext to halt CoinShares\u2019 Zcash ETP ahead of debut (2h ago)",
    "Live updates: Bitcoin edges higher ahead of Fed decision Wednesday afternoon. (2h ago)",
-   "Mirae Asset Securities issues tokenized notes on Solana (2h ago)",
-   "Google to preview crypto custody security system as AI threats grow (2h ago)",
-   "Nearly 90% of large businesses are embracing tokenized cash to speed up payments: DBS (3h ago)"
+   "Mirae Asset Securities issues tokenized notes on Solana (3h ago)",
+   "Google to preview crypto custody security system as AI threats grow (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP Annual Budget Release was 0.9h",
-   "USD Federal Funds Rate in 4.6h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement in 4.6h",
-   "USD FOMC Press Conference in 5.1h",
-   "USD Advance GDP q/q in 23.1h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 23.1h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 23.9h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 23.9h"
+   "GBP Annual Budget Release was 1.1h",
+   "USD Federal Funds Rate in 4.4h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement in 4.4h",
+   "USD FOMC Press Conference in 4.9h",
+   "USD Advance GDP q/q in 22.9h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m in 22.9h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 23.6h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 23.6h"
   ]
  },
  "spend": {
