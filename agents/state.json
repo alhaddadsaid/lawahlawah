@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -16436.67495201775,
+   "cash": -16418.867960029405,
    "open": [
-    {
-     "id": 1052,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Something",
-     "mint": "AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump",
-     "side": 1,
-     "opened": 1793212844.8110461,
-     "entry": 0.0001373,
-     "stop": 0.00010984,
-     "target": 0.00019222,
-     "size": 1456664.2388929352,
-     "deadline": 1793220044.8110464,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1055,
      "desk": "control",
@@ -36,34 +21,47 @@
      "size": 642054.5746388444,
      "deadline": 1793221511.7667809,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1057,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Rapport",
+     "mint": "69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump",
+     "side": 1,
+     "opened": 1793215044.2095163,
+     "entry": 9.203e-05,
+     "stop": 7.3624e-05,
+     "target": 0.000128842,
+     "size": 2173204.3898728676,
+     "deadline": 1793222244.2095168,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1056,
+ "next_id": 1058,
  "runs": 39,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:AN4mNPb3rP61d3b2u1LCKKhBdEgdW9BiNDp7ZHKupump": 1793214660.1455357,
-  "seen:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": 1793214660.1455357,
-  "seen:94WfdYvKknmstbs8oQpGcrHi1JrGZqjqd4Kbv5yepump": 1793214844.1417944,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793214844.1417944,
-  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793214844.1417944,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793214844.1417944,
-  "seen:CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": 1793214844.1417944,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793214844.1417944,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793214844.1417944,
-  "seen:CSRRgTwf9o5KLgguS2M16aEAhV5PUUzfshrAAQ8opump": 1793215028.099708,
-  "seen:3wiUzNXdq5ocCtQp8tr62A4uUVekzk5C27PbyeGppump": 1793215028.099708,
-  "seen:688wuzgmb5VxNUbSGzos867MRTUcjDqdxHkruRsopump": 1793215028.099708,
-  "seen:ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump": 1793215028.099708,
-  "seen:6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump": 1793215028.099708,
-  "seen:GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6": 1793215028.099708,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793215028.099708,
-  "control:ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump": 1793215028.1455631,
   "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793215211.6997278,
   "control:6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump": 1793215211.7667837,
-  "seen:ABnpAh5jdjD78iAuzsSgT6y57m3hUKpxEKBeeYaddNvJ": 1793215394.3467126
+  "seen:ABnpAh5jdjD78iAuzsSgT6y57m3hUKpxEKBeeYaddNvJ": 1793215394.3467126,
+  "seen:5w2VFC9LAmxAkujyu7PaFdniaXApc7LJW1WCZy4Spump": 1793215578.0815291,
+  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793215578.0815291,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793215578.0815291,
+  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793215578.0815291,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793215760.9544642,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793215760.9544642,
+  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793215760.9544642,
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793215760.9544642,
+  "control:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793215761.5112112,
+  "seen:3wiUzNXdq5ocCtQp8tr62A4uUVekzk5C27PbyeGppump": 1793215944.1434426,
+  "seen:CSRRgTwf9o5KLgguS2M16aEAhV5PUUzfshrAAQ8opump": 1793215944.1434426,
+  "seen:GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6": 1793215944.1434426,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793215944.1434426,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793215944.1434426,
+  "control:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793215944.20952
  },
  "talks": {
   "2026-10-21": 109
@@ -104,29 +102,29 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793213944.1474376,
+  "t": 1793214860.9599712,
   "crypto": [
+   "CFTC chief poses questions about policing AI but calls it a road to 'autonomous trading' (0h ago)",
    "Crypto isn\u2019t a partisan fight, proven by data (1h ago)",
    "Strategy shareholders approve daily dividends for four preferred stocks (1h ago)",
    "Fed leaves interest rates unchanged, as expected (1h ago)",
    "Crypto PAC spending before midterms possibly obscured after reported FEC hack (2h ago)",
    "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55% (2h ago)",
    "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings (2h ago)",
-   "Phantom launches Kalshi-powered prediction markets for US users (2h ago)",
+   "Phantom launches Kalshi-powered prediction markets for US users (3h ago)",
    "Crypto Long & Short: What happens when an AI agent pays for the wrong thing (3h ago)",
-   "Google Cloud outlines MPC service for institutional Bitcoin custody (5h ago)",
-   "Here\u2019s what happened in crypto today (5h ago)"
+   "Google Cloud outlines MPC service for institutional Bitcoin custody (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Federal Funds Rate was 1.0h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement was 1.0h",
-   "USD FOMC Press Conference was 0.5h",
-   "USD Advance GDP q/q in 17.5h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 17.5h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 18.3h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 18.3h",
-   "EUR ECB Press Conference in 18.8h"
+   "USD Federal Funds Rate was 1.2h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement was 1.2h",
+   "USD FOMC Press Conference was 0.7h",
+   "USD Advance GDP q/q in 17.3h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m in 17.3h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 18.0h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 18.0h",
+   "EUR ECB Press Conference in 18.5h"
   ]
  },
  "spend": {
