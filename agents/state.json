@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -14087.883753970526,
+   "cash": -14070.75258262493,
    "open": [
     {
      "id": 904,
@@ -38,36 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 957,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HACHI",
-     "mint": "DMnMwUvo1a9HbSnixbdNaTsoHczJ8cdamUWVRM1Qpump",
-     "side": 1,
-     "opened": 1793148962.812885,
-     "entry": 8.264e-05,
-     "stop": 6.611199999999999e-05,
-     "target": 0.00011569599999999998,
-     "size": 2420135.527589545,
-     "deadline": 1793156162.8128853,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 958,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "INVISIBLE",
-     "mint": "2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr",
-     "side": 1,
-     "opened": 1793149329.9455006,
-     "entry": 0.0001723,
-     "stop": 0.00013784,
-     "target": 0.00024121999999999994,
-     "size": 1160766.1056297156,
-     "deadline": 1793156529.9455009,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 959,
      "desk": "control",
      "market": "meme",
@@ -81,24 +51,29 @@
      "size": 1013684.7440446022,
      "deadline": 1793157268.170167,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 960,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Stonkz",
+     "mint": "Hhnf3dZTBvhedKjFCNh8Ci23YLEQg1MKTzMTHUwruMmz",
+     "side": 1,
+     "opened": 1793150427.6044223,
+     "entry": 0.0001729,
+     "stop": 0.00013832,
+     "target": 0.00024206,
+     "size": 1156737.998843262,
+     "deadline": 1793157627.6044226,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 960,
+ "next_id": 961,
  "runs": 36,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DnX4wwrWcXCxhoYuzKs7uovbokvL4QTb4nzBM7Ktpump": 1793150412.4918556,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793150412.4918556,
-  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1793150412.4918556,
-  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793150597.2830606,
-  "seen:2nPPKzFCYDZLqHxJJdFJA1iV2V4ZqV9K6z8qSiYTpump": 1793150597.2830606,
-  "seen:BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": 1793150597.2830606,
-  "seen:CGoTQtHjV9MQN2AEFpjs2YNiui8r4o81swxzzqK3pump": 1793150779.9806519,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793150779.9806519,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793150779.9806519,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793150779.9806519,
   "seen:2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr": 1793150962.7401612,
   "seen:B4XWhKBUon2Tam1fAM1Umy1Bx34V4opSh9kKspyMpump": 1793150962.7401612,
   "seen:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": 1793150962.7401612,
@@ -107,7 +82,18 @@
   "control:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": 1793150968.17017,
   "seen:CSRRgTwf9o5KLgguS2M16aEAhV5PUUzfshrAAQ8opump": 1793151148.081166,
   "seen:Hhnf3dZTBvhedKjFCNh8Ci23YLEQg1MKTzMTHUwruMmz": 1793151148.081166,
-  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793151148.081166
+  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793151148.081166,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793151327.1541078,
+  "seen:A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": 1793151327.1541078,
+  "control:Hhnf3dZTBvhedKjFCNh8Ci23YLEQg1MKTzMTHUwruMmz": 1793151327.6044257,
+  "seen:2nPPKzFCYDZLqHxJJdFJA1iV2V4ZqV9K6z8qSiYTpump": 1793151510.4873407,
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793151510.4873407,
+  "seen:BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": 1793151510.4873407,
+  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793151693.0505078,
+  "seen:AsY6oq86gpvjfxhsZqwBcNdyL2geHptmMSdzCjTPpump": 1793151693.0505078,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793151693.0505078,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793151693.0505078,
+  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793151693.0505078
  },
  "talks": {
   "2026-10-21": 109
@@ -148,25 +134,25 @@
  ],
  "last_review": 1793109877.0350306,
  "news": {
-  "t": 1793149512.4961638,
+  "t": 1793150427.1584325,
   "crypto": [
-   "Discord is making public chats searchable on Google: How to opt out (0h ago)",
+   "Discord is making public chats searchable on Google: How to opt out (1h ago)",
    "VanEck launches diversified ETF combining stocks, bonds and Bitcoin exposure (4h ago)",
    "Intel, IBM, Oracle and IonQ latest to object to OKX-ICE tokenized stocks (4h ago)",
-   "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top (4h ago)",
+   "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top (5h ago)",
    "Quantum fears already limiting Bitcoin\u2019s growth, Stacks founder says (5h ago)",
    "Robinhood's crypto revenue fell 55% from last year, but topped Street forecasts (5h ago)",
    "Ripple, Robinhood expand partnership to bring RLUSD to retail and institutional markets (5h ago)",
-   "Here\u2019s what happened in crypto today (5h ago)",
+   "Here\u2019s what happened in crypto today (6h ago)",
    "CFTC sues Utah to block action against prediction markets (6h ago)",
    "U.S. agency hits Utah with lawsuit to shield Kalshi's ability to offer betting there (6h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP Annual Budget Release in 11.4h",
-   "USD Federal Funds Rate in 16.9h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement in 16.9h",
-   "USD FOMC Press Conference in 17.4h"
+   "GBP Annual Budget Release in 11.2h",
+   "USD Federal Funds Rate in 16.7h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement in 16.7h",
+   "USD FOMC Press Conference in 17.2h"
   ]
  },
  "spend": {

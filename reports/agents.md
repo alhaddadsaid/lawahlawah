@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-28 01:17 UTC. Runs so far: 36. Model: claude-haiku-5-5.
+Updated 2026-10-28 01:26 UTC. Runs so far: 36. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 918 | 32 | -23935.09 | -32736.61 |
+| control | meme | 920 | 32 | -23917.96 | -32740.43 |
 | control | macro | 18 | 44 | -152.98 | -251.79 |
-| control | all | 936 | 32 | -24088.07 | -32988.4 |
+| control | all | 938 | 32 | -24070.94 | -32992.22 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -19,9 +19,8 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - control: GOLD long at 4065, stop 4051.11, target 4085.83, opened 2026-10-27 15:00 UTC
 - control: DICTATOR long at 0.0001205, stop 9.64e-05, target 0.0001687, opened 2026-10-28 00:46 UTC
-- control: HACHI long at 8.264e-05, stop 6.6112e-05, target 0.000115696, opened 2026-10-28 00:56 UTC
-- control: INVISIBLE long at 0.0001723, stop 0.00013784, target 0.00024122, opened 2026-10-28 01:02 UTC
 - control: Frongus long at 0.0001973, stop 0.00015784, target 0.00027622, opened 2026-10-28 01:14 UTC
+- control: Stonkz long at 0.0001729, stop 0.00013832, target 0.00024206, opened 2026-10-28 01:20 UTC
 
 ## Team
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order INVISIBLE REJECTED by guardrails: desk already has the maximum open positions
+- control: order DICTATOR REJECTED by guardrails: DICTATOR already open
 
