@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-28 07:27 UTC. Runs so far: 37. Model: claude-haiku-5-5.
+Updated 2026-10-28 07:42 UTC. Runs so far: 37. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 953 | 32 | -24249.09 | -33401.55 |
+| control | meme | 954 | 32 | -24299.41 | -33460.84 |
 | control | macro | 19 | 42 | -261.01 | -363.42 |
-| control | all | 972 | 32 | -24510.1 | -33764.97 |
+| control | all | 973 | 32 | -24560.42 | -33824.26 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -19,10 +19,10 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 
 - team: GBPUSD short at 1.32892, stop 1.334, target 1.324, opened 2026-10-28 06:14 UTC
 - control: Robotaxi long at 7.066e-05, stop 5.6528e-05, target 9.8924e-05, opened 2026-10-28 06:04 UTC
-- control: wiener long at 5.537e-05, stop 4.4296e-05, target 7.7518e-05, opened 2026-10-28 06:44 UTC
 - control: Frongus long at 0.0002501, stop 0.00020008, target 0.00035014, opened 2026-10-28 06:53 UTC
 - control: SI long at 0.0001892, stop 0.00015136, target 0.00026488, opened 2026-10-28 06:59 UTC
 - control: DICTATOR long at 9.331e-05, stop 7.4648e-05, target 0.000130634, opened 2026-10-28 07:24 UTC
+- control: Grokbot long at 0.0002016, stop 0.00016128, target 0.00028224, opened 2026-10-28 07:42 UTC
 
 ## Team
 
@@ -35,5 +35,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order DORA REJECTED by guardrails: desk already has the maximum open positions
+- 2026-10-28 07:42 UTC control: OPENED Grokbot long at 0.0002016 (stop 0.00016128, target 0.00028224) - control: frozen v3 rules
 

@@ -22,7 +22,7 @@
    ]
   },
   "control": {
-   "cash": -14509.914208193573,
+   "cash": -14560.238390964027,
    "open": [
     {
      "id": 987,
@@ -37,21 +37,6 @@
      "target": 9.8924e-05,
      "size": 2830455.703368242,
      "deadline": 1793174696.6261632,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 992,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "wiener",
-     "mint": "EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump",
-     "side": 1,
-     "opened": 1793169878.4964423,
-     "entry": 5.537e-05,
-     "stop": 4.4296000000000004e-05,
-     "target": 7.7518e-05,
-     "size": 3612064.2947444464,
-     "deadline": 1793177078.4964426,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -98,32 +83,51 @@
      "size": 2143392.991104919,
      "deadline": 1793179456.6894796,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 997,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Grokbot",
+     "mint": "6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump",
+     "side": 1,
+     "opened": 1793173351.5754035,
+     "entry": 0.0002016,
+     "stop": 0.00016128,
+     "target": 0.00028223999999999995,
+     "size": 992063.4920634921,
+     "deadline": 1793180551.5754037,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 997,
+ "next_id": 998,
  "runs": 37,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793172609.1717563,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793172609.1717563,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793172609.1717563,
-  "seen:9k8wLZtYRVBq9anXGZeUhTMrqt467dwTC92NiMExKWiG": 1793172791.7195191,
-  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793172791.7195191,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793172791.7195191,
-  "seen:CFZ13jBCs8PM9whBY5dgCGVRCgnDcEebGvQ4M84WAg9L": 1793172972.5157077,
-  "seen:7K6GMuD2muHoSLuaCFNMY3FNzQuerrWuRerncQ8epump": 1793172972.5157077,
-  "seen:835qApBwFrEAVkEoUW6D57oW8n2mW2btvfGKib8qV7XY": 1793172972.5157077,
-  "seen:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793172972.5157077,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793172972.5157077,
-  "seen:4bjMPgeJYCUD1A44RJ4DHFY188SCd9vrMd6u71PDpump": 1793173156.6554432,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793173156.6554432,
-  "seen:DDgEb1AyoqR81NNTJX44AgpfYkbnWAegf4BrxP1Bpump": 1793173156.6554432,
-  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793173156.6554432,
-  "control:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793173156.6894827,
-  "seen:6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump": 1793173338.932972,
-  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793173338.932972
+  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793173524.2616832,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793173524.2616832,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793173524.2616832,
+  "seen:28vWTtEwxoWp5MpHutAMSK5DeVf8xXk8jEEtbrtppump": 1793173524.2616832,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793173524.2616832,
+  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793173704.6662743,
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793173704.6662743,
+  "seen:B3PQkyfa1W7YEM8vmEXmCsGY3tZCp3FZiuN1E5gZ26kj": 1793173887.0163343,
+  "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793173887.0163343,
+  "seen:7K6GMuD2muHoSLuaCFNMY3FNzQuerrWuRerncQ8epump": 1793173887.0163343,
+  "seen:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793173887.0163343,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793173887.0163343,
+  "seen:835qApBwFrEAVkEoUW6D57oW8n2mW2btvfGKib8qV7XY": 1793173887.0163343,
+  "seen:2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr": 1793173887.0163343,
+  "seen:MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump": 1793174069.1511059,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793174069.1511059,
+  "seen:4veRZzp7e6tT6FxKL81CZpHPVZrgjj2LUh8FFf6mpump": 1793174069.1511059,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793174069.1511059,
+  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793174251.552542,
+  "seen:6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump": 1793174251.552542,
+  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793174251.552542,
+  "control:6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump": 1793174251.5754063
  },
  "talks": {
   "2026-10-21": 109
@@ -164,34 +168,33 @@
  ],
  "last_review": 1793109877.0350306,
  "news": {
-  "t": 1793171709.1770802,
+  "t": 1793172624.2671375,
   "crypto": [
-   "Here\u2019s what happened in crypto today (1h ago)",
+   "Here\u2019s what happened in crypto today (2h ago)",
    "Bitcoin treasury Datavault AI plunges 50% after firm says it can\u2019t access its BTC (2h ago)",
    "Bithumb hacked through employee system as South Korean financial firms face cyberattacks (2h ago)",
    "Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8% (3h ago)",
-   "Robinhood\u2019s Tenev warns US tokenization uncertainty deters \u2018serious assets\u2019 (3h ago)",
+   "Robinhood\u2019s Tenev warns US tokenization uncertainty deters \u2018serious assets\u2019 (4h ago)",
    "Coinbase says user funds are safe after third-party vendor exposes customer contact info (4h ago)",
    "Bithumb discloses data leak after internal system breach: Report (5h ago)",
-   "Discord is making public chats searchable on Google: How to opt out (6h ago)",
+   "Discord is making public chats searchable on Google: How to opt out (7h ago)",
    "VanEck launches diversified ETF combining stocks, bonds and Bitcoin exposure (10h ago)",
    "Intel, IBM, Oracle and IonQ latest to object to OKX-ICE tokenized stocks (10h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP Annual Budget Release in 5.2h",
-   "USD Federal Funds Rate in 10.7h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement in 10.7h",
-   "USD FOMC Press Conference in 11.2h"
+   "GBP Annual Budget Release in 5.0h",
+   "USD Federal Funds Rate in 10.5h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement in 10.5h",
+   "USD FOMC Press Conference in 11.0h"
   ]
  },
  "spend": {
-  "2026-10-28": 0.015605
+  "2026-10-28": 0.016252
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-28 00:31 UTC [macro] 00:31 flat, no orders. Armed only: GBPUSD short 0.5% on closed hourly bar below 1.3300 (stop 1.3340, target 1.3240, max 8h), entry blocked within 1h of GBP budget (~12:30 UTC) and FOMC (~18:00 UTC). GOLD short 0.5% on cl",
   "2026-10-28 00:53 UTC [macro] 00:53 flat. Armed, not filled: GBPUSD short 0.5% on closed hourly bar below 1.3300 (stop 1.3340, target 1.3240, max 8h), blocked within 1h of GBP budget (~12:30 UTC) and FOMC (~18:00 UTC). GOLD short 0.5% on closed hourl",
   "2026-10-28 01:14 UTC [macro] 01:14 flat. Armed, not filled: GBPUSD short 0.5% on closed 1h bar below 1.3300 (stop 1.3340, target 1.3240, max 8h), blocked 11:30-13:30 and 17:00-19:00 UTC. GOLD short 0.5% on closed 1h bar below 4050 (stop 4090, target",
   "2026-10-28 01:35 UTC [macro] 01:35 flat, no orders. Still armed, not filled: GBPUSD short 0.5% on closed 1h bar below 1.3300 (stop 1.3340, target 1.3240, max 8h), blocked 11:30-13:30 and 17:00-19:00 UTC. GOLD short 0.5% on closed 1h bar below 4050 (",
@@ -210,8 +213,9 @@
   "2026-10-28 06:14 UTC [macro] Opened GBPUSD short per armed rule; verify 05:00 bar close <1.3300 is logged. Exit by 11:44 UTC, before GBP budget 12:30. No entries 11:30-13:30 or 17:00-19:00 UTC (FOMC ~18:00). Watch: gold short only on closed 1h bar b",
   "2026-10-28 06:35 UTC [macro] 06:35 hold GBPUSD short 989 (entry 1.32892, now 1.32843, stop 1.3340, target 1.3240). Time exit by 11:44 UTC, ahead of GBP budget ~12:35. No new entries 11:30-13:30 or 17:00-19:00 UTC. Watch: log the 05:00 closed-bar ver",
   "2026-10-28 06:56 UTC [macro] 06:56 hold GBPUSD short 989 (entry 1.32892, now 1.32793, stop 1.3340, target 1.3240, exit by 11:44 UTC). No new entries 11:30-13:30 or 17:00-19:00 UTC (FOMC ~18:00). Watch: gold short only on a verified closed 1h bar bel",
-  "2026-10-28 07:18 UTC [macro] 07:18 hold GBPUSD short 989 (entry 1.32892, now 1.32749, stop 1.3340, target 1.3240). Time exit by 11:44 UTC before GBP Budget (~12:24). No entries 11:30-13:30 or 17:00-19:00 UTC (FOMC ~18:00). Watch: GOLD short only on "
+  "2026-10-28 07:18 UTC [macro] 07:18 hold GBPUSD short 989 (entry 1.32892, now 1.32749, stop 1.3340, target 1.3240). Time exit by 11:44 UTC before GBP Budget (~12:24). No entries 11:30-13:30 or 17:00-19:00 UTC (FOMC ~18:00). Watch: GOLD short only on ",
+  "2026-10-28 07:39 UTC [macro] 07:39 hold GBPUSD short 989 (entry 1.32892, now 1.32855, stop 1.3340, target 1.3240, time exit 11:44 UTC). No new entries 11:30-13:30 or 17:00-19:00 UTC (FOMC ~18:00). Gold short still unarmed; needs verified closed 1h b"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1793171891.7247386
+ "last_macro_macro": 1793173169.1562388
 }
