@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-28 08:00 UTC. Runs so far: 37. Model: claude-haiku-5-5.
+Updated 2026-10-28 08:03 UTC. Runs so far: 37. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -22,6 +22,7 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: SIB long at 0.0003261, stop 0.00026088, target 0.00045654, opened 2026-10-28 07:51 UTC
 - control: DICTATOR long at 5.922e-05, stop 4.7376e-05, target 8.2908e-05, opened 2026-10-28 07:54 UTC
 - control: Grokbot long at 0.0001302, stop 0.00010416, target 0.00018228, opened 2026-10-28 08:00 UTC
+- control: Robotaxi long at 0.0002537, stop 0.00020296, target 0.00035518, opened 2026-10-28 08:03 UTC
 
 ## Team
 
@@ -34,11 +35,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-28 08:00 UTC team macro (gold/forex), spent today $0.017
-
-Lead: Hold 989. Price is flat at entry, the stop (1.3340) and target (1.3240) are unchanged, and the time exit of 11:44 UTC is still ahead of the GBP Budget release (~12:30). Skeptic: no new entry meets the pre-registered rules. Gold is unarmed (no verified closed 1h bar setup) and FOMC is at 18:00, which falls in the no-entry window. Scout: no new macro hypothesis passes the cost check. Sniper: no orders. Watch the 11:30-13:30 no-entry window and the Budget release for any early exit.
-
-{"orders": [], "close": [], "note": "08:00 hold GBPUSD short 989 (entry 1.32892, now 1.32887, stop 1.3340, target 1.3240, time exit 11:44 UTC before GBP Budget ~12:30). No new entries 11:30-13:30 or 17:00-19:00 UTC (FOMC 18:00). Gold short unarmed, needs a verified closed 1h bar setup; no gold orders."}
-
-- 2026-10-28 08:00 UTC control: OPENED Grokbot long at 0.0001302 (stop 0.00010416, target 0.00018228) - control: frozen v3 rules
+## Run ended 2026-10-28 08:03 UTC
 
