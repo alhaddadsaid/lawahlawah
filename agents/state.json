@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -14156.788632349972,
+   "cash": -14226.655972842707,
    "open": [
     {
      "id": 904,
@@ -51,21 +51,6 @@
      "size": 785854.6168958743,
      "deadline": 1793150129.8763905,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 952,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Stonkz",
-     "mint": "Hhnf3dZTBvhedKjFCNh8Ci23YLEQg1MKTzMTHUwruMmz",
-     "side": 1,
-     "opened": 1793144944.9157007,
-     "entry": 0.0001583,
-     "stop": 0.00012664,
-     "target": 0.00022161999999999998,
-     "size": 1263423.8787113077,
-     "deadline": 1793152144.9157007,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,13 +59,6 @@
  "runs": 36,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6sMPBJCEyUZUHsRohxcTzFVUznAeGmZPS9bRvp97VapR": 1793146023.5076768,
-  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793146023.5076768,
-  "seen:2nPPKzFCYDZLqHxJJdFJA1iV2V4ZqV9K6z8qSiYTpump": 1793146023.5076768,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793146206.674856,
-  "seen:FfR4XdDPVrRmq7SFhkaH4srv54uFnNW2wfi83eNPpump": 1793146206.674856,
-  "seen:AwYpgrsz17cA26UosYkHyX9dAhyx7ACZAR4BmneVpump": 1793146206.674856,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793146206.674856,
   "seen:GoMFQ9pRwuEcRGVGE8om8P1WWiJDvGoeLuQrezFZpump": 1793146388.7084508,
   "seen:B4XWhKBUon2Tam1fAM1Umy1Bx34V4opSh9kKspyMpump": 1793146388.7084508,
   "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793146388.7084508,
@@ -92,7 +70,12 @@
   "seen:4Feq6iXFqJtAQFruf3Je65pFXrr2bp3E8McUoa9Epump": 1793146755.069885,
   "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793146755.069885,
   "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793146755.069885,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793146755.069885
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793146755.069885,
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793146935.3316298,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793146935.3316298,
+  "seen:2nPPKzFCYDZLqHxJJdFJA1iV2V4ZqV9K6z8qSiYTpump": 1793146935.3316298,
+  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793147118.4539018,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793147118.4539018
  },
  "talks": {
   "2026-10-21": 109
@@ -155,12 +138,11 @@
   ]
  },
  "spend": {
-  "2026-10-27": 0.039982
+  "2026-10-28": 0.000669
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-27 17:05 UTC [macro] Flat 17:05. Watch list: GOLD short 1% only on failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs (5d low 3989.1). GBP budget release ~19.6h: pre-register GBPUSD entry, stop, ta",
   "2026-10-27 17:26 UTC [macro] 17:26 flat, no orders. Gold 4073.3, short still unarmed (needs failed rebound to ~4020, then hourly close <4000; stop ~4045, target 3980, max 8h; 5d low 3989.1). GBPUSD pre-reg after budget release (~19h): short 0.5% on ",
   "2026-10-27 17:47 UTC [macro] 17:47 flat. Gold 4077.9 above 4020 trigger; GOLD short 1% armed only on failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h (5d low 3989.1). GBP budget release in ~18.9h: pre-register GBPUSD ",
   "2026-10-27 18:09 UTC [macro] 18:09 flat. GOLD short 1% still unarmed: needs failed rebound to ~4020 then hourly close <4000; stop ~4045, target 3980, max 8h, net of costs; 5d low 3989.1. GBPUSD: pre-register before/at GBP budget release (~18h): leve",
@@ -179,8 +161,9 @@
   "2026-10-27 22:45 UTC [macro] Flat 22:44. No orders. Watch: GBPUSD short 0.5% only on hourly close <1.3300 (stop 1.3340, target 1.3240, max 8h), not before FOMC press conference (~18:45 UTC 10-28). Gold: restate trigger as a level (e.g. hourly close ",
   "2026-10-27 23:06 UTC [macro] Flat 23:06, no orders. Watch: GBPUSD short 0.5% only on hourly close <1.3300 (stop 1.3340, target 1.3240, max 8h), not within 1h of GBP budget (~12:30 UTC 10-28) or FOMC (~18:00-19:00 UTC 10-28). Gold: define trigger as ",
   "2026-10-27 23:27 UTC [macro] 23:27 flat, no orders. Watch: GBPUSD short 0.5% only on hourly close below 1.3300 (stop 1.3340, target 1.3240, max 8h), and not within 1h of GBP budget (~12:30 UTC 10-28) or FOMC (~18:00-19:00 UTC 10-28). Gold: define a ",
-  "2026-10-27 23:49 UTC [macro] 23:49 flat, no orders. Armed (closed hourly bar only): GBPUSD short 0.5% below 1.3300, stop 1.3340, target 1.3240, max 8h; GOLD short 0.5% below 4050, stop 4090, target 3990, max 12h. Both avoid 1h around GBP budget (~12"
+  "2026-10-27 23:49 UTC [macro] 23:49 flat, no orders. Armed (closed hourly bar only): GBPUSD short 0.5% below 1.3300, stop 1.3340, target 1.3240, max 8h; GOLD short 0.5% below 4050, stop 4090, target 3990, max 12h. Both avoid 1h around GBP budget (~12",
+  "2026-10-28 00:10 UTC [macro] 00:10 flat. Still armed, not filled: GOLD short 0.5% on closed hourly bar below 4050 (stop 4090, target 3990, max 12h). GBPUSD short 0.5% on closed hourly bar below 1.3300 (stop 1.3340, target 1.3240, max 8h). No entries"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1793144940.053167
+ "last_macro_macro": 1793146218.4582877
 }
