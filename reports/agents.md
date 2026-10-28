@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-28 10:47 UTC. Runs so far: 38. Model: claude-haiku-5-5.
+Updated 2026-10-28 10:59 UTC. Runs so far: 38. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 973 | 32 | -24767.57 | -34111.87 |
+| control | meme | 974 | 32 | -24825.69 | -34178.75 |
 | control | macro | 20 | 40 | -392.29 | -502.43 |
-| control | all | 993 | 32 | -25159.86 | -34614.3 |
+| control | all | 994 | 32 | -25217.98 | -34681.18 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
 - team: GBPUSD short at 1.32892, stop 1.334, target 1.324, opened 2026-10-28 06:14 UTC
-- control: OpenBot long at 0.0001544, stop 0.00012352, target 0.00021616, opened 2026-10-28 10:07 UTC
 - control: Frongus long at 0.0002264, stop 0.00018112, target 0.00031696, opened 2026-10-28 10:22 UTC
+- control: OpenBot long at 0.0001251, stop 0.00010008, target 0.00017514, opened 2026-10-28 10:59 UTC
 
 ## Team
 
@@ -32,5 +32,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order OpenBot REJECTED by guardrails: OpenBot already open
+- 2026-10-28 10:59 UTC control: OPENED OpenBot long at 0.0001251 (stop 0.00010008, target 0.00017514) - control: frozen v3 rules
 
