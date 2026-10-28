@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -15433.862732987225,
+   "cash": -15637.655715937788,
    "open": [
-    {
-     "id": 1014,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Frongus",
-     "mint": "2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump",
-     "side": 1,
-     "opened": 1793182946.5010629,
-     "entry": 0.0002264,
-     "stop": 0.00018112,
-     "target": 0.00031696,
-     "size": 883392.2261484099,
-     "deadline": 1793190146.501063,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1016,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "OpenBot",
-     "mint": "MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump",
-     "side": 1,
-     "opened": 1793186251.0526445,
-     "entry": 0.0001047,
-     "stop": 8.376e-05,
-     "target": 0.00014658,
-     "size": 1910219.6752626554,
-     "deadline": 1793193451.052645,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1017,
      "desk": "control",
@@ -53,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1020,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Robotaxi",
-     "mint": "6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump",
-     "side": 1,
-     "opened": 1793187906.8328373,
-     "entry": 0.0002039,
-     "stop": 0.00016312,
-     "target": 0.00028545999999999997,
-     "size": 980872.976949485,
-     "deadline": 1793195106.8328373,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1022,
      "desk": "control",
      "market": "macro",
@@ -81,32 +36,65 @@
      "size": 171333.44809980708,
      "deadline": 1793275216.6690233,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 1024,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "OpenBot",
+     "mint": "MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump",
+     "side": 1,
+     "opened": 1793190459.5851414,
+     "entry": 6.499e-05,
+     "stop": 5.1992e-05,
+     "target": 9.0986e-05,
+     "size": 3077396.5225419295,
+     "deadline": 1793197659.5851417,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1025,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Xingxing",
+     "mint": "Bivugv4GNFUiqUabDhvFcepDskTcgPk7EtExV4mvpump",
+     "side": 1,
+     "opened": 1793190644.422148,
+     "entry": 0.0001771,
+     "stop": 0.00014168,
+     "target": 0.00024794,
+     "size": 1129305.4771315642,
+     "deadline": 1793197844.4221485,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1023,
+ "next_id": 1026,
  "runs": 38,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HDwZkNNh8Bt9oPP51xrPwGyKxDUR2YorHiAHGuiypump": 1793190082.0650637,
-  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793190082.0650637,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793190082.0650637,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793190082.0650637,
-  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793190263.6593766,
-  "seen:AWvvUNraPXGSwRnRos81ScCdJ7TzkuenYxWfS37qASFV": 1793190263.6593766,
-  "seen:MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump": 1793190263.6593766,
-  "seen:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": 1793190263.6593766,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793190447.7096667,
-  "seen:JDAEYyQswqJga9NmhmL7F2Ruf1CFa6iuS9Kvj8neSTNK": 1793190447.7096667,
-  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793190447.7096667,
-  "seen:9rdw2ukP4gW5rQFS1RZrFdmpmB9tBFdngsYXP5NLpump": 1793190632.1564324,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793190632.1564324,
-  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793190632.1564324,
-  "seen:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793190632.1564324,
   "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793190817.7866678,
   "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793190817.7866678,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793190817.7866678
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793190817.7866678,
+  "seen:AJhdtuaVmgZkjPthpNAqvKQPmnephC5gV7v6fbjsR3Td": 1793190999.132371,
+  "seen:HDwZkNNh8Bt9oPP51xrPwGyKxDUR2YorHiAHGuiypump": 1793190999.132371,
+  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793190999.132371,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793190999.132371,
+  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793191180.1755066,
+  "seen:MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump": 1793191180.1755066,
+  "seen:AWvvUNraPXGSwRnRos81ScCdJ7TzkuenYxWfS37qASFV": 1793191180.1755066,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793191180.1755066,
+  "seen:28vWTtEwxoWp5MpHutAMSK5DeVf8xXk8jEEtbrtppump": 1793191180.1755066,
+  "control:HDwZkNNh8Bt9oPP51xrPwGyKxDUR2YorHiAHGuiypump": 1793191180.2557282,
+  "seen:EgN1z5Jkky8c7uo7wQdpVoP5PyHHckdihpvWyR5npump": 1793191359.4899065,
+  "seen:JDAEYyQswqJga9NmhmL7F2Ruf1CFa6iuS9Kvj8neSTNK": 1793191359.4899065,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793191359.4899065,
+  "control:MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump": 1793191359.5851445,
+  "seen:Bivugv4GNFUiqUabDhvFcepDskTcgPk7EtExV4mvpump": 1793191544.3481662,
+  "seen:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793191544.3481662,
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1793191544.3481662,
+  "control:Bivugv4GNFUiqUabDhvFcepDskTcgPk7EtExV4mvpump": 1793191544.4221513
  },
  "talks": {
   "2026-10-21": 109
@@ -147,25 +135,25 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793189182.0696456,
+  "t": 1793190099.1371582,
   "crypto": [
    "Dissent and more: 3 things to watch for at the Fed meeting (0h ago)",
    "XRP Ledger developers propose creating wallets with zero XRP for stablecoin payments (0h ago)",
    "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9% (1h ago)",
    "Settlement concerns prompt Euronext to halt CoinShares\u2019 Zcash ETP ahead of debut (1h ago)",
-   "Live updates: Bitcoin climbs above $81,000 as majors rally ahead of Fed decision (1h ago)",
+   "Live updates: Bitcoin edges higher ahead of Fed decision Wednesday afternoon. (1h ago)",
    "Mirae Asset Securities issues tokenized notes on Solana (1h ago)",
    "Google to preview crypto custody security system as AI threats grow (1h ago)",
-   "Nearly 90% of large businesses are embracing tokenized cash to speed up payments: DBS (1h ago)",
+   "Nearly 90% of large businesses are embracing tokenized cash to speed up payments: DBS (2h ago)",
    "Brazil\u2019s largest lender becomes first bank to formalize crypto brokerage under new rules (2h ago)",
    "Kospi surges 7% as SK Hynix earnings fuel AI stock rebound (2h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP Annual Budget Release in 0.4h",
-   "USD Federal Funds Rate in 5.9h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement in 5.9h",
-   "USD FOMC Press Conference in 6.4h"
+   "GBP Annual Budget Release in 0.1h",
+   "USD Federal Funds Rate in 5.6h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement in 5.6h",
+   "USD FOMC Press Conference in 6.1h"
   ]
  },
  "spend": {

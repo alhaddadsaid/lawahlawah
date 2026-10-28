@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-28 12:18 UTC. Runs so far: 38. Model: claude-haiku-5-5.
+Updated 2026-10-28 12:30 UTC. Runs so far: 38. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 978 | 32 | -25041.75 | -34430.29 |
+| control | meme | 982 | 32 | -25245.54 | -34669.89 |
 | control | macro | 20 | 40 | -392.29 | -502.43 |
-| control | all | 998 | 32 | -25434.04 | -34932.72 |
+| control | all | 1002 | 32 | -25637.83 | -35172.32 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: Frongus long at 0.0002264, stop 0.00018112, target 0.00031696, opened 2026-10-28 10:22 UTC
-- control: OpenBot long at 0.0001047, stop 8.376e-05, target 0.00014658, opened 2026-10-28 11:17 UTC
 - control: N64 long at 8.428e-05, stop 6.7424e-05, target 0.000117992, opened 2026-10-28 11:20 UTC
-- control: Robotaxi long at 0.0002039, stop 0.00016312, target 0.00028546, opened 2026-10-28 11:45 UTC
 - control: EURUSD long at 1.11321, stop 1.11263, target 1.11409, opened 2026-10-28 12:00 UTC
+- control: OpenBot long at 6.499e-05, stop 5.1992e-05, target 9.0986e-05, opened 2026-10-28 12:27 UTC
+- control: Xingxing long at 0.0001771, stop 0.00014168, target 0.00024794, opened 2026-10-28 12:30 UTC
 
 ## Team
 
@@ -34,11 +33,5 @@ API spend today: $0.03 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-28 12:18 UTC team macro (gold/forex), spent today $0.025
-
-Lead: No trade. We are flat, the GBP Budget release lands in about 0.4h, and our blackout runs 11:30-13:30 UTC. The journal is -$360 over 19 trades, with memecoin filters and gold longs failing costs. Scout and FX Scout have no pre-registered setup that clears 0.7-1.6 pips of round-trip cost. Skeptic: nothing to audit. Sniper stands by. We revisit after 13:30 UTC with fresh pre-registered FX levels, and we stay out of the 17:00-19:00 FOMC window.
-
-{"orders": [], "close": [], "note": "12:18 flat, no orders. Blackout to 13:30 (GBP Budget ~12:36) and 17:00-19:00 (FOMC 18:00). Watch after 13:30: GBPUSD short only if a closed 1h bar holds below 1.3274 (5d low), stop 1.3340, target 1.3240, max 4h, need >15 pips edge to beat costs. EURUSD: no setup; 5d low 1.11173. Gold: unarmed (4062, 5d low 3989). Memecoin filters: retire until a tested edge exists."}
-
-- control: order Stonker REJECTED by guardrails: desk already has the maximum open positions
+- 2026-10-28 12:30 UTC control: OPENED Xingxing long at 0.0001771 (stop 0.00014168, target 0.00024794) - control: frozen v3 rules
 
