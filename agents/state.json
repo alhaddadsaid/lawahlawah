@@ -22,7 +22,7 @@
    ]
   },
   "control": {
-   "cash": -14458.876404196462,
+   "cash": -14509.914208193573,
    "open": [
     {
      "id": 987,
@@ -83,21 +83,6 @@
      "size": 1057082.4524312897,
      "deadline": 1793177993.1252704,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 995,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DORA",
-     "mint": "DDgEb1AyoqR81NNTJX44AgpfYkbnWAegf4BrxP1Bpump",
-     "side": 1,
-     "opened": 1793171524.6029637,
-     "entry": 8.306e-05,
-     "stop": 6.6448e-05,
-     "target": 0.00011628399999999999,
-     "size": 2407897.9051288227,
-     "deadline": 1793178724.602964,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -106,11 +91,6 @@
  "runs": 37,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793171692.7661579,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793171692.7661579,
-  "control:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793171693.125274,
-  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793171877.08532,
-  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793171877.08532,
   "seen:835qApBwFrEAVkEoUW6D57oW8n2mW2btvfGKib8qV7XY": 1793172059.6102433,
   "seen:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": 1793172059.6102433,
   "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793172059.6102433,
@@ -121,7 +101,13 @@
   "seen:DeWVeBKyhXWuHqw7c1NcdeMFPsEXNheBdkTejDY6B97R": 1793172424.5809174,
   "seen:6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump": 1793172424.5809174,
   "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793172424.5809174,
-  "control:DDgEb1AyoqR81NNTJX44AgpfYkbnWAegf4BrxP1Bpump": 1793172424.602967
+  "control:DDgEb1AyoqR81NNTJX44AgpfYkbnWAegf4BrxP1Bpump": 1793172424.602967,
+  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793172609.1717563,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793172609.1717563,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793172609.1717563,
+  "seen:9k8wLZtYRVBq9anXGZeUhTMrqt467dwTC92NiMExKWiG": 1793172791.7195191,
+  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793172791.7195191,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793172791.7195191
  },
  "talks": {
   "2026-10-21": 109
@@ -162,7 +148,7 @@
  ],
  "last_review": 1793109877.0350306,
  "news": {
-  "t": 1793170792.771393,
+  "t": 1793171709.1770802,
   "crypto": [
    "Here\u2019s what happened in crypto today (1h ago)",
    "Bitcoin treasury Datavault AI plunges 50% after firm says it can\u2019t access its BTC (2h ago)",
@@ -177,19 +163,18 @@
   ],
   "macro": [],
   "calendar": [
-   "GBP Annual Budget Release in 5.5h",
-   "USD Federal Funds Rate in 11.0h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement in 11.0h",
-   "USD FOMC Press Conference in 11.5h"
+   "GBP Annual Budget Release in 5.2h",
+   "USD Federal Funds Rate in 10.7h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement in 10.7h",
+   "USD FOMC Press Conference in 11.2h"
   ]
  },
  "spend": {
-  "2026-10-28": 0.014961
+  "2026-10-28": 0.015605
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-28 00:10 UTC [macro] 00:10 flat. Still armed, not filled: GOLD short 0.5% on closed hourly bar below 4050 (stop 4090, target 3990, max 12h). GBPUSD short 0.5% on closed hourly bar below 1.3300 (stop 1.3340, target 1.3240, max 8h). No entries",
   "2026-10-28 00:31 UTC [macro] 00:31 flat, no orders. Armed only: GBPUSD short 0.5% on closed hourly bar below 1.3300 (stop 1.3340, target 1.3240, max 8h), entry blocked within 1h of GBP budget (~12:30 UTC) and FOMC (~18:00 UTC). GOLD short 0.5% on cl",
   "2026-10-28 00:53 UTC [macro] 00:53 flat. Armed, not filled: GBPUSD short 0.5% on closed hourly bar below 1.3300 (stop 1.3340, target 1.3240, max 8h), blocked within 1h of GBP budget (~12:30 UTC) and FOMC (~18:00 UTC). GOLD short 0.5% on closed hourl",
   "2026-10-28 01:14 UTC [macro] 01:14 flat. Armed, not filled: GBPUSD short 0.5% on closed 1h bar below 1.3300 (stop 1.3340, target 1.3240, max 8h), blocked 11:30-13:30 and 17:00-19:00 UTC. GOLD short 0.5% on closed 1h bar below 4050 (stop 4090, target",
@@ -208,8 +193,9 @@
   "2026-10-28 05:52 UTC [macro] 05:52 flat, no orders. GBPUSD short still armed only on a verified closed 1h bar below 1.3300 (stop 1.3340, target 1.3240, max hold 7.5h, exit before ~12:36 UTC, no entries 11:30-13:30 or 17:00-19:00 UTC). Live 1.3292 is",
   "2026-10-28 06:14 UTC [macro] Opened GBPUSD short per armed rule; verify 05:00 bar close <1.3300 is logged. Exit by 11:44 UTC, before GBP budget 12:30. No entries 11:30-13:30 or 17:00-19:00 UTC (FOMC ~18:00). Watch: gold short only on closed 1h bar b",
   "2026-10-28 06:35 UTC [macro] 06:35 hold GBPUSD short 989 (entry 1.32892, now 1.32843, stop 1.3340, target 1.3240). Time exit by 11:44 UTC, ahead of GBP budget ~12:35. No new entries 11:30-13:30 or 17:00-19:00 UTC. Watch: log the 05:00 closed-bar ver",
-  "2026-10-28 06:56 UTC [macro] 06:56 hold GBPUSD short 989 (entry 1.32892, now 1.32793, stop 1.3340, target 1.3240, exit by 11:44 UTC). No new entries 11:30-13:30 or 17:00-19:00 UTC (FOMC ~18:00). Watch: gold short only on a verified closed 1h bar bel"
+  "2026-10-28 06:56 UTC [macro] 06:56 hold GBPUSD short 989 (entry 1.32892, now 1.32793, stop 1.3340, target 1.3240, exit by 11:44 UTC). No new entries 11:30-13:30 or 17:00-19:00 UTC (FOMC ~18:00). Watch: gold short only on a verified closed 1h bar bel",
+  "2026-10-28 07:18 UTC [macro] 07:18 hold GBPUSD short 989 (entry 1.32892, now 1.32749, stop 1.3340, target 1.3240). Time exit by 11:44 UTC before GBP Budget (~12:24). No entries 11:30-13:30 or 17:00-19:00 UTC (FOMC ~18:00). Watch: GOLD short only on "
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1793170610.9499106
+ "last_macro_macro": 1793171891.7247386
 }
