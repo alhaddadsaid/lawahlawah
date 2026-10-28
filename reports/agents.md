@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-28 12:09 UTC. Runs so far: 38. Model: claude-haiku-5-5.
+Updated 2026-10-28 12:18 UTC. Runs so far: 38. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -25,7 +25,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Team
 
-API spend today: $0.02 (cap $3, aiming for about $1.50)
+API spend today: $0.03 (cap $3, aiming for about $1.50)
 - Lead (team lead and analyst, mission all): Decide what the team trades. Weigh every idea against costs and the journal. Look for repeatable edges, not one-off bets.
 - Scout (researcher, mission macro): Bring ideas from prices, news, the economic calendar and politics. State each idea as a testable hypothesis.
 - Sniper (execution, mission macro): Turn approved ideas into exact orders: size, optional stop and target, holding time, and early exits.
@@ -34,5 +34,11 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order OpenBot REJECTED by guardrails: desk already has the maximum open positions
+### 2026-10-28 12:18 UTC team macro (gold/forex), spent today $0.025
+
+Lead: No trade. We are flat, the GBP Budget release lands in about 0.4h, and our blackout runs 11:30-13:30 UTC. The journal is -$360 over 19 trades, with memecoin filters and gold longs failing costs. Scout and FX Scout have no pre-registered setup that clears 0.7-1.6 pips of round-trip cost. Skeptic: nothing to audit. Sniper stands by. We revisit after 13:30 UTC with fresh pre-registered FX levels, and we stay out of the 17:00-19:00 FOMC window.
+
+{"orders": [], "close": [], "note": "12:18 flat, no orders. Blackout to 13:30 (GBP Budget ~12:36) and 17:00-19:00 (FOMC 18:00). Watch after 13:30: GBPUSD short only if a closed 1h bar holds below 1.3274 (5d low), stop 1.3340, target 1.3240, max 4h, need >15 pips edge to beat costs. EURUSD: no setup; 5d low 1.11173. Gold: unarmed (4062, 5d low 3989). Memecoin filters: retire until a tested edge exists."}
+
+- control: order Stonker REJECTED by guardrails: desk already has the maximum open positions
 
