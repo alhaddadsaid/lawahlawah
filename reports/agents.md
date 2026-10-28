@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-28 04:09 UTC. Runs so far: 37. Model: claude-haiku-5-5.
+Updated 2026-10-28 04:19 UTC. Runs so far: 37. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 933 | 32 | -24121.75 | -33072.33 |
+| control | meme | 936 | 32 | -24174.5 | -33154.5 |
 | control | macro | 18 | 44 | -152.98 | -251.79 |
-| control | all | 951 | 32 | -24274.73 | -33324.12 |
+| control | all | 954 | 32 | -24327.48 | -33406.29 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GOLD long at 4065, stop 4051.11, target 4085.83, opened 2026-10-27 15:00 UTC
-- control: Frongus long at 0.000233, stop 0.0001864, target 0.0003262, opened 2026-10-28 03:41 UTC
 - control: FRONGUS long at 0.0001282, stop 0.00010256, target 0.00017948, opened 2026-10-28 03:47 UTC
-- control: PRIVACY long at 7.219e-05, stop 5.7752e-05, target 0.000101066, opened 2026-10-28 03:56 UTC
 - control: DICTATOR long at 9.435e-05, stop 7.548e-05, target 0.00013209, opened 2026-10-28 03:59 UTC
 
 ## Team
@@ -34,5 +32,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order Robotaxi REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED Robotaxi (target) P&L $68.0 normal, $56.0 pessimistic
 
