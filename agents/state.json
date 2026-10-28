@@ -22,7 +22,7 @@
    ]
   },
   "control": {
-   "cash": -15091.923684351592,
+   "cash": -15146.60318124506,
    "open": [
     {
      "id": 1002,
@@ -37,21 +37,6 @@
      "target": 0.00026305999999999996,
      "size": 1064395.95529537,
      "deadline": 1793182829.2247295,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1011,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CA",
-     "mint": "HfPVTUsSd55Aab6BACWCy6dXo5pQgTUFnyGzgspFpump",
-     "side": 1,
-     "opened": 1793181664.7420366,
-     "entry": 6.599e-05,
-     "stop": 5.2792000000000005e-05,
-     "target": 9.238599999999999e-05,
-     "size": 3030762.2367025306,
-     "deadline": 1793188864.7420368,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -76,13 +61,6 @@
  "runs": 38,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HfPVTUsSd55Aab6BACWCy6dXo5pQgTUFnyGzgspFpump": 1793182201.0029998,
-  "seen:28vWTtEwxoWp5MpHutAMSK5DeVf8xXk8jEEtbrtppump": 1793182201.0029998,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793182384.8194706,
-  "control:JZmhMR5Zu1bRmeaERNGE31eExKVBJDQVJGYay8fZU3v": 1793182384.881422,
-  "seen:Fssj2wrrsEQ59oibUcTJihfFiC8ui1G1oQ3HxYR8pump": 1793182564.687677,
-  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1793182564.687677,
-  "control:HfPVTUsSd55Aab6BACWCy6dXo5pQgTUFnyGzgspFpump": 1793182564.7420402,
   "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793182748.8174655,
   "seen:MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump": 1793182748.8174655,
   "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793182748.8174655,
@@ -95,7 +73,20 @@
   "seen:AWvvUNraPXGSwRnRos81ScCdJ7TzkuenYxWfS37qASFV": 1793182933.4597127,
   "seen:9fpMjtrTD7aYZ5GVjtMS2bi2LsucoSmEqsCMyB8dpump": 1793182933.4597127,
   "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793182933.4597127,
-  "control:MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump": 1793182933.520143
+  "control:MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump": 1793182933.520143,
+  "seen:HfPVTUsSd55Aab6BACWCy6dXo5pQgTUFnyGzgspFpump": 1793183114.0785575,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793183114.0785575,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793183114.0785575,
+  "seen:28vWTtEwxoWp5MpHutAMSK5DeVf8xXk8jEEtbrtppump": 1793183114.0785575,
+  "seen:6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump": 1793183114.0785575,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793183297.0928395,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793183297.0928395,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793183297.0928395,
+  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793183297.0928395,
+  "seen:86e1QCeY94pSmtEHsMCJYpCTj94JFaJV2RN6iFR76eKv": 1793183481.7275934,
+  "seen:APSMPy6ksF1jVU7xMJ8aHWXfUTeYX3nLA3S7XQXivdVD": 1793183481.7275934,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793183481.7275934,
+  "seen:JZmhMR5Zu1bRmeaERNGE31eExKVBJDQVJGYay8fZU3v": 1793183481.7275934
  },
  "talks": {
   "2026-10-21": 109
@@ -158,12 +149,11 @@
   ]
  },
  "spend": {
-  "2026-10-28": 0.019967
+  "2026-10-28": 0.020626
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-28 03:01 UTC [macro] 03:01 flat, no orders. Still armed, not filled: GBPUSD short 0.5% on closed 1h bar below 1.3300 (stop 1.3340, target 1.3240, max 8h), blocked 11:30-13:30 and 17:00-19:00 UTC. GOLD short 0.5% on closed 1h bar below 4050 (",
   "2026-10-28 03:23 UTC [macro] 03:23 flat, no orders. Still armed, not filled: GBPUSD short 0.5% on closed 1h bar below 1.3300 (stop 1.3340, target 1.3240, max 8h), blocked 11:30-13:30 and 17:00-19:00 UTC. GOLD short 0.5% on closed 1h bar below 4050 (",
   "2026-10-28 03:44 UTC [macro] 03:44 flat, no orders. Still armed, not filled: GBPUSD short 0.5% on closed 1h bar below 1.3300 (stop 1.3340, target 1.3240, max 8h), blocked 11:30-13:30 and 17:00-19:00 UTC (GBP budget ~12:30, FOMC ~18:00). GOLD short 0",
   "2026-10-28 04:06 UTC [macro] Flat. GBPUSD short still armed: closed 1h bar below 1.3300 (stop 1.3340, target 1.3240, max 8h, but cap exit before GBP budget ~12:42 UTC). Verify the 04:00 closed-bar print before entry; price 1.32982 alone is not enoug",
@@ -182,8 +172,9 @@
   "2026-10-28 08:44 UTC [macro] 08:44 hold GBPUSD short 989 (entry 1.32892, now 1.32943, stop 1.3340, target 1.3240, time exit 11:44 UTC). No new orders. Blackouts 11:30-13:30 and 17:00-19:00 UTC. Watch: gold short only on a verified closed 1h bar belo",
   "2026-10-28 09:06 UTC [macro] Hold GBPUSD short 989 (entry 1.32892, stop 1.3340, target 1.3240, time exit 11:44 UTC). No new orders. Blackouts 11:30-13:30 and 17:00-19:00 UTC. Gold short only after a verified closed 1h bar below the trigger; memecoin",
   "2026-10-28 09:27 UTC [macro] Hold GBPUSD short 989 (entry 1.32892, stop 1.3340, target 1.3240, time exit 11:44 UTC). No new orders. Blackouts 11:30-13:30 and 17:00-19:00 UTC. Next: gold short only after a verified closed 1h bar below the trigger; no",
-  "2026-10-28 09:49 UTC [macro] Hold GBPUSD short 989 (entry 1.32892, stop 1.3340, target 1.3240, time exit 11:44 UTC). No new orders. Blackouts 11:30-13:30 and 17:00-19:00 UTC. Gold short not armed (4067 vs 5d low 3989); only consider after a verified"
+  "2026-10-28 09:49 UTC [macro] Hold GBPUSD short 989 (entry 1.32892, stop 1.3340, target 1.3240, time exit 11:44 UTC). No new orders. Blackouts 11:30-13:30 and 17:00-19:00 UTC. Gold short not armed (4067 vs 5d low 3989); only consider after a verified",
+  "2026-10-28 10:10 UTC [macro] 10:10 hold GBPUSD short 989 (entry 1.32892, now 1.32841, stop 1.3340, target 1.3240, time exit 11:44 UTC before GBP Budget). No new orders. Blackouts 11:30-13:30 and 17:00-19:00 UTC (FOMC 18:00). Gold short unarmed (4068"
  ],
  "reviewed_streak_at": 18,
- "last_macro_macro": 1793180938.1087718
+ "last_macro_macro": 1793182214.0829854
 }
