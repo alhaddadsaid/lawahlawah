@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -15743.959147279123,
+   "cash": -15675.959147279123,
    "open": [
-    {
-     "id": 1039,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "e/acc",
-     "mint": "CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU",
-     "side": 1,
-     "opened": 1793204236.413026,
-     "entry": 0.000504,
-     "stop": 0.00040320000000000004,
-     "target": 0.0007055999999999999,
-     "size": 396825.3968253968,
-     "deadline": 1793211436.4130263,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1043,
      "desk": "control",
@@ -89,31 +74,29 @@
  "runs": 39,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793210265.224795,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793210265.224795,
-  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793210265.224795,
-  "seen:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793210265.224795,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793210265.224795,
-  "seen:Pmfm2RprxQRKZH1XWVsBUc2KgCTyzeDTSFbT1vJmogz": 1793210265.224795,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793210265.224795,
-  "control:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793210269.264732,
-  "seen:7E4MYviyWZXiBXE7QcKSLWqUR2WdMLzggVossP3Rbonk": 1793210448.784422,
-  "seen:37yGBGNuPn2rBYwJLp1Kampjjv1yEubzaTB1nbUtpump": 1793210448.784422,
-  "seen:ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump": 1793210448.784422,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793210448.784422,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793210448.784422,
-  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793210627.8721895,
-  "seen:2yZj64KttMQcTk2CCKoYx5aqCtFFFo9oZUwEMSDspump": 1793210810.6135406,
-  "seen:GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6": 1793210810.6135406,
   "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793210993.5198228,
   "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793210993.5198228,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793210993.5198228
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793210993.5198228,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793211179.0755231,
+  "seen:BwHQ4QcooRU1D8Dp7JtQjWsZWeqEQjGpy93jFeS7pump": 1793211179.0755231,
+  "seen:2jzKCyzPDfx6TNem1f1AUdz4UxSCUzkxUmSHRbKbpump": 1793211179.0755231,
+  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793211179.0755231,
+  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793211179.0755231,
+  "seen:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793211179.0755231,
+  "seen:688wuzgmb5VxNUbSGzos867MRTUcjDqdxHkruRsopump": 1793211362.391939,
+  "seen:37yGBGNuPn2rBYwJLp1Kampjjv1yEubzaTB1nbUtpump": 1793211362.391939,
+  "seen:ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump": 1793211362.391939,
+  "seen:6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump": 1793211544.8482957,
+  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793211544.8482957,
+  "seen:Vbj43iug1XjeuLs1MZAMZ8PYG3QBjxZtfHPEM7zpump": 1793211726.893729,
+  "seen:GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6": 1793211726.893729,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793211726.893729
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498111,
+ "ctrl_macro_hour": 498114,
  "team": [
   {
    "name": "Lead",
@@ -148,7 +131,7 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793209365.230176,
+  "t": 1793210279.0809348,
   "crypto": [
    "Crypto PAC spending before midterms possibly obscured after reported FEC hack (1h ago)",
    "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55% (1h ago)",
@@ -158,28 +141,27 @@
    "Google Cloud outlines MPC service for institutional Bitcoin custody (4h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
    "Cybersecurity\u2019s Black October: How to protect yourself (4h ago)",
-   "DTCC unit launches tokenization services (4h ago)",
-   "Wall Street backbone DTCC brings $30 trillion securities closer to blockchain with major banks (4h ago)"
+   "DTCC unit launches tokenization services (5h ago)",
+   "Wall Street backbone DTCC brings $30 trillion securities closer to blockchain with major banks (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Federal Funds Rate in 0.3h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement in 0.3h",
-   "USD FOMC Press Conference in 0.8h",
-   "USD Advance GDP q/q in 18.8h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 18.8h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 19.5h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 19.5h",
-   "EUR ECB Press Conference in 20.0h"
+   "USD Federal Funds Rate in 0.0h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement in 0.0h",
+   "USD FOMC Press Conference in 0.5h",
+   "USD Advance GDP q/q in 18.5h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m in 18.5h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 19.3h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 19.3h",
+   "EUR ECB Press Conference in 19.8h"
   ]
  },
  "spend": {
-  "2026-10-28": 0.032336
+  "2026-10-28": 0.033057
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-28 09:06 UTC [macro] Hold GBPUSD short 989 (entry 1.32892, stop 1.3340, target 1.3240, time exit 11:44 UTC). No new orders. Blackouts 11:30-13:30 and 17:00-19:00 UTC. Gold short only after a verified closed 1h bar below the trigger; memecoin",
   "2026-10-28 09:27 UTC [macro] Hold GBPUSD short 989 (entry 1.32892, stop 1.3340, target 1.3240, time exit 11:44 UTC). No new orders. Blackouts 11:30-13:30 and 17:00-19:00 UTC. Next: gold short only after a verified closed 1h bar below the trigger; no",
   "2026-10-28 09:49 UTC [macro] Hold GBPUSD short 989 (entry 1.32892, stop 1.3340, target 1.3240, time exit 11:44 UTC). No new orders. Blackouts 11:30-13:30 and 17:00-19:00 UTC. Gold short not armed (4067 vs 5d low 3989); only consider after a verified",
   "2026-10-28 10:10 UTC [macro] 10:10 hold GBPUSD short 989 (entry 1.32892, now 1.32841, stop 1.3340, target 1.3240, time exit 11:44 UTC before GBP Budget). No new orders. Blackouts 11:30-13:30 and 17:00-19:00 UTC (FOMC 18:00). Gold short unarmed (4068",
@@ -198,8 +180,9 @@
   "2026-10-28 16:38 UTC [macro] 16:38 UTC: flat, no orders; FOMC blackout 17:00-19:00. Watch after 19:00 (earliest closed 1h bar 20:00): GBPUSD short only if a closed 1h bar closes below 1.3274; entry ~1.3270, stop 1.3310, target 1.3220, max 4h, skip i",
   "2026-10-28 17:00 UTC [macro] 16:59 flat through FOMC blackout. Watch after 19:00 (earliest closed 1h bar 20:00): GBPUSD short only if a closed 1h bar closes below 1.3274; entry ~1.3270, stop 1.3310, target 1.3220, max 4h; skip if net edge after cost",
   "2026-10-28 17:21 UTC [macro] 17:21 flat, no orders. Blackout until 19:00 (FOMC decision and presser). Watch GBPUSD short only after a closed 1h bar below 1.3274 (earliest 20:00 close): entry ~1.3270, stop 1.3310, target 1.3220, max 4h, skip if net e",
-  "2026-10-28 17:42 UTC [macro] 17:42 flat, no orders. FOMC blackout to 19:00. Watch: GBPUSD short only after a closed 1h bar below 1.3274 (earliest 20:00 close). Entry ~1.3270, stop 1.3310, target 1.3220, max 4h; skip if net edge after ~1.2 pips cost "
+  "2026-10-28 17:42 UTC [macro] 17:42 flat, no orders. FOMC blackout to 19:00. Watch: GBPUSD short only after a closed 1h bar below 1.3274 (earliest 20:00 close). Entry ~1.3270, stop 1.3310, target 1.3220, max 4h; skip if net edge after ~1.2 pips cost ",
+  "2026-10-28 18:04 UTC [macro] 18:04 flat. FOMC decision at 18:00, presser ~18:30-18:35, blackout to 19:00. GBPUSD 1.33071 above trigger. Watch: GBPUSD short only if a closed 1h bar (earliest 20:00) closes below 1.3274; entry ~1.3270, stop 1.3310 (40 "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793209365.230124
+ "last_macro_macro": 1793210644.8536296
 }

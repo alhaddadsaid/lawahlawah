@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-28 17:54 UTC. Runs so far: 39. Model: claude-haiku-5-5.
+Updated 2026-10-28 18:07 UTC. Runs so far: 39. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,15 +9,14 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 999 | 32 | -25775.46 | -35360.57 |
+| control | meme | 1000 | 32 | -25707.46 | -35304.57 |
 | control | macro | 23 | 48 | 31.31 | -98.04 |
-| control | all | 1022 | 32 | -25744.15 | -35458.61 |
+| control | all | 1023 | 32 | -25676.15 | -35402.61 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: e/acc long at 0.000504, stop 0.0004032, target 0.0007056, opened 2026-10-28 16:17 UTC
 - control: MOGZBOT long at 2.347e-06, stop 1.8776e-06, target 3.2858e-06, opened 2026-10-28 16:50 UTC
 - control: Nothing long at 0.0002462, stop 0.00019696, target 0.00034468, opened 2026-10-28 17:03 UTC
 - control: Frongus long at 0.0001197, stop 9.576e-05, target 0.00016758, opened 2026-10-28 17:15 UTC
@@ -34,5 +33,5 @@ API spend today: $0.03 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order HERMIT REJECTED by guardrails: desk already has the maximum open positions
+- control: order Something REJECTED by guardrails: Something already open
 
