@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -15937.72604450977,
+   "cash": -15792.711794293713,
    "open": [
-    {
-     "id": 1030,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "GOLD",
-     "mint": "",
-     "side": -1,
-     "opened": 1793192474.3127193,
-     "entry": 4067.60009765625,
-     "stop": 4077.628679547991,
-     "target": 4052.5572248186386,
-     "size": 9.971499567885585,
-     "deadline": 1793278874.31272,
-     "thesis": "control: random direction"
-    },
     {
      "id": 1036,
      "desk": "control",
@@ -59,15 +44,6 @@
  "runs": 39,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793203850.2329237,
-  "seen:EFUwoW2EW5qEinEyVFzqo9SAxtFiPA8AhEBnSxeCpump": 1793203850.2329237,
-  "seen:6EKmRQYzAXh5t6t1XNe2chYqmdSHgd32uA7xki9upump": 1793203850.2329237,
-  "seen:8sooQVq6sRjV1jHxdCk53VZ9fxna8WitKKzAFs1xX9wP": 1793203850.2329237,
-  "seen:FTroE9dZf68TjWGuLxSGkrw8vY9Wt2ietqqrVnpVJWjd": 1793203850.2329237,
-  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793203850.2329237,
-  "seen:6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump": 1793203850.2329237,
-  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793203850.2329237,
-  "control:GBPUSD": 1793203856.2673774,
   "seen:ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump": 1793204033.9363017,
   "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793204033.9363017,
   "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793204033.9363017,
@@ -78,7 +54,15 @@
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793204216.413686,
   "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793204216.413686,
   "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793204216.413686,
-  "control:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793204216.4500995
+  "control:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793204216.4500995,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793204399.7284076,
+  "seen:BRdq4DfKhMETcXiAqKRsWaq8gfngizfUeMtpu1Rdt6r4": 1793204584.4393601,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793204584.4393601,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793204767.797709,
+  "seen:8sooQVq6sRjV1jHxdCk53VZ9fxna8WitKKzAFs1xX9wP": 1793204767.797709,
+  "seen:6EKmRQYzAXh5t6t1XNe2chYqmdSHgd32uA7xki9upump": 1793204767.797709,
+  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793204767.797709,
+  "seen:6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump": 1793204767.797709
  },
  "talks": {
   "2026-10-21": 109
@@ -119,29 +103,29 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793202950.2380607,
+  "t": 1793203867.802721,
   "crypto": [
+   "Crypto Long & Short: What happens when an AI agent pays for the wrong thing (0h ago)",
    "Google Cloud outlines MPC service for institutional Bitcoin custody (2h ago)",
-   "Here\u2019s what happened in crypto today (2h ago)",
-   "Cybersecurity\u2019s Black October: How to protect yourself (2h ago)",
+   "Here\u2019s what happened in crypto today (3h ago)",
+   "Cybersecurity\u2019s Black October: How to protect yourself (3h ago)",
    "DTCC unit launches tokenization services (3h ago)",
    "Wall Street backbone DTCC brings $30 trillion securities closer to blockchain with major banks (3h ago)",
    "JPMorgan, Coca-Cola, Dell also say 'no' to OKX-ICE tokenized tock trading plan (3h ago)",
    "Dissent and more: 3 things to watch for at the Fed meeting (4h ago)",
    "XRP Ledger developers propose creating wallets with zero XRP for stablecoin payments (4h ago)",
-   "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9% (4h ago)",
-   "Settlement concerns prompt Euronext to halt CoinShares\u2019 Zcash ETP ahead of debut (5h ago)"
+   "Bitcoin rebounds above $81,000 as Asian chip rally spills into crypto, pepe jumps 9% (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Federal Funds Rate in 2.1h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement in 2.1h",
-   "USD FOMC Press Conference in 2.6h",
-   "USD Advance GDP q/q in 20.6h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 20.6h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 21.3h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 21.3h",
-   "EUR ECB Press Conference in 21.8h"
+   "USD Federal Funds Rate in 1.8h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement in 1.8h",
+   "USD FOMC Press Conference in 2.3h",
+   "USD Advance GDP q/q in 20.3h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m in 20.3h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 21.1h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 21.1h",
+   "EUR ECB Press Conference in 21.6h"
   ]
  },
  "spend": {
