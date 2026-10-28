@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -14216.508451025264,
+   "cash": -14274.54057953932,
    "open": [
     {
      "id": 904,
@@ -51,34 +51,63 @@
      "size": 1560062.4024961,
      "deadline": 1793166453.647015,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 973,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PRIVACY",
+     "mint": "J4BcBzEN6xybbLftX1nXxXVhVBdeoocDhLVoweVo6Wgk",
+     "side": 1,
+     "opened": 1793159803.76598,
+     "entry": 7.219e-05,
+     "stop": 5.7752000000000005e-05,
+     "target": 0.00010106599999999998,
+     "size": 2770466.823659787,
+     "deadline": 1793167003.7659802,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 974,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "DICTATOR",
+     "mint": "7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump",
+     "side": 1,
+     "opened": 1793159986.9035869,
+     "entry": 9.435e-05,
+     "stop": 7.548e-05,
+     "target": 0.00013209,
+     "size": 2119766.8256491786,
+     "deadline": 1793167186.903587,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 972,
+ "next_id": 975,
  "runs": 37,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793159424.5347,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793159424.5347,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793159424.5347,
-  "control:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793159424.558855,
-  "seen:2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr": 1793159607.4151738,
-  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793159607.4151738,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793159607.4151738,
-  "control:J4BcBzEN6xybbLftX1nXxXVhVBdeoocDhLVoweVo6Wgk": 1793159608.1287644,
-  "seen:Fssj2wrrsEQ59oibUcTJihfFiC8ui1G1oQ3HxYR8pump": 1793159787.9291244,
-  "seen:2nPPKzFCYDZLqHxJJdFJA1iV2V4ZqV9K6z8qSiYTpump": 1793159787.9291244,
-  "control:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": 1793159787.9725475,
-  "seen:4veRZzp7e6tT6FxKL81CZpHPVZrgjj2LUh8FFf6mpump": 1793159970.8588731,
-  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793159970.8588731,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793159970.8588731,
-  "seen:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": 1793159970.8588731,
-  "seen:MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump": 1793159970.8588731,
   "seen:BpRPVFVhGN5Pf1HpXpqYuESGwAj52ETreJbmkpLFpump": 1793160153.6012218,
   "seen:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793160153.6012218,
   "seen:EKZGtEsT2VbXH6car15x2zMHyeiYkB28DvMnBZqRpump": 1793160153.6012218,
-  "control:2nPPKzFCYDZLqHxJJdFJA1iV2V4ZqV9K6z8qSiYTpump": 1793160153.6470182
+  "control:2nPPKzFCYDZLqHxJJdFJA1iV2V4ZqV9K6z8qSiYTpump": 1793160153.6470182,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793160337.775195,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793160337.775195,
+  "seen:J4BcBzEN6xybbLftX1nXxXVhVBdeoocDhLVoweVo6Wgk": 1793160337.775195,
+  "seen:2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr": 1793160520.1986825,
+  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793160520.1986825,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793160520.1986825,
+  "control:4veRZzp7e6tT6FxKL81CZpHPVZrgjj2LUh8FFf6mpump": 1793160520.702918,
+  "seen:Fssj2wrrsEQ59oibUcTJihfFiC8ui1G1oQ3HxYR8pump": 1793160703.6643362,
+  "seen:2nPPKzFCYDZLqHxJJdFJA1iV2V4ZqV9K6z8qSiYTpump": 1793160703.6643362,
+  "control:J4BcBzEN6xybbLftX1nXxXVhVBdeoocDhLVoweVo6Wgk": 1793160703.765984,
+  "seen:4veRZzp7e6tT6FxKL81CZpHPVZrgjj2LUh8FFf6mpump": 1793160886.8546255,
+  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793160886.8546255,
+  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793160886.8546255,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793160886.8546255,
+  "control:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793160886.9035897
  },
  "talks": {
   "2026-10-21": 109
@@ -119,10 +148,10 @@
  ],
  "last_review": 1793109877.0350306,
  "news": {
-  "t": 1793158707.4201846,
+  "t": 1793159620.2037416,
   "crypto": [
-   "Coinbase says user funds are safe after third-party vendor exposes customer contact info (0h ago)",
-   "Bithumb discloses data leak after internal system breach: Report (1h ago)",
+   "Coinbase says user funds are safe after third-party vendor exposes customer contact info (1h ago)",
+   "Bithumb discloses data leak after internal system breach: Report (2h ago)",
    "Discord is making public chats searchable on Google: How to opt out (3h ago)",
    "VanEck launches diversified ETF combining stocks, bonds and Bitcoin exposure (6h ago)",
    "Intel, IBM, Oracle and IonQ latest to object to OKX-ICE tokenized stocks (6h ago)",
@@ -134,10 +163,10 @@
   ],
   "macro": [],
   "calendar": [
-   "GBP Annual Budget Release in 8.9h",
-   "USD Federal Funds Rate in 14.4h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement in 14.4h",
-   "USD FOMC Press Conference in 14.9h"
+   "GBP Annual Budget Release in 8.6h",
+   "USD Federal Funds Rate in 14.1h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement in 14.1h",
+   "USD FOMC Press Conference in 14.6h"
   ]
  },
  "spend": {
