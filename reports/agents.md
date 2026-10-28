@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-28 04:39 UTC. Runs so far: 37. Model: claude-haiku-5-5.
+Updated 2026-10-28 04:48 UTC. Runs so far: 37. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 937 | 32 | -24106.5 | -33098.5 |
+| control | meme | 938 | 32 | -24163.48 | -33164.27 |
 | control | macro | 18 | 44 | -152.98 | -251.79 |
-| control | all | 955 | 32 | -24259.48 | -33350.29 |
+| control | all | 956 | 32 | -24316.46 | -33416.06 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -20,8 +20,8 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: GOLD long at 4065, stop 4051.11, target 4085.83, opened 2026-10-27 15:00 UTC
 - control: FRONGUS long at 0.0001282, stop 0.00010256, target 0.00017948, opened 2026-10-28 03:47 UTC
 - control: DICTATOR long at 9.435e-05, stop 7.548e-05, target 0.00013209, opened 2026-10-28 03:59 UTC
-- control: RAYPAD long at 0.0001731, stop 0.00013848, target 0.00024234, opened 2026-10-28 04:27 UTC
 - control: INVISIBLE long at 0.0001748, stop 0.00013984, target 0.00024472, opened 2026-10-28 04:39 UTC
+- control: Rapport long at 0.0001729, stop 0.00013832, target 0.00024206, opened 2026-10-28 04:45 UTC
 
 ## Team
 
@@ -34,5 +34,11 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-28 04:39 UTC control: OPENED INVISIBLE long at 0.0001748 (stop 0.00013984, target 0.00024472) - control: frozen v3 rules
+### 2026-10-28 04:48 UTC team macro (gold/forex), spent today $0.010
+
+Lead: No trade. GBPUSD is already at 1.32954, but we still have no verified closed 1h bar below 1.3300, so the armed short isn't confirmed. Scout and FX Scout see the same setup; Skeptic notes the 8h max hold would run past the GBP budget release (about 12:36 UTC), so any entry needs a hold under 7.5h. Gold is at 4054, above the 4050 trigger, so it stays flat. The recent meme and gold longs lost money, so we don't chase.
+
+{"orders": [], "close": [], "note": "04:48 flat, no orders. GBPUSD short stays armed only on a verified closed 1h bar below 1.3300 (stop 1.3340, target 1.3240, max hold 7.5h, exit before GBP budget ~12:36 UTC, no entries 11:30-13:30 or 17:00-19:00 UTC). GOLD short armed on closed 1h bar below 4050 (stop 4090, target 3990). Skeptic: confirm 04:00 and 05:00 closed-bar prints before entry; no live-price triggers."}
+
+- control: order FRONGUS REJECTED by guardrails: desk already has the maximum open positions
 
