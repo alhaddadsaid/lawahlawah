@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -14327.294720227907,
+   "cash": -14259.294720227907,
    "open": [
     {
      "id": 904,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 976,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Robotaxi",
-     "mint": "6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump",
-     "side": 1,
-     "opened": 1793161466.7787137,
-     "entry": 0.0002251,
-     "stop": 0.00018008000000000002,
-     "target": 0.00031514,
-     "size": 888494.002665482,
-     "deadline": 1793168666.778714,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 977,
      "desk": "control",
      "market": "meme",
@@ -81,33 +66,50 @@
      "size": 1155401.5020219525,
      "deadline": 1793168856.5484052,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 978,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "INVISIBLE",
+     "mint": "2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr",
+     "side": 1,
+     "opened": 1793162378.3303523,
+     "entry": 0.0001748,
+     "stop": 0.00013984,
+     "target": 0.00024472,
+     "size": 1144164.7597254005,
+     "deadline": 1793169578.3303525,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 978,
+ "next_id": 979,
  "runs": 37,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4veRZzp7e6tT6FxKL81CZpHPVZrgjj2LUh8FFf6mpump": 1793161819.8565764,
-  "seen:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP": 1793161819.8565764,
-  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793161819.8565764,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793161819.8565764,
-  "control:4veRZzp7e6tT6FxKL81CZpHPVZrgjj2LUh8FFf6mpump": 1793161819.90563,
-  "seen:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793162004.7609375,
-  "seen:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793162004.7609375,
-  "seen:BpRPVFVhGN5Pf1HpXpqYuESGwAj52ETreJbmkpLFpump": 1793162004.7609375,
-  "seen:JBbAhjv4D6jfkqtnXGGUxLhKVAnRywAMEsUG4Lemoau3": 1793162183.7496657,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793162183.7496657,
-  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793162366.7305164,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793162366.7305164,
-  "control:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793162366.7787178,
   "seen:4R6qGExrfDGErUbAcMKsZoYN7wjz1s3Jsj2JWKCmq1xW": 1793162550.2390192,
   "seen:Fssj2wrrsEQ59oibUcTJihfFiC8ui1G1oQ3HxYR8pump": 1793162550.2390192,
   "seen:2nPPKzFCYDZLqHxJJdFJA1iV2V4ZqV9K6z8qSiYTpump": 1793162550.2390192,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793162550.2390192,
   "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793162550.2390192,
-  "control:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793162556.5484085
+  "control:5YEk5atScd8cJexzGMmoLxLggyyVPf7AY6zpiV5mray": 1793162556.5484085,
+  "seen:DvBBeixBLbsrUFPs8M48TWPVVSUKrAVqShsqYxFypump": 1793162730.7341216,
+  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793162730.7341216,
+  "seen:2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr": 1793162730.7341216,
+  "seen:AuwrksVpKiMKURa4NasQd8NCFs4Qju8aZyzHY829pump": 1793162730.7341216,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1793162730.7341216,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793162730.7341216,
+  "seen:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793162913.3026154,
+  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793162913.3026154,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793162913.3026154,
+  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793163278.287017,
+  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793163278.287017,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793163278.287017,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793163278.287017,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793163278.287017,
+  "control:2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr": 1793163278.330357
  },
  "talks": {
   "2026-10-21": 109
