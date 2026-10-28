@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -16478.75970024101,
+   "cash": -16528.700719007767,
    "open": [
     {
      "id": 1067,
@@ -51,40 +51,72 @@
      "size": 422029.96412745304,
      "deadline": 1793229379.6860826,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1072,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "GBPUSD",
+     "mint": "",
+     "side": 1,
+     "opened": 1793224967.169975,
+     "entry": 1.3324450254440308,
+     "stop": 1.3310600093432836,
+     "target": 1.3345225495951516,
+     "size": 72201.32671819108,
+     "deadline": 1793311367.1699755,
+     "thesis": "control: random direction"
+    },
+    {
+     "id": 1074,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "FOMOCAT$",
+     "mint": "5Pa1wPoyYqDkwRpngkfNCUJ4canPKM78A6r2529hQRPv",
+     "side": 1,
+     "opened": 1793225330.3211339,
+     "entry": 0.0001006,
+     "stop": 8.048000000000002e-05,
+     "target": 0.00014084,
+     "size": 1988071.5705765407,
+     "deadline": 1793232530.3211339,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1072,
+ "next_id": 1075,
  "runs": 40,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793224949.1240838,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793224949.1240838,
-  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793224949.1240838,
-  "seen:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793224949.1240838,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793224949.1240838,
-  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793225133.0953548,
-  "seen:BaY29FNTiDazRXkk3NdPpYggxwxo5YgbU1nyrigLpump": 1793225133.0953548,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793225133.0953548,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793225133.0953548,
-  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793225133.0953548,
-  "seen:677RzFgXjLpApyHAtzjd9sTjiJNGCxrRVvYb1TwWp5qJ": 1793225314.4029732,
-  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793225314.4029732,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793225314.4029732,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793225497.964238,
   "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793225497.964238,
   "seen:GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6": 1793225497.964238,
   "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793225497.964238,
   "seen:AfPhjrZx3oyh38G28ZVViP4p7h53N5kTxEeg5tzhpump": 1793225681.7292616,
   "seen:756P8NrnsBPzZDqZB2hLQxJ2YcdyscP5LrYVXndbYUbf": 1793225681.7292616,
-  "seen:AN4mNPb3rP61d3b2u1LCKKhBdEgdW9BiNDp7ZHKupump": 1793225681.7292616
+  "seen:AN4mNPb3rP61d3b2u1LCKKhBdEgdW9BiNDp7ZHKupump": 1793225681.7292616,
+  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793225866.3775408,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793225866.3775408,
+  "seen:HJGAKkCoJrFVisqGcLXK4VhX9GtYdoc9Q4hearYmpump": 1793225866.3775408,
+  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793225866.3775408,
+  "seen:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793225866.3775408,
+  "control:GBPUSD": 1793225867.16998,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793226045.531747,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793226045.531747,
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793226045.531747,
+  "control:677RzFgXjLpApyHAtzjd9sTjiJNGCxrRVvYb1TwWp5qJ": 1793226045.6208346,
+  "seen:5Pa1wPoyYqDkwRpngkfNCUJ4canPKM78A6r2529hQRPv": 1793226230.26395,
+  "seen:677RzFgXjLpApyHAtzjd9sTjiJNGCxrRVvYb1TwWp5qJ": 1793226230.26395,
+  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793226230.26395,
+  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793226230.26395,
+  "control:5Pa1wPoyYqDkwRpngkfNCUJ4canPKM78A6r2529hQRPv": 1793226230.3211372
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498116,
+ "ctrl_macro_hour": 498118,
  "team": [
   {
    "name": "Lead",
@@ -119,7 +151,7 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793224049.1281648,
+  "t": 1793224966.3816724,
   "crypto": [
    "Canadian \u2018crypto king\u2019 case to go to jury as criminal trial winds down (0h ago)",
    "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost (1h ago)",
@@ -134,11 +166,11 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q in 14.7h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 14.7h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 15.5h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 15.5h",
-   "EUR ECB Press Conference in 16.0h"
+   "USD Advance GDP q/q in 14.5h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m in 14.5h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 15.2h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 15.2h",
+   "EUR ECB Press Conference in 15.7h"
   ]
  },
  "spend": {
