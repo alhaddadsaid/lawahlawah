@@ -22,23 +22,8 @@
    ]
   },
   "control": {
-   "cash": -14560.238390964027,
+   "cash": -14663.074318647932,
    "open": [
-    {
-     "id": 987,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Robotaxi",
-     "mint": "4veRZzp7e6tT6FxKL81CZpHPVZrgjj2LUh8FFf6mpump",
-     "side": 1,
-     "opened": 1793167496.626163,
-     "entry": 7.066e-05,
-     "stop": 5.6528000000000005e-05,
-     "target": 9.8924e-05,
-     "size": 2830455.703368242,
-     "deadline": 1793174696.6261632,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 993,
      "desk": "control",
@@ -55,71 +40,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 994,
+     "id": 998,
      "desk": "control",
      "market": "meme",
-     "symbol": "SI",
-     "mint": "3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump",
+     "symbol": "SIB",
+     "mint": "3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump",
      "side": 1,
-     "opened": 1793170793.1252697,
-     "entry": 0.0001892,
-     "stop": 0.00015136000000000001,
-     "target": 0.00026487999999999994,
-     "size": 1057082.4524312897,
-     "deadline": 1793177993.1252704,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 996,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DICTATOR",
-     "mint": "7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump",
-     "side": 1,
-     "opened": 1793172256.6894794,
-     "entry": 9.331e-05,
-     "stop": 7.464800000000001e-05,
-     "target": 0.000130634,
-     "size": 2143392.991104919,
-     "deadline": 1793179456.6894796,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 997,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Grokbot",
-     "mint": "6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump",
-     "side": 1,
-     "opened": 1793173351.5754035,
-     "entry": 0.0002016,
-     "stop": 0.00016128,
-     "target": 0.00028223999999999995,
-     "size": 992063.4920634921,
-     "deadline": 1793180551.5754037,
+     "opened": 1793173895.3863313,
+     "entry": 0.0003261,
+     "stop": 0.00026088,
+     "target": 0.00045653999999999996,
+     "size": 613308.800981294,
+     "deadline": 1793181095.3863318,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 998,
+ "next_id": 999,
  "runs": 37,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793173524.2616832,
-  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793173524.2616832,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793173524.2616832,
-  "seen:28vWTtEwxoWp5MpHutAMSK5DeVf8xXk8jEEtbrtppump": 1793173524.2616832,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793173524.2616832,
-  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793173704.6662743,
-  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793173704.6662743,
-  "seen:B3PQkyfa1W7YEM8vmEXmCsGY3tZCp3FZiuN1E5gZ26kj": 1793173887.0163343,
-  "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793173887.0163343,
-  "seen:7K6GMuD2muHoSLuaCFNMY3FNzQuerrWuRerncQ8epump": 1793173887.0163343,
-  "seen:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793173887.0163343,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793173887.0163343,
-  "seen:835qApBwFrEAVkEoUW6D57oW8n2mW2btvfGKib8qV7XY": 1793173887.0163343,
-  "seen:2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr": 1793173887.0163343,
   "seen:MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump": 1793174069.1511059,
   "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793174069.1511059,
   "seen:4veRZzp7e6tT6FxKL81CZpHPVZrgjj2LUh8FFf6mpump": 1793174069.1511059,
@@ -127,7 +68,19 @@
   "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793174251.552542,
   "seen:6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump": 1793174251.552542,
   "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793174251.552542,
-  "control:6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump": 1793174251.5754063
+  "control:6NaM98xdfCkTTjqTvjq4t8TdSQ2374VGkGEXCzCPpump": 1793174251.5754063,
+  "seen:82WADSjbmPcfWtSWze2JRVhUd16BpbwwJFxZmaBeqD5K": 1793174431.2150888,
+  "seen:xqua5dGnkkarv4P469sNPtipjDzeCphNE8A6y9onNnb": 1793174431.2150888,
+  "seen:DDgEb1AyoqR81NNTJX44AgpfYkbnWAegf4BrxP1Bpump": 1793174431.2150888,
+  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793174617.3854618,
+  "seen:AhBidGAgv6QbKSWfrSCegGrzFLcBx4E5FNYTKHNQQj6C": 1793174617.3854618,
+  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793174617.3854618,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793174617.3854618,
+  "seen:7K6GMuD2muHoSLuaCFNMY3FNzQuerrWuRerncQ8epump": 1793174795.3634,
+  "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793174795.3634,
+  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793174795.3634,
+  "seen:835qApBwFrEAVkEoUW6D57oW8n2mW2btvfGKib8qV7XY": 1793174795.3634,
+  "control:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793174795.3863351
  },
  "talks": {
   "2026-10-21": 109
@@ -168,14 +121,14 @@
  ],
  "last_review": 1793109877.0350306,
  "news": {
-  "t": 1793172624.2671375,
+  "t": 1793173531.2203274,
   "crypto": [
    "Here\u2019s what happened in crypto today (2h ago)",
    "Bitcoin treasury Datavault AI plunges 50% after firm says it can\u2019t access its BTC (2h ago)",
-   "Bithumb hacked through employee system as South Korean financial firms face cyberattacks (2h ago)",
-   "Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8% (3h ago)",
+   "Bithumb hacked through employee system as South Korean financial firms face cyberattacks (3h ago)",
+   "Bitcoin nears $81,000 ahead of Fed decision as ZEC jumps 8% (4h ago)",
    "Robinhood\u2019s Tenev warns US tokenization uncertainty deters \u2018serious assets\u2019 (4h ago)",
-   "Coinbase says user funds are safe after third-party vendor exposes customer contact info (4h ago)",
+   "Coinbase says user funds are safe after third-party vendor exposes customer contact info (5h ago)",
    "Bithumb discloses data leak after internal system breach: Report (5h ago)",
    "Discord is making public chats searchable on Google: How to opt out (7h ago)",
    "VanEck launches diversified ETF combining stocks, bonds and Bitcoin exposure (10h ago)",
@@ -183,10 +136,10 @@
   ],
   "macro": [],
   "calendar": [
-   "GBP Annual Budget Release in 5.0h",
-   "USD Federal Funds Rate in 10.5h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement in 10.5h",
-   "USD FOMC Press Conference in 11.0h"
+   "GBP Annual Budget Release in 4.7h",
+   "USD Federal Funds Rate in 10.2h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement in 10.2h",
+   "USD FOMC Press Conference in 10.7h"
   ]
  },
  "spend": {
