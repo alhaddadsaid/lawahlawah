@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-28 05:40 UTC. Runs so far: 37. Model: claude-haiku-5-5.
+Updated 2026-10-28 05:46 UTC. Runs so far: 37. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 3 | 0 | -15.11 | -15.4 |
 | team | all | 18 | 50 | -359.97 | -398.42 |
-| control | meme | 942 | 32 | -24144.77 | -33187.07 |
+| control | meme | 943 | 32 | -24076.77 | -33131.07 |
 | control | macro | 19 | 42 | -261.01 | -363.42 |
-| control | all | 961 | 32 | -24405.78 | -33550.49 |
+| control | all | 962 | 32 | -24337.78 | -33494.49 |
 
 Verdict: too early, 18 of 50 team trades needed before judging.
 
@@ -20,7 +20,8 @@ Verdict: too early, 18 of 50 team trades needed before judging.
 - control: DICTATOR long at 9.435e-05, stop 7.548e-05, target 0.00013209, opened 2026-10-28 03:59 UTC
 - control: INVISIBLE long at 0.0001748, stop 0.00013984, target 0.00024472, opened 2026-10-28 04:39 UTC
 - control: Frongus long at 0.0002121, stop 0.00016968, target 0.00029694, opened 2026-10-28 05:00 UTC
-- control: Robotaxi long at 6.368e-05, stop 5.0944e-05, target 8.9152e-05, opened 2026-10-28 05:40 UTC
+- control: VIBE long at 4.964e-05, stop 3.9712e-05, target 6.9496e-05, opened 2026-10-28 05:43 UTC
+- control: FRONGUS long at 0.000166, stop 0.0001328, target 0.0002324, opened 2026-10-28 05:46 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-28 05:40 UTC control: OPENED Robotaxi long at 6.368e-05 (stop 5.0944e-05, target 8.9152e-05) - control: frozen v3 rules
+- 2026-10-28 05:46 UTC control: OPENED FRONGUS long at 0.000166 (stop 0.0001328, target 0.0002324) - control: frozen v3 rules
 
