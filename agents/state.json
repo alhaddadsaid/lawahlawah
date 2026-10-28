@@ -53,30 +53,66 @@
      "size": 1910219.6752626554,
      "deadline": 1793193451.052645,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1017,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "N64",
+     "mint": "9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump",
+     "side": 1,
+     "opened": 1793186436.8463554,
+     "entry": 8.428e-05,
+     "stop": 6.742400000000001e-05,
+     "target": 0.000117992,
+     "size": 2373042.2401518747,
+     "deadline": 1793193636.8463557,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1018,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Robotaxi",
+     "mint": "6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump",
+     "side": 1,
+     "opened": 1793186805.8430645,
+     "entry": 0.0002687,
+     "stop": 0.00021496000000000004,
+     "target": 0.00037618,
+     "size": 744324.525493115,
+     "deadline": 1793194005.8430648,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1017,
+ "next_id": 1019,
  "runs": 38,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793186414.6834283,
-  "seen:MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump": 1793186414.6834283,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793186414.6834283,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793186414.6834283,
-  "seen:DUmw6MytGbLT9xPbYLDi8B92yMaPV8yeNxmmDZA3DiDq": 1793186598.4541342,
-  "seen:4Kgx3bNBfdA8DgPGSfAd1tTSEc9x6Qd3bTeTtoyQpump": 1793186598.4541342,
-  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793186598.4541342,
-  "seen:AWvvUNraPXGSwRnRos81ScCdJ7TzkuenYxWfS37qASFV": 1793186598.4541342,
-  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793186598.4541342,
-  "seen:JDAEYyQswqJga9NmhmL7F2Ruf1CFa6iuS9Kvj8neSTNK": 1793186784.4279094,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793186784.4279094,
   "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793186968.3738904,
   "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793187151.0115376,
   "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793187151.0115376,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793187151.0115376,
-  "control:MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump": 1793187151.052647
+  "control:MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump": 1793187151.052647,
+  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793187336.2843666,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793187336.2843666,
+  "seen:MzUxrgP4k6huTD415pA9bKzBA8BvCgyu15TfbEnpump": 1793187336.2843666,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793187336.2843666,
+  "seen:9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump": 1793187336.2843666,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793187336.2843666,
+  "control:9uGqEsc5Sh9GBjvLr7jUf7PyY9tDZhiV7kCdyM7Wpump": 1793187336.8463588,
+  "seen:AWvvUNraPXGSwRnRos81ScCdJ7TzkuenYxWfS37qASFV": 1793187523.5770626,
+  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793187523.5770626,
+  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793187523.5770626,
+  "seen:7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump": 1793187523.5770626,
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793187523.5770626,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793187705.7804444,
+  "seen:JDAEYyQswqJga9NmhmL7F2Ruf1CFa6iuS9Kvj8neSTNK": 1793187705.7804444,
+  "seen:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793187705.7804444,
+  "seen:28vWTtEwxoWp5MpHutAMSK5DeVf8xXk8jEEtbrtppump": 1793187705.7804444,
+  "control:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793187705.8430676
  },
  "talks": {
   "2026-10-21": 109
@@ -117,25 +153,25 @@
  ],
  "last_review": 1793109877.0350306,
  "news": {
-  "t": 1793185514.687977,
+  "t": 1793186436.288839,
   "crypto": [
+   "Mirae Asset Securities issues tokenized notes on Solana (0h ago)",
    "Google to preview crypto custody security system as AI threats grow (0h ago)",
-   "Nearly 90% of large businesses are embracing tokenized cash to speed up payments: DBS (0h ago)",
+   "Nearly 90% of large businesses are embracing tokenized cash to speed up payments: DBS (1h ago)",
    "Brazil\u2019s largest lender becomes first bank to formalize crypto brokerage under new rules (1h ago)",
    "Kospi surges 7% as SK Hynix earnings fuel AI stock rebound (1h ago)",
    "Bitcoin price eyes $82K as Morgan Stanley strategist says most of correction is over (1h ago)",
    "Here's how much bitcoin and the S&P 500 could rally after midterms (2h ago)",
    "Securitize adds Stellar blockchain as institutional tokenization gathers steam (2h ago)",
    "Bitcoin ETF inflows climb to $176M as BTC rebounds above $80K (3h ago)",
-   "Coinbase denies systems breach, says vendor exposed customer data (3h ago)",
-   "Here\u2019s what happened in crypto today (5h ago)"
+   "Coinbase denies systems breach, says vendor exposed customer data (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP Annual Budget Release in 1.4h",
-   "USD Federal Funds Rate in 6.9h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement in 6.9h",
-   "USD FOMC Press Conference in 7.4h"
+   "GBP Annual Budget Release in 1.2h",
+   "USD Federal Funds Rate in 6.7h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement in 6.7h",
+   "USD FOMC Press Conference in 7.2h"
   ]
  },
  "spend": {
