@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-28 20:19 UTC. Runs so far: 39. Model: claude-haiku-5-5.
+Updated 2026-10-28 20:27 UTC. Runs so far: 39. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1021 | 32 | -26396.53 | -36191.35 |
+| control | meme | 1022 | 32 | -26448.02 | -36251.78 |
 | control | macro | 23 | 48 | 31.31 | -98.04 |
-| control | all | 1044 | 32 | -26365.22 | -36289.39 |
+| control | all | 1045 | 32 | -26416.71 | -36349.82 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,8 +19,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: e/acc long at 0.0006632, stop 0.00053056, target 0.00092848, opened 2026-10-28 19:20 UTC
 - control: Something long at 0.0001165, stop 9.32e-05, target 0.0001631, opened 2026-10-28 19:51 UTC
-- control: Refrigerator long at 0.0001316, stop 0.00010528, target 0.00018424, opened 2026-10-28 20:12 UTC
 - control: Rapport long at 0.0001345, stop 0.0001076, target 0.0001883, opened 2026-10-28 20:15 UTC
+- control: GTA long at 0.000154, stop 0.0001232, target 0.0002156, opened 2026-10-28 20:27 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.04 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED SIB (target) P&L $68.0 normal, $56.0 pessimistic
+- 2026-10-28 20:27 UTC control: OPENED GTA long at 0.000154 (stop 0.0001232, target 0.0002156) - control: frozen v3 rules
 
