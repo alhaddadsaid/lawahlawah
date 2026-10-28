@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -14400.790564429728,
+   "cash": -14231.476954962272,
    "open": [
     {
      "id": 904,
@@ -23,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 961,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DICTATOR",
-     "mint": "7dVpVqUEbJ9csNWWrDavsA8iAEwvb6BqWu1yVsQgpump",
-     "side": 1,
-     "opened": 1793150977.6272416,
-     "entry": 8.788e-05,
-     "stop": 7.030400000000001e-05,
-     "target": 0.000123032,
-     "size": 2275830.6781975417,
-     "deadline": 1793158177.6272416,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 963,
      "desk": "control",
      "market": "meme",
@@ -53,35 +38,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 967,
+     "id": 969,
      "desk": "control",
      "market": "meme",
      "symbol": "PRIVACY",
      "mint": "J4BcBzEN6xybbLftX1nXxXVhVBdeoocDhLVoweVo6Wgk",
      "side": 1,
-     "opened": 1793157797.1686559,
-     "entry": 7.331e-05,
-     "stop": 5.8648000000000005e-05,
-     "target": 0.000102634,
-     "size": 2728140.7720638383,
-     "deadline": 1793164997.168656,
+     "opened": 1793158708.1287618,
+     "entry": 9.906e-05,
+     "stop": 7.924800000000001e-05,
+     "target": 0.000138684,
+     "size": 2018978.3969311528,
+     "deadline": 1793165908.128762,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 968,
+ "next_id": 970,
  "runs": 37,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793158325.9639232,
-  "seen:J4BcBzEN6xybbLftX1nXxXVhVBdeoocDhLVoweVo6Wgk": 1793158325.9639232,
-  "control:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793158325.9876022,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793158510.217053,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793158510.217053,
-  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793158692.9524126,
-  "seen:2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr": 1793158692.9524126,
-  "control:J4BcBzEN6xybbLftX1nXxXVhVBdeoocDhLVoweVo6Wgk": 1793158697.1686594,
   "seen:MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump": 1793158874.7682495,
   "seen:Fssj2wrrsEQ59oibUcTJihfFiC8ui1G1oQ3HxYR8pump": 1793158874.7682495,
   "seen:2nPPKzFCYDZLqHxJJdFJA1iV2V4ZqV9K6z8qSiYTpump": 1793158874.7682495,
@@ -89,7 +66,17 @@
   "seen:4veRZzp7e6tT6FxKL81CZpHPVZrgjj2LUh8FFf6mpump": 1793159057.699866,
   "seen:4BSzhcmBYRCdVykTGZ9f4Kbp4P49Q4BNuGmfDs2Upump": 1793159057.699866,
   "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793159057.699866,
-  "seen:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": 1793159057.699866
+  "seen:2BJDwUdMbnJhRRfhacFDjrDNhxUWdzE9H6LEND89pump": 1793159057.699866,
+  "seen:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793159241.9420655,
+  "seen:J4BcBzEN6xybbLftX1nXxXVhVBdeoocDhLVoweVo6Wgk": 1793159241.9420655,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793159424.5347,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793159424.5347,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793159424.5347,
+  "control:6xc3RU6UMZinBJJgeMaNBqRbanTdG1QTq47tCXXwpump": 1793159424.558855,
+  "seen:2HcvsX12NyuLnhDXoU6yWL2XLcr3snCTQ7RhqVmZuCgr": 1793159607.4151738,
+  "seen:3yM6w93HMUZSHrMSGVPR2cW4Wvubvkscht1541i6pump": 1793159607.4151738,
+  "seen:9v4airX4Vt45ADFg3QQG9pXX68LkX9Big4GiYEuJpump": 1793159607.4151738,
+  "control:J4BcBzEN6xybbLftX1nXxXVhVBdeoocDhLVoweVo6Wgk": 1793159608.1287644
  },
  "talks": {
   "2026-10-21": 109
@@ -130,7 +117,7 @@
  ],
  "last_review": 1793109877.0350306,
  "news": {
-  "t": 1793157792.9575207,
+  "t": 1793158707.4201846,
   "crypto": [
    "Coinbase says user funds are safe after third-party vendor exposes customer contact info (0h ago)",
    "Bithumb discloses data leak after internal system breach: Report (1h ago)",
@@ -140,15 +127,15 @@
    "Treasury's Bessent sees crypto as America's next tool for keeping the U.S. dollar on top (7h ago)",
    "Quantum fears already limiting Bitcoin\u2019s growth, Stacks founder says (7h ago)",
    "Robinhood's crypto revenue fell 55% from last year, but topped Street forecasts (7h ago)",
-   "Ripple, Robinhood expand partnership to bring RLUSD to retail and institutional markets (7h ago)",
+   "Ripple, Robinhood expand partnership to bring RLUSD to retail and institutional markets (8h ago)",
    "Here\u2019s what happened in crypto today (8h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP Annual Budget Release in 9.1h",
-   "USD Federal Funds Rate in 14.6h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement in 14.6h",
-   "USD FOMC Press Conference in 15.1h"
+   "GBP Annual Budget Release in 8.9h",
+   "USD Federal Funds Rate in 14.4h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement in 14.4h",
+   "USD FOMC Press Conference in 14.9h"
   ]
  },
  "spend": {
