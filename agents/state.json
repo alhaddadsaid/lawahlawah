@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -16416.528427475183,
+   "cash": -16399.788084127544,
    "open": [
     {
      "id": 1058,
@@ -20,21 +20,6 @@
      "target": 0.0009284799999999999,
      "size": 301568.1544028951,
      "deadline": 1793222430.1107419,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1063,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Something",
-     "mint": "AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump",
-     "side": 1,
-     "opened": 1793217067.121223,
-     "entry": 0.0001165,
-     "stop": 9.32e-05,
-     "target": 0.00016309999999999998,
-     "size": 1716738.1974248928,
-     "deadline": 1793224267.1212232,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -53,44 +38,48 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1068,
+     "id": 1069,
      "desk": "control",
      "market": "meme",
-     "symbol": "GTA",
-     "mint": "7ZyS2j2omYn7ySfDUxgCJpntRrhMNhbXfMiPiMzrpump",
+     "symbol": "Something",
+     "mint": "AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump",
      "side": 1,
-     "opened": 1793219251.6525908,
-     "entry": 0.000154,
-     "stop": 0.0001232,
-     "target": 0.00021559999999999998,
-     "size": 1298701.2987012987,
-     "deadline": 1793226451.652591,
+     "opened": 1793219802.1579564,
+     "entry": 8.906e-05,
+     "stop": 7.1248e-05,
+     "target": 0.000124684,
+     "size": 2245677.0716370987,
+     "deadline": 1793227002.1579566,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1069,
+ "next_id": 1070,
  "runs": 39,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:AHtLsp84S3ThHeNgcqg1jXaE9M6FSXKW8oj7WjYkXhot": 1793219418.25557,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793219418.25557,
-  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793219418.25557,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793219418.25557,
-  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793219418.25557,
-  "control:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793219418.7522316,
-  "seen:Gv2KWBcDsFBXodR7zddeyTVPhRnsuSXeNK4VrzSjpump": 1793219601.58895,
-  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793219601.58895,
-  "seen:DKNGQFNGQmoBdXSRGKJ8tTu7uPDasw5JDcfMmWniNfow": 1793219785.843471,
-  "seen:MGMuubtUEirmkhfEQdmGUh4pr7HuUdMWcZXFtpPbVJD": 1793219785.843471,
-  "seen:7ZyS2j2omYn7ySfDUxgCJpntRrhMNhbXfMiPiMzrpump": 1793219785.843471,
-  "seen:D3XYLErK4f8xszFDwuCZy4PzYxz64iHkEZ24bYiHpump": 1793219785.843471,
-  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793219785.843471,
-  "seen:Hz2zi56C6e9msn9zkfNd4W47KN79UoFgbJ8kto5cpump": 1793219969.1531768,
   "seen:AN4mNPb3rP61d3b2u1LCKKhBdEgdW9BiNDp7ZHKupump": 1793220151.56119,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793220151.56119,
-  "control:7ZyS2j2omYn7ySfDUxgCJpntRrhMNhbXfMiPiMzrpump": 1793220151.652594
+  "control:7ZyS2j2omYn7ySfDUxgCJpntRrhMNhbXfMiPiMzrpump": 1793220151.652594,
+  "seen:2BfVg5Hyn4bHgdBXVdZyDMs5tqh5o4Ke9tLFMN9B3tBA": 1793220337.6918066,
+  "seen:AHtLsp84S3ThHeNgcqg1jXaE9M6FSXKW8oj7WjYkXhot": 1793220337.6918066,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793220337.6918066,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793220337.6918066,
+  "seen:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793220337.6918066,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793220337.6918066,
+  "seen:Gv2KWBcDsFBXodR7zddeyTVPhRnsuSXeNK4VrzSjpump": 1793220521.0038745,
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793220521.0038745,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793220521.0038745,
+  "seen:8JAPUKQxPKB2FGps1fxTtfpZgXQMgtBhu1HzBrV9Bayo": 1793220702.1207664,
+  "seen:7ZyS2j2omYn7ySfDUxgCJpntRrhMNhbXfMiPiMzrpump": 1793220702.1207664,
+  "seen:DKNGQFNGQmoBdXSRGKJ8tTu7uPDasw5JDcfMmWniNfow": 1793220702.1207664,
+  "seen:D3XYLErK4f8xszFDwuCZy4PzYxz64iHkEZ24bYiHpump": 1793220702.1207664,
+  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793220702.1207664,
+  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793220702.1207664,
+  "control:AZdhikmyj6ibsejv7EjML9SfNmuiMvwDrKXTEU2zpump": 1793220702.1579602,
+  "seen:Hz2zi56C6e9msn9zkfNd4W47KN79UoFgbJ8kto5cpump": 1793220884.5501041,
+  "seen:GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6": 1793220884.5501041
  },
  "talks": {
   "2026-10-21": 109
@@ -131,9 +120,9 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793218518.261108,
+  "t": 1793219437.697561,
   "crypto": [
-   "Here\u2019s what happened in crypto today (0h ago)",
+   "Here\u2019s what happened in crypto today (1h ago)",
    "Sam Bankman-Fried wrote to actor portraying him in Netflix series (1h ago)",
    "CFTC chief poses questions about policing AI but calls it a road to 'autonomous trading' (1h ago)",
    "Crypto isn\u2019t a partisan fight, proven by data (2h ago)",
@@ -141,28 +130,27 @@
    "Fed leaves interest rates unchanged, as expected (2h ago)",
    "Crypto PAC spending before midterms possibly obscured after reported FEC hack (3h ago)",
    "Coinbase earnings: Wall Street divided on trading rebound after Robinhood crypto revenue sinks 55% (3h ago)",
-   "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings (3h ago)",
+   "Bitcoin price bounce rejected at 50-day trend line ahead of FOMC, earnings (4h ago)",
    "Phantom launches Kalshi-powered prediction markets for US users (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Federal Funds Rate was 2.3h, forecast 4.00%, previous 4.00%",
-   "USD FOMC Statement was 2.3h",
-   "USD FOMC Press Conference was 1.8h",
-   "USD Advance GDP q/q in 16.2h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 16.2h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 17.0h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 17.0h",
-   "EUR ECB Press Conference in 17.5h"
+   "USD Federal Funds Rate was 2.5h, forecast 4.00%, previous 4.00%",
+   "USD FOMC Statement was 2.5h",
+   "USD FOMC Press Conference was 2.0h",
+   "USD Advance GDP q/q in 16.0h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m in 16.0h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 16.7h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 16.7h",
+   "EUR ECB Press Conference in 17.2h"
   ]
  },
  "spend": {
-  "2026-10-28": 0.037062
+  "2026-10-28": 0.037719
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-28 11:35 UTC [macro] 11:35 hold GBPUSD short 989 (entry 1.32892, now 1.32874, +1.8 pips) to 11:44 time exit before GBP Budget (~12:35). No new orders; blackouts 11:30-13:30 and 17:00-19:00 UTC (FOMC 18:00). Gold 4060.3 unarmed (5d low 3989.1",
   "2026-10-28 11:57 UTC [macro] 11:57 UTC: flat, no open positions. Blackout 11:30-13:30 (GBP Budget ~12:33) and 17:00-19:00 (FOMC 18:00). Next session: only pre-register FX or gold hypotheses with entry, stop, target, max hold and net edge after costs",
   "2026-10-28 12:18 UTC [macro] 12:18 flat, no orders. Blackout to 13:30 (GBP Budget ~12:36) and 17:00-19:00 (FOMC 18:00). Watch after 13:30: GBPUSD short only if a closed 1h bar holds below 1.3274 (5d low), stop 1.3340, target 1.3240, max 4h, need >15",
   "2026-10-28 12:39 UTC [macro] 12:39 flat, no orders. Blackout to 13:30 (GBP Budget just released) and 17:00-19:00 (FOMC 18:00). GBPUSD 1.3292 is above 5d low 1.3274, no short trigger. Prior GBPUSD short plan (stop 1.3340, target 1.3240) has about 0.5",
@@ -181,8 +169,9 @@
   "2026-10-28 19:08 UTC [macro] 19:08 flat, no orders. Post-FOMC blackout ended 19:00. GBPUSD 1.33221 is above the 1.3274 trigger. Watch: short only after a closed 1h bar below 1.3274 (earliest 20:00 close); entry ~1.3270, stop 1.3310, target 1.3220, m",
   "2026-10-28 19:29 UTC [macro] 19:29 flat, no orders. GBPUSD 1.33301 above 1.3274 trigger; no closed 1h bar below yet. Watch: GBPUSD short only after closed 1h bar below 1.3274 (entry ~1.3270, stop 1.3310, target 1.3220, max 4h, skip if net edge after",
   "2026-10-28 19:51 UTC [macro] 19:51 flat, no orders. GBPUSD 1.3325 above 1.3274 trigger. Next check after 20:00 1h close: GBPUSD short only if close < 1.3274 (entry ~1.3270, stop 1.3310, target 1.3220, max 4h, skip if net edge after ~1.2 pip cost is ",
-  "2026-10-28 20:12 UTC [macro] 20:12 flat, no orders. GBPUSD 1.33301 above 1.3274 trigger; 20:00 1h bar did not close below. Watch: GBPUSD short only after a closed 1h bar below 1.3274 (entry ~1.3270, stop 1.3310, target 1.3220, max 4h; skip if net ed"
+  "2026-10-28 20:12 UTC [macro] 20:12 flat, no orders. GBPUSD 1.33301 above 1.3274 trigger; 20:00 1h bar did not close below. Watch: GBPUSD short only after a closed 1h bar below 1.3274 (entry ~1.3270, stop 1.3310, target 1.3220, max 4h; skip if net ed",
+  "2026-10-28 20:33 UTC [macro] 20:33 flat, no orders. Watch GBPUSD short only after closed 1h bar below 1.3274 (next check 21:00 close): entry ~1.3270, stop 1.3310, target 1.3220, max 4h; skip if net edge after ~1.2 pips is negative. Gold no setup; mi"
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793218336.6683424
+ "last_macro_macro": 1793219621.0094664
 }
