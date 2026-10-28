@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-28 01:35 UTC. Runs so far: 36. Model: claude-haiku-5-5.
+Updated 2026-10-28 01:47 UTC. Runs so far: 36. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -32,16 +32,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 - Skeptic (backtest and cost auditor, mission all): Before any trade, check the hypothesis against the journal and costs. Reject any idea without a pre-registered entry, stop, target, max hold and expected net edge. Track hit rate and net P&L per hypothesis.
 
 ## Last run
-
-### 2026-10-28 01:35 UTC team macro (gold/forex), spent today $0.004
-
-Lead: Flat again. GBPUSD is at 1.33053, above the armed 1.3300 trigger, and gold is at 4075, well above the 4050 short trigger. Neither has a closed hourly bar that qualifies.
-Scout: The GBP budget (~12:30 UTC) and FOMC (~18:00 UTC) windows block entries anyway, so the armed setups stay on watch.
-Skeptic: Memecoin filters have lost money in the journal (-$360 net), so I'm not reopening them.
-FX Scout: GBPUSD short stays armed: below 1.3300 on a closed 1h bar, stop 1.3340, target 1.3240, max 8h.
-Sniper: No orders until a trigger closes.
-
-{"orders": [], "close": [], "note": "01:35 flat, no orders. Still armed, not filled: GBPUSD short 0.5% on closed 1h bar below 1.3300 (stop 1.3340, target 1.3240, max 8h), blocked 11:30-13:30 and 17:00-19:00 UTC. GOLD short 0.5% on closed 1h bar below 4050 (stop 4090, target 3990, max 12h). Memecoin filter ideas remain suspended after -$360 journal record."}
 
 - control: order Frongus REJECTED by guardrails: Frongus already open
 
