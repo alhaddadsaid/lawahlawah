@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -17199.859623290282,
+   "cash": -17131.859623290282,
    "open": [
     {
      "id": 1079,
@@ -36,21 +36,6 @@
      "size": 3021604.4719746183,
      "deadline": 1793239491.0057838,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1086,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Tucker",
-     "mint": "677RzFgXjLpApyHAtzjd9sTjiJNGCxrRVvYb1TwWp5qJ",
-     "side": 1,
-     "opened": 1793233017.4872243,
-     "entry": 5.407e-05,
-     "stop": 4.325600000000001e-05,
-     "target": 7.569799999999999e-05,
-     "size": 3698908.8218975402,
-     "deadline": 1793240217.4872248,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -59,26 +44,24 @@
  "runs": 40,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793233369.6464114,
-  "control:6pjRwzGg2QS1VSf6Z4TQZwyMxUysrUajkRmbbQ89P6KG": 1793233373.2959325,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793233552.2720785,
-  "seen:XshPgPdXFRWB8tP1j82rebb2Q9rPgGX37RuqzohmArM": 1793233552.2720785,
-  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793233552.2720785,
-  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793233552.2720785,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793233552.2720785,
-  "seen:AfPhjrZx3oyh38G28ZVViP4p7h53N5kTxEeg5tzhpump": 1793233733.1367514,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793233733.1367514,
-  "seen:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793233733.1367514,
-  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793233733.1367514,
-  "seen:AN4mNPb3rP61d3b2u1LCKKhBdEgdW9BiNDp7ZHKupump": 1793233733.1367514,
-  "control:AN4mNPb3rP61d3b2u1LCKKhBdEgdW9BiNDp7ZHKupump": 1793233733.230749,
   "seen:BnzoPxDyv8RnsRhvyP3EFoEwsRhKJfwNF9iXN3Skpump": 1793233917.4026515,
   "seen:6pjRwzGg2QS1VSf6Z4TQZwyMxUysrUajkRmbbQ89P6KG": 1793233917.4026515,
   "seen:677RzFgXjLpApyHAtzjd9sTjiJNGCxrRVvYb1TwWp5qJ": 1793233917.4026515,
   "control:677RzFgXjLpApyHAtzjd9sTjiJNGCxrRVvYb1TwWp5qJ": 1793233917.487228,
   "seen:VFcXScyQcxbfTmAv7G3nkdUsTJhUejAnhWfUXW6pump": 1793234101.3276193,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793234101.3276193,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793234101.3276193
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793234101.3276193,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793234285.1863816,
+  "seen:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793234285.1863816,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793234285.1863816,
+  "seen:7AxJJTaJumkDRCJNz4n8ixobaPjrmL6GmxexuJKDpump": 1793234470.410922,
+  "seen:XshPgPdXFRWB8tP1j82rebb2Q9rPgGX37RuqzohmArM": 1793234470.410922,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793234470.410922,
+  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793234470.410922,
+  "seen:AfPhjrZx3oyh38G28ZVViP4p7h53N5kTxEeg5tzhpump": 1793234653.8633232,
+  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793234653.8633232,
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793234653.8633232,
+  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793234653.8633232
  },
  "talks": {
   "2026-10-21": 109
@@ -142,12 +125,11 @@
   ]
  },
  "spend": {
-  "2026-10-29": 0.000628
+  "2026-10-29": 0.001286
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-28 17:21 UTC [macro] 17:21 flat, no orders. Blackout until 19:00 (FOMC decision and presser). Watch GBPUSD short only after a closed 1h bar below 1.3274 (earliest 20:00 close): entry ~1.3270, stop 1.3310, target 1.3220, max 4h, skip if net e",
   "2026-10-28 17:42 UTC [macro] 17:42 flat, no orders. FOMC blackout to 19:00. Watch: GBPUSD short only after a closed 1h bar below 1.3274 (earliest 20:00 close). Entry ~1.3270, stop 1.3310, target 1.3220, max 4h; skip if net edge after ~1.2 pips cost ",
   "2026-10-28 18:04 UTC [macro] 18:04 flat. FOMC decision at 18:00, presser ~18:30-18:35, blackout to 19:00. GBPUSD 1.33071 above trigger. Watch: GBPUSD short only if a closed 1h bar (earliest 20:00) closes below 1.3274; entry ~1.3270, stop 1.3310 (40 ",
   "2026-10-28 18:25 UTC [macro] 18:25 flat, no orders. Blackout to 19:00. Watch GBPUSD short only after a closed 1h bar below 1.3274 (earliest 20:00 close): entry ~1.3270, stop 1.3310 (40 pips), target 1.3220 (50 pips), max 4h, skip if net edge after 1",
@@ -166,8 +148,9 @@
   "2026-10-28 23:03 UTC [macro] 23:03 flat, no orders. GBPUSD 1.33236 above 1.3274 trigger; no closed 1h bar below. Watch: GBPUSD short only after a closed 1h bar < 1.3274 and after the USD GDP/PCE and ECB window (~13-14h out), entry ~1.3270, stop 1.33",
   "2026-10-28 23:25 UTC [macro] 23:25 flat, no orders. GBPUSD 1.33257 still above 1.3274 trigger, no closed 1h bar below. Watch: GBPUSD short only after a closed 1h bar < 1.3274 and after the USD GDP/PCE and ECB window (~13h out): entry ~1.3270, stop 1",
   "2026-10-28 23:46 UTC [macro] 23:46 flat, no orders. GBPUSD 1.33303 above 1.3274 trigger. Watch: GBPUSD short only after closed 1h bar < 1.3274 and after USD GDP/PCE and ECB window (~13h out): entry ~1.3270, stop 1.3310, target 1.3220, max 4h, skip i",
-  "2026-10-29 00:07 UTC [macro] 00:07 flat, no orders. GBPUSD 1.33205 above 1.3274 trigger. Watch: GBPUSD short only after a closed 1h bar below 1.3274 and only after the USD GDP/PCE and ECB window (~13h out). Entry ~1.3270, stop 1.3310, target 1.3220,"
+  "2026-10-29 00:07 UTC [macro] 00:07 flat, no orders. GBPUSD 1.33205 above 1.3274 trigger. Watch: GBPUSD short only after a closed 1h bar below 1.3274 and only after the USD GDP/PCE and ECB window (~13h out). Entry ~1.3270, stop 1.3310, target 1.3220,",
+  "2026-10-29 00:29 UTC [macro] 00:29 flat, no orders. GBPUSD 1.33073 above 1.3274 trigger (no closed 1h bar below). Gold 4052.4, 5d range 3989-4164, no setup. Watch: GBPUSD short only on closed 1h bar < 1.3274 after USD GDP/PCE and ECB window; entry ~"
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793232469.6507182
+ "last_macro_macro": 1793233753.8676236
 }
