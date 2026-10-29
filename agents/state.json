@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -19681.25163007698,
+   "cash": -19883.358337394053,
    "open": [
     {
      "id": 1185,
@@ -36,30 +36,62 @@
      "size": 1759014.951627089,
      "deadline": 1793299798.8003936,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1192,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PODCAT",
+     "mint": "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump",
+     "side": 1,
+     "opened": 1793293512.393583,
+     "entry": 0.0001049,
+     "stop": 8.392000000000001e-05,
+     "target": 0.00014685999999999999,
+     "size": 1906577.6930409914,
+     "deadline": 1793300712.3935833,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1193,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CATPOOP",
+     "mint": "7eCffjPZzRqFFDog8RN5cWsu2JNRH4Qm1iMPAREUpump",
+     "side": 1,
+     "opened": 1793293696.7593608,
+     "entry": 0.0001386,
+     "stop": 0.00011088000000000001,
+     "target": 0.00019404,
+     "size": 1443001.4430014428,
+     "deadline": 1793300896.7593613,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1191,
+ "next_id": 1194,
  "runs": 43,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3q3jEDkqwNamTDWK7PSncQT82Ffppruax27GHqD4pump": 1793292946.350103,
-  "seen:8ZZ8z349rrZG8VoJBBRpmgV5HFw2reESviaSoLoDpump": 1793292946.350103,
-  "seen:2YZdszj9XpTrKZ3FsVJH5sqGXppCgfW5E5pCVR9Apump": 1793292946.350103,
-  "seen:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793292946.350103,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793293129.597019,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793293129.597019,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793293312.2297373,
-  "seen:GJKnJsRiM5ATS4yhwjYRegT3iRsXUvcW1dafJPh8pump": 1793293312.2297373,
-  "seen:9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": 1793293312.2297373,
-  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793293312.2297373,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793293312.2297373,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793293312.2297373,
-  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793293498.6721823,
-  "seen:A6PM7bxyWYiUxaEpRMHvuL4tY2jYVf8N46vXZ15Hpump": 1793293498.6721823,
-  "control:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793293498.800398,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793293683.6554303
+  "seen:7eCffjPZzRqFFDog8RN5cWsu2JNRH4Qm1iMPAREUpump": 1793293861.6090763,
+  "seen:8ZZ8z349rrZG8VoJBBRpmgV5HFw2reESviaSoLoDpump": 1793293861.6090763,
+  "seen:GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": 1793293861.6090763,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793294046.5263088,
+  "seen:3q3jEDkqwNamTDWK7PSncQT82Ffppruax27GHqD4pump": 1793294046.5263088,
+  "seen:GJKnJsRiM5ATS4yhwjYRegT3iRsXUvcW1dafJPh8pump": 1793294229.0458798,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793294229.0458798,
+  "seen:9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": 1793294229.0458798,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793294229.0458798,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793294229.0458798,
+  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793294229.0458798,
+  "control:8ZZ8z349rrZG8VoJBBRpmgV5HFw2reESviaSoLoDpump": 1793294229.088296,
+  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793294412.2867641,
+  "seen:FkUGF7cPFy7hHuJwBERCTfAex3XcLFCH9pkj2RDUQTMe": 1793294412.2867641,
+  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793294412.2867641,
+  "control:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793294412.3935874,
+  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793294596.6227593,
+  "control:7eCffjPZzRqFFDog8RN5cWsu2JNRH4Qm1iMPAREUpump": 1793294596.7593648
  },
  "talks": {
   "2026-10-21": 109
@@ -100,23 +132,21 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793292046.3564599,
+  "t": 1793292961.6154063,
   "crypto": [
+   "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets (0h ago)",
    "From rivals to partners: Polygon and Solana team to bring stablecoin payments to banks (0h ago)",
    "Nasdaq-listed Canton Strategic Holdings plans tokenized stock trading from Nov. 2 (0h ago)",
-   "Crypto exchange HTX exits the UK after settling with the FCA (0h ago)",
+   "Crypto exchange HTX exits the UK after settling with the FCA (1h ago)",
    "Kalshi raises $1B at $40B valuation as non-sports revenue run rate tops $1B (1h ago)",
    "Bitcoin price jumps to $81.5K as US GDP data beats expectations (1h ago)",
    "French Senate adopts bill for automatic sharing of crypto tax data (2h ago)",
    "Polymarket brings ultra-short crypto prediction markets to U.S. platform (2h ago)",
    "Crypto for Advisors: Only 1 in 5 Americans say the financial system is secure (2h ago)",
-   "Bank of England opens consultation on tokenized collateral for clearing (2h ago)",
-   "Why Switzerland\u2019s first genuine spot bitcoin ETF could soon attract overseas banks and brokers (2h ago)"
+   "Bank of England opens consultation on tokenized collateral for clearing (2h ago)"
   ],
   "macro": [],
-  "calendar": [
-   "EUR ECB Press Conference was 2.9h"
-  ]
+  "calendar": []
  },
  "spend": {
   "2026-10-29": 0.017933
