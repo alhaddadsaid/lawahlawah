@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -20618.16977447451,
+   "cash": -20810.489898548487,
    "open": [
-    {
-     "id": 1220,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "STANK",
-     "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
-     "side": 1,
-     "opened": 1793310934.4011135,
-     "entry": 9.746e-05,
-     "stop": 7.796800000000001e-05,
-     "target": 0.000136444,
-     "size": 2052123.9482864763,
-     "deadline": 1793318134.4011137,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1221,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HOUSECOIN",
-     "mint": "DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump",
-     "side": 1,
-     "opened": 1793311117.4568975,
-     "entry": 0.0001311,
-     "stop": 0.00010488,
-     "target": 0.00018353999999999997,
-     "size": 1525553.0129672007,
-     "deadline": 1793318317.4568977,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1223,
      "desk": "control",
@@ -66,30 +36,67 @@
      "size": 955566.1729574774,
      "deadline": 1793319592.2581468,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1225,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "OREN",
+     "mint": "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump",
+     "side": 1,
+     "opened": 1793313850.492797,
+     "entry": 8.406e-05,
+     "stop": 6.7248e-05,
+     "target": 0.000117684,
+     "size": 2379252.91458482,
+     "deadline": 1793321050.4927971,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1226,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "HOUSECOIN",
+     "mint": "DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump",
+     "side": 1,
+     "opened": 1793314039.7812576,
+     "entry": 0.0001031,
+     "stop": 8.248000000000001e-05,
+     "target": 0.00014434,
+     "size": 1939864.2095053347,
+     "deadline": 1793321239.7812579,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1225,
+ "next_id": 1228,
  "runs": 44,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m": 1793313839.271624,
-  "seen:EqGGUWEVCHaNoJrDvdzzP4X6FwiM58BdHeXPxe1qKcGy": 1793314021.343182,
-  "seen:9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": 1793314021.343182,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793314021.343182,
-  "seen:5A1PXbM4APygDoccyANwaXEg3zudevAbY4zcEAupump": 1793314021.343182,
-  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793314021.343182,
-  "seen:2UKT7TrqzMWK1X5CWmWwoiBCGFHfYuk4yjjUsbnzpump": 1793314203.8587515,
-  "seen:2BTpBX5ktiFjfHxwcLNj3uftawbm9AT7KUg46aCFpump": 1793314203.8587515,
-  "seen:3EnfmbxdD2nHJ1KoogUgoYgeqS54gKis3AD3ieHGpump": 1793314203.8587515,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793314203.8587515,
-  "seen:AEqw9bAtqJCWPNNJp9EieXw8GYwm1kgsJBDdJBU2pump": 1793314203.8587515,
-  "seen:6rg9GdCro19d2sz79mhix5pLJjSwn8RTCjZvG4Wecnj": 1793314385.6893938,
-  "seen:2q68mqEbjwmnMjs1o3KZDNZVyMv6RZKkHcm64iinpump": 1793314385.6893938,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793314567.3847508,
   "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793314567.3847508,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793314567.3847508
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793314567.3847508,
+  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793314750.468426,
+  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793314750.468426,
+  "seen:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793314750.468426,
+  "control:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793314750.4928005,
+  "seen:PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m": 1793314939.480935,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793314939.480935,
+  "seen:5A1PXbM4APygDoccyANwaXEg3zudevAbY4zcEAupump": 1793314939.480935,
+  "seen:9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": 1793314939.480935,
+  "control:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793314939.7812667,
+  "seen:2BTpBX5ktiFjfHxwcLNj3uftawbm9AT7KUg46aCFpump": 1793315117.336251,
+  "seen:3EnfmbxdD2nHJ1KoogUgoYgeqS54gKis3AD3ieHGpump": 1793315117.336251,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793315117.336251,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1793315117.336251,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793315117.336251,
+  "control:3EnfmbxdD2nHJ1KoogUgoYgeqS54gKis3AD3ieHGpump": 1793315117.3685799,
+  "seen:6rg9GdCro19d2sz79mhix5pLJjSwn8RTCjZvG4Wecnj": 1793315299.387707,
+  "seen:2q68mqEbjwmnMjs1o3KZDNZVyMv6RZKkHcm64iinpump": 1793315299.387707,
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793315299.387707,
+  "seen:AEqw9bAtqJCWPNNJp9EieXw8GYwm1kgsJBDdJBU2pump": 1793315299.387707,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793315299.387707
  },
  "talks": {
   "2026-10-21": 109
@@ -130,18 +137,18 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793313121.3495815,
+  "t": 1793314039.4873729,
   "crypto": [
-   "Binance hacked for over $5.8B in massive crypto exploit (1h ago)",
-   "Binance loses $5.7 billion in largest crypto hack to date (1h ago)",
+   "Tampered Ledger reported in Singapore a month before news broke: Asia Express (0h ago)",
+   "Binance hit by $5.8B hack as Tether and Circle freeze billions (1h ago)",
+   "Binance loses $5.7 billion in largest crypto hack to date (2h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "Public companies double share of blockchain revenue since 2022: Report (3h ago)",
    "Polymarket suspended trading amid reports of user funds being drained (3h ago)",
    "Polymarket suspends trading after third-party breach leads to user losses (4h ago)",
-   "HYPE teases all-time high as NYSE owner ICE eyes US Hyperliquid perps (5h ago)",
-   "KuCoin suspends services in Russia and Belarus (5h ago)",
-   "Stanley Druckenmiller's first X post backs Hyperliquid venture after $23 million indirect investment (5h ago)",
-   "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets (6h ago)"
+   "HYPE teases all-time high as NYSE owner ICE eyes US Hyperliquid perps (6h ago)",
+   "KuCoin suspends services in Russia and Belarus (6h ago)",
+   "Stanley Druckenmiller's first X post backs Hyperliquid venture after $23 million indirect investment (6h ago)"
   ],
   "macro": [],
   "calendar": []

@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-29 22:41 UTC. Runs so far: 44. Model: claude-haiku-5-5.
+Updated 2026-10-29 22:53 UTC. Runs so far: 44. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1175 | 31 | -30574.45 | -41841.61 |
+| control | meme | 1178 | 31 | -30766.77 | -42059.77 |
 | control | macro | 26 | 46 | -43.88 | -186.86 |
-| control | all | 1201 | 32 | -30618.33 | -42028.47 |
+| control | all | 1204 | 32 | -30810.65 | -42246.63 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: STANK long at 9.746e-05, stop 7.7968e-05, target 0.000136444, opened 2026-10-29 21:55 UTC
-- control: HOUSECOIN long at 0.0001311, stop 0.00010488, target 0.00018354, opened 2026-10-29 21:58 UTC
 - control: FLOAT long at 0.0007592, stop 0.00060736, target 0.00106288, opened 2026-10-29 22:16 UTC
 - control: SENSE long at 0.0002093, stop 0.00016744, target 0.00029302, opened 2026-10-29 22:19 UTC
+- control: OREN long at 8.406e-05, stop 6.7248e-05, target 0.000117684, opened 2026-10-29 22:44 UTC
+- control: HOUSECOIN long at 0.0001031, stop 8.248e-05, target 0.00014434, opened 2026-10-29 22:47 UTC
 
 ## Team
 
