@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -18887.686039054443,
+   "cash": -18950.519372387775,
    "open": [
     {
      "id": 1153,
@@ -36,21 +36,6 @@
      "size": 1425516.7498218105,
      "deadline": 1793279280.1321902,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1157,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "WALT",
-     "mint": "GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt",
-     "side": 1,
-     "opened": 1793273540.6271691,
-     "entry": 7.02e-05,
-     "stop": 5.616e-05,
-     "target": 9.827999999999999e-05,
-     "size": 2849002.849002849,
-     "deadline": 1793280740.6271694,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -59,22 +44,24 @@
  "runs": 42,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793273709.948172,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793273709.948172,
-  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793273709.948172,
-  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1793273709.948172,
-  "seen:GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt": 1793273891.8455043,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793273891.8455043,
-  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793273891.8455043,
-  "seen:8rgFW2QtQ7pBfzVZYWZqGRQK5jtyaBiWfdCJJWcepump": 1793274075.922785,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793274075.922785,
-  "seen:GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6": 1793274075.922785,
   "seen:9XwcqFsLTshVo7QwWyNmjVBsB982EW9C4YotSbpoxYYi": 1793274257.312972,
   "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793274257.312972,
   "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793274257.312972,
   "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793274257.312972,
   "seen:GZFiR672hbnK29jUZpbUXGHe3xFFrYCbUQw8dguKpump": 1793274440.3361654,
-  "control:GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt": 1793274440.6271734
+  "control:GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt": 1793274440.6271734,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793274625.3327463,
+  "seen:Fa24xN13pzjmcx1dtKP9nBMMFCwLtXCJrtP5hSPKpump": 1793274625.3327463,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793274625.3327463,
+  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793274625.3327463,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793274625.3327463,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793274809.9724777,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1793274809.9724777,
+  "seen:GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt": 1793274809.9724777,
+  "seen:HCkhfdDNF2dqMxxtL51AzgWU26MBNkUkEzGAHtqkpump": 1793274809.9724777,
+  "seen:GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6": 1793274992.4853485,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793274992.4853485,
+  "seen:28vWTtEwxoWp5MpHutAMSK5DeVf8xXk8jEEtbrtppump": 1793274992.4853485
  },
  "talks": {
   "2026-10-21": 109
@@ -115,26 +102,26 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793272809.9528625,
+  "t": 1793273725.3373811,
   "crypto": [
    "Bitcoin drops to $80,000 on Fed dissent, Samsung, Alphabet earnings; AI tokens slump (0h ago)",
    "NYSE owner takes steps to bring Hyperliquid perpetual futures to U.S. (0h ago)",
-   "Cathie Wood\u2019s ARK buys the dip on Robinhood in its largest purchase in 6 months after 23% slump (0h ago)",
+   "Cathie Wood\u2019s ARK buys the dip on Robinhood in its largest purchase in 6 months after 23% slump (1h ago)",
    "Bitcoin long-term resistance in focus as analysis sees selling risk above $85K (1h ago)",
    "Solana wallet Solflare pledges to pay missed rewards on staked $160 million after validator goes offline (1h ago)",
    "Live updates: Bitcoin clings to $80,000 as Strategy\u2019s cushion thins before earnings (1h ago)",
    "ECB President Christine Lagarde to step down in February 2027 (1h ago)",
-   "Thai Supreme Court rules bitcoin is property after thief challenges conviction (1h ago)",
-   "Bermuda taps WalletConnect to advance its onchain economy plan (1h ago)",
-   "Former Swift CEO joins stablecoin firm OpenTrade as chairman (2h ago)"
+   "Thai Supreme Court rules bitcoin is property after thief challenges conviction (2h ago)",
+   "Bermuda taps WalletConnect to advance its onchain economy plan (2h ago)",
+   "Former Swift CEO joins stablecoin firm OpenTrade as chairman (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q in 1.2h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 1.2h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 1.9h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 1.9h",
-   "EUR ECB Press Conference in 2.4h"
+   "USD Advance GDP q/q in 0.9h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m in 0.9h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 1.7h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 1.7h",
+   "EUR ECB Press Conference in 2.2h"
   ]
  },
  "spend": {
