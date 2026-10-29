@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -20285.624535537318,
+   "cash": -20217.624535537318,
    "open": [
     {
      "id": 1198,
@@ -23,47 +23,48 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1199,
+     "id": 1202,
      "desk": "control",
      "market": "meme",
-     "symbol": "SENSE",
-     "mint": "GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun",
+     "symbol": "CATBOT",
+     "mint": "dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump",
      "side": 1,
-     "opened": 1793298634.2558882,
-     "entry": 0.0004179,
-     "stop": 0.00033432000000000004,
-     "target": 0.00058506,
-     "size": 478583.39315625746,
-     "deadline": 1793305834.2558885,
+     "opened": 1793300276.991298,
+     "entry": 9.295e-05,
+     "stop": 7.436e-05,
+     "target": 0.00013012999999999998,
+     "size": 2151694.4593867674,
+     "deadline": 1793307476.9912982,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1202,
+ "next_id": 1203,
  "runs": 43,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": 1793299712.024621,
-  "seen:GJKnJsRiM5ATS4yhwjYRegT3iRsXUvcW1dafJPh8pump": 1793299712.024621,
-  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793299712.024621,
-  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793299712.024621,
-  "seen:A6PM7bxyWYiUxaEpRMHvuL4tY2jYVf8N46vXZ15Hpump": 1793299712.024621,
-  "control:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793299712.0946836,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793299899.688318,
-  "control:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793299899.8051004,
-  "seen:AEqw9bAtqJCWPNNJp9EieXw8GYwm1kgsJBDdJBU2pump": 1793300078.7305593,
-  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793300078.7305593,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793300078.7305593,
-  "seen:GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": 1793300078.7305593,
-  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793300078.7305593,
-  "seen:HytpiyuR3sVXGB5UqoqrnThCPH2X1tWVm5neep3Dpump": 1793300257.6943378,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793300257.6943378,
   "seen:WZgKD1NXT2JgeJFDuQuDa4CiYX2mwWWitC1Pgsrpump": 1793300440.5993001,
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793300440.5993001,
   "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1793300440.5993001,
   "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793300440.5993001,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793300440.5993001
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793300440.5993001,
+  "seen:GJKnJsRiM5ATS4yhwjYRegT3iRsXUvcW1dafJPh8pump": 1793300623.5318716,
+  "seen:9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": 1793300623.5318716,
+  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793300623.5318716,
+  "seen:A6PM7bxyWYiUxaEpRMHvuL4tY2jYVf8N46vXZ15Hpump": 1793300623.5318716,
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793300623.5318716,
+  "seen:CNtdYoJq9viwsj5eogkK45Bn9HjMyGKWpU6GB2dwpump": 1793300808.8231657,
+  "seen:GxMZtiBgx9ctU3KsybnB7aWBcPSVhQQqs8FzKJsVpump": 1793301011.1346736,
+  "seen:AEqw9bAtqJCWPNNJp9EieXw8GYwm1kgsJBDdJBU2pump": 1793301011.1346736,
+  "seen:FSsgh7o8SvBDuZcxnShESZ175UWhwE4h2DgCLKvfpump": 1793301011.1346736,
+  "seen:GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": 1793301011.1346736,
+  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793301011.1346736,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793301011.1346736,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793301011.1346736,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793301176.3559458,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793301176.3559458,
+  "control:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793301176.9913015
  },
  "talks": {
   "2026-10-21": 109
@@ -104,18 +105,18 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793299357.7008789,
+  "t": 1793300276.362187,
   "crypto": [
+   "Polymarket suspends trading after third-party breach leads to user losses (0h ago)",
    "HYPE teases all-time high as NYSE owner ICE eyes US Hyperliquid perps (2h ago)",
    "KuCoin suspends services in Russia and Belarus (2h ago)",
    "Stanley Druckenmiller's first X post backs Hyperliquid venture after $23 million indirect investment (2h ago)",
    "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets (2h ago)",
    "From rivals to partners: Polygon and Solana team to bring stablecoin payments to banks (2h ago)",
-   "Nasdaq-listed Canton Strategic Holdings plans tokenized stock trading from Nov. 2 (2h ago)",
+   "Nasdaq-listed Canton Strategic Holdings plans tokenized stock trading from Nov. 2 (3h ago)",
    "Crypto exchange HTX exits the UK after settling with the FCA (3h ago)",
    "Kalshi raises $1B at $40B valuation as non-sports revenue run rate tops $1B (3h ago)",
-   "Bitcoin price jumps to $81.5K as US GDP data beats expectations (3h ago)",
-   "French Senate adopts bill for automatic sharing of crypto tax data (4h ago)"
+   "Bitcoin price jumps to $81.5K as US GDP data beats expectations (3h ago)"
   ],
   "macro": [],
   "calendar": []
