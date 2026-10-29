@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -17430.119966248065,
+   "cash": -17362.119966248065,
    "open": [
     {
      "id": 1109,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1114,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CPU",
-     "mint": "5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo",
-     "side": 1,
-     "opened": 1793246797.9164178,
-     "entry": 0.0003107,
-     "stop": 0.00024856000000000005,
-     "target": 0.00043498,
-     "size": 643707.756678468,
-     "deadline": 1793253997.9164178,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1115,
      "desk": "control",
      "market": "meme",
@@ -66,31 +51,64 @@
      "size": 1188354.1295306,
      "deadline": 1793254529.2086105,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1117,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SIB",
+     "mint": "3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump",
+     "side": 1,
+     "opened": 1793248238.4929693,
+     "entry": 0.0003695,
+     "stop": 0.0002956,
+     "target": 0.0005172999999999998,
+     "size": 541271.9891745603,
+     "deadline": 1793255438.4929695,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1118,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CPU",
+     "mint": "5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo",
+     "side": 1,
+     "opened": 1793248606.4089727,
+     "entry": 0.0004421,
+     "stop": 0.00035368000000000004,
+     "target": 0.00061894,
+     "size": 452386.3379325944,
+     "deadline": 1793255806.408973,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1117,
+ "next_id": 1119,
  "runs": 41,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793247881.194584,
-  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793247881.194584,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793247881.194584,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1793247881.194584,
-  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793247881.194584,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793248045.425663,
-  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793248045.425663,
-  "seen:FRvc2LsuVaXVF8z9kVVcciELoPcbA4RnQmBHyKpic6k": 1793248229.1459115,
-  "control:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793248229.2086139,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793248410.0001621,
-  "seen:J7cqsaTuXUavwA3sp238tSpartUfYwDrJAaHuDvypump": 1793248410.0001621,
-  "seen:HgTGdc29D5bDMrDvsCLnorxz899VyDj7ZN7FPa6vpump": 1793248410.0001621,
-  "seen:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793248410.0001621,
-  "seen:HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump": 1793248595.6458144,
-  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793248595.6458144,
   "seen:5Ey1ypqubUUCmM1LLmWoKAboz7RrahLsTswFspjxL9KF": 1793248774.3825603,
-  "control:HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump": 1793248777.4127524
+  "control:HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump": 1793248777.4127524,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793248958.839328,
+  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793248958.839328,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793248958.839328,
+  "seen:GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6": 1793248958.839328,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793248958.839328,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793248958.839328,
+  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793248958.839328,
+  "seen:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP": 1793248958.839328,
+  "seen:EpzTWHfHTtqq7Mu1b1d1R68FxRhX8YT45U3RYmDxpump": 1793249138.4321635,
+  "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793249138.4321635,
+  "control:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793249138.4929726,
+  "seen:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793249322.4193642,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793249322.4193642,
+  "seen:HgTGdc29D5bDMrDvsCLnorxz899VyDj7ZN7FPa6vpump": 1793249322.4193642,
+  "seen:XshPgPdXFRWB8tP1j82rebb2Q9rPgGX37RuqzohmArM": 1793249506.2882333,
+  "seen:HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump": 1793249506.2882333,
+  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793249506.2882333,
+  "control:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793249506.4089763
  },
  "talks": {
   "2026-10-21": 109
@@ -131,7 +149,7 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793246981.1984127,
+  "t": 1793248058.8438163,
   "crypto": [
    "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto (1h ago)",
    "Mystery Wall Street Journal ad sparks new fight over tokenized stocks (1h ago)",
@@ -139,18 +157,18 @@
    "Fed\u2019s hawkish rate hold keeps pressure on Bitcoin: Analysts (3h ago)",
    "Canadian \u2018crypto king\u2019 case to go to jury as criminal trial winds down (7h ago)",
    "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost (7h ago)",
-   "Here\u2019s what happened in crypto today (8h ago)",
+   "Here\u2019s what happened in crypto today (9h ago)",
    "Sam Bankman-Fried wrote to actor portraying him in Netflix series (9h ago)",
    "CFTC chief poses questions about policing AI but calls it a road to 'autonomous trading' (9h ago)",
    "Crypto isn\u2019t a partisan fight, proven by data (10h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q in 8.3h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 8.3h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 9.1h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 9.1h",
-   "EUR ECB Press Conference in 9.6h"
+   "USD Advance GDP q/q in 8.0h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m in 8.0h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 8.8h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 8.8h",
+   "EUR ECB Press Conference in 9.3h"
   ]
  },
  "spend": {

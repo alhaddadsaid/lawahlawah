@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-29 04:26 UTC. Runs so far: 41. Model: claude-haiku-5-5.
+Updated 2026-10-29 04:36 UTC. Runs so far: 41. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1069 | 32 | -27351.95 | -37614.58 |
+| control | meme | 1070 | 32 | -27283.95 | -37558.58 |
 | control | macro | 24 | 46 | -78.34 | -212.02 |
-| control | all | 1093 | 32 | -27430.29 | -37826.6 |
+| control | all | 1094 | 32 | -27362.29 | -37770.6 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,8 +19,9 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: OPUS long at 0.0007083, stop 0.00056664, target 0.00099162, opened 2026-10-29 03:42 UTC
 - control: Tucker long at 6.095e-05, stop 4.876e-05, target 8.533e-05, opened 2026-10-29 03:51 UTC
-- control: CPU long at 0.0003107, stop 0.00024856, target 0.00043498, opened 2026-10-29 04:06 UTC
 - control: PODCAT long at 0.0001683, stop 0.00013464, target 0.00023562, opened 2026-10-29 04:15 UTC
+- control: SIB long at 0.0003695, stop 0.0002956, target 0.0005173, opened 2026-10-29 04:30 UTC
+- control: CPU long at 0.0004421, stop 0.00035368, target 0.00061894, opened 2026-10-29 04:36 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED SLEGO (stop) P&L $-67.07 normal, $-75.61 pessimistic
+- 2026-10-29 04:36 UTC control: OPENED CPU long at 0.0004421 (stop 0.00035368, target 0.00061894) - control: frozen v3 rules
 
