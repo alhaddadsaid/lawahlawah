@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -19281.09310391721,
+   "cash": -19251.529248495524,
    "open": [
-    {
-     "id": 1153,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PODCAT",
-     "mint": "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump",
-     "side": 1,
-     "opened": 1793270614.7609308,
-     "entry": 0.0002075,
-     "stop": 0.00016600000000000002,
-     "target": 0.00029049999999999996,
-     "size": 963855.421686747,
-     "deadline": 1793277814.760931,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1158,
      "desk": "control",
@@ -51,25 +36,29 @@
      "size": 2560491.614389963,
      "deadline": 1793282393.008978,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1164,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Bitcoin",
+     "mint": "HytpiyuR3sVXGB5UqoqrnThCPH2X1tWVm5neep3Dpump",
+     "side": 1,
+     "opened": 1793277395.728066,
+     "entry": 0.000202,
+     "stop": 0.00016160000000000002,
+     "target": 0.0002828,
+     "size": 990099.0099009901,
+     "deadline": 1793284595.7280662,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1164,
+ "next_id": 1165,
  "runs": 42,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793277378.8577373,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793277378.8577373,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793277378.8577373,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793277378.8577373,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793277378.8577373,
-  "control:9XwcqFsLTshVo7QwWyNmjVBsB982EW9C4YotSbpoxYYi": 1793277379.6020784,
-  "seen:HytpiyuR3sVXGB5UqoqrnThCPH2X1tWVm5neep3Dpump": 1793277563.3798344,
-  "seen:57ouseDGe5XZ5y9Me4WEwrhgi2q2cogtUUTqkUTGpump": 1793277749.0193582,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793277749.0193582,
-  "seen:EaxAUcXxNnVwcqm2BBocbows7D1XVY2Q63V38NEypump": 1793277749.0193582,
-  "seen:ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump": 1793277749.0193582,
   "seen:Fw2i7AGva6xqf5eWTjwy53AR4VpuTYkByg5XmZhXnmV7": 1793277931.6767917,
   "seen:WkHcrrgrXHkdMC5csTAKo4YJCVbpH3zkTCBnNQ8pump": 1793277931.6767917,
   "seen:AVCoELxSDqmT1yUHfzMu9FBpX1MmygBaYdaiLZvMpump": 1793277931.6767917,
@@ -79,7 +68,19 @@
   "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793277931.6767917,
   "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793278115.0224948,
   "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793278115.0224948,
-  "control:57ouseDGe5XZ5y9Me4WEwrhgi2q2cogtUUTqkUTGpump": 1793278115.115763
+  "control:57ouseDGe5XZ5y9Me4WEwrhgi2q2cogtUUTqkUTGpump": 1793278115.115763,
+  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793278294.817342,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793278294.817342,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793278294.817342,
+  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793278294.817342,
+  "seen:GMXf4jmhR4hEeAjqq543oi4w2VVLd21fmKrn2gpQ2xsu": 1793278294.817342,
+  "seen:GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt": 1793278294.817342,
+  "control:HytpiyuR3sVXGB5UqoqrnThCPH2X1tWVm5neep3Dpump": 1793278295.7280693,
+  "seen:6d9fD5SxvN4DAG4SHQD8pebm8TM6XeSbYezPDjdapump": 1793278479.257993,
+  "seen:HytpiyuR3sVXGB5UqoqrnThCPH2X1tWVm5neep3Dpump": 1793278479.257993,
+  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793278662.870767,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793278662.870767,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793278662.870767
  },
  "talks": {
   "2026-10-21": 109
@@ -120,26 +121,26 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793276478.8624237,
+  "t": 1793277394.8220413,
   "crypto": [
+   "HTX agrees to halt unlawful UK crypto promotions after FCA case (0h ago)",
    "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers (0h ago)",
-   "As $10 billion in bitcoin options near expiry, the tell is in the pricing (0h ago)",
-   "EU investors rank crypto above retirement plans for lasting wealth creation: OKX survey (0h ago)",
-   "Coinbase seeks Brazil crypto license, expects no service disruption (0h ago)",
-   "Bitcoin lending and yield could drive next wave of institutional demand, Rootstock says (0h ago)",
+   "As $10 billion in bitcoin options near expiry, the tell is in the pricing (1h ago)",
+   "EU investors rank crypto above retirement plans for lasting wealth creation: OKX survey (1h ago)",
+   "Coinbase seeks Brazil crypto license, expects no service disruption (1h ago)",
+   "Bitcoin lending and yield could drive next wave of institutional demand, Rootstock says (1h ago)",
    "Bitcoin drops to $80,000 on Fed dissent, Samsung, Alphabet earnings; AI tokens slump (1h ago)",
    "NYSE owner takes steps to bring Hyperliquid perpetual futures to U.S. (1h ago)",
    "Cathie Wood\u2019s ARK buys the dip on Robinhood in its largest purchase in 6 months after 23% slump (2h ago)",
-   "Bitcoin long-term resistance in focus as analysis sees selling risk above $85K (2h ago)",
-   "Solana wallet Solflare pledges to pay missed rewards on staked $160 million after validator goes offline (2h ago)"
+   "Bitcoin long-term resistance in focus as analysis sees selling risk above $85K (2h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q in 0.1h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 0.1h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 0.9h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 0.9h",
-   "EUR ECB Press Conference in 1.4h"
+   "USD Advance GDP q/q was 0.1h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m was 0.1h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 0.6h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 0.6h",
+   "EUR ECB Press Conference in 1.1h"
   ]
  },
  "spend": {
@@ -170,5 +171,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793276111.4942014
+ "last_macro_macro": 1793277394.8219666
 }
