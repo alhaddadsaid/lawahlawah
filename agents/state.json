@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -20233.23323118949,
+   "cash": -20285.624535537318,
    "open": [
     {
      "id": 1198,
@@ -36,21 +36,6 @@
      "size": 478583.39315625746,
      "deadline": 1793305834.2558885,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1200,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "OREN",
-     "mint": "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump",
-     "side": 1,
-     "opened": 1793298812.09468,
-     "entry": 0.0001334,
-     "stop": 0.00010672,
-     "target": 0.00018675999999999998,
-     "size": 1499250.374812594,
-     "deadline": 1793306012.0946803,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -59,13 +44,6 @@
  "runs": 43,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793299350.9686968,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793299350.9686968,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793299534.2093759,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793299534.2093759,
-  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1793299534.2093759,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793299534.2093759,
-  "control:GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": 1793299534.255892,
   "seen:9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": 1793299712.024621,
   "seen:GJKnJsRiM5ATS4yhwjYRegT3iRsXUvcW1dafJPh8pump": 1793299712.024621,
   "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793299712.024621,
@@ -78,7 +56,14 @@
   "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793300078.7305593,
   "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793300078.7305593,
   "seen:GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": 1793300078.7305593,
-  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793300078.7305593
+  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793300078.7305593,
+  "seen:HytpiyuR3sVXGB5UqoqrnThCPH2X1tWVm5neep3Dpump": 1793300257.6943378,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793300257.6943378,
+  "seen:WZgKD1NXT2JgeJFDuQuDa4CiYX2mwWWitC1Pgsrpump": 1793300440.5993001,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793300440.5993001,
+  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1793300440.5993001,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793300440.5993001,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793300440.5993001
  },
  "talks": {
   "2026-10-21": 109
@@ -119,18 +104,18 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793298450.9750512,
+  "t": 1793299357.7008789,
   "crypto": [
-   "HYPE teases all-time high as NYSE owner ICE eyes US Hyperliquid perps (1h ago)",
-   "KuCoin suspends services in Russia and Belarus (1h ago)",
-   "Stanley Druckenmiller's first X post backs Hyperliquid venture after $23 million indirect investment (1h ago)",
+   "HYPE teases all-time high as NYSE owner ICE eyes US Hyperliquid perps (2h ago)",
+   "KuCoin suspends services in Russia and Belarus (2h ago)",
+   "Stanley Druckenmiller's first X post backs Hyperliquid venture after $23 million indirect investment (2h ago)",
    "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets (2h ago)",
    "From rivals to partners: Polygon and Solana team to bring stablecoin payments to banks (2h ago)",
    "Nasdaq-listed Canton Strategic Holdings plans tokenized stock trading from Nov. 2 (2h ago)",
-   "Crypto exchange HTX exits the UK after settling with the FCA (2h ago)",
+   "Crypto exchange HTX exits the UK after settling with the FCA (3h ago)",
    "Kalshi raises $1B at $40B valuation as non-sports revenue run rate tops $1B (3h ago)",
    "Bitcoin price jumps to $81.5K as US GDP data beats expectations (3h ago)",
-   "French Senate adopts bill for automatic sharing of crypto tax data (3h ago)"
+   "French Senate adopts bill for automatic sharing of crypto tax data (4h ago)"
   ],
   "macro": [],
   "calendar": []
