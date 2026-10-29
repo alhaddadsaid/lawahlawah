@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -17457.348110753206,
+   "cash": -17479.68186763588,
    "open": [
-    {
-     "id": 1109,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "OPUS",
-     "mint": "Dxg9cLvssqb1WEMpyynjf17kGRc4UTNyUqjzNj99opus",
-     "side": 1,
-     "opened": 1793245320.2738438,
-     "entry": 0.0007083,
-     "stop": 0.0005666400000000001,
-     "target": 0.00099162,
-     "size": 282366.2289990117,
-     "deadline": 1793252520.2738438,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1117,
      "desk": "control",
@@ -66,31 +51,48 @@
      "size": 1841620.626151013,
      "deadline": 1793258548.3911076,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1122,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SPERM",
+     "mint": "9JrZq5wzwsqzeA1jmXZ8bg7PVGzT8asuKe1TkrsWRJW6",
+     "side": 1,
+     "opened": 1793252807.7066667,
+     "entry": 9.961e-05,
+     "stop": 7.968800000000001e-05,
+     "target": 0.000139454,
+     "size": 2007830.5391024996,
+     "deadline": 1793260007.706667,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1122,
+ "next_id": 1123,
  "runs": 41,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HytpiyuR3sVXGB5UqoqrnThCPH2X1tWVm5neep3Dpump": 1793252427.0076458,
-  "seen:BZSCM3LKfWZbEPsSL7Pd8vTwPUd5PZ95VHu4P4Mpump": 1793252427.0076458,
-  "seen:NTRNDMqQSiwEC2jJs3wJiZS6bpGYQJtMNQJgiX3WyV6": 1793252427.0076458,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793252607.1331632,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793252607.1331632,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793252607.1331632,
-  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793252607.1331632,
-  "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793252607.1331632,
-  "seen:7gaf2rYr6wkPedXn4EA6nbeN5k463boAgq9YwY1s2Gr5": 1793252789.7479694,
-  "seen:CxzxZDuo3igCYpqfBfMTsJHFsFXwsLLStphSEgAiq4kA": 1793252789.7479694,
-  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793252789.7479694,
-  "control:CxzxZDuo3igCYpqfBfMTsJHFsFXwsLLStphSEgAiq4kA": 1793252789.861033,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793252973.8141916,
   "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793252973.8141916,
   "seen:5THtNEGTF1y67eRWvcgz3MomDZePCVx1xdskHHeCpump": 1793253158.081985,
   "seen:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793253158.081985,
-  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793253158.081985
+  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793253158.081985,
+  "seen:8edFdoB572uooTmNaCbFwozsoMYH2mYpXa5gsPUVqa3b": 1793253338.5518205,
+  "seen:BZSCM3LKfWZbEPsSL7Pd8vTwPUd5PZ95VHu4P4Mpump": 1793253338.5518205,
+  "seen:HytpiyuR3sVXGB5UqoqrnThCPH2X1tWVm5neep3Dpump": 1793253338.5518205,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793253523.177541,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793253523.177541,
+  "seen:AN4mNPb3rP61d3b2u1LCKKhBdEgdW9BiNDp7ZHKupump": 1793253523.177541,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793253523.177541,
+  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793253523.177541,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793253523.177541,
+  "seen:9JrZq5wzwsqzeA1jmXZ8bg7PVGzT8asuKe1TkrsWRJW6": 1793253707.6065583,
+  "seen:CxzxZDuo3igCYpqfBfMTsJHFsFXwsLLStphSEgAiq4kA": 1793253707.6065583,
+  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793253707.6065583,
+  "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793253707.6065583,
+  "control:9JrZq5wzwsqzeA1jmXZ8bg7PVGzT8asuKe1TkrsWRJW6": 1793253707.7066705
  },
  "talks": {
   "2026-10-21": 109
@@ -131,26 +133,26 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793251707.1373844,
+  "t": 1793252623.1820526,
   "crypto": [
-   "Utah charges predictions platform Kalshi with illegal gambling (0h ago)",
+   "Security failure at Indian certificate firm bites Ethereum as developers rush out fixes (0h ago)",
+   "Utah charges predictions platform Kalshi with illegal gambling (1h ago)",
    "Your fridge could one day stake Ether, launch memecoins: CFTC chair (1h ago)",
    "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto (2h ago)",
    "Mystery Wall Street Journal ad sparks new fight over tokenized stocks (2h ago)",
    "Tampered Ledger wallets cost Singapore users $2.7M: Police (2h ago)",
-   "Fed\u2019s hawkish rate hold keeps pressure on Bitcoin: Analysts (4h ago)",
+   "Fed\u2019s hawkish rate hold keeps pressure on Bitcoin: Analysts (5h ago)",
    "Canadian \u2018crypto king\u2019 case to go to jury as criminal trial winds down (8h ago)",
    "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost (8h ago)",
-   "Sam Bankman-Fried wrote to actor portraying him in Netflix series (10h ago)",
-   "CFTC chief poses questions about policing AI but calls it a road to 'autonomous trading' (10h ago)"
+   "Sam Bankman-Fried wrote to actor portraying him in Netflix series (11h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q in 7.0h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 7.0h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 7.8h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 7.8h",
-   "EUR ECB Press Conference in 8.3h"
+   "USD Advance GDP q/q in 6.8h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m in 6.8h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 7.5h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 7.5h",
+   "EUR ECB Press Conference in 8.0h"
   ]
  },
  "spend": {
