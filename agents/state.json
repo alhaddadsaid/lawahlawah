@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -19383.652440674414,
+   "cash": -19451.735390618294,
    "open": [
-    {
-     "id": 1158,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "three",
-     "mint": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
-     "side": 1,
-     "opened": 1793274643.1888678,
-     "entry": 0.0004915,
-     "stop": 0.00039319999999999996,
-     "target": 0.0006881,
-     "size": 406917.59918616485,
-     "deadline": 1793281843.188868,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1159,
      "desk": "control",
@@ -85,29 +70,29 @@
    ]
   }
  },
- "next_id": 1173,
+ "next_id": 1174,
  "runs": 42,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6kD62JEcxPFEeetYsWaDzqnC6pQXMi5A9Zku5pogpump": 1793281601.3439677,
-  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793281601.3439677,
-  "seen:J92Gw8j5nwkhAKgM1UsTD9GxegeLWXDht4RNx8YTpump": 1793281601.3439677,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793281601.3439677,
-  "seen:AVCoELxSDqmT1yUHfzMu9FBpX1MmygBaYdaiLZvMpump": 1793281601.3439677,
-  "seen:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793281601.3439677,
-  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793281784.8657827,
-  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793281784.8657827,
-  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793281784.8657827,
-  "control:J92Gw8j5nwkhAKgM1UsTD9GxegeLWXDht4RNx8YTpump": 1793281784.9359865,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793281967.6699865,
-  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793281967.6699865,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793281967.6699865,
-  "control:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793281968.4679496,
   "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793282147.0700839,
   "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793282147.0700839,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793282330.1955292,
   "seen:HytpiyuR3sVXGB5UqoqrnThCPH2X1tWVm5neep3Dpump": 1793282330.1955292,
-  "control:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793282330.2575526
+  "control:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793282330.2575526,
+  "seen:9B5uDwoTPkXXb67vaHiqWmyvWuUEDBMSU6ssZH1Zpump": 1793282515.34687,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793282515.34687,
+  "seen:J92Gw8j5nwkhAKgM1UsTD9GxegeLWXDht4RNx8YTpump": 1793282515.34687,
+  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793282515.34687,
+  "seen:35fWL6pdJqpconRZPrawUAQegw1QF3p2tgN7mzhTpump": 1793282515.34687,
+  "seen:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793282515.34687,
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793282697.9669437,
+  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793282697.9669437,
+  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793282697.9669437,
+  "seen:HxH6J2YcdAiVUWkFioJ8j4MoMDf1hPntXcCbQDBwpump": 1793282881.3375325,
+  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793282881.3375325,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793282881.3375325,
+  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793282881.3375325,
+  "control:J92Gw8j5nwkhAKgM1UsTD9GxegeLWXDht4RNx8YTpump": 1793282882.1199763
  },
  "talks": {
   "2026-10-21": 109
@@ -148,26 +133,26 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793281067.6747096,
+  "t": 1793281981.3422816,
   "crypto": [
+   "Walmart, Eli Lilly join growing pushback against OKX\u2013ICE tokenized stock plans (0h ago)",
+   "Brazil\u2019s Halloween eve crypto deadline brings more tricks than treats (0h ago)",
+   "Private, fast USDT is coming to Bitcoin. Can it compete with Ethereum and Tron? (0h ago)",
    "Polygon expands Open Money Stack to Solana, after Tron rollout (1h ago)",
    "A new framework for tokenized asset tracking (1h ago)",
    "Tokenized stock venue on Canton could beat OKX\u2013ICE to first trade under SEC framework (1h ago)",
    "Chainalysis traces North Korean crypto cash-outs through Garantex (1h ago)",
    "Unlimit founder backs Phase blockchain with $45M as mainnet launches (1h ago)",
-   "HTX agrees to halt unlawful UK crypto promotions after FCA case (1h ago)",
-   "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers (1h ago)",
-   "As $10 billion in bitcoin options near expiry, the tell is in the pricing (2h ago)",
-   "EU investors rank crypto above retirement plans for lasting wealth creation: OKX survey (2h ago)",
-   "Coinbase seeks Brazil crypto license, expects no service disruption (2h ago)"
+   "HTX agrees to halt unlawful UK crypto promotions after FCA case (2h ago)",
+   "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers (2h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q was 1.1h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m was 1.1h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate was 0.4h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement was 0.4h",
-   "EUR ECB Press Conference in 0.1h"
+   "USD Advance GDP q/q was 1.4h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m was 1.4h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate was 0.6h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement was 0.6h",
+   "EUR ECB Press Conference was 0.1h"
   ]
  },
  "spend": {
