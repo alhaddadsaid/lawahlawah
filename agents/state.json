@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -19699.914593039943,
+   "cash": -19631.914593039943,
    "open": [
-    {
-     "id": 1184,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PODCAT",
-     "mint": "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump",
-     "side": 1,
-     "opened": 1793286740.5373187,
-     "entry": 0.0001376,
-     "stop": 0.00011008000000000002,
-     "target": 0.00019264,
-     "size": 1453488.372093023,
-     "deadline": 1793293940.537319,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1185,
      "desk": "control",
@@ -59,23 +44,23 @@
  "runs": 43,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": 1793290562.8722591,
-  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793290562.8722591,
-  "seen:A6PM7bxyWYiUxaEpRMHvuL4tY2jYVf8N46vXZ15Hpump": 1793290562.8722591,
-  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793290746.01967,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793290746.01967,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793290929.138026,
-  "seen:3zoyoJwywuALj49wi9ffsz49hJaToJ29f9JBSCGNpump": 1793290929.138026,
-  "seen:FViKbzdiHbBYXnVGfkdHAzJD6PcSPDGQHRQ4GY8zpump": 1793290929.138026,
-  "seen:GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": 1793290929.138026,
-  "seen:2YZdszj9XpTrKZ3FsVJH5sqGXppCgfW5E5pCVR9Apump": 1793291117.5274694,
-  "seen:Bq6BPfB6NNC5d1kQZFsYpCFeWxxACmbvu35QHofqpump": 1793291117.5274694,
-  "seen:8FDW22Dov1Q2hrmb64uPKqyuFKfpGJRQvm9JGsuLpump": 1793291117.5274694,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793291117.5274694,
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793291296.229329,
   "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793291296.229329,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793291296.229329,
-  "control:3zoyoJwywuALj49wi9ffsz49hJaToJ29f9JBSCGNpump": 1793291296.33169
+  "control:3zoyoJwywuALj49wi9ffsz49hJaToJ29f9JBSCGNpump": 1793291296.33169,
+  "seen:9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": 1793291479.7509236,
+  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793291479.7509236,
+  "seen:A6PM7bxyWYiUxaEpRMHvuL4tY2jYVf8N46vXZ15Hpump": 1793291479.7509236,
+  "seen:7ga6rtE9qSb3wdEiDCpTu2kHqoGVfT52jD8ign1rYTvx": 1793291664.1316364,
+  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793291664.1316364,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793291664.1316364,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793291846.681031,
+  "seen:3zoyoJwywuALj49wi9ffsz49hJaToJ29f9JBSCGNpump": 1793291846.681031,
+  "seen:Bq6BPfB6NNC5d1kQZFsYpCFeWxxACmbvu35QHofqpump": 1793292032.5401874,
+  "seen:2YZdszj9XpTrKZ3FsVJH5sqGXppCgfW5E5pCVR9Apump": 1793292032.5401874,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793292032.5401874,
+  "seen:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793292032.5401874,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793292032.5401874
  },
  "talks": {
   "2026-10-21": 109
@@ -116,9 +101,10 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793290217.5336914,
+  "t": 1793291132.5466485,
   "crypto": [
-   "Kalshi raises $1B at $40B valuation as non-sports revenue run rate tops $1B (0h ago)",
+   "Crypto exchange HTX exits the UK after settling with the FCA (0h ago)",
+   "Kalshi raises $1B at $40B valuation as non-sports revenue run rate tops $1B (1h ago)",
    "Bitcoin price jumps to $81.5K as US GDP data beats expectations (1h ago)",
    "French Senate adopts bill for automatic sharing of crypto tax data (1h ago)",
    "Polymarket brings ultra-short crypto prediction markets to U.S. platform (1h ago)",
@@ -126,14 +112,11 @@
    "Bank of England opens consultation on tokenized collateral for clearing (2h ago)",
    "Why Switzerland\u2019s first genuine spot bitcoin ETF could soon attract overseas banks and brokers (2h ago)",
    "Chainlink adds weekend pricing for tokenized assets, with Aave as launch partner (2h ago)",
-   "Canton Foundation grants RedStone 15.8M Canton Coin for pricing standard (2h ago)",
-   "New quantum model slashes hardware needed to break bitcoin keys by 17 times (2h ago)"
+   "Canton Foundation grants RedStone 15.8M Canton Coin for pricing standard (2h ago)"
   ],
   "macro": [],
   "calendar": [
-   "EUR Main Refinancing Rate was 2.9h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement was 2.9h",
-   "EUR ECB Press Conference was 2.4h"
+   "EUR ECB Press Conference was 2.7h"
   ]
  },
  "spend": {
