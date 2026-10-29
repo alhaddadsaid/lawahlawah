@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -17433.928055578395,
+   "cash": -17365.928055578395,
    "open": [
-    {
-     "id": 1099,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CPU",
-     "mint": "5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo",
-     "side": 1,
-     "opened": 1793239814.9086475,
-     "entry": 0.0001963,
-     "stop": 0.00015704,
-     "target": 0.00027482,
-     "size": 1018848.7009679063,
-     "deadline": 1793247014.9086475,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1109,
      "desk": "control",
@@ -51,33 +36,80 @@
      "size": 3281378.1788351107,
      "deadline": 1793253068.4375846,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1112,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Rapport",
+     "mint": "69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump",
+     "side": 1,
+     "opened": 1793246440.6771588,
+     "entry": 4.216e-05,
+     "stop": 3.3728000000000006e-05,
+     "target": 5.9024e-05,
+     "size": 4743833.017077799,
+     "deadline": 1793253640.677159,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1113,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SLEGO",
+     "mint": "HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump",
+     "side": 1,
+     "opened": 1793246621.1642907,
+     "entry": 0.0001691,
+     "stop": 0.00013528,
+     "target": 0.00023674,
+     "size": 1182732.1111768186,
+     "deadline": 1793253821.164291,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1114,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CPU",
+     "mint": "5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo",
+     "side": 1,
+     "opened": 1793246797.9164178,
+     "entry": 0.0003107,
+     "stop": 0.00024856000000000005,
+     "target": 0.00043498,
+     "size": 643707.756678468,
+     "deadline": 1793253997.9164178,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1112,
+ "next_id": 1115,
  "runs": 41,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793246217.0670054,
-  "seen:Dxg9cLvssqb1WEMpyynjf17kGRc4UTNyUqjzNj99opus": 1793246217.0670054,
-  "seen:147a97vXeJMM8pgFrEeMVmts4MciKAEEwRN6anYQszec": 1793246217.0670054,
-  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793246217.0670054,
-  "control:Dxg9cLvssqb1WEMpyynjf17kGRc4UTNyUqjzNj99opus": 1793246220.273846,
-  "seen:DkND6CmPqUuTVC5rCkKB137P1rFW8NqjUS3mcpoEpump": 1793246399.3552582,
-  "seen:C7wnX8xaSvNXGpRufLfmf3iPDmzSXKvnTP2Tjytapump": 1793246399.3552582,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793246399.3552582,
-  "seen:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793246399.3552582,
-  "seen:J7cqsaTuXUavwA3sp238tSpartUfYwDrJAaHuDvypump": 1793246399.3552582,
-  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793246399.3552582,
-  "control:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793246399.4819157,
-  "seen:HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump": 1793246584.2246342,
-  "seen:EZKHcMdW537sezfX3PtvTpQtakvBXXR2VWxjjKtis8fH": 1793246768.2782254,
-  "seen:677RzFgXjLpApyHAtzjd9sTjiJNGCxrRVvYb1TwWp5qJ": 1793246768.2782254,
-  "control:677RzFgXjLpApyHAtzjd9sTjiJNGCxrRVvYb1TwWp5qJ": 1793246768.4375877,
   "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793246952.4816778,
   "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793246952.4816778,
-  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793246952.4816778
+  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793246952.4816778,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793247133.5354617,
+  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793247133.5354617,
+  "seen:GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6": 1793247133.5354617,
+  "seen:AVAZD6Lrex8ac66r3WiQcnYg4fVZP2Z5759ZPqooaCWU": 1793247340.5933392,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793247340.5933392,
+  "seen:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793247340.5933392,
+  "seen:J7cqsaTuXUavwA3sp238tSpartUfYwDrJAaHuDvypump": 1793247340.5933392,
+  "seen:147a97vXeJMM8pgFrEeMVmts4MciKAEEwRN6anYQszec": 1793247340.5933392,
+  "seen:3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump": 1793247340.5933392,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793247340.5933392,
+  "control:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793247340.6771624,
+  "seen:7q5kZj8XfbpBuiVt3FzCSz9AjtYr7A4sL4CmTA5hQ9vb": 1793247517.8477361,
+  "seen:HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump": 1793247517.8477361,
+  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793247517.8477361,
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793247517.8477361,
+  "control:HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump": 1793247521.1642942,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793247697.7941499,
+  "control:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793247697.9164324
  },
  "talks": {
   "2026-10-21": 109
@@ -141,12 +173,11 @@
   ]
  },
  "spend": {
-  "2026-10-29": 0.006757
+  "2026-10-29": 0.007387
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-28 20:55 UTC [macro] 20:55 flat. Gold no setup. Watch GBPUSD short only after 21:00 or later closed 1h bar below 1.3274: entry ~1.3270, stop 1.3310, target 1.3220, max 4h; skip if net edge after ~1.2 pips is negative. Memecoin filter idea pa",
   "2026-10-28 21:16 UTC [macro] 21:16 flat. GBPUSD 1.33216, above 1.3274 trigger; no closed 1h bar below. Watch: GBPUSD short only after a closed 1h bar below 1.3274 (entry ~1.3270, stop 1.3310, target 1.3220, max 4h, skip if net edge after ~1.2 pips i",
   "2026-10-28 21:37 UTC [macro] 21:37 flat, no orders. GBPUSD 1.33237 above 1.3274 trigger. Watch: GBPUSD short only after a closed 1h bar below 1.3274 and before the USD GDP/PCE and ECB window (~15h out), entry ~1.3270, stop 1.3310, target 1.3220, max",
   "2026-10-28 21:59 UTC [macro] 21:59 flat. GBPUSD 1.33294 above 1.3274 trigger, no closed 1h bar below. Plan unchanged: short only after closed 1h bar < 1.3274, entry ~1.3270, stop 1.3310, target 1.3220, max 4h, skip if net edge after ~1.2 pips is neg",
@@ -165,8 +196,9 @@
   "2026-10-29 02:37 UTC [macro] 02:37 flat, no orders. GBPUSD 1.33285 above 1.3274 trigger, no closed 1h bar below. Gold 4061, EURUSD 1.1157, no setups. Watch: GBPUSD short only on closed 1h bar < 1.3274 after USD GDP/PCE and ECB window (~10h out); ent",
   "2026-10-29 02:59 UTC [macro] 02:59 flat, no orders. GBPUSD 1.33257 above 1.3274 trigger, no closed 1h bar below. Gold 4055.5, EURUSD 1.1152, no setups. Watch after USD GDP/PCE (9.6h) and ECB window: GBPUSD short only on a closed 1h bar < 1.3274; ent",
   "2026-10-29 03:20 UTC [macro] 03:20 flat, no orders. GBPUSD 1.33245 above 1.3274 trigger, no closed 1h bar below. Gold 4051.4 mid-range, EURUSD 1.1152, no setups. Watch: GBPUSD short only on a closed 1h bar < 1.3274 after USD GDP/PCE (9.4h) and ECB w",
-  "2026-10-29 03:42 UTC [macro] 03:41 flat, no orders. GBPUSD 1.33239 above 1.3274 trigger. Watch: after USD GDP/PCE and ECB window, short only on closed 1h bar < 1.3274; entry ~1.3270, stop 1.3310, target 1.3220, max 4h, size 0.5-1%. Memecoin h1>+1000"
+  "2026-10-29 03:42 UTC [macro] 03:41 flat, no orders. GBPUSD 1.33239 above 1.3274 trigger. Watch: after USD GDP/PCE and ECB window, short only on closed 1h bar < 1.3274; entry ~1.3270, stop 1.3310, target 1.3220, max 4h, size 0.5-1%. Memecoin h1>+1000",
+  "2026-10-29 04:03 UTC [macro] 04:03 flat, no orders. GBPUSD 1.33253 above 1.3274 trigger; USD GDP/PCE (8.6h) and ECB (9.3-9.8h) still ahead. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry ~1.3270, stop 1.3310, target "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793245317.0703444
+ "last_macro_macro": 1793246617.853168
 }
