@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-29 09:27 UTC. Runs so far: 42. Model: claude-haiku-5-5.
+Updated 2026-10-29 09:40 UTC. Runs so far: 42. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1096 | 32 | -28088.58 | -38609.25 |
+| control | meme | 1098 | 32 | -28075.39 | -38616.91 |
 | control | macro | 24 | 46 | -78.34 | -212.02 |
-| control | all | 1120 | 32 | -28166.92 | -38821.27 |
+| control | all | 1122 | 32 | -28153.73 | -38828.93 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: OTC long at 9.768e-05, stop 7.8144e-05, target 0.000136752, opened 2026-10-29 08:58 UTC
 - control: GBPUSD short at 1.33104, stop 1.3322, target 1.32932, opened 2026-10-29 09:02 UTC
 - control: SIB long at 0.0003156, stop 0.00025248, target 0.00044184, opened 2026-10-29 09:21 UTC
-- control: HERMIT long at 0.0001241, stop 9.928e-05, target 0.00017374, opened 2026-10-29 09:24 UTC
+- control: MOONX long at 0.0001734, stop 0.00013872, target 0.00024276, opened 2026-10-29 09:33 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order OTC REJECTED by guardrails: OTC already open
+- control: CLOSED HERMIT (stop) P&L $-54.81 normal, $-63.66 pessimistic
 
