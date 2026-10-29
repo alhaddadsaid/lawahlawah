@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-29 19:25 UTC. Runs so far: 43. Model: claude-haiku-5-5.
+Updated 2026-10-29 19:40 UTC. Runs so far: 43. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -17,6 +17,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
+- control: Hypurr long at 0.000183, stop 0.0001464, target 0.0002562, opened 2026-10-29 19:34 UTC
+- control: Tofu long at 9.603e-05, stop 7.6824e-05, target 0.000134442, opened 2026-10-29 19:40 UTC
 
 ## Team
 
@@ -29,5 +31,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED Tofu (stop) P&L $-54.99 normal, $-63.84 pessimistic
+- 2026-10-29 19:40 UTC control: OPENED Tofu long at 9.603e-05 (stop 7.6824e-05, target 0.000134442) - control: frozen v3 rules
 
