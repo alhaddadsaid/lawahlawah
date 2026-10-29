@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-29 00:29 UTC. Runs so far: 40. Model: claude-haiku-5-5.
+Updated 2026-10-29 00:38 UTC. Runs so far: 40. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1041 | 32 | -27053.7 | -37036.81 |
+| control | meme | 1042 | 32 | -27164.54 | -37155.06 |
 | control | macro | 24 | 46 | -78.34 | -212.02 |
-| control | all | 1065 | 32 | -27132.04 | -37248.83 |
+| control | all | 1066 | 32 | -27242.88 | -37367.08 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -31,12 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-29 00:29 UTC team macro (gold/forex), spent today $0.001
-
-Scout: GBPUSD at 1.33073 is still above the 1.3274 trigger, so the short setup has not fired. The next data (USD GDP and PCE, then the ECB) lands in about 12 hours, which makes entries before it low-quality.
-Skeptic: The journal is down $360 with no pre-registered edge, and gold has a 5-day range of roughly 3989 to 4164 with no active setup. Costs would eat any small move.
-Lead: No trades. Stay flat, keep the GBPUSD short plan armed, and re-check after the calendar events.
-
-{"orders": [], "close": [], "note": "00:29 flat, no orders. GBPUSD 1.33073 above 1.3274 trigger (no closed 1h bar below). Gold 4052.4, 5d range 3989-4164, no setup. Watch: GBPUSD short only on closed 1h bar < 1.3274 after USD GDP/PCE and ECB window; entry ~1.3270, stop 1.3310, target 1.3220, max 4h, skip if net edge after ~1.2 pips is negative. Gold: no edge found; need a defined level plus a hypothesis with positive net edge after ~$1 round trip."}
-
+- control: CLOSED CATCULUS (stop) P&L $-110.84 normal, $-118.25 pessimistic
 
