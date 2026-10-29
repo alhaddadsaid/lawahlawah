@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -19231.293824692955,
+   "cash": -19383.652440674414,
    "open": [
     {
      "id": 1158,
@@ -53,49 +53,42 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1167,
+     "id": 1171,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "OREN",
+     "mint": "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump",
+     "side": 1,
+     "opened": 1793281068.4679463,
+     "entry": 0.0001775,
+     "stop": 0.000142,
+     "target": 0.00024849999999999997,
+     "size": 1126760.5633802817,
+     "deadline": 1793288268.4679465,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1172,
      "desk": "control",
      "market": "meme",
      "symbol": "CPU",
      "mint": "5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo",
      "side": 1,
-     "opened": 1793278682.1991174,
-     "entry": 0.0002598,
-     "stop": 0.00020784000000000004,
-     "target": 0.00036372000000000005,
-     "size": 769822.9407236335,
-     "deadline": 1793285882.1991174,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1170,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CHLOE",
-     "mint": "J92Gw8j5nwkhAKgM1UsTD9GxegeLWXDht4RNx8YTpump",
-     "side": 1,
-     "opened": 1793280884.9359832,
-     "entry": 8.667e-05,
-     "stop": 6.9336e-05,
-     "target": 0.000121338,
-     "size": 2307603.553709473,
-     "deadline": 1793288084.9359834,
+     "opened": 1793281430.2575495,
+     "entry": 0.0001801,
+     "stop": 0.00014408,
+     "target": 0.00025214,
+     "size": 1110494.169905608,
+     "deadline": 1793288630.2575498,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1171,
+ "next_id": 1173,
  "runs": 42,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:B2Sr358fKA5TvmE6zWoVR8Ks5h3mZQBqDM22pA52pump": 1793281048.993233,
-  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793281048.993233,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793281048.993233,
-  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793281048.993233,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793281232.5875866,
-  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793281232.5875866,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793281417.611202,
   "seen:6kD62JEcxPFEeetYsWaDzqnC6pQXMi5A9Zku5pogpump": 1793281601.3439677,
   "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793281601.3439677,
   "seen:J92Gw8j5nwkhAKgM1UsTD9GxegeLWXDht4RNx8YTpump": 1793281601.3439677,
@@ -105,7 +98,16 @@
   "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793281784.8657827,
   "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793281784.8657827,
   "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793281784.8657827,
-  "control:J92Gw8j5nwkhAKgM1UsTD9GxegeLWXDht4RNx8YTpump": 1793281784.9359865
+  "control:J92Gw8j5nwkhAKgM1UsTD9GxegeLWXDht4RNx8YTpump": 1793281784.9359865,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793281967.6699865,
+  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793281967.6699865,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793281967.6699865,
+  "control:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793281968.4679496,
+  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793282147.0700839,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793282147.0700839,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793282330.1955292,
+  "seen:HytpiyuR3sVXGB5UqoqrnThCPH2X1tWVm5neep3Dpump": 1793282330.1955292,
+  "control:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793282330.2575526
  },
  "talks": {
   "2026-10-21": 109
@@ -146,26 +148,26 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793280148.9980717,
+  "t": 1793281067.6747096,
   "crypto": [
-   "Polygon expands Open Money Stack to Solana, after Tron rollout (0h ago)",
-   "A new framework for tokenized asset tracking (0h ago)",
+   "Polygon expands Open Money Stack to Solana, after Tron rollout (1h ago)",
+   "A new framework for tokenized asset tracking (1h ago)",
    "Tokenized stock venue on Canton could beat OKX\u2013ICE to first trade under SEC framework (1h ago)",
    "Chainalysis traces North Korean crypto cash-outs through Garantex (1h ago)",
    "Unlimit founder backs Phase blockchain with $45M as mainnet launches (1h ago)",
    "HTX agrees to halt unlawful UK crypto promotions after FCA case (1h ago)",
    "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers (1h ago)",
-   "As $10 billion in bitcoin options near expiry, the tell is in the pricing (1h ago)",
-   "EU investors rank crypto above retirement plans for lasting wealth creation: OKX survey (1h ago)",
-   "Coinbase seeks Brazil crypto license, expects no service disruption (1h ago)"
+   "As $10 billion in bitcoin options near expiry, the tell is in the pricing (2h ago)",
+   "EU investors rank crypto above retirement plans for lasting wealth creation: OKX survey (2h ago)",
+   "Coinbase seeks Brazil crypto license, expects no service disruption (2h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q was 0.9h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m was 0.9h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate was 0.1h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement was 0.1h",
-   "EUR ECB Press Conference in 0.4h"
+   "USD Advance GDP q/q was 1.1h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m was 1.1h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate was 0.4h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement was 0.4h",
+   "EUR ECB Press Conference in 0.1h"
   ]
  },
  "spend": {
@@ -196,5 +198,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793279965.7787354
+ "last_macro_macro": 1793281247.0748045
 }
