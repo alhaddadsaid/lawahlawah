@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -17056.630641809403,
+   "cash": -17203.43290722463,
    "open": [
     {
      "id": 1072,
@@ -51,36 +51,6 @@
      "size": 1423487.5444839858,
      "deadline": 1793236192.272543,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1081,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "FLOATER",
-     "mint": "6pjRwzGg2QS1VSf6Z4TQZwyMxUysrUajkRmbbQ89P6KG",
-     "side": 1,
-     "opened": 1793230639.779436,
-     "entry": 0.0001234,
-     "stop": 9.871999999999999e-05,
-     "target": 0.00017275999999999997,
-     "size": 1620745.542949757,
-     "deadline": 1793237839.7794363,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1082,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "FLOATCAT",
-     "mint": "EnMv4aju8JzWkYQfUXbfekhwRWqXvMELKxrMLaHQpump",
-     "side": 1,
-     "opened": 1793231372.3724265,
-     "entry": 0.0001675,
-     "stop": 0.000134,
-     "target": 0.00023449999999999998,
-     "size": 1194029.8507462686,
-     "deadline": 1793238572.3724265,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,9 +59,6 @@
  "runs": 40,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793231724.4731362,
-  "seen:EmwuDiRagt1TydqnPS35kNmvaTWTk2D9X2Tm4Znupump": 1793231724.4731362,
-  "seen:EnMv4aju8JzWkYQfUXbfekhwRWqXvMELKxrMLaHQpump": 1793231724.4731362,
   "seen:C28P7W6h755zjEspTbUNoSTEyA32h612NEb2x1bZJ9Dg": 1793231905.1206615,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793231905.1206615,
   "seen:CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": 1793231905.1206615,
@@ -106,7 +73,11 @@
   "seen:GsZNMN3TLT2Dx2d97cQGnWJsqYzALgieLKE7xsjypump": 1793232456.3022947,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793232456.3022947,
   "seen:AfPhjrZx3oyh38G28ZVViP4p7h53N5kTxEeg5tzhpump": 1793232456.3022947,
-  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793232456.3022947
+  "seen:8U6Rw9WVtPb9ShnUo1HeSKBLrGxWLSczCd2RSdYFpump": 1793232456.3022947,
+  "seen:XshPgPdXFRWB8tP1j82rebb2Q9rPgGX37RuqzohmArM": 1793232642.4639595,
+  "seen:EnMv4aju8JzWkYQfUXbfekhwRWqXvMELKxrMLaHQpump": 1793232642.4639595,
+  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793232642.4639595,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793232642.4639595
  },
  "talks": {
   "2026-10-21": 109
