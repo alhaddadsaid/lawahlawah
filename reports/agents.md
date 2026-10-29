@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-29 10:00 UTC. Runs so far: 42. Model: claude-haiku-5-5.
+Updated 2026-10-29 10:06 UTC. Runs so far: 42. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1100 | 32 | -28187.22 | -38746.38 |
+| control | meme | 1101 | 32 | -28255.71 | -38823.37 |
 | control | macro | 24 | 46 | -78.34 | -212.02 |
-| control | all | 1124 | 32 | -28265.56 | -38958.4 |
+| control | all | 1125 | 32 | -28334.05 | -39035.39 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: GBPUSD short at 1.33104, stop 1.3322, target 1.32932, opened 2026-10-29 09:02 UTC
 - control: SIB long at 0.0003156, stop 0.00025248, target 0.00044184, opened 2026-10-29 09:21 UTC
 - control: HERMIT long at 9.887e-05, stop 7.9096e-05, target 0.000138418, opened 2026-10-29 09:45 UTC
-- control: BabyNuts long at 0.0001507, stop 0.00012056, target 0.00021098, opened 2026-10-29 10:00 UTC
+- control: OTC long at 0.0001696, stop 0.00013568, target 0.00023744, opened 2026-10-29 10:06 UTC
 
 ## Team
 
@@ -33,5 +33,6 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-29 10:00 UTC control: OPENED BabyNuts long at 0.0001507 (stop 0.00012056, target 0.00021098) - control: frozen v3 rules
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- 2026-10-29 10:06 UTC control: OPENED OTC long at 0.0001696 (stop 0.00013568, target 0.00023744) - control: frozen v3 rules
 

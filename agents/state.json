@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -18265.407578790626,
+   "cash": -18333.894639175498,
    "open": [
     {
      "id": 1141,
@@ -53,35 +53,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1147,
+     "id": 1148,
      "desk": "control",
      "market": "meme",
-     "symbol": "BabyNuts",
-     "mint": "6KiSJe4GB9vLratvfF4Zb91jNQeekE3QCG3BnLzkpump",
+     "symbol": "OTC",
+     "mint": "Fa24xN13pzjmcx1dtKP9nBMMFCwLtXCJrtP5hSPKpump",
      "side": 1,
-     "opened": 1793268051.4946373,
-     "entry": 0.0001507,
-     "stop": 0.00012056000000000001,
-     "target": 0.00021098,
-     "size": 1327140.0132714,
-     "deadline": 1793275251.4946375,
+     "opened": 1793268418.7542906,
+     "entry": 0.0001696,
+     "stop": 0.00013568,
+     "target": 0.00023743999999999998,
+     "size": 1179245.283018868,
+     "deadline": 1793275618.754291,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1148,
+ "next_id": 1149,
  "runs": 42,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6KiSJe4GB9vLratvfF4Zb91jNQeekE3QCG3BnLzkpump": 1793268217.8949714,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793268217.8949714,
-  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793268217.8949714,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793268217.8949714,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793268217.8949714,
-  "seen:Co9MpsTVpAiCLnbZbPDqFHfzYge7qvtVJYfwf2w9pump": 1793268401.9678926,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793268401.9678926,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793268401.9678926,
   "seen:GcYGNe5BqQrbyGXSAm4Dan3MYobcREF9KcNSSqs9pump": 1793268581.5800073,
   "seen:GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6": 1793268581.5800073,
   "seen:Erp1Jjs1gp37BhoiXb3rxbyWxVSB7Ucbpocithqkpump": 1793268765.1810436,
@@ -90,7 +82,15 @@
   "seen:HxGBpVqggmuT7fvz3as7X2Tz8xbUs4wKMLEakXSmpump": 1793268951.4297194,
   "seen:Fa24xN13pzjmcx1dtKP9nBMMFCwLtXCJrtP5hSPKpump": 1793268951.4297194,
   "seen:28vWTtEwxoWp5MpHutAMSK5DeVf8xXk8jEEtbrtppump": 1793268951.4297194,
-  "control:6KiSJe4GB9vLratvfF4Zb91jNQeekE3QCG3BnLzkpump": 1793268951.4946404
+  "control:6KiSJe4GB9vLratvfF4Zb91jNQeekE3QCG3BnLzkpump": 1793268951.4946404,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793269132.7273626,
+  "seen:6KiSJe4GB9vLratvfF4Zb91jNQeekE3QCG3BnLzkpump": 1793269132.7273626,
+  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793269132.7273626,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793269132.7273626,
+  "seen:GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt": 1793269318.4545195,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793269318.4545195,
+  "seen:Co9MpsTVpAiCLnbZbPDqFHfzYge7qvtVJYfwf2w9pump": 1793269318.4545195,
+  "control:Fa24xN13pzjmcx1dtKP9nBMMFCwLtXCJrtP5hSPKpump": 1793269318.7542942
  },
  "talks": {
   "2026-10-21": 109
@@ -131,26 +131,26 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793267317.8993895,
+  "t": 1793268232.7318504,
   "crypto": [
+   "Bermuda taps WalletConnect to advance its onchain economy plan (0h ago)",
    "Former Swift CEO joins stablecoin firm OpenTrade as chairman (1h ago)",
    "The chart bitcoin traders should be paying attention to (2h ago)",
-   "Bitcoin ETFs add $137M, pushing October back into the green (2h ago)",
+   "Bitcoin ETFs add $137M, pushing October back into the green (3h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
    "AI found a way to crash bitcoin nodes on Windows and Macs. It's now public (4h ago)",
-   "Security failure at Indian certificate firm bites Ethereum as developers rush out fixes (4h ago)",
+   "Security failure at Indian certificate firm bites Ethereum as developers rush out fixes (5h ago)",
    "Utah charges predictions platform Kalshi with illegal gambling (5h ago)",
    "Your fridge could one day stake Ether, launch memecoins: CFTC chair (5h ago)",
-   "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto (6h ago)",
-   "Mystery Wall Street Journal ad sparks new fight over tokenized stocks (6h ago)"
+   "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto (7h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q in 2.7h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 2.7h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 3.4h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 3.4h",
-   "EUR ECB Press Conference in 3.9h"
+   "USD Advance GDP q/q in 2.4h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m in 2.4h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 3.2h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 3.2h",
+   "EUR ECB Press Conference in 3.7h"
   ]
  },
  "spend": {
@@ -181,5 +181,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793267135.1279533
+ "last_macro_macro": 1793268418.4589102
 }
