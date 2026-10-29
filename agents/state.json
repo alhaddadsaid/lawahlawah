@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -17450.24919741604,
+   "cash": -17433.928055578395,
    "open": [
     {
      "id": 1099,
@@ -20,21 +20,6 @@
      "target": 0.00027482,
      "size": 1018848.7009679063,
      "deadline": 1793247014.9086475,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1106,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SLEGO",
-     "mint": "HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump",
-     "side": 1,
-     "opened": 1793244583.6498876,
-     "entry": 0.0001219,
-     "stop": 9.752e-05,
-     "target": 0.00017066,
-     "size": 1640689.0894175554,
-     "deadline": 1793251783.6498878,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -53,37 +38,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1110,
+     "id": 1111,
      "desk": "control",
      "market": "meme",
-     "symbol": "PODCAT",
-     "mint": "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump",
+     "symbol": "Tucker",
+     "mint": "677RzFgXjLpApyHAtzjd9sTjiJNGCxrRVvYb1TwWp5qJ",
      "side": 1,
-     "opened": 1793245499.4819129,
-     "entry": 0.0001121,
-     "stop": 8.968000000000001e-05,
-     "target": 0.00015694,
-     "size": 1784121.320249777,
-     "deadline": 1793252699.481913,
+     "opened": 1793245868.4375846,
+     "entry": 6.095e-05,
+     "stop": 4.876e-05,
+     "target": 8.533e-05,
+     "size": 3281378.1788351107,
+     "deadline": 1793253068.4375846,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1111,
+ "next_id": 1112,
  "runs": 41,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump": 1793245667.6535401,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793245667.6535401,
-  "control:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793245667.7200866,
-  "seen:4DRCn24HmGms5YVMtUMoMJXJ3KdJnye3QuSnjB1dpump": 1793245852.0646365,
-  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793245852.0646365,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793245852.0646365,
-  "control:4dDZ71dcY9vKgBdQkyvSwtpK59B6cqYA3gErGLk2yuut": 1793245852.3161173,
-  "seen:4dDZ71dcY9vKgBdQkyvSwtpK59B6cqYA3gErGLk2yuut": 1793246032.8205829,
-  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793246032.8205829,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793246032.8205829,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793246217.0670054,
   "seen:Dxg9cLvssqb1WEMpyynjf17kGRc4UTNyUqjzNj99opus": 1793246217.0670054,
   "seen:147a97vXeJMM8pgFrEeMVmts4MciKAEEwRN6anYQszec": 1793246217.0670054,
@@ -95,7 +70,14 @@
   "seen:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793246399.3552582,
   "seen:J7cqsaTuXUavwA3sp238tSpartUfYwDrJAaHuDvypump": 1793246399.3552582,
   "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793246399.3552582,
-  "control:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793246399.4819157
+  "control:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793246399.4819157,
+  "seen:HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump": 1793246584.2246342,
+  "seen:EZKHcMdW537sezfX3PtvTpQtakvBXXR2VWxjjKtis8fH": 1793246768.2782254,
+  "seen:677RzFgXjLpApyHAtzjd9sTjiJNGCxrRVvYb1TwWp5qJ": 1793246768.2782254,
+  "control:677RzFgXjLpApyHAtzjd9sTjiJNGCxrRVvYb1TwWp5qJ": 1793246768.4375877,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793246952.4816778,
+  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793246952.4816778,
+  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793246952.4816778
  },
  "talks": {
   "2026-10-21": 109
@@ -136,26 +118,26 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793245132.8238869,
+  "t": 1793246052.485291,
   "crypto": [
    "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto (0h ago)",
-   "Mystery Wall Street Journal ad sparks new fight over tokenized stocks (0h ago)",
-   "Tampered Ledger wallets cost Singapore users $2.7M: Police (0h ago)",
-   "Fed\u2019s hawkish rate hold keeps pressure on Bitcoin: Analysts (2h ago)",
+   "Mystery Wall Street Journal ad sparks new fight over tokenized stocks (1h ago)",
+   "Tampered Ledger wallets cost Singapore users $2.7M: Police (1h ago)",
+   "Fed\u2019s hawkish rate hold keeps pressure on Bitcoin: Analysts (3h ago)",
    "Canadian \u2018crypto king\u2019 case to go to jury as criminal trial winds down (6h ago)",
-   "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost (6h ago)",
+   "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost (7h ago)",
    "Here\u2019s what happened in crypto today (8h ago)",
-   "Sam Bankman-Fried wrote to actor portraying him in Netflix series (8h ago)",
+   "Sam Bankman-Fried wrote to actor portraying him in Netflix series (9h ago)",
    "CFTC chief poses questions about policing AI but calls it a road to 'autonomous trading' (9h ago)",
-   "Crypto isn\u2019t a partisan fight, proven by data (9h ago)"
+   "Crypto isn\u2019t a partisan fight, proven by data (10h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q in 8.9h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 8.9h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 9.6h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 9.6h",
-   "EUR ECB Press Conference in 10.1h"
+   "USD Advance GDP q/q in 8.6h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m in 8.6h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 9.3h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 9.3h",
+   "EUR ECB Press Conference in 9.8h"
   ]
  },
  "spend": {
