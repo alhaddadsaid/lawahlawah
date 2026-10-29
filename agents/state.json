@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -19671.490602674625,
+   "cash": -19786.38060280218,
    "open": [
     {
      "id": 1178,
@@ -23,36 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1180,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HERMIT",
-     "mint": "ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump",
-     "side": 1,
-     "opened": 1793285275.9195795,
-     "entry": 7.193e-05,
-     "stop": 5.7544e-05,
-     "target": 0.00010070199999999999,
-     "size": 2780481.023217017,
-     "deadline": 1793292475.9195797,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1181,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PODCAT",
-     "mint": "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump",
-     "side": 1,
-     "opened": 1793285459.278395,
-     "entry": 0.0001733,
-     "stop": 0.00013864000000000001,
-     "target": 0.00024262,
-     "size": 1154068.090017311,
-     "deadline": 1793292659.278395,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1182,
      "desk": "control",
      "market": "macro",
@@ -66,22 +36,44 @@
      "size": 68046.74253134486,
      "deadline": 1793372411.3816798,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 1183,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "OREN",
+     "mint": "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump",
+     "side": 1,
+     "opened": 1793286557.4670525,
+     "entry": 7.974e-05,
+     "stop": 6.3792e-05,
+     "target": 0.000111636,
+     "size": 2508151.492350138,
+     "deadline": 1793293757.4670527,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1184,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PODCAT",
+     "mint": "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump",
+     "side": 1,
+     "opened": 1793286740.5373187,
+     "entry": 0.0001376,
+     "stop": 0.00011008000000000002,
+     "target": 0.00019264,
+     "size": 1453488.372093023,
+     "deadline": 1793293940.537319,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1183,
+ "next_id": 1185,
  "runs": 43,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:aZQqq5pN6Umg2FM1XsEX7amT15qZwJq6Cosruz2iUdm": 1793286542.3448088,
-  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793286542.3448088,
-  "seen:ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump": 1793286542.3448088,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793286542.3448088,
-  "seen:wKy6tEDZj6jS1GUMmnSSTrR1bXJQa35s7VHcWHxhNbA": 1793286542.3448088,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793286729.080862,
-  "seen:6tNEpcBbjvEmsS6KuhTXjW6BnXfXi8AHMWBaAQGwpump": 1793286729.080862,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793286729.080862,
   "seen:A6PM7bxyWYiUxaEpRMHvuL4tY2jYVf8N46vXZ15Hpump": 1793286911.3003216,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793286911.3003216,
   "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793286911.3003216,
@@ -96,7 +88,16 @@
   "seen:GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": 1793287277.1150963,
   "seen:5DAqRe7Fa7SzVN3urM8hqKfmCUwZvowZTvp5WMgupump": 1793287277.1150963,
   "seen:BTJzsixuJCCg2iL8GV8N98RaiwkHVdt65CFpNZdEmfun": 1793287277.1150963,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793287277.1150963
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793287277.1150963,
+  "seen:CuFjT6SJQKUV4ApLPF8UKJQ7TA9sBzaw3rAFrkbRpump": 1793287456.9401405,
+  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793287456.9401405,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793287456.9401405,
+  "seen:9AfSCLTcHTwgKdy78ibYdJFn3TGbkQRcaxd2RUyHpump": 1793287456.9401405,
+  "control:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793287457.4670572,
+  "seen:531wXhUCBzyRfKJQzGjdfiyNGpbWn2WUwtgHZA1EeLWB": 1793287640.5012763,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793287640.5012763,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793287640.5012763,
+  "control:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793287640.5373223
  },
  "talks": {
   "2026-10-21": 109
@@ -137,26 +138,26 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793285642.349654,
+  "t": 1793286556.9461684,
   "crypto": [
-   "Bank of England opens consultation on tokenized collateral for clearing (0h ago)",
+   "Polymarket brings ultra-short crypto prediction markets to U.S. platform (0h ago)",
+   "Crypto for Advisors: Only 1 in 5 Americans say the financial system is secure (1h ago)",
+   "Bank of England opens consultation on tokenized collateral for clearing (1h ago)",
    "Why Switzerland\u2019s first genuine spot bitcoin ETF could soon attract overseas banks and brokers (1h ago)",
    "Chainlink adds weekend pricing for tokenized assets, with Aave as launch partner (1h ago)",
    "Canton Foundation grants RedStone 15.8M Canton Coin for pricing standard (1h ago)",
    "New quantum model slashes hardware needed to break bitcoin keys by 17 times (1h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
    "Walmart, Eli Lilly join growing pushback against OKX\u2013ICE tokenized stock plans (1h ago)",
-   "Brazil\u2019s Halloween eve crypto deadline brings more tricks than treats (1h ago)",
-   "Private, fast USDT is coming to Bitcoin. Can it compete with Ethereum and Tron? (1h ago)",
-   "Polygon expands Open Money Stack to Solana, after Tron rollout (2h ago)"
+   "Brazil\u2019s Halloween eve crypto deadline brings more tricks than treats (2h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q was 2.4h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m was 2.4h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate was 1.7h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement was 1.7h",
-   "EUR ECB Press Conference was 1.2h"
+   "USD Advance GDP q/q was 2.7h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m was 2.7h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate was 1.9h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement was 1.9h",
+   "EUR ECB Press Conference was 1.4h"
   ]
  },
  "spend": {
