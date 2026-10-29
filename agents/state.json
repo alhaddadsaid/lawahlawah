@@ -44,11 +44,6 @@
  "runs": 40,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GmbLe2MGLUz1noveTH9ssZapcJnEeXpcDVzXUv4b6DdY": 1793241442.6633806,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793241442.6633806,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793241442.6633806,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793241442.6633806,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793241442.6633806,
   "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793241627.0455248,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793241627.0455248,
   "control:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793241627.1065197,
@@ -59,7 +54,12 @@
   "seen:5pKaoFzKaNoVEVqMHuf8pEzDSGLsWYBDsj6NaCUvpump": 1793241990.921333,
   "seen:HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump": 1793241990.921333,
   "seen:147a97vXeJMM8pgFrEeMVmts4MciKAEEwRN6anYQszec": 1793241990.921333,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793242175.560659
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793242175.560659,
+  "seen:GmbLe2MGLUz1noveTH9ssZapcJnEeXpcDVzXUv4b6DdY": 1793242356.8096926,
+  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793242356.8096926,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793242356.8096926,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793242356.8096926,
+  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793242356.8096926
  },
  "talks": {
   "2026-10-21": 109
@@ -100,35 +100,34 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793240542.6677957,
+  "t": 1793241456.8141468,
   "crypto": [
    "Fed\u2019s hawkish rate hold keeps pressure on Bitcoin: Analysts (1h ago)",
    "Canadian \u2018crypto king\u2019 case to go to jury as criminal trial winds down (5h ago)",
    "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost (5h ago)",
    "Here\u2019s what happened in crypto today (7h ago)",
    "Sam Bankman-Fried wrote to actor portraying him in Netflix series (7h ago)",
-   "CFTC chief poses questions about policing AI but calls it a road to 'autonomous trading' (7h ago)",
+   "CFTC chief poses questions about policing AI but calls it a road to 'autonomous trading' (8h ago)",
    "Crypto isn\u2019t a partisan fight, proven by data (8h ago)",
-   "Strategy shareholders approve daily dividends for four preferred stocks (8h ago)",
-   "Fed leaves interest rates unchanged, as expected (8h ago)",
-   "Crypto PAC spending before midterms possibly obscured after reported FEC hack (9h ago)"
+   "Strategy shareholders approve daily dividends for four preferred stocks (9h ago)",
+   "Fed leaves interest rates unchanged, as expected (9h ago)",
+   "Crypto PAC spending before midterms possibly obscured after reported FEC hack (10h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q in 10.1h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 10.1h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 10.9h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 10.9h",
-   "EUR ECB Press Conference in 11.4h"
+   "USD Advance GDP q/q in 9.9h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m in 9.9h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 10.6h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 10.6h",
+   "EUR ECB Press Conference in 11.1h"
   ]
  },
  "spend": {
-  "2026-10-29": 0.004382
+  "2026-10-29": 0.005008
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
  "notes": [
-  "2026-10-28 19:29 UTC [macro] 19:29 flat, no orders. GBPUSD 1.33301 above 1.3274 trigger; no closed 1h bar below yet. Watch: GBPUSD short only after closed 1h bar below 1.3274 (entry ~1.3270, stop 1.3310, target 1.3220, max 4h, skip if net edge after",
   "2026-10-28 19:51 UTC [macro] 19:51 flat, no orders. GBPUSD 1.3325 above 1.3274 trigger. Next check after 20:00 1h close: GBPUSD short only if close < 1.3274 (entry ~1.3270, stop 1.3310, target 1.3220, max 4h, skip if net edge after ~1.2 pip cost is ",
   "2026-10-28 20:12 UTC [macro] 20:12 flat, no orders. GBPUSD 1.33301 above 1.3274 trigger; 20:00 1h bar did not close below. Watch: GBPUSD short only after a closed 1h bar below 1.3274 (entry ~1.3270, stop 1.3310, target 1.3220, max 4h; skip if net ed",
   "2026-10-28 20:33 UTC [macro] 20:33 flat, no orders. Watch GBPUSD short only after closed 1h bar below 1.3274 (next check 21:00 close): entry ~1.3270, stop 1.3310, target 1.3220, max 4h; skip if net edge after ~1.2 pips is negative. Gold no setup; mi",
@@ -147,8 +146,9 @@
   "2026-10-29 01:12 UTC [macro] 01:12 flat, no orders. GBPUSD 1.33197 above 1.3274 trigger, no closed 1h bar below. Watch next: after USD GDP/PCE and ECB window (~11h out), short only on a closed 1h bar < 1.3274; entry ~1.3270, stop 1.3310, target 1.32",
   "2026-10-29 01:33 UTC [macro] 01:33 flat, no orders. GBPUSD 1.33285 above 1.3274 trigger, no closed 1h bar below. Plan unchanged: short only on closed 1h bar < 1.3274 after USD GDP/PCE and ECB window (~11h out); entry ~1.3270, stop 1.3310, target 1.3",
   "2026-10-29 01:54 UTC [macro] 01:54 flat, no orders. GBPUSD 1.33301 above 1.3274 trigger, no closed 1h bar below. Watch after USD GDP/PCE and ECB window (~10h out): short only on closed 1h bar < 1.3274; entry ~1.3270, stop 1.3310, target 1.3220, max ",
-  "2026-10-29 02:16 UTC [macro] Flat all session, no orders. Watch list: GBPUSD short only after the USD GDP/PCE and ECB window (~10h out) on a closed 1h bar below 1.3274; entry ~1.3270, stop 1.3310, target 1.3220, max 4h, size 0.5-1%. Skip if the even"
+  "2026-10-29 02:16 UTC [macro] Flat all session, no orders. Watch list: GBPUSD short only after the USD GDP/PCE and ECB window (~10h out) on a closed 1h bar below 1.3274; entry ~1.3270, stop 1.3310, target 1.3220, max 4h, size 0.5-1%. Skip if the even",
+  "2026-10-29 02:37 UTC [macro] 02:37 flat, no orders. GBPUSD 1.33285 above 1.3274 trigger, no closed 1h bar below. Gold 4061, EURUSD 1.1157, no setups. Watch: GBPUSD short only on closed 1h bar < 1.3274 after USD GDP/PCE and ECB window (~10h out); ent"
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793240178.1427686
+ "last_macro_macro": 1793241456.8140779
 }
