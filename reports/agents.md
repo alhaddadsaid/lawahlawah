@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-29 19:10 UTC. Runs so far: 43. Model: claude-haiku-5-5.
+Updated 2026-10-29 19:19 UTC. Runs so far: 43. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1156 | 31 | -30224.86 | -41306.11 |
+| control | meme | 1158 | 31 | -30336.72 | -41435.61 |
 | control | macro | 26 | 46 | -43.88 | -186.86 |
-| control | all | 1182 | 32 | -30268.74 | -41492.97 |
+| control | all | 1184 | 32 | -30380.6 | -41622.47 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: CATBOT long at 9.295e-05, stop 7.436e-05, target 0.00013013, opened 2026-10-29 18:57 UTC
-- control: Hypurr long at 0.000188, stop 0.0001504, target 0.0002632, opened 2026-10-29 19:10 UTC
+- control: CATBOT long at 6.867e-05, stop 5.4936e-05, target 9.6138e-05, opened 2026-10-29 19:19 UTC
 
 ## Team
 
@@ -31,5 +30,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-29 19:10 UTC control: OPENED Hypurr long at 0.000188 (stop 0.0001504, target 0.0002632) - control: frozen v3 rules
+- control: CLOSED Hypurr (stop) P&L $-55.33 normal, $-64.16 pessimistic
 
