@@ -33,5 +33,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order HERMIT REJECTED by guardrails: HERMIT already open
+## Run ended 2026-10-29 09:11 UTC
 
