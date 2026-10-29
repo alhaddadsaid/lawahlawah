@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -20493.755461459725,
+   "cash": -20648.47598814267,
    "open": [
-    {
-     "id": 1206,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Hypurr",
-     "mint": "FSsgh7o8SvBDuZcxnShESZ175UWhwE4h2DgCLKvfpump",
-     "side": 1,
-     "opened": 1793302466.2682068,
-     "entry": 0.000183,
-     "stop": 0.0001464,
-     "target": 0.0002562,
-     "size": 1092896.174863388,
-     "deadline": 1793309666.268207,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1207,
      "desk": "control",
@@ -36,22 +21,29 @@
      "size": 2082682.4950536292,
      "deadline": 1793310030.4174702,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1209,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "three",
+     "mint": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
+     "side": 1,
+     "opened": 1793303380.5991113,
+     "entry": 0.0004253,
+     "stop": 0.00034024,
+     "target": 0.0005954199999999999,
+     "size": 470256.2896778745,
+     "deadline": 1793310580.5991118,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1208,
+ "next_id": 1210,
  "runs": 43,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GxMZtiBgx9ctU3KsybnB7aWBcPSVhQQqs8FzKJsVpump": 1793303002.585579,
-  "seen:FSsgh7o8SvBDuZcxnShESZ175UWhwE4h2DgCLKvfpump": 1793303002.585579,
-  "seen:AEqw9bAtqJCWPNNJp9EieXw8GYwm1kgsJBDdJBU2pump": 1793303002.585579,
-  "seen:GJKnJsRiM5ATS4yhwjYRegT3iRsXUvcW1dafJPh8pump": 1793303002.585579,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793303185.1680567,
-  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793303185.1680567,
-  "seen:7ga6rtE9qSb3wdEiDCpTu2kHqoGVfT52jD8ign1rYTvx": 1793303366.1890965,
-  "control:FSsgh7o8SvBDuZcxnShESZ175UWhwE4h2DgCLKvfpump": 1793303366.268211,
   "seen:FaBb6ebRTGbZWchGiC2eSSRaZWVsFYLe9UqvBuiYpump": 1793303548.3508394,
   "seen:H3iGq7KSqdzw7QG3xZo2mF4eaYsvihZqqoAkdXripump": 1793303548.3508394,
   "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793303548.3508394,
@@ -60,7 +52,18 @@
   "seen:CNtdYoJq9viwsj5eogkK45Bn9HjMyGKWpU6GB2dwpump": 1793303548.3508394,
   "seen:FAQ9cZQdYQA8TTQnyjx1dgUjmqcHc4zZ7N3vwDHSpump": 1793303730.3798814,
   "seen:9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": 1793303730.3798814,
-  "control:GxMZtiBgx9ctU3KsybnB7aWBcPSVhQQqs8FzKJsVpump": 1793303730.4174733
+  "control:GxMZtiBgx9ctU3KsybnB7aWBcPSVhQQqs8FzKJsVpump": 1793303730.4174733,
+  "seen:AEqw9bAtqJCWPNNJp9EieXw8GYwm1kgsJBDdJBU2pump": 1793303914.6020215,
+  "seen:GxMZtiBgx9ctU3KsybnB7aWBcPSVhQQqs8FzKJsVpump": 1793303914.6020215,
+  "seen:FSsgh7o8SvBDuZcxnShESZ175UWhwE4h2DgCLKvfpump": 1793303914.6020215,
+  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793303914.6020215,
+  "seen:GozXFUVjxtTMVfF1HRAE9difXDLcciemgsJ2i5u1X6UJ": 1793304098.0793185,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1793304098.0793185,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793304098.0793185,
+  "control:FaBb6ebRTGbZWchGiC2eSSRaZWVsFYLe9UqvBuiYpump": 1793304098.1152716,
+  "seen:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793304280.565337,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793304280.565337,
+  "control:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793304280.599115
  },
  "talks": {
   "2026-10-21": 109
@@ -101,18 +104,18 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793302102.5923731,
+  "t": 1793303014.6083474,
   "crypto": [
+   "Polymarket suspended trading amid reports of user funds being drained (0h ago)",
    "Polymarket suspends trading after third-party breach leads to user losses (1h ago)",
-   "HYPE teases all-time high as NYSE owner ICE eyes US Hyperliquid perps (2h ago)",
-   "KuCoin suspends services in Russia and Belarus (2h ago)",
-   "Stanley Druckenmiller's first X post backs Hyperliquid venture after $23 million indirect investment (2h ago)",
+   "HYPE teases all-time high as NYSE owner ICE eyes US Hyperliquid perps (3h ago)",
+   "KuCoin suspends services in Russia and Belarus (3h ago)",
+   "Stanley Druckenmiller's first X post backs Hyperliquid venture after $23 million indirect investment (3h ago)",
    "KuCoin exits Russia and Belarus as crypto exchanges withdraw from Western-sanctioned markets (3h ago)",
    "From rivals to partners: Polygon and Solana team to bring stablecoin payments to banks (3h ago)",
    "Nasdaq-listed Canton Strategic Holdings plans tokenized stock trading from Nov. 2 (3h ago)",
-   "Crypto exchange HTX exits the UK after settling with the FCA (3h ago)",
-   "Kalshi raises $1B at $40B valuation as non-sports revenue run rate tops $1B (4h ago)",
-   "Bitcoin price jumps to $81.5K as US GDP data beats expectations (4h ago)"
+   "Crypto exchange HTX exits the UK after settling with the FCA (4h ago)",
+   "Kalshi raises $1B at $40B valuation as non-sports revenue run rate tops $1B (4h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -145,5 +148,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793301735.710816
+ "last_macro_macro": 1793303014.6082692
 }
