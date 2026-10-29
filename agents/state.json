@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -20991.01860235162,
+   "cash": -21085.23088414713,
    "open": [
     {
      "id": 1223,
@@ -51,21 +51,6 @@
      "size": 2379252.91458482,
      "deadline": 1793321050.4927971,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1228,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HYPERCAT",
-     "mint": "AEqw9bAtqJCWPNNJp9EieXw8GYwm1kgsJBDdJBU2pump",
-     "side": 1,
-     "opened": 1793314765.9054246,
-     "entry": 0.0001604,
-     "stop": 0.00012832,
-     "target": 0.00022455999999999998,
-     "size": 1246882.7930174563,
-     "deadline": 1793321965.9054248,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,26 +59,24 @@
  "runs": 44,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793316395.967529,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793316395.967529,
-  "control:3EnfmbxdD2nHJ1KoogUgoYgeqS54gKis3AD3ieHGpump": 1793316396.0090969,
-  "seen:HA479B5zxyLPsV6rUo8PzoYKK2WCDZhJojJuqdx9pump": 1793316579.5767097,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793316579.5767097,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793316579.5767097,
-  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793316579.5767097,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793316579.5767097,
-  "seen:CXcoqBLzatUphFSDLgsDrqJncZJ3JYkFgse4NgDVpump": 1793316761.2248168,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793316761.2248168,
-  "seen:PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m": 1793316761.2248168,
-  "seen:9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": 1793316761.2248168,
-  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793316761.2248168,
-  "seen:AEqw9bAtqJCWPNNJp9EieXw8GYwm1kgsJBDdJBU2pump": 1793316761.2248168,
-  "control:6rg9GdCro19d2sz79mhix5pLJjSwn8RTCjZvG4Wecnj": 1793316761.778017,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793316943.7960598,
   "control:HA479B5zxyLPsV6rUo8PzoYKK2WCDZhJojJuqdx9pump": 1793316943.8298316,
   "seen:6rg9GdCro19d2sz79mhix5pLJjSwn8RTCjZvG4Wecnj": 1793317126.0063262,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793317126.0063262,
-  "seen:BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": 1793317126.0063262
+  "seen:BZFYNPeQAEW3HWQ4DNsTVahC1n4ZjTgn6jB2nnBbB96W": 1793317126.0063262,
+  "seen:3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt": 1793317309.7909148,
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793317309.7909148,
+  "seen:HA479B5zxyLPsV6rUo8PzoYKK2WCDZhJojJuqdx9pump": 1793317491.7472486,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793317491.7472486,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793317491.7472486,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793317491.7472486,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793317491.7472486,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793317491.7472486,
+  "seen:CXcoqBLzatUphFSDLgsDrqJncZJ3JYkFgse4NgDVpump": 1793317673.6616502,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793317673.6616502,
+  "seen:9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": 1793317673.6616502,
+  "seen:AEqw9bAtqJCWPNNJp9EieXw8GYwm1kgsJBDdJBU2pump": 1793317673.6616502,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793317673.6616502
  },
  "talks": {
   "2026-10-21": 109
@@ -134,18 +117,18 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793315861.231096,
+  "t": 1793316773.6679723,
   "crypto": [
+   "Binance hack rattles crypto markets as BNB falls 7%, Bitcoin slides (0h ago)",
    "Tampered Ledger reported in Singapore a month before news broke: Asia Express (1h ago)",
-   "Live Updates: Binance hit in largest crypto hack in history (2h ago)",
-   "Binance loses $5.7 billion in largest crypto hack to date (2h ago)",
-   "Here\u2019s what happened in crypto today (3h ago)",
-   "Public companies double share of blockchain revenue since 2022: Report (3h ago)",
+   "Live Updates: Binance hit by largest crypto hack in history (2h ago)",
+   "Binance loses $5.7 billion in 'biggest crypto hack in history' (2h ago)",
+   "Here\u2019s what happened in crypto today (4h ago)",
+   "Public companies double share of blockchain revenue since 2022: Report (4h ago)",
    "Polymarket suspended trading amid reports of user funds being drained (4h ago)",
-   "Polymarket suspends trading after third-party breach leads to user losses (4h ago)",
+   "Polymarket suspends trading after third-party breach leads to user losses (5h ago)",
    "HYPE teases all-time high as NYSE owner ICE eyes US Hyperliquid perps (6h ago)",
-   "KuCoin suspends services in Russia and Belarus (6h ago)",
-   "Stanley Druckenmiller's first X post backs Hyperliquid venture after $23 million indirect investment (6h ago)"
+   "KuCoin suspends services in Russia and Belarus (6h ago)"
   ],
   "macro": [],
   "calendar": []
