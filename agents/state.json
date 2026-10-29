@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -17493.54145245295,
+   "cash": -17520.92203904513,
    "open": [
     {
      "id": 1091,
@@ -38,36 +38,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1097,
+     "id": 1099,
      "desk": "control",
      "market": "meme",
-     "symbol": "bio\u00b7\u03b5/909\u0394",
-     "mint": "VFcXScyQcxbfTmAv7G3nkdUsTJhUejAnhWfUXW6pump",
+     "symbol": "CPU",
+     "mint": "5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo",
      "side": 1,
-     "opened": 1793239260.6262984,
-     "entry": 8.002e-05,
-     "stop": 6.4016e-05,
-     "target": 0.00011202799999999998,
-     "size": 2499375.1562109473,
-     "deadline": 1793246460.6262987,
+     "opened": 1793239814.9086475,
+     "entry": 0.0001963,
+     "stop": 0.00015704,
+     "target": 0.00027482,
+     "size": 1018848.7009679063,
+     "deadline": 1793247014.9086475,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1098,
+ "next_id": 1100,
  "runs": 40,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793239610.0371952,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793239610.0371952,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793239610.0371952,
-  "control:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793239610.7394402,
-  "seen:Ewk4Fvh5fRtFs6GRK91MCVKxUkvXzHDjouETbff6NRiq": 1793239794.2033517,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793239794.2033517,
-  "seen:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793239794.2033517,
-  "seen:677RzFgXjLpApyHAtzjd9sTjiJNGCxrRVvYb1TwWp5qJ": 1793239794.2033517,
-  "control:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793239798.261644,
   "seen:VFcXScyQcxbfTmAv7G3nkdUsTJhUejAnhWfUXW6pump": 1793239977.6459067,
   "seen:J7cqsaTuXUavwA3sp238tSpartUfYwDrJAaHuDvypump": 1793239977.6459067,
   "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793239977.6459067,
@@ -78,7 +69,16 @@
   "control:VFcXScyQcxbfTmAv7G3nkdUsTJhUejAnhWfUXW6pump": 1793240160.626302,
   "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793240344.116066,
   "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793240344.116066,
-  "seen:7AxJJTaJumkDRCJNz4n8ixobaPjrmL6GmxexuJKDpump": 1793240344.116066
+  "seen:7AxJJTaJumkDRCJNz4n8ixobaPjrmL6GmxexuJKDpump": 1793240344.116066,
+  "seen:GmbLe2MGLUz1noveTH9ssZapcJnEeXpcDVzXUv4b6DdY": 1793240528.8404138,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793240528.8404138,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793240528.8404138,
+  "control:7AxJJTaJumkDRCJNz4n8ixobaPjrmL6GmxexuJKDpump": 1793240529.5958652,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793240714.8438156,
+  "seen:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793240714.8438156,
+  "seen:HytpiyuR3sVXGB5UqoqrnThCPH2X1tWVm5neep3Dpump": 1793240714.8438156,
+  "seen:GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6": 1793240714.8438156,
+  "control:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793240714.9086506
  },
  "talks": {
   "2026-10-21": 109
@@ -119,10 +119,10 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793238710.041617,
+  "t": 1793239628.844923,
   "crypto": [
    "Fed\u2019s hawkish rate hold keeps pressure on Bitcoin: Analysts (1h ago)",
-   "Canadian \u2018crypto king\u2019 case to go to jury as criminal trial winds down (4h ago)",
+   "Canadian \u2018crypto king\u2019 case to go to jury as criminal trial winds down (5h ago)",
    "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost (5h ago)",
    "Here\u2019s what happened in crypto today (6h ago)",
    "Sam Bankman-Fried wrote to actor portraying him in Netflix series (7h ago)",
@@ -134,11 +134,11 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q in 10.6h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 10.6h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 11.4h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 11.4h",
-   "EUR ECB Press Conference in 11.9h"
+   "USD Advance GDP q/q in 10.4h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m in 10.4h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 11.1h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 11.1h",
+   "EUR ECB Press Conference in 11.6h"
   ]
  },
  "spend": {

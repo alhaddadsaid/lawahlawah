@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-29 02:04 UTC. Runs so far: 40. Model: claude-haiku-5-5.
+Updated 2026-10-29 02:10 UTC. Runs so far: 40. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1051 | 31 | -27415.38 | -37491.76 |
+| control | meme | 1053 | 32 | -27442.76 | -37538.95 |
 | control | macro | 24 | 46 | -78.34 | -212.02 |
-| control | all | 1075 | 32 | -27493.72 | -37703.78 |
+| control | all | 1077 | 32 | -27521.1 | -37750.97 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: Nothing long at 0.0001008, stop 8.064e-05, target 0.00014112, opened 2026-10-29 01:09 UTC
 - control: Rapport long at 6.539e-05, stop 5.2312e-05, target 9.1546e-05, opened 2026-10-29 01:51 UTC
-- control: bio·ε/909Δ long at 8.002e-05, stop 6.4016e-05, target 0.000112028, opened 2026-10-29 02:01 UTC
+- control: CPU long at 0.0001963, stop 0.00015704, target 0.00027482, opened 2026-10-29 02:10 UTC
 
 ## Team
 
@@ -32,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED CPU (stop) P&L $-58.02 normal, $-66.79 pessimistic
+- control: CLOSED bio·ε/909Δ (target) P&L $68.0 normal, $56.0 pessimistic
 
