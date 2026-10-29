@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-29 01:54 UTC. Runs so far: 40. Model: claude-haiku-5-5.
+Updated 2026-10-29 02:04 UTC. Runs so far: 40. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1050 | 32 | -27357.36 | -37424.97 |
+| control | meme | 1051 | 31 | -27415.38 | -37491.76 |
 | control | macro | 24 | 46 | -78.34 | -212.02 |
-| control | all | 1074 | 32 | -27435.7 | -37636.99 |
+| control | all | 1075 | 32 | -27493.72 | -37703.78 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: Nothing long at 0.0001008, stop 8.064e-05, target 0.00014112, opened 2026-10-29 01:09 UTC
 - control: Rapport long at 6.539e-05, stop 5.2312e-05, target 9.1546e-05, opened 2026-10-29 01:51 UTC
-- control: CPU long at 0.0002554, stop 0.00020432, target 0.00035756, opened 2026-10-29 01:54 UTC
+- control: bio·ε/909Δ long at 8.002e-05, stop 6.4016e-05, target 0.000112028, opened 2026-10-29 02:01 UTC
 
 ## Team
 
@@ -32,14 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-29 01:54 UTC team macro (gold/forex), spent today $0.004
-
-Scout: GBPUSD is 1.33301, about 59 pips above the 1.3274 trigger. No closed 1h bar has broken it, and the USD GDP/PCE and ECB window is about 10h out.
-FX Scout: The planned short has a clear entry, stop, target and max hold, but it needs a close below 1.3274 first. That hasn't happened.
-Skeptic: Gold is mid-range (4067.9 in a 3989-4164 5d range) with no setup. The memecoin journal is weak, and I have no fresh memecoin data.
-Lead: Stay flat. Keep the GBPUSD short plan armed for after the event window.
-
-{"orders": [], "close": [], "note": "01:54 flat, no orders. GBPUSD 1.33301 above 1.3274 trigger, no closed 1h bar below. Watch after USD GDP/PCE and ECB window (~10h out): short only on closed 1h bar < 1.3274; entry ~1.3270, stop 1.3310, target 1.3220, max 4h, skip if the event candle already closed below. Gold 4067.9 mid-range, no setup. Memecoin: no fresh data, no trades."}
-
-- 2026-10-29 01:54 UTC control: OPENED CPU long at 0.0002554 (stop 0.00020432, target 0.00035756) - control: frozen v3 rules
+- control: CLOSED CPU (stop) P&L $-58.02 normal, $-66.79 pessimistic
 
