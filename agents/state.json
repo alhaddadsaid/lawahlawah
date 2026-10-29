@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -19560.28186503309,
+   "cash": -19611.942215577852,
    "open": [
-    {
-     "id": 1176,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PODCAT",
-     "mint": "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump",
-     "side": 1,
-     "opened": 1793283812.73257,
-     "entry": 0.0002111,
-     "stop": 0.00016888000000000002,
-     "target": 0.00029554,
-     "size": 947418.2851729038,
-     "deadline": 1793291012.7325702,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1178,
      "desk": "control",
@@ -51,24 +36,44 @@
      "size": 992555.8312655088,
      "deadline": 1793292112.4104555,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1180,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "HERMIT",
+     "mint": "ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump",
+     "side": 1,
+     "opened": 1793285275.9195795,
+     "entry": 7.193e-05,
+     "stop": 5.7544e-05,
+     "target": 0.00010070199999999999,
+     "size": 2780481.023217017,
+     "deadline": 1793292475.9195797,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1181,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PODCAT",
+     "mint": "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump",
+     "side": 1,
+     "opened": 1793285459.278395,
+     "entry": 0.0001733,
+     "stop": 0.00013864000000000001,
+     "target": 0.00024262,
+     "size": 1154068.090017311,
+     "deadline": 1793292659.278395,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1180,
+ "next_id": 1182,
  "runs": 42,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793285260.6569605,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793285260.6569605,
-  "seen:9KHe1VsNA2ivmYT9z79f6KYBXdjST3QAsfhXP5L5pump": 1793285443.2393775,
-  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793285443.2393775,
-  "seen:wKy6tEDZj6jS1GUMmnSSTrR1bXJQa35s7VHcWHxhNbA": 1793285443.2393775,
-  "control:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793285443.3175974,
-  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793285628.2187283,
-  "seen:ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump": 1793285628.2187283,
-  "seen:3sr6UZYGjAVYqE1KwEU6ZdpB6aQWQ134RxUm7USspump": 1793285628.2187283,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793285628.2187283,
   "seen:6tNEpcBbjvEmsS6KuhTXjW6BnXfXi8AHMWBaAQGwpump": 1793285812.2926788,
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793285812.2926788,
   "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793285812.2926788,
@@ -77,7 +82,20 @@
   "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793285995.9127858,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793285995.9127858,
   "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793285995.9127858,
-  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793285995.9127858
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793285995.9127858,
+  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793286175.83352,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793286175.83352,
+  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793286175.83352,
+  "control:ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump": 1793286175.9195833,
+  "seen:GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": 1793286359.1878564,
+  "seen:5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump": 1793286359.1878564,
+  "seen:8XtRWb4uAAJFMP4QQhoYYCWR6XXb7ybcCdiqPwz9s5WS": 1793286359.1878564,
+  "control:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793286359.2783983,
+  "seen:aZQqq5pN6Umg2FM1XsEX7amT15qZwJq6Cosruz2iUdm": 1793286542.3448088,
+  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793286542.3448088,
+  "seen:ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump": 1793286542.3448088,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793286542.3448088,
+  "seen:wKy6tEDZj6jS1GUMmnSSTrR1bXJQa35s7VHcWHxhNbA": 1793286542.3448088
  },
  "talks": {
   "2026-10-21": 109
@@ -118,11 +136,11 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793284728.223543,
+  "t": 1793285642.349654,
   "crypto": [
    "Bank of England opens consultation on tokenized collateral for clearing (0h ago)",
-   "Why Switzerland\u2019s first genuine spot bitcoin ETF could soon attract overseas banks and brokers (0h ago)",
-   "Chainlink adds weekend pricing for tokenized assets, with Aave as launch partner (0h ago)",
+   "Why Switzerland\u2019s first genuine spot bitcoin ETF could soon attract overseas banks and brokers (1h ago)",
+   "Chainlink adds weekend pricing for tokenized assets, with Aave as launch partner (1h ago)",
    "Canton Foundation grants RedStone 15.8M Canton Coin for pricing standard (1h ago)",
    "New quantum model slashes hardware needed to break bitcoin keys by 17 times (1h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
@@ -133,11 +151,11 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q was 2.1h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m was 2.1h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate was 1.4h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement was 1.4h",
-   "EUR ECB Press Conference was 0.9h"
+   "USD Advance GDP q/q was 2.4h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m was 2.4h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate was 1.7h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement was 1.7h",
+   "EUR ECB Press Conference was 1.2h"
   ]
  },
  "spend": {
