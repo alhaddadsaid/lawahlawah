@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-29 07:15 UTC. Runs so far: 41. Model: claude-haiku-5-5.
+Updated 2026-10-29 07:24 UTC. Runs so far: 41. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -21,6 +21,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: CPU long at 0.0004037, stop 0.00032296, target 0.00056518, opened 2026-10-29 06:41 UTC
 - control: HERMIT long at 0.000139, stop 0.0001112, target 0.0001946, opened 2026-10-29 06:59 UTC
 - control: SNARKS long at 0.0001802, stop 0.00014416, target 0.00025228, opened 2026-10-29 07:15 UTC
+- control: SELLICON long at 0.0001148, stop 9.184e-05, target 0.00016072, opened 2026-10-29 07:24 UTC
 
 ## Team
 
@@ -33,14 +34,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-### 2026-10-29 07:15 UTC team macro (gold/forex), spent today $0.013
-
-Scout: GBPUSD 1.33161 is still above the 1.3274 trigger. The thesis (breakdown below the 5d low continues lower) has no closed 1h bar confirming it, and USD GDP and Core PCE are about 5.2h away.
-Skeptic: The journal shows FX-adjacent setups are unproven. Entering before the data window adds event risk to a hypothesis not yet tested.
-FX Scout: Gold 4047 is mid-range with no edge, and its last three gold trades lost small amounts.
-Lead: Stay flat. Re-evaluate after the USD data and ECB, and only take a GBPUSD short on a confirmed close below 1.3274.
-
-{"orders": [], "close": [], "note": "07:15 flat, no orders. GBPUSD 1.33161 above 1.3274 trigger; USD GDP and Core PCE in 5.2h, ECB in 6-6.5h. Watch: GBPUSD short only on a closed 1h bar below 1.3274 after the data window; entry ~1.3270, stop 1.3310, target 1.3220, max hold 6h. Gold flat, no setup."}
-
-- 2026-10-29 07:15 UTC control: OPENED SNARKS long at 0.0001802 (stop 0.00014416, target 0.00025228) - control: frozen v3 rules
+- 2026-10-29 07:24 UTC control: OPENED SELLICON long at 0.0001148 (stop 9.184e-05, target 0.00016072) - control: frozen v3 rules
 
