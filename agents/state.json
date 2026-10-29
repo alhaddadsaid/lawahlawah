@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -20456.542717552027,
+   "cash": -20492.61086958348,
    "open": [
-    {
-     "id": 1213,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "three",
-     "mint": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
-     "side": 1,
-     "opened": 1793304663.3507178,
-     "entry": 0.0006104,
-     "stop": 0.00048832,
-     "target": 0.00085456,
-     "size": 327653.99737876805,
-     "deadline": 1793311863.3507178,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1216,
      "desk": "control",
@@ -66,34 +51,52 @@
      "size": 1525553.0129672007,
      "deadline": 1793318317.4568977,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1222,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Hackinu",
+     "mint": "8bbpPt3fix4wiNo3j2SZJ5zR1wYDNeJ84RWbVFDZpump",
+     "side": 1,
+     "opened": 1793311843.8684528,
+     "entry": 5.259e-05,
+     "stop": 4.2072000000000006e-05,
+     "target": 7.3626e-05,
+     "size": 3803004.3734550294,
+     "deadline": 1793319043.868453,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1222,
+ "next_id": 1223,
  "runs": 44,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:BrsZa8LYyBuD4jjkzHCFzjacgtXCZSn9kuDFdeitpump": 1793311285.7121089,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793311285.7121089,
-  "seen:9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": 1793311285.7121089,
-  "seen:2orqEGSdkm5BMmhdM8TpKCpACk32a3Zaj3Lef7ceqsc6": 1793311285.7121089,
-  "seen:2BTpBX5ktiFjfHxwcLNj3uftawbm9AT7KUg46aCFpump": 1793311468.9495056,
-  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793311468.9495056,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793311468.9495056,
-  "seen:AEqw9bAtqJCWPNNJp9EieXw8GYwm1kgsJBDdJBU2pump": 1793311468.9495056,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1793311468.9495056,
-  "seen:6eccVGkbi8cvAYBGzfDmUwFYrMj8eGZF2xyZqZLkpump": 1793311651.1348035,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793311651.1348035,
-  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793311651.1348035,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793311834.369937,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793311834.369937,
-  "control:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1793311834.401117,
   "seen:5SfcDpLPFSqFuqme4dmtUCwTLMPcohpA3S9F2yuTF8Wr": 1793312017.4207654,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793312017.4207654,
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793312017.4207654,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793312017.4207654,
-  "control:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793312017.4569018
+  "control:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793312017.4569018,
+  "seen:9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": 1793312201.6960702,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793312201.6960702,
+  "seen:BrsZa8LYyBuD4jjkzHCFzjacgtXCZSn9kuDFdeitpump": 1793312201.6960702,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1793312201.6960702,
+  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793312201.6960702,
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793312201.6960702,
+  "seen:2BTpBX5ktiFjfHxwcLNj3uftawbm9AT7KUg46aCFpump": 1793312379.8623908,
+  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793312379.8623908,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793312379.8623908,
+  "seen:AEqw9bAtqJCWPNNJp9EieXw8GYwm1kgsJBDdJBU2pump": 1793312379.8623908,
+  "seen:2q68mqEbjwmnMjs1o3KZDNZVyMv6RZKkHcm64iinpump": 1793312562.2497346,
+  "seen:AHgqStQviBDBiPra3cLxb8gQs2auRAmXT4s9v7LKpump": 1793312562.2497346,
+  "seen:6eccVGkbi8cvAYBGzfDmUwFYrMj8eGZF2xyZqZLkpump": 1793312562.2497346,
+  "seen:8bbpPt3fix4wiNo3j2SZJ5zR1wYDNeJ84RWbVFDZpump": 1793312562.2497346,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1793312562.2497346,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793312743.8310018,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793312743.8310018,
+  "control:8bbpPt3fix4wiNo3j2SZJ5zR1wYDNeJ84RWbVFDZpump": 1793312743.8684561
  },
  "talks": {
   "2026-10-21": 109
@@ -134,13 +137,13 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793310385.7182765,
+  "t": 1793311301.7023258,
   "crypto": [
-   "Binance investigates potential multibillion-dollar hack (0h ago)",
-   "Multi-billion Binance hack hitting crypto markets (1h ago)",
+   "Binance investigates potential multibillion-dollar hack (1h ago)",
+   "Binance loses $5.7 billion in largest crypto hack to date (1h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "Public companies double share of blockchain revenue since 2022: Report (2h ago)",
-   "Polymarket suspended trading amid reports of user funds being drained (2h ago)",
+   "Polymarket suspended trading amid reports of user funds being drained (3h ago)",
    "Polymarket suspends trading after third-party breach leads to user losses (3h ago)",
    "HYPE teases all-time high as NYSE owner ICE eyes US Hyperliquid perps (5h ago)",
    "KuCoin suspends services in Russia and Belarus (5h ago)",
