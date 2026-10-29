@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -18494.02448106821,
+   "cash": -18526.51047351216,
    "open": [
     {
      "id": 1142,
@@ -23,75 +23,63 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1146,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HERMIT",
-     "mint": "ASX4GtetW337jwG2rLZaU84eY64rRCoWbf63yXQepump",
-     "side": 1,
-     "opened": 1793267138.886153,
-     "entry": 9.887e-05,
-     "stop": 7.909599999999999e-05,
-     "target": 0.000138418,
-     "size": 2022858.298776171,
-     "deadline": 1793274338.8861532,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1149,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "\ub9ac\ud540",
-     "mint": "Co9MpsTVpAiCLnbZbPDqFHfzYge7qvtVJYfwf2w9pump",
-     "side": 1,
-     "opened": 1793268778.2388697,
-     "entry": 0.0001234,
-     "stop": 9.872e-05,
-     "target": 0.00017275999999999997,
-     "size": 1620745.542949757,
-     "deadline": 1793275978.23887,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1150,
+     "id": 1151,
      "desk": "control",
      "market": "meme",
      "symbol": "WALT",
      "mint": "GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt",
      "side": 1,
-     "opened": 1793269329.6733396,
-     "entry": 8.765e-05,
-     "stop": 7.012e-05,
-     "target": 0.00012271,
-     "size": 2281802.6240730174,
-     "deadline": 1793276529.6733396,
+     "opened": 1793270247.263881,
+     "entry": 9.2e-05,
+     "stop": 7.36e-05,
+     "target": 0.0001288,
+     "size": 2173913.0434782607,
+     "deadline": 1793277447.2638812,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1152,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "\ub9ac\ud540",
+     "mint": "Co9MpsTVpAiCLnbZbPDqFHfzYge7qvtVJYfwf2w9pump",
+     "side": 1,
+     "opened": 1793270430.2186217,
+     "entry": 9.469e-05,
+     "stop": 7.575200000000002e-05,
+     "target": 0.000132566,
+     "size": 2112155.4546414614,
+     "deadline": 1793277630.218622,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1151,
+ "next_id": 1153,
  "runs": 42,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793270045.132284,
-  "seen:6KiSJe4GB9vLratvfF4Zb91jNQeekE3QCG3BnLzkpump": 1793270045.132284,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793270045.132284,
-  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793270045.132284,
-  "seen:GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt": 1793270229.5465531,
-  "seen:Co9MpsTVpAiCLnbZbPDqFHfzYge7qvtVJYfwf2w9pump": 1793270229.5465531,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793270229.5465531,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793270229.5465531,
-  "seen:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": 1793270229.5465531,
-  "control:GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt": 1793270229.6733422,
-  "seen:8cNmtC4a2tqWwhE7ZABt57b6NEPi4yddYeF7UMyrc2Q": 1793270411.9704816,
-  "seen:GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6": 1793270411.9704816,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793270411.9704816,
-  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793270411.9704816,
   "seen:D1kVFsf3cLN8CWv1Zmz6H3ZSWsB1jGrWxaqgJxcQpump": 1793270596.2810507,
   "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793270596.2810507,
   "seen:HCkhfdDNF2dqMxxtL51AzgWU26MBNkUkEzGAHtqkpump": 1793270779.652198,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793270779.652198
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793270779.652198,
+  "seen:6PXqPgpHkTx9tBpnhPdukCEJxP49CeL67BREhm1LZFoH": 1793270964.0170774,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793270964.0170774,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1793270964.0170774,
+  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793270964.0170774,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793270964.0170774,
+  "seen:GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt": 1793271147.1350727,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793271147.1350727,
+  "seen:Co9MpsTVpAiCLnbZbPDqFHfzYge7qvtVJYfwf2w9pump": 1793271147.1350727,
+  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793271147.1350727,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793271147.1350727,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1793271147.1350727,
+  "control:GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt": 1793271147.2638838,
+  "seen:C7KPk9454ofPpauBhJE5UH7H7Ct6DqHWw6afyKw3DYfg": 1793271330.1481316,
+  "seen:5QREAgtfP1NkuymRaFdHxr5QNF2Yry9M1YCyaompump": 1793271330.1481316,
+  "seen:GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6": 1793271330.1481316,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793271330.1481316,
+  "control:Co9MpsTVpAiCLnbZbPDqFHfzYge7qvtVJYfwf2w9pump": 1793271330.218625
  },
  "talks": {
   "2026-10-21": 109
@@ -132,26 +120,26 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793269145.1368759,
+  "t": 1793270064.0236585,
   "crypto": [
+   "ECB President Christine Lagarde to step down in February 2027 (0h ago)",
    "Thai Supreme Court rules bitcoin is property after thief challenges conviction (0h ago)",
-   "Bermuda taps WalletConnect to advance its onchain economy plan (0h ago)",
-   "Former Swift CEO joins stablecoin firm OpenTrade as chairman (1h ago)",
+   "Bermuda taps WalletConnect to advance its onchain economy plan (1h ago)",
+   "Former Swift CEO joins stablecoin firm OpenTrade as chairman (2h ago)",
    "The chart bitcoin traders should be paying attention to (3h ago)",
    "Bitcoin ETFs add $137M, pushing October back into the green (3h ago)",
-   "Here\u2019s what happened in crypto today (4h ago)",
-   "AI found a way to crash bitcoin nodes on Windows and Macs. It's now public (4h ago)",
+   "Here\u2019s what happened in crypto today (5h ago)",
+   "AI found a way to crash bitcoin nodes on Windows and Macs. It's now public (5h ago)",
    "Security failure at Indian certificate firm bites Ethereum as developers rush out fixes (5h ago)",
-   "Utah charges predictions platform Kalshi with illegal gambling (5h ago)",
-   "Your fridge could one day stake Ether, launch memecoins: CFTC chair (6h ago)"
+   "Utah charges predictions platform Kalshi with illegal gambling (6h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q in 2.2h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 2.2h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 2.9h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 2.9h",
-   "EUR ECB Press Conference in 3.4h"
+   "USD Advance GDP q/q in 1.9h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m in 1.9h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 2.7h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 2.7h",
+   "EUR ECB Press Conference in 3.2h"
   ]
  },
  "spend": {
