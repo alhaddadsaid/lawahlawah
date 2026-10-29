@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -20860.28427294228,
+   "cash": -20792.28427294228,
    "open": [
     {
      "id": 1223,
@@ -66,38 +66,45 @@
      "size": 1246882.7930174563,
      "deadline": 1793321965.9054248,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1230,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "BNB",
+     "mint": "3EnfmbxdD2nHJ1KoogUgoYgeqS54gKis3AD3ieHGpump",
+     "side": 1,
+     "opened": 1793315496.0090923,
+     "entry": 0.0001416,
+     "stop": 0.00011328,
+     "target": 0.00019824,
+     "size": 1412429.3785310735,
+     "deadline": 1793322696.0090926,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1229,
+ "next_id": 1231,
  "runs": 44,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m": 1793314939.480935,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793314939.480935,
-  "seen:5A1PXbM4APygDoccyANwaXEg3zudevAbY4zcEAupump": 1793314939.480935,
-  "seen:9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": 1793314939.480935,
-  "control:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793314939.7812667,
-  "seen:2BTpBX5ktiFjfHxwcLNj3uftawbm9AT7KUg46aCFpump": 1793315117.336251,
-  "seen:3EnfmbxdD2nHJ1KoogUgoYgeqS54gKis3AD3ieHGpump": 1793315117.336251,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793315117.336251,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1793315117.336251,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793315117.336251,
-  "control:3EnfmbxdD2nHJ1KoogUgoYgeqS54gKis3AD3ieHGpump": 1793315117.3685799,
-  "seen:6rg9GdCro19d2sz79mhix5pLJjSwn8RTCjZvG4Wecnj": 1793315299.387707,
-  "seen:2q68mqEbjwmnMjs1o3KZDNZVyMv6RZKkHcm64iinpump": 1793315299.387707,
-  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793315299.387707,
-  "seen:AEqw9bAtqJCWPNNJp9EieXw8GYwm1kgsJBDdJBU2pump": 1793315299.387707,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793315299.387707,
-  "seen:iNTCy1qTsUEZQe3DSocLz1ZXXai34Gdw8THQh5rxFaF": 1793315483.1513581,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793315483.1513581,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793315483.1513581,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793315483.1513581,
   "seen:HA479B5zxyLPsV6rUo8PzoYKK2WCDZhJojJuqdx9pump": 1793315665.871969,
   "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793315665.871969,
   "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793315665.871969,
-  "control:AEqw9bAtqJCWPNNJp9EieXw8GYwm1kgsJBDdJBU2pump": 1793315665.9054275
+  "control:AEqw9bAtqJCWPNNJp9EieXw8GYwm1kgsJBDdJBU2pump": 1793315665.9054275,
+  "seen:ArbXart2XZS7SBxes6wbSHAwv6znqH7wyABWPKiVpump": 1793315848.6901019,
+  "seen:9KhzhyM1BwgW6myZRcqdzQvemKjVrjck8kaevTkMpump": 1793315848.6901019,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793315848.6901019,
+  "seen:PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m": 1793315848.6901019,
+  "seen:3EnfmbxdD2nHJ1KoogUgoYgeqS54gKis3AD3ieHGpump": 1793316032.2712977,
+  "seen:2BTpBX5ktiFjfHxwcLNj3uftawbm9AT7KUg46aCFpump": 1793316032.2712977,
+  "control:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793316032.33194,
+  "seen:6rg9GdCro19d2sz79mhix5pLJjSwn8RTCjZvG4Wecnj": 1793316214.2634132,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793316214.2634132,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793316395.967529,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793316395.967529,
+  "control:3EnfmbxdD2nHJ1KoogUgoYgeqS54gKis3AD3ieHGpump": 1793316396.0090969
  },
  "talks": {
   "2026-10-21": 109
@@ -138,14 +145,14 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793314039.4873729,
+  "t": 1793314948.6964722,
   "crypto": [
-   "Tampered Ledger reported in Singapore a month before news broke: Asia Express (0h ago)",
-   "Binance hit by $5.8B hack as Tether and Circle freeze billions (1h ago)",
+   "Tampered Ledger reported in Singapore a month before news broke: Asia Express (1h ago)",
+   "Binance hit by $5.8B hack as Tether and Circle freeze billions (2h ago)",
    "Binance loses $5.7 billion in largest crypto hack to date (2h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "Public companies double share of blockchain revenue since 2022: Report (3h ago)",
-   "Polymarket suspended trading amid reports of user funds being drained (3h ago)",
+   "Polymarket suspended trading amid reports of user funds being drained (4h ago)",
    "Polymarket suspends trading after third-party breach leads to user losses (4h ago)",
    "HYPE teases all-time high as NYSE owner ICE eyes US Hyperliquid perps (6h ago)",
    "KuCoin suspends services in Russia and Belarus (6h ago)",
