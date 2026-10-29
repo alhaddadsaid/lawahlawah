@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-29 06:26 UTC. Runs so far: 41. Model: claude-haiku-5-5.
+Updated 2026-10-29 06:38 UTC. Runs so far: 41. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1076 | 32 | -27460.96 | -37792.59 |
+| control | meme | 1080 | 32 | -27615.38 | -37984.08 |
 | control | macro | 24 | 46 | -78.34 | -212.02 |
-| control | all | 1100 | 32 | -27539.3 | -38004.61 |
+| control | all | 1104 | 32 | -27693.72 | -38196.1 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: SIB long at 0.0003695, stop 0.0002956, target 0.0005173, opened 2026-10-29 04:30 UTC
-- control: CPU long at 0.0004421, stop 0.00035368, target 0.00061894, opened 2026-10-29 04:36 UTC
-- control: PODCAT long at 0.0001086, stop 8.688e-05, target 0.00015204, opened 2026-10-29 05:22 UTC
 - control: WoW long at 7.428e-05, stop 5.9424e-05, target 0.000103992, opened 2026-10-29 05:49 UTC
 - control: REMUS long at 0.0002486, stop 0.00019888, target 0.00034804, opened 2026-10-29 05:58 UTC
+- control: PODCAT long at 7.367e-05, stop 5.8936e-05, target 0.000103138, opened 2026-10-29 06:38 UTC
 
 ## Team
 
@@ -34,5 +32,5 @@ API spend today: $0.01 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order CHICO REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED AISI (stop) P&L $-55.52 normal, $-64.35 pessimistic
 
