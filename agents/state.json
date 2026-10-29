@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -18830.97842167244,
+   "cash": -18823.739828516547,
    "open": [
-    {
-     "id": 1142,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SIB",
-     "mint": "3HKKrXhDvGFWPdkALw3KofESZexsEx9opGtq37n9pump",
-     "side": 1,
-     "opened": 1793265668.1084046,
-     "entry": 0.0003156,
-     "stop": 0.00025247999999999997,
-     "target": 0.00044183999999999993,
-     "size": 633713.5614702156,
-     "deadline": 1793272868.1084046,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1153,
      "desk": "control",
@@ -74,25 +59,21 @@
  "runs": 42,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GnCo3guxeJ2w8Rm4649K9ej62WtAmDHgDAikCrGmpump": 1793272430.8041472,
-  "seen:AhnttuBfs3GbRJ75wq99FcoYSGSniPGaouSDYSntpump": 1793272430.8041472,
-  "seen:9XwcqFsLTshVo7QwWyNmjVBsB982EW9C4YotSbpoxYYi": 1793272430.8041472,
-  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793272430.8041472,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793272613.3282661,
-  "seen:Fa24xN13pzjmcx1dtKP9nBMMFCwLtXCJrtP5hSPKpump": 1793272797.0144846,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793272797.0144846,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793272797.0144846,
-  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1793272797.0144846,
-  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793272797.0144846,
-  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793272797.0144846,
-  "seen:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": 1793272980.0469341,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793272980.0469341,
-  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793272980.0469341,
-  "seen:GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt": 1793272980.0469341,
-  "control:9XwcqFsLTshVo7QwWyNmjVBsB982EW9C4YotSbpoxYYi": 1793272980.1321936,
   "seen:GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6": 1793273163.6175933,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793273163.6175933,
-  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793273163.6175933
+  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793273163.6175933,
+  "seen:9XwcqFsLTshVo7QwWyNmjVBsB982EW9C4YotSbpoxYYi": 1793273344.1523242,
+  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793273344.1523242,
+  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793273344.1523242,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793273526.6122816,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793273526.6122816,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793273709.948172,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793273709.948172,
+  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793273709.948172,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1793273709.948172,
+  "seen:GmyoabL4oY72yQA3EzTq5G5gQUF5SsE94jrs8bWfJzTt": 1793273891.8455043,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793273891.8455043,
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793273891.8455043
  },
  "talks": {
   "2026-10-21": 109
@@ -133,26 +114,26 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793271897.0191402,
+  "t": 1793272809.9528625,
   "crypto": [
+   "Bitcoin drops to $80,000 on Fed dissent, Samsung, Alphabet earnings; AI tokens slump (0h ago)",
+   "NYSE owner takes steps to bring Hyperliquid perpetual futures to U.S. (0h ago)",
    "Cathie Wood\u2019s ARK buys the dip on Robinhood in its largest purchase in 6 months after 23% slump (0h ago)",
-   "Bitcoin long-term resistance in focus as analysis sees selling risk above $85K (0h ago)",
-   "Solana wallet Solflare pledges to pay missed rewards on staked $160 million after validator goes offline (0h ago)",
-   "Live updates: Bitcoin clings to $80,000 as Strategy\u2019s cushion thins before earnings (0h ago)",
+   "Bitcoin long-term resistance in focus as analysis sees selling risk above $85K (1h ago)",
+   "Solana wallet Solflare pledges to pay missed rewards on staked $160 million after validator goes offline (1h ago)",
+   "Live updates: Bitcoin clings to $80,000 as Strategy\u2019s cushion thins before earnings (1h ago)",
    "ECB President Christine Lagarde to step down in February 2027 (1h ago)",
    "Thai Supreme Court rules bitcoin is property after thief challenges conviction (1h ago)",
    "Bermuda taps WalletConnect to advance its onchain economy plan (1h ago)",
-   "Former Swift CEO joins stablecoin firm OpenTrade as chairman (2h ago)",
-   "The chart bitcoin traders should be paying attention to (3h ago)",
-   "Bitcoin ETFs add $137M, pushing October back into the green (4h ago)"
+   "Former Swift CEO joins stablecoin firm OpenTrade as chairman (2h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q in 1.4h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 1.4h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 2.2h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 2.2h",
-   "EUR ECB Press Conference in 2.7h"
+   "USD Advance GDP q/q in 1.2h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m in 1.2h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 1.9h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 1.9h",
+   "EUR ECB Press Conference in 2.4h"
   ]
  },
  "spend": {
