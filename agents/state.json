@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -19786.38060280218,
+   "cash": -19769.542649710496,
    "open": [
-    {
-     "id": 1178,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CPU",
-     "mint": "5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo",
-     "side": 1,
-     "opened": 1793284543.3175945,
-     "entry": 0.0001407,
-     "stop": 0.00011256,
-     "target": 0.00019698,
-     "size": 1421464.1080312722,
-     "deadline": 1793291743.3175945,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1182,
      "desk": "control",
@@ -38,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 1183,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "OREN",
-     "mint": "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump",
-     "side": 1,
-     "opened": 1793286557.4670525,
-     "entry": 7.974e-05,
-     "stop": 6.3792e-05,
-     "target": 0.000111636,
-     "size": 2508151.492350138,
-     "deadline": 1793293757.4670527,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1184,
      "desk": "control",
      "market": "meme",
@@ -66,38 +36,65 @@
      "size": 1453488.372093023,
      "deadline": 1793293940.537319,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1185,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CHILLHOUSE",
+     "mint": "GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump",
+     "side": 1,
+     "opened": 1793287658.5011296,
+     "entry": 0.0009126,
+     "stop": 0.00073008,
+     "target": 0.00127764,
+     "size": 219154.06530791149,
+     "deadline": 1793294858.5011299,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1186,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PURR",
+     "mint": "5DAqRe7Fa7SzVN3urM8hqKfmCUwZvowZTvp5WMgupump",
+     "side": 1,
+     "opened": 1793288207.984188,
+     "entry": 9.199e-05,
+     "stop": 7.359200000000001e-05,
+     "target": 0.000128786,
+     "size": 2174149.364061311,
+     "deadline": 1793295407.9841883,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1185,
+ "next_id": 1187,
  "runs": 43,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:A6PM7bxyWYiUxaEpRMHvuL4tY2jYVf8N46vXZ15Hpump": 1793286911.3003216,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793286911.3003216,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793286911.3003216,
-  "control:GBPUSD": 1793286911.3816855,
-  "seen:AYuuop7CBSrEN18fRarkLZ15yvztQNaCmPJZkkCcMqM5": 1793287094.231788,
-  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793287094.231788,
-  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793287094.231788,
-  "seen:pis8yXthZd1tk4XeN3pJfqxk8YRskFvLyi2yyC2pump": 1793287094.231788,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793287094.231788,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793287094.231788,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793287277.1150963,
-  "seen:GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": 1793287277.1150963,
-  "seen:5DAqRe7Fa7SzVN3urM8hqKfmCUwZvowZTvp5WMgupump": 1793287277.1150963,
-  "seen:BTJzsixuJCCg2iL8GV8N98RaiwkHVdt65CFpNZdEmfun": 1793287277.1150963,
-  "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793287277.1150963,
-  "seen:CuFjT6SJQKUV4ApLPF8UKJQ7TA9sBzaw3rAFrkbRpump": 1793287456.9401405,
-  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793287456.9401405,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793287456.9401405,
-  "seen:9AfSCLTcHTwgKdy78ibYdJFn3TGbkQRcaxd2RUyHpump": 1793287456.9401405,
-  "control:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793287457.4670572,
-  "seen:531wXhUCBzyRfKJQzGjdfiyNGpbWn2WUwtgHZA1EeLWB": 1793287640.5012763,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793287640.5012763,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793287640.5012763,
-  "control:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793287640.5373223
+  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793288374.280504,
+  "seen:28V1XPLYsGJ5sgirz2RH71nF4cNhqMgD7udAxhxbNLy2": 1793288558.0985236,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793288558.0985236,
+  "seen:69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump": 1793288558.0985236,
+  "seen:GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump": 1793288558.0985236,
+  "control:GkyPYa7NnCFbduLknCfBfP7p8564X1VZhwZYJ6CZpump": 1793288558.5011342,
+  "seen:9i26un6hM6n9CFt49d6XdnY9R2uHmEaPvud1cC9MfCdR": 1793288741.6367323,
+  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793288741.6367323,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793288741.6367323,
+  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793288741.6367323,
+  "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793288924.447999,
+  "seen:7ga6rtE9qSb3wdEiDCpTu2kHqoGVfT52jD8ign1rYTvx": 1793288924.447999,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793288924.447999,
+  "seen:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793288924.447999,
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1793288924.447999,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793289107.946855,
+  "seen:3zoyoJwywuALj49wi9ffsz49hJaToJ29f9JBSCGNpump": 1793289107.946855,
+  "seen:5DAqRe7Fa7SzVN3urM8hqKfmCUwZvowZTvp5WMgupump": 1793289107.946855,
+  "seen:ACVeHgMRkDEtxBgzzZhopCUWzbS6Xb9knTuMqPLYpump": 1793289107.946855,
+  "seen:GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": 1793289107.946855,
+  "control:5DAqRe7Fa7SzVN3urM8hqKfmCUwZvowZTvp5WMgupump": 1793289107.9841907
  },
  "talks": {
   "2026-10-21": 109
@@ -138,8 +135,9 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793286556.9461684,
+  "t": 1793287474.2866445,
   "crypto": [
+   "French Senate adopts bill for automatic sharing of crypto tax data (0h ago)",
    "Polymarket brings ultra-short crypto prediction markets to U.S. platform (0h ago)",
    "Crypto for Advisors: Only 1 in 5 Americans say the financial system is secure (1h ago)",
    "Bank of England opens consultation on tokenized collateral for clearing (1h ago)",
@@ -147,17 +145,16 @@
    "Chainlink adds weekend pricing for tokenized assets, with Aave as launch partner (1h ago)",
    "Canton Foundation grants RedStone 15.8M Canton Coin for pricing standard (1h ago)",
    "New quantum model slashes hardware needed to break bitcoin keys by 17 times (1h ago)",
-   "Here\u2019s what happened in crypto today (1h ago)",
-   "Walmart, Eli Lilly join growing pushback against OKX\u2013ICE tokenized stock plans (1h ago)",
-   "Brazil\u2019s Halloween eve crypto deadline brings more tricks than treats (2h ago)"
+   "Here\u2019s what happened in crypto today (2h ago)",
+   "Walmart, Eli Lilly join growing pushback against OKX\u2013ICE tokenized stock plans (2h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q was 2.7h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m was 2.7h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate was 1.9h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement was 1.9h",
-   "EUR ECB Press Conference was 1.4h"
+   "USD Advance GDP q/q was 2.9h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m was 2.9h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate was 2.2h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement was 2.2h",
+   "EUR ECB Press Conference was 1.7h"
   ]
  },
  "spend": {
@@ -188,5 +185,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793286377.1206071
+ "last_macro_macro": 1793287658.1046526
 }
