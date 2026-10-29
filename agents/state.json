@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -19367.293824692955,
+   "cash": -19299.293824692955,
    "open": [
     {
      "id": 1158,
@@ -66,25 +66,29 @@
      "size": 769822.9407236335,
      "deadline": 1793285882.1991174,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1169,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PODCAT",
+     "mint": "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump",
+     "side": 1,
+     "opened": 1793279602.5215683,
+     "entry": 0.0001952,
+     "stop": 0.00015616000000000002,
+     "target": 0.00027328,
+     "size": 1024590.1639344263,
+     "deadline": 1793286802.5215685,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1168,
+ "next_id": 1170,
  "runs": 42,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793279214.5769536,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793279214.5769536,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793279214.5769536,
-  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793279214.5769536,
-  "control:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793279215.288124,
-  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793279397.9491625,
-  "seen:6d9fD5SxvN4DAG4SHQD8pebm8TM6XeSbYezPDjdapump": 1793279397.9491625,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793279581.909299,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793279581.909299,
-  "seen:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793279581.909299,
-  "control:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793279582.1991212,
   "seen:AVCoELxSDqmT1yUHfzMu9FBpX1MmygBaYdaiLZvMpump": 1793279765.349053,
   "seen:WkHcrrgrXHkdMC5csTAKo4YJCVbpH3zkTCBnNQ8pump": 1793279765.349053,
   "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793279765.349053,
@@ -92,7 +96,20 @@
   "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793279765.349053,
   "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793279765.349053,
   "seen:XsoBhf2ufR8fTyNSjqfU71DYGaE6Z3SUGAidpzriAA4": 1793279948.556656,
-  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793279948.556656
+  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793279948.556656,
+  "seen:EmcfApss3ZiRP4pxd28QpEUCZ1LhVEpwiaTU2LzYpump": 1793280132.7457864,
+  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793280132.7457864,
+  "seen:B2Sr358fKA5TvmE6zWoVR8Ks5h3mZQBqDM22pA52pump": 1793280132.7457864,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793280132.7457864,
+  "seen:Exv4ix6ZjWXexSkf4ZUvUbMcXCoGMksTp1NDG74wpump": 1793280132.7457864,
+  "seen:8sooQVq6sRjV1jHxdCk53VZ9fxna8WitKKzAFs1xX9wP": 1793280132.7457864,
+  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793280132.7457864,
+  "control:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793280133.549419,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793280322.398766,
+  "seen:6d9fD5SxvN4DAG4SHQD8pebm8TM6XeSbYezPDjdapump": 1793280502.4506896,
+  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793280502.4506896,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793280502.4506896,
+  "control:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793280502.5215714
  },
  "talks": {
   "2026-10-21": 109
@@ -133,26 +150,26 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793278314.5816648,
+  "t": 1793279232.7505245,
   "crypto": [
+   "A new framework for tokenized asset tracking (0h ago)",
+   "Tokenized stock venue on Canton could beat OKX\u2013ICE to first trade under SEC framework (0h ago)",
    "Chainalysis traces North Korean crypto cash-outs through Garantex (0h ago)",
-   "Unlimit founder backs Phase blockchain with $45M as mainnet launches (0h ago)",
+   "Unlimit founder backs Phase blockchain with $45M as mainnet launches (1h ago)",
    "HTX agrees to halt unlawful UK crypto promotions after FCA case (1h ago)",
    "U.S. sanctions Russian nationals for laundering millions in crypto for North Korean IT workers (1h ago)",
    "As $10 billion in bitcoin options near expiry, the tell is in the pricing (1h ago)",
    "EU investors rank crypto above retirement plans for lasting wealth creation: OKX survey (1h ago)",
    "Coinbase seeks Brazil crypto license, expects no service disruption (1h ago)",
-   "Bitcoin lending and yield could drive next wave of institutional demand, Rootstock says (1h ago)",
-   "Bitcoin drops to $80,000 on Fed dissent, Samsung, Alphabet earnings; AI tokens slump (2h ago)",
-   "NYSE owner takes steps to bring Hyperliquid perpetual futures to U.S. (2h ago)"
+   "Bitcoin lending and yield could drive next wave of institutional demand, Rootstock says (1h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q was 0.4h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m was 0.4h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 0.4h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 0.4h",
-   "EUR ECB Press Conference in 0.9h"
+   "USD Advance GDP q/q was 0.6h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m was 0.6h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 0.1h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 0.1h",
+   "EUR ECB Press Conference in 0.6h"
   ]
  },
  "spend": {
