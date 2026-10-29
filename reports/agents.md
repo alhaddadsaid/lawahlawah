@@ -33,5 +33,5 @@ API spend today: $0.02 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-29 20:41 UTC control: OPENED HOUSECOIN long at 0.0002143 (stop 0.00017144, target 0.00030002) - control: frozen v3 rules
+## Run ended 2026-10-29 20:41 UTC
 
