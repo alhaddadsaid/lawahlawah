@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -17158.206764083476,
+   "cash": -17199.859623290282,
    "open": [
-    {
-     "id": 1072,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "GBPUSD",
-     "mint": "",
-     "side": 1,
-     "opened": 1793224967.169975,
-     "entry": 1.3324450254440308,
-     "stop": 1.3310600093432836,
-     "target": 1.3345225495951516,
-     "size": 72201.32671819108,
-     "deadline": 1793311367.1699755,
-     "thesis": "control: random direction"
-    },
     {
      "id": 1079,
      "desk": "control",
@@ -51,32 +36,49 @@
      "size": 3021604.4719746183,
      "deadline": 1793239491.0057838,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1086,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Tucker",
+     "mint": "677RzFgXjLpApyHAtzjd9sTjiJNGCxrRVvYb1TwWp5qJ",
+     "side": 1,
+     "opened": 1793233017.4872243,
+     "entry": 5.407e-05,
+     "stop": 4.325600000000001e-05,
+     "target": 7.569799999999999e-05,
+     "size": 3698908.8218975402,
+     "deadline": 1793240217.4872248,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1085,
+ "next_id": 1087,
  "runs": 40,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793232827.3865108,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793232827.3865108,
-  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793233009.5066223,
-  "seen:6pjRwzGg2QS1VSf6Z4TQZwyMxUysrUajkRmbbQ89P6KG": 1793233009.5066223,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793233009.5066223,
-  "seen:32vMraF9thenwrUeoEKLbAQ3E3y4ajE1cb95RHxoydGm": 1793233190.2862697,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793233190.2862697,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793233190.2862697,
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793233190.2862697,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793233190.2862697,
-  "control:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793233191.0057871,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793233369.6464114,
   "control:6pjRwzGg2QS1VSf6Z4TQZwyMxUysrUajkRmbbQ89P6KG": 1793233373.2959325,
   "seen:CA8q2mkYWZnUNqYmf6pxyxAPZsmSe2EG9P7hHMW5pump": 1793233552.2720785,
   "seen:XshPgPdXFRWB8tP1j82rebb2Q9rPgGX37RuqzohmArM": 1793233552.2720785,
   "seen:dyw5fDNv91eknniMG4tGCU1ZrzjuxbpsLiEzih6pump": 1793233552.2720785,
   "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793233552.2720785,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793233552.2720785
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793233552.2720785,
+  "seen:AfPhjrZx3oyh38G28ZVViP4p7h53N5kTxEeg5tzhpump": 1793233733.1367514,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793233733.1367514,
+  "seen:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793233733.1367514,
+  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793233733.1367514,
+  "seen:AN4mNPb3rP61d3b2u1LCKKhBdEgdW9BiNDp7ZHKupump": 1793233733.1367514,
+  "control:AN4mNPb3rP61d3b2u1LCKKhBdEgdW9BiNDp7ZHKupump": 1793233733.230749,
+  "seen:BnzoPxDyv8RnsRhvyP3EFoEwsRhKJfwNF9iXN3Skpump": 1793233917.4026515,
+  "seen:6pjRwzGg2QS1VSf6Z4TQZwyMxUysrUajkRmbbQ89P6KG": 1793233917.4026515,
+  "seen:677RzFgXjLpApyHAtzjd9sTjiJNGCxrRVvYb1TwWp5qJ": 1793233917.4026515,
+  "control:677RzFgXjLpApyHAtzjd9sTjiJNGCxrRVvYb1TwWp5qJ": 1793233917.487228,
+  "seen:VFcXScyQcxbfTmAv7G3nkdUsTJhUejAnhWfUXW6pump": 1793234101.3276193,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793234101.3276193,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793234101.3276193
  },
  "talks": {
   "2026-10-21": 109
@@ -117,11 +119,11 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793232290.291228,
+  "t": 1793233201.3321507,
   "crypto": [
-   "Canadian \u2018crypto king\u2019 case to go to jury as criminal trial winds down (2h ago)",
+   "Canadian \u2018crypto king\u2019 case to go to jury as criminal trial winds down (3h ago)",
    "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost (3h ago)",
-   "Here\u2019s what happened in crypto today (4h ago)",
+   "Here\u2019s what happened in crypto today (5h ago)",
    "Sam Bankman-Fried wrote to actor portraying him in Netflix series (5h ago)",
    "CFTC chief poses questions about policing AI but calls it a road to 'autonomous trading' (5h ago)",
    "Crypto isn\u2019t a partisan fight, proven by data (6h ago)",
@@ -132,11 +134,11 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q in 12.4h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 12.4h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 13.2h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 13.2h",
-   "EUR ECB Press Conference in 13.7h"
+   "USD Advance GDP q/q in 12.2h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m in 12.2h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 12.9h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 12.9h",
+   "EUR ECB Press Conference in 13.4h"
   ]
  },
  "spend": {
