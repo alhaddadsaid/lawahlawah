@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -17365.928055578395,
+   "cash": -17431.049285619792,
    "open": [
     {
      "id": 1109,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1113,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SLEGO",
-     "mint": "HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump",
-     "side": 1,
-     "opened": 1793246621.1642907,
-     "entry": 0.0001691,
-     "stop": 0.00013528,
-     "target": 0.00023674,
-     "size": 1182732.1111768186,
-     "deadline": 1793253821.164291,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1114,
      "desk": "control",
      "market": "meme",
@@ -81,20 +66,29 @@
      "size": 643707.756678468,
      "deadline": 1793253997.9164178,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1115,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PODCAT",
+     "mint": "2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump",
+     "side": 1,
+     "opened": 1793247329.2086103,
+     "entry": 0.0001683,
+     "stop": 0.00013464,
+     "target": 0.00023561999999999997,
+     "size": 1188354.1295306,
+     "deadline": 1793254529.2086105,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1115,
+ "next_id": 1116,
  "runs": 41,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793246952.4816778,
-  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793246952.4816778,
-  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793246952.4816778,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793247133.5354617,
-  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793247133.5354617,
-  "seen:GF74fBfcaeLjUiUwKpRiUbvMQtTvNyzMoo6KNyyqNyk6": 1793247133.5354617,
   "seen:AVAZD6Lrex8ac66r3WiQcnYg4fVZP2Z5759ZPqooaCWU": 1793247340.5933392,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793247340.5933392,
   "seen:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793247340.5933392,
@@ -109,7 +103,16 @@
   "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793247517.8477361,
   "control:HYv2VeLzVpGiGoBPbPmHDjJXNjBWsqz1axvZCv7Qpump": 1793247521.1642942,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793247697.7941499,
-  "control:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793247697.9164324
+  "control:5JbRYEz844bwnKbGx4dRHhrJ6zjrJ194CKdDXtzwgaXo": 1793247697.9164324,
+  "seen:FEXGegqeVm5vZurqyC7qsmkLqWspVV1ACb9bbLvcpump": 1793247881.194584,
+  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793247881.194584,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793247881.194584,
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1793247881.194584,
+  "seen:DUKEjskPBoszW4xEowcSWptekuUZpwLFv6nTt5Cmpump": 1793247881.194584,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793248045.425663,
+  "seen:69Y6D9xQKkDYPvESDiKaQpU9Z5FXzY8LB7PthQkmpump": 1793248045.425663,
+  "seen:FRvc2LsuVaXVF8z9kVVcciELoPcbA4RnQmBHyKpic6k": 1793248229.1459115,
+  "control:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793248229.2086139
  },
  "talks": {
   "2026-10-21": 109
@@ -150,13 +153,13 @@
  ],
  "last_review": 1793187901.0754519,
  "news": {
-  "t": 1793246052.485291,
+  "t": 1793246981.1984127,
   "crypto": [
-   "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto (0h ago)",
+   "Bitcoin dips below $80,000 as Samsung-led tech jitters and a hawkish Fed weigh on crypto (1h ago)",
    "Mystery Wall Street Journal ad sparks new fight over tokenized stocks (1h ago)",
    "Tampered Ledger wallets cost Singapore users $2.7M: Police (1h ago)",
    "Fed\u2019s hawkish rate hold keeps pressure on Bitcoin: Analysts (3h ago)",
-   "Canadian \u2018crypto king\u2019 case to go to jury as criminal trial winds down (6h ago)",
+   "Canadian \u2018crypto king\u2019 case to go to jury as criminal trial winds down (7h ago)",
    "Bitcoin-backed mortgages are coming to Canada, but borrowers are still unaware of the cost (7h ago)",
    "Here\u2019s what happened in crypto today (8h ago)",
    "Sam Bankman-Fried wrote to actor portraying him in Netflix series (9h ago)",
@@ -165,11 +168,11 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Advance GDP q/q in 8.6h, forecast 3.2%, previous 1.5%",
-   "USD Core PCE Price Index m/m in 8.6h, forecast 0.3%, previous 0.2%",
-   "EUR Main Refinancing Rate in 9.3h, forecast 2.65%, previous 2.65%",
-   "EUR Monetary Policy Statement in 9.3h",
-   "EUR ECB Press Conference in 9.8h"
+   "USD Advance GDP q/q in 8.3h, forecast 3.2%, previous 1.5%",
+   "USD Core PCE Price Index m/m in 8.3h, forecast 0.3%, previous 0.2%",
+   "EUR Main Refinancing Rate in 9.1h, forecast 2.65%, previous 2.65%",
+   "EUR Monetary Policy Statement in 9.1h",
+   "EUR ECB Press Conference in 9.6h"
   ]
  },
  "spend": {
