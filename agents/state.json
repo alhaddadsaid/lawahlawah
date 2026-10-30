@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -21665.78269949793,
+   "cash": -21724.168684563985,
    "open": [
     {
      "id": 1239,
@@ -66,21 +66,6 @@
      "size": 2275830.6781975417,
      "deadline": 1793328902.9171162,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1244,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SWAN",
-     "mint": "EFaQg27P3c3PHob2mFw4mHCUcWBHHDdatAEsXq2xpump",
-     "side": 1,
-     "opened": 1793323525.8267357,
-     "entry": 0.0001741,
-     "stop": 0.00013928,
-     "target": 0.00024374,
-     "size": 1148765.0775416428,
-     "deadline": 1793330725.826736,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,16 +74,6 @@
  "runs": 44,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:G68ruHgnWmHBg8QGbXkPv9UMpPhDmJ33MHTbdf5tpump": 1793323696.4756782,
-  "seen:51SfaAyrYaR8FpibXT4TXtxEpnZSNoDwYVRojtKupump": 1793323879.5132082,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793323879.5132082,
-  "seen:F83CMhsRaivjhQcaZFXDBVYidsNDapMwjrc9s4WshvjM": 1793324061.734111,
-  "seen:7fR4hpUuHYaUTnnUeVLWke2GvMZdZtaeM8yFwu92pump": 1793324061.734111,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793324061.734111,
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1793324061.734111,
-  "seen:6rg9GdCro19d2sz79mhix5pLJjSwn8RTCjZvG4Wecnj": 1793324061.734111,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793324061.734111,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793324061.734111,
   "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793324243.7645223,
   "seen:6zuDiAw3NviBwcLZfTztHJgtCmeNWfyFxYVoXtNYpump": 1793324243.7645223,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793324243.7645223,
@@ -107,7 +82,13 @@
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793324425.436152,
   "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793324425.436152,
   "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793324425.436152,
-  "control:EFaQg27P3c3PHob2mFw4mHCUcWBHHDdatAEsXq2xpump": 1793324425.8267388
+  "control:EFaQg27P3c3PHob2mFw4mHCUcWBHHDdatAEsXq2xpump": 1793324425.8267388,
+  "seen:G68ruHgnWmHBg8QGbXkPv9UMpPhDmJ33MHTbdf5tpump": 1793324609.0396688,
+  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793324609.0396688,
+  "seen:AHgqStQviBDBiPra3cLxb8gQs2auRAmXT4s9v7LKpump": 1793324790.4634824,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793324972.174328,
+  "seen:6rg9GdCro19d2sz79mhix5pLJjSwn8RTCjZvG4Wecnj": 1793324972.174328,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793324972.174328
  },
  "talks": {
   "2026-10-21": 109
@@ -148,18 +129,18 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793323161.7405555,
+  "t": 1793324072.1808667,
   "crypto": [
    "Binance hack drained wallets backing customer assets, reserve data shows (1h ago)",
    "Binance hack may involve private key \u2018misuse,\u2019 not theft: Blockaid CEO (1h ago)",
-   "Binance hack rattles crypto markets as BNB falls 7%, Bitcoin slides (2h ago)",
+   "Binance hack rattles markets as BNB falls 8%, Bitcoin nears $77K (2h ago)",
    "Tampered Ledger reported in Singapore a month before news broke: Asia Express (3h ago)",
    "Live updates: Binance says $3B in crypto frozen in connection to hack (4h ago)",
    "Binance loses $5.7 billion in 'biggest crypto hack in history' (4h ago)",
-   "Here\u2019s what happened in crypto today (5h ago)",
-   "Public companies double share of blockchain revenue since 2022: Report (5h ago)",
+   "Here\u2019s what happened in crypto today (6h ago)",
+   "Public companies double share of blockchain revenue since 2022: Report (6h ago)",
    "Polymarket suspended trading amid reports of user funds being drained (6h ago)",
-   "Polymarket suspends trading after third-party breach leads to user losses (6h ago)"
+   "Polymarket suspends trading after third-party breach leads to user losses (7h ago)"
   ],
   "macro": [],
   "calendar": []
