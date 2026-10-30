@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -25642.267207039655,
+   "cash": -25695.92096954509,
    "open": [
     {
      "id": 1337,
@@ -38,28 +38,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1359,
+     "id": 1360,
      "desk": "control",
      "market": "meme",
-     "symbol": "MINECAT",
-     "mint": "B5txdTJXiNdKC9Bt8ST8wEBzH8tqBk5yLekEA5hSpump",
+     "symbol": "three",
+     "mint": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
      "side": 1,
-     "opened": 1793390554.7655156,
-     "entry": 6.897e-05,
-     "stop": 5.5176e-05,
-     "target": 9.655799999999999e-05,
-     "size": 2899811.5122517035,
-     "deadline": 1793397754.7655158,
+     "opened": 1793390733.762589,
+     "entry": 0.0005666,
+     "stop": 0.00045328,
+     "target": 0.00079324,
+     "size": 352982.7038475115,
+     "deadline": 1793397933.7625892,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1360,
+ "next_id": 1361,
  "runs": 48,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5wCqCq6jbppuTocMeq6zd4UywAm64L1QNNxvEDAHpump": 1793390721.0865233,
   "seen:B5txdTJXiNdKC9Bt8ST8wEBzH8tqBk5yLekEA5hSpump": 1793390903.6545112,
   "seen:7aeDqEi2PfoYpJfw2eawzLnRH9NjQJ6jWMZ9FH1Hpump": 1793390903.6545112,
   "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793390903.6545112,
@@ -75,7 +74,9 @@
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793391270.3765502,
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793391454.7258565,
   "seen:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793391454.7258565,
-  "control:B5txdTJXiNdKC9Bt8ST8wEBzH8tqBk5yLekEA5hSpump": 1793391454.76552
+  "control:B5txdTJXiNdKC9Bt8ST8wEBzH8tqBk5yLekEA5hSpump": 1793391454.76552,
+  "seen:E8c9gvuE7gW4R8AVcaTCbbTG1zJGdUR9KGtS94eXBAGS": 1793391633.6389222,
+  "control:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793391633.762593
  },
  "talks": {
   "2026-10-21": 109
