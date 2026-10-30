@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -23963.35967143483,
+   "cash": -23945.59061831705,
    "open": [
-    {
-     "id": 1296,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "OREN",
-     "mint": "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump",
-     "side": 1,
-     "opened": 1793358270.372164,
-     "entry": 0.0001299,
-     "stop": 0.00010392000000000001,
-     "target": 0.00018186000000000002,
-     "size": 1539645.881447267,
-     "deadline": 1793365470.3721642,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1297,
      "desk": "control",
@@ -40,27 +25,29 @@
    ]
   }
  },
- "next_id": 1298,
+ "next_id": 1299,
  "runs": 46,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5yappSXzEFBAqJufBqhpRJq29BVFbd5iyAkLvZgBpump": 1793358986.3835905,
-  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793358986.3835905,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793359169.2486606,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793359169.2486606,
-  "control:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793359170.3721678,
-  "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793359349.8570375,
-  "seen:HftEwseBtcbgxj9j7AfgsA5ZiTEhSK9qWXZs8rzfpump": 1793359349.8570375,
-  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793359349.8570375,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793359349.8570375,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793359349.8570375,
-  "seen:39755Znjp5t876QC2CNL76hWFuyT4txBfBampTYNbDf8": 1793359532.52968,
-  "seen:GmB6pej6JY7u6RwxzVmcv523AaLFNzQH4qyiyZuxpump": 1793359532.52968,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793359532.52968,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793359532.52968,
   "seen:9hhLCxn41KZcmK1vAf7u5M6vKLHRcsVn1VmVgUrhpump": 1793359719.6063955,
   "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1793359719.6063955,
-  "control:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1793359719.7198741
+  "control:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1793359719.7198741,
+  "seen:G8A5EYoEQJpThdzxK5768nZztgbjFKQwprRhnEC1gouK": 1793359898.6625032,
+  "seen:5yappSXzEFBAqJufBqhpRJq29BVFbd5iyAkLvZgBpump": 1793359898.6625032,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793359898.6625032,
+  "control:HftEwseBtcbgxj9j7AfgsA5ZiTEhSK9qWXZs8rzfpump": 1793359898.7090793,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793360081.2950554,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793360081.2950554,
+  "seen:HftEwseBtcbgxj9j7AfgsA5ZiTEhSK9qWXZs8rzfpump": 1793360264.366227,
+  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793360264.366227,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793360264.366227,
+  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793360264.366227,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793360264.366227,
+  "seen:iNTCy1qTsUEZQe3DSocLz1ZXXai34Gdw8THQh5rxFaF": 1793360264.366227,
+  "seen:39755Znjp5t876QC2CNL76hWFuyT4txBfBampTYNbDf8": 1793360447.8854647,
+  "seen:GmB6pej6JY7u6RwxzVmcv523AaLFNzQH4qyiyZuxpump": 1793360447.8854647,
+  "seen:csnSScHWNtPwk8sBdhbWsz3zf2z4u4CT3dFTCZ1pump": 1793360447.8854647,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793360447.8854647
  },
  "talks": {
   "2026-10-21": 109
@@ -101,18 +88,18 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793358269.2551794,
+  "t": 1793359181.3016858,
   "crypto": [
+   "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower (0h ago)",
+   "EIP-7702 didn\u2019t cause Binance hack, but may have amplified losses (0h ago)",
    "Binance hacker\u2019s Bitcoin haul tops Coinbase\u2019s corporate treasury (0h ago)",
    "THORChain\u2019s RUNE jumps 13% after Binance\u2019s record $6.3B hack (1h ago)",
-   "Strategy CFO Andrew Kang resigns as company posts record operating profit (1h ago)",
+   "Strategy CFO Andrew Kang resigns as company posts record operating profit (2h ago)",
    "Trezor warns CryptoBilis buyers to move funds over suspected implant (2h ago)",
    "Live updates: Binance uncovers more breach points in $6.3B hack (2h ago)",
-   "Live updates: Binance finds more breaches in $6.3 billion hack; AI spending fears hit tech (2h ago)",
+   "Live updates: Binance finds more breaches in $6.3 billion hack; AI spending fears hit tech (3h ago)",
    "Binance hacker dumps a little-known 2017 token and it crashes 90% (3h ago)",
-   "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets (5h ago)",
-   "Here\u2019s what happened in crypto today (5h ago)",
-   "Strategy eyes more Bitcoin buys as Saylor touts $30B credit capacity (5h ago)"
+   "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets (5h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -145,5 +132,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793358269.2551122
+ "last_macro_macro": 1793359547.8918972
 }
