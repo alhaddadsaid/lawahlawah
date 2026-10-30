@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-30 16:10 UTC. Runs so far: 47. Model: claude-haiku-5-5.
+Updated 2026-10-30 16:19 UTC. Runs so far: 47. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1275 | 31 | -34450.73 | -46644.2 |
+| control | meme | 1277 | 31 | -34432.73 | -46647.17 |
 | control | macro | 27 | 44 | -173.82 | -322.19 |
-| control | all | 1302 | 31 | -34624.55 | -46966.39 |
+| control | all | 1304 | 31 | -34606.55 | -46969.36 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,9 +19,9 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: PINK long at 0.0001059, stop 8.472e-05, target 0.00014826, opened 2026-10-30 14:41 UTC
 - control: FLUKE long at 0.0001607, stop 0.00012856, target 0.00022498, opened 2026-10-30 15:18 UTC
-- control: CATPAD long at 9.321e-05, stop 7.4568e-05, target 0.000130494, opened 2026-10-30 15:30 UTC
-- control: Kim long at 0.0001326, stop 0.00010608, target 0.00018564, opened 2026-10-30 15:39 UTC
 - control: Foxii long at 0.0001239, stop 9.912e-05, target 0.00017346, opened 2026-10-30 15:51 UTC
+- control: SPACECAT long at 0.0001822, stop 0.00014576, target 0.00025508, opened 2026-10-30 16:16 UTC
+- control: CATPAD long at 0.0001073, stop 8.584e-05, target 0.00015022, opened 2026-10-30 16:19 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order Kim REJECTED by guardrails: desk already has the maximum open positions
+- 2026-10-30 16:19 UTC control: OPENED CATPAD long at 0.0001073 (stop 8.584e-05, target 0.00015022) - control: frozen v3 rules
 
