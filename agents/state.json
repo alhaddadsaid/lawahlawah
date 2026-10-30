@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -23654.037616729016,
+   "cash": -23662.92662128136,
    "open": [
-    {
-     "id": 1276,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "BITCAT",
-     "mint": "9hzqsjCkxq3dQkfSkpRM1zk3NmLofHVBcwzKdvj3pump",
-     "side": 1,
-     "opened": 1793342644.0542672,
-     "entry": 0.0001018,
-     "stop": 8.144e-05,
-     "target": 0.00014251999999999998,
-     "size": 1964636.5422396858,
-     "deadline": 1793349844.0542674,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1277,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "FLOAT",
-     "mint": "Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr",
-     "side": 1,
-     "opened": 1793342826.9339972,
-     "entry": 0.0008441,
-     "stop": 0.00067528,
-     "target": 0.00118174,
-     "size": 236938.7513327805,
-     "deadline": 1793350026.9339974,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1284,
      "desk": "control",
@@ -89,13 +59,6 @@
  "runs": 46,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793349841.3519735,
-  "seen:9hzqsjCkxq3dQkfSkpRM1zk3NmLofHVBcwzKdvj3pump": 1793349841.3519735,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793350024.4903367,
-  "seen:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793350024.4903367,
-  "seen:PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": 1793350024.4903367,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793350024.4903367,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793350024.4903367,
   "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793350208.301862,
   "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793350208.301862,
   "seen:e7Hbor8NaK11fFLbsEiJWWpCK1DT2bBs9cKTzVLpump": 1793350208.301862,
@@ -104,7 +67,14 @@
   "seen:3XLTWYyHxpAdbP1fjfTz9TBZp9Dhq4A6KWNarHMkGHQb": 1793350386.333532,
   "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793350386.333532,
   "seen:AtKvRVDF738YA925jmxNeh4iV2qCVBBJeMxQNyrupump": 1793350386.333532,
-  "control:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793350386.46488
+  "control:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793350386.46488,
+  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793350752.4465888,
+  "seen:9hzqsjCkxq3dQkfSkpRM1zk3NmLofHVBcwzKdvj3pump": 1793350752.4465888,
+  "seen:3UrbFtErj4FYspTupgAfKqztrMYNVQA2GocpT97Q3ray": 1793350937.4678597,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793350937.4678597,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793350937.4678597,
+  "seen:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793350937.4678597,
+  "seen:5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump": 1793350937.4678597
  },
  "talks": {
   "2026-10-21": 109
@@ -145,8 +115,9 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793349124.4964852,
+  "t": 1793350037.474114,
   "crypto": [
+   "Live News: Binance hack rattles crypto as Intel plunges and AI spending fears hit tech (0h ago)",
    "Live updates: Binance $6.3B hack linked to North Korea\u2019s TraderTraitor (1h ago)",
    "Binance hacker dumps a little-known 2017 token and it crashes 90% (1h ago)",
    "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets (2h ago)",
@@ -155,8 +126,7 @@
    "North Korea\u2019s TraderTraitor linked to $6.3B Binance hack (3h ago)",
    "XRP Ledger developers tighten the rules for who can hold 'restricted' tokens (3h ago)",
    "Binance hack bites India's largest crypto exchange as it curbs futures trading (3h ago)",
-   "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze (4h ago)",
-   "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain (5h ago)"
+   "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze (4h ago)"
   ],
   "macro": [],
   "calendar": []
