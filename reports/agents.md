@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-30 17:19 UTC. Runs so far: 47. Model: claude-haiku-5-5.
+Updated 2026-10-30 17:28 UTC. Runs so far: 47. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1288 | 31 | -34561.5 | -46885.46 |
+| control | meme | 1290 | 31 | -34725.84 | -47066.09 |
 | control | macro | 27 | 44 | -173.82 | -322.19 |
-| control | all | 1315 | 31 | -34735.32 | -47207.65 |
+| control | all | 1317 | 31 | -34899.66 | -47388.28 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: HEXN long at 0.0001569, stop 0.00012552, target 0.00021966, opened 2026-10-30 16:43 UTC
-- control: Kim long at 0.0001275, stop 0.000102, target 0.0001785, opened 2026-10-30 16:49 UTC
 - control: GOLD short at 3905.6, stop 3925.08, target 3876.38, opened 2026-10-30 17:01 UTC
-- control: SPACECAT long at 0.0001617, stop 0.00012936, target 0.00022638, opened 2026-10-30 17:19 UTC
+- control: FLUKE long at 0.0001753, stop 0.00014024, target 0.00024542, opened 2026-10-30 17:28 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-30 17:19 UTC control: OPENED SPACECAT long at 0.0001617 (stop 0.00012936, target 0.00022638) - control: frozen v3 rules
+- control: CLOSED SPACECAT (stop) P&L $-107.49 normal, $-114.99 pessimistic
 
