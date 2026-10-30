@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -25767.302473697066,
+   "cash": -25825.49396305877,
    "open": [
     {
      "id": 1337,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1363,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Jason",
-     "mint": "3qjBR3LfzEAKVS6QXuR2QZ1RFUsXzATWvmjbGB5Dpump",
-     "side": 1,
-     "opened": 1793392383.5707004,
-     "entry": 0.0001222,
-     "stop": 9.776e-05,
-     "target": 0.00017107999999999997,
-     "size": 1636661.2111292963,
-     "deadline": 1793399583.5707006,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1365,
      "desk": "control",
      "market": "meme",
@@ -81,23 +66,29 @@
      "size": 1872659.1760299627,
      "deadline": 1793400681.121633,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1366,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Nought",
+     "mint": "EW9ezwtqvn3v8RpdKMEQai8n5bmajUiPnC4UBV7zpump",
+     "side": 1,
+     "opened": 1793393848.1006627,
+     "entry": 7.297e-05,
+     "stop": 5.8376000000000005e-05,
+     "target": 0.000102158,
+     "size": 2740852.4050979856,
+     "deadline": 1793401048.100663,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1366,
+ "next_id": 1367,
  "runs": 48,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793393828.9276335,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1793393828.9276335,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793393828.9276335,
-  "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793393828.9276335,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793393828.9276335,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793394015.9381857,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793394015.9381857,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793394015.9381857,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793394015.9381857,
   "seen:7hdq3MBwkProqhDKnA4T8fuUFVJpiUm1qTpocVPpump": 1793394381.0708694,
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793394381.0708694,
   "control:2WVthqDUqTfmKniBvXz2guGwCAJSNTHKGnebUeBvpump": 1793394381.1216369,
@@ -106,13 +97,22 @@
   "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793394564.2556894,
   "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793394564.2556894,
   "seen:5THtNEGTF1y67eRWvcgz3MomDZePCVx1xdskHHeCpump": 1793394564.2556894,
-  "seen:EW9ezwtqvn3v8RpdKMEQai8n5bmajUiPnC4UBV7zpump": 1793394564.2556894
+  "seen:EW9ezwtqvn3v8RpdKMEQai8n5bmajUiPnC4UBV7zpump": 1793394564.2556894,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793394748.0610907,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793394748.0610907,
+  "seen:3qjBR3LfzEAKVS6QXuR2QZ1RFUsXzATWvmjbGB5Dpump": 1793394748.0610907,
+  "control:EW9ezwtqvn3v8RpdKMEQai8n5bmajUiPnC4UBV7zpump": 1793394748.1006672,
+  "seen:22rWiyDiY9GgxSrFiWC2vX1GxNxjkvrRPmZJDzv9pq6X": 1793394930.7031357,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793394930.7031357,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793394930.7031357,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793394930.7031357,
+  "seen:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793394930.7031357
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498164,
+ "ctrl_macro_hour": 498165,
  "team": [
   {
    "name": "Lead",
@@ -147,7 +147,7 @@
  ],
  "last_review": 1793361013.611257,
  "news": {
-  "t": 1793393115.9449859,
+  "t": 1793394030.711295,
   "crypto": [
    "Experts divided over Binance hack asset freezes, warn recovery is another matter (1h ago)",
    "Tether\u2019s excess reserves nearly double to $8B as Q3 profit hits $1.5B (2h ago)",
@@ -191,5 +191,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793392746.2065384
+ "last_macro_macro": 1793394030.711182
 }
