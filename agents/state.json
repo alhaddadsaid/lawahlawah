@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -23403.87170051109,
+   "cash": -23453.17609075499,
    "open": [
     {
      "id": 1276,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1283,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "TraderTraitor",
-     "mint": "3XLTWYyHxpAdbP1fjfTz9TBZp9Dhq4A6KWNarHMkGHQb",
-     "side": 1,
-     "opened": 1793347594.3038878,
-     "entry": 0.0001025,
-     "stop": 8.2e-05,
-     "target": 0.0001435,
-     "size": 1951219.512195122,
-     "deadline": 1793354794.303888,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1284,
      "desk": "control",
      "market": "meme",
@@ -66,33 +51,46 @@
      "size": 2228412.2562674093,
      "deadline": 1793354977.260974,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1285,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SAFU",
+     "mint": "EjbgFA8vFhswojnNLxQVKYKiDsm3PgM6w7JuehfPpump",
+     "side": 1,
+     "opened": 1793348207.7639313,
+     "entry": 9.24e-05,
+     "stop": 7.392e-05,
+     "target": 0.00012936,
+     "size": 2164502.164502165,
+     "deadline": 1793355407.763932,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1285,
- "runs": 45,
+ "next_id": 1286,
+ "runs": 46,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793348131.4540143,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793348131.4540143,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793348131.4540143,
-  "control:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793348132.0757508,
-  "seen:3UrbFtErj4FYspTupgAfKqztrMYNVQA2GocpT97Q3ray": 1793348311.3238173,
-  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793348311.3238173,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793348311.3238173,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793348311.3238173,
-  "seen:HJVTpBXp5pc1LxqBvmqxwhR2QYsARbey4yjGny5geGAE": 1793348494.1884522,
-  "seen:3XLTWYyHxpAdbP1fjfTz9TBZp9Dhq4A6KWNarHMkGHQb": 1793348494.1884522,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793348494.1884522,
-  "seen:5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump": 1793348494.1884522,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793348494.1884522,
-  "control:3XLTWYyHxpAdbP1fjfTz9TBZp9Dhq4A6KWNarHMkGHQb": 1793348494.3038902,
   "seen:EjbgFA8vFhswojnNLxQVKYKiDsm3PgM6w7JuehfPpump": 1793348677.1961474,
   "seen:GChMzLMUpwWhg93gsLVKzYdkcQDQytiusnmR8DZspump": 1793348677.1961474,
   "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1793348677.1961474,
   "control:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1793348677.2609777,
-  "seen:9hzqsjCkxq3dQkfSkpRM1zk3NmLofHVBcwzKdvj3pump": 1793348885.2911162
+  "seen:9hzqsjCkxq3dQkfSkpRM1zk3NmLofHVBcwzKdvj3pump": 1793348885.2911162,
+  "seen:DC7RcUA7JiwF3Rtdej1489hBUrVNNJy9ZJgj78uApump": 1793348925.9073987,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793349107.1970687,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793349107.1970687,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793349107.1970687,
+  "seen:PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": 1793349107.1970687,
+  "control:EjbgFA8vFhswojnNLxQVKYKiDsm3PgM6w7JuehfPpump": 1793349107.763936,
+  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793349287.869416,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793349287.869416,
+  "seen:3XLTWYyHxpAdbP1fjfTz9TBZp9Dhq4A6KWNarHMkGHQb": 1793349475.118327,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793349475.118327,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793349475.118327,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793349475.118327
  },
  "talks": {
   "2026-10-21": 109
@@ -133,16 +131,16 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793347231.458802,
+  "t": 1793348207.2030172,
   "crypto": [
-   "Binance hacker dumps a little-known 2017 token and it crashes 90% (0h ago)",
    "Live updates: Binance $6.3B hack linked to North Korea\u2019s TraderTraitor (0h ago)",
+   "Binance hacker dumps a little-known 2017 token and it crashes 90% (0h ago)",
    "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets (2h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "Strategy eyes more Bitcoin buys as Saylor touts $30B credit capacity (2h ago)",
    "North Korea\u2019s TraderTraitor linked to $6.3B Binance hack (2h ago)",
-   "XRP Ledger developers tighten the rules for who can hold 'restricted' tokens (2h ago)",
-   "Binance hack bites India's largest crypto exchange as it curbs futures trading (2h ago)",
+   "XRP Ledger developers tighten the rules for who can hold 'restricted' tokens (3h ago)",
+   "Binance hack bites India's largest crypto exchange as it curbs futures trading (3h ago)",
    "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze (3h ago)",
    "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain (4h ago)"
   ],
