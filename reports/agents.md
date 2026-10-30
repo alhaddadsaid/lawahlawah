@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-30 23:15 UTC. Runs so far: 48. Model: claude-haiku-5-5.
+Updated 2026-10-30 23:24 UTC. Runs so far: 48. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1322 | 31 | -35913.17 | -48551.18 |
+| control | meme | 1323 | 31 | -35890.76 | -48539.6 |
 | control | macro | 27 | 44 | -173.82 | -322.19 |
-| control | all | 1349 | 31 | -36086.99 | -48873.37 |
+| control | all | 1350 | 31 | -36064.58 | -48861.79 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GOLD short at 3905.6, stop 3925.08, target 3876.38, opened 2026-10-30 17:01 UTC
-- control: FLUKE long at 7.598e-05, stop 6.0784e-05, target 0.000106372, opened 2026-10-30 21:24 UTC
 - control: Jason long at 6.581e-05, stop 5.2648e-05, target 9.2134e-05, opened 2026-10-30 22:13 UTC
 - control: ONBOARD long at 0.0001134, stop 9.072e-05, target 0.00015876, opened 2026-10-30 22:53 UTC
+- control: TYGR long at 5.919e-05, stop 4.7352e-05, target 8.2866e-05, opened 2026-10-30 23:20 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED Bonnie (stop) P&L $-85.96 normal, $-94.01 pessimistic
+- control: CLOSED FLUKE (time) P&L $22.41 normal, $11.58 pessimistic
 
