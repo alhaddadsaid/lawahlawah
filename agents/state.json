@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -25172.008745293308,
+   "cash": -25104.008745293308,
    "open": [
     {
      "id": 1337,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1349,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Kim",
-     "mint": "qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump",
-     "side": 1,
-     "opened": 1793386241.0459435,
-     "entry": 8.26e-05,
-     "stop": 6.608e-05,
-     "target": 0.00011564,
-     "size": 2421307.506053269,
-     "deadline": 1793393441.0459435,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1351,
      "desk": "control",
      "market": "meme",
@@ -81,36 +66,50 @@
      "size": 1458789.2049598834,
      "deadline": 1793393988.535144,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1352,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Kim",
+     "mint": "qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump",
+     "side": 1,
+     "opened": 1793387517.8948457,
+     "entry": 0.0001361,
+     "stop": 0.00010888,
+     "target": 0.00019054,
+     "size": 1469507.7149155033,
+     "deadline": 1793394717.894846,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1352,
+ "next_id": 1353,
  "runs": 47,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5wCqCq6jbppuTocMeq6zd4UywAm64L1QNNxvEDAHpump": 1793386960.4741075,
-  "seen:ra4qZ68oPFuEhHR5hMRpUsGH5riMbRBuMyW68r3pump": 1793386960.4741075,
-  "seen:52MBEXmhVrZUJvMEbRpKRhehFUL8DnnV5LzYJ2G1pump": 1793386960.4741075,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793386960.4741075,
-  "seen:skDGuSDyKYGbYTWnMCNcPeDd4vHUxAsMNVVxxUfpump": 1793387140.914408,
-  "seen:yxqegfnoem8mMuRSqu8ouD8qsw32GpuMMXgTZGwpump": 1793387140.914408,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793387140.914408,
-  "control:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793387141.0459468,
-  "seen:5um5dQVePbF7Jn9cxofLPVXZR26cGyxfnpiF3dippump": 1793387323.557877,
-  "seen:Dn9ucMvQp4ut2yz46GKfC5cPH3cv3uJTnpAUjN6Zpump": 1793387323.557877,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793387323.557877,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793387323.557877,
-  "seen:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793387323.557877,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793387323.557877,
-  "control:yxqegfnoem8mMuRSqu8ouD8qsw32GpuMMXgTZGwpump": 1793387324.0620308,
-  "seen:ooBtG3farkzjGUt1a5sTesUvCKEANGo815SvN5vpump": 1793387505.8484905,
-  "seen:DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump": 1793387505.8484905,
-  "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793387505.8484905,
   "seen:69PYHuqeU4KqzABsgdD7XMLrndR9pcTkn8qC1vYLpump": 1793387688.4629018,
   "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793387688.4629018,
   "seen:PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": 1793387688.4629018,
-  "control:ra4qZ68oPFuEhHR5hMRpUsGH5riMbRBuMyW68r3pump": 1793387688.5351477
+  "control:ra4qZ68oPFuEhHR5hMRpUsGH5riMbRBuMyW68r3pump": 1793387688.5351477,
+  "seen:5wCqCq6jbppuTocMeq6zd4UywAm64L1QNNxvEDAHpump": 1793387870.937692,
+  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1793387870.937692,
+  "seen:ra4qZ68oPFuEhHR5hMRpUsGH5riMbRBuMyW68r3pump": 1793387870.937692,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793388051.4679213,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793388051.4679213,
+  "seen:9hhLCxn41KZcmK1vAf7u5M6vKLHRcsVn1VmVgUrhpump": 1793388051.4679213,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793388231.6024208,
+  "seen:Dn9ucMvQp4ut2yz46GKfC5cPH3cv3uJTnpAUjN6Zpump": 1793388231.6024208,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793388231.6024208,
+  "seen:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793388231.6024208,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793388231.6024208,
+  "seen:BYJNiAgCVKtXX815uxHecDeWb8bv69nEkEYcEQMpump": 1793388231.6024208,
+  "seen:DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump": 1793388416.9728205,
+  "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793388416.9728205,
+  "seen:5THtNEGTF1y67eRWvcgz3MomDZePCVx1xdskHHeCpump": 1793388416.9728205,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793388416.9728205,
+  "control:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793388417.894849
  },
  "talks": {
   "2026-10-21": 109
@@ -151,18 +150,18 @@
  ],
  "last_review": 1793361013.611257,
  "news": {
-  "t": 1793386605.8535526,
+  "t": 1793387516.977939,
   "crypto": [
+   "Tether\u2019s excess reserves nearly double to $8B as Q3 profit hits $1.5B (0h ago)",
    "Coinbase leads crypto stock selloff following $6.3B Binance hack (1h ago)",
    "Crypto Biz: Bitcoin\u2019s quantum threat is becoming an economic problem (2h ago)",
    "Recap: How Binance\u2019s record $6.3B hack unfolded (2h ago)",
    "As it happened: Binance\u2019s record $6.3B crypto hack (2h ago)",
-   "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart (2h ago)",
+   "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart (3h ago)",
    "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold (3h ago)",
    "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack (5h ago)",
    "Here\u2019s what happened in crypto today (5h ago)",
-   "Will gold\u2019s \u2018infinite mint bug\u2019 make Bitcoin more valuable? (5h ago)",
-   "Binance working with FBI to recover assets following $6.3B hack (6h ago)"
+   "Will gold\u2019s \u2018infinite mint bug\u2019 make Bitcoin more valuable? (6h ago)"
   ],
   "macro": [],
   "calendar": []
