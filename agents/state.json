@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -24292.594403388845,
+   "cash": -24275.912585207025,
    "open": [
     {
      "id": 1305,
@@ -38,62 +38,60 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1313,
+     "id": 1315,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Foxii",
+     "mint": "J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump",
+     "side": 1,
+     "opened": 1793370023.4072535,
+     "entry": 0.0001862,
+     "stop": 0.00014896,
+     "target": 0.00026068,
+     "size": 1074113.8560687434,
+     "deadline": 1793377223.4072537,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1316,
      "desk": "control",
      "market": "meme",
      "symbol": "PURPS",
      "mint": "EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump",
      "side": 1,
-     "opened": 1793369476.566459,
-     "entry": 0.000143,
-     "stop": 0.00011440000000000002,
-     "target": 0.0002002,
-     "size": 1398601.3986013986,
-     "deadline": 1793376676.5664592,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1314,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Kim",
-     "mint": "qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump",
-     "side": 1,
-     "opened": 1793369843.0474505,
-     "entry": 0.0001212,
-     "stop": 9.696000000000001e-05,
-     "target": 0.00016968,
-     "size": 1650165.01650165,
-     "deadline": 1793377043.0474508,
+     "opened": 1793370391.6579459,
+     "entry": 0.000112,
+     "stop": 8.960000000000001e-05,
+     "target": 0.0001568,
+     "size": 1785714.2857142857,
+     "deadline": 1793377591.657946,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1315,
+ "next_id": 1317,
  "runs": 47,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793370010.7734687,
-  "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793370010.7734687,
-  "seen:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP": 1793370010.7734687,
-  "seen:GEWDAj3NaK3WVpgjhusnZq8CMsYu9yQPRRxApfXwpump": 1793370195.10005,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793370195.10005,
-  "seen:EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump": 1793370195.10005,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793370195.10005,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793370195.10005,
-  "seen:A7pmyAhMbRXrQ6FXThxaNCNCmcdqCssjptizX15Ypump": 1793370376.496877,
-  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793370376.496877,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793370376.496877,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793370376.496877,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793370376.496877,
-  "control:EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump": 1793370376.5664623,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793370561.3905241,
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793370561.3905241,
   "seen:A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": 1793370561.3905241,
   "seen:etRgw1DVduNwoSdrwaMcnb6Yy16CShyv34SYWuApump": 1793370742.5511987,
   "seen:PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": 1793370742.5511987,
-  "control:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793370743.0474548
+  "control:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793370743.0474548,
+  "seen:iNTCy1qTsUEZQe3DSocLz1ZXXai34Gdw8THQh5rxFaF": 1793370923.3147752,
+  "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793370923.3147752,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1793370923.3147752,
+  "control:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793370923.4072578,
+  "seen:GEWDAj3NaK3WVpgjhusnZq8CMsYu9yQPRRxApfXwpump": 1793371111.7887294,
+  "seen:EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump": 1793371111.7887294,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793371111.7887294,
+  "seen:A7pmyAhMbRXrQ6FXThxaNCNCmcdqCssjptizX15Ypump": 1793371291.5602622,
+  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793371291.5602622,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793371291.5602622,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793371291.5602622,
+  "control:EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump": 1793371291.6579487
  },
  "talks": {
   "2026-10-21": 109
@@ -134,18 +132,18 @@
  ],
  "last_review": 1793361013.611257,
  "news": {
-  "t": 1793369295.1040304,
+  "t": 1793370211.7929626,
   "crypto": [
+   "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack (0h ago)",
+   "Live updates: Binance says $6.34B set aside to cover hack losses (0h ago)",
+   "Here\u2019s what happened in crypto today (0h ago)",
    "Will gold\u2019s \u2018infinite mint bug\u2019 make Bitcoin more valuable? (1h ago)",
-   "Live updates: Binance says $6.34B set aside to cover hack losses (1h ago)",
    "Binance working with FBI to recover assets following $6.3B hack (1h ago)",
-   "Binance says it holds $5B in matching tokens to cover hack losses (1h ago)",
+   "Binance says it holds $5B in matching tokens to cover hack losses (2h ago)",
    "Binance arranges $6.34 billion to cover losses from record crypto hack (2h ago)",
-   "Here's how big bitcoin traders responded after the Binance hack hit (2h ago)",
+   "Here's how big bitcoin traders responded after the Binance hack hit (3h ago)",
    "Zcash grants group offers $124M compromise as governance backlash grows (3h ago)",
-   "Here\u2019s how an Ethereum upgrade helped drain part of Binance\u2019s $6 billion loss (3h ago)",
-   "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack (3h ago)",
-   "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower (3h ago)"
+   "Here\u2019s how an Ethereum upgrade helped drain part of Binance\u2019s $6 billion loss (3h ago)"
   ],
   "macro": [],
   "calendar": []
