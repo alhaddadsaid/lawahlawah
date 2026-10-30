@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -24748.371726783196,
+   "cash": -24762.561571532322,
    "open": [
-    {
-     "id": 1318,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PINK",
-     "mint": "AVBN6kXdaw27ySuvMevKYzNTL8d39b7sGQFDCmsvpump",
-     "side": 1,
-     "opened": 1793371299.680716,
-     "entry": 0.0001059,
-     "stop": 8.472e-05,
-     "target": 0.00014826,
-     "size": 1888574.1265344664,
-     "deadline": 1793378499.6807163,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1323,
      "desk": "control",
@@ -38,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1331,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SPACECAT",
-     "mint": "BLN4c4FERWn8pf3PysRDapSKzB5JoHx9HbaxjYkEpump",
-     "side": 1,
-     "opened": 1793378066.8633008,
-     "entry": 0.0001475,
-     "stop": 0.00011800000000000001,
-     "target": 0.0002065,
-     "size": 1355932.2033898304,
-     "deadline": 1793385266.863301,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1332,
      "desk": "control",
      "market": "meme",
@@ -66,37 +36,64 @@
      "size": 2727024.815925825,
      "deadline": 1793385452.639088,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1333,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "HEXN",
+     "mint": "ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump",
+     "side": 1,
+     "opened": 1793378626.7287636,
+     "entry": 0.0001569,
+     "stop": 0.00012551999999999998,
+     "target": 0.00021965999999999997,
+     "size": 1274697.2594008923,
+     "deadline": 1793385826.7287638,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1335,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Kim",
+     "mint": "qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump",
+     "side": 1,
+     "opened": 1793378976.1323426,
+     "entry": 0.0001275,
+     "stop": 0.00010200000000000001,
+     "target": 0.0001785,
+     "size": 1568627.450980392,
+     "deadline": 1793386176.1323428,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1333,
+ "next_id": 1336,
  "runs": 47,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DR3Jtxwzkw9uBpi6Bz7qJX7zuFSJkNKXthD8nB1mpump": 1793378421.6409378,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793378421.6409378,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793378421.6409378,
-  "control:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793378422.8850121,
-  "seen:5THtNEGTF1y67eRWvcgz3MomDZePCVx1xdskHHeCpump": 1793378602.2922683,
-  "seen:BLN4c4FERWn8pf3PysRDapSKzB5JoHx9HbaxjYkEpump": 1793378602.2922683,
-  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793378602.2922683,
-  "seen:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793378602.2922683,
-  "seen:AobUjTvWqxjncsSLqeNBewqNCzbqJre4tS9X2dtepump": 1793378602.2922683,
-  "control:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793378602.3917944,
-  "seen:5rk3kbNbzeRbNkubrqkcP6YGS8YN8zLtFLJs2aQgpump": 1793378787.6525645,
-  "seen:NKEda5nHhNGgjrE9nDdMvaEmkmJ96qqxzBVZEcKmjSg": 1793378787.6525645,
-  "seen:52MBEXmhVrZUJvMEbRpKRhehFUL8DnnV5LzYJ2G1pump": 1793378787.6525645,
-  "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793378787.6525645,
-  "seen:3Pv7x6YvXw2cHPAhcwKAGwPo56MvpZ1ZSTw2P2qqpump": 1793378787.6525645,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793378787.6525645,
-  "seen:HpH3XrbTCtLnt1BRJ4BWJQXgbDXHZDzs76hssf42pump": 1793378966.7561347,
-  "seen:JrvC7qKnGVn163q1u11VDUno7JtJ4ME2euiJkaupump": 1793378966.7561347,
-  "control:BLN4c4FERWn8pf3PysRDapSKzB5JoHx9HbaxjYkEpump": 1793378966.8633037,
   "seen:RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh": 1793379152.5226264,
   "seen:G4vGFQjeqYdbfckvipiuyusFgY1jqAK23mbYG4H8pump": 1793379152.5226264,
   "seen:2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1": 1793379152.5226264,
-  "control:2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1": 1793379152.6390908
+  "control:2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1": 1793379152.6390908,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793379333.083822,
+  "seen:DR3Jtxwzkw9uBpi6Bz7qJX7zuFSJkNKXthD8nB1mpump": 1793379333.083822,
+  "seen:VGgGYbp2aJcwwX8kFNJN4PjYou5JKcyffNpeDhRpump": 1793379333.083822,
+  "seen:5THtNEGTF1y67eRWvcgz3MomDZePCVx1xdskHHeCpump": 1793379526.6159065,
+  "seen:BLN4c4FERWn8pf3PysRDapSKzB5JoHx9HbaxjYkEpump": 1793379526.6159065,
+  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793379526.6159065,
+  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793379526.6159065,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793379526.6159065,
+  "control:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793379526.7287662,
+  "seen:52MBEXmhVrZUJvMEbRpKRhehFUL8DnnV5LzYJ2G1pump": 1793379696.2775526,
+  "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793379696.2775526,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793379696.2775526,
+  "control:DR3Jtxwzkw9uBpi6Bz7qJX7zuFSJkNKXthD8nB1mpump": 1793379696.8241286,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793379876.0687132,
+  "seen:G2uncTSiChQgbAGou8Si56c8smihtXmFkUiQb4oepump": 1793379876.0687132,
+  "control:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793379876.1323457
  },
  "talks": {
   "2026-10-21": 109
@@ -137,18 +134,18 @@
  ],
  "last_review": 1793361013.611257,
  "news": {
-  "t": 1793377521.6457398,
+  "t": 1793378433.0886786,
   "crypto": [
-   "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold (0h ago)",
+   "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart (0h ago)",
+   "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold (1h ago)",
    "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack (2h ago)",
    "Live updates: Binance says $6.34B set aside to cover hack losses (2h ago)",
-   "Here\u2019s what happened in crypto today (2h ago)",
+   "Here\u2019s what happened in crypto today (3h ago)",
    "Will gold\u2019s \u2018infinite mint bug\u2019 make Bitcoin more valuable? (3h ago)",
    "Binance working with FBI to recover assets following $6.3B hack (3h ago)",
    "Binance says it holds $5B in matching tokens to cover hack losses (4h ago)",
    "Binance arranges $6.34 billion to cover losses from record crypto hack (4h ago)",
-   "Here's how big bitcoin traders responded after the Binance hack hit (5h ago)",
-   "Zcash grants group offers $124M compromise as governance backlash grows (5h ago)"
+   "Here's how big bitcoin traders responded after the Binance hack hit (5h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -181,5 +178,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793377521.6457012
+ "last_macro_macro": 1793378796.2837381
 }
