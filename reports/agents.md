@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-30 13:36 UTC. Runs so far: 46. Model: claude-haiku-5-5.
+Updated 2026-10-30 13:46 UTC. Runs so far: 46. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1260 | 31 | -33851.59 | -45906.57 |
+| control | meme | 1261 | 31 | -33925.21 | -45988.56 |
 | control | macro | 27 | 44 | -173.82 | -322.19 |
-| control | all | 1287 | 31 | -34025.41 | -46228.76 |
+| control | all | 1288 | 31 | -34099.03 | -46310.75 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: PQC long at 0.0001023, stop 8.184e-05, target 0.00014322, opened 2026-10-30 12:51 UTC
 - control: three long at 0.0005968, stop 0.00047744, target 0.00083552, opened 2026-10-30 13:00 UTC
-- control: Kim long at 6.381e-05, stop 5.1048e-05, target 8.9334e-05, opened 2026-10-30 13:18 UTC
 - control: PURPS long at 0.0001143, stop 9.144e-05, target 0.00016002, opened 2026-10-30 13:24 UTC
 - control: GTA long at 9.442e-05, stop 7.5536e-05, target 0.000132188, opened 2026-10-30 13:36 UTC
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-30 13:36 UTC control: OPENED GTA long at 9.442e-05 (stop 7.5536e-05, target 0.000132188) - control: frozen v3 rules
+- control: order PURPS REJECTED by guardrails: PURPS already open
 
