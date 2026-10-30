@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -22379.57233090264,
+   "cash": -22490.570270390504,
    "open": [
     {
      "id": 1250,
@@ -20,21 +20,6 @@
      "target": 0.00102046,
      "size": 274386.06118809164,
      "deadline": 1793333096.1781125,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1255,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SI",
-     "mint": "6zuDiAw3NviBwcLZfTztHJgtCmeNWfyFxYVoXtNYpump",
-     "side": 1,
-     "opened": 1793328546.4798803,
-     "entry": 7.946e-05,
-     "stop": 6.3568e-05,
-     "target": 0.000111244,
-     "size": 2516989.6803423106,
-     "deadline": 1793335746.4798808,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -66,20 +51,29 @@
      "size": 1499250.374812594,
      "deadline": 1793338862.3195007,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1262,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SIC",
+     "mint": "2Y4VPwbVatx3zFZkQb9S2avVqe26gMsGpWhGA5swpump",
+     "side": 1,
+     "opened": 1793332393.1547034,
+     "entry": 0.0001381,
+     "stop": 0.00011048,
+     "target": 0.00019334,
+     "size": 1448225.923244026,
+     "deadline": 1793339593.1547034,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1262,
+ "next_id": 1264,
  "runs": 45,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793332381.7171967,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793332381.7171967,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793332381.7171967,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793332562.2433383,
-  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793332562.2433383,
-  "control:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793332562.3195028,
   "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793332745.7786188,
   "seen:AdkZmHCBtJyDv1GmYA93JZTG7rts3B7heMrVvayVpump": 1793332745.7786188,
   "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793332745.7786188,
@@ -88,7 +82,16 @@
   "seen:2Y4VPwbVatx3zFZkQb9S2avVqe26gMsGpWhGA5swpump": 1793332929.429906,
   "seen:9hzqsjCkxq3dQkfSkpRM1zk3NmLofHVBcwzKdvj3pump": 1793332929.429906,
   "seen:94ygQzoJq1gLa88rzr3TCRN119s6C7YKV8u5hxcRpump": 1793332929.429906,
-  "seen:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793332929.429906
+  "seen:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793332929.429906,
+  "seen:FLpsbzAmkZLtUrNsJ1PgWKab4Pdx9F2iqi6iKxUUpump": 1793333108.9954495,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793333292.6150649,
+  "seen:EFn88CiiFHhihqdr1Y11XBDxbbYarBf1ij92DsrigYwR": 1793333292.6150649,
+  "control:2Y4VPwbVatx3zFZkQb9S2avVqe26gMsGpWhGA5swpump": 1793333293.1547062,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793333476.5527976,
+  "seen:GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": 1793333476.5527976,
+  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793333476.5527976,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793333476.5527976,
+  "control:AdkZmHCBtJyDv1GmYA93JZTG7rts3B7heMrVvayVpump": 1793333476.9966643
  },
  "talks": {
   "2026-10-21": 109
@@ -129,18 +132,18 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793331481.721559,
+  "t": 1793332392.6192589,
   "crypto": [
-   "Binance hack drained wallets backing customer assets, reserve data shows (3h ago)",
-   "Binance points to engineer\u2019s hacked laptop in $6.3B breach (3h ago)",
+   "Crypto's longtime foe, North Korea's Lazarus Group, likely behind Binance hack: blockchain sleuths (0h ago)",
+   "Binance hack drained wallets backing customer assets, reserve data shows (4h ago)",
+   "Binance points to engineer\u2019s hacked laptop in $6.3B breach (4h ago)",
    "Binance hack rattles markets as BNB falls 8%, Bitcoin nears $77K (4h ago)",
    "Tampered Ledger reported in Singapore a month before news broke: Asia Express (5h ago)",
    "Live updates: Binance says $6.3B hack involved compromised engineer\u2019s laptop (6h ago)",
-   "Binance loses over $6 billion in 'biggest crypto hack in history' (6h ago)",
+   "Binance loses over $6 billion in 'biggest crypto hack in history' (7h ago)",
    "Here\u2019s what happened in crypto today (8h ago)",
    "Public companies double share of blockchain revenue since 2022: Report (8h ago)",
-   "Polymarket suspended trading amid reports of user funds being drained (8h ago)",
-   "Polymarket suspends trading after third-party breach leads to user losses (9h ago)"
+   "Polymarket suspended trading amid reports of user funds being drained (9h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -173,5 +176,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793331298.4783986
+ "last_macro_macro": 1793332576.5569923
 }
