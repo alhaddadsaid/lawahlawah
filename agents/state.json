@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -24960.113419047706,
+   "cash": -24941.93657934434,
    "open": [
     {
      "id": 1337,
@@ -21,21 +21,6 @@
      "size": 5.133833848710151,
      "deadline": 1793466104.3655586,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 1339,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "FLUKE",
-     "mint": "C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ",
-     "side": 1,
-     "opened": 1793381336.1791723,
-     "entry": 0.0001753,
-     "stop": 0.00014024,
-     "target": 0.00024542,
-     "size": 1140901.3120365087,
-     "deadline": 1793388536.1791725,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 1340,
@@ -70,23 +55,10 @@
    ]
   }
  },
- "next_id": 1342,
+ "next_id": 1343,
  "runs": 47,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:EgHf3XonHq6QCUoSZ1tFV5bQUG4Ez7FcvzMbdTF1pump": 1793382775.02184,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793382775.02184,
-  "seen:BLN4c4FERWn8pf3PysRDapSKzB5JoHx9HbaxjYkEpump": 1793382775.02184,
-  "seen:2aZp4sP2bPdMUVkTVeRmzBvJvCaeTpgYXNBXNuEopump": 1793382775.02184,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793382775.02184,
-  "seen:5THtNEGTF1y67eRWvcgz3MomDZePCVx1xdskHHeCpump": 1793382775.02184,
-  "seen:B6h9Dx4NdHjSFffz1StMR9zkCy4jT4gxQ213K468pPcc": 1793382958.2257571,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793382958.2257571,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793382958.2257571,
-  "control:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793382959.0285258,
-  "seen:8bbAcnTtgUTCCXGZbJ7DBKSvW8Z2k9bFj9NfGgEapump": 1793383136.2301788,
-  "seen:4ThuBbPPtzXxNv1GuJZuXJkpgs9s2v83iwPqfmwtpump": 1793383136.2301788,
-  "control:BLN4c4FERWn8pf3PysRDapSKzB5JoHx9HbaxjYkEpump": 1793383136.3295622,
   "seen:52MBEXmhVrZUJvMEbRpKRhehFUL8DnnV5LzYJ2G1pump": 1793383317.966408,
   "seen:5izHfawy4Rg1Vjm27F3ieHzmkEtWWyVNenhFFDPvpump": 1793383317.966408,
   "seen:9shb4VuR85tKziVn7sxScS8AXEFA4smM8NL4Z6utBAGS": 1793383317.966408,
@@ -95,7 +67,18 @@
   "seen:5W7uyvuyc7gvmEy9ZcGJMAnvxHNMQHoW4pJS15nCpump": 1793383499.6336012,
   "seen:yxqegfnoem8mMuRSqu8ouD8qsw32GpuMMXgTZGwpump": 1793383499.6336012,
   "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793383499.6336012,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793383499.6336012
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793383499.6336012,
+  "seen:EgHf3XonHq6QCUoSZ1tFV5bQUG4Ez7FcvzMbdTF1pump": 1793383682.1225314,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793383682.1225314,
+  "seen:2aZp4sP2bPdMUVkTVeRmzBvJvCaeTpgYXNBXNuEopump": 1793383682.1225314,
+  "seen:BLN4c4FERWn8pf3PysRDapSKzB5JoHx9HbaxjYkEpump": 1793383682.1225314,
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1793383682.1225314,
+  "control:yxqegfnoem8mMuRSqu8ouD8qsw32GpuMMXgTZGwpump": 1793383682.2386,
+  "seen:Byf7PwqFnqbhXBzt18YXhPcGr4aw65Zdk9FNXgzBTyW4": 1793383863.2308433,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1793383863.2308433,
+  "seen:AD7cjPhebfrtXSNmBRs6rxnawF87zCeUE2Mxc4ZmWmrH": 1793384044.5135057,
+  "seen:5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump": 1793384044.5135057,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793384044.5135057
  },
  "talks": {
   "2026-10-21": 109
@@ -136,17 +119,17 @@
  ],
  "last_review": 1793361013.611257,
  "news": {
-  "t": 1793382058.2305818,
+  "t": 1793382963.2360845,
   "crypto": [
    "Crypto Biz: Bitcoin\u2019s quantum threat is becoming an economic problem (1h ago)",
    "Recap: How Binance\u2019s record $6.3B hack unfolded (1h ago)",
    "As it happened: Binance\u2019s record $6.3B crypto hack (1h ago)",
    "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart (1h ago)",
    "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold (2h ago)",
-   "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack (3h ago)",
+   "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack (4h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
    "Will gold\u2019s \u2018infinite mint bug\u2019 make Bitcoin more valuable? (4h ago)",
-   "Binance working with FBI to recover assets following $6.3B hack (4h ago)",
+   "Binance working with FBI to recover assets following $6.3B hack (5h ago)",
    "Binance says it holds $5B in matching tokens to cover hack losses (5h ago)"
   ],
   "macro": [],

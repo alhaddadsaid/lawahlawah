@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-30 17:50 UTC. Runs so far: 47. Model: claude-haiku-5-5.
+Updated 2026-10-30 17:59 UTC. Runs so far: 47. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1291 | 31 | -34786.42 | -47135.38 |
+| control | meme | 1293 | 31 | -34768.24 | -47138.18 |
 | control | macro | 27 | 44 | -173.82 | -322.19 |
-| control | all | 1318 | 31 | -34960.24 | -47457.57 |
+| control | all | 1320 | 31 | -34942.06 | -47460.37 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GOLD short at 3905.6, stop 3925.08, target 3876.38, opened 2026-10-30 17:01 UTC
-- control: FLUKE long at 0.0001753, stop 0.00014024, target 0.00024542, opened 2026-10-30 17:28 UTC
 - control: HEXN long at 8.352e-05, stop 6.6816e-05, target 0.000116928, opened 2026-10-30 17:40 UTC
 - control: SPACECAT long at 7.517e-05, stop 6.0136e-05, target 0.000105238, opened 2026-10-30 17:43 UTC
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- control: CLOSED FLUKE (stop) P&L $-49.82 normal, $-58.8 pessimistic
 
