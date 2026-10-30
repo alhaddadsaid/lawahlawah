@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-30 08:59 UTC. Runs so far: 46. Model: claude-haiku-5-5.
+Updated 2026-10-30 09:12 UTC. Runs so far: 46. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1239 | 31 | -33421.22 | -45271.87 |
+| control | meme | 1240 | 31 | -33470.48 | -45330.12 |
 | control | macro | 27 | 44 | -173.82 | -322.19 |
-| control | all | 1266 | 31 | -33595.04 | -45594.06 |
+| control | all | 1267 | 31 | -33644.3 | -45652.31 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: STANK long at 8.975e-05, stop 7.18e-05, target 0.00012565, opened 2026-10-30 08:09 UTC
 - control: FLUKE long at 0.0001933, stop 0.00015464, target 0.00027062, opened 2026-10-30 08:38 UTC
-- control: TraderTraitor long at 0.0001366, stop 0.00010928, target 0.00019124, opened 2026-10-30 08:59 UTC
+- control: JASON long at 0.0001957, stop 0.00015656, target 0.00027398, opened 2026-10-30 09:05 UTC
 
 ## Team
 
@@ -32,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-10-30 08:59 UTC control: OPENED TraderTraitor long at 0.0001366 (stop 0.00010928, target 0.00019124) - control: frozen v3 rules
+- control: CLOSED TraderTraitor (stop) P&L $-49.26 normal, $-58.25 pessimistic
 
