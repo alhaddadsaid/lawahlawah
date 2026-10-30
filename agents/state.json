@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -23663.039875044105,
+   "cash": -23864.214802997994,
    "open": [
     {
      "id": 1289,
@@ -36,21 +36,6 @@
      "size": 2161928.440168631,
      "deadline": 1793360343.933914,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1294,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ZERODAY",
-     "mint": "9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump",
-     "side": 1,
-     "opened": 1793355152.5072188,
-     "entry": 0.0001041,
-     "stop": 8.328e-05,
-     "target": 0.00014574,
-     "size": 1921229.586935639,
-     "deadline": 1793362352.5072193,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -59,15 +44,6 @@
  "runs": 46,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "control:9hhLCxn41KZcmK1vAf7u5M6vKLHRcsVn1VmVgUrhpump": 1793355324.9536233,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793355502.7207024,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793355502.7207024,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793355502.7207024,
-  "seen:4HSHFbFiKuMvZW7yGiDTab17B63MzBkkhadFKxhkpump": 1793355502.7207024,
-  "seen:39755Znjp5t876QC2CNL76hWFuyT4txBfBampTYNbDf8": 1793355687.126407,
-  "seen:9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump": 1793355687.126407,
-  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793355687.126407,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793355687.126407,
   "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793355869.6358514,
   "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793355869.6358514,
   "seen:9hhLCxn41KZcmK1vAf7u5M6vKLHRcsVn1VmVgUrhpump": 1793356052.4181738,
@@ -75,7 +51,16 @@
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793356052.4181738,
   "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793356052.4181738,
   "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793356052.4181738,
-  "control:9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump": 1793356052.5072222
+  "control:9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump": 1793356052.5072222,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793356234.2370682,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793356421.3418915,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793356421.3418915,
+  "seen:PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": 1793356421.3418915,
+  "seen:39755Znjp5t876QC2CNL76hWFuyT4txBfBampTYNbDf8": 1793356601.0174203,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793356601.0174203,
+  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793356601.0174203,
+  "seen:7K52aYQW9rWGjwZmQ7o2d1P6E7bji6hSMsqaLy5EcxLh": 1793356601.0174203,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793356601.0174203
  },
  "talks": {
   "2026-10-21": 109
@@ -116,13 +101,13 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793354602.727396,
+  "t": 1793355521.3486252,
   "crypto": [
    "THORChain\u2019s RUNE jumps 13% after Binance\u2019s record $6.3B hack (0h ago)",
-   "Strategy CFO resigns as company posts record quarterly profit. MSTR stock falls 6% (0h ago)",
+   "Strategy CFO Andrew Kang resigns as company posts record operating profit (1h ago)",
    "Trezor warns CryptoBilis buyers to move funds over suspected implant (1h ago)",
    "Live updates: Binance uncovers more breach points in $6.3B hack (1h ago)",
-   "Live updates: Binance finds more breaches in $6.3 billion hack; AI spending fears hit tech (1h ago)",
+   "Live updates: Binance finds more breaches in $6.3 billion hack; AI spending fears hit tech (2h ago)",
    "Binance hacker dumps a little-known 2017 token and it crashes 90% (2h ago)",
    "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets (4h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
@@ -160,5 +145,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793354424.5095484
+ "last_macro_macro": 1793355701.02404
 }
