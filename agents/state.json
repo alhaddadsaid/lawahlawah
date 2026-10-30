@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -24098.922067769974,
+   "cash": -24360.594403388845,
    "open": [
     {
      "id": 1305,
@@ -38,57 +38,43 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1310,
+     "id": 1312,
      "desk": "control",
      "market": "meme",
      "symbol": "PURPS",
      "mint": "EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump",
      "side": 1,
-     "opened": 1793366684.878784,
-     "entry": 0.0001143,
-     "stop": 9.144e-05,
-     "target": 0.00016002,
-     "size": 1749781.2773403325,
-     "deadline": 1793373884.8787842,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1311,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GTA",
-     "mint": "6GCPmGAvH986ZE9psfHK5viH8haFL1c4KLNGXWiKpump",
-     "side": 1,
-     "opened": 1793367417.750662,
-     "entry": 9.442e-05,
-     "stop": 7.5536e-05,
-     "target": 0.000132188,
-     "size": 2118195.2976064393,
-     "deadline": 1793374617.7506623,
+     "opened": 1793368330.2461476,
+     "entry": 0.0001022,
+     "stop": 8.176e-05,
+     "target": 0.00014308,
+     "size": 1956947.1624266144,
+     "deadline": 1793375530.2461479,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1312,
+ "next_id": 1313,
  "runs": 46,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793368134.0604446,
-  "seen:2xkczG594A3iYjpJdECVSZooukxu13GwRgGxVTJvpump": 1793368134.0604446,
-  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793368134.0604446,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793368317.2227852,
-  "seen:EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump": 1793368317.2227852,
-  "control:6GCPmGAvH986ZE9psfHK5viH8haFL1c4KLNGXWiKpump": 1793368317.7506661,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793368501.5665946,
-  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793368501.5665946,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793368501.5665946,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793368501.5665946,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793368501.5665946,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793368501.5665946,
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793368684.026547,
   "seen:6GCPmGAvH986ZE9psfHK5viH8haFL1c4KLNGXWiKpump": 1793368684.026547,
-  "seen:etRgw1DVduNwoSdrwaMcnb6Yy16CShyv34SYWuApump": 1793368866.184826
+  "seen:etRgw1DVduNwoSdrwaMcnb6Yy16CShyv34SYWuApump": 1793368866.184826,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793369047.0626187,
+  "seen:iNTCy1qTsUEZQe3DSocLz1ZXXai34Gdw8THQh5rxFaF": 1793369047.0626187,
+  "seen:EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump": 1793369229.72783,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793369229.72783,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793369229.72783,
+  "control:EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump": 1793369230.246151,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793369413.5066576,
+  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793369413.5066576,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793369413.5066576,
+  "seen:2xkczG594A3iYjpJdECVSZooukxu13GwRgGxVTJvpump": 1793369413.5066576,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793369413.5066576,
+  "seen:PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": 1793369413.5066576,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793369413.5066576
  },
  "talks": {
   "2026-10-21": 109
@@ -129,18 +115,18 @@
  ],
  "last_review": 1793361013.611257,
  "news": {
-  "t": 1793367417.229793,
+  "t": 1793368329.7348762,
   "crypto": [
    "Will gold\u2019s \u2018infinite mint bug\u2019 make Bitcoin more valuable? (0h ago)",
-   "Live updates: Binance says $6.34B set aside to cover hack losses (0h ago)",
-   "Binance working with FBI to recover assets following $6.3B hack (0h ago)",
+   "Live updates: Binance says $6.34B set aside to cover hack losses (1h ago)",
+   "Binance working with FBI to recover assets following $6.3B hack (1h ago)",
    "Binance says it holds $5B in matching tokens to cover hack losses (1h ago)",
-   "Binance arranges $6.34 billion to cover losses from record crypto hack (1h ago)",
+   "Binance arranges $6.34 billion to cover losses from record crypto hack (2h ago)",
    "Here's how big bitcoin traders responded after the Binance hack hit (2h ago)",
    "Zcash grants group offers $124M compromise as governance backlash grows (2h ago)",
    "Here\u2019s how an Ethereum upgrade helped drain part of Binance\u2019s $6 billion loss (2h ago)",
    "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack (2h ago)",
-   "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower (2h ago)"
+   "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower (3h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -173,5 +159,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793367234.0671952
+ "last_macro_macro": 1793368513.513502
 }
