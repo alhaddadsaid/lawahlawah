@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -22324.50414908446,
+   "cash": -22379.57233090264,
    "open": [
     {
      "id": 1250,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1258,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HYPERPAD",
-     "mint": "31FZ9fnK5NqFrymDmNdwKZmrnVvYtpKoVdWXDeXTpump",
-     "side": 1,
-     "opened": 1793329280.3527663,
-     "entry": 5.72e-05,
-     "stop": 4.576e-05,
-     "target": 8.007999999999999e-05,
-     "size": 3496503.4965034965,
-     "deadline": 1793336480.3527665,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1260,
      "desk": "control",
      "market": "meme",
@@ -66,31 +51,44 @@
      "size": 2422480.620155039,
      "deadline": 1793337210.2563639,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1261,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "FLUKE",
+     "mint": "C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ",
+     "side": 1,
+     "opened": 1793331662.3195004,
+     "entry": 0.0001334,
+     "stop": 0.00010672000000000001,
+     "target": 0.00018676,
+     "size": 1499250.374812594,
+     "deadline": 1793338862.3195007,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1261,
+ "next_id": 1262,
  "runs": 45,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2vk31WofkrWKQPrWxhYpdobDRS29EESJ59xbjcHtpump": 1793331463.2893975,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793331463.2893975,
-  "seen:EFn88CiiFHhihqdr1Y11XBDxbbYarBf1ij92DsrigYwR": 1793331463.2893975,
-  "seen:oVjPCkp2u9azJng88d3NFy1ujsmyEkhGwd7o7f3pump": 1793331463.2893975,
-  "seen:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793331463.2893975,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793331463.2893975,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793331647.3138828,
-  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793331647.3138828,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793331832.265375,
-  "seen:AdkZmHCBtJyDv1GmYA93JZTG7rts3B7heMrVvayVpump": 1793331832.265375,
-  "seen:CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump": 1793331832.265375,
-  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793331832.265375,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793331832.265375,
-  "seen:2Y4VPwbVatx3zFZkQb9S2avVqe26gMsGpWhGA5swpump": 1793332015.330555,
-  "seen:94ygQzoJq1gLa88rzr3TCRN119s6C7YKV8u5hxcRpump": 1793332015.330555,
-  "seen:4hqDzrKcbQhQ74sokT7wTMyY1rAeiVrsdZkDDmRZrbTu": 1793332015.330555,
-  "seen:9hzqsjCkxq3dQkfSkpRM1zk3NmLofHVBcwzKdvj3pump": 1793332015.330555
+  "seen:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793332381.7171967,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793332381.7171967,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793332381.7171967,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793332562.2433383,
+  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793332562.2433383,
+  "control:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793332562.3195028,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793332745.7786188,
+  "seen:AdkZmHCBtJyDv1GmYA93JZTG7rts3B7heMrVvayVpump": 1793332745.7786188,
+  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793332745.7786188,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793332745.7786188,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793332745.7786188,
+  "seen:2Y4VPwbVatx3zFZkQb9S2avVqe26gMsGpWhGA5swpump": 1793332929.429906,
+  "seen:9hzqsjCkxq3dQkfSkpRM1zk3NmLofHVBcwzKdvj3pump": 1793332929.429906,
+  "seen:94ygQzoJq1gLa88rzr3TCRN119s6C7YKV8u5hxcRpump": 1793332929.429906,
+  "seen:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793332929.429906
  },
  "talks": {
   "2026-10-21": 109
@@ -131,7 +129,7 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793330563.293557,
+  "t": 1793331481.721559,
   "crypto": [
    "Binance hack drained wallets backing customer assets, reserve data shows (3h ago)",
    "Binance points to engineer\u2019s hacked laptop in $6.3B breach (3h ago)",
@@ -139,10 +137,10 @@
    "Tampered Ledger reported in Singapore a month before news broke: Asia Express (5h ago)",
    "Live updates: Binance says $6.3B hack involved compromised engineer\u2019s laptop (6h ago)",
    "Binance loses over $6 billion in 'biggest crypto hack in history' (6h ago)",
-   "Here\u2019s what happened in crypto today (7h ago)",
-   "Public companies double share of blockchain revenue since 2022: Report (7h ago)",
+   "Here\u2019s what happened in crypto today (8h ago)",
+   "Public companies double share of blockchain revenue since 2022: Report (8h ago)",
    "Polymarket suspended trading amid reports of user funds being drained (8h ago)",
-   "Polymarket suspends trading after third-party breach leads to user losses (8h ago)"
+   "Polymarket suspends trading after third-party breach leads to user losses (9h ago)"
   ],
   "macro": [],
   "calendar": []
