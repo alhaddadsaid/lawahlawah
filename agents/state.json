@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -23644.183575893367,
+   "cash": -23702.31090006475,
    "open": [
     {
      "id": 1284,
@@ -53,46 +53,60 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1290,
+     "id": 1291,
      "desk": "control",
      "market": "meme",
      "symbol": "PQC",
      "mint": "7K52aYQW9rWGjwZmQ7o2d1P6E7bji6hSMsqaLy5EcxLh",
      "side": 1,
-     "opened": 1793352226.0378675,
-     "entry": 0.0001237,
-     "stop": 9.896e-05,
-     "target": 0.00017317999999999996,
-     "size": 1616814.8746968473,
-     "deadline": 1793359426.0378678,
+     "opened": 1793353143.9339137,
+     "entry": 9.251e-05,
+     "stop": 7.400800000000001e-05,
+     "target": 0.000129514,
+     "size": 2161928.440168631,
+     "deadline": 1793360343.933914,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1292,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ZERODAY",
+     "mint": "9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump",
+     "side": 1,
+     "opened": 1793353327.498129,
+     "entry": 8.834e-05,
+     "stop": 7.0672e-05,
+     "target": 0.000123676,
+     "size": 2263980.076975323,
+     "deadline": 1793360527.4981291,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1291,
+ "next_id": 1293,
  "runs": 46,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:XNGKcgBxAXN8g7J97HcWcqujKuK4YzVYVA4AncA5byU": 1793352396.8608048,
-  "seen:5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump": 1793352396.8608048,
-  "seen:8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump": 1793352396.8608048,
-  "seen:51H7AzyyUAy6AkTPa2g1AMyfkoEoVXZjAKkqyHTopump": 1793352396.8608048,
-  "seen:5LnJ7aBYnpNbnS9tUTzxBFsEsT1rU4ePSQin5Thpump": 1793352580.6815739,
-  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793352580.6815739,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793352756.912413,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793352756.912413,
-  "seen:PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": 1793352756.912413,
-  "seen:9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump": 1793352943.563891,
-  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793352943.563891,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793352943.563891,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793352943.563891,
-  "seen:GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": 1793352943.563891,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793353125.9197936,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793353125.9197936,
-  "seen:7K52aYQW9rWGjwZmQ7o2d1P6E7bji6hSMsqaLy5EcxLh": 1793353125.9197936,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793353125.9197936,
-  "control:7K52aYQW9rWGjwZmQ7o2d1P6E7bji6hSMsqaLy5EcxLh": 1793353126.0378706
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793353677.7811568,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793353677.7811568,
+  "seen:KENJSUYLASHUMfHyy5o4Hp2FdNqZg1AsUPhfH2kYvEP": 1793353677.7811568,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793353677.7811568,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793353677.7811568,
+  "seen:39755Znjp5t876QC2CNL76hWFuyT4txBfBampTYNbDf8": 1793353860.6691287,
+  "seen:9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump": 1793353860.6691287,
+  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793353860.6691287,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793353860.6691287,
+  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793353860.6691287,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793353860.6691287,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793354043.2644086,
+  "seen:7K52aYQW9rWGjwZmQ7o2d1P6E7bji6hSMsqaLy5EcxLh": 1793354043.2644086,
+  "control:7K52aYQW9rWGjwZmQ7o2d1P6E7bji6hSMsqaLy5EcxLh": 1793354043.933917,
+  "seen:9hhLCxn41KZcmK1vAf7u5M6vKLHRcsVn1VmVgUrhpump": 1793354227.4110699,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793354227.4110699,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793354227.4110699,
+  "control:9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump": 1793354227.4981332
  },
  "talks": {
   "2026-10-21": 109
@@ -133,18 +147,18 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793351856.9189506,
+  "t": 1793352777.7879088,
   "crypto": [
+   "Trezor warns CryptoBilis buyers to move funds over suspected implant (0h ago)",
    "Live updates: Binance uncovers more breach points in $6.3B hack (0h ago)",
    "Live updates: Binance finds more breaches in $6.3 billion hack; AI spending fears hit tech (1h ago)",
-   "Binance hacker dumps a little-known 2017 token and it crashes 90% (1h ago)",
+   "Binance hacker dumps a little-known 2017 token and it crashes 90% (2h ago)",
    "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets (3h ago)",
-   "Here\u2019s what happened in crypto today (3h ago)",
-   "Strategy eyes more Bitcoin buys as Saylor touts $30B credit capacity (3h ago)",
-   "North Korea\u2019s TraderTraitor linked to $6.3B Binance hack (3h ago)",
+   "Here\u2019s what happened in crypto today (4h ago)",
+   "Strategy eyes more Bitcoin buys as Saylor touts $30B credit capacity (4h ago)",
+   "North Korea\u2019s TraderTraitor linked to $6.3B Binance hack (4h ago)",
    "XRP Ledger developers tighten the rules for who can hold 'restricted' tokens (4h ago)",
-   "Binance hack bites India's largest crypto exchange as it curbs futures trading (4h ago)",
-   "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze (4h ago)"
+   "Binance hack bites India's largest crypto exchange as it curbs futures trading (4h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -177,5 +191,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793351856.9188545
+ "last_macro_macro": 1793353143.2708385
 }
