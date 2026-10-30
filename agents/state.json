@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -22980.42479745999,
+   "cash": -22963.254655279896,
    "open": [
     {
      "id": 1265,
@@ -20,21 +20,6 @@
      "target": 0.0012210799999999998,
      "size": 229305.20522815868,
      "deadline": 1793341786.3140397,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1266,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "FLUKE",
-     "mint": "C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ",
-     "side": 1,
-     "opened": 1793334769.227238,
-     "entry": 0.0001703,
-     "stop": 0.00013624,
-     "target": 0.00023841999999999998,
-     "size": 1174398.1209630065,
-     "deadline": 1793341969.2272382,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -70,31 +55,30 @@
    ]
   }
  },
- "next_id": 1274,
+ "next_id": 1275,
  "runs": 45,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793340615.2084885,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793340615.2084885,
-  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793340615.2084885,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793340796.4998438,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793340796.4998438,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793340981.5326135,
-  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793340981.5326135,
-  "seen:8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump": 1793340981.5326135,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793340981.5326135,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793340981.5326135,
-  "control:GBPUSD": 1793340981.7358549,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793341165.608259,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793341165.608259,
-  "seen:5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump": 1793341165.608259,
-  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793341165.608259,
-  "control:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793341166.1318212,
   "seen:HrAk61ZkauamUnBcpLdAJv5AYrdFK6RetA2rY2qY7ULk": 1793341349.7194395,
   "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793341349.7194395,
   "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793341349.7194395,
   "seen:9hzqsjCkxq3dQkfSkpRM1zk3NmLofHVBcwzKdvj3pump": 1793341349.7194395,
-  "seen:GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": 1793341349.7194395
+  "seen:GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": 1793341349.7194395,
+  "seen:3XLTWYyHxpAdbP1fjfTz9TBZp9Dhq4A6KWNarHMkGHQb": 1793341533.6870925,
+  "seen:PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": 1793341533.6870925,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793341713.4008307,
+  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793341713.4008307,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793341713.4008307,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793341713.4008307,
+  "control:9hzqsjCkxq3dQkfSkpRM1zk3NmLofHVBcwzKdvj3pump": 1793341714.0616078,
+  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793341897.643217,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793341897.643217,
+  "seen:bLv3ydV6bTfaytwTHAvprPXrpUM15PYYfbMSiWApump": 1793341897.643217,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793341897.643217,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793341897.643217,
+  "seen:5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump": 1793342082.5667264,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793342082.5667264,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793342082.5667264
  },
  "talks": {
   "2026-10-21": 109
@@ -135,18 +119,18 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793339896.5045228,
+  "t": 1793340813.4054031,
   "crypto": [
+   "Here\u2019s what happened in crypto today (0h ago)",
+   "Strategy eyes more Bitcoin buys as Saylor touts $30B credit capacity (0h ago)",
+   "North Korea\u2019s TraderTraitor linked to $6.3B Binance hack (0h ago)",
    "XRP Ledger developers tighten the rules for who can hold 'restricted' tokens (0h ago)",
-   "Binance hack bites India's largest crypto exchange as it curbs futures trading (0h ago)",
+   "Binance hack bites India's largest crypto exchange as it curbs futures trading (1h ago)",
    "Binance hacker splits $1.4 billion of bitcoin into 19 wallets that no one can freeze (1h ago)",
    "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain (2h ago)",
    "Institutional crypto investors rush to pull funds from exchanges after Binance hack (2h ago)",
    "Binance hack could accelerate shift to DEXs: Standard Chartered (2h ago)",
-   "Crypto's longtime foe, North Korea's Lazarus Group, likely behind Binance hack: blockchain sleuths (2h ago)",
-   "Binance hack drained wallets backing customer assets, reserve data shows (6h ago)",
-   "Binance points to engineer\u2019s hacked laptop in $6.3B breach (6h ago)",
-   "Binance hack rattles markets as BNB falls 8%, Bitcoin nears $77K (7h ago)"
+   "Crypto's longtime foe, North Korea's Lazarus Group, likely behind Binance hack: blockchain sleuths (3h ago)"
   ],
   "macro": [],
   "calendar": []
