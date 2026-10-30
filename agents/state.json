@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -23914.70557628446,
+   "cash": -23964.81853704546,
    "open": [
     {
      "id": 1289,
@@ -21,21 +21,6 @@
      "size": 1021972.4067450179,
      "deadline": 1793358329.329699,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1291,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PQC",
-     "mint": "7K52aYQW9rWGjwZmQ7o2d1P6E7bji6hSMsqaLy5EcxLh",
-     "side": 1,
-     "opened": 1793353143.9339137,
-     "entry": 9.251e-05,
-     "stop": 7.400800000000001e-05,
-     "target": 0.000129514,
-     "size": 2161928.440168631,
-     "deadline": 1793360343.933914,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -44,17 +29,6 @@
  "runs": 46,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793357154.6801991,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793357154.6801991,
-  "control:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793357154.7617767,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793357337.5867155,
-  "seen:51H7AzyyUAy6AkTPa2g1AMyfkoEoVXZjAKkqyHTopump": 1793357337.5867155,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793357337.5867155,
-  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793357337.5867155,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793357521.6892064,
-  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793357521.6892064,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793357521.6892064,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1793357521.6892064,
   "seen:39755Znjp5t876QC2CNL76hWFuyT4txBfBampTYNbDf8": 1793357704.0062182,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793357704.0062182,
   "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793357704.0062182,
@@ -62,7 +36,16 @@
   "seen:5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump": 1793357704.0062182,
   "seen:9hhLCxn41KZcmK1vAf7u5M6vKLHRcsVn1VmVgUrhpump": 1793357886.873254,
   "seen:PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": 1793357886.873254,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793357886.873254
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793357886.873254,
+  "seen:2tdgoXCxb8rgFbSK61tiQzeqmGJjdzEmR4c6Y2LCGJfS": 1793358071.6091142,
+  "seen:BZQUF3ZwVJsBiwRuraYuGjbcaNzaceRUHVVz6577pump": 1793358071.6091142,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793358254.1014292,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793358254.1014292,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793358254.1014292,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793358254.1014292,
+  "seen:HftEwseBtcbgxj9j7AfgsA5ZiTEhSK9qWXZs8rzfpump": 1793358434.3505278,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793358434.3505278,
+  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793358434.3505278
  },
  "talks": {
   "2026-10-21": 109
@@ -103,12 +86,12 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793356437.5933404,
+  "t": 1793357354.108076,
   "crypto": [
    "THORChain\u2019s RUNE jumps 13% after Binance\u2019s record $6.3B hack (1h ago)",
    "Strategy CFO Andrew Kang resigns as company posts record operating profit (1h ago)",
    "Trezor warns CryptoBilis buyers to move funds over suspected implant (1h ago)",
-   "Live updates: Binance uncovers more breach points in $6.3B hack (1h ago)",
+   "Live updates: Binance uncovers more breach points in $6.3B hack (2h ago)",
    "Live updates: Binance finds more breaches in $6.3 billion hack; AI spending fears hit tech (2h ago)",
    "Binance hacker dumps a little-known 2017 token and it crashes 90% (3h ago)",
    "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets (4h ago)",
