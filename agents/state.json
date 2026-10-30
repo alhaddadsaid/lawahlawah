@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -22675.894440756172,
+   "cash": -22765.975994983328,
    "open": [
     {
      "id": 1260,
@@ -66,21 +66,6 @@
      "size": 1174398.1209630065,
      "deadline": 1793341969.2272382,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1267,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "LIQUID",
-     "mint": "GqaP7NBtPAFAUq45UAp426bdEtfz5nz2ffMn9MiHpump",
-     "side": 1,
-     "opened": 1793334952.5244248,
-     "entry": 0.0001171,
-     "stop": 9.368000000000001e-05,
-     "target": 0.00016393999999999998,
-     "size": 1707941.9299743809,
-     "deadline": 1793342152.524425,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,20 +74,6 @@
  "runs": 45,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2kj5q46PZiCV7ArfAxS3DErDrqXqRKt2hQhd1kj9StUr": 1793335302.824609,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793335302.824609,
-  "seen:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793335302.824609,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793335486.2465045,
-  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793335486.2465045,
-  "seen:PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": 1793335486.2465045,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793335486.2465045,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793335486.2465045,
-  "control:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793335486.314044,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793335669.1527374,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793335669.1527374,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793335669.1527374,
-  "seen:FGGwUpqPHTxwLDdtoY37KBJ6tQxfY5N1JLTXEs2ppump": 1793335669.1527374,
-  "control:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793335669.227241,
   "seen:9hzqsjCkxq3dQkfSkpRM1zk3NmLofHVBcwzKdvj3pump": 1793335852.469144,
   "seen:5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump": 1793335852.469144,
   "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793335852.469144,
@@ -110,7 +81,17 @@
   "seen:7YzMVYuhnUytjhqLJ7oz8JS9Lv5u7gW4JcjSfEpkpump": 1793336035.4775896,
   "seen:GqaP7NBtPAFAUq45UAp426bdEtfz5nz2ffMn9MiHpump": 1793336035.4775896,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793336035.4775896,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793336035.4775896
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793336035.4775896,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793336220.1262379,
+  "seen:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793336220.1262379,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793336403.101333,
+  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793336403.101333,
+  "seen:PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": 1793336403.101333,
+  "seen:CodmwQiDsHkBUEj18ZrUZRuR1E5TopppJc2R9tqdpump": 1793336403.101333,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793336403.101333,
+  "seen:3XLTWYyHxpAdbP1fjfTz9TBZp9Dhq4A6KWNarHMkGHQb": 1793336586.1395423,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793336586.1395423,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793336586.1395423
  },
  "talks": {
   "2026-10-21": 109
@@ -151,14 +132,14 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793334402.8292747,
+  "t": 1793335320.130574,
   "crypto": [
-   "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain (0h ago)",
+   "$6 billion Binance hack sends bitcoin, ether tumbling; Standard Chartered expects more pain (1h ago)",
    "Institutional crypto investors rush to pull funds from exchanges after Binance hack (1h ago)",
    "Binance hack could accelerate shift to DEXs: Standard Chartered (1h ago)",
    "Crypto's longtime foe, North Korea's Lazarus Group, likely behind Binance hack: blockchain sleuths (1h ago)",
    "Binance hack drained wallets backing customer assets, reserve data shows (4h ago)",
-   "Binance points to engineer\u2019s hacked laptop in $6.3B breach (4h ago)",
+   "Binance points to engineer\u2019s hacked laptop in $6.3B breach (5h ago)",
    "Binance hack rattles markets as BNB falls 8%, Bitcoin nears $77K (5h ago)",
    "Tampered Ledger reported in Singapore a month before news broke: Asia Express (6h ago)",
    "Live updates: Binance says $6.3B hack involved compromised engineer\u2019s laptop (7h ago)",
