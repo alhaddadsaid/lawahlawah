@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -23702.31090006475,
+   "cash": -23634.31090006475,
    "open": [
     {
      "id": 1284,
@@ -66,21 +66,6 @@
      "size": 2161928.440168631,
      "deadline": 1793360343.933914,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1292,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ZERODAY",
-     "mint": "9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump",
-     "side": 1,
-     "opened": 1793353327.498129,
-     "entry": 8.834e-05,
-     "stop": 7.0672e-05,
-     "target": 0.000123676,
-     "size": 2263980.076975323,
-     "deadline": 1793360527.4981291,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,24 +74,23 @@
  "runs": 46,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793353677.7811568,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793353677.7811568,
-  "seen:KENJSUYLASHUMfHyy5o4Hp2FdNqZg1AsUPhfH2kYvEP": 1793353677.7811568,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793353677.7811568,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793353677.7811568,
-  "seen:39755Znjp5t876QC2CNL76hWFuyT4txBfBampTYNbDf8": 1793353860.6691287,
-  "seen:9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump": 1793353860.6691287,
-  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793353860.6691287,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793353860.6691287,
-  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793353860.6691287,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793353860.6691287,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793354043.2644086,
-  "seen:7K52aYQW9rWGjwZmQ7o2d1P6E7bji6hSMsqaLy5EcxLh": 1793354043.2644086,
-  "control:7K52aYQW9rWGjwZmQ7o2d1P6E7bji6hSMsqaLy5EcxLh": 1793354043.933917,
   "seen:9hhLCxn41KZcmK1vAf7u5M6vKLHRcsVn1VmVgUrhpump": 1793354227.4110699,
   "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793354227.4110699,
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793354227.4110699,
-  "control:9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump": 1793354227.4981332
+  "control:9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump": 1793354227.4981332,
+  "seen:EpUpCkqzZhy7hG21ZGwWCCmxY8CScQ3sdScSXYr25CvB": 1793354407.6899502,
+  "seen:PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": 1793354407.6899502,
+  "seen:7fAZTFTqr4hyjcn23t6amYVRNNeWKsqTpWk26K9Spump": 1793354591.4441178,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793354591.4441178,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793354591.4441178,
+  "seen:39755Znjp5t876QC2CNL76hWFuyT4txBfBampTYNbDf8": 1793354774.1330197,
+  "seen:9ZRHMXqFTucBLuCs3TqmDEPjQCzhSuZ3bQR6dqpepump": 1793354774.1330197,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793354774.1330197,
+  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793354774.1330197,
+  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793354774.1330197,
+  "seen:iNTCy1qTsUEZQe3DSocLz1ZXXai34Gdw8THQh5rxFaF": 1793354956.4683115,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793354956.4683115,
+  "seen:7K52aYQW9rWGjwZmQ7o2d1P6E7bji6hSMsqaLy5EcxLh": 1793354956.4683115
  },
  "talks": {
   "2026-10-21": 109
@@ -147,18 +131,18 @@
  ],
  "last_review": 1793274459.6310067,
  "news": {
-  "t": 1793352777.7879088,
+  "t": 1793353691.4507864,
   "crypto": [
+   "Strategy CFO resigns as company posts record quarterly profit. MSTR stock falls 6% (0h ago)",
    "Trezor warns CryptoBilis buyers to move funds over suspected implant (0h ago)",
-   "Live updates: Binance uncovers more breach points in $6.3B hack (0h ago)",
+   "Live updates: Binance uncovers more breach points in $6.3B hack (1h ago)",
    "Live updates: Binance finds more breaches in $6.3 billion hack; AI spending fears hit tech (1h ago)",
    "Binance hacker dumps a little-known 2017 token and it crashes 90% (2h ago)",
    "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets (3h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
    "Strategy eyes more Bitcoin buys as Saylor touts $30B credit capacity (4h ago)",
    "North Korea\u2019s TraderTraitor linked to $6.3B Binance hack (4h ago)",
-   "XRP Ledger developers tighten the rules for who can hold 'restricted' tokens (4h ago)",
-   "Binance hack bites India's largest crypto exchange as it curbs futures trading (4h ago)"
+   "XRP Ledger developers tighten the rules for who can hold 'restricted' tokens (4h ago)"
   ],
   "macro": [],
   "calendar": []
