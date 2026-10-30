@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -24513.09492659393,
+   "cash": -24624.42450944526,
    "open": [
     {
      "id": 1318,
@@ -21,36 +21,53 @@
      "size": 1888574.1265344664,
      "deadline": 1793378499.6807163,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1323,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "FLUKE",
+     "mint": "C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ",
+     "side": 1,
+     "opened": 1793373503.559908,
+     "entry": 0.0001607,
+     "stop": 0.00012856,
+     "target": 0.00022497999999999998,
+     "size": 1244555.0715619165,
+     "deadline": 1793380703.5599082,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1321,
+ "next_id": 1324,
  "runs": 47,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GEWDAj3NaK3WVpgjhusnZq8CMsYu9yQPRRxApfXwpump": 1793372928.4231696,
-  "seen:deHrkXFgs1LE95EPcqbpdoAkGSrUb99nWyTfvmtpump": 1793372928.4231696,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793372928.4231696,
-  "control:GEWDAj3NaK3WVpgjhusnZq8CMsYu9yQPRRxApfXwpump": 1793372929.3393438,
-  "seen:BWK4R9hW3sq6L4J3fzJkXPBFQ1eFKQrDpsiw967iqMQi": 1793373108.6245818,
-  "seen:4qizrkdhWZBRMSm1BCs1m13Ju3YJxAu4mjbuSKjypump": 1793373108.6245818,
-  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793373108.6245818,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793373108.6245818,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1793373108.6245818,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793373289.2596133,
-  "seen:9hhLCxn41KZcmK1vAf7u5M6vKLHRcsVn1VmVgUrhpump": 1793373289.2596133,
-  "control:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793373289.7417665,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793373474.742076,
-  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793373474.742076,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793373474.742076,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793373474.742076,
-  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793373474.742076,
   "seen:h3f5XoaXYoTX14DFz2Nveb4kGTHSEL6QTZMXxwBi8n6": 1793373658.9133623,
   "seen:AMpv7JrrGhKkCJmGUvpgUamtxC6hxBXpekd3GC5qpump": 1793373658.9133623,
   "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793373658.9133623,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793373658.9133623,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793373658.9133623
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793373658.9133623,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793373855.190888,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793373855.190888,
+  "seen:2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1": 1793374026.3043635,
+  "seen:4eXQ729cC8SUMLeLRYfpn5x4234RMYWm6yG6RvWJ9v9u": 1793374026.3043635,
+  "seen:E5ybm4acARqNKEAHpUqYG1BRLpYai9anMz8enAHpump": 1793374026.3043635,
+  "seen:4qizrkdhWZBRMSm1BCs1m13Ju3YJxAu4mjbuSKjypump": 1793374026.3043635,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793374026.3043635,
+  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793374026.3043635,
+  "control:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793374026.4048254,
+  "seen:5AQt8VV5YmmmGmy8jifz7773xVv9w9NBQ8yzb7TQfQBo": 1793374213.264922,
+  "seen:5THtNEGTF1y67eRWvcgz3MomDZePCVx1xdskHHeCpump": 1793374213.264922,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793374213.264922,
+  "control:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793374213.3299806,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793374403.3501487,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793374403.3501487,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793374403.3501487,
+  "seen:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793374403.3501487,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1793374403.3501487,
+  "control:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793374403.5599115
  },
  "talks": {
   "2026-10-21": 109
@@ -91,18 +108,18 @@
  ],
  "last_review": 1793361013.611257,
  "news": {
-  "t": 1793372028.4281347,
+  "t": 1793372955.1956215,
   "crypto": [
    "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack (1h ago)",
    "Live updates: Binance says $6.34B set aside to cover hack losses (1h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
-   "Will gold\u2019s \u2018infinite mint bug\u2019 make Bitcoin more valuable? (1h ago)",
+   "Will gold\u2019s \u2018infinite mint bug\u2019 make Bitcoin more valuable? (2h ago)",
    "Binance working with FBI to recover assets following $6.3B hack (2h ago)",
    "Binance says it holds $5B in matching tokens to cover hack losses (2h ago)",
    "Binance arranges $6.34 billion to cover losses from record crypto hack (3h ago)",
    "Here's how big bitcoin traders responded after the Binance hack hit (3h ago)",
-   "Zcash grants group offers $124M compromise as governance backlash grows (3h ago)",
-   "Here\u2019s how an Ethereum upgrade helped drain part of Binance\u2019s $6 billion loss (3h ago)"
+   "Zcash grants group offers $124M compromise as governance backlash grows (4h ago)",
+   "Here\u2019s how an Ethereum upgrade helped drain part of Binance\u2019s $6 billion loss (4h ago)"
   ],
   "macro": [],
   "calendar": []
