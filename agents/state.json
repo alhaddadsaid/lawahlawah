@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -24050.70144040062,
+   "cash": -23970.33050349813,
    "open": [
-    {
-     "id": 1297,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "STANK",
-     "mint": "5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8",
-     "side": 1,
-     "opened": 1793358819.71987,
-     "entry": 0.0001046,
-     "stop": 8.368e-05,
-     "target": 0.00014644,
-     "size": 1912045.8891013386,
-     "deadline": 1793366019.7198706,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1303,
      "desk": "control",
@@ -70,33 +55,28 @@
    ]
   }
  },
- "next_id": 1308,
+ "next_id": 1309,
  "runs": 46,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793365386.5605767,
-  "seen:A66kHaKDhK1wGpsPLaxBW6FThCeU4V9LSy3arGkNpump": 1793365386.5605767,
-  "seen:FuH3VrPFLnsCiDVuSYHWZwLygCuVmHNSZ5r98L4cpump": 1793365386.5605767,
-  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793365386.5605767,
-  "control:A66kHaKDhK1wGpsPLaxBW6FThCeU4V9LSy3arGkNpump": 1793365386.596412,
-  "seen:EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump": 1793365567.7856665,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793365567.7856665,
-  "seen:5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump": 1793365567.7856665,
-  "seen:7K52aYQW9rWGjwZmQ7o2d1P6E7bji6hSMsqaLy5EcxLh": 1793365567.7856665,
-  "control:7K52aYQW9rWGjwZmQ7o2d1P6E7bji6hSMsqaLy5EcxLh": 1793365568.7369063,
-  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793365751.093153,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793365751.093153,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793365751.093153,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793365751.093153,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793365751.093153,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793365751.093153,
-  "control:EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump": 1793365751.1685147,
-  "seen:Cj86G9WLVbotsqWSgJkuKSjZcythuEc3XnEfX3DDvkPQ": 1793365933.9864817,
-  "seen:6GCPmGAvH986ZE9psfHK5viH8haFL1c4KLNGXWiKpump": 1793365933.9864817,
   "seen:2xkczG594A3iYjpJdECVSZooukxu13GwRgGxVTJvpump": 1793366119.0160983,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793366119.0160983,
   "seen:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793366119.0160983,
-  "control:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793366119.104986
+  "control:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793366119.104986,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793366301.7327569,
+  "seen:39MC3gW64zJqLj8dU588tN86DSPXpPkpqNhqTEzi32EV": 1793366484.31024,
+  "seen:EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump": 1793366484.31024,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793366484.31024,
+  "seen:4HSHFbFiKuMvZW7yGiDTab17B63MzBkkhadFKxhkpump": 1793366484.31024,
+  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793366668.90332,
+  "seen:PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": 1793366668.90332,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793366668.90332,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793366668.90332,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793366668.90332,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793366668.90332,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793366668.90332,
+  "control:EFo8uB6wD739GgtGoYbAwxM6Pp8iCzM8XGf7jQW7pump": 1793366669.0343459,
+  "seen:6GCPmGAvH986ZE9psfHK5viH8haFL1c4KLNGXWiKpump": 1793366852.608909
  },
  "talks": {
   "2026-10-21": 109
@@ -137,15 +117,15 @@
  ],
  "last_review": 1793361013.611257,
  "news": {
-  "t": 1793364667.7927485,
+  "t": 1793365584.317177,
   "crypto": [
    "Binance says it holds $5B in matching tokens to cover hack losses (0h ago)",
    "Binance arranges $6.34 billion to cover losses from record crypto hack (1h ago)",
    "Here's how big bitcoin traders responded after the Binance hack hit (1h ago)",
    "Live updates: Binance says $6.34B set aside to cover hack losses (1h ago)",
-   "Zcash grants group offers $124M compromise as governance backlash grows (1h ago)",
-   "Here\u2019s how an Ethereum upgrade helped drain part of Binance\u2019s $6 billion loss (1h ago)",
-   "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack (1h ago)",
+   "Zcash grants group offers $124M compromise as governance backlash grows (2h ago)",
+   "Here\u2019s how an Ethereum upgrade helped drain part of Binance\u2019s $6 billion loss (2h ago)",
+   "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack (2h ago)",
    "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower (2h ago)",
    "EIP-7702 didn\u2019t cause Binance hack, but may have amplified losses (2h ago)",
    "Binance hacker\u2019s Bitcoin haul tops Coinbase\u2019s corporate treasury (2h ago)"
@@ -181,5 +161,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793364667.792578
+ "last_macro_macro": 1793365952.6155446
 }
