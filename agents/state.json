@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -25941.252042198797,
+   "cash": -26000.894899341656,
    "open": [
     {
      "id": 1337,
@@ -51,21 +51,6 @@
      "size": 3039051.81583346,
      "deadline": 1793405616.9046712,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1370,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ONBOARD",
-     "mint": "CEMEy7jkeytkxq3qYjaKyQnKiUdHAMJDM1B1tv2Upump",
-     "side": 1,
-     "opened": 1793398783.2783055,
-     "entry": 0.0001638,
-     "stop": 0.00013104,
-     "target": 0.00022931999999999998,
-     "size": 1221001.221001221,
-     "deadline": 1793405983.2783058,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,28 +59,23 @@
  "runs": 48,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:J5jxG3PFaWpj6BLEQExyC6FSqSvaTKNdQ9G3sZwBpump": 1793399316.8743463,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793399316.8743463,
-  "seen:3qjBR3LfzEAKVS6QXuR2QZ1RFUsXzATWvmjbGB5Dpump": 1793399316.8743463,
-  "seen:2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw": 1793399316.8743463,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793399316.8743463,
-  "control:3qjBR3LfzEAKVS6QXuR2QZ1RFUsXzATWvmjbGB5Dpump": 1793399316.9046743,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793399500.6029034,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793399500.6029034,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793399500.6029034,
-  "seen:CEMEy7jkeytkxq3qYjaKyQnKiUdHAMJDM1B1tv2Upump": 1793399683.2472508,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793399683.2472508,
-  "control:CEMEy7jkeytkxq3qYjaKyQnKiUdHAMJDM1B1tv2Upump": 1793399683.2783089,
-  "seen:6DriJ3jjBfU6BkAx9YEkzDQJPFJqiqKGU8L78fcrpump": 1793399866.57094,
-  "seen:HgxEGTZ1Epb64RrYqcuHkqb1gGWWnF5WcPTCDWzApump": 1793399866.57094,
-  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793399866.57094,
-  "seen:4sYcQgiC3aMoDL935gBUGTvfrWHhoyiUDQicGYLHbibi": 1793399866.57094,
-  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1793399866.57094,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793400049.9847553,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793400049.9847553,
-  "seen:DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump": 1793400049.9847553,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793400049.9847553,
-  "seen:5THtNEGTF1y67eRWvcgz3MomDZePCVx1xdskHHeCpump": 1793400049.9847553
+  "seen:4NyRyGt5rwtLBdNQpkDaXnCyGuxHZHsRtzt4jazQpump": 1793400233.3566144,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793400233.3566144,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1793400233.3566144,
+  "seen:GRNDYDpqwpCm6jVxpbh4xT5AM4r3p391qYsKTHqgaET2": 1793400415.2829165,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793400415.2829165,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793400415.2829165,
+  "seen:CEMEy7jkeytkxq3qYjaKyQnKiUdHAMJDM1B1tv2Upump": 1793400597.9831667,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793400597.9831667,
+  "seen:HgxEGTZ1Epb64RrYqcuHkqb1gGWWnF5WcPTCDWzApump": 1793400781.3628314,
+  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793400781.3628314,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793400781.3628314,
+  "seen:72xT8GLE76h6eVXSQtH6xTScJ4aikpXe5jiTLqDPpump": 1793400963.6353035,
+  "seen:5G3pzMiNQxiFctE1aZRTctYJLz5zGdfA1S65QMT5pump": 1793400963.6353035,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793400963.6353035,
+  "seen:DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump": 1793400963.6353035,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793400963.6353035,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793400963.6353035
  },
  "talks": {
   "2026-10-21": 109
@@ -136,15 +116,15 @@
  ],
  "last_review": 1793361013.611257,
  "news": {
-  "t": 1793398600.6100109,
+  "t": 1793399515.2902584,
   "crypto": [
-   "Binance hackers raced to move billions before it could be frozen (0h ago)",
-   "Experts divided over Binance hack asset freezes, warn recovery is another matter (2h ago)",
+   "Binance hackers raced to move billions before it could be frozen (1h ago)",
+   "Experts divided over Binance hack asset freezes, warn recovery is another matter (3h ago)",
    "Tether\u2019s excess reserves nearly double to $8B as Q3 profit hits $1.5B (3h ago)",
-   "Coinbase leads crypto stock selloff following $6.3B Binance hack (4h ago)",
+   "Coinbase leads crypto stock selloff following $6.3B Binance hack (5h ago)",
    "Crypto Biz: Bitcoin\u2019s quantum threat is becoming an economic problem (5h ago)",
-   "Recap: How Binance\u2019s record $6.3B hack unfolded (5h ago)",
-   "As it happened: Binance\u2019s record $6.3B crypto hack (5h ago)",
+   "Recap: How Binance\u2019s record $6.3B hack unfolded (6h ago)",
+   "As it happened: Binance\u2019s record $6.3B crypto hack (6h ago)",
    "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart (6h ago)",
    "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold (6h ago)",
    "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack (8h ago)"
