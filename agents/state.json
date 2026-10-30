@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -24899.53024505153,
+   "cash": -24960.113419047706,
    "open": [
-    {
-     "id": 1333,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HEXN",
-     "mint": "ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump",
-     "side": 1,
-     "opened": 1793378626.7287636,
-     "entry": 0.0001569,
-     "stop": 0.00012551999999999998,
-     "target": 0.00021965999999999997,
-     "size": 1274697.2594008923,
-     "deadline": 1793385826.7287638,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1337,
      "desk": "control",
@@ -51,33 +36,47 @@
      "size": 1140901.3120365087,
      "deadline": 1793388536.1791725,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1340,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "HEXN",
+     "mint": "ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump",
+     "side": 1,
+     "opened": 1793382059.028523,
+     "entry": 8.352e-05,
+     "stop": 6.6816e-05,
+     "target": 0.00011692799999999999,
+     "size": 2394636.0153256706,
+     "deadline": 1793389259.0285232,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1340,
+ "next_id": 1341,
  "runs": 47,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:52MBEXmhVrZUJvMEbRpKRhehFUL8DnnV5LzYJ2G1pump": 1793381509.6823525,
-  "seen:5izHfawy4Rg1Vjm27F3ieHzmkEtWWyVNenhFFDPvpump": 1793381509.6823525,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793381509.6823525,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793381509.6823525,
-  "seen:5THtNEGTF1y67eRWvcgz3MomDZePCVx1xdskHHeCpump": 1793381698.6855812,
-  "seen:2aZp4sP2bPdMUVkTVeRmzBvJvCaeTpgYXNBXNuEopump": 1793381698.6855812,
-  "seen:BLN4c4FERWn8pf3PysRDapSKzB5JoHx9HbaxjYkEpump": 1793381698.6855812,
-  "control:BLN4c4FERWn8pf3PysRDapSKzB5JoHx9HbaxjYkEpump": 1793381698.8408055,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793381871.1047335,
-  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1793381871.1047335,
-  "seen:RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh": 1793381871.1047335,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793381871.1047335,
-  "seen:B6h9Dx4NdHjSFffz1StMR9zkCy4jT4gxQ213K468pPcc": 1793382051.5007381,
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793382051.5007381,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793382051.5007381,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793382051.5007381,
   "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793382235.6534386,
   "seen:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793382235.6534386,
-  "control:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793382236.179176
+  "control:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793382236.179176,
+  "seen:52MBEXmhVrZUJvMEbRpKRhehFUL8DnnV5LzYJ2G1pump": 1793382413.4185054,
+  "seen:5izHfawy4Rg1Vjm27F3ieHzmkEtWWyVNenhFFDPvpump": 1793382413.4185054,
+  "seen:2ngSZWzKzhVtSrWjrYJRFu4iD3zGHQYFS6WMRwPfpump": 1793382593.43375,
+  "seen:3qjBR3LfzEAKVS6QXuR2QZ1RFUsXzATWvmjbGB5Dpump": 1793382593.43375,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793382593.43375,
+  "seen:EgHf3XonHq6QCUoSZ1tFV5bQUG4Ez7FcvzMbdTF1pump": 1793382775.02184,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793382775.02184,
+  "seen:BLN4c4FERWn8pf3PysRDapSKzB5JoHx9HbaxjYkEpump": 1793382775.02184,
+  "seen:2aZp4sP2bPdMUVkTVeRmzBvJvCaeTpgYXNBXNuEopump": 1793382775.02184,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793382775.02184,
+  "seen:5THtNEGTF1y67eRWvcgz3MomDZePCVx1xdskHHeCpump": 1793382775.02184,
+  "seen:B6h9Dx4NdHjSFffz1StMR9zkCy4jT4gxQ213K468pPcc": 1793382958.2257571,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793382958.2257571,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793382958.2257571,
+  "control:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793382959.0285258
  },
  "talks": {
   "2026-10-21": 109
@@ -118,15 +117,15 @@
  ],
  "last_review": 1793361013.611257,
  "news": {
-  "t": 1793381151.5057943,
+  "t": 1793382058.2305818,
   "crypto": [
-   "Crypto Biz: Bitcoin\u2019s quantum threat is becoming an economic problem (0h ago)",
+   "Crypto Biz: Bitcoin\u2019s quantum threat is becoming an economic problem (1h ago)",
    "Recap: How Binance\u2019s record $6.3B hack unfolded (1h ago)",
    "As it happened: Binance\u2019s record $6.3B crypto hack (1h ago)",
    "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart (1h ago)",
-   "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold (1h ago)",
+   "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold (2h ago)",
    "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack (3h ago)",
-   "Here\u2019s what happened in crypto today (3h ago)",
+   "Here\u2019s what happened in crypto today (4h ago)",
    "Will gold\u2019s \u2018infinite mint bug\u2019 make Bitcoin more valuable? (4h ago)",
    "Binance working with FBI to recover assets following $6.3B hack (4h ago)",
    "Binance says it holds $5B in matching tokens to cover hack losses (5h ago)"
