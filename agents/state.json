@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -23945.59061831705,
+   "cash": -23809.59061831705,
    "open": [
     {
      "id": 1297,
@@ -21,36 +21,6 @@
      "size": 1912045.8891013386,
      "deadline": 1793366019.7198706,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1299,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "OREN",
-     "mint": "57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump",
-     "side": 1,
-     "opened": 1793359731.7241726,
-     "entry": 0.000108,
-     "stop": 8.64e-05,
-     "target": 0.0001512,
-     "size": 1851851.851851852,
-     "deadline": 1793366931.7241726,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1300,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Kim",
-     "mint": "qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump",
-     "side": 1,
-     "opened": 1793360829.9925714,
-     "entry": 6.766e-05,
-     "stop": 5.4128e-05,
-     "target": 9.4724e-05,
-     "size": 2955956.2518474725,
-     "deadline": 1793368029.9925716,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -59,23 +29,25 @@
  "runs": 46,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793360996.7132616,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793360996.7132616,
-  "seen:HftEwseBtcbgxj9j7AfgsA5ZiTEhSK9qWXZs8rzfpump": 1793361181.188466,
-  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793361181.188466,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793361181.188466,
-  "seen:BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": 1793361181.188466,
-  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793361181.188466,
-  "seen:39755Znjp5t876QC2CNL76hWFuyT4txBfBampTYNbDf8": 1793361363.5491111,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793361363.5491111,
-  "seen:csnSScHWNtPwk8sBdhbWsz3zf2z4u4CT3dFTCZ1pump": 1793361363.5491111,
-  "seen:PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m": 1793361363.5491111,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793361363.5491111,
-  "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793361546.4979243,
-  "seen:9hhLCxn41KZcmK1vAf7u5M6vKLHRcsVn1VmVgUrhpump": 1793361546.4979243,
   "seen:A66kHaKDhK1wGpsPLaxBW6FThCeU4V9LSy3arGkNpump": 1793361729.489669,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793361729.489669,
-  "control:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793361729.9925752
+  "control:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793361729.9925752,
+  "seen:ANVLA6eKiAq4nstD2Sg3SZhfVkSEwfnGccn12UQWpump": 1793361913.6046755,
+  "seen:5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump": 1793361913.6046755,
+  "seen:HftEwseBtcbgxj9j7AfgsA5ZiTEhSK9qWXZs8rzfpump": 1793362096.9214485,
+  "seen:J3ReuwckNtcJP1Zhn7wVbfXhTDNTkHxozQWWAwxWpump": 1793362096.9214485,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793362096.9214485,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793362096.9214485,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793362096.9214485,
+  "seen:8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump": 1793362096.9214485,
+  "seen:39755Znjp5t876QC2CNL76hWFuyT4txBfBampTYNbDf8": 1793362279.3972902,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793362279.3972902,
+  "seen:M8JrawqgVcdATj6B5f7qSDAnhcGUifgqqyYEK9qpump": 1793362279.3972902,
+  "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793362463.7898834,
+  "seen:9hhLCxn41KZcmK1vAf7u5M6vKLHRcsVn1VmVgUrhpump": 1793362463.7898834,
+  "seen:VP65RKhVCsmeHy5DLLD7QYDDMRNE3EbgZ1o3uzcpump": 1793362463.7898834,
+  "seen:57vAaMsnAJXkvULtAz7fsi6gRn3bHRJFJsJV1okNpump": 1793362463.7898834,
+  "seen:8RNUw4N655VSrZKuhGdywhbSMDTrheguFPfxbpE2NZHQ": 1793362463.7898834
  },
  "talks": {
   "2026-10-21": 109
@@ -114,20 +86,20 @@
    "instructions": "Before any trade, check the hypothesis against the journal and costs. Reject any idea without a pre-registered entry, stop, target, max hold and expected net edge. Track hit rate and net P&L per hypothesis."
   }
  ],
- "last_review": 1793274459.6310067,
+ "last_review": 1793361013.611257,
  "news": {
-  "t": 1793360096.7201006,
+  "t": 1793361013.9569523,
   "crypto": [
-   "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower (0h ago)",
+   "Live updates: Binance says $6.34B set aside to cover hack losses (0h ago)",
+   "Zcash grants group offers $124M compromise as governance backlash grows (0h ago)",
+   "Here\u2019s how an Ethereum upgrade helped drain part of Binance\u2019s $6 billion loss (0h ago)",
+   "Bitcoin price metrics hint at rebound as $1.6B liquidations follow Binance hack (0h ago)",
+   "Crypto liquidations jump to $1.57 billion as Binance hack sends bitcoin, ether lower (1h ago)",
    "EIP-7702 didn\u2019t cause Binance hack, but may have amplified losses (1h ago)",
    "Binance hacker\u2019s Bitcoin haul tops Coinbase\u2019s corporate treasury (1h ago)",
    "THORChain\u2019s RUNE jumps 13% after Binance\u2019s record $6.3B hack (2h ago)",
    "Strategy CFO Andrew Kang resigns as company posts record operating profit (2h ago)",
-   "Trezor warns CryptoBilis buyers to move funds over suspected implant (2h ago)",
-   "Live updates: Binance says $6.34B set aside to cover hack losses (2h ago)",
-   "Live updates: Binance finds more breaches in $6.3 billion hack; AI spending fears hit tech (3h ago)",
-   "Binance hacker dumps a little-known 2017 token and it crashes 90% (4h ago)",
-   "Bitcoin, ether and XRP selloff wipes out $1.5 billion in leveraged crypto bets (5h ago)"
+   "Trezor warns CryptoBilis buyers to move funds over suspected implant (2h ago)"
   ],
   "macro": [],
   "calendar": []
