@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -26421.17511771029,
+   "cash": -26473.153230550757,
    "open": [
     {
      "id": 1337,
@@ -21,35 +21,49 @@
      "size": 5.133833848710151,
      "deadline": 1793466104.3655586,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 1385,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "LAZARUS",
+     "mint": "2GvnZ864v6Nx99KbZnQrADK1z88ykbz5A9rBtB5Bvh3x",
+     "side": 1,
+     "opened": 1793461127.66871,
+     "entry": 6.818e-05,
+     "stop": 5.4544000000000005e-05,
+     "target": 9.5452e-05,
+     "size": 2933411.557641537,
+     "deadline": 1793468327.6687102,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1384,
+ "next_id": 1386,
  "runs": 51,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2MXhpKgHBREgYYj3bSdorqbuJjkPAve1LTNHtk8Lpump": 1793459648.225107,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793459648.225107,
-  "seen:AobkFUgdHpDM4g8dXVZt9H3nuNGner6FphrjjGTxpump": 1793459648.225107,
-  "seen:HvitmAeh6TkToQonoiNwqWcrZsYdYiaSZHP7yMmspump": 1793459648.225107,
-  "seen:DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump": 1793459648.225107,
-  "seen:6q9GF4XgLfyrArY4tf6X2LMDEAR7rPHWEVkTmZ92pump": 1793459834.2371597,
-  "seen:GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": 1793459834.2371597,
-  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793459834.2371597,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793459834.2371597,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793459834.2371597,
-  "seen:F1V2xduQjpsymUpEgFm2mThwEzA6uDnQtXicnmQSpump": 1793460013.264333,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793460013.264333,
-  "seen:4rsSV6L6mQ6jN587eKi5tNgkbgdzc8c9fxEVY8wapump": 1793460013.264333,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793460013.264333,
-  "seen:JEJA4dxgTLk741NjLCaNat1Z2KsXuYJhdik9MgEbpump": 1793460197.4018216,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793460197.4018216,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793460197.4018216,
-  "seen:8S49oCFR9Shcvibo42fJft2GH3X5rKgcFisZ57jopump": 1793460384.0804136,
-  "seen:ENtDQHaQk7n6pTdAvVLJpsLXduC896ioSjFURb21pump": 1793460384.0804136,
-  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793460384.0804136,
-  "seen:HgxEGTZ1Epb64RrYqcuHkqb1gGWWnF5WcPTCDWzApump": 1793460384.0804136
+  "seen:8S49oCFR9Shcvibo42fJft2GH3X5rKgcFisZ57jopump": 1793461293.8658094,
+  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793461293.8658094,
+  "seen:etmpKh4nzExgWTW3AYAs19Je779Wuv92RWUJgYQpump": 1793461293.8658094,
+  "seen:HgxEGTZ1Epb64RrYqcuHkqb1gGWWnF5WcPTCDWzApump": 1793461293.8658094,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793461293.8658094,
+  "seen:DUTxGHL2LmpfjQaoK6LdZp8WQPoDiwvtDHVDf4fMpump": 1793461477.3680918,
+  "seen:64vVGiNa4MefL4rq3mHzLiq8APfyc8iWLbumsFNfpump": 1793461477.3680918,
+  "seen:2MXhpKgHBREgYYj3bSdorqbuJjkPAve1LTNHtk8Lpump": 1793461477.3680918,
+  "seen:4rsSV6L6mQ6jN587eKi5tNgkbgdzc8c9fxEVY8wapump": 1793461477.3680918,
+  "seen:5THtNEGTF1y67eRWvcgz3MomDZePCVx1xdskHHeCpump": 1793461477.3680918,
+  "seen:DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump": 1793461477.3680918,
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793461662.2675831,
+  "seen:HvitmAeh6TkToQonoiNwqWcrZsYdYiaSZHP7yMmspump": 1793461662.2675831,
+  "control:2MXhpKgHBREgYYj3bSdorqbuJjkPAve1LTNHtk8Lpump": 1793461662.7567718,
+  "seen:4tEvXHpd6JrCWJGByBS3qFBAtJbeoiEpgvWLw9hkpump": 1793461843.1919606,
+  "seen:2GvnZ864v6Nx99KbZnQrADK1z88ykbz5A9rBtB5Bvh3x": 1793461843.1919606,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793461843.1919606,
+  "seen:xRKfWGXTnqwYFkKUMzW2VqbRNMJ2FXqwJk8Hffdpump": 1793462026.753758,
+  "seen:BUgj17kCd2cCxq61uS3fP9qEviSYBWUq5tJ3xpGKpump": 1793462026.753758,
+  "control:2GvnZ864v6Nx99KbZnQrADK1z88ykbz5A9rBtB5Bvh3x": 1793462027.6687148
  },
  "talks": {
   "2026-10-21": 109
@@ -90,18 +104,18 @@
  ],
  "last_review": 1793447479.2185068,
  "news": {
-  "t": 1793459297.4081352,
+  "t": 1793461126.7600317,
   "crypto": [
-   "Institutions embrace crypto staking despite shrinking yields (0h ago)",
-   "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (0h ago)",
+   "Bitcoin held up better than expected after Binance hack, Strive CEO says (0h ago)",
+   "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach (0h ago)",
+   "Here\u2019s what happened in crypto today (0h ago)",
+   "Institutions embrace crypto staking despite shrinking yields (1h ago)",
+   "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (1h ago)",
    "Bitcoin turns 18: Has the original rebel grown up? (1h ago)",
-   "As big bitcoin miners chase AI profits, individuals get another shot at the rewards (1h ago)",
+   "As big bitcoin miners chase AI profits, individuals get another shot at the rewards (2h ago)",
    "Texas brothers sentenced to 15 years in prison for armed crypto robbery, kidnapping (2h ago)",
-   "18 years in, what has Bitcoin truly done? (2h ago)",
-   "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears (2h ago)",
-   "The $6.3 billion Binance hack paradox: Centralization made the hack possible, but also saved $3 billion (3h ago)",
-   "Blockchain investigator Chainalysis hit by cybersecurity incident (4h ago)",
-   "Binance $6.3B record hack sparks pre-election political clashes (5h ago)"
+   "18 years in, what has Bitcoin truly done? (3h ago)",
+   "A Nasdaq-listed company may sell $450 million bitcoin, citing Binance hack and quantum fears (3h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -134,5 +148,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793459484.086645
+ "last_macro_macro": 1793460762.2736938
 }
