@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -27042.302267558312,
+   "cash": -27102.412456738533,
    "open": [
-    {
-     "id": 1410,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "LUMI",
-     "mint": "HvitmAeh6TkToQonoiNwqWcrZsYdYiaSZHP7yMmspump",
-     "side": 1,
-     "opened": 1793473594.5426414,
-     "entry": 0.000131,
-     "stop": 0.00010480000000000001,
-     "target": 0.0001834,
-     "size": 1526717.5572519084,
-     "deadline": 1793480794.5426416,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1415,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HUSS",
-     "mint": "7zfaqkUtUKUYywDoj1R9zQZgwRj8EVZgKdp7TpqKuEQD",
-     "side": 1,
-     "opened": 1793479963.920103,
-     "entry": 5.98e-05,
-     "stop": 4.7839999999999996e-05,
-     "target": 8.371999999999999e-05,
-     "size": 3344481.6053511705,
-     "deadline": 1793487163.9201033,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1416,
      "desk": "control",
@@ -51,34 +21,48 @@
      "size": 1236858.3797155225,
      "deadline": 1793487528.7605011,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1417,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "HALLOWCHAN",
+     "mint": "8UVVYBKvHfhP9mN8bHfHGgYiZd1Jb1aVuye1RkdTpump",
+     "side": 1,
+     "opened": 1793481237.5966554,
+     "entry": 6.692e-05,
+     "stop": 5.3536000000000004e-05,
+     "target": 9.3688e-05,
+     "size": 2988643.1560071725,
+     "deadline": 1793488437.5966558,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1417,
+ "next_id": 1418,
  "runs": 52,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793480682.2555466,
-  "seen:7zfaqkUtUKUYywDoj1R9zQZgwRj8EVZgKdp7TpqKuEQD": 1793480682.2555466,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793480682.2555466,
-  "seen:HgxEGTZ1Epb64RrYqcuHkqb1gGWWnF5WcPTCDWzApump": 1793480682.2555466,
-  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793480863.5840764,
-  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793480863.5840764,
-  "control:7zfaqkUtUKUYywDoj1R9zQZgwRj8EVZgKdp7TpqKuEQD": 1793480863.9201066,
-  "seen:Ewyifvp8X9NxeaKawXamGXBFDisuMfcFfcdvSZ8opump": 1793481045.8505583,
-  "seen:8UVVYBKvHfhP9mN8bHfHGgYiZd1Jb1aVuye1RkdTpump": 1793481045.8505583,
-  "seen:28dYWwEA6w8WFY2Uiakidujkq6ZPDzBDsGGZ1tM2pump": 1793481045.8505583,
-  "seen:CifEsxR4EQcGFzNgrhSAdNfjkP2xSef7UpcNNkPXpump": 1793481045.8505583,
-  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793481228.3909214,
-  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1793481228.3909214,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793481228.3909214,
-  "control:HgxEGTZ1Epb64RrYqcuHkqb1gGWWnF5WcPTCDWzApump": 1793481228.760504,
   "seen:Fgmy6MpdrH8jjJ9i8RY53PVVdFdKLz6JX34tHJvcpump": 1793481410.3210516,
   "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793481410.3210516,
   "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793481410.3210516,
   "seen:GQwcHvmxPsfhhNbn33M6td582u9E9W6XaBigN8ipump": 1793481410.3210516,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793481410.3210516
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793481410.3210516,
+  "seen:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793481591.9449582,
+  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793481591.9449582,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793481591.9449582,
+  "seen:8HKjG1eqk3XevFXwmV5MHnkYM5oqbTbPXqcbQUckpump": 1793481774.6669056,
+  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793481774.6669056,
+  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793481955.8754563,
+  "seen:CzyHWPpeba1fy1g61mpgC3HifNL2QBYEWC5EDB38GqD9": 1793481955.8754563,
+  "seen:Ewyifvp8X9NxeaKawXamGXBFDisuMfcFfcdvSZ8opump": 1793481955.8754563,
+  "seen:8UVVYBKvHfhP9mN8bHfHGgYiZd1Jb1aVuye1RkdTpump": 1793481955.8754563,
+  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793481955.8754563,
+  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793482137.0394602,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793482137.0394602,
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793482137.0394602,
+  "control:8UVVYBKvHfhP9mN8bHfHGgYiZd1Jb1aVuye1RkdTpump": 1793482137.5966592
  },
  "talks": {
   "2026-10-21": 109
@@ -119,17 +103,17 @@
  ],
  "last_review": 1793447479.2185068,
  "news": {
-  "t": 1793480328.3980505,
+  "t": 1793481237.0466428,
   "crypto": [
    "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered (3h ago)",
    "A stolen iPhone, $14,000 in losses and London's crypto theft problem (5h ago)",
    "Traders are already placing leveraged bets on Anthropic\u2019s IPO using crypto contracts (5h ago)",
-   "Binance says 90% of stolen assets replenished, targets Sunday withdrawals (5h ago)",
+   "Binance says 90% of stolen assets replenished, targets Sunday withdrawals (6h ago)",
    "Bitcoin held up better than expected after Binance hack, Strive CEO says (6h ago)",
    "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach (6h ago)",
    "Here\u2019s what happened in crypto today (6h ago)",
    "Institutions embrace crypto staking despite shrinking yields (6h ago)",
-   "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (6h ago)",
+   "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (7h ago)",
    "Bitcoin turns 18: Has the original rebel grown up? (7h ago)"
   ],
   "macro": [],
@@ -163,5 +147,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793479963.590987
+ "last_macro_macro": 1793481237.0465562
 }
