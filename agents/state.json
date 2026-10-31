@@ -51,32 +51,45 @@
      "size": 2483238.1425378695,
      "deadline": 1793414031.7910914,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1382,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "iCat",
+     "mint": "BUzMivuf5PqkB4tzrcvW7wVda5tuUbgWRzsZWmnwpump",
+     "side": 1,
+     "opened": 1793409027.0702448,
+     "entry": 0.0001509,
+     "stop": 0.00012072000000000001,
+     "target": 0.00021126,
+     "size": 1325381.0470510272,
+     "deadline": 1793416227.070245,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1382,
+ "next_id": 1383,
  "runs": 48,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793408645.6970785,
-  "seen:5Afz2mwDXjasvHXZHTT8anNxpec2QYdCiHHhubAWpump": 1793408828.5679152,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793408828.5679152,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793409010.515562,
-  "seen:HgxEGTZ1Epb64RrYqcuHkqb1gGWWnF5WcPTCDWzApump": 1793409010.515562,
-  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793409010.515562,
-  "seen:DvjbEsdca43oQcw2h3HW1CT7N3x5vRcr3QrvTUHnXvgV": 1793409010.515562,
-  "seen:DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump": 1793409010.515562,
-  "control:5Afz2mwDXjasvHXZHTT8anNxpec2QYdCiHHhubAWpump": 1793409010.735423,
-  "seen:dKySSjXqXMrnAaXwjEJibNq7okM4zPGudayi3vjpump": 1793409192.9033382,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793409192.9033382,
-  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793409192.9033382,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793409192.9033382,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793409192.9033382,
-  "seen:3WGasNngTLbGb4A61akRD2PNEx69dNfVTa9BziTvJrxA": 1793409385.2391138,
-  "seen:HQmAbPvLw5TMaVzzUYP9aGeATJ6GDPHTZptRDZNUNwXf": 1793409385.2391138,
-  "seen:BUzMivuf5PqkB4tzrcvW7wVda5tuUbgWRzsZWmnwpump": 1793409385.2391138,
-  "seen:C31uUcfLGPpQDHHieNtDkSWvp4PhNxeSs81cFQFdZVUQ": 1793409385.2391138
+  "seen:WETZjtprkDMCcUxPi9PfWnowMRZkiGGHDb9rABuRZ2U": 1793409558.698621,
+  "seen:HytpiyuR3sVXGB5UqoqrnThCPH2X1tWVm5neep3Dpump": 1793409558.698621,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793409558.698621,
+  "seen:HvitmAeh6TkToQonoiNwqWcrZsYdYiaSZHP7yMmspump": 1793409741.0463758,
+  "seen:5Afz2mwDXjasvHXZHTT8anNxpec2QYdCiHHhubAWpump": 1793409741.0463758,
+  "seen:5iCwbSuVERt4v19ULqzQLhQzFQQaoJkm9Me6699fpump": 1793409927.0289028,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793409927.0289028,
+  "seen:HgxEGTZ1Epb64RrYqcuHkqb1gGWWnF5WcPTCDWzApump": 1793409927.0289028,
+  "seen:DDG8rjV3TViCqKRQED2QZq4MEaE1uqXgEiosBNpapump": 1793409927.0289028,
+  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793409927.0289028,
+  "control:BUzMivuf5PqkB4tzrcvW7wVda5tuUbgWRzsZWmnwpump": 1793409927.0702484,
+  "seen:3ApVr1xphYMpi9dn3rpqU4hwvpmCQDVwxET1rdCDpump": 1793410112.5687087,
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793410112.5687087,
+  "seen:4xP6YFwwz7N3Pv59zZMJ1747PTQaLvYA69ZPezuRpump": 1793410112.5687087,
+  "seen:3WGasNngTLbGb4A61akRD2PNEx69dNfVTa9BziTvJrxA": 1793410292.2658226,
+  "seen:BUzMivuf5PqkB4tzrcvW7wVda5tuUbgWRzsZWmnwpump": 1793410292.2658226
  },
  "talks": {
   "2026-10-21": 109
@@ -117,8 +130,9 @@
  ],
  "last_review": 1793361013.611257,
  "news": {
-  "t": 1793407745.7041972,
+  "t": 1793408658.7057683,
   "crypto": [
+   "OpenAI reportedly cuts fundraising and valuation targets amid AI jitters (0h ago)",
    "Binance hackers raced to move billions before it could be frozen (3h ago)",
    "Experts divided over Binance hack asset freezes, warn recovery is another matter (5h ago)",
    "Tether\u2019s excess reserves nearly double to $8B as Q3 profit hits $1.5B (6h ago)",
@@ -126,9 +140,8 @@
    "Crypto Biz: Bitcoin\u2019s quantum threat is becoming an economic problem (8h ago)",
    "Recap: How Binance\u2019s record $6.3B hack unfolded (8h ago)",
    "As it happened: Binance\u2019s record $6.3B crypto hack (8h ago)",
-   "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart (8h ago)",
-   "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold (9h ago)",
-   "Wall Street analysts urge investors to buy crypto stocks after $6.3 billion Binance hack (11h ago)"
+   "Binance uncovers wider breach in $6.3 billion exploit, targets Sunday withdrawal restart (9h ago)",
+   "Bitcoin risks worst October in 12 years as tech sell-off spreads to gold (9h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -161,5 +174,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793408110.5226681
+ "last_macro_macro": 1793409392.2730606
 }
