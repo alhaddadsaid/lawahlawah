@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -27004.33266222748,
+   "cash": -26996.774206460053,
    "open": [
     {
      "id": 1395,
@@ -21,36 +21,6 @@
      "size": 1052077.8537611782,
      "deadline": 1793471956.2949958,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1400,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Pikmin",
-     "mint": "2MXhpKgHBREgYYj3bSdorqbuJjkPAve1LTNHtk8Lpump",
-     "side": 1,
-     "opened": 1793469133.6825423,
-     "entry": 6.398e-05,
-     "stop": 5.1183999999999996e-05,
-     "target": 8.957199999999999e-05,
-     "size": 3125976.867771179,
-     "deadline": 1793476333.6825426,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1401,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HUSS",
-     "mint": "7zfaqkUtUKUYywDoj1R9zQZgwRj8EVZgKdp7TpqKuEQD",
-     "side": 1,
-     "opened": 1793469684.2682912,
-     "entry": 0.0001027,
-     "stop": 8.216000000000001e-05,
-     "target": 0.00014377999999999998,
-     "size": 1947419.6689386563,
-     "deadline": 1793476884.2682912,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -59,25 +29,23 @@
  "runs": 51,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7ku3pcgXiGBqCCd6VZ8AyGe7t89BXtVpe6cVXwCLpump": 1793469849.574155,
-  "seen:6a81PfhejwCM3bB4F3Rnbzk9ALNmg4YGeyjKd5Nxpump": 1793469849.574155,
-  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1793469849.574155,
-  "seen:HvitmAeh6TkToQonoiNwqWcrZsYdYiaSZHP7yMmspump": 1793469849.574155,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793469849.574155,
-  "seen:5THtNEGTF1y67eRWvcgz3MomDZePCVx1xdskHHeCpump": 1793469849.574155,
-  "seen:7zfaqkUtUKUYywDoj1R9zQZgwRj8EVZgKdp7TpqKuEQD": 1793470033.5590484,
-  "seen:51Px9b1UrajJzsatPeUaXRUVahMr3jebEoTrzz7Fpump": 1793470033.5590484,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793470033.5590484,
-  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793470033.5590484,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793470033.5590484,
-  "seen:2MXhpKgHBREgYYj3bSdorqbuJjkPAve1LTNHtk8Lpump": 1793470033.5590484,
-  "control:2MXhpKgHBREgYYj3bSdorqbuJjkPAve1LTNHtk8Lpump": 1793470033.6825466,
-  "seen:AFqw58vGV6vdP5WyqeE4C7aj7qirPpG9dByFGXMYpump": 1793470399.3469641,
-  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793470399.3469641,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793470399.3469641,
   "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793470583.8444607,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793470583.8444607,
-  "control:7zfaqkUtUKUYywDoj1R9zQZgwRj8EVZgKdp7TpqKuEQD": 1793470584.2682948
+  "control:7zfaqkUtUKUYywDoj1R9zQZgwRj8EVZgKdp7TpqKuEQD": 1793470584.2682948,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793470764.9477777,
+  "seen:HgxEGTZ1Epb64RrYqcuHkqb1gGWWnF5WcPTCDWzApump": 1793470764.9477777,
+  "seen:HvitmAeh6TkToQonoiNwqWcrZsYdYiaSZHP7yMmspump": 1793470764.9477777,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793470764.9477777,
+  "seen:6a81PfhejwCM3bB4F3Rnbzk9ALNmg4YGeyjKd5Nxpump": 1793470764.9477777,
+  "seen:Dqwrb1YVyL9Ewf5C8eWFhjnqMzZocMC8bbwt2tetpump": 1793470764.9477777,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793470764.9477777,
+  "seen:7zfaqkUtUKUYywDoj1R9zQZgwRj8EVZgKdp7TpqKuEQD": 1793470950.0563266,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793470950.0563266,
+  "seen:D7Q2ApyCUfAm9Vay3wC2g1tDBtrKdomYCLdiSPaNpump": 1793470950.0563266,
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793470950.0563266,
+  "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793470950.0563266,
+  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793471316.4659302,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793471316.4659302
  },
  "talks": {
   "2026-10-21": 109
@@ -118,18 +86,18 @@
  ],
  "last_review": 1793447479.2185068,
  "news": {
-  "t": 1793469314.358176,
+  "t": 1793470246.6950073,
   "crypto": [
+   "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered (0h ago)",
    "A stolen iPhone, $14,000 in losses and London's crypto theft problem (2h ago)",
    "Traders are already placing leveraged bets on Anthropic\u2019s IPO using crypto contracts (2h ago)",
-   "Binance says 90% of stolen assets replenished, targets Sunday withdrawals (2h ago)",
-   "Bitcoin held up better than expected after Binance hack, Strive CEO says (2h ago)",
+   "Binance says 90% of stolen assets replenished, targets Sunday withdrawals (3h ago)",
+   "Bitcoin held up better than expected after Binance hack, Strive CEO says (3h ago)",
    "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach (3h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "Institutions embrace crypto staking despite shrinking yields (3h ago)",
-   "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (3h ago)",
-   "Bitcoin turns 18: Has the original rebel grown up? (3h ago)",
-   "As big bitcoin miners chase AI profits, individuals get another shot at the rewards (4h ago)"
+   "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (4h ago)",
+   "Bitcoin turns 18: Has the original rebel grown up? (4h ago)"
   ],
   "macro": [],
   "calendar": []
