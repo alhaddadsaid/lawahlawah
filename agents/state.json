@@ -5,24 +5,30 @@
    "open": []
   },
   "control": {
-   "cash": -26998.233044196102,
-   "open": []
+   "cash": -27047.517555980616,
+   "open": [
+    {
+     "id": 1422,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "HALLOWCHAN",
+     "mint": "8UVVYBKvHfhP9mN8bHfHGgYiZd1Jb1aVuye1RkdTpump",
+     "side": 1,
+     "opened": 1793484326.8098001,
+     "entry": 0.0001543,
+     "stop": 0.00012344000000000002,
+     "target": 0.00021602,
+     "size": 1296176.2799740764,
+     "deadline": 1793491526.8098006,
+     "thesis": "control: frozen v3 rules"
+    }
+   ]
   }
  },
- "next_id": 1421,
+ "next_id": 1423,
  "runs": 52,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793483957.119371,
-  "control:8UVVYBKvHfhP9mN8bHfHGgYiZd1Jb1aVuye1RkdTpump": 1793483957.5107226,
-  "seen:7Ypg1rKLu8q32E1AQEDjaPCg8dfGeCSsMkFnK98zcash": 1793484140.3153603,
-  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793484140.3153603,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1793484140.3153603,
-  "seen:2EDqiPMJMTm6hGN9xsqDTJ6JNygeok4njeizEcd3TmpR": 1793484321.909619,
-  "seen:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793484321.909619,
-  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793484321.909619,
-  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793484321.909619,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793484321.909619,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793484502.3889668,
   "seen:FiGbycGTDjMkK5f9kvu6DzYz66FuiDpmHw9yPzg9pump": 1793484502.3889668,
   "seen:71PdQVBBAPGoTU1uNFavsNkQSabDCFXT2ZmL5SBNpump": 1793484502.3889668,
@@ -30,7 +36,21 @@
   "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793484683.0383527,
   "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793484683.0383527,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793484683.0383527,
-  "seen:8UVVYBKvHfhP9mN8bHfHGgYiZd1Jb1aVuye1RkdTpump": 1793484683.0383527
+  "seen:8UVVYBKvHfhP9mN8bHfHGgYiZd1Jb1aVuye1RkdTpump": 1793484683.0383527,
+  "seen:5h44wfzwGHFnfVhNKtMLapAJNV9iqqbUgUB2FqyWpump": 1793484864.8380935,
+  "seen:Ewyifvp8X9NxeaKawXamGXBFDisuMfcFfcdvSZ8opump": 1793484864.8380935,
+  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793484864.8380935,
+  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793484864.8380935,
+  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793485045.5686862,
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793485045.5686862,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793485045.5686862,
+  "control:Ewyifvp8X9NxeaKawXamGXBFDisuMfcFfcdvSZ8opump": 1793485045.5924444,
+  "seen:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793485226.754403,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1793485226.754403,
+  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793485226.754403,
+  "seen:4TCevs5EC2RFsdWo3YPVifqe9dX2acCGGa9VHNtppump": 1793485226.754403,
+  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793485226.754403,
+  "control:8UVVYBKvHfhP9mN8bHfHGgYiZd1Jb1aVuye1RkdTpump": 1793485226.809804
  },
  "talks": {
   "2026-10-21": 109
@@ -71,18 +91,18 @@
  ],
  "last_review": 1793447479.2185068,
  "news": {
-  "t": 1793483057.1266432,
+  "t": 1793483964.8453507,
   "crypto": [
    "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered (4h ago)",
    "A stolen iPhone, $14,000 in losses and London's crypto theft problem (6h ago)",
    "Traders are already placing leveraged bets on Anthropic\u2019s IPO using crypto contracts (6h ago)",
    "Binance says 90% of stolen assets replenished, targets Sunday withdrawals (6h ago)",
-   "Bitcoin held up better than expected after Binance hack, Strive CEO says (6h ago)",
-   "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach (6h ago)",
+   "Bitcoin held up better than expected after Binance hack, Strive CEO says (7h ago)",
+   "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach (7h ago)",
    "Here\u2019s what happened in crypto today (7h ago)",
    "Institutions embrace crypto staking despite shrinking yields (7h ago)",
    "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (7h ago)",
-   "Bitcoin turns 18: Has the original rebel grown up? (7h ago)"
+   "Bitcoin turns 18: Has the original rebel grown up? (8h ago)"
   ],
   "macro": [],
   "calendar": []
