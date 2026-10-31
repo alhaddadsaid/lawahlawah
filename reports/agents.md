@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-31 23:27 UTC. Runs so far: 52. Model: claude-haiku-5-5.
+Updated 2026-10-31 23:29 UTC. Runs so far: 52. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1381 | 31 | -37175.38 | -50386.15 |
+| control | meme | 1382 | 31 | -37241.29 | -50460.62 |
 | control | macro | 28 | 46 | -141.99 | -292.93 |
-| control | all | 1409 | 31 | -37317.37 | -50679.08 |
+| control | all | 1410 | 31 | -37383.28 | -50753.55 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: HI long at 0.0002514, stop 0.00020112, target 0.00035196, opened 2026-10-31 22:08 UTC
 - control: NNN long at 0.0001441, stop 0.00011528, target 0.00020174, opened 2026-10-31 23:12 UTC
-- control: INKKY long at 0.0001008, stop 8.064e-05, target 0.00014112, opened 2026-10-31 23:24 UTC
 
 ## Team
 
@@ -32,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED CHUDBOB (stop) P&L $-69.46 normal, $-77.93 pessimistic
+- control: CLOSED INKKY (stop) P&L $-65.91 normal, $-74.47 pessimistic
 
