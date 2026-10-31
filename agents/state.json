@@ -51,19 +51,44 @@
      "size": 942951.4380009429,
      "deadline": 1793477981.7455685,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1404,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Jimothy",
+     "mint": "Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump",
+     "side": 1,
+     "opened": 1793471332.66243,
+     "entry": 0.001349,
+     "stop": 0.0010792,
+     "target": 0.0018885999999999998,
+     "size": 148257.96886582655,
+     "deadline": 1793478532.6624303,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1405,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "HUSS",
+     "mint": "7zfaqkUtUKUYywDoj1R9zQZgwRj8EVZgKdp7TpqKuEQD",
+     "side": 1,
+     "opened": 1793471516.774212,
+     "entry": 7.699e-05,
+     "stop": 6.1592e-05,
+     "target": 0.000107786,
+     "size": 2597739.96622938,
+     "deadline": 1793478716.774212,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1404,
+ "next_id": 1406,
  "runs": 51,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793471316.4659302,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793471316.4659302,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793471497.2148633,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793471497.2148633,
-  "control:Dqwrb1YVyL9Ewf5C8eWFhjnqMzZocMC8bbwt2tetpump": 1793471497.2743478,
   "seen:HvitmAeh6TkToQonoiNwqWcrZsYdYiaSZHP7yMmspump": 1793471681.6200178,
   "seen:6a81PfhejwCM3bB4F3Rnbzk9ALNmg4YGeyjKd5Nxpump": 1793471681.6200178,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793471681.6200178,
@@ -74,7 +99,17 @@
   "seen:Hd81tGFqiLnFrrFTGSEA5oDV6x7Qg9FdKgSjg5xXhRBJ": 1793471866.2985785,
   "seen:7zfaqkUtUKUYywDoj1R9zQZgwRj8EVZgKdp7TpqKuEQD": 1793471866.2985785,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793471866.2985785,
-  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793471866.2985785
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793471866.2985785,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793472047.3342452,
+  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793472232.5072834,
+  "seen:Df7kaKskbRMAYEkPEGJ1e33n4RPWDNs9GP9pzPjgpump": 1793472232.5072834,
+  "seen:Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump": 1793472232.5072834,
+  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793472232.5072834,
+  "seen:28dYWwEA6w8WFY2Uiakidujkq6ZPDzBDsGGZ1tM2pump": 1793472232.5072834,
+  "control:Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump": 1793472232.6624343,
+  "seen:8KNRh8MZLg4KJZFNist498HvCAVYsAvvA6F2eWMVx22N": 1793472416.6624424,
+  "seen:AQ454CDeJQknV8vTTc28sikgbKkoJwYSnBa8rGrYpump": 1793472416.6624424,
+  "control:7zfaqkUtUKUYywDoj1R9zQZgwRj8EVZgKdp7TpqKuEQD": 1793472416.7742162
  },
  "talks": {
   "2026-10-21": 109
@@ -115,7 +150,7 @@
  ],
  "last_review": 1793447479.2185068,
  "news": {
-  "t": 1793470246.6950073,
+  "t": 1793471147.3407483,
   "crypto": [
    "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered (0h ago)",
    "A stolen iPhone, $14,000 in losses and London's crypto theft problem (2h ago)",
