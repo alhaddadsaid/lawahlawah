@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -27247.785294791545,
+   "cash": -27317.241816530677,
    "open": [
     {
      "id": 1423,
@@ -36,32 +36,46 @@
      "size": 1387925.0520471893,
      "deadline": 1793495531.192589,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1431,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "INKKY",
+     "mint": "Jy8kKwumNBdg3VtpvkzKh22kLQSw57Zr8sfdSSjpump",
+     "side": 1,
+     "opened": 1793489058.946112,
+     "entry": 0.0001008,
+     "stop": 8.064e-05,
+     "target": 0.00014111999999999998,
+     "size": 1984126.9841269841,
+     "deadline": 1793496258.9461122,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1430,
+ "next_id": 1432,
  "runs": 52,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Jy8kKwumNBdg3VtpvkzKh22kLQSw57Zr8sfdSSjpump": 1793488503.6908937,
-  "seen:RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh": 1793488503.6908937,
-  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793488503.6908937,
-  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793488503.6908937,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793488685.4468267,
-  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793488685.4468267,
-  "seen:DYaAd4sMB8wDPei5qerTWaCszZyFPKsaWjoMvkCppump": 1793488685.4468267,
-  "seen:9JKe5hMxSfmf3V5kx73oHAXpKzriwZpifgD5pRYApump": 1793488866.862408,
-  "seen:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793488866.862408,
-  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793488866.862408,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793488866.862408,
-  "seen:J6jBJNgLm8gbwVWRQJxuj8Z9QwCEx19poFeCmrHCpump": 1793488866.862408,
-  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793488866.862408,
-  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793489049.4207323,
-  "seen:57YQJbgdE32ZMCQzBivhjcXmnMLY5iw2MwrtcPYWpump": 1793489049.4207323,
-  "seen:DZrVCDqSyUBFoFJWJCVELhzL4cTFYWpCMirnv91TTTSH": 1793489231.1640313,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793489231.1640313,
-  "control:57YQJbgdE32ZMCQzBivhjcXmnMLY5iw2MwrtcPYWpump": 1793489231.1925921
+  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793489412.7387211,
+  "seen:Jy8kKwumNBdg3VtpvkzKh22kLQSw57Zr8sfdSSjpump": 1793489412.7387211,
+  "seen:RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh": 1793489412.7387211,
+  "seen:CsUuToUBCnJcsvExCuu3ACMHr7JuMcujQiEwQqmvpump": 1793489412.7387211,
+  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793489412.7387211,
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793489595.6768177,
+  "seen:DYaAd4sMB8wDPei5qerTWaCszZyFPKsaWjoMvkCppump": 1793489595.6768177,
+  "seen:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793489776.962074,
+  "seen:DEQJomTSGiJSXafXV2Xkb7Un3ZfZrHt9p4zQUDPkpump": 1793489776.962074,
+  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793489776.962074,
+  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793489776.962074,
+  "control:DZrVCDqSyUBFoFJWJCVELhzL4cTFYWpCMirnv91TTTSH": 1793489777.2666442,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793489958.9236867,
+  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793489958.9236867,
+  "control:Jy8kKwumNBdg3VtpvkzKh22kLQSw57Zr8sfdSSjpump": 1793489958.9461153,
+  "seen:DZrVCDqSyUBFoFJWJCVELhzL4cTFYWpCMirnv91TTTSH": 1793490140.5179815,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793490140.5179815
  },
  "talks": {
   "2026-10-21": 109
@@ -102,17 +116,17 @@
  ],
  "last_review": 1793447479.2185068,
  "news": {
-  "t": 1793487603.700586,
+  "t": 1793488512.7463388,
   "crypto": [
    "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered (5h ago)",
    "A stolen iPhone, $14,000 in losses and London's crypto theft problem (7h ago)",
    "Traders are already placing leveraged bets on Anthropic\u2019s IPO using crypto contracts (7h ago)",
-   "Binance says 90% of stolen assets replenished, targets Sunday withdrawals (7h ago)",
+   "Binance says 90% of stolen assets replenished, targets Sunday withdrawals (8h ago)",
    "Bitcoin held up better than expected after Binance hack, Strive CEO says (8h ago)",
    "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach (8h ago)",
    "Here\u2019s what happened in crypto today (8h ago)",
    "Institutions embrace crypto staking despite shrinking yields (8h ago)",
-   "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (8h ago)",
+   "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (9h ago)",
    "Bitcoin turns 18: Has the original rebel grown up? (9h ago)"
   ],
   "macro": [],
@@ -146,5 +160,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793487603.7004845
+ "last_macro_macro": 1793488876.9693887
 }
