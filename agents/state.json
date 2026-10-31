@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -26914.07338326588,
+   "cash": -26886.699996969954,
    "open": [
-    {
-     "id": 1402,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "LumiBot",
-     "mint": "Dqwrb1YVyL9Ewf5C8eWFhjnqMzZocMC8bbwt2tetpump",
-     "side": 1,
-     "opened": 1793470597.274344,
-     "entry": 0.0001007,
-     "stop": 8.056e-05,
-     "target": 0.00014097999999999997,
-     "size": 1986097.3187686198,
-     "deadline": 1793477797.2743442,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1404,
      "desk": "control",
@@ -89,16 +74,6 @@
  "runs": 52,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8CKFJXiTnQyP7hsyAPdrvW2kt1HJsJY2sqqpYntTpump": 1793477587.8925078,
-  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793477587.8925078,
-  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1793477587.8925078,
-  "seen:8DKHFW32ApiG6xLYrTDTxkWMGxdDyASfNnSaWwCbpump": 1793477587.8925078,
-  "seen:BJv73icyfbSfBqNWJg9odoyYCuDsR2aS4ufQ5JNfxgsW": 1793477769.7195659,
-  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793477769.7195659,
-  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793477769.7195659,
-  "seen:28dYWwEA6w8WFY2Uiakidujkq6ZPDzBDsGGZ1tM2pump": 1793477769.7195659,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793477769.7195659,
-  "control:8DKHFW32ApiG6xLYrTDTxkWMGxdDyASfNnSaWwCbpump": 1793477769.7506146,
   "seen:7zfaqkUtUKUYywDoj1R9zQZgwRj8EVZgKdp7TpqKuEQD": 1793477951.3583362,
   "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793477951.3583362,
   "control:7zfaqkUtUKUYywDoj1R9zQZgwRj8EVZgKdp7TpqKuEQD": 1793477951.3834112,
@@ -106,7 +81,18 @@
   "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793478315.9573581,
   "seen:7ntA3z9FDTgReEQbHwkkBkUxkmkHKwJUREfBj6iS3yTr": 1793478315.9573581,
   "seen:4sWNB8zGWHkh6UnmwiEtzNxL4XrN7uK9tosbESbJFfVs": 1793478315.9573581,
-  "seen:16obGEYQtM4VauhGnLxfUiq3SaGZG5Kr9Abh1WTpump": 1793478315.9573581
+  "seen:16obGEYQtM4VauhGnLxfUiq3SaGZG5Kr9Abh1WTpump": 1793478315.9573581,
+  "seen:8CKFJXiTnQyP7hsyAPdrvW2kt1HJsJY2sqqpYntTpump": 1793478497.7556634,
+  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793478497.7556634,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1793478497.7556634,
+  "seen:8DKHFW32ApiG6xLYrTDTxkWMGxdDyASfNnSaWwCbpump": 1793478497.7556634,
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793478497.7556634,
+  "seen:12NUMmRL3HdnZjcd2TEEo7otxd9D188TBZShYK9XxrKi": 1793478681.3046339,
+  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793478681.3046339,
+  "seen:57YQJbgdE32ZMCQzBivhjcXmnMLY5iw2MwrtcPYWpump": 1793478681.3046339,
+  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793478681.3046339,
+  "seen:C4p3m5FxbD3ba8BtQU185CAPkNgvbJDW5NGpGVgRpump": 1793478681.3046339,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793478681.3046339
  },
  "talks": {
   "2026-10-21": 109
@@ -147,17 +133,17 @@
  ],
  "last_review": 1793447479.2185068,
  "news": {
-  "t": 1793476687.8994849,
+  "t": 1793477597.762676,
   "crypto": [
    "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered (2h ago)",
    "A stolen iPhone, $14,000 in losses and London's crypto theft problem (4h ago)",
    "Traders are already placing leveraged bets on Anthropic\u2019s IPO using crypto contracts (4h ago)",
-   "Binance says 90% of stolen assets replenished, targets Sunday withdrawals (4h ago)",
+   "Binance says 90% of stolen assets replenished, targets Sunday withdrawals (5h ago)",
    "Bitcoin held up better than expected after Binance hack, Strive CEO says (5h ago)",
    "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach (5h ago)",
    "Here\u2019s what happened in crypto today (5h ago)",
    "Institutions embrace crypto staking despite shrinking yields (5h ago)",
-   "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (5h ago)",
+   "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (6h ago)",
    "Bitcoin turns 18: Has the original rebel grown up? (6h ago)"
   ],
   "macro": [],
