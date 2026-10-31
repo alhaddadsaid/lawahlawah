@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -27159.007439930512,
+   "cash": -27143.748414343412,
    "open": [
     {
      "id": 1423,
@@ -21,41 +21,14 @@
      "size": 795544.9482895784,
      "deadline": 1793491709.4497943,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1424,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ANSEM",
-     "mint": "CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump",
-     "side": 1,
-     "opened": 1793485055.15687,
-     "entry": 0.0001876,
-     "stop": 0.00015008000000000003,
-     "target": 0.00026263999999999997,
-     "size": 1066098.0810234542,
-     "deadline": 1793492255.1568701,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1426,
+ "next_id": 1427,
  "runs": 52,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:acFCe1MLNCUpAcAhGHx4Y5Cx8UZFbowu2vdT33Ypump": 1793485590.950896,
-  "seen:7Ypg1rKLu8q32E1AQEDjaPCg8dfGeCSsMkFnK98zcash": 1793485590.950896,
-  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793485590.950896,
-  "seen:8UVVYBKvHfhP9mN8bHfHGgYiZd1Jb1aVuye1RkdTpump": 1793485590.950896,
-  "seen:4eHhbCzikyeMjvF4VJPGtwFXcn4N3LYU35gZJDNkpump": 1793485772.1364594,
-  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793485772.1364594,
-  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793485772.1364594,
-  "seen:JDWJA6C9TLtbXZJZbPa58rfFENzLWfUjRS3Jc7FJpump": 1793485772.1364594,
-  "seen:Ewyifvp8X9NxeaKawXamGXBFDisuMfcFfcdvSZ8opump": 1793485772.1364594,
-  "seen:HytpiyuR3sVXGB5UqoqrnThCPH2X1tWVm5neep3Dpump": 1793485954.857049,
-  "seen:2pDkdMYChGZQQMfbRhfDgorZkKwmPF6sjN4bPfxoABTC": 1793485954.857049,
-  "control:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793485955.1568737,
   "seen:648xpzau9MyMNgAUPxhsWtK5gHNGDP1nENDkkZpvTs4n": 1793486136.7313428,
   "seen:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793486136.7313428,
   "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793486136.7313428,
@@ -63,7 +36,20 @@
   "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793486136.7313428,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793486318.6438944,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793486318.6438944,
-  "control:Ewyifvp8X9NxeaKawXamGXBFDisuMfcFfcdvSZ8opump": 1793486318.6728413
+  "control:Ewyifvp8X9NxeaKawXamGXBFDisuMfcFfcdvSZ8opump": 1793486318.6728413,
+  "seen:acFCe1MLNCUpAcAhGHx4Y5Cx8UZFbowu2vdT33Ypump": 1793486500.6566384,
+  "seen:qcHWRAstqEfkWxwe4H28gDS5f6AiVwsbRx4immMpump": 1793486500.6566384,
+  "seen:FTbk63ToV6PFMFiyXrpe9gXcvdX3b6DtBoEFkNa1pump": 1793486500.6566384,
+  "seen:8UVVYBKvHfhP9mN8bHfHGgYiZd1Jb1aVuye1RkdTpump": 1793486500.6566384,
+  "seen:DYaAd4sMB8wDPei5qerTWaCszZyFPKsaWjoMvkCppump": 1793486500.6566384,
+  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793486683.3006966,
+  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793486683.3006966,
+  "seen:Ewyifvp8X9NxeaKawXamGXBFDisuMfcFfcdvSZ8opump": 1793486683.3006966,
+  "seen:7Ypg1rKLu8q32E1AQEDjaPCg8dfGeCSsMkFnK98zcash": 1793486683.3006966,
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793486683.3006966,
+  "control:8UVVYBKvHfhP9mN8bHfHGgYiZd1Jb1aVuye1RkdTpump": 1793486683.6779618,
+  "seen:6ZaBoWVJyqxiDCFMw7Q91N1u6NGqdY9qqoKMGWx8pump": 1793486865.099978,
+  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793486865.099978
  },
  "talks": {
   "2026-10-21": 109
@@ -104,7 +90,7 @@
  ],
  "last_review": 1793447479.2185068,
  "news": {
-  "t": 1793484872.1438787,
+  "t": 1793485783.3080797,
   "crypto": [
    "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered (4h ago)",
    "A stolen iPhone, $14,000 in losses and London's crypto theft problem (6h ago)",
