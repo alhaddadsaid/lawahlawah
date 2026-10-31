@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -27193.572358005385,
+   "cash": -27247.785294791545,
    "open": [
     {
      "id": 1423,
@@ -21,21 +21,6 @@
      "size": 795544.9482895784,
      "deadline": 1793491709.4497943,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1428,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CREDIT",
-     "mint": "Ewyifvp8X9NxeaKawXamGXBFDisuMfcFfcdvSZ8opump",
-     "side": 1,
-     "opened": 1793487420.5960448,
-     "entry": 8.843e-05,
-     "stop": 7.074400000000001e-05,
-     "target": 0.000123802,
-     "size": 2261675.9018432656,
-     "deadline": 1793494620.5960453,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -44,10 +29,6 @@
  "runs": 52,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793487592.8630662,
-  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793487592.8630662,
-  "seen:RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh": 1793487592.8630662,
-  "control:8UVVYBKvHfhP9mN8bHfHGgYiZd1Jb1aVuye1RkdTpump": 1793487593.2206779,
   "seen:6ZaBoWVJyqxiDCFMw7Q91N1u6NGqdY9qqoKMGWx8pump": 1793487776.0226262,
   "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793487776.0226262,
   "seen:DYaAd4sMB8wDPei5qerTWaCszZyFPKsaWjoMvkCppump": 1793487776.0226262,
@@ -60,7 +41,11 @@
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793488138.9893353,
   "seen:DZrVCDqSyUBFoFJWJCVELhzL4cTFYWpCMirnv91TTTSH": 1793488320.5638623,
   "seen:TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": 1793488320.5638623,
-  "control:Ewyifvp8X9NxeaKawXamGXBFDisuMfcFfcdvSZ8opump": 1793488320.596048
+  "control:Ewyifvp8X9NxeaKawXamGXBFDisuMfcFfcdvSZ8opump": 1793488320.596048,
+  "seen:Jy8kKwumNBdg3VtpvkzKh22kLQSw57Zr8sfdSSjpump": 1793488503.6908937,
+  "seen:RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh": 1793488503.6908937,
+  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793488503.6908937,
+  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793488503.6908937
  },
  "talks": {
   "2026-10-21": 109
@@ -101,18 +86,18 @@
  ],
  "last_review": 1793447479.2185068,
  "news": {
-  "t": 1793486692.8704128,
+  "t": 1793487603.700586,
   "crypto": [
    "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered (5h ago)",
    "A stolen iPhone, $14,000 in losses and London's crypto theft problem (7h ago)",
    "Traders are already placing leveraged bets on Anthropic\u2019s IPO using crypto contracts (7h ago)",
    "Binance says 90% of stolen assets replenished, targets Sunday withdrawals (7h ago)",
-   "Bitcoin held up better than expected after Binance hack, Strive CEO says (7h ago)",
-   "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach (7h ago)",
+   "Bitcoin held up better than expected after Binance hack, Strive CEO says (8h ago)",
+   "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach (8h ago)",
    "Here\u2019s what happened in crypto today (8h ago)",
    "Institutions embrace crypto staking despite shrinking yields (8h ago)",
    "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (8h ago)",
-   "Bitcoin turns 18: Has the original rebel grown up? (8h ago)"
+   "Bitcoin turns 18: Has the original rebel grown up? (9h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -145,5 +130,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793486328.8466177
+ "last_macro_macro": 1793487603.7004845
 }
