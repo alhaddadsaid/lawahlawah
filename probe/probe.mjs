@@ -1,65 +1,56 @@
-// Loads a site in a phone-sized Chromium (same engine as Android WebView)
-// and records what our browser would face: final URL, framing headers,
-// verification pages, pop-ups, redirects and third-party hosts.
+// Taps title cards on the site like a user, with the app's tap recorder
+// injected, and logs every pop-up / main-page jump plus what was tapped.
 import { chromium, devices } from 'playwright';
 import fs from 'node:fs';
 
 const target = process.argv[2];
 const out = 'probe-out';
 fs.mkdirSync(out, { recursive: true });
-const report = { target, navigations: [], popups: [], hosts: {}, mainResponse: null };
+const host = new URL(target).hostname;
+const recorder = `(function(){if(window.__rwTap)return;window.__rwTap={href:null,t:0};function rec(e){var el=e.target,a=el&&el.closest?el.closest('a[href]'):null;window.__rwTap={href:a?a.href:'',t:Date.now()};}window.addEventListener('pointerdown',rec,true);window.addEventListener('click',rec,true);})();`;
 
 const browser = await chromium.launch();
 const ctx = await browser.newContext({ ...devices['Pixel 7'] });
+await ctx.addInitScript(recorder);
 const page = await ctx.newPage();
-const targetHost = new URL(target).hostname;
+const events = [];
+let lastTap = null;
+ctx.on('page', async p => {
+  await p.waitForLoadState('domcontentloaded').catch(() => {});
+  events.push({ kind: 'popup', url: p.url(), tap: lastTap });
+  await p.screenshot({ path: `${out}/popup-${events.length}.png` }).catch(() => {});
+  await p.close().catch(() => {});
+});
+page.on('framenavigated', f => {
+  if (f === page.mainFrame()) events.push({ kind: 'main', url: f.url(), tap: lastTap });
+});
 
-ctx.on('page', p => report.popups.push({ url: p.url(), at: Date.now() }));
-page.on('framenavigated', f => { if (f === page.mainFrame()) report.navigations.push(f.url()); });
-page.on('request', r => { try { const h = new URL(r.url()).hostname; report.hosts[h] = (report.hosts[h] || 0) + 1; } catch {} });
+await page.goto(target, { waitUntil: 'domcontentloaded', timeout: 45000 });
+await page.waitForTimeout(7000);
 
-try {
-  const resp = await page.goto(target, { waitUntil: 'domcontentloaded', timeout: 45000 });
-  const h = resp ? await resp.allHeaders() : {};
-  report.mainResponse = {
-    status: resp?.status(), url: resp?.url(),
-    server: h['server'], xFrameOptions: h['x-frame-options'], csp: h['content-security-policy'],
-    cfRay: h['cf-ray'], cfMitigated: h['cf-mitigated'],
-  };
-} catch (e) { report.loadError = String(e); }
-
-await page.waitForTimeout(8000);
-await page.screenshot({ path: `${out}/1-home.png` });
-fs.writeFileSync(`${out}/home.html`, await page.content());
-report.title = await page.title();
-report.urlAfterLoad = page.url();
-report.challenge = /just a moment|checking your browser|cf-challenge|captcha/i.test(await page.content());
-
-// Simulate a user's first tap (popunder scripts usually fire here).
-await page.mouse.click(200, 400).catch(() => {});
-await page.waitForTimeout(5000);
-report.urlAfterTap = page.url();
-await page.screenshot({ path: `${out}/2-after-tap.png` });
-
-// Open the first internal link that looks like a title/series page.
-await page.goto(target, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch(() => {});
-await page.waitForTimeout(4000);
-const links = await page.$$eval('a[href]', as => as.map(a => ({ href: a.href, text: (a.textContent || '').trim().slice(0, 80) })));
-report.sampleLinks = links.filter(l => l.href.includes(targetHost)).slice(0, 60);
-const detail = report.sampleLinks.find(l => /series|drama|movie|watch|episode|\d{2,}/i.test(l.href) && l.href !== target);
-if (detail) {
-  report.detailUrl = detail.href;
-  await page.goto(detail.href, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch(e => { report.detailError = String(e); });
+const report = { taps: [] };
+for (let i = 0; i < 3; i++) {
+  await page.goto(target, { waitUntil: 'domcontentloaded', timeout: 45000 }).catch(() => {});
+  await page.waitForTimeout(5000);
+  // Title cards: clickable elements that contain a poster image.
+  const cards = await page.$$('a:has(img), [onclick]:has(img), div[class*="card"]:has(img)');
+  const card = cards[i];
+  if (!card) { report.taps.push({ i, note: 'no card found', count: cards.length }); continue; }
+  const info = await card.evaluate(el => ({
+    tag: el.tagName, href: el.closest('a') ? el.closest('a').href : null,
+    text: (el.innerText || '').trim().slice(0, 60), cls: el.className && String(el.className).slice(0, 80),
+  }));
+  const before = events.length;
+  await card.scrollIntoViewIfNeeded().catch(() => {});
+  const box = await card.boundingBox();
+  if (box) await page.mouse.click(box.x + box.width / 2, box.y + box.height / 2);
+  lastTap = await page.evaluate(() => window.__rwTap).catch(() => null);
   await page.waitForTimeout(6000);
-  await page.screenshot({ path: `${out}/3-detail.png`, fullPage: false });
-  fs.writeFileSync(`${out}/detail.html`, await page.content());
-  report.detailIframes = await page.$$eval('iframe', fs => fs.map(f => f.src));
-  report.detailVideos = await page.$$eval('video, source', vs => vs.map(v => v.src || v.currentSrc));
+  report.taps.push({ i, card: info, recordedTap: lastTap, landedOn: page.url(), events: events.slice(before) });
+  await page.screenshot({ path: `${out}/tap-${i + 1}.png` });
+  if (page.url().includes(host) && page.url() !== target) fs.writeFileSync(`${out}/title-${i + 1}.html`, await page.content());
 }
-
-report.popupCount = report.popups.length;
-report.topHosts = Object.entries(report.hosts).sort((a, b) => b[1] - a[1]).slice(0, 40);
-delete report.hosts;
+report.allEvents = events;
 fs.writeFileSync(`${out}/report.json`, JSON.stringify(report, null, 2));
 console.log(JSON.stringify(report, null, 2));
 await browser.close();
