@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -29342.418176422405,
+   "cash": -29354.266079762845,
    "open": [
-    {
-     "id": 1522,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Jason",
-     "mint": "3qjBR3LfzEAKVS6QXuR2QZ1RFUsXzATWvmjbGB5Dpump",
-     "side": 1,
-     "opened": 1793559398.3410404,
-     "entry": 8.442e-05,
-     "stop": 6.7536e-05,
-     "target": 0.00011818799999999999,
-     "size": 2369106.846718787,
-     "deadline": 1793566598.3410406,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1525,
      "desk": "control",
@@ -81,30 +66,49 @@
      "size": 830909.8462816784,
      "deadline": 1793571693.1816685,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1535,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PI",
+     "mint": "93VGqXL76voGxc43apJTDJoKkqnxTht1BKWoEmUypump",
+     "side": 1,
+     "opened": 1793566708.492028,
+     "entry": 9.009e-05,
+     "stop": 7.207200000000001e-05,
+     "target": 0.000126126,
+     "size": 2220002.22000222,
+     "deadline": 1793573908.4920282,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1535,
+ "next_id": 1536,
  "runs": 56,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8BxKRVNTRzM7LTJ9Q6rqKQFwXtMjZjjSNYNDyjLSpump": 1793566122.286826,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793566122.286826,
-  "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793566122.286826,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793566303.800035,
-  "seen:5Jh9HgUtWV3xk1dhrSHaD8iNmhS633BxYVjorzapump": 1793566303.800035,
-  "seen:LMT3i1BHgixFqPUgcyteJhnEz2dpy9i3cYy4pi9BoeV": 1793566488.2374184,
-  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793566488.2374184,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793566488.2374184,
-  "seen:HNxyGpz8AkLqmfBBKMzmugkPE5Bahj2bGPPTNgWGpump": 1793566669.4652944,
-  "seen:6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1793566669.4652944,
-  "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793566669.4652944,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793566669.4652944,
   "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793566850.9919543,
   "seen:93VGqXL76voGxc43apJTDJoKkqnxTht1BKWoEmUypump": 1793566850.9919543,
   "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793566850.9919543,
-  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793566850.9919543
+  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793566850.9919543,
+  "seen:6pGyajBJsvKWLvgDZPNebH5uZcHXc7hVQAJ3y1uuVXNd": 1793567033.7691302,
+  "seen:8BxKRVNTRzM7LTJ9Q6rqKQFwXtMjZjjSNYNDyjLSpump": 1793567033.7691302,
+  "seen:DTVcrMAEMwpSSBvu6W7P3BLZsRhFZb6bSzARFDqobfCT": 1793567033.7691302,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793567033.7691302,
+  "seen:nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump": 1793567033.7691302,
+  "seen:8Wi25nQhEay9KwAsoguEs3y1uxaJmCRQxRYnSY9dpump": 1793567215.0641587,
+  "seen:Pmfm2RprxQRKZH1XWVsBUc2KgCTyzeDTSFbT1vJmogz": 1793567215.0641587,
+  "seen:Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT": 1793567215.0641587,
+  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793567397.3963332,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793567397.3963332,
+  "seen:4uUH4LjgfPQEV9SUWmNnkC5dSgBQkC2CEzwNVAJRpump": 1793567397.3963332,
+  "seen:CTjiyTYwZCRFG4fdLmdBDjCEbd3GgHVYyE71TsDXpump": 1793567397.3963332,
+  "seen:HNxyGpz8AkLqmfBBKMzmugkPE5Bahj2bGPPTNgWGpump": 1793567608.364353,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793567608.364353,
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793567608.364353,
+  "control:93VGqXL76voGxc43apJTDJoKkqnxTht1BKWoEmUypump": 1793567608.4920313
  },
  "talks": {
   "2026-10-21": 109
@@ -145,13 +149,13 @@
  ],
  "last_review": 1793533893.992842,
  "news": {
-  "t": 1793565403.8055363,
+  "t": 1793566315.0695357,
   "crypto": [
    "The crypto reader's guide to the 2026 midterm election: State of Crypto (1h ago)",
    "AI agents bypassed crypto spending limits without human approval, researchers find in a new test (4h ago)",
    "The key races to watch for the 2026 election (6h ago)",
    "Crypto card startups are racking up losses just to buy your loyalty with big rewards (6h ago)",
-   "Here\u2019s what happened in crypto today (6h ago)",
+   "Here\u2019s what happened in crypto today (7h ago)",
    "Crypto PACs made big Republican push in final weeks before November 3 election (7h ago)",
    "DeepSeek developing AI agent requiring less human input: Report (7h ago)",
    "Sherrod Brown's Ohio edge threatens a rough go for crypto next year (8h ago)",
