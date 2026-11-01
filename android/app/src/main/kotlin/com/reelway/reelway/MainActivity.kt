@@ -1,0 +1,5 @@
+package com.reelway.reelway
+
+import io.flutter.embedding.android.FlutterActivity
+
+class MainActivity : FlutterActivity()
