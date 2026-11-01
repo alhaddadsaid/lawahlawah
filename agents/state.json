@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -27475.72318273243,
+   "cash": -27457.002173696284,
    "open": [
-    {
-     "id": 1463,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "INVERSE",
-     "mint": "2gLhk8p2KvUFeUXur2hiF4hxjdRM1vBcbgo9Q7DMZfiw",
-     "side": 1,
-     "opened": 1793521078.959465,
-     "entry": 7.968e-05,
-     "stop": 6.3744e-05,
-     "target": 0.00011155199999999999,
-     "size": 2510040.1606425704,
-     "deadline": 1793528278.9594653,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1470,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "niketyson",
-     "mint": "nikemwCaTqBamHqfRVqPzwtWsmuwdXb6To25xJ2znwT",
-     "side": 1,
-     "opened": 1793524741.3534,
-     "entry": 0.000146,
-     "stop": 0.00011679999999999999,
-     "target": 0.00020439999999999998,
-     "size": 1369863.0136986303,
-     "deadline": 1793531941.3534002,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1471,
      "desk": "control",
@@ -89,26 +59,24 @@
  "runs": 54,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793526557.6804826,
-  "seen:CZjfBc1c5V7vydMsz5j8WwTfk1o1WYAe5mfJfusZpump": 1793526557.6804826,
-  "seen:XUfyac1D6AidDJywN72wBEhdoyGN2UE2hbD2KZgpump": 1793526557.6804826,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793526557.6804826,
-  "seen:CCF6ui6YjjhLaVtuYLH8b5jza8jHathqww5VbrMapump": 1793526742.474284,
-  "seen:nikemwCaTqBamHqfRVqPzwtWsmuwdXb6To25xJ2znwT": 1793526742.474284,
-  "seen:Ewyifvp8X9NxeaKawXamGXBFDisuMfcFfcdvSZ8opump": 1793526742.474284,
-  "seen:7qupowmwTWLPHautcBSaMvZrey9mZqPnDsWxNqwQpump": 1793526922.9304893,
-  "seen:8GCM5xT2TRXTyBWMqW4kX9G6V7t3FtZx6CPG4w8wpump": 1793526922.9304893,
-  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793527107.6146123,
-  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793527107.6146123,
-  "seen:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793527107.6146123,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793527107.6146123,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793527107.6146123,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793527107.6146123,
-  "control:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793527107.9663043,
   "seen:2GJuAJ5tj56Bvk9HQNofVefnzZmtFYGsmWs7td3Ppump": 1793527292.5069652,
   "seen:5wZp5xbsDWmwxPq9AMF2ZKFTSX3NxhFJhXyhYf3dpump": 1793527292.5069652,
   "seen:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": 1793527292.5069652,
-  "control:CCF6ui6YjjhLaVtuYLH8b5jza8jHathqww5VbrMapump": 1793527292.5586336
+  "control:CCF6ui6YjjhLaVtuYLH8b5jza8jHathqww5VbrMapump": 1793527292.5586336,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793527473.5659523,
+  "seen:CZjfBc1c5V7vydMsz5j8WwTfk1o1WYAe5mfJfusZpump": 1793527473.5659523,
+  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793527473.5659523,
+  "seen:CCF6ui6YjjhLaVtuYLH8b5jza8jHathqww5VbrMapump": 1793527658.6385636,
+  "seen:3kRQDKPGqMWwBdGjiVPpPqVzFsnYG5PDqvrVz1D2pump": 1793527658.6385636,
+  "seen:nikemwCaTqBamHqfRVqPzwtWsmuwdXb6To25xJ2znwT": 1793527658.6385636,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793527658.6385636,
+  "seen:6p74j29PhKpmxeaYKNQpHfPPsbF4uZDFM1fiHhSteqCu": 1793527837.9790878,
+  "seen:GuvRLfGP4CMJfF9VyHv85vih9yqxhNB5R8zgRcD9pump": 1793527837.9790878,
+  "seen:7qupowmwTWLPHautcBSaMvZrey9mZqPnDsWxNqwQpump": 1793527837.9790878,
+  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793528022.277075,
+  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793528022.277075,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793528022.277075,
+  "seen:8GCM5xT2TRXTyBWMqW4kX9G6V7t3FtZx6CPG4w8wpump": 1793528022.277075
  },
  "talks": {
   "2026-10-21": 109
@@ -149,18 +117,18 @@
  ],
  "last_review": 1793447479.2185068,
  "news": {
-  "t": 1793526207.6220837,
+  "t": 1793527122.284798,
   "crypto": [
+   "Binance says phase one of withdrawals opens after $6.3B hack (0h ago)",
    "FBI blames North Korea for record $6.3B Binance hack (2h ago)",
    "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses (9h ago)",
    "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered (16h ago)",
    "A stolen iPhone, $14,000 in losses and London's crypto theft problem (18h ago)",
    "Traders are already placing leveraged bets on Anthropic\u2019s IPO using crypto contracts (18h ago)",
    "Binance says 90% of stolen assets replenished, targets Sunday withdrawals (18h ago)",
-   "Bitcoin held up better than expected after Binance hack, Strive CEO says (18h ago)",
-   "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach (18h ago)",
-   "Here\u2019s what happened in crypto today (19h ago)",
-   "Institutions embrace crypto staking despite shrinking yields (19h ago)"
+   "Bitcoin held up better than expected after Binance hack, Strive CEO says (19h ago)",
+   "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach (19h ago)",
+   "Here\u2019s what happened in crypto today (19h ago)"
   ],
   "macro": [],
   "calendar": []
