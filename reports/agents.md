@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-01 13:02 UTC. Runs so far: 55. Model: claude-haiku-5-5.
+Updated 2026-11-01 13:11 UTC. Runs so far: 55. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1440 | 31 | -38071.65 | -51864.57 |
+| control | meme | 1441 | 31 | -38125.76 | -51927.55 |
 | control | macro | 28 | 46 | -141.99 | -292.93 |
-| control | all | 1468 | 32 | -38213.64 | -52157.5 |
+| control | all | 1469 | 32 | -38267.75 | -52220.48 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: SIS long at 0.0001998, stop 0.00015984, target 0.00027972, opened 2026-11-01 11:30 UTC
 - control: tipr long at 6.67e-05, stop 5.336e-05, target 9.338e-05, opened 2026-11-01 12:07 UTC
 - control: KIM long at 0.0001884, stop 0.00015072, target 0.00026376, opened 2026-11-01 12:28 UTC
-- control: 白いヤク long at 0.0001045, stop 8.36e-05, target 0.0001463, opened 2026-11-01 13:02 UTC
+- control: RAM long at 8.687e-05, stop 6.9496e-05, target 0.000121618, opened 2026-11-01 13:08 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-01 13:02 UTC control: OPENED 白いヤク long at 0.0001045 (stop 8.36e-05, target 0.0001463) - control: frozen v3 rules
+- control: order SIS REJECTED by guardrails: SIS already open
 
