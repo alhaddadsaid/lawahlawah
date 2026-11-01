@@ -234,4 +234,24 @@ void main() {
     );
     expect(PopupProtection.intendedDestination(page, tap), tap.href);
   });
+
+  group('refused pop-up replayed in the tab (iOS)', () {
+    final ad = Uri.parse('https://bony-teaching.com/WX6wIn');
+    final title = Uri.parse('https://narto-drama.com/detail/watch/some-title');
+    final blank = Uri.parse('about:blank');
+    bool replay(Uri? refused, Uri? target) => PopupProtection.isRefusedPopupLoad(refused: refused, target: target);
+
+    test('blank refused pop-up: blank loads are cancelled, real pages are not', () {
+      expect(replay(null, null), isTrue);
+      expect(replay(null, Uri()), isTrue);
+      expect(replay(null, blank), isTrue);
+      expect(replay(null, title), isFalse);
+    });
+
+    test('refused pop-up with an address: only that address is cancelled', () {
+      expect(replay(ad, ad), isTrue);
+      expect(replay(ad, blank), isFalse);
+      expect(replay(ad, title), isFalse);
+    });
+  });
 }

@@ -77,6 +77,20 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
     c.loadUrl(urlRequest: URLRequest(url: WebUri.uri(dest)));
   }
 
+  /// iOS: when onCreateWindow refuses a pop-up, flutter_inappwebview loads the
+  /// pop-up's own request in this tab instead (a blank page for pop-unders).
+  /// The refused request is remembered briefly so that load can be cancelled.
+  Uri? _refusedPopup;
+  DateTime? _refusedPopupAt;
+
+  bool _isRefusedPopupLoad(Uri? target) {
+    final at = _refusedPopupAt;
+    if (at == null || DateTime.now().difference(at) > const Duration(seconds: 2)) return false;
+    if (!PopupProtection.isRefusedPopupLoad(refused: _refusedPopup, target: target)) return false;
+    _refusedPopupAt = null;
+    return true;
+  }
+
   InAppWebViewSettings get _webSettings => InAppWebViewSettings(
     javaScriptEnabled: true,
     useShouldOverrideUrlLoading: true,
@@ -157,6 +171,7 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
 
   Future<NavigationActionPolicy> _onNavigate(InAppWebViewController c, NavigationAction a) async {
     final target = a.request.url?.uriValue;
+    if (a.isForMainFrame && _isRefusedPopupLoad(target)) return NavigationActionPolicy.CANCEL;
     if (target == null) return NavigationActionPolicy.ALLOW;
     final gesture = _gesture(a);
     // Only ask the page what was tapped when it matters: a tapped jump of the
@@ -194,22 +209,24 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
   }
 
   Future<bool> _onCreateWindow(InAppWebViewController c, CreateWindowAction a) async {
-    final target = a.request.url?.uriValue;
+    final url = a.request.url?.uriValue;
+    final target = (url == null || url.toString().isEmpty || url.scheme == 'about') ? null : url;
     final gesture = a.hasGesture ?? true;
     final tap = gesture ? await _lastTap(c) : null;
     final decision = widget.protection.onPopup(
-      PopupRequestInfo(
-        opener: widget.tab.url,
-        target: (target == null || target.toString().isEmpty || target.scheme == 'about') ? null : target,
-        hasUserGesture: gesture,
-        tap: tap,
-      ),
+      PopupRequestInfo(opener: widget.tab.url, target: target, hasUserGesture: gesture, tap: tap),
     );
     if (decision.isBlocked) {
       widget.tabs.update(widget.tab.id, (t) => t.blockedCount++);
       widget.onBlocked(widget.tab.url, decision, popup: true);
-      _rescue(c, tap);
-      return false; // Not handled: the platform discards the window.
+      _refusedPopup = target;
+      _refusedPopupAt = DateTime.now();
+      // After the plugin's own load of the refused window has been cancelled,
+      // so it cannot replace the page the user meant to open.
+      Future.delayed(const Duration(milliseconds: 300), () {
+        if (mounted) _rescue(c, tap);
+      });
+      return false; // Not handled: the window is discarded (see _isRefusedPopupLoad for iOS).
     }
     final tab = widget.tabs.open(target ?? Uri.parse('about:blank'), openedByPopup: true, windowId: a.windowId);
     return tab != null;

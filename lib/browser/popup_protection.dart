@@ -242,6 +242,15 @@ class PopupProtection {
     return href;
   }
 
+  /// Whether a main-page load is the WebView replaying a pop-up that was just
+  /// refused: the same address, or any blank page when the refused pop-up
+  /// was blank ([refused] null).
+  static bool isRefusedPopupLoad({required Uri? refused, required Uri? target}) {
+    final blank = target == null || target.toString().isEmpty || target.scheme == 'about';
+    if (refused == null) return blank;
+    return target != null && target.removeFragment() == refused.removeFragment();
+  }
+
   void allowSite(Uri uri) => allowedSites.add(registrableDomain(uri.host));
   void disallowSite(String domain) => allowedSites.remove(domain);
   bool _isAllowedSite(Uri uri) => allowedSites.contains(registrableDomain(uri.host));
