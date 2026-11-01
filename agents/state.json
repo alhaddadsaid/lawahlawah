@@ -36,33 +36,61 @@
      "size": 2073828.2870178348,
      "deadline": 1793520319.6939392,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1455,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "otc",
+     "mint": "Bn3ZRTsGpPER94Guzhjdfd6ngJR3Bcra6V6Ysn7npump",
+     "side": 1,
+     "opened": 1793514495.265988,
+     "entry": 5.055e-05,
+     "stop": 4.0440000000000006e-05,
+     "target": 7.077e-05,
+     "size": 3956478.733926805,
+     "deadline": 1793521695.2659886,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1456,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "KIM",
+     "mint": "8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump",
+     "side": 1,
+     "opened": 1793514863.874145,
+     "entry": 0.0002418,
+     "stop": 0.00019344000000000002,
+     "target": 0.00033852,
+     "size": 827129.859387924,
+     "deadline": 1793522063.8741453,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1455,
+ "next_id": 1457,
  "runs": 54,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6Kk8M1wGrWxCZ2qJiSr2W52wXKW3spBUwg5yx6r9pump": 1793513837.231377,
-  "seen:ArRb1JbP9E44VQzZx31rjjsknE1DBp8zJikw4h6Apump": 1793513837.231377,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793514019.3320692,
-  "seen:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793514019.3320692,
-  "seen:HytpiyuR3sVXGB5UqoqrnThCPH2X1tWVm5neep3Dpump": 1793514019.3320692,
-  "control:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793514019.6939423,
-  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793514200.4602342,
-  "seen:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": 1793514200.4602342,
-  "seen:x94ouReAXGWHfNnGokusmmfNttSNEXyfY4ZCQq9pump": 1793514200.4602342,
-  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793514200.4602342,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793514200.4602342,
-  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793514200.4602342,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793514200.4602342,
-  "control:Bn3ZRTsGpPER94Guzhjdfd6ngJR3Bcra6V6Ysn7npump": 1793514201.038955,
-  "seen:3kRQDKPGqMWwBdGjiVPpPqVzFsnYG5PDqvrVz1D2pump": 1793514381.9309967,
-  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793514381.9309967,
-  "seen:Ewyifvp8X9NxeaKawXamGXBFDisuMfcFfcdvSZ8opump": 1793514381.9309967,
-  "seen:Bn3ZRTsGpPER94Guzhjdfd6ngJR3Bcra6V6Ysn7npump": 1793514564.5584955,
-  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793514564.5584955
+  "seen:9SsXwPe42HEQFYUteGy516hRi8cxgs9yyfmoCWpVpump": 1793515028.9796875,
+  "seen:4qjMGYqrp9A1qCoEmqiYiygUNJvyv1wnj85FqWC6pump": 1793515028.9796875,
+  "seen:2NhKmfR3F5eaZDspw9FzeSAyRtX3Wv3wuppLjU5Npump": 1793515028.9796875,
+  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793515213.8172884,
+  "seen:x94ouReAXGWHfNnGokusmmfNttSNEXyfY4ZCQq9pump": 1793515213.8172884,
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793515213.8172884,
+  "seen:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": 1793515213.8172884,
+  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793515213.8172884,
+  "seen:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793515213.8172884,
+  "seen:3kRQDKPGqMWwBdGjiVPpPqVzFsnYG5PDqvrVz1D2pump": 1793515394.975524,
+  "seen:HytpiyuR3sVXGB5UqoqrnThCPH2X1tWVm5neep3Dpump": 1793515394.975524,
+  "control:Bn3ZRTsGpPER94Guzhjdfd6ngJR3Bcra6V6Ysn7npump": 1793515395.2659914,
+  "seen:39tkEU5ox4BA7jKPgEoCraoVmi9jzKXzytoYwhHZpump": 1793515579.5518606,
+  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793515579.5518606,
+  "seen:5oFzQ4Z7haWP4ASbLwa1TTufyRnjRv4k7mEqc1zZpump": 1793515763.8496568,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1793515763.8496568,
+  "control:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793515763.874149
  },
  "talks": {
   "2026-10-21": 109
@@ -103,7 +131,7 @@
  ],
  "last_review": 1793447479.2185068,
  "news": {
-  "t": 1793513300.466542,
+  "t": 1793514313.8239572,
   "crypto": [
    "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses (5h ago)",
    "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered (12h ago)",
@@ -114,7 +142,7 @@
    "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach (15h ago)",
    "Here\u2019s what happened in crypto today (15h ago)",
    "Institutions embrace crypto staking despite shrinking yields (15h ago)",
-   "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (15h ago)"
+   "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (16h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -147,5 +175,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793513119.341029
+ "last_macro_macro": 1793514494.982516
 }
