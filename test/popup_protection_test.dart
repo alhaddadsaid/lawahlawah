@@ -202,4 +202,36 @@ void main() {
     }
     expect(p.log, hasLength(3));
   });
+
+  group('intended destination after a blocked ad', () {
+    final title = Uri.parse('https://www.watchsite.com/detail/watch/some-title');
+    test('is the pressed link on the same site', () {
+      expect(PopupProtection.intendedDestination(site, TapInfo.link(title)), title);
+    });
+    test('is nothing for a tap on a non-link, another site, or the same page', () {
+      expect(PopupProtection.intendedDestination(site, const TapInfo.nonLink()), isNull);
+      expect(PopupProtection.intendedDestination(site, TapInfo.link(other)), isNull);
+      expect(PopupProtection.intendedDestination(site, TapInfo.link(site.replace(fragment: 'top'))), isNull);
+      expect(PopupProtection.intendedDestination(site, TapInfo.link(Uri.parse('javascript:void(0)'))), isNull);
+      expect(PopupProtection.intendedDestination(site, null), isNull);
+    });
+  });
+
+  test('pop-under script pattern (narto-drama, Nov 2026) is fully blocked', () {
+    // Tap on a title link -> script opens a blank window, then, if refused,
+    // opens the ad address directly. Both must be blocked.
+    final p = PopupProtection();
+    final page = Uri.parse('https://narto-drama.com/?tab-provider=anyreel');
+    final tap = TapInfo.link(Uri.parse('https://narto-drama.com/detail/watch/some-title'));
+    expect(p.onPopup(PopupRequestInfo(opener: page, target: null, hasUserGesture: true, tap: tap)).isBlocked, isTrue);
+    final ad = Uri.parse('https://bony-teaching.com/WX6wIn');
+    expect(p.onPopup(PopupRequestInfo(opener: page, target: ad, hasUserGesture: true, tap: tap)).isBlocked, isTrue);
+    final unknownAd = Uri.parse('https://brand-new-ad-network.example/x');
+    expect(
+      p.onPopup(PopupRequestInfo(opener: page, target: unknownAd, hasUserGesture: true, tap: tap)).isBlocked,
+      isTrue,
+      reason: 'blocked by the tap rule even when not on any list',
+    );
+    expect(PopupProtection.intendedDestination(page, tap), tap.href);
+  });
 }

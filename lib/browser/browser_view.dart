@@ -61,6 +61,22 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
   @override
   bool get wantKeepAlive => true;
 
+  Uri? _lastRescue;
+  DateTime _lastRescueAt = DateTime.fromMillisecondsSinceEpoch(0);
+
+  /// The page's ad script cancelled the user's tap and we blocked its ad:
+  /// open the link the user actually pressed, once per tap.
+  void _rescue(InAppWebViewController c, TapInfo? tap) {
+    final dest = PopupProtection.intendedDestination(widget.tab.url, tap);
+    if (dest == null) return;
+    final now = DateTime.now();
+    if (dest == _lastRescue && now.difference(_lastRescueAt) < const Duration(seconds: 3)) return;
+    _lastRescue = dest;
+    _lastRescueAt = now;
+    widget.protection.allowOnce(dest);
+    c.loadUrl(urlRequest: URLRequest(url: WebUri.uri(dest)));
+  }
+
   InAppWebViewSettings get _webSettings => InAppWebViewSettings(
     javaScriptEnabled: true,
     useShouldOverrideUrlLoading: true,
@@ -151,6 +167,7 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
         a.isForMainFrame &&
         UrlPolicy.classify(target) == NavigationKind.web &&
         !PopupProtection.sameSite(current, target);
+    final tap = needsTap ? await _lastTap(c) : null;
     final decision = widget.protection.onNavigation(
       NavigationRequestInfo(
         current: current,
@@ -158,7 +175,7 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
         isMainFrame: a.isForMainFrame,
         hasUserGesture: gesture,
         isRedirect: a.isRedirect ?? false,
-        tap: needsTap ? await _lastTap(c) : null,
+        tap: tap,
       ),
     );
     switch (decision.action) {
@@ -168,6 +185,7 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
       case DecisionAction.block:
         widget.tabs.update(widget.tab.id, (t) => t.blockedCount++);
         widget.onBlocked(widget.tab.url, decision, popup: false);
+        _rescue(c, tap);
         return NavigationActionPolicy.CANCEL;
       case DecisionAction.askExternal:
         _confirmExternal(target);
@@ -178,17 +196,19 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
   Future<bool> _onCreateWindow(InAppWebViewController c, CreateWindowAction a) async {
     final target = a.request.url?.uriValue;
     final gesture = a.hasGesture ?? true;
+    final tap = gesture ? await _lastTap(c) : null;
     final decision = widget.protection.onPopup(
       PopupRequestInfo(
         opener: widget.tab.url,
         target: (target == null || target.toString().isEmpty || target.scheme == 'about') ? null : target,
         hasUserGesture: gesture,
-        tap: gesture ? await _lastTap(c) : null,
+        tap: tap,
       ),
     );
     if (decision.isBlocked) {
       widget.tabs.update(widget.tab.id, (t) => t.blockedCount++);
       widget.onBlocked(widget.tab.url, decision, popup: true);
+      _rescue(c, tap);
       return false; // Not handled: the platform discards the window.
     }
     final tab = widget.tabs.open(target ?? Uri.parse('about:blank'), openedByPopup: true, windowId: a.windowId);

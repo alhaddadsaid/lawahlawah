@@ -138,6 +138,13 @@ class PopupProtection {
     'onclickads.net',
     'clickadu.com',
     'hilltopads.net',
+    // Seen in a pop-under script on narto-drama.com (Nov 2026).
+    'quitedrench.org',
+    'omg10.com',
+    'bony-teaching.com',
+    'auctionr.org',
+    'topatowedels.com',
+    'pupibujisareni.com',
   };
 
   // ---------------------------------------------------------------------------
@@ -223,6 +230,17 @@ class PopupProtection {
   }
 
   // ---------------------------------------------------------------------------
+
+  /// After blocking an ad that rode on a tap, where the user actually meant
+  /// to go: the pressed link, when it is a web link on the current site.
+  /// Ad scripts cancel the tap itself, so without this the tap does nothing.
+  static Uri? intendedDestination(Uri current, TapInfo? tap) {
+    final href = tap?.href;
+    if (href == null || UrlPolicy.classify(href) != NavigationKind.web || href.scheme == 'about') return null;
+    if (!sameSite(current, href)) return null;
+    if (href.removeFragment() == current.removeFragment()) return null;
+    return href;
+  }
 
   void allowSite(Uri uri) => allowedSites.add(registrableDomain(uri.host));
   void disallowSite(String domain) => allowedSites.remove(domain);
