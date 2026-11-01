@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-10-31 23:42 UTC. Runs so far: 52. Model: claude-haiku-5-5.
+Updated 2026-11-01 00:03 UTC. Runs so far: 52. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -20,6 +20,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: HI long at 0.0002514, stop 0.00020112, target 0.00035196, opened 2026-10-31 22:08 UTC
 - control: NNN long at 0.0001441, stop 0.00011528, target 0.00020174, opened 2026-10-31 23:12 UTC
 - control: CREDIT long at 5.509e-05, stop 4.4072e-05, target 7.7126e-05, opened 2026-10-31 23:42 UTC
+- control: LUMI long at 7.117e-05, stop 5.6936e-05, target 9.9638e-05, opened 2026-11-01 00:00 UTC
 
 ## Team
 
@@ -33,5 +34,4 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 ## Last run
 
 - team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
-- 2026-10-31 23:42 UTC control: OPENED CREDIT long at 5.509e-05 (stop 4.4072e-05, target 7.7126e-05) - control: frozen v3 rules
 
