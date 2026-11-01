@@ -155,7 +155,9 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
     if (ok == true) await launchUrl(target, mode: LaunchMode.externalApplication);
   }
 
-  Future<void> _onDownload(InAppWebViewController c, DownloadStartRequest r) async {
+  /// Asks before any download, then hands it to the system (browser /
+  /// download manager). Reports it as handled so the WebView does nothing more.
+  Future<DownloadStartResponse> _onDownload(InAppWebViewController c, DownloadStartRequest r) async {
     final ok = await showDialog<bool>(
       context: context,
       builder: (ctx) => AlertDialog(
@@ -169,6 +171,7 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
       ),
     );
     if (ok == true) await launchUrl(r.url.uriValue, mode: LaunchMode.externalApplication);
+    return DownloadStartResponse(handled: true);
   }
 
   Future<PermissionResponse> _onPermission(InAppWebViewController c, PermissionRequest r) async {
@@ -217,7 +220,7 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
       shouldOverrideUrlLoading: _onNavigate,
       onCreateWindow: _onCreateWindow,
       onCloseWindow: (c) => widget.tabs.close(tab.id),
-      onDownloadStartRequest: _onDownload,
+      onDownloadStarting: _onDownload,
       onPermissionRequest: _onPermission,
     );
   }
