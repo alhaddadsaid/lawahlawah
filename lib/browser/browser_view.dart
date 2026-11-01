@@ -274,6 +274,9 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
   Widget build(BuildContext context) {
     super.build(context);
     final tab = widget.tab;
+    // The web build (design preview) runs inside a page that refuses to load
+    // other websites, so say so clearly instead of showing a blank frame.
+    if (kIsWeb) return _WebPreviewNotice(url: tab.url);
     return InAppWebView(
       key: ValueKey(tab.id),
       windowId: tab.windowId,
@@ -307,4 +310,37 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
       onPermissionRequest: _onPermission,
     );
   }
+}
+
+class _WebPreviewNotice extends StatelessWidget {
+  const _WebPreviewNotice({required this.url});
+  final Uri url;
+
+  @override
+  Widget build(BuildContext context) => Center(
+    child: Padding(
+      padding: const EdgeInsets.all(RwSpace.xl),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          const Icon(Icons.phone_android, size: 48, color: RwColors.accent),
+          const SizedBox(height: RwSpace.md),
+          Text('Websites open in the phone app', style: RwType.headline, textAlign: TextAlign.center),
+          const SizedBox(height: RwSpace.xs),
+          Text(
+            'This is a design preview. It can show Reelway\'s screens, but it cannot load other '
+            'websites such as ${url.host}. Install the Android test app to browse with pop-up and ad protection.',
+            style: RwType.body.copyWith(color: RwColors.textSecondary),
+            textAlign: TextAlign.center,
+          ),
+          const SizedBox(height: RwSpace.lg),
+          OutlinedButton.icon(
+            onPressed: () => launchUrl(url, mode: LaunchMode.externalApplication),
+            icon: const Icon(Icons.open_in_new),
+            label: Text('Open ${url.host} in a new tab'),
+          ),
+        ],
+      ),
+    ),
+  );
 }
