@@ -19,7 +19,11 @@ import '../sample/sample_data.dart';
 class AppState extends ChangeNotifier {
   AppState({AdapterRegistry? registry, bool? useSampleData})
     : registry = registry ?? AdapterRegistry(),
-      useSampleData = useSampleData ?? kDebugMode;
+      useSampleData = useSampleData ?? (kDebugMode || _previewBuild);
+
+  /// Set only for the web design preview (`--dart-define=SAMPLE_DATA=true`).
+  /// Store builds never pass it, so they never contain sample data.
+  static const _previewBuild = bool.fromEnvironment('SAMPLE_DATA');
 
   final AdapterRegistry registry;
 
