@@ -32,9 +32,29 @@ void main() {
       expect(p.log, hasLength(1));
       expect(p.log.first.site, 'watchsite.com');
     });
-    test('allows popup the user tapped, into a new tab', () {
-      final d = p.onPopup(PopupRequestInfo(opener: site, target: other, hasUserGesture: true));
+    test('allows a tapped open-in-new-tab link to that same site', () {
+      final d = p.onPopup(
+        PopupRequestInfo(opener: site, target: other, hasUserGesture: true, tap: TapInfo.link(other)),
+      );
       expect(d.action, DecisionAction.allowInNewTab);
+    });
+    test('allows a tapped same-site pop-up', () {
+      final d = p.onPopup(PopupRequestInfo(opener: site, target: sameSiteOther, hasUserGesture: true));
+      expect(d.action, DecisionAction.allowInNewTab);
+    });
+    test('blocks a pop-up to another site that hijacks a tap on an internal link', () {
+      final episode = Uri.parse('https://www.watchsite.com/series/1/ep/2');
+      final d = p.onPopup(
+        PopupRequestInfo(opener: site, target: other, hasUserGesture: true, tap: TapInfo.link(episode)),
+      );
+      expect(d.isBlocked, isTrue);
+      expect(d.target, other, reason: 'target kept for "Open anyway"');
+    });
+    test('blocks a tapped pop-up to another site when the tap is unknown', () {
+      expect(p.onPopup(PopupRequestInfo(opener: site, target: other, hasUserGesture: true)).isBlocked, isTrue);
+    });
+    test('blocks a blank pop-up window even after a tap (pop-under)', () {
+      expect(p.onPopup(PopupRequestInfo(opener: site, target: null, hasUserGesture: true)).isBlocked, isTrue);
     });
     test('blocks blocklisted destination even with a gesture', () {
       expect(p.onPopup(PopupRequestInfo(opener: site, target: bad, hasUserGesture: true)).isBlocked, isTrue);
@@ -88,6 +108,54 @@ void main() {
     });
     test('user-tapped link to another site is allowed', () {
       expect(p.onNavigation(nav(other, gesture: true)).isBlocked, isFalse);
+    });
+    test('tapped link to another site, confirmed by the tap, is allowed', () {
+      final r = NavigationRequestInfo(
+        current: site,
+        target: other,
+        isMainFrame: true,
+        hasUserGesture: true,
+        tap: TapInfo.link(other),
+      );
+      expect(p.onNavigation(r).isBlocked, isFalse);
+    });
+    test('click-hijack: tap on an internal link that lands on an ad site is blocked', () {
+      final r = NavigationRequestInfo(
+        current: site,
+        target: Uri.parse('https://win-prize.example/landing'),
+        isMainFrame: true,
+        hasUserGesture: true,
+        tap: TapInfo.link(Uri.parse('https://www.watchsite.com/series/2')),
+      );
+      final d = p.onNavigation(r);
+      expect(d.isBlocked, isTrue);
+      expect(d.reason, contains('redirected to an ad'));
+    });
+    test('tap on a non-link (ad overlay) that jumps to another site is blocked', () {
+      final r = NavigationRequestInfo(
+        current: site,
+        target: other,
+        isMainFrame: true,
+        hasUserGesture: true,
+        tap: const TapInfo.nonLink(),
+      );
+      expect(p.onNavigation(r).isBlocked, isTrue);
+    });
+    test('tapped internal link that stays on the site is allowed', () {
+      final r = NavigationRequestInfo(
+        current: site,
+        target: sameSiteOther,
+        isMainFrame: true,
+        hasUserGesture: true,
+        tap: TapInfo.link(sameSiteOther),
+      );
+      expect(p.onNavigation(r).isBlocked, isFalse);
+    });
+    test('"Open anyway" lets one blocked navigation through, once', () {
+      expect(p.onNavigation(nav(other)).isBlocked, isTrue);
+      p.allowOnce(other);
+      expect(p.onNavigation(nav(other)).isBlocked, isFalse);
+      expect(p.onNavigation(nav(other)).isBlocked, isTrue);
     });
     test('automatic cross-site redirect of main page is blocked', () {
       final d = p.onNavigation(nav(other));

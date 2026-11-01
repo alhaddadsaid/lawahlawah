@@ -1,3 +1,5 @@
+import 'dart:collection';
+
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
@@ -5,6 +7,7 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../core/design/tokens.dart';
 import '../data/models/user_settings.dart';
+import '../core/security/url_policy.dart';
 import 'popup_protection.dart';
 import 'tab_manager.dart';
 
@@ -26,6 +29,10 @@ class BrowserCommands {
 ///  * TLS errors are NOT overridden (no onReceivedServerTrustAuthRequest), so
 ///    invalid certificates are rejected by the platform.
 ///  * Safe Browsing (Android) / fraudulent-site warnings (iOS) on.
+///  * One read-only script records which link a tap actually pressed, so
+///    hijacked taps (ads riding on a real tap) can be told apart. It changes
+///    nothing on the page and sends nothing anywhere; the app reads it with
+///    evaluateJavascript only when deciding about a cross-site jump.
 class BrowserView extends StatefulWidget {
   const BrowserView({
     super.key,
@@ -43,7 +50,7 @@ class BrowserView extends StatefulWidget {
   final PopupProtection protection;
   final UserSettings settings;
   final BrowserCommands commands;
-  final void Function(Uri site, Decision decision) onBlocked;
+  final void Function(Uri site, Decision decision, {required bool popup}) onBlocked;
   final void Function(Uri url, String title) onPageLoaded;
 
   @override
@@ -89,6 +96,43 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
     });
   }
 
+  /// Records the last pressed element at the start of every tap, before the
+  /// page's own (ad) handlers can redirect it. Capture phase on window.
+  static const _tapRecorderJs = r"""
+(function () {
+  if (window.__rwTap) return;
+  window.__rwTap = { href: null, t: 0 };
+  function rec(e) {
+    var el = e.target, a = el && el.closest ? el.closest('a[href]') : null;
+    window.__rwTap = { href: a ? a.href : '', t: Date.now() };
+  }
+  window.addEventListener('pointerdown', rec, true);
+  window.addEventListener('click', rec, true);
+})();
+""";
+
+  static const _tapReaderJs = r"""
+(function () {
+  var t = window.__rwTap;
+  if (!t || Date.now() - t.t > 2500) return null;
+  return t.href;
+})();
+""";
+
+  /// What the user's last tap pressed: a link, something else, or unknown.
+  Future<TapInfo?> _lastTap(InAppWebViewController c) async {
+    try {
+      final v = await c.evaluateJavascript(source: _tapReaderJs);
+      if (v == null) return null;
+      final s = v.toString();
+      if (s.isEmpty) return const TapInfo.nonLink();
+      final uri = Uri.tryParse(s);
+      return uri == null ? null : TapInfo.link(uri);
+    } catch (_) {
+      return null; // Unknown: fall back to the gesture-only rules.
+    }
+  }
+
   bool _gesture(NavigationAction a) {
     if (a.hasGesture != null) return a.hasGesture!; // Android
     final type = a.navigationType; // iOS
@@ -98,13 +142,23 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
   Future<NavigationActionPolicy> _onNavigate(InAppWebViewController c, NavigationAction a) async {
     final target = a.request.url?.uriValue;
     if (target == null) return NavigationActionPolicy.ALLOW;
+    final gesture = _gesture(a);
+    // Only ask the page what was tapped when it matters: a tapped jump of the
+    // main page to a different site.
+    final current = widget.tab.url;
+    final needsTap =
+        gesture &&
+        a.isForMainFrame &&
+        UrlPolicy.classify(target) == NavigationKind.web &&
+        !PopupProtection.sameSite(current, target);
     final decision = widget.protection.onNavigation(
       NavigationRequestInfo(
-        current: widget.tab.url,
+        current: current,
         target: target,
         isMainFrame: a.isForMainFrame,
-        hasUserGesture: _gesture(a),
+        hasUserGesture: gesture,
         isRedirect: a.isRedirect ?? false,
+        tap: needsTap ? await _lastTap(c) : null,
       ),
     );
     switch (decision.action) {
@@ -113,7 +167,7 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
         return NavigationActionPolicy.ALLOW;
       case DecisionAction.block:
         widget.tabs.update(widget.tab.id, (t) => t.blockedCount++);
-        widget.onBlocked(widget.tab.url, decision);
+        widget.onBlocked(widget.tab.url, decision, popup: false);
         return NavigationActionPolicy.CANCEL;
       case DecisionAction.askExternal:
         _confirmExternal(target);
@@ -123,16 +177,18 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
 
   Future<bool> _onCreateWindow(InAppWebViewController c, CreateWindowAction a) async {
     final target = a.request.url?.uriValue;
+    final gesture = a.hasGesture ?? true;
     final decision = widget.protection.onPopup(
       PopupRequestInfo(
         opener: widget.tab.url,
         target: (target == null || target.toString().isEmpty || target.scheme == 'about') ? null : target,
-        hasUserGesture: a.hasGesture ?? true,
+        hasUserGesture: gesture,
+        tap: gesture ? await _lastTap(c) : null,
       ),
     );
     if (decision.isBlocked) {
       widget.tabs.update(widget.tab.id, (t) => t.blockedCount++);
-      widget.onBlocked(widget.tab.url, decision);
+      widget.onBlocked(widget.tab.url, decision, popup: true);
       return false; // Not handled: the platform discards the window.
     }
     final tab = widget.tabs.open(target ?? Uri.parse('about:blank'), openedByPopup: true, windowId: a.windowId);
@@ -203,6 +259,13 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
       windowId: tab.windowId,
       initialUrlRequest: tab.windowId == null ? URLRequest(url: WebUri.uri(tab.initialUrl)) : null,
       initialSettings: _webSettings,
+      initialUserScripts: UnmodifiableListView([
+        UserScript(
+          source: _tapRecorderJs,
+          injectionTime: UserScriptInjectionTime.AT_DOCUMENT_START,
+          forMainFrameOnly: true,
+        ),
+      ]),
       onWebViewCreated: (c) => widget.commands._c = c,
       onLoadStart: (c, url) => widget.tabs.update(tab.id, (t) {
         t.isLoading = true;

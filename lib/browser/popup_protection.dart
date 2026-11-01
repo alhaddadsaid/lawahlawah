@@ -28,19 +28,35 @@ enum ProtectionLevel {
 enum DecisionAction { allow, allowInNewTab, block, askExternal }
 
 class Decision {
-  const Decision._(this.action, this.reason);
+  const Decision._(this.action, this.reason, [this.target]);
   const Decision.allow() : this._(DecisionAction.allow, null);
   const Decision.allowInNewTab() : this._(DecisionAction.allowInNewTab, null);
-  const Decision.block(String reason) : this._(DecisionAction.block, reason);
+  const Decision.block(String reason, [Uri? target]) : this._(DecisionAction.block, reason, target);
   const Decision.askExternal() : this._(DecisionAction.askExternal, null);
 
   final DecisionAction action;
   final String? reason;
 
+  /// For a block: where the page tried to go (null for a blank pop-up), so
+  /// the user can still choose to open it.
+  final Uri? target;
+
   bool get isBlocked => action == DecisionAction.block;
 
   @override
   String toString() => 'Decision($action${reason == null ? '' : ': $reason'})';
+}
+
+/// What the user's most recent tap (within ~2 s) actually pressed, as seen
+/// by a read-only click listener in the page. Ad scripts hijack real taps,
+/// so a tap alone does not prove the user chose the destination.
+class TapInfo {
+  const TapInfo.link(Uri this.href) : onLink = true;
+  const TapInfo.nonLink() : href = null, onLink = false;
+
+  /// The link's own address, when the tap was on a link.
+  final Uri? href;
+  final bool onLink;
 }
 
 class NavigationRequestInfo {
@@ -50,6 +66,7 @@ class NavigationRequestInfo {
     required this.hasUserGesture,
     this.current,
     this.isRedirect = false,
+    this.tap,
   });
 
   /// The page currently shown in the tab (null on the first load).
@@ -58,15 +75,19 @@ class NavigationRequestInfo {
   final bool isMainFrame;
   final bool hasUserGesture;
   final bool isRedirect;
+
+  /// Null when unknown (no recent tap seen, or the listener is unavailable).
+  final TapInfo? tap;
 }
 
 class PopupRequestInfo {
-  const PopupRequestInfo({required this.opener, required this.target, required this.hasUserGesture});
+  const PopupRequestInfo({required this.opener, required this.target, required this.hasUserGesture, this.tap});
   final Uri opener;
 
   /// Null when the page opens a blank window and fills it in afterwards.
   final Uri? target;
   final bool hasUserGesture;
+  final TapInfo? tap;
 }
 
 class BlockedEvent {
@@ -97,6 +118,11 @@ class PopupProtection {
 
   final int maxLogEntries;
   final List<BlockedEvent> _log = [];
+  final Set<String> _allowOnce = {};
+
+  /// Lets the next navigation to [url] through once, when the user chose
+  /// "Open anyway" on something that was blocked.
+  void allowOnce(Uri url) => _allowOnce.add(url.toString());
 
   List<BlockedEvent> get log => List.unmodifiable(_log);
   int blockedCountFor(String site) => _log.where((e) => e.site == site).length;
@@ -130,6 +156,7 @@ class PopupProtection {
       return const Decision.askExternal();
     }
     if (r.target.scheme == 'about') return const Decision.allow();
+    if (_allowOnce.remove(r.target.toString())) return const Decision.allow();
 
     if (level == ProtectionLevel.off) return const Decision.allow();
 
@@ -142,11 +169,27 @@ class PopupProtection {
     if (!r.isMainFrame) return const Decision.allow();
 
     final current = r.current;
-    if (current == null || r.hasUserGesture) return const Decision.allow();
+    if (current == null || current.scheme == 'about') return const Decision.allow();
     if (_isAllowedSite(current)) return const Decision.allow();
+    if (sameSite(current, r.target)) return const Decision.allow();
 
-    if (!sameSite(current, r.target)) {
+    // From here on the main page is leaving for a different site.
+    if (!r.hasUserGesture) {
       return _block(current, r.target, 'Automatic redirect to another site');
+    }
+    final tap = r.tap;
+    if (tap != null) {
+      // Click-hijacking: the user pressed a link to one place, the page sent
+      // them somewhere else (usually an ad).
+      final href = tap.href;
+      if (tap.onLink && href != null && !sameSite(href, r.target)) {
+        return _block(current, r.target, 'Tap on a link was redirected to an ad');
+      }
+      // A tap on a picture, button or empty space that sends the page to
+      // another site is the typical full-page ad overlay.
+      if (!tap.onLink) {
+        return _block(current, r.target, 'Tap was turned into a jump to another site');
+      }
     }
     return const Decision.allow();
   }
@@ -167,7 +210,16 @@ class PopupProtection {
     if (level == ProtectionLevel.strict) {
       return _block(r.opener, target, 'Pop-ups are blocked in Strict mode');
     }
-    return const Decision.allowInNewTab();
+    // A blank window opened on a tap is the classic pop-under: it is filled
+    // with an ad right after opening, so its destination cannot be checked.
+    if (target == null) {
+      return _block(r.opener, null, 'Blank pop-up window opened by a tap');
+    }
+    if (sameSite(r.opener, target)) return const Decision.allowInNewTab();
+    // A real "open in new tab" link: the pressed link points to that site.
+    final href = r.tap?.href;
+    if (href != null && sameSite(href, target)) return const Decision.allowInNewTab();
+    return _block(r.opener, target, 'Pop-up to another site');
   }
 
   // ---------------------------------------------------------------------------
@@ -192,7 +244,7 @@ class PopupProtection {
       ),
     );
     if (_log.length > maxLogEntries) _log.removeLast();
-    return Decision.block(reason);
+    return Decision.block(reason, target);
   }
 
   void clearLog() => _log.clear();

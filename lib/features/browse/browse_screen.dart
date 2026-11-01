@@ -80,19 +80,29 @@ class _BrowseScreenState extends State<BrowseScreen> {
       ..showSnackBar(SnackBar(content: Text(msg), action: action, duration: const Duration(seconds: 4)));
   }
 
-  void _onBlocked(Uri site, Decision d) {
+  void _onBlocked(Uri site, Decision d, {required bool popup}) {
+    final target = d.target;
     final app = context.read<AppState>();
     final domain = PopupProtection.registrableDomain(site.host);
     _snack(
       'Blocked: ${d.reason}',
-      action: SnackBarAction(
-        label: 'Allow site',
-        textColor: RwColors.accent,
-        onPressed: () {
-          app.allowPopupsFor(site);
-          _snack('Pop-ups and redirects allowed on $domain');
-        },
-      ),
+      action: target == null
+          ? SnackBarAction(
+              label: 'Allow site',
+              textColor: RwColors.accent,
+              onPressed: () {
+                app.allowPopupsFor(site);
+                _snack('Pop-ups and redirects allowed on $domain');
+              },
+            )
+          : SnackBarAction(
+              label: 'Open anyway',
+              textColor: RwColors.accent,
+              onPressed: () {
+                app.popupProtection.allowOnce(target);
+                _open(target, newTab: popup);
+              },
+            ),
     );
   }
 
