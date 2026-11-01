@@ -58,3 +58,15 @@ jobs:
           cache: true
       - run: flutter pub get
       - run: flutter build ios --debug --no-codesign
+      # iPhone simulator build (needs no Apple account or signing). Upload the
+      # zip to Appetize.io to run the real iOS app in any browser, including
+      # Safari on an iPhone.
+      - name: Build iOS simulator app
+        run: flutter build ios --simulator --debug
+      - name: Zip simulator app for Appetize
+        run: cd build/ios/iphonesimulator && zip -qry ../../../reelway-ios-simulator.zip Runner.app
+      - uses: actions/upload-artifact@v4
+        with:
+          name: reelway-ios-simulator
+          path: reelway-ios-simulator.zip
+          retention-days: 14
