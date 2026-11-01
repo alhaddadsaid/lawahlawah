@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -29240.275615606388,
+   "cash": -29295.466333235094,
    "open": [
     {
      "id": 1510,
@@ -53,49 +53,65 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1519,
+     "id": 1520,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Kim",
+     "mint": "qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump",
+     "side": 1,
+     "opened": 1793557035.7354753,
+     "entry": 0.0002602,
+     "stop": 0.00020816,
+     "target": 0.0003642799999999999,
+     "size": 768639.5080707149,
+     "deadline": 1793564235.7354755,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1521,
      "desk": "control",
      "market": "meme",
      "symbol": "PAWCAT",
      "mint": "762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump",
      "side": 1,
-     "opened": 1793556672.3540068,
-     "entry": 0.0001282,
-     "stop": 0.00010256000000000001,
-     "target": 0.00017948,
-     "size": 1560062.4024961,
-     "deadline": 1793563872.354007,
+     "opened": 1793557579.9674413,
+     "entry": 0.0001007,
+     "stop": 8.056e-05,
+     "target": 0.00014098,
+     "size": 1986097.3187686198,
+     "deadline": 1793564779.9674416,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1520,
+ "next_id": 1522,
  "runs": 56,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6kRFyJEcdsmFbfgJE1Lq1VYKYq8RzQrZ2yc6knCWpump": 1793557026.031204,
-  "seen:Ewyifvp8X9NxeaKawXamGXBFDisuMfcFfcdvSZ8opump": 1793557026.031204,
-  "seen:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": 1793557026.031204,
-  "seen:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793557026.031204,
-  "control:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793557026.100981,
-  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793557207.3974493,
-  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793557207.3974493,
-  "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793557207.3974493,
-  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793557207.3974493,
-  "control:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793557208.0765452,
-  "seen:BMzkXAzS1Ddm8ZdLwpmsdExBZ7QUVLMTJb3w1Z9pump": 1793557390.6410053,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793557390.6410053,
-  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793557390.6410053,
-  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793557390.6410053,
-  "seen:GciMcnFpG5sepJpLX756MCoC1M8Ww5qMHR2P4YUppump": 1793557572.0451674,
-  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793557572.0451674,
-  "seen:tcsPQ7hgG6DDsDUidbLtxUneDzs3b2M5VqrXucwpump": 1793557572.0451674,
-  "control:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793557572.35401,
   "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793557753.2725184,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793557753.2725184,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793557753.2725184,
-  "seen:Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT": 1793557753.2725184
+  "seen:Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT": 1793557753.2725184,
+  "seen:UvmbbaMgTy83ZWijxCk9npigY8PM9qsLQxG4MWDpump": 1793557935.6795194,
+  "seen:9oCrvdW4VgVUpcgeUqAhtGWJPz3VFfbhoxW1o3vcpump": 1793557935.6795194,
+  "control:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793557935.7354794,
+  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793558116.7230413,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1793558116.7230413,
+  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793558116.7230413,
+  "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793558116.7230413,
+  "seen:ChCi2x2bpevrNyeRoPHLXHzmaCdGQPuU15CNqxY1pump": 1793558298.9203835,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1793558298.9203835,
+  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793558298.9203835,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793558298.9203835,
+  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793558298.9203835,
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793558298.9203835,
+  "seen:5ZWTin4FBPJ2G572jCWCi59o4SdPsGSinENMcmKYApTo": 1793558479.8989618,
+  "seen:Dk8ne1gm9JCdXB8SbLBbQ37egnMm8r2jh9YzxFcwomJq": 1793558479.8989618,
+  "seen:Pmfm2RprxQRKZH1XWVsBUc2KgCTyzeDTSFbT1vJmogz": 1793558479.8989618,
+  "seen:UHV9ZkAYbaXmzFWLcyDTCWrXJMhLarBSwDQPjUGpump": 1793558479.8989618,
+  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793558479.8989618,
+  "control:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793558479.9674447
  },
  "talks": {
   "2026-10-21": 109
@@ -136,18 +152,18 @@
  ],
  "last_review": 1793533893.992842,
  "news": {
-  "t": 1793556307.4020488,
+  "t": 1793557216.7283127,
   "crypto": [
    "AI agents bypassed crypto spending limits without human approval, researchers find in a new test (1h ago)",
    "The key races to watch for the 2026 election (3h ago)",
    "Crypto card startups are racking up losses just to buy your loyalty with big rewards (3h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
    "Crypto PACs made big Republican push in final weeks before November 3 election (4h ago)",
-   "DeepSeek developing AI agent requiring less human input: Report (4h ago)",
+   "DeepSeek developing AI agent requiring less human input: Report (5h ago)",
    "Sherrod Brown's Ohio edge threatens a rough go for crypto next year (5h ago)",
-   "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack (7h ago)",
-   "Binance says phase one of withdrawals opens after $6.3B hack (8h ago)",
-   "FBI blames North Korea for record $6.3B Binance hack (10h ago)"
+   "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack (8h ago)",
+   "Binance says phase one of withdrawals opens after $6.3B hack (9h ago)",
+   "FBI blames North Korea for record $6.3B Binance hack (11h ago)"
   ],
   "macro": [],
   "calendar": []
