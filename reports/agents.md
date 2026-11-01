@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-01 11:08 UTC. Runs so far: 54. Model: claude-haiku-5-5.
+Updated 2026-11-01 11:17 UTC. Runs so far: 54. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1429 | 31 | -37663.05 | -51353.63 |
+| control | meme | 1430 | 31 | -37717.29 | -51416.73 |
 | control | macro | 28 | 46 | -141.99 | -292.93 |
-| control | all | 1457 | 32 | -37805.04 | -51646.56 |
+| control | all | 1458 | 32 | -37859.28 | -51709.66 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: tipr long at 6.968e-05, stop 5.5744e-05, target 9.7552e-05, opened 2026-11-01 10:04 UTC
 - control: KIM long at 0.0001654, stop 0.00013232, target 0.00023156, opened 2026-11-01 10:13 UTC
 - control: BLACKED long at 6.069e-05, stop 4.8552e-05, target 8.4966e-05, opened 2026-11-01 11:05 UTC
-- control: 白いヤク long at 7.661e-05, stop 6.1288e-05, target 0.000107254, opened 2026-11-01 11:08 UTC
 
 ## Team
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-01 11:08 UTC control: OPENED 白いヤク long at 7.661e-05 (stop 6.1288e-05, target 0.000107254) - control: frozen v3 rules
+- control: order BNB REJECTED by guardrails: BNB already open
 
