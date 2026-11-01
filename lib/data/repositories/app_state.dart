@@ -6,6 +6,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import '../../adapters/adapter_registry.dart';
 import '../../browser/popup_protection.dart';
 import '../../core/security/url_policy.dart';
+import '../../partners/partner_registry.dart';
 import '../models/models.dart';
 import '../models/user_settings.dart';
 import '../sample/sample_data.dart';
@@ -31,6 +32,9 @@ class AppState extends ChangeNotifier {
   final bool useSampleData;
 
   final popupProtection = PopupProtection();
+
+  /// Partner websites whose contract lets Reelway hide their ads.
+  final partners = PartnerRegistry();
 
   SharedPreferences? _prefs;
   UserSettings _settings = const UserSettings();

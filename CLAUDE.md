@@ -17,6 +17,11 @@ Full product spec: the original "master development prompt" (summarised in docs/
 - Phases 3-8 (player, Narto-Drama adapter, drift DB, AdMob, release) not started.
   See docs/ROADMAP.md.
 
+- Partner unlock: `lib/partners/`. A site with a signed contract (recorded in
+  `partners.dart`) gets its ads hidden and its ad gate skipped inside Reelway; no other
+  site does. Test page: https://httpbin.org/html (green "partner unlock active" bar, heading
+  hidden). Narto-Drama has no agreement, so nothing runs there. See docs/PARTNERS.md.
+
 ## Commands
 ```bash
 flutter pub get

@@ -202,6 +202,7 @@ class _BrowseScreenState extends State<BrowseScreen> {
                           tab: t,
                           tabs: _tabs,
                           protection: app.popupProtection,
+                          partners: app.partners,
                           settings: app.settings,
                           commands: _commands.putIfAbsent(t.id, BrowserCommands.new),
                           onBlocked: _onBlocked,

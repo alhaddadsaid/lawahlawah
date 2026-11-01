@@ -39,6 +39,13 @@ Narto-Drama is the development test target: its adapter runs in debug builds (DE
 badge). Release builds keep it off until permission and content rights are documented in
 `lib/adapters/narto_drama/narto_drama_config.dart`; get that before publishing.
 
+## Partner unlock 🟡
+Websites that sign with Reelway let it hide their ads and skip their "watch ads to unlock"
+step inside Reelway. The partner builds nothing; Reelway runs the rules recorded in
+`lib/partners/partners.dart`, on that site only, while the contract is in force. Unit-tested;
+check on a phone at https://httpbin.org/html (test page, debug and TestFlight builds).
+See docs/PARTNERS.md.
+
 ## Phase 5: Library and history ⬜
 drift (SQLite) for catalogue, episodes, watch history; connect player progress.
 

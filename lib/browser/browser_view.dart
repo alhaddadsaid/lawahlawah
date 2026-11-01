@@ -8,6 +8,7 @@ import 'package:url_launcher/url_launcher.dart';
 import '../core/design/tokens.dart';
 import '../data/models/user_settings.dart';
 import '../core/security/url_policy.dart';
+import '../partners/partner_registry.dart';
 import 'popup_protection.dart';
 import 'tab_manager.dart';
 
@@ -33,12 +34,15 @@ class BrowserCommands {
 ///    hijacked taps (ads riding on a real tap) can be told apart. It changes
 ///    nothing on the page and sends nothing anywhere; the app reads it with
 ///    evaluateJavascript only when deciding about a cross-site jump.
+///  * On partner websites only (contract in force), a second script hides
+///    their ads and skips their ad gate as the agreement allows.
 class BrowserView extends StatefulWidget {
   const BrowserView({
     super.key,
     required this.tab,
     required this.tabs,
     required this.protection,
+    required this.partners,
     required this.settings,
     required this.commands,
     required this.onBlocked,
@@ -48,6 +52,7 @@ class BrowserView extends StatefulWidget {
   final BrowserTab tab;
   final TabManager tabs;
   final PopupProtection protection;
+  final PartnerRegistry partners;
   final UserSettings settings;
   final BrowserCommands commands;
   final void Function(Uri site, Decision decision, {required bool popup}) onBlocked;
@@ -294,6 +299,7 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
     // The web build (design preview) runs inside a page that refuses to load
     // other websites, so say so clearly instead of showing a blank frame.
     if (kIsWeb) return _WebPreviewNotice(url: tab.url);
+    final partnerScript = widget.partners.pageScript;
     return InAppWebView(
       key: ValueKey(tab.id),
       windowId: tab.windowId,
@@ -305,6 +311,12 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
           injectionTime: UserScriptInjectionTime.AT_DOCUMENT_START,
           forMainFrameOnly: true,
         ),
+        if (partnerScript != null)
+          UserScript(
+            source: partnerScript,
+            injectionTime: UserScriptInjectionTime.AT_DOCUMENT_START,
+            forMainFrameOnly: true,
+          ),
       ]),
       onWebViewCreated: (c) => widget.commands._c = c,
       onLoadStart: (c, url) => widget.tabs.update(tab.id, (t) {
