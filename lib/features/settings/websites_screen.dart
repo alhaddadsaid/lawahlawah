@@ -141,6 +141,7 @@ class _IntegrationLegend extends StatelessWidget {
           IntegrationStatus.pendingPermission,
           'An integration exists but stays off until the site\'s permission is documented.',
         ),
+        (IntegrationStatus.devTesting, 'Development build only: integration running for testing.'),
         (IntegrationStatus.integrated, 'Catalogue shown in Library with the site\'s permission.'),
       ])
         Padding(

@@ -10,6 +10,10 @@ enum IntegrationStatus {
   /// An adapter exists but is switched off until permission is documented.
   pendingPermission,
 
+  /// Debug builds only: adapter running on the developer's device for
+  /// testing, before permission is documented. Never in release builds.
+  devTesting,
+
   /// Adapter active; catalogue features available.
   integrated,
 }

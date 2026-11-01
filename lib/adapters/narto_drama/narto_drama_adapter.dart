@@ -2,16 +2,19 @@ import '../../data/models/models.dart';
 import '../site_adapter.dart';
 import 'narto_drama_config.dart';
 
-/// Narto-Drama adapter: LOCKED STUB.
+/// Narto-Drama adapter: DEVELOPMENT TEST TARGET.
 ///
-/// Per spec phase 4, this adapter must not parse anything until:
-///  1. The site's integration permission is documented (NartoDramaConfig.permission).
-///  2. The site's rights to the content it serves are confirmed.
-///  3. Its page structure has been inspected and the parsers below written
-///     against it, with tests using saved, permitted sample pages.
+/// Runs in debug builds so the integration can be built and tested on the
+/// developer's device. In release builds the registry keeps it off unless
+/// NartoDramaConfig.permission is documented, so it cannot ship by accident.
 ///
-/// Until then the registry keeps it inactive and the site behaves as a normal
-/// browser page.
+/// Rules that apply in every build: read only pages the user opened in the
+/// in-app browser; never bypass CAPTCHA, Cloudflare/anti-bot checks, logins
+/// or DRM; if a stream is not directly playable, return null and the user
+/// keeps watching in the site's own page.
+///
+/// Parsers are still stubs: they get written once the site's page
+/// structure has been inspected.
 class NartoDramaAdapter extends SiteAdapter {
   @override
   String get id => 'narto-drama';

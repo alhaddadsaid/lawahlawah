@@ -6,7 +6,7 @@ Complete before **every** store submission. Store approval is never guaranteed.
 - [ ] No sample data in the release build (`AppState.useSampleData` is false outside debug; verify in a release build that no SAMPLE badges appear).
 - [ ] Every active adapter has a documented `AdapterPermission` (agreement reference, who granted it, date, content rights confirmed).
 - [ ] No adapter bypasses CAPTCHA, Cloudflare/anti-bot checks, logins, paywalls or DRM.
-- [ ] Narto-Drama adapter stays locked unless its permission and content rights are on file.
+- [ ] Release build: every adapter without documented permission is off (no DEV TEST badges anywhere). Narto-Drama included.
 - [ ] Store listing, screenshots and keywords do not name or show third-party sites, films or shows without permission.
 - [ ] The app is not described as giving access to free movies/TV.
 

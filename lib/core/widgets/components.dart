@@ -311,6 +311,7 @@ class IntegrationBadge extends StatelessWidget {
   Widget build(BuildContext context) => switch (status) {
     IntegrationStatus.integrated => const RwBadge('INTEGRATED', color: RwColors.success),
     IntegrationStatus.pendingPermission => const RwBadge('PENDING', color: RwColors.warning),
+    IntegrationStatus.devTesting => const RwBadge('DEV TEST', color: Color(0xFF7C5CFF)),
     IntegrationStatus.browserOnly => const RwBadge('BROWSER', color: RwColors.cardHigh),
   };
 }

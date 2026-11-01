@@ -87,25 +87,37 @@ void main() {
 
   group('Adapters', () {
     test('undocumented adapter never activates', () {
-      final r = AdapterRegistry([_FakeAdapter(AdapterPermission.notDocumented)]);
+      final r = AdapterRegistry(adapters: [_FakeAdapter(AdapterPermission.notDocumented)], developmentMode: false);
       final u = Uri.parse('https://www.fake.example/x');
       expect(r.activeFor(u), isNull);
       expect(r.statusFor(u), IntegrationStatus.pendingPermission);
     });
     test('documented without content rights still inactive', () {
-      final r = AdapterRegistry([_FakeAdapter(AdapterPermission(documented: true, verifiedOn: DateTime(2026)))]);
+      final r = AdapterRegistry(
+        adapters: [_FakeAdapter(AdapterPermission(documented: true, verifiedOn: DateTime(2026)))],
+        developmentMode: false,
+      );
       expect(r.activeFor(Uri.parse('https://fake.example')), isNull);
     });
     test('fully documented adapter activates', () {
-      final r = AdapterRegistry([
-        _FakeAdapter(AdapterPermission(documented: true, contentRightsConfirmed: true, verifiedOn: DateTime(2026))),
-      ]);
+      final r = AdapterRegistry(
+        adapters: [
+          _FakeAdapter(AdapterPermission(documented: true, contentRightsConfirmed: true, verifiedOn: DateTime(2026))),
+        ],
+        developmentMode: false,
+      );
       expect(r.activeFor(Uri.parse('https://fake.example')), isNotNull);
       expect(r.statusFor(Uri.parse('https://other.example')), IntegrationStatus.browserOnly);
     });
-    test('default registry: Narto-Drama is locked', () {
-      final r = AdapterRegistry();
+    test('release mode: Narto-Drama stays off without documented permission', () {
+      final r = AdapterRegistry(developmentMode: false);
       expect(r.all.single.permission.canActivate, isFalse);
+    });
+    test('development mode runs undocumented adapters, marked devTesting', () {
+      final r = AdapterRegistry(adapters: [_FakeAdapter(AdapterPermission.notDocumented)], developmentMode: true);
+      final u = Uri.parse('https://fake.example/x');
+      expect(r.activeFor(u), isNotNull);
+      expect(r.statusFor(u), IntegrationStatus.devTesting);
     });
   });
 

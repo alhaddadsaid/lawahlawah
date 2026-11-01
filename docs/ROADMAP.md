@@ -34,9 +34,10 @@ Legend: ✅ done and tested here · 🟡 written, needs testing on a real device
 tracks, PiP, resume position, episode navigation, error/network recovery. Fallback to the
 site's own page whenever `PlaybackSource.canPlayNatively` is false.
 
-## Phase 4: Website adapter ⬜ (blocked on permission)
-Narto-Drama adapter stays locked until permission and content rights are documented in
-`lib/adapters/narto_drama/narto_drama_config.dart`.
+## Phase 4: Website adapter ⬜
+Narto-Drama is the development test target: its adapter runs in debug builds (DEV TEST
+badge). Release builds keep it off until permission and content rights are documented in
+`lib/adapters/narto_drama/narto_drama_config.dart`; get that before publishing.
 
 ## Phase 5: Library and history ⬜
 drift (SQLite) for catalogue, episodes, watch history; connect player progress.
