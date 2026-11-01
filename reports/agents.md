@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-01 04:10 UTC. Runs so far: 53. Model: claude-haiku-5-5.
+Updated 2026-11-01 04:22 UTC. Runs so far: 53. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1394 | 31 | -37238.81 | -50581.28 |
+| control | meme | 1398 | 31 | -37299.64 | -50681.58 |
 | control | macro | 28 | 46 | -141.99 | -292.93 |
-| control | all | 1422 | 31 | -37380.8 | -50874.21 |
+| control | all | 1426 | 31 | -37441.63 | -50974.51 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: SCF long at 0.0003862, stop 0.00030896, target 0.00054068, opened 2026-11-01 02:17 UTC
 - control: Jason long at 9.543e-05, stop 7.6344e-05, target 0.000133602, opened 2026-11-01 02:26 UTC
-- control: iTech long at 0.0001537, stop 0.00012296, target 0.00021518, opened 2026-11-01 03:12 UTC
-- control: BALLS long at 0.0001453, stop 0.00011624, target 0.00020342, opened 2026-11-01 04:07 UTC
-- control: Pikmin long at 0.0001629, stop 0.00013032, target 0.00022806, opened 2026-11-01 04:10 UTC
+- control: KIM long at 0.0002322, stop 0.00018576, target 0.00032508, opened 2026-11-01 04:16 UTC
+- control: tipr long at 8.411e-05, stop 6.7288e-05, target 0.000117754, opened 2026-11-01 04:22 UTC
 
 ## Team
 
@@ -34,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-01 04:10 UTC control: OPENED Pikmin long at 0.0001629 (stop 0.00013032, target 0.00022806) - control: frozen v3 rules
+- 2026-11-01 04:22 UTC control: OPENED tipr long at 8.411e-05 (stop 6.7288e-05, target 0.000117754) - control: frozen v3 rules
 
