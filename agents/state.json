@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -28457.60521048191,
+   "cash": -28563.07577355124,
    "open": [
-    {
-     "id": 1488,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "KIM",
-     "mint": "8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump",
-     "side": 1,
-     "opened": 1793536132.0024323,
-     "entry": 0.0001884,
-     "stop": 0.00015072000000000002,
-     "target": 0.00026376,
-     "size": 1061571.1252653927,
-     "deadline": 1793543332.0024323,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1492,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "RAM",
-     "mint": "6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump",
-     "side": 1,
-     "opened": 1793538491.8619003,
-     "entry": 8.687e-05,
-     "stop": 6.9496e-05,
-     "target": 0.00012161799999999999,
-     "size": 2302290.779325429,
-     "deadline": 1793545691.8619006,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1493,
      "desk": "control",
@@ -53,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1495,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "BNB",
-     "mint": "EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump",
-     "side": 1,
-     "opened": 1793540852.6866071,
-     "entry": 5.232e-05,
-     "stop": 4.1856e-05,
-     "target": 7.3248e-05,
-     "size": 3822629.96941896,
-     "deadline": 1793548052.6866074,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1497,
      "desk": "control",
      "market": "meme",
@@ -81,30 +36,48 @@
      "size": 1190476.1904761905,
      "deadline": 1793549143.5807166,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1498,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "REGRETAMINE",
+     "mint": "Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT",
+     "side": 1,
+     "opened": 1793543214.3287964,
+     "entry": 0.0001283,
+     "stop": 0.00010264,
+     "target": 0.00017962,
+     "size": 1558846.453624318,
+     "deadline": 1793550414.3287966,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1498,
+ "next_id": 1499,
  "runs": 55,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793543024.7055566,
-  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793543024.7055566,
-  "seen:5xN3n2dvgd77jAmC37QhoEu5QkvTUeGPH2qZFLeMpump": 1793543024.7055566,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793543024.7055566,
-  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793543024.7055566,
-  "seen:Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT": 1793543205.2734027,
-  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793543205.2734027,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793543205.2734027,
-  "seen:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": 1793543205.2734027,
-  "seen:3Q7wmeh2DSxwxRsHRyKeYqdLxPCy67u4Avqp7Pwxpump": 1793543387.7938583,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793543387.7938583,
-  "seen:tjQGvgjdR9PJKhkpZtZsehDYxjePRcXs8swkXwSpump": 1793543569.2947054,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1793543569.2947054,
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793543569.2947054,
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793543751.0687797,
-  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793543751.0687797
+  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793543751.0687797,
+  "seen:F4rbj1erkDbUp7ifK8gqJfs9ixDyqDTNACqAkHqQpump": 1793543933.4603145,
+  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793543933.4603145,
+  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793543933.4603145,
+  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793543933.4603145,
+  "seen:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793543933.4603145,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793543933.4603145,
+  "seen:Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT": 1793544114.2614064,
+  "seen:DgkKGYiJZMCah6iphatZeqCGJ5S51ND7qxQZQdP5pump": 1793544114.2614064,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793544114.2614064,
+  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793544114.2614064,
+  "control:Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT": 1793544114.328799,
+  "seen:GRNDYDpqwpCm6jVxpbh4xT5AM4r3p391qYsKTHqgaET2": 1793544295.682572,
+  "seen:13RafKDQMKqHFLRBshe6hVmQL9MpCmzmERBnrdRBpump": 1793544295.682572,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793544295.682572,
+  "seen:5xN3n2dvgd77jAmC37QhoEu5QkvTUeGPH2qZFLeMpump": 1793544295.682572,
+  "seen:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": 1793544476.780882,
+  "seen:6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1793544476.780882
  },
  "talks": {
   "2026-10-21": 109
@@ -145,18 +118,18 @@
  ],
  "last_review": 1793533893.992842,
  "news": {
-  "t": 1793542669.3003693,
+  "t": 1793543576.7861931,
   "crypto": [
-   "Crypto PACs made big Republican push in final weeks before November 3 election (0h ago)",
+   "Here\u2019s what happened in crypto today (0h ago)",
+   "Crypto PACs made big Republican push in final weeks before November 3 election (1h ago)",
    "DeepSeek developing AI agent requiring less human input: Report (1h ago)",
-   "Sherrod Brown's Ohio edge threatens a rough go for crypto next year (1h ago)",
+   "Sherrod Brown's Ohio edge threatens a rough go for crypto next year (2h ago)",
    "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack (4h ago)",
    "Binance says phase one of withdrawals opens after $6.3B hack (5h ago)",
    "FBI blames North Korea for record $6.3B Binance hack (7h ago)",
    "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses (13h ago)",
-   "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered (20h ago)",
-   "A stolen iPhone, $14,000 in losses and London's crypto theft problem (22h ago)",
-   "Traders are already placing leveraged bets on Anthropic\u2019s IPO using crypto contracts (22h ago)"
+   "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered (21h ago)",
+   "A stolen iPhone, $14,000 in losses and London's crypto theft problem (22h ago)"
   ],
   "macro": [],
   "calendar": []
