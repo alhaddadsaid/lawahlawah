@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -28657.639122683308,
+   "cash": -28544.306441665696,
    "open": [
-    {
-     "id": 1493,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "WASTED",
-     "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
-     "side": 1,
-     "opened": 1793538854.8660674,
-     "entry": 0.0001022,
-     "stop": 8.176e-05,
-     "target": 0.00014308,
-     "size": 1956947.1624266144,
-     "deadline": 1793546054.8660676,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1499,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "KIM",
-     "mint": "8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump",
-     "side": 1,
-     "opened": 1793544305.061315,
-     "entry": 0.0002393,
-     "stop": 0.00019144,
-     "target": 0.00033501999999999995,
-     "size": 835770.9987463435,
-     "deadline": 1793551505.061315,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1502,
      "desk": "control",
@@ -59,13 +29,6 @@
  "runs": 55,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793546113.570227,
-  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793546113.570227,
-  "seen:Dm7uQVngPSs82eWfVnx3rb7hbqoDb6f2E455R783pump": 1793546295.385025,
-  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793546295.385025,
-  "seen:8YD2f8mPtc5GtEd6NoemQQrWNQ6hdmSbrUcfVgoXpump": 1793546478.859529,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793546478.859529,
-  "seen:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": 1793546478.859529,
   "seen:DoPuTpyJnKEvZeQpDTr5cbZ1vRsTuQuJNCM4S4gPyPZA": 1793546659.5833738,
   "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793546659.5833738,
   "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793546659.5833738,
@@ -77,7 +40,16 @@
   "seen:Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT": 1793546840.1255672,
   "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793546840.1255672,
   "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793546840.1255672,
-  "control:Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT": 1793546840.191062
+  "control:Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT": 1793546840.191062,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793547022.2955804,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793547022.2955804,
+  "seen:3DAc3uHSFZCpjZ5YrnARLFVWocRRhupF56sbcir7hBak": 1793547203.2376218,
+  "seen:Dm7uQVngPSs82eWfVnx3rb7hbqoDb6f2E455R783pump": 1793547203.2376218,
+  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793547203.2376218,
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793547203.2376218,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793547384.857482,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793547384.857482,
+  "seen:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": 1793547384.857482
  },
  "talks": {
   "2026-10-21": 109
@@ -118,17 +90,17 @@
  ],
  "last_review": 1793533893.992842,
  "news": {
-  "t": 1793545395.3903658,
+  "t": 1793546303.2431283,
   "crypto": [
    "The key races to watch for the 2026 election (0h ago)",
    "Crypto card startups are racking up losses just to buy your loyalty with big rewards (0h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
    "Crypto PACs made big Republican push in final weeks before November 3 election (1h ago)",
-   "DeepSeek developing AI agent requiring less human input: Report (1h ago)",
+   "DeepSeek developing AI agent requiring less human input: Report (2h ago)",
    "Sherrod Brown's Ohio edge threatens a rough go for crypto next year (2h ago)",
-   "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack (4h ago)",
-   "Binance says phase one of withdrawals opens after $6.3B hack (5h ago)",
-   "FBI blames North Korea for record $6.3B Binance hack (7h ago)",
+   "Binance opens crypto withdrawals in phases starting with bitcoin following $6.3 billion hack (5h ago)",
+   "Binance says phase one of withdrawals opens after $6.3B hack (6h ago)",
+   "FBI blames North Korea for record $6.3B Binance hack (8h ago)",
    "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses (14h ago)"
   ],
   "macro": [],
@@ -162,5 +134,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793545213.5756183
+ "last_macro_macro": 1793546484.8630712
 }
