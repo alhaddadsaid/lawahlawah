@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-01 21:59 UTC. Runs so far: 56. Model: claude-haiku-5-5.
+Updated 2026-11-01 22:07 UTC. Runs so far: 56. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,19 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1492 | 31 | -39452.56 | -53743.45 |
+| control | meme | 1495 | 31 | -39488.15 | -53808.89 |
 | control | macro | 28 | 46 | -141.99 | -292.93 |
-| control | all | 1520 | 31 | -39594.55 | -54036.38 |
+| control | all | 1523 | 31 | -39630.14 | -54101.82 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: RAM long at 0.0001356, stop 0.00010848, target 0.00018984, opened 2026-11-01 21:07 UTC
 - control: Kim long at 0.0001644, stop 0.00013152, target 0.00023016, opened 2026-11-01 21:13 UTC
-- control: REGRETAMINE long at 7.063e-05, stop 5.6504e-05, target 9.8882e-05, opened 2026-11-01 21:31 UTC
 - control: BLUE long at 8.572e-05, stop 6.8576e-05, target 0.000120008, opened 2026-11-01 21:34 UTC
-- control: PI long at 0.0001146, stop 9.168e-05, target 0.00016044, opened 2026-11-01 21:59 UTC
+- control: RAM long at 0.000117, stop 9.36e-05, target 0.0001638, opened 2026-11-01 22:01 UTC
+- control: ARNOLD long at 8.163e-05, stop 6.5304e-05, target 0.000114282, opened 2026-11-01 22:04 UTC
+- control: uni long at 0.0001439, stop 0.00011512, target 0.00020146, opened 2026-11-01 22:07 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-01 21:59 UTC control: OPENED PI long at 0.0001146 (stop 9.168e-05, target 0.00016044) - control: frozen v3 rules
+- 2026-11-01 22:07 UTC control: OPENED uni long at 0.0001439 (stop 0.00011512, target 0.00020146) - control: frozen v3 rules
 
