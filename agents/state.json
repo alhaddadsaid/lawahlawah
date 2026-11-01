@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -27298.48364169102,
+   "cash": -27300.181688620905,
    "open": [
-    {
-     "id": 1433,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "LUMI",
-     "mint": "HvitmAeh6TkToQonoiNwqWcrZsYdYiaSZHP7yMmspump",
-     "side": 1,
-     "opened": 1793491244.3509867,
-     "entry": 7.117e-05,
-     "stop": 5.6936e-05,
-     "target": 9.9638e-05,
-     "size": 2810172.825628776,
-     "deadline": 1793498444.3509872,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1438,
      "desk": "control",
@@ -44,22 +29,23 @@
  "runs": 53,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793498312.758273,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793498312.758273,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793498495.601053,
-  "seen:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": 1793498679.2672482,
-  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793498679.2672482,
-  "seen:C9gQXbknvEApase7cGm3znt64hA5JPBhxACaDJuppump": 1793498679.2672482,
-  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793498679.2672482,
-  "seen:JoRJjAzSf1GWqPtDGWaFoPz74tj8V6TfezzBaLqpump": 1793498679.2672482,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793498679.2672482,
-  "control:9ivsveqwXzsCXYba3SDDzaocx27DbfYpLuZPb9Bdpump": 1793498680.2689362,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793498860.0333261,
-  "seen:9ivsveqwXzsCXYba3SDDzaocx27DbfYpLuZPb9Bdpump": 1793499043.5883374,
-  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793499043.5883374,
-  "seen:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793499043.5883374,
-  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793499043.5883374,
-  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793499043.5883374
+  "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793499225.1954124,
+  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793499225.1954124,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793499409.8988974,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793499409.8988974,
+  "seen:JoRJjAzSf1GWqPtDGWaFoPz74tj8V6TfezzBaLqpump": 1793499593.1428816,
+  "seen:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": 1793499593.1428816,
+  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793499593.1428816,
+  "seen:4annndMn1YDmSxBaxWm79S6F1wuZDCryc17ftwX4pump": 1793499593.1428816,
+  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793499593.1428816,
+  "seen:8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump": 1793499593.1428816,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793499777.462946,
+  "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793499960.7277455,
+  "seen:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793499960.7277455,
+  "seen:57YQJbgdE32ZMCQzBivhjcXmnMLY5iw2MwrtcPYWpump": 1793499960.7277455,
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793499960.7277455,
+  "seen:HytpiyuR3sVXGB5UqoqrnThCPH2X1tWVm5neep3Dpump": 1793499960.7277455,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793499960.7277455
  },
  "talks": {
   "2026-10-21": 109
@@ -100,15 +86,15 @@
  ],
  "last_review": 1793447479.2185068,
  "news": {
-  "t": 1793497779.2735577,
+  "t": 1793498693.1491072,
   "crypto": [
    "FBI confirms North Korea's role in $6 billion Binance hack, asks DeFi community to block BTC, ETH, SOL addresses (1h ago)",
    "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered (8h ago)",
    "A stolen iPhone, $14,000 in losses and London's crypto theft problem (10h ago)",
    "Traders are already placing leveraged bets on Anthropic\u2019s IPO using crypto contracts (10h ago)",
    "Binance says 90% of stolen assets replenished, targets Sunday withdrawals (10h ago)",
-   "Bitcoin held up better than expected after Binance hack, Strive CEO says (10h ago)",
-   "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach (10h ago)",
+   "Bitcoin held up better than expected after Binance hack, Strive CEO says (11h ago)",
+   "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach (11h ago)",
    "Here\u2019s what happened in crypto today (11h ago)",
    "Institutions embrace crypto staking despite shrinking yields (11h ago)",
    "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (11h ago)"
@@ -144,5 +130,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793497779.2734318
+ "last_macro_macro": 1793499060.733992
 }
