@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-01 15:03 UTC. Runs so far: 55. Model: claude-haiku-5-5.
+Updated 2026-11-01 15:12 UTC. Runs so far: 55. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1451 | 31 | -38466.05 | -52361.68 |
+| control | meme | 1452 | 31 | -38515.78 | -52420.4 |
 | control | macro | 28 | 46 | -141.99 | -292.93 |
-| control | all | 1479 | 32 | -38608.04 | -52654.61 |
+| control | all | 1480 | 31 | -38657.77 | -52713.33 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: WASTED long at 0.0001022, stop 8.176e-05, target 0.00014308, opened 2026-11-01 13:14 UTC
 - control: KIM long at 0.0002393, stop 0.00019144, target 0.00033502, opened 2026-11-01 14:45 UTC
-- control: REGRETAMINE long at 0.000186, stop 0.0001488, target 0.0002604, opened 2026-11-01 14:48 UTC
+- control: REGRETAMINE long at 0.0001335, stop 0.0001068, target 0.0001869, opened 2026-11-01 15:12 UTC
 
 ## Team
 
@@ -32,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order REGRETAMINE REJECTED by guardrails: REGRETAMINE already open
+- 2026-11-01 15:12 UTC control: OPENED REGRETAMINE long at 0.0001335 (stop 0.0001068, target 0.0001869) - control: frozen v3 rules
 
