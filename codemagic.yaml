@@ -26,3 +26,39 @@ workflows:
         script: flutter build apk --release --build-number=$BUILD_NUMBER
     artifacts:
       - build/app/outputs/flutter-apk/*.apk
+
+  ios-testflight:
+    name: Reelway - iOS TestFlight
+    instance_type: mac_mini_m2
+    max_build_duration: 45
+    # Started by hand in Codemagic (no push trigger) to save free macOS minutes.
+    # Needs, set up once in Codemagic: an App Store Connect API key integration
+    # named "Reelway ASC", plus a distribution certificate and an App Store
+    # profile for com.reelway.reelway (Team settings > Code signing identities).
+    integrations:
+      app_store_connect: Reelway ASC
+    environment:
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: com.reelway.reelway
+    scripts:
+      - script: flutter pub get
+      - script: flutter test
+      - name: Apply signing profiles
+        script: xcode-project use-profiles
+      - name: Build signed IPA
+        # Release build: the browser and pop-up protection are the same as in
+        # debug; sample titles and the Narto-Drama test adapter are off.
+        script: |
+          flutter build ipa --release --build-number=$BUILD_NUMBER \
+            --export-options-plist=/Users/builder/export_options.plist
+    artifacts:
+      - build/ios/ipa/*.ipa
+    publishing:
+      app_store_connect:
+        auth: integration
+        # Internal testers get builds without Apple review.
+        submit_to_testflight: true

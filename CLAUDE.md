@@ -43,6 +43,10 @@ flutter run                # on a device/emulator
   tools/preview_index.html; see README). The preview cannot load other websites (claude.ai
   blocks it), so browsing must be tested on a device, emulator or Appetize.
 - `codemagic.yaml`: APK builds once the repo is added in Codemagic.
+- `codemagic.yaml` `ios-testflight`: signed release IPA to TestFlight, started by hand. Needs the
+  Codemagic App Store Connect integration "Reelway ASC" and signing files for com.reelway.reelway.
+  This is how the app reaches Said's iPhone (no Xcode on his Mac). Release builds keep the
+  pop-up protection; sample titles and the Narto-Drama adapter are debug-only.
 - `flutter_inappwebview` is pinned to 6.2.0-beta.3 because 6.1.x fails on Android
   Gradle Plugin 9; move to stable 6.2.0 when released.
 
