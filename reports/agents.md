@@ -33,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-01 12:00 UTC control: OPENED MARVIN long at 8.411e-05 (stop 6.7288e-05, target 0.000117754) - control: frozen v3 rules
+## Run ended 2026-11-01 12:00 UTC
 
