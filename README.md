@@ -42,6 +42,7 @@ from the run's artifacts) and an unsigned iOS build on every push.
 - **Web preview** (`.github/workflows/web-preview.yml`): builds the web version with sample data to the `web-preview` branch. Publish it as the Claude artifact preview with:
   ```bash
   git fetch origin web-preview && rm -rf /tmp/wp && mkdir -p /tmp/wp && git archive origin/web-preview | tar -x -C /tmp/wp
+  mkdir -p <publish-folder> && cp tools/preview_index.html <publish-folder>/index.html
   python3 tools/prep_preview.py /tmp/wp <publish-folder> > files.json   # then publish <publish-folder>/index.html with that files map
   ```
   Current preview: https://claude.ai/artifact/1f73SCkNpGwYpoA45dNUUS

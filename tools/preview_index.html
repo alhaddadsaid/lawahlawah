@@ -1,0 +1,74 @@
+<title>Reelway App Preview</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<style>
+  /* Single dark look: this is the app itself, which is dark-only by design. */
+  :root {
+    --bg: #101014;
+    --surface: #191920;
+    --fg: #ffffff;
+    --muted: #a0a0aa;
+    --accent: #e85d35;
+    color-scheme: dark;
+  }
+  [hidden] { display: none !important; }
+  html, body { height: 100%; background: var(--bg); color: var(--fg); }
+  body { margin: 0; overflow: hidden; }
+  #boot {
+    position: fixed; inset: 0; display: grid; place-items: center; gap: 12px;
+    font: 14px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif; color: var(--muted);
+    background: var(--bg); z-index: 5;
+  }
+  #boot .logo {
+    width: 56px; height: 56px; border-radius: 14px; display: grid; place-items: center;
+    background: linear-gradient(135deg, var(--accent), #b8361a);
+  }
+  #boot .logo::after {
+    content: ""; border-left: 18px solid #fff; border-top: 11px solid transparent; border-bottom: 11px solid transparent;
+    margin-left: 5px;
+  }
+  @media (prefers-reduced-motion: no-preference) { #boot .logo { animation: pulse 1.2s ease-in-out infinite alternate; } }
+  @keyframes pulse { from { opacity: .55 } to { opacity: 1 } }
+  #fallback {
+    position: fixed; inset: 0; overflow: auto; z-index: 6; background: var(--bg);
+    font: 14px/1.5 system-ui, -apple-system, "Segoe UI", sans-serif;
+    padding-block: 24px;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+  }
+  #fallback h1 { font-size: 22px; margin: 0 0 4px; text-wrap: balance; }
+  #fallback p { color: var(--muted); margin: 0 0 20px; max-width: 60ch; }
+  #fallback .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 16px; }
+  #fallback figure { margin: 0; }
+  #fallback img { width: 100%; max-width: 100%; border-radius: 16px; border: 1px solid #2a2a33; display: block; }
+  #fallback figcaption { color: var(--muted); font-size: 12px; margin-top: 6px; }
+</style>
+
+<div id="boot" aria-live="polite"><div><div class="logo"></div></div><div id="boot-msg">Starting Reelway…</div></div>
+
+<div id="fallback" hidden>
+  <h1>Reelway screens</h1>
+  <p>The live app could not start in this viewer, so here are screenshots from the same build. Titles shown are invented sample data.</p>
+  <div class="grid">
+    <figure><img src="shots/01-home.png" alt="Home screen"><figcaption>Home</figcaption></figure>
+    <figure><img src="shots/07-detail.png" alt="Title detail screen"><figcaption>Title detail</figcaption></figure>
+    <figure><img src="shots/03-browse.png" alt="Browse screen"><figcaption>Browse</figcaption></figure>
+    <figure><img src="shots/04-library.png" alt="Library screen"><figcaption>Library</figcaption></figure>
+    <figure><img src="shots/05-history.png" alt="History screen"><figcaption>History</figcaption></figure>
+    <figure><img src="shots/06-settings.png" alt="Settings screen"><figcaption>Settings</figcaption></figure>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var started = false;
+    window.addEventListener('flutter-first-frame', function () {
+      started = true;
+      var b = document.getElementById('boot');
+      if (b) b.hidden = true;
+    });
+    setTimeout(function () {
+      if (!started) document.getElementById('fallback').hidden = false;
+    }, 20000);
+  })();
+</script>
+<script src="flutter_bootstrap.js" async></script>
