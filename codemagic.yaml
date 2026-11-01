@@ -1,0 +1,28 @@
+workflows:
+  android-test:
+    name: Reelway - Android test build
+    instance_type: mac_mini_m2
+    max_build_duration: 30
+    environment:
+      flutter: stable
+    triggering:
+      events: [push]
+      branch_patterns:
+        - pattern: main
+          include: true
+        - pattern: streaming-browser
+          include: true
+    scripts:
+      # android/ and ios/ are committed (they carry the app name, permissions
+      # and SDK levels), so no `flutter create` step is needed.
+      - script: flutter pub get
+      - script: flutter analyze --no-fatal-infos
+      - script: flutter test
+      - name: Build Android APK
+        # Debug build: the Narto-Drama test adapter and sample titles are on.
+        script: flutter build apk --debug --build-number=$BUILD_NUMBER
+      - name: Build Android release APK
+        # Store-style build: sample data and undocumented adapters are off.
+        script: flutter build apk --release --build-number=$BUILD_NUMBER
+    artifacts:
+      - build/app/outputs/flutter-apk/*.apk

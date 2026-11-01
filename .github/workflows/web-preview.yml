@@ -1,0 +1,50 @@
+name: Web preview
+
+# Builds the Flutter web version with sample data and saves it to the
+# `web-preview` branch. The agent copies that build into a Claude artifact
+# (see tools/prep_preview.py) to give a live preview link.
+
+on:
+  push:
+    branches: [main, streaming-browser]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: web-preview
+  cancel-in-progress: true
+
+jobs:
+  build-web:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - run: flutter pub get
+      - run: flutter analyze --no-fatal-infos
+      - run: flutter test
+
+      - name: Build web version
+        # --no-web-resources-cdn bundles CanvasKit so the artifact page is
+        # self-contained. SAMPLE_DATA shows the invented titles in the preview
+        # only; store builds never set it.
+        run: flutter build web --release --no-web-resources-cdn --dart-define=SAMPLE_DATA=true
+
+      - name: Use relative paths
+        run: sed -i 's|<base href="/">|<base href="./">|' build/web/index.html
+
+      - name: Save build to the web-preview branch
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: web-preview
+          publish_dir: build/web
+          force_orphan: true
+          commit_message: "Web preview of ${{ github.sha }}"
