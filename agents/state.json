@@ -66,21 +66,29 @@
      "size": 817327.3395995096,
      "deadline": 1793500960.2190862,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1438,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "WASTED",
+     "mint": "GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump",
+     "side": 1,
+     "opened": 1793495221.361808,
+     "entry": 0.0001769,
+     "stop": 0.00014152,
+     "target": 0.00024765999999999997,
+     "size": 1130582.2498586774,
+     "deadline": 1793502421.3618083,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1438,
+ "next_id": 1439,
  "runs": 53,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GT7npkZe1b9ayvsHhvSm7yUYqq8XkWSP4v1xYNcSpump": 1793494844.2189856,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793494844.2189856,
-  "seen:ERe8Kp7hF9vkC52TQ7EZwKtG7bF8TDdZW8Bgw4wUpump": 1793495029.7511036,
-  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793495029.7511036,
-  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793495029.7511036,
-  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793495029.7511036,
-  "seen:4MoN1jPTku8NJztWd7mvTPHU99z7MXbrZ8u5FtvXpump": 1793495029.7511036,
   "seen:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793495392.4142683,
   "seen:DNUTsCvKbKwu2RM72cUuW3TD9YpzArzACcqYQssjPLSk": 1793495392.4142683,
   "seen:EYqygbhZjP7EbM4fSn8devctnksAvPAD1Bt57XBFpump": 1793495392.4142683,
@@ -89,7 +97,14 @@
   "seen:5THtNEGTF1y67eRWvcgz3MomDZePCVx1xdskHHeCpump": 1793495392.4142683,
   "seen:7ttfwuBSnbNTgf32gUAT7v9bjdDWsn6pYpp7nmGmpump": 1793495576.8493834,
   "seen:CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": 1793495576.8493834,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793495576.8493834
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793495576.8493834,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793495757.5384915,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793495757.5384915,
+  "seen:762ZqBCd5m2q3QJ5UPkFL5rqdEUeygNkfTZrpGEZpump": 1793495937.864033,
+  "seen:FdKdpz11GsTofLaNiddrhxrsE4APZYSSfLFqQ9YKpump": 1793495937.864033,
+  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793495937.864033,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1793496120.9910007,
+  "control:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793496121.3618116
  },
  "talks": {
   "2026-10-21": 109
@@ -130,18 +145,18 @@
  ],
  "last_review": 1793447479.2185068,
  "news": {
-  "t": 1793494129.7566447,
+  "t": 1793495037.8700755,
   "crypto": [
    "Bitcoin's white paper turns 18, and small businesses are still paying for the bailouts it answered (7h ago)",
    "A stolen iPhone, $14,000 in losses and London's crypto theft problem (9h ago)",
    "Traders are already placing leveraged bets on Anthropic\u2019s IPO using crypto contracts (9h ago)",
    "Binance says 90% of stolen assets replenished, targets Sunday withdrawals (9h ago)",
-   "Bitcoin held up better than expected after Binance hack, Strive CEO says (9h ago)",
-   "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach (9h ago)",
+   "Bitcoin held up better than expected after Binance hack, Strive CEO says (10h ago)",
+   "Binance says it has replaced 90% of stolen crypto after massive $6.3 billion breach (10h ago)",
    "Here\u2019s what happened in crypto today (10h ago)",
    "Institutions embrace crypto staking despite shrinking yields (10h ago)",
    "Uber tests how tokenization can put idle cash to work with HSBC, Franklin Templeton (10h ago)",
-   "Bitcoin turns 18: Has the original rebel grown up? (10h ago)"
+   "Bitcoin turns 18: Has the original rebel grown up? (11h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -174,5 +189,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793493944.224981
+ "last_macro_macro": 1793495220.99712
 }
