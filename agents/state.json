@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -29486.552740885894,
+   "cash": -29282.552740885894,
    "open": [
     {
      "id": 1516,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1520,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Kim",
-     "mint": "qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump",
-     "side": 1,
-     "opened": 1793557035.7354753,
-     "entry": 0.0002602,
-     "stop": 0.00020816,
-     "target": 0.0003642799999999999,
-     "size": 768639.5080707149,
-     "deadline": 1793564235.7354755,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1522,
      "desk": "control",
      "market": "meme",
@@ -50,21 +35,6 @@
      "target": 0.00011818799999999999,
      "size": 2369106.846718787,
      "deadline": 1793566598.3410406,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1523,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Maxxmas",
-     "mint": "MAXXib7SQAQn4ymrwhhR9qMRUcYv8BNhbQxizJn5CCk",
-     "side": 1,
-     "opened": 1793559581.3192284,
-     "entry": 6.172e-05,
-     "stop": 4.9376e-05,
-     "target": 8.640799999999999e-05,
-     "size": 3240440.6999351913,
-     "deadline": 1793566781.3192286,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -85,34 +55,31 @@
    ]
   }
  },
- "next_id": 1526,
+ "next_id": 1527,
  "runs": 56,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3BzyUWdt24S5bJkBRi9XwBmjjEW5n6yRxAPn9fLAVjQa": 1793560117.1239393,
-  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793560117.1239393,
-  "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793560117.1239393,
-  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793560117.1239393,
-  "seen:69ddGhPEsRZcCcKZ2FCETSxpvbPFgL32senxeSnWpump": 1793560298.2472053,
-  "seen:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793560298.2472053,
-  "seen:MAXXib7SQAQn4ymrwhhR9qMRUcYv8BNhbQxizJn5CCk": 1793560298.2472053,
-  "seen:2VoFVFiMUCQWqSLtsUq4wobV2gehcVWtmaA1mEnppump": 1793560298.2472053,
-  "seen:3qjBR3LfzEAKVS6QXuR2QZ1RFUsXzATWvmjbGB5Dpump": 1793560298.2472053,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793560298.2472053,
-  "seen:LhqZu9ES4TUKMKWn22mFWohq6Ysczcvyw33vts4pump": 1793560298.2472053,
-  "control:3qjBR3LfzEAKVS6QXuR2QZ1RFUsXzATWvmjbGB5Dpump": 1793560298.3410442,
-  "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793560481.2108862,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793560481.2108862,
-  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793560481.2108862,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793560481.2108862,
-  "seen:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": 1793560481.2108862,
-  "control:MAXXib7SQAQn4ymrwhhR9qMRUcYv8BNhbQxizJn5CCk": 1793560481.319232,
   "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793560663.059346,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793560663.059346,
   "control:69ddGhPEsRZcCcKZ2FCETSxpvbPFgL32senxeSnWpump": 1793560663.1324193,
   "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793560844.5997436,
   "seen:CKRgPZftRmqZ4mYJAwvw5JqJyzR89eWYV4d9fgWpump": 1793560844.5997436,
-  "control:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793560845.3196092
+  "control:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793560845.3196092,
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793561027.5381415,
+  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793561027.5381415,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793561027.5381415,
+  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793561027.5381415,
+  "seen:MAXXib7SQAQn4ymrwhhR9qMRUcYv8BNhbQxizJn5CCk": 1793561209.147531,
+  "seen:HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7": 1793561209.147531,
+  "seen:Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT": 1793561209.147531,
+  "seen:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793561209.147531,
+  "control:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": 1793561209.2282887,
+  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793561390.5774605,
+  "seen:qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump": 1793561390.5774605,
+  "seen:87qD8YuJMoriV55YJ7C1yQPTHGTS71F6WyEKtNExpump": 1793561390.5774605,
+  "seen:2ExY2qrG3HsZ8XPTCqBKXMGq6paxGsmXVHhR3kWYpump": 1793561390.5774605,
+  "seen:1ZKxRyhqEUz8JRWpH3kWkhRqHhWecdKEZ2huug6pump": 1793561390.5774605,
+  "seen:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": 1793561390.5774605
  },
  "talks": {
   "2026-10-21": 109
@@ -197,5 +164,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793559217.1289828
+ "last_macro_macro": 1793560490.5824606
 }
