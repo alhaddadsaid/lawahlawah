@@ -36,3 +36,14 @@ from the run's artifacts) and an unsigned iOS build on every push.
 - [Roadmap and status](docs/ROADMAP.md): phases, what's tested, known limits
 - [Compliance checklist](docs/COMPLIANCE_CHECKLIST.md): run before every release
 - [FlutterFlow workflow](docs/FLUTTERFLOW.md)
+
+## Build and preview pipeline
+- **CI** (`.github/workflows/ci.yml`): format, analyze, tests, debug APK (download from the run's Artifacts) and an unsigned iOS build on every push.
+- **Web preview** (`.github/workflows/web-preview.yml`): builds the web version with sample data to the `web-preview` branch. Publish it as the Claude artifact preview with:
+  ```bash
+  git fetch origin web-preview && rm -rf /tmp/wp && mkdir -p /tmp/wp && git archive origin/web-preview | tar -x -C /tmp/wp
+  python3 tools/prep_preview.py /tmp/wp <publish-folder> > files.json   # then publish <publish-folder>/index.html with that files map
+  ```
+  Current preview: https://claude.ai/artifact/1f73SCkNpGwYpoA45dNUUS
+- **Codemagic** (`codemagic.yaml`): debug and release APKs on push, once the repo is added in Codemagic.
+- Sample data appears only in debug builds and in the web preview (`--dart-define=SAMPLE_DATA=true`), never in store builds.
