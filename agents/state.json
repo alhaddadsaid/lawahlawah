@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -32113.31911481211,
+   "cash": -32102.109356680336,
    "open": [
     {
      "id": 1619,
@@ -51,50 +51,33 @@
      "size": 3881987.5776397516,
      "deadline": 1793624740.3682325,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1627,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "WWIII",
-     "mint": "GD52VfoPZdad4hiNPg4UnjtDGsS4WiM3mqS8j1czpump",
-     "side": 1,
-     "opened": 1793618273.1181653,
-     "entry": 0.0001031,
-     "stop": 8.248000000000001e-05,
-     "target": 0.00014434,
-     "size": 1939864.2095053347,
-     "deadline": 1793625473.1181655,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1628,
+ "next_id": 1629,
  "runs": 58,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:EzMQEoKsKGxJUQXMtYMYTKZHUcR7zCMVd2Xuc4cVeXAw": 1793618440.302515,
-  "seen:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": 1793618440.302515,
-  "seen:7Ypg1rKLu8q32E1AQEDjaPCg8dfGeCSsMkFnK98zcash": 1793618440.302515,
-  "control:nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump": 1793618440.3682356,
-  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793618621.7892418,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793618621.7892418,
-  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793618621.7892418,
-  "control:EzMQEoKsKGxJUQXMtYMYTKZHUcR7zCMVd2Xuc4cVeXAw": 1793618622.7746098,
-  "seen:5oC168LCQbHHtkDruUmSSQZrhKCpr3wLLs6XUxSrpump": 1793618805.6535552,
-  "seen:GoDSW31bTxfkoup9yA1qcGGx9RMXdTEWgApv3xzBmoA": 1793618805.6535552,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793618805.6535552,
-  "seen:A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": 1793618805.6535552,
-  "seen:8rogfyeL6AnHm7pM1k1mxNTBy6rWUfUvBaVmtL4Ypump": 1793618990.2913864,
-  "seen:FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump": 1793618990.2913864,
-  "seen:GD52VfoPZdad4hiNPg4UnjtDGsS4WiM3mqS8j1czpump": 1793618990.2913864,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793618990.2913864,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793618990.2913864,
-  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793618990.2913864,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793619173.0862412,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793619173.0862412,
-  "control:GD52VfoPZdad4hiNPg4UnjtDGsS4WiM3mqS8j1czpump": 1793619173.1181686
+  "seen:2ujER748k8AneeyDhHAgF1HhtqNePDhyS1w88upVn57Y": 1793619356.3040671,
+  "seen:EzMQEoKsKGxJUQXMtYMYTKZHUcR7zCMVd2Xuc4cVeXAw": 1793619356.3040671,
+  "seen:DZiK5TZMAgnZy9aGsXeRUtPtS9Rhq1bCSFBgMbCupump": 1793619356.3040671,
+  "seen:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": 1793619356.3040671,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793619540.6930006,
+  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793619540.6930006,
+  "seen:FAqiaGmrSdx2Z5qZmSRUkbyYCF2dFCUTfYVwP4Mypump": 1793619540.6930006,
+  "control:FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump": 1793619541.3739955,
+  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793619724.464679,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793619724.464679,
+  "seen:GoDSW31bTxfkoup9yA1qcGGx9RMXdTEWgApv3xzBmoA": 1793619724.464679,
+  "seen:GD52VfoPZdad4hiNPg4UnjtDGsS4WiM3mqS8j1czpump": 1793619907.257418,
+  "seen:FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump": 1793619907.257418,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793619907.257418,
+  "seen:nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump": 1793619907.257418,
+  "seen:Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT": 1793619907.257418,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793620090.932305,
+  "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793620090.932305,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793620090.932305
  },
  "talks": {
   "2026-10-21": 109
@@ -135,18 +118,18 @@
  ],
  "last_review": 1793533893.992842,
  "news": {
-  "t": 1793617721.7973082,
+  "t": 1793618640.701121,
   "crypto": [
-   "Trezor lifts password ceiling after Coldcard\u2019s $100M wallet thefts (0h ago)",
+   "Trezor lifts password ceiling after Coldcard\u2019s $100M wallet thefts (1h ago)",
    "Hong Kong takes tokenized settlement to 24/7, plans stablecoin trials (1h ago)",
-   "BTC heads into US midterm showdown: Three things to know in Bitcoin this week (1h ago)",
+   "BTC heads into US midterm showdown: Three things to know in Bitcoin this week (2h ago)",
    "Metals.io issues tokens backed by 25 tonnes of physical copper stored in Germany (2h ago)",
    "Binance hack fallout, U.S. midterms and jobs report: Crypto Week Ahead (2h ago)",
    "OKX draws $445M in net inflows as Binance outflows exceed $7B (2h ago)",
-   "Live updates: Binance records $6 billion outflows after starting withdrawals, less then 4% of total holdings (2h ago)",
-   "China\u2019s Communist Party calls for a crackdown on corruption that uses crypto and blockchain (2h ago)",
+   "Live updates: Binance records $6 billion outflows after starting withdrawals, less then 4% of total holdings (3h ago)",
+   "China\u2019s Communist Party calls for a crackdown on corruption that uses crypto and blockchain (3h ago)",
    "Why stealing billions from a crypto exchange can be harder to stop than a bank theft (3h ago)",
-   "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack (3h ago)"
+   "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack (4h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -179,5 +162,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793617721.797202
+ "last_macro_macro": 1793619007.265575
 }
