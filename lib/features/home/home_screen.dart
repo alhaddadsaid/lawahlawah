@@ -182,10 +182,16 @@ class _HomeScreenState extends State<HomeScreen> {
     if (active == null || active.url != url) return;
     final body = await _commands[active.id]?.html();
     if (!mounted || body == null || _tabs.active?.url != url) return;
-    if (app.inspectBrowserPage(url, body) == null) return;
+    final page = app.inspectBrowserPage(url, body);
+    if (page == null) return;
     setState(() => _detected.add(url.toString()));
-    // A series page goes straight to Reelway's Series screen, once per page.
-    if (app.settings.openVideosInReelway && !LinkFeed.isVideo(url) && _autoOpened.add('${active.id}|$url')) {
+    // Only one series with its episodes moves to Reelway by itself, once per
+    // page. A page listing many series stays in the browser so the user can
+    // pick one; the button still offers the whole list.
+    if (app.settings.openVideosInReelway &&
+        page.series.isNotEmpty &&
+        !LinkFeed.isVideo(url) &&
+        _autoOpened.add('${active.id}|$url')) {
       _shell.openSource(url);
     }
   }
