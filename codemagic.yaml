@@ -70,13 +70,8 @@ workflows:
     max_build_duration: 45
     # The same app under its own App Store Connect record "ReelBro"
     # (com.reelway.reelbro, app 6829761642), used for testing since 2 Nov 2026.
-    # Every push to streaming-browser builds it for the internal group "Said".
-    triggering:
-      events: [push]
-      cancel_previous_builds: true
-      branch_patterns:
-        - pattern: streaming-browser
-          include: true
+    # Started by hand while TestFlight invitations are stuck (Apple case
+    # 103016839116); pushes build ios-reelbro-adhoc instead.
     integrations:
       app_store_connect: Reelway ASC
     environment:
@@ -109,3 +104,52 @@ workflows:
       app_store_connect:
         auth: integration
         submit_to_testflight: false
+
+  ios-reelbro-adhoc:
+    name: ReelBro - iOS direct install (Ad Hoc)
+    instance_type: mac_mini_m2
+    max_build_duration: 45
+    # Installs straight on registered iPhones, no TestFlight. Profile
+    # "ReelBro Ad Hoc" (Codemagic reference reelbro_ad_hoc) lists the devices;
+    # a new tester's iPhone must be added to it in the Apple Developer portal
+    # and the profile fetched again in Codemagic.
+    triggering:
+      events: [push]
+      cancel_previous_builds: true
+      branch_patterns:
+        - pattern: streaming-browser
+          include: true
+    environment:
+      flutter: stable
+      xcode: latest
+      cocoapods: default
+      ios_signing:
+        distribution_type: ad_hoc
+        bundle_identifier: com.reelway.reelbro
+    scripts:
+      - script: flutter pub get
+      - script: dart format --output=none --set-exit-if-changed -l 120 lib test
+      - script: flutter analyze
+      - script: flutter test
+      - name: Use the ReelBro app identity
+        script: |
+          sed -i '' 's/PRODUCT_BUNDLE_IDENTIFIER = com.reelway.reelway;/PRODUCT_BUNDLE_IDENTIFIER = com.reelway.reelbro;/' \
+            ios/Runner.xcodeproj/project.pbxproj
+          /usr/libexec/PlistBuddy -c "Set :CFBundleDisplayName ReelBro" ios/Runner/Info.plist
+      - name: Apply signing profiles
+        script: xcode-project use-profiles
+      - name: Build signed IPA
+        script: |
+          flutter build ipa --release --build-number=$BUILD_NUMBER \
+            --dart-define=REELWAY_TEST_PARTNER=true \
+            --export-options-plist=/Users/builder/export_options.plist
+    artifacts:
+      - build/ios/ipa/*.ipa
+    publishing:
+      email:
+        # The email carries the install link for the registered iPhones.
+        recipients:
+          - alhaddadsaid.es@gmail.com
+        notify:
+          success: true
+          failure: true
