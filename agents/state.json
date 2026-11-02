@@ -21,36 +21,52 @@
      "size": 1237623.7623762377,
      "deadline": 1793600240.582485,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1581,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "EURUSD",
+     "mint": "",
+     "side": -1,
+     "opened": 1793595791.8764718,
+     "entry": 1.1179429292678833,
+     "stop": 1.118833294936589,
+     "target": 1.116607380764825,
+     "size": 112313.40505904617,
+     "deadline": 1793682191.8764722,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 1581,
+ "next_id": 1582,
  "runs": 57,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": 1793595034.6234753,
-  "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793595034.6234753,
-  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793595034.6234753,
-  "control:6VS4gnHmLdMcDZEtEViRfV6WvsoTwJ23okbHZwfupump": 1793595034.6500008,
-  "seen:F3q2mwxMz4bieoDgZDKbKdHJVVEUTBM2a1yGeQiHpump": 1793595217.052515,
-  "seen:GoDSW31bTxfkoup9yA1qcGGx9RMXdTEWgApv3xzBmoA": 1793595217.052515,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793595217.052515,
-  "seen:C5wNa8dQ4RqxKki6tkJgLVx676eX9BmQLPUbfQePpump": 1793595217.052515,
-  "seen:9ZmdP8q22ebRhEkcwd5EDkitu7ypeDFXTQXpv2kUpump": 1793595398.4954937,
-  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793595579.622587,
-  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793595579.622587,
-  "seen:EaxAUcXxNnVwcqm2BBocbows7D1XVY2Q63V38NEypump": 1793595579.622587,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793595579.622587,
-  "seen:63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9": 1793595762.0407712,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793595762.0407712,
-  "seen:jM9r9PJFyPaMEbhGZPbDeZJiysn2pfyz5TzdDs5pump": 1793595762.0407712
+  "seen:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": 1793595943.9208448,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793595943.9208448,
+  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793595943.9208448,
+  "seen:93VGqXL76voGxc43apJTDJoKkqnxTht1BKWoEmUypump": 1793595943.9208448,
+  "seen:GoDSW31bTxfkoup9yA1qcGGx9RMXdTEWgApv3xzBmoA": 1793596120.7354949,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793596120.7354949,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793596120.7354949,
+  "seen:9ZmdP8q22ebRhEkcwd5EDkitu7ypeDFXTQXpv2kUpump": 1793596305.747059,
+  "seen:C5wNa8dQ4RqxKki6tkJgLVx676eX9BmQLPUbfQePpump": 1793596305.747059,
+  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793596491.921459,
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793596491.921459,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793596491.921459,
+  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793596491.921459,
+  "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793596491.921459,
+  "seen:6pF5Lt3jjyfV9uF4WqWvGJmPVHChQn5QACAjSLzSpump": 1793596491.921459,
+  "seen:29pUezwEvr94jhkGdnexC1YRagHqEYnhLZyVuuZYV7Nz": 1793596691.4891138,
+  "control:EURUSD": 1793596691.876475
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498214,
+ "ctrl_macro_hour": 498221,
  "team": [
   {
    "name": "Lead",
@@ -85,7 +101,7 @@
  ],
  "last_review": 1793533893.992842,
  "news": {
-  "t": 1793594862.048862,
+  "t": 1793595791.4971876,
   "crypto": [
    "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack (0h ago)",
    "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets (0h ago)",
@@ -93,7 +109,7 @@
    "THORChain halts swaps after block reorg bug, slowing Binance hackers (3h ago)",
    "Binance net outflows surge to $5.8B as withdrawals resume after record hack (5h ago)",
    "THORChain founder rejects freeze request, CZ thanks Secret Service: Hodler\u2019s Digest (6h ago)",
-   "The crypto reader's guide to the 2026 midterm election: State of Crypto (9h ago)",
+   "The crypto reader's guide to the 2026 midterm election: State of Crypto (10h ago)",
    "AI agents bypassed crypto spending limits without human approval, researchers find in a new test (12h ago)",
    "The key races to watch for the 2026 election (14h ago)",
    "Crypto card startups are racking up losses just to buy your loyalty with big rewards (14h ago)"
