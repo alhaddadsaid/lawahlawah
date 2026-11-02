@@ -95,6 +95,7 @@ class BrowserView extends StatefulWidget {
     required this.commands,
     required this.onBlocked,
     required this.onPageLoaded,
+    this.onOpenSeries,
   });
 
   final BrowserTab tab;
@@ -105,6 +106,10 @@ class BrowserView extends StatefulWidget {
   final BrowserCommands commands;
   final void Function(Uri site, Decision decision, {required bool popup}) onBlocked;
   final void Function(Uri url, String title) onPageLoaded;
+
+  /// Asked before the tab opens a page; true when Reelway shows that series
+  /// itself, so the website page is not loaded.
+  final bool Function(Uri target)? onOpenSeries;
 
   @override
   State<BrowserView> createState() => _BrowserViewState();
@@ -246,6 +251,7 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
     final target = a.request.url?.uriValue;
     if (a.isForMainFrame && _isRefusedPopupLoad(target)) return NavigationActionPolicy.CANCEL;
     if (target == null) return NavigationActionPolicy.ALLOW;
+    if (a.isForMainFrame && widget.onOpenSeries?.call(target) == true) return NavigationActionPolicy.CANCEL;
     final gesture = _gesture(a);
     // Only ask the page what was tapped when it matters: a tapped jump of the
     // main page to a different site.

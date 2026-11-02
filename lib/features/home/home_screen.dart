@@ -12,6 +12,8 @@ import '../../core/security/url_policy.dart';
 import '../../core/widgets/components.dart';
 import '../../data/models/models.dart';
 import '../../data/repositories/app_state.dart';
+import '../content/content_detail_screen.dart';
+import '../library/add_link_sheet.dart';
 import '../settings/protection_screen.dart';
 import '../settings/websites_screen.dart';
 import '../shell/shell.dart';
@@ -192,7 +194,77 @@ class _HomeScreenState extends State<HomeScreen> {
         PageSource.isSingleSeries(page) &&
         !LinkFeed.isVideo(url) &&
         _autoOpened.add('${active.id}|$url')) {
-      _shell.openSource(url);
+      unawaited(_openSeries(url));
+    }
+  }
+
+  /// A tapped Narto series opens in Reelway's series screen without loading
+  /// the website page; the browser stays on the list the user came from.
+  bool _interceptSeries(Uri target) {
+    final app = context.read<AppState>();
+    if (target == _showOnWebsite) {
+      _showOnWebsite = null;
+      return false;
+    }
+    if (!app.settings.openVideosInReelway || !PageSource.isNartoSeries(target)) return false;
+    unawaited(_openSeries(target));
+    return true;
+  }
+
+  bool _openingSeries = false;
+
+  /// A series Reelway could not read: let the browser open it once.
+  Uri? _showOnWebsite;
+
+  /// Shows [url]'s series in Reelway's series screen (poster, Watch, episodes).
+  /// The title is kept in the Library so Continue Watching survives restarts.
+  /// When Reelway cannot read it, the page opens in the browser instead.
+  Future<void> _openSeries(Uri url) async {
+    if (_openingSeries) return;
+    _openingSeries = true;
+    try {
+      final app = context.read<AppState>();
+      if (!app.linksDisclaimerAccepted) {
+        final accepted = await showDialog<bool>(
+          context: context,
+          builder: (context) => AlertDialog(
+            title: const Text('Links you add'),
+            content: const Text(AddLinkSheet.disclaimer),
+            actions: [
+              TextButton(onPressed: () => Navigator.pop(context, false), child: const Text('Cancel')),
+              FilledButton(onPressed: () => Navigator.pop(context, true), child: const Text('I understand')),
+            ],
+          ),
+        );
+        if (!mounted || accepted != true) return;
+        app.acceptLinksDisclaimer();
+      }
+      final key = url.toString();
+      String? error;
+      if (!app.links.contains(key)) {
+        unawaited(
+          showDialog<void>(
+            context: context,
+            barrierDismissible: false,
+            builder: (_) => const Center(child: CircularProgressIndicator()),
+          ),
+        );
+        error = await app.addLink(key);
+        if (mounted) Navigator.of(context).pop();
+      }
+      if (!mounted) return;
+      final title = app.content.where((c) => c.sourcePageUrl == key).firstOrNull;
+      if (error != null || title == null) {
+        // Not readable here (or the site wants a check): show the website.
+        if (_tabs.active?.url.toString() != key) {
+          _showOnWebsite = url;
+          _open(url);
+        }
+        return;
+      }
+      await ContentDetailScreen.open(context, title);
+    } finally {
+      _openingSeries = false;
     }
   }
 
@@ -374,6 +446,7 @@ class _HomeScreenState extends State<HomeScreen> {
                         commands: _commands.putIfAbsent(t.id, BrowserCommands.new),
                         onBlocked: _onBlocked,
                         onPageLoaded: _detectSource,
+                        onOpenSeries: _interceptSeries,
                       ),
               ],
             ),

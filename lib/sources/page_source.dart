@@ -74,8 +74,10 @@ class PageSource {
   /// Whether [page] is one series Reelway can show with its episodes: the
   /// episodes are on the page, or it is a Narto series page whose episodes
   /// [read] fetches from the first episode.
-  static bool isSingleSeries(SourcePage page) =>
-      page.series.isNotEmpty || (isNarto(page.url) && page.url.path.startsWith('/detail/watch/'));
+  static bool isSingleSeries(SourcePage page) => page.series.isNotEmpty || isNartoSeries(page.url);
+
+  /// A Narto series or episode address, known before the page loads.
+  static bool isNartoSeries(Uri url) => isNarto(url) && url.path.startsWith('/detail/watch/');
 
   static Uri catalogueUrl(Uri uri) {
     if (!isNarto(uri) || (uri.path.isNotEmpty && uri.path != '/')) return uri;
