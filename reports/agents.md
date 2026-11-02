@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-02 00:26 UTC. Runs so far: 57. Model: claude-haiku-5-5.
+Updated 2026-11-02 00:41 UTC. Runs so far: 57. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1505 | 31 | -39563.76 | -53985.13 |
+| control | meme | 1506 | 31 | -39613.98 | -54044.32 |
 | control | macro | 28 | 46 | -141.99 | -292.93 |
-| control | all | 1533 | 31 | -39705.75 | -54278.06 |
+| control | all | 1534 | 31 | -39755.97 | -54337.25 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: CYBERLEEK long at 0.001755, stop 0.001404, target 0.002457, opened 2026-11-01 23:40 UTC
-- control: Learjet long at 0.0001852, stop 0.00014816, target 0.00025928, opened 2026-11-02 00:05 UTC
 - control: PI long at 0.0001747, stop 0.00013976, target 0.00024458, opened 2026-11-02 00:11 UTC
+- control: REGRETAMINE long at 6.315e-05, stop 5.052e-05, target 8.841e-05, opened 2026-11-02 00:38 UTC
 
 ## Team
 
