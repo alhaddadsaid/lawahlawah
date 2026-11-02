@@ -254,4 +254,24 @@ void main() {
       expect(replay(ad, title), isFalse);
     });
   });
+
+  test('a server redirect of the page the user just opened is part of their tap', () {
+    final now = DateTime(2026, 11, 2, 23);
+    final tapped = now.subtract(const Duration(seconds: 2));
+    expect(PopupProtection.isRedirectOfUserNavigation(loading: true, userNavAt: tapped, now: now), isTrue);
+    expect(
+      PopupProtection.isRedirectOfUserNavigation(loading: false, userNavAt: tapped, now: now),
+      isFalse,
+      reason: 'a jump from a page that finished loading is the page itself',
+    );
+    expect(PopupProtection.isRedirectOfUserNavigation(loading: true, userNavAt: null, now: now), isFalse);
+    expect(
+      PopupProtection.isRedirectOfUserNavigation(
+        loading: true,
+        userNavAt: now.subtract(const Duration(seconds: 30)),
+        now: now,
+      ),
+      isFalse,
+    );
+  });
 }

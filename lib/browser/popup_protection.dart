@@ -242,6 +242,15 @@ class PopupProtection {
     return href;
   }
 
+  /// Whether a main-page load without a tap is the server forwarding the
+  /// user's own navigation (Google result links, short links): it happens
+  /// while the page the user opened is still loading, shortly after.
+  static bool isRedirectOfUserNavigation({
+    required bool loading,
+    required DateTime? userNavAt,
+    required DateTime now,
+  }) => loading && userNavAt != null && now.difference(userNavAt) < const Duration(seconds: 8);
+
   /// Whether a main-page load is the WebView replaying a pop-up that was just
   /// refused: the same address, or any blank page when the refused pop-up
   /// was blank ([refused] null).

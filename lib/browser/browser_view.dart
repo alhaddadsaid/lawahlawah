@@ -22,7 +22,14 @@ class BrowserCommands {
   Future<void> forward() async => _c?.goForward();
   Future<void> reload() async => _c?.reload();
   Future<void> stop() async => _c?.stopLoading();
-  Future<void> load(Uri url) async => _c?.loadUrl(urlRequest: URLRequest(url: WebUri.uri(url)));
+  Future<void> load(Uri url) async {
+    _userNavAt = DateTime.now();
+    await _c?.loadUrl(urlRequest: URLRequest(url: WebUri.uri(url)));
+  }
+
+  /// When the user last started a page load (tap, typed address); its server
+  /// redirects are let through (see PopupProtection.isRedirectOfUserNavigation).
+  DateTime? _userNavAt;
   Future<String?> html() async => _c?.getHtml();
 
   static final _world = ContentWorld.world(name: MediaCapture.worldName);
@@ -165,6 +172,7 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
       return;
     }
     widget.protection.allowOnce(dest);
+    widget.commands._userNavAt = DateTime.now();
     c.loadUrl(urlRequest: URLRequest(url: WebUri.uri(dest)));
   }
 
@@ -240,13 +248,27 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
 
   /// Records the last pressed element at the start of every tap, before the
   /// page's own (ad) handlers can redirect it. Capture phase on window.
+  /// Ad scripts often lay an invisible layer over the page; then the page's
+  /// own link under the finger is recorded instead of the layer.
   static const _tapRecorderJs = r"""
 (function () {
   if (window.__rwTap) return;
   window.__rwTap = { href: null, t: 0 };
+  function site(host) { return host.split('.').slice(-2).join('.'); }
+  function sameSite(u) {
+    try { return site(new URL(u, location.href).hostname) === site(location.hostname); } catch (e) { return false; }
+  }
   function rec(e) {
     var el = e.target, a = el && el.closest ? el.closest('a[href]') : null;
-    window.__rwTap = { href: a ? a.href : '', t: Date.now() };
+    var href = a ? a.href : '';
+    if ((!href || !sameSite(href)) && document.elementsFromPoint && typeof e.clientX === 'number') {
+      var stack = document.elementsFromPoint(e.clientX, e.clientY);
+      for (var i = 0; i < stack.length; i++) {
+        var b = stack[i].closest ? stack[i].closest('a[href]') : null;
+        if (b && b.href.indexOf('http') === 0 && sameSite(b.href)) { href = b.href; break; }
+      }
+    }
+    window.__rwTap = { href: href, t: Date.now() };
   }
   window.addEventListener('pointerdown', rec, true);
   window.addEventListener('click', rec, true);
@@ -289,12 +311,23 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
       _restoreIfBlank(c);
       return NavigationActionPolicy.CANCEL;
     }
-    final gesture = _gesture(a);
+    final tapped = _gesture(a);
+    // A server forwarding the page the user just opened (a Google result,
+    // a short link) counts as the user's own navigation.
+    final redirect =
+        !tapped &&
+        a.isForMainFrame &&
+        PopupProtection.isRedirectOfUserNavigation(
+          loading: widget.tab.isLoading,
+          userNavAt: widget.commands._userNavAt,
+          now: DateTime.now(),
+        );
+    final gesture = tapped || redirect;
     // Only ask the page what was tapped when it matters: a tapped jump of the
     // main page to a different site.
     final current = widget.tab.url;
     final needsTap =
-        gesture &&
+        tapped &&
         a.isForMainFrame &&
         UrlPolicy.classify(target) == NavigationKind.web &&
         !PopupProtection.sameSite(current, target);
@@ -312,6 +345,7 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
     switch (decision.action) {
       case DecisionAction.allow:
       case DecisionAction.allowInNewTab:
+        if (a.isForMainFrame && gesture) widget.commands._userNavAt = DateTime.now();
         return NavigationActionPolicy.ALLOW;
       case DecisionAction.block:
         widget.tabs.update(widget.tab.id, (t) => t.blockedCount++);
@@ -446,6 +480,7 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
         if (url != null) t.url = url.uriValue;
       }),
       onLoadStop: (c, url) async {
+        widget.commands._userNavAt = null;
         widget.tabs.update(tab.id, (t) => t.isLoading = false);
         _sync(c, url: url);
         final title = await c.getTitle() ?? '';
