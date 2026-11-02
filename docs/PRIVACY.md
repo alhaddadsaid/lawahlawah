@@ -31,4 +31,4 @@ Reelway is not directed at children under 13.
 
 ## Contact
 
-Questions about this policy: alhaddadsaid.es@gmail.com
+Questions about this policy: info@reelbrow.space
