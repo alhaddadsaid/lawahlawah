@@ -148,8 +148,31 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
     if (dest == _lastRescue && now.difference(_lastRescueAt) < const Duration(seconds: 3)) return;
     _lastRescue = dest;
     _lastRescueAt = now;
+    if (widget.onOpenSeries?.call(dest) == true) {
+      // Reelway shows that series itself; do not leave the ad's blank page.
+      _restoreIfBlank(c);
+      return;
+    }
     widget.protection.allowOnce(dest);
     c.loadUrl(urlRequest: URLRequest(url: WebUri.uri(dest)));
+  }
+
+  /// The last real page this tab showed, to return to if an ad left it blank.
+  Uri? _lastPage;
+
+  /// After a series moved to Reelway, an ad's refused window can leave the tab
+  /// on a blank page: go back to the page the user tapped on.
+  void _restoreIfBlank(InAppWebViewController c) {
+    Future.delayed(const Duration(milliseconds: 500), () async {
+      if (!mounted) return;
+      final now = (await c.getUrl())?.uriValue;
+      if (now != null && (now.scheme == 'https' || now.scheme == 'http')) return;
+      if (await c.canGoBack()) {
+        await c.goBack();
+      } else if (_lastPage != null) {
+        await c.loadUrl(urlRequest: URLRequest(url: WebUri.uri(_lastPage!)));
+      }
+    });
   }
 
   /// iOS: when onCreateWindow refuses a pop-up, flutter_inappwebview loads the
@@ -251,7 +274,10 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
     final target = a.request.url?.uriValue;
     if (a.isForMainFrame && _isRefusedPopupLoad(target)) return NavigationActionPolicy.CANCEL;
     if (target == null) return NavigationActionPolicy.ALLOW;
-    if (a.isForMainFrame && widget.onOpenSeries?.call(target) == true) return NavigationActionPolicy.CANCEL;
+    if (a.isForMainFrame && widget.onOpenSeries?.call(target) == true) {
+      _restoreIfBlank(c);
+      return NavigationActionPolicy.CANCEL;
+    }
     final gesture = _gesture(a);
     // Only ask the page what was tapped when it matters: a tapped jump of the
     // main page to a different site.
@@ -407,6 +433,7 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
         widget.tabs.update(tab.id, (t) => t.isLoading = false);
         _sync(c, url: url);
         final title = await c.getTitle() ?? '';
+        if (url != null && (url.scheme == 'https' || url.scheme == 'http')) _lastPage = url.uriValue;
         if (url != null) widget.onPageLoaded(url.uriValue, title);
       },
       onProgressChanged: (c, p) => widget.tabs.update(tab.id, (t) => t.progress = p / 100),
