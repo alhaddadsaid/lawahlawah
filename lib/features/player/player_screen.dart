@@ -10,6 +10,8 @@ import '../../core/design/tokens.dart';
 import '../../data/models/models.dart';
 import '../../data/models/user_settings.dart';
 import '../../sources/subtitle_track.dart';
+import '../../ads/ad_pacing.dart';
+import '../../ads/ads.dart';
 import 'cast_controller.dart';
 import 'subtitle_loader.dart';
 import 'episode_picker.dart';
@@ -344,7 +346,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
     if (v.isCompleted && !_ended) {
       _ended = true;
       _save();
-      if (_app.settings.autoplayNext && _index + 1 < widget.episodes.length) _goTo(_index + 1);
+      if (_app.settings.autoplayNext && _index + 1 < widget.episodes.length) unawaited(_goTo(_index + 1));
     }
     setState(() {});
   }
@@ -356,9 +358,17 @@ class _PlayerScreenState extends State<PlayerScreen> {
     _app.recordProgress(widget.content, _episode, c.value.position, c.value.duration);
   }
 
-  void _goTo(int index) {
+  Future<void> _goTo(int index) async {
     if (index < 0 || index >= widget.episodes.length) return;
     _save();
+    // Every few episodes, an interstitial between them (paced in AdPacing).
+    // Not while the video plays on a TV.
+    if (!_cast.isCasting && AdPacing.episodeStarted()) {
+      await _video?.pause();
+      if (!mounted) return;
+      await showInterstitialAd(context);
+      if (!mounted) return;
+    }
     final openPage = widget.onOpenPage;
     if (openPage != null && !widget.episodes[index].isPlayable) {
       final episode = widget.episodes[index];
@@ -420,7 +430,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
       selected: _index,
     );
     if (!mounted) return;
-    if (selected != null && selected != _index) _goTo(selected);
+    if (selected != null && selected != _index) unawaited(_goTo(selected));
     _showControls();
   }
 

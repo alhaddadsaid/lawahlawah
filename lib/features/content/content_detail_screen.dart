@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+
+import '../../ads/ads.dart';
+
 import 'package:provider/provider.dart';
 
 import '../../core/design/tokens.dart';
@@ -65,6 +68,7 @@ class ContentDetailScreen extends StatelessWidget {
     final width = MediaQuery.sizeOf(context).width;
 
     return Scaffold(
+      bottomNavigationBar: const SafeArea(top: false, child: BannerAdSlot()),
       body: CustomScrollView(
         slivers: [
           SliverAppBar(

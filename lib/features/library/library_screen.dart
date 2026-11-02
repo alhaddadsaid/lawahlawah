@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+
+import '../../ads/ads.dart';
+
 import 'package:provider/provider.dart';
 
 import '../../core/design/tokens.dart';
@@ -59,6 +62,7 @@ class LibraryScreen extends StatelessWidget {
                 children: [for (var i = 0; i < _tabs.length; i++) _Grid(items: lists[i], emptyLabel: _tabs[i])],
               ),
             ),
+            const BannerAdSlot(),
           ],
         ),
       ),

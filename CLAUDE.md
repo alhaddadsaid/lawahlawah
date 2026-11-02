@@ -14,6 +14,11 @@
 > Play in Reelway: on any website, the video the page's own player starts is
 > offered in Reelway's player, with the page's episode links; see
 > docs/SOURCE_SUPPORT.md. Per-site readers are not the plan for other sites.
+> AdMob (lib/ads, adapted from REELS Movies): consent form and Apple tracking
+> prompt at start, app open ad on return, interstitial every 3 episodes (90 s
+> cooldown), adaptive banners on the start page, Library and series screen,
+> never over a website or the video. Google TEST IDs until Reelway's AdMob app
+> exists (ad_config.dart, Info.plist, AndroidManifest.xml).
 > Standing instruction: push verified updates to streaming-browser and confirm
 > Codemagic delivery to internal TestFlight. Older notes below are historical.
 

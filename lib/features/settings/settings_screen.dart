@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+
+import '../../ads/ads.dart';
+
 import 'package:provider/provider.dart';
 
 import '../../core/design/tokens.dart';
@@ -165,6 +168,13 @@ class SettingsScreen extends StatelessWidget {
               'Terms of service',
               null,
               () => Navigator.of(context).push(LegalScreen.route(LegalDoc.terms)),
+            ),
+            // Required where Google's consent form applies (EU, UK, some US states).
+            FutureBuilder<bool>(
+              future: privacyOptionsRequired(),
+              builder: (context, snapshot) => snapshot.data == true
+                  ? _NavTile(Icons.privacy_tip_outlined, 'Privacy choices', 'Ad personalisation', showPrivacyOptions)
+                  : const SizedBox.shrink(),
             ),
           ]),
         ],

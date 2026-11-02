@@ -17,6 +17,18 @@
 	<string>A website you are visiting asked to use the camera. Reelway only allows this if you approve.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>A website you are visiting asked to use the microphone. Reelway only allows this if you approve.</string>
+	<key>GADApplicationIdentifier</key>
+	<!-- Google's TEST app ID. Replace with Reelway's AdMob app ID before release. -->
+	<string>ca-app-pub-3940256099942544~1458002511</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>Reelway is free thanks to ads. Allowing tracking shows you ads that fit your interests instead of random ones.</string>
+	<key>SKAdNetworkItems</key>
+	<array>
+		<dict>
+			<key>SKAdNetworkIdentifier</key>
+			<string>cstr6suwn9.skadnetwork</string>
+		</dict>
+	</array>
 	<key>NSLocalNetworkUsageDescription</key>
 	<string>Reelway looks for Chromecast and TVs on your Wi-Fi so you can play videos on them.</string>
 	<key>NSBonjourServices</key>

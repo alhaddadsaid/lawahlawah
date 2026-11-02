@@ -3,6 +3,7 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../../ads/ads.dart';
 import '../../browser/browser_view.dart';
 import '../../browser/media_capture.dart';
 import '../../browser/popup_protection.dart';
@@ -451,6 +452,8 @@ class _HomeScreenState extends State<HomeScreen> {
               ],
             ),
           ),
+          // Banner only on Reelway's own start page, never over a website.
+          if (active == null) const BannerAdSlot(),
         ],
       ),
     );
