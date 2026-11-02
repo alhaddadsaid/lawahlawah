@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-02 00:00 UTC. Runs so far: 57. Model: claude-haiku-5-5.
+Updated 2026-11-02 00:11 UTC. Runs so far: 57. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1502 | 31 | -39498.33 | -53890.61 |
+| control | meme | 1505 | 31 | -39563.76 | -53985.13 |
 | control | macro | 28 | 46 | -141.99 | -292.93 |
-| control | all | 1530 | 31 | -39640.32 | -54183.54 |
+| control | all | 1533 | 31 | -39705.75 | -54278.06 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: RAM long at 0.000117, stop 9.36e-05, target 0.0001638, opened 2026-11-01 22:01 UTC
-- control: ARNOLD long at 8.163e-05, stop 6.5304e-05, target 0.000114282, opened 2026-11-01 22:04 UTC
-- control: CHAD long at 0.0005415, stop 0.0004332, target 0.0007581, opened 2026-11-01 23:34 UTC
 - control: CYBERLEEK long at 0.001755, stop 0.001404, target 0.002457, opened 2026-11-01 23:40 UTC
+- control: Learjet long at 0.0001852, stop 0.00014816, target 0.00025928, opened 2026-11-02 00:05 UTC
+- control: PI long at 0.0001747, stop 0.00013976, target 0.00024458, opened 2026-11-02 00:11 UTC
 
 ## Team
 
@@ -33,5 +32,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED PI (stop) P&L $-56.53 normal, $-65.34 pessimistic
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- 2026-11-02 00:11 UTC control: OPENED PI long at 0.0001747 (stop 0.00013976, target 0.00024458) - control: frozen v3 rules
 
