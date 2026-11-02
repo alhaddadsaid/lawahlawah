@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-02 08:08 UTC. Runs so far: 58. Model: claude-haiku-5-5.
+Updated 2026-11-02 08:18 UTC. Runs so far: 58. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,19 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1545 | 31 | -40603.07 | -55408.07 |
+| control | meme | 1546 | 31 | -40576.53 | -55392.46 |
 | control | macro | 29 | 45 | -262.25 | -418.81 |
-| control | all | 1574 | 31 | -40865.32 | -55826.88 |
+| control | all | 1575 | 31 | -40838.78 | -55811.27 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: STEALTH long at 0.0001382, stop 0.00011056, target 0.00019348, opened 2026-11-02 06:10 UTC
 - control: Kim long at 0.0002171, stop 0.00017368, target 0.00030394, opened 2026-11-02 06:37 UTC
 - control: REGRETAMINE long at 5.939e-05, stop 4.7512e-05, target 8.3146e-05, opened 2026-11-02 07:53 UTC
 - control: GBPUSD long at 1.34172, stop 1.34107, target 1.34271, opened 2026-11-02 08:02 UTC
 - control: Catori long at 0.0001531, stop 0.00012248, target 0.00021434, opened 2026-11-02 08:08 UTC
+- control: TripleH long at 7.78e-05, stop 6.224e-05, target 0.00010892, opened 2026-11-02 08:11 UTC
 
 ## Team
 
@@ -34,5 +34,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-02 08:08 UTC control: OPENED Catori long at 0.0001531 (stop 0.00012248, target 0.00021434) - control: frozen v3 rules
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- control: order CI REJECTED by guardrails: desk already has the maximum open positions
 
