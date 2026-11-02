@@ -5,6 +5,8 @@ import '../../core/design/tokens.dart';
 import '../../data/repositories/app_state.dart';
 import '../../sources/link_feed.dart';
 import '../../sources/page_source.dart';
+import '../../sources/source_verification.dart';
+import '../verification/source_verification_screen.dart';
 import '../content/content_detail_screen.dart';
 import '../shell/shell.dart';
 import '../library/add_link_sheet.dart';
@@ -25,7 +27,9 @@ class _BrowseScreenState extends State<BrowseScreen> {
   SourcePage? _page;
   bool _busy = false;
   bool _saving = false;
+  bool _loadingMore = false;
   String? _error;
+  Uri? _verificationUrl;
   int _request = 0;
 
   @override
@@ -49,23 +53,34 @@ class _BrowseScreenState extends State<BrowseScreen> {
     if (url != null) _open(url.toString());
   }
 
-  Future<void> _open(String input) async {
+  Future<void> _open(String input, {String? query}) async {
     FocusManager.instance.primaryFocus?.unfocus();
     final request = ++_request;
     setState(() {
       _busy = true;
+      _loadingMore = false;
+      _verificationUrl = null;
       _error = null;
     });
     try {
-      final page = await context.read<AppState>().readSource(LinkFeed.check(input));
+      final app = context.read<AppState>();
+      final url = LinkFeed.check(input);
+      final page = query == null ? await app.readSource(url) : await app.searchSource(url, query);
       if (!mounted || request != _request) return;
       setState(() {
         if (_page != null) _history.add(_page!);
         _page = page;
         _address.text = page.url.toString();
-        _filter.clear();
+        _filter.text = page.searchQuery ?? '';
       });
       context.read<AppState>().markVisited(page.url, page.title);
+    } on SourceVerificationRequired catch (error) {
+      if (mounted && request == _request) {
+        setState(() {
+          _error = error.message;
+          _verificationUrl = error.url;
+        });
+      }
     } on FormatException catch (error) {
       if (mounted && request == _request) setState(() => _error = error.message);
     } catch (_) {
@@ -76,6 +91,47 @@ class _BrowseScreenState extends State<BrowseScreen> {
       }
     } finally {
       if (mounted && request == _request) setState(() => _busy = false);
+    }
+  }
+
+  Future<void> _verify() async {
+    final url = _verificationUrl;
+    if (url == null) return;
+    final session = await SourceVerificationScreen.open(context, url);
+    if (!mounted || session == null) return;
+    context.read<AppState>().rememberSourceVerification(session);
+    await _open(url.toString());
+  }
+
+  Future<void> _search(String query) async {
+    final page = _page;
+    if (page == null || _busy || _saving) return;
+    if (query.trim().isEmpty) {
+      await _open(
+        page.url.replace(path: '/', queryParameters: {'lang': page.url.queryParameters['lang'] ?? 'es-ES'}).toString(),
+      );
+    } else {
+      await _open(page.url.toString(), query: query);
+    }
+  }
+
+  Future<void> _loadMore() async {
+    final page = _page;
+    if (page?.nextPage == null || _loadingMore) return;
+    final request = _request;
+    setState(() {
+      _loadingMore = true;
+      _error = null;
+    });
+    try {
+      final more = await context.read<AppState>().readSource(page!.nextPage!);
+      if (mounted && request == _request) setState(() => _page = page.append(more));
+    } on FormatException catch (error) {
+      if (mounted && request == _request) setState(() => _error = error.message);
+    } catch (_) {
+      if (mounted && request == _request) setState(() => _error = 'Could not load more titles. Please try again.');
+    } finally {
+      if (mounted && request == _request) setState(() => _loadingMore = false);
     }
   }
 
@@ -119,7 +175,11 @@ class _BrowseScreenState extends State<BrowseScreen> {
     final app = context.watch<AppState>();
     final page = _page;
     final query = _filter.text.trim().toLowerCase();
-    final titles = page?.titles.where((t) => t.title.toLowerCase().contains(query)).toList() ?? const <PageTitle>[];
+    final titles = page == null
+        ? const <PageTitle>[]
+        : page.canSearch
+        ? page.titles
+        : page.titles.where((t) => t.title.toLowerCase().contains(query)).toList();
     return SafeArea(
       bottom: false,
       child: ListView(
@@ -135,7 +195,8 @@ class _BrowseScreenState extends State<BrowseScreen> {
                       : () => setState(() {
                           _page = _history.removeLast();
                           _address.text = _page!.url.toString();
-                          _filter.clear();
+                          _filter.text = _page!.searchQuery ?? '';
+                          _loadingMore = false;
                           _error = null;
                         }),
                   icon: const Icon(Icons.arrow_back),
@@ -154,7 +215,7 @@ class _BrowseScreenState extends State<BrowseScreen> {
             autocorrect: false,
             onSubmitted: _busy || _saving ? null : _open,
             decoration: InputDecoration(
-              hintText: 'Paste a series, episode or video URL',
+              hintText: 'Paste a website, series, episode or video URL',
               prefixIcon: const Icon(Icons.link),
               suffixIcon: IconButton(
                 tooltip: 'Read source',
@@ -174,6 +235,12 @@ class _BrowseScreenState extends State<BrowseScreen> {
               padding: const EdgeInsets.symmetric(vertical: RwSpace.md),
               child: Text(_error!, style: RwType.body.copyWith(color: RwColors.danger)),
             ),
+          if (_verificationUrl != null && !_busy)
+            OutlinedButton.icon(
+              onPressed: _verify,
+              icon: const Icon(Icons.verified_user_outlined),
+              label: const Text('Complete website verification'),
+            ),
           if (page == null && !_busy) ...[
             Text('Start watching', style: RwType.title),
             const SizedBox(height: RwSpace.sm),
@@ -181,9 +248,9 @@ class _BrowseScreenState extends State<BrowseScreen> {
               contentPadding: EdgeInsets.zero,
               leading: const Icon(Icons.public, color: RwColors.accent),
               title: const Text('Narto-Drama'),
-              subtitle: const Text('Try El dragón indomable'),
+              subtitle: const Text('Browse series and search the website'),
               trailing: const Icon(Icons.chevron_right),
-              onTap: () => _open('https://narto-drama.com/detail/watch/el-dragon-indomable'),
+              onTap: () => _open('https://narto-drama.com/'),
             ),
             for (final site in app.websites)
               ListTile(
@@ -195,7 +262,7 @@ class _BrowseScreenState extends State<BrowseScreen> {
               ),
             const SizedBox(height: RwSpace.lg),
             Text(
-              'Paste a public video, catalog, or supported website page. Some sites do not expose playable video links.',
+              'Add a website to browse supported sources, or paste a public video or catalog link. Website support varies.',
               style: RwType.caption,
             ),
           ],
@@ -219,22 +286,44 @@ class _BrowseScreenState extends State<BrowseScreen> {
               ),
               const SizedBox(height: RwSpace.lg),
             ],
-            if (page.series.isEmpty && page.titles.isEmpty)
+            if (page.series.isEmpty && page.titles.isEmpty && !page.canSearch)
               Text(
-                'No public video links found. Try a series or episode page. Pages requiring sign-in, verification, or protected playback are unsupported.',
+                'Reelway could read this page, but does not yet recognize its catalog or video player. Try a direct video link or a supported website.',
                 style: RwType.body,
               ),
-            if (page.series.isEmpty && page.titles.isNotEmpty) ...[
+            if (page.series.isEmpty && (page.titles.isNotEmpty || page.canSearch)) ...[
               TextField(
                 controller: _filter,
-                onChanged: (_) => setState(() {}),
-                decoration: const InputDecoration(
-                  hintText: 'Filter titles on this page',
-                  prefixIcon: Icon(Icons.search),
+                textInputAction: TextInputAction.search,
+                onSubmitted: page.canSearch ? _search : null,
+                onChanged: page.canSearch ? null : (_) => setState(() {}),
+                decoration: InputDecoration(
+                  hintText: page.canSearch ? 'Search all Narto-Drama titles' : 'Filter titles on this page',
+                  prefixIcon: const Icon(Icons.search),
+                  suffixIcon: page.canSearch
+                      ? IconButton(
+                          tooltip: 'Search website',
+                          onPressed: () => _search(_filter.text),
+                          icon: const Icon(Icons.arrow_forward),
+                        )
+                      : null,
                 ),
               ),
               const SizedBox(height: RwSpace.sm),
-              Text('${titles.length} titles', style: RwType.caption),
+              Text(
+                page.searchQuery == null
+                    ? '${titles.length} titles'
+                    : '${titles.length} results for “${page.searchQuery}”',
+                style: RwType.caption,
+              ),
+              if (page.searchQuery != null) ...[
+                Text(
+                  'Search returns up to 50 matches. Refine your search to find a specific title.',
+                  style: RwType.caption,
+                ),
+                TextButton(onPressed: () => _search(''), child: const Text('Back to catalog')),
+              ],
+              if (page.notice != null) Text(page.notice!, style: RwType.caption),
               for (final title in titles)
                 ListTile(
                   contentPadding: EdgeInsets.zero,
@@ -253,7 +342,19 @@ class _BrowseScreenState extends State<BrowseScreen> {
                   trailing: const Icon(Icons.chevron_right),
                   onTap: _saving ? null : () => _open(title.url.toString()),
                 ),
-              if (titles.isEmpty) Text('No titles match your filter.', style: RwType.caption),
+              if (titles.isEmpty)
+                Text(
+                  page.canSearch ? 'No titles found. Try another search.' : 'No titles match your filter.',
+                  style: RwType.caption,
+                ),
+              if (page.nextPage != null)
+                OutlinedButton.icon(
+                  onPressed: _loadingMore ? null : _loadMore,
+                  icon: _loadingMore
+                      ? const SizedBox(width: 18, height: 18, child: CircularProgressIndicator(strokeWidth: 2))
+                      : const Icon(Icons.expand_more),
+                  label: Text(_loadingMore ? 'Loading…' : 'Load more series'),
+                ),
             ],
           ],
         ],

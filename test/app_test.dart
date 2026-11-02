@@ -107,7 +107,7 @@ void main() {
         ('Library', 'TV Series'),
         ('History', 'Watched'),
         ('Settings', 'Native playback'),
-        ('Browse', 'Paste a series, episode or video URL'),
+        ('Browse', 'Paste a website, series, episode or video URL'),
       ]) {
         await t.tap(find.text(tab).last);
         await t.pumpAndSettle();
@@ -128,9 +128,9 @@ void main() {
       await t.pumpWidget(ReelwayApp(state: state));
       await t.tap(find.text('Browse').last);
       await t.pumpAndSettle();
-      expect(find.text('Paste a series, episode or video URL'), findsOneWidget);
+      expect(find.text('Paste a website, series, episode or video URL'), findsOneWidget);
       await t.enterText(
-        find.widgetWithText(TextField, 'Paste a series, episode or video URL'),
+        find.widgetWithText(TextField, 'Paste a website, series, episode or video URL'),
         'https://narto-drama.com/detail/watch/test/1',
       );
       await t.runAsync(() async {

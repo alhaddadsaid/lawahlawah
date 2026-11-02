@@ -10,6 +10,7 @@ import '../../core/security/url_policy.dart';
 import '../../partners/partner_registry.dart';
 import '../../sources/link_feed.dart';
 import '../../sources/page_source.dart';
+import '../../sources/source_verification.dart';
 import '../models/models.dart';
 import '../models/user_settings.dart';
 import '../sample/sample_data.dart';
@@ -209,7 +210,15 @@ class AppState extends ChangeNotifier {
     _changed();
   }
 
+  void rememberSourceVerification(VerifiedSourceSession session) => _pageSource.rememberVerification(session);
+
+  void clearSourceVerification() => _pageSource.clearVerification();
+
+  Map<String, String> playbackHeadersFor(Uri url) => _pageSource.verificationHeadersFor(url);
+
   Future<SourcePage> readSource(Uri url) => _pageSource.read(url);
+
+  Future<SourcePage> searchSource(Uri url, String query) => _pageSource.search(url, query);
 
   // Links -----------------------------------------------------------------------
 
@@ -275,12 +284,16 @@ class AppState extends ChangeNotifier {
   }
 
   /// Refresh page-derived links at playback time because CDN URLs can expire.
-  Future<Uri> playbackUrlFor(Episode episode) async {
-    if (episode.sourcePageUrl == episode.videoUrl) return LinkFeed.check(episode.videoUrl!);
+  Future<Uri> playbackUrlFor(Episode episode) async => (await playbackSourceFor(episode)).videoUrl;
+
+  Future<LinkEpisode> playbackSourceFor(Episode episode) async {
+    if (episode.sourcePageUrl == episode.videoUrl) {
+      return LinkEpisode(number: episode.episodeNumber, videoUrl: LinkFeed.check(episode.videoUrl!));
+    }
     final page = await _pageSource.read(LinkFeed.check(episode.sourcePageUrl));
     for (final series in page.series) {
       for (final item in series.episodes) {
-        if (item.number == episode.episodeNumber) return item.videoUrl;
+        if (item.number == episode.episodeNumber) return item;
       }
     }
     throw const FormatException('This episode no longer exposes a playable public video.');
@@ -392,6 +405,7 @@ class AppState extends ChangeNotifier {
   /// Wipes all locally stored app data (spec section 9). The browser layer
   /// separately clears cookies, cache and web storage.
   Future<void> clearAllData() async {
+    clearSourceVerification();
     _websites.clear();
     _bookmarks.clear();
     _visited.clear();

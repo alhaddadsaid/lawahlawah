@@ -3,6 +3,9 @@ import 'package:provider/provider.dart';
 
 import '../../core/design/tokens.dart';
 import '../../data/repositories/app_state.dart';
+import '../../sources/link_feed.dart';
+import '../../sources/page_source.dart';
+import '../shell/shell.dart';
 
 /// Adds a public video or catalog link to the Library, after the user
 /// confirms they have the right to play what they add.
@@ -42,6 +45,15 @@ class _AddLinkSheetState extends State<AddLinkSheet> {
     super.dispose();
   }
 
+  bool get _isWebsite {
+    try {
+      final url = LinkFeed.check(_text.text);
+      return PageSource.isNartoCatalogue(url) || url.path.isEmpty || url.path == '/';
+    } on FormatException {
+      return false;
+    }
+  }
+
   Future<void> _add() async {
     final app = context.read<AppState>();
     setState(() {
@@ -49,6 +61,21 @@ class _AddLinkSheetState extends State<AddLinkSheet> {
       _error = null;
     });
     app.acceptLinksDisclaimer();
+    try {
+      final url = LinkFeed.check(_text.text);
+      if (_isWebsite) {
+        final shell = context.read<ShellController>();
+        if (!app.websites.any((site) => site.host == url.host)) {
+          app.addWebsite(Uri.https(url.authority, '/').toString(), name: 'Narto-Drama');
+        }
+        if (!mounted) return;
+        Navigator.pop(context);
+        shell.openSource(url);
+        return;
+      }
+    } on FormatException {
+      /* addLink below displays the validation message. */
+    }
     final error = await app.addLink(_text.text);
     if (!mounted) return;
     setState(() {
@@ -74,13 +101,14 @@ class _AddLinkSheetState extends State<AddLinkSheet> {
               Text('Add a link', style: RwType.title),
               const SizedBox(height: RwSpace.xs),
               Text(
-                'Paste a public series or episode page, video (.mp4, .m3u8), or catalog link. '
+                'Paste a website to browse its series, or a public episode, video (.mp4, .m3u8), or catalog link. '
                 'Reelway plays it in its own player.',
                 style: RwType.caption,
               ),
               const SizedBox(height: RwSpace.md),
               TextField(
                 controller: _text,
+                onChanged: (_) => setState(() => _error = null),
                 keyboardType: TextInputType.url,
                 autocorrect: false,
                 textInputAction: TextInputAction.done,
@@ -108,7 +136,7 @@ class _AddLinkSheetState extends State<AddLinkSheet> {
                   onPressed: canAdd ? _add : null,
                   child: _busy
                       ? const SizedBox(width: 20, height: 20, child: CircularProgressIndicator(strokeWidth: 2))
-                      : const Text('Add to Library'),
+                      : Text(_isWebsite ? 'Browse website' : 'Add to Library'),
                 ),
               ),
               if (app.links.isNotEmpty) ...[

@@ -7,6 +7,9 @@ import 'package:video_player/video_player.dart';
 
 import '../../core/design/tokens.dart';
 import '../../data/models/models.dart';
+import '../../data/models/user_settings.dart';
+import '../../sources/subtitle_track.dart';
+import 'subtitle_loader.dart';
 import '../../data/repositories/app_state.dart';
 
 /// Reelway's own player, for episodes from links the user added (MP4 or HLS).
@@ -61,6 +64,10 @@ class _PlayerScreenState extends State<PlayerScreen> {
   bool _controls = true;
   bool _ended = false;
   int _playRequest = 0;
+  int _subtitleRequest = 0;
+  List<SubtitleTrack> _subtitleTracks = const [];
+  String? _preferredSubtitleLanguage;
+  Uri? _selectedSubtitle;
   String? _error;
   double _speed = 1;
   Timer? _hide;
@@ -80,6 +87,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
     _app = context.read<AppState>();
     _index = widget.index;
     _speed = _app.settings.preferredPlaybackSpeed;
+    _preferredSubtitleLanguage = _app.settings.subtitlesEnabled ? null : '__off__';
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
     _play(widget.startAt ?? Duration.zero);
   }
@@ -87,6 +95,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
   @override
   void dispose() {
     _playRequest++;
+    _subtitleRequest++;
     _hide?.cancel();
     final c = _video;
     if (c != null && c.value.isInitialized) {
@@ -104,6 +113,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
 
   Future<void> _play(Duration startAt) async {
     final request = ++_playRequest;
+    _subtitleRequest++;
     final episode = _episode;
     final old = _video;
     old?.removeListener(_tick);
@@ -111,13 +121,16 @@ class _PlayerScreenState extends State<PlayerScreen> {
       _video = null;
       _error = null;
       _ended = false;
+      _subtitleTracks = const [];
+      _selectedSubtitle = null;
     });
     await old?.dispose();
     VideoPlayerController? controller;
     try {
-      final url = await _app.playbackUrlFor(episode);
+      final source = await _app.playbackSourceFor(episode);
+      final url = source.videoUrl;
       if (!mounted || request != _playRequest) return;
-      final c = VideoPlayerController.networkUrl(url);
+      final c = VideoPlayerController.networkUrl(url, httpHeaders: _app.playbackHeadersFor(url));
       controller = c;
       await c.initialize();
       if (!mounted || request != _playRequest) {
@@ -131,9 +144,17 @@ class _PlayerScreenState extends State<PlayerScreen> {
         return;
       }
       c.addListener(_tick);
-      setState(() => _video = c);
+      setState(() {
+        _video = c;
+        _subtitleTracks = source.subtitles;
+      });
       await c.play();
       _showControls();
+      if (_preferredSubtitleLanguage != '__off__' && _subtitleTracks.isNotEmpty) {
+        final preferred = _subtitleTracks.where((track) => track.language == _preferredSubtitleLanguage).firstOrNull;
+        final defaultTrack = _subtitleTracks.where((track) => track.isDefault).firstOrNull;
+        unawaited(_selectSubtitle(preferred ?? defaultTrack ?? _subtitleTracks.first, remember: false));
+      }
     } catch (error) {
       controller?.removeListener(_tick);
       await controller?.dispose();
@@ -143,6 +164,83 @@ class _PlayerScreenState extends State<PlayerScreen> {
         _error = error is FormatException ? error.message : _failed;
       });
     }
+  }
+
+  Future<void> _selectSubtitle(SubtitleTrack? track, {bool remember = true}) async {
+    final controller = _video;
+    if (controller == null) return;
+    final request = ++_subtitleRequest;
+    if (remember) {
+      _preferredSubtitleLanguage = track?.language ?? '__off__';
+      _app.updateSettings((settings) => settings.copyWith(subtitlesEnabled: track != null));
+    }
+    setState(() => _selectedSubtitle = track?.url);
+    try {
+      await controller.setClosedCaptionFile(null);
+      if (track == null) return;
+      final captions = await SubtitleLoader().load(track, headersFor: _app.playbackHeadersFor);
+      if (!mounted || controller != _video || request != _subtitleRequest) return;
+      await controller.setClosedCaptionFile(Future.value(captions));
+    } catch (_) {
+      if (!mounted || controller != _video || request != _subtitleRequest) return;
+      setState(() => _selectedSubtitle = null);
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('This subtitle track could not be loaded. Video playback will continue.')),
+      );
+    }
+  }
+
+  Widget _subtitleMenu() => PopupMenuButton<String>(
+    tooltip: 'Subtitles',
+    icon: Icon(
+      _selectedSubtitle == null ? Icons.closed_caption_off_outlined : Icons.closed_caption,
+      color: Colors.white,
+    ),
+    onOpened: () => _hide?.cancel(),
+    onCanceled: _showControls,
+    onSelected: (value) {
+      final track = _subtitleTracks.where((item) => item.url.toString() == value).firstOrNull;
+      unawaited(_selectSubtitle(track));
+      _showControls();
+    },
+    itemBuilder: (_) => [
+      CheckedPopupMenuItem(value: 'off', checked: _selectedSubtitle == null, child: const Text('Off')),
+      if (_subtitleTracks.isEmpty) const PopupMenuItem(enabled: false, child: Text('No selectable subtitle tracks')),
+      for (final track in _subtitleTracks)
+        CheckedPopupMenuItem(
+          value: track.url.toString(),
+          checked: _selectedSubtitle == track.url,
+          child: Text(track.label),
+        ),
+    ],
+  );
+
+  Widget _captions(VideoPlayerController? controller) {
+    final text = controller?.value.caption.text ?? '';
+    if (text.isEmpty) return const SizedBox.shrink();
+    final size = switch (_app.settings.subtitleSize) {
+      SubtitleSize.small => 16.0,
+      SubtitleSize.medium => 20.0,
+      SubtitleSize.large => 24.0,
+    };
+    return Positioned(
+      left: 24,
+      right: 24,
+      bottom: MediaQuery.paddingOf(context).bottom + (_controls ? 150 : 32),
+      child: IgnorePointer(
+        child: Center(
+          child: Container(
+            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+            color: Colors.black.withValues(alpha: 0.7),
+            child: Text(
+              text,
+              textAlign: TextAlign.center,
+              style: TextStyle(color: Colors.white, fontSize: size),
+            ),
+          ),
+        ),
+      ),
+    );
   }
 
   void _tick() {
@@ -237,6 +335,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
             Center(child: _picture(c)),
             if (c != null && c.value.isBuffering) const Center(child: CircularProgressIndicator()),
             if (_controls || c == null) _overlay(c),
+            _captions(c),
           ],
         ),
       ),
@@ -283,6 +382,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
                 Expanded(
                   child: Text(_title, maxLines: 1, overflow: TextOverflow.ellipsis, style: RwType.subtitle),
                 ),
+                if (c != null) _subtitleMenu(),
                 TextButton(onPressed: c == null ? null : _cycleSpeed, child: Text(_speedLabel)),
               ],
             ),

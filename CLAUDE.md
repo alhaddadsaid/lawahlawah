@@ -1,7 +1,19 @@
 # Reelway: handoff notes for Claude
 
+> Standing user instruction: after each verified update, push streaming-browser
+> and deliver a TestFlight build. ios-testflight now triggers on branch pushes and
+> runs format/analyze/tests before signing. Confirm the actual Codemagic/Apple
+> result; do not equate a push or queued build with TestFlight availability.
+
+
+> Update: the user also authorized an optional browser screen for manually
+> completing website verification. Catalog/search/player stay native. Current
+> source support is documented in SOURCE_SUPPORT.md under docs; candidates must
+> not be presented as verified integrations.
+
+
 > **Current direction (2 November 2026):** The user requested native source
-> exploration and playback without a WebView, including skipping website ad
+> exploration and playback in native screens, including skipping website ad
 > prompts when public stream URLs are already exposed in page HTML. The active
 > implementation is `lib/sources/page_source.dart` and the native Browse screen.
 > Per-site partner approval flags do not gate this path. See

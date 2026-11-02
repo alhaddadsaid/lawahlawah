@@ -7,12 +7,22 @@ library;
 
 import 'dart:convert';
 
+import 'subtitle_track.dart';
+
 class LinkEpisode {
-  const LinkEpisode({required this.number, required this.videoUrl, this.title, this.duration, this.pageUrl});
+  const LinkEpisode({
+    required this.number,
+    required this.videoUrl,
+    this.title,
+    this.duration,
+    this.pageUrl,
+    this.subtitles = const [],
+  });
 
   final int number;
   final Uri videoUrl;
   final Uri? pageUrl;
+  final List<SubtitleTrack> subtitles;
   final String? title;
   final Duration? duration;
 }
@@ -139,6 +149,45 @@ abstract final class LinkFeed {
           ],
         ),
   ];
+
+  /// Common subtitle metadata shared by public website pages and HTML tracks.
+  static List<SubtitleTrack> subtitleTracks(Uri source, Object? items, {String? fallbackUrl, String? language}) {
+    final tracks = <SubtitleTrack>[];
+    final seen = <String>{};
+    final entries = items is List ? items.whereType<Map>().toList() : <Map>[];
+    if (fallbackUrl != null && fallbackUrl.isNotEmpty) {
+      entries.add({'subtitle_url': fallbackUrl, 'language_code': language ?? '', 'is_default': true});
+    }
+    for (final item in entries) {
+      final ref = item['subtitle_url'] ?? item['url'];
+      if (ref is! String || ref.trim().isEmpty) continue;
+      Uri url;
+      try {
+        url = check(source.resolve(ref).toString());
+      } on FormatException {
+        continue;
+      }
+      final codeValue = item['language_code'] ?? item['language'];
+      final code = codeValue is String ? codeValue.trim().replaceAll('_', '-').toLowerCase() : '';
+      final key = code.isEmpty ? url.toString() : code;
+      if (!seen.add(key)) continue;
+      if (tracks.any((track) => track.url == url)) continue;
+      final label = item['label'];
+      tracks.add(
+        SubtitleTrack(
+          url: url,
+          language: code,
+          label: label is String && label.trim().isNotEmpty
+              ? label
+              : code.isEmpty
+              ? 'Subtitles'
+              : code,
+          isDefault: item['is_default'] == true,
+        ),
+      );
+    }
+    return tracks;
+  }
 
   static Uri? _https(Uri source, String ref) {
     final uri = Uri.tryParse(ref);

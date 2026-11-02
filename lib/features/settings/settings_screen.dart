@@ -6,6 +6,7 @@ import '../../data/models/user_settings.dart';
 import '../../data/repositories/app_state.dart';
 import 'legal_screen.dart';
 import 'websites_screen.dart';
+import '../verification/source_verification_screen.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
@@ -47,16 +48,35 @@ class SettingsScreen extends StatelessWidget {
             ),
           ]),
           _Group('Privacy', [
+            ListTile(
+              leading: const Icon(Icons.cookie_outlined),
+              title: const Text('Clear website verification'),
+              subtitle: const Text('Remove saved verification cookies and temporary access'),
+              onTap: () => _confirm(
+                context,
+                'Clear website verification?',
+                'Some websites may ask you to verify again.',
+                () async {
+                  await SourceVerificationScreen.clearCookies();
+                  app.clearSourceVerification();
+                },
+              ),
+            ),
             const ListTile(
               leading: Icon(Icons.shield_outlined),
               title: Text('Native playback'),
-              subtitle: Text('Website pages are read as data. No website scripts or ad windows are loaded.'),
+              subtitle: Text(
+                'Catalogs and playback stay native. A temporary browser opens only when you choose to verify a website.',
+              ),
             ),
             ListTile(
               leading: const Icon(Icons.delete_forever_outlined, color: RwColors.danger),
               title: const Text('Delete all app data', style: TextStyle(color: RwColors.danger)),
               subtitle: const Text('Websites, bookmarks, history and settings'),
-              onTap: () => _confirm(context, 'Delete everything?', 'This cannot be undone.', app.clearAllData),
+              onTap: () => _confirm(context, 'Delete everything?', 'This cannot be undone.', () async {
+                await SourceVerificationScreen.clearCookies();
+                await app.clearAllData();
+              }),
             ),
           ]),
           _Group('Advertising', [

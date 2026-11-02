@@ -1,4 +1,11 @@
-# Native sources (November 2026)
+# Native sources
+
+> Updated direction: website catalog/search and opt-in, user-completed browser
+> verification are now implemented. See [Source support](SOURCE_SUPPORT.md) for
+> current capabilities, candidate websites and limitations. Earlier implementation
+> notes below describe the first native playback build, before verification was
+> authorized by the user.
+
 
 Current user-directed product change: Reelway is a native source explorer and
 video player. Earlier browser/partner-only decisions in historical handoffs no

@@ -31,7 +31,12 @@ workflows:
     name: Reelway - iOS TestFlight
     instance_type: mac_mini_m2
     max_build_duration: 45
-    # Started by hand in Codemagic (no push trigger) to save free macOS minutes.
+    # Every update pushed to this app's branch builds for internal TestFlight.
+    triggering:
+      events: [push]
+      branch_patterns:
+        - pattern: streaming-browser
+          include: true
     # Needs, set up once in Codemagic: an App Store Connect API key integration
     # named "Reelway ASC", plus a distribution certificate and an App Store
     # profile for com.reelway.reelway (Team settings > Code signing identities).
@@ -46,6 +51,8 @@ workflows:
         bundle_identifier: com.reelway.reelway
     scripts:
       - script: flutter pub get
+      - script: dart format --output=none --set-exit-if-changed -l 120 lib test
+      - script: flutter analyze
       - script: flutter test
       - name: Apply signing profiles
         script: xcode-project use-profiles
