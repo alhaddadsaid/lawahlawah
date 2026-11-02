@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -31453.530991881857,
+   "cash": -31568.499524111896,
    "open": [
     {
      "id": 1596,
@@ -23,39 +23,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1607,
+     "id": 1611,
      "desk": "control",
-     "market": "macro",
-     "symbol": "GBPUSD",
-     "mint": "",
+     "market": "meme",
+     "symbol": "Warcoin",
+     "mint": "H86pLyqzZMim3pxrC29YWsMKoxL6xGFM1nQyVtyRpump",
      "side": 1,
-     "opened": 1793610049.3559728,
-     "entry": 1.34442937374115,
-     "stop": 1.3435567447117396,
-     "target": 1.3457383172852653,
-     "size": 114596.23348489217,
-     "deadline": 1793696449.355973,
-     "thesis": "control: random direction"
+     "opened": 1793611698.7402384,
+     "entry": 0.0001158,
+     "stop": 9.264000000000001e-05,
+     "target": 0.00016212,
+     "size": 1727115.7167530225,
+     "deadline": 1793618898.7402387,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1611,
+ "next_id": 1612,
  "runs": 58,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793611312.523599,
-  "seen:EQM29p2pzrRMUckhb5umAzSgjEhnCy8gNKSVfVnrpump": 1793611312.523599,
-  "seen:gg1zQUgUoXd8hVmkTmLooyzC1QBT1cvJDnCXHLPpump": 1793611312.523599,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793611312.523599,
-  "control:FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump": 1793611313.4745224,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793611496.9733195,
-  "seen:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": 1793611496.9733195,
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793611496.9733195,
-  "seen:zttJSZyD67hzNrJ1RKKUsZ1Hya4vfxYRjdQABvppump": 1793611681.4216535,
-  "seen:H86pLyqzZMim3pxrC29YWsMKoxL6xGFM1nQyVtyRpump": 1793611681.4216535,
-  "seen:EaxAUcXxNnVwcqm2BBocbows7D1XVY2Q63V38NEypump": 1793611681.4216535,
-  "control:H86pLyqzZMim3pxrC29YWsMKoxL6xGFM1nQyVtyRpump": 1793611681.483356,
   "seen:PRVT6TB7uss3FrUd2D9xs2zqDBsa3GbMJMwCQsgmeta": 1793611864.7423363,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793611864.7423363,
   "seen:FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump": 1793611864.7423363,
@@ -65,7 +53,19 @@
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793612048.1004405,
   "seen:GD52VfoPZdad4hiNPg4UnjtDGsS4WiM3mqS8j1czpump": 1793612048.1004405,
   "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793612048.1004405,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793612048.1004405
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793612048.1004405,
+  "seen:E74E88sp7Uh4V8kyqPWCene8UT4TsgeVcoQsgQf1pump": 1793612232.4039009,
+  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793612232.4039009,
+  "seen:5nxBiCxW6WaRa9ZVTXWcYVRaWu8u3gZbuKRwGbF3pump": 1793612232.4039009,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1793612415.8764687,
+  "seen:HiMSSzzwkZkrXJ4PGVJRdtfLaANeAztjjcgk5Dxe7Lwx": 1793612415.8764687,
+  "seen:E2hxRZwARrAMZEoSnFq1hNRCR6ys4occ59Ug8YLBpump": 1793612415.8764687,
+  "seen:4he9D3iDeB6wHvaVVo5NCSJPeNPjVFeDUcRM9BZhrAYK": 1793612598.7096565,
+  "seen:H86pLyqzZMim3pxrC29YWsMKoxL6xGFM1nQyVtyRpump": 1793612598.7096565,
+  "seen:zttJSZyD67hzNrJ1RKKUsZ1Hya4vfxYRjdQABvppump": 1793612598.7096565,
+  "seen:B94jw2wV6knbNSm95uSLppufuc1VUqDg6ApFbKWapump": 1793612598.7096565,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793612598.7096565,
+  "control:H86pLyqzZMim3pxrC29YWsMKoxL6xGFM1nQyVtyRpump": 1793612598.7402413
  },
  "talks": {
   "2026-10-21": 109
@@ -106,18 +106,18 @@
  ],
  "last_review": 1793533893.992842,
  "news": {
-  "t": 1793610412.5315251,
+  "t": 1793611332.4119165,
   "crypto": [
    "Binance hack fallout, U.S. midterms and jobs report: Crypto Week Ahead (0h ago)",
    "OKX draws $445M in net inflows as Binance outflows exceed $7B (0h ago)",
-   "Live updates: Binance records $6 billion outflows after starting withdrawals, less then 4% of total holdings (0h ago)",
-   "China\u2019s Communist Party calls for a crackdown on corruption that uses crypto and blockchain (0h ago)",
+   "Live updates: Binance records $6 billion outflows after starting withdrawals, less then 4% of total holdings (1h ago)",
+   "China\u2019s Communist Party calls for a crackdown on corruption that uses crypto and blockchain (1h ago)",
    "Why stealing billions from a crypto exchange can be harder to stop than a bank theft (1h ago)",
-   "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack (1h ago)",
-   "Bitcoin ETFs lost $643 million in outflows Friday, and 2026 is barely green now (2h ago)",
+   "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack (2h ago)",
+   "Bitcoin ETFs lost $643 million in outflows Friday, and 2026 is barely green now (3h ago)",
    "BTCPay Server warns of hot wallet thefts running on outdated software (4h ago)",
    "Strangers are begging the Binance hacker for bitcoin, one \u2018help me bro\u2019 at a time (4h ago)",
-   "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack (4h ago)"
+   "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack (5h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -150,5 +150,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793610048.8301399
+ "last_macro_macro": 1793611332.4118078
 }
