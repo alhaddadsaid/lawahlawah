@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'dart:io' show File;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -12,6 +13,8 @@ import '../../data/models/user_settings.dart';
 import '../../sources/subtitle_track.dart';
 import '../../ads/ad_pacing.dart';
 import '../../ads/ads.dart';
+import '../../data/remote_config.dart';
+import '../../downloads/download_manager.dart';
 import 'cast_controller.dart';
 import 'subtitle_loader.dart';
 import 'episode_picker.dart';
@@ -174,10 +177,15 @@ class _PlayerScreenState extends State<PlayerScreen> {
     await old?.dispose();
     VideoPlayerController? controller;
     try {
-      final source = await _app.playbackSourceFor(episode);
-      final url = source.videoUrl;
+      // A downloaded episode plays from the phone, also without internet.
+      final local = await DownloadManager.instance.playbackFor(widget.content.id, episode.episodeNumber);
+      final source = local == null ? await _app.playbackSourceFor(episode) : null;
+      final url = local?.url ?? local?.file?.uri ?? source!.videoUrl;
       if (!mounted || request != _playRequest) return;
-      final c = VideoPlayerController.networkUrl(url, httpHeaders: _app.playbackHeadersFor(url));
+      final localFile = local?.file;
+      final c = localFile != null
+          ? VideoPlayerController.file(File(localFile.path))
+          : VideoPlayerController.networkUrl(url, httpHeaders: local == null ? _app.playbackHeadersFor(url) : const {});
       controller = c;
       await c.initialize();
       if (!mounted || request != _playRequest) {
@@ -193,7 +201,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
       c.addListener(_tick);
       setState(() {
         _video = c;
-        _subtitleTracks = source.subtitles;
+        _subtitleTracks = source?.subtitles ?? const [];
       });
       if (_cast.isCasting) {
         // The TV follows the player to the next episode; the phone stays paused.
@@ -279,6 +287,65 @@ class _PlayerScreenState extends State<PlayerScreen> {
     await c.pause();
     await _cast.cast(chosen, url: Uri.parse(c.dataSource), title: _title, poster: _poster, startAt: c.value.position);
     _showControls();
+  }
+
+  /// Saves the episode on screen for watching without internet.
+  Widget _downloadButton(VideoPlayerController c) {
+    final url = Uri.tryParse(c.dataSource);
+    if (url == null || url.scheme != 'https' || !RemoteConfig.instance.flag('features.downloads')) {
+      return const SizedBox.shrink();
+    }
+    return ListenableBuilder(
+      listenable: DownloadManager.instance,
+      builder: (context, _) {
+        final item = DownloadManager.instance.itemFor(widget.content.id, _episode.episodeNumber);
+        return switch (item?.status) {
+          DownloadStatus.done => const IconButton(
+            tooltip: 'Downloaded',
+            onPressed: null,
+            icon: Icon(Icons.download_done, color: Colors.white),
+          ),
+          DownloadStatus.downloading || DownloadStatus.queued => Padding(
+            padding: const EdgeInsets.all(12),
+            child: SizedBox(
+              width: 22,
+              height: 22,
+              child: CircularProgressIndicator(
+                strokeWidth: 2.5,
+                value: item!.progress > 0 ? item.progress : null,
+                color: Colors.white,
+              ),
+            ),
+          ),
+          _ => IconButton(
+            tooltip: item?.status == DownloadStatus.failed ? 'Download failed, try again' : 'Download',
+            icon: Icon(
+              item?.status == DownloadStatus.failed ? Icons.file_download_off : Icons.download_outlined,
+              color: Colors.white,
+            ),
+            onPressed: () {
+              if (item?.status == DownloadStatus.failed) {
+                DownloadManager.instance.retry(widget.content.id, _episode.episodeNumber);
+                return;
+              }
+              DownloadManager.instance.start(
+                contentId: widget.content.id,
+                title: widget.content.title,
+                poster: widget.content.poster,
+                episode: _episode.episodeNumber,
+                video: url,
+                headers: _app.playbackHeadersFor(url),
+              );
+              ScaffoldMessenger.of(context).showSnackBar(
+                SnackBar(
+                  content: Text('Downloading episode ${_episode.episodeNumber}. Find it in Library > Downloads.'),
+                ),
+              );
+            },
+          ),
+        };
+      },
+    );
   }
 
   Future<void> _selectSubtitle(SubtitleTrack? track, {bool remember = true}) async {
@@ -553,11 +620,13 @@ class _PlayerScreenState extends State<PlayerScreen> {
                 Expanded(
                   child: Text(_title, maxLines: 1, overflow: TextOverflow.ellipsis, style: RwType.subtitle),
                 ),
-                IconButton(
-                  tooltip: _cast.isCasting ? 'Stop playing on TV' : 'Play on TV',
-                  onPressed: c == null ? null : _chooseCastDevice,
-                  icon: Icon(_cast.isCasting ? Icons.cast_connected : Icons.cast, color: Colors.white),
-                ),
+                if (_cast.isCasting || RemoteConfig.instance.flag('features.playOnTv'))
+                  IconButton(
+                    tooltip: _cast.isCasting ? 'Stop playing on TV' : 'Play on TV',
+                    onPressed: c == null ? null : _chooseCastDevice,
+                    icon: Icon(_cast.isCasting ? Icons.cast_connected : Icons.cast, color: Colors.white),
+                  ),
+                if (c != null) _downloadButton(c),
                 if (c != null) _subtitleMenu(),
                 TextButton(onPressed: c == null ? null : _cycleSpeed, child: Text(_speedLabel)),
               ],

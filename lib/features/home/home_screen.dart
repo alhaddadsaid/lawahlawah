@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 
 import '../../ads/ads.dart';
 import '../../browser/browser_view.dart';
+import '../../data/remote_config.dart';
 import '../../browser/media_capture.dart';
 import '../../browser/popup_protection.dart';
 import '../../browser/tab_manager.dart';
@@ -98,7 +99,8 @@ class _HomeScreenState extends State<HomeScreen> {
         await _playInReelway(tab, next, contentId: handoff.contentId, number: handoff.number);
       } else if (found != null &&
           _handoff == null &&
-          context.read<AppState>().settings.openVideosInReelway &&
+          (context.read<AppState>().settings.openVideosInReelway &&
+              RemoteConfig.instance.flag('features.openVideosInReelway')) &&
           _autoOpened.add('${tab.id}|${found.url}')) {
         await _playInReelway(tab, found);
       }
@@ -192,7 +194,7 @@ class _HomeScreenState extends State<HomeScreen> {
     // Only one series with its episodes moves to Reelway by itself, once per
     // page. A page listing many series stays in the browser so the user can
     // pick one; the button still offers the whole list.
-    if (app.settings.openVideosInReelway &&
+    if ((app.settings.openVideosInReelway && RemoteConfig.instance.flag('features.openVideosInReelway')) &&
         PageSource.isSingleSeries(page) &&
         !LinkFeed.isVideo(url) &&
         _autoOpened.add('${active.id}|$url')) {
@@ -208,7 +210,8 @@ class _HomeScreenState extends State<HomeScreen> {
       _showOnWebsite = null;
       return false;
     }
-    if (!app.settings.openVideosInReelway || !PageSource.isNartoSeries(target)) return false;
+    final enabled = app.settings.openVideosInReelway && RemoteConfig.instance.flag('features.openVideosInReelway');
+    if (!enabled || !PageSource.isNartoSeries(target)) return false;
     unawaited(_openSeries(target));
     return true;
   }

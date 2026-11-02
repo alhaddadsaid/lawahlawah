@@ -1,9 +1,13 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'ads/ads.dart';
+import 'data/remote_config.dart';
+import 'downloads/download_manager.dart';
 
 import 'core/design/theme.dart';
 import 'data/repositories/app_state.dart';
@@ -15,6 +19,8 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light);
   final app = AppState();
+  unawaited(RemoteConfig.instance.load());
+  unawaited(DownloadManager.instance.load());
   await Future.wait([app.load(), AdDomains.load()]);
   var launches = 1;
   try {

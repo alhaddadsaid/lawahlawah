@@ -6,6 +6,7 @@ import 'package:flutter/material.dart';
 import 'package:google_mobile_ads/google_mobile_ads.dart';
 
 import '../core/design/tokens.dart';
+import '../data/remote_config.dart';
 import 'ad_config.dart';
 import 'ad_pacing.dart';
 
@@ -33,7 +34,9 @@ Future<bool> adsReady() => _ready.future;
 Future<void> initAds() async {
   if (_initStarted) return;
   _initStarted = true;
-  if (!_supported) {
+  // The server can switch all ads off (then no consent or tracking prompt).
+  await RemoteConfig.instance.ready.timeout(const Duration(seconds: 4), onTimeout: () {});
+  if (!_supported || !RemoteConfig.instance.flag('ads.enabled')) {
     _ready.complete(false);
     return;
   }
@@ -268,7 +271,7 @@ class _BannerAdSlotState extends State<BannerAdSlot> {
   }
 
   Future<void> _load(int width) async {
-    if (!await _ready.future || !mounted) return;
+    if (!await _ready.future || !mounted || !RemoteConfig.instance.flag('ads.banner')) return;
     final size = await AdSize.getLargeAnchoredAdaptiveBannerAdSize(width) ?? AdSize.banner;
     if (!mounted) return;
     _size = size;

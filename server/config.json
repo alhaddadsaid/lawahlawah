@@ -1,0 +1,16 @@
+{
+  "ads": {
+    "enabled": true,
+    "banner": true,
+    "interstitial": true,
+    "appOpen": true,
+    "interstitialEveryEpisodes": 3,
+    "interstitialCooldownSeconds": 90,
+    "appOpenCooldownMinutes": 4
+  },
+  "features": {
+    "downloads": true,
+    "openVideosInReelway": true,
+    "playOnTv": true
+  }
+}

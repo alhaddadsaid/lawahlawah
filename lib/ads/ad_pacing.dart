@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 
+import '../data/remote_config.dart';
 import 'ad_config.dart';
 
 /// Decides when full-screen ads may show, so ads earn without driving
@@ -34,9 +35,14 @@ abstract final class AdPacing {
   /// when an interstitial is due now.
   static bool episodeStarted() {
     _episodesSinceAd++;
-    return !fullScreenActive &&
-        _episodesSinceAd >= AdConfig.interstitialEveryEpisodes &&
-        _quietFor(AdConfig.fullScreenCooldown);
+    final config = RemoteConfig.instance;
+    return config.flag('ads.enabled') &&
+        config.flag('ads.interstitial') &&
+        !fullScreenActive &&
+        _episodesSinceAd >= config.number('ads.interstitialEveryEpisodes', AdConfig.interstitialEveryEpisodes) &&
+        _quietFor(
+          Duration(seconds: config.number('ads.interstitialCooldownSeconds', AdConfig.fullScreenCooldown.inSeconds)),
+        );
   }
 
   static void interstitialShown() => _episodesSinceAd = 0;
@@ -46,11 +52,14 @@ abstract final class AdPacing {
   static bool appOpenAllowed(Duration away, {int launches = 1 << 30}) {
     final fromAdClick = _returningFromAdClick;
     _returningFromAdClick = false;
-    return !fromAdClick &&
+    final config = RemoteConfig.instance;
+    return config.flag('ads.enabled') &&
+        config.flag('ads.appOpen') &&
+        !fromAdClick &&
         !fullScreenActive &&
         launches >= AdConfig.appOpenMinLaunches &&
         away >= AdConfig.appOpenMinAway &&
-        _quietFor(AdConfig.appOpenCooldown);
+        _quietFor(Duration(minutes: config.number('ads.appOpenCooldownMinutes', AdConfig.appOpenCooldown.inMinutes)));
   }
 
   @visibleForTesting
