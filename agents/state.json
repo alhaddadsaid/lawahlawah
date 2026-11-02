@@ -36,23 +36,29 @@
      "size": 1189060.6420927467,
      "deadline": 1793641239.007087,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1632,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CYBERLEEK",
+     "mint": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+     "side": 1,
+     "opened": 1793634584.9085436,
+     "entry": 0.001987,
+     "stop": 0.0015896,
+     "target": 0.0027818,
+     "size": 100654.25264217413,
+     "deadline": 1793641784.9085438,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1632,
+ "next_id": 1633,
  "runs": 59,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5focFU1VGb1ywCFcpBNGrg2VWedoQ6EXU6p2ZTqZpump": 1793634572.768463,
-  "seen:9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": 1793634572.768463,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793634572.768463,
-  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793634572.768463,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793634572.768463,
-  "seen:At3jYPUKVEFYrss5a58myVuqKLjGxMuBP5MwqMk9pump": 1793634572.768463,
-  "seen:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": 1793634572.768463,
-  "seen:4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump": 1793634572.768463,
-  "control:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": 1793634574.1561995,
   "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1793634753.9038248,
   "seen:14fhHk5K82rFeha8Edc41sNu7TW5UYGu5N4UYmdApump": 1793634753.9038248,
   "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793634753.9038248,
@@ -65,7 +71,18 @@
   "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793634938.9066482,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793634938.9066482,
   "control:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793634939.0070903,
-  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1793635118.2325358
+  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1793635118.2325358,
+  "seen:DhkXJc8yZPQobJ9hjqqtJm7fJ8JZceuepVbaaAv3pump": 1793635299.8154185,
+  "seen:CHtXwJ3qa2ozS9vQkxhR3MmNwkoUqkh3icGXgZPepump": 1793635299.8154185,
+  "seen:6St9cvggBLty5yGLTjbmm2sU5C3FxnpkiwGVzBhRpump": 1793635299.8154185,
+  "seen:GWJ96ggVUfZPX5ghcD5sUaAWWwqcT1cdntNGew8Jpump": 1793635299.8154185,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793635483.8096333,
+  "seen:9f52wiW2zrt2497HroMHtZtuj7VzWu4AsEusmW3pump": 1793635483.8096333,
+  "seen:EhQjoRsCsjnSk3uzyVjjNcHoBC5Bd1Awa89uzaPCpump": 1793635483.8096333,
+  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1793635483.8096333,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793635483.8096333,
+  "seen:At3jYPUKVEFYrss5a58myVuqKLjGxMuBP5MwqMk9pump": 1793635483.8096333,
+  "control:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1793635484.9085512
  },
  "talks": {
   "2026-10-21": 109
@@ -106,11 +123,11 @@
  ],
  "last_review": 1793633672.7736597,
  "news": {
-  "t": 1793633673.0770311,
+  "t": 1793634583.814643,
   "crypto": [
    "Nvidia, Costco and Nike join pushback against OKX\u2013ICE tokenized stock plans (0h ago)",
-   "Anthropic swings to third quarter operating loss as compute costs surge ahead of IPO (0h ago)",
-   "Standard Chartered debuts tokenized deposits in Hong Kong for corporate clients (0h ago)",
+   "Anthropic swings to third quarter operating loss as compute costs surge ahead of IPO (1h ago)",
+   "Standard Chartered debuts tokenized deposits in Hong Kong for corporate clients (1h ago)",
    "Crypto's Washington playbook is working. Don't abandon it now. (1h ago)",
    "Coinbase downgraded at Morgan Stanely; price target slashed 53% on weak earnings outlook (1h ago)",
    "Tokenization firm tZERO plans to go public in $350 million SPAC deal (2h ago)",
@@ -121,7 +138,7 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Congressional Elections in 23.7h"
+   "USD Congressional Elections in 23.4h"
   ]
  },
  "spend": {
