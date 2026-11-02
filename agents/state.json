@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -30831.345551176273,
+   "cash": -30704.80532383149,
    "open": [
-    {
-     "id": 1592,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Kim",
-     "mint": "qhbbjGBKJxW3AZGqngWM5tHcrENR3pVoRB9MCf1pump",
-     "side": 1,
-     "opened": 1793601453.025401,
-     "entry": 0.0002171,
-     "stop": 0.00017368,
-     "target": 0.00030394,
-     "size": 921234.454168586,
-     "deadline": 1793608653.0254014,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1596,
      "desk": "control",
@@ -38,63 +23,60 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1597,
+     "id": 1602,
      "desk": "control",
-     "market": "macro",
-     "symbol": "GBPUSD",
-     "mint": "",
+     "market": "meme",
+     "symbol": "Catori",
+     "mint": "FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump",
      "side": 1,
-     "opened": 1793606564.7510996,
-     "entry": 1.3417235612869263,
-     "stop": 1.3410660539354597,
-     "target": 1.342709822314126,
-     "size": 152089.55424902396,
-     "deadline": 1793692964.7510998,
-     "thesis": "control: random direction"
+     "opened": 1793608587.0952914,
+     "entry": 0.0001333,
+     "stop": 0.00010664,
+     "target": 0.00018661999999999997,
+     "size": 1500375.0937734435,
+     "deadline": 1793615787.0952916,
+     "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1600,
+     "id": 1603,
      "desk": "control",
      "market": "meme",
      "symbol": "CI",
      "mint": "gg1zQUgUoXd8hVmkTmLooyzC1QBT1cvJDnCXHLPpump",
      "side": 1,
-     "opened": 1793607851.9188106,
-     "entry": 0.0001198,
-     "stop": 9.584e-05,
-     "target": 0.00016772,
-     "size": 1669449.081803005,
-     "deadline": 1793615051.9188108,
+     "opened": 1793608770.1931806,
+     "entry": 0.0001003,
+     "stop": 8.024e-05,
+     "target": 0.00014042,
+     "size": 1994017.9461615155,
+     "deadline": 1793615970.193181,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1601,
+ "next_id": 1604,
  "runs": 58,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793608015.9862418,
-  "control:ATnGk91tqFpXhiqAnDfGav7YYMUiocQ2YHgY4gPBpump": 1793608016.1019638,
-  "seen:8X9d6AqTWTNbuzXXuukWA6sq2pDruyuLnjrxLZZTpump": 1793608199.3359494,
-  "seen:DqpCBADqAiAteRcWrBNa3DSnmV4a6vmHMeCMuvrEpump": 1793608199.3359494,
-  "seen:FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump": 1793608199.3359494,
-  "seen:Dbyy9LSMVHjxw2ZnPPRrCheSLVeuHq2GMkpxUs3t5xeT": 1793608199.3359494,
-  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793608199.3359494,
-  "seen:GD52VfoPZdad4hiNPg4UnjtDGsS4WiM3mqS8j1czpump": 1793608382.6144905,
-  "seen:ATnGk91tqFpXhiqAnDfGav7YYMUiocQ2YHgY4gPBpump": 1793608382.6144905,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793608382.6144905,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793608382.6144905,
-  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793608382.6144905,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793608382.6144905,
-  "seen:gg1zQUgUoXd8hVmkTmLooyzC1QBT1cvJDnCXHLPpump": 1793608567.7162058,
-  "seen:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": 1793608567.7162058,
-  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793608567.7162058,
-  "seen:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": 1793608567.7162058,
-  "seen:GoDSW31bTxfkoup9yA1qcGGx9RMXdTEWgApv3xzBmoA": 1793608567.7162058,
-  "seen:8Wi25nQhEay9KwAsoguEs3y1uxaJmCRQxRYnSY9dpump": 1793608751.851543,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793608751.851543,
-  "control:gg1zQUgUoXd8hVmkTmLooyzC1QBT1cvJDnCXHLPpump": 1793608751.9188147
+  "seen:8X9d6AqTWTNbuzXXuukWA6sq2pDruyuLnjrxLZZTpump": 1793609118.0091777,
+  "seen:FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump": 1793609118.0091777,
+  "seen:DqpCBADqAiAteRcWrBNa3DSnmV4a6vmHMeCMuvrEpump": 1793609118.0091777,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793609118.0091777,
+  "seen:GD52VfoPZdad4hiNPg4UnjtDGsS4WiM3mqS8j1czpump": 1793609302.985912,
+  "seen:ATnGk91tqFpXhiqAnDfGav7YYMUiocQ2YHgY4gPBpump": 1793609302.985912,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793609302.985912,
+  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793609302.985912,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1793609302.985912,
+  "control:ATnGk91tqFpXhiqAnDfGav7YYMUiocQ2YHgY4gPBpump": 1793609303.018354,
+  "seen:gg1zQUgUoXd8hVmkTmLooyzC1QBT1cvJDnCXHLPpump": 1793609486.2899356,
+  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793609486.2899356,
+  "seen:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": 1793609486.2899356,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793609486.2899356,
+  "control:FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump": 1793609487.0952947,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1793609669.8228521,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793609669.8228521,
+  "control:gg1zQUgUoXd8hVmkTmLooyzC1QBT1cvJDnCXHLPpump": 1793609670.1931846
  },
  "talks": {
   "2026-10-21": 109
@@ -135,18 +117,18 @@
  ],
  "last_review": 1793533893.992842,
  "news": {
-  "t": 1793607667.7239842,
+  "t": 1793608586.2978547,
   "crypto": [
+   "Why stealing billions from a crypto exchange can be harder to stop than a bank theft (0h ago)",
    "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack (1h ago)",
    "Bitcoin ETFs lost $643 million in outflows Friday, and 2026 is barely green now (2h ago)",
    "BTCPay Server warns of hot wallet thefts running on outdated software (3h ago)",
    "Strangers are begging the Binance hacker for bitcoin, one \u2018help me bro\u2019 at a time (3h ago)",
    "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack (4h ago)",
    "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets (4h ago)",
-   "Bank of Korea probes financial firms\u2019 exposure to crypto risks (4h ago)",
-   "THORChain halts swaps after block reorg bug, slowing Binance hackers (6h ago)",
-   "Binance net outflows surge to $5.8B as withdrawals resume after record hack (8h ago)",
-   "THORChain founder rejects freeze request, CZ thanks Secret Service: Hodler\u2019s Digest (9h ago)"
+   "Bank of Korea probes financial firms\u2019 exposure to crypto risks (5h ago)",
+   "THORChain halts swaps after block reorg bug, slowing Binance hackers (7h ago)",
+   "Binance net outflows surge to $5.8B as withdrawals resume after record hack (9h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -179,5 +161,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793607482.6223183
+ "last_macro_macro": 1793608769.8305824
 }
