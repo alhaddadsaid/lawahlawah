@@ -119,7 +119,7 @@ class _HomeScreenState extends State<HomeScreen> {
     if (!mounted) return;
     final app = context.read<AppState>();
     final page = MediaCapture.describe(tab.url, body, scanned: scanned, current: number);
-    final content = app.showWebTitle(page, media.url, contentId: contentId);
+    final content = app.showWebTitle(page, media.url, contentId: contentId, referer: media.referer);
     final episodes = app.episodesFor(content.id);
     final index = episodes.indexWhere((e) => e.episodeNumber == page.current);
     await PlayerScreen.open(
@@ -128,6 +128,7 @@ class _HomeScreenState extends State<HomeScreen> {
       episodes,
       index: index < 0 ? 0 : index,
       onOpenPage: (episode) => _openEpisodePage(tab.id, content.id, episode),
+      onWatchOnWebsite: () => _commands[tab.id]?.resumeMedia(),
     );
   }
 

@@ -14,6 +14,7 @@ class CapturedMedia {
     this.seconds = 0,
     this.at = 0,
     this.segment = false,
+    this.referer,
   });
 
   final Uri url;
@@ -34,6 +35,10 @@ class CapturedMedia {
   /// A piece of a stream (.ts, .m4s): not playable alone, but it shows which
   /// playlist the page is really playing.
   final bool segment;
+
+  /// The page of the player that loaded it (an embedded player's own address
+  /// when it plays in a frame); sent as Referer when Reelway plays it.
+  final Uri? referer;
 }
 
 /// An episode number the page shows (link or button), read from the live page.
@@ -100,11 +105,13 @@ abstract final class MediaCapture {
     list.push(e);
     if (list.length > 40) list.shift();
   }
-  function record(url, fromVideo, seconds) {
+  // r: the page of the player that loaded it (an embedded player's own
+  // address), which its video server expects as Referer.
+  function record(url, fromVideo, seconds, referer) {
     if (typeof url !== 'string' || url.indexOf('https://') !== 0) return;
     if (!fromVideo && !MEDIA.test(url)) return;
     add({ u: url, v: !!fromVideo, d: isFinite(seconds) && seconds > 0 ? Math.round(seconds) : 0,
-          p: isTop ? location.href : '', t: Date.now() });
+          p: isTop ? location.href : '', r: referer || location.href, t: Date.now() });
   }
   function onVideo(ev) {
     var el = ev.target;
@@ -121,7 +128,7 @@ abstract final class MediaCapture {
   if (isTop) {
     window.addEventListener('message', function (m) {
       var e = m.data && m.data.__rwMedia;
-      if (e && typeof e.u === 'string') record(e.u, !!e.v, e.d);
+      if (e && typeof e.u === 'string') record(e.u, !!e.v, e.d, typeof e.r === 'string' ? e.r : '');
     });
   }
 })();
@@ -264,6 +271,11 @@ abstract final class MediaCapture {
     }
   }
 
+  /// Starts the page's own player again (when Reelway's player cannot).
+  static const resumeJs = r"""
+document.querySelectorAll('video').forEach(function (v) { try { v.play(); } catch (e) {} });
+""";
+
   /// Stops the page's own player so the video does not play twice.
   static const pauseJs = r"""
 document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } catch (e) {} });
@@ -288,6 +300,7 @@ document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } cat
                 seconds: e['d'] is num ? (e['d'] as num).toInt() : 0,
                 at: e['t'] is num ? (e['t'] as num).toInt() : 0,
                 segment: e['s'] == true,
+                referer: e['r'] is String ? Uri.tryParse(e['r'] as String) : null,
               ),
       ];
     } on FormatException {

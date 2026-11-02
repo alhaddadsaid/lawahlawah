@@ -97,6 +97,7 @@ workflows:
         script: |
           flutter build ipa --release --build-number=$BUILD_NUMBER \
             --dart-define=REELWAY_TEST_PARTNER=true \
+            --dart-define=REELWAY_TEST_ADS=true \
             --export-options-plist=/Users/builder/export_options.plist
     artifacts:
       - build/ios/ipa/*.ipa
@@ -142,6 +143,7 @@ workflows:
         script: |
           flutter build ipa --release --build-number=$BUILD_NUMBER \
             --dart-define=REELWAY_TEST_PARTNER=true \
+            --dart-define=REELWAY_TEST_ADS=true \
             --export-options-plist=/Users/builder/export_options.plist
     artifacts:
       - build/ios/ipa/*.ipa

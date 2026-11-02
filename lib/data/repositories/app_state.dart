@@ -223,7 +223,11 @@ class AppState extends ChangeNotifier {
   Map<String, String> playbackHeadersFor(Uri url) {
     final headers = _pageSource.verificationHeadersFor(url);
     final page = _mediaPages[url.toString()];
-    return page == null ? headers : {...headers, 'Referer': page};
+    if (page == null) return headers;
+    // As the website's player asked for it: its page as Referer and Origin,
+    // and a Safari user agent (some video servers refuse the media player's).
+    final origin = Uri.parse(page).origin;
+    return {...headers, 'Referer': page, 'Origin': origin, 'User-Agent': _safariAgent};
   }
 
   // Videos from websites --------------------------------------------------------
@@ -235,10 +239,14 @@ class AppState extends ChangeNotifier {
 
   static bool isWebTitle(String contentId) => contentId.startsWith('web:');
 
+  static const _safariAgent =
+      'Mozilla/5.0 (iPhone; CPU iPhone OS 18_0 like Mac OS X) AppleWebKit/605.1.15 '
+      '(KHTML, like Gecko) Version/18.0 Mobile/15E148 Safari/604.1';
+
   /// Registers the video a website page is playing as a title for Reelway's
   /// player. Only the current episode has a video; the others open their page
   /// in the browser first. Pass [contentId] to continue an existing title.
-  Content showWebTitle(WebTitle page, Uri video, {String? contentId}) {
+  Content showWebTitle(WebTitle page, Uri video, {String? contentId, Uri? referer}) {
     final current = page.episodes.firstWhere((e) => e.number == page.current);
     final id = contentId ?? 'web:${current.page.host}#${page.title.toLowerCase()}';
     final item = Content(
@@ -261,7 +269,9 @@ class AppState extends ChangeNotifier {
           videoUrl: e.number == page.current ? video.toString() : null,
         ),
     ];
-    _mediaPages[video.toString()] = current.page.toString();
+    _mediaPages[video.toString()] =
+        (referer != null && (referer.scheme == 'https' || referer.scheme == 'http') ? referer : current.page)
+            .toString();
     notifyListeners();
     return item;
   }

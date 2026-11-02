@@ -27,6 +27,7 @@ class PlayerScreen extends StatefulWidget {
     this.index = 0,
     this.startAt,
     this.onOpenPage,
+    this.onWatchOnWebsite,
   });
 
   final Content content;
@@ -38,6 +39,10 @@ class PlayerScreen extends StatefulWidget {
   /// player and opens its page, where the website's player starts it.
   final void Function(Episode episode)? onOpenPage;
 
+  /// For titles from a website: when Reelway's player cannot play the video,
+  /// go back and play it in the website's own player.
+  final VoidCallback? onWatchOnWebsite;
+
   static Future<void> open(
     BuildContext context,
     Content content,
@@ -45,12 +50,19 @@ class PlayerScreen extends StatefulWidget {
     int index = 0,
     Duration? startAt,
     void Function(Episode episode)? onOpenPage,
+    VoidCallback? onWatchOnWebsite,
   }) {
     return Navigator.of(context).push(
       MaterialPageRoute(
         fullscreenDialog: true,
-        builder: (_) =>
-            PlayerScreen(content: content, episodes: episodes, index: index, startAt: startAt, onOpenPage: onOpenPage),
+        builder: (_) => PlayerScreen(
+          content: content,
+          episodes: episodes,
+          index: index,
+          startAt: startAt,
+          onOpenPage: onOpenPage,
+          onWatchOnWebsite: onWatchOnWebsite,
+        ),
       ),
     );
   }
@@ -497,6 +509,17 @@ class _PlayerScreenState extends State<PlayerScreen> {
           Text(error, textAlign: TextAlign.center, style: RwType.body),
           const SizedBox(height: RwSpace.sm),
           FilledButton(onPressed: () => _play(Duration.zero), child: const Text('Try again')),
+          if (widget.onWatchOnWebsite != null) ...[
+            const SizedBox(height: RwSpace.xs),
+            TextButton.icon(
+              onPressed: () {
+                Navigator.of(context).maybePop();
+                widget.onWatchOnWebsite!();
+              },
+              icon: const Icon(Icons.public),
+              label: const Text('Play on the website'),
+            ),
+          ],
         ],
       ),
     );

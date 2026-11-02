@@ -18,8 +18,8 @@
 	<key>NSMicrophoneUsageDescription</key>
 	<string>A website you are visiting asked to use the microphone. Reelway only allows this if you approve.</string>
 	<key>GADApplicationIdentifier</key>
-	<!-- Google's TEST app ID. Replace with Reelway's AdMob app ID before release. -->
-	<string>ca-app-pub-3940256099942544~1458002511</string>
+	<!-- AdMob app "Reelway Browser" (iOS). Test builds use Google's test ad units with it. -->
+	<string>ca-app-pub-7280343659534747~8852134564</string>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>Reelway is free thanks to ads. Allowing tracking shows you ads that fit your interests instead of random ones.</string>
 	<key>SKAdNetworkItems</key>

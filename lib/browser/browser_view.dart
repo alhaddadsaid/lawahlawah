@@ -61,6 +61,14 @@ class BrowserCommands {
     }
   }
 
+  Future<void> resumeMedia() async {
+    try {
+      await _c?.evaluateJavascript(source: MediaCapture.resumeJs, contentWorld: _world);
+    } catch (_) {
+      /* The user can press play on the page. */
+    }
+  }
+
   Future<void> pauseMedia() async {
     try {
       await _c?.evaluateJavascript(source: MediaCapture.pauseJs, contentWorld: _world);

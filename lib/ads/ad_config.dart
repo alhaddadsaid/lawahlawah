@@ -1,19 +1,29 @@
+import 'package:flutter/foundation.dart';
+
 /// AdMob settings and ad pacing rules.
 ///
-/// The unit IDs below are Google's official TEST units: they always show a
-/// sample ad and are safe to tap during development. Before release, replace
-/// them with Reelway's own ad unit IDs from the AdMob console, and replace the
-/// test App IDs in ios/Runner/Info.plist (GADApplicationIdentifier) and
-/// android/app/src/main/AndroidManifest.xml (APPLICATION_ID).
+/// iOS uses Reelway's own AdMob app "Reelway Browser"
+/// (ca-app-pub-7280343659534747~8852134564, set in ios/Runner/Info.plist).
+/// Test builds (debug, or --dart-define=REELWAY_TEST_ADS=true as the ReelBro
+/// workflows do) use Google's TEST units instead: clicking your own real ads
+/// breaks AdMob policy. Android has no AdMob app yet and always uses test units.
 abstract final class AdConfig {
+  static const testAds = kDebugMode || bool.fromEnvironment('REELWAY_TEST_ADS');
+
   // ------------------------------------------------------------ ad units
   static const androidBanner = 'ca-app-pub-3940256099942544/9214589741';
   static const androidInterstitial = 'ca-app-pub-3940256099942544/1033173712';
   static const androidAppOpen = 'ca-app-pub-3940256099942544/9257395921';
 
-  static const iosBanner = 'ca-app-pub-3940256099942544/2435281174';
-  static const iosInterstitial = 'ca-app-pub-3940256099942544/4411468910';
-  static const iosAppOpen = 'ca-app-pub-3940256099942544/5575463023';
+  static const iosBanner = testAds
+      ? 'ca-app-pub-3940256099942544/2435281174'
+      : 'ca-app-pub-7280343659534747/1664955867';
+  static const iosInterstitial = testAds
+      ? 'ca-app-pub-3940256099942544/4411468910'
+      : 'ca-app-pub-7280343659534747/5842827846';
+  static const iosAppOpen = testAds
+      ? 'ca-app-pub-3940256099942544/5575463023'
+      : 'ca-app-pub-7280343659534747/9151517464';
 
   // -------------------------------------------------------------- pacing
 
