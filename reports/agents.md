@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-02 02:31 UTC. Runs so far: 57. Model: claude-haiku-5-5.
+Updated 2026-11-02 02:40 UTC. Runs so far: 57. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1519 | 31 | -39690.5 | -54252.21 |
+| control | meme | 1521 | 31 | -39733.19 | -54314.32 |
 | control | macro | 28 | 46 | -141.99 | -292.93 |
-| control | all | 1547 | 31 | -39832.49 | -54545.14 |
+| control | all | 1549 | 31 | -39875.18 | -54607.25 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: REGRETAMINE long at 6.315e-05, stop 5.052e-05, target 8.841e-05, opened 2026-11-02 00:38 UTC
 - control: RAM long at 0.0001042, stop 8.336e-05, target 0.00014588, opened 2026-11-02 01:15 UTC
-- control: UNI long at 0.0001136, stop 9.088e-05, target 0.00015904, opened 2026-11-02 02:31 UTC
+- control: KIM long at 0.0001057, stop 8.456e-05, target 0.00014798, opened 2026-11-02 02:40 UTC
 
 ## Team
 
@@ -32,5 +31,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-02 02:31 UTC control: OPENED UNI long at 0.0001136 (stop 9.088e-05, target 0.00015904) - control: frozen v3 rules
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- 2026-11-02 02:40 UTC control: OPENED KIM long at 0.0001057 (stop 8.456e-05, target 0.00014798) - control: frozen v3 rules
 
