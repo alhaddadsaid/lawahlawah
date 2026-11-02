@@ -5,13 +5,8 @@ workflows:
     max_build_duration: 30
     environment:
       flutter: stable
-    triggering:
-      events: [push]
-      branch_patterns:
-        - pattern: main
-          include: true
-        - pattern: streaming-browser
-          include: true
+    # Android APKs are built by GitHub CI. Keep this workflow manual so an
+    # app update does not queue duplicate Android work ahead of TestFlight.
     scripts:
       # android/ and ios/ are committed (they carry the app name, permissions
       # and SDK levels), so no `flutter create` step is needed.
@@ -34,6 +29,7 @@ workflows:
     # Every update pushed to this app's branch builds for internal TestFlight.
     triggering:
       events: [push]
+      cancel_previous_builds: true
       branch_patterns:
         - pattern: streaming-browser
           include: true
