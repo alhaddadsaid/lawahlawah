@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-02 08:48 UTC. Runs so far: 58. Model: claude-haiku-5-5.
+Updated 2026-11-02 09:00 UTC. Runs so far: 58. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1551 | 31 | -40577.47 | -55444.66 |
+| control | meme | 1554 | 31 | -40901.95 | -55791.59 |
 | control | macro | 30 | 47 | -127.46 | -293.14 |
-| control | all | 1581 | 31 | -40704.93 | -55737.8 |
+| control | all | 1584 | 31 | -41029.41 | -56084.73 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,9 +19,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: REGRETAMINE long at 5.939e-05, stop 4.7512e-05, target 8.3146e-05, opened 2026-11-02 07:53 UTC
 - control: Catori long at 0.0001333, stop 0.00010664, target 0.00018662, opened 2026-11-02 08:36 UTC
-- control: CI long at 0.0001003, stop 8.024e-05, target 0.00014042, opened 2026-11-02 08:39 UTC
-- control: WWIII long at 9.042e-05, stop 7.2336e-05, target 0.000126588, opened 2026-11-02 08:45 UTC
-- control: TripleH long at 7.133e-05, stop 5.7064e-05, target 9.9862e-05, opened 2026-11-02 08:48 UTC
+- control: CI long at 7.982e-05, stop 6.3856e-05, target 0.000111748, opened 2026-11-02 08:57 UTC
+- control: GBPUSD long at 1.34443, stop 1.34356, target 1.34574, opened 2026-11-02 09:00 UTC
 
 ## Team
 
@@ -34,5 +33,7 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-02 08:48 UTC control: OPENED TripleH long at 7.133e-05 (stop 5.7064e-05, target 9.9862e-05) - control: frozen v3 rules
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- control: order Catori REJECTED by guardrails: Catori already open
+- 2026-11-02 09:00 UTC control: OPENED GBPUSD long at 1.34443 (stop 1.34356, target 1.34574) - control: random direction
 
