@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -31029.279448799974,
+   "cash": -31152.43600375327,
    "open": [
     {
      "id": 1596,
@@ -20,21 +20,6 @@
      "target": 8.314599999999999e-05,
      "size": 3367570.2980299713,
      "deadline": 1793613216.6723323,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1602,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Catori",
-     "mint": "FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump",
-     "side": 1,
-     "opened": 1793608587.0952914,
-     "entry": 0.0001333,
-     "stop": 0.00010664,
-     "target": 0.00018661999999999997,
-     "size": 1500375.0937734435,
-     "deadline": 1793615787.0952916,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -66,23 +51,29 @@
      "size": 114596.23348489217,
      "deadline": 1793696449.355973,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 1609,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Catori",
+     "mint": "FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump",
+     "side": 1,
+     "opened": 1793610413.4745188,
+     "entry": 0.0001068,
+     "stop": 8.544e-05,
+     "target": 0.00014952,
+     "size": 1872659.1760299627,
+     "deadline": 1793617613.474519,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1608,
+ "next_id": 1610,
  "runs": 58,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:ATnGk91tqFpXhiqAnDfGav7YYMUiocQ2YHgY4gPBpump": 1793610218.4876032,
-  "seen:GD52VfoPZdad4hiNPg4UnjtDGsS4WiM3mqS8j1czpump": 1793610218.4876032,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793610218.4876032,
-  "control:ATnGk91tqFpXhiqAnDfGav7YYMUiocQ2YHgY4gPBpump": 1793610218.5482733,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793610402.0235412,
-  "seen:gg1zQUgUoXd8hVmkTmLooyzC1QBT1cvJDnCXHLPpump": 1793610402.0235412,
-  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793610402.0235412,
-  "seen:EQM29p2pzrRMUckhb5umAzSgjEhnCy8gNKSVfVnrpump": 1793610402.0235412,
-  "seen:FAqiaGmrSdx2Z5qZmSRUkbyYCF2dFCUTfYVwP4Mypump": 1793610402.0235412,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793610584.6827674,
   "seen:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": 1793610584.6827674,
   "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1793610584.6827674,
@@ -92,7 +83,18 @@
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793610948.8223054,
   "seen:FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump": 1793610948.8223054,
   "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793610948.8223054,
-  "control:GBPUSD": 1793610949.355977
+  "control:GBPUSD": 1793610949.355977,
+  "seen:GD52VfoPZdad4hiNPg4UnjtDGsS4WiM3mqS8j1czpump": 1793611128.9056814,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793611128.9056814,
+  "seen:A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": 1793611128.9056814,
+  "seen:GoDSW31bTxfkoup9yA1qcGGx9RMXdTEWgApv3xzBmoA": 1793611128.9056814,
+  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1793611128.9056814,
+  "control:GD52VfoPZdad4hiNPg4UnjtDGsS4WiM3mqS8j1czpump": 1793611128.9731138,
+  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793611312.523599,
+  "seen:EQM29p2pzrRMUckhb5umAzSgjEhnCy8gNKSVfVnrpump": 1793611312.523599,
+  "seen:gg1zQUgUoXd8hVmkTmLooyzC1QBT1cvJDnCXHLPpump": 1793611312.523599,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1793611312.523599,
+  "control:FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump": 1793611313.4745224
  },
  "talks": {
   "2026-10-21": 109
@@ -133,18 +135,18 @@
  ],
  "last_review": 1793533893.992842,
  "news": {
-  "t": 1793609502.0315065,
+  "t": 1793610412.5315251,
   "crypto": [
+   "Binance hack fallout, U.S. midterms and jobs report: Crypto Week Ahead (0h ago)",
+   "OKX draws $445M in net inflows as Binance outflows exceed $7B (0h ago)",
    "Live updates: Binance records $6 billion outflows after starting withdrawals, less then 4% of total holdings (0h ago)",
    "China\u2019s Communist Party calls for a crackdown on corruption that uses crypto and blockchain (0h ago)",
-   "Why stealing billions from a crypto exchange can be harder to stop than a bank theft (0h ago)",
+   "Why stealing billions from a crypto exchange can be harder to stop than a bank theft (1h ago)",
    "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack (1h ago)",
    "Bitcoin ETFs lost $643 million in outflows Friday, and 2026 is barely green now (2h ago)",
-   "BTCPay Server warns of hot wallet thefts running on outdated software (3h ago)",
+   "BTCPay Server warns of hot wallet thefts running on outdated software (4h ago)",
    "Strangers are begging the Binance hacker for bitcoin, one \u2018help me bro\u2019 at a time (4h ago)",
-   "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack (4h ago)",
-   "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets (4h ago)",
-   "Bank of Korea probes financial firms\u2019 exposure to crypto risks (5h ago)"
+   "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack (4h ago)"
   ],
   "macro": [],
   "calendar": []
