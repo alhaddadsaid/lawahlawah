@@ -3,6 +3,7 @@
 Streaming-focused mobile web browser (Flutter, iOS + Android). It looks like a streaming
 app but is a real browser with pop-up/ad-hijack protection. It does not host video.
 Full product spec: the original "master development prompt" (summarised in docs/).
+Access, Codemagic, TestFlight and signing (where every key lives): docs/HANDOFF.md.
 
 ## Where things stand (Nov 2026)
 - Phase 1 UI: done (5 tabs, design system, sample data in debug builds only).
@@ -14,7 +15,8 @@ Full product spec: the original "master development prompt" (summarised in docs/
   cooldown. Our rules block blank pop-ups after a tap and cross-site pop-ups unless the
   pressed link points there, then open the tapped link (`PopupProtection.intendedDestination`).
   A read-only user script (`_tapRecorderJs` in browser_view.dart) records what was tapped.
-- Phases 3-8 (player, Narto-Drama adapter, drift DB, AdMob, release) not started.
+- Our own video player is done (links feature below). Phases 4-8 (drift DB, AdMob,
+  release) not started. The Narto-Drama adapter will not be built (see docs/HANDOFF.md).
   See docs/ROADMAP.md.
 
 - Partner unlock: `lib/partners/`. A site with a signed contract (recorded in
