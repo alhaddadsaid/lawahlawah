@@ -29,3 +29,10 @@ that fits how it is built. A profile here replaces the one built into the app fo
 | `param` | for `param`: the address parameter with the episode number, e.g. `ep` |
 | `seriesPath` | pattern of series page addresses Reelway opens itself, e.g. `^/detail/watch/` |
 | `autoOpen` | `false` keeps that site's videos in the browser |
+
+## Admin panel
+
+`server/admin.php` is deployed as `/var/www/reelbrow/admin/index.php` on the Hetzner server
+(nginx basic auth, password file `/etc/nginx/reelbrow-admin.htpasswd`). It edits `config.json`:
+ad switches and frequency, feature switches, and the Websites list (name, link, "Show on start
+page", "Open videos in Reelway", and advanced episode settings).

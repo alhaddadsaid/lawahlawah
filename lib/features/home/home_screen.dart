@@ -655,6 +655,7 @@ class _StartPage extends StatelessWidget {
             ],
           ),
         ),
+        _SuggestedSites(onOpen: onOpen),
         SectionHeader('Your websites', action: 'Add', onAction: () => showAddWebsiteSheet(context)),
         if (app.websites.isEmpty)
           Padding(
@@ -755,6 +756,60 @@ class _StartPage extends StatelessWidget {
       ],
     );
   }
+}
+
+/// Websites the admin panel marks "Show on start page" (server settings,
+/// "sites" with "featured": true). Hidden when there are none.
+class _SuggestedSites extends StatelessWidget {
+  const _SuggestedSites({required this.onOpen});
+  final void Function(Uri) onOpen;
+
+  @override
+  Widget build(BuildContext context) => ListenableBuilder(
+    listenable: RemoteConfig.instance,
+    builder: (context, _) {
+      final sites = RemoteConfig.instance.value('sites');
+      final featured = <(String, Uri)>[
+        if (sites is Map)
+          for (final entry in sites.entries)
+            if (entry.value is Map && (entry.value as Map)['featured'] == true)
+              if (Uri.tryParse('${(entry.value as Map)['url'] ?? 'https://${entry.key}/'}') case final url?
+                  when url.scheme == 'https')
+                ('${(entry.value as Map)['name'] ?? entry.key}', url),
+      ];
+      if (featured.isEmpty) return const SizedBox.shrink();
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          const SectionHeader('Suggested sites'),
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: RwSpace.gutter),
+            child: Wrap(
+              spacing: RwSpace.md,
+              runSpacing: RwSpace.md,
+              children: [
+                for (final (name, url) in featured)
+                  InkWell(
+                    onTap: () => onOpen(url),
+                    borderRadius: BorderRadius.circular(RwRadius.lg),
+                    child: SizedBox(
+                      width: 68,
+                      child: Column(
+                        children: [
+                          SiteAvatar(name: name, size: 56),
+                          const SizedBox(height: RwSpace.xs),
+                          Text(name, maxLines: 1, overflow: TextOverflow.ellipsis, style: RwType.caption),
+                        ],
+                      ),
+                    ),
+                  ),
+              ],
+            ),
+          ),
+        ],
+      );
+    },
+  );
 }
 
 class _AddressSheet extends StatefulWidget {
