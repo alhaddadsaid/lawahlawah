@@ -12,5 +12,17 @@
     "downloads": true,
     "openVideosInReelway": true,
     "playOnTv": true
+  },
+  "sites": {
+    "narto-drama.com": {
+      "seriesPath": "^/detail/watch/"
+    },
+    "liderdrama.com": {
+      "episodes": "param",
+      "param": "ep"
+    },
+    "chartdrama.com": {
+      "episodes": "buttons"
+    }
   }
 }

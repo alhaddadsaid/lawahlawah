@@ -37,6 +37,9 @@ class RemoteConfig extends ChangeNotifier {
     return v is bool ? v : fallback;
   }
 
+  /// The raw value at [path] (a map, list, string, number or null).
+  Object? value(String path) => _lookup(path);
+
   int number(String path, int fallback) {
     final v = _lookup(path);
     return v is num ? v.toInt() : fallback;

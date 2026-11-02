@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:html/parser.dart' as html;
 
 import 'popup_protection.dart';
+import 'site_profiles.dart';
 import 'website_ad_rules.dart';
 
 /// A video address a page's own player loaded, as seen by the browser.
@@ -393,7 +394,14 @@ document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } cat
   /// [scanned] is the live page's episode list ([episodesJs]); episodes that
   /// are buttons get an [episodeMarker] address. [current] overrides which
   /// episode is playing (the one the player just asked for).
-  static WebTitle describe(Uri page, String body, {List<ScannedEpisode> scanned = const [], int? current}) {
+  /// [profile] picks the method that fits the site (see [SiteProfiles]).
+  static WebTitle describe(
+    Uri page,
+    String body, {
+    List<ScannedEpisode> scanned = const [],
+    int? current,
+    SiteProfile profile = SiteProfile.none,
+  }) {
     final document = html.parse(body);
     String? meta(String name) =>
         document.querySelector('meta[property="$name"],meta[name="$name"]')?.attributes['content']?.trim();
@@ -410,7 +418,14 @@ document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } cat
     }
     // A single number is a button or a badge, not an episode list.
     if (byNumber.length < 2) byNumber.clear();
-    if (scanned.length >= 2 && scanned.length >= byNumber.length) {
+    final method = profile.episodes;
+    final useButtons = switch (method) {
+      EpisodeMethod.buttons => scanned.isNotEmpty,
+      EpisodeMethod.auto => scanned.length >= 2 && scanned.length >= byNumber.length,
+      EpisodeMethod.links || EpisodeMethod.param => false,
+    };
+    if (method == EpisodeMethod.param) byNumber.clear();
+    if (useButtons) {
       byNumber
         ..clear()
         ..addAll({for (final e in scanned) e.number: e.link ?? page.replace(fragment: '$episodeMarker${e.number}')});
@@ -426,7 +441,11 @@ document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } cat
     // Feeds that load a few episodes at a time: when the address carries the
     // episode number (?ep=2) and the page shows the total ("2 / 40", "30
     // episodes"), every episode gets its own address.
-    final param = _episodeParam(page, current, body);
+    final param = switch (method) {
+      EpisodeMethod.param => profile.param ?? _episodeParam(page, current, body),
+      EpisodeMethod.auto => _episodeParam(page, current, body),
+      EpisodeMethod.links || EpisodeMethod.buttons => null,
+    };
     // Text with a space between elements, so "Episode 3" and "2 / 40" stay apart.
     final text = body
         .replaceAll(RegExp(r'<(script|style)[\s\S]*?</\1>', caseSensitive: false), ' ')

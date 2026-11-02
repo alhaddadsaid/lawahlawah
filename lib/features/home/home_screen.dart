@@ -7,6 +7,7 @@ import '../../ads/ads.dart';
 import '../../browser/browser_view.dart';
 import '../../data/remote_config.dart';
 import '../../browser/media_capture.dart';
+import '../../browser/site_profiles.dart';
 import '../../browser/popup_protection.dart';
 import '../../browser/tab_manager.dart';
 import '../../core/design/tokens.dart';
@@ -101,6 +102,7 @@ class _HomeScreenState extends State<HomeScreen> {
           _handoff == null &&
           (context.read<AppState>().settings.openVideosInReelway &&
               RemoteConfig.instance.flag('features.openVideosInReelway')) &&
+          SiteProfiles.forUrl(tab.url).autoOpen &&
           _autoOpened.add('${tab.id}|${found.url}')) {
         await _playInReelway(tab, found);
       }
@@ -120,7 +122,13 @@ class _HomeScreenState extends State<HomeScreen> {
     await commands.pauseMedia();
     if (!mounted) return;
     final app = context.read<AppState>();
-    final page = MediaCapture.describe(tab.url, body, scanned: scanned, current: number);
+    final page = MediaCapture.describe(
+      tab.url,
+      body,
+      scanned: scanned,
+      current: number,
+      profile: SiteProfiles.forUrl(tab.url),
+    );
     final content = app.showWebTitle(page, media.url, contentId: contentId, referer: media.referer);
     final episodes = app.episodesFor(content.id);
     final index = episodes.indexWhere((e) => e.episodeNumber == page.current);
@@ -195,6 +203,7 @@ class _HomeScreenState extends State<HomeScreen> {
     // page. A page listing many series stays in the browser so the user can
     // pick one; the button still offers the whole list.
     if ((app.settings.openVideosInReelway && RemoteConfig.instance.flag('features.openVideosInReelway')) &&
+        SiteProfiles.forUrl(url).autoOpen &&
         PageSource.isSingleSeries(page) &&
         !LinkFeed.isVideo(url) &&
         _autoOpened.add('${active.id}|$url')) {
@@ -211,7 +220,7 @@ class _HomeScreenState extends State<HomeScreen> {
       return false;
     }
     final enabled = app.settings.openVideosInReelway && RemoteConfig.instance.flag('features.openVideosInReelway');
-    if (!enabled || !PageSource.isNartoSeries(target)) return false;
+    if (!enabled || !SiteProfiles.isSeriesPage(target) || !SiteProfiles.forUrl(target).autoOpen) return false;
     unawaited(_openSeries(target));
     return true;
   }
