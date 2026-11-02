@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -32067.493872877054,
+   "cash": -32171.09211084706,
    "open": [
     {
      "id": 1629,
@@ -51,38 +51,14 @@
      "size": 1509433.962264151,
      "deadline": 1793642514.843864,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1636,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "FEAR",
-     "mint": "CHtXwJ3qa2ozS9vQkxhR3MmNwkoUqkh3icGXgZPepump",
-     "side": 1,
-     "opened": 1793636773.3537545,
-     "entry": 0.0001273,
-     "stop": 0.00010184000000000001,
-     "target": 0.00017821999999999998,
-     "size": 1571091.9088766691,
-     "deadline": 1793643973.353755,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1637,
+ "next_id": 1638,
  "runs": 59,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CHtXwJ3qa2ozS9vQkxhR3MmNwkoUqkh3icGXgZPepump": 1793638041.1036432,
-  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793638041.1036432,
-  "seen:GWJ96ggVUfZPX5ghcD5sUaAWWwqcT1cdntNGew8Jpump": 1793638041.1036432,
-  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793638221.6347282,
-  "seen:At3jYPUKVEFYrss5a58myVuqKLjGxMuBP5MwqMk9pump": 1793638221.6347282,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793638221.6347282,
-  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793638407.729814,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793638407.729814,
-  "seen:139Yy2Gj7GKkFwgxyrG62k8gJ5RPgGnwy3mS2YAXpump": 1793638407.729814,
   "seen:3Z8mK9QRy3ZphSTqoi1Duzok8an4WCND9XrHWfgKpump": 1793638587.1015296,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793638587.1015296,
   "seen:7ha4HFgdvkXaDcR2biCsuBpoCZzoLSRjb5we34Gbpump": 1793638587.1015296,
@@ -90,7 +66,19 @@
   "seen:AHvXNgV7iWK6xyN7pQtw8Ky99NL48ntSeCetBTzqpump": 1793638587.1015296,
   "seen:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": 1793638587.1015296,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793638771.0841806,
-  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793638771.0841806
+  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793638771.0841806,
+  "seen:5uo1mMxffwCYpdCimWeP16EyW1JGpw2vbtNnem1Hpump": 1793638952.8326306,
+  "seen:CHtXwJ3qa2ozS9vQkxhR3MmNwkoUqkh3icGXgZPepump": 1793638952.8326306,
+  "seen:GWJ96ggVUfZPX5ghcD5sUaAWWwqcT1cdntNGew8Jpump": 1793638952.8326306,
+  "seen:8E5MLTevxXYxx3GyLLgkfqhWavtxt8P9rUuoXKWypump": 1793639137.000694,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793639137.000694,
+  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793639137.000694,
+  "seen:9xTUwkyZ3SZGVgmdSQPqbBEeq8oZKfqczmyzv4PknKjg": 1793639321.9439466,
+  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793639321.9439466,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793639321.9439466,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793639321.9439466,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793639321.9439466,
+  "control:3Z8mK9QRy3ZphSTqoi1Duzok8an4WCND9XrHWfgKpump": 1793639322.0172899
  },
  "talks": {
   "2026-10-21": 109
@@ -131,22 +119,22 @@
  ],
  "last_review": 1793633672.7736597,
  "news": {
-  "t": 1793637321.6400328,
+  "t": 1793638237.0062392,
   "crypto": [
+   "NYSE taps Wall Street giant Broadridge to bring shareholder voting to tokenized stocks (0h ago)",
    "Brazil\u2019s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains (1h ago)",
    "Nvidia, Costco and Nike join pushback against OKX\u2013ICE tokenized stock plans (1h ago)",
-   "Anthropic swings to third quarter operating loss as compute costs surge ahead of IPO (1h ago)",
-   "Standard Chartered debuts tokenized deposits in Hong Kong for corporate clients (1h ago)",
+   "Anthropic swings to third quarter operating loss as compute costs surge ahead of IPO (2h ago)",
+   "Standard Chartered debuts tokenized deposits in Hong Kong for corporate clients (2h ago)",
    "Crypto's Washington playbook is working. Don't abandon it now. (2h ago)",
    "Coinbase downgraded at Morgan Stanely; price target slashed 53% on weak earnings outlook (2h ago)",
    "Tokenization firm tZERO plans to go public in $350 million SPAC deal (3h ago)",
    "Strategy spends triple its weekly Bitcoin outlay on STRC buybacks (3h ago)",
-   "AI agent disputes head to \u2018Internet Court\u2019 \u2014 and a jury of AI agents (3h ago)",
-   "Here\u2019s what happened in crypto today (3h ago)"
+   "AI agent disputes head to \u2018Internet Court\u2019 \u2014 and a jury of AI agents (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Congressional Elections in 22.7h"
+   "USD Congressional Elections in 22.4h"
   ]
  },
  "spend": {
