@@ -423,6 +423,24 @@ document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } cat
     current ??= 1;
     byNumber[current] = page.removeFragment();
 
+    // Feeds that load a few episodes at a time: when the address carries the
+    // episode number (?ep=2) and the page shows the total ("2 / 40", "30
+    // episodes"), every episode gets its own address.
+    final param = _episodeParam(page, current, body);
+    // Text with a space between elements, so "Episode 3" and "2 / 40" stay apart.
+    final text = body
+        .replaceAll(RegExp(r'<(script|style)[\s\S]*?</\1>', caseSensitive: false), ' ')
+        .replaceAll(RegExp(r'<[^>]+>'), ' ');
+    final total = param == null ? null : totalEpisodes(text, current);
+    if (param != null && total != null && total > byNumber.length) {
+      for (var n = 1; n <= total; n++) {
+        byNumber.putIfAbsent(
+          n,
+          () => page.replace(queryParameters: {...page.queryParameters, param: '$n'}).removeFragment(),
+        );
+      }
+    }
+
     final numbers = byNumber.keys.toList()..sort();
     Uri? poster;
     final image = meta('og:image');
@@ -436,6 +454,41 @@ document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } cat
       current: current,
       episodes: [for (final n in numbers) WebEpisode(number: n, page: byNumber[n]!)],
     );
+  }
+
+  static const _episodeParams = ['ep', 'episode', 'episodio', 'capitulo', 'cap', 'bolum', 'e', 'eps', 'part'];
+
+  /// The query parameter that holds the episode number: one in the address
+  /// with the current number, or one the page's own links use.
+  static String? _episodeParam(Uri page, int current, String body) {
+    for (final name in _episodeParams) {
+      if (page.queryParameters[name] == '$current') return name;
+    }
+    final m = RegExp('[?&;](${_episodeParams.join('|')})=\\d{1,4}\\b', caseSensitive: false).firstMatch(body);
+    return m?.group(1)?.toLowerCase();
+  }
+
+  /// How many episodes the page says the title has: "3 / 40", "3 of 40",
+  /// "3 de 40" next to the current episode, or a count like "30 Capítulos".
+  static int? totalEpisodes(String text, int current) {
+    final t = text.replaceAll(RegExp(r'\s+'), ' ');
+    int? best;
+    for (final m in RegExp(
+      r'(?<![\d.,])(\d{1,4}) ?(?:/|of|de|sur|von|di|из|من) ?(\d{1,4})(?![\d.,])',
+      caseSensitive: false,
+    ).allMatches(t)) {
+      final n = int.parse(m.group(1)!), total = int.parse(m.group(2)!);
+      if (n == current && total >= current && total <= 3000 && total > (best ?? 0)) best = total;
+    }
+    if (best != null) return best;
+    for (final m in RegExp(
+      r'(?<![\d.,])(\d{1,4}) ?(?:episodes?|ep\.|capítulos?|capitulos?|episodios?|bölüm|épisodes?|folgen|حلقات|حلقة|集)',
+      caseSensitive: false,
+    ).allMatches(t)) {
+      final total = int.parse(m.group(1)!);
+      if (total >= current && total <= 3000 && total > (best ?? 0)) best = total;
+    }
+    return best;
   }
 
   static int? _numberIn(String text) {

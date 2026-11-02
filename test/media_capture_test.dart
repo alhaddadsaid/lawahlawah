@@ -200,6 +200,28 @@ void main() {
       expect(title.current, 1);
     });
 
+    test('feeds with the episode in the address get every episode from the total shown', () {
+      final title = MediaCapture.describe(
+        Uri.parse('https://liderdrama.example/dizi/nefes-dersleri?lang=en&ep=2'),
+        '<html><body><div>Bölüm 2</div><div>Bölüm 3</div><button>2 / 40</button></body></html>',
+      );
+      expect(title.current, 2);
+      expect(title.episodes, hasLength(40));
+      expect(title.episodes.last.page.toString(), 'https://liderdrama.example/dizi/nefes-dersleri?lang=en&ep=40');
+      expect(MediaCapture.totalEpisodes('Episode 4 of 60', 4), 60);
+      expect(MediaCapture.totalEpisodes('30 Capítulos', 1), 30);
+      expect(MediaCapture.totalEpisodes('Top 10 dramas 2026', 1), isNull);
+    });
+
+    test('the first episode without a number in the address uses the parameter its links use', () {
+      final title = MediaCapture.describe(
+        Uri.parse('https://drama.example/watch/love'),
+        '<html><body><a href="/watch/love?ep=2">next</a><span>1 / 12</span></body></html>',
+      );
+      expect(title.episodes, hasLength(12));
+      expect(title.episodes[4].page.toString(), 'https://drama.example/watch/love?ep=5');
+    });
+
     test('a page without an episode list is one episode', () {
       final single = MediaCapture.describe(
         Uri.parse('https://videos.example.com/v/abc'),
