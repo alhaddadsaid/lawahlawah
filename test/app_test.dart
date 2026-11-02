@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:reelway/core/widgets/components.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:reelway/sources/page_source.dart';
 import 'package:reelway/data/repositories/app_state.dart';
@@ -84,8 +85,8 @@ void main() {
 
     testWidgets('empty state invites adding a website', (t) async {
       await pumpApp(t, sample: false);
-      expect(find.text('Add your first website'), findsOneWidget);
-      await t.tap(find.text('Add website'));
+      expect(find.text('Search or enter address'), findsOneWidget);
+      await t.tap(find.text('Add'));
       await settle(t);
       expect(find.text('Add a website'), findsOneWidget);
       await t.enterText(find.widgetWithText(TextField, 'example.com'), 'example.com');
@@ -94,20 +95,20 @@ void main() {
       expect(find.text('Your websites'), findsOneWidget);
     });
 
-    testWidgets('home shows streaming sections with sample data', (t) async {
+    testWidgets('home shows browser, saved websites and compact continue watching', (t) async {
       await pumpApp(t);
       expect(find.text('Continue watching'), findsOneWidget);
-      expect(find.text('NEW ON YOUR SITES'), findsOneWidget);
-      expect(find.text('SAMPLE'), findsWidgets);
+      expect(find.text('Search or enter address'), findsOneWidget);
+      expect(find.text('Your websites'), findsOneWidget);
+      expect(find.text('NEW ON YOUR SITES'), findsNothing);
     });
 
-    testWidgets('all five tabs render', (t) async {
+    testWidgets('four main tabs render', (t) async {
       await pumpApp(t);
       for (final (tab, expected) in [
         ('Library', 'TV Series'),
         ('History', 'Watched'),
         ('Settings', 'Native playback'),
-        ('Browse', 'Paste a website, series, episode or video URL'),
       ]) {
         await t.tap(find.text(tab).last);
         await t.pumpAndSettle();
@@ -125,8 +126,8 @@ void main() {
       final requests = source.requests;
       final state = AppState(useSampleData: false, pageSource: source);
       await t.runAsync(state.load);
-      await t.pumpWidget(ReelwayApp(state: state));
-      await t.tap(find.text('Browse').last);
+      await t.pumpWidget(ReelwayApp(state: state, browserBuilder: (_, tab) => Text('Browser: ${tab.url.host}')));
+      await t.tap(find.text('Series').first);
       await t.pumpAndSettle();
       expect(find.text('Paste a website, series, episode or video URL'), findsOneWidget);
       await t.enterText(
@@ -156,7 +157,9 @@ void main() {
 
     testWidgets('content detail opens and can be saved', (t) async {
       await pumpApp(t);
-      await t.tap(find.text('Watch').first);
+      await t.tap(find.text('Library').last);
+      await t.pumpAndSettle();
+      await t.tap(find.byType(ContentCard).first);
       await t.pumpAndSettle();
       expect(find.text('Season 1').evaluate().isNotEmpty || find.text('Movie').evaluate().isNotEmpty, isTrue);
       await t.tap(find.byTooltip('Save'));

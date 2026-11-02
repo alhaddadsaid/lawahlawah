@@ -20,7 +20,7 @@ class LegalScreen extends StatelessWidget {
     ),
     (
       'Website data',
-      'Reelway requests public pages and media directly. Catalogs are read without website scripts. If you choose website verification, a temporary browser runs the site’s scripts. Verification cookies may be stored on your device and reused briefly for that same website; login cookies are not shared with the native reader. Clear verification in Settings. Websites and media providers receive normal network request information, including your IP address.',
+      'Reelway requests public pages and media directly. The browser loads websites and their scripts normally. Supported catalogs can also be read as data for native playback. Website data is stored on your device. Verification cookies may be stored on your device and reused briefly for that same website; login cookies are not shared with the native reader. Clear website data in Settings. Websites and media providers receive normal network request information, including your IP address.',
     ),
     (
       'Advertising',

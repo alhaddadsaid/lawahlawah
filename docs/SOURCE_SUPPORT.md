@@ -20,9 +20,18 @@
 - Website/ad-script ads are avoided by direct native playback when media is
   exposed. Ads included in the actual video are not generally removable.
 
-The user explicitly allowed a temporary Cloudflare verification screen after the
-original no-WebView implementation. The WebView dependency is now used only for
-that opt-in screen; the full browsing UI has not been restored.
+The user subsequently requested full browser behaviour like Video Lite. Home now
+opens websites normally; supported media/catalogue metadata offers a native series
+view without forcing navigation. Ordinary page lists (such as shopping ItemList)
+do not trigger series mode. Browser DOM snapshots are memory-only, bounded, and
+expire after 10 minutes. This is detection of exposed media, not universal custom
+player support. Browser network blocking covers common ad hosts; first-party video
+ads, including YouTube video ads, are not guaranteed to be removed.
+
+The verification screen allows Cloudflare about:srcdoc frames and requires a loaded
+same-origin page without challenge indicators before enabling Continue. Retry and
+external-browser fallback are provided after a wait; external clearance is not
+claimed to transfer back automatically.
 
 ## User-supplied candidates (not endorsements or verified “free” claims)
 

@@ -10,6 +10,7 @@ import '../../data/models/models.dart';
 import '../../data/models/user_settings.dart';
 import '../../sources/subtitle_track.dart';
 import 'subtitle_loader.dart';
+import 'episode_picker.dart';
 import '../../data/repositories/app_state.dart';
 
 /// Reelway's own player, for episodes from links the user added (MP4 or HLS).
@@ -306,6 +307,18 @@ class _PlayerScreenState extends State<PlayerScreen> {
     _showControls();
   }
 
+  Future<void> _chooseEpisode() async {
+    _hide?.cancel();
+    final selected = await showEpisodePicker(
+      context,
+      numbers: widget.episodes.map((episode) => episode.episodeNumber).toList(),
+      selected: _index,
+    );
+    if (!mounted) return;
+    if (selected != null && selected != _index) _goTo(selected);
+    _showControls();
+  }
+
   void _cycleSpeed() {
     final next = _speeds[(_speeds.indexOf(_speed) + 1) % _speeds.length];
     setState(() => _speed = next);
@@ -368,7 +381,14 @@ class _PlayerScreenState extends State<PlayerScreen> {
     final fraction = total <= 0 ? 0.0 : (position.inMilliseconds / total).clamp(0.0, 1.0);
     final playing = c?.value.isPlaying ?? false;
     return DecoratedBox(
-      decoration: const BoxDecoration(color: Colors.black45),
+      decoration: const BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.topCenter,
+          end: Alignment.bottomCenter,
+          colors: [Colors.black87, Colors.transparent, Colors.transparent, Colors.black87],
+          stops: [0, .3, .6, 1],
+        ),
+      ),
       child: SafeArea(
         child: Column(
           children: [
@@ -432,15 +452,30 @@ class _PlayerScreenState extends State<PlayerScreen> {
                 ],
               ),
             ),
-            if (_index + 1 < widget.episodes.length)
-              Align(
-                alignment: Alignment.centerRight,
-                child: TextButton.icon(
-                  onPressed: () => _goTo(_index + 1),
-                  icon: const Icon(Icons.skip_next),
-                  label: const Text('Next episode'),
-                ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(12, 4, 12, 12),
+              child: Row(
+                children: [
+                  IconButton(
+                    tooltip: 'Previous episode',
+                    onPressed: _index > 0 ? () => _goTo(_index - 1) : null,
+                    icon: const Icon(Icons.skip_previous),
+                  ),
+                  Expanded(
+                    child: OutlinedButton.icon(
+                      onPressed: _chooseEpisode,
+                      icon: const Icon(Icons.grid_view_rounded, size: 18),
+                      label: Text('Episode ${_episode.episodeNumber} / ${widget.episodes.length}'),
+                    ),
+                  ),
+                  IconButton(
+                    tooltip: 'Next episode',
+                    onPressed: _index + 1 < widget.episodes.length ? () => _goTo(_index + 1) : null,
+                    icon: const Icon(Icons.skip_next),
+                  ),
+                ],
               ),
+            ),
           ],
         ),
       ),

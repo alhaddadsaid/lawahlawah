@@ -5,6 +5,7 @@ import 'package:provider/provider.dart';
 import 'core/design/theme.dart';
 import 'data/repositories/app_state.dart';
 import 'features/shell/shell.dart';
+import 'browser/tab_manager.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -15,7 +16,8 @@ Future<void> main() async {
 }
 
 class ReelwayApp extends StatelessWidget {
-  const ReelwayApp({super.key, required this.state});
+  const ReelwayApp({super.key, required this.state, this.browserBuilder});
+  final Widget Function(BuildContext, BrowserTab)? browserBuilder;
   final AppState state;
 
   @override
@@ -30,7 +32,7 @@ class ReelwayApp extends StatelessWidget {
       theme: buildReelwayTheme(),
       darkTheme: buildReelwayTheme(),
       themeMode: ThemeMode.dark,
-      home: const AppShell(),
+      home: AppShell(browserBuilder: browserBuilder),
     ),
   );
 }

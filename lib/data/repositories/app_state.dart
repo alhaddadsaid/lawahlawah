@@ -216,6 +216,8 @@ class AppState extends ChangeNotifier {
 
   Map<String, String> playbackHeadersFor(Uri url) => _pageSource.verificationHeadersFor(url);
 
+  SourcePage? inspectBrowserPage(Uri url, String html) => _pageSource.inspectBrowserPage(url, html);
+
   Future<SourcePage> readSource(Uri url) => _pageSource.read(url);
 
   Future<SourcePage> searchSource(Uri url, String query) => _pageSource.search(url, query);

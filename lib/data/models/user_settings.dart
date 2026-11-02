@@ -8,6 +8,7 @@ class UserSettings {
     this.httpsUpgrade = true,
     this.warnOnHttp = true,
     this.blockThirdPartyCookies = false,
+    this.blockWebsiteAds = true,
     this.autoplayNext = true,
     this.preferredPlaybackSpeed = 1.0,
     this.subtitlesEnabled = true,
@@ -21,6 +22,7 @@ class UserSettings {
   final bool httpsUpgrade;
   final bool warnOnHttp;
   final bool blockThirdPartyCookies;
+  final bool blockWebsiteAds;
   final bool autoplayNext;
   final double preferredPlaybackSpeed;
   final bool subtitlesEnabled;
@@ -36,6 +38,7 @@ class UserSettings {
     bool? httpsUpgrade,
     bool? warnOnHttp,
     bool? blockThirdPartyCookies,
+    bool? blockWebsiteAds,
     bool? autoplayNext,
     double? preferredPlaybackSpeed,
     bool? subtitlesEnabled,
@@ -48,6 +51,7 @@ class UserSettings {
     httpsUpgrade: httpsUpgrade ?? this.httpsUpgrade,
     warnOnHttp: warnOnHttp ?? this.warnOnHttp,
     blockThirdPartyCookies: blockThirdPartyCookies ?? this.blockThirdPartyCookies,
+    blockWebsiteAds: blockWebsiteAds ?? this.blockWebsiteAds,
     autoplayNext: autoplayNext ?? this.autoplayNext,
     preferredPlaybackSpeed: preferredPlaybackSpeed ?? this.preferredPlaybackSpeed,
     subtitlesEnabled: subtitlesEnabled ?? this.subtitlesEnabled,
@@ -62,6 +66,7 @@ class UserSettings {
     'httpsUpgrade': httpsUpgrade,
     'warnOnHttp': warnOnHttp,
     'blockThirdPartyCookies': blockThirdPartyCookies,
+    'blockWebsiteAds': blockWebsiteAds,
     'autoplayNext': autoplayNext,
     'preferredPlaybackSpeed': preferredPlaybackSpeed,
     'subtitlesEnabled': subtitlesEnabled,
@@ -79,6 +84,7 @@ class UserSettings {
       httpsUpgrade: pick('httpsUpgrade', d.httpsUpgrade),
       warnOnHttp: pick('warnOnHttp', d.warnOnHttp),
       blockThirdPartyCookies: pick('blockThirdPartyCookies', d.blockThirdPartyCookies),
+      blockWebsiteAds: pick('blockWebsiteAds', d.blockWebsiteAds),
       autoplayNext: pick('autoplayNext', d.autoplayNext),
       preferredPlaybackSpeed: (j['preferredPlaybackSpeed'] as num?)?.toDouble() ?? d.preferredPlaybackSpeed,
       subtitlesEnabled: pick('subtitlesEnabled', d.subtitlesEnabled),

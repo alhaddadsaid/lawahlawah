@@ -51,13 +51,13 @@ void main() {
     final state = AppState(useSampleData: false, pageSource: source);
     await tester.runAsync(state.load);
     state.acceptLinksDisclaimer();
-    await tester.pumpWidget(ReelwayApp(state: state));
+    await tester.pumpWidget(ReelwayApp(state: state, browserBuilder: (_, tab) => Text('Browser: ${tab.url.host}')));
     await tester.pumpAndSettle();
     return state;
   }
 
   Future<void> open(WidgetTester tester) async {
-    await tester.tap(find.text('Browse').last);
+    await tester.tap(find.text('Series').first);
     await tester.pumpAndSettle();
     await tester.enterText(
       find.widgetWithText(TextField, 'Paste a website, series, episode or video URL'),
@@ -101,8 +101,8 @@ void main() {
   testWidgets('blocked source offers user verification without opening a browser automatically', (tester) async {
     final state = AppState(useSampleData: false, pageSource: _BlockedSource());
     await tester.runAsync(state.load);
-    await tester.pumpWidget(ReelwayApp(state: state));
-    await tester.tap(find.text('Browse').last);
+    await tester.pumpWidget(ReelwayApp(state: state, browserBuilder: (_, tab) => Text('Browser: ${tab.url.host}')));
+    await tester.tap(find.text('Series').first);
     await tester.pumpAndSettle();
     await tester.enterText(
       find.widgetWithText(TextField, 'Paste a website, series, episode or video URL'),
@@ -115,7 +115,7 @@ void main() {
     expect(find.textContaining('does not yet recognize'), findsNothing);
   });
 
-  testWidgets('website pasted in Library is saved and opens its native catalog', (tester) async {
+  testWidgets('website pasted in Library opens browser with a native catalog option', (tester) async {
     final state = await pump(tester, _CatalogueSource());
     await tester.tap(find.text('Library').last);
     await tester.pumpAndSettle();
@@ -124,6 +124,9 @@ void main() {
     await tester.enterText(find.widgetWithText(TextField, 'https://'), 'https://narto-drama.com/');
     await tester.pump();
     await tester.tap(find.text('Browse website'));
+    await tester.pumpAndSettle();
+    expect(find.text('Browser: narto-drama.com'), findsOneWidget);
+    await tester.tap(find.text('Browse series in Reelway'));
     await tester.pumpAndSettle();
     expect(find.text('Featured Dragon'), findsOneWidget);
     expect(state.websites.single.host, 'narto-drama.com');

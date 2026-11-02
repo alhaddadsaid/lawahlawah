@@ -2,11 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../../core/design/tokens.dart';
+import '../../browser/browser_data.dart';
+import 'protection_screen.dart';
 import '../../data/models/user_settings.dart';
 import '../../data/repositories/app_state.dart';
 import 'legal_screen.dart';
 import 'websites_screen.dart';
-import '../verification/source_verification_screen.dart';
 
 class SettingsScreen extends StatelessWidget {
   const SettingsScreen({super.key});
@@ -47,34 +48,42 @@ class SettingsScreen extends StatelessWidget {
               subtitle: Text('Dark (cinema). A light theme is planned.'),
             ),
           ]),
+          _Group('Browser', [
+            SwitchListTile(
+              title: const Text('Block website ads'),
+              subtitle: const Text('Blocks common ad-network requests'),
+              value: s.blockWebsiteAds,
+              onChanged: (value) => set((s) => s.copyWith(blockWebsiteAds: value)),
+            ),
+            _NavTile(
+              Icons.shield_outlined,
+              'Pop-up protection',
+              null,
+              () => Navigator.of(context).push(ProtectionScreen.route()),
+            ),
+          ]),
           _Group('Privacy', [
             ListTile(
               leading: const Icon(Icons.cookie_outlined),
-              title: const Text('Clear website verification'),
-              subtitle: const Text('Remove saved verification cookies and temporary access'),
-              onTap: () => _confirm(
-                context,
-                'Clear website verification?',
-                'Some websites may ask you to verify again.',
-                () async {
-                  await SourceVerificationScreen.clearCookies();
-                  app.clearSourceVerification();
-                },
-              ),
+              title: const Text('Clear website data'),
+              subtitle: const Text('Remove browser cookies, cache and temporary source access'),
+              onTap: () =>
+                  _confirm(context, 'Clear website data?', 'Some websites may ask you to verify again.', () async {
+                    await BrowserData.clearAll();
+                    app.clearSourceVerification();
+                  }),
             ),
             const ListTile(
               leading: Icon(Icons.shield_outlined),
               title: Text('Native playback'),
-              subtitle: Text(
-                'Catalogs and playback stay native. A temporary browser opens only when you choose to verify a website.',
-              ),
+              subtitle: Text('Browse websites normally. Supported series can also play in Reelway’s native player.'),
             ),
             ListTile(
               leading: const Icon(Icons.delete_forever_outlined, color: RwColors.danger),
               title: const Text('Delete all app data', style: TextStyle(color: RwColors.danger)),
               subtitle: const Text('Websites, bookmarks, history and settings'),
               onTap: () => _confirm(context, 'Delete everything?', 'This cannot be undone.', () async {
-                await SourceVerificationScreen.clearCookies();
+                await BrowserData.clearAll();
                 await app.clearAllData();
               }),
             ),

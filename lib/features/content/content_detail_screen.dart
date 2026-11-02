@@ -29,7 +29,7 @@ class ContentDetailScreen extends StatelessWidget {
   /// and is the fallback whenever native playback is not possible/permitted.
   void _openSource(BuildContext context, String url) {
     Navigator.of(context).popUntil((r) => r.isFirst);
-    context.read<ShellController>().openSource(Uri.parse(url));
+    context.read<ShellController>().openBrowser(Uri.parse(url));
   }
 
   /// Plays in Reelway's player when the title comes from an added link;

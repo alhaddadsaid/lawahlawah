@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../../core/design/tokens.dart';
+import '../../browser/tab_manager.dart';
 import '../browse/browse_screen.dart';
 import '../history/history_screen.dart';
 import '../home/home_screen.dart';
@@ -14,6 +15,7 @@ enum AppTab { home, browse, library, history, settings }
 class ShellController extends ChangeNotifier {
   AppTab _tab = AppTab.home;
   Uri? _pendingUrl;
+  Uri? _pendingBrowserUrl;
 
   AppTab get tab => _tab;
 
@@ -29,6 +31,18 @@ class ShellController extends ChangeNotifier {
     notifyListeners();
   }
 
+  void openBrowser(Uri url) {
+    _pendingBrowserUrl = url;
+    _tab = AppTab.home;
+    notifyListeners();
+  }
+
+  Uri? takePendingBrowserUrl() {
+    final url = _pendingBrowserUrl;
+    _pendingBrowserUrl = null;
+    return url;
+  }
+
   /// Browse screen takes the queued URL exactly once.
   Uri? takePendingUrl() {
     final u = _pendingUrl;
@@ -38,11 +52,12 @@ class ShellController extends ChangeNotifier {
 }
 
 class AppShell extends StatelessWidget {
-  const AppShell({super.key});
+  const AppShell({super.key, this.browserBuilder});
+  final Widget Function(BuildContext, BrowserTab)? browserBuilder;
+  static const _navigationTabs = [AppTab.home, AppTab.library, AppTab.history, AppTab.settings];
 
   static const _destinations = [
     NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home_rounded), label: 'Home'),
-    NavigationDestination(icon: Icon(Icons.explore_outlined), selectedIcon: Icon(Icons.explore), label: 'Browse'),
     NavigationDestination(
       icon: Icon(Icons.video_library_outlined),
       selectedIcon: Icon(Icons.video_library),
@@ -59,15 +74,21 @@ class AppShell extends StatelessWidget {
       // Keep source exploration and scroll positions while switching tabs.
       body: IndexedStack(
         index: shell.tab.index,
-        children: const [HomeScreen(), BrowseScreen(), LibraryScreen(), HistoryScreen(), SettingsScreen()],
+        children: [
+          HomeScreen(browserBuilder: browserBuilder),
+          const BrowseScreen(),
+          const LibraryScreen(),
+          const HistoryScreen(),
+          const SettingsScreen(),
+        ],
       ),
       bottomNavigationBar: DecoratedBox(
         decoration: const BoxDecoration(
           border: Border(top: BorderSide(color: RwColors.divider, width: 0.5)),
         ),
         child: NavigationBar(
-          selectedIndex: shell.tab.index,
-          onDestinationSelected: (i) => shell.go(AppTab.values[i]),
+          selectedIndex: shell.tab == AppTab.browse ? 0 : _navigationTabs.indexOf(shell.tab),
+          onDestinationSelected: (i) => shell.go(_navigationTabs[i]),
           labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
           destinations: _destinations,
         ),

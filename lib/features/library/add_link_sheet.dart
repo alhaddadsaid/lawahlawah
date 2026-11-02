@@ -70,7 +70,7 @@ class _AddLinkSheetState extends State<AddLinkSheet> {
         }
         if (!mounted) return;
         Navigator.pop(context);
-        shell.openSource(url);
+        shell.openBrowser(url);
         return;
       }
     } on FormatException {

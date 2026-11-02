@@ -1,5 +1,20 @@
 # Reelway
 
+> **Current update — 2 November 2026:** Browser-first Home has an address bar,
+> saved websites and a compact Continue Watching row. Four main tabs: Home,
+> Library, History and Settings. Browsing stays available on unknown websites;
+> media metadata on the loaded page offers native series/playback when detected.
+> Native source extraction does not require partner flags. Narto has a dedicated
+> catalogue/search adapter; other custom players are not universally supported.
+> Common ad-network requests are blocked by a browser setting. YouTube playback
+> uses its normal website; removal of its first-party video ads is not verified.
+> Verification waits for the challenge to disappear, allows Cloudflare srcdoc
+> frames, and offers retry/external browser when stalled. Actual clearance still
+> depends on the site. Player now has previous/next and an episode grid.
+> Standing instruction: push verified updates to streaming-browser and confirm
+> Codemagic delivery to internal TestFlight. Older notes below are historical.
+
+
 > Update: the user also authorized an optional browser screen for manually
 > completing website verification. Catalog/search/player stay native. Current
 > source support is documented in SOURCE_SUPPORT.md under docs; candidates must

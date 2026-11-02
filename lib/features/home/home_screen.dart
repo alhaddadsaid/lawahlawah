@@ -1,333 +1,634 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
+import '../../browser/browser_view.dart';
+import '../../browser/popup_protection.dart';
+import '../../browser/tab_manager.dart';
 import '../../core/design/tokens.dart';
+import '../../core/security/url_policy.dart';
 import '../../core/widgets/components.dart';
-import '../../data/models/models.dart';
 import '../../data/repositories/app_state.dart';
-import '../content/content_detail_screen.dart';
-import '../search/search_screen.dart';
+import '../settings/protection_screen.dart';
 import '../settings/websites_screen.dart';
 import '../shell/shell.dart';
+import '../../sources/page_source.dart';
+import '../../sources/link_feed.dart';
+import '../player/player_screen.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class HomeScreen extends StatefulWidget {
+  const HomeScreen({super.key, this.browserBuilder});
+  final Widget Function(BuildContext, BrowserTab)? browserBuilder;
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  final _tabs = TabManager();
+  final _commands = <String, BrowserCommands>{};
+  final _detected = <String>{};
+  bool _showStartPage = false;
+  late final ShellController _shell;
+
+  @override
+  void initState() {
+    super.initState();
+    _shell = context.read<ShellController>()..addListener(_takePending);
+    _tabs.addListener(_onTabs);
+    WidgetsBinding.instance.addPostFrameCallback((_) => _takePending());
+  }
+
+  @override
+  void dispose() {
+    _shell.removeListener(_takePending);
+    _tabs.dispose();
+    super.dispose();
+  }
+
+  void _onTabs() {
+    _commands.removeWhere((id, _) => !_tabs.tabs.any((t) => t.id == id));
+    if (mounted) setState(() {});
+  }
+
+  void _takePending() {
+    final url = _shell.takePendingBrowserUrl();
+    if (url != null) _open(url);
+  }
+
+  /// Opens [url] in the current tab, or a new tab if none is open.
+  void _open(Uri url, {bool newTab = false}) {
+    setState(() => _showStartPage = false);
+    final active = _tabs.active;
+    if (active == null || newTab) {
+      if (_tabs.open(url) == null) _snack('Tab limit reached. Close a tab first.');
+    } else {
+      _tabs.update(active.id, (tab) {
+        tab.url = url;
+        tab.title = '';
+      });
+      _commands[active.id]?.load(url);
+    }
+  }
+
+  Future<void> _detectSource(Uri url, String title) async {
+    final app = context.read<AppState>();
+    app.markVisited(url, title);
+    final active = _tabs.active;
+    if (active == null || active.url != url) return;
+    final body = await _commands[active.id]?.html();
+    if (!mounted || body == null || _tabs.active?.url != url) return;
+    if (app.inspectBrowserPage(url, body) != null) setState(() => _detected.add(url.toString()));
+  }
+
+  void _submitAddress(String text, {bool newTab = false}) {
+    final s = context.read<AppState>().settings;
+    final parsed = UrlPolicy.parse(text);
+    switch (parsed) {
+      case AddressRejected(:final reason):
+        _snack(reason);
+      case AddressSearch():
+        _open(parsed.searchUri(), newTab: newTab);
+      case AddressUrl(:final uri, :final upgradedToHttps):
+        // With the HTTPS default switched off, honour what the user typed.
+        final u = (!s.httpsUpgrade && upgradedToHttps) ? uri.replace(scheme: 'http') : uri;
+        _open(u, newTab: newTab);
+    }
+  }
+
+  void _snack(String msg, {SnackBarAction? action}) {
+    ScaffoldMessenger.of(context)
+      ..hideCurrentSnackBar()
+      ..showSnackBar(SnackBar(content: Text(msg), action: action, duration: const Duration(seconds: 4)));
+  }
+
+  void _onBlocked(Uri site, Decision d, {required bool popup}) {
+    final target = d.target;
+    final app = context.read<AppState>();
+    final domain = PopupProtection.registrableDomain(site.host);
+    _snack(
+      'Blocked: ${d.reason}',
+      action: target == null
+          ? SnackBarAction(
+              label: 'Allow site',
+              textColor: RwColors.accent,
+              onPressed: () {
+                app.allowPopupsFor(site);
+                _snack('Pop-ups and redirects allowed on $domain');
+              },
+            )
+          : SnackBarAction(
+              label: 'Open anyway',
+              textColor: RwColors.accent,
+              onPressed: () {
+                app.popupProtection.allowOnce(target);
+                _open(target, newTab: popup);
+              },
+            ),
+    );
+  }
+
+  Future<void> _showAddressEditor() async {
+    final text = await showModalBottomSheet<String>(
+      context: context,
+      isScrollControlled: true,
+      builder: (_) => _AddressSheet(initial: _tabs.active?.url.toString() ?? ''),
+    );
+    if (text != null) _submitAddress(text);
+  }
+
+  Future<void> _showTabs() async {
+    setState(() => _showStartPage = false);
+    await showModalBottomSheet<void>(
+      context: context,
+      isScrollControlled: true,
+      builder: (_) => _TabsSheet(
+        tabs: _tabs,
+        onNewTab: () {
+          Navigator.pop(context);
+          _newTabPrompt();
+        },
+      ),
+    );
+  }
+
+  Future<void> _newTabPrompt() async {
+    final text = await showModalBottomSheet<String>(
+      context: context,
+      isScrollControlled: true,
+      builder: (_) => const _AddressSheet(initial: ''),
+    );
+    if (text != null) _submitAddress(text, newTab: true);
+  }
 
   @override
   Widget build(BuildContext context) {
     final app = context.watch<AppState>();
-    final hasAnything = app.websites.isNotEmpty || app.content.isNotEmpty;
+    final active = _showStartPage ? null : _tabs.active;
 
     return SafeArea(
       bottom: false,
-      child: CustomScrollView(
-        slivers: [
-          SliverToBoxAdapter(child: _Header(onSearch: () => SearchScreen.open(context))),
-          if (!hasAnything)
-            SliverFillRemaining(
-              hasScrollBody: false,
-              child: EmptyState(
-                icon: Icons.travel_explore,
-                title: 'Add your first website',
-                message: 'Save a public source, explore its titles and play supported videos in Reelway.',
-                action: 'Add website',
-                onAction: () => showAddWebsiteSheet(context),
-              ),
-            )
-          else ...[
-            if (app.content.isNotEmpty) SliverToBoxAdapter(child: _Hero(content: app.recentlyAdded.first)),
-            if (app.continueWatching.isNotEmpty) ...[
-              const SliverToBoxAdapter(child: SectionHeader('Continue watching')),
-              SliverToBoxAdapter(child: _ContinueRow(items: app.continueWatching)),
-            ],
-            SliverToBoxAdapter(
-              child: SectionHeader(
-                'Your websites',
-                action: 'Manage',
-                onAction: () => Navigator.of(context).push(WebsitesScreen.route()),
+      child: Column(
+        children: [
+          if (active != null)
+            _Toolbar(
+              tab: active,
+              tabCount: _tabs.tabs.length,
+              warnInsecure: app.settings.warnOnHttp,
+              bookmarked: app.isBookmarked(active.url.toString()),
+              onBack: active.canGoBack ? () => _commands[active.id]?.back() : null,
+              onAddress: _showAddressEditor,
+              onTabs: _showTabs,
+              onMenu: (action) {
+                final c = _commands[active.id];
+                switch (action) {
+                  case _MenuAction.startPage:
+                    setState(() => _showStartPage = true);
+                  case _MenuAction.forward:
+                    c?.forward();
+                  case _MenuAction.reload:
+                    c?.reload();
+                  case _MenuAction.bookmark:
+                    app.toggleBookmark(active.url.toString(), active.displayTitle);
+                  case _MenuAction.newTab:
+                    _newTabPrompt();
+                  case _MenuAction.closeTab:
+                    _tabs.close(active.id);
+                  case _MenuAction.allowSite:
+                    app.allowPopupsFor(active.url);
+                    _snack('Pop-ups allowed on ${PopupProtection.registrableDomain(active.url.host)}');
+                  case _MenuAction.protection:
+                    Navigator.of(context).push(ProtectionScreen.route());
+                }
+              },
+            ),
+          if (active != null &&
+              (PageSource.isNarto(active.url) ||
+                  LinkFeed.isVideo(active.url) ||
+                  _detected.contains(active.url.toString())))
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: RwSpace.gutter),
+              child: SizedBox(
+                width: double.infinity,
+                child: TextButton.icon(
+                  onPressed: () => _shell.openSource(active.url),
+                  icon: const Icon(Icons.video_library_outlined),
+                  label: Text(LinkFeed.isVideo(active.url) ? 'Play in Reelway' : 'Browse series in Reelway'),
+                ),
               ),
             ),
-            SliverToBoxAdapter(child: _WebsitesRow(sites: app.recentWebsites)),
-            if (app.recentlyAdded.isNotEmpty) ...[
-              SliverToBoxAdapter(
-                child: SectionHeader(
-                  'Recently added',
-                  action: 'See all',
-                  onAction: () => context.read<ShellController>().go(AppTab.library),
-                ),
-              ),
-              SliverToBoxAdapter(child: _PosterRow(items: app.recentlyAdded)),
-            ],
-            if (app.favoriteContent.isNotEmpty) ...[
-              const SliverToBoxAdapter(child: SectionHeader('Saved')),
-              SliverToBoxAdapter(child: _PosterRow(items: app.favoriteContent)),
-            ],
-            if (app.watchHistory.isNotEmpty) ...[
-              const SliverToBoxAdapter(child: SectionHeader('Recently watched')),
-              SliverToBoxAdapter(
-                child: _PosterRow(
-                  items: app.watchHistory.map((h) => app.contentById(h.contentId)).whereType<Content>().toList(),
-                ),
-              ),
-            ],
-            const SliverToBoxAdapter(child: SizedBox(height: RwSpace.xxl)),
-          ],
+          // Only built while loading: an idle indeterminate indicator would
+          // keep animating (and draining battery) even when invisible.
+          SizedBox(
+            height: 2,
+            child: active?.isLoading == true
+                ? LinearProgressIndicator(
+                    value: active!.progress > 0 ? active.progress : null,
+                    minHeight: 2,
+                    backgroundColor: Colors.transparent,
+                    valueColor: const AlwaysStoppedAnimation(RwColors.accent),
+                  )
+                : null,
+          ),
+          Expanded(
+            child: IndexedStack(
+              index: active == null ? 0 : _tabs.activeIndex + 1,
+              children: [
+                _StartPage(onSubmit: _submitAddress, onOpen: _open, tabCount: _tabs.tabs.length, onTabs: _showTabs),
+                for (final t in _tabs.tabs)
+                  widget.browserBuilder?.call(context, t) ??
+                      BrowserView(
+                        key: ValueKey(t.id),
+                        tab: t,
+                        tabs: _tabs,
+                        protection: app.popupProtection,
+                        partners: app.partners,
+                        settings: app.settings,
+                        commands: _commands.putIfAbsent(t.id, BrowserCommands.new),
+                        onBlocked: _onBlocked,
+                        onPageLoaded: _detectSource,
+                      ),
+              ],
+            ),
+          ),
         ],
       ),
     );
   }
 }
 
-class _Header extends StatelessWidget {
-  const _Header({required this.onSearch});
-  final VoidCallback onSearch;
+enum _MenuAction { startPage, forward, reload, bookmark, newTab, closeTab, allowSite, protection }
 
-  String get _greeting {
-    final h = DateTime.now().hour;
-    if (h < 12) return 'Good morning';
-    if (h < 18) return 'Good afternoon';
-    return 'Good evening';
+class _Toolbar extends StatelessWidget {
+  const _Toolbar({
+    required this.tab,
+    required this.tabCount,
+    required this.warnInsecure,
+    required this.bookmarked,
+    required this.onBack,
+    required this.onAddress,
+    required this.onTabs,
+    required this.onMenu,
+  });
+
+  final BrowserTab? tab;
+  final int tabCount;
+  final bool warnInsecure;
+  final bool bookmarked;
+  final VoidCallback? onBack;
+  final VoidCallback onAddress;
+  final VoidCallback onTabs;
+  final void Function(_MenuAction) onMenu;
+
+  @override
+  Widget build(BuildContext context) {
+    final t = tab;
+    final insecure = t != null && !t.isSecure && t.url.scheme != 'about';
+    return Padding(
+      padding: const EdgeInsets.fromLTRB(RwSpace.xxs, RwSpace.xs, RwSpace.xxs, RwSpace.xs),
+      child: Row(
+        children: [
+          IconButton(onPressed: onBack, icon: const Icon(Icons.arrow_back_ios_new, size: 20), tooltip: 'Back'),
+          Expanded(
+            child: Material(
+              color: RwColors.card,
+              borderRadius: BorderRadius.circular(RwRadius.pill),
+              child: InkWell(
+                borderRadius: BorderRadius.circular(RwRadius.pill),
+                onTap: onAddress,
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: RwSpace.md, vertical: 10),
+                  child: Row(
+                    children: [
+                      Icon(
+                        t == null ? Icons.search : (insecure ? Icons.lock_open : Icons.lock),
+                        size: 16,
+                        color: insecure && warnInsecure ? RwColors.warning : RwColors.textSecondary,
+                      ),
+                      const SizedBox(width: RwSpace.xs),
+                      Expanded(
+                        child: Text(
+                          t == null
+                              ? 'Search or enter address'
+                              : (insecure && warnInsecure ? 'Not secure · ${t.url.host}' : t.url.host),
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: RwType.body.copyWith(color: t == null ? RwColors.textTertiary : RwColors.textPrimary),
+                        ),
+                      ),
+                      if (t != null && t.blockedCount > 0)
+                        Tooltip(
+                          message: '${t.blockedCount} blocked',
+                          child: Row(
+                            children: [
+                              const Icon(Icons.shield, size: 14, color: RwColors.accent),
+                              Text(' ${t.blockedCount}', style: RwType.caption.copyWith(color: RwColors.accent)),
+                            ],
+                          ),
+                        ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          ),
+          IconButton(
+            onPressed: onTabs,
+            tooltip: 'Tabs',
+            icon: Container(
+              width: 24,
+              height: 24,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                border: Border.all(color: RwColors.textPrimary, width: 1.6),
+                borderRadius: BorderRadius.circular(6),
+              ),
+              child: Text('$tabCount', style: RwType.label.copyWith(fontSize: 11)),
+            ),
+          ),
+          PopupMenuButton<_MenuAction>(
+            color: RwColors.surface,
+            icon: const Icon(Icons.more_vert),
+            onSelected: onMenu,
+            itemBuilder: (_) => [
+              const PopupMenuItem(value: _MenuAction.startPage, child: Text('Start page')),
+              if (t != null) ...[
+                PopupMenuItem(value: _MenuAction.forward, enabled: t.canGoForward, child: const Text('Forward')),
+                const PopupMenuItem(value: _MenuAction.reload, child: Text('Reload')),
+                PopupMenuItem(
+                  value: _MenuAction.bookmark,
+                  child: Text(bookmarked ? 'Remove bookmark' : 'Bookmark page'),
+                ),
+              ],
+              const PopupMenuItem(value: _MenuAction.newTab, child: Text('New tab')),
+              if (t != null) ...[
+                const PopupMenuItem(value: _MenuAction.closeTab, child: Text('Close tab')),
+                const PopupMenuItem(value: _MenuAction.allowSite, child: Text('Allow pop-ups on this site')),
+              ],
+              const PopupMenuItem(value: _MenuAction.protection, child: Text('Pop-up protection')),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class _StartPage extends StatelessWidget {
+  const _StartPage({required this.onSubmit, required this.onOpen, required this.tabCount, required this.onTabs});
+  final void Function(String) onSubmit;
+  final void Function(Uri) onOpen;
+  final int tabCount;
+  final VoidCallback onTabs;
+
+  @override
+  Widget build(BuildContext context) {
+    final app = context.watch<AppState>();
+    return ListView(
+      padding: const EdgeInsets.only(bottom: RwSpace.xxl),
+      children: [
+        Padding(
+          padding: const EdgeInsets.fromLTRB(RwSpace.gutter, RwSpace.lg, RwSpace.gutter, 0),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  Expanded(child: Text('Reelway', style: RwType.headline)),
+                  TextButton.icon(
+                    onPressed: () => context.read<ShellController>().go(AppTab.browse),
+                    icon: const Icon(Icons.video_library_outlined),
+                    label: const Text('Series'),
+                  ),
+                  if (tabCount > 0)
+                    TextButton.icon(onPressed: onTabs, icon: const Icon(Icons.tab), label: Text('$tabCount tabs')),
+                ],
+              ),
+              const SizedBox(height: RwSpace.xxs),
+              Text(
+                'Pop-up protection is ${app.settings.protectionLevel == ProtectionLevel.off ? 'off' : 'on'}.',
+                style: RwType.caption,
+              ),
+              const SizedBox(height: RwSpace.md),
+              TextField(
+                keyboardType: TextInputType.url,
+                autocorrect: false,
+                textInputAction: TextInputAction.go,
+                onSubmitted: onSubmit,
+                decoration: const InputDecoration(hintText: 'Search or enter address', prefixIcon: Icon(Icons.search)),
+              ),
+            ],
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.fromLTRB(RwSpace.gutter, RwSpace.md, RwSpace.gutter, 0),
+          child: Wrap(
+            spacing: 8,
+            runSpacing: 8,
+            children: [
+              ActionChip(
+                avatar: const Icon(Icons.play_circle_outline, size: 18),
+                label: const Text('YouTube'),
+                onPressed: () => onOpen(Uri.parse('https://m.youtube.com/')),
+              ),
+              ActionChip(
+                avatar: const Icon(Icons.movie_outlined, size: 18),
+                label: const Text('Narto-Drama'),
+                onPressed: () => onOpen(Uri.parse('https://narto-drama.com/')),
+              ),
+            ],
+          ),
+        ),
+        SectionHeader('Your websites', action: 'Add', onAction: () => showAddWebsiteSheet(context)),
+        if (app.websites.isEmpty)
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: RwSpace.gutter),
+            child: Text('Saved websites appear here for one-tap access.', style: RwType.caption),
+          )
+        else
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: RwSpace.gutter),
+            child: Wrap(
+              spacing: RwSpace.md,
+              runSpacing: RwSpace.md,
+              children: [
+                for (final w in app.websites)
+                  InkWell(
+                    onTap: () => onOpen(Uri.parse(w.url)),
+                    borderRadius: BorderRadius.circular(RwRadius.lg),
+                    child: SizedBox(
+                      width: 68,
+                      child: Column(
+                        children: [
+                          SiteAvatar(name: w.name, favicon: w.favicon, size: 56),
+                          const SizedBox(height: RwSpace.xs),
+                          Text(w.name, maxLines: 1, overflow: TextOverflow.ellipsis, style: RwType.caption),
+                        ],
+                      ),
+                    ),
+                  ),
+              ],
+            ),
+          ),
+        if (app.continueWatching.isNotEmpty) ...[
+          const SectionHeader('Continue watching'),
+          SizedBox(
+            height: 96,
+            child: ListView.separated(
+              scrollDirection: Axis.horizontal,
+              padding: const EdgeInsets.symmetric(horizontal: RwSpace.gutter),
+              separatorBuilder: (_, _) => const SizedBox(width: 12),
+              itemCount: app.continueWatching.length.clamp(0, 6),
+              itemBuilder: (context, index) {
+                final history = app.continueWatching[index];
+                final title = app.contentById(history.contentId);
+                if (title == null) return const SizedBox.shrink();
+                return SizedBox(
+                  width: 220,
+                  child: Material(
+                    color: RwColors.card,
+                    borderRadius: BorderRadius.circular(16),
+                    child: InkWell(
+                      borderRadius: BorderRadius.circular(16),
+                      onTap: () => PlayerScreen.resume(context, title),
+                      child: Padding(
+                        padding: const EdgeInsets.all(12),
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(title.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: RwType.subtitle),
+                            const SizedBox(height: 6),
+                            Text('Continue episode', style: RwType.caption),
+                            const Spacer(),
+                            RwProgressBar(value: history.progress, height: 3),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                );
+              },
+            ),
+          ),
+        ],
+        if (app.bookmarks.isNotEmpty) ...[
+          const SectionHeader('Bookmarks'),
+          for (final b in app.bookmarks)
+            ListTile(
+              leading: const Icon(Icons.bookmark_outline),
+              title: Text(b.title, maxLines: 1, overflow: TextOverflow.ellipsis),
+              subtitle: Text(Uri.tryParse(b.url)?.host ?? b.url),
+              trailing: IconButton(icon: const Icon(Icons.close, size: 18), onPressed: () => app.removeBookmark(b.id)),
+              onTap: () => onOpen(Uri.parse(b.url)),
+            ),
+        ],
+        if (app.visited.isNotEmpty) ...[
+          SectionHeader(
+            'Recent',
+            action: 'History',
+            onAction: () => context.read<ShellController>().go(AppTab.history),
+          ),
+          for (final v in app.visited.take(5))
+            ListTile(
+              leading: const Icon(Icons.history),
+              title: Text(v.title.isEmpty ? v.url : v.title, maxLines: 1, overflow: TextOverflow.ellipsis),
+              subtitle: Text(Uri.tryParse(v.url)?.host ?? ''),
+              onTap: () => onOpen(Uri.parse(v.url)),
+            ),
+        ],
+      ],
+    );
+  }
+}
+
+class _AddressSheet extends StatefulWidget {
+  const _AddressSheet({required this.initial});
+  final String initial;
+
+  @override
+  State<_AddressSheet> createState() => _AddressSheetState();
+}
+
+class _AddressSheetState extends State<_AddressSheet> {
+  late final _c = TextEditingController(text: widget.initial)
+    ..selection = TextSelection(baseOffset: 0, extentOffset: widget.initial.length);
+
+  @override
+  void dispose() {
+    _c.dispose();
+    super.dispose();
   }
 
   @override
   Widget build(BuildContext context) => Padding(
-    padding: const EdgeInsets.fromLTRB(RwSpace.gutter, RwSpace.md, RwSpace.xs, RwSpace.xs),
-    child: Row(
-      children: [
-        const _Logo(),
-        const SizedBox(width: RwSpace.sm),
-        Expanded(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Text(_greeting, style: RwType.caption),
-              Text('What are we watching?', style: RwType.title),
-            ],
-          ),
-        ),
-        IconButton(onPressed: onSearch, icon: const Icon(Icons.search), tooltip: 'Search'),
-      ],
+    padding: EdgeInsets.fromLTRB(
+      RwSpace.gutter,
+      0,
+      RwSpace.gutter,
+      MediaQuery.viewInsetsOf(context).bottom + RwSpace.lg,
+    ),
+    child: TextField(
+      controller: _c,
+      autofocus: true,
+      keyboardType: TextInputType.url,
+      autocorrect: false,
+      textInputAction: TextInputAction.go,
+      onSubmitted: (t) => Navigator.pop(context, t),
+      decoration: const InputDecoration(hintText: 'Search or enter address', prefixIcon: Icon(Icons.search)),
     ),
   );
 }
 
-class _Logo extends StatelessWidget {
-  const _Logo();
+class _TabsSheet extends StatelessWidget {
+  const _TabsSheet({required this.tabs, required this.onNewTab});
+  final TabManager tabs;
+  final VoidCallback onNewTab;
 
   @override
-  Widget build(BuildContext context) => Container(
-    width: 40,
-    height: 40,
-    decoration: BoxDecoration(
-      borderRadius: BorderRadius.circular(RwRadius.md),
-      gradient: const LinearGradient(colors: [RwColors.accent, Color(0xFFB8361A)]),
-    ),
-    child: const Icon(Icons.play_arrow_rounded, color: Colors.white, size: 28),
-  );
-}
-
-class _Hero extends StatelessWidget {
-  const _Hero({required this.content});
-  final Content content;
-
-  @override
-  Widget build(BuildContext context) {
-    final app = context.watch<AppState>();
-    final saved = app.isFavorite(content.id);
-    return Padding(
-      padding: const EdgeInsets.fromLTRB(RwSpace.gutter, RwSpace.md, RwSpace.gutter, 0),
-      child: GestureDetector(
-        onTap: () => ContentDetailScreen.open(context, content),
-        child: AspectRatio(
-          aspectRatio: 4 / 3,
-          child: Stack(
-            fit: StackFit.expand,
-            children: [
-              PosterArt(content: content, showTitle: false, radius: RwRadius.xl),
-              ClipRRect(
-                borderRadius: BorderRadius.circular(RwRadius.xl),
-                child: const DecoratedBox(decoration: BoxDecoration(gradient: RwColors.scrim)),
+  Widget build(BuildContext context) => ListenableBuilder(
+    listenable: tabs,
+    builder: (context, _) => SafeArea(
+      child: ConstrainedBox(
+        constraints: BoxConstraints(maxHeight: MediaQuery.sizeOf(context).height * 0.7),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: RwSpace.gutter),
+              child: Row(
+                children: [
+                  Expanded(child: Text('Tabs (${tabs.tabs.length}/${tabs.maxTabs})', style: RwType.title)),
+                  if (tabs.tabs.isNotEmpty) TextButton(onPressed: tabs.closeAll, child: const Text('Close all')),
+                  IconButton(onPressed: tabs.isFull ? null : onNewTab, icon: const Icon(Icons.add)),
+                ],
               ),
-              Positioned(
-                left: RwSpace.lg,
-                right: RwSpace.lg,
-                bottom: RwSpace.lg,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.start,
-                  children: [
-                    Text('NEW ON YOUR SITES', style: RwType.label.copyWith(color: RwColors.accent)),
-                    const SizedBox(height: RwSpace.xxs),
-                    Text(content.title, style: RwType.display.copyWith(fontSize: 28)),
-                    const SizedBox(height: RwSpace.xxs),
-                    Text(
-                      [?content.releaseYear?.toString(), ...content.genres].join(' · '),
-                      style: RwType.caption.copyWith(color: RwColors.textPrimary.withValues(alpha: 0.8)),
-                    ),
-                    const SizedBox(height: RwSpace.md),
-                    Wrap(
-                      spacing: RwSpace.sm,
-                      runSpacing: RwSpace.xs,
+            ),
+            Flexible(
+              child: tabs.tabs.isEmpty
+                  ? Padding(
+                      padding: const EdgeInsets.all(RwSpace.lg),
+                      child: Text('No open tabs', style: RwType.caption),
+                    )
+                  : ListView(
+                      shrinkWrap: true,
                       children: [
-                        FilledButton.icon(
-                          onPressed: () => ContentDetailScreen.open(context, content),
-                          icon: const Icon(Icons.play_arrow_rounded),
-                          label: const Text('Watch'),
-                        ),
-                        OutlinedButton.icon(
-                          style: OutlinedButton.styleFrom(backgroundColor: Colors.black26),
-                          onPressed: () => app.toggleFavorite(content.id),
-                          icon: Icon(saved ? Icons.check : Icons.add),
-                          label: Text(saved ? 'Saved' : 'My list'),
-                        ),
+                        for (final t in tabs.tabs)
+                          ListTile(
+                            selected: t.id == tabs.active?.id,
+                            selectedTileColor: RwColors.accentSoft,
+                            leading: SiteAvatar(name: t.url.host, size: 36),
+                            title: Text(t.displayTitle, maxLines: 1, overflow: TextOverflow.ellipsis),
+                            subtitle: Text(t.url.host, maxLines: 1),
+                            trailing: IconButton(icon: const Icon(Icons.close), onPressed: () => tabs.close(t.id)),
+                            onTap: () {
+                              tabs.activate(t.id);
+                              Navigator.pop(context);
+                            },
+                          ),
                       ],
                     ),
-                  ],
-                ),
-              ),
-            ],
-          ),
+            ),
+          ],
         ),
-      ),
-    );
-  }
-}
-
-class _ContinueRow extends StatelessWidget {
-  const _ContinueRow({required this.items});
-  final List<WatchHistory> items;
-
-  @override
-  Widget build(BuildContext context) {
-    final app = context.read<AppState>();
-    return Carousel(
-      height: 184,
-      itemCount: items.length,
-      itemBuilder: (context, i) {
-        final h = items[i];
-        final c = app.contentById(h.contentId);
-        if (c == null) return const SizedBox.shrink();
-        final remaining = h.duration - h.playbackPosition;
-        return SizedBox(
-          width: 240,
-          child: GestureDetector(
-            onTap: () => ContentDetailScreen.open(context, c),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                SizedBox(
-                  height: 124,
-                  child: Stack(
-                    fit: StackFit.expand,
-                    children: [
-                      PosterArt(content: c, showTitle: false),
-                      const Center(
-                        child: CircleAvatar(
-                          radius: 22,
-                          backgroundColor: Colors.black45,
-                          child: Icon(Icons.play_arrow_rounded, color: Colors.white, size: 30),
-                        ),
-                      ),
-                      Positioned(left: 10, right: 10, bottom: 10, child: RwProgressBar(value: h.progress)),
-                    ],
-                  ),
-                ),
-                const SizedBox(height: RwSpace.xs),
-                Text(
-                  c.title,
-                  maxLines: 1,
-                  overflow: TextOverflow.ellipsis,
-                  style: RwType.subtitle.copyWith(fontSize: 13),
-                ),
-                Text(
-                  '${h.episodeId != null ? 'Episode ${h.episodeId!.split('-e').last} · ' : ''}${formatDuration(remaining)} left',
-                  style: RwType.caption,
-                ),
-              ],
-            ),
-          ),
-        );
-      },
-    );
-  }
-}
-
-class _PosterRow extends StatelessWidget {
-  const _PosterRow({required this.items});
-  final List<Content> items;
-
-  @override
-  Widget build(BuildContext context) {
-    final app = context.read<AppState>();
-    return Carousel(
-      height: 236,
-      itemCount: items.length,
-      itemBuilder: (context, i) {
-        final c = items[i];
-        return ContentCard(
-          content: c,
-          progress: app.historyFor(c.id)?.progress,
-          onTap: () => ContentDetailScreen.open(context, c),
-        );
-      },
-    );
-  }
-}
-
-class _WebsitesRow extends StatelessWidget {
-  const _WebsitesRow({required this.sites});
-  final List<Website> sites;
-
-  @override
-  Widget build(BuildContext context) {
-    final shell = context.read<ShellController>();
-    return Carousel(
-      height: 92,
-      itemCount: sites.length + 1,
-      itemBuilder: (context, i) {
-        if (i == sites.length) {
-          return _SiteChip(
-            label: 'Add',
-            child: Container(
-              width: 56,
-              height: 56,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(RwRadius.lg),
-                border: Border.all(color: RwColors.divider, width: 1.5),
-              ),
-              child: const Icon(Icons.add, color: RwColors.textSecondary),
-            ),
-            onTap: () => showAddWebsiteSheet(context),
-          );
-        }
-        final s = sites[i];
-        return _SiteChip(
-          label: s.name,
-          child: SiteAvatar(name: s.name, favicon: s.favicon, size: 56),
-          onTap: () => shell.openSource(Uri.parse(s.url)),
-        );
-      },
-    );
-  }
-}
-
-class _SiteChip extends StatelessWidget {
-  const _SiteChip({required this.label, required this.child, required this.onTap});
-  final String label;
-  final Widget child;
-  final VoidCallback onTap;
-
-  @override
-  Widget build(BuildContext context) => InkWell(
-    onTap: onTap,
-    borderRadius: BorderRadius.circular(RwRadius.lg),
-    child: SizedBox(
-      width: 64,
-      child: Column(
-        children: [
-          child,
-          const SizedBox(height: RwSpace.xs),
-          Text(label, maxLines: 1, overflow: TextOverflow.ellipsis, style: RwType.caption),
-        ],
       ),
     ),
   );

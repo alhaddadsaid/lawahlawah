@@ -42,3 +42,41 @@ class VerifiedSourceSession {
     };
   }
 }
+
+/// Navigation for the visible verification browser. Cloudflare may use srcdoc
+/// frames; these must not be confused with unsafe external navigation.
+abstract final class VerificationPolicy {
+  static bool allows(Uri original, Uri target, {required bool mainFrame}) {
+    if (target.scheme == 'about' && {'blank', 'srcdoc'}.contains(target.path)) return true;
+    if (target.scheme != 'https') return false;
+    if (!mainFrame) return true;
+    return target.origin == original.origin || target.host == 'challenges.cloudflare.com';
+  }
+
+  static bool pageReady({
+    required Uri original,
+    required Uri current,
+    required String title,
+    required String text,
+    required bool challengeVisible,
+  }) {
+    if (current.scheme != 'https' || current.origin != original.origin || text.trim().isEmpty || challengeVisible) {
+      return false;
+    }
+    final heading = title.toLowerCase();
+    final body = text.toLowerCase();
+    if (heading.contains('just a moment') ||
+        heading.contains('attention required') ||
+        heading == 'loading' ||
+        heading.contains('privacy error')) {
+      return false;
+    }
+    return ![
+      'performing security verification',
+      'checking your browser',
+      'verify you are human',
+      'verify that you are human',
+      'sorry, you have been blocked',
+    ].any(body.contains);
+  }
+}

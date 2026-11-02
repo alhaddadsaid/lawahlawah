@@ -38,7 +38,7 @@ class _SearchScreenState extends State<SearchScreen> {
       return;
     }
     Navigator.of(context).pop();
-    context.read<ShellController>().openSource(uri);
+    context.read<ShellController>().openBrowser(uri);
   }
 
   @override
@@ -94,7 +94,7 @@ class _SearchScreenState extends State<SearchScreen> {
                     subtitle: Text(s.host),
                     onTap: () {
                       Navigator.of(context).pop();
-                      context.read<ShellController>().openSource(Uri.parse(s.url));
+                      context.read<ShellController>().openBrowser(Uri.parse(s.url));
                     },
                   ),
                 if (results.isNotEmpty) SectionHeader('Titles (${results.length})'),

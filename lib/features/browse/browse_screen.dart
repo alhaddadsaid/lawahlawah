@@ -201,7 +201,12 @@ class _BrowseScreenState extends State<BrowseScreen> {
                         }),
                   icon: const Icon(Icons.arrow_back),
                 ),
-              Expanded(child: Text('Browse', style: RwType.headline)),
+              Expanded(child: Text('Series', style: RwType.headline)),
+              TextButton.icon(
+                onPressed: () => _shell.go(AppTab.home),
+                icon: const Icon(Icons.language),
+                label: const Text('Browser'),
+              ),
               const Icon(Icons.play_circle_outline, color: RwColors.accent),
             ],
           ),

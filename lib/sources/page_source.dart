@@ -56,9 +56,13 @@ class PageSource {
   PageSource({this.client});
   final http.Client? client;
   final Map<String, VerifiedSourceSession> _verification = {};
+  final Map<String, ({SourcePage page, DateTime expires})> _browserPages = {};
 
   void rememberVerification(VerifiedSourceSession session) => _verification[session.origin.origin] = session;
-  void clearVerification() => _verification.clear();
+  void clearVerification() {
+    _verification.clear();
+    _browserPages.clear();
+  }
 
   Map<String, String> verificationHeadersFor(Uri url) => _verification[url.origin]?.headersFor(url) ?? const {};
   static const maxBytes = 4 * 1024 * 1024;
@@ -91,10 +95,55 @@ class PageSource {
     );
   }
 
+  /// Inspect only the page the user actually opened. Browser snapshots stay in
+  /// memory briefly and are never persisted or forwarded to another website.
+  SourcePage? inspectBrowserPage(Uri url, String body) {
+    if (url.scheme != 'https' || url.userInfo.isNotEmpty || body.length > maxBytes) return null;
+    try {
+      final page = parse(url, body);
+      if (page.series.isEmpty) {
+        // An ordinary shopping/news ItemList is not evidence of a drama catalogue.
+        final mediaCatalogue =
+            page.titles.isNotEmpty &&
+            (isNarto(url) ||
+                RegExp(
+                  r'"@type"\s*:\s*"(?:TVSeries|Movie|CreativeWorkSeries|VideoObject)"',
+                  caseSensitive: false,
+                ).hasMatch(body) ||
+                page.titles.any(
+                  (item) => RegExp(r'/(?:series|drama|detail/watch|episode)(?:/|$)').hasMatch(item.url.path),
+                ));
+        if (!mediaCatalogue) return null;
+      }
+      _browserPages.removeWhere((_, cached) => cached.expires.isBefore(DateTime.now()));
+      // Keep browser metadata bounded even during long browsing sessions.
+      while (_browserPages.length >= 160) {
+        _browserPages.remove(_browserPages.keys.first);
+      }
+      final snapshot = (page: page, expires: DateTime.now().add(const Duration(minutes: 10)));
+      _browserPages[url.toString()] = snapshot;
+      for (final series in page.series) {
+        for (final episode in series.episodes) {
+          final link = episode.pageUrl;
+          if (link != null && link.origin == url.origin && _browserPages.length < 200) {
+            _browserPages[link.toString()] = snapshot;
+          }
+        }
+      }
+      return page;
+    } on FormatException {
+      return null;
+    }
+  }
+
   Future<SourcePage> read(Uri input) async {
     final requestClient = client ?? http.Client();
     try {
-      var page = await _read(requestClient, catalogueUrl(LinkFeed.resolve(LinkFeed.check(input.toString()))));
+      final target = catalogueUrl(LinkFeed.resolve(LinkFeed.check(input.toString())));
+      final cached = _browserPages[target.toString()];
+      if (cached != null && cached.expires.isAfter(DateTime.now())) return cached.page;
+      _browserPages.remove(target.toString());
+      var page = await _read(requestClient, target);
       // Series pages expose episode page links; the first episode contains the
       // serialized playlist. Follow only one same-site link, never crawl ads.
       if (page.series.isEmpty && isNarto(page.url) && page.url.path.startsWith('/detail/watch/')) {

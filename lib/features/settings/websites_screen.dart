@@ -116,7 +116,7 @@ class WebsitesScreen extends StatelessWidget {
                     ),
                     onTap: () {
                       Navigator.of(context).popUntil((r) => r.isFirst);
-                      context.read<ShellController>().openSource(Uri.parse(w.url));
+                      context.read<ShellController>().openBrowser(Uri.parse(w.url));
                     },
                   ),
               ],
