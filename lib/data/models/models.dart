@@ -133,6 +133,8 @@ class Episode {
     required this.episodeNumber,
     required this.sourcePageUrl,
     this.title,
+    this.videoUrl,
+    this.duration,
   });
 
   final String id;
@@ -141,6 +143,13 @@ class Episode {
   final int episodeNumber;
   final String? title;
   final String sourcePageUrl;
+
+  /// A video file Reelway's own player can play (from a link the user
+  /// added). Null: the episode opens on its source page instead.
+  final String? videoUrl;
+  final Duration? duration;
+
+  bool get isPlayable => videoUrl != null;
 
   String get code => 'S${seasonNumber.toString().padLeft(2, '0')}E${episodeNumber.toString().padLeft(2, '0')}';
 }
@@ -169,6 +178,26 @@ class WatchHistory {
 
   /// Considered finished once 95% has been watched.
   bool get isFinished => progress >= 0.95;
+
+  Map<String, dynamic> toJson() => {
+    'id': id,
+    'contentId': contentId,
+    'episodeId': episodeId,
+    'sourceUrl': sourceUrl,
+    'positionMs': playbackPosition.inMilliseconds,
+    'durationMs': duration.inMilliseconds,
+    'lastWatched': lastWatched.toIso8601String(),
+  };
+
+  factory WatchHistory.fromJson(Map<String, dynamic> j) => WatchHistory(
+    id: j['id'] as String,
+    contentId: j['contentId'] as String,
+    episodeId: j['episodeId'] as String?,
+    sourceUrl: j['sourceUrl'] as String,
+    playbackPosition: Duration(milliseconds: j['positionMs'] as int),
+    duration: Duration(milliseconds: j['durationMs'] as int),
+    lastWatched: DateTime.parse(j['lastWatched'] as String),
+  );
 }
 
 class Bookmark {

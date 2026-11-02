@@ -29,6 +29,11 @@ Legend: ✅ done and tested here · 🟡 written, needs testing on a real device
 `target=_blank` links, a site with aggressive popunders, an embedded HTML5 video,
 `tel:`/`mailto:` links, a file download, a camera-permission test page, http:// page warning.
 
+## Links and player 🟡
+Users add public video or catalog links in the Library and watch them in Reelway's own
+player (MP4/HLS), with a disclaimer that they are responsible for their links. Reading
+and storage unit-tested; needs a phone test. See docs/LINKS.md.
+
 ## Phase 3: Video player ⬜
 `media_kit` or `video_player` (MP4/HLS/DASH), fullscreen, seek, speed, subtitles, audio
 tracks, PiP, resume position, episode navigation, error/network recovery. Fallback to the

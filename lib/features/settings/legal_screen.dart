@@ -44,6 +44,10 @@ class LegalScreen extends StatelessWidget {
       'Websites you visit are run by third parties, who are responsible for their content. Only use websites that have the right to offer the content they show.',
     ),
     (
+      'Links you add',
+      'You can add public links to videos or catalogs and play them in Reelway. Reelway does not host, provide or check these videos. Only add links you have the right to play: you are responsible for the links you add.',
+    ),
+    (
       'Acceptable use',
       'Do not use Reelway to break the law or get around access controls, paywalls or copy protection.',
     ),

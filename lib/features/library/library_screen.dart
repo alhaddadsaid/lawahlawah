@@ -6,6 +6,7 @@ import '../../core/widgets/components.dart';
 import '../../data/models/models.dart';
 import '../../data/repositories/app_state.dart';
 import '../content/content_detail_screen.dart';
+import 'add_link_sheet.dart';
 
 class LibraryScreen extends StatelessWidget {
   const LibraryScreen({super.key});
@@ -31,7 +32,16 @@ class LibraryScreen extends StatelessWidget {
           children: [
             Padding(
               padding: const EdgeInsets.fromLTRB(RwSpace.gutter, RwSpace.md, RwSpace.gutter, 0),
-              child: Row(children: [Text('Library', style: RwType.headline)]),
+              child: Row(
+                children: [
+                  Expanded(child: Text('Library', style: RwType.headline)),
+                  IconButton(
+                    icon: const Icon(Icons.add_link),
+                    tooltip: 'Add a link',
+                    onPressed: () => AddLinkSheet.show(context),
+                  ),
+                ],
+              ),
             ),
             TabBar(
               isScrollable: true,
@@ -68,7 +78,7 @@ class _Grid extends StatelessWidget {
       return EmptyState(
         icon: Icons.movie_filter_outlined,
         title: 'Nothing in $emptyLabel yet',
-        message: 'Titles appear here from websites whose integration is permitted, and from what you save.',
+        message: 'Tap the link button above to add a public video or catalog link.',
       );
     }
     return GridView.builder(

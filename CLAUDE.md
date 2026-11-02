@@ -22,6 +22,11 @@ Full product spec: the original "master development prompt" (summarised in docs/
   site does. Test page: https://httpbin.org/html (green "partner unlock active" bar, heading
   hidden). Narto-Drama has no agreement, so nothing runs there. See docs/PARTNERS.md.
 
+- Links and player: Library > link button adds a public video or catalog link (user is
+  responsible, disclaimer accepted once); titles play in our own player
+  (`lib/features/player/`). Test link: https://github.com/alhaddadsaid/dabreels-media
+  (free-licensed episodes). See docs/LINKS.md.
+
 ## Commands
 ```bash
 flutter pub get

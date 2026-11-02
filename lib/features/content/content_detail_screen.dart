@@ -6,6 +6,7 @@ import '../../core/widgets/components.dart';
 import '../../data/models/models.dart';
 import '../../data/repositories/app_state.dart';
 import '../../data/sample/sample_data.dart';
+import '../player/player_screen.dart';
 import '../shell/shell.dart';
 
 class ContentDetailScreen extends StatelessWidget {
@@ -31,15 +32,36 @@ class ContentDetailScreen extends StatelessWidget {
     context.read<ShellController>().openInBrowser(Uri.parse(url));
   }
 
+  /// Plays in Reelway's player when the title comes from an added link;
+  /// otherwise opens its source page.
+  void _watch(BuildContext context, List<Episode> playable, WatchHistory? history) {
+    if (playable.isNotEmpty) {
+      PlayerScreen.resume(context, content);
+    } else {
+      _openSource(context, history?.sourceUrl ?? content.sourcePageUrl);
+    }
+  }
+
+  void _openEpisode(BuildContext context, Episode e, List<Episode> playable) {
+    final i = playable.indexOf(e);
+    if (i >= 0) {
+      PlayerScreen.open(context, content, playable, index: i);
+    } else {
+      _openSource(context, e.sourcePageUrl);
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     final app = context.watch<AppState>();
     final site = app.websiteById(content.sourceWebsiteId);
     final history = app.historyFor(content.id);
     final saved = app.isFavorite(content.id);
-    final episodes = content.category == ContentCategory.series && content.isSample
-        ? SampleData.episodesFor(content.id)
-        : const <Episode>[];
+    var episodes = app.episodesFor(content.id);
+    if (episodes.isEmpty && content.category == ContentCategory.series && content.isSample) {
+      episodes = SampleData.episodesFor(content.id);
+    }
+    final playable = episodes.where((e) => e.isPlayable).toList();
     final width = MediaQuery.sizeOf(context).width;
 
     return Scaffold(
@@ -80,7 +102,7 @@ class ContentDetailScreen extends StatelessWidget {
                   children: [
                     Expanded(
                       child: FilledButton.icon(
-                        onPressed: () => _openSource(context, history?.sourceUrl ?? content.sourcePageUrl),
+                        onPressed: () => _watch(context, playable, history),
                         icon: const Icon(Icons.play_arrow_rounded),
                         label: Text(history != null && !history.isFinished ? 'Resume' : 'Watch'),
                       ),
@@ -123,7 +145,7 @@ class ContentDetailScreen extends StatelessWidget {
                     _EpisodeTile(
                       episode: e,
                       current: history?.episodeId == e.id,
-                      onTap: () => _openSource(context, e.sourcePageUrl),
+                      onTap: () => _openEpisode(context, e, playable),
                     ),
                 ],
                 const SizedBox(height: RwSpace.xxl),
@@ -196,7 +218,7 @@ class _EpisodeTile extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text(episode.title ?? episode.code, style: RwType.subtitle),
+                    Text(episode.title ?? 'Episode ${episode.episodeNumber}', style: RwType.subtitle),
                     Text(current ? '${episode.code} · Watching' : episode.code, style: RwType.caption),
                   ],
                 ),

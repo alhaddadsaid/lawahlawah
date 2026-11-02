@@ -3,8 +3,10 @@ import 'package:provider/provider.dart';
 
 import '../../core/design/tokens.dart';
 import '../../core/widgets/components.dart';
+import '../../data/models/models.dart';
 import '../../data/repositories/app_state.dart';
 import '../content/content_detail_screen.dart';
+import '../player/player_screen.dart';
 import '../shell/shell.dart';
 
 class HistoryScreen extends StatelessWidget {
@@ -110,7 +112,7 @@ class HistoryScreen extends StatelessWidget {
                     trailing: IconButton(
                       tooltip: h.isFinished ? 'Watch again' : 'Resume',
                       icon: Icon(h.isFinished ? Icons.replay : Icons.play_circle_fill, color: RwColors.accent),
-                      onPressed: () => context.read<ShellController>().openInBrowser(Uri.parse(h.sourceUrl)),
+                      onPressed: () => _resume(context, c, h.sourceUrl),
                     ),
                     onTap: () => ContentDetailScreen.open(context, c),
                   ),
@@ -161,4 +163,14 @@ class _DeleteBg extends StatelessWidget {
     padding: const EdgeInsets.only(right: RwSpace.lg),
     child: const Icon(Icons.delete_outline, color: Colors.white),
   );
+}
+
+/// Plays in Reelway's player when the title comes from an added link;
+/// otherwise opens the page it was watched on.
+void _resume(BuildContext context, Content c, String sourceUrl) {
+  if (context.read<AppState>().episodesFor(c.id).any((e) => e.isPlayable)) {
+    PlayerScreen.resume(context, c);
+  } else {
+    context.read<ShellController>().openInBrowser(Uri.parse(sourceUrl));
+  }
 }
