@@ -109,6 +109,18 @@ class _PlayerScreenState extends State<PlayerScreen> {
     _cast.addListener(_onCast);
     _preferredSubtitleLanguage = _app.settings.subtitlesEnabled ? null : '__off__';
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
+    unawaited(_start());
+  }
+
+  /// Opening the player starts an episode too (website episodes reopen it),
+  /// so it counts for interstitial pacing before the first video plays.
+  Future<void> _start() async {
+    if (AdPacing.episodeStarted()) {
+      await Future<void>.delayed(Duration.zero);
+      if (!mounted) return;
+      await showInterstitialAd(context);
+      if (!mounted) return;
+    }
     _play(widget.startAt ?? Duration.zero);
   }
 
@@ -361,6 +373,14 @@ class _PlayerScreenState extends State<PlayerScreen> {
   Future<void> _goTo(int index) async {
     if (index < 0 || index >= widget.episodes.length) return;
     _save();
+    final openPage = widget.onOpenPage;
+    if (openPage != null && !widget.episodes[index].isPlayable) {
+      // The website starts it; the next player counts it for ads.
+      final episode = widget.episodes[index];
+      Navigator.of(context).maybePop();
+      openPage(episode);
+      return;
+    }
     // Every few episodes, an interstitial between them (paced in AdPacing).
     // Not while the video plays on a TV.
     if (!_cast.isCasting && AdPacing.episodeStarted()) {
@@ -368,13 +388,6 @@ class _PlayerScreenState extends State<PlayerScreen> {
       if (!mounted) return;
       await showInterstitialAd(context);
       if (!mounted) return;
-    }
-    final openPage = widget.onOpenPage;
-    if (openPage != null && !widget.episodes[index].isPlayable) {
-      final episode = widget.episodes[index];
-      Navigator.of(context).maybePop();
-      openPage(episode);
-      return;
     }
     setState(() => _index = index);
     _play(Duration.zero);

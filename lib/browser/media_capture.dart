@@ -169,10 +169,11 @@ abstract final class MediaCapture {
   /// [clickEpisodeJs] can press one, as the user would.
   static const episodesJs = r"""
 (function () {
-  var RX = [/^(?:ep(?:isode)?\.?\s*)?0*(\d{1,4})$/i, /^\u7b2c\s*(\d{1,4})\s*[\u96c6\u8bdd\u8a71]$/];
+  // "3", "EP 3", "Episode 3", "Capítulo 3", "الحلقة 3", "第3集": up to two words, the number, a short suffix.
+  var RX = [/^(?:[\p{L}.]+\s*){0,2}[#:.\-]?\s*0*(\d{1,4})(?:\s*\p{L}{1,3})?$/u];
   function num(t) {
     t = (t || '').replace(/\s+/g, ' ').trim();
-    if (!t || t.length > 16) return 0;
+    if (!t || t.length > 22) return 0;
     for (var i = 0; i < RX.length; i++) { var m = RX[i].exec(t); if (m) return +m[1]; }
     return 0;
   }
@@ -361,9 +362,9 @@ document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } cat
     return i;
   }
 
+  /// "3", "EP 3", "Episode 3", "Capítulo 3", "الحلقة 3", "第3集".
   static final _numberText = [
-    RegExp(r'^(?:ep(?:isode)?\.?\s*)?0*(\d{1,4})$', caseSensitive: false),
-    RegExp(r'^第\s*(\d{1,4})\s*[集话話]$'),
+    RegExp(r'^(?:[\p{L}.]+\s*){0,2}[#:.\-]?\s*0*(\d{1,4})(?:\s*\p{L}{1,3})?$', unicode: true),
   ];
 
   static int? _episodeNumber(String text) {

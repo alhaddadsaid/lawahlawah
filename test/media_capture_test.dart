@@ -187,6 +187,19 @@ void main() {
       expect(title.episodes.first.page.toString(), 'https://drama.example.com/watch/love-story/ep-1');
     });
 
+    test('episode labels in other languages are recognised', () {
+      final title = MediaCapture.describe(
+        Uri.parse('https://dramaexpress.example/serie/tres-novias/capitulo-1'),
+        '<html><body>'
+        '<a href="/serie/tres-novias/capitulo-1">Capítulo 1</a>'
+        '<a href="/serie/tres-novias/capitulo-2">Capítulo 2</a>'
+        '<a href="/serie/tres-novias/capitulo-3">Capítulo 3</a>'
+        '</body></html>',
+      );
+      expect(title.episodes.map((e) => e.number), [1, 2, 3]);
+      expect(title.current, 1);
+    });
+
     test('a page without an episode list is one episode', () {
       final single = MediaCapture.describe(
         Uri.parse('https://videos.example.com/v/abc'),
