@@ -36,6 +36,28 @@ class BrowserCommands {
     }
   }
 
+  /// The page's episode list (see [MediaCapture.episodesJs]).
+  Future<List<ScannedEpisode>> episodes(Uri page) async {
+    try {
+      return MediaCapture.decodeEpisodes(
+        await _c?.evaluateJavascript(source: MediaCapture.episodesJs, contentWorld: _world),
+        page,
+      );
+    } catch (_) {
+      return const [];
+    }
+  }
+
+  /// Presses episode [number] in the page's episode list. False when the page
+  /// no longer shows it.
+  Future<bool> pressEpisode(int number) async {
+    try {
+      return await _c?.evaluateJavascript(source: MediaCapture.clickEpisodeJs(number), contentWorld: _world) == true;
+    } catch (_) {
+      return false;
+    }
+  }
+
   Future<void> pauseMedia() async {
     try {
       await _c?.evaluateJavascript(source: MediaCapture.pauseJs, contentWorld: _world);

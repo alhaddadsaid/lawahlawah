@@ -51,9 +51,15 @@ class SettingsScreen extends StatelessWidget {
           _Group('Browser', [
             SwitchListTile(
               title: const Text('Block website ads'),
-              subtitle: const Text('Blocks common ad-network requests'),
+              subtitle: const Text('Blocks known ad networks (EasyList)'),
               value: s.blockWebsiteAds,
               onChanged: (value) => set((s) => s.copyWith(blockWebsiteAds: value)),
+            ),
+            SwitchListTile(
+              title: const Text('Open videos in Reelway'),
+              subtitle: const Text('When a website plays an episode or shows a series, continue in Reelway'),
+              value: s.openVideosInReelway,
+              onChanged: (value) => set((s) => s.copyWith(openVideosInReelway: value)),
             ),
             _NavTile(
               Icons.shield_outlined,

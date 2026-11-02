@@ -35,9 +35,14 @@ class _HomeScreenState extends State<HomeScreen> {
   /// The episode video each tab's page is playing, for "Play in Reelway".
   final _media = <String, CapturedMedia>{};
 
-  /// Set when the player sent the user to an episode's page: the video that
-  /// page starts goes straight back to the player.
-  ({String tabId, String contentId, DateTime at})? _handoff;
+  /// Set when the player sent the user to another episode: the next video
+  /// the page starts goes straight back to the player. [exclude] holds the
+  /// videos that were already there, so the old episode is not picked again.
+  ({String tabId, String contentId, int number, Set<String> exclude, DateTime at})? _handoff;
+
+  /// What already moved into Reelway automatically (tab, page and video), so
+  /// coming back to the website does not send the user away again.
+  final _autoOpened = <String>{};
   Timer? _mediaTimer;
   bool _checkingMedia = false;
   bool _showStartPage = false;
@@ -69,7 +74,8 @@ class _HomeScreenState extends State<HomeScreen> {
     if (tab == null || commands == null) return;
     _checkingMedia = true;
     try {
-      final found = MediaCapture.pick(await commands.media(), tab.url);
+      final media = await commands.media();
+      final found = MediaCapture.pick(media, tab.url);
       if (!mounted || _tabs.active?.id != tab.id) return;
       if (found?.url != _media[tab.id]?.url) {
         setState(() {
@@ -82,9 +88,16 @@ class _HomeScreenState extends State<HomeScreen> {
       }
       final handoff = _handoff;
       if (handoff != null && DateTime.now().difference(handoff.at) > const Duration(minutes: 3)) _handoff = null;
-      if (found != null && handoff != null && handoff.tabId == tab.id && _handoff != null) {
+      final next = handoff == null ? null : MediaCapture.pick(media, tab.url, exclude: handoff.exclude);
+      if (next != null && handoff != null && handoff.tabId == tab.id && _handoff != null) {
         _handoff = null;
-        await _playInReelway(tab, found, contentId: handoff.contentId);
+        _autoOpened.add('${tab.id}|${next.url}');
+        await _playInReelway(tab, next, contentId: handoff.contentId, number: handoff.number);
+      } else if (found != null &&
+          _handoff == null &&
+          context.read<AppState>().settings.openVideosInReelway &&
+          _autoOpened.add('${tab.id}|${found.url}')) {
+        await _playInReelway(tab, found);
       }
     } finally {
       _checkingMedia = false;
@@ -93,14 +106,16 @@ class _HomeScreenState extends State<HomeScreen> {
 
   /// Moves the video the page is playing into Reelway's player, with the
   /// episode list the page shows.
-  Future<void> _playInReelway(BrowserTab tab, CapturedMedia media, {String? contentId}) async {
+  Future<void> _playInReelway(BrowserTab tab, CapturedMedia media, {String? contentId, int? number}) async {
+    _autoOpened.add('${tab.id}|${media.url}');
     final commands = _commands[tab.id];
     final body = await commands?.html();
     if (!mounted || commands == null || body == null) return;
+    final scanned = await commands.episodes(tab.url);
     await commands.pauseMedia();
     if (!mounted) return;
     final app = context.read<AppState>();
-    final page = MediaCapture.describe(tab.url, body);
+    final page = MediaCapture.describe(tab.url, body, scanned: scanned, current: number);
     final content = app.showWebTitle(page, media.url, contentId: contentId);
     final episodes = app.episodesFor(content.id);
     final index = episodes.indexWhere((e) => e.episodeNumber == page.current);
@@ -113,12 +128,26 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
-  void _openEpisodePage(String tabId, String contentId, Episode episode) {
+  Future<void> _openEpisodePage(String tabId, String contentId, Episode episode) async {
     if (!mounted || !_tabs.tabs.any((t) => t.id == tabId)) return;
     _tabs.activate(tabId);
-    _handoff = (tabId: tabId, contentId: contentId, at: DateTime.now());
-    _open(Uri.parse(episode.sourcePageUrl));
-    _snack('Opening episode ${episode.episodeNumber}. When its video starts, it moves to Reelway\'s player.');
+    final commands = _commands[tabId];
+    final page = Uri.parse(episode.sourcePageUrl);
+    final pressed = MediaCapture.pressedEpisode(page);
+    // Videos already on the page belong to the episode the user just left.
+    final before = pressed == null ? <String>{} : {for (final m in await commands?.media() ?? []) m.url.toString()};
+    if (!mounted) return;
+    _handoff = (tabId: tabId, contentId: contentId, number: episode.episodeNumber, exclude: before, at: DateTime.now());
+    if (pressed == null) {
+      _open(page);
+    } else if (await commands?.pressEpisode(pressed) != true) {
+      _handoff = null;
+      if (mounted) _snack('Episode ${episode.episodeNumber} is no longer on this page. Choose it on the website.');
+      return;
+    }
+    if (mounted) {
+      _snack('Opening episode ${episode.episodeNumber}. When its video starts, it moves to Reelway\'s player.');
+    }
   }
 
   void _onTabs() {
@@ -153,7 +182,12 @@ class _HomeScreenState extends State<HomeScreen> {
     if (active == null || active.url != url) return;
     final body = await _commands[active.id]?.html();
     if (!mounted || body == null || _tabs.active?.url != url) return;
-    if (app.inspectBrowserPage(url, body) != null) setState(() => _detected.add(url.toString()));
+    if (app.inspectBrowserPage(url, body) == null) return;
+    setState(() => _detected.add(url.toString()));
+    // A series page goes straight to Reelway's Series screen, once per page.
+    if (app.settings.openVideosInReelway && !LinkFeed.isVideo(url) && _autoOpened.add('${active.id}|$url')) {
+      _shell.openSource(url);
+    }
   }
 
   void _submitAddress(String text, {bool newTab = false}) {

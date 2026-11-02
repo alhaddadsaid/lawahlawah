@@ -3,12 +3,14 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
+import 'package:cast/device.dart';
 import 'package:video_player/video_player.dart';
 
 import '../../core/design/tokens.dart';
 import '../../data/models/models.dart';
 import '../../data/models/user_settings.dart';
 import '../../sources/subtitle_track.dart';
+import 'cast_controller.dart';
 import 'subtitle_loader.dart';
 import 'episode_picker.dart';
 import '../../data/repositories/app_state.dart';
@@ -74,6 +76,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
 
   late final AppState _app;
   late int _index;
+  final _cast = CastController();
   VideoPlayerController? _video;
   bool _controls = true;
   bool _ended = false;
@@ -101,6 +104,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
     _app = context.read<AppState>();
     _index = widget.index;
     _speed = _app.settings.preferredPlaybackSpeed;
+    _cast.addListener(_onCast);
     _preferredSubtitleLanguage = _app.settings.subtitlesEnabled ? null : '__off__';
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
     _play(widget.startAt ?? Duration.zero);
@@ -121,6 +125,9 @@ class _PlayerScreenState extends State<PlayerScreen> {
     }
     c?.removeListener(_tick);
     c?.dispose();
+    _cast
+      ..removeListener(_onCast)
+      ..dispose();
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
     super.dispose();
   }
@@ -162,7 +169,12 @@ class _PlayerScreenState extends State<PlayerScreen> {
         _video = c;
         _subtitleTracks = source.subtitles;
       });
-      await c.play();
+      if (_cast.isCasting) {
+        // The TV follows the player to the next episode; the phone stays paused.
+        _cast.load(url: url, title: _title, poster: _poster);
+      } else {
+        await c.play();
+      }
       _showControls();
       if (_preferredSubtitleLanguage != '__off__' && _subtitleTracks.isNotEmpty) {
         final preferred = _subtitleTracks.where((track) => track.language == _preferredSubtitleLanguage).firstOrNull;
@@ -178,6 +190,69 @@ class _PlayerScreenState extends State<PlayerScreen> {
         _error = error is FormatException ? error.message : _failed;
       });
     }
+  }
+
+  Uri? get _poster {
+    final p = widget.content.poster;
+    return p == null ? null : Uri.tryParse(p);
+  }
+
+  void _onCast() {
+    if (mounted) setState(() {});
+  }
+
+  /// Lists Chromecasts on the Wi-Fi; choosing one moves the video to the TV.
+  Future<void> _chooseCastDevice() async {
+    _hide?.cancel();
+    if (_cast.isCasting) {
+      await _cast.stop();
+      _showControls();
+      return;
+    }
+    unawaited(_cast.startDiscovery());
+    final chosen = await showModalBottomSheet<CastDevice>(
+      context: context,
+      showDragHandle: true,
+      builder: (context) => ListenableBuilder(
+        listenable: _cast,
+        builder: (context, _) => SafeArea(
+          child: Column(
+            mainAxisSize: MainAxisSize.min,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: [
+              Padding(
+                padding: const EdgeInsets.fromLTRB(RwSpace.lg, 0, RwSpace.lg, RwSpace.sm),
+                child: Text('Play on TV', style: RwType.title),
+              ),
+              if (_cast.devices.isEmpty)
+                Padding(
+                  padding: const EdgeInsets.all(RwSpace.lg),
+                  child: Text(
+                    'Looking for Chromecast devices on this Wi-Fi…\nThe TV must be on and on the same network.',
+                    style: RwType.caption,
+                  ),
+                ),
+              for (final d in _cast.devices)
+                ListTile(
+                  leading: const Icon(Icons.tv),
+                  title: Text(d.name),
+                  subtitle: Text(d.extras['md'] ?? 'Chromecast'),
+                  onTap: () => Navigator.pop(context, d),
+                ),
+              const SizedBox(height: RwSpace.md),
+            ],
+          ),
+        ),
+      ),
+    );
+    final c = _video;
+    if (!mounted || chosen == null || c == null) {
+      _showControls();
+      return;
+    }
+    await c.pause();
+    await _cast.cast(chosen, url: Uri.parse(c.dataSource), title: _title, poster: _poster, startAt: c.value.position);
+    _showControls();
   }
 
   Future<void> _selectSubtitle(SubtitleTrack? track, {bool remember = true}) async {
@@ -314,6 +389,11 @@ class _PlayerScreenState extends State<PlayerScreen> {
   }
 
   void _togglePlay() {
+    if (_cast.isCasting) {
+      _cast.togglePlay();
+      _showControls();
+      return;
+    }
     final c = _video;
     if (c == null) return;
     c.value.isPlaying ? c.pause() : c.play();
@@ -321,6 +401,11 @@ class _PlayerScreenState extends State<PlayerScreen> {
   }
 
   void _seekBy(int seconds) {
+    if (_cast.isCasting) {
+      _cast.seekTo(_cast.position + Duration(seconds: seconds));
+      _showControls();
+      return;
+    }
     final c = _video;
     if (c == null) return;
     c.seekTo(c.value.position + Duration(seconds: seconds));
@@ -399,7 +484,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
     final duration = c?.value.duration ?? Duration.zero;
     final total = duration.inMilliseconds;
     final fraction = total <= 0 ? 0.0 : (position.inMilliseconds / total).clamp(0.0, 1.0);
-    final playing = c?.value.isPlaying ?? false;
+    final playing = _cast.isCasting ? _cast.playing : (c?.value.isPlaying ?? false);
     return DecoratedBox(
       decoration: const BoxDecoration(
         gradient: LinearGradient(
@@ -422,11 +507,25 @@ class _PlayerScreenState extends State<PlayerScreen> {
                 Expanded(
                   child: Text(_title, maxLines: 1, overflow: TextOverflow.ellipsis, style: RwType.subtitle),
                 ),
+                IconButton(
+                  tooltip: _cast.isCasting ? 'Stop playing on TV' : 'Play on TV',
+                  onPressed: c == null ? null : _chooseCastDevice,
+                  icon: Icon(_cast.isCasting ? Icons.cast_connected : Icons.cast, color: Colors.white),
+                ),
                 if (c != null) _subtitleMenu(),
                 TextButton(onPressed: c == null ? null : _cycleSpeed, child: Text(_speedLabel)),
               ],
             ),
             const Spacer(),
+            if (_cast.isCasting || _cast.status.isNotEmpty)
+              Padding(
+                padding: const EdgeInsets.only(bottom: RwSpace.md),
+                child: Text(
+                  _cast.isCasting ? 'On ${_cast.device!.name} · ${_cast.status}' : _cast.status,
+                  textAlign: TextAlign.center,
+                  style: RwType.caption.copyWith(color: Colors.white),
+                ),
+              ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -465,7 +564,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
                     child: Slider(
                       value: fraction,
                       activeColor: RwColors.accent,
-                      onChanged: c == null ? null : (f) => c.seekTo(duration * f),
+                      onChanged: c == null || _cast.isCasting ? null : (f) => c.seekTo(duration * f),
                     ),
                   ),
                   Text(_clock(duration), style: RwType.caption),

@@ -17,6 +17,12 @@
 	<string>A website you are visiting asked to use the camera. Reelway only allows this if you approve.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>A website you are visiting asked to use the microphone. Reelway only allows this if you approve.</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Reelway looks for Chromecast and TVs on your Wi-Fi so you can play videos on them.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_googlecast._tcp</string>
+	</array>
 	<key>CFBundleDisplayName</key>
 	<string>Reelway</string>
 	<key>CFBundleExecutable</key>

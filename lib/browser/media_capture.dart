@@ -7,7 +7,7 @@ import 'website_ad_rules.dart';
 
 /// A video address a page's own player loaded, as seen by the browser.
 class CapturedMedia {
-  const CapturedMedia({required this.url, required this.page, required this.fromVideo, this.seconds = 0});
+  const CapturedMedia({required this.url, required this.page, required this.fromVideo, this.seconds = 0, this.at = 0});
 
   final Uri url;
 
@@ -20,6 +20,21 @@ class CapturedMedia {
 
   /// Length reported by the `<video>` element; 0 when unknown.
   final int seconds;
+
+  /// When the browser saw it (milliseconds since epoch); 0 when unknown.
+  final int at;
+}
+
+/// An episode number the page shows (link or button), read from the live page.
+class ScannedEpisode {
+  const ScannedEpisode({required this.number, this.link, this.active = false});
+  final int number;
+
+  /// Where the episode opens, when it is a link; null for a button.
+  final Uri? link;
+
+  /// Marked by the page as the episode playing now.
+  final bool active;
 }
 
 /// One episode link found on the page, for the player's episode list.
@@ -103,6 +118,105 @@ abstract final class MediaCapture {
 
   static const readerJs = 'JSON.stringify(window.__rwMedia || [])';
 
+  /// Finds the page's episode list: the group of links or buttons labelled
+  /// 1, 2, 3 (or "EP 2", "第3集") under one parent. Remembers the elements so
+  /// [clickEpisodeJs] can press one, as the user would.
+  static const episodesJs = r"""
+(function () {
+  var RX = [/^(?:ep(?:isode)?\.?\s*)?0*(\d{1,4})$/i, /^\u7b2c\s*(\d{1,4})\s*[\u96c6\u8bdd\u8a71]$/];
+  function num(t) {
+    t = (t || '').replace(/\s+/g, ' ').trim();
+    if (!t || t.length > 16) return 0;
+    for (var i = 0; i < RX.length; i++) { var m = RX[i].exec(t); if (m) return +m[1]; }
+    return 0;
+  }
+  var groups = new Map();
+  var nodes = document.querySelectorAll('a, button, li, [role="button"], [onclick], div, span');
+  for (var i = 0; i < nodes.length && i < 20000; i++) {
+    var el = nodes[i];
+    if (el.children.length > 3 || !el.getClientRects().length) continue;
+    var n = num(el.textContent) || num(el.getAttribute('aria-label'));
+    if (!n) continue;
+    var a = el.closest('a[href]');
+    var parent = a && a.contains(el) && a !== el ? a.parentElement : el.parentElement;
+    if (!parent) continue;
+    var g = groups.get(parent);
+    if (!g) { g = {}; groups.set(parent, g); }
+    if (g[n]) continue;
+    var cls = ((el.className && el.className.baseVal !== undefined ? el.className.baseVal : el.className) || '') + ' ' +
+      ((a && a.className) || '');
+    g[n] = {
+      el: a || el,
+      n: n,
+      href: a ? a.href : '',
+      active: /(^|[\s_-])(active|current|selected|playing|on)([\s_-]|$)/i.test(cls) ||
+        el.getAttribute('aria-current') === 'true' || el.getAttribute('aria-current') === 'page' ||
+        el.getAttribute('aria-selected') === 'true'
+    };
+  }
+  var best = null, bestSize = 1;
+  groups.forEach(function (g) {
+    var size = Object.keys(g).length;
+    if (size > bestSize) { best = g; bestSize = size; }
+  });
+  window.__rwEpisodeEls = {};
+  var out = [];
+  if (best) {
+    Object.keys(best).forEach(function (k) {
+      var e = best[k];
+      window.__rwEpisodeEls[e.n] = e.el;
+      out.push({ n: e.n, h: e.href, a: e.active });
+    });
+  }
+  return JSON.stringify(out);
+})();
+""";
+
+  /// Presses episode [number] in the page's own episode list.
+  static String clickEpisodeJs(int number) =>
+      '''
+(function () {
+  var el = window.__rwEpisodeEls && window.__rwEpisodeEls[$number];
+  if (!el || !el.isConnected) { $episodesJs; el = window.__rwEpisodeEls && window.__rwEpisodeEls[$number]; }
+  if (!el) return false;
+  el.scrollIntoView({ block: 'center' });
+  el.click();
+  return true;
+})();
+''';
+
+  /// Marks an episode that is a button on the page rather than a link: the
+  /// player opens it by pressing that button.
+  static const episodeMarker = 'rw-episode=';
+
+  /// The episode number to press for [page], or null for an ordinary link.
+  static int? pressedEpisode(Uri page) =>
+      page.fragment.startsWith(episodeMarker) ? int.tryParse(page.fragment.substring(episodeMarker.length)) : null;
+
+  static List<ScannedEpisode> decodeEpisodes(Object? raw, Uri page) {
+    if (raw is! String) return const [];
+    try {
+      final data = jsonDecode(raw);
+      if (data is! List) return const [];
+      final site = PopupProtection.registrableDomain(page.host);
+      return [
+        for (final e in data.whereType<Map>())
+          if (e['n'] case final int n when n > 0)
+            ScannedEpisode(
+              number: n,
+              active: e['a'] == true,
+              link: switch (Uri.tryParse(e['h'] is String ? e['h'] as String : '')) {
+                final u? when u.scheme == 'https' && PopupProtection.registrableDomain(u.host) == site =>
+                  u.removeFragment(),
+                _ => null,
+              },
+            ),
+      ];
+    } on FormatException {
+      return const [];
+    }
+  }
+
   /// Stops the page's own player so the video does not play twice.
   static const pauseJs = r"""
 document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } catch (e) {} });
@@ -125,6 +239,7 @@ document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } cat
                 page: page,
                 fromVideo: e['v'] == true,
                 seconds: e['d'] is num ? (e['d'] as num).toInt() : 0,
+                at: e['t'] is num ? (e['t'] as num).toInt() : 0,
               ),
       ];
     } on FormatException {
@@ -133,22 +248,35 @@ document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } cat
   }
 
   static bool isAd(Uri url) =>
-      adNetworkHosts.any((host) => url.host == host || url.host.endsWith('.$host')) ||
+      AdDomains.isAdHost(url.host) ||
       RegExp(r'(^|[/._-])(ads?|vast|preroll|advert)([/._-]|$)', caseSensitive: false).hasMatch(url.path);
 
   static String _key(Uri page) => page.removeFragment().toString();
 
   /// The episode video playing on [page], or null when there is none yet.
-  /// Prefers a playing video long enough to be an episode, then the first
-  /// HLS playlist the page loaded (the master playlist comes first).
-  static CapturedMedia? pick(List<CapturedMedia> items, Uri page) {
+  /// Prefers a playing video long enough to be an episode, then the HLS
+  /// playlist that started the latest burst of playlist requests (a player
+  /// asks for the master playlist first, then its qualities right after).
+  /// Videos in [exclude] were already playing before the user chose another
+  /// episode, so they are skipped.
+  static CapturedMedia? pick(List<CapturedMedia> items, Uri page, {Set<String> exclude = const {}}) {
     final here = [
       for (final item in items)
-        if (_key(item.page) == _key(page) && item.url.scheme == 'https' && !isAd(item.url)) item,
+        if (_key(item.page) == _key(page) &&
+            item.url.scheme == 'https' &&
+            !isAd(item.url) &&
+            !exclude.contains(item.url.toString()))
+          item,
     ];
     final playing = here.where((m) => m.fromVideo && m.seconds >= minEpisodeSeconds).toList();
     if (playing.isNotEmpty) return playing.last;
-    return here.where((m) => m.url.path.toLowerCase().endsWith('.m3u8')).firstOrNull;
+    final playlists = here.where((m) => m.url.path.toLowerCase().endsWith('.m3u8')).toList()
+      ..sort((a, b) => a.at.compareTo(b.at));
+    CapturedMedia? start;
+    for (var i = 0; i < playlists.length; i++) {
+      if (i == 0 || playlists[i].at - playlists[i - 1].at > 2000) start = playlists[i];
+    }
+    return start;
   }
 
   static final _numberText = [
@@ -165,8 +293,11 @@ document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } cat
     return null;
   }
 
-  /// Reads the title, poster and episode links from the page the user is on.
-  static WebTitle describe(Uri page, String body) {
+  /// Reads the title, poster and episode list from the page the user is on.
+  /// [scanned] is the live page's episode list ([episodesJs]); episodes that
+  /// are buttons get an [episodeMarker] address. [current] overrides which
+  /// episode is playing (the one the player just asked for).
+  static WebTitle describe(Uri page, String body, {List<ScannedEpisode> scanned = const [], int? current}) {
     final document = html.parse(body);
     String? meta(String name) =>
         document.querySelector('meta[property="$name"],meta[name="$name"]')?.attributes['content']?.trim();
@@ -183,9 +314,15 @@ document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } cat
     }
     // A single number is a button or a badge, not an episode list.
     if (byNumber.length < 2) byNumber.clear();
+    if (scanned.length >= 2 && scanned.length >= byNumber.length) {
+      byNumber
+        ..clear()
+        ..addAll({for (final e in scanned) e.number: e.link ?? page.replace(fragment: '$episodeMarker${e.number}')});
+      current ??= scanned.where((e) => e.active).firstOrNull?.number;
+    }
 
     final rawTitle = meta('og:title') ?? document.querySelector('title')?.text.trim() ?? page.host;
-    var current = byNumber.entries.where((e) => _key(e.value) == _key(page)).firstOrNull?.key;
+    current ??= byNumber.entries.where((e) => _key(e.value) == _key(page)).firstOrNull?.key;
     current ??= _numberIn(page.path) ?? _numberIn(page.query) ?? _numberIn(rawTitle);
     current ??= 1;
     byNumber[current] = page.removeFragment();

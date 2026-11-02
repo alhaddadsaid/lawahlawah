@@ -49,6 +49,11 @@ class LegalScreen extends StatelessWidget {
     ),
     ('Acceptable use', 'Do not use Reelway to break the law or bypass logins, paywalls or copy protection.'),
     ('No warranty', 'Reelway is provided as is. Features depend on the websites you visit and may change.'),
+    (
+      'Ad blocking list',
+      'The browser blocks ad networks listed in EasyList (easylist.to), used under the Creative Commons '
+          'Attribution-ShareAlike 3.0 license.',
+    ),
   ];
 
   @override

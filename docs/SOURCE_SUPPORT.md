@@ -51,6 +51,17 @@ same way on every site (`lib/browser/media_capture.dart`):
   the same tab; when its video starts, it goes straight back to the player.
 - These titles are kept for the session only (video addresses expire) and are
   not listed in the Library.
+- Episode lists made of buttons (no links, as on ChartDrama's player page with
+  67 episode buttons) are read from the live page; choosing an episode presses
+  that button in the page, and videos from the previous episode are ignored.
+- With Settings > "Open videos in Reelway" (on by default) the episode video
+  and detected series pages move into Reelway without a button, once per page.
+- Ad blocking on iOS uses about 46,000 EasyList ad domains
+  (assets/adblock, refresh with `dart run tools/update_ad_list.dart`); Android
+  keeps the short list because its blocker checks every rule per request.
+- Play on TV: the player's cast button finds Chromecasts on the Wi-Fi
+  (bonsoir + cast packages, Default Media Receiver). The TV fetches the video
+  itself without the website's Referer, so some streams only play on the phone.
 
 Not covered: sites whose player uses DRM, episode lists made of buttons without
 links (the player then shows one episode), and videos inside cross-site frames

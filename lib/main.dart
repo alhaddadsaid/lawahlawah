@@ -6,12 +6,13 @@ import 'core/design/theme.dart';
 import 'data/repositories/app_state.dart';
 import 'features/shell/shell.dart';
 import 'browser/tab_manager.dart';
+import 'browser/website_ad_rules.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light);
   final app = AppState();
-  await app.load();
+  await Future.wait([app.load(), AdDomains.load()]);
   runApp(ReelwayApp(state: app));
 }
 

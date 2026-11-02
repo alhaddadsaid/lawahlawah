@@ -9,6 +9,7 @@ class UserSettings {
     this.warnOnHttp = true,
     this.blockThirdPartyCookies = false,
     this.blockWebsiteAds = true,
+    this.openVideosInReelway = true,
     this.autoplayNext = true,
     this.preferredPlaybackSpeed = 1.0,
     this.subtitlesEnabled = true,
@@ -23,6 +24,9 @@ class UserSettings {
   final bool warnOnHttp;
   final bool blockThirdPartyCookies;
   final bool blockWebsiteAds;
+
+  /// Move a website's video or series straight into Reelway's own screens.
+  final bool openVideosInReelway;
   final bool autoplayNext;
   final double preferredPlaybackSpeed;
   final bool subtitlesEnabled;
@@ -39,6 +43,7 @@ class UserSettings {
     bool? warnOnHttp,
     bool? blockThirdPartyCookies,
     bool? blockWebsiteAds,
+    bool? openVideosInReelway,
     bool? autoplayNext,
     double? preferredPlaybackSpeed,
     bool? subtitlesEnabled,
@@ -52,6 +57,7 @@ class UserSettings {
     warnOnHttp: warnOnHttp ?? this.warnOnHttp,
     blockThirdPartyCookies: blockThirdPartyCookies ?? this.blockThirdPartyCookies,
     blockWebsiteAds: blockWebsiteAds ?? this.blockWebsiteAds,
+    openVideosInReelway: openVideosInReelway ?? this.openVideosInReelway,
     autoplayNext: autoplayNext ?? this.autoplayNext,
     preferredPlaybackSpeed: preferredPlaybackSpeed ?? this.preferredPlaybackSpeed,
     subtitlesEnabled: subtitlesEnabled ?? this.subtitlesEnabled,
@@ -67,6 +73,7 @@ class UserSettings {
     'warnOnHttp': warnOnHttp,
     'blockThirdPartyCookies': blockThirdPartyCookies,
     'blockWebsiteAds': blockWebsiteAds,
+    'openVideosInReelway': openVideosInReelway,
     'autoplayNext': autoplayNext,
     'preferredPlaybackSpeed': preferredPlaybackSpeed,
     'subtitlesEnabled': subtitlesEnabled,
@@ -85,6 +92,7 @@ class UserSettings {
       warnOnHttp: pick('warnOnHttp', d.warnOnHttp),
       blockThirdPartyCookies: pick('blockThirdPartyCookies', d.blockThirdPartyCookies),
       blockWebsiteAds: pick('blockWebsiteAds', d.blockWebsiteAds),
+      openVideosInReelway: pick('openVideosInReelway', d.openVideosInReelway),
       autoplayNext: pick('autoplayNext', d.autoplayNext),
       preferredPlaybackSpeed: (j['preferredPlaybackSpeed'] as num?)?.toDouble() ?? d.preferredPlaybackSpeed,
       subtitlesEnabled: pick('subtitlesEnabled', d.subtitlesEnabled),

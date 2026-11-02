@@ -1,15 +1,85 @@
 import 'dart:convert';
+import 'dart:io';
 
 import 'package:flutter_test/flutter_test.dart';
 import 'package:reelway/browser/media_capture.dart';
+import 'package:reelway/browser/website_ad_rules.dart';
 import 'package:reelway/data/repositories/app_state.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 void main() {
   final page = Uri.parse('https://drama.example.com/watch/love-story/ep-3');
 
-  CapturedMedia media(String url, {bool video = false, int seconds = 0, Uri? on}) =>
-      CapturedMedia(url: Uri.parse(url), page: on ?? page, fromVideo: video, seconds: seconds);
+  CapturedMedia media(String url, {bool video = false, int seconds = 0, Uri? on, int at = 0}) =>
+      CapturedMedia(url: Uri.parse(url), page: on ?? page, fromVideo: video, seconds: seconds, at: at);
+
+  group('Episode switching', () {
+    test('the latest burst of playlists is the episode playing now', () {
+      final found = MediaCapture.pick([
+        media('https://cdn.example.com/ep1/master.m3u8', at: 1000),
+        media('https://cdn.example.com/ep1/720.m3u8', at: 1200),
+        media('https://cdn.example.com/ep2/master.m3u8', at: 60000),
+        media('https://cdn.example.com/ep2/720.m3u8', at: 60150),
+      ], page);
+      expect(found?.url.path, '/ep2/master.m3u8');
+    });
+
+    test('videos from the previous episode are skipped', () {
+      final items = [
+        media('https://cdn.example.com/ep1/master.m3u8', at: 1000),
+        media('https://cdn.example.com/ep1/720.m3u8', at: 1100),
+      ];
+      final exclude = {for (final m in items) m.url.toString()};
+      expect(MediaCapture.pick(items, page, exclude: exclude), isNull);
+      items.add(media('https://cdn.example.com/ep2/master.m3u8', at: 1500));
+      expect(MediaCapture.pick(items, page, exclude: exclude)?.url.path, '/ep2/master.m3u8');
+    });
+
+    test('reads the page episode list; buttons become pressable episodes', () {
+      final scanned = MediaCapture.decodeEpisodes(
+        jsonEncode([
+          {'n': 1, 'h': 'https://drama.example.com/watch/love-story/ep-1', 'a': false},
+          {'n': 2, 'h': '', 'a': true},
+          {'n': 3, 'h': 'https://elsewhere.com/ep-3', 'a': false},
+          {'n': 0, 'h': ''},
+        ]),
+        page,
+      );
+      expect(scanned.map((e) => e.number), [1, 2, 3]);
+      expect(scanned[2].link, isNull, reason: 'links to other sites are not followed');
+
+      final title = MediaCapture.describe(page, '<title>Love Story</title>', scanned: scanned);
+      expect(title.current, 2, reason: 'the page marks episode 2 as active');
+      expect(title.episodes.map((e) => e.number), [1, 2, 3]);
+      expect(title.episodes.first.page.toString(), 'https://drama.example.com/watch/love-story/ep-1');
+      expect(MediaCapture.pressedEpisode(title.episodes.last.page), 3);
+      expect(MediaCapture.pressedEpisode(title.episodes.first.page), isNull);
+    });
+
+    test('the episode the player asked for wins over the page', () {
+      final scanned = [const ScannedEpisode(number: 1, active: true), const ScannedEpisode(number: 2)];
+      expect(MediaCapture.describe(page, '', scanned: scanned, current: 2).current, 2);
+    });
+  });
+
+  group('Ad domains', () {
+    tearDown(() => AdDomains.domains = const {});
+
+    test('parses the bundled list and matches subdomains', () {
+      AdDomains.domains = AdDomains.parse('# comment\nn6wxm.com\n\nAdServer.Example\n');
+      expect(AdDomains.isAdHost('n6wxm.com'), isTrue);
+      expect(AdDomains.isAdHost('cdn.n6wxm.com'), isTrue);
+      expect(AdDomains.isAdHost('adserver.example'), isTrue);
+      expect(AdDomains.isAdHost('example.com'), isFalse);
+      expect(MediaCapture.isAd(Uri.parse('https://x.n6wxm.com/v.m3u8')), isTrue);
+    });
+
+    test('the bundled EasyList file is present and only holds plain domains', () {
+      final domains = AdDomains.parse(File(AdDomains.asset).readAsStringSync());
+      expect(domains.length, greaterThan(20000));
+      expect(domains.every((d) => RegExp(r'^[a-z0-9.-]+\.[a-z]{2,}$').hasMatch(d)), isTrue);
+    });
+  });
 
   group('MediaCapture.decode', () {
     test('reads what the watcher script recorded', () {
