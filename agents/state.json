@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -30838.653193240283,
+   "cash": -30831.345551176273,
    "open": [
     {
      "id": 1592,
@@ -53,51 +53,27 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 1598,
+     "id": 1600,
      "desk": "control",
      "market": "meme",
-     "symbol": "Catori",
-     "mint": "FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump",
+     "symbol": "CI",
+     "mint": "gg1zQUgUoXd8hVmkTmLooyzC1QBT1cvJDnCXHLPpump",
      "side": 1,
-     "opened": 1793606931.4855542,
-     "entry": 0.0001531,
-     "stop": 0.00012248,
-     "target": 0.00021433999999999998,
-     "size": 1306335.7282821685,
-     "deadline": 1793614131.4855545,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1599,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "TripleH",
-     "mint": "ATnGk91tqFpXhiqAnDfGav7YYMUiocQ2YHgY4gPBpump",
-     "side": 1,
-     "opened": 1793607116.1019597,
-     "entry": 7.78e-05,
-     "stop": 6.224e-05,
-     "target": 0.00010891999999999998,
-     "size": 2570694.087403599,
-     "deadline": 1793614316.10196,
+     "opened": 1793607851.9188106,
+     "entry": 0.0001198,
+     "stop": 9.584e-05,
+     "target": 0.00016772,
+     "size": 1669449.081803005,
+     "deadline": 1793615051.9188108,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1600,
+ "next_id": 1601,
  "runs": 58,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:gg1zQUgUoXd8hVmkTmLooyzC1QBT1cvJDnCXHLPpump": 1793607647.717332,
-  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793607647.717332,
-  "seen:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": 1793607647.717332,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793607647.717332,
-  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793607647.717332,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793607647.717332,
-  "seen:63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9": 1793607831.4210777,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793607831.4210777,
-  "control:FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump": 1793607831.4855583,
   "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793608015.9862418,
   "control:ATnGk91tqFpXhiqAnDfGav7YYMUiocQ2YHgY4gPBpump": 1793608016.1019638,
   "seen:8X9d6AqTWTNbuzXXuukWA6sq2pDruyuLnjrxLZZTpump": 1793608199.3359494,
@@ -110,7 +86,15 @@
   "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793608382.6144905,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793608382.6144905,
   "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793608382.6144905,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793608382.6144905
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793608382.6144905,
+  "seen:gg1zQUgUoXd8hVmkTmLooyzC1QBT1cvJDnCXHLPpump": 1793608567.7162058,
+  "seen:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": 1793608567.7162058,
+  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793608567.7162058,
+  "seen:CPoGSmcjprCvzA2MFYLJMpQkGjmgVzKg4RVwMdrzpump": 1793608567.7162058,
+  "seen:GoDSW31bTxfkoup9yA1qcGGx9RMXdTEWgApv3xzBmoA": 1793608567.7162058,
+  "seen:8Wi25nQhEay9KwAsoguEs3y1uxaJmCRQxRYnSY9dpump": 1793608751.851543,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793608751.851543,
+  "control:gg1zQUgUoXd8hVmkTmLooyzC1QBT1cvJDnCXHLPpump": 1793608751.9188147
  },
  "talks": {
   "2026-10-21": 109
@@ -151,14 +135,14 @@
  ],
  "last_review": 1793533893.992842,
  "news": {
-  "t": 1793606747.7252119,
+  "t": 1793607667.7239842,
   "crypto": [
-   "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack (0h ago)",
-   "Bitcoin ETFs lost $643 million in outflows Friday, and 2026 is barely green now (1h ago)",
+   "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack (1h ago)",
+   "Bitcoin ETFs lost $643 million in outflows Friday, and 2026 is barely green now (2h ago)",
    "BTCPay Server warns of hot wallet thefts running on outdated software (3h ago)",
    "Strangers are begging the Binance hacker for bitcoin, one \u2018help me bro\u2019 at a time (3h ago)",
-   "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack (3h ago)",
-   "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets (3h ago)",
+   "Bitcoin claws back toward $79,000 as markets shake off crypto's biggest hack (4h ago)",
+   "BTCPay, a bitcoin payment tool, tells users to switch off their servers after reports of drained wallets (4h ago)",
    "Bank of Korea probes financial firms\u2019 exposure to crypto risks (4h ago)",
    "THORChain halts swaps after block reorg bug, slowing Binance hackers (6h ago)",
    "Binance net outflows surge to $5.8B as withdrawals resume after record hack (8h ago)",
