@@ -36,28 +36,29 @@
      "size": 1892147.587511826,
      "deadline": 1793594407.2808359,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1571,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Nuts",
+     "mint": "APH9FRoKst66E4a7uZXcEfE8NjtwybUC8Jq7ue8upump",
+     "side": 1,
+     "opened": 1793587756.3342605,
+     "entry": 0.0001442,
+     "stop": 0.00011536000000000002,
+     "target": 0.00020188,
+     "size": 1386962.5520110957,
+     "deadline": 1793594956.3342607,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1571,
+ "next_id": 1572,
  "runs": 57,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793587378.866782,
-  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793587378.866782,
-  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793587378.866782,
-  "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793587378.866782,
-  "seen:8Jz7NgcjEMsWNPAXF3AvUHuHfN1bJ9nYZFHKiKkZUBeV": 1793587560.4432294,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793587560.4432294,
-  "seen:EaxAUcXxNnVwcqm2BBocbows7D1XVY2Q63V38NEypump": 1793587560.4432294,
-  "seen:3URQDih2QE9DzbbVKUgMrym8U2ApFjYTCdvQgRiWpump": 1793587560.4432294,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793587560.4432294,
-  "control:8Jz7NgcjEMsWNPAXF3AvUHuHfN1bJ9nYZFHKiKkZUBeV": 1793587560.7583504,
-  "seen:2pKpMwUQXNZeAf93LoomnZSworH3ezFzweCiuvrppump": 1793587743.7371337,
-  "seen:APH9FRoKst66E4a7uZXcEfE8NjtwybUC8Jq7ue8upump": 1793587743.7371337,
-  "seen:6w12CQQFkw2fRWhRxHuKULVE6QEuMzjyrcASq6NQpump": 1793587743.7371337,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793587743.7371337,
   "seen:5WwLbjptBC8fLALDmzciSMPBAc4J1Ak5hiKQnzCeARjo": 1793587925.3559449,
   "seen:GoDSW31bTxfkoup9yA1qcGGx9RMXdTEWgApv3xzBmoA": 1793587925.3559449,
   "seen:91QMBp6GNEfMmDg2VWH7iWkyUSpePRkdhc44W7oapump": 1793587925.3559449,
@@ -65,7 +66,17 @@
   "seen:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793588106.988933,
   "seen:8GiJ3Jy7FDtyPqrzWJ1891jVM7RAycBTxs8unGnZpump": 1793588106.988933,
   "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793588106.988933,
-  "control:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793588107.280839
+  "control:8pjfN5Ayb4rucGpYE3tZWN6v3EysizjPx1v62zx1pump": 1793588107.280839,
+  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793588291.5293949,
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793588291.5293949,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793588291.5293949,
+  "seen:8Jz7NgcjEMsWNPAXF3AvUHuHfN1bJ9nYZFHKiKkZUBeV": 1793588474.4609451,
+  "seen:3URQDih2QE9DzbbVKUgMrym8U2ApFjYTCdvQgRiWpump": 1793588474.4609451,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793588474.4609451,
+  "seen:APH9FRoKst66E4a7uZXcEfE8NjtwybUC8Jq7ue8upump": 1793588656.280123,
+  "seen:6w12CQQFkw2fRWhRxHuKULVE6QEuMzjyrcASq6NQpump": 1793588656.280123,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793588656.280123,
+  "control:APH9FRoKst66E4a7uZXcEfE8NjtwybUC8Jq7ue8upump": 1793588656.3342636
  },
  "talks": {
   "2026-10-21": 109
@@ -106,11 +117,11 @@
  ],
  "last_review": 1793533893.992842,
  "news": {
-  "t": 1793586660.451148,
+  "t": 1793587574.4688363,
   "crypto": [
    "THORChain halts swaps after block reorg bug, slowing Binance hackers (1h ago)",
    "Binance net outflows surge to $5.8B as withdrawals resume after record hack (3h ago)",
-   "Billions flee Binance on reopen, THORChain founder opposes coin freeze: Hodler\u2019s Digest (3h ago)",
+   "Billions flee Binance on reopen, THORChain founder opposes coin freeze: Hodler\u2019s Digest (4h ago)",
    "The crypto reader's guide to the 2026 midterm election: State of Crypto (7h ago)",
    "AI agents bypassed crypto spending limits without human approval, researchers find in a new test (10h ago)",
    "The key races to watch for the 2026 election (12h ago)",
