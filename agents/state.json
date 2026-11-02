@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -32021.148354833193,
+   "cash": -32181.31911481211,
    "open": [
     {
      "id": 1619,
@@ -20,21 +20,6 @@
      "target": 0.0025102,
      "size": 111544.89682097043,
      "deadline": 1793621820.9124165,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1621,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Warcoin",
-     "mint": "H86pLyqzZMim3pxrC29YWsMKoxL6xGFM1nQyVtyRpump",
-     "side": 1,
-     "opened": 1793615533.3621328,
-     "entry": 6.287e-05,
-     "stop": 5.0296e-05,
-     "target": 8.8018e-05,
-     "size": 3181167.488468268,
-     "deadline": 1793622733.362133,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -66,23 +51,29 @@
      "size": 7.67545297941792,
      "deadline": 1793703760.2133806,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 1625,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ARNOLD",
+     "mint": "nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump",
+     "side": 1,
+     "opened": 1793617540.3682323,
+     "entry": 5.152e-05,
+     "stop": 4.1216000000000007e-05,
+     "target": 7.2128e-05,
+     "size": 3881987.5776397516,
+     "deadline": 1793624740.3682325,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1625,
+ "next_id": 1627,
  "runs": 58,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9": 1793617529.3124135,
-  "seen:9X1UewnhWpk92kefZvZDkQuAYPk7Vwpnz61y5V2k2kLt": 1793617529.3124135,
-  "seen:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": 1793617529.3124135,
-  "seen:FDwCosavNvMiFB812ajJp3gG7eZ9c4bpgcnY6fDQpump": 1793617529.3124135,
-  "seen:GWR1wgGsDY7mPPRtn6ka1LL8RW3P7ugsj9xWBmkbpump": 1793617713.489254,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793617713.489254,
-  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793617713.489254,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793617713.489254,
-  "seen:nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump": 1793617713.489254,
   "seen:GoDSW31bTxfkoup9yA1qcGGx9RMXdTEWgApv3xzBmoA": 1793617895.882332,
   "seen:5oC168LCQbHHtkDruUmSSQZrhKCpr3wLLs6XUxSrpump": 1793617895.882332,
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793617895.882332,
@@ -95,7 +86,15 @@
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793618260.0735807,
   "seen:H86pLyqzZMim3pxrC29YWsMKoxL6xGFM1nQyVtyRpump": 1793618260.0735807,
   "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793618260.0735807,
-  "control:GOLD": 1793618260.213384
+  "control:GOLD": 1793618260.213384,
+  "seen:EzMQEoKsKGxJUQXMtYMYTKZHUcR7zCMVd2Xuc4cVeXAw": 1793618440.302515,
+  "seen:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": 1793618440.302515,
+  "seen:7Ypg1rKLu8q32E1AQEDjaPCg8dfGeCSsMkFnK98zcash": 1793618440.302515,
+  "control:nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump": 1793618440.3682356,
+  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793618621.7892418,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793618621.7892418,
+  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793618621.7892418,
+  "control:EzMQEoKsKGxJUQXMtYMYTKZHUcR7zCMVd2Xuc4cVeXAw": 1793618622.7746098
  },
  "talks": {
   "2026-10-21": 109
@@ -136,17 +135,17 @@
  ],
  "last_review": 1793533893.992842,
  "news": {
-  "t": 1793616813.4974902,
+  "t": 1793617721.7973082,
   "crypto": [
    "Trezor lifts password ceiling after Coldcard\u2019s $100M wallet thefts (0h ago)",
    "Hong Kong takes tokenized settlement to 24/7, plans stablecoin trials (1h ago)",
    "BTC heads into US midterm showdown: Three things to know in Bitcoin this week (1h ago)",
-   "Metals.io issues tokens backed by 25 tonnes of physical copper stored in Germany (1h ago)",
+   "Metals.io issues tokens backed by 25 tonnes of physical copper stored in Germany (2h ago)",
    "Binance hack fallout, U.S. midterms and jobs report: Crypto Week Ahead (2h ago)",
    "OKX draws $445M in net inflows as Binance outflows exceed $7B (2h ago)",
    "Live updates: Binance records $6 billion outflows after starting withdrawals, less then 4% of total holdings (2h ago)",
    "China\u2019s Communist Party calls for a crackdown on corruption that uses crypto and blockchain (2h ago)",
-   "Why stealing billions from a crypto exchange can be harder to stop than a bank theft (2h ago)",
+   "Why stealing billions from a crypto exchange can be harder to stop than a bank theft (3h ago)",
    "Bitcoin ETFs sink into October outflows with $643M exit after Binance hack (3h ago)"
   ],
   "macro": [],
@@ -180,5 +179,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793616446.8701723
+ "last_macro_macro": 1793617721.797202
 }
