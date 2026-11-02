@@ -94,6 +94,12 @@ class _HomeScreenState extends State<HomeScreen> {
       final handoff = _handoff;
       if (handoff != null && DateTime.now().difference(handoff.at) > const Duration(minutes: 3)) _handoff = null;
       final next = handoff == null ? null : MediaCapture.pick(media, tab.url, exclude: handoff.exclude);
+      // Waiting for the next episode: start the page's video (muted) so the
+      // user does not have to tap play on the website.
+      if (handoff != null && handoff.tabId == tab.id && next == null && !tab.isLoading) {
+        await commands.autoplayMuted();
+        if (!mounted) return;
+      }
       if (next != null && handoff != null && handoff.tabId == tab.id && _handoff != null) {
         _handoff = null;
         _autoOpened.add('${tab.id}|${next.url}');
@@ -149,7 +155,7 @@ class _HomeScreenState extends State<HomeScreen> {
     final page = Uri.parse(episode.sourcePageUrl);
     final pressed = MediaCapture.pressedEpisode(page);
     // Videos already on the page belong to the episode the user just left.
-    final before = pressed == null ? <String>{} : {for (final m in await commands?.media() ?? []) m.url.toString()};
+    final before = {for (final m in await commands?.media() ?? []) m.url.toString()};
     if (!mounted) return;
     _handoff = (tabId: tabId, contentId: contentId, number: episode.episodeNumber, exclude: before, at: DateTime.now());
     if (pressed == null) {
@@ -590,7 +596,9 @@ class _Toolbar extends StatelessWidget {
   }
 }
 
-class _StartPage extends StatelessWidget {
+/// The start page: a search bar, a grid of video sites and shortcuts, like
+/// any browser. Continue watching and recent pages fold out below.
+class _StartPage extends StatefulWidget {
   const _StartPage({required this.onSubmit, required this.onOpen, required this.tabCount, required this.onTabs});
   final void Function(String) onSubmit;
   final void Function(Uri) onOpen;
@@ -598,217 +606,328 @@ class _StartPage extends StatelessWidget {
   final VoidCallback onTabs;
 
   @override
-  Widget build(BuildContext context) {
-    final app = context.watch<AppState>();
-    return ListView(
-      padding: const EdgeInsets.only(bottom: RwSpace.xxl),
-      children: [
-        Padding(
-          padding: const EdgeInsets.fromLTRB(RwSpace.gutter, RwSpace.lg, RwSpace.gutter, 0),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
-                children: [
-                  Expanded(child: Text('Reelway', style: RwType.headline)),
-                  TextButton.icon(
-                    onPressed: () => context.read<ShellController>().go(AppTab.browse),
-                    icon: const Icon(Icons.video_library_outlined),
-                    label: const Text('Series'),
-                  ),
-                  if (tabCount > 0)
-                    TextButton.icon(onPressed: onTabs, icon: const Icon(Icons.tab), label: Text('$tabCount tabs')),
-                ],
-              ),
-              const SizedBox(height: RwSpace.xxs),
-              Text(
-                'Pop-up protection is ${app.settings.protectionLevel == ProtectionLevel.off ? 'off' : 'on'}.',
-                style: RwType.caption,
-              ),
-              const SizedBox(height: RwSpace.md),
-              TextField(
-                keyboardType: TextInputType.url,
-                autocorrect: false,
-                textInputAction: TextInputAction.go,
-                onSubmitted: onSubmit,
-                decoration: const InputDecoration(hintText: 'Search or enter address', prefixIcon: Icon(Icons.search)),
-              ),
-            ],
-          ),
-        ),
-        Padding(
-          padding: const EdgeInsets.fromLTRB(RwSpace.gutter, RwSpace.md, RwSpace.gutter, 0),
-          child: Wrap(
-            spacing: 8,
-            runSpacing: 8,
-            children: [
-              ActionChip(
-                avatar: const Icon(Icons.play_circle_outline, size: 18),
-                label: const Text('YouTube'),
-                onPressed: () => onOpen(Uri.parse('https://m.youtube.com/')),
-              ),
-              ActionChip(
-                avatar: const Icon(Icons.movie_outlined, size: 18),
-                label: const Text('Narto-Drama'),
-                onPressed: () => onOpen(Uri.parse('https://narto-drama.com/')),
-              ),
-            ],
-          ),
-        ),
-        _SuggestedSites(onOpen: onOpen),
-        SectionHeader('Your websites', action: 'Add', onAction: () => showAddWebsiteSheet(context)),
-        if (app.websites.isEmpty)
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: RwSpace.gutter),
-            child: Text('Saved websites appear here for one-tap access.', style: RwType.caption),
-          )
-        else
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: RwSpace.gutter),
-            child: Wrap(
-              spacing: RwSpace.md,
-              runSpacing: RwSpace.md,
-              children: [
-                for (final w in app.websites)
-                  InkWell(
-                    onTap: () => onOpen(Uri.parse(w.url)),
-                    borderRadius: BorderRadius.circular(RwRadius.lg),
-                    child: SizedBox(
-                      width: 68,
-                      child: Column(
-                        children: [
-                          SiteAvatar(name: w.name, favicon: w.favicon, size: 56),
-                          const SizedBox(height: RwSpace.xs),
-                          Text(w.name, maxLines: 1, overflow: TextOverflow.ellipsis, style: RwType.caption),
-                        ],
-                      ),
-                    ),
-                  ),
-              ],
-            ),
-          ),
-        if (app.continueWatching.isNotEmpty) ...[
-          const SectionHeader('Continue watching'),
-          SizedBox(
-            height: 96,
-            child: ListView.separated(
-              scrollDirection: Axis.horizontal,
-              padding: const EdgeInsets.symmetric(horizontal: RwSpace.gutter),
-              separatorBuilder: (_, _) => const SizedBox(width: 12),
-              itemCount: app.continueWatching.length.clamp(0, 6),
-              itemBuilder: (context, index) {
-                final history = app.continueWatching[index];
-                final title = app.contentById(history.contentId);
-                if (title == null) return const SizedBox.shrink();
-                return SizedBox(
-                  width: 220,
-                  child: Material(
-                    color: RwColors.card,
-                    borderRadius: BorderRadius.circular(16),
-                    child: InkWell(
-                      borderRadius: BorderRadius.circular(16),
-                      onTap: () => PlayerScreen.resume(context, title),
-                      child: Padding(
-                        padding: const EdgeInsets.all(12),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Text(title.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: RwType.subtitle),
-                            const SizedBox(height: 6),
-                            Text('Continue episode', style: RwType.caption),
-                            const Spacer(),
-                            RwProgressBar(value: history.progress, height: 3),
-                          ],
-                        ),
-                      ),
-                    ),
-                  ),
-                );
-              },
-            ),
-          ),
-        ],
-        if (app.bookmarks.isNotEmpty) ...[
-          const SectionHeader('Bookmarks'),
-          for (final b in app.bookmarks)
-            ListTile(
-              leading: const Icon(Icons.bookmark_outline),
-              title: Text(b.title, maxLines: 1, overflow: TextOverflow.ellipsis),
-              subtitle: Text(Uri.tryParse(b.url)?.host ?? b.url),
-              trailing: IconButton(icon: const Icon(Icons.close, size: 18), onPressed: () => app.removeBookmark(b.id)),
-              onTap: () => onOpen(Uri.parse(b.url)),
-            ),
-        ],
-        if (app.visited.isNotEmpty) ...[
-          SectionHeader(
-            'Recent',
-            action: 'History',
-            onAction: () => context.read<ShellController>().go(AppTab.history),
-          ),
-          for (final v in app.visited.take(5))
-            ListTile(
-              leading: const Icon(Icons.history),
-              title: Text(v.title.isEmpty ? v.url : v.title, maxLines: 1, overflow: TextOverflow.ellipsis),
-              subtitle: Text(Uri.tryParse(v.url)?.host ?? ''),
-              onTap: () => onOpen(Uri.parse(v.url)),
-            ),
-        ],
-      ],
-    );
-  }
+  State<_StartPage> createState() => _StartPageState();
 }
 
-/// Websites the admin panel marks "Show on start page" (server settings,
-/// "sites" with "featured": true). Hidden when there are none.
-class _SuggestedSites extends StatelessWidget {
-  const _SuggestedSites({required this.onOpen});
-  final void Function(Uri) onOpen;
+class _StartPageState extends State<_StartPage> {
+  bool _more = false;
+
+  /// Shown on every start page; the server and the user add more.
+  static const _defaults = [
+    ('YouTube', 'https://m.youtube.com/'),
+    ('Twitch', 'https://m.twitch.tv/'),
+    ('TikTok', 'https://www.tiktok.com/'),
+    ('Rumble', 'https://rumble.com/'),
+    ('Dailymotion', 'https://www.dailymotion.com/'),
+  ];
+
+  static String _icon(Uri url) => 'https://www.google.com/s2/favicons?domain=${url.host}&sz=128';
+
+  /// Default sites, then the server's "Show on start page" sites, then the
+  /// user's own saved websites, without repeats.
+  List<(String, Uri, String?)> _sites(AppState app) {
+    final out = <(String, Uri, String?)>[];
+    final seen = <String>{};
+    void add(String name, Uri? url, [String? icon]) {
+      if (url == null || url.scheme != 'https') return;
+      final key = PopupProtection.registrableDomain(url.host);
+      if (seen.add(key)) out.add((name, url, icon ?? _icon(url)));
+    }
+
+    for (final (name, url) in _defaults) {
+      add(name, Uri.parse(url));
+    }
+    final server = RemoteConfig.instance.value('sites');
+    if (server is Map) {
+      for (final entry in server.entries) {
+        final site = entry.value;
+        if (site is! Map || site['featured'] != true) continue;
+        add('${site['name'] ?? entry.key}', Uri.tryParse('${site['url'] ?? 'https://${entry.key}/'}'));
+      }
+    }
+    for (final w in app.websites) {
+      add(w.name, Uri.tryParse(w.url), w.favicon);
+    }
+    return out;
+  }
+
+  void _showBookmarks(AppState app) {
+    showModalBottomSheet<void>(
+      context: context,
+      showDragHandle: true,
+      builder: (context) => SafeArea(
+        child: app.bookmarks.isEmpty
+            ? Padding(
+                padding: const EdgeInsets.all(RwSpace.lg),
+                child: Text('No bookmarks yet. Use the menu on any page to bookmark it.', style: RwType.caption),
+              )
+            : ListView(
+                shrinkWrap: true,
+                children: [
+                  for (final b in app.bookmarks)
+                    ListTile(
+                      leading: const Icon(Icons.bookmark_outline),
+                      title: Text(b.title, maxLines: 1, overflow: TextOverflow.ellipsis),
+                      subtitle: Text(Uri.tryParse(b.url)?.host ?? b.url),
+                      onTap: () {
+                        Navigator.pop(context);
+                        widget.onOpen(Uri.parse(b.url));
+                      },
+                    ),
+                ],
+              ),
+      ),
+    );
+  }
 
   @override
-  Widget build(BuildContext context) => ListenableBuilder(
-    listenable: RemoteConfig.instance,
-    builder: (context, _) {
-      final sites = RemoteConfig.instance.value('sites');
-      final featured = <(String, Uri)>[
-        if (sites is Map)
-          for (final entry in sites.entries)
-            if (entry.value is Map && (entry.value as Map)['featured'] == true)
-              if (Uri.tryParse('${(entry.value as Map)['url'] ?? 'https://${entry.key}/'}') case final url?
-                  when url.scheme == 'https')
-                ('${(entry.value as Map)['name'] ?? entry.key}', url),
-      ];
-      if (featured.isEmpty) return const SizedBox.shrink();
-      return Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          const SectionHeader('Suggested sites'),
-          Padding(
-            padding: const EdgeInsets.symmetric(horizontal: RwSpace.gutter),
-            child: Wrap(
-              spacing: RwSpace.md,
-              runSpacing: RwSpace.md,
-              children: [
-                for (final (name, url) in featured)
-                  InkWell(
-                    onTap: () => onOpen(url),
-                    borderRadius: BorderRadius.circular(RwRadius.lg),
-                    child: SizedBox(
-                      width: 68,
-                      child: Column(
-                        children: [
-                          SiteAvatar(name: name, size: 56),
-                          const SizedBox(height: RwSpace.xs),
-                          Text(name, maxLines: 1, overflow: TextOverflow.ellipsis, style: RwType.caption),
-                        ],
-                      ),
-                    ),
+  Widget build(BuildContext context) {
+    final app = context.watch<AppState>();
+    final shell = context.read<ShellController>();
+    return ListenableBuilder(
+      listenable: RemoteConfig.instance,
+      builder: (context, _) {
+        final sites = _sites(app);
+        return ListView(
+          padding: const EdgeInsets.fromLTRB(RwSpace.gutter, 56, RwSpace.gutter, RwSpace.xxl),
+          children: [
+            _SearchBar(onSubmit: widget.onSubmit, tabCount: widget.tabCount, onTabs: widget.onTabs),
+            const SizedBox(height: 48),
+            _TileGrid(
+              tiles: [
+                for (final (name, url, icon) in sites)
+                  _Tile(
+                    label: name,
+                    icon: SiteAvatar(name: name, favicon: icon, size: 60),
+                    onTap: () => widget.onOpen(url),
                   ),
+                _Tile(label: 'Add', icon: const _GlyphIcon(Icons.add), onTap: () => showAddWebsiteSheet(context)),
               ],
             ),
+            const SizedBox(height: 32),
+            _TileGrid(
+              tiles: [
+                _Tile(
+                  label: 'Bookmarks',
+                  icon: const _GlyphIcon(Icons.menu_book_rounded),
+                  onTap: () => _showBookmarks(app),
+                ),
+                _Tile(
+                  label: 'History',
+                  icon: const _GlyphIcon(Icons.history_rounded),
+                  onTap: () => shell.go(AppTab.history),
+                ),
+                _Tile(
+                  label: 'Library',
+                  icon: const _GlyphIcon(Icons.folder_rounded),
+                  onTap: () => shell.go(AppTab.library),
+                ),
+                _Tile(
+                  label: 'Settings',
+                  icon: const _GlyphIcon(Icons.settings_rounded),
+                  onTap: () => shell.go(AppTab.settings),
+                ),
+              ],
+            ),
+            const SizedBox(height: RwSpace.md),
+            Center(
+              child: IconButton(
+                tooltip: _more ? 'Show less' : 'Show more',
+                onPressed: () => setState(() => _more = !_more),
+                icon: Icon(_more ? Icons.keyboard_arrow_up_rounded : Icons.keyboard_arrow_down_rounded),
+                color: RwColors.textSecondary,
+              ),
+            ),
+            if (_more) ..._extras(app),
+          ],
+        );
+      },
+    );
+  }
+
+  List<Widget> _extras(AppState app) => [
+    if (app.continueWatching.isNotEmpty) ...[
+      const SectionHeader('Continue watching'),
+      SizedBox(
+        height: 96,
+        child: ListView.separated(
+          scrollDirection: Axis.horizontal,
+          separatorBuilder: (_, _) => const SizedBox(width: 12),
+          itemCount: app.continueWatching.length.clamp(0, 6),
+          itemBuilder: (context, index) {
+            final history = app.continueWatching[index];
+            final title = app.contentById(history.contentId);
+            if (title == null) return const SizedBox.shrink();
+            return SizedBox(
+              width: 220,
+              child: Material(
+                color: RwColors.card,
+                borderRadius: BorderRadius.circular(16),
+                child: InkWell(
+                  borderRadius: BorderRadius.circular(16),
+                  onTap: () => PlayerScreen.resume(context, title),
+                  child: Padding(
+                    padding: const EdgeInsets.all(12),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(title.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: RwType.subtitle),
+                        const SizedBox(height: 6),
+                        Text('Continue episode', style: RwType.caption),
+                        const Spacer(),
+                        RwProgressBar(value: history.progress, height: 3),
+                      ],
+                    ),
+                  ),
+                ),
+              ),
+            );
+          },
+        ),
+      ),
+    ],
+    if (app.visited.isNotEmpty) ...[
+      SectionHeader('Recent', action: 'History', onAction: () => context.read<ShellController>().go(AppTab.history)),
+      for (final v in app.visited.take(5))
+        ListTile(
+          contentPadding: EdgeInsets.zero,
+          leading: const Icon(Icons.history),
+          title: Text(v.title.isEmpty ? v.url : v.title, maxLines: 1, overflow: TextOverflow.ellipsis),
+          subtitle: Text(Uri.tryParse(v.url)?.host ?? ''),
+          onTap: () => widget.onOpen(Uri.parse(v.url)),
+        ),
+    ],
+    Padding(
+      padding: const EdgeInsets.only(top: RwSpace.md),
+      child: Text(
+        'Pop-up protection is ${app.settings.protectionLevel == ProtectionLevel.off ? 'off' : 'on'}.',
+        style: RwType.caption,
+        textAlign: TextAlign.center,
+      ),
+    ),
+  ];
+}
+
+class _SearchBar extends StatelessWidget {
+  const _SearchBar({required this.onSubmit, required this.tabCount, required this.onTabs});
+  final void Function(String) onSubmit;
+  final int tabCount;
+  final VoidCallback onTabs;
+
+  @override
+  Widget build(BuildContext context) => Container(
+    height: 56,
+    padding: const EdgeInsets.only(left: 18, right: 6),
+    decoration: BoxDecoration(
+      color: RwColors.card,
+      borderRadius: BorderRadius.circular(28),
+      boxShadow: const [BoxShadow(color: Color(0x55000000), blurRadius: 18, offset: Offset(0, 8))],
+    ),
+    child: Row(
+      children: [
+        const Icon(Icons.search, color: RwColors.textSecondary),
+        const SizedBox(width: 12),
+        Expanded(
+          child: TextField(
+            keyboardType: TextInputType.url,
+            autocorrect: false,
+            textInputAction: TextInputAction.go,
+            onSubmitted: onSubmit,
+            style: RwType.body,
+            decoration: const InputDecoration(
+              hintText: 'Search or enter website',
+              border: InputBorder.none,
+              enabledBorder: InputBorder.none,
+              focusedBorder: InputBorder.none,
+              filled: false,
+              isDense: true,
+            ),
           ),
+        ),
+        if (tabCount > 0)
+          IconButton(
+            tooltip: 'Tabs',
+            onPressed: onTabs,
+            icon: Container(
+              width: 24,
+              height: 24,
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                border: Border.all(color: RwColors.textSecondary, width: 1.6),
+                borderRadius: BorderRadius.circular(6),
+              ),
+              child: Text('$tabCount', style: RwType.label.copyWith(fontSize: 11)),
+            ),
+          )
+        else
+          Container(
+            width: 44,
+            height: 44,
+            decoration: const BoxDecoration(color: RwColors.accent, shape: BoxShape.circle),
+            child: const Icon(Icons.play_arrow_rounded, color: Colors.white),
+          ),
+      ],
+    ),
+  );
+}
+
+class _Tile {
+  const _Tile({required this.label, required this.icon, required this.onTap});
+  final String label;
+  final Widget icon;
+  final VoidCallback onTap;
+}
+
+/// Four tiles per row, icon above its label.
+class _TileGrid extends StatelessWidget {
+  const _TileGrid({required this.tiles});
+  final List<_Tile> tiles;
+
+  @override
+  Widget build(BuildContext context) => LayoutBuilder(
+    builder: (context, constraints) {
+      final width = constraints.maxWidth / 4;
+      return Wrap(
+        runSpacing: 20,
+        children: [
+          for (final t in tiles)
+            SizedBox(
+              width: width,
+              child: InkWell(
+                onTap: t.onTap,
+                borderRadius: BorderRadius.circular(RwRadius.lg),
+                child: Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 4),
+                  child: Column(
+                    children: [
+                      t.icon,
+                      const SizedBox(height: 8),
+                      Text(t.label, maxLines: 1, overflow: TextOverflow.ellipsis, style: RwType.body),
+                    ],
+                  ),
+                ),
+              ),
+            ),
         ],
       );
     },
+  );
+}
+
+class _GlyphIcon extends StatelessWidget {
+  const _GlyphIcon(this.icon);
+  final IconData icon;
+
+  @override
+  Widget build(BuildContext context) => Container(
+    width: 60,
+    height: 60,
+    decoration: BoxDecoration(
+      color: RwColors.card,
+      borderRadius: BorderRadius.circular(18),
+      border: Border.all(color: RwColors.divider),
+    ),
+    child: Icon(icon, color: RwColors.textSecondary, size: 28),
   );
 }
 

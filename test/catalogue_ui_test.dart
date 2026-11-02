@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:provider/provider.dart';
+import 'package:reelway/features/shell/shell.dart';
 import 'package:reelway/data/repositories/app_state.dart';
 import 'package:reelway/main.dart';
 import 'package:reelway/sources/page_source.dart';
@@ -57,7 +59,7 @@ void main() {
   }
 
   Future<void> open(WidgetTester tester) async {
-    await tester.tap(find.text('Series').first);
+    tester.element(find.byType(Scaffold).first).read<ShellController>().go(AppTab.browse);
     await tester.pumpAndSettle();
     await tester.enterText(
       find.widgetWithText(TextField, 'Paste a website, series, episode or video URL'),
@@ -102,7 +104,7 @@ void main() {
     final state = AppState(useSampleData: false, pageSource: _BlockedSource());
     await tester.runAsync(state.load);
     await tester.pumpWidget(ReelwayApp(state: state, browserBuilder: (_, tab) => Text('Browser: ${tab.url.host}')));
-    await tester.tap(find.text('Series').first);
+    tester.element(find.byType(Scaffold).first).read<ShellController>().go(AppTab.browse);
     await tester.pumpAndSettle();
     await tester.enterText(
       find.widgetWithText(TextField, 'Paste a website, series, episode or video URL'),

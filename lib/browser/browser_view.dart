@@ -76,6 +76,14 @@ class BrowserCommands {
     }
   }
 
+  Future<void> autoplayMuted() async {
+    try {
+      await _c?.evaluateJavascript(source: MediaCapture.autoplayJs, contentWorld: _world);
+    } catch (_) {
+      /* The page may still be loading. */
+    }
+  }
+
   Future<void> pauseMedia() async {
     try {
       await _c?.evaluateJavascript(source: MediaCapture.pauseJs, contentWorld: _world);

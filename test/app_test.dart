@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:reelway/core/widgets/components.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:provider/provider.dart';
+import 'package:reelway/features/shell/shell.dart';
 import 'package:reelway/sources/page_source.dart';
 import 'package:reelway/data/repositories/app_state.dart';
 import 'package:reelway/main.dart';
@@ -85,21 +87,23 @@ void main() {
 
     testWidgets('empty state invites adding a website', (t) async {
       await pumpApp(t, sample: false);
-      expect(find.text('Search or enter address'), findsOneWidget);
+      expect(find.text('Search or enter website'), findsOneWidget);
       await t.tap(find.text('Add'));
       await settle(t);
       expect(find.text('Add a website'), findsOneWidget);
       await t.enterText(find.widgetWithText(TextField, 'example.com'), 'example.com');
       await t.tap(find.text('Save website'));
       await settle(t);
-      expect(find.text('Your websites'), findsOneWidget);
+      expect(find.text('Save website'), findsNothing);
     });
 
     testWidgets('home shows browser, saved websites and compact continue watching', (t) async {
       await pumpApp(t);
+      expect(find.text('Search or enter website'), findsOneWidget);
+      expect(find.text('YouTube'), findsOneWidget);
+      await t.tap(find.byTooltip('Show more'));
+      await t.pump();
       expect(find.text('Continue watching'), findsOneWidget);
-      expect(find.text('Search or enter address'), findsOneWidget);
-      expect(find.text('Your websites'), findsOneWidget);
       expect(find.text('NEW ON YOUR SITES'), findsNothing);
     });
 
@@ -127,7 +131,7 @@ void main() {
       final state = AppState(useSampleData: false, pageSource: source);
       await t.runAsync(state.load);
       await t.pumpWidget(ReelwayApp(state: state, browserBuilder: (_, tab) => Text('Browser: ${tab.url.host}')));
-      await t.tap(find.text('Series').first);
+      t.element(find.byType(Scaffold).first).read<ShellController>().go(AppTab.browse);
       await t.pumpAndSettle();
       expect(find.text('Paste a website, series, episode or video URL'), findsOneWidget);
       await t.enterText(

@@ -277,6 +277,14 @@ abstract final class MediaCapture {
 document.querySelectorAll('video').forEach(function (v) { try { v.play(); } catch (e) {} });
 """;
 
+  /// Starts the page's video muted, which pages may do without a tap, so the
+  /// next episode reaches Reelway's player (which plays it with sound).
+  static const autoplayJs = r"""
+document.querySelectorAll('video').forEach(function (v) {
+  try { if (v.paused) { v.muted = true; var p = v.play(); if (p && p.catch) p.catch(function () {}); } } catch (e) {}
+});
+""";
+
   /// Stops the page's own player so the video does not play twice.
   static const pauseJs = r"""
 document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } catch (e) {} });
@@ -315,6 +323,11 @@ document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } cat
 
   static String _key(Uri page) => page.removeFragment().toString();
 
+  /// The page a video belongs to, ignoring the query: sites rewrite their own
+  /// address after loading (adding ?lang=en and the like). Videos from an
+  /// earlier episode on the same page are told apart with `exclude`.
+  static String _pageKey(Uri page) => '${page.origin}${page.path}';
+
   /// The episode video playing on [page], or null when there is none yet.
   /// Prefers a playing video long enough to be an episode, then the HLS
   /// playlist that started the latest burst of playlist requests (a player
@@ -324,7 +337,7 @@ document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } cat
   static CapturedMedia? pick(List<CapturedMedia> items, Uri page, {Set<String> exclude = const {}}) {
     final here = [
       for (final item in items)
-        if (_key(item.page) == _key(page) &&
+        if (_pageKey(item.page) == _pageKey(page) &&
             item.url.scheme == 'https' &&
             !isAd(item.url) &&
             !exclude.contains(item.url.toString()))
