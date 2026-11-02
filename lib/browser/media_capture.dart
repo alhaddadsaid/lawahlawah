@@ -7,7 +7,14 @@ import 'website_ad_rules.dart';
 
 /// A video address a page's own player loaded, as seen by the browser.
 class CapturedMedia {
-  const CapturedMedia({required this.url, required this.page, required this.fromVideo, this.seconds = 0, this.at = 0});
+  const CapturedMedia({
+    required this.url,
+    required this.page,
+    required this.fromVideo,
+    this.seconds = 0,
+    this.at = 0,
+    this.segment = false,
+  });
 
   final Uri url;
 
@@ -23,6 +30,10 @@ class CapturedMedia {
 
   /// When the browser saw it (milliseconds since epoch); 0 when unknown.
   final int at;
+
+  /// A piece of a stream (.ts, .m4s): not playable alone, but it shows which
+  /// playlist the page is really playing.
+  final bool segment;
 }
 
 /// An episode number the page shows (link or button), read from the live page.
@@ -118,6 +129,41 @@ abstract final class MediaCapture {
 
   static const readerJs = 'JSON.stringify(window.__rwMedia || [])';
 
+  /// Runs in the page itself (main frame): notes the playlist and segment
+  /// addresses its player requests with XMLHttpRequest or fetch. Script
+  /// players (hls.js) play from a blob: address, and not every WebKit build
+  /// reports those requests to Reelway's own script world. Requests are passed
+  /// on unchanged.
+  static const pageHookJs = r"""
+(function () {
+  if (window.__rwPageMedia) return;
+  var list = window.__rwPageMedia = [];
+  var PLAYLIST = /\.m3u8(\?|#|$)/i, SEGMENT = /\.(ts|m4s|aac|m4v|mp4)(\?|#|$)/i;
+  function note(u) {
+    try { u = new URL(u, location.href).href; } catch (e) { return; }
+    if (u.indexOf('https://') !== 0) return;
+    var segment = !PLAYLIST.test(u);
+    if (segment && !SEGMENT.test(u)) return;
+    list.push({ u: u, s: segment, p: location.href, t: Date.now() });
+    if (list.length > 150) list.splice(0, list.length - 150);
+  }
+  var open = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function (method, url) {
+    try { note(String(url)); } catch (e) {}
+    return open.apply(this, arguments);
+  };
+  var originalFetch = window.fetch;
+  if (originalFetch) {
+    window.fetch = function (input) {
+      try { note(typeof input === 'string' ? input : (input && input.url) || String(input)); } catch (e) {}
+      return originalFetch.apply(this, arguments);
+    };
+  }
+})();
+""";
+
+  static const pageReaderJs = 'JSON.stringify(window.__rwPageMedia || [])';
+
   /// Finds the page's episode list: the group of links or buttons labelled
   /// 1, 2, 3 (or "EP 2", "第3集") under one parent. Remembers the elements so
   /// [clickEpisodeJs] can press one, as the user would.
@@ -134,7 +180,7 @@ abstract final class MediaCapture {
   var nodes = document.querySelectorAll('a, button, li, [role="button"], [onclick], div, span');
   for (var i = 0; i < nodes.length && i < 20000; i++) {
     var el = nodes[i];
-    if (el.children.length > 3 || !el.getClientRects().length) continue;
+    if (el.children.length > 3) continue;
     var n = num(el.textContent) || num(el.getAttribute('aria-label'));
     if (!n) continue;
     var a = el.closest('a[href]');
@@ -240,6 +286,7 @@ document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } cat
                 fromVideo: e['v'] == true,
                 seconds: e['d'] is num ? (e['d'] as num).toInt() : 0,
                 at: e['t'] is num ? (e['t'] as num).toInt() : 0,
+                segment: e['s'] == true,
               ),
       ];
     } on FormatException {
@@ -270,13 +317,48 @@ document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } cat
     ];
     final playing = here.where((m) => m.fromVideo && m.seconds >= minEpisodeSeconds).toList();
     if (playing.isNotEmpty) return playing.last;
-    final playlists = here.where((m) => m.url.path.toLowerCase().endsWith('.m3u8')).toList()
+    final playlists = here.where((m) => !m.segment && m.url.path.toLowerCase().endsWith('.m3u8')).toList()
       ..sort((a, b) => a.at.compareTo(b.at));
+    if (playlists.isEmpty) return null;
+    // Players load the next episode's playlist early. The segments being
+    // downloaded now show which playlist is on screen: each recent segment
+    // votes for the playlist whose address it shares the most with.
+    final segments = here.where((m) => m.segment).toList()..sort((a, b) => a.at.compareTo(b.at));
+    final recent = segments.length > 6 ? segments.sublist(segments.length - 6) : segments;
+    final votes = <CapturedMedia, int>{};
+    for (final seg in recent) {
+      CapturedMedia? best;
+      var bestLength = seg.url.origin.length + 1;
+      for (final p in playlists) {
+        final length = _sharedLength(p.url, seg.url);
+        if (length > bestLength || (length == bestLength && best != null && p.at > best.at)) {
+          best = p;
+          bestLength = length;
+        }
+      }
+      if (best != null) votes[best] = (votes[best] ?? 0) + 1;
+    }
+    if (votes.isNotEmpty) {
+      final ranked = votes.entries.toList()
+        ..sort((a, b) => b.value != a.value ? b.value - a.value : b.key.at - a.key.at);
+      return ranked.first.key;
+    }
     CapturedMedia? start;
     for (var i = 0; i < playlists.length; i++) {
       if (i == 0 || playlists[i].at - playlists[i - 1].at > 2000) start = playlists[i];
     }
     return start;
+  }
+
+  /// How many leading characters two addresses share (query ignored).
+  static int _sharedLength(Uri a, Uri b) {
+    final x = a.replace(query: '').removeFragment().toString();
+    final y = b.replace(query: '').removeFragment().toString();
+    var i = 0;
+    while (i < x.length && i < y.length && x.codeUnitAt(i) == y.codeUnitAt(i)) {
+      i++;
+    }
+    return i;
   }
 
   static final _numberText = [

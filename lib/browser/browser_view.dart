@@ -30,7 +30,10 @@ class BrowserCommands {
   /// Videos the page's own player has loaded so far (see [MediaCapture]).
   Future<List<CapturedMedia>> media() async {
     try {
-      return MediaCapture.decode(await _c?.evaluateJavascript(source: MediaCapture.readerJs, contentWorld: _world));
+      return [
+        ...MediaCapture.decode(await _c?.evaluateJavascript(source: MediaCapture.readerJs, contentWorld: _world)),
+        ...MediaCapture.decode(await _c?.evaluateJavascript(source: MediaCapture.pageReaderJs)),
+      ];
     } catch (_) {
       return const []; // The page is navigating or the tab closed.
     }
@@ -408,6 +411,11 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
       initialUserScripts: UnmodifiableListView([
         UserScript(
           source: _tapRecorderJs,
+          injectionTime: UserScriptInjectionTime.AT_DOCUMENT_START,
+          forMainFrameOnly: true,
+        ),
+        UserScript(
+          source: MediaCapture.pageHookJs,
           injectionTime: UserScriptInjectionTime.AT_DOCUMENT_START,
           forMainFrameOnly: true,
         ),

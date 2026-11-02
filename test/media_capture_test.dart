@@ -24,6 +24,28 @@ void main() {
       expect(found?.url.path, '/ep2/master.m3u8');
     });
 
+    test('the segments being downloaded pick the episode on screen, not the preloaded next one', () {
+      CapturedMedia seg(String url, int at) =>
+          CapturedMedia(url: Uri.parse(url), page: page, fromVideo: false, at: at, segment: true);
+      final found = MediaCapture.pick([
+        media('https://video.example.com/hls/5065/ep1.m3u8', at: 1000),
+        seg('https://video.example.com/hls/5065/ep1/s0.ts', at: 1100),
+        media('https://video.example.com/hls/5065/ep2.m3u8', at: 9000),
+        seg('https://video.example.com/hls/5065/ep2/s0.ts', at: 9100),
+        seg('https://video.example.com/hls/5065/ep1/s7.ts', at: 9500),
+        seg('https://video.example.com/hls/5065/ep1/s8.ts', at: 12000),
+      ], page);
+      expect(found?.url.path, '/hls/5065/ep1.m3u8');
+      expect(
+        MediaCapture.decode(
+          jsonEncode([
+            {'u': 'https://video.example.com/a/s1.ts', 's': true, 'p': page.toString(), 't': 5},
+          ]),
+        ).single.segment,
+        isTrue,
+      );
+    });
+
     test('videos from the previous episode are skipped', () {
       final items = [
         media('https://cdn.example.com/ep1/master.m3u8', at: 1000),
