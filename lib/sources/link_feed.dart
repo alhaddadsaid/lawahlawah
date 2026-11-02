@@ -63,7 +63,11 @@ abstract final class LinkFeed {
     final name = video.pathSegments.where((s) => s.isNotEmpty).lastOrNull ?? video.host;
     final dot = name.lastIndexOf('.');
     final title = prettify(dot > 0 ? name.substring(0, dot) : name);
-    return LinkSeries(id: 'video', title: title, episodes: [LinkEpisode(number: 1, videoUrl: video)]);
+    return LinkSeries(
+      id: 'video',
+      title: title,
+      episodes: [LinkEpisode(number: 1, videoUrl: video)],
+    );
   }
 
   /// The series in a catalog [body] read from [source]. Throws a
