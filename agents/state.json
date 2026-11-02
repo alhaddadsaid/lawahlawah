@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -29792.568583612356,
+   "cash": -29715.351905553573,
    "open": [
     {
      "id": 1556,
@@ -38,51 +38,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1562,
+     "id": 1565,
      "desk": "control",
      "market": "meme",
      "symbol": "pain",
      "mint": "CTLeZu8CxiYXL6zTmBbsycaG35smxJMmAyNHCbWzpump",
      "side": 1,
-     "opened": 1793583380.4165504,
-     "entry": 0.0001069,
-     "stop": 8.552000000000001e-05,
-     "target": 0.00014965999999999997,
-     "size": 1870907.390084191,
-     "deadline": 1793590580.4165509,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1563,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Learjet",
-     "mint": "DaG1X248VVvWuqaiBURFSe4b4L7RUm8sR57FJBZ7pump",
-     "side": 1,
-     "opened": 1793583743.5496957,
-     "entry": 0.0001463,
-     "stop": 0.00011704,
-     "target": 0.00020482,
-     "size": 1367053.998632946,
-     "deadline": 1793590943.549696,
+     "opened": 1793584291.4377239,
+     "entry": 0.0001075,
+     "stop": 8.6e-05,
+     "target": 0.0001505,
+     "size": 1860465.1162790698,
+     "deadline": 1793591491.437724,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1564,
+ "next_id": 1566,
  "runs": 57,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793583915.74856,
-  "seen:2dg6EXqCfKs7KgX5jpnjyx8PSQ1t3qVtShySAbQppump": 1793583915.74856,
-  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793583915.74856,
-  "seen:7Rrk3bL9cenT6UfVneQuniK1FxGGrpJqrpkJsq1spump": 1793584098.7875981,
-  "seen:2pKpMwUQXNZeAf93LoomnZSworH3ezFzweCiuvrppump": 1793584098.7875981,
-  "seen:GoDSW31bTxfkoup9yA1qcGGx9RMXdTEWgApv3xzBmoA": 1793584280.0995808,
-  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793584280.0995808,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793584280.0995808,
-  "control:CTLeZu8CxiYXL6zTmBbsycaG35smxJMmAyNHCbWzpump": 1793584280.416554,
   "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793584462.0664651,
   "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793584462.0664651,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793584462.0664651,
@@ -91,7 +67,18 @@
   "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793584643.4804995,
   "seen:DaG1X248VVvWuqaiBURFSe4b4L7RUm8sR57FJBZ7pump": 1793584643.4804995,
   "seen:CTLeZu8CxiYXL6zTmBbsycaG35smxJMmAyNHCbWzpump": 1793584643.4804995,
-  "control:DaG1X248VVvWuqaiBURFSe4b4L7RUm8sR57FJBZ7pump": 1793584643.5496995
+  "control:DaG1X248VVvWuqaiBURFSe4b4L7RUm8sR57FJBZ7pump": 1793584643.5496995,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793584826.6853724,
+  "seen:CvRJ8MrnB1AwjrgX25uyeLJiXNSugTo2ZHh8UXDTpump": 1793584826.6853724,
+  "control:GoDSW31bTxfkoup9yA1qcGGx9RMXdTEWgApv3xzBmoA": 1793584827.2901404,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1793585009.3809102,
+  "seen:BDTXsoVeKELHQYHiHopFjCZhqeYTAdZAV5oa9CXwpump": 1793585009.3809102,
+  "seen:H27qqC26Do3rYR2vXMhuiFaQ4ekyiiXDJkTqSPHNpump": 1793585009.3809102,
+  "seen:2pKpMwUQXNZeAf93LoomnZSworH3ezFzweCiuvrppump": 1793585009.3809102,
+  "seen:4fpARAQWAUTd2Q9pXSQTC4suc7nVH8rtmRXNqN9gpump": 1793585191.3718774,
+  "seen:GoDSW31bTxfkoup9yA1qcGGx9RMXdTEWgApv3xzBmoA": 1793585191.3718774,
+  "seen:8b6XHZmv95awXQ5onb2e4rnJnTDFf7QUoPR1g98tpump": 1793585191.3718774,
+  "control:CTLeZu8CxiYXL6zTmBbsycaG35smxJMmAyNHCbWzpump": 1793585191.4377267
  },
  "talks": {
   "2026-10-21": 109
@@ -132,10 +119,10 @@
  ],
  "last_review": 1793533893.992842,
  "news": {
-  "t": 1793583015.7563128,
+  "t": 1793583926.6931334,
   "crypto": [
    "Binance net outflows surge to $5.8B as withdrawals resume after record hack (2h ago)",
-   "Billions flee Binance on reopen, THORChain founder opposes coin freeze: Hodler\u2019s Digest (2h ago)",
+   "Billions flee Binance on reopen, THORChain founder opposes coin freeze: Hodler\u2019s Digest (3h ago)",
    "The crypto reader's guide to the 2026 midterm election: State of Crypto (6h ago)",
    "AI agents bypassed crypto spending limits without human approval, researchers find in a new test (9h ago)",
    "The key races to watch for the 2026 election (11h ago)",
