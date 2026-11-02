@@ -88,4 +88,13 @@ window.adCode = 'never executed';</script></body></html>
     await expectLater(PageSource(client: forbidden).read(episode), throwsFormatException);
     forbidden.close();
   });
+
+  test('a Narto series page counts as one series; a list of series does not', () {
+    final series = SourcePage(url: Uri.parse('https://narto-drama.com/detail/watch/love-story'), title: 'Love Story');
+    final list = SourcePage(url: Uri.parse('https://narto-drama.com/featured'), title: 'Featured');
+    final other = SourcePage(url: Uri.parse('https://example.com/detail/watch/x'), title: 'X');
+    expect(PageSource.isSingleSeries(series), isTrue);
+    expect(PageSource.isSingleSeries(list), isFalse);
+    expect(PageSource.isSingleSeries(other), isFalse);
+  });
 }

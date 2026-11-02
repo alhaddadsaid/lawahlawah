@@ -189,7 +189,7 @@ class _HomeScreenState extends State<HomeScreen> {
     // page. A page listing many series stays in the browser so the user can
     // pick one; the button still offers the whole list.
     if (app.settings.openVideosInReelway &&
-        page.series.isNotEmpty &&
+        PageSource.isSingleSeries(page) &&
         !LinkFeed.isVideo(url) &&
         _autoOpened.add('${active.id}|$url')) {
       _shell.openSource(url);

@@ -71,6 +71,12 @@ class PageSource {
   static bool isNartoCatalogue(Uri uri) =>
       isNarto(uri) && (uri.path.isEmpty || ['/', '/featured', '/search'].contains(uri.path));
 
+  /// Whether [page] is one series Reelway can show with its episodes: the
+  /// episodes are on the page, or it is a Narto series page whose episodes
+  /// [read] fetches from the first episode.
+  static bool isSingleSeries(SourcePage page) =>
+      page.series.isNotEmpty || (isNarto(page.url) && page.url.path.startsWith('/detail/watch/'));
+
   static Uri catalogueUrl(Uri uri) {
     if (!isNarto(uri) || (uri.path.isNotEmpty && uri.path != '/')) return uri;
     // The publicly linked Featured route is server-rendered. The homepage itself
