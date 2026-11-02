@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -32867.15066519523,
+   "cash": -32956.69031207631,
    "open": [
-    {
-     "id": 1648,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DIGS",
-     "mint": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-     "side": 1,
-     "opened": 1793644670.039097,
-     "entry": 8.806e-05,
-     "stop": 7.0448e-05,
-     "target": 0.00012328399999999998,
-     "size": 2271178.741766977,
-     "deadline": 1793651870.0390973,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1652,
      "desk": "control",
@@ -70,30 +55,30 @@
    ]
   }
  },
- "next_id": 1659,
+ "next_id": 1660,
  "runs": 59,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793651416.931134,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793651416.931134,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793651416.931134,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793651416.931134,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793651416.931134,
-  "seen:GevUvzi8EpTpPkVLMK54BdCjJwZpjGjt9Lr5kR9bpump": 1793651598.2786653,
-  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793651598.2786653,
-  "control:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793651598.4030926,
-  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793651779.7904453,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793651779.7904453,
-  "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793651779.7904453,
-  "control:xRtT8q7g7NsAnbTgvCtim8jtxKVVc5epoLoAYmqpump": 1793651779.9739704,
-  "seen:GiLp6P4xcrGWRCGBJdMFTj4YxUgSqm1a195vuWqvpump": 1793651962.7799602,
-  "seen:Ei19qkvBM3amMyrveNLqKSPB1ESMEUQ6MrqDYwZVpump": 1793651962.7799602,
-  "seen:H4gHnZ3NCU7Z9XQwGX6YYJNyieGEW8pqwGRUcdSxpump": 1793651962.7799602,
-  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793651962.7799602,
   "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793652143.9460886,
   "seen:xRtT8q7g7NsAnbTgvCtim8jtxKVVc5epoLoAYmqpump": 1793652143.9460886,
   "seen:GnY6RSduqXgJ3nas2CKTDkNbrm2FXYExFxP7BXYEpump": 1793652143.9460886,
-  "seen:6kKETm8xPeZ2z1DBYjXmxMTFAJudvGHJvRHu5Wt8uGtf": 1793652143.9460886
+  "seen:6kKETm8xPeZ2z1DBYjXmxMTFAJudvGHJvRHu5Wt8uGtf": 1793652143.9460886,
+  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793652326.9294596,
+  "seen:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 1793652326.9294596,
+  "seen:GPRR2u6NS5yBQHWGauoJ9HXgjrTH8dDsrBfTV5zAYvDH": 1793652326.9294596,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793652326.9294596,
+  "seen:9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": 1793652326.9294596,
+  "seen:wDSAqt4tEZpDAwB9XY6ejkZvMFuT1zUMjUh67txeYhf": 1793652506.0022001,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793652506.0022001,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793652506.0022001,
+  "control:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793652506.408009,
+  "seen:52frC8om59QmAMmRcFePzojDeyrbqA98yFVZseA8pump": 1793652687.282738,
+  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793652687.282738,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793652687.282738,
+  "seen:RBLXDGRD64AtRamHMFVcjqne3Ar7NLWtFtYNtsrf1cE": 1793652869.0451956,
+  "seen:GiLp6P4xcrGWRCGBJdMFTj4YxUgSqm1a195vuWqvpump": 1793652869.0451956,
+  "seen:Ei19qkvBM3amMyrveNLqKSPB1ESMEUQ6MrqDYwZVpump": 1793652869.0451956,
+  "seen:H4gHnZ3NCU7Z9XQwGX6YYJNyieGEW8pqwGRUcdSxpump": 1793652869.0451956
  },
  "talks": {
   "2026-10-21": 109
@@ -134,22 +119,22 @@
  ],
  "last_review": 1793633672.7736597,
  "news": {
-  "t": 1793650516.937354,
+  "t": 1793651426.9356859,
   "crypto": [
+   "Coinbase hit with 50% price target cut as post-earnings rout deepens (0h ago)",
    "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally (1h ago)",
-   "Mercado Bitcoin wallets keep moving funds after $46M hack (1h ago)",
+   "Mercado Bitcoin wallets show post-hack transfers after $46M theft (1h ago)",
    "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze (2h ago)",
-   "Animoca Brands clears final hurdle for Abu Dhabi fund management (2h ago)",
+   "Animoca Brands clears final hurdle for Abu Dhabi fund management (3h ago)",
    "EU entity suspected of losing $106 million from crypto exchange accounts, ZachXBT says (3h ago)",
    "NYSE tokenized stock plans take shape as four more transfer agents join (4h ago)",
-   "Brazil\u2019s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains (4h ago)",
+   "Brazil\u2019s Mercado Bitcoin halts withdrawals after $40 million drained across 10 chains (5h ago)",
    "Nvidia, Costco and Nike join pushback against OKX\u2013ICE tokenized stock plans (5h ago)",
-   "Anthropic swings to third quarter operating loss as compute costs surge ahead of IPO (5h ago)",
-   "Standard Chartered debuts tokenized deposits in Hong Kong for corporate clients (5h ago)"
+   "Anthropic swings to third quarter operating loss as compute costs surge ahead of IPO (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Congressional Elections in 19.0h"
+   "USD Congressional Elections in 18.8h"
   ]
  },
  "spend": {
@@ -180,5 +165,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793650336.2731497
+ "last_macro_macro": 1793651606.0083609
 }
