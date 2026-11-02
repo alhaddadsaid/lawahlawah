@@ -140,7 +140,7 @@ class HistoryScreen extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                     ),
                     subtitle: Text('${uri?.host ?? ''} · ${timeAgo(p.visitedAt)}', maxLines: 1),
-                    onTap: () => uri == null ? null : context.read<ShellController>().openInBrowser(uri),
+                    onTap: () => uri == null ? null : context.read<ShellController>().openSource(uri),
                   ),
                 );
               },
@@ -171,6 +171,6 @@ void _resume(BuildContext context, Content c, String sourceUrl) {
   if (context.read<AppState>().episodesFor(c.id).any((e) => e.isPlayable)) {
     PlayerScreen.resume(context, c);
   } else {
-    context.read<ShellController>().openInBrowser(Uri.parse(sourceUrl));
+    context.read<ShellController>().openSource(Uri.parse(sourceUrl));
   }
 }

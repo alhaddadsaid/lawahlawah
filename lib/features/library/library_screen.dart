@@ -78,7 +78,7 @@ class _Grid extends StatelessWidget {
       return EmptyState(
         icon: Icons.movie_filter_outlined,
         title: 'Nothing in $emptyLabel yet',
-        message: 'Tap the link button above to add a public video or catalog link.',
+        message: 'Tap the link button above to add a public series, episode, video or catalog link.',
       );
     }
     return GridView.builder(

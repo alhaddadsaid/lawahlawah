@@ -2,14 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../../core/design/tokens.dart';
-import '../../core/security/url_policy.dart';
+import '../../sources/link_feed.dart';
 import '../../core/widgets/components.dart';
 import '../../data/repositories/app_state.dart';
 import '../content/content_detail_screen.dart';
 import '../shell/shell.dart';
 
 /// Searches the local library and saved websites; anything else can be
-/// sent to the browser as a web address or web search.
+/// opened in the native source explorer.
 class SearchScreen extends StatefulWidget {
   const SearchScreen({super.key});
 
@@ -30,15 +30,15 @@ class _SearchScreenState extends State<SearchScreen> {
   }
 
   void _openWeb(String text) {
-    final parsed = UrlPolicy.parse(text);
-    final uri = switch (parsed) {
-      AddressUrl(:final uri) => uri,
-      AddressSearch() => parsed.searchUri(),
-      AddressRejected() => null,
-    };
-    if (uri == null) return;
+    final Uri uri;
+    try {
+      uri = LinkFeed.check(text);
+    } on FormatException catch (error) {
+      ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text(error.message)));
+      return;
+    }
     Navigator.of(context).pop();
-    context.read<ShellController>().openInBrowser(uri);
+    context.read<ShellController>().openSource(uri);
   }
 
   @override
@@ -66,7 +66,7 @@ class _SearchScreenState extends State<SearchScreen> {
             onChanged: (_) => setState(() {}),
             onSubmitted: (t) => results.isEmpty && sites.isEmpty && t.trim().isNotEmpty ? _openWeb(t) : null,
             decoration: const InputDecoration(
-              hintText: 'Search titles, genres or the web',
+              hintText: 'Search titles or paste a source URL',
               prefixIcon: Icon(Icons.search),
             ),
           ),
@@ -83,7 +83,7 @@ class _SearchScreenState extends State<SearchScreen> {
               children: [
                 ListTile(
                   leading: const Icon(Icons.travel_explore),
-                  title: Text('Open "${_q.text.trim()}" in browser'),
+                  title: Text('Open "${_q.text.trim()}" as a source'),
                   onTap: () => _openWeb(_q.text),
                 ),
                 if (sites.isNotEmpty) const SectionHeader('Websites'),
@@ -94,7 +94,7 @@ class _SearchScreenState extends State<SearchScreen> {
                     subtitle: Text(s.host),
                     onTap: () {
                       Navigator.of(context).pop();
-                      context.read<ShellController>().openInBrowser(Uri.parse(s.url));
+                      context.read<ShellController>().openSource(Uri.parse(s.url));
                     },
                   ),
                 if (results.isNotEmpty) SectionHeader('Titles (${results.length})'),

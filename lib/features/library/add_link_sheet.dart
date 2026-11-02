@@ -74,7 +74,7 @@ class _AddLinkSheetState extends State<AddLinkSheet> {
               Text('Add a link', style: RwType.title),
               const SizedBox(height: RwSpace.xs),
               Text(
-                'Paste a public link to a video (.mp4, .m3u8) or to a catalog of series. '
+                'Paste a public series or episode page, video (.mp4, .m3u8), or catalog link. '
                 'Reelway plays it in its own player.',
                 style: RwType.caption,
               ),

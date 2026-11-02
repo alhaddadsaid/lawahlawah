@@ -20,7 +20,7 @@ class LegalScreen extends StatelessWidget {
     ),
     (
       'Website data',
-      'Websites you open may set cookies and store data in the built-in browser, as in any browser. You can clear this at any time in Settings.',
+      'Reelway requests public pages and media directly. It does not render website scripts or share browser cookies. Websites and media providers receive normal network request information, including your IP address.',
     ),
     (
       'Advertising',
@@ -30,14 +30,14 @@ class LegalScreen extends StatelessWidget {
       'Crash reports',
       'If enabled, anonymous crash reports help us fix problems. They do not include the pages you visit.',
     ),
-    ('Your controls', 'You can delete history, saved websites, cookies and all app data from Settings.'),
+    ('Your controls', 'You can delete history, saved websites and all app data from Settings.'),
   ];
 
   static const _terms = [
     ('Draft notice', 'This is a draft for development and must be reviewed before release.'),
     (
       'What Reelway is',
-      'Reelway is a web browser with a viewing-focused interface. It does not host, upload or distribute video content.',
+      'Reelway is a native player for public video links and supported website pages. It does not host, upload or distribute video content.',
     ),
     (
       'Third-party websites',
@@ -45,12 +45,9 @@ class LegalScreen extends StatelessWidget {
     ),
     (
       'Links you add',
-      'You can add public links to videos or catalogs and play them in Reelway. Reelway does not host, provide or check these videos. Only add links you have the right to play: you are responsible for the links you add.',
+      'You can add public links to videos, catalogs or supported website pages and play them in Reelway. Reelway does not host, provide or check these videos. Only add links you have the right to play: you are responsible for the links you add.',
     ),
-    (
-      'Acceptable use',
-      'Do not use Reelway to break the law or get around access controls, paywalls or copy protection.',
-    ),
+    ('Acceptable use', 'Do not use Reelway to break the law or bypass logins, paywalls or copy protection.'),
     ('No warranty', 'Reelway is provided as is. Features depend on the websites you visit and may change.'),
   ];
 

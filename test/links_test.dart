@@ -1,4 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
+import 'package:http/http.dart' as http;
+import 'package:http/testing.dart';
+import 'package:reelway/sources/page_source.dart';
 import 'package:reelway/data/models/models.dart';
 import 'package:reelway/data/repositories/app_state.dart';
 import 'package:reelway/sources/link_feed.dart';
@@ -99,6 +102,29 @@ void main() {
       b.removeLink('https://example.com/my_film.mp4');
       expect(b.content, isEmpty);
       expect(b.historyFor(film.id), isNull);
+    });
+
+    test('imports public page episodes and refreshes expired CDN addresses', () async {
+      var revision = 1;
+      final client = MockClient(
+        (_) async => http.Response(
+          '<h1>Test series</h1><script>const episodeItemsRaw = '
+          '[{"number":1,"play_url":"https://cdn.example/episode-$revision.m3u8",'
+          '"watch_url":"https://narto-drama.com/detail/watch/test/1"}];</script>',
+          200,
+        ),
+      );
+      final app = AppState(useSampleData: false, pageSource: PageSource(client: client));
+      await app.load();
+      expect(await app.addLink('https://narto-drama.com/detail/watch/test/1'), isNull);
+      final content = app.content.single;
+      final episode = app.episodesFor(content.id).single;
+      expect(episode.sourcePageUrl, 'https://narto-drama.com/detail/watch/test/1');
+      expect(episode.videoUrl, 'https://cdn.example/episode-1.m3u8');
+      revision = 2;
+      expect((await app.playbackUrlFor(episode)).toString(), 'https://cdn.example/episode-2.m3u8');
+      client.close();
+      app.dispose();
     });
 
     test('the disclaimer is accepted once and remembered', () async {

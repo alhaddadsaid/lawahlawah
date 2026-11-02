@@ -60,6 +60,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
   VideoPlayerController? _video;
   bool _controls = true;
   bool _ended = false;
+  int _playRequest = 0;
   String? _error;
   double _speed = 1;
   Timer? _hide;
@@ -78,12 +79,14 @@ class _PlayerScreenState extends State<PlayerScreen> {
     super.initState();
     _app = context.read<AppState>();
     _index = widget.index;
+    _speed = _app.settings.preferredPlaybackSpeed;
     SystemChrome.setEnabledSystemUIMode(SystemUiMode.immersiveSticky);
     _play(widget.startAt ?? Duration.zero);
   }
 
   @override
   void dispose() {
+    _playRequest++;
     _hide?.cancel();
     final c = _video;
     if (c != null && c.value.isInitialized) {
@@ -100,34 +103,46 @@ class _PlayerScreenState extends State<PlayerScreen> {
   }
 
   Future<void> _play(Duration startAt) async {
+    final request = ++_playRequest;
+    final episode = _episode;
     final old = _video;
-    if (old != null) {
-      old.removeListener(_tick);
-      setState(() => _video = null);
-      await old.dispose();
-    }
-    final url = _episode.videoUrl;
-    if (url == null) return;
-    _ended = false;
-    _error = null;
-    final c = VideoPlayerController.networkUrl(Uri.parse(url));
+    old?.removeListener(_tick);
+    setState(() {
+      _video = null;
+      _error = null;
+      _ended = false;
+    });
+    await old?.dispose();
+    VideoPlayerController? controller;
     try {
+      final url = await _app.playbackUrlFor(episode);
+      if (!mounted || request != _playRequest) return;
+      final c = VideoPlayerController.networkUrl(url);
+      controller = c;
       await c.initialize();
-    } catch (_) {
-      await c.dispose();
-      if (mounted) setState(() => _error = _failed);
-      return;
+      if (!mounted || request != _playRequest) {
+        await c.dispose();
+        return;
+      }
+      await c.setPlaybackSpeed(_speed);
+      if (startAt > Duration.zero && startAt < c.value.duration) await c.seekTo(startAt);
+      if (!mounted || request != _playRequest) {
+        await c.dispose();
+        return;
+      }
+      c.addListener(_tick);
+      setState(() => _video = c);
+      await c.play();
+      _showControls();
+    } catch (error) {
+      controller?.removeListener(_tick);
+      await controller?.dispose();
+      if (!mounted || request != _playRequest) return;
+      setState(() {
+        _video = null;
+        _error = error is FormatException ? error.message : _failed;
+      });
     }
-    if (!mounted) {
-      await c.dispose();
-      return;
-    }
-    await c.setPlaybackSpeed(_speed);
-    if (startAt > Duration.zero && startAt < c.value.duration) await c.seekTo(startAt);
-    c.addListener(_tick);
-    setState(() => _video = c);
-    await c.play();
-    _showControls();
   }
 
   void _tick() {
@@ -142,7 +157,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
     if (v.isCompleted && !_ended) {
       _ended = true;
       _save();
-      if (_index + 1 < widget.episodes.length) _goTo(_index + 1);
+      if (_app.settings.autoplayNext && _index + 1 < widget.episodes.length) _goTo(_index + 1);
     }
     setState(() {});
   }

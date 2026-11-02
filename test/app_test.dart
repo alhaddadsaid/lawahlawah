@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:reelway/sources/page_source.dart';
 import 'package:reelway/data/repositories/app_state.dart';
 import 'package:reelway/main.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -105,13 +106,52 @@ void main() {
       for (final (tab, expected) in [
         ('Library', 'TV Series'),
         ('History', 'Watched'),
-        ('Settings', 'Protection level'),
-        ('Browse', 'Search or enter address'),
+        ('Settings', 'Native playback'),
+        ('Browse', 'Paste a series, episode or video URL'),
       ]) {
         await t.tap(find.text(tab).last);
         await t.pumpAndSettle();
         expect(find.text(expected), findsWidgets, reason: tab);
       }
+    });
+
+    testWidgets('native source explorer imports a public episode without website ads', (t) async {
+      final source = _FixtureSource(
+        '<h1>Public series</h1><script>const episodeItemsRaw = '
+        '[{"number":1,"play_url":"https://cdn.example/episode.m3u8",'
+        '"watch_url":"https://narto-drama.com/detail/watch/test/1"}];'
+        'window.open("https://ads.example/");</script>',
+      );
+      final requests = source.requests;
+      final state = AppState(useSampleData: false, pageSource: source);
+      await t.runAsync(state.load);
+      await t.pumpWidget(ReelwayApp(state: state));
+      await t.tap(find.text('Browse').last);
+      await t.pumpAndSettle();
+      expect(find.text('Paste a series, episode or video URL'), findsOneWidget);
+      await t.enterText(
+        find.widgetWithText(TextField, 'Paste a series, episode or video URL'),
+        'https://narto-drama.com/detail/watch/test/1',
+      );
+      await t.runAsync(() async {
+        await t.tap(find.byTooltip('Read source'));
+        await Future<void>.delayed(Duration.zero);
+      });
+      await t.pumpAndSettle();
+      expect(find.text('1 episodes found'), findsOneWidget);
+      await t.tap(find.text('Add to Library & watch'));
+      await t.pumpAndSettle();
+      expect(find.text('Links you add'), findsOneWidget);
+      await t.runAsync(() async {
+        await t.tap(find.text('I understand'));
+        await Future<void>.delayed(Duration.zero);
+      });
+      await t.pumpAndSettle();
+      expect(state.linksDisclaimerAccepted, isTrue);
+      expect(state.content.single.title, 'Public series');
+      expect(state.episodesFor(state.content.single.id).single.isPlayable, isTrue);
+      expect(requests, hasLength(2));
+      expect(requests.every((url) => url.host == 'narto-drama.com'), isTrue);
     });
 
     testWidgets('content detail opens and can be saved', (t) async {
@@ -124,4 +164,16 @@ void main() {
       expect(find.byTooltip('Remove from saved'), findsOneWidget);
     });
   });
+}
+
+class _FixtureSource extends PageSource {
+  _FixtureSource(this.body);
+  final String body;
+  final requests = <Uri>[];
+
+  @override
+  Future<SourcePage> read(Uri input) async {
+    requests.add(input);
+    return PageSource.parse(input, body);
+  }
 }

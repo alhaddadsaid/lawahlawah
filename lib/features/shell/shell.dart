@@ -10,7 +10,7 @@ import '../settings/settings_screen.dart';
 
 enum AppTab { home, browse, library, history, settings }
 
-/// Cross-tab navigation: lets any screen switch tab or open a URL in Browse.
+/// Cross-tab navigation: lets any screen switch tab or read a source URL in Browse.
 class ShellController extends ChangeNotifier {
   AppTab _tab = AppTab.home;
   Uri? _pendingUrl;
@@ -23,7 +23,7 @@ class ShellController extends ChangeNotifier {
     notifyListeners();
   }
 
-  void openInBrowser(Uri url) {
+  void openSource(Uri url) {
     _pendingUrl = url;
     _tab = AppTab.browse;
     notifyListeners();
@@ -56,8 +56,7 @@ class AppShell extends StatelessWidget {
   Widget build(BuildContext context) {
     final shell = context.watch<ShellController>();
     return Scaffold(
-      // IndexedStack keeps each tab alive, so open browser tabs and scroll
-      // positions survive switching sections.
+      // Keep source exploration and scroll positions while switching tabs.
       body: IndexedStack(
         index: shell.tab.index,
         children: const [HomeScreen(), BrowseScreen(), LibraryScreen(), HistoryScreen(), SettingsScreen()],

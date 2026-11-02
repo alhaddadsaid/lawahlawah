@@ -1,5 +1,15 @@
 # Reelway: handoff notes for Claude
 
+> **Current direction (2 November 2026):** The user requested native source
+> exploration and playback without a WebView, including skipping website ad
+> prompts when public stream URLs are already exposed in page HTML. The active
+> implementation is `lib/sources/page_source.dart` and the native Browse screen.
+> Per-site partner approval flags do not gate this path. See
+> [Native sources](docs/NATIVE_SOURCES.md) (from docs, use `NATIVE_SOURCES.md`).
+> Older browser/partner decisions below are historical. No App Store approval,
+> rights clearance, device verification or distribution is implied.
+
+
 Streaming-focused mobile web browser (Flutter, iOS + Android). It looks like a streaming
 app but is a real browser with pop-up/ad-hijack protection. It does not host video.
 Full product spec: the original "master development prompt" (summarised in docs/).

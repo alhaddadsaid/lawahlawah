@@ -1,13 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../../browser/browser_data.dart';
-import '../../browser/popup_protection.dart';
 import '../../core/design/tokens.dart';
 import '../../data/models/user_settings.dart';
 import '../../data/repositories/app_state.dart';
 import 'legal_screen.dart';
-import 'protection_screen.dart';
 import 'websites_screen.dart';
 
 class SettingsScreen extends StatelessWidget {
@@ -49,49 +46,17 @@ class SettingsScreen extends StatelessWidget {
               subtitle: Text('Dark (cinema). A light theme is planned.'),
             ),
           ]),
-          _Group('Browser', [
-            SwitchListTile(
-              title: const Text('Use HTTPS by default'),
-              subtitle: const Text('Addresses you type open securely'),
-              value: s.httpsUpgrade,
-              onChanged: (v) => set((s) => s.copyWith(httpsUpgrade: v)),
-            ),
-            SwitchListTile(
-              title: const Text('Warn on insecure pages'),
-              value: s.warnOnHttp,
-              onChanged: (v) => set((s) => s.copyWith(warnOnHttp: v)),
-            ),
-            SwitchListTile(
-              title: const Text('Block third-party cookies'),
-              subtitle: const Text('May break sign-in or verification on some sites (Android)'),
-              value: s.blockThirdPartyCookies,
-              onChanged: (v) => set((s) => s.copyWith(blockThirdPartyCookies: v)),
-            ),
-          ]),
-          _Group('Pop-up protection', [
-            _NavTile(Icons.shield_outlined, 'Protection level', switch (s.protectionLevel) {
-              ProtectionLevel.off => 'Off',
-              ProtectionLevel.balanced => 'Balanced · ${app.popupProtection.log.length} blocked this session',
-              ProtectionLevel.strict => 'Strict · ${app.popupProtection.log.length} blocked this session',
-            }, () => Navigator.of(context).push(ProtectionScreen.route())),
-          ]),
-          _Group('Privacy & cookies', [
-            ListTile(
-              leading: const Icon(Icons.cookie_outlined),
-              title: const Text('Clear cookies'),
-              subtitle: const Text('Signs you out of websites'),
-              onTap: () => _confirm(context, 'Clear all cookies?', 'You will be signed out of websites.', () async {
-                await BrowserData.clearCookies();
-              }),
+          _Group('Privacy', [
+            const ListTile(
+              leading: Icon(Icons.shield_outlined),
+              title: Text('Native playback'),
+              subtitle: Text('Website pages are read as data. No website scripts or ad windows are loaded.'),
             ),
             ListTile(
               leading: const Icon(Icons.delete_forever_outlined, color: RwColors.danger),
               title: const Text('Delete all app data', style: TextStyle(color: RwColors.danger)),
-              subtitle: const Text('Websites, bookmarks, history, settings, cookies and cache'),
-              onTap: () => _confirm(context, 'Delete everything?', 'This cannot be undone.', () async {
-                await BrowserData.clearAll();
-                await app.clearAllData();
-              }),
+              subtitle: const Text('Websites, bookmarks, history and settings'),
+              onTap: () => _confirm(context, 'Delete everything?', 'This cannot be undone.', app.clearAllData),
             ),
           ]),
           _Group('Advertising', [

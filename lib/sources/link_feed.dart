@@ -1,19 +1,18 @@
 /// Links the user adds to the Library: a video file, or a catalog of series
 /// and episodes, played in Reelway's own player.
 ///
-/// Rules: public links only. Reelway reads a link without cookies or sign-in,
-/// so anything behind an account does not load. It reads only the link
-/// itself, never other websites' pages, and each user is responsible for the
-/// links they add. See docs/LINKS.md for the catalog formats.
+/// Public links are read without browser cookies or sign-in. Supported website
+/// pages are parsed by PageSource; no website JavaScript is executed.
 library;
 
 import 'dart:convert';
 
 class LinkEpisode {
-  const LinkEpisode({required this.number, required this.videoUrl, this.title, this.duration});
+  const LinkEpisode({required this.number, required this.videoUrl, this.title, this.duration, this.pageUrl});
 
   final int number;
   final Uri videoUrl;
+  final Uri? pageUrl;
   final String? title;
   final Duration? duration;
 }

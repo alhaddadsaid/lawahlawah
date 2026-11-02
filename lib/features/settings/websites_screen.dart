@@ -3,7 +3,6 @@ import 'package:provider/provider.dart';
 
 import '../../core/design/tokens.dart';
 import '../../core/widgets/components.dart';
-import '../../data/models/models.dart';
 import '../../data/repositories/app_state.dart';
 import '../shell/shell.dart';
 
@@ -52,7 +51,7 @@ class _AddWebsiteSheetState extends State<_AddWebsiteSheet> {
       children: [
         Text('Add a website', style: RwType.headline),
         const SizedBox(height: RwSpace.xxs),
-        Text('It opens in the built-in browser with pop-up protection.', style: RwType.caption),
+        Text('Open this source to find titles and supported video links.', style: RwType.caption),
         const SizedBox(height: RwSpace.lg),
         TextField(
           controller: _url,
@@ -108,7 +107,6 @@ class WebsitesScreen extends StatelessWidget {
                     trailing: Row(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        IntegrationBadge(w.integrationStatus),
                         IconButton(
                           tooltip: 'Remove',
                           icon: const Icon(Icons.delete_outline),
@@ -118,42 +116,11 @@ class WebsitesScreen extends StatelessWidget {
                     ),
                     onTap: () {
                       Navigator.of(context).popUntil((r) => r.isFirst);
-                      context.read<ShellController>().openInBrowser(Uri.parse(w.url));
+                      context.read<ShellController>().openSource(Uri.parse(w.url));
                     },
                   ),
-                const Padding(padding: EdgeInsets.all(RwSpace.gutter), child: _IntegrationLegend()),
               ],
             ),
     );
   }
-}
-
-class _IntegrationLegend extends StatelessWidget {
-  const _IntegrationLegend();
-
-  @override
-  Widget build(BuildContext context) => Column(
-    crossAxisAlignment: CrossAxisAlignment.start,
-    children: [
-      for (final (s, t) in [
-        (IntegrationStatus.browserOnly, 'Opens as a normal web page.'),
-        (
-          IntegrationStatus.pendingPermission,
-          'An integration exists but stays off until the site\'s permission is documented.',
-        ),
-        (IntegrationStatus.devTesting, 'Development build only: integration running for testing.'),
-        (IntegrationStatus.integrated, 'Catalogue shown in Library with the site\'s permission.'),
-      ])
-        Padding(
-          padding: const EdgeInsets.only(bottom: RwSpace.xs),
-          child: Row(
-            children: [
-              IntegrationBadge(s),
-              const SizedBox(width: RwSpace.sm),
-              Expanded(child: Text(t, style: RwType.caption)),
-            ],
-          ),
-        ),
-    ],
-  );
 }

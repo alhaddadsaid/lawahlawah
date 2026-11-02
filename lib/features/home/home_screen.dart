@@ -29,7 +29,7 @@ class HomeScreen extends StatelessWidget {
               child: EmptyState(
                 icon: Icons.travel_explore,
                 title: 'Add your first website',
-                message: 'Save a site you watch on and Reelway turns it into a clean, pop-up-free viewing space.',
+                message: 'Save a public source, explore its titles and play supported videos in Reelway.',
                 action: 'Add website',
                 onAction: () => showAddWebsiteSheet(context),
               ),
@@ -303,7 +303,7 @@ class _WebsitesRow extends StatelessWidget {
         return _SiteChip(
           label: s.name,
           child: SiteAvatar(name: s.name, favicon: s.favicon, size: 56),
-          onTap: () => shell.openInBrowser(Uri.parse(s.url)),
+          onTap: () => shell.openSource(Uri.parse(s.url)),
         );
       },
     );

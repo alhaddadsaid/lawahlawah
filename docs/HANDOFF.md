@@ -1,5 +1,15 @@
 # Reelway: handoff for another agent
 
+> **Current direction (2 November 2026):** The user requested native source
+> exploration and playback without a WebView, including skipping website ad
+> prompts when public stream URLs are already exposed in page HTML. The active
+> implementation is `lib/sources/page_source.dart` and the native Browse screen.
+> Per-site partner approval flags do not gate this path. See
+> [Native sources](NATIVE_SOURCES.md).
+> Older browser/partner decisions below are historical. No App Store approval,
+> rights clearance, device verification or distribution is implied.
+
+
 Everything a new agent needs to change Reelway and ship a new build to Said's iPhone.
 No passwords, keys or certificates are in this file or in the repo. Where a secret is
 needed, this file says where it lives and who has it.

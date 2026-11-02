@@ -2,7 +2,6 @@ import 'dart:async';
 import 'dart:convert';
 
 import 'package:flutter/foundation.dart';
-import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../adapters/adapter_registry.dart';
@@ -10,6 +9,7 @@ import '../../browser/popup_protection.dart';
 import '../../core/security/url_policy.dart';
 import '../../partners/partner_registry.dart';
 import '../../sources/link_feed.dart';
+import '../../sources/page_source.dart';
 import '../models/models.dart';
 import '../models/user_settings.dart';
 import '../sample/sample_data.dart';
@@ -18,11 +18,12 @@ import '../sample/sample_data.dart';
 ///
 /// Persistence: websites, bookmarks, page history and settings are stored as
 /// JSON in SharedPreferences. That holds no passwords or tokens — website
-/// sessions live in the WebView's own cookie store. Phase 5 moves catalogue
+/// requests do not use browser sessions. Phase 5 moves catalogue
 /// and watch history into an SQLite database (drift).
 class AppState extends ChangeNotifier {
-  AppState({AdapterRegistry? registry, bool? useSampleData})
-    : registry = registry ?? AdapterRegistry(),
+  AppState({AdapterRegistry? registry, bool? useSampleData, PageSource? pageSource})
+    : _pageSource = pageSource ?? PageSource(),
+      registry = registry ?? AdapterRegistry(),
       useSampleData = useSampleData ?? (kDebugMode || _previewBuild);
 
   /// Set only for the web design preview (`--dart-define=SAMPLE_DATA=true`).
@@ -30,6 +31,7 @@ class AppState extends ChangeNotifier {
   static const _previewBuild = bool.fromEnvironment('SAMPLE_DATA');
 
   final AdapterRegistry registry;
+  final PageSource _pageSource;
 
   /// Sample catalogue is shown in debug builds only.
   final bool useSampleData;
@@ -207,6 +209,8 @@ class AppState extends ChangeNotifier {
     _changed();
   }
 
+  Future<SourcePage> readSource(Uri url) => _pageSource.read(url);
+
   // Links -----------------------------------------------------------------------
 
   /// Adds a public video or catalog link. Returns an error message, or null.
@@ -262,12 +266,24 @@ class AppState extends ChangeNotifier {
   }
 
   /// Fetches a link with no cookies or sign-in, so only public links work.
-  static Future<List<LinkSeries>> _readLink(Uri link) async {
-    if (LinkFeed.isVideo(link)) return [LinkFeed.single(link)];
-    final source = LinkFeed.resolve(link);
-    final res = await http.get(source).timeout(const Duration(seconds: 20));
-    if (res.statusCode != 200) throw FormatException('The link answered with error ${res.statusCode}.');
-    return LinkFeed.parse(source, utf8.decode(res.bodyBytes, allowMalformed: true));
+  Future<List<LinkSeries>> _readLink(Uri link) async {
+    final page = await _pageSource.read(link);
+    if (page.series.isEmpty) {
+      throw const FormatException('No public video was found. Try a series or episode page instead of the homepage.');
+    }
+    return page.series;
+  }
+
+  /// Refresh page-derived links at playback time because CDN URLs can expire.
+  Future<Uri> playbackUrlFor(Episode episode) async {
+    if (episode.sourcePageUrl == episode.videoUrl) return LinkFeed.check(episode.videoUrl!);
+    final page = await _pageSource.read(LinkFeed.check(episode.sourcePageUrl));
+    for (final series in page.series) {
+      for (final item in series.episodes) {
+        if (item.number == episode.episodeNumber) return item.videoUrl;
+      }
+    }
+    throw const FormatException('This episode no longer exposes a playable public video.');
   }
 
   static String _linkSource(String link) => 'link:$link';
@@ -296,7 +312,7 @@ class AppState extends ChangeNotifier {
             seasonNumber: 1,
             episodeNumber: e.number,
             title: e.title,
-            sourcePageUrl: e.videoUrl.toString(),
+            sourcePageUrl: (e.pageUrl ?? e.videoUrl).toString(),
             videoUrl: e.videoUrl.toString(),
             duration: e.duration,
           ),
