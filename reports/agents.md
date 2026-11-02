@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-02 01:30 UTC. Runs so far: 57. Model: claude-haiku-5-5.
+Updated 2026-11-02 01:42 UTC. Runs so far: 57. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1509 | 31 | -39771.6 | -54228.67 |
+| control | meme | 1512 | 31 | -39650.71 | -54141.65 |
 | control | macro | 28 | 46 | -141.99 | -292.93 |
-| control | all | 1537 | 31 | -39913.59 | -54521.6 |
+| control | all | 1540 | 31 | -39792.7 | -54434.58 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: CYBERLEEK long at 0.001755, stop 0.001404, target 0.002457, opened 2026-11-01 23:40 UTC
 - control: REGRETAMINE long at 6.315e-05, stop 5.052e-05, target 8.841e-05, opened 2026-11-02 00:38 UTC
-- control: PI long at 9.873e-05, stop 7.8984e-05, target 0.000138222, opened 2026-11-02 01:05 UTC
-- control: Learjet long at 0.0001247, stop 9.976e-05, target 0.00017458, opened 2026-11-02 01:12 UTC
 - control: RAM long at 0.0001042, stop 8.336e-05, target 0.00014588, opened 2026-11-02 01:15 UTC
+- control: pain long at 0.0001069, stop 8.552e-05, target 0.00014966, opened 2026-11-02 01:36 UTC
+- control: Learjet long at 0.0001463, stop 0.00011704, target 0.00020482, opened 2026-11-02 01:42 UTC
 
 ## Team
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order Learjet REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED PI (target) P&L $68.0 normal, $56.0 pessimistic
 

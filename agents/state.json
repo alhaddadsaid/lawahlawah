@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -29913.457472501246,
+   "cash": -29792.568583612356,
    "open": [
-    {
-     "id": 1552,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CYBERLEEK",
-     "mint": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-     "side": 1,
-     "opened": 1793576457.1770613,
-     "entry": 0.001755,
-     "stop": 0.001404,
-     "target": 0.0024569999999999995,
-     "size": 113960.11396011396,
-     "deadline": 1793583657.1770616,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1556,
      "desk": "control",
@@ -38,36 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1559,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PI",
-     "mint": "93VGqXL76voGxc43apJTDJoKkqnxTht1BKWoEmUypump",
-     "side": 1,
-     "opened": 1793581557.988488,
-     "entry": 9.873e-05,
-     "stop": 7.8984e-05,
-     "target": 0.000138222,
-     "size": 2025726.7294641952,
-     "deadline": 1793588757.9884882,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1560,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Learjet",
-     "mint": "DaG1X248VVvWuqaiBURFSe4b4L7RUm8sR57FJBZ7pump",
-     "side": 1,
-     "opened": 1793581921.1194956,
-     "entry": 0.0001247,
-     "stop": 9.976000000000001e-05,
-     "target": 0.00017457999999999997,
-     "size": 1603849.238171612,
-     "deadline": 1793589121.1194959,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1561,
      "desk": "control",
      "market": "meme",
@@ -81,30 +36,62 @@
      "size": 1919385.7965451055,
      "deadline": 1793589304.7810056,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1562,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "pain",
+     "mint": "CTLeZu8CxiYXL6zTmBbsycaG35smxJMmAyNHCbWzpump",
+     "side": 1,
+     "opened": 1793583380.4165504,
+     "entry": 0.0001069,
+     "stop": 8.552000000000001e-05,
+     "target": 0.00014965999999999997,
+     "size": 1870907.390084191,
+     "deadline": 1793590580.4165509,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1563,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Learjet",
+     "mint": "DaG1X248VVvWuqaiBURFSe4b4L7RUm8sR57FJBZ7pump",
+     "side": 1,
+     "opened": 1793583743.5496957,
+     "entry": 0.0001463,
+     "stop": 0.00011704,
+     "target": 0.00020482,
+     "size": 1367053.998632946,
+     "deadline": 1793590943.549696,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1562,
+ "next_id": 1564,
  "runs": 57,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:AdGZLFNZuLhGhCaatJ6qpvZSUvjnFaBcjDfXSoQEpump": 1793583186.7620044,
-  "seen:2pKpMwUQXNZeAf93LoomnZSworH3ezFzweCiuvrppump": 1793583186.7620044,
-  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793583368.1606228,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793583368.1606228,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793583368.1606228,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793583552.61989,
-  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793583552.61989,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793583552.61989,
-  "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793583552.61989,
-  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1793583552.61989,
-  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793583734.098449,
-  "seen:DaG1X248VVvWuqaiBURFSe4b4L7RUm8sR57FJBZ7pump": 1793583734.098449,
-  "seen:CTLeZu8CxiYXL6zTmBbsycaG35smxJMmAyNHCbWzpump": 1793583734.098449,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793583915.74856,
   "seen:2dg6EXqCfKs7KgX5jpnjyx8PSQ1t3qVtShySAbQppump": 1793583915.74856,
-  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793583915.74856
+  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1793583915.74856,
+  "seen:7Rrk3bL9cenT6UfVneQuniK1FxGGrpJqrpkJsq1spump": 1793584098.7875981,
+  "seen:2pKpMwUQXNZeAf93LoomnZSworH3ezFzweCiuvrppump": 1793584098.7875981,
+  "seen:GoDSW31bTxfkoup9yA1qcGGx9RMXdTEWgApv3xzBmoA": 1793584280.0995808,
+  "seen:FWatMYieKhRuJ1yuTcmVG1njRhZWwqHwjR11pBympump": 1793584280.0995808,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793584280.0995808,
+  "control:CTLeZu8CxiYXL6zTmBbsycaG35smxJMmAyNHCbWzpump": 1793584280.416554,
+  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793584462.0664651,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793584462.0664651,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793584462.0664651,
+  "seen:93VGqXL76voGxc43apJTDJoKkqnxTht1BKWoEmUypump": 1793584462.0664651,
+  "seen:9Gma3V6odsy7pjrpCtNQ6G81KxpgWMoe81qYs3WLFrJA": 1793584643.4804995,
+  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793584643.4804995,
+  "seen:DaG1X248VVvWuqaiBURFSe4b4L7RUm8sR57FJBZ7pump": 1793584643.4804995,
+  "seen:CTLeZu8CxiYXL6zTmBbsycaG35smxJMmAyNHCbWzpump": 1793584643.4804995,
+  "control:DaG1X248VVvWuqaiBURFSe4b4L7RUm8sR57FJBZ7pump": 1793584643.5496995
  },
  "talks": {
   "2026-10-21": 109
@@ -189,5 +176,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793582104.1658497
+ "last_macro_macro": 1793583380.107211
 }
