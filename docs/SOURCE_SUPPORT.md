@@ -33,6 +33,29 @@ same-origin page without challenge indicators before enabling Continue. Retry an
 external-browser fallback are provided after a wait; external clearance is not
 claimed to transfer back automatically.
 
+## Play in Reelway (any website)
+
+Most drama sites build their pages with scripts and load videos from many
+providers, so a reader per site breaks often. The browser therefore works the
+same way on every site (`lib/browser/media_capture.dart`):
+
+- A read-only script in Reelway's own script world (the page cannot see it)
+  notes the videos the page's own player loads: `<video>` elements that play,
+  and HLS playlists the page downloads (including from embedded players).
+- Home checks the visible tab every 2 seconds. When an episode-length video
+  (45 s or more, or an HLS playlist) is found and it is not from an ad network,
+  a **Play in Reelway** button appears. It pauses the page and opens the video in
+  Reelway's player, with the page as Referer.
+- The episode list comes from the page's links (`1`, `EP 2`, `Episode 3`,
+  `第4集`). Another episode closes the player and opens that episode's page in
+  the same tab; when its video starts, it goes straight back to the player.
+- These titles are kept for the session only (video addresses expire) and are
+  not listed in the Library.
+
+Not covered: sites whose player uses DRM, episode lists made of buttons without
+links (the player then shows one episode), and videos inside cross-site frames
+if WebKit does not pass their messages to Reelway's script world.
+
 ## User-supplied candidates (not endorsements or verified “free” claims)
 
 | Source | Current status |

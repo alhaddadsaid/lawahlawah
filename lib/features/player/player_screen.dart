@@ -16,12 +16,23 @@ import '../../data/repositories/app_state.dart';
 /// Reelway's own player, for episodes from links the user added (MP4 or HLS).
 /// Saves progress while playing and moves on to the next episode at the end.
 class PlayerScreen extends StatefulWidget {
-  const PlayerScreen({super.key, required this.content, required this.episodes, this.index = 0, this.startAt});
+  const PlayerScreen({
+    super.key,
+    required this.content,
+    required this.episodes,
+    this.index = 0,
+    this.startAt,
+    this.onOpenPage,
+  });
 
   final Content content;
   final List<Episode> episodes;
   final int index;
   final Duration? startAt;
+
+  /// For titles from a website: an episode without a video yet closes the
+  /// player and opens its page, where the website's player starts it.
+  final void Function(Episode episode)? onOpenPage;
 
   static Future<void> open(
     BuildContext context,
@@ -29,11 +40,13 @@ class PlayerScreen extends StatefulWidget {
     List<Episode> episodes, {
     int index = 0,
     Duration? startAt,
+    void Function(Episode episode)? onOpenPage,
   }) {
     return Navigator.of(context).push(
       MaterialPageRoute(
         fullscreenDialog: true,
-        builder: (_) => PlayerScreen(content: content, episodes: episodes, index: index, startAt: startAt),
+        builder: (_) =>
+            PlayerScreen(content: content, episodes: episodes, index: index, startAt: startAt, onOpenPage: onOpenPage),
       ),
     );
   }
@@ -271,6 +284,13 @@ class _PlayerScreenState extends State<PlayerScreen> {
   void _goTo(int index) {
     if (index < 0 || index >= widget.episodes.length) return;
     _save();
+    final openPage = widget.onOpenPage;
+    if (openPage != null && !widget.episodes[index].isPlayable) {
+      final episode = widget.episodes[index];
+      Navigator.of(context).maybePop();
+      openPage(episode);
+      return;
+    }
     setState(() => _index = index);
     _play(Duration.zero);
   }

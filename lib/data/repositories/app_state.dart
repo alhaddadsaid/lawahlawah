@@ -5,6 +5,7 @@ import 'package:flutter/foundation.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../adapters/adapter_registry.dart';
+import '../../browser/media_capture.dart';
 import '../../browser/popup_protection.dart';
 import '../../core/security/url_policy.dart';
 import '../../partners/partner_registry.dart';
@@ -79,7 +80,7 @@ class AppState extends ChangeNotifier {
   List<Website> get recentWebsites =>
       [..._websites]..sort((a, b) => (b.lastVisited ?? b.dateAdded).compareTo(a.lastVisited ?? a.dateAdded));
 
-  Content? contentById(String id) => _content.where((c) => c.id == id).firstOrNull;
+  Content? contentById(String id) => _webTitles[id] ?? _content.where((c) => c.id == id).firstOrNull;
   Website? websiteById(String id) => _websites.where((w) => w.id == id).firstOrNull;
   WatchHistory? historyFor(String contentId) => _watch.where((h) => h.contentId == contentId).firstOrNull;
 
@@ -148,7 +149,10 @@ class AppState extends ChangeNotifier {
   Future<void> _save() async {
     final p = _prefs;
     if (p == null) return;
-    final watch = _watch.where((h) => contentById(h.contentId)?.isSample != true).map((h) => h.toJson()).toList();
+    final watch = _watch
+        .where((h) => !isWebTitle(h.contentId) && contentById(h.contentId)?.isSample != true)
+        .map((h) => h.toJson())
+        .toList();
     await Future.wait([
       p.setString(_kSettings, jsonEncode(_settings.toJson())),
       p.setString(_kWebsites, jsonEncode(_websites.map((e) => e.toJson()).toList())),
@@ -214,7 +218,53 @@ class AppState extends ChangeNotifier {
 
   void clearSourceVerification() => _pageSource.clearVerification();
 
-  Map<String, String> playbackHeadersFor(Uri url) => _pageSource.verificationHeadersFor(url);
+  /// Headers for playing [url]. A video taken from a website page is requested
+  /// with that page as Referer, as the page's own player did.
+  Map<String, String> playbackHeadersFor(Uri url) {
+    final headers = _pageSource.verificationHeadersFor(url);
+    final page = _mediaPages[url.toString()];
+    return page == null ? headers : {...headers, 'Referer': page};
+  }
+
+  // Videos from websites --------------------------------------------------------
+
+  /// Titles watched with "Play in Reelway". Session only: website video
+  /// addresses expire, so these are not saved or listed in the Library.
+  final Map<String, Content> _webTitles = {};
+  final Map<String, String> _mediaPages = {};
+
+  static bool isWebTitle(String contentId) => contentId.startsWith('web:');
+
+  /// Registers the video a website page is playing as a title for Reelway's
+  /// player. Only the current episode has a video; the others open their page
+  /// in the browser first. Pass [contentId] to continue an existing title.
+  Content showWebTitle(WebTitle page, Uri video, {String? contentId}) {
+    final current = page.episodes.firstWhere((e) => e.number == page.current);
+    final id = contentId ?? 'web:${current.page.host}#${page.title.toLowerCase()}';
+    final item = Content(
+      id: id,
+      title: page.title,
+      poster: page.poster?.toString(),
+      category: page.episodes.length > 1 ? ContentCategory.series : ContentCategory.movie,
+      sourceWebsiteId: 'web',
+      sourcePageUrl: current.page.toString(),
+    );
+    _webTitles[id] = item;
+    _episodes[id] = [
+      for (final e in page.episodes)
+        Episode(
+          id: '$id-e${e.number}',
+          seriesId: id,
+          seasonNumber: 1,
+          episodeNumber: e.number,
+          sourcePageUrl: e.page.toString(),
+          videoUrl: e.number == page.current ? video.toString() : null,
+        ),
+    ];
+    _mediaPages[video.toString()] = current.page.toString();
+    notifyListeners();
+    return item;
+  }
 
   SourcePage? inspectBrowserPage(Uri url, String html) => _pageSource.inspectBrowserPage(url, html);
 
@@ -289,6 +339,11 @@ class AppState extends ChangeNotifier {
   Future<Uri> playbackUrlFor(Episode episode) async => (await playbackSourceFor(episode)).videoUrl;
 
   Future<LinkEpisode> playbackSourceFor(Episode episode) async {
+    if (isWebTitle(episode.seriesId)) {
+      final video = episode.videoUrl;
+      if (video == null) throw const FormatException('Open this episode on its website first.');
+      return LinkEpisode(number: episode.episodeNumber, videoUrl: Uri.parse(video));
+    }
     if (episode.sourcePageUrl == episode.videoUrl) {
       return LinkEpisode(number: episode.episodeNumber, videoUrl: LinkFeed.check(episode.videoUrl!));
     }
@@ -415,6 +470,8 @@ class AppState extends ChangeNotifier {
     _favorites.clear();
     _links.clear();
     _episodes.clear();
+    _webTitles.clear();
+    _mediaPages.clear();
     _linksDisclaimerAccepted = false;
     _content.removeWhere((c) => c.sourceWebsiteId.startsWith('link:'));
     _settings = const UserSettings();

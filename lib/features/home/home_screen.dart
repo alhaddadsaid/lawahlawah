@@ -1,12 +1,16 @@
+import 'dart:async';
+
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import '../../browser/browser_view.dart';
+import '../../browser/media_capture.dart';
 import '../../browser/popup_protection.dart';
 import '../../browser/tab_manager.dart';
 import '../../core/design/tokens.dart';
 import '../../core/security/url_policy.dart';
 import '../../core/widgets/components.dart';
+import '../../data/models/models.dart';
 import '../../data/repositories/app_state.dart';
 import '../settings/protection_screen.dart';
 import '../settings/websites_screen.dart';
@@ -27,6 +31,15 @@ class _HomeScreenState extends State<HomeScreen> {
   final _tabs = TabManager();
   final _commands = <String, BrowserCommands>{};
   final _detected = <String>{};
+
+  /// The episode video each tab's page is playing, for "Play in Reelway".
+  final _media = <String, CapturedMedia>{};
+
+  /// Set when the player sent the user to an episode's page: the video that
+  /// page starts goes straight back to the player.
+  ({String tabId, String contentId, DateTime at})? _handoff;
+  Timer? _mediaTimer;
+  bool _checkingMedia = false;
   bool _showStartPage = false;
   late final ShellController _shell;
 
@@ -36,13 +49,76 @@ class _HomeScreenState extends State<HomeScreen> {
     _shell = context.read<ShellController>()..addListener(_takePending);
     _tabs.addListener(_onTabs);
     WidgetsBinding.instance.addPostFrameCallback((_) => _takePending());
+    _mediaTimer = Timer.periodic(const Duration(seconds: 2), (_) => _checkMedia());
   }
 
   @override
   void dispose() {
+    _mediaTimer?.cancel();
     _shell.removeListener(_takePending);
     _tabs.dispose();
     super.dispose();
+  }
+
+  /// Asks the visible tab which videos its page loaded. Only while Home is on
+  /// screen; nothing runs for hidden tabs.
+  Future<void> _checkMedia() async {
+    if (!mounted || _checkingMedia || _shell.tab != AppTab.home || _showStartPage) return;
+    final tab = _tabs.active;
+    final commands = tab == null ? null : _commands[tab.id];
+    if (tab == null || commands == null) return;
+    _checkingMedia = true;
+    try {
+      final found = MediaCapture.pick(await commands.media(), tab.url);
+      if (!mounted || _tabs.active?.id != tab.id) return;
+      if (found?.url != _media[tab.id]?.url) {
+        setState(() {
+          if (found == null) {
+            _media.remove(tab.id);
+          } else {
+            _media[tab.id] = found;
+          }
+        });
+      }
+      final handoff = _handoff;
+      if (handoff != null && DateTime.now().difference(handoff.at) > const Duration(minutes: 3)) _handoff = null;
+      if (found != null && handoff != null && handoff.tabId == tab.id && _handoff != null) {
+        _handoff = null;
+        await _playInReelway(tab, found, contentId: handoff.contentId);
+      }
+    } finally {
+      _checkingMedia = false;
+    }
+  }
+
+  /// Moves the video the page is playing into Reelway's player, with the
+  /// episode list the page shows.
+  Future<void> _playInReelway(BrowserTab tab, CapturedMedia media, {String? contentId}) async {
+    final commands = _commands[tab.id];
+    final body = await commands?.html();
+    if (!mounted || commands == null || body == null) return;
+    await commands.pauseMedia();
+    if (!mounted) return;
+    final app = context.read<AppState>();
+    final page = MediaCapture.describe(tab.url, body);
+    final content = app.showWebTitle(page, media.url, contentId: contentId);
+    final episodes = app.episodesFor(content.id);
+    final index = episodes.indexWhere((e) => e.episodeNumber == page.current);
+    await PlayerScreen.open(
+      context,
+      content,
+      episodes,
+      index: index < 0 ? 0 : index,
+      onOpenPage: (episode) => _openEpisodePage(tab.id, content.id, episode),
+    );
+  }
+
+  void _openEpisodePage(String tabId, String contentId, Episode episode) {
+    if (!mounted || !_tabs.tabs.any((t) => t.id == tabId)) return;
+    _tabs.activate(tabId);
+    _handoff = (tabId: tabId, contentId: contentId, at: DateTime.now());
+    _open(Uri.parse(episode.sourcePageUrl));
+    _snack('Opening episode ${episode.episodeNumber}. When its video starts, it moves to Reelway\'s player.');
   }
 
   void _onTabs() {
@@ -201,7 +277,19 @@ class _HomeScreenState extends State<HomeScreen> {
                 }
               },
             ),
-          if (active != null &&
+          if (active != null && _media[active.id] != null)
+            Padding(
+              padding: const EdgeInsets.fromLTRB(RwSpace.gutter, 0, RwSpace.gutter, RwSpace.xs),
+              child: SizedBox(
+                width: double.infinity,
+                child: FilledButton.icon(
+                  onPressed: () => _playInReelway(active, _media[active.id]!),
+                  icon: const Icon(Icons.play_circle_fill),
+                  label: const Text('Play in Reelway'),
+                ),
+              ),
+            )
+          else if (active != null &&
               (PageSource.isNarto(active.url) ||
                   LinkFeed.isVideo(active.url) ||
                   _detected.contains(active.url.toString())))

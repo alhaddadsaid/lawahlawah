@@ -11,6 +11,9 @@
 > Verification waits for the challenge to disappear, allows Cloudflare srcdoc
 > frames, and offers retry/external browser when stalled. Actual clearance still
 > depends on the site. Player now has previous/next and an episode grid.
+> Play in Reelway: on any website, the video the page's own player starts is
+> offered in Reelway's player, with the page's episode links; see
+> docs/SOURCE_SUPPORT.md. Per-site readers are not the plan for other sites.
 > Standing instruction: push verified updates to streaming-browser and confirm
 > Codemagic delivery to internal TestFlight. Older notes below are historical.
 

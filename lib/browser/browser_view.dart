@@ -10,6 +10,7 @@ import '../core/design/tokens.dart';
 import '../data/models/user_settings.dart';
 import '../core/security/url_policy.dart';
 import '../partners/partner_registry.dart';
+import 'media_capture.dart';
 import 'popup_protection.dart';
 import 'tab_manager.dart';
 import 'website_ad_rules.dart';
@@ -23,6 +24,25 @@ class BrowserCommands {
   Future<void> stop() async => _c?.stopLoading();
   Future<void> load(Uri url) async => _c?.loadUrl(urlRequest: URLRequest(url: WebUri.uri(url)));
   Future<String?> html() async => _c?.getHtml();
+
+  static final _world = ContentWorld.world(name: MediaCapture.worldName);
+
+  /// Videos the page's own player has loaded so far (see [MediaCapture]).
+  Future<List<CapturedMedia>> media() async {
+    try {
+      return MediaCapture.decode(await _c?.evaluateJavascript(source: MediaCapture.readerJs, contentWorld: _world));
+    } catch (_) {
+      return const []; // The page is navigating or the tab closed.
+    }
+  }
+
+  Future<void> pauseMedia() async {
+    try {
+      await _c?.evaluateJavascript(source: MediaCapture.pauseJs, contentWorld: _world);
+    } catch (_) {
+      /* Nothing to pause. */
+    }
+  }
 }
 
 /// One tab's WebView, wired to [PopupProtection].
@@ -37,6 +57,9 @@ class BrowserCommands {
 ///    hijacked taps (ads riding on a real tap) can be told apart. It changes
 ///    nothing on the page and sends nothing anywhere; the app reads it with
 ///    evaluateJavascript only when deciding about a cross-site jump.
+///  * A second read-only script, in Reelway's own script world (invisible to
+///    the page), notes which videos the page's player loads, for
+///    "Play in Reelway" (see media_capture.dart).
 ///  * On partner websites only (contract in force), a second script hides
 ///    their ads and skips their ad gate as the agreement allows.
 class BrowserView extends StatefulWidget {
@@ -333,6 +356,12 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
           source: _tapRecorderJs,
           injectionTime: UserScriptInjectionTime.AT_DOCUMENT_START,
           forMainFrameOnly: true,
+        ),
+        UserScript(
+          source: MediaCapture.watcherJs,
+          injectionTime: UserScriptInjectionTime.AT_DOCUMENT_START,
+          forMainFrameOnly: false,
+          contentWorld: BrowserCommands._world,
         ),
         if (partnerScript != null)
           UserScript(
