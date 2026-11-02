@@ -29,11 +29,11 @@ void main() {
           CapturedMedia(url: Uri.parse(url), page: page, fromVideo: false, at: at, segment: true);
       final found = MediaCapture.pick([
         media('https://video.example.com/hls/5065/ep1.m3u8', at: 1000),
-        seg('https://video.example.com/hls/5065/ep1/s0.ts', at: 1100),
+        seg('https://video.example.com/hls/5065/ep1/s0.ts', 1100),
         media('https://video.example.com/hls/5065/ep2.m3u8', at: 9000),
-        seg('https://video.example.com/hls/5065/ep2/s0.ts', at: 9100),
-        seg('https://video.example.com/hls/5065/ep1/s7.ts', at: 9500),
-        seg('https://video.example.com/hls/5065/ep1/s8.ts', at: 12000),
+        seg('https://video.example.com/hls/5065/ep2/s0.ts', 9100),
+        seg('https://video.example.com/hls/5065/ep1/s7.ts', 9500),
+        seg('https://video.example.com/hls/5065/ep1/s8.ts', 12000),
       ], page);
       expect(found?.url.path, '/hls/5065/ep1.m3u8');
       expect(
