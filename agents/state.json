@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -33152.079914919275,
+   "cash": -33205.204914919275,
    "open": [
     {
      "id": 1654,
@@ -23,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 1663,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "\u1453\u0b39\ua6a1\u0908",
-     "mint": "7kYXsF59Cc3HBjL1mW5y9eutEWYh3dTUuvBvnNV7pump",
-     "side": 1,
-     "opened": 1793662312.0054529,
-     "entry": 0.0001976,
-     "stop": 0.00015808,
-     "target": 0.00027664,
-     "size": 1012145.7489878542,
-     "deadline": 1793669512.005453,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1664,
      "desk": "control",
      "market": "meme",
@@ -51,34 +36,63 @@
      "size": 825763.8315441783,
      "deadline": 1793669694.9773161,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1665,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "WALTER",
+     "mint": "FV56CmR7fhEyPkymKfmviKV48uPo51ti9kAxssQqTDLu",
+     "side": 1,
+     "opened": 1793662859.876925,
+     "entry": 0.0001965,
+     "stop": 0.0001572,
+     "target": 0.00027509999999999996,
+     "size": 1017811.7048346056,
+     "deadline": 1793670059.876925,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1666,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CAPY",
+     "mint": "5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g",
+     "side": 1,
+     "opened": 1793663043.4738753,
+     "entry": 0.0002062,
+     "stop": 0.00016496000000000002,
+     "target": 0.00028868,
+     "size": 969932.1047526674,
+     "deadline": 1793670243.4738755,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1665,
+ "next_id": 1667,
  "runs": 60,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2LChwWUqp9bby4bsLaJrKX5y4LpYzaaMzMvPBwjupump": 1793662845.424831,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793662845.424831,
-  "seen:7gCND4jhgJ8Mq1XxNhRdercinXh7fcCDPjA9uEQLk3f2": 1793662845.424831,
-  "seen:Aes6XNH9BboLZuchD5PnDwaX6Zj1nU79TU3gNtPEpump": 1793662845.424831,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793662845.424831,
-  "seen:7kYXsF59Cc3HBjL1mW5y9eutEWYh3dTUuvBvnNV7pump": 1793662845.424831,
-  "seen:9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": 1793662845.424831,
-  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793662845.424831,
-  "control:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793662846.2076542,
-  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793663029.0720766,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793663029.0720766,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793663029.0720766,
-  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793663029.0720766,
-  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793663029.0720766,
   "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793663211.9650908,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793663211.9650908,
   "control:7kYXsF59Cc3HBjL1mW5y9eutEWYh3dTUuvBvnNV7pump": 1793663212.0054567,
   "seen:BtrkGyJWdTeGe5EQhLuE8y9d3Xh2bUvzEjMkrU7xpump": 1793663394.9060817,
   "seen:FV56CmR7fhEyPkymKfmviKV48uPo51ti9kAxssQqTDLu": 1793663394.9060817,
-  "control:7gCND4jhgJ8Mq1XxNhRdercinXh7fcCDPjA9uEQLk3f2": 1793663394.97732
+  "control:7gCND4jhgJ8Mq1XxNhRdercinXh7fcCDPjA9uEQLk3f2": 1793663394.97732,
+  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793663576.0513608,
+  "seen:CHjgAurRkfkcoJpiFCVhpU7uxbm1jKkDcNcnG64xpump": 1793663759.3284745,
+  "seen:Aes6XNH9BboLZuchD5PnDwaX6Zj1nU79TU3gNtPEpump": 1793663759.3284745,
+  "seen:7kYXsF59Cc3HBjL1mW5y9eutEWYh3dTUuvBvnNV7pump": 1793663759.3284745,
+  "seen:7gCND4jhgJ8Mq1XxNhRdercinXh7fcCDPjA9uEQLk3f2": 1793663759.3284745,
+  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793663759.3284745,
+  "seen:9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": 1793663759.3284745,
+  "control:FV56CmR7fhEyPkymKfmviKV48uPo51ti9kAxssQqTDLu": 1793663759.8769288,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793663943.427201,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793663943.427201,
+  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793663943.427201,
+  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793663943.427201,
+  "control:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793663943.4738793
  },
  "talks": {
   "2026-10-21": 109
@@ -119,9 +133,9 @@
  ],
  "last_review": 1793633672.7736597,
  "news": {
-  "t": 1793661945.4304197,
+  "t": 1793662859.3337128,
   "crypto": [
-   "North Korea denies role in $6.3B Binance hack, points finger at US (0h ago)",
+   "North Korea denies role in $6.3B Binance hack, points finger at US (1h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
    "New Jersey drops Coinbase staking order ahead of crypto\u2019s midterm test (1h ago)",
    "AI poses greater threat to Bitcoin than quantum computing, Swan founder says (2h ago)",
@@ -129,13 +143,11 @@
    "Crypto investigators flag suspected $106M theft, $786K Solana bot drain (2h ago)",
    "Coinbase hit with 50% price target cut as post-earnings rout deepens (3h ago)",
    "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally (4h ago)",
-   "Mercado Bitcoin wallets show post-hack transfers after $46M theft (4h ago)",
+   "Mercado Bitcoin wallets show post-hack transfers after $46M theft (5h ago)",
    "Bitcoin traders eye post-election rally as exchange outflows point to supply squeeze (5h ago)"
   ],
   "macro": [],
-  "calendar": [
-   "USD Congressional Elections in 15.8h"
-  ]
+  "calendar": []
  },
  "spend": {
   "2026-11-02": 0.0
