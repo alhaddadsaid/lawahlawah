@@ -63,5 +63,6 @@ workflows:
     publishing:
       app_store_connect:
         auth: integration
-        # Internal testers get builds without Apple review.
-        submit_to_testflight: true
+        # Uploads remain available to internal testers through their automatic group.
+        # This flag requests EXTERNAL beta review, which is not needed here.
+        submit_to_testflight: false
