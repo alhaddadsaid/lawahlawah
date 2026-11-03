@@ -3,7 +3,8 @@
 //   flutter test test/store_screenshots_test.dart --dart-define=STORE_SHOTS=true
 //
 // Skipped otherwise. Images are written to build/store_screenshots/.
-// Add --dart-define=STORE_IPAD=true for 13-inch iPad shots (build/store_screenshots/ipad/).
+// Add --dart-define=STORE_IPAD=true for 13-inch iPad shots (build/store_screenshots/ipad/),
+// or --dart-define=STORE_PLAY=true for Play Store phone shots (build/store_screenshots/play/).
 import 'dart:io';
 import 'dart:ui' as ui;
 
@@ -24,6 +25,10 @@ const _run = bool.fromEnvironment('STORE_SHOTS');
 
 /// 13-inch iPad shots (2048 x 2732) instead of iPhone ones.
 const _ipad = bool.fromEnvironment('STORE_IPAD');
+
+/// Play Store phone shots: 1242 x 2208 (9:16; Play allows at most 2:1).
+const _play = bool.fromEnvironment('STORE_PLAY');
+const _dir = _ipad ? 'ipad/' : (_play ? 'play/' : '');
 
 /// Logical size of the app screen inside the frame.
 const _screen = _ipad ? Size(820, 1180) : Size(390, 844);
@@ -183,7 +188,7 @@ Future<void> _shot(WidgetTester tester, GlobalKey key, String name) async {
     final boundary = key.currentContext!.findRenderObject()! as RenderRepaintBoundary;
     final image = await boundary.toImage(pixelRatio: _ipad ? 2 : 3);
     final data = await image.toByteData(format: ui.ImageByteFormat.png);
-    final file = File('build/store_screenshots/${_ipad ? 'ipad/' : ''}$name.png');
+    final file = File('build/store_screenshots/$_dir$name.png');
     await file.parent.create(recursive: true);
     await file.writeAsBytes(data!.buffer.asUint8List());
   });
@@ -194,7 +199,9 @@ void main() {
 
   testWidgets('store screenshots', (tester) async {
     await tester.runAsync(_loadFonts);
-    tester.view.physicalSize = _ipad ? const Size(2048, 2732) : const Size(1290, 2796);
+    tester.view.physicalSize = _ipad
+        ? const Size(2048, 2732)
+        : (_play ? const Size(1242, 2208) : const Size(1290, 2796));
     tester.view.devicePixelRatio = _ipad ? 2 : 3;
     addTearDown(tester.view.reset);
 
@@ -218,15 +225,15 @@ void main() {
 
     // 1. Start page.
     var key = await show(
-      'Browse without surprise pop-ups',
-      'A clean browser with your favorite sites one tap away.',
+      _play ? 'Your video sites in one clean browser' : 'Browse without surprise pop-ups',
+      _play ? 'Open your favorite websites, one tap away.' : 'A clean browser with your favorite sites one tap away.',
       ReelwayApp(state: state),
     );
     await _shot(tester, key, '1-start');
 
     // 2. A page with a blocked pop-up.
     key = await show(
-      'Your tap goes where you meant it to go',
+      _play ? 'Fewer pop-ups, fewer surprises' : 'Your tap goes where you meant it to go',
       'Pop-ups and redirects that hijack your taps are stopped.',
       ReelwayApp(state: state, browserBuilder: (_, _) => const _ExamplePage()),
     );
@@ -248,7 +255,7 @@ void main() {
 
     // 3. Protection settings.
     key = await show(
-      'You choose the ads you click on',
+      _play ? 'You decide what opens' : 'You choose the ads you click on',
       'Strict, balanced or off. Allow pop-ups only on the sites you trust.',
       MultiProvider(
         providers: [
