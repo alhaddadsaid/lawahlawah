@@ -10,6 +10,7 @@ import '../../browser/website_ad_rules.dart';
 import '../../data/remote_config.dart';
 import 'protection_screen.dart';
 import '../../data/announcements.dart';
+import '../../push/push_service.dart';
 import '../announcements/announcement_screen.dart';
 import '../../data/models/user_settings.dart';
 import '../../data/repositories/app_state.dart';
@@ -35,18 +36,27 @@ class SettingsScreen extends StatelessWidget {
             child: Text('Settings', style: RwType.headline),
           ),
           ListenableBuilder(
-            listenable: Listenable.merge([Announcements.instance, RemoteConfig.instance]),
+            listenable: Listenable.merge([Announcements.instance, RemoteConfig.instance, PushService.instance]),
             builder: (context, _) {
               final all = Announcements.instance.all;
-              if (all.isEmpty) return const SizedBox.shrink();
+              final push = PushService.instance;
+              if (all.isEmpty && !push.available) return const SizedBox.shrink();
               final unseen = Announcements.instance.unseenCount;
               return _Group('News', [
-                _NavTile(
-                  Icons.campaign_outlined,
-                  'News',
-                  unseen > 0 ? '$unseen new' : 'Announcements from Reelway',
-                  () => Navigator.of(context).push(NewsScreen.route()),
-                ),
+                if (all.isNotEmpty)
+                  _NavTile(
+                    Icons.campaign_outlined,
+                    'News',
+                    unseen > 0 ? '$unseen new' : 'Announcements from Reelway',
+                    () => Navigator.of(context).push(NewsScreen.route()),
+                  ),
+                if (push.available)
+                  SwitchListTile(
+                    title: const Text('Notifications'),
+                    subtitle: const Text('Important news from Reelway'),
+                    value: push.enabled,
+                    onChanged: (v) => push.setEnabled(v),
+                  ),
               ]);
             },
           ),

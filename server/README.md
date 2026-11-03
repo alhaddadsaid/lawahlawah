@@ -37,3 +37,17 @@ that fits how it is built. A profile here replaces the one built into the app fo
 (nginx basic auth, password file `/etc/nginx/reelbrow-admin.htpasswd`). It edits `config.json`:
 ad switches and frequency, feature switches, and the Websites list (name, link, "Show on start
 page", "Open videos in Reelway", and advanced episode settings).
+
+### Announcements and push notifications
+
+Each store has its own list in `announcements` (top level = App Store, inside `android` = Play
+Store). Entry: `{"id", "title", "body", "date", "action": {"type": "url|settings|protection", "value", "label"}}`.
+The newest entry is first. The app shows the newest one a person has not read on a full page
+when the app opens, and keeps all of them under Settings, News.
+
+"Also send as push notification" (new announcement) and the "Send a push notification" section
+send through Firebase Cloud Messaging (HTTP v1) to the topic `ios-all` or `android-all`, with
+`data`: `target` (`announcement|url|settings|protection`), `id` (announcement) or `value` (website).
+The service account key is read from `/etc/reelway/fcm-service-account.json` (outside the web
+root, owner root, group www-data, mode 640). It is never in git. Without it the push section
+says push is not set up. Setup steps for Said: `docs/PUSH_SETUP.md`.

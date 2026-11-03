@@ -7,6 +7,11 @@ declare(strict_types=1);
 
 session_start();
 const CONFIG = __DIR__ . '/../config.json';
+// Push notifications go out with the FCM HTTP v1 API. The service account key
+// lives outside the web root and is never in git (see server/README.md).
+const PUSH_KEY = '/etc/reelway/fcm-service-account.json';
+const PUSH_TOPICS = ['ios' => 'ios-all', 'android' => 'android-all'];
+const PUSH_TARGETS = ['announcement' => 'The announcement page', 'url' => 'A website in the browser', 'settings' => 'Settings', 'protection' => 'Pop-up protection'];
 const ANN_TARGETS = ['' => 'No button', 'url' => 'Open a website in the browser', 'settings' => 'Open Settings', 'protection' => 'Open Pop-up protection'];
 
 $switches = [
@@ -48,6 +53,7 @@ function store_settings(array $config, string $store): array {
 }
 $settings = store_settings($config, $store);
 $saved = false;
+$pushed = false;
 $error = null;
 
 if (empty($_SESSION['csrf'])) $_SESSION['csrf'] = bin2hex(random_bytes(16));
@@ -55,6 +61,17 @@ if (empty($_SESSION['csrf'])) $_SESSION['csrf'] = bin2hex(random_bytes(16));
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (!hash_equals($_SESSION['csrf'], (string) ($_POST['csrf'] ?? ''))) {
         $error = 'The page expired. Reload it and try again.';
+    } elseif (($_POST['do'] ?? '') === 'push') {
+        // A push for an announcement already saved.
+        $found = null;
+        foreach (($settings['announcements'] ?? []) as $a) if (is_array($a) && ($a['id'] ?? '') === (string) ($_POST['push']['announcement'] ?? '')) $found = $a;
+        $built = push_from_form($_POST['push'] ?? [], $found);
+        if (is_string($built)) $error = $built;
+        elseif (empty($_POST['push_confirm'])) $error = 'Tick the box to confirm you want to send it.';
+        else {
+            $error = push_send($store, ...$built);
+            if ($error === null) $pushed = true;
+        }
     } else {
         $next = $settings;
         foreach ($switches as $group => $items) {
@@ -132,6 +149,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $config = $next;
                 $settings = store_settings($config, $store);
                 $saved = true;
+                if (!empty($_POST['push_send']) && trim((string) ($_POST['new_ann']['title'] ?? '')) !== '') {
+                    $built = push_from_form($_POST['new_push'] ?? [], $next['announcements'][0] ?? null);
+                    if (is_string($built)) {
+                        $error = 'Saved, but no notification was sent: ' . $built;
+                    } else {
+                        $sent = push_send($store, ...$built);
+                        if ($sent === null) $pushed = true; else $error = 'Saved, but the notification was not sent: ' . $sent;
+                    }
+                }
             }
         }
     }
@@ -218,6 +244,93 @@ function announcements_from_form($rows, $new) {
     return $out;
 }
 
+
+function b64url(string $s): string { return rtrim(strtr(base64_encode($s), '+/', '-_'), '='); }
+
+/// The service account key, or null when it is not on the server yet.
+function push_key(): ?array {
+    if (!is_readable(PUSH_KEY)) return null;
+    $k = json_decode((string) file_get_contents(PUSH_KEY), true);
+    return is_array($k) && isset($k['client_email'], $k['private_key'], $k['project_id']) ? $k : null;
+}
+
+/// A signed OAuth assertion for the FCM scope (RS256).
+function push_jwt(array $key, int $now): ?string {
+    $head = b64url(json_encode(['alg' => 'RS256', 'typ' => 'JWT']));
+    $claims = b64url(json_encode([
+        'iss' => $key['client_email'], 'scope' => 'https://www.googleapis.com/auth/firebase.messaging',
+        'aud' => 'https://oauth2.googleapis.com/token', 'iat' => $now, 'exp' => $now + 3000,
+    ]));
+    $sig = '';
+    if (!openssl_sign("$head.$claims", $sig, $key['private_key'], OPENSSL_ALGO_SHA256)) return null;
+    return "$head.$claims." . b64url($sig);
+}
+
+/// The FCM v1 message for one store's topic. Data values must be strings.
+function push_message(string $store, string $title, string $body, array $data): array {
+    return ['message' => [
+        'topic' => PUSH_TOPICS[$store],
+        'notification' => ['title' => $title, 'body' => $body],
+        'data' => array_map('strval', $data),
+        'android' => ['priority' => 'high'],
+        'apns' => ['payload' => ['aps' => ['sound' => 'default']]],
+    ]];
+}
+
+function http_post(string $url, string $body, array $headers): array {
+    $ch = curl_init($url);
+    curl_setopt_array($ch, [CURLOPT_POST => true, CURLOPT_POSTFIELDS => $body, CURLOPT_HTTPHEADER => $headers,
+        CURLOPT_RETURNTRANSFER => true, CURLOPT_TIMEOUT => 20]);
+    $out = (string) curl_exec($ch);
+    $code = (int) curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+    return [$code, $out];
+}
+
+/// Sends the push; returns null on success or an error message.
+function push_send(string $store, string $title, string $body, array $data): ?string {
+    $key = push_key();
+    if ($key === null) return 'Push is not set up on the server yet (service account key missing).';
+    $jwt = push_jwt($key, time());
+    if ($jwt === null) return 'The service account key could not be used.';
+    [$code, $out] = http_post('https://oauth2.googleapis.com/token',
+        http_build_query(['grant_type' => 'urn:ietf:params:oauth:grant-type:jwt-bearer', 'assertion' => $jwt]),
+        ['Content-Type: application/x-www-form-urlencoded']);
+    $token = json_decode($out, true)['access_token'] ?? null;
+    if ($code !== 200 || !$token) return 'Google did not accept the key (' . $code . ').';
+    [$code, $out] = http_post('https://fcm.googleapis.com/v1/projects/' . rawurlencode($key['project_id']) . '/messages:send',
+        json_encode(push_message($store, $title, $body, $data)),
+        ['Authorization: Bearer ' . $token, 'Content-Type: application/json']);
+    if ($code === 200) return null;
+    $msg = json_decode($out, true)['error']['message'] ?? '';
+    return 'Sending failed (' . $code . '). ' . mb_substr($msg, 0, 200);
+}
+
+/// Title, body and data for a push from the form fields, or an error string.
+function push_from_form(array $f, ?array $announcement) {
+    $target = (string) ($f['target'] ?? 'announcement');
+    if (!isset(PUSH_TARGETS[$target])) return 'That notification target is not valid.';
+    $title = trim((string) ($f['title'] ?? ''));
+    $body = trim((string) ($f['body'] ?? ''));
+    if ($announcement) {
+        if ($title === '') $title = (string) $announcement['title'];
+        if ($body === '') $body = mb_substr((string) $announcement['body'], 0, 140);
+    }
+    if ($title === '') return 'The notification needs a title.';
+    $data = ['target' => $target];
+    if ($target === 'announcement') {
+        if (!$announcement) return 'Pick an announcement for the notification to open.';
+        $data['id'] = $announcement['id'];
+    } elseif ($target === 'url') {
+        $url = trim((string) ($f['url'] ?? ''));
+        if ($url !== '' && !preg_match('~^https?://~i', $url)) $url = "https://$url";
+        $p = parse_url($url);
+        if (!$p || empty($p['host']) || !preg_match('/^[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/', $p['host'])) return 'The notification website link is not valid.';
+        $data['value'] = $url;
+    }
+    return [mb_substr($title, 0, 65), mb_substr($body, 0, 178), $data];
+}
+
 function on(array $config, string $group, string $key): bool {
     return ($config[$group][$key] ?? true) === true;
 }
@@ -275,6 +388,7 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
   <nav class="tabs"><?php foreach ($stores as $k => $label): ?><a href="?store=<?= $k ?>" class="<?= $k === $store ? 'on' : '' ?>"><?= h($label) ?></a><?php endforeach; ?></nav>
   <p class="note">You are editing the <b><?= h($stores[$store]) ?></b> app only. Changes reach it when the app opens or comes back to the screen.</p>
   <?php if ($saved): ?><div class="msg ok">Saved for <?= h($stores[$store]) ?>.</div><?php endif; ?>
+  <?php if ($pushed): ?><div class="msg ok">Notification sent to everyone on <?= h($stores[$store]) ?> who turned notifications on.</div><?php endif; ?>
   <?php if ($error): ?><div class="msg err"><?= h($error) ?></div><?php endif; ?>
   <form method="post">
     <input type="hidden" name="csrf" value="<?= h($_SESSION['csrf']) ?>">
@@ -302,6 +416,11 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
         <?php foreach (ANN_TARGETS as $v => $label): ?><option value="<?= $v ?>"><?= h($label) ?></option><?php endforeach; ?></select></div>
       <div class="row field"><span>Website link</span><input type="text" placeholder="https:// (only for a website button)" name="new_ann[action][value]"></div>
       <div class="row field"><span>Button text</span><input type="text" maxlength="40" placeholder="Optional" name="new_ann[action][label]"></div>
+      <div class="row field"><span>Notification</span><label class="del" style="color:var(--text)"><input type="checkbox" name="push_send"> Also send as push notification</label></div>
+      <div class="row field"><span>Opens</span><select name="new_push[target]">
+        <?php foreach (PUSH_TARGETS as $v => $label): ?><option value="<?= $v ?>"><?= h($label) ?></option><?php endforeach; ?></select></div>
+      <div class="row field"><span>Website link</span><input type="text" placeholder="Only for a website target" name="new_push[url]"></div>
+      <div class="row field"><span>Short text</span><input type="text" maxlength="178" placeholder="Optional. Empty uses the start of the text above." name="new_push[body]"></div>
     </div>
     <h2>Ads</h2>
     <div class="card">
@@ -370,6 +489,29 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
     </div>
     <button type="submit">Save <?= h($stores[$store]) ?></button>
   </form>
+  <h2>Send a push notification</h2>
+  <?php $anns = array_values(array_filter($settings['announcements'] ?? [], 'is_array')); ?>
+  <?php if (push_key() === null): ?>
+    <p class="note">Push is not set up on the server yet. After the Firebase service account key is placed on the server, this section works.</p>
+  <?php elseif (!$anns): ?>
+    <p class="note">Save an announcement first.</p>
+  <?php else: ?>
+  <p class="note" style="margin:0 0 12px">Goes to everyone on <?= h($stores[$store]) ?> who turned notifications on. It cannot be taken back, so check the text.</p>
+  <form method="post" class="card">
+    <input type="hidden" name="csrf" value="<?= h($_SESSION['csrf']) ?>">
+    <input type="hidden" name="store" value="<?= h($store) ?>">
+    <input type="hidden" name="do" value="push">
+    <div class="row field"><span>Announcement</span><select name="push[announcement]">
+      <?php foreach ($anns as $a): ?><option value="<?= h((string) $a['id']) ?>"><?= h((string) $a['title']) ?></option><?php endforeach; ?></select></div>
+    <div class="row field"><span>Opens</span><select name="push[target]">
+      <?php foreach (PUSH_TARGETS as $v => $label): ?><option value="<?= $v ?>"><?= h($label) ?></option><?php endforeach; ?></select></div>
+    <div class="row field"><span>Website link</span><input type="text" placeholder="Only for a website target" name="push[url]"></div>
+    <div class="row field"><span>Title</span><input type="text" maxlength="65" placeholder="Empty uses the announcement title" name="push[title]"></div>
+    <div class="row field"><span>Short text</span><input type="text" maxlength="178" placeholder="Empty uses the start of the announcement text" name="push[body]"></div>
+    <label class="row"><div><b>Yes, send it now</b><small>To <?= h($stores[$store]) ?> only.</small></div><input type="checkbox" name="push_confirm"></label>
+    <div class="row"><button type="submit" style="margin:0">Send push notification</button></div>
+  </form>
+  <?php endif; ?>
 </div>
 </body>
 </html>

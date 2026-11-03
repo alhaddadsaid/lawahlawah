@@ -8,6 +8,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'ads/ads.dart';
 import 'data/remote_config.dart';
 import 'features/announcements/announcement_screen.dart';
+import 'push/push_service.dart';
 import 'downloads/download_manager.dart';
 
 import 'core/design/theme.dart';
@@ -35,16 +36,19 @@ Future<void> main() async {
     /* Counting launches only paces app open ads. */
   }
   PopupProtection.exemptSite = (site) => SiteProfiles.forUrl(Uri(scheme: 'https', host: site)).adsAllowedHere;
-  runApp(ReelwayApp(state: app, launches: launches));
+  runApp(ReelwayApp(state: app, launches: launches, push: true));
   // After the first frame: Google's consent form and Apple's tracking prompt
   // need the app on screen.
   WidgetsBinding.instance.addPostFrameCallback((_) => initAds());
 }
 
 class ReelwayApp extends StatefulWidget {
-  const ReelwayApp({super.key, required this.state, this.browserBuilder, this.launches = 1});
+  const ReelwayApp({super.key, required this.state, this.browserBuilder, this.launches = 1, this.push = false});
   final Widget Function(BuildContext, BrowserTab)? browserBuilder;
   final AppState state;
+
+  /// Starts push notifications (off in tests).
+  final bool push;
 
   /// How many times the app was opened on this device (app open ad pacing).
   final int launches;
@@ -63,7 +67,24 @@ class _ReelwayAppState extends State<ReelwayApp> with WidgetsBindingObserver {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
     // After the first frame, so the page can be pushed on the navigator.
-    WidgetsBinding.instance.addPostFrameCallback((_) => unawaited(_announcements.check()));
+    WidgetsBinding.instance.addPostFrameCallback((_) => unawaited(_start()));
+  }
+
+  /// A notification that opened the app wins; otherwise the newest unseen
+  /// announcement shows. Then, on a later launch, ask about notifications.
+  Future<void> _start() async {
+    Map<String, dynamic>? opened;
+    if (widget.push) {
+      opened = await PushService.instance.start((data) => unawaited(_announcements.openFromPush(data)));
+    }
+    if (opened != null) {
+      await _announcements.openFromPush(opened);
+    } else {
+      await _announcements.check();
+    }
+    if (!widget.push || !await PushService.instance.shouldAsk(widget.launches)) return;
+    final context = _navigator.currentContext;
+    if (context != null && context.mounted) await askAboutNotifications(context);
   }
 
   @override

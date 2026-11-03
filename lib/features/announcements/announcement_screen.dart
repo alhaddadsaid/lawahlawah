@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import '../../core/design/tokens.dart';
 import '../../data/announcements.dart';
 import '../../data/remote_config.dart';
+import '../../push/push_service.dart';
 import '../settings/protection_screen.dart';
 import '../shell/shell.dart';
 
@@ -161,5 +162,25 @@ class AnnouncementPresenter {
     if (context.mounted) {
       openAnnouncementTarget(context, target, data['value'] is String ? data['value'] as String : null);
     }
+  }
+}
+
+/// Our own question before the system permission prompt, so people know why.
+Future<void> askAboutNotifications(BuildContext context) async {
+  final yes = await showDialog<bool>(
+    context: context,
+    builder: (context) => AlertDialog(
+      title: const Text('Get news from Reelway?'),
+      content: const Text('We send a notification only for important news. You can turn it off any time in Settings.'),
+      actions: [
+        TextButton(onPressed: () => Navigator.pop(context, false), child: const Text('Not now')),
+        FilledButton(onPressed: () => Navigator.pop(context, true), child: const Text('Yes')),
+      ],
+    ),
+  );
+  if (yes == true) {
+    await PushService.instance.setEnabled(true);
+  } else {
+    await PushService.instance.markAsked();
   }
 }
