@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-03 12:14 UTC. Runs so far: 61. Model: claude-haiku-5-5.
+Updated 2026-11-03 15:08 UTC. Runs so far: 62. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1682 | 31 | -44641.65 | -60748.28 |
+| control | meme | 1687 | 31 | -44788.52 | -60942.66 |
 | control | macro | 34 | 44 | -314.46 | -499.07 |
-| control | all | 1716 | 31 | -44956.11 | -61247.35 |
+| control | all | 1721 | 31 | -45102.98 | -61441.73 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: Slingoor long at 0.0001056, stop 8.448e-05, target 0.00014784, opened 2026-11-03 10:39 UTC
-- control: MOVEMBER long at 0.0001995, stop 0.0001596, target 0.0002793, opened 2026-11-03 10:57 UTC
-- control: Pokémon long at 0.0002604, stop 0.00020832, target 0.00036456, opened 2026-11-03 11:43 UTC
-- control: CAPY long at 0.0006354, stop 0.00050832, target 0.00088956, opened 2026-11-03 11:52 UTC
+- control: CATO long at 6.382e-05, stop 5.1056e-05, target 8.9348e-05, opened 2026-11-03 14:59 UTC
+- control: MOGMAS long at 0.0001162, stop 9.296e-05, target 0.00016268, opened 2026-11-03 15:05 UTC
+- control: GTAMAS long at 0.0001526, stop 0.00012208, target 0.00021364, opened 2026-11-03 15:08 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-## Run ended 2026-11-03 12:14 UTC
+- 2026-11-03 15:08 UTC control: OPENED GTAMAS long at 0.0001526 (stop 0.00012208, target 0.00021364) - control: frozen v3 rules
 
