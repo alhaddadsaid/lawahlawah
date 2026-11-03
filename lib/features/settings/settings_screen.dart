@@ -54,7 +54,9 @@ class SettingsScreen extends StatelessWidget {
           _Group('Browser', [
             SwitchListTile(
               title: const Text('Block website ads'),
-              subtitle: const Text('Blocks known ad networks (EasyList)'),
+              subtitle: const Text(
+                "Blocks known ad networks (EasyList). Sites whose own ads are allowed, like YouTube, keep them.",
+              ),
               value: s.blockWebsiteAds,
               onChanged: (value) => set((s) => s.copyWith(blockWebsiteAds: value)),
             ),

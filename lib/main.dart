@@ -14,6 +14,7 @@ import 'data/repositories/app_state.dart';
 import 'features/shell/shell.dart';
 import 'browser/tab_manager.dart';
 import 'browser/popup_protection.dart';
+import 'browser/browser_user_agent.dart';
 import 'browser/site_profiles.dart';
 import 'browser/website_ad_rules.dart';
 
@@ -23,7 +24,7 @@ Future<void> main() async {
   final app = AppState();
   unawaited(RemoteConfig.instance.load());
   unawaited(DownloadManager.instance.load());
-  await Future.wait([app.load(), AdDomains.load()]);
+  await Future.wait([app.load(), AdDomains.load(), BrowserUserAgent.load()]);
   var launches = 1;
   try {
     final prefs = await SharedPreferences.getInstance();

@@ -11,6 +11,7 @@ import '../data/models/user_settings.dart';
 import '../core/security/url_policy.dart';
 import '../data/remote_config.dart';
 import '../partners/partner_registry.dart';
+import 'browser_user_agent.dart';
 import 'media_capture.dart';
 import 'popup_protection.dart';
 import 'tab_manager.dart';
@@ -248,6 +249,9 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
   InAppWebViewSettings get _webSettings => InAppWebViewSettings(
     javaScriptEnabled: true,
     domStorageEnabled: true,
+    userAgent: BrowserUserAgent.android ?? '',
+    // Android's full identity is set above; the suffix is for iOS only.
+    applicationNameForUserAgent: defaultTargetPlatform == TargetPlatform.iOS ? BrowserUserAgent.iosSuffix : '',
     sharedCookiesEnabled: true,
     contentBlockers: widget.settings.blockWebsiteAds && !_adsAllowed ? browserAdRules() : [],
     useShouldOverrideUrlLoading: true,
