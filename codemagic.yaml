@@ -47,13 +47,10 @@ workflows:
       - name: Apply signing profiles
         script: xcode-project use-profiles
       - name: Build signed IPA
-        # Release build: the browser and pop-up protection are the same as in
-        # debug; sample titles and the Narto-Drama test adapter are off.
-        # REELWAY_TEST_PARTNER turns on the partner test page (httpbin.org);
-        # drop it for an App Store release.
+        # App Store build: real AdMob ads, no test partner page, no sample
+        # titles, no Narto-Drama test adapter.
         script: |
           flutter build ipa --release --build-number=$BUILD_NUMBER \
-            --dart-define=REELWAY_TEST_PARTNER=true \
             --export-options-plist=/Users/builder/export_options.plist
     artifacts:
       - build/ios/ipa/*.ipa

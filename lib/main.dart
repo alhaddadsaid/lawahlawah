@@ -67,12 +67,14 @@ class _ReelwayAppState extends State<ReelwayApp> with WidgetsBindingObserver {
     super.dispose();
   }
 
-  /// Shows an app open ad when the user comes back (paced in AdPacing).
+  /// Shows an app open ad when the user comes back (paced in AdPacing) and
+  /// picks up switches changed on the server meanwhile.
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
     if (state == AppLifecycleState.paused) {
       _leftAt = DateTime.now();
     } else if (state == AppLifecycleState.resumed) {
+      unawaited(RemoteConfig.instance.refresh());
       final left = _leftAt;
       _leftAt = null;
       final context = _navigator.currentContext;

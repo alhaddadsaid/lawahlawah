@@ -292,12 +292,11 @@ class _PlayerScreenState extends State<PlayerScreen> {
   /// Saves the episode on screen for watching without internet.
   Widget _downloadButton(VideoPlayerController c) {
     final url = Uri.tryParse(c.dataSource);
-    if (url == null || url.scheme != 'https' || !RemoteConfig.instance.flag('features.downloads')) {
-      return const SizedBox.shrink();
-    }
+    if (url == null || url.scheme != 'https') return const SizedBox.shrink();
     return ListenableBuilder(
-      listenable: DownloadManager.instance,
+      listenable: Listenable.merge([DownloadManager.instance, RemoteConfig.instance]),
       builder: (context, _) {
+        if (!RemoteConfig.instance.flag('features.downloads')) return const SizedBox.shrink();
         final item = DownloadManager.instance.itemFor(widget.content.id, _episode.episodeNumber);
         return switch (item?.status) {
           DownloadStatus.done => const IconButton(

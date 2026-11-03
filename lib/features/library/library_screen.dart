@@ -20,7 +20,10 @@ class LibraryScreen extends StatelessWidget {
   static const _tabs = ['Movies', 'TV Series', 'Recently Added', 'Favorites', 'Continue Watching'];
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) =>
+      ListenableBuilder(listenable: RemoteConfig.instance, builder: (context, _) => _build(context));
+
+  Widget _build(BuildContext context) {
     final app = context.watch<AppState>();
     final tabs = [..._tabs, if (RemoteConfig.instance.flag('features.downloads')) 'Downloads'];
     final lists = <List<Content>>[

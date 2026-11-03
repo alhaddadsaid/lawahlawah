@@ -69,14 +69,29 @@ class RemoteConfig extends ChangeNotifier {
   }
 
   Future<void> _load(http.Client? client) async {
-    SharedPreferences? prefs;
     try {
-      prefs = await SharedPreferences.getInstance();
+      final prefs = await SharedPreferences.getInstance();
       final cached = prefs.getString(_kCache);
       if (cached != null) _data = _decode(cached) ?? const {};
     } catch (_) {
       /* No cache yet. */
     }
+    await _fetch(client);
+  }
+
+  /// Asks the server again, so a switch changed in the admin reaches an app
+  /// that stayed open (called when the app comes back to the screen).
+  Future<void> refresh({Duration minAge = const Duration(minutes: 1)}) async {
+    final last = _fetchedAt;
+    if (_fetching || (last != null && DateTime.now().difference(last) < minAge)) return;
+    await _fetch(null);
+  }
+
+  DateTime? _fetchedAt;
+  bool _fetching = false;
+
+  Future<void> _fetch(http.Client? client) async {
+    _fetching = true;
     final c = client ?? http.Client();
     try {
       for (final url in urls) {
@@ -85,7 +100,13 @@ class RemoteConfig extends ChangeNotifier {
           final data = response.statusCode == 200 ? _decode(response.body) : null;
           if (data == null) continue;
           _data = data;
-          await prefs?.setString(_kCache, response.body);
+          _fetchedAt = DateTime.now();
+          try {
+            final prefs = await SharedPreferences.getInstance();
+            await prefs.setString(_kCache, response.body);
+          } catch (_) {
+            /* Not kept, used anyway. */
+          }
           notifyListeners();
           return;
         } catch (_) {
@@ -93,6 +114,7 @@ class RemoteConfig extends ChangeNotifier {
         }
       }
     } finally {
+      _fetching = false;
       if (client == null) c.close();
     }
   }
