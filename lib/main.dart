@@ -13,6 +13,8 @@ import 'core/design/theme.dart';
 import 'data/repositories/app_state.dart';
 import 'features/shell/shell.dart';
 import 'browser/tab_manager.dart';
+import 'browser/popup_protection.dart';
+import 'browser/site_profiles.dart';
 import 'browser/website_ad_rules.dart';
 
 Future<void> main() async {
@@ -30,6 +32,7 @@ Future<void> main() async {
   } catch (_) {
     /* Counting launches only paces app open ads. */
   }
+  PopupProtection.exemptSite = (site) => SiteProfiles.forUrl(Uri(scheme: 'https', host: site)).adsAllowedHere;
   runApp(ReelwayApp(state: app, launches: launches));
   // After the first frame: Google's consent form and Apple's tracking prompt
   // need the app on screen.

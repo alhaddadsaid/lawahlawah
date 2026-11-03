@@ -61,4 +61,17 @@ void main() {
     expect(title.episodes, hasLength(25));
     expect(title.current, 3);
   });
+
+  test('ad exceptions per site and platform', () {
+    RemoteConfig.instance.debugSet({
+      'sites': {
+        'youtube.com': {'allowAds': 'all'},
+        'facebook.com': {'allowAds': 'android'},
+      },
+    });
+    expect(SiteProfiles.forUrl(Uri.parse('https://m.youtube.com/')).allowAds, AdsException.everywhere);
+    expect(SiteProfiles.forUrl(Uri.parse('https://facebook.com/')).allowAds, AdsException.android);
+    // Tests run as Android by default.
+    expect(SiteProfiles.adsAllowedSites(), ['facebook.com', 'youtube.com']);
+  });
 }

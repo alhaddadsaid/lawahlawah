@@ -1,8 +1,13 @@
+import 'package:flutter/foundation.dart';
+
 import '../data/remote_config.dart';
 import 'popup_protection.dart';
 
 /// How a website lists its episodes, so the browser uses the method that fits
 /// that site instead of guessing.
+/// Where a site's own ads and pop-ups are left alone (admin "Website's own ads").
+enum AdsException { none, android, everywhere }
+
 enum EpisodeMethod {
   /// Try every method and keep the longest list (sites without a profile).
   auto,
@@ -22,7 +27,13 @@ enum EpisodeMethod {
 /// the site; the server settings ("sites" in config.json) can add or change
 /// them without an app update. A fix in one profile never changes another site.
 class SiteProfile {
-  const SiteProfile({this.episodes = EpisodeMethod.auto, this.param, this.seriesPath, this.autoOpen = true});
+  const SiteProfile({
+    this.episodes = EpisodeMethod.auto,
+    this.param,
+    this.seriesPath,
+    this.autoOpen = true,
+    this.allowAds = AdsException.none,
+  });
 
   final EpisodeMethod episodes;
 
@@ -35,6 +46,16 @@ class SiteProfile {
 
   /// Whether this site's videos and series move into Reelway by themselves.
   final bool autoOpen;
+
+  /// Sites whose own ads and pop-ups are left as they are (no blocking).
+  final AdsException allowAds;
+
+  /// Whether the exception applies on this phone.
+  bool get adsAllowedHere => switch (allowAds) {
+    AdsException.everywhere => true,
+    AdsException.android => defaultTargetPlatform == TargetPlatform.android,
+    AdsException.none => false,
+  };
 
   static const none = SiteProfile();
 
@@ -52,6 +73,11 @@ class SiteProfile {
       param: j['param'] is String ? j['param'] as String : null,
       seriesPath: path,
       autoOpen: j['autoOpen'] is bool ? j['autoOpen'] as bool : true,
+      allowAds: switch (j['allowAds']) {
+        'all' || true => AdsException.everywhere,
+        'android' => AdsException.android,
+        _ => AdsException.none,
+      },
     );
   }
 }
@@ -76,6 +102,23 @@ abstract final class SiteProfiles {
     final remote = sites is Map ? sites[site] : null;
     if (remote is Map<String, dynamic>) return SiteProfile.fromJson(remote);
     return builtIn[site] ?? SiteProfile.none;
+  }
+
+  /// Main domains whose own ads and pop-ups are not blocked on this phone.
+  static List<String> adsAllowedSites() {
+    final out = <String>{
+      for (final e in builtIn.entries)
+        if (e.value.adsAllowedHere) e.key,
+    };
+    final sites = RemoteConfig.instance.value('sites');
+    if (sites is Map) {
+      for (final e in sites.entries) {
+        if (e.value is! Map) continue;
+        final profile = SiteProfile.fromJson(Map<String, dynamic>.from(e.value as Map));
+        profile.adsAllowedHere ? out.add('${e.key}') : out.remove('${e.key}');
+      }
+    }
+    return out.toList()..sort();
   }
 
   /// Whether [url] is a series page Reelway reads itself (see [SiteProfile.seriesPath]).

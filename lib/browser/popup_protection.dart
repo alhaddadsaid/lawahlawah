@@ -262,7 +262,14 @@ class PopupProtection {
 
   void allowSite(Uri uri) => allowedSites.add(registrableDomain(uri.host));
   void disallowSite(String domain) => allowedSites.remove(domain);
-  bool _isAllowedSite(Uri uri) => allowedSites.contains(registrableDomain(uri.host));
+  bool _isAllowedSite(Uri uri) {
+    final site = registrableDomain(uri.host);
+    return allowedSites.contains(site) || exemptSite(site);
+  }
+
+  /// Sites the server exempts from blocking (their own ads and pop-ups work
+  /// as normal); set at start-up from the site profiles.
+  static bool Function(String site) exemptSite = (_) => false;
 
   bool isBlocklisted(String host) {
     final h = host.toLowerCase();

@@ -117,6 +117,8 @@ function site_from_form(array $row, string $domain) {
         $site['seriesPath'] = $path;
     }
     if (!isset($row['autoOpen'])) $site['autoOpen'] = false;
+    $ads = (string) ($row['allowAds'] ?? '');
+    if (in_array($ads, ['android', 'all'], true)) $site['allowAds'] = $ads;
     if (isset($row['featured'])) $site['featured'] = true;
     return $site;
 }
@@ -210,6 +212,10 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
           <span class="switch"><input type="checkbox" name="sites[<?= $d ?>][featured]" <?= !empty($site['featured']) ? 'checked' : '' ?>><span></span></span></label>
         <label class="row"><div><b>Open videos in Reelway</b><small>Off keeps this site's videos in the browser.</small></div>
           <span class="switch"><input type="checkbox" name="sites[<?= $d ?>][autoOpen]" <?= ($site['autoOpen'] ?? true) ? 'checked' : '' ?>><span></span></span></label>
+        <div class="row field"><span>Website's own ads</span><select name="sites[<?= $d ?>][allowAds]">
+          <?php foreach (['' => 'Blocked (pop-up protection on)', 'android' => 'Allowed on Android only', 'all' => 'Allowed everywhere'] as $v => $label): ?>
+            <option value="<?= $v ?>" <?= (string) ($site['allowAds'] ?? '') === $v ? 'selected' : '' ?>><?= $label ?></option>
+          <?php endforeach; ?></select></div>
         <details class="row adv"><summary>Advanced</summary>
           <div class="field"><span>Episodes</span><select name="sites[<?= $d ?>][episodes]">
             <?php foreach (['auto' => 'Automatic', 'links' => 'Episode links', 'buttons' => 'Episode buttons', 'param' => 'Number in the address'] as $v => $label): ?>
