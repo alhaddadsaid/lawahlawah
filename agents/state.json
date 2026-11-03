@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -34253.92271419618,
+   "cash": -34408.24078568571,
    "open": [
     {
      "id": 1718,
@@ -23,36 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1724,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "RATIO",
-     "mint": "3JdeP1VBHgRPunmjTj1D6w6ZZePwGAwjUr2tCufwpump",
-     "side": 1,
-     "opened": 1793702017.5950835,
-     "entry": 5.562e-05,
-     "stop": 4.4496e-05,
-     "target": 7.7868e-05,
-     "size": 3595828.838547285,
-     "deadline": 1793709217.5950837,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1725,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ABDUL",
-     "mint": "94exwLui2KfAzYnbATkX8iKh4tcjMDW6YwckkSJVpump",
-     "side": 1,
-     "opened": 1793702198.267225,
-     "entry": 0.0001462,
-     "stop": 0.00011696000000000002,
-     "target": 0.00020468,
-     "size": 1367989.0560875512,
-     "deadline": 1793709398.2672253,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1726,
      "desk": "control",
      "market": "meme",
@@ -66,33 +36,50 @@
      "size": 1893939.3939393938,
      "deadline": 1793709582.6323912,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1728,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ABDUL",
+     "mint": "94exwLui2KfAzYnbATkX8iKh4tcjMDW6YwckkSJVpump",
+     "side": 1,
+     "opened": 1793703112.560507,
+     "entry": 0.0001154,
+     "stop": 9.232000000000001e-05,
+     "target": 0.00016156,
+     "size": 1733102.253032929,
+     "deadline": 1793710312.5605073,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1727,
+ "next_id": 1729,
  "runs": 61,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4QTKbj4tnPTWFUa8wtMhWkafc9vT1h2yhiZuQeQHpump": 1793702547.2355433,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793702547.2355433,
-  "seen:8ozpQfvuPzxaLiKnX6cqTDbqs8HMzqduHUe1J15mpump": 1793702731.8816388,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793702731.8816388,
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793702731.8816388,
-  "seen:3JdeP1VBHgRPunmjTj1D6w6ZZePwGAwjUr2tCufwpump": 1793702731.8816388,
-  "control:3imKAhTuUakBCGK1aXxihc13Qe5prGzQb7eWMn1gpump": 1793702731.9766722,
-  "seen:8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump": 1793702916.66906,
-  "control:3JdeP1VBHgRPunmjTj1D6w6ZZePwGAwjUr2tCufwpump": 1793702917.5950878,
-  "seen:gKF8Uhc94qJ19gSxHqpqNLfGEmUnsDjeczpcAwjpump": 1793703098.210592,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793703098.210592,
-  "seen:FxQ5GbqCBxNHDpFTpiL9RDVHiP58ar5nMkR3eMwepump": 1793703098.210592,
-  "control:94exwLui2KfAzYnbATkX8iKh4tcjMDW6YwckkSJVpump": 1793703098.2672276,
   "seen:3imKAhTuUakBCGK1aXxihc13Qe5prGzQb7eWMn1gpump": 1793703282.5352144,
   "seen:94exwLui2KfAzYnbATkX8iKh4tcjMDW6YwckkSJVpump": 1793703282.5352144,
   "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793703282.5352144,
   "seen:BECaoQaUcLE5k5C1jCGm4i9iv1YXPqvM4qh319stpump": 1793703282.5352144,
   "seen:9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": 1793703282.5352144,
-  "control:9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": 1793703282.6323943
+  "control:9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": 1793703282.6323943,
+  "seen:31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump": 1793703466.675159,
+  "seen:CXKwLHe9xwi4YEx3Z9pfg7ju6tinXnawgC8GstWCpump": 1793703466.675159,
+  "seen:8ozpQfvuPzxaLiKnX6cqTDbqs8HMzqduHUe1J15mpump": 1793703647.8666801,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793703647.8666801,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793703647.8666801,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793703647.8666801,
+  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793703647.8666801,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793703647.8666801,
+  "seen:EAjLKXkzzuX8JuDknyCpbbKh98ExjEPqRTkuP24Hpump": 1793703832.411305,
+  "seen:8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump": 1793703832.411305,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793703832.411305,
+  "control:3imKAhTuUakBCGK1aXxihc13Qe5prGzQb7eWMn1gpump": 1793703833.2059913,
+  "seen:GNvDyy6HLwDWTSoqCfLZL1gmGodg1523rvcasY8ma7LT": 1793704012.505077,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793704012.505077,
+  "control:94exwLui2KfAzYnbATkX8iKh4tcjMDW6YwckkSJVpump": 1793704012.56051
  },
  "talks": {
   "2026-10-21": 109
@@ -133,22 +120,22 @@
  ],
  "last_review": 1793633672.7736597,
  "news": {
-  "t": 1793702016.6751745,
+  "t": 1793702932.417556,
   "crypto": [
-   "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says (0h ago)",
-   "Bitcoin price threatens $77.7K support loss with recent buyers underwater (0h ago)",
+   "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says (1h ago)",
+   "Bitcoin price threatens $77.7K support loss with recent buyers underwater (1h ago)",
    "Live news: Bitcoin faces fifth weekly loss as midterm elections weigh on markets (1h ago)",
    "North Korea denies role in $6.4 billion Binance hack after FBI points to TraderTraitor (1h ago)",
    "Mercado Bitcoin pledges to cover all user losses after near $40 million hack (2h ago)",
    "Bitcoin\u2019s latest chart signal looks a lot like the ones before its big crashes (2h ago)",
    "ARK buys $17M in Coinbase, Circle shares while trimming Bullish (2h ago)",
-   "Suspected EU crypto theft estimate rises to $133M: ZachXBT (2h ago)",
+   "Suspected EU crypto theft estimate rises to $133M: ZachXBT (3h ago)",
    "BlackRock\u2019s IBIT sees biggest Bitcoin ETF outflows since June (3h ago)",
    "Here\u2019s what happened in crypto today (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Congressional Elections in 4.7h"
+   "USD Congressional Elections in 4.5h"
   ]
  },
  "spend": {
@@ -179,5 +166,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793701462.0661132
+ "last_macro_macro": 1793702747.873042
 }
