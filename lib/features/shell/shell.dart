@@ -3,6 +3,7 @@ import 'package:provider/provider.dart';
 
 import '../../core/design/tokens.dart';
 import '../../browser/tab_manager.dart';
+import '../../data/remote_config.dart';
 import '../browse/browse_screen.dart';
 import '../history/history_screen.dart';
 import '../home/home_screen.dart';
@@ -56,6 +57,9 @@ class AppShell extends StatelessWidget {
   final Widget Function(BuildContext, BrowserTab)? browserBuilder;
   static const _navigationTabs = [AppTab.home, AppTab.library, AppTab.history, AppTab.settings];
 
+  /// The admin's "Library" switch for this store (off on the Play Store).
+  static bool get libraryOn => RemoteConfig.instance.flag('features.library');
+
   static const _destinations = [
     NavigationDestination(icon: Icon(Icons.home_outlined), selectedIcon: Icon(Icons.home_rounded), label: 'Home'),
     NavigationDestination(
@@ -68,12 +72,24 @@ class AppShell extends StatelessWidget {
   ];
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context) =>
+      ListenableBuilder(listenable: RemoteConfig.instance, builder: (context, _) => _build(context));
+
+  Widget _build(BuildContext context) {
     final shell = context.watch<ShellController>();
+    final tabs = [
+      for (final t in _navigationTabs)
+        if (t != AppTab.library || libraryOn) t,
+    ];
+    final destinations = [
+      for (var i = 0; i < _navigationTabs.length; i++)
+        if (tabs.contains(_navigationTabs[i])) _destinations[i],
+    ];
+    final shown = shell.tab == AppTab.library && !libraryOn ? AppTab.home : shell.tab;
     return Scaffold(
       // Keep source exploration and scroll positions while switching tabs.
       body: IndexedStack(
-        index: shell.tab.index,
+        index: shown.index,
         children: [
           HomeScreen(browserBuilder: browserBuilder),
           const BrowseScreen(),
@@ -87,10 +103,10 @@ class AppShell extends StatelessWidget {
           border: Border(top: BorderSide(color: RwColors.divider, width: 0.5)),
         ),
         child: NavigationBar(
-          selectedIndex: shell.tab == AppTab.browse ? 0 : _navigationTabs.indexOf(shell.tab),
-          onDestinationSelected: (i) => shell.go(_navigationTabs[i]),
+          selectedIndex: shown == AppTab.browse ? 0 : tabs.indexOf(shown),
+          onDestinationSelected: (i) => shell.go(tabs[i]),
           labelBehavior: NavigationDestinationLabelBehavior.alwaysShow,
-          destinations: _destinations,
+          destinations: destinations,
         ),
       ),
     );

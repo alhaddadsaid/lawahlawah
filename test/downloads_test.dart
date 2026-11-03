@@ -78,7 +78,7 @@ https://other.example.com/s1.m4s?token=abc
       // The values are the admin's choice; each store must carry every switch.
       for (final store in [data, data['android'] as Map<String, dynamic>]) {
         expect((store['ads'] as Map)['enabled'], isA<bool>());
-        for (final key in ['downloads', 'openVideosInReelway', 'playOnTv', 'blockWebsiteAds']) {
+        for (final key in ['downloads', 'openVideosInReelway', 'playOnTv', 'blockWebsiteAds', 'library']) {
           expect((store['features'] as Map)[key], isA<bool>(), reason: key);
         }
         expect(store['sites'], isA<Map>());

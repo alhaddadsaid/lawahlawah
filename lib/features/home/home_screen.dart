@@ -717,11 +717,12 @@ class _StartPageState extends State<_StartPage> {
                   icon: const _GlyphIcon(Icons.history_rounded),
                   onTap: () => shell.go(AppTab.history),
                 ),
-                _Tile(
-                  label: 'Library',
-                  icon: const _GlyphIcon(Icons.folder_rounded),
-                  onTap: () => shell.go(AppTab.library),
-                ),
+                if (AppShell.libraryOn)
+                  _Tile(
+                    label: 'Library',
+                    icon: const _GlyphIcon(Icons.folder_rounded),
+                    onTap: () => shell.go(AppTab.library),
+                  ),
                 _Tile(
                   label: 'Settings',
                   icon: const _GlyphIcon(Icons.settings_rounded),
@@ -746,7 +747,7 @@ class _StartPageState extends State<_StartPage> {
   }
 
   List<Widget> _extras(AppState app) => [
-    if (app.continueWatching.isNotEmpty) ...[
+    if (app.continueWatching.isNotEmpty && AppShell.libraryOn) ...[
       const SectionHeader('Continue watching'),
       SizedBox(
         height: 96,

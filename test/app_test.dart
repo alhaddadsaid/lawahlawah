@@ -4,6 +4,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 import 'package:reelway/features/shell/shell.dart';
 import 'package:reelway/sources/page_source.dart';
+import 'package:reelway/data/remote_config.dart';
 import 'package:reelway/data/repositories/app_state.dart';
 import 'package:reelway/main.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -118,6 +119,25 @@ void main() {
         await t.pumpAndSettle();
         expect(find.text(expected), findsWidgets, reason: tab);
       }
+    });
+
+    testWidgets('the server can hide the Library for a store', (t) async {
+      addTearDown(() => RemoteConfig.instance.debugSet(const {}));
+      RemoteConfig.instance.debugSet({
+        'features': {'library': true},
+        'android': {
+          'features': {'library': false},
+        },
+      });
+      await pumpApp(t);
+      // Tests run as Android: the Play Store switch is off.
+      expect(find.descendant(of: find.byType(NavigationBar), matching: find.text('Library')), findsNothing);
+      expect(find.descendant(of: find.byType(NavigationBar), matching: find.text('History')), findsOneWidget);
+      RemoteConfig.instance.debugSet({
+        'features': {'library': true},
+      });
+      await t.pump();
+      expect(find.descendant(of: find.byType(NavigationBar), matching: find.text('Library')), findsOneWidget);
     });
 
     testWidgets('native source explorer imports a public episode without website ads', (t) async {

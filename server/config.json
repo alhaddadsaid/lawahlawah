@@ -12,7 +12,8 @@
         "downloads": false,
         "openVideosInReelway": true,
         "playOnTv": false,
-        "blockWebsiteAds": true
+        "blockWebsiteAds": true,
+        "library": true
     },
     "sites": {
         "narto-drama.com": {
@@ -131,8 +132,7 @@
         },
         "facebook.com": {
             "name": "Facebook",
-            "url": "https://m.facebook.com/",
-            "allowAds": "android"
+            "url": "https://m.facebook.com/"
         }
     },
     "android": {
@@ -149,13 +149,16 @@
             "downloads": false,
             "openVideosInReelway": false,
             "playOnTv": false,
-            "blockWebsiteAds": true
+            "blockWebsiteAds": true,
+            "library": false
         },
         "sites": {
             "youtube.com": {
                 "name": "YouTube",
                 "url": "https://m.youtube.com/",
-                "allowAds": "all"
+                "autoOpen": false,
+                "allowAds": "all",
+                "featured": true
             },
             "facebook.com": {
                 "name": "Facebook",

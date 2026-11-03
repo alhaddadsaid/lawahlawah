@@ -19,6 +19,7 @@ $switches = [
         'downloads' => ['Downloads', 'Download button in the player and Downloads in the Library.'],
         'openVideosInReelway' => ['Open videos in Reelway', 'Videos and series move into Reelway by themselves.'],
         'playOnTv' => ['Play on TV', 'Chromecast button in the player.'],
+        'library' => ['Library', 'Library tab with movies, series and Continue watching. Off: only browser, history and settings show.'],
         'blockWebsiteAds' => ['Block website ads', 'Blocks ad networks on websites. Wins over the setting inside the app. Sites set to "Allowed" below keep their own ads.'],
     ],
 ];
