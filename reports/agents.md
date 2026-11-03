@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-03 20:43 UTC. Runs so far: 62. Model: claude-haiku-5-5.
+Updated 2026-11-03 21:03 UTC. Runs so far: 63. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1720 | 31 | -45822.6 | -62288.66 |
+| control | meme | 1724 | 31 | -46199.34 | -62696.78 |
 | control | macro | 34 | 44 | -314.46 | -499.07 |
-| control | all | 1754 | 31 | -46137.06 | -62787.73 |
+| control | all | 1758 | 31 | -46513.8 | -63195.85 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: CAPY long at 0.0004103, stop 0.00032824, target 0.00057442, opened 2026-11-03 19:36 UTC
 - control: GOLD short at 3934.3, stop 3949.62, target 3911.32, opened 2026-11-03 20:01 UTC
-- control: CHOOBOT long at 0.0001116, stop 8.928e-05, target 0.00015624, opened 2026-11-03 20:34 UTC
-- control: STONKS long at 0.0007408, stop 0.00059264, target 0.00103712, opened 2026-11-03 20:37 UTC
+- control: CAPY long at 0.0003168, stop 0.00025344, target 0.00044352, opened 2026-11-03 20:53 UTC
+- control: STONKS long at 0.0007449, stop 0.00059592, target 0.00104286, opened 2026-11-03 20:59 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-## Run ended 2026-11-03 20:43 UTC
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
 
