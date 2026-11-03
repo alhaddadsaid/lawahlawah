@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -34459.56363252943,
+   "cash": -34391.56363252943,
    "open": [
     {
      "id": 1703,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1712,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "XDG",
-     "mint": "J1pZjNKh4BnbXBsroE4acJv3TYzCGxTn46VrZii6orEZ",
-     "side": 1,
-     "opened": 1793695780.9715555,
-     "entry": 0.0001977,
-     "stop": 0.00015816000000000002,
-     "target": 0.00027678,
-     "size": 1011633.7885685381,
-     "deadline": 1793702980.971556,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1713,
      "desk": "control",
      "market": "meme",
@@ -66,23 +51,29 @@
      "size": 2311337.108517277,
      "deadline": 1793703346.4196095,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1714,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "UNPOOLED",
+     "mint": "FxQ5GbqCBxNHDpFTpiL9RDVHiP58ar5nMkR3eMwepump",
+     "side": 1,
+     "opened": 1793696697.1817734,
+     "entry": 5.563e-05,
+     "stop": 4.4504000000000006e-05,
+     "target": 7.7882e-05,
+     "size": 3595182.455509617,
+     "deadline": 1793703897.1817737,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1714,
+ "next_id": 1715,
  "runs": 61,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:56xPUE2oXPAsGTLqEWjPTvtukB4vMPyYr5iZFPxCu4m1": 1793696496.165666,
-  "seen:9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": 1793696496.165666,
-  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793696496.165666,
-  "seen:Bmn5qFwQHxteaoM1et9FLdHsi52DmuXZyzWinih8pump": 1793696680.9149876,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793696680.9149876,
-  "control:J1pZjNKh4BnbXBsroE4acJv3TYzCGxTn46VrZii6orEZ": 1793696680.9715579,
-  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793696862.0079584,
-  "seen:FxQ5GbqCBxNHDpFTpiL9RDVHiP58ar5nMkR3eMwepump": 1793696862.0079584,
-  "seen:31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump": 1793696862.0079584,
   "seen:EAqmgSTREypN7rgsPinZzzzG8NwtqwZAvbgMhnxmpump": 1793697046.3232286,
   "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793697046.3232286,
   "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793697046.3232286,
@@ -93,7 +84,15 @@
   "seen:67RBmGztx8ciVyWr8yi6R8fwrc3EG86XejYT7mespump": 1793697230.7139351,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793697230.7139351,
   "seen:4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump": 1793697230.7139351,
-  "seen:3ompntvBjR7UtYTaR1MqJP8k8TKbUvm7mCy1Ptszpump": 1793697230.7139351
+  "seen:3ompntvBjR7UtYTaR1MqJP8k8TKbUvm7mCy1Ptszpump": 1793697230.7139351,
+  "seen:8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump": 1793697416.2999916,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793697416.2999916,
+  "seen:Bmn5qFwQHxteaoM1et9FLdHsi52DmuXZyzWinih8pump": 1793697597.121583,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793697597.121583,
+  "control:FxQ5GbqCBxNHDpFTpiL9RDVHiP58ar5nMkR3eMwepump": 1793697597.1817763,
+  "seen:FxQ5GbqCBxNHDpFTpiL9RDVHiP58ar5nMkR3eMwepump": 1793697782.1186028,
+  "seen:31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump": 1793697782.1186028,
+  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793697782.1186028
  },
  "talks": {
   "2026-10-21": 109
@@ -134,22 +133,22 @@
  ],
  "last_review": 1793633672.7736597,
  "news": {
-  "t": 1793695596.172185,
+  "t": 1793696516.3061333,
   "crypto": [
+   "Mercado Bitcoin pledges to cover all user losses after near $40 million hack (0h ago)",
+   "Bitcoin\u2019s latest chart pattern looks a lot like the ones before its big crashes (0h ago)",
    "ARK buys $17M in Coinbase, Circle shares while trimming Bullish (0h ago)",
-   "Suspected EU crypto theft estimate rises to $133M: ZachXBT (0h ago)",
+   "Suspected EU crypto theft estimate rises to $133M: ZachXBT (1h ago)",
    "BlackRock\u2019s IBIT sees biggest Bitcoin ETF outflows since June (1h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "Binance has spent half its SAFU bitcoin, about $580 million worth, data shows (3h ago)",
-   "Bitcoin miner Cipher posts $31 million profit as AI pivot begins (3h ago)",
-   "Arbitrum\u2019s council moved $30 million of Binance hack funds without the hacker\u2019s key (3h ago)",
-   "Crypto.com to withdraw Hong Kong consumer app citing regulatory changes (4h ago)",
-   "Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote (4h ago)",
-   "Australia lifts rates to 18-year high as AI boom, energy costs fuel inflation (5h ago)"
+   "Bitcoin miner Cipher posts $31 million profit as AI pivot begins (4h ago)",
+   "Arbitrum\u2019s council moved $30 million of Binance hack funds without the hacker\u2019s key (4h ago)",
+   "Crypto.com to withdraw Hong Kong consumer app citing regulatory changes (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Congressional Elections in 6.5h"
+   "USD Congressional Elections in 6.2h"
   ]
  },
  "spend": {
