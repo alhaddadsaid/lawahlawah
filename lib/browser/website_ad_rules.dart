@@ -72,22 +72,19 @@ ContentBlocker _block(String host) => ContentBlocker(
 /// request, so it keeps the short list. Ads served by a site itself (including
 /// YouTube video ads) are not removed by these rules.
 ///
-/// Sites with an ads exception (admin "Website's own ads") come last: on
-/// their pages every earlier rule is ignored, so they work as in any browser.
+/// Sites with an ads exception (admin "Website's own ads") get no rules at
+/// all: the tab drops them while it shows such a site (see [adsAllowedOn]).
+/// A trailing "ignore previous rules" entry is not used, because Android's
+/// plugin stops at the first blocking rule and never reaches it.
 List<ContentBlocker> browserAdRules() {
   final full = defaultTargetPlatform == TargetPlatform.iOS && AdDomains.count > 0;
-  final rules = full
+  return full
       ? AdDomains._rules ??= [
           for (final host in {...adNetworkHosts, ...AdDomains._all}) _block(host),
         ]
       : [for (final host in adNetworkHosts) _block(host)];
-  final allowed = SiteProfiles.adsAllowedSites();
-  if (allowed.isEmpty) return rules;
-  return [
-    ...rules,
-    ContentBlocker(
-      trigger: ContentBlockerTrigger(urlFilter: '.*', ifDomain: [for (final d in allowed) '*$d']),
-      action: ContentBlockerAction(type: ContentBlockerActionType.IGNORE_PREVIOUS_RULES),
-    ),
-  ];
 }
+
+/// Whether the page at [url] is on a site whose own ads are left alone here.
+bool adsAllowedOn(Uri? url) =>
+    url != null && (url.scheme == 'https' || url.scheme == 'http') && SiteProfiles.forUrl(url).adsAllowedHere;

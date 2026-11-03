@@ -1,6 +1,8 @@
+import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:reelway/browser/media_capture.dart';
 import 'package:reelway/browser/site_profiles.dart';
+import 'package:reelway/browser/website_ad_rules.dart';
 import 'package:reelway/data/remote_config.dart';
 
 void main() {
@@ -73,5 +75,13 @@ void main() {
     expect(SiteProfiles.forUrl(Uri.parse('https://facebook.com/')).allowAds, AdsException.android);
     // Tests run as Android by default.
     expect(SiteProfiles.adsAllowedSites(), ['facebook.com', 'youtube.com']);
+    // A tab on these sites runs without ad rules; other pages keep them.
+    expect(adsAllowedOn(Uri.parse('https://m.youtube.com/watch?v=x')), isTrue);
+    expect(adsAllowedOn(Uri.parse('https://www.facebook.com/')), isTrue);
+    expect(adsAllowedOn(Uri.parse('https://example.com/')), isFalse);
+    expect(adsAllowedOn(Uri.parse('about:blank')), isFalse);
+    expect(adsAllowedOn(null), isFalse);
+    // The rules themselves never carry an exception entry.
+    expect(browserAdRules().every((r) => r.action.type == ContentBlockerActionType.BLOCK), isTrue);
   });
 }

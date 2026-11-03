@@ -9,6 +9,7 @@ import 'package:url_launcher/url_launcher.dart';
 import '../core/design/tokens.dart';
 import '../data/models/user_settings.dart';
 import '../core/security/url_policy.dart';
+import '../data/remote_config.dart';
 import '../partners/partner_registry.dart';
 import 'media_capture.dart';
 import 'popup_protection.dart';
@@ -145,6 +146,34 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
   @override
   bool get wantKeepAlive => true;
 
+  /// Whether the page shown is on a site whose own ads are allowed, so the
+  /// tab runs without ad rules (admin "Website's own ads").
+  late bool _adsAllowed = adsAllowedOn(widget.tab.url);
+
+  @override
+  void initState() {
+    super.initState();
+    RemoteConfig.instance.addListener(_onConfig);
+  }
+
+  @override
+  void dispose() {
+    RemoteConfig.instance.removeListener(_onConfig);
+    super.dispose();
+  }
+
+  /// The server's site list changed: apply it to the page already open.
+  void _onConfig() => unawaited(_matchAdRules(widget.tab.url));
+
+  /// Drops the ad rules on sites whose own ads are allowed and puts them back
+  /// elsewhere. Only touches the webview when that changes.
+  Future<void> _matchAdRules(Uri? url) async {
+    final allowed = adsAllowedOn(url);
+    if (allowed == _adsAllowed) return;
+    _adsAllowed = allowed;
+    await _refreshSettings();
+  }
+
   @override
   void didUpdateWidget(covariant BrowserView oldWidget) {
     super.didUpdateWidget(oldWidget);
@@ -220,7 +249,7 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
     javaScriptEnabled: true,
     domStorageEnabled: true,
     sharedCookiesEnabled: true,
-    contentBlockers: widget.settings.blockWebsiteAds ? browserAdRules() : [],
+    contentBlockers: widget.settings.blockWebsiteAds && !_adsAllowed ? browserAdRules() : [],
     useShouldOverrideUrlLoading: true,
     useOnDownloadStart: true,
     // Android needs these so window.open reaches onCreateWindow, where the
@@ -354,6 +383,7 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
       case DecisionAction.allow:
       case DecisionAction.allowInNewTab:
         if (a.isForMainFrame && gesture) widget.commands._userNavAt = DateTime.now();
+        if (a.isForMainFrame) await _matchAdRules(target);
         return NavigationActionPolicy.ALLOW;
       case DecisionAction.block:
         widget.tabs.update(widget.tab.id, (t) => t.blockedCount++);
@@ -483,10 +513,15 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
           ),
       ]),
       onWebViewCreated: (c) => widget.commands._c = c,
-      onLoadStart: (c, url) => widget.tabs.update(tab.id, (t) {
-        t.isLoading = true;
-        if (url != null) t.url = url.uriValue;
-      }),
+      onLoadStart: (c, url) {
+        widget.tabs.update(tab.id, (t) {
+          t.isLoading = true;
+          if (url != null) t.url = url.uriValue;
+        });
+        // Back, forward and reloads do not always pass through
+        // shouldOverrideUrlLoading (Android).
+        if (url != null) unawaited(_matchAdRules(url.uriValue));
+      },
       onLoadStop: (c, url) async {
         widget.commands._userNavAt = null;
         widget.tabs.update(tab.id, (t) => t.isLoading = false);
