@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -36678.61360815481,
+   "cash": -36663.60688169741,
    "open": [
     {
      "id": 1775,
@@ -23,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 1780,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "STONKS",
-     "mint": "22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K",
-     "side": 1,
-     "opened": 1793739598.989905,
-     "entry": 0.0007449,
-     "stop": 0.00059592,
-     "target": 0.0010428599999999996,
-     "size": 268492.41508927377,
-     "deadline": 1793746798.9899054,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1781,
      "desk": "control",
      "market": "meme",
@@ -53,41 +38,49 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1784,
+     "id": 1785,
      "desk": "control",
      "market": "meme",
-     "symbol": "Sexbot",
-     "mint": "6Na6huTtPekKeeJpmtpq8mw2ZVAC2qCaRBj8KeB4pump",
+     "symbol": "STONKS",
+     "mint": "22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K",
      "side": 1,
-     "opened": 1793741437.456201,
-     "entry": 0.0001338,
-     "stop": 0.00010704,
-     "target": 0.00018732,
-     "size": 1494768.3109118086,
-     "deadline": 1793748637.4562013,
+     "opened": 1793742172.015813,
+     "entry": 0.0009921,
+     "stop": 0.0007936800000000002,
+     "target": 0.00138894,
+     "size": 201592.58139300472,
+     "deadline": 1793749372.0158134,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1785,
+ "next_id": 1786,
  "runs": 63,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7135AgJW8Qqh8sDveTGdVZhjSAjeBsbw8tpeVb38pump": 1793741784.1830964,
-  "seen:6Na6huTtPekKeeJpmtpq8mw2ZVAC2qCaRBj8KeB4pump": 1793741968.579981,
-  "seen:55dv1zV9SgtDsGbt84GV6TfNRBevKjcxCMdqDMo7pump": 1793741968.579981,
-  "seen:AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M": 1793741968.579981,
-  "seen:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793741968.579981,
-  "seen:2nUaDdA3TvSFVx2EENX3WxWc2AYiEKo7xJU2jzYrpump": 1793741968.579981,
-  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793742153.2878428,
   "seen:7B85zY7xFXypiEZ2W4YsPQ8AP9V5TYV8Na9aoB16pump": 1793742337.3790772,
   "seen:GYG9ezuhhUzq4p68K4a2phhHW9qZqTXaPimgp8NWpump": 1793742337.3790772,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793742337.3790772,
   "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793742337.3790772,
   "control:6Na6huTtPekKeeJpmtpq8mw2ZVAC2qCaRBj8KeB4pump": 1793742337.456206,
   "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793742522.1780455,
-  "seen:21sLaTZeDqZJ41ss14MZ7SmrvWgdH2x3xRgV7ZS2B5FP": 1793742522.1780455
+  "seen:21sLaTZeDqZJ41ss14MZ7SmrvWgdH2x3xRgV7ZS2B5FP": 1793742522.1780455,
+  "seen:HiMSSzzwkZkrXJ4PGVJRdtfLaANeAztjjcgk5Dxe7Lwx": 1793742707.1137059,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793742707.1137059,
+  "seen:7135AgJW8Qqh8sDveTGdVZhjSAjeBsbw8tpeVb38pump": 1793742707.1137059,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793742707.1137059,
+  "seen:2YCEEKVHiGo66AATVAt9cv3LJ2RrPsLYDPahLHXSpump": 1793742891.9702752,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793742891.9702752,
+  "seen:55dv1zV9SgtDsGbt84GV6TfNRBevKjcxCMdqDMo7pump": 1793742891.9702752,
+  "seen:6Na6huTtPekKeeJpmtpq8mw2ZVAC2qCaRBj8KeB4pump": 1793742891.9702752,
+  "seen:AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M": 1793742891.9702752,
+  "seen:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793742891.9702752,
+  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793743071.9471905,
+  "seen:GyGtUAKA4vzAB5w7wMwcPm6xFpdnEHLPa77gTD7ipump": 1793743071.9471905,
+  "seen:6gnB2H2hbTVvKUWCzNuqjWY8Rod6EVBmfHi7YxZpTWa7": 1793743071.9471905,
+  "seen:GrGCEeQU7FGA9Xky9ogpinxoMfexUbMTL27zhJ82pump": 1793743071.9471905,
+  "control:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793743072.0158162
  },
  "talks": {
   "2026-10-21": 109
@@ -128,18 +121,18 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793741068.5884407,
+  "t": 1793741991.9788654,
   "crypto": [
    "CFTC clears stock perpetual futures for trading on US exchanges (1h ago)",
    "US midterms: Prediction markets favor Democrats in key crypto races (2h ago)",
-   "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties (4h ago)",
+   "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties (5h ago)",
    "South Korea's president says country needs a \u2018cybersecurity czar\u2019 following $6.3 billion Binance hack (5h ago)",
    "Wall Street killed Bitcoin\u2019s wild rallies: 10x\u2019s Markus Thielen (5h ago)",
    "Binance traces $6.3B hack to fake job interviews, compromised AI tool (5h ago)",
    "Amazon, Tesla and SpaceX join OKX\u2013ICE tokenized stock objections as deadline looms (5h ago)",
    "Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool (5h ago)",
    "Bitcoin price defends $76K lows as analysts see stocks pricing in \u2018political gridlock\u2019 (6h ago)",
-   "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street (6h ago)"
+   "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street (7h ago)"
   ],
   "macro": [],
   "calendar": []
