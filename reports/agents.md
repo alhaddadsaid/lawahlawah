@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-03 00:54 UTC. Runs so far: 60. Model: claude-haiku-5-5.
+Updated 2026-11-03 01:04 UTC. Runs so far: 60. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1614 | 31 | -43116.62 | -58564.9 |
+| control | meme | 1615 | 31 | -43048.62 | -58508.9 |
 | control | macro | 33 | 45 | -205.92 | -386.53 |
-| control | all | 1647 | 31 | -43322.54 | -58951.43 |
+| control | all | 1648 | 31 | -43254.54 | -58895.43 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: GBPUSD short at 1.34111, stop 1.34261, target 1.33886, opened 2026-11-02 20:00 UTC
 - control: WALTER long at 0.0001965, stop 0.0001572, target 0.0002751, opened 2026-11-02 23:40 UTC
 - control: CHAD long at 0.0001688, stop 0.00013504, target 0.00023632, opened 2026-11-03 00:08 UTC
-- control: CAPY long at 0.0004453, stop 0.00035624, target 0.00062342, opened 2026-11-03 00:20 UTC
 - control: ANSEM long at 0.0001237, stop 9.896e-05, target 0.00017318, opened 2026-11-03 00:29 UTC
 
 ## Team
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order ᑓହꚡई REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED CAPY (target) P&L $68.0 normal, $56.0 pessimistic
 
