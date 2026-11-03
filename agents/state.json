@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -35833.83110084217,
+   "cash": -35966.95353517239,
    "open": [
     {
      "id": 1760,
@@ -51,36 +51,6 @@
      "size": 3153579.31251971,
      "deadline": 1793739258.9839132,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1770,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MOVEMBER",
-     "mint": "DTVcrMAEMwpSSBvu6W7P3BLZsRhFZb6bSzARFDqobfCT",
-     "side": 1,
-     "opened": 1793732608.667001,
-     "entry": 0.0001003,
-     "stop": 8.024e-05,
-     "target": 0.00014042,
-     "size": 1994017.9461615155,
-     "deadline": 1793739808.6670012,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1772,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DCYC",
-     "mint": "EJPWoVgMrkZrqZAtRkGvA4jppbo15rMF2hhe1EPzpump",
-     "side": 1,
-     "opened": 1793733143.775967,
-     "entry": 5.878e-05,
-     "stop": 4.7024e-05,
-     "target": 8.2292e-05,
-     "size": 3402517.8632187815,
-     "deadline": 1793740343.7759671,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,27 +59,26 @@
  "runs": 62,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793733319.1042309,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793733319.1042309,
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793733507.5123765,
-  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793733507.5123765,
-  "seen:DTVcrMAEMwpSSBvu6W7P3BLZsRhFZb6bSzARFDqobfCT": 1793733507.5123765,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793733507.5123765,
-  "seen:RUVvE6zz46X3i2X5xarAqPG1bWetDQPV3FP8uH9pump": 1793733507.5123765,
-  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793733507.5123765,
-  "control:DTVcrMAEMwpSSBvu6W7P3BLZsRhFZb6bSzARFDqobfCT": 1793733508.6670048,
-  "seen:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793733680.2094984,
-  "seen:31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump": 1793733680.2094984,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793733680.2094984,
-  "seen:DSdASbB1U4L1V83FG9VV6xH7DKZKKuXmAA2Pr9LRvRYK": 1793733868.7192416,
-  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793733868.7192416,
-  "seen:G1sPgsNMMfEY8ebZUd6ioQyUmyo8Z93FUqG3xfQdpump": 1793733868.7192416,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793733868.7192416,
-  "seen:4RX9YLfHe6i7fiwCv9SeNTXZfFUqoGhemvMaFrfFpump": 1793733868.7192416,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793733868.7192416,
-  "control:G1sPgsNMMfEY8ebZUd6ioQyUmyo8Z93FUqG3xfQdpump": 1793733868.8734024,
   "seen:EJPWoVgMrkZrqZAtRkGvA4jppbo15rMF2hhe1EPzpump": 1793734043.678139,
-  "control:EJPWoVgMrkZrqZAtRkGvA4jppbo15rMF2hhe1EPzpump": 1793734043.7759707
+  "control:EJPWoVgMrkZrqZAtRkGvA4jppbo15rMF2hhe1EPzpump": 1793734043.7759707,
+  "seen:GgH6TV8SV9u1rZBr6o4urNKByZDEoyRiEQxAuwdPpump": 1793734226.3367496,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793734226.3367496,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793734226.3367496,
+  "seen:2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat": 1793734226.3367496,
+  "seen:AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M": 1793734406.7129204,
+  "seen:8QtbrC9d3BezyCwzBFUQbNsWJGte7ckrZ7HWcn81pump": 1793734406.7129204,
+  "seen:D23WqKUrKzoyqseaoW215puR8ZZo2ADPLJiaLN8apump": 1793734406.7129204,
+  "seen:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793734591.4134057,
+  "seen:Dfid5ax62osiWxSQS6gpZwRKtZAw32ktxuTPG47Upump": 1793734591.4134057,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793734591.4134057,
+  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793734591.4134057,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793734591.4134057,
+  "seen:J9298rzfgWxxTGSTmqsTiPQ1ZfdfADgV6UuFYKMFpump": 1793734772.4536479,
+  "seen:DTVcrMAEMwpSSBvu6W7P3BLZsRhFZb6bSzARFDqobfCT": 1793734772.4536479,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793734772.4536479,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793734772.4536479,
+  "seen:4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump": 1793734772.4536479,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793734772.4536479
  },
  "talks": {
   "2026-10-21": 109
@@ -150,18 +119,18 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793732607.5215275,
+  "t": 1793733691.4228754,
   "crypto": [
    "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties (2h ago)",
-   "South Korea's president says country needs a \u2018cybersecurity czar\u2019 following $6.3 billion Binance hack (2h ago)",
-   "Wall Street killed Bitcoin\u2019s wild rallies: 10x\u2019s Markus Thielen (2h ago)",
-   "Binance traces $6.3B hack to fake job interviews, compromised AI tool (2h ago)",
+   "South Korea's president says country needs a \u2018cybersecurity czar\u2019 following $6.3 billion Binance hack (3h ago)",
+   "Wall Street killed Bitcoin\u2019s wild rallies: 10x\u2019s Markus Thielen (3h ago)",
+   "Binance traces $6.3B hack to fake job interviews, compromised AI tool (3h ago)",
    "Amazon, Tesla and SpaceX join OKX\u2013ICE tokenized stock objections as deadline looms (3h ago)",
    "Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool (3h ago)",
-   "Bitcoin price defends $76K lows as analysts see stocks pricing in \u2018political gridlock\u2019 (3h ago)",
+   "Bitcoin price defends $76K lows as analysts see stocks pricing in \u2018political gridlock\u2019 (4h ago)",
    "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street (4h ago)",
    "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months' (4h ago)",
-   "South Korea asks its biggest banks how a major crypto hack would hit them (4h ago)"
+   "South Korea asks its biggest banks how a major crypto hack would hit them (5h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -194,5 +163,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793732058.5832958
+ "last_macro_macro": 1793733326.3461492
 }
