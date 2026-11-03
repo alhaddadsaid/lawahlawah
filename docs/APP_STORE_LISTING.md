@@ -1,41 +1,41 @@
 # App Store listing (draft for Said's approval)
 
-Written in the same low-key style as Video Lite: short, plain, about what the
-browser does for the user. No mention of series, reels, movies or downloads.
+Follows Video Lite: a video browser listing with a short list of real features.
 
 ## Fields
 
+Follows Video Lite (Photo & Video, "Browse, Play & Cast", short bullet list of
+real features). Only features the app really has are listed.
+
 - **App name** (30 max): Reelway Browser
-- **Subtitle** (30 max): Browser without pop-ups
-- **Category**: Utilities (secondary: Productivity)
+- **Subtitle** (30 max): Browse & Play, No Pop-ups
+- **Category**: Photo & Video (secondary: Utilities)
 - **Price**: Free
-- **Keywords** (100 max, no spaces): browser,popup,web,private,safe,clean,fast,search,tabs,bookmarks,history,redirect,links,surf
+- **Keywords** (100 max, no spaces): browser,video,player,popup,web,private,clean,fast,search,tabs,bookmarks,history,redirect,watch
 - **Support URL**: https://reelbrow.space
 - **Marketing URL**: https://reelbrow.space
 - **Privacy Policy URL**: https://reelbrow.space/privacy
 - **Copyright**: 2026 Reelway
-- **Age rating**: answer "Unrestricted Web Access: Yes" (every browser must), all other questions "None". Apple then sets the rating itself.
+- **Content Rights**: No, it does not contain, show, or access third-party content
+- **Age rating**: Unrestricted Web Access yes, ads yes, all else none. Apple set 16+ (same as Video Lite).
 
 ## Promotional text (170 max)
 
-Tap a link and land where you meant to go. Reelway Browser stops pop-ups and surprise redirects, so you decide what opens.
+Watch videos from your favorite websites in a clean player. Reelway Browser stops pop-ups and surprise redirects, so you decide what opens.
 
 ## Description
 
-Reelway Browser is a simple web browser for people who are tired of pages that open things they never asked for.
+Reelway Browser is a simple browser for video websites, without the pop-ups.
 
-Tap a link and you land where you meant to go. Pop-ups, surprise redirects and new windows that jump in front of the page are stopped, and you see a small note each time. If you want that page anyway, one tap opens it.
-
-You stay in control
-- Choose Balanced, Strict or Off
-- Allow pop-ups on the sites you trust
-- See what was stopped during your visit
-
-Easy browsing
-- Your favorite sites on the start page, one tap away
-- Search or type any address
-- Tabs, bookmarks and history
-- Add your own websites to the start page
+• Watch videos in a clean, native player
+• Choose your playback speed
+• Pick up where you left off
+• Play the next video automatically
+• Pop-ups and surprise redirects are stopped, so you decide what opens
+• Allow pop-ups on the sites you trust
+• Your favorite sites on the start page
+• Tabs, bookmarks and history
+• Dark mode
 
 Reelway Browser does not host any content. It opens the websites you choose, like any other browser.
 
@@ -47,9 +47,11 @@ First version.
 
 ## App Review notes
 
-Reelway Browser is a general web browser. It does not host, sell or provide any content; users visit the websites they choose.
+Reelway Browser is a general web browser for video websites. It does not host, sell or provide any content; users visit the websites they choose.
 
-The main feature is pop-up protection: windows and redirects that the user did not tap are stopped, and the user can allow them per site or turn protection off in Settings > Pop-up protection.
+When a page plays a video, the user can watch it in Reelway's own player (playback speed, resume, next video). This can be turned off in Settings > Open videos in Reelway.
+
+Pop-up protection: windows and redirects that the user did not tap are stopped, and the user can allow them per site or turn protection off in Settings > Pop-up protection.
 
 The app shows Google AdMob ads (banner, interstitial, app open). Consent is collected with Google's UMP message, and App Tracking Transparency is asked before personalized ads.
 

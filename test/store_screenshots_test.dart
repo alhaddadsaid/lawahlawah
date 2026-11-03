@@ -3,6 +3,7 @@
 //   flutter test test/store_screenshots_test.dart --dart-define=STORE_SHOTS=true
 //
 // Skipped otherwise. Images are written to build/store_screenshots/.
+// Add --dart-define=STORE_IPAD=true for 13-inch iPad shots (build/store_screenshots/ipad/).
 import 'dart:io';
 import 'dart:ui' as ui;
 
@@ -20,6 +21,14 @@ import 'package:reelway/main.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 const _run = bool.fromEnvironment('STORE_SHOTS');
+
+/// 13-inch iPad shots (2048 x 2732) instead of iPhone ones.
+const _ipad = bool.fromEnvironment('STORE_IPAD');
+
+/// Logical size of the app screen inside the frame.
+const _screen = _ipad ? Size(820, 1180) : Size(390, 844);
+const _insets = _ipad ? EdgeInsets.only(top: 24, bottom: 20) : EdgeInsets.only(top: 47, bottom: 34);
+const _k = _ipad ? 1.9 : 1.0;
 
 Future<void> _loadFonts() async {
   final inter = FontLoader('Inter');
@@ -59,15 +68,15 @@ class _Frame extends StatelessWidget {
       ),
       child: Column(
         children: [
-          const SizedBox(height: 70),
+          const SizedBox(height: 70 * _k),
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 34),
+            padding: const EdgeInsets.symmetric(horizontal: 34 * _k),
             child: Text(
               title,
               textAlign: TextAlign.center,
               style: const TextStyle(
                 fontFamily: 'Inter',
-                fontSize: 34,
+                fontSize: 34 * _k,
                 height: 1.12,
                 fontWeight: FontWeight.w800,
                 color: Color(0xFFF6EFE8),
@@ -75,19 +84,19 @@ class _Frame extends StatelessWidget {
               ),
             ),
           ),
-          const SizedBox(height: 12),
+          const SizedBox(height: 12 * _k),
           Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 40),
+            padding: const EdgeInsets.symmetric(horizontal: 40 * _k),
             child: Text(
               subtitle,
               textAlign: TextAlign.center,
-              style: const TextStyle(fontFamily: 'Inter', fontSize: 17, height: 1.35, color: Color(0xFFB3A79C)),
+              style: const TextStyle(fontFamily: 'Inter', fontSize: 17 * _k, height: 1.35, color: Color(0xFFB3A79C)),
             ),
           ),
-          const SizedBox(height: 34),
+          const SizedBox(height: 34 * _k),
           Expanded(
             child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 34),
+              padding: const EdgeInsets.symmetric(horizontal: 34 * _k),
               child: DecoratedBox(
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(44),
@@ -100,14 +109,14 @@ class _Frame extends StatelessWidget {
                     fit: BoxFit.cover,
                     alignment: Alignment.topCenter,
                     child: SizedBox(
-                      width: 390,
-                      height: 844,
+                      width: _screen.width,
+                      height: _screen.height,
                       child: MediaQuery(
                         data: const MediaQueryData(
-                          size: Size(390, 844),
+                          size: _screen,
                           devicePixelRatio: 3,
-                          padding: EdgeInsets.only(top: 47, bottom: 34),
-                          viewPadding: EdgeInsets.only(top: 47, bottom: 34),
+                          padding: _insets,
+                          viewPadding: _insets,
                         ),
                         child: child,
                       ),
@@ -172,9 +181,9 @@ class _ExamplePage extends StatelessWidget {
 Future<void> _shot(WidgetTester tester, GlobalKey key, String name) async {
   await tester.runAsync(() async {
     final boundary = key.currentContext!.findRenderObject()! as RenderRepaintBoundary;
-    final image = await boundary.toImage(pixelRatio: 3);
+    final image = await boundary.toImage(pixelRatio: _ipad ? 2 : 3);
     final data = await image.toByteData(format: ui.ImageByteFormat.png);
-    final file = File('build/store_screenshots/$name.png');
+    final file = File('build/store_screenshots/${_ipad ? 'ipad/' : ''}$name.png');
     await file.parent.create(recursive: true);
     await file.writeAsBytes(data!.buffer.asUint8List());
   });
@@ -185,8 +194,8 @@ void main() {
 
   testWidgets('store screenshots', (tester) async {
     await tester.runAsync(_loadFonts);
-    tester.view.physicalSize = const Size(1290, 2796);
-    tester.view.devicePixelRatio = 3;
+    tester.view.physicalSize = _ipad ? const Size(2048, 2732) : const Size(1290, 2796);
+    tester.view.devicePixelRatio = _ipad ? 2 : 3;
     addTearDown(tester.view.reset);
 
     Future<GlobalKey> show(String title, String subtitle, Widget app) async {
