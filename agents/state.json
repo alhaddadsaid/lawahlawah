@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -35206.241979616454,
+   "cash": -35261.429733337696,
    "open": [
     {
      "id": 1747,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1748,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "BINGUS",
-     "mint": "2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat",
-     "side": 1,
-     "opened": 1793720710.4070337,
-     "entry": 0.0002956,
-     "stop": 0.00023647999999999999,
-     "target": 0.00041383999999999995,
-     "size": 676589.9864682003,
-     "deadline": 1793727910.407034,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1749,
      "desk": "control",
      "market": "meme",
@@ -51,23 +36,29 @@
      "size": 3142183.8177533383,
      "deadline": 1793728090.3073335,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1750,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "BINGUS",
+     "mint": "2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat",
+     "side": 1,
+     "opened": 1793722720.3364742,
+     "entry": 0.0002417,
+     "stop": 0.00019336,
+     "target": 0.00033838,
+     "size": 827472.0728175425,
+     "deadline": 1793729920.3364744,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1750,
+ "next_id": 1751,
  "runs": 62,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7ZpkEYyiQQvVGtuAkUjwY58X7YwS3Vyh3wSstRHspump": 1793722341.5680985,
-  "seen:4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump": 1793722341.5680985,
-  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793722525.5664837,
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793722525.5664837,
-  "seen:2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat": 1793722525.5664837,
-  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793722525.5664837,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793722525.5664837,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793722525.5664837,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793722706.1446288,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793722892.8696244,
   "seen:BZGN4nDkGJehed9LyzxExHNxfbyxyg9mSsNDdqjhpump": 1793722892.8696244,
   "seen:A5SaghDqyQwD9dJ5hfG48JirFVN6cBssJcE4CG8ppump": 1793723072.7936664,
@@ -75,7 +66,22 @@
   "seen:Ea17SQuUXSV7wDv4kqbFPSjrVr5WmDXBFLJvKR1Mpump": 1793723072.7936664,
   "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793723072.7936664,
   "seen:DTVcrMAEMwpSSBvu6W7P3BLZsRhFZb6bSzARFDqobfCT": 1793723072.7936664,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793723072.7936664
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793723072.7936664,
+  "seen:A6Buts7gbW1reieer6KL81hjLqmfHyjtigymAnAWpump": 1793723254.6669343,
+  "seen:DRAMjSWR7HRfJKjRkvQWYL2bcaejaVhuxEcjf4pAY4Cw": 1793723254.6669343,
+  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793723254.6669343,
+  "seen:Farisr1LVuzWrHBhLmcRwjdAaZAstTnXtRfifFbwLEEK": 1793723439.760948,
+  "seen:2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat": 1793723439.760948,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793723439.760948,
+  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793723439.760948,
+  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793723439.760948,
+  "seen:4yxnt3xAdyBFFbzMWJy9sjGEoiBNkjwdSQZ8ZyULpump": 1793723439.760948,
+  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1793723439.760948,
+  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793723439.760948,
+  "seen:2KwPc4FxdNm92DKo6Zy8vUF9sGYsXuKjykXEhXkdpump": 1793723620.2088027,
+  "seen:7zx4fJRoHpYMe9V9bYPWzGHe15yowfBDnsgdU6nKpump": 1793723620.2088027,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793723620.2088027,
+  "control:2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat": 1793723620.336478
  },
  "talks": {
   "2026-10-21": 109
@@ -116,22 +122,22 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793721625.5753872,
+  "t": 1793722539.769695,
   "crypto": [
-   "Bitcoin price defends $76K lows as analysts see stocks pricing in \u2018political gridlock\u2019 (0h ago)",
+   "Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool (0h ago)",
+   "Bitcoin price defends $76K lows as analysts see stocks pricing in \u2018political gridlock\u2019 (1h ago)",
    "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street (1h ago)",
    "Binance's $6.3 billion hack began with a fake job interview, exchange says (1h ago)",
-   "South Korea asks its biggest banks how a major crypto hack would hit them (1h ago)",
+   "South Korea asks its biggest banks how a major crypto hack would hit them (2h ago)",
    "CZ warns of more AI-driven hacks following Binance\u2019s historic $6.4 billion heist (2h ago)",
    "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia (2h ago)",
    "What\u2019s at stake for crypto as the US votes in the 2026 midterms? (2h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
-   "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December (3h ago)",
-   "Binance net outflows reach $5.3 billion after record hack. CEO says recovery underway (3h ago)"
+   "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Congressional Elections was 0.7h"
+   "USD Congressional Elections was 1.0h"
   ]
  },
  "spend": {
