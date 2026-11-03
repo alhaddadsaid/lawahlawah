@@ -71,20 +71,25 @@ Made by `test/store_screenshots_test.dart` with `--dart-define=STORE_PLAY=true`
 - **App icon**: 512 x 512 PNG, from the iOS 1024 icon.
 - **Feature graphic**: 1024 x 500 PNG.
 
-## Content rating (IARC questionnaire)
+## App content declarations (filled 3 Nov 2026)
 
-Category "All other app types". Violence, sexuality, language, drugs, gambling:
-No. User interaction: "Unrestricted internet access: Yes" (a browser). Shares
-location: No. Digital purchases: No. Expected result: PEGI 3 / Everyone, with
-the "Unrestricted Internet" note, like Puer.
-
-## Data safety (AdMob)
-
-- Collected and shared with third parties: Device or other IDs (advertising ID),
-  App interactions, Crash logs, Diagnostics, Approximate location.
-- Purposes: Advertising or marketing, Analytics, Fraud prevention.
-- Encrypted in transit: Yes. Users can request deletion: No (no accounts).
-- Not collected: name, email, contacts, photos, files, web browsing history.
+- Privacy policy: https://reelbrow.space/privacy
+- Ads: yes, the app contains ads
+- Sign-in details: no part of the app is restricted (no accounts)
+- Advertising ID: used, for Analytics, Advertising or marketing, Fraud prevention
+- Government apps: no. Financial features: none. Health apps: none.
+- Target audience: 18 and over only (keeps the app out of the Families rules)
+- Content rating (IARC, "All other app types", contact info@reelbrow.space):
+  no ratings-relevant content in the package, no user-to-user sharing, no
+  featured catalogue of content, no age-restricted products, no location
+  sharing, no digital purchases, no cash rewards, IS a web browser, not news
+  or education. Result: Everyone / PEGI 3 / All ages with the interactive
+  element "Unrestricted Internet" (same as Puer).
+- Data safety: collects and shares (AdMob) Approximate location, App
+  interactions, Device or other IDs (Analytics, Advertising or marketing,
+  Fraud prevention) and Crash logs, Diagnostics (Analytics, Fraud
+  prevention). Not ephemeral, required, encrypted in transit, no accounts,
+  no outside log-in. Pages opened in the browser are exempt (open web).
 
 ## Ads policy notes for Android
 
