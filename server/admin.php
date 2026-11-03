@@ -18,6 +18,7 @@ $switches = [
     'features' => [
         'downloads' => ['Downloads', 'Download button in the player and Downloads in the Library.'],
         'openVideosInReelway' => ['Open videos in Reelway', 'Videos and series move into Reelway by themselves.'],
+        'backgroundPlay' => ['Play in background (iPhone)', 'YouTube audio keeps playing when the app is left or the screen locks. iPhone only: stays off on the Play Store.'],
         'playOnTv' => ['Play on TV', 'Chromecast button in the player.'],
         'library' => ['Library', 'Library tab with movies, series and Continue watching. Off: only browser, history and settings show.'],
         'blockWebsiteAds' => ['Block website ads', 'Blocks ad networks on websites. Wins over the setting inside the app. Sites set to "Allowed" below keep their own ads.'],
@@ -57,6 +58,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $next = $settings;
         foreach ($switches as $group => $items) {
             foreach ($items as $key => $_) {
+                if ($store === 'android' && $key === 'backgroundPlay') { $next[$group][$key] = false; continue; }
                 $next[$group][$key] = isset($_POST[$group][$key]);
             }
         }
@@ -248,6 +250,9 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
     <h2>Features</h2>
     <div class="card">
       <?php foreach ($switches['features'] as $key => [$label, $hint]): ?>
+        <?php if ($store === 'android' && $key === 'backgroundPlay'): ?>
+        <div class="row"><div><b><?= h($label) ?></b><small>Not available on the Play Store (Google Play policy). Always off.</small></div></div>
+        <?php continue; endif; ?>
         <label class="row"><div><b><?= h($label) ?></b><small><?= h($hint) ?></small></div>
           <span class="switch"><input type="checkbox" name="features[<?= h($key) ?>]" <?= on($settings, 'features', $key) ? 'checked' : '' ?>><span></span></span></label>
       <?php endforeach; ?>

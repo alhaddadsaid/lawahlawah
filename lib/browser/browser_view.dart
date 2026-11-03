@@ -11,6 +11,7 @@ import '../data/models/user_settings.dart';
 import '../core/security/url_policy.dart';
 import '../data/remote_config.dart';
 import '../partners/partner_registry.dart';
+import 'background_play.dart';
 import 'browser_user_agent.dart';
 import 'media_capture.dart';
 import 'popup_protection.dart';
@@ -167,7 +168,52 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
   }
 
   /// The server's settings changed: apply them to the page already open.
-  void _onConfig() => unawaited(_matchAdRules(widget.tab.url));
+  void _onConfig() {
+    unawaited(_matchAdRules(widget.tab.url));
+    unawaited(_matchBackgroundPlay(widget.tab.url));
+  }
+
+  final _backgroundPlayScript = UserScript(
+    source: BackgroundPlay.hookJs,
+    injectionTime: UserScriptInjectionTime.AT_DOCUMENT_START,
+    forMainFrameOnly: true,
+  );
+
+  /// Whether the hook script is registered in this webview.
+  late bool _bgScriptOn = BackgroundPlay.shouldRun(
+    platform: defaultTargetPlatform,
+    url: Uri.parse('https://youtube.com'),
+    switchOn: BackgroundPlay.switchOn,
+  );
+
+  /// iPhone only; follows the server switch live. While it is on, the YouTube
+  /// keep-playing script and the playback audio session are active; when it
+  /// goes off both are undone. Does nothing on Android.
+  Future<void> _matchBackgroundPlay(Uri? url) async {
+    if (defaultTargetPlatform != TargetPlatform.iOS) return;
+    final c = widget.commands._c;
+    if (c == null) return;
+    final switchOn = BackgroundPlay.switchOn;
+    try {
+      if (switchOn != _bgScriptOn) {
+        _bgScriptOn = switchOn;
+        if (switchOn) {
+          await c.addUserScript(userScript: _backgroundPlayScript);
+        } else {
+          await c.removeUserScript(userScript: _backgroundPlayScript);
+        }
+      }
+      if (BackgroundPlay.activeFor(url)) {
+        await BackgroundPlay.setAudioSession(true);
+        await c.evaluateJavascript(source: BackgroundPlay.hookJs);
+      } else {
+        await c.evaluateJavascript(source: BackgroundPlay.offJs);
+        await BackgroundPlay.setAudioSession(false);
+      }
+    } catch (_) {
+      /* A tab may have closed meanwhile. */
+    }
+  }
 
   /// Drops the ad rules on sites whose own ads are allowed (or when blocking
   /// is off) and puts them back elsewhere. Only touches the webview when that
@@ -515,6 +561,7 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
           forMainFrameOnly: false,
           contentWorld: BrowserCommands._world,
         ),
+        if (_bgScriptOn) _backgroundPlayScript,
         if (partnerScript != null)
           UserScript(
             source: partnerScript,
@@ -530,7 +577,10 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
         });
         // Back, forward and reloads do not always pass through
         // shouldOverrideUrlLoading (Android).
-        if (url != null) unawaited(_matchAdRules(url.uriValue));
+        if (url != null) {
+          unawaited(_matchAdRules(url.uriValue));
+          unawaited(_matchBackgroundPlay(url.uriValue));
+        }
       },
       onLoadStop: (c, url) async {
         widget.commands._userNavAt = null;

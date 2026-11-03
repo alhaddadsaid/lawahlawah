@@ -14,6 +14,7 @@ the app uses it on its next start. No app update is needed.
 | `features.downloads` | Download button and Downloads in the Library |
 | `features.openVideosInReelway` | Videos and series move into Reelway by themselves |
 | `features.playOnTv` | The Chromecast button in the player |
+| `features.backgroundPlay` | iPhone only: YouTube audio keeps playing in the background. Default off; ignored on Android |
 
 Missing keys use the app's defaults. Keep the JSON valid: a broken file is ignored and the
 app keeps the last good copy.

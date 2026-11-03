@@ -1,19 +1,23 @@
 {
     "ads": {
-        "enabled": false,
+        "enabled": true,
         "banner": false,
         "interstitial": true,
         "appOpen": true,
         "interstitialEveryEpisodes": 3,
         "interstitialCooldownSeconds": 30,
-        "appOpenCooldownMinutes": 5
+        "appOpenCooldownMinutes": 5,
+        "units": {
+            "appOpen": "ca-app-pub-7280343659534747/9151517464"
+        }
     },
     "features": {
         "downloads": false,
         "openVideosInReelway": true,
         "playOnTv": false,
         "blockWebsiteAds": true,
-        "library": true
+        "library": true,
+        "backgroundPlay": false
     },
     "sites": {
         "narto-drama.com": {
@@ -107,8 +111,7 @@
         },
         "youtube.com": {
             "name": "YouTube",
-            "url": "https://m.youtube.com/",
-            "allowAds": "all"
+            "url": "https://m.youtube.com/"
         },
         "rumble.com": {
             "name": "Rumble",
@@ -150,7 +153,8 @@
             "openVideosInReelway": false,
             "playOnTv": false,
             "blockWebsiteAds": true,
-            "library": false
+            "library": false,
+            "backgroundPlay": false
         },
         "sites": {
             "youtube.com": {
