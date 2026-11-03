@@ -7,6 +7,7 @@ declare(strict_types=1);
 
 session_start();
 const CONFIG = __DIR__ . '/../config.json';
+const ANN_TARGETS = ['' => 'No button', 'url' => 'Open a website in the browser', 'settings' => 'Open Settings', 'protection' => 'Open Pop-up protection'];
 
 $switches = [
     'ads' => [
@@ -84,6 +85,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $ids[$format] = $id;
             }
             if ($ids) $next['ads'][$group] = $ids; else unset($next['ads'][$group]);
+        }
+        if ($error === null) {
+            $list = announcements_from_form($_POST['ann'] ?? [], $_POST['new_ann'] ?? []);
+            if (is_string($list)) $error = $list; else $next['announcements'] = $list;
         }
         if ($error === null) {
             // Websites: edits to existing rows, removals, and one new site.
@@ -165,6 +170,54 @@ function site_from_form(array $row, string $domain) {
     return $site;
 }
 
+/// One action from the form: ['type' => ..., 'value' => ..., 'label' => ...], null for none, or an error string.
+function action_from_form(array $row) {
+    $type = (string) ($row['type'] ?? '');
+    if ($type === '') return null;
+    if (!isset(ANN_TARGETS[$type])) return 'That button action is not valid.';
+    $action = ['type' => $type];
+    if ($type === 'url') {
+        $url = trim((string) ($row['value'] ?? ''));
+        if ($url !== '' && !preg_match('~^https?://~i', $url)) $url = "https://$url";
+        $parts = parse_url($url);
+        if (!$parts || empty($parts['host']) || !preg_match('/^[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/', $parts['host'])) return 'The button website link is not valid.';
+        $action['value'] = $url;
+    }
+    $label = trim((string) ($row['label'] ?? ''));
+    if ($label !== '') $action['label'] = mb_substr($label, 0, 40);
+    return $action;
+}
+
+/// The announcements list from the form: existing rows (in order, minus removed), then a new one on top.
+function announcements_from_form($rows, $new) {
+    $out = [];
+    $make = function (array $row, string $id) {
+        $title = trim((string) ($row['title'] ?? ''));
+        $body = trim((string) ($row['body'] ?? ''));
+        if ($title === '') return 'Every announcement needs a title.';
+        if (mb_strlen($title) > 80) return 'A title can be at most 80 characters.';
+        if (mb_strlen($body) > 3000) return 'A text can be at most 3000 characters.';
+        $a = ['id' => $id, 'title' => $title, 'body' => $body, 'date' => preg_match('/^\d{4}-\d{2}-\d{2}$/', (string) ($row['date'] ?? '')) ? $row['date'] : date('Y-m-d')];
+        $action = action_from_form(is_array($row['action'] ?? null) ? $row['action'] : []);
+        if (is_string($action)) return $action;
+        if ($action) $a['action'] = $action;
+        return $a;
+    };
+    $newTitle = trim((string) ($new['title'] ?? ''));
+    if ($newTitle !== '') {
+        $a = $make($new, 'n' . time() . bin2hex(random_bytes(2)));
+        if (is_string($a)) return $a;
+        $out[] = $a;
+    }
+    if (is_array($rows)) foreach ($rows as $id => $row) {
+        if (!is_array($row) || isset($row['delete']) || !preg_match('/^[A-Za-z0-9_-]{1,40}$/', (string) $id)) continue;
+        $a = $make($row, (string) $id);
+        if (is_string($a)) return $a;
+        $out[] = $a;
+    }
+    return $out;
+}
+
 function on(array $config, string $group, string $key): bool {
     return ($config[$group][$key] ?? true) === true;
 }
@@ -205,6 +258,7 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
   .site { margin-bottom: 12px; }
   .field { display: flex; align-items: center; gap: 12px; }
   .field span { width: 120px; flex: none; color: var(--muted); font-size: 14px; }
+  .field textarea { flex: 1; min-width: 0; padding: 9px 10px; border-radius: 10px; border: 1px solid var(--line); background: #0d0d12; color: var(--text); font-size: 15px; font-family: inherit; }
   .field input[type=text], .field input[type=url], .field select { flex: 1; min-width: 0; padding: 9px 10px; border-radius: 10px; border: 1px solid var(--line); background: #0d0d12; color: var(--text); font-size: 15px; }
   .del { color: #ff8a8e; font-size: 14px; display: flex; gap: 6px; align-items: center; }
   .adv { display: block; }
@@ -225,6 +279,30 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
   <form method="post">
     <input type="hidden" name="csrf" value="<?= h($_SESSION['csrf']) ?>">
     <input type="hidden" name="store" value="<?= h($store) ?>">
+    <h2>Announcements</h2>
+    <p class="note" style="margin:0 0 12px">People see the newest one they have not read when they open the app, and can read all of them later under Settings, News. The newest is on top. Sending a push notification is a separate step below, after you save.</p>
+    <?php foreach (($settings['announcements'] ?? []) as $a): if (!is_array($a) || !isset($a['id'])) continue; $i = h((string) $a['id']); $act = is_array($a['action'] ?? null) ? $a['action'] : []; ?>
+      <div class="card site">
+        <div class="row"><div><b><?= h((string) ($a['title'] ?? '')) ?></b><small><?= h((string) ($a['date'] ?? '')) ?></small></div>
+          <label class="del"><input type="checkbox" name="ann[<?= $i ?>][delete]"> Remove</label></div>
+        <input type="hidden" name="ann[<?= $i ?>][date]" value="<?= h((string) ($a['date'] ?? '')) ?>">
+        <div class="row field"><span>Title</span><input type="text" maxlength="80" name="ann[<?= $i ?>][title]" value="<?= h((string) ($a['title'] ?? '')) ?>"></div>
+        <div class="row field"><span>Text</span><textarea rows="5" name="ann[<?= $i ?>][body]"><?= h((string) ($a['body'] ?? '')) ?></textarea></div>
+        <div class="row field"><span>Button</span><select name="ann[<?= $i ?>][action][type]">
+          <?php foreach (ANN_TARGETS as $v => $label): ?><option value="<?= $v ?>" <?= ($act['type'] ?? '') === $v ? 'selected' : '' ?>><?= h($label) ?></option><?php endforeach; ?></select></div>
+        <div class="row field"><span>Website link</span><input type="text" placeholder="https:// (only for a website button)" name="ann[<?= $i ?>][action][value]" value="<?= h((string) ($act['value'] ?? '')) ?>"></div>
+        <div class="row field"><span>Button text</span><input type="text" maxlength="40" placeholder="Optional" name="ann[<?= $i ?>][action][label]" value="<?= h((string) ($act['label'] ?? '')) ?>"></div>
+      </div>
+    <?php endforeach; ?>
+    <div class="card site">
+      <div class="row"><div><b>New announcement</b><small>Leave the title empty to add nothing. Saved on top of the list.</small></div></div>
+      <div class="row field"><span>Title</span><input type="text" maxlength="80" name="new_ann[title]"></div>
+      <div class="row field"><span>Text</span><textarea rows="5" name="new_ann[body]"></textarea></div>
+      <div class="row field"><span>Button</span><select name="new_ann[action][type]">
+        <?php foreach (ANN_TARGETS as $v => $label): ?><option value="<?= $v ?>"><?= h($label) ?></option><?php endforeach; ?></select></div>
+      <div class="row field"><span>Website link</span><input type="text" placeholder="https:// (only for a website button)" name="new_ann[action][value]"></div>
+      <div class="row field"><span>Button text</span><input type="text" maxlength="40" placeholder="Optional" name="new_ann[action][label]"></div>
+    </div>
     <h2>Ads</h2>
     <div class="card">
       <?php foreach ($switches['ads'] as $key => [$label, $hint]): ?>

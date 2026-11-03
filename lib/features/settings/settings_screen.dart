@@ -9,6 +9,8 @@ import '../../browser/browser_data.dart';
 import '../../browser/website_ad_rules.dart';
 import '../../data/remote_config.dart';
 import 'protection_screen.dart';
+import '../../data/announcements.dart';
+import '../announcements/announcement_screen.dart';
 import '../../data/models/user_settings.dart';
 import '../../data/repositories/app_state.dart';
 import 'legal_screen.dart';
@@ -31,6 +33,22 @@ class SettingsScreen extends StatelessWidget {
           Padding(
             padding: const EdgeInsets.fromLTRB(RwSpace.gutter, RwSpace.md, RwSpace.gutter, RwSpace.xs),
             child: Text('Settings', style: RwType.headline),
+          ),
+          ListenableBuilder(
+            listenable: Listenable.merge([Announcements.instance, RemoteConfig.instance]),
+            builder: (context, _) {
+              final all = Announcements.instance.all;
+              if (all.isEmpty) return const SizedBox.shrink();
+              final unseen = Announcements.instance.unseenCount;
+              return _Group('News', [
+                _NavTile(
+                  Icons.campaign_outlined,
+                  'News',
+                  unseen > 0 ? '$unseen new' : 'Announcements from Reelway',
+                  () => Navigator.of(context).push(NewsScreen.route()),
+                ),
+              ]);
+            },
           ),
           _Group('General', [
             SwitchListTile(

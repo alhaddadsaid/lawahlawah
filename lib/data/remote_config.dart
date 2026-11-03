@@ -49,6 +49,13 @@ class RemoteConfig extends ChangeNotifier {
   /// The raw value at [path] (a map, list, string, number or null).
   Object? value(String path) => _lookup(path);
 
+  /// The value of a top-level key for this store only, with no fallback to
+  /// the other store's block (announcements are set apart per store).
+  Object? storeOnly(String key) {
+    final store = _storeSettings;
+    return store != null ? store[key] : _data[key];
+  }
+
   int number(String path, int fallback) {
     final v = _lookup(path);
     return v is num ? v.toInt() : fallback;

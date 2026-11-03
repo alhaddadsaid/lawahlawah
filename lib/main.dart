@@ -7,6 +7,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 import 'ads/ads.dart';
 import 'data/remote_config.dart';
+import 'features/announcements/announcement_screen.dart';
 import 'downloads/download_manager.dart';
 
 import 'core/design/theme.dart';
@@ -55,11 +56,14 @@ class ReelwayApp extends StatefulWidget {
 class _ReelwayAppState extends State<ReelwayApp> with WidgetsBindingObserver {
   final _navigator = GlobalKey<NavigatorState>();
   DateTime? _leftAt;
+  late final _announcements = AnnouncementPresenter(_navigator);
 
   @override
   void initState() {
     super.initState();
     WidgetsBinding.instance.addObserver(this);
+    // After the first frame, so the page can be pushed on the navigator.
+    WidgetsBinding.instance.addPostFrameCallback((_) => unawaited(_announcements.check()));
   }
 
   @override
@@ -75,7 +79,7 @@ class _ReelwayAppState extends State<ReelwayApp> with WidgetsBindingObserver {
     if (state == AppLifecycleState.paused) {
       _leftAt = DateTime.now();
     } else if (state == AppLifecycleState.resumed) {
-      unawaited(RemoteConfig.instance.refresh());
+      unawaited(RemoteConfig.instance.refresh().then((_) => _announcements.check()));
       final left = _leftAt;
       _leftAt = null;
       final context = _navigator.currentContext;
