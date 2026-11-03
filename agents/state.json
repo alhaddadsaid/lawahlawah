@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -34891.41460263278,
+   "cash": -34955.97078240806,
    "open": [
     {
      "id": 1726,
@@ -66,21 +66,6 @@
      "size": 314762.35442241107,
      "deadline": 1793713963.2556055,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1739,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "OMBRO",
-     "mint": "8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump",
-     "side": 1,
-     "opened": 1793707126.2172008,
-     "entry": 0.0001157,
-     "stop": 9.256e-05,
-     "target": 0.00016198,
-     "size": 1728608.470181504,
-     "deadline": 1793714326.217201,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,27 +74,24 @@
  "runs": 61,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793707482.938519,
-  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793707482.938519,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793707482.938519,
-  "seen:7gCND4jhgJ8Mq1XxNhRdercinXh7fcCDPjA9uEQLk3f2": 1793707482.938519,
-  "seen:8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump": 1793707482.938519,
-  "control:8ozpQfvuPzxaLiKnX6cqTDbqs8HMzqduHUe1J15mpump": 1793707484.0526493,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793707663.2018225,
-  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793707663.2018225,
-  "control:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793707663.2556086,
-  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793707845.793241,
-  "seen:31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump": 1793708026.0555968,
-  "seen:CXKwLHe9xwi4YEx3Z9pfg7ju6tinXnawgC8GstWCpump": 1793708026.0555968,
-  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793708026.0555968,
-  "control:8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump": 1793708026.2172046,
   "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793708205.2291708,
   "seen:Hxqh7Fxsz11pyqDRdEkBgP8vP44BPLPnQDrxzPYZpump": 1793708205.2291708,
   "seen:8ozpQfvuPzxaLiKnX6cqTDbqs8HMzqduHUe1J15mpump": 1793708205.2291708,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793708205.2291708,
   "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793708205.2291708,
   "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1793708205.2291708,
-  "seen:R4yzhxkkBC9fLBiRRNLbeZH1nnQZCbu7fJhmxWDpump": 1793708205.2291708
+  "seen:R4yzhxkkBC9fLBiRRNLbeZH1nnQZCbu7fJhmxWDpump": 1793708205.2291708,
+  "seen:BxBv9wrdWrKpBD8jSHru675yQRueKyVDFDj8wug2pump": 1793708389.3040278,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793708389.3040278,
+  "seen:8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump": 1793708389.3040278,
+  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793708570.6850471,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793708570.6850471,
+  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793708762.8976886,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793708762.8976886,
+  "seen:9KfRuRFeGZwoWtJQVuvKQzG1az7ruvZhsNWeUQSQpump": 1793708937.1100965,
+  "seen:31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump": 1793708937.1100965,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793708937.1100965,
+  "seen:7gCND4jhgJ8Mq1XxNhRdercinXh7fcCDPjA9uEQLk3f2": 1793708937.1100965
  },
  "talks": {
   "2026-10-21": 109
@@ -150,22 +132,22 @@
  ],
  "last_review": 1793633672.7736597,
  "news": {
-  "t": 1793706582.9449055,
+  "t": 1793707489.3101282,
   "crypto": [
-   "Binance\u2019s net inflows turn positive at $2.3B as withdrawals expand (0h ago)",
-   "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto (0h ago)",
+   "ETHGas wants to bring Wall Street to public Ethereum by selling advance block reservations (0h ago)",
+   "Binance\u2019s net inflows turn positive at $2.3B as withdrawals expand (1h ago)",
+   "Bitcoin steadies after dip to $76,300 as ETF outflows and midterm elections weigh on crypto (1h ago)",
    "Liquid\u2019s bitcoin IOUs are fully backed again after a $320 million exploit (1h ago)",
    "France postpones 2027 budget vote, crypto exit-tax proposals scrapped (1h ago)",
    "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says (2h ago)",
    "Bitcoin price threatens $77.7K support loss with recent buyers underwater (2h ago)",
    "Live news: Bitcoin faces fifth weekly loss as midterm elections weigh on markets (2h ago)",
    "North Korea denies role in $6.4 billion Binance hack after FBI points to TraderTraitor (2h ago)",
-   "Mercado Bitcoin pledges to cover all user losses after near $40 million hack (3h ago)",
-   "Bitcoin\u2019s latest chart signal looks a lot like the ones before its big crashes (3h ago)"
+   "Mercado Bitcoin pledges to cover all user losses after near $40 million hack (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Congressional Elections in 3.4h"
+   "USD Congressional Elections in 3.2h"
   ]
  },
  "spend": {
@@ -196,5 +178,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793706582.9448285
+ "last_macro_macro": 1793707862.9043279
 }
