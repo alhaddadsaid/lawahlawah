@@ -57,9 +57,13 @@ workflows:
       flutter: stable
       xcode: latest
       cocoapods: default
+      # The app and its notification extension (picture in push notifications).
       ios_signing:
-        distribution_type: app_store
-        bundle_identifier: com.reelway.reelway
+        provisioning_profiles:
+          - reelway_app_store_push
+          - reelway_ext_app_store
+        certificates:
+          - Reelway Distribution
     scripts:
       - script: flutter pub get
       - script: dart format --output=none --set-exit-if-changed -l 120 lib test
@@ -97,8 +101,11 @@ workflows:
       xcode: latest
       cocoapods: default
       ios_signing:
-        distribution_type: app_store
-        bundle_identifier: com.reelway.reelbro
+        provisioning_profiles:
+          - reelbro_app_store_push
+          - reelbro_ext_app_store
+        certificates:
+          - Reelway Distribution
     scripts:
       - script: flutter pub get
       - script: dart format --output=none --set-exit-if-changed -l 120 lib test
@@ -107,6 +114,8 @@ workflows:
       - name: Use the ReelBro app identity
         script: |
           sed -i '' 's/PRODUCT_BUNDLE_IDENTIFIER = com.reelway.reelway;/PRODUCT_BUNDLE_IDENTIFIER = com.reelway.reelbro;/' \
+            ios/Runner.xcodeproj/project.pbxproj
+          sed -i '' 's/PRODUCT_BUNDLE_IDENTIFIER = com.reelway.reelway.NotificationService;/PRODUCT_BUNDLE_IDENTIFIER = com.reelway.reelbro.NotificationService;/' \
             ios/Runner.xcodeproj/project.pbxproj
           /usr/libexec/PlistBuddy -c "Set :CFBundleDisplayName ReelBro" ios/Runner/Info.plist
       - name: Apply signing profiles
@@ -143,8 +152,11 @@ workflows:
       xcode: latest
       cocoapods: default
       ios_signing:
-        distribution_type: ad_hoc
-        bundle_identifier: com.reelway.reelbro
+        provisioning_profiles:
+          - reelbro_ad_hoc_push
+          - reelbro_ext_ad_hoc
+        certificates:
+          - Reelway Distribution
     scripts:
       - script: flutter pub get
       - script: dart format --output=none --set-exit-if-changed -l 120 lib test
@@ -153,6 +165,8 @@ workflows:
       - name: Use the ReelBro app identity
         script: |
           sed -i '' 's/PRODUCT_BUNDLE_IDENTIFIER = com.reelway.reelway;/PRODUCT_BUNDLE_IDENTIFIER = com.reelway.reelbro;/' \
+            ios/Runner.xcodeproj/project.pbxproj
+          sed -i '' 's/PRODUCT_BUNDLE_IDENTIFIER = com.reelway.reelway.NotificationService;/PRODUCT_BUNDLE_IDENTIFIER = com.reelway.reelbro.NotificationService;/' \
             ios/Runner.xcodeproj/project.pbxproj
           /usr/libexec/PlistBuddy -c "Set :CFBundleDisplayName ReelBro" ios/Runner/Info.plist
       - name: Apply signing profiles
