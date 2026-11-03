@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-03 15:17 UTC. Runs so far: 62. Model: claude-haiku-5-5.
+Updated 2026-11-03 15:22 UTC. Runs so far: 62. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,15 +9,14 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1688 | 31 | -44869.95 | -61032.26 |
+| control | meme | 1689 | 31 | -44801.95 | -60976.26 |
 | control | macro | 34 | 44 | -314.46 | -499.07 |
-| control | all | 1722 | 31 | -45184.41 | -61531.33 |
+| control | all | 1723 | 31 | -45116.41 | -61475.33 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: CATO long at 6.382e-05, stop 5.1056e-05, target 8.9348e-05, opened 2026-11-03 14:59 UTC
 - control: MOGMAS long at 0.0001162, stop 9.296e-05, target 0.00016268, opened 2026-11-03 15:05 UTC
 - control: CAPY long at 0.0002466, stop 0.00019728, target 0.00034524, opened 2026-11-03 15:14 UTC
 
@@ -32,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order CATO REJECTED by guardrails: CATO already open
+- control: CLOSED CATO (target) P&L $68.0 normal, $56.0 pessimistic
 
