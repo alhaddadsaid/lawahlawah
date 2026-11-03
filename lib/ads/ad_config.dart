@@ -1,5 +1,7 @@
 import 'package:flutter/foundation.dart';
 
+import '../data/remote_config.dart';
+
 /// AdMob settings and ad pacing rules.
 ///
 /// Each platform has its own AdMob app, so a problem with one store listing
@@ -34,6 +36,32 @@ abstract final class AdConfig {
   static const iosAppOpen = testAds
       ? 'ca-app-pub-3940256099942544/5575463023'
       : 'ca-app-pub-7280343659534747/9151517464';
+
+  /// The ad units to try for [format] ("banner", "interstitial", "appOpen"),
+  /// main first, then the backup tried when the main one has no ad. The
+  /// server sets both per store (ads.units and ads.backupUnits); without them
+  /// the built-in IDs above are used. Test builds always use Google's test
+  /// units, whatever the server says.
+  static List<String> units(String format) {
+    final ios = defaultTargetPlatform == TargetPlatform.iOS;
+    final builtIn = switch (format) {
+      'banner' => ios ? iosBanner : androidBanner,
+      'interstitial' => ios ? iosInterstitial : androidInterstitial,
+      _ => ios ? iosAppOpen : androidAppOpen,
+    };
+    if (testAds) return [builtIn];
+    String? server(String group) {
+      final id = RemoteConfig.instance.value('ads.$group.$format');
+      return id is String && isUnitId(id.trim()) ? id.trim() : null;
+    }
+
+    final main = server('units') ?? builtIn;
+    final backup = server('backupUnits');
+    return [main, if (backup != null && backup != main) backup];
+  }
+
+  /// An AdMob ad unit ID, like `ca-app-pub-1234567890123456/1234567890`.
+  static bool isUnitId(String id) => RegExp(r'^ca-app-pub-\d{10,20}/\d{6,12}$').hasMatch(id);
 
   // -------------------------------------------------------------- pacing
 

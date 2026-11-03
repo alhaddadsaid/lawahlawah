@@ -22,6 +22,11 @@ $switches = [
         'blockWebsiteAds' => ['Block website ads', 'Blocks ad networks on websites. Wins over the setting inside the app. Sites set to "Allowed" below keep their own ads.'],
     ],
 ];
+$units = [
+    'banner' => 'Banner',
+    'interstitial' => 'Between episodes (interstitial)',
+    'appOpen' => 'When the app opens',
+];
 $numbers = [
     'interstitialEveryEpisodes' => ['Ad every how many episodes', 1, 20, 3],
     'interstitialCooldownSeconds' => ['Minimum seconds between full-screen ads', 0, 900, 90],
@@ -61,6 +66,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 break;
             }
             $next['ads'][$key] = $value;
+        }
+        // Ad unit IDs: main and backup per format. Empty means the app's own.
+        foreach (['units', 'backupUnits'] as $group) {
+            if ($error !== null) break;
+            $ids = [];
+            foreach ($units as $format => $label) {
+                $id = trim((string) ($_POST['ads'][$group][$format] ?? ''));
+                if ($id === '') continue;
+                if (!preg_match('~^ca-app-pub-\d{10,20}/\d{6,12}$~', $id)) {
+                    $error = "$label: an ad unit ID looks like ca-app-pub-1234567890123456/1234567890 (with a slash, not ~).";
+                    break;
+                }
+                $ids[$format] = $id;
+            }
+            if ($ids) $next['ads'][$group] = $ids; else unset($next['ads'][$group]);
         }
         if ($error === null) {
             // Websites: edits to existing rows, removals, and one new site.
@@ -214,6 +234,14 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
       <?php foreach ($numbers as $key => [$label, $min, $max, $default]): ?>
         <label class="row"><div><b><?= h($label) ?></b><small><?= $min ?> to <?= $max ?></small></div>
           <input type="number" name="ads[<?= h($key) ?>]" min="<?= $min ?>" max="<?= $max ?>" value="<?= (int) ($settings['ads'][$key] ?? $default) ?>"></label>
+      <?php endforeach; ?>
+    </div>
+    <h2>Ad units</h2>
+    <p class="note" style="margin:0 0 12px">AdMob unit IDs for this store's app. The backup is tried only when the main unit has no ad. Leave empty to use the units built into the app. Test builds always show Google's test ads.</p>
+    <div class="card">
+      <?php foreach ($units as $format => $label): ?>
+        <div class="row field"><span><?= h($label) ?></span><input type="text" placeholder="Main: ca-app-pub-.../..." name="ads[units][<?= $format ?>]" value="<?= h((string) ($settings['ads']['units'][$format] ?? '')) ?>"></div>
+        <div class="row field"><span>Backup</span><input type="text" placeholder="Backup (optional)" name="ads[backupUnits][<?= $format ?>]" value="<?= h((string) ($settings['ads']['backupUnits'][$format] ?? '')) ?>"></div>
       <?php endforeach; ?>
     </div>
     <h2>Features</h2>

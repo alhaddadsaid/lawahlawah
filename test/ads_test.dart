@@ -1,6 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:reelway/ads/ad_config.dart';
 import 'package:reelway/ads/ad_pacing.dart';
+import 'package:reelway/data/remote_config.dart';
 
 void main() {
   var clock = DateTime(2026, 11, 2, 20);
@@ -40,5 +41,23 @@ void main() {
     expect(AdPacing.appOpenAllowed(away, launches: 5), isFalse, reason: 'cooldown after any ad');
     clock = clock.add(AdConfig.appOpenCooldown);
     expect(AdPacing.appOpenAllowed(away, launches: 5), isTrue);
+  });
+
+  test('ad units come from the server per store, with a backup', () {
+    addTearDown(() => RemoteConfig.instance.debugSet(const {}));
+    // Tests are debug builds: always Google's test units, whatever the server says.
+    expect(AdConfig.testAds, isTrue);
+    RemoteConfig.instance.debugSet({
+      'android': {
+        'ads': {
+          'units': {'interstitial': 'ca-app-pub-1234567890123456/1111111111'},
+          'backupUnits': {'interstitial': 'ca-app-pub-1234567890123456/2222222222'},
+        },
+      },
+    });
+    expect(AdConfig.units('interstitial'), [AdConfig.androidInterstitial]);
+    expect(AdConfig.isUnitId('ca-app-pub-1234567890123456/1111111111'), isTrue);
+    expect(AdConfig.isUnitId('ca-app-pub-1234567890123456~1111111111'), isFalse, reason: 'an app ID, not a unit');
+    expect(AdConfig.isUnitId('not an id'), isFalse);
   });
 }

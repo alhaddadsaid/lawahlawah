@@ -13,10 +13,6 @@ import 'ad_pacing.dart';
 /// Real ads only on phones; desktop test hosts show nothing.
 final bool _supported = Platform.isAndroid || Platform.isIOS;
 
-String get _bannerId => Platform.isIOS ? AdConfig.iosBanner : AdConfig.androidBanner;
-String get _interstitialId => Platform.isIOS ? AdConfig.iosInterstitial : AdConfig.androidInterstitial;
-String get _appOpenId => Platform.isIOS ? AdConfig.iosAppOpen : AdConfig.androidAppOpen;
-
 // ------------------------------------------------------- start and consent
 
 /// True once consent is handled and the SDK is running; false if ads are
@@ -119,8 +115,13 @@ bool _interstitialLoading = false;
 void preloadInterstitialAd() {
   if (!_adsOn || _interstitial != null || _interstitialLoading) return;
   _interstitialLoading = true;
+  _loadInterstitial(AdConfig.units('interstitial'));
+}
+
+/// Tries each unit in turn: the backup only when the main one has no ad.
+void _loadInterstitial(List<String> units) {
   InterstitialAd.load(
-    adUnitId: _interstitialId,
+    adUnitId: units.first,
     request: const AdRequest(),
     adLoadCallback: InterstitialAdLoadCallback(
       onAdLoaded: (ad) {
@@ -128,6 +129,7 @@ void preloadInterstitialAd() {
         _interstitialLoading = false;
       },
       onAdFailedToLoad: (error) {
+        if (units.length > 1) return _loadInterstitial(units.sublist(1));
         _interstitialLoading = false;
       },
     ),
@@ -175,8 +177,13 @@ bool _appOpenLoading = false;
 void _preloadAppOpenAd() {
   if (!_adsOn || _appOpen != null || _appOpenLoading) return;
   _appOpenLoading = true;
+  _loadAppOpen(AdConfig.units('appOpen'));
+}
+
+/// Tries each unit in turn: the backup only when the main one has no ad.
+void _loadAppOpen(List<String> units) {
   AppOpenAd.load(
-    adUnitId: _appOpenId,
+    adUnitId: units.first,
     request: const AdRequest(),
     adLoadCallback: AppOpenAdLoadCallback(
       onAdLoaded: (ad) {
@@ -185,6 +192,7 @@ void _preloadAppOpenAd() {
         _appOpenLoading = false;
       },
       onAdFailedToLoad: (error) {
+        if (units.length > 1) return _loadAppOpen(units.sublist(1));
         _appOpenLoading = false;
       },
     ),
@@ -275,8 +283,13 @@ class _BannerAdSlotState extends State<BannerAdSlot> {
     final size = await AdSize.getLargeAnchoredAdaptiveBannerAdSize(width) ?? AdSize.banner;
     if (!mounted) return;
     _size = size;
+    _loadUnits(AdConfig.units('banner'), size);
+  }
+
+  /// Tries each unit in turn: the backup only when the main one has no ad.
+  void _loadUnits(List<String> units, AdSize size) {
     _ad = BannerAd(
-      adUnitId: _bannerId,
+      adUnitId: units.first,
       size: size,
       request: const AdRequest(),
       listener: BannerAdListener(
@@ -286,6 +299,7 @@ class _BannerAdSlotState extends State<BannerAdSlot> {
         },
         onAdFailedToLoad: (ad, error) {
           ad.dispose();
+          if (mounted && units.length > 1) return _loadUnits(units.sublist(1), size);
           if (mounted) setState(() => _ad = null);
         },
       ),
