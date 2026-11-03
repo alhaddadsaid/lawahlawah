@@ -1,0 +1,53 @@
+name: Android start check
+
+# Builds the release APK, opens it on an Android emulator and keeps Android's
+# own log, so a crash on start shows its real error. Run by hand.
+on:
+  workflow_dispatch:
+
+jobs:
+  startcheck:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+      - run: flutter pub get
+      - run: flutter build apk --release --dart-define=REELWAY_TEST_ADS=true
+      - name: Enable KVM for the emulator
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - name: Open the app on the emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 34
+          arch: x86_64
+          target: google_apis
+          disable-animations: true
+          script: |
+            mkdir -p logs
+            adb install -r build/app/outputs/flutter-apk/app-release.apk
+            adb logcat -c
+            adb shell monkey -p com.reelbrow.videobrowser -c android.intent.category.LAUNCHER 1
+            sleep 40
+            adb logcat -d > logs/logcat.txt
+            adb logcat -d -b crash > logs/crash.txt || true
+            (adb shell pidof com.reelbrow.videobrowser || echo NOT_RUNNING) > logs/process.txt
+            adb exec-out screencap -p > logs/screen.png
+            cat logs/process.txt
+            cat logs/crash.txt
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: android-startcheck-logs
+          path: logs/
+          retention-days: 7
