@@ -51,7 +51,7 @@ class _AddWebsiteSheetState extends State<_AddWebsiteSheet> {
       children: [
         Text('Add a website', style: RwType.headline),
         const SizedBox(height: RwSpace.xxs),
-        Text('Open this source to find titles and supported video links.', style: RwType.caption),
+        Text('Add a website to your start page, one tap away.', style: RwType.caption),
         const SizedBox(height: RwSpace.lg),
         TextField(
           controller: _url,

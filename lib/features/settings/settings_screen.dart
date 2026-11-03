@@ -73,7 +73,7 @@ class SettingsScreen extends StatelessWidget {
               ),
             SwitchListTile(
               title: const Text('Open videos in Reelway'),
-              subtitle: const Text('When a website plays an episode or shows a series, continue in Reelway'),
+              subtitle: const Text('When a website plays a video, continue watching it in Reelway’s player'),
               value: s.openVideosInReelway,
               onChanged: (value) => set((s) => s.copyWith(openVideosInReelway: value)),
             ),
@@ -98,7 +98,7 @@ class SettingsScreen extends StatelessWidget {
             const ListTile(
               leading: Icon(Icons.shield_outlined),
               title: Text('Native playback'),
-              subtitle: Text('Browse websites normally. Supported series can also play in Reelway’s native player.'),
+              subtitle: Text('Browse websites normally. Videos on a page can also play in Reelway’s player.'),
             ),
             ListTile(
               leading: const Icon(Icons.delete_forever_outlined, color: RwColors.danger),
@@ -128,7 +128,7 @@ class SettingsScreen extends StatelessWidget {
           ]),
           _Group('Playback', [
             SwitchListTile(
-              title: const Text('Autoplay next episode'),
+              title: const Text('Play the next video automatically'),
               value: s.autoplayNext,
               onChanged: (v) => set((s) => s.copyWith(autoplayNext: v)),
             ),

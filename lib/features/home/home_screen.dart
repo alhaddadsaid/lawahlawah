@@ -774,7 +774,7 @@ class _StartPageState extends State<_StartPage> {
                       children: [
                         Text(title.title, maxLines: 1, overflow: TextOverflow.ellipsis, style: RwType.subtitle),
                         const SizedBox(height: 6),
-                        Text('Continue episode', style: RwType.caption),
+                        Text('Continue watching', style: RwType.caption),
                         const Spacer(),
                         RwProgressBar(value: history.progress, height: 3),
                       ],

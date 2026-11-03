@@ -15,6 +15,7 @@ import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
 import 'package:reelway/core/design/theme.dart';
 import 'package:reelway/core/design/tokens.dart';
+import 'package:reelway/data/remote_config.dart';
 import 'package:reelway/data/repositories/app_state.dart';
 import 'package:reelway/features/settings/protection_screen.dart';
 import 'package:reelway/features/shell/shell.dart';
@@ -220,6 +221,16 @@ void main() {
       return key;
     }
 
+    // Play Store shots show the Android app as the Play Store settings make
+    // it: no Library tab or shortcut.
+    if (_play) {
+      RemoteConfig.instance.debugSet({
+        'android': {
+          'features': {'library': false},
+        },
+      });
+      addTearDown(() => RemoteConfig.instance.debugSet(const {}));
+    }
     final state = AppState(useSampleData: false);
     await tester.runAsync(state.load);
 
