@@ -47,6 +47,8 @@ android {
     buildTypes {
         release {
             signingConfig = signingConfigs.getByName(if (uploadKeystore != null) "upload" else "debug")
+            // Keeps what the shrinker must not remove (see proguard-rules.pro).
+            proguardFiles(getDefaultProguardFile("proguard-android-optimize.txt"), "proguard-rules.pro")
         }
     }
 }

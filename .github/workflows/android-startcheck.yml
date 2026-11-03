@@ -3,7 +3,7 @@ name: Android start check
 # Builds the release APK, opens it on an Android emulator and keeps Android's
 # own log, so a crash on start shows its real error. Runs when this file
 # changes (bump the run note below), or by hand once it is on main.
-# Run note: 1
+# Run note: 2
 on:
   workflow_dispatch:
   push:
