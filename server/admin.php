@@ -380,6 +380,22 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
   .tabs { display: flex; gap: 8px; margin: 0 0 8px; }
   .tabs a { flex: 1; text-align: center; padding: 12px 8px; border-radius: 14px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); text-decoration: none; font-weight: 600; font-size: 15px; }
   .tabs a.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+  .wrap { max-width: 860px; padding-bottom: 110px; }
+  .sections { position: sticky; top: 0; z-index: 5; display: flex; gap: 6px; padding: 10px 0; margin: 8px 0 4px; background: var(--bg); overflow-x: auto; }
+  .sections button { margin: 0; width: auto; flex: none; padding: 10px 16px; border-radius: 12px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); font-size: 15px; font-weight: 600; }
+  .sections button.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .sections i { font-style: normal; font-size: 12px; background: rgba(255,255,255,.16); padding: 1px 7px; border-radius: 10px; margin-left: 4px; }
+  section[hidden] { display: none; }
+  h2:first-child { margin-top: 12px; }
+  details.fold > summary { list-style: none; cursor: pointer; padding: 14px 16px; display: flex; flex-direction: column; }
+  details.fold > summary::-webkit-details-marker { display: none; }
+  details.fold > summary small { color: var(--muted); }
+  details.fold[open] > summary { border-bottom: 1px solid var(--line); }
+  .savebar { position: fixed; left: 0; right: 0; bottom: 0; z-index: 6; display: flex; align-items: center; justify-content: center; gap: 16px; padding: 12px 16px; background: rgba(17,17,22,.94); border-top: 1px solid var(--line); backdrop-filter: blur(8px); }
+  .savebar button { margin: 0; max-width: 420px; }
+  .savebar .note { margin: 0; color: var(--accent); }
+  .field span { width: 130px; }
 </style>
 </head>
 <body>
@@ -390,15 +406,22 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
   <?php if ($saved): ?><div class="msg ok">Saved for <?= h($stores[$store]) ?>.</div><?php endif; ?>
   <?php if ($pushed): ?><div class="msg ok">Notification sent to everyone on <?= h($stores[$store]) ?> who turned notifications on.</div><?php endif; ?>
   <?php if ($error): ?><div class="msg err"><?= h($error) ?></div><?php endif; ?>
-  <form method="post">
+  <nav class="sections" id="sections">
+    <button type="button" data-go="news">News &amp; push<?php $n = count($settings['announcements'] ?? []); if ($n): ?> <i><?= $n ?></i><?php endif; ?></button>
+    <button type="button" data-go="ads">Ads</button>
+    <button type="button" data-go="features">Features</button>
+    <button type="button" data-go="sites">Websites <i><?= count(is_array($settings['sites'] ?? null) ? $settings['sites'] : []) ?></i></button>
+  </nav>
+  <form method="post" id="main">
     <input type="hidden" name="csrf" value="<?= h($_SESSION['csrf']) ?>">
     <input type="hidden" name="store" value="<?= h($store) ?>">
+    <section data-tab="news">
     <h2>Announcements</h2>
     <p class="note" style="margin:0 0 12px">People see the newest one they have not read when they open the app, and can read all of them later under Settings, News. The newest is on top. Sending a push notification is a separate step below, after you save.</p>
     <?php foreach (($settings['announcements'] ?? []) as $a): if (!is_array($a) || !isset($a['id'])) continue; $i = h((string) $a['id']); $act = is_array($a['action'] ?? null) ? $a['action'] : []; ?>
-      <div class="card site">
-        <div class="row"><div><b><?= h((string) ($a['title'] ?? '')) ?></b><small><?= h((string) ($a['date'] ?? '')) ?></small></div>
-          <label class="del"><input type="checkbox" name="ann[<?= $i ?>][delete]"> Remove</label></div>
+      <details class="card site fold">
+        <summary><b><?= h((string) ($a['title'] ?? '')) ?></b><small><?= h((string) ($a['date'] ?? '')) ?></small></summary>
+        <div class="row"><div></div><label class="del"><input type="checkbox" name="ann[<?= $i ?>][delete]"> Remove this announcement</label></div>
         <input type="hidden" name="ann[<?= $i ?>][date]" value="<?= h((string) ($a['date'] ?? '')) ?>">
         <div class="row field"><span>Title</span><input type="text" maxlength="80" name="ann[<?= $i ?>][title]" value="<?= h((string) ($a['title'] ?? '')) ?>"></div>
         <div class="row field"><span>Text</span><textarea rows="5" name="ann[<?= $i ?>][body]"><?= h((string) ($a['body'] ?? '')) ?></textarea></div>
@@ -406,7 +429,7 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
           <?php foreach (ANN_TARGETS as $v => $label): ?><option value="<?= $v ?>" <?= ($act['type'] ?? '') === $v ? 'selected' : '' ?>><?= h($label) ?></option><?php endforeach; ?></select></div>
         <div class="row field"><span>Website link</span><input type="text" placeholder="https:// (only for a website button)" name="ann[<?= $i ?>][action][value]" value="<?= h((string) ($act['value'] ?? '')) ?>"></div>
         <div class="row field"><span>Button text</span><input type="text" maxlength="40" placeholder="Optional" name="ann[<?= $i ?>][action][label]" value="<?= h((string) ($act['label'] ?? '')) ?>"></div>
-      </div>
+      </details>
     <?php endforeach; ?>
     <div class="card site">
       <div class="row"><div><b>New announcement</b><small>Leave the title empty to add nothing. Saved on top of the list.</small></div></div>
@@ -422,6 +445,8 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
       <div class="row field"><span>Website link</span><input type="text" placeholder="Only for a website target" name="new_push[url]"></div>
       <div class="row field"><span>Short text</span><input type="text" maxlength="178" placeholder="Optional. Empty uses the start of the text above." name="new_push[body]"></div>
     </div>
+    </section>
+    <section data-tab="ads">
     <h2>Ads</h2>
     <div class="card">
       <?php foreach ($switches['ads'] as $key => [$label, $hint]): ?>
@@ -444,6 +469,8 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
         <div class="row field"><span>Backup</span><input type="text" placeholder="Backup (optional)" name="ads[backupUnits][<?= $format ?>]" value="<?= h((string) ($settings['ads']['backupUnits'][$format] ?? '')) ?>"></div>
       <?php endforeach; ?>
     </div>
+    </section>
+    <section data-tab="features">
     <h2>Features</h2>
     <div class="card">
       <?php foreach ($switches['features'] as $key => [$label, $hint]): ?>
@@ -454,13 +481,15 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
           <span class="switch"><input type="checkbox" name="features[<?= h($key) ?>]" <?= on($settings, 'features', $key) ? 'checked' : '' ?>><span></span></span></label>
       <?php endforeach; ?>
     </div>
+    </section>
+    <section data-tab="sites">
     <h2>Websites</h2>
     <p class="note" style="margin:0 0 12px">Add a site with its link: Reelway detects its episodes automatically. Advanced settings are only for sites that need special handling.</p>
     <?php $sites = is_array($settings['sites'] ?? null) ? $settings['sites'] : []; ?>
     <?php foreach ($sites as $domain => $site): $site = is_array($site) ? $site : []; $d = h((string) $domain); ?>
-      <div class="card site">
-        <div class="row"><div><b><?= h((string) ($site['name'] ?? $domain)) ?></b><small><?= $d ?></small></div>
-          <label class="del"><input type="checkbox" name="sites[<?= $d ?>][delete]"> Remove</label></div>
+      <details class="card site fold">
+        <summary><b><?= h((string) ($site['name'] ?? $domain)) ?></b><small><?= $d ?></small></summary>
+        <div class="row"><div></div><label class="del"><input type="checkbox" name="sites[<?= $d ?>][delete]"> Remove this website</label></div>
         <div class="row field"><span>Name</span><input type="text" name="sites[<?= $d ?>][name]" value="<?= h((string) ($site['name'] ?? '')) ?>"></div>
         <div class="row field"><span>Link</span><input type="url" name="sites[<?= $d ?>][url]" value="<?= h((string) ($site['url'] ?? "https://$domain/")) ?>"></div>
         <label class="row"><div><b>Show on start page</b><small>One tap from the app's start page.</small></div>
@@ -480,15 +509,17 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
           <div class="field"><span>Address parameter</span><input type="text" placeholder="ep" name="sites[<?= $d ?>][param]" value="<?= h((string) ($site['param'] ?? '')) ?>"></div>
           <div class="field"><span>Series addresses</span><input type="text" placeholder="^/detail/watch/" name="sites[<?= $d ?>][seriesPath]" value="<?= h((string) ($site['seriesPath'] ?? '')) ?>"></div>
         </details>
-      </div>
+      </details>
     <?php endforeach; ?>
     <div class="card site">
       <div class="row"><div><b>Add a website</b><small>Name and link, for example https://liderdrama.com</small></div></div>
       <div class="row field"><span>Name</span><input type="text" name="new_site[name]" placeholder="LiderDrama"></div>
       <div class="row field"><span>Link</span><input type="text" name="new_site[url]" placeholder="https://"></div>
     </div>
-    <button type="submit">Save <?= h($stores[$store]) ?></button>
+    </section>
+    <div class="savebar"><span class="note" id="dirty"></span><button type="submit">Save <?= h($stores[$store]) ?></button></div>
   </form>
+  <section data-tab="news">
   <h2>Send a push notification</h2>
   <?php $anns = array_values(array_filter($settings['announcements'] ?? [], 'is_array')); ?>
   <?php if (push_key() === null): ?>
@@ -512,6 +543,28 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
     <div class="row"><button type="submit" style="margin:0">Send push notification</button></div>
   </form>
   <?php endif; ?>
+  </section>
 </div>
+<script>
+(function () {
+  var tabs = ['news', 'ads', 'features', 'sites'], key = 'reelway-admin-tab';
+  function show(name) {
+    if (tabs.indexOf(name) < 0) name = 'news';
+    document.querySelectorAll('[data-tab]').forEach(function (el) { el.hidden = el.getAttribute('data-tab') !== name; });
+    document.querySelectorAll('#sections button').forEach(function (b) { b.classList.toggle('on', b.getAttribute('data-go') === name); });
+    try { sessionStorage.setItem(key, name); } catch (e) {}
+    var f = document.getElementById('main'), save = document.querySelector('.savebar');
+    if (save) save.style.display = '';
+  }
+  document.getElementById('sections').addEventListener('click', function (e) {
+    var b = e.target.closest('button[data-go]'); if (b) { show(b.getAttribute('data-go')); window.scrollTo(0, 0); }
+  });
+  var start = 'news';
+  try { start = location.hash.slice(1) || sessionStorage.getItem(key) || 'news'; } catch (e) {}
+  show(start);
+  var dirty = document.getElementById('dirty');
+  document.getElementById('main').addEventListener('input', function () { dirty.textContent = 'Unsaved changes'; });
+})();
+</script>
 </body>
 </html>
