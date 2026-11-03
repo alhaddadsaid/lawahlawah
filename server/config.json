@@ -14,7 +14,7 @@
     "features": {
         "downloads": false,
         "openVideosInReelway": true,
-        "playOnTv": false,
+        "playOnTv": true,
         "blockWebsiteAds": true,
         "library": true,
         "backgroundPlay": false
@@ -138,6 +138,18 @@
             "url": "https://m.facebook.com/"
         }
     },
+    "announcements": [
+        {
+            "id": "n17937178127744",
+            "title": "hello",
+            "body": "test",
+            "date": "2026-11-03",
+            "action": {
+                "type": "url",
+                "value": "https://reelbrow.space/"
+            }
+        }
+    ],
     "android": {
         "ads": {
             "enabled": false,
@@ -193,6 +205,7 @@
                 "name": "WeTV",
                 "url": "https://wetv.vip/en"
             }
-        }
+        },
+        "announcements": []
     }
 }
