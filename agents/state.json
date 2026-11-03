@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -33429.90741831881,
+   "cash": -33485.52543507859,
    "open": [
     {
      "id": 1654,
@@ -51,31 +51,49 @@
      "size": 279563.8803466592,
      "deadline": 1793675922.0781617,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1675,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ascend",
+     "mint": "8vFdgGFWkKS1euogVW4qmMurdnso8CPrfQNpB4qqpump",
+     "side": 1,
+     "opened": 1793669639.1044922,
+     "entry": 0.0001703,
+     "stop": 0.00013624,
+     "target": 0.00023842,
+     "size": 1174398.1209630065,
+     "deadline": 1793676839.1044922,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1674,
+ "next_id": 1676,
  "runs": 60,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DTVcrMAEMwpSSBvu6W7P3BLZsRhFZb6bSzARFDqobfCT": 1793669075.0952213,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793669258.3146775,
-  "seen:GFay6ncgKkKmkxCdQbLc2V68z6WLoffRofvEQDNgpump": 1793669258.3146775,
-  "seen:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1793669258.3146775,
-  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793669258.3146775,
-  "seen:8vFdgGFWkKS1euogVW4qmMurdnso8CPrfQNpB4qqpump": 1793669441.8625,
-  "seen:7kYXsF59Cc3HBjL1mW5y9eutEWYh3dTUuvBvnNV7pump": 1793669441.8625,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793669441.8625,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793669622.0211945,
-  "seen:9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": 1793669622.0211945,
-  "control:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793669622.0781655,
   "seen:CcDxdWZknjKxucq6SgQtHSc5w1amottoBkheaaePpump": 1793669805.1382847,
   "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1793669805.1382847,
   "seen:2aEFMMGa6emADiboQB8PidxRCstKjYHGUUNoqcdLpump": 1793669805.1382847,
   "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793669805.1382847,
   "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793669805.1382847,
-  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793669805.1382847
+  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793669805.1382847,
+  "seen:DTVcrMAEMwpSSBvu6W7P3BLZsRhFZb6bSzARFDqobfCT": 1793669987.8504279,
+  "seen:HMF49VCE1jHYiFh2KFLd76T8o1umjFAwa8Rsxpvpump": 1793669987.8504279,
+  "seen:GpyUcRRLoZUeSHaPceSxgaNfR6D8AGcZeLYh5BxZpump": 1793669987.8504279,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793669987.8504279,
+  "seen:v2sv5awjgCV1jgMDz15u8Z7Gk5rwpNpqgrsfJxYpump": 1793670172.4701827,
+  "seen:GFay6ncgKkKmkxCdQbLc2V68z6WLoffRofvEQDNgpump": 1793670172.4701827,
+  "seen:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1793670172.4701827,
+  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793670172.4701827,
+  "seen:HAZCmiEEKcRL9pQpLDxJhjLAqZzViXQiQSEWntHVpump": 1793670172.4701827,
+  "seen:8vFdgGFWkKS1euogVW4qmMurdnso8CPrfQNpB4qqpump": 1793670355.603581,
+  "seen:J8vqLJRSrG4REUs2Zt65jD3EapqysVUvmpEMTB2Npump": 1793670355.603581,
+  "control:CcDxdWZknjKxucq6SgQtHSc5w1amottoBkheaaePpump": 1793670355.6674829,
+  "seen:9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": 1793670538.7111526,
+  "control:8vFdgGFWkKS1euogVW4qmMurdnso8CPrfQNpB4qqpump": 1793670539.1044955
  },
  "talks": {
   "2026-10-21": 109
@@ -116,12 +134,12 @@
  ],
  "last_review": 1793633672.7736597,
  "news": {
-  "t": 1793668358.320099,
+  "t": 1793669272.4756672,
   "crypto": [
    "North Korea denies role in $6.3B Binance hack, points finger at US (2h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "New Jersey drops Coinbase staking order ahead of crypto\u2019s midterm test (3h ago)",
-   "AI poses greater threat to Bitcoin than quantum computing, Swan founder says (3h ago)",
+   "AI poses greater threat to Bitcoin than quantum computing, Swan founder says (4h ago)",
    "Big crypto wants the one thing it can\u2019t buy: your vote (4h ago)",
    "Crypto investigators flag suspected $106M theft, $786K Solana bot drain (4h ago)",
    "Coinbase hit with 50% price target cut as post-earnings rout deepens (5h ago)",
@@ -131,7 +149,7 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Congressional Elections in 14.1h"
+   "USD Congressional Elections in 13.8h"
   ]
  },
  "spend": {
@@ -162,5 +180,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793668358.319963
+ "last_macro_macro": 1793669638.7164521
 }
