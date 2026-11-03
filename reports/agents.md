@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-03 21:52 UTC. Runs so far: 63. Model: claude-haiku-5-5.
+Updated 2026-11-03 22:01 UTC. Runs so far: 63. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1731 | 30 | -46464.86 | -63027.28 |
+| control | meme | 1733 | 30 | -46586.56 | -63166.38 |
 | control | macro | 34 | 44 | -314.46 | -499.07 |
-| control | all | 1765 | 31 | -46779.32 | -63526.35 |
+| control | all | 1767 | 31 | -46901.02 | -63665.45 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,8 +19,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: GOLD short at 3934.3, stop 3949.62, target 3911.32, opened 2026-11-03 20:01 UTC
 - control: OMNI long at 0.0003289, stop 0.00026312, target 0.00046046, opened 2026-11-03 21:06 UTC
-- control: STONKS long at 0.0009921, stop 0.00079368, target 0.00138894, opened 2026-11-03 21:42 UTC
 - control: CAPY long at 0.0003681, stop 0.00029448, target 0.00051534, opened 2026-11-03 21:52 UTC
+- control: STONKS long at 0.0007605, stop 0.0006084, target 0.0010647, opened 2026-11-03 22:01 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED GTA (stop) P&L $-66.52 normal, $-75.07 pessimistic
+- control: CLOSED Sexbot (stop) P&L $-65.77 normal, $-74.34 pessimistic
 
