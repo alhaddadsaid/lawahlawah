@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -34330.90452625411,
+   "cash": -34321.92271419618,
    "open": [
-    {
-     "id": 1714,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "UNPOOLED",
-     "mint": "FxQ5GbqCBxNHDpFTpiL9RDVHiP58ar5nMkR3eMwepump",
-     "side": 1,
-     "opened": 1793696697.1817734,
-     "entry": 5.563e-05,
-     "stop": 4.4504000000000006e-05,
-     "target": 7.7882e-05,
-     "size": 3595182.455509617,
-     "deadline": 1793703897.1817737,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1718,
      "desk": "control",
@@ -51,36 +36,46 @@
      "size": 1776198.9342806395,
      "deadline": 1793707384.6919343,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1724,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "RATIO",
+     "mint": "3JdeP1VBHgRPunmjTj1D6w6ZZePwGAwjUr2tCufwpump",
+     "side": 1,
+     "opened": 1793702017.5950835,
+     "entry": 5.562e-05,
+     "stop": 4.4496e-05,
+     "target": 7.7868e-05,
+     "size": 3595828.838547285,
+     "deadline": 1793709217.5950837,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1723,
+ "next_id": 1725,
  "runs": 61,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9W7Dyv9CV9UhwKfW9gCuYoPncAY8M3EScLiD8ZHemDAr": 1793701265.3465824,
-  "seen:t8hwkK8NcKnQ2hH6FXs3L5kYBGZMHL6W3Mjrr34pump": 1793701265.3465824,
-  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793701265.3465824,
-  "seen:gKF8Uhc94qJ19gSxHqpqNLfGEmUnsDjeczpcAwjpump": 1793701265.3465824,
-  "seen:3imKAhTuUakBCGK1aXxihc13Qe5prGzQb7eWMn1gpump": 1793701460.5288403,
-  "seen:94exwLui2KfAzYnbATkX8iKh4tcjMDW6YwckkSJVpump": 1793701460.5288403,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793701460.5288403,
-  "seen:FxQ5GbqCBxNHDpFTpiL9RDVHiP58ar5nMkR3eMwepump": 1793701460.5288403,
-  "seen:9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": 1793701460.5288403,
-  "seen:31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump": 1793701460.5288403,
-  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793701460.5288403,
-  "seen:6Z5uq59rUcbSCXhnPY53vYQVFrc5eMxFqMBKFmiqpump": 1793701639.1203,
-  "seen:9N1zPADU925Su2M5pyhWzc19G4bJhJVtRrERaYbAoezD": 1793701639.1203,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793701639.1203,
-  "seen:67RBmGztx8ciVyWr8yi6R8fwrc3EG86XejYT7mespump": 1793701816.0006373,
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793701816.0006373,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793701816.0006373,
-  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793701816.0006373,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793701816.0006373,
-  "control:9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": 1793701816.0970623,
-  "seen:EPPjHR9LshhgNfUUqm5yizqF6EkeeMyS5AX1Cp3gkeQ5": 1793701995.1608448,
-  "seen:8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump": 1793701995.1608448
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793702181.2659028,
+  "seen:gKF8Uhc94qJ19gSxHqpqNLfGEmUnsDjeczpcAwjpump": 1793702181.2659028,
+  "seen:t8hwkK8NcKnQ2hH6FXs3L5kYBGZMHL6W3Mjrr34pump": 1793702181.2659028,
+  "seen:94exwLui2KfAzYnbATkX8iKh4tcjMDW6YwckkSJVpump": 1793702362.0600228,
+  "seen:3imKAhTuUakBCGK1aXxihc13Qe5prGzQb7eWMn1gpump": 1793702362.0600228,
+  "seen:9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": 1793702362.0600228,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793702362.0600228,
+  "seen:31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump": 1793702362.0600228,
+  "seen:4QTKbj4tnPTWFUa8wtMhWkafc9vT1h2yhiZuQeQHpump": 1793702547.2355433,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793702547.2355433,
+  "seen:8ozpQfvuPzxaLiKnX6cqTDbqs8HMzqduHUe1J15mpump": 1793702731.8816388,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793702731.8816388,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793702731.8816388,
+  "seen:3JdeP1VBHgRPunmjTj1D6w6ZZePwGAwjUr2tCufwpump": 1793702731.8816388,
+  "control:3imKAhTuUakBCGK1aXxihc13Qe5prGzQb7eWMn1gpump": 1793702731.9766722,
+  "seen:8DB8Fw5UiC1AzugQAfRyw3qL8omw772LJbdehNWhpump": 1793702916.66906,
+  "control:3JdeP1VBHgRPunmjTj1D6w6ZZePwGAwjUr2tCufwpump": 1793702917.5950878
  },
  "talks": {
   "2026-10-21": 109
@@ -121,22 +116,22 @@
  ],
  "last_review": 1793633672.7736597,
  "news": {
-  "t": 1793701095.1670506,
+  "t": 1793702016.6751745,
   "crypto": [
    "Tether holds 150,000 bitcoin worth $11.5 billion, CEO Paolo Ardoino says (0h ago)",
    "Bitcoin price threatens $77.7K support loss with recent buyers underwater (0h ago)",
-   "Live news: Bitcoin faces fifth weekly loss as midterm elections weigh on markets (0h ago)",
+   "Live news: Bitcoin faces fifth weekly loss as midterm elections weigh on markets (1h ago)",
    "North Korea denies role in $6.4 billion Binance hack after FBI points to TraderTraitor (1h ago)",
-   "Mercado Bitcoin pledges to cover all user losses after near $40 million hack (1h ago)",
-   "Bitcoin\u2019s latest chart signal looks a lot like the ones before its big crashes (1h ago)",
+   "Mercado Bitcoin pledges to cover all user losses after near $40 million hack (2h ago)",
+   "Bitcoin\u2019s latest chart signal looks a lot like the ones before its big crashes (2h ago)",
    "ARK buys $17M in Coinbase, Circle shares while trimming Bullish (2h ago)",
    "Suspected EU crypto theft estimate rises to $133M: ZachXBT (2h ago)",
-   "BlackRock\u2019s IBIT sees biggest Bitcoin ETF outflows since June (2h ago)",
-   "Here\u2019s what happened in crypto today (4h ago)"
+   "BlackRock\u2019s IBIT sees biggest Bitcoin ETF outflows since June (3h ago)",
+   "Here\u2019s what happened in crypto today (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Congressional Elections in 5.0h"
+   "USD Congressional Elections in 4.7h"
   ]
  },
  "spend": {
@@ -167,5 +162,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793700183.5272
+ "last_macro_macro": 1793701462.0661132
 }
