@@ -66,24 +66,29 @@
      "size": 94696.9696969697,
      "deadline": 1793682890.431756,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1689,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "MEM",
+     "mint": "8UdrZzuCPbZAY2tiSErRED2KUrggJaRxEsHrzgWLpump",
+     "side": 1,
+     "opened": 1793678631.127646,
+     "entry": 9.926e-05,
+     "stop": 7.9408e-05,
+     "target": 0.000138964,
+     "size": 2014910.3364900262,
+     "deadline": 1793685831.1276462,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1689,
+ "next_id": 1690,
  "runs": 60,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793678428.6284113,
-  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793678428.6284113,
-  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793678428.6284113,
-  "seen:8UdrZzuCPbZAY2tiSErRED2KUrggJaRxEsHrzgWLpump": 1793678613.6290257,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793678613.6290257,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793678613.6290257,
-  "seen:657nA1dyREdvxiHZuag3z75WnQMSNYTyY7vcqos5pump": 1793678613.6290257,
-  "seen:sF86wtSUCkPtoggyA91vjCuSSuZoeuThdw5Asu5pump": 1793678613.6290257,
-  "seen:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": 1793678613.6290257,
-  "control:8UdrZzuCPbZAY2tiSErRED2KUrggJaRxEsHrzgWLpump": 1793678613.667707,
   "seen:31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump": 1793678796.7184231,
   "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793678796.7184231,
   "seen:EsAwc5ddQ4oE9VuA5NYad29pM9dboxuyfkTBu3fpump": 1793678796.7184231,
@@ -94,13 +99,23 @@
   "seen:HAp8U1SB7bDGMa81AQom1ee6AR5iSFFTi57MEbTzcash": 1793678979.8221517,
   "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793678979.8221517,
   "seen:GAcgjHjsj9pUWtcRAjCNS56EP1X4eD4DNYbyJQnBpump": 1793679162.8593616,
-  "seen:DTiLnoMcA4tRcnWFrikbA4d8MVPGdteaMHaa3wmppump": 1793679162.8593616
+  "seen:DTiLnoMcA4tRcnWFrikbA4d8MVPGdteaMHaa3wmppump": 1793679162.8593616,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793679347.4769952,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1793679347.4769952,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793679347.4769952,
+  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793679347.4769952,
+  "seen:ZGda6yJ4un1X2z6dAPRHfLzkG6GjrV2RrtgPRcBpump": 1793679347.4769952,
+  "seen:8UdrZzuCPbZAY2tiSErRED2KUrggJaRxEsHrzgWLpump": 1793679530.739562,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793679530.739562,
+  "seen:sF86wtSUCkPtoggyA91vjCuSSuZoeuThdw5Asu5pump": 1793679530.739562,
+  "seen:BngAfLZxaWN2QvpFhRbUHydYGr8zA7YTSA178G8Epump": 1793679530.739562,
+  "control:8UdrZzuCPbZAY2tiSErRED2KUrggJaRxEsHrzgWLpump": 1793679531.1276498
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498241,
+ "ctrl_macro_hour": 498244,
  "team": [
   {
    "name": "Lead",
@@ -135,22 +150,22 @@
  ],
  "last_review": 1793633672.7736597,
  "news": {
-  "t": 1793677528.634065,
+  "t": 1793678447.482664,
   "crypto": [
    "Binance begins second withdrawal phase, exchange outflows slow (1h ago)",
    "South Korea urges exchanges to boost cold storage after Binance hack (2h ago)",
    "North Korea denies role in $6.3B Binance hack, points finger at US (5h ago)",
    "Here\u2019s what happened in crypto today (5h ago)",
-   "New Jersey drops Coinbase staking order ahead of crypto\u2019s midterm test (5h ago)",
+   "New Jersey drops Coinbase staking order ahead of crypto\u2019s midterm test (6h ago)",
    "AI poses greater threat to Bitcoin than quantum computing, Swan founder says (6h ago)",
    "Big crypto wants the one thing it can\u2019t buy: your vote (6h ago)",
-   "Crypto investigators flag suspected $106M theft, $786K Solana bot drain (6h ago)",
-   "Coinbase hit with 50% price target cut as post-earnings rout deepens (7h ago)",
-   "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally (8h ago)"
+   "Crypto investigators flag suspected $106M theft, $786K Solana bot drain (7h ago)",
+   "Coinbase hit with 50% price target cut as post-earnings rout deepens (8h ago)",
+   "Bitcoin risks drop below $76K as 7% oil slide fails to spark BTC price rally (9h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Congressional Elections in 11.5h"
+   "USD Congressional Elections in 11.3h"
   ]
  },
  "spend": {
@@ -181,5 +196,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793677345.3660922
+ "last_macro_macro": 1793678630.7451193
 }
