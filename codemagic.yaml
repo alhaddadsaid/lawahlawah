@@ -43,6 +43,41 @@ workflows:
     artifacts:
       - build/app/outputs/bundle/release/*.aab
 
+  android-startcheck:
+    name: Reelway - Android start check (emulator)
+    # Linux: Codemagic's Mac machines cannot run Android emulators.
+    instance_type: linux_x2
+    max_build_duration: 45
+    environment:
+      flutter: stable
+    scripts:
+      - script: flutter pub get
+      - name: Build release APK
+        script: flutter build apk --release --dart-define=REELWAY_TEST_ADS=true
+      - name: Launch emulator
+        script: |
+          flutter emulators --launch emulator &
+          adb wait-for-device
+          until [ "$(adb shell getprop sys.boot_completed | tr -d '\r')" = "1" ]; do sleep 5; done
+          adb shell getprop ro.build.version.release
+      - name: Open the app and keep the log
+        # Saves Android's own log of the first 30 seconds, so a crash on
+        # start shows its real error.
+        script: |
+          mkdir -p logs
+          adb install -r build/app/outputs/flutter-apk/app-release.apk
+          adb logcat -c
+          adb shell monkey -p com.reelbrow.videobrowser -c android.intent.category.LAUNCHER 1
+          sleep 30
+          adb logcat -d > logs/logcat.txt
+          adb logcat -d -b crash > logs/crash.txt || true
+          (adb shell pidof com.reelbrow.videobrowser || echo "NOT RUNNING") > logs/process.txt
+          adb exec-out screencap -p > logs/screen.png
+          cat logs/process.txt
+          grep -E "FATAL|AndroidRuntime|DEBUG|Abort|signal" logs/logcat.txt | head -80 || true
+    artifacts:
+      - logs/*
+
   ios-testflight:
     name: Reelway - iOS TestFlight
     instance_type: mac_mini_m2
