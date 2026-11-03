@@ -30,11 +30,23 @@ android {
         versionName = flutter.versionName
     }
 
+    // Play upload key: set by Codemagic's android_signing (workflow
+    // android-play). Other builds keep the debug key.
+    val uploadKeystore = System.getenv("CM_KEYSTORE_PATH")
+    signingConfigs {
+        if (uploadKeystore != null) {
+            create("upload") {
+                storeFile = file(uploadKeystore)
+                storePassword = System.getenv("CM_KEYSTORE_PASSWORD")
+                keyAlias = System.getenv("CM_KEY_ALIAS")
+                keyPassword = System.getenv("CM_KEY_PASSWORD")
+            }
+        }
+    }
+
     buildTypes {
         release {
-            // TODO: Add your own signing config for the release build.
-            // Signing with the debug keys for now, so `flutter run --release` works.
-            signingConfig = signingConfigs.getByName("debug")
+            signingConfig = signingConfigs.getByName(if (uploadKeystore != null) "upload" else "debug")
         }
     }
 }
