@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -34120.55682683973,
+   "cash": -34161.09890864983,
    "open": [
-    {
-     "id": 1654,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "GBPUSD",
-     "mint": "",
-     "side": -1,
-     "opened": 1793649607.0690956,
-     "entry": 1.3411117792129517,
-     "stop": 1.3426140972546168,
-     "target": 1.3388583021504539,
-     "size": 66563.8015564024,
-     "deadline": 1793736007.0690966,
-     "thesis": "control: random direction"
-    },
     {
      "id": 1696,
      "desk": "control",
@@ -53,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1705,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "UNPOOLED",
-     "mint": "FxQ5GbqCBxNHDpFTpiL9RDVHiP58ar5nMkR3eMwepump",
-     "side": 1,
-     "opened": 1793691759.7016356,
-     "entry": 0.0001461,
-     "stop": 0.00011688,
-     "target": 0.00020454,
-     "size": 1368925.3935660506,
-     "deadline": 1793698959.7016358,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1707,
      "desk": "control",
      "market": "meme",
@@ -81,33 +51,48 @@
      "size": 1895734.597156398,
      "deadline": 1793699688.168,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1708,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "AnonCrime",
+     "mint": "4NPHWnrS9UjtGKkt4iAc5EQQ2zD1LsYJxeXRvGJZpump",
+     "side": 1,
+     "opened": 1793693036.2549715,
+     "entry": 0.0001666,
+     "stop": 0.00013328000000000002,
+     "target": 0.00023324,
+     "size": 1200480.1920768307,
+     "deadline": 1793700236.2549715,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1708,
+ "next_id": 1709,
  "runs": 61,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Bj4UUitguoioQ2MQHHAb36maVANu9L38Bcwh29hzpump": 1793692839.6378622,
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793692839.6378622,
-  "seen:Bmn5qFwQHxteaoM1et9FLdHsi52DmuXZyzWinih8pump": 1793693020.4684496,
-  "seen:J2ftCjfu7MGejUKqJvecymH8Pgsd5tUwpNJUvbyGpump": 1793693020.4684496,
-  "seen:9X5UwHT7gWSPtAH5yeEzrLHqv3Nedmhy3HyZN3Yspump": 1793693020.4684496,
-  "seen:31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump": 1793693020.4684496,
-  "seen:AiJpYAMpe3hvMQbUxXL2Qh7Sni6uDyKh68AFK3r1pump": 1793693020.4684496,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793693020.4684496,
-  "control:4NPHWnrS9UjtGKkt4iAc5EQQ2zD1LsYJxeXRvGJZpump": 1793693020.566175,
-  "seen:4NPHWnrS9UjtGKkt4iAc5EQQ2zD1LsYJxeXRvGJZpump": 1793693202.9433897,
-  "seen:FxQ5GbqCBxNHDpFTpiL9RDVHiP58ar5nMkR3eMwepump": 1793693202.9433897,
-  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793693202.9433897,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793693202.9433897,
-  "seen:DTVcrMAEMwpSSBvu6W7P3BLZsRhFZb6bSzARFDqobfCT": 1793693202.9433897,
-  "seen:3JdeP1VBHgRPunmjTj1D6w6ZZePwGAwjUr2tCufwpump": 1793693387.7727003,
-  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793693387.7727003,
-  "control:nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump": 1793693388.1680026,
   "seen:J1pZjNKh4BnbXBsroE4acJv3TYzCGxTn46VrZii6orEZ": 1793693568.3659866,
-  "seen:CbL62pSkpZE1ohywL4FCXQXzexUBedG2tWUiN8Cupump": 1793693568.3659866
+  "seen:CbL62pSkpZE1ohywL4FCXQXzexUBedG2tWUiN8Cupump": 1793693568.3659866,
+  "seen:zu7dsbueeKr4f8hTEPFruCWP1BJXNBqcT2UvqXDpump": 1793693753.69703,
+  "seen:Z8GFFAwsEhiqLPmbdNp6hiu5qLbVDGjtb7cCmFTpump": 1793693753.69703,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793693753.69703,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793693753.69703,
+  "seen:Bmn5qFwQHxteaoM1et9FLdHsi52DmuXZyzWinih8pump": 1793693936.1502707,
+  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793693936.1502707,
+  "seen:31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump": 1793693936.1502707,
+  "seen:9X5UwHT7gWSPtAH5yeEzrLHqv3Nedmhy3HyZN3Yspump": 1793693936.1502707,
+  "control:4NPHWnrS9UjtGKkt4iAc5EQQ2zD1LsYJxeXRvGJZpump": 1793693936.2549753,
+  "seen:4NPHWnrS9UjtGKkt4iAc5EQQ2zD1LsYJxeXRvGJZpump": 1793694117.0647595,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793694117.0647595,
+  "seen:FxQ5GbqCBxNHDpFTpiL9RDVHiP58ar5nMkR3eMwepump": 1793694117.0647595,
+  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793694117.0647595,
+  "seen:4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump": 1793694297.2784266,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793694297.2784266,
+  "seen:3JdeP1VBHgRPunmjTj1D6w6ZZePwGAwjUr2tCufwpump": 1793694297.2784266,
+  "seen:5NZgHTXdUVyxHGWgAVX9yHjRq9z9dPXhGZTX22SEpump": 1793694297.2784266
  },
  "talks": {
   "2026-10-21": 109
@@ -148,22 +133,22 @@
  ],
  "last_review": 1793633672.7736597,
  "news": {
-  "t": 1793691939.6435752,
+  "t": 1793692853.70322,
   "crypto": [
+   "BlackRock\u2019s IBIT sees biggest Bitcoin ETF outflows since June (0h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "Binance has spent half its SAFU bitcoin, about $580 million worth, data shows (2h ago)",
-   "Arbitrum\u2019s council moved $30 million of Binance hack funds without the hacker\u2019s key (2h ago)",
+   "Arbitrum\u2019s council moved $30 million of Binance hack funds without the hacker\u2019s key (3h ago)",
    "Crypto.com to withdraw Hong Kong consumer app citing regulatory changes (3h ago)",
    "Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote (3h ago)",
    "Australia lifts rates to 18-year high as AI boom, energy costs fuel inflation (4h ago)",
    "UK warns AI ransomware attack on infrastructure \u2018highly likely\u2019 by 2028 (4h ago)",
    "Binance begins second withdrawal phase, exchange outflows slow (5h ago)",
-   "South Korea urges exchanges to boost cold storage after Binance hack (6h ago)",
-   "North Korea denies role in $6.3B Binance hack, points finger at US (9h ago)"
+   "South Korea urges exchanges to boost cold storage after Binance hack (6h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Congressional Elections in 7.5h"
+   "USD Congressional Elections in 7.3h"
   ]
  },
  "spend": {

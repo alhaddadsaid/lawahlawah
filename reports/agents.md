@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-03 07:57 UTC. Runs so far: 61. Model: claude-haiku-5-5.
+Updated 2026-11-03 08:09 UTC. Runs so far: 61. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1650 | 31 | -43914.77 | -59711.84 |
-| control | macro | 33 | 45 | -205.92 | -386.53 |
-| control | all | 1683 | 31 | -44120.69 | -60098.37 |
+| control | meme | 1651 | 31 | -43846.77 | -59655.84 |
+| control | macro | 34 | 44 | -314.46 | -499.07 |
+| control | all | 1685 | 31 | -44161.23 | -60154.91 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: GBPUSD short at 1.34111, stop 1.34261, target 1.33886, opened 2026-11-02 20:00 UTC
 - control: ANAKIN long at 0.0001175, stop 9.4e-05, target 0.0001645, opened 2026-11-03 06:48 UTC
 - control: CAPY long at 0.0005641, stop 0.00045128, target 0.00078974, opened 2026-11-03 07:21 UTC
-- control: UNPOOLED long at 0.0001461, stop 0.00011688, target 0.00020454, opened 2026-11-03 07:42 UTC
 - control: ARNOLD long at 0.0001055, stop 8.44e-05, target 0.0001477, opened 2026-11-03 07:54 UTC
+- control: AnonCrime long at 0.0001666, stop 0.00013328, target 0.00023324, opened 2026-11-03 08:03 UTC
 
 ## Team
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order PumpFun REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED GBPUSD (stop) P&L $-108.54 normal, $-112.54 pessimistic
 
