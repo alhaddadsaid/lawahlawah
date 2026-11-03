@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -34135.38100661315,
+   "cash": -34267.32234521459,
    "open": [
     {
      "id": 1654,
@@ -36,30 +36,65 @@
      "size": 1702127.6595744682,
      "deadline": 1793695699.2038555,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1699,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "LIFEVAL",
+     "mint": "Bmn5qFwQHxteaoM1et9FLdHsi52DmuXZyzWinih8pump",
+     "side": 1,
+     "opened": 1793689042.2247834,
+     "entry": 0.0001387,
+     "stop": 0.00011096000000000002,
+     "target": 0.00019418000000000001,
+     "size": 1441961.0670511895,
+     "deadline": 1793696242.2247837,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1700,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CAPY",
+     "mint": "DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr",
+     "side": 1,
+     "opened": 1793689225.1301293,
+     "entry": 0.0007462,
+     "stop": 0.0005969600000000001,
+     "target": 0.0010446799999999999,
+     "size": 268024.6582685607,
+     "deadline": 1793696425.1301296,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1697,
+ "next_id": 1701,
  "runs": 61,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793688855.139085,
-  "control:9X5UwHT7gWSPtAH5yeEzrLHqv3Nedmhy3HyZN3Yspump": 1793688855.1970818,
-  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793689038.341444,
-  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793689038.341444,
-  "seen:9X5UwHT7gWSPtAH5yeEzrLHqv3Nedmhy3HyZN3Yspump": 1793689218.612873,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793689218.612873,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793689218.612873,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793689218.612873,
-  "seen:jPdQbzY8qQfq3K8YmhW1csNLkZBwFptCAbqeybPpump": 1793689218.612873,
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793689218.612873,
   "seen:Bmn5qFwQHxteaoM1et9FLdHsi52DmuXZyzWinih8pump": 1793689399.1041465,
   "seen:J1pZjNKh4BnbXBsroE4acJv3TYzCGxTn46VrZii6orEZ": 1793689399.1041465,
   "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793689399.1041465,
   "seen:31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump": 1793689399.1041465,
   "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793689399.1041465,
-  "control:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793689399.2038589
+  "control:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793689399.2038589,
+  "seen:GCpuGu7SuBsXM8JinxYKWUD9xm9p93m7XTjuKenLm6Av": 1793689581.018901,
+  "seen:FxQ5GbqCBxNHDpFTpiL9RDVHiP58ar5nMkR3eMwepump": 1793689581.018901,
+  "control:J1pZjNKh4BnbXBsroE4acJv3TYzCGxTn46VrZii6orEZ": 1793689581.4186502,
+  "control:9X5UwHT7gWSPtAH5yeEzrLHqv3Nedmhy3HyZN3Yspump": 1793689761.9514475,
+  "seen:E1SQM1fK7zb65CDVitEc4pqL2mAYjzjgezuaPnEG3djn": 1793689942.1252635,
+  "seen:8vFdgGFWkKS1euogVW4qmMurdnso8CPrfQNpB4qqpump": 1793689942.1252635,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793689942.1252635,
+  "control:Bmn5qFwQHxteaoM1et9FLdHsi52DmuXZyzWinih8pump": 1793689942.2247868,
+  "seen:21YSrwzVY6U2r14peJjRwJhs3bRbfZ9aE2YV6qa2pump": 1793690124.468931,
+  "seen:9X5UwHT7gWSPtAH5yeEzrLHqv3Nedmhy3HyZN3Yspump": 1793690124.468931,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793690124.468931,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793690124.468931,
+  "seen:jPdQbzY8qQfq3K8YmhW1csNLkZBwFptCAbqeybPpump": 1793690124.468931,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793690124.468931,
+  "control:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793690125.130132
  },
  "talks": {
   "2026-10-21": 109
@@ -100,11 +135,11 @@
  ],
  "last_review": 1793633672.7736597,
  "news": {
-  "t": 1793688318.6181421,
+  "t": 1793689224.474337,
   "crypto": [
    "Here\u2019s what happened in crypto today (1h ago)",
    "Binance has spent half its SAFU bitcoin, about $580 million worth, data shows (1h ago)",
-   "Arbitrum\u2019s council moved $30 million of Binance hack funds without the hacker\u2019s key (1h ago)",
+   "Arbitrum\u2019s council moved $30 million of Binance hack funds without the hacker\u2019s key (2h ago)",
    "Crypto.com to withdraw Hong Kong consumer app citing regulatory changes (2h ago)",
    "Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote (2h ago)",
    "Australia lifts rates to 18-year high as AI boom, energy costs fuel inflation (3h ago)",
@@ -115,7 +150,7 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Congressional Elections in 8.5h"
+   "USD Congressional Elections in 8.3h"
   ]
  },
  "spend": {
@@ -146,5 +181,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793687409.0723038
+ "last_macro_macro": 1793688681.0241253
 }
