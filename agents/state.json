@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -33938.865464521135,
+   "cash": -33925.654057205575,
    "open": [
     {
      "id": 1654,
@@ -21,21 +21,6 @@
      "size": 66563.8015564024,
      "deadline": 1793736007.0690966,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 1683,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MOVEMBER",
-     "mint": "DTVcrMAEMwpSSBvu6W7P3BLZsRhFZb6bSzARFDqobfCT",
-     "side": 1,
-     "opened": 1793674772.3264236,
-     "entry": 0.0001613,
-     "stop": 0.00012904,
-     "target": 0.00022581999999999998,
-     "size": 1239925.6044637323,
-     "deadline": 1793681972.326424,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 1686,
@@ -66,40 +51,54 @@
      "size": 264515.275757175,
      "deadline": 1793688579.9976294,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1693,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "LeTwerk",
+     "mint": "GtRH3cGYWPLLjjvcgMV1Fb3Jd25rhGRQmXgwu79Npump",
+     "side": 1,
+     "opened": 1793682313.9207969,
+     "entry": 0.0001441,
+     "stop": 0.00011528000000000001,
+     "target": 0.00020173999999999998,
+     "size": 1387925.0520471893,
+     "deadline": 1793689513.920797,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1693,
+ "next_id": 1694,
  "runs": 60,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GtRH3cGYWPLLjjvcgMV1Fb3Jd25rhGRQmXgwu79Npump": 1793681916.614289,
-  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793681916.614289,
-  "seen:GAcgjHjsj9pUWtcRAjCNS56EP1X4eD4DNYbyJQnBpump": 1793681916.614289,
-  "seen:7uHBhrdN1UNf1vggnvoZMHVA6Du4NQe2USP2oMnYpump": 1793682099.8832412,
-  "seen:PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m": 1793682099.8832412,
-  "seen:67RBmGztx8ciVyWr8yi6R8fwrc3EG86XejYT7mespump": 1793682099.8832412,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793682099.8832412,
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793682099.8832412,
-  "control:GtRH3cGYWPLLjjvcgMV1Fb3Jd25rhGRQmXgwu79Npump": 1793682100.5514398,
-  "seen:AxoKtcvRYpWyzEWfZzfeCPbUtEvx4MxgGbqDppRHtDn6": 1793682279.9575813,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793682279.9575813,
-  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793682279.9575813,
-  "seen:Pe1EBvMw5svq6ssdwhzHZSRqz6xhYLYfWuyrbQhpump": 1793682279.9575813,
-  "control:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793682279.9976335,
-  "seen:E4GoCJKYDd3ahSFHPQW6aCFsECxSwBkXS8Z166kapump": 1793682463.319369,
-  "seen:31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump": 1793682463.319369,
   "seen:9hKJb9YEf5RYb4f71Xr3Kr86hZq86Xad5X7gdyv1pump": 1793682646.4616823,
   "seen:DayjoyjxCA2SVTApEW7oBFG3WMvrYZRMjAnqsetLpump": 1793682646.4616823,
   "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793682646.4616823,
-  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793682646.4616823
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793682646.4616823,
+  "seen:GtRH3cGYWPLLjjvcgMV1Fb3Jd25rhGRQmXgwu79Npump": 1793682829.3508146,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793682829.3508146,
+  "seen:GAcgjHjsj9pUWtcRAjCNS56EP1X4eD4DNYbyJQnBpump": 1793682829.3508146,
+  "seen:8s4bNqEztH1JP7mkU747uMr7AckCQdiV47FDqYnDpump": 1793682829.3508146,
+  "seen:67RBmGztx8ciVyWr8yi6R8fwrc3EG86XejYT7mespump": 1793683032.188302,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793683032.188302,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793683032.188302,
+  "seen:E7ayy5Se6gjwCNtw9NP629AucnTgqab4SSmSxDpUpump": 1793683213.8782406,
+  "seen:FxM5igBCV1b6CSLc8SVr7MK6GpBgH9uAHf4RKW3qpump": 1793683213.8782406,
+  "seen:4MNdQw5iYUZfuCT7pRq99YtAXLXbpu2xTXsfT7pFpump": 1793683213.8782406,
+  "control:GtRH3cGYWPLLjjvcgMV1Fb3Jd25rhGRQmXgwu79Npump": 1793683213.9208004,
+  "seen:HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": 1793683394.4378026,
+  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793683394.4378026,
+  "seen:E4GoCJKYDd3ahSFHPQW6aCFsECxSwBkXS8Z166kapump": 1793683394.4378026,
+  "seen:31SYoqWFhx3i9UsfnoXTjFp4ZwJA8F8UPrMxymfDpump": 1793683394.4378026
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498244,
+ "ctrl_macro_hour": 498245,
  "team": [
   {
    "name": "Lead",
@@ -134,22 +133,22 @@
  ],
  "last_review": 1793633672.7736597,
  "news": {
-  "t": 1793681199.8888912,
+  "t": 1793682132.193973,
   "crypto": [
+   "Bitcoin drops below $77,000 as chip rout deepens ahead of U.S. midterm vote (0h ago)",
    "Australia lifts rates to 18-year high as AI boom, energy costs fuel inflation (1h ago)",
    "Binance begins second withdrawal phase, exchange outflows slow (2h ago)",
    "South Korea urges exchanges to boost cold storage after Binance hack (3h ago)",
    "North Korea denies role in $6.3B Binance hack, points finger at US (6h ago)",
    "Here\u2019s what happened in crypto today (6h ago)",
-   "New Jersey drops Coinbase staking order ahead of crypto\u2019s midterm test (6h ago)",
+   "New Jersey drops Coinbase staking order ahead of crypto\u2019s midterm test (7h ago)",
    "AI poses greater threat to Bitcoin than quantum computing, Swan founder says (7h ago)",
    "Big crypto wants the one thing it can\u2019t buy: your vote (7h ago)",
-   "Crypto investigators flag suspected $106M theft, $786K Solana bot drain (8h ago)",
-   "Coinbase hit with 50% price target cut as post-earnings rout deepens (8h ago)"
+   "Crypto investigators flag suspected $106M theft, $786K Solana bot drain (8h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Congressional Elections in 10.5h"
+   "USD Congressional Elections in 10.2h"
   ]
  },
  "spend": {
@@ -180,5 +179,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793681199.8887217
+ "last_macro_macro": 1793682494.4433181
 }
