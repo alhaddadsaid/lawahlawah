@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-03 19:31 UTC. Runs so far: 62. Model: claude-haiku-5-5.
+Updated 2026-11-03 19:42 UTC. Runs so far: 62. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1717 | 31 | -45703.27 | -62141.63 |
+| control | meme | 1718 | 31 | -45713.07 | -62161.43 |
 | control | macro | 34 | 44 | -314.46 | -499.07 |
-| control | all | 1751 | 31 | -46017.73 | -62640.7 |
+| control | all | 1752 | 31 | -46027.53 | -62660.5 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: 2500 long at 1.935e-06, stop 1.548e-06, target 2.709e-06, opened 2026-11-03 17:34 UTC
 - control: STONKS long at 0.0009435, stop 0.0007548, target 0.0013209, opened 2026-11-03 18:51 UTC
+- control: CAPY long at 0.0004103, stop 0.00032824, target 0.00057442, opened 2026-11-03 19:36 UTC
 
 ## Team
 
@@ -31,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED Slingoor (stop) P&L $-50.62 normal, $-59.58 pessimistic
+- control: order STONKS REJECTED by guardrails: STONKS already open
 
