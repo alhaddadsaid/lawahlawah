@@ -18,7 +18,8 @@ workflows:
         script: flutter build apk --debug --build-number=$BUILD_NUMBER
       - name: Build Android release APK
         # Store-style build: sample data and undocumented adapters are off.
-        script: flutter build apk --release --build-number=$BUILD_NUMBER
+        # Google's test ads, because this APK goes on our own phones.
+        script: flutter build apk --release --build-number=$BUILD_NUMBER --dart-define=REELWAY_TEST_ADS=true
     artifacts:
       - build/app/outputs/flutter-apk/*.apk
 

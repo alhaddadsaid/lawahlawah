@@ -15,8 +15,9 @@ android {
     }
 
     defaultConfig {
-        // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId = "com.reelway.reelway"
+        // Play Store app "Reelway: Video Browser". Its own ID (and AdMob app), kept
+        // apart from the iOS app com.reelway.reelway. The code namespace stays.
+        applicationId = "com.reelbrow.videobrowser"
         // You can update the following values to match your application needs.
         // For more information, see: https://flutter.dev/to/review-gradle-config.
         minSdk = flutter.minSdkVersion

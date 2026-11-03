@@ -7,10 +7,11 @@
         android:usesCleartextTraffic="true"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
-        <!-- Google's TEST AdMob app ID. Replace with Reelway's before release. -->
+        <!-- AdMob app "Reelway: Video Browser" (Android only). Test builds still
+             request Google's test ad units (lib/ads/ad_config.dart). -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-3940256099942544~3347511713"/>
+            android:value="ca-app-pub-7280343659534747~1572923698"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

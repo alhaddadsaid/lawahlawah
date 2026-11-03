@@ -2,18 +2,28 @@ import 'package:flutter/foundation.dart';
 
 /// AdMob settings and ad pacing rules.
 ///
-/// iOS uses Reelway's own AdMob app "Reelway Browser"
-/// (ca-app-pub-7280343659534747~8852134564, set in ios/Runner/Info.plist).
+/// Each platform has its own AdMob app, so a problem with one store listing
+/// does not touch the other's ads:
+/// - iOS: "Reelway Browser" (ca-app-pub-7280343659534747~8852134564, set in
+///   ios/Runner/Info.plist).
+/// - Android: "Reelway: Video Browser", package com.reelbrow.videobrowser
+///   (ca-app-pub-7280343659534747~1572923698, set in AndroidManifest.xml).
 /// Test builds (debug, or --dart-define=REELWAY_TEST_ADS=true as the ReelBro
-/// workflows do) use Google's TEST units instead: clicking your own real ads
-/// breaks AdMob policy. Android has no AdMob app yet and always uses test units.
+/// and Android test workflows do) use Google's TEST units instead: clicking
+/// your own real ads breaks AdMob policy.
 abstract final class AdConfig {
   static const testAds = kDebugMode || bool.fromEnvironment('REELWAY_TEST_ADS');
 
   // ------------------------------------------------------------ ad units
-  static const androidBanner = 'ca-app-pub-3940256099942544/9214589741';
-  static const androidInterstitial = 'ca-app-pub-3940256099942544/1033173712';
-  static const androidAppOpen = 'ca-app-pub-3940256099942544/9257395921';
+  static const androidBanner = testAds
+      ? 'ca-app-pub-3940256099942544/9214589741'
+      : 'ca-app-pub-7280343659534747/3105497214';
+  static const androidInterstitial = testAds
+      ? 'ca-app-pub-3940256099942544/1033173712'
+      : 'ca-app-pub-7280343659534747/8166252200';
+  static const androidAppOpen = testAds
+      ? 'ca-app-pub-3940256099942544/9257395921'
+      : 'ca-app-pub-7280343659534747/4022781032';
 
   static const iosBanner = testAds
       ? 'ca-app-pub-3940256099942544/2435281174'

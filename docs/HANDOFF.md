@@ -29,7 +29,8 @@ needed, this file says where it lives and who has it.
 | GitHub repo | https://github.com/alhaddadsaid/lawahlawah |
 | Branch | `streaming-browser` (the repo's `main` is an unrelated project, never merge into it) |
 | Local copy on Said's Mac | `~/Documents/Flutter Projects /Reelway - Claude` (note the space after "Projects") |
-| Bundle ID (iOS) / applicationId (Android) | `com.reelway.reelway` |
+| Bundle ID (iOS) | `com.reelway.reelway` (AdMob app ~8852134564) |
+| applicationId (Android, Play: "Reelway: Video Browser") | `com.reelbrow.videobrowser` (AdMob app ~1572923698) |
 | Agent notes | `CLAUDE.md` in the repo root, read it first |
 
 Get the code:
