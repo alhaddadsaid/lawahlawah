@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-03 18:51 UTC. Runs so far: 62. Model: claude-haiku-5-5.
+Updated 2026-11-03 19:03 UTC. Runs so far: 62. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1711 | 31 | -45376.95 | -61762.15 |
+| control | meme | 1712 | 31 | -45434.11 | -61828.1 |
 | control | macro | 34 | 44 | -314.46 | -499.07 |
-| control | all | 1745 | 31 | -45691.41 | -62261.22 |
+| control | all | 1746 | 31 | -45748.57 | -62327.17 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,8 +19,9 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: CAPY long at 0.0005792, stop 0.00046336, target 0.00081088, opened 2026-11-03 17:04 UTC
 - control: 2500 long at 1.935e-06, stop 1.548e-06, target 2.709e-06, opened 2026-11-03 17:34 UTC
-- control: MOVEMBER long at 0.0001204, stop 9.632e-05, target 0.00016856, opened 2026-11-03 18:42 UTC
 - control: STONKS long at 0.0009435, stop 0.0007548, target 0.0013209, opened 2026-11-03 18:51 UTC
+- control: Slingoor long at 6.342e-05, stop 5.0736e-05, target 8.8788e-05, opened 2026-11-03 18:54 UTC
+- control: MOVEMBER long at 0.0001003, stop 8.024e-05, target 0.00014042, opened 2026-11-03 19:03 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-03 18:51 UTC control: OPENED STONKS long at 0.0009435 (stop 0.0007548, target 0.0013209) - control: frozen v3 rules
+- 2026-11-03 19:03 UTC control: OPENED MOVEMBER long at 0.0001003 (stop 8.024e-05, target 0.00014042) - control: frozen v3 rules
 
