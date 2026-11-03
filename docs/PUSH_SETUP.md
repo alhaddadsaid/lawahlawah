@@ -1,4 +1,10 @@
-# Push notifications: what Said does once
+# Push notifications: setup
+
+Status (3 Nov 2026): Firebase project "Reelway" (reelway-1d51c) with the iPhone, ReelBro and Android apps,
+the Apple push key (ZenQualityKey R475Z8TFN2, team G745LGMWP6) uploaded to Firebase for Reelway and
+ReelBro, Push Notifications on for both App IDs, the Apple profiles regenerated and fetched into
+Codemagic (references *_push), and the Firebase service account key on the server at
+/etc/reelway/fcm-service-account.json. The steps below are what was done, kept for reference.
 
 The code is ready. Push starts working after these steps, in a new app version (iPhone and
 Android). Nothing here touches the versions now in review. Do not paste passwords or key
