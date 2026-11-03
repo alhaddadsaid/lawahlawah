@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-03 09:21 UTC. Runs so far: 61. Model: claude-haiku-5-5.
+Updated 2026-11-03 09:26 UTC. Runs so far: 61. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1658 | 31 | -44023.56 | -59899.89 |
+| control | meme | 1660 | 31 | -43887.56 | -59787.89 |
 | control | macro | 34 | 44 | -314.46 | -499.07 |
-| control | all | 1692 | 31 | -44338.02 | -60398.96 |
+| control | all | 1694 | 31 | -44202.02 | -60286.96 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: ARNOLD long at 0.0001055, stop 8.44e-05, target 0.0001477, opened 2026-11-03 07:54 UTC
-- control: Slingoor long at 8.653e-05, stop 6.9224e-05, target 0.000121142, opened 2026-11-03 08:55 UTC
 - control: UNPOOLED long at 5.563e-05, stop 4.4504e-05, target 7.7882e-05, opened 2026-11-03 09:04 UTC
-- control: OMBRO long at 0.0001399, stop 0.00011192, target 0.00019586, opened 2026-11-03 09:14 UTC
+- control: Slingoor long at 0.0001175, stop 9.4e-05, target 0.0001645, opened 2026-11-03 09:26 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED CAPY (time) P&L $53.67 normal, $42.04 pessimistic
+- 2026-11-03 09:26 UTC control: OPENED Slingoor long at 0.0001175 (stop 9.4e-05, target 0.0001645) - control: frozen v3 rules
 
