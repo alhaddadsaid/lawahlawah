@@ -80,6 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $next[$group][$key] = isset($_POST[$group][$key]);
             }
         }
+        $next['analytics'] = ['enabled' => isset($_POST['analytics']['enabled'])];
         foreach ($numbers as $key => [$label, $min, $max, $default]) {
             $value = filter_var($_POST['ads'][$key] ?? null, FILTER_VALIDATE_INT);
             if ($value === false || $value < $min || $value > $max) {
@@ -268,12 +269,21 @@ function push_jwt(array $key, int $now): ?string {
 
 /// The FCM v1 message for one store's topic. Data values must be strings.
 function push_message(string $store, string $title, string $body, array $data): array {
+    $image = $data['image'] ?? null;
+    $note = ['title' => $title, 'body' => $body];
+    $apns = ['payload' => ['aps' => ['sound' => 'default']]];
+    if ($image) {
+        // Android shows it as a big picture by itself; the iPhone needs the app's notification extension.
+        $note['image'] = $image;
+        $apns['payload']['aps']['mutable-content'] = 1;
+        $apns['fcm_options'] = ['image' => $image];
+    }
     return ['message' => [
         'topic' => PUSH_TOPICS[$store],
-        'notification' => ['title' => $title, 'body' => $body],
+        'notification' => $note,
         'data' => array_map('strval', $data),
         'android' => ['priority' => 'high'],
-        'apns' => ['payload' => ['aps' => ['sound' => 'default']]],
+        'apns' => $apns,
     ]];
 }
 
@@ -327,6 +337,12 @@ function push_from_form(array $f, ?array $announcement) {
         $p = parse_url($url);
         if (!$p || empty($p['host']) || !preg_match('/^[A-Za-z0-9.-]+\.[A-Za-z]{2,}$/', $p['host'])) return 'The notification website link is not valid.';
         $data['value'] = $url;
+    }
+    $image = trim((string) ($f['image'] ?? ''));
+    if ($image !== '') {
+        $p = parse_url($image);
+        if (!$p || ($p['scheme'] ?? '') !== 'https' || empty($p['host'])) return 'The picture link must start with https://';
+        $data['image'] = $image;
     }
     return [mb_substr($title, 0, 65), mb_substr($body, 0, 178), $data];
 }
@@ -410,6 +426,7 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
     <button type="button" data-go="news">News &amp; push<?php $n = count($settings['announcements'] ?? []); if ($n): ?> <i><?= $n ?></i><?php endif; ?></button>
     <button type="button" data-go="ads">Ads</button>
     <button type="button" data-go="features">Features</button>
+    <button type="button" data-go="stats">Statistics</button>
     <button type="button" data-go="sites">Websites <i><?= count(is_array($settings['sites'] ?? null) ? $settings['sites'] : []) ?></i></button>
   </nav>
   <form method="post" id="main">
@@ -444,6 +461,7 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
         <?php foreach (PUSH_TARGETS as $v => $label): ?><option value="<?= $v ?>"><?= h($label) ?></option><?php endforeach; ?></select></div>
       <div class="row field"><span>Website link</span><input type="text" placeholder="Only for a website target" name="new_push[url]"></div>
       <div class="row field"><span>Short text</span><input type="text" maxlength="178" placeholder="Optional. Empty uses the start of the text above." name="new_push[body]"></div>
+      <div class="row field"><span>Picture link</span><input type="text" placeholder="Optional https:// link to a picture (a series poster)" name="new_push[image]"></div>
     </div>
     </section>
     <section data-tab="ads">
@@ -481,6 +499,15 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
           <span class="switch"><input type="checkbox" name="features[<?= h($key) ?>]" <?= on($settings, 'features', $key) ? 'checked' : '' ?>><span></span></span></label>
       <?php endforeach; ?>
     </div>
+    </section>
+    <section data-tab="stats">
+    <h2>Usage statistics</h2>
+    <p class="note" style="margin:0 0 12px">Google Analytics (through Firebase) shows how many people use this store's app, new and returning users, sessions, countries and which announcements were opened. It collects nothing until you turn it on here, and then only for people whose consent allows it (where the law asks for consent).</p>
+    <div class="card">
+      <label class="row"><div><b>Usage statistics</b><small>On: counts opens, users and screens in this store's app. Needs the app version that includes it.</small></div>
+        <span class="switch"><input type="checkbox" name="analytics[enabled]" <?= (($settings['analytics']['enabled'] ?? false) === true) ? 'checked' : '' ?>><span></span></span></label>
+    </div>
+    <p class="note" style="margin:16px 0 0"><a href="https://console.firebase.google.com/project/reelway-1d51c/analytics" target="_blank" rel="noopener" style="color:var(--accent)">Open the statistics dashboard</a>. Before turning this on for a store, update that store's privacy answers (App Store privacy details, Google Play data safety): usage data, device identifiers, not linked to identity, used for analytics.</p>
     </section>
     <section data-tab="sites">
     <h2>Websites</h2>
@@ -539,6 +566,7 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
     <div class="row field"><span>Website link</span><input type="text" placeholder="Only for a website target" name="push[url]"></div>
     <div class="row field"><span>Title</span><input type="text" maxlength="65" placeholder="Empty uses the announcement title" name="push[title]"></div>
     <div class="row field"><span>Short text</span><input type="text" maxlength="178" placeholder="Empty uses the start of the announcement text" name="push[body]"></div>
+    <div class="row field"><span>Picture link</span><input type="text" placeholder="Optional https:// link to a picture (a series poster)" name="push[image]"></div>
     <label class="row"><div><b>Yes, send it now</b><small>To <?= h($stores[$store]) ?> only.</small></div><input type="checkbox" name="push_confirm"></label>
     <div class="row"><button type="submit" style="margin:0">Send push notification</button></div>
   </form>
@@ -547,7 +575,7 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
 </div>
 <script>
 (function () {
-  var tabs = ['news', 'ads', 'features', 'sites'], key = 'reelway-admin-tab';
+  var tabs = ['news', 'ads', 'features', 'sites', 'stats'], key = 'reelway-admin-tab';
   function show(name) {
     if (tabs.indexOf(name) < 0) name = 'news';
     document.querySelectorAll('[data-tab]').forEach(function (el) { el.hidden = el.getAttribute('data-tab') !== name; });

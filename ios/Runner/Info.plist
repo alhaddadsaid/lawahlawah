@@ -20,6 +20,10 @@
 	<key>GADApplicationIdentifier</key>
 	<!-- AdMob app "Reelway Browser" (iOS). Test builds use Google's test ad units with it. -->
 	<string>ca-app-pub-7280343659534747~8852134564</string>
+	<key>FIREBASE_ANALYTICS_COLLECTION_ENABLED</key>
+	<false/>
+	<key>GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS</key>
+	<false/>
 	<key>NSUserTrackingUsageDescription</key>
 	<string>Reelway is free thanks to ads. Allowing tracking shows you ads that fit your interests instead of random ones.</string>
 	<key>SKAdNetworkItems</key>

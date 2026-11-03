@@ -4,6 +4,7 @@ import 'package:provider/provider.dart';
 import '../../core/design/tokens.dart';
 import '../../data/announcements.dart';
 import '../../data/remote_config.dart';
+import '../../analytics/analytics_service.dart';
 import '../../push/push_service.dart';
 import '../settings/protection_screen.dart';
 import '../shell/shell.dart';
@@ -43,6 +44,7 @@ class _AnnouncementScreenState extends State<AnnouncementScreen> {
   void initState() {
     super.initState();
     Announcements.instance.markSeen(widget.announcement.id);
+    AnalyticsService.instance.log('announcement_view', {'id': widget.announcement.id});
   }
 
   @override
@@ -145,6 +147,7 @@ class AnnouncementPresenter {
     final context = navigator.currentContext;
     if (nav == null || context == null) return;
     final target = Announcement.parseTarget(data['target']) ?? AnnouncementTarget.announcement;
+    AnalyticsService.instance.log('push_open', {'target': target.name});
     if (target == AnnouncementTarget.announcement) {
       final id = data['id'];
       var a = id is String ? Announcements.instance.byId(id) : null;

@@ -8,6 +8,7 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'ads/ads.dart';
 import 'data/remote_config.dart';
 import 'features/announcements/announcement_screen.dart';
+import 'analytics/analytics_service.dart';
 import 'push/push_service.dart';
 import 'downloads/download_manager.dart';
 
@@ -39,7 +40,12 @@ Future<void> main() async {
   runApp(ReelwayApp(state: app, launches: launches, push: true));
   // After the first frame: Google's consent form and Apple's tracking prompt
   // need the app on screen.
-  WidgetsBinding.instance.addPostFrameCallback((_) => initAds());
+  WidgetsBinding.instance.addPostFrameCallback((_) async {
+    await initAds();
+    // Usage statistics start only when the server switch is on and consent allows.
+    await RemoteConfig.instance.ready.timeout(const Duration(seconds: 4), onTimeout: () {});
+    unawaited(AnalyticsService.instance.apply(analyticsConsentGiven));
+  });
 }
 
 class ReelwayApp extends StatefulWidget {
@@ -100,7 +106,12 @@ class _ReelwayAppState extends State<ReelwayApp> with WidgetsBindingObserver {
     if (state == AppLifecycleState.paused) {
       _leftAt = DateTime.now();
     } else if (state == AppLifecycleState.resumed) {
-      unawaited(RemoteConfig.instance.refresh().then((_) => _announcements.check()));
+      unawaited(
+        RemoteConfig.instance.refresh().then((_) {
+          unawaited(AnalyticsService.instance.apply(analyticsConsentGiven));
+          return _announcements.check();
+        }),
+      );
       final left = _leftAt;
       _leftAt = null;
       final context = _navigator.currentContext;

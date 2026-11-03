@@ -87,6 +87,20 @@ Future<void> _showConsentFormIfRequired() {
   return done.future;
 }
 
+/// Whether usage statistics may run: where the law asks for consent (EU, UK
+/// and a few US states) only after the person agreed in Google's form; where
+/// it does not, always. Unknown or failed checks count as no.
+Future<bool> analyticsConsentGiven() async {
+  if (!_supported) return false;
+  try {
+    if (!await _requestConsentInfo()) return false;
+    final status = await ConsentInformation.instance.getConsentStatus();
+    return status == ConsentStatus.obtained || status == ConsentStatus.notRequired;
+  } catch (_) {
+    return false;
+  }
+}
+
 /// Whether to show a "Privacy choices" entry (required where consent applies).
 Future<bool> privacyOptionsRequired() async {
   if (!_supported) return false;

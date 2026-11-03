@@ -13,6 +13,8 @@ Future<void> maybeShowAppOpenAd(BuildContext context, Duration away, int launche
 
 Future<bool> privacyOptionsRequired() async => false;
 
+Future<bool> analyticsConsentGiven() async => false;
+
 Future<void> showPrivacyOptions() async {}
 
 class BannerAdSlot extends StatelessWidget {
