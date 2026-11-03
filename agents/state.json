@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -35274.09690082724,
+   "cash": -35338.98820517506,
    "open": [
     {
      "id": 1751,
@@ -20,21 +20,6 @@
      "target": 0.0029106,
      "size": 96200.09620009619,
      "deadline": 1793730104.6901488,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1755,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "BINGUS",
-     "mint": "2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat",
-     "side": 1,
-     "opened": 1793725106.6828804,
-     "entry": 0.0001794,
-     "stop": 0.00014352,
-     "target": 0.00025116,
-     "size": 1114827.2017837234,
-     "deadline": 1793732306.6828809,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -66,23 +51,29 @@
      "size": 3317850.0331785004,
      "deadline": 1793733039.854545,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1759,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "2500",
+     "mint": "DaBhddL4WRF1JKiZAruSBYdDmVCH3ocaajFoon89pump",
+     "side": 1,
+     "opened": 1793726198.2865517,
+     "entry": 0.0001351,
+     "stop": 0.00010808000000000001,
+     "target": 0.00018914,
+     "size": 1480384.900074019,
+     "deadline": 1793733398.286552,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1759,
+ "next_id": 1760,
  "runs": 62,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DaBhddL4WRF1JKiZAruSBYdDmVCH3ocaajFoon89pump": 1793726006.59693,
-  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793726006.59693,
-  "control:2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat": 1793726006.682884,
-  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793726191.9508388,
-  "seen:4NcQfPQ6i43DG68VHdGwZvK9SvM6F5FgJV3r2Ytipump": 1793726191.9508388,
-  "seen:Farisr1LVuzWrHBhLmcRwjdAaZAstTnXtRfifFbwLEEK": 1793726191.9508388,
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793726191.9508388,
-  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793726191.9508388,
-  "control:Farisr1LVuzWrHBhLmcRwjdAaZAstTnXtRfifFbwLEEK": 1793726193.0923686,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793726373.0136437,
   "seen:4R2NRji1URHiD2iTaUYC2Wwc8pdANdcLrmm5KkP3raGR": 1793726373.0136437,
   "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793726373.0136437,
@@ -94,7 +85,20 @@
   "seen:ByaRBuSE7KYAjHcb6h1MdK6dbAZv4ycRFmXSdK2Cpump": 1793726739.540098,
   "seen:Ea17SQuUXSV7wDv4kqbFPSjrVr5WmDXBFLJvKR1Mpump": 1793726739.540098,
   "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793726739.540098,
-  "control:2KwPc4FxdNm92DKo6Zy8vUF9sGYsXuKjykXEhXkdpump": 1793726739.8545485
+  "control:2KwPc4FxdNm92DKo6Zy8vUF9sGYsXuKjykXEhXkdpump": 1793726739.8545485,
+  "seen:HekahVohmeokPUhscg5taNme3Qs2fcSQoNgEeUPMpump": 1793726916.9597645,
+  "seen:DaBhddL4WRF1JKiZAruSBYdDmVCH3ocaajFoon89pump": 1793726916.9597645,
+  "seen:4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump": 1793726916.9597645,
+  "seen:9rZR9nCQbaiBvotWVpifN8z1vckVFshnsATuAJrXpump": 1793726916.9597645,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793726916.9597645,
+  "seen:2JPSdYmf9tkKu1ks479jYourtwu8ewAqzkGyXuyXpump": 1793727097.2156513,
+  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793727097.2156513,
+  "seen:3NFRCmPE6DP2FYNqyjYkfuFxJbnjeEovzqff3Em3pump": 1793727097.2156513,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793727097.2156513,
+  "seen:HvASmKaQq2fjvNV5aNzyUHJTaj9r8bR6qCjRMrFbpump": 1793727097.2156513,
+  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793727097.2156513,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793727097.2156513,
+  "control:DaBhddL4WRF1JKiZAruSBYdDmVCH3ocaajFoon89pump": 1793727098.286555
  },
  "talks": {
   "2026-10-21": 109
@@ -135,22 +139,22 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793725291.9597375,
+  "t": 1793726197.224759,
   "crypto": [
+   "Justin Sun seeks sanctions against Trump-linked World Liberty Financial over UAE ties (0h ago)",
    "South Korea's president says country needs a \u2018cybersecurity czar\u2019 following $6.3 billion Binance hack (0h ago)",
    "Wall Street killed Bitcoin\u2019s wild rallies: 10x\u2019s Markus Thielen (0h ago)",
-   "Binance traces $6.3B hack to fake job interviews, compromised AI tool (0h ago)",
+   "Binance traces $6.3B hack to fake job interviews, compromised AI tool (1h ago)",
    "Amazon, Tesla and SpaceX join OKX\u2013ICE tokenized stock objections as deadline looms (1h ago)",
    "Stablecoin governance group behind OUSD sets out management fee, offers equity earning pool (1h ago)",
-   "Bitcoin price defends $76K lows as analysts see stocks pricing in \u2018political gridlock\u2019 (1h ago)",
+   "Bitcoin price defends $76K lows as analysts see stocks pricing in \u2018political gridlock\u2019 (2h ago)",
    "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street (2h ago)",
    "Binance's $6.3 billion hack began with a fake job interview, and a campaign 'built over many months' (2h ago)",
-   "South Korea asks its biggest banks how a major crypto hack would hit them (2h ago)",
-   "CZ warns of more AI-driven hacks following Binance\u2019s historic $6.3 billion heist (3h ago)"
+   "South Korea asks its biggest banks how a major crypto hack would hit them (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Congressional Elections was 1.8h"
+   "USD Congressional Elections was 2.0h"
   ]
  },
  "spend": {
