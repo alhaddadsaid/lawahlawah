@@ -75,8 +75,14 @@ https://other.example.com/s1.m4s?token=abc
 
     test('the bundled server file is valid JSON with the expected switches', () {
       final data = jsonDecode(File('server/config.json').readAsStringSync()) as Map<String, dynamic>;
-      expect((data['ads'] as Map)['enabled'], isTrue);
-      expect((data['features'] as Map)['downloads'], isTrue);
+      // The values are the admin's choice; each store must carry every switch.
+      for (final store in [data, data['android'] as Map<String, dynamic>]) {
+        expect((store['ads'] as Map)['enabled'], isA<bool>());
+        for (final key in ['downloads', 'openVideosInReelway', 'playOnTv', 'blockWebsiteAds']) {
+          expect((store['features'] as Map)[key], isA<bool>(), reason: key);
+        }
+        expect(store['sites'], isA<Map>());
+      }
     });
 
     test('a broken server file is ignored', () async {
