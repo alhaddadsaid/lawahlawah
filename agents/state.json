@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -35149.98727099691,
+   "cash": -35206.241979616454,
    "open": [
-    {
-     "id": 1746,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MOGMAS",
-     "mint": "4yxnt3xAdyBFFbzMWJy9sjGEoiBNkjwdSQZ8ZyULpump",
-     "side": 1,
-     "opened": 1793719973.0477035,
-     "entry": 9.026e-05,
-     "stop": 7.220800000000001e-05,
-     "target": 0.000126364,
-     "size": 2215820.961666297,
-     "deadline": 1793727173.0477037,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1747,
      "desk": "control",
@@ -36,27 +21,44 @@
      "size": 286327.8453829635,
      "deadline": 1793727542.9904406,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1748,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "BINGUS",
+     "mint": "2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat",
+     "side": 1,
+     "opened": 1793720710.4070337,
+     "entry": 0.0002956,
+     "stop": 0.00023647999999999999,
+     "target": 0.00041383999999999995,
+     "size": 676589.9864682003,
+     "deadline": 1793727910.407034,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1749,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "MOGMAS",
+     "mint": "4yxnt3xAdyBFFbzMWJy9sjGEoiBNkjwdSQZ8ZyULpump",
+     "side": 1,
+     "opened": 1793720890.3073332,
+     "entry": 6.365e-05,
+     "stop": 5.092000000000001e-05,
+     "target": 8.910999999999999e-05,
+     "size": 3142183.8177533383,
+     "deadline": 1793728090.3073335,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1748,
+ "next_id": 1750,
  "runs": 62,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793720509.8376312,
-  "seen:4yxnt3xAdyBFFbzMWJy9sjGEoiBNkjwdSQZ8ZyULpump": 1793720509.8376312,
-  "seen:3BYsMuwp2J6Z2mDEzS1EAapjrqxctcfct1MG2ZpzfgoR": 1793720692.2585611,
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793720692.2585611,
-  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793720692.2585611,
-  "seen:2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat": 1793720692.2585611,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793720692.2585611,
-  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793720692.2585611,
-  "control:2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat": 1793720693.0759037,
-  "seen:Cbtnpg6SL9jvZxtZTYYFPtVQXkuuqSUxCU5aXeTkpump": 1793720872.9692342,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793720872.9692342,
-  "seen:1iciUXUNo7XDbua4rUq4QKreQCCN7kiUhVSjQFKpump": 1793720872.9692342,
-  "control:4yxnt3xAdyBFFbzMWJy9sjGEoiBNkjwdSQZ8ZyULpump": 1793720873.0477068,
   "seen:EeB1b7mcsQCYRpGqov93r9kV9fh3Bmh1Bq2haJ2ypump": 1793721057.6316648,
   "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793721057.6316648,
   "seen:4nuj5NLHMtQSezfmz6CwBpCRJisFie6F6MxNNz1dpump": 1793721057.6316648,
@@ -64,7 +66,21 @@
   "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793721242.7885516,
   "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793721242.7885516,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793721242.7885516,
-  "control:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793721242.990444
+  "control:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793721242.990444,
+  "seen:2HwDNwSpk1eEgiZgbud5vc7KSmdk3o5GockZyAs62GS9": 1793721424.6286023,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793721424.6286023,
+  "seen:4yxnt3xAdyBFFbzMWJy9sjGEoiBNkjwdSQZ8ZyULpump": 1793721424.6286023,
+  "seen:3cJ2uPXFwXbhpuP89orEuQUcwzQtA8dF6UVneDedpump": 1793721609.5468829,
+  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793721609.5468829,
+  "seen:2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat": 1793721609.5468829,
+  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793721609.5468829,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793721609.5468829,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793721609.5468829,
+  "seen:nE1nbYV8xFuJPafuh3Ywctc8tWk5x33p9fTtJWaZPKk": 1793721609.5468829,
+  "control:2HbNwnhiL8HBK5mkdrcB9nbDxknPqGmJdXrtuH5fLoat": 1793721610.4070373,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793721790.106682,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793721790.106682,
+  "control:4yxnt3xAdyBFFbzMWJy9sjGEoiBNkjwdSQZ8ZyULpump": 1793721790.307337
  },
  "talks": {
   "2026-10-21": 109
@@ -105,13 +121,13 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793719792.2671525,
+  "t": 1793720709.5555494,
   "crypto": [
-   "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street (0h ago)",
+   "CFTC clears perpetual futures on stocks, bringing crypto trading model to Wall Street (1h ago)",
    "Binance's $6.3 billion hack began with a fake job interview, exchange says (1h ago)",
    "South Korea asks its biggest banks how a major crypto hack would hit them (1h ago)",
    "CZ warns of more AI-driven hacks following Binance\u2019s historic $6.4 billion heist (1h ago)",
-   "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia (1h ago)",
+   "LO:TECH raises $12 million to expand crypto trading into U.S. and Asia (2h ago)",
    "What\u2019s at stake for crypto as the US votes in the 2026 midterms? (2h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "Moscow Exchange to launch Bitcoin, Ether and USDT trading in December (2h ago)",
@@ -120,7 +136,7 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Congressional Elections was 0.2h"
+   "USD Congressional Elections was 0.5h"
   ]
  },
  "spend": {
@@ -151,5 +167,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793719240.3493977
+ "last_macro_macro": 1793720524.6370945
 }
