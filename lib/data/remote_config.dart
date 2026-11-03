@@ -12,6 +12,15 @@ import 'package:shared_preferences/shared_preferences.dart';
 ///     {"ads": {"enabled": true, "banner": true, "interstitial": true, ...},
 ///      "features": {"downloads": true, "playOnTv": true, ...}}
 ///
+/// The top-level settings are the App Store (iPhone) ones. The Play Store app
+/// reads its own block, "android", with the same keys, so each store is set
+/// apart in the admin:
+///
+///     {"ads": {...}, "features": {...}, "sites": {...},
+///      "android": {"ads": {...}, "features": {...}, "sites": {...}}}
+///
+/// A key missing from "android" falls back to the top-level one.
+///
 /// The last good copy is kept on the device, so the app starts with it even
 /// offline. Anything missing falls back to the defaults in code.
 class RemoteConfig extends ChangeNotifier {
@@ -46,8 +55,21 @@ class RemoteConfig extends ChangeNotifier {
   }
 
   Object? _lookup(String path) {
-    Object? node = _data;
-    for (final key in path.split('.')) {
+    final keys = path.split('.');
+    final store = _storeSettings;
+    return _walk(store != null && store.containsKey(keys.first) ? store : _data, keys);
+  }
+
+  /// The Play Store block on Android; null on iOS (top-level settings).
+  Map<dynamic, dynamic>? get _storeSettings {
+    if (defaultTargetPlatform != TargetPlatform.android) return null;
+    final android = _data['android'];
+    return android is Map ? android : null;
+  }
+
+  static Object? _walk(Object? root, List<String> keys) {
+    Object? node = root;
+    for (final key in keys) {
       if (node is! Map) return null;
       node = node[key];
     }

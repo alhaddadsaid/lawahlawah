@@ -147,9 +147,12 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
   @override
   bool get wantKeepAlive => true;
 
-  /// Whether the page shown is on a site whose own ads are allowed, so the
-  /// tab runs without ad rules (admin "Website's own ads").
-  late bool _adsAllowed = adsAllowedOn(widget.tab.url);
+  /// Whether this tab runs with ad rules now: website ad blocking is on (the
+  /// server's switch wins over the app setting) and the page is not on a site
+  /// whose own ads are allowed (admin "Website's own ads").
+  late bool _rulesOn = _wantsRules(widget.tab.url);
+
+  bool _wantsRules(Uri? url) => websiteAdBlocking(widget.settings.blockWebsiteAds) && !adsAllowedOn(url);
 
   @override
   void initState() {
@@ -163,24 +166,27 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
     super.dispose();
   }
 
-  /// The server's site list changed: apply it to the page already open.
+  /// The server's settings changed: apply them to the page already open.
   void _onConfig() => unawaited(_matchAdRules(widget.tab.url));
 
-  /// Drops the ad rules on sites whose own ads are allowed and puts them back
-  /// elsewhere. Only touches the webview when that changes.
+  /// Drops the ad rules on sites whose own ads are allowed (or when blocking
+  /// is off) and puts them back elsewhere. Only touches the webview when that
+  /// changes.
   Future<void> _matchAdRules(Uri? url) async {
-    final allowed = adsAllowedOn(url);
-    if (allowed == _adsAllowed) return;
-    _adsAllowed = allowed;
+    final on = _wantsRules(url);
+    if (on == _rulesOn) return;
+    _rulesOn = on;
     await _refreshSettings();
   }
 
   @override
   void didUpdateWidget(covariant BrowserView oldWidget) {
     super.didUpdateWidget(oldWidget);
-    if (oldWidget.settings.blockWebsiteAds != widget.settings.blockWebsiteAds ||
-        oldWidget.settings.blockThirdPartyCookies != widget.settings.blockThirdPartyCookies) {
+    if (oldWidget.settings.blockThirdPartyCookies != widget.settings.blockThirdPartyCookies) {
+      _rulesOn = _wantsRules(widget.tab.url);
       unawaited(_refreshSettings());
+    } else if (oldWidget.settings.blockWebsiteAds != widget.settings.blockWebsiteAds) {
+      unawaited(_matchAdRules(widget.tab.url));
     }
   }
 
@@ -253,7 +259,7 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
     // Android's full identity is set above; the suffix is for iOS only.
     applicationNameForUserAgent: defaultTargetPlatform == TargetPlatform.iOS ? BrowserUserAgent.iosSuffix : '',
     sharedCookiesEnabled: true,
-    contentBlockers: widget.settings.blockWebsiteAds && !_adsAllowed ? browserAdRules() : [],
+    contentBlockers: _rulesOn ? browserAdRules() : [],
     useShouldOverrideUrlLoading: true,
     useOnDownloadStart: true,
     // Android needs these so window.open reaches onCreateWindow, where the

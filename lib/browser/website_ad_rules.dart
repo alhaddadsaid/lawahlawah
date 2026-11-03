@@ -4,6 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 
+import '../data/remote_config.dart';
 import 'site_profiles.dart';
 
 /// Common advertising networks. Also used to ignore ad videos when the
@@ -83,6 +84,14 @@ List<ContentBlocker> browserAdRules() {
           for (final host in {...adNetworkHosts, ...AdDomains._all}) _block(host),
         ]
       : [for (final host in adNetworkHosts) _block(host)];
+}
+
+/// Whether website ad blocking is on. The server's "Block website ads" switch
+/// for this store (features.blockWebsiteAds) wins; without it, the app's own
+/// setting decides.
+bool websiteAdBlocking(bool appSetting) {
+  final server = RemoteConfig.instance.value('features.blockWebsiteAds');
+  return server is bool ? server : appSetting;
 }
 
 /// Whether the page at [url] is on a site whose own ads are left alone here.

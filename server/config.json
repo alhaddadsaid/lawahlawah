@@ -1,28 +1,191 @@
 {
-  "ads": {
-    "enabled": true,
-    "banner": true,
-    "interstitial": true,
-    "appOpen": true,
-    "interstitialEveryEpisodes": 3,
-    "interstitialCooldownSeconds": 90,
-    "appOpenCooldownMinutes": 4
-  },
-  "features": {
-    "downloads": true,
-    "openVideosInReelway": true,
-    "playOnTv": true
-  },
-  "sites": {
-    "narto-drama.com": {
-      "seriesPath": "^/detail/watch/"
+    "ads": {
+        "enabled": false,
+        "banner": false,
+        "interstitial": true,
+        "appOpen": true,
+        "interstitialEveryEpisodes": 3,
+        "interstitialCooldownSeconds": 30,
+        "appOpenCooldownMinutes": 5
     },
-    "liderdrama.com": {
-      "episodes": "param",
-      "param": "ep"
+    "features": {
+        "downloads": false,
+        "openVideosInReelway": true,
+        "playOnTv": false,
+        "blockWebsiteAds": true
     },
-    "chartdrama.com": {
-      "episodes": "buttons"
+    "sites": {
+        "narto-drama.com": {
+            "name": "Narto Drama",
+            "url": "https://narto-drama.com/?lang=en-US&tab-provider=bibishort",
+            "seriesPath": "^/detail/watch/"
+        },
+        "liderdrama.com": {
+            "name": "LiderDrama",
+            "url": "https://liderdrama.com/",
+            "episodes": "param",
+            "param": "ep"
+        },
+        "chartdrama.com": {
+            "name": "ChartDrama",
+            "url": "https://www.chartdrama.com/",
+            "episodes": "buttons"
+        },
+        "wheredrama.com": {
+            "name": "WhereDrama",
+            "url": "https://www.wheredrama.com/"
+        },
+        "dramafren.org": {
+            "name": "DramaFren",
+            "url": "https://dramafren.org/"
+        },
+        "dramatap.app": {
+            "name": "DramaTap",
+            "url": "https://dramatap.app/"
+        },
+        "kiligdrama.com": {
+            "name": "KiligDrama",
+            "url": "https://kiligdrama.com/en"
+        },
+        "dramaexpress.net": {
+            "name": "DramaExpress",
+            "url": "https://dramaexpress.net/"
+        },
+        "dramatip.net": {
+            "name": "DramaTip",
+            "url": "https://dramatip.net/"
+        },
+        "dramakizz.online": {
+            "name": "DramaKizz",
+            "url": "https://dramakizz.online/"
+        },
+        "reelfren.com": {
+            "name": "ReelFren",
+            "url": "https://reelfren.com/",
+            "param": "ep"
+        },
+        "shortflix.net": {
+            "name": "ShortFlix",
+            "url": "https://www.shortflix.net/home"
+        },
+        "ngeshorts.fun": {
+            "name": "ShortMax (ngeshorts)",
+            "url": "https://shortmax.ngeshorts.fun/"
+        },
+        "pocketsaga.com": {
+            "name": "PocketSaga",
+            "url": "https://pocketsaga.com/"
+        },
+        "dramadunyam.com": {
+            "name": "DramaDunyam",
+            "url": "https://dramadunyam.com/"
+        },
+        "shortpeak.tv": {
+            "name": "ShortPeak",
+            "url": "https://shortpeak.tv/"
+        },
+        "sagabox.tv": {
+            "name": "SagaBox",
+            "url": "https://sagabox.tv/"
+        },
+        "dramasnack.tv": {
+            "name": "DramaSnack",
+            "url": "https://dramasnack.tv/"
+        },
+        "hotplot.ai": {
+            "name": "Hotplot",
+            "url": "https://hotplot.ai/en-US"
+        },
+        "dailymotion.com": {
+            "name": "Dailymotion",
+            "url": "https://www.dailymotion.com/"
+        },
+        "tiktok.com": {
+            "name": "TikTok",
+            "url": "https://www.tiktok.com/"
+        },
+        "youtube.com": {
+            "name": "YouTube",
+            "url": "https://m.youtube.com/",
+            "allowAds": "all"
+        },
+        "rumble.com": {
+            "name": "Rumble",
+            "url": "https://rumble.com/"
+        },
+        "viki.com": {
+            "name": "Rakuten Viki",
+            "url": "https://www.viki.com/"
+        },
+        "iq.com": {
+            "name": "iQIYI",
+            "url": "https://www.iq.com/?lang=en_us"
+        },
+        "wetv.vip": {
+            "name": "WeTV",
+            "url": "https://wetv.vip/en"
+        },
+        "fmhy.net": {
+            "name": "FMHY",
+            "url": "https://fmhy.net/"
+        },
+        "facebook.com": {
+            "name": "Facebook",
+            "url": "https://m.facebook.com/",
+            "allowAds": "android"
+        }
+    },
+    "android": {
+        "ads": {
+            "enabled": false,
+            "banner": false,
+            "interstitial": true,
+            "appOpen": true,
+            "interstitialEveryEpisodes": 3,
+            "interstitialCooldownSeconds": 30,
+            "appOpenCooldownMinutes": 5
+        },
+        "features": {
+            "downloads": false,
+            "openVideosInReelway": false,
+            "playOnTv": false,
+            "blockWebsiteAds": true
+        },
+        "sites": {
+            "youtube.com": {
+                "name": "YouTube",
+                "url": "https://m.youtube.com/",
+                "allowAds": "all"
+            },
+            "facebook.com": {
+                "name": "Facebook",
+                "url": "https://m.facebook.com/",
+                "allowAds": "all"
+            },
+            "dailymotion.com": {
+                "name": "Dailymotion",
+                "url": "https://www.dailymotion.com/"
+            },
+            "tiktok.com": {
+                "name": "TikTok",
+                "url": "https://www.tiktok.com/"
+            },
+            "rumble.com": {
+                "name": "Rumble",
+                "url": "https://rumble.com/"
+            },
+            "viki.com": {
+                "name": "Rakuten Viki",
+                "url": "https://www.viki.com/"
+            },
+            "iq.com": {
+                "name": "iQIYI",
+                "url": "https://www.iq.com/?lang=en_us"
+            },
+            "wetv.vip": {
+                "name": "WeTV",
+                "url": "https://wetv.vip/en"
+            }
+        }
     }
-  }
 }

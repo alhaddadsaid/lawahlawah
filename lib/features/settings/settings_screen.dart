@@ -6,6 +6,8 @@ import 'package:provider/provider.dart';
 
 import '../../core/design/tokens.dart';
 import '../../browser/browser_data.dart';
+import '../../browser/website_ad_rules.dart';
+import '../../data/remote_config.dart';
 import 'protection_screen.dart';
 import '../../data/models/user_settings.dart';
 import '../../data/repositories/app_state.dart';
@@ -52,14 +54,23 @@ class SettingsScreen extends StatelessWidget {
             ),
           ]),
           _Group('Browser', [
-            SwitchListTile(
-              title: const Text('Block website ads'),
-              subtitle: const Text(
-                "Blocks known ad networks (EasyList). Sites whose own ads are allowed, like YouTube, keep them.",
+            // Reelway's server can set this for everyone; then it shows as set.
+            if (RemoteConfig.instance.value('features.blockWebsiteAds') is bool)
+              SwitchListTile(
+                title: const Text('Block website ads'),
+                subtitle: const Text('Set by Reelway. Sites whose own ads are allowed, like YouTube, keep them.'),
+                value: websiteAdBlocking(s.blockWebsiteAds),
+                onChanged: null,
+              )
+            else
+              SwitchListTile(
+                title: const Text('Block website ads'),
+                subtitle: const Text(
+                  'Blocks known ad networks (EasyList). Sites whose own ads are allowed, like YouTube, keep them.',
+                ),
+                value: s.blockWebsiteAds,
+                onChanged: (value) => set((s) => s.copyWith(blockWebsiteAds: value)),
               ),
-              value: s.blockWebsiteAds,
-              onChanged: (value) => set((s) => s.copyWith(blockWebsiteAds: value)),
-            ),
             SwitchListTile(
               title: const Text('Open videos in Reelway'),
               subtitle: const Text('When a website plays an episode or shows a series, continue in Reelway'),

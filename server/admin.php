@@ -1,6 +1,8 @@
 <?php
 // Reelway admin: edits /var/www/reelbrow/config.json, which the app reads at
 // every start. Protected by nginx basic auth (/etc/nginx/reelbrow-admin.htpasswd).
+// Two stores, set apart: the App Store (iPhone) app reads the top-level keys,
+// the Play Store (Android) app reads the "android" block with the same keys.
 declare(strict_types=1);
 
 session_start();
@@ -17,6 +19,7 @@ $switches = [
         'downloads' => ['Downloads', 'Download button in the player and Downloads in the Library.'],
         'openVideosInReelway' => ['Open videos in Reelway', 'Videos and series move into Reelway by themselves.'],
         'playOnTv' => ['Play on TV', 'Chromecast button in the player.'],
+        'blockWebsiteAds' => ['Block website ads', 'Blocks ad networks on websites. Wins over the setting inside the app. Sites set to "Allowed" below keep their own ads.'],
     ],
 ];
 $numbers = [
@@ -27,6 +30,15 @@ $numbers = [
 
 $config = json_decode((string) @file_get_contents(CONFIG), true);
 if (!is_array($config)) $config = [];
+$stores = ['ios' => 'App Store (iPhone)', 'android' => 'Play Store (Android)'];
+$store = (string) ($_POST['store'] ?? $_GET['store'] ?? 'ios');
+if (!isset($stores[$store])) $store = 'ios';
+/// The settings of one store: top level for iPhone, "android" for Android.
+function store_settings(array $config, string $store): array {
+    if ($store === 'ios') { unset($config['android']); return $config; }
+    return is_array($config['android'] ?? null) ? $config['android'] : [];
+}
+$settings = store_settings($config, $store);
 $saved = false;
 $error = null;
 
@@ -36,7 +48,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (!hash_equals($_SESSION['csrf'], (string) ($_POST['csrf'] ?? ''))) {
         $error = 'The page expired. Reload it and try again.';
     } else {
-        $next = $config;
+        $next = $settings;
         foreach ($switches as $group => $items) {
             foreach ($items as $key => $_) {
                 $next[$group][$key] = isset($_POST[$group][$key]);
@@ -77,6 +89,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             if ($error === null) $next['sites'] = $sites ?: new stdClass();
         }
         if ($error === null) {
+            // Put this store's settings back; the other store is untouched.
+            if ($store === 'ios') {
+                if (isset($config['android'])) $next['android'] = $config['android'];
+            } else {
+                $next = array_merge($config, ['android' => $next]);
+            }
             $json = json_encode($next, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES) . "\n";
             @copy(CONFIG, CONFIG . '.previous');
             $tmp = CONFIG . '.tmp';
@@ -84,6 +102,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 $error = 'Could not save. Check that www-data can write ' . CONFIG . '.';
             } else {
                 $config = $next;
+                $settings = store_settings($config, $store);
                 $saved = true;
             }
         }
@@ -117,8 +136,8 @@ function site_from_form(array $row, string $domain) {
         $site['seriesPath'] = $path;
     }
     if (!isset($row['autoOpen'])) $site['autoOpen'] = false;
-    $ads = (string) ($row['allowAds'] ?? '');
-    if (in_array($ads, ['android', 'all'], true)) $site['allowAds'] = $ads;
+    // Each store has its own list, so "Allowed" simply means on this store.
+    if ((string) ($row['allowAds'] ?? '') === 'all') $site['allowAds'] = 'all';
     if (isset($row['featured'])) $site['featured'] = true;
     return $site;
 }
@@ -168,40 +187,45 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
   .adv { display: block; }
   .adv summary { cursor: pointer; color: var(--muted); }
   .adv .field { margin-top: 10px; }
+  .tabs { display: flex; gap: 8px; margin: 0 0 8px; }
+  .tabs a { flex: 1; text-align: center; padding: 12px 8px; border-radius: 14px; border: 1px solid var(--line); background: var(--surface); color: var(--muted); text-decoration: none; font-weight: 600; font-size: 15px; }
+  .tabs a.on { background: var(--accent); border-color: var(--accent); color: #fff; }
 </style>
 </head>
 <body>
 <div class="wrap">
   <h1>Reelway admin</h1>
-  <p class="note">Changes reach every iPhone the next time the app opens.</p>
-  <?php if ($saved): ?><div class="msg ok">Saved. The app uses these settings on its next start.</div><?php endif; ?>
+  <nav class="tabs"><?php foreach ($stores as $k => $label): ?><a href="?store=<?= $k ?>" class="<?= $k === $store ? 'on' : '' ?>"><?= h($label) ?></a><?php endforeach; ?></nav>
+  <p class="note">You are editing the <b><?= h($stores[$store]) ?></b> app only. Changes reach it when the app opens or comes back to the screen.</p>
+  <?php if ($saved): ?><div class="msg ok">Saved for <?= h($stores[$store]) ?>.</div><?php endif; ?>
   <?php if ($error): ?><div class="msg err"><?= h($error) ?></div><?php endif; ?>
   <form method="post">
     <input type="hidden" name="csrf" value="<?= h($_SESSION['csrf']) ?>">
+    <input type="hidden" name="store" value="<?= h($store) ?>">
     <h2>Ads</h2>
     <div class="card">
       <?php foreach ($switches['ads'] as $key => [$label, $hint]): ?>
         <label class="row"><div><b><?= h($label) ?></b><small><?= h($hint) ?></small></div>
-          <span class="switch"><input type="checkbox" name="ads[<?= h($key) ?>]" <?= on($config, 'ads', $key) ? 'checked' : '' ?>><span></span></span></label>
+          <span class="switch"><input type="checkbox" name="ads[<?= h($key) ?>]" <?= on($settings, 'ads', $key) ? 'checked' : '' ?>><span></span></span></label>
       <?php endforeach; ?>
     </div>
     <h2>Ad frequency</h2>
     <div class="card">
       <?php foreach ($numbers as $key => [$label, $min, $max, $default]): ?>
         <label class="row"><div><b><?= h($label) ?></b><small><?= $min ?> to <?= $max ?></small></div>
-          <input type="number" name="ads[<?= h($key) ?>]" min="<?= $min ?>" max="<?= $max ?>" value="<?= (int) ($config['ads'][$key] ?? $default) ?>"></label>
+          <input type="number" name="ads[<?= h($key) ?>]" min="<?= $min ?>" max="<?= $max ?>" value="<?= (int) ($settings['ads'][$key] ?? $default) ?>"></label>
       <?php endforeach; ?>
     </div>
     <h2>Features</h2>
     <div class="card">
       <?php foreach ($switches['features'] as $key => [$label, $hint]): ?>
         <label class="row"><div><b><?= h($label) ?></b><small><?= h($hint) ?></small></div>
-          <span class="switch"><input type="checkbox" name="features[<?= h($key) ?>]" <?= on($config, 'features', $key) ? 'checked' : '' ?>><span></span></span></label>
+          <span class="switch"><input type="checkbox" name="features[<?= h($key) ?>]" <?= on($settings, 'features', $key) ? 'checked' : '' ?>><span></span></span></label>
       <?php endforeach; ?>
     </div>
     <h2>Websites</h2>
     <p class="note" style="margin:0 0 12px">Add a site with its link: Reelway detects its episodes automatically. Advanced settings are only for sites that need special handling.</p>
-    <?php $sites = is_array($config['sites'] ?? null) ? $config['sites'] : []; ?>
+    <?php $sites = is_array($settings['sites'] ?? null) ? $settings['sites'] : []; ?>
     <?php foreach ($sites as $domain => $site): $site = is_array($site) ? $site : []; $d = h((string) $domain); ?>
       <div class="card site">
         <div class="row"><div><b><?= h((string) ($site['name'] ?? $domain)) ?></b><small><?= $d ?></small></div>
@@ -213,8 +237,9 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
         <label class="row"><div><b>Open videos in Reelway</b><small>Off keeps this site's videos in the browser.</small></div>
           <span class="switch"><input type="checkbox" name="sites[<?= $d ?>][autoOpen]" <?= ($site['autoOpen'] ?? true) ? 'checked' : '' ?>><span></span></span></label>
         <div class="row field"><span>Website's own ads</span><select name="sites[<?= $d ?>][allowAds]">
-          <?php foreach (['' => 'Blocked (pop-up protection on)', 'android' => 'Allowed on Android only', 'all' => 'Allowed everywhere'] as $v => $label): ?>
-            <option value="<?= $v ?>" <?= (string) ($site['allowAds'] ?? '') === $v ? 'selected' : '' ?>><?= $label ?></option>
+          <?php $allowed = ($site['allowAds'] ?? '') === 'all' || ($store === 'android' && ($site['allowAds'] ?? '') === 'android'); ?>
+          <?php foreach (['' => 'Blocked (pop-up protection on)', 'all' => 'Allowed'] as $v => $label): ?>
+            <option value="<?= $v ?>" <?= ($v === 'all') === $allowed ? 'selected' : '' ?>><?= $label ?></option>
           <?php endforeach; ?></select></div>
         <details class="row adv"><summary>Advanced</summary>
           <div class="field"><span>Episodes</span><select name="sites[<?= $d ?>][episodes]">
@@ -231,7 +256,7 @@ function h(string $s): string { return htmlspecialchars($s, ENT_QUOTES); }
       <div class="row field"><span>Name</span><input type="text" name="new_site[name]" placeholder="LiderDrama"></div>
       <div class="row field"><span>Link</span><input type="text" name="new_site[url]" placeholder="https://"></div>
     </div>
-    <button type="submit">Save</button>
+    <button type="submit">Save <?= h($stores[$store]) ?></button>
   </form>
 </div>
 </body>

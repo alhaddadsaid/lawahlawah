@@ -75,12 +75,46 @@ void main() {
     expect(SiteProfiles.forUrl(Uri.parse('https://facebook.com/')).allowAds, AdsException.android);
     // Tests run as Android by default.
     expect(SiteProfiles.adsAllowedSites(), ['facebook.com', 'youtube.com']);
+    // Each store reads its own site list.
+    RemoteConfig.instance.debugSet({
+      'sites': {
+        'youtube.com': {'allowAds': 'all'},
+      },
+      'android': {
+        'sites': {
+          'dailymotion.com': {'allowAds': 'all'},
+        },
+      },
+    });
+    expect(SiteProfiles.adsAllowedSites(), ['dailymotion.com']);
+    RemoteConfig.instance.debugSet({
+      'sites': {
+        'youtube.com': {'allowAds': 'all'},
+        'facebook.com': {'allowAds': 'android'},
+      },
+    });
     // A tab on these sites runs without ad rules; other pages keep them.
     expect(adsAllowedOn(Uri.parse('https://m.youtube.com/watch?v=x')), isTrue);
     expect(adsAllowedOn(Uri.parse('https://www.facebook.com/')), isTrue);
     expect(adsAllowedOn(Uri.parse('https://example.com/')), isFalse);
     expect(adsAllowedOn(Uri.parse('about:blank')), isFalse);
     expect(adsAllowedOn(null), isFalse);
+    // The server's switch for this store wins over the app setting.
+    expect(websiteAdBlocking(true), isTrue);
+    RemoteConfig.instance.debugSet({
+      'features': {'blockWebsiteAds': true},
+      'android': {
+        'features': {'blockWebsiteAds': false},
+      },
+    });
+    // Tests run as Android: the Play Store block is used.
+    expect(websiteAdBlocking(true), isFalse);
+    RemoteConfig.instance.debugSet({
+      'features': {'blockWebsiteAds': false},
+    });
+    // No Play Store value: the App Store one applies.
+    expect(websiteAdBlocking(true), isFalse);
+    RemoteConfig.instance.debugSet(const {});
     // The rules themselves never carry an exception entry.
     expect(browserAdRules().every((r) => r.action.type == ContentBlockerActionType.BLOCK), isTrue);
   });
