@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -38500.837040923776,
+   "cash": -38700.86538423715,
    "open": [
-    {
-     "id": 1841,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CHATBLT",
-     "mint": "BM1Q9KfjgVoERj1eipkPqueMvhz1kfkUfE835ZjJpump",
-     "side": 1,
-     "opened": 1793782686.5925906,
-     "entry": 7.515e-05,
-     "stop": 6.012e-05,
-     "target": 0.00010520999999999999,
-     "size": 2661343.9787092484,
-     "deadline": 1793789886.5925913,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1844,
      "desk": "control",
@@ -59,24 +44,22 @@
  "runs": 65,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GJam2w9yczvryb19MawYw7kejTdDBCWMphoUPXYzpump": 1793785419.851342,
-  "seen:4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump": 1793785419.851342,
-  "seen:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1793785419.851342,
-  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793785419.851342,
-  "seen:6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1793785419.851342,
-  "seen:euro5sNHrZC2wu2RoLvy6xxoVMc3Qnd1vjxoWf4MftA": 1793785604.3897033,
-  "seen:CJPcE5AMw6v9nPpU2mKvpZgizAo6XnCGCXLSVofMpump": 1793785604.3897033,
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793785604.3897033,
-  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793785604.3897033,
-  "control:4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump": 1793785604.4406536,
-  "seen:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793785787.8445723,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793785787.8445723,
-  "control:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793785787.906162,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793785973.6154215,
-  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793785973.6154215,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1793785973.6154215,
-  "seen:9bz8ubx6D676wPJGeEwvgJHnB84mqR23KQ26zdsZpump": 1793785973.6154215,
-  "seen:HmKbZB1y55y2ssfqVS4uvC5UNsy4LA9dHFD6QsKcETUJ": 1793786151.9372058
+  "seen:GJam2w9yczvryb19MawYw7kejTdDBCWMphoUPXYzpump": 1793786335.7923574,
+  "seen:4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump": 1793786335.7923574,
+  "seen:6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1793786335.7923574,
+  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793786335.7923574,
+  "seen:BM1Q9KfjgVoERj1eipkPqueMvhz1kfkUfE835ZjJpump": 1793786335.7923574,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793786335.7923574,
+  "seen:DGKTBcy11HGj2N6cQonmRTHjf3wyvseH743Hju6cgR2N": 1793786519.7029579,
+  "seen:CJPcE5AMw6v9nPpU2mKvpZgizAo6XnCGCXLSVofMpump": 1793786519.7029579,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793786519.7029579,
+  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793786519.7029579,
+  "seen:F41tbXYgnCCmPfeoFSYWXNnH9uQBb2GR5oru3W28pump": 1793786703.2736874,
+  "seen:euro5sNHrZC2wu2RoLvy6xxoVMc3Qnd1vjxoWf4MftA": 1793786703.2736874,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793786703.2736874,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793786886.0067348,
+  "seen:9bz8ubx6D676wPJGeEwvgJHnB84mqR23KQ26zdsZpump": 1793786886.0067348,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793787069.126149
  },
  "talks": {
   "2026-10-21": 109
@@ -117,18 +100,18 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793784519.8602808,
+  "t": 1793785435.8013499,
   "crypto": [
+   "Bitcoin ETFs lose $1.16B as Bitwise calls selling \u2018short-term\u2019 (0h ago)",
+   "US midterm elections 2026 live: Democrats win House, securing control of Congress (0h ago)",
    "Morgan Stanley says it is among the first banks to tokenize real world assets (0h ago)",
    "Binance hackers move 81% of stolen Solana, route funds via THORChain (0h ago)",
-   "US midterm elections 2026 live: Democrats win House, securing control of Congress (1h ago)",
-   "Zcash grants committee drops plan to redirect 98,000 ZEC to future mining rewards (1h ago)",
+   "Zcash grants committee drops plan to redirect 98,000 ZEC to future mining rewards (2h ago)",
    "Democrats win US House to secure control of Congress in midterms (2h ago)",
    "Bitcoin bounces from 7-week low under $76K as Democrats sweep Congress (2h ago)",
    "Bitcoin surges to $78,300 in V-shaped comeback as midterm election uncertainty fades (3h ago)",
-   "Jack Dorsey's Block faces $764 million DOJ settlement as bitcoin profit plunges 50% (3h ago)",
-   "Here\u2019s what happened in crypto today (3h ago)",
-   "Ethereum dev targets 2028 for quantum resistance, a year early (4h ago)"
+   "Jack Dorsey's Block faces $764 million DOJ settlement as bitcoin profit plunges 50% (4h ago)",
+   "Here\u2019s what happened in crypto today (4h ago)"
   ],
   "macro": [],
   "calendar": []
