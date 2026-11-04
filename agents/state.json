@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -39977.15879952176,
+   "cash": -40051.990145945325,
    "open": [
     {
      "id": 1847,
@@ -66,21 +66,6 @@
      "size": 1831501.8315018315,
      "deadline": 1793830628.2946231,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1887,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "AI",
-     "mint": "AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump",
-     "side": 1,
-     "opened": 1793824528.4166462,
-     "entry": 0.0001426,
-     "stop": 0.00011408,
-     "target": 0.00019963999999999998,
-     "size": 1402524.5441795231,
-     "deadline": 1793831728.4166465,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,21 +74,6 @@
  "runs": 66,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6gnB2H2hbTVvKUWCzNuqjWY8Rod6EVBmfHi7YxZpTWa7": 1793824693.4998755,
-  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793824693.4998755,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793824693.4998755,
-  "seen:42qKoGmEPTRJsa5jWrYwpydL8RkBwMvg2ykYVoerpump": 1793824693.4998755,
-  "seen:89kDPPhuQm5jd55Ci2rgmMf5L2d3u3nVeu1ipQEqpump": 1793824878.144678,
-  "seen:m4EcocTisMQiD9DU9Azwo1oVWfHDyG1tUHvq17rpump": 1793824878.144678,
-  "seen:J1jZ2kLdEXwkr5sNMRyg8bTtmAMQDxE71JYQCqSqCrsu": 1793824878.144678,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793824878.144678,
-  "control:J1jZ2kLdEXwkr5sNMRyg8bTtmAMQDxE71JYQCqSqCrsu": 1793824878.2172515,
-  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793825058.9980874,
-  "seen:Db6avgskUko5taVMnK2YJHwdZTpJgv4EX9ibeeK2pump": 1793825058.9980874,
-  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793825058.9980874,
-  "seen:9VHCDisE9pybDt5eCuKv1AyddCx8gksuxpoWi6vjpump": 1793825058.9980874,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793825058.9980874,
-  "seen:6cZ4ScvfMYTVhbYWUecXTAZxgr5YfDyEFyVMDi8qpump": 1793825058.9980874,
   "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793825243.5762663,
   "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793825243.5762663,
   "seen:22rWiyDiY9GgxSrFiWC2vX1GxNxjkvrRPmZJDzv9pq6X": 1793825243.5762663,
@@ -114,7 +84,19 @@
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793825428.3331409,
   "seen:HEb2dwDNbBhnrCusoNXXvba9MymYTTmMQcHKaptxmfun": 1793825428.3331409,
   "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793825428.3331409,
-  "control:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793825428.4166489
+  "control:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793825428.4166489,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793825609.1205802,
+  "seen:6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1793825609.1205802,
+  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793825609.1205802,
+  "seen:ERs7y4nMGLFVmHcXyDxiS7iDKpp4jWHz2VUuE2gxpump": 1793825793.9703028,
+  "seen:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793825793.9703028,
+  "seen:Eh3JGCEzxscMKPVGiwg1zDWPCWMjTWwqAgo5JFewpump": 1793825793.9703028,
+  "seen:4EJMGvshanarGeThsLy7jB2xv298zprpQoCikpPzLoKR": 1793825978.633845,
+  "seen:4Ld4Wwt9xELWayox7VABnfNpodKqVsAcaM2KaoAipsAQ": 1793825978.633845,
+  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793825978.633845,
+  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793825978.633845,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793825978.633845,
+  "seen:6cZ4ScvfMYTVhbYWUecXTAZxgr5YfDyEFyVMDi8qpump": 1793825978.633845
  },
  "talks": {
   "2026-10-21": 109
@@ -155,26 +137,26 @@
  ],
  "last_review": 1793811891.0859556,
  "news": {
-  "t": 1793823793.5094862,
+  "t": 1793824709.1339574,
   "crypto": [
+   "Crypto's powerhouse super PAC, Fairshake, found its kryptonite (0h ago)",
    "Trump-linked tokens lead crypto losses after Democrats sweep in the US midterms (1h ago)",
    "Riot shares surge on $28B AI lease as Hut 8 sinks on revenue miss (2h ago)",
-   "Circle\u2019s ARC token sale lifts earnings as lower yields weigh on USDC income (2h ago)",
+   "Circle\u2019s ARC token sale lifts earnings as lower yields weigh on USDC income (3h ago)",
    "U.S. Democratic sweep could be the final nail in the \u2018Clarity Act\u2019s coffin\u2019 (4h ago)",
-   "Wall Street rethinks AI data center boom as Texas election raises new risks (4h ago)",
+   "Wall Street rethinks AI data center boom as Texas election raises new risks (5h ago)",
    "Bitcoin hits $80.5K as US stocks rally on midterm election results (5h ago)",
    "Crypto Long & Short: ICE is betting on retail\u2019s appetite for quick outcomes (5h ago)",
    "The election changes Washington. The work on crypto continues (6h ago)",
-   "Live updates: Bitcoin and stocks post big gains, reversing overnight plunge following Blue Wave landslide (6h ago)",
-   "Here\u2019s what happened in crypto today (7h ago)"
+   "Live updates: Bitcoin and stocks post big gains, reversing overnight plunge following Blue Wave landslide (7h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Monetary Policy Report in 15.6h",
-   "GBP Monetary Policy Summary in 15.6h",
-   "GBP MPC Official Bank Rate Votes in 15.6h, forecast 7-0-2, previous 3-0-6",
-   "GBP Official Bank Rate in 15.6h, forecast 4.00%, previous 3.75%",
-   "GBP BOE Gov Bailey Speaks in 16.1h"
+   "GBP BOE Monetary Policy Report in 15.4h",
+   "GBP Monetary Policy Summary in 15.4h",
+   "GBP MPC Official Bank Rate Votes in 15.4h, forecast 7-0-2, previous 3-0-6",
+   "GBP Official Bank Rate in 15.4h, forecast 4.00%, previous 3.75%",
+   "GBP BOE Gov Bailey Speaks in 15.9h"
   ]
  },
  "spend": {
@@ -205,5 +187,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793823427.9033349
+ "last_macro_macro": 1793824709.1338105
 }
