@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -38981.26360578348,
+   "cash": -39044.17666705154,
    "open": [
     {
      "id": 1847,
@@ -21,21 +21,6 @@
      "size": 4.774898475952698,
      "deadline": 1793872952.8567457,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 1856,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Mag",
-     "mint": "AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M",
-     "side": 1,
-     "opened": 1793793887.1601753,
-     "entry": 0.0001081,
-     "stop": 8.648e-05,
-     "target": 0.00015134,
-     "size": 1850138.7604070306,
-     "deadline": 1793801087.1601756,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 1859,
@@ -66,21 +51,6 @@
      "size": 264235.6982428326,
      "deadline": 1793807499.0617497,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1861,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PAIRITY",
-     "mint": "CaQR7CNrXvXaFQLC2ChWBZHpUed4EYfVVJxjR34ipair",
-     "side": 1,
-     "opened": 1793800848.523933,
-     "entry": 0.0001014,
-     "stop": 8.112000000000001e-05,
-     "target": 0.00014195999999999998,
-     "size": 1972386.5877712031,
-     "deadline": 1793808048.5239332,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,15 +59,6 @@
  "runs": 65,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9RnsU8D5h83s1S9DTr5gGxjDMdGuKhcFrwzepqJupump": 1793801014.2085025,
-  "seen:FeABhXWmGfRSWu7F9EHe3biFExKenn5745VNzLo6pump": 1793801014.2085025,
-  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793801014.2085025,
-  "seen:AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M": 1793801014.2085025,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793801198.9753218,
-  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793801198.9753218,
-  "seen:UA12dXm9qXGjfV8r4UbgKrXrezH8AQtBhkHdypYpump": 1793801198.9753218,
-  "seen:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793801198.9753218,
-  "control:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793801199.0617533,
   "seen:4Xp2NRGLavGQty1DgKRUTrvE37bdWBsdcoFFYrEdpump": 1793801379.8024614,
   "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1793801379.8024614,
   "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793801379.8024614,
@@ -108,7 +69,16 @@
   "seen:F1gUAnu1LG4KEWYYPFPSDfdMixYHzGkkBrcymFHLpump": 1793801748.4728444,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793801748.4728444,
   "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793801748.4728444,
-  "control:CaQR7CNrXvXaFQLC2ChWBZHpUed4EYfVVJxjR34ipair": 1793801748.5239363
+  "control:CaQR7CNrXvXaFQLC2ChWBZHpUed4EYfVVJxjR34ipair": 1793801748.5239363,
+  "seen:CttHJahfpRU3V1cAMKDCPcN3L8sNikgLWREWYg6Cpump": 1793801933.3088944,
+  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793801933.3088944,
+  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793801933.3088944,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793801933.3088944,
+  "seen:3LXeWW7pX8UD6D72MpDGRSVMskZq3H9sLB5qVcb9bMiC": 1793802114.6241674,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793802114.6241674,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793802114.6241674,
+  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793802114.6241674,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793802114.6241674
  },
  "talks": {
   "2026-10-21": 109
@@ -149,26 +119,26 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793800114.2179108,
+  "t": 1793801033.318408,
   "crypto": [
+   "Live updates: Bitcoin and stocks reverse overnight plunge following Blue Wave landslide (0h ago)",
+   "Here\u2019s what happened in crypto today (0h ago)",
+   "France backs reporting for self-custodied crypto worth 100K euros or more (0h ago)",
    "Global asset manager Schroders brings emerging market bond fund to Solana (1h ago)",
    "THORChain's RUNE jumps 10% as North Korean hackers resume laundering Binance loot (1h ago)",
    "Circle beats earnings expectations on strong revenue, but cuts 5% of its workforce (1h ago)",
    "Here's how analysts are reacting to the new blue Congress (2h ago)",
    "Canton\u2019s CC rises 4% as SEC staff view it as \u2018digital commodity\u2019 (2h ago)",
    "Binance hack may be \u2018temporary setback\u2019 for crypto, Grayscale\u2019s Pandl says (3h ago)",
-   "Bitcoin rebounds from midterm dip as DeFi leads gains (3h ago)",
-   "Justin Sun seeks $264K sanctions over World Liberty\u2019s UAE disclosure (3h ago)",
-   "ZachXBT names French bank Cr\u00e9dit Mutuel Ark\u00e9a as suspected victim of $133 million crypto theft (3h ago)",
-   "Elon Musk floats space data centers as Democratic sweep puts pressure on AI trade (4h ago)"
+   "Bitcoin rebounds from midterm dip as DeFi leads gains (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Monetary Policy Report in 22.2h",
-   "GBP Monetary Policy Summary in 22.2h",
-   "GBP MPC Official Bank Rate Votes in 22.2h, forecast 7-0-2, previous 3-0-6",
-   "GBP Official Bank Rate in 22.2h, forecast 4.00%, previous 3.75%",
-   "GBP BOE Gov Bailey Speaks in 22.7h"
+   "GBP BOE Monetary Policy Report in 21.9h",
+   "GBP Monetary Policy Summary in 21.9h",
+   "GBP MPC Official Bank Rate Votes in 21.9h, forecast 7-0-2, previous 3-0-6",
+   "GBP Official Bank Rate in 21.9h, forecast 4.00%, previous 3.75%",
+   "GBP BOE Gov Bailey Speaks in 22.4h"
   ]
  },
  "spend": {
