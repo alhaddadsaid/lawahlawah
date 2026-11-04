@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -38025.87130601138,
+   "cash": -38098.405626820626,
    "open": [
     {
      "id": 1818,
@@ -38,33 +38,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1830,
+     "id": 1831,
      "desk": "control",
      "market": "meme",
-     "symbol": "CHILLCATS",
-     "mint": "4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump",
+     "symbol": "three",
+     "mint": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
      "side": 1,
-     "opened": 1793772034.6601613,
-     "entry": 8.304e-05,
-     "stop": 6.6432e-05,
-     "target": 0.00011625599999999999,
-     "size": 2408477.8420038535,
-     "deadline": 1793779234.6601615,
+     "opened": 1793772402.5048594,
+     "entry": 0.0005224,
+     "stop": 0.00041792,
+     "target": 0.00073136,
+     "size": 382848.3920367534,
+     "deadline": 1793779602.5048597,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1831,
+ "next_id": 1832,
  "runs": 64,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:EyArNWd2ox6vM9zK8vGTnFra8Vf9zqEQYjQBPLTLpump": 1793772204.1958692,
-  "seen:8B6ZZAC2FQ7AJrZPz7veXJrod5t2MG1C5MZBLNbUpump": 1793772204.1958692,
-  "seen:6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1793772386.2945037,
-  "seen:o59vFnXYMYGMZp8hKRQYp8MxmYNp4kLt21xGsPMpump": 1793772386.2945037,
-  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793772386.2945037,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793772386.2945037,
   "seen:Bz7kUDwG1KWZX9m9JrZyzhveUUcw6RTXVbjHseMjpump": 1793772570.4407554,
   "seen:DRAMjSWR7HRfJKjRkvQWYL2bcaejaVhuxEcjf4pAY4Cw": 1793772570.4407554,
   "seen:4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump": 1793772570.4407554,
@@ -76,7 +70,16 @@
   "seen:9bz8ubx6D676wPJGeEwvgJHnB84mqR23KQ26zdsZpump": 1793772752.3144178,
   "seen:8hy1D23D5tFeWFwNPL1DzwLyAXjuRLScfxKCUsdopump": 1793772934.6315303,
   "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793772934.6315303,
-  "control:4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump": 1793772934.6601646
+  "control:4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump": 1793772934.6601646,
+  "seen:8B6ZZAC2FQ7AJrZPz7veXJrod5t2MG1C5MZBLNbUpump": 1793773119.3914557,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793773119.3914557,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793773119.3914557,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793773119.3914557,
+  "seen:6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1793773302.095671,
+  "seen:6ufeVaW78uhhTVRgk16ruB7GbPJn7X4Tzdi9487ppump": 1793773302.095671,
+  "seen:EyArNWd2ox6vM9zK8vGTnFra8Vf9zqEQYjQBPLTLpump": 1793773302.095671,
+  "seen:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793773302.095671,
+  "control:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793773302.5048628
  },
  "talks": {
   "2026-10-21": 109
@@ -117,18 +120,18 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793771486.303589,
+  "t": 1793772402.104741,
   "crypto": [
-   "US midterms election 2026 live: Trump applauds Democrats on Senate win (0h ago)",
+   "Ethereum dev targets 2028 for quantum resistance, a year early (0h ago)",
+   "US midterms election 2026 live: Trump applauds Democrats on Senate win (1h ago)",
    "U.S.-sanctioned Moscow Exchange to list bitcoin and Tether\u2019s USDT in December (1h ago)",
    "South Korea's ruling party wants to delay its crypto tax again (1h ago)",
    "Democrats surge toward Senate, House majorities, with crypto braced for new direction (1h ago)",
    "Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets (1h ago)",
    "Democrats claim control of the US Senate (1h ago)",
-   "ZachXBT identifies French bank as alleged victim of $133M crypto theft (2h ago)",
+   "ZachXBT identifies French bank as alleged victim of $133M crypto theft (3h ago)",
    "1inch lawyer sees agencies driving US crypto regulation as midterms unfold (5h ago)",
-   "Live updates: Crypto's election gamble falters as Democratic victories usher in a 'blue wave' (6h ago)",
-   "RUNE rallies 15% as THORChain restarts most swaps after halt (6h ago)"
+   "Live updates: Crypto's election gamble falters as Democratic victories usher in a 'blue wave' (6h ago)"
   ],
   "macro": [],
   "calendar": []
