@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -40085.53593833319,
+   "cash": -40137.328946974194,
    "open": [
     {
      "id": 1847,
@@ -53,37 +53,27 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 1896,
+     "id": 1897,
      "desk": "control",
      "market": "meme",
      "symbol": "ABTC",
      "mint": "DRVhtx9ktSecBXRVD35RkQQHo8ugcSz9gYmxjevnpump",
      "side": 1,
-     "opened": 1793828543.8248525,
-     "entry": 7.638e-05,
-     "stop": 6.1104e-05,
-     "target": 0.00010693199999999999,
-     "size": 2618486.514794449,
-     "deadline": 1793835743.8248527,
+     "opened": 1793829447.3760176,
+     "entry": 6.426e-05,
+     "stop": 5.1408e-05,
+     "target": 8.9964e-05,
+     "size": 3112356.053532524,
+     "deadline": 1793836647.3760178,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1897,
+ "next_id": 1898,
  "runs": 66,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793829080.4120882,
-  "seen:sURQR4C3VjBYLbiXCaugbWPKqTXPRkupWCFHqGupump": 1793829080.4120882,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793829080.4120882,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793829080.4120882,
-  "seen:6a81PfhejwCM3bB4F3Rnbzk9ALNmg4YGeyjKd5Nxpump": 1793829262.4345312,
-  "seen:D7Q2ApyCUfAm9Vay3wC2g1tDBtrKdomYCLdiSPaNpump": 1793829262.4345312,
-  "seen:9VHCDisE9pybDt5eCuKv1AyddCx8gksuxpoWi6vjpump": 1793829262.4345312,
-  "seen:5tdWkbqhTqVyPmksqX8WVKrHbjjqmvQfrMGwZoZPpump": 1793829262.4345312,
-  "seen:92j5cWKjdVKDC7skBw1HjvYtrTU8nMM1zKjC4dqmpump": 1793829443.4890082,
-  "control:DRVhtx9ktSecBXRVD35RkQQHo8ugcSz9gYmxjevnpump": 1793829443.8248558,
   "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793829624.288926,
   "seen:5WHtBSWa4ToMqMTaY4qhKUnQcnE8W7NztwZQVcYj9R92": 1793829624.288926,
   "seen:ERs7y4nMGLFVmHcXyDxiS7iDKpp4jWHz2VUuE2gxpump": 1793829804.651755,
@@ -92,7 +82,17 @@
   "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1793829804.651755,
   "seen:SNAPcESrvnH8yUdgeMF6xm1hym9b6hW6s8YeqeHdZFz": 1793829804.651755,
   "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793829804.651755,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793829804.651755
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793829804.651755,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793829986.1454732,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793829986.1454732,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793829986.1454732,
+  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793830166.1098366,
+  "seen:6a81PfhejwCM3bB4F3Rnbzk9ALNmg4YGeyjKd5Nxpump": 1793830166.1098366,
+  "seen:a3ZEkFW2QePwii3EpCJaGPU9ovCEKWL4dpfspAApump": 1793830166.1098366,
+  "seen:AMC1qwR9KhiyrQBRPrxnfo4JfMeMZqEBvt5tgTytNNoc": 1793830166.1098366,
+  "seen:9VHCDisE9pybDt5eCuKv1AyddCx8gksuxpoWi6vjpump": 1793830166.1098366,
+  "seen:48NWoTC4NjSCxQ32oyVJa48csHnbuQu6b2Xam5yopump": 1793830347.3268182,
+  "control:DRVhtx9ktSecBXRVD35RkQQHo8ugcSz9gYmxjevnpump": 1793830347.37602
  },
  "talks": {
   "2026-10-21": 109
@@ -133,26 +133,26 @@
  ],
  "last_review": 1793811891.0859556,
  "news": {
-  "t": 1793828362.4442568,
+  "t": 1793829266.1195977,
   "crypto": [
+   "How Aussie Bitcoiners can avoid 2027\u2019s shock CGT hike: Part 1 (0h ago)",
    "Crypto's powerhouse super PAC, Fairshake, found its kryptonite (1h ago)",
-   "Trump-linked tokens lead crypto losses after Democrats sweep in the US midterms (2h ago)",
+   "Trump-linked tokens lead crypto losses after Democrats sweep in the US midterms (3h ago)",
    "Riot shares surge on $28B AI lease as Hut 8 sinks on revenue miss (3h ago)",
    "Circle\u2019s ARC token sale lifts earnings as lower yields weigh on USDC income (4h ago)",
-   "U.S. Democratic sweep could be the final nail in the \u2018Clarity Act\u2019s coffin\u2019 (5h ago)",
+   "U.S. Democratic sweep could be the final nail in the \u2018Clarity Act\u2019s coffin\u2019 (6h ago)",
    "Wall Street rethinks AI data center boom as Texas election raises new risks (6h ago)",
    "Bitcoin hits $80.5K as US stocks rally on midterm election results (6h ago)",
    "Crypto Long & Short: ICE is betting on retail\u2019s appetite for quick outcomes (6h ago)",
-   "The election changes Washington. The work on crypto continues (7h ago)",
-   "Live updates: Bitcoin rises above $80,000 as stocks gain following Blue Wave (8h ago)"
+   "The election changes Washington. The work on crypto continues (7h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Monetary Policy Report in 14.3h",
-   "GBP Monetary Policy Summary in 14.3h",
-   "GBP MPC Official Bank Rate Votes in 14.3h, forecast 7-0-2, previous 3-0-6",
-   "GBP Official Bank Rate in 14.3h, forecast 4.00%, previous 3.75%",
-   "GBP BOE Gov Bailey Speaks in 14.8h"
+   "GBP BOE Monetary Policy Report in 14.1h",
+   "GBP Monetary Policy Summary in 14.1h",
+   "GBP MPC Official Bank Rate Votes in 14.1h, forecast 7-0-2, previous 3-0-6",
+   "GBP Official Bank Rate in 14.1h, forecast 4.00%, previous 3.75%",
+   "GBP BOE Gov Bailey Speaks in 14.6h"
   ]
  },
  "spend": {
