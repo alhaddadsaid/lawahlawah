@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -37298.11090790614,
+   "cash": -37350.0729332226,
    "open": [
     {
      "id": 1801,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1805,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Mag",
-     "mint": "AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M",
-     "side": 1,
-     "opened": 1793759754.7968805,
-     "entry": 0.0001343,
-     "stop": 0.00010744000000000001,
-     "target": 0.00018801999999999998,
-     "size": 1489203.2762472075,
-     "deadline": 1793766954.796881,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1806,
      "desk": "control",
      "market": "meme",
@@ -66,25 +51,44 @@
      "size": 232855.97857724997,
      "deadline": 1793767147.1346211,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1808,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "EURUSD",
+     "mint": "",
+     "side": -1,
+     "opened": 1793761227.941929,
+     "entry": 1.1256190538406372,
+     "stop": 1.1270746759005956,
+     "target": 1.1234356207506997,
+     "size": 68699.15120883557,
+     "deadline": 1793847627.9419296,
+     "thesis": "control: random direction"
+    },
+    {
+     "id": 1809,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "WOKE",
+     "mint": "37WT55retvbw33cx6NwHtwhpDCcU4twyg46BKFRrpump",
+     "side": 1,
+     "opened": 1793761594.5045993,
+     "entry": 9.951e-05,
+     "stop": 7.9608e-05,
+     "target": 0.000139314,
+     "size": 2009848.2564566375,
+     "deadline": 1793768794.5045996,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1808,
+ "next_id": 1810,
  "runs": 64,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m": 1793761212.8050747,
-  "seen:GRNDYDpqwpCm6jVxpbh4xT5AM4r3p391qYsKTHqgaET2": 1793761212.8050747,
-  "seen:BQewaUGWk4CFZcAzLKf3QQLUvR3oyDuAsRxpW5Cfpump": 1793761212.8050747,
-  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793761212.8050747,
-  "seen:GRWVAfwa6PJtWZtfG6jdu5vAVe4AckQiKT8Jsga6pump": 1793761396.0616922,
-  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793761396.0616922,
-  "seen:HjiBij1BcEwjcgPEb22K8y7imdgaf1kHGMHuEgcDpump": 1793761396.0616922,
-  "seen:AVxETM6mCa5S5NFpNZrjJRLDUwtoATDvG2EQB6Q9pump": 1793761577.246364,
-  "seen:37WT55retvbw33cx6NwHtwhpDCcU4twyg46BKFRrpump": 1793761577.246364,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793761577.246364,
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793761577.246364,
   "seen:E7ayy5Se6gjwCNtw9NP629AucnTgqab4SSmSxDpUpump": 1793761759.800579,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793761759.800579,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793761759.800579,
@@ -92,13 +96,28 @@
   "control:AVxETM6mCa5S5NFpNZrjJRLDUwtoATDvG2EQB6Q9pump": 1793761759.8267477,
   "seen:9xscnTKrmcGoHiWzdktnT7jJt8fGV6TBz1BFvSaodvCD": 1793761942.7485,
   "seen:GDyfAeESBk6gpYcFWqotErpx2cxrY9L6hVpYsTVPpump": 1793761942.7485,
-  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793761942.7485
+  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793761942.7485,
+  "seen:PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m": 1793762127.6070101,
+  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793762127.6070101,
+  "seen:Csufygh5gCb5qt1CkaoBxov9u3ffrVHcWx4LTEzHpump": 1793762127.6070101,
+  "seen:BQewaUGWk4CFZcAzLKf3QQLUvR3oyDuAsRxpW5Cfpump": 1793762127.6070101,
+  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793762127.6070101,
+  "control:EURUSD": 1793762127.941932,
+  "seen:GRWVAfwa6PJtWZtfG6jdu5vAVe4AckQiKT8Jsga6pump": 1793762310.9102411,
+  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793762310.9102411,
+  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793762310.9102411,
+  "seen:37WT55retvbw33cx6NwHtwhpDCcU4twyg46BKFRrpump": 1793762494.2224188,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793762494.2224188,
+  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793762494.2224188,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793762494.2224188,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793762494.2224188,
+  "control:37WT55retvbw33cx6NwHtwhpDCcU4twyg46BKFRrpump": 1793762494.5046024
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498266,
+ "ctrl_macro_hour": 498267,
  "team": [
   {
    "name": "Lead",
@@ -133,18 +152,18 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793760312.8139882,
+  "t": 1793761227.6154783,
   "crypto": [
-   "US midterms election 2026 live: Crypto-backed Andy Barr wins Kentucky Senate seat (0h ago)",
+   "US midterms election 2026 live: Crypto-backed Andy Barr wins Kentucky Senate seat (1h ago)",
    "1inch lawyer sees agencies driving US crypto regulation as midterms unfold (2h ago)",
    "Live updates: Crypto's big election gamble faces voters as Democrats gain ground (3h ago)",
    "RUNE rallies 15% as THORChain restarts most swaps after halt (3h ago)",
-   "What voters said about their views on crypto (3h ago)",
+   "What voters said about their views on crypto (4h ago)",
    "What happens if North Korea steals Wall Street's tokenized assets next (4h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
    "CFTC gets into legal clash over stock perps after having cleared path for crypto version (5h ago)",
    "SpaceX blocks tokenized stock listing on OKXICE despite offshore trading boom (5h ago)",
-   "CFTC clears stock perpetual futures for trading on US exchanges (6h ago)"
+   "CFTC clears stock perpetual futures for trading on US exchanges (7h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -177,5 +196,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793760312.8138914
+ "last_macro_macro": 1793761594.2310681
 }
