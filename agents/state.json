@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -37567.7370797466,
+   "cash": -37821.89258445979,
    "open": [
     {
      "id": 1802,
@@ -53,56 +53,27 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 1811,
+     "id": 1813,
      "desk": "control",
      "market": "meme",
-     "symbol": "CAPY",
-     "mint": "5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g",
+     "symbol": "GIMODELO",
+     "mint": "GJam2w9yczvryb19MawYw7kejTdDBCWMphoUPXYzpump",
      "side": 1,
-     "opened": 1793762513.6148918,
-     "entry": 0.0001599,
-     "stop": 0.00012792,
-     "target": 0.00022386,
-     "size": 1250781.7385866165,
-     "deadline": 1793769713.614892,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1812,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Pooliticians",
-     "mint": "GRWVAfwa6PJtWZtfG6jdu5vAVe4AckQiKT8Jsga6pump",
-     "side": 1,
-     "opened": 1793762879.388643,
-     "entry": 0.0001154,
-     "stop": 9.232000000000001e-05,
-     "target": 0.00016156,
-     "size": 1733102.253032929,
-     "deadline": 1793770079.3886433,
+     "opened": 1793763429.3007603,
+     "entry": 0.0001471,
+     "stop": 0.00011768,
+     "target": 0.00020594,
+     "size": 1359619.3065941536,
+     "deadline": 1793770629.3007605,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1813,
+ "next_id": 1814,
  "runs": 64,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2SF3qVk7En1HvwGXSFrfELGFNRoKDRAaKJiPF3MP4RSr": 1793763045.7560124,
-  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793763045.7560124,
-  "seen:BQewaUGWk4CFZcAzLKf3QQLUvR3oyDuAsRxpW5Cfpump": 1793763045.7560124,
-  "control:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793763046.1688986,
-  "seen:GRWVAfwa6PJtWZtfG6jdu5vAVe4AckQiKT8Jsga6pump": 1793763229.247529,
-  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793763229.247529,
-  "seen:GRNDYDpqwpCm6jVxpbh4xT5AM4r3p391qYsKTHqgaET2": 1793763229.247529,
-  "seen:uJDRuJC9PyJ96tx7QPZMcTSRpkuWi11oK3uUHrUpump": 1793763229.247529,
-  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793763229.247529,
-  "seen:9m8kNFcVwtSqHdGDHjK6yCMLxYBjdCECCZ7zEThcpump": 1793763413.58269,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793763413.58269,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793763413.58269,
-  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793763413.58269,
-  "control:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793763413.6148946,
   "seen:GQfKSsJAvp1VU4NMMtdesKup6EXSLhwBvvekHhJq1Zx5": 1793763596.495769,
   "seen:Gf6jBbVnc1zsgW1W9sweovduRbp6pGQQfu8V2yxvpump": 1793763596.495769,
   "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793763596.495769,
@@ -110,7 +81,19 @@
   "seen:DYgjAqwkr2EDkGYstsLEEpDdb7SHYjrSJyzu9RQ8pump": 1793763779.1198676,
   "seen:GJam2w9yczvryb19MawYw7kejTdDBCWMphoUPXYzpump": 1793763779.1198676,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793763779.1198676,
-  "control:GRWVAfwa6PJtWZtfG6jdu5vAVe4AckQiKT8Jsga6pump": 1793763779.3886468
+  "control:GRWVAfwa6PJtWZtfG6jdu5vAVe4AckQiKT8Jsga6pump": 1793763779.3886468,
+  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793763963.7321334,
+  "seen:BQewaUGWk4CFZcAzLKf3QQLUvR3oyDuAsRxpW5Cfpump": 1793763963.7321334,
+  "seen:E7dZChmzFv4bXirSaV7cRj4vsYL8kCM5R79GfA4eT6J": 1793764146.5118966,
+  "seen:GRWVAfwa6PJtWZtfG6jdu5vAVe4AckQiKT8Jsga6pump": 1793764146.5118966,
+  "seen:6j3aneeQvno8iaSGYqE4faNTGm2AyzNDqrUoaiWpump": 1793764146.5118966,
+  "seen:uJDRuJC9PyJ96tx7QPZMcTSRpkuWi11oK3uUHrUpump": 1793764146.5118966,
+  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793764146.5118966,
+  "seen:CXKwLHe9xwi4YEx3Z9pfg7ju6tinXnawgC8GstWCpump": 1793764146.5118966,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1793764329.2728677,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793764329.2728677,
+  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793764329.2728677,
+  "control:GJam2w9yczvryb19MawYw7kejTdDBCWMphoUPXYzpump": 1793764329.300763
  },
  "talks": {
   "2026-10-21": 109
@@ -151,17 +134,17 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793762145.7645936,
+  "t": 1793763063.7407534,
   "crypto": [
-   "US midterms election 2026 live: Crypto-backed Andy Barr wins Kentucky Senate seat (0h ago)",
+   "US midterms election 2026 live: Democrats 6 seats short of Senate majority (0h ago)",
    "1inch lawyer sees agencies driving US crypto regulation as midterms unfold (3h ago)",
-   "Live updates: Crypto's big election gamble faces voters as Democrats gain ground (3h ago)",
-   "RUNE rallies 15% as THORChain restarts most swaps after halt (3h ago)",
+   "Live updates: Crypto's big election gamble faces voters as Democrats gain ground (4h ago)",
+   "RUNE rallies 15% as THORChain restarts most swaps after halt (4h ago)",
    "What voters said about their views on crypto (4h ago)",
-   "What happens if North Korea steals Wall Street's tokenized assets next (4h ago)",
+   "What happens if North Korea steals Wall Street's tokenized assets next (5h ago)",
    "Here\u2019s what happened in crypto today (5h ago)",
    "CFTC gets into legal clash over stock perps after having cleared path for crypto version (5h ago)",
-   "SpaceX blocks tokenized stock listing on OKXICE despite offshore trading boom (5h ago)",
+   "SpaceX blocks tokenized stock listing on OKXICE despite offshore trading boom (6h ago)",
    "CFTC clears stock perpetual futures for trading on US exchanges (7h ago)"
   ],
   "macro": [],
