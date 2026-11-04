@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -38982.06483054427,
+   "cash": -38981.26360578348,
    "open": [
     {
      "id": 1847,
@@ -21,36 +21,6 @@
      "size": 4.774898475952698,
      "deadline": 1793872952.8567457,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 1854,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "TTPRO",
-     "mint": "FrSrp9P3bgiFHwr6h5PQHVh55iC8Dae4eZCKPUo9pump",
-     "side": 1,
-     "opened": 1793792422.8622947,
-     "entry": 8.517e-05,
-     "stop": 6.8136e-05,
-     "target": 0.00011923799999999999,
-     "size": 2348244.6870963955,
-     "deadline": 1793799622.8622952,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1855,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "STONKS",
-     "mint": "22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K",
-     "side": 1,
-     "opened": 1793792603.2798557,
-     "entry": 0.0007479,
-     "stop": 0.0005983200000000001,
-     "target": 0.00104706,
-     "size": 267415.4298703035,
-     "deadline": 1793799803.279856,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 1856,
@@ -89,27 +59,23 @@
  "runs": 65,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:29jQSLyMDP3y1DRkVDVi4FxyeR66p5JCMqsaifMEpump": 1793799000.919321,
-  "seen:CPZguakzrJSPZDvyB2BY7wdk25eKFwuwtYxSPYHmpump": 1793799000.919321,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793799000.919321,
-  "seen:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793799000.919321,
-  "seen:FrSrp9P3bgiFHwr6h5PQHVh55iC8Dae4eZCKPUo9pump": 1793799000.919321,
-  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793799000.919321,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793799182.1326745,
-  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793799182.1326745,
-  "seen:AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M": 1793799182.1326745,
-  "seen:7ioEQKtLCioMGu2xeKuWbsz3yTD32ZZ8DxZUqL3pump": 1793799366.13743,
-  "seen:LLYuwZ33keFihgwoxXsBawy31AiRFLFSva32TYq5TvD": 1793799366.13743,
-  "seen:B93V9uyYRaQDKSG8iCQyyP61j3NCqCRRXPCgU3gpump": 1793799366.13743,
-  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793799366.13743,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793799366.13743,
-  "seen:6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1793799546.1847825,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793799546.1847825,
-  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793799546.1847825,
-  "seen:Hm6ADi76B6aenNsmazi9xVqhvk1PvvDf2yr9yZhDpump": 1793799730.604002,
-  "seen:HonEQ5chprkY5n7jSZFBb4sdghDtVChu9fVA3YEBpump": 1793799730.604002,
-  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793799730.604002,
-  "seen:3rgFUpCG4Vs2twJordBqLgUtuzdr7yckJNP33fQypump": 1793799730.604002
+  "seen:CaQR7CNrXvXaFQLC2ChWBZHpUed4EYfVVJxjR34ipair": 1793799915.7817595,
+  "seen:3brY153eRNKLxUY3zfBYW9LvarfHUFhgSW66tbQupump": 1793799915.7817595,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793799915.7817595,
+  "seen:F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1793799915.7817595,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793800099.5786822,
+  "seen:62fMbTDFHvi8XM26PQE5BaRbz61yKwYXmsgfzuhpump": 1793800099.5786822,
+  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793800099.5786822,
+  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793800280.4442537,
+  "seen:UA12dXm9qXGjfV8r4UbgKrXrezH8AQtBhkHdypYpump": 1793800280.4442537,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793800464.9951563,
+  "seen:6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1793800464.9951563,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793800464.9951563,
+  "seen:AwRKXb1J8U5bihVH7Yq1o8gsoYd33ApipwJL3Q5Bpump": 1793800464.9951563,
+  "seen:HonEQ5chprkY5n7jSZFBb4sdghDtVChu9fVA3YEBpump": 1793800649.2180326,
+  "seen:Hm6ADi76B6aenNsmazi9xVqhvk1PvvDf2yr9yZhDpump": 1793800649.2180326,
+  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793800649.2180326,
+  "seen:3rgFUpCG4Vs2twJordBqLgUtuzdr7yckJNP33fQypump": 1793800649.2180326
  },
  "talks": {
   "2026-10-21": 109
@@ -150,11 +116,11 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793798282.1421843,
+  "t": 1793799199.5881214,
   "crypto": [
-   "Global asset manager Schroders brings emerging market bond fund to Solana (0h ago)",
-   "THORChain's RUNE jumps 10% as North Korean hackers resume laundering Binance loot (0h ago)",
-   "Circle beats earnings and revenue estimates on soaring USDC transaction volume (1h ago)",
+   "Global asset manager Schroders brings emerging market bond fund to Solana (1h ago)",
+   "THORChain's RUNE jumps 10% as North Korean hackers resume laundering Binance loot (1h ago)",
+   "Circle beats earnings expectations on strong revenue, but cuts 5% of its workforce (1h ago)",
    "Here's how analysts are reacting to the new blue Congress (1h ago)",
    "Canton\u2019s CC rises 4% as SEC staff view it as \u2018digital commodity\u2019 (1h ago)",
    "Binance hack may be \u2018temporary setback\u2019 for crypto, Grayscale\u2019s Pandl says (2h ago)",
@@ -165,11 +131,11 @@
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Monetary Policy Report in 22.7h",
-   "GBP Monetary Policy Summary in 22.7h",
-   "GBP MPC Official Bank Rate Votes in 22.7h, forecast 7-0-2, previous 3-0-6",
-   "GBP Official Bank Rate in 22.7h, forecast 4.00%, previous 3.75%",
-   "GBP BOE Gov Bailey Speaks in 23.2h"
+   "GBP BOE Monetary Policy Report in 22.4h",
+   "GBP Monetary Policy Summary in 22.4h",
+   "GBP MPC Official Bank Rate Votes in 22.4h, forecast 7-0-2, previous 3-0-6",
+   "GBP Official Bank Rate in 22.4h, forecast 4.00%, previous 3.75%",
+   "GBP BOE Gov Bailey Speaks in 22.9h"
   ]
  },
  "spend": {
@@ -200,5 +166,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793798100.9287674
+ "last_macro_macro": 1793799380.4536588
 }
