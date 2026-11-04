@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -38098.405626820626,
+   "cash": -38149.028238469095,
    "open": [
-    {
-     "id": 1818,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "STONKS",
-     "mint": "22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K",
-     "side": 1,
-     "opened": 1793765996.1191754,
-     "entry": 0.0006853,
-     "stop": 0.0005482400000000001,
-     "target": 0.00095942,
-     "size": 291842.988472202,
-     "deadline": 1793773196.1191757,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1827,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Link",
-     "mint": "7kqWni27vRVCKjcuBAmAbs8t7PxXgxdEjUSyRfeFpump",
-     "side": 1,
-     "opened": 1793770024.9801185,
-     "entry": 0.000102,
-     "stop": 8.16e-05,
-     "target": 0.0001428,
-     "size": 1960784.3137254901,
-     "deadline": 1793777224.9801188,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1831,
      "desk": "control",
@@ -55,31 +25,31 @@
    ]
   }
  },
- "next_id": 1832,
+ "next_id": 1834,
  "runs": 64,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Bz7kUDwG1KWZX9m9JrZyzhveUUcw6RTXVbjHseMjpump": 1793772570.4407554,
-  "seen:DRAMjSWR7HRfJKjRkvQWYL2bcaejaVhuxEcjf4pAY4Cw": 1793772570.4407554,
-  "seen:4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump": 1793772570.4407554,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793772570.4407554,
-  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793772752.3144178,
-  "seen:4xWRsdRkre5ibf3ZyS2eje6sUY8wGnmtSHx7gkGtpump": 1793772752.3144178,
-  "seen:BoVXKF2FA924XKD6nr4vGy5pELixGNfLRitqjbPQpump": 1793772752.3144178,
-  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793772752.3144178,
-  "seen:9bz8ubx6D676wPJGeEwvgJHnB84mqR23KQ26zdsZpump": 1793772752.3144178,
-  "seen:8hy1D23D5tFeWFwNPL1DzwLyAXjuRLScfxKCUsdopump": 1793772934.6315303,
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793772934.6315303,
-  "control:4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump": 1793772934.6601646,
-  "seen:8B6ZZAC2FQ7AJrZPz7veXJrod5t2MG1C5MZBLNbUpump": 1793773119.3914557,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793773119.3914557,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793773119.3914557,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793773119.3914557,
-  "seen:6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1793773302.095671,
-  "seen:6ufeVaW78uhhTVRgk16ruB7GbPJn7X4Tzdi9487ppump": 1793773302.095671,
-  "seen:EyArNWd2ox6vM9zK8vGTnFra8Vf9zqEQYjQBPLTLpump": 1793773302.095671,
-  "seen:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793773302.095671,
-  "control:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793773302.5048628
+  "seen:Bz7kUDwG1KWZX9m9JrZyzhveUUcw6RTXVbjHseMjpump": 1793773484.7835464,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793773484.7835464,
+  "seen:7kqWni27vRVCKjcuBAmAbs8t7PxXgxdEjUSyRfeFpump": 1793773484.7835464,
+  "seen:4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump": 1793773668.4161036,
+  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793773668.4161036,
+  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793773668.4161036,
+  "seen:uErQBwSwNwG9nakqxyZe37wzu4KxPCYhjz6Tcytpump": 1793773668.4161036,
+  "seen:9bz8ubx6D676wPJGeEwvgJHnB84mqR23KQ26zdsZpump": 1793773668.4161036,
+  "control:Bz7kUDwG1KWZX9m9JrZyzhveUUcw6RTXVbjHseMjpump": 1793773668.496468,
+  "seen:HyzFKWExwL1LRDwxZZi9G262NJSApoTG6XfASydzoGro": 1793773850.5828378,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793773850.5828378,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793774032.5347586,
+  "seen:4xWRsdRkre5ibf3ZyS2eje6sUY8wGnmtSHx7gkGtpump": 1793774032.5347586,
+  "seen:8B6ZZAC2FQ7AJrZPz7veXJrod5t2MG1C5MZBLNbUpump": 1793774032.5347586,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1793774032.5347586,
+  "seen:ByWH8CZJd3WCfGHt2UhkTd8wmyFzB1SoWWmP9w6spump": 1793774032.5347586,
+  "control:7kqWni27vRVCKjcuBAmAbs8t7PxXgxdEjUSyRfeFpump": 1793774032.8269458,
+  "seen:G4wn6Vs4MHS23ms4FgqB14B1YY6q5SJg4iPrqcQTsGSX": 1793774214.8965132,
+  "seen:6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1793774214.8965132,
+  "seen:KYuMNKf8HhefPhs2YMmGCgi4ByzEWeaxoG79aGapump": 1793774214.8965132,
+  "seen:SNHLxPfS4ujfaDLR6JffTYUHYk1w17hS7srMXR7pump": 1793774214.8965132
  },
  "talks": {
   "2026-10-21": 109
@@ -120,18 +90,18 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793772402.104741,
+  "t": 1793773314.905919,
   "crypto": [
-   "Ethereum dev targets 2028 for quantum resistance, a year early (0h ago)",
+   "Bitcoin knocks on $78,000 in V-shaped comeback as midterm election uncertainty fades (0h ago)",
+   "Jack Dorsey's Block faces $764 million DOJ settlement as bitcoin profit plunges 50% (0h ago)",
+   "Here\u2019s what happened in crypto today (0h ago)",
+   "Ethereum dev targets 2028 for quantum resistance, a year early (1h ago)",
    "US midterms election 2026 live: Trump applauds Democrats on Senate win (1h ago)",
    "U.S.-sanctioned Moscow Exchange to list bitcoin and Tether\u2019s USDT in December (1h ago)",
    "South Korea's ruling party wants to delay its crypto tax again (1h ago)",
    "Democrats surge toward Senate, House majorities, with crypto braced for new direction (1h ago)",
-   "Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets (1h ago)",
-   "Democrats claim control of the US Senate (1h ago)",
-   "ZachXBT identifies French bank as alleged victim of $133M crypto theft (3h ago)",
-   "1inch lawyer sees agencies driving US crypto regulation as midterms unfold (5h ago)",
-   "Live updates: Crypto's election gamble falters as Democratic victories usher in a 'blue wave' (6h ago)"
+   "Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets (2h ago)",
+   "Democrats claim control of the US Senate (2h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -164,5 +134,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793771852.323302
+ "last_macro_macro": 1793773132.543986
 }
