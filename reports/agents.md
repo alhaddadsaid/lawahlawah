@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-04 20:17 UTC. Runs so far: 66. Model: claude-haiku-5-5.
+Updated 2026-11-04 20:26 UTC. Runs so far: 66. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,19 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1824 | 30 | -49495.02 | -66933.58 |
+| control | meme | 1825 | 30 | -49521.86 | -66969.99 |
 | control | macro | 37 | 43 | -389.1 | -583.13 |
-| control | all | 1861 | 31 | -49884.12 | -67516.71 |
+| control | all | 1862 | 31 | -49910.96 | -67553.12 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GOLD long at 4054.2, stop 4033.26, target 4085.61, opened 2026-11-04 10:02 UTC
-- control: HeeHaw long at 0.0003601, stop 0.00028808, target 0.00050414, opened 2026-11-04 18:21 UTC
 - control: STONKS long at 0.0007626, stop 0.00061008, target 0.00106764, opened 2026-11-04 19:58 UTC
 - control: george long at 0.0001779, stop 0.00014232, target 0.00024906, opened 2026-11-04 20:14 UTC
 - control: HIGH/ER long at 0.0001092, stop 8.736e-05, target 0.00015288, opened 2026-11-04 20:17 UTC
+- control: Joe long at 7.329e-05, stop 5.8632e-05, target 0.000102606, opened 2026-11-04 20:26 UTC
 
 ## Team
 
@@ -34,6 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
-- 2026-11-04 20:17 UTC control: OPENED HIGH/ER long at 0.0001092 (stop 8.736e-05, target 0.00015288) - control: frozen v3 rules
+- 2026-11-04 20:26 UTC control: OPENED Joe long at 7.329e-05 (stop 5.8632e-05, target 0.000102606) - control: frozen v3 rules
 
