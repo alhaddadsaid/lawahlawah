@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-04 03:37 UTC. Runs so far: 64. Model: claude-haiku-5-5.
+Updated 2026-11-04 03:49 UTC. Runs so far: 64. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1754 | 31 | -47287.77 | -64064.99 |
+| control | meme | 1756 | 31 | -47151.77 | -63952.99 |
 | control | macro | 36 | 42 | -534.29 | -724.89 |
-| control | all | 1790 | 31 | -47822.06 | -64789.88 |
+| control | all | 1792 | 31 | -47686.06 | -64677.88 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: ARNOLD long at 0.00012, stop 9.6e-05, target 0.000168, opened 2026-11-04 02:11 UTC
 - control: STONKS long at 0.0008589, stop 0.00068712, target 0.00120246, opened 2026-11-04 02:39 UTC
 - control: EURUSD short at 1.12562, stop 1.12707, target 1.12344, opened 2026-11-04 03:00 UTC
-- control: GIMODELO long at 0.0001471, stop 0.00011768, target 0.00020594, opened 2026-11-04 03:37 UTC
 
 ## Team
 
@@ -33,5 +32,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-04 03:37 UTC control: OPENED GIMODELO long at 0.0001471 (stop 0.00011768, target 0.00020594) - control: frozen v3 rules
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- control: order ARNOLD REJECTED by guardrails: ARNOLD already open
 
