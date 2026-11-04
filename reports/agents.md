@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-04 09:01 UTC. Runs so far: 65. Model: claude-haiku-5-5.
+Updated 2026-11-04 09:16 UTC. Runs so far: 65. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1784 | 31 | -48124.89 | -65188.31 |
+| control | meme | 1785 | 31 | -48056.89 | -65132.31 |
 | control | macro | 37 | 43 | -389.1 | -583.13 |
-| control | all | 1821 | 31 | -48513.99 | -65771.44 |
+| control | all | 1822 | 31 | -48445.99 | -65715.44 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -31,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-04 09:01 UTC control: OPENED CHILLCATS long at 0.0001711 (stop 0.00013688, target 0.00023954) - control: frozen v3 rules
+- control: order CHILLCATS REJECTED by guardrails: CHILLCATS already open
 
