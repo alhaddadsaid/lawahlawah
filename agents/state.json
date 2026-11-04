@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -37685.89258445979,
+   "cash": -37828.158079231725,
    "open": [
     {
      "id": 1802,
@@ -53,21 +53,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 1815,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "L0ng",
-     "mint": "DYgjAqwkr2EDkGYstsLEEpDdb7SHYjrSJyzu9RQ8pump",
-     "side": 1,
-     "opened": 1793764347.5362847,
-     "entry": 6.599e-05,
-     "stop": 5.2792e-05,
-     "target": 9.238599999999999e-05,
-     "size": 3030762.2367025306,
-     "deadline": 1793771547.536285,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1816,
      "desk": "control",
      "market": "meme",
@@ -81,37 +66,48 @@
      "size": 355808.5749866572,
      "deadline": 1793771730.0737405,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1817,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Groyper",
+     "mint": "HvRdss17AKoeYZbfLVtN5gt7SGDU1MRKHyTnHZikpump",
+     "side": 1,
+     "opened": 1793765263.966167,
+     "entry": 0.0001021,
+     "stop": 8.168e-05,
+     "target": 0.00014293999999999998,
+     "size": 1958863.8589618022,
+     "deadline": 1793772463.9661672,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1817,
+ "next_id": 1818,
  "runs": 64,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GJam2w9yczvryb19MawYw7kejTdDBCWMphoUPXYzpump": 1793764697.3440607,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793764697.3440607,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793764697.3440607,
-  "seen:E7ayy5Se6gjwCNtw9NP629AucnTgqab4SSmSxDpUpump": 1793764697.3440607,
-  "seen:88Soi6epL5xNi4c4dhtGfreJTuM3FkRt1A3WKZWyVVtp": 1793764879.8539019,
-  "seen:DYgjAqwkr2EDkGYstsLEEpDdb7SHYjrSJyzu9RQ8pump": 1793764879.8539019,
-  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793764879.8539019,
-  "seen:2gdkuGkjh2UhLKnbc8vBkhmxYziqgFeCvMzGnRJ22LKQ": 1793765062.7596574,
-  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793765062.7596574,
-  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793765062.7596574,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793765062.7596574,
-  "seen:nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump": 1793765062.7596574,
-  "seen:BLT9JJtpzKRYi3F5U6NH2iBJpHa448tQPEhwBHjgi9Xd": 1793765247.5094233,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793765247.5094233,
-  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1793765247.5094233,
-  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793765247.5094233,
-  "control:DYgjAqwkr2EDkGYstsLEEpDdb7SHYjrSJyzu9RQ8pump": 1793765247.5362873,
   "seen:ARkiD2P6xjHtQ54cXzzmJv1xwnLALRGrSDDrA9ktJbwf": 1793765430.0448854,
   "seen:9bz8ubx6D676wPJGeEwvgJHnB84mqR23KQ26zdsZpump": 1793765430.0448854,
   "seen:HvRdss17AKoeYZbfLVtN5gt7SGDU1MRKHyTnHZikpump": 1793765430.0448854,
   "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793765430.0448854,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793765430.0448854,
-  "control:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793765430.0737436
+  "control:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793765430.0737436,
+  "seen:GJam2w9yczvryb19MawYw7kejTdDBCWMphoUPXYzpump": 1793765612.9479597,
+  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793765612.9479597,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793765612.9479597,
+  "seen:4M5DceVdRSz6Cxjix5uU7PXFL6vuG2hJhQrydbk1pump": 1793765797.0460458,
+  "seen:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793765797.0460458,
+  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793765981.199826,
+  "seen:DjHKt7MrZQ1cCiBJgtD6aomQcUBsnxedrHqgdCTupump": 1793766163.9394746,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793766163.9394746,
+  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793766163.9394746,
+  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793766163.9394746,
+  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793766163.9394746,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793766163.9394746,
+  "control:HvRdss17AKoeYZbfLVtN5gt7SGDU1MRKHyTnHZikpump": 1793766163.96617
  },
  "talks": {
   "2026-10-21": 109
@@ -152,14 +148,14 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793763979.862752,
+  "t": 1793764897.0548892,
   "crypto": [
+   "US midterms election 2026 live: Democrat flips South Carolina Senate seat in major upset (0h ago)",
    "ZachXBT identifies French bank as alleged victim of $133M crypto theft (0h ago)",
-   "US midterms election 2026 live: Democrats 6 seats short of Senate majority (0h ago)",
    "1inch lawyer sees agencies driving US crypto regulation as midterms unfold (3h ago)",
    "Live updates: Crypto's big election gamble faces voters as Democrats gain ground (4h ago)",
    "RUNE rallies 15% as THORChain restarts most swaps after halt (4h ago)",
-   "What voters said about their views on crypto (4h ago)",
+   "What voters said about their views on crypto (5h ago)",
    "What happens if North Korea steals Wall Street's tokenized assets next (5h ago)",
    "Here\u2019s what happened in crypto today (5h ago)",
    "CFTC gets into legal clash over stock perps after having cleared path for crypto version (6h ago)",
