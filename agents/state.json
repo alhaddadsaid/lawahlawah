@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -38071.685159019275,
+   "cash": -37985.17455609463,
    "open": [
-    {
-     "id": 1808,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "EURUSD",
-     "mint": "",
-     "side": -1,
-     "opened": 1793761227.941929,
-     "entry": 1.1256190538406372,
-     "stop": 1.1270746759005956,
-     "target": 1.1234356207506997,
-     "size": 68699.15120883557,
-     "deadline": 1793847627.9419296,
-     "thesis": "control: random direction"
-    },
     {
      "id": 1816,
      "desk": "control",
@@ -53,37 +38,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1823,
+     "id": 1824,
      "desk": "control",
      "market": "meme",
-     "symbol": "Link",
-     "mint": "7kqWni27vRVCKjcuBAmAbs8t7PxXgxdEjUSyRfeFpump",
+     "symbol": "TTPRO",
+     "mint": "FrSrp9P3bgiFHwr6h5PQHVh55iC8Dae4eZCKPUo9pump",
      "side": 1,
-     "opened": 1793768196.9346223,
-     "entry": 0.0001402,
-     "stop": 0.00011216,
-     "target": 0.00019627999999999998,
-     "size": 1426533.5235378032,
-     "deadline": 1793775396.9346225,
+     "opened": 1793768583.0996747,
+     "entry": 0.0001081,
+     "stop": 8.648e-05,
+     "target": 0.00015134,
+     "size": 1850138.7604070306,
+     "deadline": 1793775783.099675,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1824,
+ "next_id": 1825,
  "runs": 64,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793768363.480761,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793768363.480761,
-  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793768363.480761,
-  "seen:Bc8Nks1nyxXumWQDqqm8N6FF1ruwtqbD3DaezGwrpump": 1793768545.7281482,
-  "seen:LmsxWtMtoef9QnauYA9gSfCkGiBWqYMkYubG5h17M4u": 1793768545.7281482,
-  "seen:4xWRsdRkre5ibf3ZyS2eje6sUY8wGnmtSHx7gkGtpump": 1793768728.619939,
-  "seen:8B6ZZAC2FQ7AJrZPz7veXJrod5t2MG1C5MZBLNbUpump": 1793768728.619939,
-  "seen:7kqWni27vRVCKjcuBAmAbs8t7PxXgxdEjUSyRfeFpump": 1793768728.619939,
-  "seen:4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump": 1793768728.619939,
-  "seen:3k8GYTFs4Dh6woBAZ338bmERLsAu9mYr84cHbNUopump": 1793768728.619939,
   "seen:DjHKt7MrZQ1cCiBJgtD6aomQcUBsnxedrHqgdCTupump": 1793768912.8976927,
   "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793768912.8976927,
   "control:Bc8Nks1nyxXumWQDqqm8N6FF1ruwtqbD3DaezGwrpump": 1793768913.1420665,
@@ -92,7 +67,19 @@
   "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793769096.9054852,
   "seen:9bz8ubx6D676wPJGeEwvgJHnB84mqR23KQ26zdsZpump": 1793769096.9054852,
   "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793769096.9054852,
-  "control:7kqWni27vRVCKjcuBAmAbs8t7PxXgxdEjUSyRfeFpump": 1793769096.9346256
+  "control:7kqWni27vRVCKjcuBAmAbs8t7PxXgxdEjUSyRfeFpump": 1793769096.9346256,
+  "seen:F4Um7uHXRoXZ92DXVZ6FoDUstnubJgaSzwEZuBZcpump": 1793769279.6539674,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793769279.6539674,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793769279.6539674,
+  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793769279.6539674,
+  "seen:6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1793769482.7381268,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793769482.7381268,
+  "control:FrSrp9P3bgiFHwr6h5PQHVh55iC8Dae4eZCKPUo9pump": 1793769483.0996778,
+  "seen:4xWRsdRkre5ibf3ZyS2eje6sUY8wGnmtSHx7gkGtpump": 1793769663.388757,
+  "seen:DRAMjSWR7HRfJKjRkvQWYL2bcaejaVhuxEcjf4pAY4Cw": 1793769663.388757,
+  "seen:7kqWni27vRVCKjcuBAmAbs8t7PxXgxdEjUSyRfeFpump": 1793769663.388757,
+  "seen:4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump": 1793769663.388757,
+  "seen:3k8GYTFs4Dh6woBAZ338bmERLsAu9mYr84cHbNUopump": 1793769663.388757
  },
  "talks": {
   "2026-10-21": 109
@@ -133,18 +120,18 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793767645.7371306,
+  "t": 1793768582.747239,
   "crypto": [
-   "US midterms election 2026 live: Democrats on brink of controlling Congress (1h ago)",
+   "Democrats surge toward Senate, House majorities, with crypto braced for new direction (0h ago)",
+   "Bitcoin briefly sinks to $75,700 as bets on a Democratic sweep rattle markets (0h ago)",
+   "US midterms election 2026 live: Democrats win US Senate majority (0h ago)",
+   "Democrats claim control of the US Senate (0h ago)",
    "ZachXBT identifies French bank as alleged victim of $133M crypto theft (1h ago)",
    "1inch lawyer sees agencies driving US crypto regulation as midterms unfold (4h ago)",
    "Live updates: Crypto's big election gamble faces voters as Democrats gain ground (5h ago)",
    "RUNE rallies 15% as THORChain restarts most swaps after halt (5h ago)",
-   "What voters said about their views on crypto (5h ago)",
-   "What happens if North Korea steals Wall Street's tokenized assets next (6h ago)",
-   "Here\u2019s what happened in crypto today (6h ago)",
-   "CFTC gets into legal clash over stock perps after having cleared path for crypto version (7h ago)",
-   "SpaceX blocks tokenized stock listing on OKXICE despite offshore trading boom (7h ago)"
+   "What voters said about their views on crypto (6h ago)",
+   "What happens if North Korea steals Wall Street's tokenized assets next (6h ago)"
   ],
   "macro": [],
   "calendar": []
