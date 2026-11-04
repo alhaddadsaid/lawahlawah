@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -39910.80595465889,
+   "cash": -39977.15879952176,
    "open": [
     {
      "id": 1847,
@@ -68,41 +68,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1886,
+     "id": 1887,
      "desk": "control",
      "market": "meme",
-     "symbol": "Joe",
-     "mint": "J1jZ2kLdEXwkr5sNMRyg8bTtmAMQDxE71JYQCqSqCrsu",
+     "symbol": "AI",
+     "mint": "AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump",
      "side": 1,
-     "opened": 1793823978.2172482,
-     "entry": 7.329e-05,
-     "stop": 5.8632000000000004e-05,
-     "target": 0.00010260599999999999,
-     "size": 2728885.250375222,
-     "deadline": 1793831178.2172484,
+     "opened": 1793824528.4166462,
+     "entry": 0.0001426,
+     "stop": 0.00011408,
+     "target": 0.00019963999999999998,
+     "size": 1402524.5441795231,
+     "deadline": 1793831728.4166465,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1887,
+ "next_id": 1888,
  "runs": 66,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9V4tAqhPZXnR86iSo5RCSyAxs2PcmkRde1xNP8xUGaic": 1793824143.649973,
-  "seen:NFLX7qV57zuVxCoHy3s1jiGZyALraLNwttbxdvmYJLJ": 1793824143.649973,
-  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793824143.649973,
-  "control:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793824143.773799,
-  "seen:GhJmFuLUxCmGeBvqs3siiWPbh9ZAUCgnJcKZXSbBpump": 1793824327.8939843,
-  "seen:5tdWkbqhTqVyPmksqX8WVKrHbjjqmvQfrMGwZoZPpump": 1793824327.8939843,
-  "seen:BxsNVvPuvCmHJRE6LyzqFAVoiTNhdHUVAgKNZhvApump": 1793824327.8939843,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793824327.8939843,
-  "control:BxsNVvPuvCmHJRE6LyzqFAVoiTNhdHUVAgKNZhvApump": 1793824328.2946258,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793824509.3771522,
-  "seen:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793824509.3771522,
-  "seen:XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo": 1793824509.3771522,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793824509.3771522,
-  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793824509.3771522,
   "seen:6gnB2H2hbTVvKUWCzNuqjWY8Rod6EVBmfHi7YxZpTWa7": 1793824693.4998755,
   "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793824693.4998755,
   "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793824693.4998755,
@@ -111,7 +97,24 @@
   "seen:m4EcocTisMQiD9DU9Azwo1oVWfHDyG1tUHvq17rpump": 1793824878.144678,
   "seen:J1jZ2kLdEXwkr5sNMRyg8bTtmAMQDxE71JYQCqSqCrsu": 1793824878.144678,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793824878.144678,
-  "control:J1jZ2kLdEXwkr5sNMRyg8bTtmAMQDxE71JYQCqSqCrsu": 1793824878.2172515
+  "control:J1jZ2kLdEXwkr5sNMRyg8bTtmAMQDxE71JYQCqSqCrsu": 1793824878.2172515,
+  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793825058.9980874,
+  "seen:Db6avgskUko5taVMnK2YJHwdZTpJgv4EX9ibeeK2pump": 1793825058.9980874,
+  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793825058.9980874,
+  "seen:9VHCDisE9pybDt5eCuKv1AyddCx8gksuxpoWi6vjpump": 1793825058.9980874,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793825058.9980874,
+  "seen:6cZ4ScvfMYTVhbYWUecXTAZxgr5YfDyEFyVMDi8qpump": 1793825058.9980874,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793825243.5762663,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793825243.5762663,
+  "seen:22rWiyDiY9GgxSrFiWC2vX1GxNxjkvrRPmZJDzv9pq6X": 1793825243.5762663,
+  "seen:5tdWkbqhTqVyPmksqX8WVKrHbjjqmvQfrMGwZoZPpump": 1793825243.5762663,
+  "seen:HkyNkVXpJWg1H7hAWjnSW58J22Cx7gnWwUHhFtf5pump": 1793825428.3331409,
+  "seen:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793825428.3331409,
+  "seen:3rgFUpCG4Vs2twJordBqLgUtuzdr7yckJNP33fQypump": 1793825428.3331409,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793825428.3331409,
+  "seen:HEb2dwDNbBhnrCusoNXXvba9MymYTTmMQcHKaptxmfun": 1793825428.3331409,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793825428.3331409,
+  "control:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793825428.4166489
  },
  "talks": {
   "2026-10-21": 109
