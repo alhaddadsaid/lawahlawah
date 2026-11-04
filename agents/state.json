@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -37350.0729332226,
+   "cash": -37567.7370797466,
    "open": [
-    {
-     "id": 1801,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "GOLD",
-     "mint": "",
-     "side": 1,
-     "opened": 1793757744.542512,
-     "entry": 3958.39990234375,
-     "stop": 3940.0855712890625,
-     "target": 3985.8713989257812,
-     "size": 5.460204890989195,
-     "deadline": 1793844144.5425124,
-     "thesis": "control: random direction"
-    },
     {
      "id": 1802,
      "desk": "control",
@@ -66,43 +51,14 @@
      "size": 68699.15120883557,
      "deadline": 1793847627.9419296,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 1809,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "WOKE",
-     "mint": "37WT55retvbw33cx6NwHtwhpDCcU4twyg46BKFRrpump",
-     "side": 1,
-     "opened": 1793761594.5045993,
-     "entry": 9.951e-05,
-     "stop": 7.9608e-05,
-     "target": 0.000139314,
-     "size": 2009848.2564566375,
-     "deadline": 1793768794.5045996,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1810,
+ "next_id": 1811,
  "runs": 64,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:E7ayy5Se6gjwCNtw9NP629AucnTgqab4SSmSxDpUpump": 1793761759.800579,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793761759.800579,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793761759.800579,
-  "seen:CNzth4S6VRNAKkxFZ7MccKfRccQ3ZxXWRzJR8UcCpump": 1793761759.800579,
-  "control:AVxETM6mCa5S5NFpNZrjJRLDUwtoATDvG2EQB6Q9pump": 1793761759.8267477,
-  "seen:9xscnTKrmcGoHiWzdktnT7jJt8fGV6TBz1BFvSaodvCD": 1793761942.7485,
-  "seen:GDyfAeESBk6gpYcFWqotErpx2cxrY9L6hVpYsTVPpump": 1793761942.7485,
-  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793761942.7485,
-  "seen:PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m": 1793762127.6070101,
-  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793762127.6070101,
-  "seen:Csufygh5gCb5qt1CkaoBxov9u3ffrVHcWx4LTEzHpump": 1793762127.6070101,
-  "seen:BQewaUGWk4CFZcAzLKf3QQLUvR3oyDuAsRxpW5Cfpump": 1793762127.6070101,
-  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793762127.6070101,
-  "control:EURUSD": 1793762127.941932,
   "seen:GRWVAfwa6PJtWZtfG6jdu5vAVe4AckQiKT8Jsga6pump": 1793762310.9102411,
   "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793762310.9102411,
   "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793762310.9102411,
@@ -111,7 +67,16 @@
   "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793762494.2224188,
   "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793762494.2224188,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793762494.2224188,
-  "control:37WT55retvbw33cx6NwHtwhpDCcU4twyg46BKFRrpump": 1793762494.5046024
+  "control:37WT55retvbw33cx6NwHtwhpDCcU4twyg46BKFRrpump": 1793762494.5046024,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793762679.3906672,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793762679.3906672,
+  "seen:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793762679.3906672,
+  "seen:GJam2w9yczvryb19MawYw7kejTdDBCWMphoUPXYzpump": 1793762862.7143164,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793762862.7143164,
+  "seen:2SF3qVk7En1HvwGXSFrfELGFNRoKDRAaKJiPF3MP4RSr": 1793763045.7560124,
+  "seen:5DnWmSL9t3YqK5MeYq8ozJpna46VcdePWzHvyN8avg2g": 1793763045.7560124,
+  "seen:BQewaUGWk4CFZcAzLKf3QQLUvR3oyDuAsRxpW5Cfpump": 1793763045.7560124,
+  "control:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793763046.1688986
  },
  "talks": {
   "2026-10-21": 109
@@ -152,15 +117,15 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793761227.6154783,
+  "t": 1793762145.7645936,
   "crypto": [
-   "US midterms election 2026 live: Crypto-backed Andy Barr wins Kentucky Senate seat (1h ago)",
-   "1inch lawyer sees agencies driving US crypto regulation as midterms unfold (2h ago)",
+   "US midterms election 2026 live: Crypto-backed Andy Barr wins Kentucky Senate seat (0h ago)",
+   "1inch lawyer sees agencies driving US crypto regulation as midterms unfold (3h ago)",
    "Live updates: Crypto's big election gamble faces voters as Democrats gain ground (3h ago)",
    "RUNE rallies 15% as THORChain restarts most swaps after halt (3h ago)",
    "What voters said about their views on crypto (4h ago)",
    "What happens if North Korea steals Wall Street's tokenized assets next (4h ago)",
-   "Here\u2019s what happened in crypto today (4h ago)",
+   "Here\u2019s what happened in crypto today (5h ago)",
    "CFTC gets into legal clash over stock perps after having cleared path for crypto version (5h ago)",
    "SpaceX blocks tokenized stock listing on OKXICE despite offshore trading boom (5h ago)",
    "CFTC clears stock perpetual futures for trading on US exchanges (7h ago)"
