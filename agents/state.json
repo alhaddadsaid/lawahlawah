@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -39852.56812756508,
+   "cash": -39901.909189188016,
    "open": [
     {
      "id": 1847,
@@ -21,21 +21,6 @@
      "size": 4.774898475952698,
      "deadline": 1793872952.8567457,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 1874,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CAPY",
-     "mint": "DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr",
-     "side": 1,
-     "opened": 1793814997.509208,
-     "entry": 0.0004917,
-     "stop": 0.00039336,
-     "target": 0.0006883799999999999,
-     "size": 406752.0846044336,
-     "deadline": 1793822197.5092082,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 1877,
@@ -89,29 +74,25 @@
  "runs": 66,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793821577.2307115,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793821577.2307115,
-  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793821577.2307115,
-  "seen:5tdWkbqhTqVyPmksqX8WVKrHbjjqmvQfrMGwZoZPpump": 1793821577.2307115,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793821577.2307115,
-  "seen:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793821761.7512574,
-  "seen:3HbtcdxLuTWL9cCUW11ukHzy6jKsqigLtrp1sRwfLoat": 1793821761.7512574,
-  "seen:9VHCDisE9pybDt5eCuKv1AyddCx8gksuxpoWi6vjpump": 1793821761.7512574,
-  "seen:42qKoGmEPTRJsa5jWrYwpydL8RkBwMvg2ykYVoerpump": 1793821761.7512574,
-  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793821761.7512574,
-  "seen:6Juc5WUvRyadjMsSBtGuAQ35XymmEexYy1FXADEjpump": 1793821761.7512574,
-  "seen:6eDkEhhJZ6NN6Q4f2TEt39whbvWRGGQQnXyRy2LL7Neo": 1793821943.1740708,
-  "seen:BxsNVvPuvCmHJRE6LyzqFAVoiTNhdHUVAgKNZhvApump": 1793821943.1740708,
-  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793821943.1740708,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793821943.1740708,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793821943.1740708,
-  "control:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793821944.3709164,
-  "seen:J28Ci28PHa2yrYTHhA9FhZwJuLhA2i1f8xpU4wt6pump": 1793822123.188138,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793822123.188138,
   "seen:F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1793822307.425191,
   "seen:HX5SV3eW5SnZyvL341mottVPqZJpaDVCM5BJAA7pump": 1793822307.425191,
   "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793822307.425191,
-  "control:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793822307.485075
+  "control:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793822307.485075,
+  "seen:2wuVyiKoJ6ttRtH4W2qaFmUzsGwFxRNLQVvqS84TCJW8": 1793822492.128758,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793822492.128758,
+  "seen:HEb2dwDNbBhnrCusoNXXvba9MymYTTmMQcHKaptxmfun": 1793822492.128758,
+  "seen:5tdWkbqhTqVyPmksqX8WVKrHbjjqmvQfrMGwZoZPpump": 1793822492.128758,
+  "seen:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793822673.1371355,
+  "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793822673.1371355,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1793822673.1371355,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793822673.1371355,
+  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793822673.1371355,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793822857.7116375,
+  "seen:BxsNVvPuvCmHJRE6LyzqFAVoiTNhdHUVAgKNZhvApump": 1793822857.7116375,
+  "seen:9VHCDisE9pybDt5eCuKv1AyddCx8gksuxpoWi6vjpump": 1793822857.7116375,
+  "seen:6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1793822857.7116375,
+  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793822857.7116375,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793823042.5087306
  },
  "talks": {
   "2026-10-21": 109
@@ -152,13 +133,13 @@
  ],
  "last_review": 1793811891.0859556,
  "news": {
-  "t": 1793821043.1837273,
+  "t": 1793821957.7211447,
   "crypto": [
-   "Trump-linked tokens lead crypto losses after Democrats sweep in the US midterms (0h ago)",
+   "Trump-linked tokens lead crypto losses after Democrats sweep in the US midterms (1h ago)",
    "Riot shares surge on $28B AI lease as Hut 8 sinks on revenue miss (1h ago)",
    "Circle\u2019s ARC token sale lifts earnings as lower yields weigh on USDC income (2h ago)",
-   "U.S. Democratic sweep could be the final nail in the \u2018Clarity Act\u2019s coffin\u2019 (3h ago)",
-   "Wall Street rethinks AI data center boom as Texas election raises new risks (3h ago)",
+   "U.S. Democratic sweep could be the final nail in the \u2018Clarity Act\u2019s coffin\u2019 (4h ago)",
+   "Wall Street rethinks AI data center boom as Texas election raises new risks (4h ago)",
    "Bitcoin hits $80.5K as US stocks rally on midterm election results (4h ago)",
    "Crypto Long & Short: ICE is betting on retail\u2019s appetite for quick outcomes (4h ago)",
    "The election changes Washington. The work on crypto continues (5h ago)",
@@ -167,11 +148,11 @@
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Monetary Policy Report in 16.4h",
-   "GBP Monetary Policy Summary in 16.4h",
-   "GBP MPC Official Bank Rate Votes in 16.4h, forecast 7-0-2, previous 3-0-6",
-   "GBP Official Bank Rate in 16.4h, forecast 4.00%, previous 3.75%",
-   "GBP BOE Gov Bailey Speaks in 16.9h"
+   "GBP BOE Monetary Policy Report in 16.1h",
+   "GBP Monetary Policy Summary in 16.1h",
+   "GBP MPC Official Bank Rate Votes in 16.1h, forecast 7-0-2, previous 3-0-6",
+   "GBP Official Bank Rate in 16.1h, forecast 4.00%, previous 3.75%",
+   "GBP BOE Gov Bailey Speaks in 16.6h"
   ]
  },
  "spend": {
@@ -202,5 +183,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793820861.7608273
+ "last_macro_macro": 1793822142.5181181
 }
