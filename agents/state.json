@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -37037.44473341793,
+   "cash": -36972.58463192293,
    "open": [
-    {
-     "id": 1796,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "STONKS",
-     "mint": "22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K",
-     "side": 1,
-     "opened": 1793750961.3528678,
-     "entry": 0.0007291,
-     "stop": 0.00058328,
-     "target": 0.00102074,
-     "size": 274310.794129749,
-     "deadline": 1793758161.352868,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1797,
      "desk": "control",
@@ -81,34 +66,48 @@
      "size": 5.460204890989195,
      "deadline": 1793844144.5425124,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 1802,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ARNOLD",
+     "mint": "nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump",
+     "side": 1,
+     "opened": 1793758291.7127101,
+     "entry": 0.00012,
+     "stop": 9.6e-05,
+     "target": 0.00016800000000000002,
+     "size": 1666666.6666666665,
+     "deadline": 1793765491.7127106,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1802,
+ "next_id": 1803,
  "runs": 63,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9juAXKoPwH9MVWS5haMPfgFZorEdqyZMNMZnNBL7urue": 1793758276.3231053,
-  "seen:6LY4Z3UC2atduymHfGkQ9g9uEbRtdQfQe237KofyCNyB": 1793758276.3231053,
-  "seen:Pre8AREmFPtoJFT8mQSXQLh56cwJmM7CFDRuoGBZiUP": 1793758276.3231053,
-  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793758276.3231053,
-  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793758276.3231053,
-  "seen:GDyfAeESBk6gpYcFWqotErpx2cxrY9L6hVpYsTVPpump": 1793758459.3941176,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793758459.3941176,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793758459.3941176,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793758459.3941176,
-  "seen:kgRVqtgbN1Gb6EsnPeVW8sVmAoe3LQ9i7CP7r2ipump": 1793758459.3941176,
-  "seen:BXnZLavfRifb4RwinweLHKAqn18yYfmXivpZizn6ahyX": 1793758643.923602,
-  "seen:EiqNgtwFzHqTEa3UV57s2x4svjJF59URgBqnG3sCpump": 1793758643.923602,
-  "seen:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793758643.923602,
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1793758643.923602,
-  "control:GOLD": 1793758644.5425158,
   "seen:HnuFhGaGx3GhWm4YE5EpMEZrtiEPpT4KhgMvuha9ntmp": 1793758824.0326788,
   "seen:AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M": 1793758824.0326788,
   "seen:BR7Sw97yjqtGzLVdM9Ryo8SvzbMgSAx3HwcgZCvkpump": 1793758824.0326788,
   "seen:GCEEdGYx17shhJyudBTAHYAgcTEpKzntyiiqysmUpump": 1793759010.1063333,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793759010.1063333
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793759010.1063333,
+  "seen:6LY4Z3UC2atduymHfGkQ9g9uEbRtdQfQe237KofyCNyB": 1793759191.6399994,
+  "seen:Pre8AREmFPtoJFT8mQSXQLh56cwJmM7CFDRuoGBZiUP": 1793759191.6399994,
+  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793759191.6399994,
+  "seen:nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump": 1793759191.6399994,
+  "control:nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump": 1793759191.7127137,
+  "seen:2AE9wpiN9J5b5g771WHsLpNr8CTndp6Qw5CnbAKVpump": 1793759376.689911,
+  "seen:5uY4RXyTkkHBkhatNzCmTphAhBS3LU6yaLd9b9uAhQAb": 1793759376.689911,
+  "seen:A2uRFgFpgPUpMYwkaHbkGWbyYi2Ya4qxK9ZR5ZYgpump": 1793759376.689911,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793759376.689911,
+  "seen:AHVk5hUQ4FmaGGQQw7sQD2tEnGu9RdHKM2THNp5Ppump": 1793759376.689911,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793759376.689911,
+  "seen:GRWVAfwa6PJtWZtfG6jdu5vAVe4AckQiKT8Jsga6pump": 1793759561.8001788,
+  "seen:DMgry6A9C6U6jopS7bAawukAvAcgpUvWfJULcbnfpump": 1793759561.8001788,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793759561.8001788
  },
  "talks": {
   "2026-10-21": 109
@@ -149,15 +148,15 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793757559.403001,
+  "t": 1793758476.6987667,
   "crypto": [
-   "US midterms election 2026 live: Democratic Senate odds climb above 90% (0h ago)",
+   "US midterms election 2026 live: Democratic Senate odds climb above 90% (1h ago)",
    "1inch lawyer sees agencies driving US crypto regulation as midterms unfold (1h ago)",
    "Live updates: 2026 U.S. midterm elections and results as first polls close (2h ago)",
    "RUNE rallies 15% as THORChain restarts most swaps after halt (2h ago)",
    "What voters said about their views on crypto (3h ago)",
    "What happens if North Korea steals Wall Street's tokenized assets next (3h ago)",
-   "Here\u2019s what happened in crypto today (3h ago)",
+   "Here\u2019s what happened in crypto today (4h ago)",
    "CFTC gets into legal clash over stock perps after having cleared path for crypto version (4h ago)",
    "SpaceX blocks tokenized stock listing on OKXICE despite offshore trading boom (4h ago)",
    "CFTC clears stock perpetual futures for trading on US exchanges (6h ago)"
