@@ -66,34 +66,45 @@
      "size": 1721170.395869191,
      "deadline": 1793795957.7412796,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1849,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Mag",
+     "mint": "AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M",
+     "side": 1,
+     "opened": 1793789122.577246,
+     "entry": 0.000226,
+     "stop": 0.0001808,
+     "target": 0.0003164,
+     "size": 884955.7522123894,
+     "deadline": 1793796322.5772462,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1849,
+ "next_id": 1850,
  "runs": 65,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793788923.0700028,
-  "seen:AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M": 1793788923.0700028,
-  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793788923.0700028,
-  "seen:a77qSuUSV5tCkk9EbvJnsGKHs9rC7vWVoWvu8r7pump": 1793789106.956128,
-  "seen:7WZZHmWyMGrZrqrMaBUo2tcuBcRotAt6GyMv97QVs7RB": 1793789106.956128,
-  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793789106.956128,
-  "seen:GJam2w9yczvryb19MawYw7kejTdDBCWMphoUPXYzpump": 1793789106.956128,
-  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793789106.956128,
-  "seen:4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump": 1793789106.956128,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793789106.956128,
-  "seen:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1793789289.7488503,
-  "seen:9bz8ubx6D676wPJGeEwvgJHnB84mqR23KQ26zdsZpump": 1793789289.7488503,
-  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793789289.7488503,
-  "seen:6gnB2H2hbTVvKUWCzNuqjWY8Rod6EVBmfHi7YxZpTWa7": 1793789289.7488503,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793789473.5382838,
   "seen:6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1793789473.5382838,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793789657.6942298,
   "seen:FWTurdziu8qVHLc61kvRc4UzMgG5c76DdzowYhL1pump": 1793789657.6942298,
   "seen:FrSrp9P3bgiFHwr6h5PQHVh55iC8Dae4eZCKPUo9pump": 1793789657.6942298,
-  "control:FrSrp9P3bgiFHwr6h5PQHVh55iC8Dae4eZCKPUo9pump": 1793789657.7412825
+  "control:FrSrp9P3bgiFHwr6h5PQHVh55iC8Dae4eZCKPUo9pump": 1793789657.7412825,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793789837.8156524,
+  "seen:AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M": 1793789837.8156524,
+  "seen:GJam2w9yczvryb19MawYw7kejTdDBCWMphoUPXYzpump": 1793790021.6102557,
+  "seen:4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump": 1793790021.6102557,
+  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793790021.6102557,
+  "control:AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M": 1793790022.5772495,
+  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793790206.5702016,
+  "seen:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1793790206.5702016,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793790206.5702016,
+  "seen:9bz8ubx6D676wPJGeEwvgJHnB84mqR23KQ26zdsZpump": 1793790206.5702016
  },
  "talks": {
   "2026-10-21": 109
@@ -134,18 +145,18 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793788206.965069,
+  "t": 1793789121.6194088,
   "crypto": [
+   "Justin Sun seeks $264K sanctions over World Liberty\u2019s UAE disclosure (0h ago)",
    "ZachXBT names French bank Cr\u00e9dit Mutuel Ark\u00e9a as suspected victim of $133 million crypto theft (0h ago)",
-   "Elon Musk floats space data centers as Democratic sweep puts pressure on AI trade (0h ago)",
+   "Elon Musk floats space data centers as Democratic sweep puts pressure on AI trade (1h ago)",
    "Bitcoin ETFs lose $1.16B as Bitwise calls selling \u2018short-term\u2019 (1h ago)",
    "US midterm elections 2026 as it happened: Democrats win control of Congress (1h ago)",
    "Morgan Stanley says it is among the first banks to tokenize real world assets (1h ago)",
    "Binance hackers move 81% of stolen Solana, route funds via THORChain (1h ago)",
-   "Zcash grants committee drops plan to redirect 98,000 ZEC to future mining rewards (2h ago)",
+   "Zcash grants committee drops plan to redirect 98,000 ZEC to future mining rewards (3h ago)",
    "Democrats win US House to secure control of Congress in midterms (3h ago)",
-   "Bitcoin bounces from 7-week low under $76K as Democrats sweep Congress (3h ago)",
-   "Bitcoin surges to $78,300 in V-shaped comeback as midterm election uncertainty fades (4h ago)"
+   "Bitcoin bounces from 7-week low under $76K as Democrats sweep Congress (3h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -178,5 +189,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793787838.7752676
+ "last_macro_macro": 1793789121.6193216
 }
