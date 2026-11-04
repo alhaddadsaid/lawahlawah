@@ -51,23 +51,29 @@
      "size": 455892.40939138364,
      "deadline": 1793803840.3692617,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1860,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "STONKS",
+     "mint": "22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K",
+     "side": 1,
+     "opened": 1793800299.0617495,
+     "entry": 0.0007569,
+     "stop": 0.0006055200000000001,
+     "target": 0.00105966,
+     "size": 264235.6982428326,
+     "deadline": 1793807499.0617497,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1860,
+ "next_id": 1861,
  "runs": 65,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CaQR7CNrXvXaFQLC2ChWBZHpUed4EYfVVJxjR34ipair": 1793799915.7817595,
-  "seen:3brY153eRNKLxUY3zfBYW9LvarfHUFhgSW66tbQupump": 1793799915.7817595,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793799915.7817595,
-  "seen:F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1793799915.7817595,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793800099.5786822,
-  "seen:62fMbTDFHvi8XM26PQE5BaRbz61yKwYXmsgfzuhpump": 1793800099.5786822,
-  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793800099.5786822,
-  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793800280.4442537,
-  "seen:UA12dXm9qXGjfV8r4UbgKrXrezH8AQtBhkHdypYpump": 1793800280.4442537,
   "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793800464.9951563,
   "seen:6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1793800464.9951563,
   "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793800464.9951563,
@@ -75,7 +81,20 @@
   "seen:HonEQ5chprkY5n7jSZFBb4sdghDtVChu9fVA3YEBpump": 1793800649.2180326,
   "seen:Hm6ADi76B6aenNsmazi9xVqhvk1PvvDf2yr9yZhDpump": 1793800649.2180326,
   "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793800649.2180326,
-  "seen:3rgFUpCG4Vs2twJordBqLgUtuzdr7yckJNP33fQypump": 1793800649.2180326
+  "seen:3rgFUpCG4Vs2twJordBqLgUtuzdr7yckJNP33fQypump": 1793800649.2180326,
+  "seen:CaQR7CNrXvXaFQLC2ChWBZHpUed4EYfVVJxjR34ipair": 1793800829.8757687,
+  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1793800829.8757687,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793800829.8757687,
+  "seen:B93V9uyYRaQDKSG8iCQyyP61j3NCqCRRXPCgU3gpump": 1793800829.8757687,
+  "seen:9RnsU8D5h83s1S9DTr5gGxjDMdGuKhcFrwzepqJupump": 1793801014.2085025,
+  "seen:FeABhXWmGfRSWu7F9EHe3biFExKenn5745VNzLo6pump": 1793801014.2085025,
+  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793801014.2085025,
+  "seen:AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M": 1793801014.2085025,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793801198.9753218,
+  "seen:8muc9DdhqWfAPcvmEebNQCG89bLiwi12T2KtBtzVpump": 1793801198.9753218,
+  "seen:UA12dXm9qXGjfV8r4UbgKrXrezH8AQtBhkHdypYpump": 1793801198.9753218,
+  "seen:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793801198.9753218,
+  "control:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793801199.0617533
  },
  "talks": {
   "2026-10-21": 109
@@ -116,26 +135,26 @@
  ],
  "last_review": 1793720157.6401644,
  "news": {
-  "t": 1793799199.5881214,
+  "t": 1793800114.2179108,
   "crypto": [
    "Global asset manager Schroders brings emerging market bond fund to Solana (1h ago)",
    "THORChain's RUNE jumps 10% as North Korean hackers resume laundering Binance loot (1h ago)",
    "Circle beats earnings expectations on strong revenue, but cuts 5% of its workforce (1h ago)",
-   "Here's how analysts are reacting to the new blue Congress (1h ago)",
-   "Canton\u2019s CC rises 4% as SEC staff view it as \u2018digital commodity\u2019 (1h ago)",
-   "Binance hack may be \u2018temporary setback\u2019 for crypto, Grayscale\u2019s Pandl says (2h ago)",
+   "Here's how analysts are reacting to the new blue Congress (2h ago)",
+   "Canton\u2019s CC rises 4% as SEC staff view it as \u2018digital commodity\u2019 (2h ago)",
+   "Binance hack may be \u2018temporary setback\u2019 for crypto, Grayscale\u2019s Pandl says (3h ago)",
    "Bitcoin rebounds from midterm dip as DeFi leads gains (3h ago)",
    "Justin Sun seeks $264K sanctions over World Liberty\u2019s UAE disclosure (3h ago)",
    "ZachXBT names French bank Cr\u00e9dit Mutuel Ark\u00e9a as suspected victim of $133 million crypto theft (3h ago)",
-   "Elon Musk floats space data centers as Democratic sweep puts pressure on AI trade (3h ago)"
+   "Elon Musk floats space data centers as Democratic sweep puts pressure on AI trade (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Monetary Policy Report in 22.4h",
-   "GBP Monetary Policy Summary in 22.4h",
-   "GBP MPC Official Bank Rate Votes in 22.4h, forecast 7-0-2, previous 3-0-6",
-   "GBP Official Bank Rate in 22.4h, forecast 4.00%, previous 3.75%",
-   "GBP BOE Gov Bailey Speaks in 22.9h"
+   "GBP BOE Monetary Policy Report in 22.2h",
+   "GBP Monetary Policy Summary in 22.2h",
+   "GBP MPC Official Bank Rate Votes in 22.2h, forecast 7-0-2, previous 3-0-6",
+   "GBP Official Bank Rate in 22.2h, forecast 4.00%, previous 3.75%",
+   "GBP BOE Gov Bailey Speaks in 22.7h"
   ]
  },
  "spend": {
