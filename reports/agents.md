@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-04 09:25 UTC. Runs so far: 65. Model: claude-haiku-5-5.
+Updated 2026-11-04 09:34 UTC. Runs so far: 65. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1785 | 31 | -48056.89 | -65132.31 |
+| control | meme | 1786 | 31 | -48111.91 | -65196.17 |
 | control | macro | 37 | 43 | -389.1 | -583.13 |
-| control | all | 1822 | 31 | -48445.99 | -65715.44 |
+| control | all | 1823 | 31 | -48501.01 | -65779.3 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: CHATBLT long at 7.515e-05, stop 6.012e-05, target 0.00010521, opened 2026-11-04 08:58 UTC
-- control: CHILLCATS long at 0.0001711, stop 0.00013688, target 0.00023954, opened 2026-11-04 09:01 UTC
+- control: CHILLCATS long at 0.0001356, stop 0.00010848, target 0.00018984, opened 2026-11-04 09:31 UTC
+- control: STONKS long at 0.0006758, stop 0.00054064, target 0.00094612, opened 2026-11-04 09:34 UTC
 
 ## Team
 
@@ -31,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order CHILLCATS REJECTED by guardrails: CHILLCATS already open
+- 2026-11-04 09:34 UTC control: OPENED STONKS long at 0.0006758 (stop 0.00054064, target 0.00094612) - control: frozen v3 rules
 
