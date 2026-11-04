@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-04 21:27 UTC. Runs so far: 66. Model: claude-haiku-5-5.
+Updated 2026-11-04 21:37 UTC. Runs so far: 66. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1835 | 31 | -49627.86 | -67175.85 |
+| control | meme | 1836 | 31 | -49696.59 | -67253.07 |
 | control | macro | 37 | 43 | -389.1 | -583.13 |
-| control | all | 1872 | 31 | -50016.96 | -67758.98 |
+| control | all | 1873 | 31 | -50085.69 | -67836.2 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: GOLD long at 4054.2, stop 4033.26, target 4085.61, opened 2026-11-04 10:02 UTC
 - control: STONKS long at 0.0007626, stop 0.00061008, target 0.00106764, opened 2026-11-04 19:58 UTC
 - control: EURUSD short at 1.12334, stop 1.12479, target 1.12118, opened 2026-11-04 21:02 UTC
-- control: ABTC long at 9.383e-05, stop 7.5064e-05, target 0.000131362, opened 2026-11-04 21:27 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-04 21:27 UTC control: OPENED ABTC long at 9.383e-05 (stop 7.5064e-05, target 0.000131362) - control: frozen v3 rules
+- control: CLOSED ABTC (stop) P&L $-68.73 normal, $-77.22 pessimistic
 
