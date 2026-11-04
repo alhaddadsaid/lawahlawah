@@ -33,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-04 08:23 UTC control: OPENED Transinu long at 0.0001666 (stop 0.00013328, target 0.00023324) - control: frozen v3 rules
+## Run ended 2026-11-04 08:23 UTC
 
