@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -41880.13962688327,
+   "cash": -41942.464626883266,
    "open": [
     {
      "id": 1998,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2003,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GTA",
-     "mint": "9vrEeQSTctTPSCdzbiHWLrb4xcjSn91YcoJFLDyopump",
-     "side": 1,
-     "opened": 1793914963.7836757,
-     "entry": 0.00012,
-     "stop": 9.6e-05,
-     "target": 0.000168,
-     "size": 1666666.6666666665,
-     "deadline": 1793922163.783676,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2004,
      "desk": "control",
      "market": "meme",
@@ -89,27 +74,25 @@
  "runs": 70,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7LRfD9Bf8YWGhqtWmGGAQ7M4v5PDRdW5f8SJ25JNpump": 1793915313.9608047,
-  "seen:9vrEeQSTctTPSCdzbiHWLrb4xcjSn91YcoJFLDyopump": 1793915313.9608047,
-  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1793915313.9608047,
-  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793915313.9608047,
-  "seen:5yKjUtPPPGNBhYL9BcV5AL896U3qtsfhMZw5Zck3pump": 1793915495.8025432,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793915495.8025432,
-  "seen:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793915495.8025432,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793915495.8025432,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793915495.8025432,
-  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793915495.8025432,
-  "seen:Bi59TGKZgLa7zVRz1BX3yPg6Cj8wWfZwfNc5FaCApump": 1793915679.9838126,
-  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793915679.9838126,
-  "seen:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793915679.9838126,
-  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793915679.9838126,
-  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1793915679.9838126,
   "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793915863.7095442,
   "control:9vrEeQSTctTPSCdzbiHWLrb4xcjSn91YcoJFLDyopump": 1793915863.7836795,
   "seen:9tCbAfPEm9bJz5UGV2Cuxyfj28oQWE38hm1gXNnjGb7a": 1793916047.0889068,
   "seen:BMsmKWguur3eDRNjMLAmajh6WXhDuobCZCavnEsbpump": 1793916047.0889068,
   "seen:EiYnLUuc8ondojNx7aBBq6gcrYESop3qe6fXHnswpump": 1793916047.0889068,
-  "control:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793916047.2214787
+  "control:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793916047.2214787,
+  "seen:9vrEeQSTctTPSCdzbiHWLrb4xcjSn91YcoJFLDyopump": 1793916231.7218423,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793916231.7218423,
+  "seen:5yKjUtPPPGNBhYL9BcV5AL896U3qtsfhMZw5Zck3pump": 1793916415.137135,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793916415.137135,
+  "seen:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793916415.137135,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793916415.137135,
+  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793916415.137135,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793916415.137135,
+  "seen:HChT9g3WzfkaG3ia7AKeYgYW4wjFzxso5KQW6yempump": 1793916598.663429,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793916598.663429,
+  "seen:Bi59TGKZgLa7zVRz1BX3yPg6Cj8wWfZwfNc5FaCApump": 1793916598.663429,
+  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793916598.663429,
+  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793916598.663429
  },
  "talks": {
   "2026-10-21": 109
@@ -150,24 +133,24 @@
  ],
  "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793914595.809953,
+  "t": 1793915515.1447065,
   "crypto": [
    "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack (3h ago)",
    "U.S. Justice Department assembles force to shield against foreign AI threats (3h ago)",
-   "Bitcoin, crypto stocks caught in AI trade meltdown, but traders spot bargains (3h ago)",
+   "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower (3h ago)",
    "Fed, OCC check US banks after Binance hack as experts flag security risks (3h ago)",
-   "Europe\u2019s largest asset manager Amundi tokenizes equity index fund on Ethereum (3h ago)",
+   "Europe\u2019s largest asset manager Amundi tokenizes equity index fund on Ethereum (4h ago)",
    "Paraguay president resigns after collapse of Ueno digital bank (4h ago)",
    "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist? (5h ago)",
    "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million (5h ago)",
    "Bitcoin crashes 6% to 7-week low as US stocks erase election gains (5h ago)",
-   "Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep (5h ago)"
+   "Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep (6h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m in 15.9h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 15.9h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 15.9h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m in 15.6h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 15.6h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 15.6h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
