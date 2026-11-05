@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-05 00:00 UTC. Runs so far: 67. Model: claude-haiku-5-5.
+Updated 2026-11-05 00:09 UTC. Runs so far: 67. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1848 | 30 | -50267.03 | -67931.98 |
+| control | meme | 1849 | 30 | -50274.8 | -67949.8 |
 | control | macro | 37 | 43 | -389.1 | -583.13 |
-| control | all | 1885 | 31 | -50656.13 | -68515.11 |
+| control | all | 1886 | 31 | -50663.9 | -68532.93 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,8 +19,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: GOLD long at 4054.2, stop 4033.26, target 4085.61, opened 2026-11-04 10:02 UTC
 - control: EURUSD short at 1.12334, stop 1.12479, target 1.12118, opened 2026-11-04 21:02 UTC
-- control: STONKS long at 0.0005765, stop 0.0004612, target 0.0008071, opened 2026-11-04 22:09 UTC
 - control: KAIA long at 9.743e-05, stop 7.7944e-05, target 0.000136402, opened 2026-11-05 00:00 UTC
+- control: AI long at 8.331e-05, stop 6.6648e-05, target 0.000116634, opened 2026-11-05 00:03 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-05 00:00 UTC control: OPENED KAIA long at 9.743e-05 (stop 7.7944e-05, target 0.000136402) - control: frozen v3 rules
+- control: CLOSED STONKS (time) P&L $-7.77 normal, $-17.82 pessimistic
 
