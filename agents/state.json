@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -41402.3568069701,
+   "cash": -41457.135089093004,
    "open": [
     {
      "id": 1944,
@@ -66,21 +66,6 @@
      "size": 2517623.363544814,
      "deadline": 1793869862.0570834,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1949,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ZELDA",
-     "mint": "E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump",
-     "side": 1,
-     "opened": 1793862845.2005002,
-     "entry": 8.592e-05,
-     "stop": 6.8736e-05,
-     "target": 0.00012028799999999998,
-     "size": 2327746.741154562,
-     "deadline": 1793870045.2005005,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,11 +74,6 @@
  "runs": 68,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793863193.8512967,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793863193.8512967,
-  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793863193.8512967,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793863378.6336582,
-  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793863378.6336582,
   "seen:8zDdAzxFE9BrGPiCmvXKmJ7haR2xEkkcLKZQ3b71k84g": 1793863561.997234,
   "control:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793863562.0570855,
   "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793863745.1406636,
@@ -106,7 +86,13 @@
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793863927.9564443,
   "seen:7gmxQoGqCNK9BJSaD5NNSPgCjpLV8eTSsStnhQuGArDM": 1793863927.9564443,
   "seen:5wSQpQfbdSKs7amvyxa2XTzWXNyionERZWdDWykYm1At": 1793863927.9564443,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793863927.9564443
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793863927.9564443,
+  "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793864112.6221726,
+  "seen:J8xUfMeWDE2VsmMvDVr5Qyvxn7C5Hv3zAWB6QpHwpump": 1793864112.6221726,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793864112.6221726,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793864112.6221726,
+  "seen:SivBpeYowiW8LyKyhoZGoh67qCc2ZV4jpWy6btPpump": 1793864295.3722203,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793864295.3722203
  },
  "talks": {
   "2026-10-21": 109
@@ -147,26 +133,26 @@
  ],
  "last_review": 1793811891.0859556,
  "news": {
-  "t": 1793862478.6399019,
+  "t": 1793863395.3785267,
   "crypto": [
    "Here\u2019s what happened in crypto today (1h ago)",
    "Binance, Polymarket seek Polygon hard fork to recover $6.8M in stolen crypto (1h ago)",
-   "Zcash is about to freeze $16 million in its oldest privacy pool (1h ago)",
+   "Zcash is about to freeze $16 million in its oldest privacy pool (2h ago)",
    "The pile of lawsuits against Kalshi just grew by one (2h ago)",
    "XRP Ledger fixes a disclosed bug that could have led to the creation of new tokens (2h ago)",
    "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound (2h ago)",
-   "\u2018Lawyer up\u2019: Democrats target Trump, Big Tech after midterm sweep (2h ago)",
+   "\u2018Lawyer up\u2019: Democrats target Trump, Big Tech after midterm sweep (3h ago)",
    "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show (3h ago)",
-   "India warns AI-powered hackers targeting crypto exchanges at \u2018machine speed\u2019 (5h ago)",
+   "India warns AI-powered hackers targeting crypto exchanges at \u2018machine speed\u2019 (6h ago)",
    "Mercado Bitcoin says phased reopening to begin Monday, will cover losses (8h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Monetary Policy Report in 4.9h",
-   "GBP Monetary Policy Summary in 4.9h",
-   "GBP MPC Official Bank Rate Votes in 4.9h, forecast 7-0-2, previous 3-0-6",
-   "GBP Official Bank Rate in 4.9h, forecast 4.00%, previous 3.75%",
-   "GBP BOE Gov Bailey Speaks in 5.4h"
+   "GBP BOE Monetary Policy Report in 4.6h",
+   "GBP Monetary Policy Summary in 4.6h",
+   "GBP MPC Official Bank Rate Votes in 4.6h, forecast 7-0-2, previous 3-0-6",
+   "GBP Official Bank Rate in 4.6h, forecast 4.00%, previous 3.75%",
+   "GBP BOE Gov Bailey Speaks in 5.1h"
   ]
  },
  "spend": {
