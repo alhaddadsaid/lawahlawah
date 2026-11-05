@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -41029.54975117166,
+   "cash": -41088.64386881872,
    "open": [
-    {
-     "id": 1963,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CR",
-     "mint": "GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9",
-     "side": 1,
-     "opened": 1793880578.5694444,
-     "entry": 0.00017,
-     "stop": 0.00013600000000000003,
-     "target": 0.000238,
-     "size": 1176470.588235294,
-     "deadline": 1793887778.569445,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1964,
      "desk": "control",
@@ -44,21 +29,23 @@
  "runs": 69,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9": 1793881477.9790523,
-  "seen:EbFJbnAMyf1hHHd2QNvHFRoKFntj1GZWHnFR2JYYpump": 1793881477.9790523,
-  "seen:F7CSEdSHM4jxhqN8fS6o1SUDagnZUhaC4ZTfbvBJpump": 1793881477.9790523,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793881477.9790523,
-  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793881477.9790523,
-  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793881477.9790523,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793881477.9790523,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793881477.9790523,
-  "control:GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9": 1793881478.569449,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793881661.0352566,
   "seen:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793881661.0352566,
   "seen:G6RAbT1ZQNeEifKBLRMTXi2JuSRqub3bXxSquoopump": 1793881661.0352566,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793881661.0352566,
   "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793881661.0352566,
-  "control:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793881661.0780692
+  "control:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793881661.0780692,
+  "seen:98HEU4TvXB3xjB1t15fgxHwYDLUH4fDomvp2DCzJpump": 1793881843.933739,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793881843.933739,
+  "seen:F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1793882207.084911,
+  "seen:5ubunNx9scw6A5Whb84tuYj8kJMEd6K95NUx2XmM7mTq": 1793882389.7284632,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793882389.7284632,
+  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793882389.7284632,
+  "seen:F7CSEdSHM4jxhqN8fS6o1SUDagnZUhaC4ZTfbvBJpump": 1793882389.7284632,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793882389.7284632,
+  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793882389.7284632,
+  "seen:GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9": 1793882389.7284632,
+  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793882389.7284632
  },
  "talks": {
   "2026-10-21": 109
@@ -99,14 +86,14 @@
  ],
  "last_review": 1793811891.0859556,
  "news": {
-  "t": 1793880577.9891293,
+  "t": 1793881489.7375748,
   "crypto": [
-   "Bitcoin miners are oversold following 35% October rout, VanEck says (0h ago)",
-   "Trump-linked American Bitcoin swings to $126 million profit but misses revenue estimates (0h ago)",
+   "Bitcoin miners are oversold following 35% October rout, VanEck says (1h ago)",
+   "Trump-linked American Bitcoin swings to $126 million profit but misses revenue estimates (1h ago)",
    "Thailand to block Bitget in December over unlicensed crypto trading (1h ago)",
    "Bitcoin holds above $80,000 after Wednesday\u2019s jump as injective rallies on staked ETF listing (1h ago)",
    "Live updates: Bitcoin steady around $80,000 as markets rally after Democratic sweep (1h ago)",
-   "Mercado Bitcoin hack continued hours after exchange said attack was contained, report finds (1h ago)",
+   "Mercado Bitcoin hack continued hours after exchange said attack was contained, report finds (2h ago)",
    "Bitcoin win rate vs. S&P 500 recovers as post-midterm history favors stocks (2h ago)",
    "Bitcoin miner Riot could pay Anthropic 12% interest under $28 billion AI deal (3h ago)",
    "South Korea seeks 4th crypto tax delay, targets 2029 start (3h ago)",
@@ -114,11 +101,11 @@
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Monetary Policy Report was 0.2h",
-   "GBP Monetary Policy Summary was 0.2h",
-   "GBP MPC Official Bank Rate Votes was 0.2h, forecast 7-0-2, previous 3-0-6",
-   "GBP Official Bank Rate was 0.2h, forecast 4.00%, previous 3.75%",
-   "GBP BOE Gov Bailey Speaks in 0.3h"
+   "GBP BOE Monetary Policy Report was 0.4h",
+   "GBP Monetary Policy Summary was 0.4h",
+   "GBP MPC Official Bank Rate Votes was 0.4h, forecast 7-0-2, previous 3-0-6",
+   "GBP Official Bank Rate was 0.4h, forecast 4.00%, previous 3.75%",
+   "GBP BOE Gov Bailey Speaks in 0.1h"
   ]
  },
  "spend": {
