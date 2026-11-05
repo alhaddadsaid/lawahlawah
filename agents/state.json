@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -41598.364436842094,
+   "cash": -41819.57337951464,
    "open": [
-    {
-     "id": 1978,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "WOJAK",
-     "mint": "8J69rbLTzWWgUJziFY8jeu5tDwEPBwUz4pKBMr5rpump",
-     "side": 1,
-     "opened": 1793889735.516402,
-     "entry": 0.001194,
-     "stop": 0.0009552,
-     "target": 0.0016715999999999999,
-     "size": 167504.18760469012,
-     "deadline": 1793896935.5164025,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1984,
      "desk": "control",
@@ -70,30 +55,26 @@
    ]
   }
  },
- "next_id": 1987,
+ "next_id": 1988,
  "runs": 69,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793896139.5145285,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793896139.5145285,
-  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793896139.5145285,
-  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793896139.5145285,
-  "seen:6Mt1oHb12F7JvJhFqcYERPJ3YqKgMGF9b8623uFYpump": 1793896139.5145285,
-  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793896139.5145285,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793896139.5145285,
-  "control:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793896139.9182508,
-  "seen:A2yfWHaurv9HNR9VkV2bksSXzLAPoLDLF2evY1Awpump": 1793896322.4839323,
-  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1793896322.4839323,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793896322.4839323,
-  "seen:GMXYEB8JfRRPxxLCBxWWxFePjMfSfdQUVmd8YHsupump": 1793896322.4839323,
-  "seen:4DXetRs9j7xkmvWuajA3XuVeXmnjPZHW7RpgAViApump": 1793896322.4839323,
-  "seen:TNEQzmK9B7ooFB8BgBCWSmmpRjfN6YG951yUCYjpump": 1793896505.0009618,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793896505.0009618,
-  "seen:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 1793896505.0009618,
-  "seen:91Z5ec6rhrSow4NvryZ4uskUWPD6LsiW8J3TkVoCpump": 1793896687.2034657,
-  "seen:HJTB9zW3vodjqUsmXXsEfewZoWPa6LjT8RCA1j7mpump": 1793896687.2034657,
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1793896687.2034657,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793896871.428694
+  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793897054.45715,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793897054.45715,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793897054.45715,
+  "seen:6Mt1oHb12F7JvJhFqcYERPJ3YqKgMGF9b8623uFYpump": 1793897054.45715,
+  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793897054.45715,
+  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793897054.45715,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793897237.3990173,
+  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1793897237.3990173,
+  "seen:GMXYEB8JfRRPxxLCBxWWxFePjMfSfdQUVmd8YHsupump": 1793897237.3990173,
+  "seen:4DXetRs9j7xkmvWuajA3XuVeXmnjPZHW7RpgAViApump": 1793897237.3990173,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793897237.3990173,
+  "seen:B96NHZfenP3YKdGMUqzL1gjV4aHxidnpGUZQb9KEjtXu": 1793897422.0282028,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793897422.0282028,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793897422.0282028,
+  "control:GMXYEB8JfRRPxxLCBxWWxFePjMfSfdQUVmd8YHsupump": 1793897422.0579755,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793897787.4682016
  },
  "talks": {
   "2026-10-21": 109
@@ -134,24 +115,24 @@
  ],
  "last_review": 1793811891.0859556,
  "news": {
-  "t": 1793895239.5245373,
+  "t": 1793896154.4671848,
   "crypto": [
+   "Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep (0h ago)",
    "Gate CEO says crypto exchanges must prove they can survive a hack like Binance\u2019s (2h ago)",
    "Kraken parent Payward and its clients buy AAVE tokens in DeFi investment push (2h ago)",
-   "Here\u2019s what happened in crypto today (2h ago)",
+   "Here\u2019s what happened in crypto today (3h ago)",
    "Blockchain is \u2018perfect solution\u2019 for AI agent trust, VeChain CEO says (3h ago)",
    "Can decentralized phone networks power the AI revolution? (3h ago)",
    "Google could take stake in bitcoin miner TeraWulf\u2019s $19 billion AI project if Anthropic defaults (3h ago)",
-   "Binance cuts SignalPlus access after security warning, urges users to check accounts (3h ago)",
-   "Ukraine\u2019s central bank opposes crypto bill, citing monetary sovereignty concerns (3h ago)",
-   "Trump\u2019s memecoin ventures derailed CLARITY Act, Scaramucci says (4h ago)",
-   "Bitcoin is resilient, but leverage is missing and demand still tepid (4h ago)"
+   "Binance cuts SignalPlus access after security warning, urges users to check accounts (4h ago)",
+   "Ukraine\u2019s central bank opposes crypto bill, citing monetary sovereignty concerns (4h ago)",
+   "Trump\u2019s memecoin ventures derailed CLARITY Act, Scaramucci says (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m in 21.3h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 21.3h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 21.3h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m in 21.0h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 21.0h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 21.0h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
