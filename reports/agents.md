@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-05 01:00 UTC. Runs so far: 67. Model: claude-haiku-5-5.
+Updated 2026-11-05 01:09 UTC. Runs so far: 67. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1855 | 30 | -50406.4 | -68139.56 |
+| control | meme | 1857 | 30 | -50508.91 | -68259.96 |
 | control | macro | 39 | 44 | -351.26 | -551.13 |
-| control | all | 1894 | 31 | -50757.66 | -68690.69 |
+| control | all | 1896 | 31 | -50860.17 | -68811.09 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: LEEROY long at 0.0001491, stop 0.00011928, target 0.00020874, opened 2026-11-05 00:45 UTC
-- control: AI long at 0.0001061, stop 8.488e-05, target 0.00014854, opened 2026-11-05 00:48 UTC
-- control: SLOP long at 0.0001163, stop 9.304e-05, target 0.00016282, opened 2026-11-05 00:57 UTC
 - control: EURUSD short at 1.12511, stop 1.12641, target 1.12316, opened 2026-11-05 01:00 UTC
+- control: AI long at 7.982e-05, stop 6.3856e-05, target 0.000111748, opened 2026-11-05 01:03 UTC
+- control: CALL long at 0.0001765, stop 0.0001412, target 0.0002471, opened 2026-11-05 01:09 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-05 01:00 UTC control: OPENED EURUSD short at 1.12511 (stop 1.12641, target 1.12316) - control: random direction
+- 2026-11-05 01:09 UTC control: OPENED CALL long at 0.0001765 (stop 0.0001412, target 0.0002471) - control: frozen v3 rules
 
