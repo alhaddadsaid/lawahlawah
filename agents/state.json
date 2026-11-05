@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -41838.78107348481,
+   "cash": -41891.414683087554,
    "open": [
     {
      "id": 1985,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1986,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PIRATE",
-     "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
-     "side": 1,
-     "opened": 1793895239.9182465,
-     "entry": 0.0003499,
-     "stop": 0.00027992,
-     "target": 0.00048986,
-     "size": 571591.8833952558,
-     "deadline": 1793902439.918247,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1989,
      "desk": "control",
      "market": "meme",
@@ -51,36 +36,70 @@
      "size": 1230012.3001230012,
      "deadline": 1793905005.2297924,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1990,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "WEALTH",
+     "mint": "8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump",
+     "side": 1,
+     "opened": 1793898352.380117,
+     "entry": 0.0001334,
+     "stop": 0.00010672,
+     "target": 0.00018675999999999998,
+     "size": 1499250.374812594,
+     "deadline": 1793905552.3801174,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1991,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ALON",
+     "mint": "8XtRWb4uAAJFMP4QQhoYYCWR6XXb7ybcCdiqPwz9s5WS",
+     "side": 1,
+     "opened": 1793898535.7934103,
+     "entry": 0.002428,
+     "stop": 0.0019424000000000002,
+     "target": 0.0033992,
+     "size": 82372.32289950576,
+     "deadline": 1793905735.7934105,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1990,
+ "next_id": 1992,
  "runs": 69,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:A2yfWHaurv9HNR9VkV2bksSXzLAPoLDLF2evY1Awpump": 1793897971.894346,
-  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793897971.894346,
-  "seen:6Mt1oHb12F7JvJhFqcYERPJ3YqKgMGF9b8623uFYpump": 1793897971.894346,
-  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793897971.894346,
-  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793897971.894346,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793897971.894346,
-  "control:4DXetRs9j7xkmvWuajA3XuVeXmnjPZHW7RpgAViApump": 1793897972.2852426,
-  "seen:HVg4fTkoC3tCqPLU7DtrqxhqDNda2m7G7gMEXUEypump": 1793898155.1741896,
-  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1793898155.1741896,
-  "seen:AtgneGZuU8A22jRZkaTEDFz7HXpUvpZqcrrQnPQppump": 1793898155.1741896,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793898155.1741896,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793898155.1741896,
-  "seen:42cXQvAAr7hcPBPWAS4ocVtDyeJ4Fa6gRR2uG4gppump": 1793898338.1796901,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793898338.1796901,
-  "seen:F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1793898338.1796901,
-  "seen:4DXetRs9j7xkmvWuajA3XuVeXmnjPZHW7RpgAViApump": 1793898338.1796901,
-  "seen:91Z5ec6rhrSow4NvryZ4uskUWPD6LsiW8J3TkVoCpump": 1793898520.6264377,
-  "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793898520.6264377,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793898705.1713326,
-  "seen:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793898705.1713326,
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1793898705.1713326,
-  "control:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793898705.2297952
+  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793898887.823745,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793898887.823745,
+  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793898887.823745,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793898887.823745,
+  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793898887.823745,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793898887.823745,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793898887.823745,
+  "seen:HVg4fTkoC3tCqPLU7DtrqxhqDNda2m7G7gMEXUEypump": 1793899072.0961936,
+  "seen:DGApkwpJhNWdHWtAuLUAESCb1t26HryYogWivYAwVExW": 1793899072.0961936,
+  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1793899072.0961936,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793899072.0961936,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793899252.045032,
+  "seen:3KfYWBRYG8rNUMUodzf2FdiQJrkxg6hPGQPv7pXzBAGS": 1793899252.045032,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793899252.045032,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793899252.045032,
+  "control:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1793899252.3801212,
+  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793899435.3690836,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793899435.3690836,
+  "seen:8XtRWb4uAAJFMP4QQhoYYCWR6XXb7ybcCdiqPwz9s5WS": 1793899435.3690836,
+  "control:8XtRWb4uAAJFMP4QQhoYYCWR6XXb7ybcCdiqPwz9s5WS": 1793899435.7934146,
+  "seen:5sr7JN7EQQS3mL3gEp1ouvfCXvgFEzCEKpKuftZpZno3": 1793899618.7595866,
+  "seen:BxmoDkAX1oY3ptL6mgmpoisSnPk6JrFBmYRk5VJqzayz": 1793899618.7595866,
+  "seen:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 1793899618.7595866,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793899618.7595866,
+  "seen:64xujE2UpewyChtCu9qBWuj5jfXi9hDsLY6YxpQmpump": 1793899618.7595866,
+  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793899618.7595866
  },
  "talks": {
   "2026-10-21": 109
@@ -119,26 +138,26 @@
    "instructions": "Before any trade, check the hypothesis against the journal and costs. Reject any idea without a pre-registered entry, stop, target, max hold and expected net edge. Track hit rate and net P&L per hypothesis."
   }
  ],
- "last_review": 1793811891.0859556,
+ "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793897071.9073722,
+  "t": 1793897987.8339915,
   "crypto": [
+   "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist (0h ago)",
+   "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million (0h ago)",
+   "Bitcoin crashes 6% to 7-week low as US stocks erase election gains (0h ago)",
    "Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep (1h ago)",
-   "Gate CEO says crypto exchanges must prove they can survive a hack like Binance\u2019s (2h ago)",
+   "Gate CEO says crypto exchanges must prove they can survive a hack like Binance\u2019s (3h ago)",
    "Kraken parent Payward and its clients buy AAVE tokens in DeFi investment push (3h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "Blockchain is \u2018perfect solution\u2019 for AI agent trust, VeChain CEO says (3h ago)",
    "Can decentralized phone networks power the AI revolution? (3h ago)",
-   "Google could take stake in bitcoin miner TeraWulf\u2019s $19 billion AI project if Anthropic defaults (3h ago)",
-   "Binance cuts SignalPlus access after security warning, urges users to check accounts (4h ago)",
-   "Ukraine\u2019s central bank opposes crypto bill, citing monetary sovereignty concerns (4h ago)",
-   "Trump\u2019s memecoin ventures derailed CLARITY Act, Scaramucci says (4h ago)"
+   "Google could take stake in bitcoin miner TeraWulf\u2019s $19 billion AI project if Anthropic defaults (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m in 20.8h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 20.8h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 20.8h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m in 20.5h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 20.5h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 20.5h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
@@ -169,5 +188,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793897255.184428
+ "last_macro_macro": 1793898535.379447
 }
