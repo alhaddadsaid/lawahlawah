@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-05 06:34 UTC. Runs so far: 68. Model: claude-haiku-5-5.
+Updated 2026-11-05 06:46 UTC. Runs so far: 68. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1881 | 30 | -50942.76 | -68928.86 |
+| control | meme | 1882 | 30 | -50874.76 | -68872.86 |
 | control | macro | 40 | 42 | -463.91 | -667.63 |
-| control | all | 1921 | 31 | -51406.67 | -69596.49 |
+| control | all | 1922 | 31 | -51338.67 | -69540.49 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,9 +19,9 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: MINTED long at 0.00015, stop 0.00012, target 0.00021, opened 2026-11-05 04:53 UTC
 - control: PIRATE long at 0.0003387, stop 0.00027096, target 0.00047418, opened 2026-11-05 04:56 UTC
-- control: LEEROY long at 0.0002325, stop 0.000186, target 0.0003255, opened 2026-11-05 04:59 UTC
 - control: STONKS long at 0.0003831, stop 0.00030648, target 0.00053634, opened 2026-11-05 06:00 UTC
 - control: Look long at 0.0001834, stop 0.00014672, target 0.00025676, opened 2026-11-05 06:25 UTC
+- control: ZELDA long at 9.912e-05, stop 7.9296e-05, target 0.000138768, opened 2026-11-05 06:43 UTC
 
 ## Team
 
@@ -34,6 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
 - control: order PIRATE REJECTED by guardrails: desk already has the maximum open positions
 

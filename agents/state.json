@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -41406.53972003465,
+   "cash": -41338.53972003465,
    "open": [
     {
      "id": 1938,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1940,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "LEEROY",
-     "mint": "98HEU4TvXB3xjB1t15fgxHwYDLUH4fDomvp2DCzJpump",
-     "side": 1,
-     "opened": 1793854788.4748316,
-     "entry": 0.0002325,
-     "stop": 0.00018600000000000002,
-     "target": 0.0003255,
-     "size": 860215.0537634408,
-     "deadline": 1793861988.4748318,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1944,
      "desk": "control",
      "market": "meme",
@@ -81,32 +66,47 @@
      "size": 1090512.5408942201,
      "deadline": 1793867110.8122802,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1946,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ZELDA",
+     "mint": "E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump",
+     "side": 1,
+     "opened": 1793861011.0340757,
+     "entry": 9.912e-05,
+     "stop": 7.929600000000001e-05,
+     "target": 0.000138768,
+     "size": 2017756.2550443907,
+     "deadline": 1793868211.034076,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1946,
+ "next_id": 1947,
  "runs": 68,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793860627.5160277,
-  "seen:fUh3fKSY6wmVAdqNbaYbFHM43pE1QFitLryEuVmxBBk": 1793860810.7479856,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793860810.7479856,
-  "control:F49ncWoGVf2EYpg4iqbkhuMvyLRgJYSrTMT3jCUSpump": 1793860810.8122818,
-  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793860995.1807094,
-  "seen:F49ncWoGVf2EYpg4iqbkhuMvyLRgJYSrTMT3jCUSpump": 1793860995.1807094,
-  "seen:4BCbx4hB1XPmC5mLHsFyHEghC5fb9Afu7THLGXiHpump": 1793860995.1807094,
-  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793860995.1807094,
-  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793860995.1807094,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793860995.1807094,
-  "seen:5wSQpQfbdSKs7amvyxa2XTzWXNyionERZWdDWykYm1At": 1793860995.1807094,
-  "seen:2z1XKwy3yBujFujGAztZubTEtayhYSaGfjM39uVMpump": 1793861177.825015,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793861177.825015,
-  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793861177.825015,
-  "seen:7gmxQoGqCNK9BJSaD5NNSPgCjpLV8eTSsStnhQuGArDM": 1793861177.825015,
   "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793861360.6349497,
   "seen:8zDdAzxFE9BrGPiCmvXKmJ7haR2xEkkcLKZQ3b71k84g": 1793861360.6349497,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793861360.6349497
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793861360.6349497,
+  "seen:8vMWu5jDYmv5dm751be4yt6iTEQwQbJb9RWJdzepump": 1793861544.9988244,
+  "seen:A72sK9mPWTvU4f5RQFy7upBCeJi9HZx3Q2Wgr7QBnuLL": 1793861544.9988244,
+  "seen:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793861728.3649666,
+  "seen:65vmPEHmCT5YxueRYnLeQY3sSjmxp1tp5n6a2h5gV7KK": 1793861910.9719179,
+  "seen:Ccix3UpnGfjhwECg73K7SqZM968RsWEonbaYAPBKHuwz": 1793861910.9719179,
+  "seen:F49ncWoGVf2EYpg4iqbkhuMvyLRgJYSrTMT3jCUSpump": 1793861910.9719179,
+  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793861910.9719179,
+  "seen:5wSQpQfbdSKs7amvyxa2XTzWXNyionERZWdDWykYm1At": 1793861910.9719179,
+  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793861910.9719179,
+  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793861910.9719179,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793861910.9719179,
+  "control:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793861911.0340793,
+  "seen:PGcABSUDyTX7MNQ2tGn7zP1HTGghe5o5NGXPZixpump": 1793862093.725479,
+  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793862093.725479,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793862093.725479
  },
  "talks": {
   "2026-10-21": 109
@@ -147,26 +147,26 @@
  ],
  "last_review": 1793811891.0859556,
  "news": {
-  "t": 1793859727.5220447,
+  "t": 1793860645.0051181,
   "crypto": [
-   "Binance, Polymarket seek Polygon hard fork to recover $6.8M in stolen crypto (0h ago)",
+   "Here\u2019s what happened in crypto today (0h ago)",
+   "Binance, Polymarket seek Polygon hard fork to recover $6.8M in stolen crypto (1h ago)",
    "Zcash is about to freeze $16 million in its oldest privacy pool (1h ago)",
    "The pile of lawsuits against Kalshi just grew by one (1h ago)",
    "XRP Ledger fixes a disclosed bug that could have led to the creation of new tokens (1h ago)",
    "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound (1h ago)",
-   "\u2018Lawyer up\u2019: Democrats target Trump, Big Tech after midterm sweep (1h ago)",
+   "\u2018Lawyer up\u2019: Democrats target Trump, Big Tech after midterm sweep (2h ago)",
    "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show (2h ago)",
    "India warns AI-powered hackers targeting crypto exchanges at \u2018machine speed\u2019 (5h ago)",
-   "Mercado Bitcoin says phased reopening to begin Monday, will cover losses (7h ago)",
-   "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty (7h ago)"
+   "Mercado Bitcoin says phased reopening to begin Monday, will cover losses (7h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Monetary Policy Report in 5.6h",
-   "GBP Monetary Policy Summary in 5.6h",
-   "GBP MPC Official Bank Rate Votes in 5.6h, forecast 7-0-2, previous 3-0-6",
-   "GBP Official Bank Rate in 5.6h, forecast 4.00%, previous 3.75%",
-   "GBP BOE Gov Bailey Speaks in 6.1h"
+   "GBP BOE Monetary Policy Report in 5.4h",
+   "GBP Monetary Policy Summary in 5.4h",
+   "GBP MPC Official Bank Rate Votes in 5.4h, forecast 7-0-2, previous 3-0-6",
+   "GBP Official Bank Rate in 5.4h, forecast 4.00%, previous 3.75%",
+   "GBP BOE Gov Bailey Speaks in 5.9h"
   ]
  },
  "spend": {
