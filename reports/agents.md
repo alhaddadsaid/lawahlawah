@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-05 16:53 UTC. Runs so far: 69. Model: claude-haiku-5-5.
+Updated 2026-11-05 16:56 UTC. Runs so far: 69. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -19,6 +19,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: ZELDA long at 0.0001256, stop 0.00010048, target 0.00017584, opened 2026-11-05 15:55 UTC
 - control: PIRATE long at 0.0003499, stop 0.00027992, target 0.00048986, opened 2026-11-05 16:13 UTC
+- control: AI long at 0.0001626, stop 0.00013008, target 0.00022764, opened 2026-11-05 16:56 UTC
 
 ## Team
 
@@ -31,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order ZELDA REJECTED by guardrails: ZELDA already open
+- 2026-11-05 16:56 UTC control: OPENED AI long at 0.0001626 (stop 0.00013008, target 0.00022764) - control: frozen v3 rules
 
