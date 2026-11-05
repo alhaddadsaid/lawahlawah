@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -40568.32613354748,
+   "cash": -40757.51129647418,
    "open": [
-    {
-     "id": 1890,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "EURUSD",
-     "mint": "",
-     "side": -1,
-     "opened": 1793826174.457573,
-     "entry": 1.1233429908752441,
-     "stop": 1.1247881991522652,
-     "target": 1.1211751784597124,
-     "size": 69194.17885297631,
-     "deadline": 1793912574.4575734,
-     "thesis": "control: random direction"
-    },
     {
      "id": 1913,
      "desk": "control",
@@ -51,41 +36,71 @@
      "size": 1885014.137606032,
      "deadline": 1793846920.632575,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1916,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SLOP",
+     "mint": "3SpVLU6UAYi7rqJxgWmsZYmfU5kvVTDK6HFxGPefLoat",
+     "side": 1,
+     "opened": 1793840272.8006494,
+     "entry": 0.0001163,
+     "stop": 9.304e-05,
+     "target": 0.00016281999999999996,
+     "size": 1719690.4557179708,
+     "deadline": 1793847472.8006494,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1917,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "EURUSD",
+     "mint": "",
+     "side": -1,
+     "opened": 1793840457.341183,
+     "entry": 1.125112533569336,
+     "stop": 1.126412263938359,
+     "target": 1.1231629380158015,
+     "size": 76939.0347285423,
+     "deadline": 1793926857.3411834,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 1915,
+ "next_id": 1918,
  "runs": 67,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4GMG7T7HvXhsYYTDHP9n1qT7jWiyaZky4jxSSwH7pump": 1793839888.1003313,
-  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793839888.1003313,
-  "seen:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793839888.1003313,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793840073.5987458,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793840073.5987458,
-  "seen:F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1793840073.5987458,
-  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793840073.5987458,
-  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793840073.5987458,
-  "seen:5tdWkbqhTqVyPmksqX8WVKrHbjjqmvQfrMGwZoZPpump": 1793840254.920223,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793840254.920223,
-  "seen:7MJn64VnPu1GERHVAtmrapxEhSiaAEanuf9ojy8j3B3G": 1793840435.7837455,
-  "seen:7UooapEDmXmP5hRJPoYvXqYDWMVh15Gi59gYu7hopump": 1793840435.7837455,
-  "seen:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793840435.7837455,
-  "seen:3SpVLU6UAYi7rqJxgWmsZYmfU5kvVTDK6HFxGPefLoat": 1793840435.7837455,
-  "seen:98HEU4TvXB3xjB1t15fgxHwYDLUH4fDomvp2DCzJpump": 1793840435.7837455,
-  "seen:9A9vMe8m78yWJpKv7DqgTSSNHSKKeF64neivVkripump": 1793840435.7837455,
-  "control:98HEU4TvXB3xjB1t15fgxHwYDLUH4fDomvp2DCzJpump": 1793840435.8366525,
   "seen:xYq9Um7hwaF6siQrzyuQBvsSZBoiv3fGVVGGx9Ax7nn": 1793840620.579429,
   "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793840620.579429,
   "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793840620.579429,
-  "control:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793840620.6325774
+  "control:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793840620.6325774,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793840802.8193192,
+  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793840802.8193192,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793840802.8193192,
+  "control:7UooapEDmXmP5hRJPoYvXqYDWMVh15Gi59gYu7hopump": 1793840802.9178638,
+  "seen:A72sK9mPWTvU4f5RQFy7upBCeJi9HZx3Q2Wgr7QBnuLL": 1793840987.4552336,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793840987.4552336,
+  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793840987.4552336,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793840987.4552336,
+  "seen:FpWWSqLNrjTTMDM41EXkvBmHBDkNdWrf9RwHL57xpump": 1793841171.9830608,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793841171.9830608,
+  "control:3SpVLU6UAYi7rqJxgWmsZYmfU5kvVTDK6HFxGPefLoat": 1793841172.800652,
+  "seen:7UooapEDmXmP5hRJPoYvXqYDWMVh15Gi59gYu7hopump": 1793841357.0645838,
+  "seen:3SpVLU6UAYi7rqJxgWmsZYmfU5kvVTDK6HFxGPefLoat": 1793841357.0645838,
+  "seen:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793841357.0645838,
+  "seen:9A9vMe8m78yWJpKv7DqgTSSNHSKKeF64neivVkripump": 1793841357.0645838,
+  "seen:6GjZvj8aT5t4jEi7xiMkK3nqqKNiYVes1n5Va8Zfpump": 1793841357.0645838,
+  "control:EURUSD": 1793841357.341187
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498285,
+ "ctrl_macro_hour": 498289,
  "team": [
   {
    "name": "Lead",
@@ -120,26 +135,26 @@
  ],
  "last_review": 1793811891.0859556,
  "news": {
-  "t": 1793839354.9264927,
+  "t": 1793840271.9891071,
   "crypto": [
-   "Mercado Bitcoin says phased reopening to begin Monday, will cover losses (1h ago)",
+   "Mercado Bitcoin says phased reopening to begin Monday, will cover losses (2h ago)",
    "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty (2h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "Crypto's Washington hopes fade, but Grayscale and BlackRock see growth ahead (2h ago)",
    "BitMart founder says security team \u2018severely understaffed\u2019 after new hack (2h ago)",
-   "Crypto PACs eye 2028 \u2018new map\u2019 as Democrats take Congress (2h ago)",
+   "Crypto PACs eye 2028 \u2018new map\u2019 as Democrats take Congress (3h ago)",
    "How Aussie Bitcoiners can avoid 2027\u2019s shock CGT hike (3h ago)",
    "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress (4h ago)",
-   "Trump-linked tokens lead crypto losses after Democrats sweep in the US midterms (5h ago)",
+   "Trump-linked tokens lead crypto losses after Democrats sweep in the US midterms (6h ago)",
    "Riot shares surge on $28B AI lease as Hut 8 sinks on revenue miss (6h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Monetary Policy Report in 11.3h",
-   "GBP Monetary Policy Summary in 11.3h",
-   "GBP MPC Official Bank Rate Votes in 11.3h, forecast 7-0-2, previous 3-0-6",
-   "GBP Official Bank Rate in 11.3h, forecast 4.00%, previous 3.75%",
-   "GBP BOE Gov Bailey Speaks in 11.8h"
+   "GBP BOE Monetary Policy Report in 11.0h",
+   "GBP Monetary Policy Summary in 11.0h",
+   "GBP MPC Official Bank Rate Votes in 11.0h, forecast 7-0-2, previous 3-0-6",
+   "GBP Official Bank Rate in 11.0h, forecast 4.00%, previous 3.75%",
+   "GBP BOE Gov Bailey Speaks in 11.5h"
   ]
  },
  "spend": {
@@ -170,5 +185,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793838807.5744236
+ "last_macro_macro": 1793840087.461312
 }
