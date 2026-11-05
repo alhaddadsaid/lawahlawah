@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -41389.135089093004,
+   "cash": -41453.32994700911,
    "open": [
     {
      "id": 1944,
@@ -66,30 +66,48 @@
      "size": 2517623.363544814,
      "deadline": 1793869862.0570834,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1952,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ZELDA",
+     "mint": "E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump",
+     "side": 1,
+     "opened": 1793864861.0162363,
+     "entry": 0.000156,
+     "stop": 0.0001248,
+     "target": 0.00021839999999999997,
+     "size": 1282051.282051282,
+     "deadline": 1793872061.0162365,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1951,
+ "next_id": 1953,
  "runs": 68,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:SivBpeYowiW8LyKyhoZGoh67qCc2ZV4jpWy6btPpump": 1793864295.3722203,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793864295.3722203,
-  "seen:7THX6dQXVCvchYpyRdZ2JBW4eCq9ZYpwkXty99Rmpump": 1793864662.9015367,
-  "seen:5uevEv4hxPoohvdr6rXE7wba2DNW9L8uQRR4FWGxpump": 1793864662.9015367,
-  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793864662.9015367,
-  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793864662.9015367,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793864662.9015367,
-  "seen:25Lrwta8CGeMt3pmxy7DivhJzRzBp5Ne76bdaxbPpump": 1793864662.9015367,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793864845.6346295,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793864845.6346295,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793864845.6346295,
-  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793864845.6346295,
-  "control:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793864845.7146928,
   "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793865028.2840502,
   "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793865028.2840502,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793865028.2840502
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793865028.2840502,
+  "seen:J8xUfMeWDE2VsmMvDVr5Qyvxn7C5Hv3zAWB6QpHwpump": 1793865212.585891,
+  "seen:SivBpeYowiW8LyKyhoZGoh67qCc2ZV4jpWy6btPpump": 1793865212.585891,
+  "seen:F49ncWoGVf2EYpg4iqbkhuMvyLRgJYSrTMT3jCUSpump": 1793865212.585891,
+  "seen:5Lt6KrhZUv79trUAc2Ev5AJ8vVkXiXA2xv7G9UgA6Son": 1793865395.9193864,
+  "seen:22r9JGoWRBYc4Z1pkSFw8p2tdjefS2ZZshw1vr8bBC2K": 1793865395.9193864,
+  "control:7THX6dQXVCvchYpyRdZ2JBW4eCq9ZYpwkXty99Rmpump": 1793865395.9747586,
+  "seen:GWMb6WineZmXbPkT6UU9WSCUhC5vNaa12zkh5iUcictP": 1793865578.551118,
+  "seen:7THX6dQXVCvchYpyRdZ2JBW4eCq9ZYpwkXty99Rmpump": 1793865578.551118,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793865578.551118,
+  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793865578.551118,
+  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793865578.551118,
+  "seen:13fMLRBwEGy1JVh1UEkw6zQtu763pqAcgnTHfYNBpump": 1793865760.9622986,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793865760.9622986,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793865760.9622986,
+  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793865760.9622986,
+  "control:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793865761.0162396
  },
  "talks": {
   "2026-10-21": 109
@@ -130,26 +148,26 @@
  ],
  "last_review": 1793811891.0859556,
  "news": {
-  "t": 1793863395.3785267,
+  "t": 1793864312.592523,
   "crypto": [
+   "Cr\u00e9dit Mutuel Ark\u00e9a resumes operations after attack, assesses losses (0h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
-   "Binance, Polymarket seek Polygon hard fork to recover $6.8M in stolen crypto (1h ago)",
+   "Binance, Polymarket seek Polygon hard fork to recover $6.8M in stolen crypto (2h ago)",
    "Zcash is about to freeze $16 million in its oldest privacy pool (2h ago)",
    "The pile of lawsuits against Kalshi just grew by one (2h ago)",
    "XRP Ledger fixes a disclosed bug that could have led to the creation of new tokens (2h ago)",
    "Bitcoin holds above $80,000 as Zcash jumps 12% in post-election crypto rebound (2h ago)",
    "\u2018Lawyer up\u2019: Democrats target Trump, Big Tech after midterm sweep (3h ago)",
    "Trump Media moves $342 million in bitcoin to Crypto.com, blockchain data show (3h ago)",
-   "India warns AI-powered hackers targeting crypto exchanges at \u2018machine speed\u2019 (6h ago)",
-   "Mercado Bitcoin says phased reopening to begin Monday, will cover losses (8h ago)"
+   "India warns AI-powered hackers targeting crypto exchanges at \u2018machine speed\u2019 (6h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Monetary Policy Report in 4.6h",
-   "GBP Monetary Policy Summary in 4.6h",
-   "GBP MPC Official Bank Rate Votes in 4.6h, forecast 7-0-2, previous 3-0-6",
-   "GBP Official Bank Rate in 4.6h, forecast 4.00%, previous 3.75%",
-   "GBP BOE Gov Bailey Speaks in 5.1h"
+   "GBP BOE Monetary Policy Report in 4.4h",
+   "GBP Monetary Policy Summary in 4.4h",
+   "GBP MPC Official Bank Rate Votes in 4.4h, forecast 7-0-2, previous 3-0-6",
+   "GBP Official Bank Rate in 4.4h, forecast 4.00%, previous 3.75%",
+   "GBP BOE Gov Bailey Speaks in 4.9h"
   ]
  },
  "spend": {
@@ -180,5 +198,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793863027.9629734
+ "last_macro_macro": 1793864312.5923433
 }

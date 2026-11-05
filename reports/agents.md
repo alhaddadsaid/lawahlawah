@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-05 07:35 UTC. Runs so far: 68. Model: claude-haiku-5-5.
+Updated 2026-11-05 07:47 UTC. Runs so far: 68. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1887 | 30 | -50925.36 | -68973.44 |
+| control | meme | 1888 | 30 | -50989.55 | -69046.25 |
 | control | macro | 40 | 42 | -463.91 | -667.63 |
-| control | all | 1927 | 31 | -51389.27 | -69641.07 |
+| control | all | 1928 | 31 | -51453.46 | -69713.88 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,6 +21,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: Look long at 0.0001834, stop 0.00014672, target 0.00025676, opened 2026-11-05 06:25 UTC
 - control: PIRATE long at 0.000278, stop 0.0002224, target 0.0003892, opened 2026-11-05 07:01 UTC
 - control: george long at 7.944e-05, stop 6.3552e-05, target 0.000111216, opened 2026-11-05 07:11 UTC
+- control: ZELDA long at 0.000156, stop 0.0001248, target 0.0002184, opened 2026-11-05 07:47 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED ZELDA (target) P&L $68.0 normal, $56.0 pessimistic
+- 2026-11-05 07:47 UTC control: OPENED ZELDA long at 0.000156 (stop 0.0001248, target 0.0002184) - control: frozen v3 rules
 
