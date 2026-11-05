@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -42149.49280021182,
+   "cash": -42335.601770311485,
    "open": [
     {
      "id": 2007,
@@ -23,40 +23,42 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2008,
+     "id": 2009,
      "desk": "control",
      "market": "meme",
-     "symbol": "Democat",
-     "mint": "9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump",
+     "symbol": "COGE",
+     "mint": "DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT",
      "side": 1,
-     "opened": 1793918087.9395952,
-     "entry": 0.0001505,
-     "stop": 0.0001204,
-     "target": 0.0002107,
-     "size": 1328903.65448505,
-     "deadline": 1793925287.9395955,
+     "opened": 1793918452.380573,
+     "entry": 0.0001594,
+     "stop": 0.00012752,
+     "target": 0.00022315999999999997,
+     "size": 1254705.1442910917,
+     "deadline": 1793925652.3805733,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2010,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "george",
+     "mint": "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump",
+     "side": 1,
+     "opened": 1793918636.0496943,
+     "entry": 0.0001106,
+     "stop": 8.848e-05,
+     "target": 0.00015484,
+     "size": 1808318.2640144664,
+     "deadline": 1793925836.0496945,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2009,
+ "next_id": 2011,
  "runs": 70,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793918253.8339674,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793918253.8339674,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793918253.8339674,
-  "seen:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP": 1793918253.8339674,
-  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793918253.8339674,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793918253.8339674,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793918253.8339674,
-  "seen:F7aWQ6fUNtvSJEMZShcJtWEHwBRt1qH8A9tqdvKuGnEa": 1793918437.6537457,
-  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793918437.6537457,
-  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793918437.6537457,
-  "seen:7KxJBFUKidCXZzkxJsYu6BLRBhxNzkfFHm6c7cdApump": 1793918437.6537457,
-  "seen:DyixuFHqubErs8yqvqWG7qRHoXAuB8iCAQ3D8KQv43x4": 1793918622.1061523,
-  "seen:HC3xrqKQj2mTDWBAUYndRYrzuuwVB27nQzembjDfpump": 1793918622.1061523,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793918804.9548395,
   "seen:ES9FintJPSGcoVuJhkLAsfSoug6B69bDoeTb3hJYpump": 1793918804.9548395,
   "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793918804.9548395,
@@ -64,7 +66,21 @@
   "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793918804.9548395,
   "seen:HChT9g3WzfkaG3ia7AKeYgYW4wjFzxso5KQW6yempump": 1793918987.857879,
   "seen:BojA7dKTduG7dpoCbyDmm7hPKndBYxkm93AxBHrPpump": 1793918987.857879,
-  "control:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793918987.9395986
+  "control:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793918987.9395986,
+  "seen:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793919169.4642086,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793919169.4642086,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793919169.4642086,
+  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793919169.4642086,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793919169.4642086,
+  "seen:DLPHgMT6n1gj2MRTZouX6jrbmm8YwQC4TJTdnMEVpump": 1793919352.2542481,
+  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793919352.2542481,
+  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793919352.2542481,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793919352.2542481,
+  "control:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793919352.3805766,
+  "seen:F9AYWxq7DiDD67hqDHcz1YaQqqHgbPgX9ivHZ3gCWFZg": 1793919535.686629,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793919535.686629,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793919535.686629,
+  "control:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793919536.049698
  },
  "talks": {
   "2026-10-21": 109
@@ -105,24 +121,24 @@
  ],
  "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793917353.841553,
+  "t": 1793918269.4717543,
   "crypto": [
+   "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express (0h ago)",
    "Crypto ally French Hill wins reelection but set to lose House chair (1h ago)",
-   "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack (3h ago)",
-   "U.S. Justice Department assembles force to shield against foreign AI threats (3h ago)",
+   "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack (4h ago)",
+   "U.S. Justice Department assembles force to shield against foreign AI threats (4h ago)",
    "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower (4h ago)",
    "Fed, OCC check US banks after Binance hack as experts flag security risks (4h ago)",
    "Europe\u2019s largest asset manager Amundi tokenizes equity index fund on Ethereum (4h ago)",
    "Paraguay president resigns after collapse of Ueno digital bank (5h ago)",
-   "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist? (5h ago)",
-   "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million (6h ago)",
-   "Bitcoin crashes 6% to 7-week low as US stocks erase election gains (6h ago)"
+   "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist? (6h ago)",
+   "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million (6h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m in 15.1h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 15.1h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 15.1h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m in 14.9h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 14.9h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 14.9h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
@@ -153,5 +169,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793917353.8413744
+ "last_macro_macro": 1793918635.6941602
 }
