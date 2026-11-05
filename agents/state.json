@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -41348.61919105169,
+   "cash": -41400.874225908396,
    "open": [
     {
      "id": 1970,
@@ -38,47 +38,63 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1977,
+     "id": 1978,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "WOJAK",
+     "mint": "8J69rbLTzWWgUJziFY8jeu5tDwEPBwUz4pKBMr5rpump",
+     "side": 1,
+     "opened": 1793889735.516402,
+     "entry": 0.001194,
+     "stop": 0.0009552,
+     "target": 0.0016715999999999999,
+     "size": 167504.18760469012,
+     "deadline": 1793896935.5164025,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1979,
      "desk": "control",
      "market": "meme",
      "symbol": "PIRATE",
      "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
      "side": 1,
-     "opened": 1793889370.9884512,
-     "entry": 0.0005164,
-     "stop": 0.00041312,
-     "target": 0.0007229599999999999,
-     "size": 387296.6692486445,
-     "deadline": 1793896570.988452,
+     "opened": 1793890286.2365706,
+     "entry": 0.0004336,
+     "stop": 0.00034688000000000004,
+     "target": 0.00060704,
+     "size": 461254.6125461254,
+     "deadline": 1793897486.2365708,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1978,
+ "next_id": 1980,
  "runs": 69,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793889724.173425,
-  "seen:Bcxqoaa6fPgpekfewCfs7BED5vWQqLDKCjHzoRFTpump": 1793889724.173425,
-  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793889724.173425,
-  "seen:E6QQeZNTrfiqwLskgDztyoxJDTiwpCvgPNkaTxFKpump": 1793889724.173425,
-  "seen:EguhkH6CJpbV814hd8rTaCCC6qbkRCXfk3MU1yLdpump": 1793889724.173425,
-  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793889907.5156934,
-  "seen:12SdCGkUPgMCtA5RwcZyAGrLYLFq51PgH1oThCwEpump": 1793889907.5156934,
-  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793889907.5156934,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793889907.5156934,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793889907.5156934,
-  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793890087.5126073,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793890087.5126073,
-  "control:EguhkH6CJpbV814hd8rTaCCC6qbkRCXfk3MU1yLdpump": 1793890087.5483105,
-  "seen:6Mt1oHb12F7JvJhFqcYERPJ3YqKgMGF9b8623uFYpump": 1793890270.8946807,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793890270.8946807,
-  "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793890270.8946807,
-  "control:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793890270.9884555,
   "seen:BrbF64ZAhinHazqXyGR6rQ1Pr16zouGMzmZw8NKXPDPG": 1793890454.2732913,
   "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793890454.2732913,
-  "seen:iNTCy1qTsUEZQe3DSocLz1ZXXai34Gdw8THQh5rxFaF": 1793890454.2732913
+  "seen:iNTCy1qTsUEZQe3DSocLz1ZXXai34Gdw8THQh5rxFaF": 1793890454.2732913,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793890634.8341174,
+  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793890634.8341174,
+  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793890634.8341174,
+  "seen:8J69rbLTzWWgUJziFY8jeu5tDwEPBwUz4pKBMr5rpump": 1793890634.8341174,
+  "control:8J69rbLTzWWgUJziFY8jeu5tDwEPBwUz4pKBMr5rpump": 1793890635.5164063,
+  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793890820.2362814,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793890820.2362814,
+  "seen:E6wCnAYkzicTGvcN8rx23iFRrempfXtUSM3FpHqRpump": 1793890820.2362814,
+  "seen:F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1793890820.2362814,
+  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793890820.2362814,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793890820.2362814,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793890820.2362814,
+  "seen:Eq8UZ5oadKvLtiDnPrb41dwDwU4BuB2tFXRT8rw8pump": 1793891003.4098613,
+  "seen:GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9": 1793891003.4098613,
+  "seen:3RWWrY7FcyikEb9V2PFxR7PCBJU6ZW9kkE6pTSYqpump": 1793891186.1464345,
+  "seen:6Mt1oHb12F7JvJhFqcYERPJ3YqKgMGF9b8623uFYpump": 1793891186.1464345,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793891186.1464345,
+  "control:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793891186.236574
  },
  "talks": {
   "2026-10-21": 109
@@ -119,9 +135,9 @@
  ],
  "last_review": 1793811891.0859556,
  "news": {
-  "t": 1793888824.1833959,
+  "t": 1793889734.844223,
   "crypto": [
-   "Kraken parent Payward and its clients buy AAVE tokens in DeFi investment push (0h ago)",
+   "Kraken parent Payward and its clients buy AAVE tokens in DeFi investment push (1h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
    "Blockchain is \u2018perfect solution\u2019 for AI agent trust, VeChain CEO says (1h ago)",
    "Can decentralized phone networks power the AI revolution? (1h ago)",
@@ -134,14 +150,14 @@
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Monetary Policy Report was 2.5h",
-   "GBP Monetary Policy Summary was 2.5h",
-   "GBP MPC Official Bank Rate Votes was 2.5h, forecast 7-0-2, previous 3-0-6",
-   "GBP Official Bank Rate was 2.5h, forecast 4.00%, previous 3.75%",
-   "GBP BOE Gov Bailey Speaks was 2.0h",
-   "USD Average Hourly Earnings m/m in 23.0h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 23.0h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 23.0h, forecast 4.2%, previous 4.2%"
+   "GBP BOE Monetary Policy Report was 2.7h",
+   "GBP Monetary Policy Summary was 2.7h",
+   "GBP MPC Official Bank Rate Votes was 2.7h, forecast 7-0-2, previous 3-0-6",
+   "GBP Official Bank Rate was 2.7h, forecast 4.00%, previous 3.75%",
+   "GBP BOE Gov Bailey Speaks was 2.2h",
+   "USD Average Hourly Earnings m/m in 22.8h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 22.8h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 22.8h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
