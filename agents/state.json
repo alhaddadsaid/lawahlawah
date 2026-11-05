@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -41235.94623601928,
+   "cash": -41151.29203746371,
    "open": [
-    {
-     "id": 1966,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PIRATE",
-     "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
-     "side": 1,
-     "opened": 1793882222.6941068,
-     "entry": 0.000354,
-     "stop": 0.0002832,
-     "target": 0.0004955999999999999,
-     "size": 564971.7514124294,
-     "deadline": 1793889422.6941073,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1970,
      "desk": "control",
@@ -35,36 +20,6 @@
      "target": 0.00016716,
      "size": 1675041.876046901,
      "deadline": 1793891804.019875,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1972,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "TOPLESS",
-     "mint": "CxYe8z7qnUFXDoPKce2pZ9xo9yP3KDktTojH5ZiCmWY9",
-     "side": 1,
-     "opened": 1793885705.2925832,
-     "entry": 9.277e-05,
-     "stop": 7.4216e-05,
-     "target": 0.000129878,
-     "size": 2155869.3543171287,
-     "deadline": 1793892905.2925835,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1973,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "george",
-     "mint": "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump",
-     "side": 1,
-     "opened": 1793885888.107072,
-     "entry": 0.0001753,
-     "stop": 0.00014024,
-     "target": 0.00024542,
-     "size": 1140901.3120365087,
-     "deadline": 1793893088.1070724,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -89,27 +44,23 @@
  "runs": 69,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FGFNjzfLp9adGMTLFXKT7JHidQXVuJsGwxQqYRm1oDNR": 1793888624.5300157,
-  "seen:KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump": 1793888624.5300157,
-  "seen:EguhkH6CJpbV814hd8rTaCCC6qbkRCXfk3MU1yLdpump": 1793888807.3722625,
-  "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793888807.3722625,
-  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793888807.3722625,
-  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793888807.3722625,
-  "seen:CxYe8z7qnUFXDoPKce2pZ9xo9yP3KDktTojH5ZiCmWY9": 1793888807.3722625,
-  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793888807.3722625,
-  "seen:42qKoGmEPTRJsa5jWrYwpydL8RkBwMvg2ykYVoerpump": 1793888807.3722625,
-  "control:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793888807.7333083,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793888990.8145437,
-  "seen:DBhWAqpAJFNM1A9XY6DDb1SJVkNCv87hRdYCoCoypump": 1793888990.8145437,
-  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793888990.8145437,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793888990.8145437,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793888990.8145437,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793888990.8145437,
   "seen:BFJd5mWCvu7yMivKCM7Xh8Dx17GgBbwaxcmFX3Aqpump": 1793889173.489207,
   "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793889173.489207,
   "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793889173.489207,
   "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793889173.489207,
-  "seen:F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1793889356.0295894
+  "seen:F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1793889356.0295894,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793889541.4629495,
+  "seen:GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9": 1793889541.4629495,
+  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793889724.173425,
+  "seen:Bcxqoaa6fPgpekfewCfs7BED5vWQqLDKCjHzoRFTpump": 1793889724.173425,
+  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793889724.173425,
+  "seen:E6QQeZNTrfiqwLskgDztyoxJDTiwpCvgPNkaTxFKpump": 1793889724.173425,
+  "seen:EguhkH6CJpbV814hd8rTaCCC6qbkRCXfk3MU1yLdpump": 1793889724.173425,
+  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793889907.5156934,
+  "seen:12SdCGkUPgMCtA5RwcZyAGrLYLFq51PgH1oThCwEpump": 1793889907.5156934,
+  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793889907.5156934,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793889907.5156934,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793889907.5156934
  },
  "talks": {
   "2026-10-21": 109
@@ -150,29 +101,29 @@
  ],
  "last_review": 1793811891.0859556,
  "news": {
-  "t": 1793887907.3819504,
+  "t": 1793888824.1833959,
   "crypto": [
    "Kraken parent Payward and its clients buy AAVE tokens in DeFi investment push (0h ago)",
-   "Here\u2019s what happened in crypto today (0h ago)",
+   "Here\u2019s what happened in crypto today (1h ago)",
    "Blockchain is \u2018perfect solution\u2019 for AI agent trust, VeChain CEO says (1h ago)",
    "Can decentralized phone networks power the AI revolution? (1h ago)",
    "Google could take stake in bitcoin miner TeraWulf\u2019s $19 billion AI project if Anthropic defaults (1h ago)",
-   "Binance cuts SignalPlus access after security warning, urges users to check accounts (1h ago)",
-   "Ukraine\u2019s central bank opposes crypto bill, citing monetary sovereignty concerns (1h ago)",
+   "Binance cuts SignalPlus access after security warning, urges users to check accounts (2h ago)",
+   "Ukraine\u2019s central bank opposes crypto bill, citing monetary sovereignty concerns (2h ago)",
    "Trump\u2019s memecoin ventures derailed CLARITY Act, Scaramucci says (2h ago)",
    "Bitcoin is resilient, but leverage is missing and demand still tepid (2h ago)",
-   "Bitcoin miners are oversold following 35% October rout, VanEck says (2h ago)"
+   "Bitcoin miners are oversold following 35% October rout, VanEck says (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Monetary Policy Report was 2.2h",
-   "GBP Monetary Policy Summary was 2.2h",
-   "GBP MPC Official Bank Rate Votes was 2.2h, forecast 7-0-2, previous 3-0-6",
-   "GBP Official Bank Rate was 2.2h, forecast 4.00%, previous 3.75%",
-   "GBP BOE Gov Bailey Speaks was 1.7h",
-   "USD Average Hourly Earnings m/m in 23.3h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 23.3h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 23.3h, forecast 4.2%, previous 4.2%"
+   "GBP BOE Monetary Policy Report was 2.5h",
+   "GBP Monetary Policy Summary was 2.5h",
+   "GBP MPC Official Bank Rate Votes was 2.5h, forecast 7-0-2, previous 3-0-6",
+   "GBP Official Bank Rate was 2.5h, forecast 4.00%, previous 3.75%",
+   "GBP BOE Gov Bailey Speaks was 2.0h",
+   "USD Average Hourly Earnings m/m in 23.0h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 23.0h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 23.0h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
