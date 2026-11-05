@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -40860.02545474567,
+   "cash": -40842.3512337825,
    "open": [
-    {
-     "id": 1913,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "LEEROY",
-     "mint": "98HEU4TvXB3xjB1t15fgxHwYDLUH4fDomvp2DCzJpump",
-     "side": 1,
-     "opened": 1793839535.83665,
-     "entry": 0.0001491,
-     "stop": 0.00011928,
-     "target": 0.00020873999999999998,
-     "size": 1341381.623071764,
-     "deadline": 1793846735.8366501,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1917,
      "desk": "control",
@@ -53,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1919,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CALL",
-     "mint": "7UooapEDmXmP5hRJPoYvXqYDWMVh15Gi59gYu7hopump",
-     "side": 1,
-     "opened": 1793840999.893431,
-     "entry": 0.0001765,
-     "stop": 0.00014120000000000002,
-     "target": 0.0002471,
-     "size": 1133144.4759206797,
-     "deadline": 1793848199.893431,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1920,
      "desk": "control",
      "market": "meme",
@@ -81,36 +51,67 @@
      "size": 2087900.6159306816,
      "deadline": 1793848382.962213,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1921,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CALL",
+     "mint": "7UooapEDmXmP5hRJPoYvXqYDWMVh15Gi59gYu7hopump",
+     "side": 1,
+     "opened": 1793841905.858035,
+     "entry": 0.0001425,
+     "stop": 0.000114,
+     "target": 0.00019949999999999997,
+     "size": 1403508.7719298247,
+     "deadline": 1793849105.8580356,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1922,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "MOGE",
+     "mint": "Dc8qw7K8ohS74ZS1rHknvsuxnxV9hkJBCYNzX3gdpump",
+     "side": 1,
+     "opened": 1793842087.1732273,
+     "entry": 0.0001153,
+     "stop": 9.224000000000001e-05,
+     "target": 0.00016141999999999998,
+     "size": 1734605.3772766695,
+     "deadline": 1793849287.1732275,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1921,
+ "next_id": 1923,
  "runs": 67,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Dc8qw7K8ohS74ZS1rHknvsuxnxV9hkJBCYNzX3gdpump": 1793841538.6370695,
-  "seen:6QUHcqYuiPRHxhnYZoygewXtNQr9kUrhc9Tmwgtbpump": 1793841538.6370695,
-  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793841538.6370695,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793841538.6370695,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793841538.6370695,
-  "control:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793841538.7268817,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793841719.1826975,
-  "seen:4GMG7T7HvXhsYYTDHP9n1qT7jWiyaZky4jxSSwH7pump": 1793841719.1826975,
-  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793841719.1826975,
-  "seen:F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1793841719.1826975,
-  "seen:Bid8i1ocWssjRmKh2kcUfHxD1K6Sk7E5pV2PSVdepump": 1793841899.8406227,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793841899.8406227,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793841899.8406227,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793841899.8406227,
-  "control:7UooapEDmXmP5hRJPoYvXqYDWMVh15Gi59gYu7hopump": 1793841899.8934345,
-  "seen:FRAaAZeDEgiRytZ5Mq5ZXuExEeHcoidQ8qRRZPZJpump": 1793842081.9497967,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793842081.9497967,
-  "control:3SpVLU6UAYi7rqJxgWmsZYmfU5kvVTDK6HFxGPefLoat": 1793842082.9622176,
   "seen:FES4cwyEXW2ayVtgjoswRLZoSAXAeq4snZBp9Cxkry3A": 1793842263.3727336,
   "seen:7MJn64VnPu1GERHVAtmrapxEhSiaAEanuf9ojy8j3B3G": 1793842263.3727336,
   "seen:7UooapEDmXmP5hRJPoYvXqYDWMVh15Gi59gYu7hopump": 1793842263.3727336,
-  "seen:3SpVLU6UAYi7rqJxgWmsZYmfU5kvVTDK6HFxGPefLoat": 1793842263.3727336
+  "seen:3SpVLU6UAYi7rqJxgWmsZYmfU5kvVTDK6HFxGPefLoat": 1793842263.3727336,
+  "seen:Dc8qw7K8ohS74ZS1rHknvsuxnxV9hkJBCYNzX3gdpump": 1793842443.5864007,
+  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793842443.5864007,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793842443.5864007,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793842443.5864007,
+  "seen:APLPiTjBWzwfZ5U1TBeqLF9XJ7dV7XKGe7j4BZhkDray": 1793842443.5864007,
+  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793842443.5864007,
+  "seen:6GjZvj8aT5t4jEi7xiMkK3nqqKNiYVes1n5Va8Zfpump": 1793842443.5864007,
+  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793842625.232074,
+  "seen:F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1793842625.232074,
+  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793842625.232074,
+  "seen:3VX9WUWdoYL1yJCKERGBpCU4aPrPHLBQEpHubZYHUtLn": 1793842805.799474,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793842805.799474,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793842805.799474,
+  "control:7UooapEDmXmP5hRJPoYvXqYDWMVh15Gi59gYu7hopump": 1793842805.8580384,
+  "seen:FRAaAZeDEgiRytZ5Mq5ZXuExEeHcoidQ8qRRZPZJpump": 1793842986.346919,
+  "seen:7BC22ppHGeCdhpxNVyJMxV51y1qzkAcEd8YXtzX8pump": 1793842986.346919,
+  "seen:9VHCDisE9pybDt5eCuKv1AyddCx8gksuxpoWi6vjpump": 1793842986.346919,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793842986.346919,
+  "control:Dc8qw7K8ohS74ZS1rHknvsuxnxV9hkJBCYNzX3gdpump": 1793842987.17323
  },
  "talks": {
   "2026-10-21": 109
@@ -151,26 +152,26 @@
  ],
  "last_review": 1793811891.0859556,
  "news": {
-  "t": 1793841181.9559512,
+  "t": 1793842086.353183,
   "crypto": [
    "Mercado Bitcoin says phased reopening to begin Monday, will cover losses (2h ago)",
-   "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty (2h ago)",
-   "Here\u2019s what happened in crypto today (2h ago)",
-   "Crypto's Washington hopes fade, but Grayscale and BlackRock see growth ahead (2h ago)",
+   "Tokenization and stablecoins may weather Democrats' sweep as broader crypto rules face uncertainty (3h ago)",
+   "Here\u2019s what happened in crypto today (3h ago)",
+   "Crypto's Washington hopes fade, but Grayscale and BlackRock see growth ahead (3h ago)",
    "BitMart founder says security team \u2018severely understaffed\u2019 after new hack (3h ago)",
    "Crypto PACs eye 2028 \u2018new map\u2019 as Democrats take Congress (3h ago)",
    "How Aussie Bitcoiners can avoid 2027\u2019s shock CGT hike (4h ago)",
    "Crypto's powerhouse super PAC suffers costly setback as Democrats sweep Congress (5h ago)",
    "Trump-linked tokens lead crypto losses after Democrats sweep in the US midterms (6h ago)",
-   "Riot shares surge on $28B AI lease as Hut 8 sinks on revenue miss (6h ago)"
+   "Riot shares surge on $28B AI lease as Hut 8 sinks on revenue miss (7h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Monetary Policy Report in 10.8h",
-   "GBP Monetary Policy Summary in 10.8h",
-   "GBP MPC Official Bank Rate Votes in 10.8h, forecast 7-0-2, previous 3-0-6",
-   "GBP Official Bank Rate in 10.8h, forecast 4.00%, previous 3.75%",
-   "GBP BOE Gov Bailey Speaks in 11.3h"
+   "GBP BOE Monetary Policy Report in 10.5h",
+   "GBP Monetary Policy Summary in 10.5h",
+   "GBP MPC Official Bank Rate Votes in 10.5h, forecast 7-0-2, previous 3-0-6",
+   "GBP Official Bank Rate in 10.5h, forecast 4.00%, previous 3.75%",
+   "GBP BOE Gov Bailey Speaks in 11.0h"
   ]
  },
  "spend": {
