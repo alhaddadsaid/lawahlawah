@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -41153.39924730478,
+   "cash": -41200.72783215862,
    "open": [
-    {
-     "id": 1964,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "AI",
-     "mint": "AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump",
-     "side": 1,
-     "opened": 1793880761.0780647,
-     "entry": 0.0001528,
-     "stop": 0.00012224000000000002,
-     "target": 0.00021391999999999998,
-     "size": 1308900.5235602094,
-     "deadline": 1793887961.078065,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 1966,
      "desk": "control",
@@ -38,62 +23,79 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1967,
+     "id": 1969,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "TOPLESS",
+     "mint": "CxYe8z7qnUFXDoPKce2pZ9xo9yP3KDktTojH5ZiCmWY9",
+     "side": 1,
+     "opened": 1793884237.817985,
+     "entry": 0.0001077,
+     "stop": 8.616e-05,
+     "target": 0.00015078,
+     "size": 1857010.2135561744,
+     "deadline": 1793891437.8179853,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1970,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "AI",
+     "mint": "AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump",
+     "side": 1,
+     "opened": 1793884604.0198748,
+     "entry": 0.0001194,
+     "stop": 9.552000000000001e-05,
+     "target": 0.00016716,
+     "size": 1675041.876046901,
+     "deadline": 1793891804.019875,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1971,
      "desk": "control",
      "market": "meme",
      "symbol": "CR",
      "mint": "GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9",
      "side": 1,
-     "opened": 1793882956.7430725,
-     "entry": 5.534e-05,
-     "stop": 4.4272000000000006e-05,
-     "target": 7.747599999999999e-05,
-     "size": 3614022.406938923,
-     "deadline": 1793890156.743073,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1968,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ELYSIUM",
-     "mint": "LKsRfGJjy25VZQJZL5tBZ6aMdtxHHA6PZ7Fp4mohype",
-     "side": 1,
-     "opened": 1793884057.434304,
-     "entry": 5.872e-05,
-     "stop": 4.6976000000000006e-05,
-     "target": 8.2208e-05,
-     "size": 3405994.550408719,
-     "deadline": 1793891257.4343045,
+     "opened": 1793884786.884055,
+     "entry": 7.558e-05,
+     "stop": 6.046400000000001e-05,
+     "target": 0.000105812,
+     "size": 2646202.699126753,
+     "deadline": 1793891986.8840551,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1969,
+ "next_id": 1972,
  "runs": 69,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:iiUAcmLWEqLMff1a9EE38QvQSr7aFdpiAp6homSt3JC": 1793884224.5621347,
-  "seen:CqxfC4UWQKiUJmcXUqTyqMzVzhBGbSUd2EHWcbz1pump": 1793884224.5621347,
-  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793884224.5621347,
-  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793884224.5621347,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793884224.5621347,
-  "seen:7C8Up3xn1S5AHngdBjY3CRF3tezbe9rR37UvtpRopump": 1793884224.5621347,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793884407.550951,
-  "seen:HD3YicTJQ6feHEWx65Me9zZx4QADnufzgnaRxYrzpump": 1793884407.550951,
-  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793884407.550951,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793884407.550951,
-  "seen:GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9": 1793884407.550951,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793884407.550951,
-  "seen:LKsRfGJjy25VZQJZL5tBZ6aMdtxHHA6PZ7Fp4mohype": 1793884591.4515407,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793884591.4515407,
-  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793884591.4515407,
-  "seen:98HEU4TvXB3xjB1t15fgxHwYDLUH4fDomvp2DCzJpump": 1793884774.4068391,
   "seen:CxYe8z7qnUFXDoPKce2pZ9xo9yP3KDktTojH5ZiCmWY9": 1793884957.4051247,
   "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793884957.4051247,
   "seen:MsGDybWRSNdNXkdDZhEksgzugT5CbVWUG2wkhwgpump": 1793884957.4051247,
-  "control:LKsRfGJjy25VZQJZL5tBZ6aMdtxHHA6PZ7Fp4mohype": 1793884957.4343083
+  "control:LKsRfGJjy25VZQJZL5tBZ6aMdtxHHA6PZ7Fp4mohype": 1793884957.4343083,
+  "seen:EGm377ktagjc1aMAMfovG2NqmHZWt6XeF2oP1dyCZPbK": 1793885137.508822,
+  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793885137.508822,
+  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793885137.508822,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793885137.508822,
+  "control:CxYe8z7qnUFXDoPKce2pZ9xo9yP3KDktTojH5ZiCmWY9": 1793885137.8179886,
+  "seen:Cc7DumqcXNn8nCw7bfvW1BaFj33UgZUDPaGRe4y8u1xX": 1793885320.7585497,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793885320.7585497,
+  "seen:GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9": 1793885320.7585497,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793885320.7585497,
+  "seen:7C8Up3xn1S5AHngdBjY3CRF3tezbe9rR37UvtpRopump": 1793885320.7585497,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793885320.7585497,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793885320.7585497,
+  "seen:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793885503.9941766,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793885503.9941766,
+  "control:AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump": 1793885504.019878,
+  "seen:J2cogdSGUqjLrQdUYxQuZGBRLFgYK1qK8CZxXckepump": 1793885686.804008,
+  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793885686.804008,
+  "control:GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9": 1793885686.8840585
  },
  "talks": {
   "2026-10-21": 109
@@ -134,26 +136,26 @@
  ],
  "last_review": 1793811891.0859556,
  "news": {
-  "t": 1793883324.571509,
+  "t": 1793884237.5182967,
   "crypto": [
+   "Binance cuts SignalPlus access after security warning, urges users to check accounts (0h ago)",
    "Ukraine\u2019s central bank opposes crypto bill, citing monetary sovereignty concerns (0h ago)",
-   "Trump\u2019s memecoin ventures derailed CLARITY Act, Scaramucci says (0h ago)",
-   "Bitcoin is resilient, but leverage is missing and demand still tepid (0h ago)",
+   "Trump\u2019s memecoin ventures derailed CLARITY Act, Scaramucci says (1h ago)",
+   "Bitcoin is resilient, but leverage is missing and demand still tepid (1h ago)",
    "Bitcoin miners are oversold following 35% October rout, VanEck says (1h ago)",
    "Trump-linked American Bitcoin swings to $126 million profit but misses revenue estimates (1h ago)",
-   "Thailand to block Bitget in December over unlicensed crypto trading (1h ago)",
-   "Bitcoin holds above $80,000 after Wednesday\u2019s jump as injective rallies on staked ETF listing (1h ago)",
+   "Thailand to block Bitget in December over unlicensed crypto trading (2h ago)",
+   "Bitcoin holds above $80,000 after Wednesday\u2019s jump as injective rallies on staked ETF listing (2h ago)",
    "Live updates: Bitcoin edges lower as markets cool following yesterday's rally (2h ago)",
-   "Mercado Bitcoin hack continued hours after exchange said attack was contained, report finds (2h ago)",
-   "Bitcoin win rate vs. S&P 500 recovers as post-midterm history favors stocks (2h ago)"
+   "Mercado Bitcoin hack continued hours after exchange said attack was contained, report finds (2h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Monetary Policy Report was 0.9h",
-   "GBP Monetary Policy Summary was 0.9h",
-   "GBP MPC Official Bank Rate Votes was 0.9h, forecast 7-0-2, previous 3-0-6",
-   "GBP Official Bank Rate was 0.9h, forecast 4.00%, previous 3.75%",
-   "GBP BOE Gov Bailey Speaks was 0.4h"
+   "GBP BOE Monetary Policy Report was 1.2h",
+   "GBP Monetary Policy Summary was 1.2h",
+   "GBP MPC Official Bank Rate Votes was 1.2h, forecast 7-0-2, previous 3-0-6",
+   "GBP Official Bank Rate was 1.2h, forecast 4.00%, previous 3.75%",
+   "GBP BOE Gov Bailey Speaks was 0.7h"
   ]
  },
  "spend": {
@@ -184,5 +186,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793883141.4999487
+ "last_macro_macro": 1793884420.7700157
 }
