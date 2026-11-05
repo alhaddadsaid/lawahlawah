@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -41088.64386881872,
+   "cash": -41153.39924730478,
    "open": [
     {
      "id": 1964,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 1965,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CR",
-     "mint": "GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9",
-     "side": 1,
-     "opened": 1793881857.5309546,
-     "entry": 0.0001255,
-     "stop": 0.0001004,
-     "target": 0.00017569999999999996,
-     "size": 1593625.4980079683,
-     "deadline": 1793889057.5309548,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 1966,
      "desk": "control",
      "market": "meme",
@@ -51,34 +36,48 @@
      "size": 564971.7514124294,
      "deadline": 1793889422.6941073,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 1967,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CR",
+     "mint": "GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9",
+     "side": 1,
+     "opened": 1793882956.7430725,
+     "entry": 5.534e-05,
+     "stop": 4.4272000000000006e-05,
+     "target": 7.747599999999999e-05,
+     "size": 3614022.406938923,
+     "deadline": 1793890156.743073,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1967,
+ "next_id": 1968,
  "runs": 69,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5ubunNx9scw6A5Whb84tuYj8kJMEd6K95NUx2XmM7mTq": 1793882389.7284632,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793882389.7284632,
-  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793882389.7284632,
-  "seen:F7CSEdSHM4jxhqN8fS6o1SUDagnZUhaC4ZTfbvBJpump": 1793882389.7284632,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793882389.7284632,
-  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793882389.7284632,
-  "seen:GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9": 1793882389.7284632,
-  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793882389.7284632,
-  "seen:Hm6hHqzj84T1ioMLqQzz2KyX8zqyFnm557HpQ26ZtNGJ": 1793882572.910686,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793882572.910686,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793882572.910686,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793882572.910686,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793882572.910686,
-  "seen:52e9K9NtXT9m6yX4ykfKE4WuGc8uocjTNuvfsHbWpump": 1793882757.2101104,
-  "seen:98HEU4TvXB3xjB1t15fgxHwYDLUH4fDomvp2DCzJpump": 1793882757.2101104,
-  "seen:G6RAbT1ZQNeEifKBLRMTXi2JuSRqub3bXxSquoopump": 1793882757.2101104,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793882757.2101104,
-  "control:GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9": 1793882757.530958,
   "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793883122.667458,
-  "control:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793883122.6941104
+  "control:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793883122.6941104,
+  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793883307.539273,
+  "seen:F7CSEdSHM4jxhqN8fS6o1SUDagnZUhaC4ZTfbvBJpump": 1793883307.539273,
+  "seen:MAfwqFC5jadE1TsBfojhpuDaNaJW9M4UYQWoqbnpump": 1793883307.539273,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793883307.539273,
+  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793883307.539273,
+  "seen:GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9": 1793883307.539273,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793883307.539273,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793883491.6974459,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793883491.6974459,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793883491.6974459,
+  "seen:GmyYMhPtkm3pL2wpqdsK3TNKzY4rVZuQjV4cPzBSpump": 1793883491.6974459,
+  "seen:52e9K9NtXT9m6yX4ykfKE4WuGc8uocjTNuvfsHbWpump": 1793883674.2068982,
+  "seen:LKsRfGJjy25VZQJZL5tBZ6aMdtxHHA6PZ7Fp4mohype": 1793883674.2068982,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1793883674.2068982,
+  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793883674.2068982,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793883856.7117655,
+  "control:GpsEwFGmEhPHsobgJYuYnPcNtxc8EJi6CVRLZtYaVKj9": 1793883856.743076
  },
  "talks": {
   "2026-10-21": 109
@@ -119,26 +118,26 @@
  ],
  "last_review": 1793811891.0859556,
  "news": {
-  "t": 1793881489.7375748,
+  "t": 1793882407.5486386,
   "crypto": [
+   "Bitcoin is resilient, but leverage is missing and demand still tepid (0h ago)",
    "Bitcoin miners are oversold following 35% October rout, VanEck says (1h ago)",
    "Trump-linked American Bitcoin swings to $126 million profit but misses revenue estimates (1h ago)",
    "Thailand to block Bitget in December over unlicensed crypto trading (1h ago)",
    "Bitcoin holds above $80,000 after Wednesday\u2019s jump as injective rallies on staked ETF listing (1h ago)",
-   "Live updates: Bitcoin steady around $80,000 as markets rally after Democratic sweep (1h ago)",
+   "Live updates: Bitcoin steady around $80,000 as markets cool following yesterday's rally (2h ago)",
    "Mercado Bitcoin hack continued hours after exchange said attack was contained, report finds (2h ago)",
    "Bitcoin win rate vs. S&P 500 recovers as post-midterm history favors stocks (2h ago)",
    "Bitcoin miner Riot could pay Anthropic 12% interest under $28 billion AI deal (3h ago)",
-   "South Korea seeks 4th crypto tax delay, targets 2029 start (3h ago)",
-   "France budget rejection sidelines stablecoin tax, wallet reporting (3h ago)"
+   "South Korea seeks 4th crypto tax delay, targets 2029 start (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Monetary Policy Report was 0.4h",
-   "GBP Monetary Policy Summary was 0.4h",
-   "GBP MPC Official Bank Rate Votes was 0.4h, forecast 7-0-2, previous 3-0-6",
-   "GBP Official Bank Rate was 0.4h, forecast 4.00%, previous 3.75%",
-   "GBP BOE Gov Bailey Speaks in 0.1h"
+   "GBP BOE Monetary Policy Report was 0.7h",
+   "GBP Monetary Policy Summary was 0.7h",
+   "GBP MPC Official Bank Rate Votes was 0.7h, forecast 7-0-2, previous 3-0-6",
+   "GBP Official Bank Rate was 0.7h, forecast 4.00%, previous 3.75%",
+   "GBP BOE Gov Bailey Speaks was 0.2h"
   ]
  },
  "spend": {
