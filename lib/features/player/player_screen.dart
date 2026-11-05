@@ -13,6 +13,7 @@ import '../../data/models/user_settings.dart';
 import '../../sources/subtitle_track.dart';
 import '../../ads/ad_pacing.dart';
 import '../../ads/ads.dart';
+import '../../browser/background_play.dart';
 import '../../data/remote_config.dart';
 import '../../downloads/download_manager.dart';
 import 'cast_controller.dart';
@@ -97,6 +98,7 @@ class _PlayerScreenState extends State<PlayerScreen> {
   VideoPlayerController? _video;
   bool _controls = true;
   bool _ended = false;
+  bool _muted = false;
   int _playRequest = 0;
   int _subtitleRequest = 0;
   List<SubtitleTrack> _subtitleTracks = const [];
@@ -193,6 +195,10 @@ class _PlayerScreenState extends State<PlayerScreen> {
         return;
       }
       await c.setPlaybackSpeed(_speed);
+      // Every episode starts at the user's own volume choice, never silent by
+      // accident, and with the iPhone audio session ready for movie sound.
+      await c.setVolume(_muted ? 0 : 1);
+      await BackgroundPlay.setAudioSession(true);
       if (startAt > Duration.zero && startAt < c.value.duration) await c.seekTo(startAt);
       if (!mounted || request != _playRequest) {
         await c.dispose();
@@ -501,6 +507,13 @@ class _PlayerScreenState extends State<PlayerScreen> {
     _showControls();
   }
 
+  void _toggleMute() {
+    final c = _video;
+    setState(() => _muted = !_muted);
+    c?.setVolume(_muted ? 0 : 1);
+    _showControls();
+  }
+
   void _seekBy(int seconds) {
     if (_cast.isCasting) {
       _cast.seekTo(_cast.position + Duration(seconds: seconds));
@@ -625,6 +638,11 @@ class _PlayerScreenState extends State<PlayerScreen> {
                     onPressed: c == null ? null : _chooseCastDevice,
                     icon: Icon(_cast.isCasting ? Icons.cast_connected : Icons.cast, color: Colors.white),
                   ),
+                IconButton(
+                  tooltip: _muted ? 'Unmute' : 'Mute',
+                  onPressed: c == null || _cast.isCasting ? null : _toggleMute,
+                  icon: Icon(_muted ? Icons.volume_off : Icons.volume_up, color: Colors.white),
+                ),
                 if (c != null) _downloadButton(c),
                 if (c != null) _subtitleMenu(),
                 TextButton(onPressed: c == null ? null : _cycleSpeed, child: Text(_speedLabel)),

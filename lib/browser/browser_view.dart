@@ -179,6 +179,9 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
     forMainFrameOnly: true,
   );
 
+  /// Whether this tab put the iPhone audio session in "playback".
+  bool _sessionOn = false;
+
   /// Whether the hook script is registered in this webview.
   late bool _bgScriptOn = BackgroundPlay.shouldRun(
     platform: defaultTargetPlatform,
@@ -204,11 +207,17 @@ class _BrowserViewState extends State<BrowserView> with AutomaticKeepAliveClient
         }
       }
       if (BackgroundPlay.activeFor(url)) {
+        _sessionOn = true;
         await BackgroundPlay.setAudioSession(true);
         await c.evaluateJavascript(source: BackgroundPlay.hookJs);
       } else {
         await c.evaluateJavascript(source: BackgroundPlay.offJs);
-        await BackgroundPlay.setAudioSession(false);
+        // Only undo a session this feature set itself. Resetting it on every
+        // page load left Reelway's player silent on the next episode.
+        if (_sessionOn) {
+          _sessionOn = false;
+          await BackgroundPlay.setAudioSession(false);
+        }
       }
     } catch (_) {
       /* A tab may have closed meanwhile. */

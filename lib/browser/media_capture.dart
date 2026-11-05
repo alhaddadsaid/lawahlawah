@@ -274,20 +274,24 @@ abstract final class MediaCapture {
 
   /// Starts the page's own player again (when Reelway's player cannot).
   static const resumeJs = r"""
-document.querySelectorAll('video').forEach(function (v) { try { v.play(); } catch (e) {} });
+document.querySelectorAll('video').forEach(function (v) {
+  try { if (v.__rwMuted) { v.muted = false; v.__rwMuted = false; } v.play(); } catch (e) {}
+});
 """;
 
   /// Starts the page's video muted, which pages may do without a tap, so the
   /// next episode reaches Reelway's player (which plays it with sound).
   static const autoplayJs = r"""
 document.querySelectorAll('video').forEach(function (v) {
-  try { if (v.paused) { v.muted = true; var p = v.play(); if (p && p.catch) p.catch(function () {}); } } catch (e) {}
+  try { if (v.paused) { if (!v.muted) v.__rwMuted = true; v.muted = true; var p = v.play(); if (p && p.catch) p.catch(function () {}); } } catch (e) {}
 });
 """;
 
   /// Stops the page's own player so the video does not play twice.
   static const pauseJs = r"""
-document.querySelectorAll('video').forEach(function (v) { try { v.pause(); } catch (e) {} });
+document.querySelectorAll('video').forEach(function (v) {
+  try { v.pause(); if (v.__rwMuted) { v.muted = false; v.__rwMuted = false; } } catch (e) {}
+});
 """;
 
   /// Ad videos are short; an episode is longer than this.
