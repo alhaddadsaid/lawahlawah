@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-05 09:31 UTC. Runs so far: 68. Model: claude-haiku-5-5.
+Updated 2026-11-05 09:46 UTC. Runs so far: 68. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -10,8 +10,8 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
 | control | meme | 1896 | 31 | -50652.26 | -68799.65 |
-| control | macro | 40 | 42 | -463.91 | -667.63 |
-| control | all | 1936 | 31 | -51116.17 | -69467.28 |
+| control | macro | 41 | 44 | -324.4 | -534.42 |
+| control | all | 1937 | 31 | -50976.66 | -69334.07 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,8 +19,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: STONKS long at 0.000515, stop 0.000412, target 0.000721, opened 2026-11-05 08:06 UTC
 - control: PIRATE long at 0.0003833, stop 0.00030664, target 0.00053662, opened 2026-11-05 08:54 UTC
-- control: GBPUSD short at 1.34814, stop 1.3491, target 1.34672, opened 2026-11-05 09:01 UTC
 - control: AI long at 0.0001579, stop 0.00012632, target 0.00022106, opened 2026-11-05 09:19 UTC
+- control: CYBERLEEK long at 0.002372, stop 0.0018976, target 0.0033208, opened 2026-11-05 09:46 UTC
 
 ## Team
 
@@ -33,5 +33,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED ABTC (target) P&L $68.0 normal, $56.0 pessimistic
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- 2026-11-05 09:46 UTC control: OPENED CYBERLEEK long at 0.002372 (stop 0.0018976, target 0.0033208) - control: frozen v3 rules
 
