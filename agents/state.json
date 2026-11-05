@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -42117.28530703447,
+   "cash": -42049.28530703447,
    "open": [
     {
      "id": 1999,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2001,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Democat",
-     "mint": "9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump",
-     "side": 1,
-     "opened": 1793913496.4452422,
-     "entry": 0.000106,
-     "stop": 8.48e-05,
-     "target": 0.0001484,
-     "size": 1886792.4528301887,
-     "deadline": 1793920696.4452424,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2006,
      "desk": "control",
      "market": "meme",
@@ -51,32 +36,48 @@
      "size": 1058761.2493382741,
      "deadline": 1793924003.9898374,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2007,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PIRATE",
+     "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
+     "side": 1,
+     "opened": 1793916987.4062376,
+     "entry": 0.0002181,
+     "stop": 0.00017448,
+     "target": 0.0003053399999999999,
+     "size": 917010.5456212747,
+     "deadline": 1793924187.4062378,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2007,
+ "next_id": 2008,
  "runs": 70,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:ANmwsB1G1fmAWKzuYL6xR6Abzbf9CeeTffmboHBD1Lvn": 1793916966.963281,
-  "seen:ES9FintJPSGcoVuJhkLAsfSoug6B69bDoeTb3hJYpump": 1793916966.963281,
-  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793916966.963281,
-  "seen:EwFvbV28uzafHpDxLLufUytk86zRTkFzvnCPxD95pump": 1793917150.51374,
-  "seen:9vrEeQSTctTPSCdzbiHWLrb4xcjSn91YcoJFLDyopump": 1793917150.51374,
-  "seen:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793917335.5176127,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793917335.5176127,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793917335.5176127,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793917335.5176127,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793917335.5176127,
-  "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793917335.5176127,
-  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793917335.5176127,
   "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793917520.6610892,
   "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793917520.6610892,
   "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793917520.6610892,
   "seen:GyWkSn2ah7dqLyPeZAjEZmfxuU2H4nwfGvgJhfYDVegn": 1793917703.9166174,
   "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793917703.9166174,
-  "control:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793917703.9898407
+  "control:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793917703.9898407,
+  "seen:ES9FintJPSGcoVuJhkLAsfSoug6B69bDoeTb3hJYpump": 1793917887.3145483,
+  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793917887.3145483,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1793917887.3145483,
+  "control:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793917887.4062412,
+  "seen:F6guPX5UJs2XH2tnmtG8wJYkPhwNVYBGVSnUGxvdpump": 1793918070.7528763,
+  "seen:6CV9YaV9E6N5LVNzuaBtSue52Y1TdHjuDF27eytjpump": 1793918070.7528763,
+  "seen:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793918253.8339674,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793918253.8339674,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793918253.8339674,
+  "seen:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP": 1793918253.8339674,
+  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793918253.8339674,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793918253.8339674,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793918253.8339674
  },
  "talks": {
   "2026-10-21": 109
@@ -117,24 +118,24 @@
  ],
  "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793916435.5253098,
+  "t": 1793917353.841553,
   "crypto": [
-   "Crypto ally French Hill wins reelection but set to lose House chair (0h ago)",
+   "Crypto ally French Hill wins reelection but set to lose House chair (1h ago)",
    "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack (3h ago)",
    "U.S. Justice Department assembles force to shield against foreign AI threats (3h ago)",
-   "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower (3h ago)",
+   "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower (4h ago)",
    "Fed, OCC check US banks after Binance hack as experts flag security risks (4h ago)",
    "Europe\u2019s largest asset manager Amundi tokenizes equity index fund on Ethereum (4h ago)",
-   "Paraguay president resigns after collapse of Ueno digital bank (4h ago)",
+   "Paraguay president resigns after collapse of Ueno digital bank (5h ago)",
    "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist? (5h ago)",
-   "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million (5h ago)",
-   "Bitcoin crashes 6% to 7-week low as US stocks erase election gains (5h ago)"
+   "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million (6h ago)",
+   "Bitcoin crashes 6% to 7-week low as US stocks erase election gains (6h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m in 15.4h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 15.4h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 15.4h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m in 15.1h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 15.1h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 15.1h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
@@ -165,5 +166,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793916066.9705956
+ "last_macro_macro": 1793917353.8413744
 }
