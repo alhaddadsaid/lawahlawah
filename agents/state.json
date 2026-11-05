@@ -5,95 +5,47 @@
    "open": []
   },
   "control": {
-   "cash": -41981.250070549926,
+   "cash": -41961.80423412069,
    "open": [
     {
-     "id": 1989,
+     "id": 1996,
      "desk": "control",
      "market": "meme",
-     "symbol": "AI",
-     "mint": "AjZ8JFAvMAdrRFG4yfuozGBnpEM4DKPg1JV5nuNqpump",
+     "symbol": "TIRED",
+     "mint": "Bmhp8nat7zTFu3Ct8HpQftiHHmB6dnf4B9ivvYYzpump",
      "side": 1,
-     "opened": 1793897805.229792,
-     "entry": 0.0001626,
-     "stop": 0.00013008,
-     "target": 0.00022763999999999998,
-     "size": 1230012.3001230012,
-     "deadline": 1793905005.2297924,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1991,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ALON",
-     "mint": "8XtRWb4uAAJFMP4QQhoYYCWR6XXb7ybcCdiqPwz9s5WS",
-     "side": 1,
-     "opened": 1793898535.7934103,
-     "entry": 0.002428,
-     "stop": 0.0019424000000000002,
-     "target": 0.0033992,
-     "size": 82372.32289950576,
-     "deadline": 1793905735.7934105,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1992,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PIRATE",
-     "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
-     "side": 1,
-     "opened": 1793898903.4141488,
-     "entry": 0.0002794,
-     "stop": 0.00022352000000000003,
-     "target": 0.00039116,
-     "size": 715819.6134574087,
-     "deadline": 1793906103.4141493,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 1995,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ZELDA",
-     "mint": "E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump",
-     "side": 1,
-     "opened": 1793900919.49851,
-     "entry": 8.108e-05,
-     "stop": 6.4864e-05,
-     "target": 0.000113512,
-     "size": 2466699.55599408,
-     "deadline": 1793908119.4985101,
+     "opened": 1793910936.564195,
+     "entry": 0.0001073,
+     "stop": 8.584e-05,
+     "target": 0.00015021999999999998,
+     "size": 1863932.898415657,
+     "deadline": 1793918136.5641954,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 1996,
- "runs": 69,
+ "next_id": 1998,
+ "runs": 70,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:634vrPzhHXvBLTTWrWj4CnXgdpixUgC8uXA5wrC6pump": 1793901269.3355136,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793901269.3355136,
-  "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1793901269.3355136,
-  "seen:HR8a1erQ4LyTKW5XYrHzPy9na5Gd6GHhccXhQywzpump": 1793901451.8341362,
-  "seen:FNMipZwFFTSoZQcPqFVabGW1tWi9P928Zy8kMDSrpump": 1793901451.8341362,
-  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793901451.8341362,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793901451.8341362,
-  "control:HVg4fTkoC3tCqPLU7DtrqxhqDNda2m7G7gMEXUEypump": 1793901451.8787858,
-  "seen:BtebADyx25o9Y8KmFs87zTETP98gFtWmFmYWgS1Rpump": 1793901636.1701841,
-  "seen:7F8BkfhPaDGMeNkaYeVa99WAqo86LpXDKsLQXpM7pump": 1793901636.1701841,
-  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793901636.1701841,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793901636.1701841,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793901636.1701841,
-  "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793901636.1701841,
-  "seen:HVg4fTkoC3tCqPLU7DtrqxhqDNda2m7G7gMEXUEypump": 1793901819.3664844,
-  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793901819.3664844,
-  "control:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793901819.498514,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793902001.7701771,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793902001.7701771,
-  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793902001.7701771
+  "seen:E339LCMzTWZXyM4hGGTKKcuFCJWJNtDkRshuLmVzpump": 1793911835.592237,
+  "seen:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793911835.592237,
+  "seen:54zSTXvPyjcASLHv5PDfCtbZb9Hjtqv5dsdQdJxLpump": 1793911835.592237,
+  "seen:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793911835.592237,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793911835.592237,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793911835.592237,
+  "seen:DNUTsCvKbKwu2RM72cUuW3TD9YpzArzACcqYQssjPLSk": 1793911835.592237,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793911835.592237,
+  "control:Bmhp8nat7zTFu3Ct8HpQftiHHmB6dnf4B9ivvYYzpump": 1793911836.5641997,
+  "seen:Bmhp8nat7zTFu3Ct8HpQftiHHmB6dnf4B9ivvYYzpump": 1793912020.0647926,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793912020.0647926,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793912020.0647926,
+  "seen:9mWrj77gDZ7w4rwHF6STYXDZmYRMyf39L4go1mXepump": 1793912020.0647926,
+  "seen:D4CzGsZgusVj2K8R1its5H8WWdo9mazbDwBc6qvsmfun": 1793912020.0647926,
+  "control:9Y1F6dZ6HpjZDYZdYuUGwMbkUiPsyU7WPTqTQU4Tpump": 1793912020.1402936,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793912203.3958426,
+  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793912203.3958426
  },
  "talks": {
   "2026-10-21": 109
@@ -134,24 +86,24 @@
  ],
  "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793900736.1808546,
+  "t": 1793910935.6004887,
   "crypto": [
-   "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist (1h ago)",
-   "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million (1h ago)",
-   "Bitcoin crashes 6% to 7-week low as US stocks erase election gains (1h ago)",
-   "Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep (2h ago)",
-   "Gate CEO says crypto exchanges must prove they can survive a hack like Binance\u2019s (3h ago)",
-   "Kraken parent Payward and its clients buy AAVE tokens in DeFi investment push (4h ago)",
-   "Here\u2019s what happened in crypto today (4h ago)",
-   "Blockchain is \u2018perfect solution\u2019 for AI agent trust, VeChain CEO says (4h ago)",
-   "Can decentralized phone networks power the AI revolution? (4h ago)",
-   "Google could take stake in bitcoin miner TeraWulf\u2019s $19 billion AI project if Anthropic defaults (4h ago)"
+   "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack (2h ago)",
+   "U.S. Justice Department assembles force to shield against foreign AI threats (2h ago)",
+   "Bitcoin, crypto stocks caught in AI trade meltdown, but Wintermute trader sees 'glass half full' (2h ago)",
+   "Fed, OCC check US banks after Binance hack as experts flag security risks (2h ago)",
+   "Europe\u2019s largest asset manager Amundi tokenizes equity index fund on Ethereum (2h ago)",
+   "Paraguay president resigns after collapse of Ueno digital bank (3h ago)",
+   "What is TraderTraitor, the hacking squad behind the $6.3 billion Binance heist (4h ago)",
+   "Standard Chartered and SBI back crypto insurer Soter as funding reaches $23.5 million (4h ago)",
+   "Bitcoin crashes 6% to 7-week low as US stocks erase election gains (4h ago)",
+   "Crypto for Advisors: Where investors stake crypto shapes how much of the reward they keep (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m in 19.7h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 19.7h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 19.7h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m in 16.9h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 16.9h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 16.9h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
@@ -182,5 +134,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793901101.7803023
+ "last_macro_macro": 1793910935.6003146
 }
