@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -42626.09014374219,
+   "cash": -42613.44619144237,
    "open": [
     {
      "id": 2037,
@@ -51,47 +51,30 @@
      "size": 1318391.5622940012,
      "deadline": 1793944002.7620454,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2044,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CALLING",
-     "mint": "5ve4fMHU4BsSgJvjF9NEMp5m9yNLqYkugPKbV7SZpump",
-     "side": 1,
-     "opened": 1793937536.2134488,
-     "entry": 0.0001324,
-     "stop": 0.00010592,
-     "target": 0.00018535999999999997,
-     "size": 1510574.0181268882,
-     "deadline": 1793944736.213449,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2046,
+ "next_id": 2047,
  "runs": 71,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5ve4fMHU4BsSgJvjF9NEMp5m9yNLqYkugPKbV7SZpump": 1793938435.5708048,
-  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793938435.5708048,
-  "seen:FueqbowLWcC41r91CTwTKbKGRTEEVZesG8EY9Zzepump": 1793938435.5708048,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793938435.5708048,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793938435.5708048,
-  "control:5ve4fMHU4BsSgJvjF9NEMp5m9yNLqYkugPKbV7SZpump": 1793938436.2134511,
-  "seen:GTTQWTy96Vr2NNqrUHjg854AYKKP51jQr2Fcies7pump": 1793938619.7210782,
-  "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793938619.7210782,
-  "seen:519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump": 1793938619.7210782,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793938619.7210782,
-  "control:GTTQWTy96Vr2NNqrUHjg854AYKKP51jQr2Fcies7pump": 1793938619.849526,
   "seen:Bzka9fV2jrmWLTa9ew79mG4M6aEpaMqF3Jx66Qe42TQs": 1793938799.4054601,
   "seen:GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump": 1793938799.4054601,
   "seen:CMK5SEFQw3DDs6iGTBBAHeyQyMnBgtZvFnUp6tYwabi": 1793938799.4054601,
   "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793938982.8365157,
   "seen:CWHwGkR8MTvaxZUfWcyAuEsjz1JRTuRurXFh6PeUpump": 1793938982.8365157,
   "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1793939166.4339015,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793939166.4339015
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793939166.4339015,
+  "seen:5ve4fMHU4BsSgJvjF9NEMp5m9yNLqYkugPKbV7SZpump": 1793939350.839731,
+  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793939350.839731,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793939350.839731,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793939350.839731,
+  "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793939350.839731,
+  "seen:GTTQWTy96Vr2NNqrUHjg854AYKKP51jQr2Fcies7pump": 1793939534.0578942,
+  "seen:519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump": 1793939534.0578942,
+  "seen:FdDM4cwd39gghgjXozi9q22jRiwydt9ffbpF1srFpump": 1793939534.0578942,
+  "control:GTTQWTy96Vr2NNqrUHjg854AYKKP51jQr2Fcies7pump": 1793939534.1788118
  },
  "talks": {
   "2026-10-21": 109
@@ -132,24 +115,24 @@
  ],
  "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793937535.5784864,
+  "t": 1793938450.847095,
   "crypto": [
    "Hyperliquid treasury firm seeking U.S. regulatory nod as a domestic futures platform (2h ago)",
-   "Bitcoin developer proposes \u2018landmines\u2019 to make quantum thieves lose their own BTC (2h ago)",
+   "Bitcoin developer proposes \u2018landmines\u2019 to make quantum thieves lose their own BTC (3h ago)",
    "Core Scientific to quit Bitcoin mining by year-end as AI business surges (4h ago)",
    "Here\u2019s what happened in crypto today (5h ago)",
-   "American Bitcoin\u2019s $126M profit masks mining pressure as rivals turn to AI (5h ago)",
+   "American Bitcoin\u2019s $126M profit masks mining pressure as rivals turn to AI (6h ago)",
    "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express (6h ago)",
-   "Crypto ally French Hill wins reelection but set to lose House chair (6h ago)",
+   "Crypto ally French Hill wins reelection but set to lose House chair (7h ago)",
    "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack (9h ago)",
    "U.S. Justice Department assembles force to shield against foreign AI threats (9h ago)",
    "Bitcoin tumbles to $76,000 as collapsing AI trade drags stocks sharply lower (9h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m in 9.5h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 9.5h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 9.5h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m in 9.3h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 9.3h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 9.3h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
