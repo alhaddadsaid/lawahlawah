@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -44278.78267754634,
+   "cash": -44331.251360438255,
    "open": [
     {
      "id": 2110,
@@ -53,51 +53,68 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2134,
+     "id": 2136,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "FUSE",
+     "mint": "CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD",
+     "side": 1,
+     "opened": 1793998898.57772,
+     "entry": 0.0001376,
+     "stop": 0.00011008000000000002,
+     "target": 0.00019264,
+     "size": 1453488.372093023,
+     "deadline": 1794006098.57772,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2137,
      "desk": "control",
      "market": "meme",
      "symbol": "GLITCHPEPE",
      "mint": "Cy6F9HUKj29dTS9hUWopk2RkRLXRhcRaysrsQiXQpump",
      "side": 1,
-     "opened": 1793997260.6600003,
-     "entry": 0.0005588,
-     "stop": 0.00044704,
-     "target": 0.0007823200000000001,
-     "size": 357909.80672870437,
-     "deadline": 1794004460.6600003,
+     "opened": 1793999079.5561535,
+     "entry": 0.0003952,
+     "stop": 0.00031616,
+     "target": 0.00055328,
+     "size": 506072.8744939271,
+     "deadline": 1794006279.5561538,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2136,
+ "next_id": 2138,
  "runs": 73,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793998524.3765547,
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1793998524.3765547,
-  "seen:4QDPF5TtNAKtU5p5pvcq9h9b44nRSikRzNrKzsUfLoat": 1793998524.3765547,
-  "seen:CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD": 1793998706.0336127,
-  "seen:HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": 1793998706.0336127,
-  "seen:Cy6F9HUKj29dTS9hUWopk2RkRLXRhcRaysrsQiXQpump": 1793998887.9207132,
-  "seen:DNUTsCvKbKwu2RM72cUuW3TD9YpzArzACcqYQssjPLSk": 1793998887.9207132,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793998887.9207132,
-  "seen:AD2TBq5fP6mmGFnciRbofH93PJwkpd2mYTFBY3eRpump": 1793998887.9207132,
-  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793998887.9207132,
-  "seen:2fnGKgfwYjqv99ppnKCq5nCLLhRSJAPAhSMVkqjipump": 1793998887.9207132,
-  "control:7zFXW5a3ySnfRXHuKX6sK9A9K5zQm35dA4JpwrdDpump": 1793998887.9855752,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793999069.2140586,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793999069.2140586,
-  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793999069.2140586,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793999069.2140586,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793999069.2140586,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793999251.119547
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793999251.119547,
+  "seen:8TYbrEjAYUk5J5kMZtzQpmDnSCmUoY1r7eCYuZXApump": 1793999435.4432168,
+  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793999435.4432168,
+  "seen:4QDPF5TtNAKtU5p5pvcq9h9b44nRSikRzNrKzsUfLoat": 1793999435.4432168,
+  "seen:HGHJCdysTaaYDJKwwQ3UmcodCw9xjpfFDvcShVVBpump": 1793999435.4432168,
+  "seen:CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD": 1793999617.3170605,
+  "seen:D9bzC1XvVERT47gampJS11rw5fCCoF3ftUfsUkLdpump": 1793999617.3170605,
+  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793999617.3170605,
+  "seen:Cy6F9HUKj29dTS9hUWopk2RkRLXRhcRaysrsQiXQpump": 1793999798.4541414,
+  "seen:DNUTsCvKbKwu2RM72cUuW3TD9YpzArzACcqYQssjPLSk": 1793999798.4541414,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793999798.4541414,
+  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793999798.4541414,
+  "seen:A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": 1793999798.4541414,
+  "control:CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD": 1793999798.577723,
+  "seen:6sMinp4bFA9yEiJjR72q8dWY3DzmVPMgHvcggh28pump": 1793999979.393304,
+  "seen:AD2TBq5fP6mmGFnciRbofH93PJwkpd2mYTFBY3eRpump": 1793999979.393304,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793999979.393304,
+  "seen:5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump": 1793999979.393304,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793999979.393304,
+  "control:Cy6F9HUKj29dTS9hUWopk2RkRLXRhcRaysrsQiXQpump": 1793999979.556157
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498329,
+ "ctrl_macro_hour": 498333,
  "team": [
   {
    "name": "Lead",
@@ -132,18 +149,18 @@
  ],
  "last_review": 1793985795.032704,
  "news": {
-  "t": 1793997624.384986,
+  "t": 1793998535.4517841,
   "crypto": [
+   "Binance hack is \u2018cyber war,\u2019 TRM Labs executive says (0h ago)",
    "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch (1h ago)",
    "US 401(k) proposal leaves door open to altcoins, but hurdles remain (1h ago)",
    "Russia finalizes crypto trading rules ahead of Nov. 17 rollout (2h ago)",
-   "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders (2h ago)",
+   "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders (3h ago)",
    "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound (3h ago)",
    "U.S. prediction markets regulator issues demand that clashes directly with courts (3h ago)",
    "The crypto industry has found new ways to grow. Making money from them is another story (5h ago)",
    "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty (6h ago)",
-   "What Democrats\u2019 US midterm sweep means for the CLARITY Act (6h ago)",
-   "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins (7h ago)"
+   "What Democrats\u2019 US midterm sweep means for the CLARITY Act (6h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -176,5 +193,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793997260.2932584
+ "last_macro_macro": 1793998535.4516766
 }
