@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-06 12:57 UTC. Runs so far: 72. Model: claude-haiku-5-5.
+Updated 2026-11-06 13:06 UTC. Runs so far: 72. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2026 | 31 | -52677.8 | -72106.59 |
+| control | meme | 2027 | 31 | -52728.16 | -72165.92 |
 | control | macro | 44 | 45 | -150.25 | -371.16 |
-| control | all | 2070 | 31 | -52828.05 | -72477.75 |
+| control | all | 2071 | 31 | -52878.41 | -72537.08 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: george long at 0.0001422, stop 0.00011376, target 0.00019908, opened 2026-11-06 12:11 UTC
 - control: RETIRE long at 0.0001398, stop 0.00011184, target 0.00019572, opened 2026-11-06 12:36 UTC
 - control: RM long at 9.875e-05, stop 7.9e-05, target 0.00013825, opened 2026-11-06 12:39 UTC
-- control: RAM long at 0.000106, stop 8.48e-05, target 0.0001484, opened 2026-11-06 12:57 UTC
+- control: NIG long at 0.0001511, stop 0.00012088, target 0.00021154, opened 2026-11-06 13:04 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-06 12:57 UTC control: OPENED RAM long at 0.000106 (stop 8.48e-05, target 0.0001484) - control: frozen v3 rules
+- control: order DNUT REJECTED by guardrails: desk already has the maximum open positions
 
