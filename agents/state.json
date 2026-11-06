@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -42759.35143700787,
+   "cash": -42812.655958284464,
    "open": [
     {
      "id": 2098,
@@ -66,21 +66,6 @@
      "size": 1941747.572815534,
      "deadline": 1793982207.2643795,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2104,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ODDLY",
-     "mint": "A6rVjxZbTyAD8CTURMKnHmhQ3QHN1yyMnaXUCRcApump",
-     "side": 1,
-     "opened": 1793975371.8542404,
-     "entry": 9.776e-05,
-     "stop": 7.820800000000001e-05,
-     "target": 0.000136864,
-     "size": 2045826.5139116202,
-     "deadline": 1793982571.8542407,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,18 +74,6 @@
  "runs": 72,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793975539.9806044,
-  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793975539.9806044,
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793975724.6172242,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793975724.6172242,
-  "seen:4D35EPY2Pbihp5QvQH4ohpUCrVXNRhinHoWLqix2pump": 1793975724.6172242,
-  "seen:MWwpztHKL672aaf3Jw8uz1hFJpCRh7ojKxFq5Gbpump": 1793975724.6172242,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793975724.6172242,
-  "seen:Kd6F1LRm8C7BdQg22V5TX5Nu8hojQM1AAwHH27Tpump": 1793975907.209161,
-  "seen:JA48whDA4ioKWeQ2LzkZGHJ3Bj7X43sa77bE9oEHpump": 1793975907.209161,
-  "seen:GDst7T2Apk4qJsJf1qZG2ndE9HP1jruEPn5izqGwpump": 1793975907.209161,
-  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793975907.209161,
-  "control:GDst7T2Apk4qJsJf1qZG2ndE9HP1jruEPn5izqGwpump": 1793975907.2643833,
   "seen:A6rVjxZbTyAD8CTURMKnHmhQ3QHN1yyMnaXUCRcApump": 1793976089.493757,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793976089.493757,
   "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1793976089.493757,
@@ -108,7 +81,17 @@
   "seen:519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump": 1793976271.8055947,
   "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1793976271.8055947,
   "seen:CASHx9KJUStyftLFWGvEVf59SGeG9sh5FfcnZMVPCASH": 1793976271.8055947,
-  "control:A6rVjxZbTyAD8CTURMKnHmhQ3QHN1yyMnaXUCRcApump": 1793976271.8542445
+  "control:A6rVjxZbTyAD8CTURMKnHmhQ3QHN1yyMnaXUCRcApump": 1793976271.8542445,
+  "seen:9KzLm98Xa3ZPaMSstMvbBoSEHySw8tHZWRvAp6kGpump": 1793976455.8807817,
+  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793976455.8807817,
+  "seen:CQUp1zsAAJ3sxcHyMuknDzdrQf8xa1Keach3bp3zpump": 1793976636.7112353,
+  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793976636.7112353,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793976636.7112353,
+  "seen:MWwpztHKL672aaf3Jw8uz1hFJpCRh7ojKxFq5Gbpump": 1793976636.7112353,
+  "seen:HKWqg2xEnF8pxvnFFR1fAt9eZW5ChQryAyxJFcor2Axr": 1793976819.4707994,
+  "seen:DNUTsCvKbKwu2RM72cUuW3TD9YpzArzACcqYQssjPLSk": 1793976819.4707994,
+  "seen:GDst7T2Apk4qJsJf1qZG2ndE9HP1jruEPn5izqGwpump": 1793976819.4707994,
+  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793976819.4707994
  },
  "talks": {
   "2026-10-21": 109
@@ -149,24 +132,24 @@
  ],
  "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793974824.627485,
+  "t": 1793975736.7215354,
   "crypto": [
-   "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins (0h ago)",
+   "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty (0h ago)",
+   "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins (1h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
    "U.S. added 165,000 jobs in October, blowing past 65,000 estimate (1h ago)",
    "Ethereum devs won\u2019t fork Glamsterdam on Hoodi until smart contract risks resolved (1h ago)",
    "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market (2h ago)",
    "Solana\u2019s Shanghai event halted over unauthorized promotion: Report (2h ago)",
-   "Live updates: Bitcoin slips further after blowout October jobs numbers (2h ago)",
+   "Live updates: Bitcoin slips further after blowout October jobs numbers (3h ago)",
    "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures (3h ago)",
-   "Binance hackers had 8 weeks of access before $6.3B exploit, Security Alliance estimates (3h ago)",
-   "Bitcoin holds $75K as AI regulation fears see KOSPI halted after 8% crash (3h ago)"
+   "Binance hackers had 8 weeks of access before $6.3B exploit, Security Alliance estimates (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m was 0.8h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change was 0.8h, forecast 65K, previous 29K",
-   "USD Unemployment Rate was 0.8h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m was 1.1h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change was 1.1h, forecast 65K, previous 29K",
+   "USD Unemployment Rate was 1.1h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
@@ -197,5 +180,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793974456.7287047
+ "last_macro_macro": 1793975736.7213566
 }
