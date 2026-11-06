@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -42647.618180820915,
+   "cash": -42579.618180820915,
    "open": [
-    {
-     "id": 2079,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "RETIRE",
-     "mint": "519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump",
-     "side": 1,
-     "opened": 1793957254.06653,
-     "entry": 0.0001198,
-     "stop": 9.584e-05,
-     "target": 0.00016772,
-     "size": 1669449.081803005,
-     "deadline": 1793964454.0665302,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2083,
      "desk": "control",
@@ -81,31 +66,45 @@
      "size": 1743679.1630340018,
      "deadline": 1793967557.775862,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2087,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "RETIRE",
+     "mint": "519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump",
+     "side": 1,
+     "opened": 1793961089.2635274,
+     "entry": 0.0001642,
+     "stop": 0.00013136000000000002,
+     "target": 0.00022988,
+     "size": 1218026.796589525,
+     "deadline": 1793968289.2635276,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2087,
+ "next_id": 2088,
  "runs": 72,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3625oA8Jn4JuxkKvms8UhcZ41aH2VewkKUzHqMoBpump": 1793960709.7143848,
-  "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793960709.7143848,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793960889.8456702,
-  "seen:519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump": 1793960889.8456702,
-  "seen:VLxDCjbbJ853sqtmiXfpWuYMRvDTRrYWf2GuS4GZjNv": 1793961070.3897069,
-  "seen:6dLeZH9HXUT1WiH5G6njJXcYZpES28CBXw8VMWpJpump": 1793961070.3897069,
-  "seen:euro5sNHrZC2wu2RoLvy6xxoVMc3Qnd1vjxoWf4MftA": 1793961070.3897069,
-  "seen:EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump": 1793961070.3897069,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793961070.3897069,
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793961070.3897069,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793961257.4257617,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793961257.4257617,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793961257.4257617,
-  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793961257.4257617,
-  "control:EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump": 1793961257.7758658,
   "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793961435.761296,
-  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793961435.761296
+  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793961435.761296,
+  "seen:Cy2XH7dLwwovkzNAFtWVEDkJNCdZ4u5cpcMHnCNHpump": 1793961619.3880365,
+  "seen:3625oA8Jn4JuxkKvms8UhcZ41aH2VewkKUzHqMoBpump": 1793961619.3880365,
+  "seen:519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump": 1793961806.3937106,
+  "seen:VLxDCjbbJ853sqtmiXfpWuYMRvDTRrYWf2GuS4GZjNv": 1793961988.710411,
+  "seen:G2apw4XQdSfTv9836JHWhRZGyqG43m93eMEF4zjnpump": 1793961988.710411,
+  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793961988.710411,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793961988.710411,
+  "seen:EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump": 1793961988.710411,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793961988.710411,
+  "seen:euro5sNHrZC2wu2RoLvy6xxoVMc3Qnd1vjxoWf4MftA": 1793961988.710411,
+  "control:519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump": 1793961989.263531,
+  "seen:4PAtcdgNuh93Tn4LA2XkbDgee2PnoCb263j7hkyupump": 1793962171.7124705,
+  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793962171.7124705,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793962171.7124705
  },
  "talks": {
   "2026-10-21": 109
@@ -146,24 +145,24 @@
  ],
  "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793960170.3993773,
+  "t": 1793961088.7205658,
   "crypto": [
-   "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout (0h ago)",
-   "Zcash NU7 upgrade goes live, leaves 12,224 ZEC stranded in Sprout pool (1h ago)",
-   "Greece approves 10% tax on crypto gains and 15% levy on DeFi income (1h ago)",
+   "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout (1h ago)",
+   "Zcash NU7 upgrade goes live, leaves 12,224 ZEC stranded in Sprout pool (2h ago)",
+   "Greece approves 10% tax on crypto gains and 15% levy on DeFi income (2h ago)",
    "Hyperliquid Strategies seeks futures registration for perps (2h ago)",
    "Bitcoin, Ether ETFs post $530M outflows as election gains evaporate (2h ago)",
    "Trump-backed World Liberty Financial plans token buyback after 66% year-to-date slide (2h ago)",
-   "Chainalysis says breach exposed password hashes and live tokens (3h ago)",
+   "Chainalysis says breach exposed password hashes and live tokens (4h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
    "Zcash\u2019s landmark NU7 upgrade goes live, speeding up private payments (5h ago)",
    "Crypto exchanges tout cold storage ratios after Binance attack (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m in 3.2h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 3.2h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 3.2h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m in 3.0h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 3.0h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 3.0h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
