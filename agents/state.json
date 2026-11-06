@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -42568.21730407609,
+   "cash": -42500.21730407609,
    "open": [
     {
      "id": 2010,
@@ -35,21 +35,6 @@
      "target": 0.00012031599999999998,
      "size": 2327205.026762858,
      "deadline": 1793926015.8271468,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2013,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "COGE",
-     "mint": "DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT",
-     "side": 1,
-     "opened": 1793921383.2748432,
-     "entry": 9.645e-05,
-     "stop": 7.716e-05,
-     "target": 0.00013502999999999999,
-     "size": 2073613.2711249352,
-     "deadline": 1793928583.2748435,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -89,29 +74,24 @@
  "runs": 70,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793924131.067486,
-  "seen:FqJu1nmcNP8fCJfAW7Y4dGmp6fF9iF2RxrqMSFAcpump": 1793924131.067486,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793924131.067486,
-  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793924131.067486,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1793924294.0765576,
-  "seen:ES9FintJPSGcoVuJhkLAsfSoug6B69bDoeTb3hJYpump": 1793924294.0765576,
-  "seen:g8FFFJHQnd84dcbHGjvTRMLzRPaE7FVV2bmNs2wpump": 1793924477.2614586,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793924477.2614586,
-  "seen:98HEU4TvXB3xjB1t15fgxHwYDLUH4fDomvp2DCzJpump": 1793924477.2614586,
-  "seen:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793924477.2614586,
-  "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793924477.2614586,
-  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793924477.2614586,
-  "control:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793924477.3292515,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793924659.5315857,
-  "seen:F55yBFwc5pZ4KCU23KSZNYit129FuUNzgiYGnizNpump": 1793924659.5315857,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793924659.5315857,
-  "control:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793924660.4763353,
-  "seen:GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump": 1793924844.1781676,
-  "seen:BQjiYCutv9LVtbgj7pKCN2Ce6k2eUM5RSKs6kDAzpump": 1793924844.1781676,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793924844.1781676,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793924844.1781676,
   "seen:QKpSShaTvqvZJGSoqr3CqgarMZij2EUEQawnidmpump": 1793925027.2007196,
-  "seen:6MKXBqmTdBuaKWpMPhd3tGt1touSpyasQac3V3rBpump": 1793925027.2007196
+  "seen:6MKXBqmTdBuaKWpMPhd3tGt1touSpyasQac3V3rBpump": 1793925027.2007196,
+  "seen:ES9FintJPSGcoVuJhkLAsfSoug6B69bDoeTb3hJYpump": 1793925212.0177488,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793925212.0177488,
+  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793925212.0177488,
+  "seen:4fCbvAL5L5bybkvNRiXSMpGq9aZdAMJBWN787fXHxJE6": 1793925394.8637714,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793925394.8637714,
+  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793925394.8637714,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793925394.8637714,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793925394.8637714,
+  "seen:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793925394.8637714,
+  "seen:8FHnR65h9mwqKfd8RhsSgMSH6y3vox4aKsDMVmy7pump": 1793925577.6408863,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793925577.6408863,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793925577.6408863,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793925577.6408863,
+  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793925577.6408863,
+  "seen:GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump": 1793925760.967988,
+  "seen:BQjiYCutv9LVtbgj7pKCN2Ce6k2eUM5RSKs6kDAzpump": 1793925760.967988
  },
  "talks": {
   "2026-10-21": 109
@@ -152,24 +132,24 @@
  ],
  "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793923759.5400493,
+  "t": 1793924677.6494408,
   "crypto": [
    "Here\u2019s what happened in crypto today (1h ago)",
-   "American Bitcoin\u2019s $126M profit masks mining pressure as rivals turn to AI (1h ago)",
+   "American Bitcoin\u2019s $126M profit masks mining pressure as rivals turn to AI (2h ago)",
    "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express (2h ago)",
    "Crypto ally French Hill wins reelection but set to lose House chair (3h ago)",
    "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack (5h ago)",
    "U.S. Justice Department assembles force to shield against foreign AI threats (5h ago)",
-   "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower (5h ago)",
+   "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower (6h ago)",
    "Fed, OCC check US banks after Binance hack as experts flag security risks (6h ago)",
    "Europe\u2019s largest asset manager Amundi tokenizes equity index fund on Ethereum (6h ago)",
-   "Paraguay president resigns after collapse of Ueno digital bank (6h ago)"
+   "Paraguay president resigns after collapse of Ueno digital bank (7h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m in 13.3h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 13.3h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 13.3h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m in 13.1h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 13.1h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 13.1h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
