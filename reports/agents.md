@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-06 06:34 UTC. Runs so far: 71. Model: claude-haiku-5-5.
+Updated 2026-11-06 06:43 UTC. Runs so far: 71. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1997 | 31 | -52540.28 | -71675.13 |
+| control | meme | 1998 | 31 | -52472.28 | -71619.13 |
 | control | macro | 42 | 45 | -176.51 | -388.64 |
-| control | all | 2039 | 31 | -52716.79 | -72063.77 |
+| control | all | 2040 | 31 | -52648.79 | -72007.77 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: three long at 0.0006389, stop 0.00051112, target 0.00089446, opened 2026-11-06 05:24 UTC
 - control: ZELDA long at 0.0001316, stop 0.00010528, target 0.00018424, opened 2026-11-06 05:27 UTC
 - control: Bubbles long at 0.0001259, stop 0.00010072, target 0.00017626, opened 2026-11-06 06:12 UTC
-- control: bracket long at 0.0001352, stop 0.00010816, target 0.00018928, opened 2026-11-06 06:28 UTC
 
 ## Team
 
@@ -34,6 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
-- control: order fun REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED bracket (target) P&L $68.0 normal, $56.0 pessimistic
 
