@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-06 08:05 UTC control: OPENED Bubbles long at 0.0001438 (stop 0.00011504, target 0.00020132) - control: frozen v3 rules
+## Run ended 2026-11-06 08:05 UTC
 
