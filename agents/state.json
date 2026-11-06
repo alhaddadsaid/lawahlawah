@@ -5,53 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -42432.21730407609,
+   "cash": -42371.930677845834,
    "open": [
-    {
-     "id": 2010,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "george",
-     "mint": "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump",
-     "side": 1,
-     "opened": 1793918636.0496943,
-     "entry": 0.0001106,
-     "stop": 8.848e-05,
-     "target": 0.00015484,
-     "size": 1808318.2640144664,
-     "deadline": 1793925836.0496945,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2011,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "bul",
-     "mint": "GyWkSn2ah7dqLyPeZAjEZmfxuU2H4nwfGvgJhfYDVegn",
-     "side": 1,
-     "opened": 1793918815.8271468,
-     "entry": 8.594e-05,
-     "stop": 6.8752e-05,
-     "target": 0.00012031599999999998,
-     "size": 2327205.026762858,
-     "deadline": 1793926015.8271468,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2015,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ZELDA",
-     "mint": "E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump",
-     "side": 1,
-     "opened": 1793923577.329248,
-     "entry": 8.349e-05,
-     "stop": 6.679200000000001e-05,
-     "target": 0.000116886,
-     "size": 2395496.466642712,
-     "deadline": 1793930777.3292482,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2017,
      "desk": "control",
@@ -81,31 +36,64 @@
      "size": 1307189.5424836602,
      "deadline": 1793932425.917384,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2019,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PIRATE",
+     "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
+     "side": 1,
+     "opened": 1793925597.539497,
+     "entry": 0.0002354,
+     "stop": 0.00018832,
+     "target": 0.00032956,
+     "size": 849617.6720475786,
+     "deadline": 1793932797.5394971,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2020,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "coin",
+     "mint": "GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump",
+     "side": 1,
+     "opened": 1793925960.7687054,
+     "entry": 0.0001056,
+     "stop": 8.448e-05,
+     "target": 0.00014784,
+     "size": 1893939.3939393938,
+     "deadline": 1793933160.7687056,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2019,
+ "next_id": 2021,
  "runs": 70,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8FHnR65h9mwqKfd8RhsSgMSH6y3vox4aKsDMVmy7pump": 1793925577.6408863,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793925577.6408863,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793925577.6408863,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793925577.6408863,
-  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793925577.6408863,
-  "seen:GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump": 1793925760.967988,
-  "seen:BQjiYCutv9LVtbgj7pKCN2Ce6k2eUM5RSKs6kDAzpump": 1793925760.967988,
-  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1793925945.5600586,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793925945.5600586,
-  "control:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793925945.9783752,
   "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793926125.8339472,
   "seen:ES9FintJPSGcoVuJhkLAsfSoug6B69bDoeTb3hJYpump": 1793926125.8339472,
   "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793926125.8339472,
   "control:BQjiYCutv9LVtbgj7pKCN2Ce6k2eUM5RSKs6kDAzpump": 1793926125.9173875,
   "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793926312.6263025,
   "seen:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793926312.6263025,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793926312.6263025
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793926312.6263025,
+  "seen:AbGtzhimZYBbTDjbAWvGxRAfDDQKn5D9yXqx8PZmQxHn": 1793926496.815246,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793926496.815246,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793926496.815246,
+  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793926496.815246,
+  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793926496.815246,
+  "control:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793926497.5395002,
+  "seen:BQjiYCutv9LVtbgj7pKCN2Ce6k2eUM5RSKs6kDAzpump": 1793926679.1389925,
+  "seen:4vaWvJteGh4QA6NNb7qUQ1efWFFnebZYnKy2aeMVpump": 1793926679.1389925,
+  "seen:GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump": 1793926860.6333368,
+  "seen:QKpSShaTvqvZJGSoqr3CqgarMZij2EUEQawnidmpump": 1793926860.6333368,
+  "seen:crzLZMD5dWSQAyJXdvAspBcV9kwjKcWhgYPWpycpump": 1793926860.6333368,
+  "seen:BCxTfpfWmzfMKqUVAogUG37jdmrEkHtNv5d37bJrpump": 1793926860.6333368,
+  "control:GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump": 1793926860.7687092
  },
  "talks": {
   "2026-10-21": 109
@@ -146,24 +134,24 @@
  ],
  "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793924677.6494408,
+  "t": 1793925596.8229647,
   "crypto": [
-   "Here\u2019s what happened in crypto today (1h ago)",
+   "Core Scientific to quit Bitcoin mining by year-end as AI business surges (0h ago)",
+   "Here\u2019s what happened in crypto today (2h ago)",
    "American Bitcoin\u2019s $126M profit masks mining pressure as rivals turn to AI (2h ago)",
    "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express (2h ago)",
    "Crypto ally French Hill wins reelection but set to lose House chair (3h ago)",
-   "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack (5h ago)",
-   "U.S. Justice Department assembles force to shield against foreign AI threats (5h ago)",
+   "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack (6h ago)",
+   "U.S. Justice Department assembles force to shield against foreign AI threats (6h ago)",
    "Bitcion tumbles to $76,000 as collapsing AI trade drags stocks sharply lower (6h ago)",
    "Fed, OCC check US banks after Binance hack as experts flag security risks (6h ago)",
-   "Europe\u2019s largest asset manager Amundi tokenizes equity index fund on Ethereum (6h ago)",
-   "Paraguay president resigns after collapse of Ueno digital bank (7h ago)"
+   "Europe\u2019s largest asset manager Amundi tokenizes equity index fund on Ethereum (7h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m in 13.1h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 13.1h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 13.1h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m in 12.8h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 12.8h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 12.8h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
