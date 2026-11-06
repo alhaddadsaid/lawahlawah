@@ -5,68 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -42731.44184328141,
+   "cash": -42563.72469809421,
    "open": [
-    {
-     "id": 2069,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "bracket",
-     "mint": "EFWotn2UtV2c5QXMMHbSzmyrkU7wnfj7VpkNQGr1wk1z",
-     "side": 1,
-     "opened": 1793949222.751162,
-     "entry": 0.0001195,
-     "stop": 9.56e-05,
-     "target": 0.0001673,
-     "size": 1673640.1673640166,
-     "deadline": 1793956422.7511623,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2071,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Diamond",
-     "mint": "5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump",
-     "side": 1,
-     "opened": 1793949957.1504314,
-     "entry": 0.0002372,
-     "stop": 0.00018976,
-     "target": 0.00033207999999999995,
-     "size": 843170.3204047218,
-     "deadline": 1793957157.1504316,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2074,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "RM",
-     "mint": "EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump",
-     "side": 1,
-     "opened": 1793952147.9821973,
-     "entry": 0.0001597,
-     "stop": 0.00012776,
-     "target": 0.00022358,
-     "size": 1252348.1527864747,
-     "deadline": 1793959347.9821975,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2075,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "GOLD",
-     "mint": "",
-     "side": 1,
-     "opened": 1793952148.1883268,
-     "entry": 4058.60009765625,
-     "stop": 4039.3572300502233,
-     "target": 4087.4643990652903,
-     "size": 5.196730656125325,
-     "deadline": 1794038548.1883278,
-     "thesis": "control: random direction"
-    },
     {
      "id": 2076,
      "desk": "control",
@@ -81,35 +21,61 @@
      "size": 1390820.5841446454,
      "deadline": 1793959531.7296581,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2077,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "fun",
+     "mint": "5BWHo2duxhkRR4ftnZWErnB8GoXpFgZ4ZR9UN8LDpump",
+     "side": 1,
+     "opened": 1793956888.9375718,
+     "entry": 8.196e-05,
+     "stop": 6.556799999999999e-05,
+     "target": 0.00011474399999999998,
+     "size": 2440214.7388970233,
+     "deadline": 1793964088.9375722,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2078,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "george",
+     "mint": "Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump",
+     "side": 1,
+     "opened": 1793957072.9782422,
+     "entry": 9.815e-05,
+     "stop": 7.852e-05,
+     "target": 0.00013741,
+     "size": 2037697.4019358126,
+     "deadline": 1793964272.9782426,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2077,
- "runs": 71,
+ "next_id": 2079,
+ "runs": 72,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793952502.981131,
-  "seen:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793952502.981131,
-  "seen:EftWZnHXkGTgZFTvdmxeiAwkauQoKMBxqSGcYaSapump": 1793952685.4306357,
-  "seen:HuqKMcaEojnp4qRReE1dr5ed5TQhhMcjEn6wskRppump": 1793952867.5666063,
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793952867.5666063,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793952867.5666063,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793952867.5666063,
-  "seen:Hg8bKz4mvs8KNj9zew1cEF9tDw1x2GViB4RFZjVEmfrD": 1793952867.5666063,
-  "seen:GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump": 1793952867.5666063,
-  "seen:5BWHo2duxhkRR4ftnZWErnB8GoXpFgZ4ZR9UN8LDpump": 1793953047.456106,
-  "seen:8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump": 1793953047.456106,
-  "control:EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump": 1793953047.9822004,
-  "control:GOLD": 1793953048.188332,
-  "seen:EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump": 1793953231.6663156,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793953231.6663156,
-  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793953231.6663156,
-  "seen:nG3jfPQHU2ZQhPERkTZD8YPSAsrrWiePPDcm9jxpump": 1793953231.6663156,
-  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793953231.6663156,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793953231.6663156,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1793953231.6663156,
-  "control:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793953231.729661
+  "seen:2ogqdXCVE2xVsKhb4CXeoWTjf1ejarxXHCyFmiPZrk7C": 1793957425.9539907,
+  "seen:EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump": 1793957425.9539907,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793957425.9539907,
+  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793957425.9539907,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793957425.9539907,
+  "seen:5BWHo2duxhkRR4ftnZWErnB8GoXpFgZ4ZR9UN8LDpump": 1793957425.9539907,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793957425.9539907,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793957425.9539907,
+  "seen:FxBEUrVmv1sA5F1c9ziErB9HRy8fBKGi9QmbUzxuyG92": 1793957611.817637,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793957611.817637,
+  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793957611.817637,
+  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793957611.817637,
+  "seen:4UQTMrvYxzUgRuqYhXRfoyDMEo1aNr5Ds4kELP5kpump": 1793957788.9018161,
+  "control:5BWHo2duxhkRR4ftnZWErnB8GoXpFgZ4ZR9UN8LDpump": 1793957788.9375758,
+  "seen:euro5sNHrZC2wu2RoLvy6xxoVMc3Qnd1vjxoWf4MftA": 1793957972.9404995,
+  "seen:GfJp1CbDsaoSGf3rXqVbgmwRx3HtZ6mCtv16GzFgpump": 1793957972.9404995,
+  "control:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793957972.9782465
  },
  "talks": {
   "2026-10-21": 109
@@ -150,24 +116,24 @@
  ],
  "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793952147.4653387,
+  "t": 1793956525.964296,
   "crypto": [
-   "Chainalysis says breach exposed password hashes and live tokens (1h ago)",
-   "Here\u2019s what happened in crypto today (2h ago)",
-   "Zcash\u2019s landmark NU7 upgrade goes live, speeding up private payments (3h ago)",
-   "Crypto exchanges tout cold storage ratios after Binance attack (3h ago)",
-   "Hyperliquid treasury firm seeking U.S. regulatory nod as a domestic futures platform (6h ago)",
-   "Bitcoin developer proposes \u2018landmines\u2019 to make quantum thieves lose their own BTC (7h ago)",
-   "Core Scientific to quit Bitcoin mining by year-end as AI business surges (8h ago)",
-   "American Bitcoin\u2019s $126M profit masks mining pressure as rivals turn to AI (9h ago)",
-   "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express (10h ago)",
-   "Crypto ally French Hill wins reelection but set to lose House chair (10h ago)"
+   "Zcash NU7 upgrade goes live, leaves 12,224 ZEC stranded in Sprout pool (0h ago)",
+   "Greece approves 10% tax on crypto gains and 15% levy on DeFi income (0h ago)",
+   "Hyperliquid Strategies seeks futures registration for perps (1h ago)",
+   "Bitcoin, Ether ETFs post $530M outflows as election gains evaporate (1h ago)",
+   "Trump-backed World Liberty Financial plans token buyback after 66% year-to-date slide (1h ago)",
+   "Chainalysis says breach exposed password hashes and live tokens (2h ago)",
+   "Here\u2019s what happened in crypto today (3h ago)",
+   "Zcash\u2019s landmark NU7 upgrade goes live, speeding up private payments (4h ago)",
+   "Crypto exchanges tout cold storage ratios after Binance attack (4h ago)",
+   "Hyperliquid treasury firm seeking U.S. regulatory nod as a domestic futures platform (7h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m in 5.5h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 5.5h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 5.5h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m in 4.2h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 4.2h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 4.2h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
@@ -198,5 +164,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793951967.574537
+ "last_macro_macro": 1793956525.9641778
 }
