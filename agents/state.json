@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -44473.691619011945,
+   "cash": -44562.949956852215,
    "open": [
     {
      "id": 2110,
@@ -21,21 +21,6 @@
      "size": 6.439752534900094,
      "deadline": 1794072196.4922183,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 2139,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "three",
-     "mint": "FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump",
-     "side": 1,
-     "opened": 1794000532.7389157,
-     "entry": 0.0005547,
-     "stop": 0.00044376,
-     "target": 0.0007765799999999999,
-     "size": 360555.25509284297,
-     "deadline": 1794007732.7389157,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 2148,
@@ -55,17 +40,10 @@
    ]
   }
  },
- "next_id": 2149,
+ "next_id": 2150,
  "runs": 74,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": 1794007779.7314315,
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1794007779.7314315,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794007965.130438,
-  "seen:Hy4iuJwuo9hAUMgMsNpFXANvKSnGmFFqcjBZuiCFpJCP": 1794007965.130438,
-  "seen:JATk4idqfAyU21F6w3xf2Rbyj9j8FnYxVWLMfoweqExh": 1794007965.130438,
-  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1794007965.130438,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794008147.0693438,
   "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794008331.6115959,
   "seen:14VvYUgyAxT62cEba8EuhZPBQu9bnSgyzKnKHC9Hpump": 1794008331.6115959,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794008331.6115959,
@@ -73,7 +51,17 @@
   "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794008331.6115959,
   "seen:5pdu9jrUf9ryLzCsv3S92ikoBiK3n2zA9tMN9Rr7pump": 1794008516.0896842,
   "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794008516.0896842,
-  "seen:H4Yco8GenmbchjBhNRinG96cXBgNJhFRPFyJYPwKpump": 1794008516.0896842
+  "seen:H4Yco8GenmbchjBhNRinG96cXBgNJhFRPFyJYPwKpump": 1794008516.0896842,
+  "seen:DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": 1794008696.7392426,
+  "seen:EWiVNxCqNatzV2paBHyfKUwGLnk7WKs9uZTA5jkTpump": 1794008696.7392426,
+  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1794008696.7392426,
+  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1794008696.7392426,
+  "control:JATk4idqfAyU21F6w3xf2Rbyj9j8FnYxVWLMfoweqExh": 1794008697.3227289,
+  "seen:HgEPKzJRzRkhNLE2Ks2fVUDME8FgxPo1BWndech1pump": 1794008876.7721744,
+  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1794008876.7721744,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794008876.7721744,
+  "seen:Hy4iuJwuo9hAUMgMsNpFXANvKSnGmFFqcjBZuiCFpJCP": 1794008876.7721744,
+  "seen:4P7TCh7JHBUkkcbjKyoEckdvoUx8Kwy6FSKexjAvpump": 1794009061.045526
  },
  "talks": {
   "2026-10-21": 109
@@ -114,17 +102,17 @@
  ],
  "last_review": 1793985795.032704,
  "news": {
-  "t": 1794006879.739782,
+  "t": 1794007796.7476423,
   "crypto": [
    "Here\u2019s what happened in crypto today (1h ago)",
    "US Treasury cuts off MEXC over alleged $16B in illicit transactions (2h ago)",
-   "Gnosis Pay breach exposes card details, personal data and crypto wallet information (2h ago)",
+   "Gnosis Pay breach exposes card details, personal data and crypto wallet information (3h ago)",
    "Binance hack is \u2018cyber war,\u2019 TRM Labs executive says (3h ago)",
    "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch (3h ago)",
    "US 401(k) proposal leaves door open to altcoins, but hurdles remain (3h ago)",
-   "Russia finalizes crypto trading rules ahead of Nov. 17 rollout (4h ago)",
+   "Russia finalizes crypto trading rules ahead of Nov. 17 rollout (5h ago)",
    "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders (5h ago)",
-   "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound (5h ago)",
+   "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound (6h ago)",
    "U.S. prediction markets regulator issues demand that clashes directly with courts (6h ago)"
   ],
   "macro": [],
