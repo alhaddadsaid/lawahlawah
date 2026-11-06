@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -42375.86439077616,
+   "cash": -42474.92788621159,
    "open": [
-    {
-     "id": 2031,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "COGE",
-     "mint": "DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT",
-     "side": 1,
-     "opened": 1793931256.9118423,
-     "entry": 0.0001361,
-     "stop": 0.00010888,
-     "target": 0.00019054,
-     "size": 1469507.7149155033,
-     "deadline": 1793938456.9118428,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2035,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PIRATE",
-     "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
-     "side": 1,
-     "opened": 1793933678.5242796,
-     "entry": 0.0002013,
-     "stop": 0.00016104,
-     "target": 0.00028181999999999995,
-     "size": 993541.9771485346,
-     "deadline": 1793940878.5242798,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2037,
      "desk": "control",
@@ -81,26 +51,29 @@
      "size": 1530221.882172915,
      "deadline": 1793943267.3580523,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2042,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "WABI",
+     "mint": "CMK5SEFQw3DDs6iGTBBAHeyQyMnBgtZvFnUp6tYwabi",
+     "side": 1,
+     "opened": 1793936802.7620451,
+     "entry": 0.0001517,
+     "stop": 0.00012136,
+     "target": 0.00021237999999999997,
+     "size": 1318391.5622940012,
+     "deadline": 1793944002.7620454,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2042,
+ "next_id": 2043,
  "runs": 71,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793936599.4766316,
-  "seen:519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump": 1793936599.4766316,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793936599.4766316,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793936599.4766316,
-  "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793936599.4766316,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793936599.4766316,
-  "seen:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793936599.4766316,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1793936783.0712352,
-  "seen:GTTQWTy96Vr2NNqrUHjg854AYKKP51jQr2Fcies7pump": 1793936783.0712352,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793936783.0712352,
-  "seen:BQjiYCutv9LVtbgj7pKCN2Ce6k2eUM5RSKs6kDAzpump": 1793936783.0712352,
-  "control:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793936783.1654608,
   "seen:fF44qzhsdUR5VQuQAHYxxt25iHCrKadWM3fABAApump": 1793936967.255406,
   "seen:CMK5SEFQw3DDs6iGTBBAHeyQyMnBgtZvFnUp6tYwabi": 1793936967.255406,
   "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793936967.255406,
@@ -108,7 +81,17 @@
   "control:BQjiYCutv9LVtbgj7pKCN2Ce6k2eUM5RSKs6kDAzpump": 1793936967.3580554,
   "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793937150.765562,
   "seen:8kuQg3WivDtL85VEdw2jEmSXjYt6EEeYBATJ4DtQpump": 1793937150.765562,
-  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793937333.3924847
+  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793937333.3924847,
+  "seen:Bwv2p9uhFaa67mQAd2gG3GaWqCSxK5L7u7MWeEdpsqNW": 1793937518.8131087,
+  "seen:5ve4fMHU4BsSgJvjF9NEMp5m9yNLqYkugPKbV7SZpump": 1793937518.8131087,
+  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793937518.8131087,
+  "seen:6FBm68bfDLhAjWWcj5Qaxx3KycnBdLEm4qpZsYjdpump": 1793937518.8131087,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793937518.8131087,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793937518.8131087,
+  "seen:GTTQWTy96Vr2NNqrUHjg854AYKKP51jQr2Fcies7pump": 1793937702.6710536,
+  "seen:519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump": 1793937702.6710536,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793937702.6710536,
+  "control:CMK5SEFQw3DDs6iGTBBAHeyQyMnBgtZvFnUp6tYwabi": 1793937702.7620492
  },
  "talks": {
   "2026-10-21": 109
@@ -149,24 +132,24 @@
  ],
  "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793935699.4837577,
+  "t": 1793936618.8202386,
   "crypto": [
    "Hyperliquid treasury firm seeking U.S. regulatory nod as a domestic futures platform (1h ago)",
    "Bitcoin developer proposes \u2018landmines\u2019 to make quantum thieves lose their own BTC (2h ago)",
    "Core Scientific to quit Bitcoin mining by year-end as AI business surges (3h ago)",
-   "Here\u2019s what happened in crypto today (4h ago)",
+   "Here\u2019s what happened in crypto today (5h ago)",
    "American Bitcoin\u2019s $126M profit masks mining pressure as rivals turn to AI (5h ago)",
    "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express (5h ago)",
    "Crypto ally French Hill wins reelection but set to lose House chair (6h ago)",
-   "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack (8h ago)",
-   "U.S. Justice Department assembles force to shield against foreign AI threats (8h ago)",
+   "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack (9h ago)",
+   "U.S. Justice Department assembles force to shield against foreign AI threats (9h ago)",
    "Bitcoin tumbles to $76,000 as collapsing AI trade drags stocks sharply lower (9h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m in 10.0h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 10.0h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 10.0h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m in 9.8h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 9.8h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 9.8h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
@@ -197,5 +180,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793935332.9251115
+ "last_macro_macro": 1793936618.8201754
 }
