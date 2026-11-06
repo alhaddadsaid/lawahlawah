@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-06 13:37 UTC. Runs so far: 72. Model: claude-haiku-5-5.
+Updated 2026-11-06 13:40 UTC. Runs so far: 72. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -10,18 +10,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
 | control | meme | 2031 | 31 | -52826.3 | -72302.59 |
-| control | macro | 44 | 45 | -150.25 | -371.16 |
-| control | all | 2075 | 31 | -52976.55 | -72673.75 |
+| control | macro | 45 | 47 | -2.88 | -226.41 |
+| control | all | 2076 | 31 | -52829.18 | -72529.0 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: GOLD short at 4083.4, stop 4102.44, target 4054.84, opened 2026-11-06 10:01 UTC
 - control: george long at 0.0001422, stop 0.00011376, target 0.00019908, opened 2026-11-06 12:11 UTC
 - control: RETIRE long at 0.0001017, stop 8.136e-05, target 0.00014238, opened 2026-11-06 13:13 UTC
 - control: three long at 0.0007135, stop 0.0005708, target 0.0009989, opened 2026-11-06 13:22 UTC
 - control: Bubbles long at 0.0001283, stop 0.00010264, target 0.00017962, opened 2026-11-06 13:37 UTC
+- control: RM long at 8.057e-05, stop 6.4456e-05, target 0.000112798, opened 2026-11-06 13:40 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-06 13:37 UTC control: OPENED Bubbles long at 0.0001283 (stop 0.00010264, target 0.00017962) - control: frozen v3 rules
+- 2026-11-06 13:40 UTC control: OPENED RM long at 8.057e-05 (stop 6.4456e-05, target 0.000112798) - control: frozen v3 rules
 

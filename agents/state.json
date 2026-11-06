@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -42976.45679041699,
+   "cash": -42829.08244586931,
    "open": [
-    {
-     "id": 2085,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "GOLD",
-     "mint": "",
-     "side": -1,
-     "opened": 1793959263.9889665,
-     "entry": 4083.39990234375,
-     "stop": 4102.442766462053,
-     "target": 4054.835606166295,
-     "size": 5.251310904638706,
-     "deadline": 1794045663.9889667,
-     "thesis": "control: random direction"
-    },
     {
      "id": 2090,
      "desk": "control",
@@ -81,16 +66,29 @@
      "size": 1558846.453624318,
      "deadline": 1793979457.603867,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2100,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "RM",
+     "mint": "EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump",
+     "side": 1,
+     "opened": 1793972439.1239362,
+     "entry": 8.057e-05,
+     "stop": 6.4456e-05,
+     "target": 0.00011279799999999999,
+     "size": 2482313.5161970956,
+     "deadline": 1793979639.1239371,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2100,
+ "next_id": 2101,
  "runs": 72,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1793972420.1397343,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793972420.1397343,
   "seen:B7tXcd782qYKZiZk3HNu6nDzsYLto8hr23rLUKBCpump": 1793972608.7819932,
   "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1793972608.7819932,
   "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793972608.7819932,
@@ -105,7 +103,12 @@
   "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793972974.4604049,
   "seen:CtzPWv73Sn1dMGVU3ZtLv9yWSyUAanBni19YWDaznnkn": 1793973157.548033,
   "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793973157.548033,
-  "control:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793973157.6038704
+  "control:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793973157.6038704,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793973339.0771973,
+  "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1793973339.0771973,
+  "seen:DNUTsCvKbKwu2RM72cUuW3TD9YpzArzACcqYQssjPLSk": 1793973339.0771973,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793973339.0771973,
+  "control:EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump": 1793973339.1239421
  },
  "talks": {
   "2026-10-21": 109
