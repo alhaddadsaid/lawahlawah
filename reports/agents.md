@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-06 00:58 UTC. Runs so far: 70. Model: claude-haiku-5-5.
+Updated 2026-11-06 01:06 UTC. Runs so far: 70. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1957 | 31 | -51979.64 | -70718.61 |
+| control | meme | 1958 | 31 | -52044.44 | -70792.01 |
 | control | macro | 41 | 44 | -324.4 | -534.42 |
-| control | all | 1998 | 31 | -52304.04 | -71253.03 |
+| control | all | 1999 | 31 | -52368.84 | -71326.43 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: COGE long at 0.0001296, stop 0.00010368, target 0.00018144, opened 2026-11-06 00:30 UTC
-- control: sssdfg long at 0.000153, stop 0.0001224, target 0.0002142, opened 2026-11-06 00:33 UTC
 - control: PIRATE long at 0.0002354, stop 0.00018832, target 0.00032956, opened 2026-11-06 00:39 UTC
+- control: GOLD short at 4104.9, stop 4128.58, target 4069.38, opened 2026-11-06 01:01 UTC
+- control: coin long at 9.048e-05, stop 7.2384e-05, target 0.000126672, opened 2026-11-06 01:04 UTC
 
 ## Team
 
@@ -32,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order sssdfg REJECTED by guardrails: sssdfg already open
+- control: CLOSED sssdfg (stop) P&L $-64.8 normal, $-73.4 pessimistic
 
