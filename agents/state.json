@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -43392.452902134755,
+   "cash": -43498.85340496412,
    "open": [
-    {
-     "id": 2109,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "RETIRE",
-     "mint": "519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump",
-     "side": 1,
-     "opened": 1793985796.2119744,
-     "entry": 8.741e-05,
-     "stop": 6.992800000000001e-05,
-     "target": 0.000122374,
-     "size": 2288067.7268047133,
-     "deadline": 1793992996.2119744,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2110,
      "desk": "control",
@@ -55,13 +40,10 @@
    ]
   }
  },
- "next_id": 2113,
+ "next_id": 2114,
  "runs": 73,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5nMbMFxkzCEUbStJQsjreiYco46bJWqzfer23Xwcpump": 1793987058.1493893,
-  "seen:AEsZTZx6xe6icHry9gma7sGLq3UvKVZBPiK4irySpump": 1793987058.1493893,
-  "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1793987239.433352,
   "seen:FDzL4zJ3jNJ2rz4FsNUWTYTg6kNYssJXXvawTrFJpump": 1793987422.8046618,
   "seen:4QDPF5TtNAKtU5p5pvcq9h9b44nRSikRzNrKzsUfLoat": 1793987603.9136934,
   "seen:AgnsZbSP5MMiVCK8G2MJuxWEYV9X8PUUL1NtP6papump": 1793987603.9136934,
@@ -73,7 +55,10 @@
   "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793987603.9136934,
   "seen:4izrpFiuxGXv9vSGxX8RoWQUgXCFMwK5KmbaEhLspump": 1793987785.419289,
   "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793987785.419289,
-  "control:Cgs33XVwju57dToPZSRxAiEMxj9qWGxR7CT8j44pump": 1793987785.5777082
+  "control:Cgs33XVwju57dToPZSRxAiEMxj9qWGxR7CT8j44pump": 1793987785.5777082,
+  "seen:5nMbMFxkzCEUbStJQsjreiYco46bJWqzfer23Xwcpump": 1793987968.6532037,
+  "control:AgnsZbSP5MMiVCK8G2MJuxWEYV9X8PUUL1NtP6papump": 1793987968.9730086,
+  "seen:DKNGQFNGQmoBdXSRGKJ8tTu7uPDasw5JDcfMmWniNfow": 1793988150.7777355
  },
  "talks": {
   "2026-10-21": 109
@@ -158,5 +143,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793985795.0327027
+ "last_macro_macro": 1793987068.6611664
 }
