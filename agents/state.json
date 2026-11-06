@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -42594.984285002865,
+   "cash": -42647.618180820915,
    "open": [
     {
      "id": 2079,
@@ -20,21 +20,6 @@
      "target": 0.00016772,
      "size": 1669449.081803005,
      "deadline": 1793964454.0665302,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2082,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "RM",
-     "mint": "EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump",
-     "side": 1,
-     "opened": 1793958896.2609003,
-     "entry": 0.0001363,
-     "stop": 0.00010904000000000001,
-     "target": 0.00019082000000000002,
-     "size": 1467351.4306676448,
-     "deadline": 1793966096.2609005,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -81,29 +66,46 @@
      "size": 5.251310904638706,
      "deadline": 1794045663.9889667,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 2086,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "RM",
+     "mint": "EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump",
+     "side": 1,
+     "opened": 1793960357.7758617,
+     "entry": 0.0001147,
+     "stop": 9.176e-05,
+     "target": 0.00016057999999999998,
+     "size": 1743679.1630340018,
+     "deadline": 1793967557.775862,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2086,
+ "next_id": 2087,
  "runs": 72,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:VLxDCjbbJ853sqtmiXfpWuYMRvDTRrYWf2GuS4GZjNv": 1793960163.4201455,
-  "seen:euro5sNHrZC2wu2RoLvy6xxoVMc3Qnd1vjxoWf4MftA": 1793960163.4201455,
-  "seen:EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump": 1793960163.4201455,
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793960163.4201455,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793960163.4201455,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793960163.4201455,
-  "control:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793960163.9606729,
-  "control:GOLD": 1793960163.9889703,
-  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793960344.7070146,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793960344.7070146,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793960344.7070146,
   "seen:3625oA8Jn4JuxkKvms8UhcZ41aH2VewkKUzHqMoBpump": 1793960709.7143848,
   "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793960709.7143848,
   "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793960889.8456702,
-  "seen:519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump": 1793960889.8456702
+  "seen:519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump": 1793960889.8456702,
+  "seen:VLxDCjbbJ853sqtmiXfpWuYMRvDTRrYWf2GuS4GZjNv": 1793961070.3897069,
+  "seen:6dLeZH9HXUT1WiH5G6njJXcYZpES28CBXw8VMWpJpump": 1793961070.3897069,
+  "seen:euro5sNHrZC2wu2RoLvy6xxoVMc3Qnd1vjxoWf4MftA": 1793961070.3897069,
+  "seen:EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump": 1793961070.3897069,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793961070.3897069,
+  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793961070.3897069,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793961257.4257617,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793961257.4257617,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793961257.4257617,
+  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793961257.4257617,
+  "control:EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump": 1793961257.7758658,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793961435.761296,
+  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793961435.761296
  },
  "talks": {
   "2026-10-21": 109
@@ -144,12 +146,12 @@
  ],
  "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793959263.4298556,
+  "t": 1793960170.3993773,
   "crypto": [
    "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout (0h ago)",
    "Zcash NU7 upgrade goes live, leaves 12,224 ZEC stranded in Sprout pool (1h ago)",
    "Greece approves 10% tax on crypto gains and 15% levy on DeFi income (1h ago)",
-   "Hyperliquid Strategies seeks futures registration for perps (1h ago)",
+   "Hyperliquid Strategies seeks futures registration for perps (2h ago)",
    "Bitcoin, Ether ETFs post $530M outflows as election gains evaporate (2h ago)",
    "Trump-backed World Liberty Financial plans token buyback after 66% year-to-date slide (2h ago)",
    "Chainalysis says breach exposed password hashes and live tokens (3h ago)",
@@ -159,9 +161,9 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m in 3.5h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 3.5h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 3.5h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m in 3.2h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 3.2h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 3.2h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
@@ -192,5 +194,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793959079.4052894
+ "last_macro_macro": 1793960357.435509
 }
