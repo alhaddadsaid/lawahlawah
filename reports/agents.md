@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-06 06:03 UTC. Runs so far: 71. Model: claude-haiku-5-5.
+Updated 2026-11-06 06:12 UTC. Runs so far: 71. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,19 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1994 | 31 | -52614.43 | -71716.61 |
+| control | meme | 1996 | 31 | -52608.28 | -71731.13 |
 | control | macro | 42 | 45 | -176.51 | -388.64 |
-| control | all | 2036 | 31 | -52790.94 | -72105.25 |
+| control | all | 2038 | 31 | -52784.79 | -72119.77 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: Bubbles long at 0.000173, stop 0.0001384, target 0.0002422, opened 2026-11-06 05:06 UTC
 - control: RICO long at 6.116e-05, stop 4.8928e-05, target 8.5624e-05, opened 2026-11-06 05:12 UTC
 - control: three long at 0.0006389, stop 0.00051112, target 0.00089446, opened 2026-11-06 05:24 UTC
 - control: ZELDA long at 0.0001316, stop 0.00010528, target 0.00018424, opened 2026-11-06 05:27 UTC
-- control: bracket long at 0.0001248, stop 9.984e-05, target 0.00017472, opened 2026-11-06 05:39 UTC
+- control: Bill long at 8.79e-05, stop 7.032e-05, target 0.00012306, opened 2026-11-06 06:06 UTC
+- control: Bubbles long at 0.0001259, stop 0.00010072, target 0.00017626, opened 2026-11-06 06:12 UTC
 
 ## Team
 
@@ -34,5 +34,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order Bill REJECTED by guardrails: desk already has the maximum open positions
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- 2026-11-06 06:12 UTC control: OPENED Bubbles long at 0.0001259 (stop 0.00010072, target 0.00017626) - control: frozen v3 rules
 
