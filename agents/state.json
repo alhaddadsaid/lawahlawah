@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -42371.930677845834,
+   "cash": -42303.930677845834,
    "open": [
     {
      "id": 2017,
@@ -51,21 +51,6 @@
      "size": 849617.6720475786,
      "deadline": 1793932797.5394971,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2020,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "coin",
-     "mint": "GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump",
-     "side": 1,
-     "opened": 1793925960.7687054,
-     "entry": 0.0001056,
-     "stop": 8.448e-05,
-     "target": 0.00014784,
-     "size": 1893939.3939393938,
-     "deadline": 1793933160.7687056,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,26 +59,26 @@
  "runs": 70,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793926125.8339472,
-  "seen:ES9FintJPSGcoVuJhkLAsfSoug6B69bDoeTb3hJYpump": 1793926125.8339472,
-  "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793926125.8339472,
-  "control:BQjiYCutv9LVtbgj7pKCN2Ce6k2eUM5RSKs6kDAzpump": 1793926125.9173875,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793926312.6263025,
-  "seen:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793926312.6263025,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793926312.6263025,
-  "seen:AbGtzhimZYBbTDjbAWvGxRAfDDQKn5D9yXqx8PZmQxHn": 1793926496.815246,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793926496.815246,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793926496.815246,
-  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793926496.815246,
-  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793926496.815246,
-  "control:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793926497.5395002,
-  "seen:BQjiYCutv9LVtbgj7pKCN2Ce6k2eUM5RSKs6kDAzpump": 1793926679.1389925,
-  "seen:4vaWvJteGh4QA6NNb7qUQ1efWFFnebZYnKy2aeMVpump": 1793926679.1389925,
   "seen:GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump": 1793926860.6333368,
   "seen:QKpSShaTvqvZJGSoqr3CqgarMZij2EUEQawnidmpump": 1793926860.6333368,
   "seen:crzLZMD5dWSQAyJXdvAspBcV9kwjKcWhgYPWpycpump": 1793926860.6333368,
   "seen:BCxTfpfWmzfMKqUVAogUG37jdmrEkHtNv5d37bJrpump": 1793926860.6333368,
-  "control:GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump": 1793926860.7687092
+  "control:GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump": 1793926860.7687092,
+  "seen:GRNDYDpqwpCm6jVxpbh4xT5AM4r3p391qYsKTHqgaET2": 1793927045.1786416,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793927045.1786416,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793927045.1786416,
+  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793927045.1786416,
+  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1793927228.3815048,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793927228.3815048,
+  "seen:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793927228.3815048,
+  "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793927228.3815048,
+  "seen:9q17YrKCeBtSZ6qkBTmttyZnh5ZVEapF6TwTrtX2pump": 1793927407.0148172,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793927407.0148172,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1793927407.0148172,
+  "seen:T5oTyoJ8jiPYxURipbXmqXWEMassrd6om74JPY6pump": 1793927594.2988765,
+  "seen:BQjiYCutv9LVtbgj7pKCN2Ce6k2eUM5RSKs6kDAzpump": 1793927594.2988765,
+  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793927594.2988765,
+  "seen:F1LQvm5biTdEXPrHokxhkR7sDwQcBnA8VTEmD5Gdpump": 1793927594.2988765
  },
  "talks": {
   "2026-10-21": 109
@@ -134,12 +119,12 @@
  ],
  "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793925596.8229647,
+  "t": 1793926507.02329,
   "crypto": [
-   "Core Scientific to quit Bitcoin mining by year-end as AI business surges (0h ago)",
+   "Core Scientific to quit Bitcoin mining by year-end as AI business surges (1h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "American Bitcoin\u2019s $126M profit masks mining pressure as rivals turn to AI (2h ago)",
-   "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express (2h ago)",
+   "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express (3h ago)",
    "Crypto ally French Hill wins reelection but set to lose House chair (3h ago)",
    "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack (6h ago)",
    "U.S. Justice Department assembles force to shield against foreign AI threats (6h ago)",
@@ -149,9 +134,9 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m in 12.8h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 12.8h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 12.8h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m in 12.6h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 12.6h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 12.6h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
@@ -182,5 +167,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793925045.5680943
+ "last_macro_macro": 1793926328.3893945
 }
