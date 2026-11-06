@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -42657.36102421806,
+   "cash": -42706.80266184872,
    "open": [
     {
      "id": 2085,
@@ -53,43 +53,46 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2091,
+     "id": 2092,
      "desk": "control",
      "market": "meme",
-     "symbol": "RM",
-     "mint": "EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump",
+     "symbol": "RETIRE",
+     "mint": "519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump",
      "side": 1,
-     "opened": 1793967855.1080213,
-     "entry": 0.0001148,
-     "stop": 9.184e-05,
-     "target": 0.00016072,
-     "size": 1742160.2787456447,
-     "deadline": 1793975055.1080217,
+     "opened": 1793968589.9761186,
+     "entry": 0.0001398,
+     "stop": 0.00011184000000000001,
+     "target": 0.00019572,
+     "size": 1430615.1645207438,
+     "deadline": 1793975789.9761188,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2092,
+ "next_id": 2093,
  "runs": 72,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793968201.9599307,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793968201.9599307,
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793968388.3748252,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793968388.3748252,
-  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793968388.3748252,
-  "seen:DNUTsCvKbKwu2RM72cUuW3TD9YpzArzACcqYQssjPLSk": 1793968568.6527581,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793968568.6527581,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793968568.6527581,
-  "seen:AtYniGvPcG11XfMhwcAXA9bgccWvdRB3LNwWkJskpump": 1793968568.6527581,
   "seen:2WQSexD1WYyGs2LZSC3KPwFEfa4ABaAChJcpNhwqpump": 1793968755.068341,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793968755.068341,
   "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793968755.068341,
   "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793968755.068341,
   "control:EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump": 1793968755.1080248,
   "seen:EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump": 1793968938.2599697,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793968938.2599697
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793968938.2599697,
+  "seen:CkYPxSP2RT1oCQwj1g4xdCJyLmkA4gwC7xYip2B2pump": 1793969122.8197591,
+  "seen:pzg8VPApNZC3twxegqCFzAevxQEKBiGTtB3cgVtpump": 1793969122.8197591,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793969122.8197591,
+  "seen:8RkMxxgLPeidaxDFF52ZHBbcQ8js762pdhXxzXu4dLDm": 1793969305.86479,
+  "seen:C8WvgVddkYYrw4r2ihjpDKYpraiscdJaYr6eNPSipump": 1793969305.86479,
+  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793969305.86479,
+  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793969305.86479,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793969305.86479,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793969489.9144363,
+  "seen:519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump": 1793969489.9144363,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793969489.9144363,
+  "control:519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump": 1793969489.9761224
  },
  "talks": {
   "2026-10-21": 109
@@ -130,24 +133,24 @@
  ],
  "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793967488.3851564,
+  "t": 1793968405.8751194,
   "crypto": [
-   "Live updates: Nasdaq 100 futures rally points to stock market respite (0h ago)",
-   "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures (0h ago)",
+   "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market (0h ago)",
+   "Solana\u2019s Shanghai event halted over unauthorized promotion: Report (0h ago)",
+   "Live updates: Nasdaq 100 futures rally points to stock market respite (1h ago)",
+   "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures (1h ago)",
    "Binance hackers had 8 weeks of access before $6.3B exploit, Security Alliance estimates (1h ago)",
    "Bitcoin holds $75K as AI regulation fears see KOSPI halted after 8% crash (1h ago)",
    "Greece approves 10% tax on crypto gains starting in 2027 (1h ago)",
    "GOPAX halts crypto trading, withdrawals to move all assets to cold storage (2h ago)",
    "Binance\u2019s $6.3B hack leaves questions over hot wallet safeguards (2h ago)",
-   "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout (2h ago)",
-   "Zcash NU7 upgrade goes live, leaves 12,224 ZEC stranded in Sprout pool (3h ago)",
-   "Greece approves 10% tax on crypto gains and 15% levy on DeFi income (4h ago)"
+   "Bitcoin recovers $76,000 level as ETFs shed $430 million after tech rout (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m in 1.2h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 1.2h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 1.2h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m in 0.9h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 0.9h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 0.9h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
