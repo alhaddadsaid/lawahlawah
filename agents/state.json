@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -42703.26472455414,
+   "cash": -42755.229392648354,
    "open": [
     {
      "id": 2067,
@@ -20,21 +20,6 @@
      "target": 0.000116774,
      "size": 2397794.0294928667,
      "deadline": 1793956057.8181374,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2068,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "fun",
-     "mint": "5BWHo2duxhkRR4ftnZWErnB8GoXpFgZ4ZR9UN8LDpump",
-     "side": 1,
-     "opened": 1793949040.193887,
-     "entry": 0.0001868,
-     "stop": 0.00014944,
-     "target": 0.00026151999999999995,
-     "size": 1070663.8115631694,
-     "deadline": 1793956240.1938872,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -66,36 +51,66 @@
      "size": 2066329.1662361815,
      "deadline": 1793956608.0117052,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2071,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Diamond",
+     "mint": "5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump",
+     "side": 1,
+     "opened": 1793949957.1504314,
+     "entry": 0.0002372,
+     "stop": 0.00018976,
+     "target": 0.00033207999999999995,
+     "size": 843170.3204047218,
+     "deadline": 1793957157.1504316,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2072,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "fun",
+     "mint": "5BWHo2duxhkRR4ftnZWErnB8GoXpFgZ4ZR9UN8LDpump",
+     "side": 1,
+     "opened": 1793950139.7252932,
+     "entry": 0.000155,
+     "stop": 0.000124,
+     "target": 0.000217,
+     "size": 1290322.5806451612,
+     "deadline": 1793957339.7252932,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2071,
+ "next_id": 2073,
  "runs": 71,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:KKbtmLiUsJRKypUyknDYD8E6TwKbfcLS3p4ymCLpump": 1793949940.1386492,
-  "seen:EFWotn2UtV2c5QXMMHbSzmyrkU7wnfj7VpkNQGr1wk1z": 1793949940.1386492,
-  "seen:6RDff7NwDJFX9zLg53RJNPsWpdfRs1xxDxivhL3Ypump": 1793949940.1386492,
-  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793949940.1386492,
-  "control:5BWHo2duxhkRR4ftnZWErnB8GoXpFgZ4ZR9UN8LDpump": 1793949940.1938899,
-  "seen:GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump": 1793950122.6894968,
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793950122.6894968,
-  "seen:519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump": 1793950122.6894968,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793950122.6894968,
-  "control:EFWotn2UtV2c5QXMMHbSzmyrkU7wnfj7VpkNQGr1wk1z": 1793950122.751165,
-  "seen:5BWHo2duxhkRR4ftnZWErnB8GoXpFgZ4ZR9UN8LDpump": 1793950307.0971503,
-  "seen:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793950307.0971503,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793950307.0971503,
-  "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793950307.0971503,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793950307.0971503,
-  "control:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793950308.011708,
-  "seen:9z3RybP1GJhhQApnN1qZ7suNGqK9tbFH6M1Yy34Kzc7v": 1793950490.3369567,
-  "seen:EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump": 1793950490.3369567,
-  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793950490.3369567,
   "seen:2D2qn3dNYHZb9L3iCcJk4Ckpt7wuGFzK6NkE8tSTVegx": 1793950672.9370425,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793950672.9370425,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793950672.9370425
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793950672.9370425,
+  "seen:EFWotn2UtV2c5QXMMHbSzmyrkU7wnfj7VpkNQGr1wk1z": 1793950857.0838776,
+  "seen:6RDff7NwDJFX9zLg53RJNPsWpdfRs1xxDxivhL3Ypump": 1793950857.0838776,
+  "control:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793950857.1504343,
+  "seen:ExxzYBTt3jwU5MUxuw2F4toYbTLdFwThSjyaCn6Xpump": 1793951039.6543882,
+  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793951039.6543882,
+  "seen:FCJh8KcoPbX8rs3ufTSvXRHpjiyMsRS7ebqREeS5pump": 1793951039.6543882,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793951039.6543882,
+  "seen:GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump": 1793951039.6543882,
+  "seen:519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump": 1793951039.6543882,
+  "control:5BWHo2duxhkRR4ftnZWErnB8GoXpFgZ4ZR9UN8LDpump": 1793951039.7252955,
+  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1793951222.3436635,
+  "seen:5BWHo2duxhkRR4ftnZWErnB8GoXpFgZ4ZR9UN8LDpump": 1793951222.3436635,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793951222.3436635,
+  "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793951222.3436635,
+  "seen:EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump": 1793951405.1430223,
+  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793951405.1430223,
+  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793951405.1430223,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793951405.1430223,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1793951405.1430223
  },
  "talks": {
   "2026-10-21": 109
@@ -136,9 +151,9 @@
  ],
  "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793949407.1045635,
+  "t": 1793950322.3514965,
   "crypto": [
-   "Chainalysis says breach exposed password hashes and live tokens (0h ago)",
+   "Chainalysis says breach exposed password hashes and live tokens (1h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
    "Zcash\u2019s landmark NU7 upgrade goes live, speeding up private payments (2h ago)",
    "Crypto exchanges tout cold storage ratios after Binance attack (2h ago)",
@@ -151,9 +166,9 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m in 6.2h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 6.2h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 6.2h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m in 6.0h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 6.0h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 6.0h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
