@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -42827.35143700787,
+   "cash": -42759.35143700787,
    "open": [
-    {
-     "id": 2097,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "RETIRE",
-     "mint": "519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump",
-     "side": 1,
-     "opened": 1793970789.6315918,
-     "entry": 0.0001017,
-     "stop": 8.136000000000001e-05,
-     "target": 0.00014238,
-     "size": 1966568.3382497542,
-     "deadline": 1793977989.631592,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2098,
      "desk": "control",
@@ -66,32 +51,64 @@
      "size": 1248439.4506866417,
      "deadline": 1793981657.0565736,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2103,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "NIG",
+     "mint": "GDst7T2Apk4qJsJf1qZG2ndE9HP1jruEPn5izqGwpump",
+     "side": 1,
+     "opened": 1793975007.264379,
+     "entry": 0.000103,
+     "stop": 8.24e-05,
+     "target": 0.00014419999999999998,
+     "size": 1941747.572815534,
+     "deadline": 1793982207.2643795,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2104,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ODDLY",
+     "mint": "A6rVjxZbTyAD8CTURMKnHmhQ3QHN1yyMnaXUCRcApump",
+     "side": 1,
+     "opened": 1793975371.8542404,
+     "entry": 9.776e-05,
+     "stop": 7.820800000000001e-05,
+     "target": 0.000136864,
+     "size": 2045826.5139116202,
+     "deadline": 1793982571.8542407,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2103,
+ "next_id": 2105,
  "runs": 72,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4jVDaUdb7qRvqXxZnPMJcDTJSdfLBLRisjjhDr7yssTC": 1793974809.8938494,
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793974809.8938494,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793974809.8938494,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793974809.8938494,
-  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793974809.8938494,
-  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793974992.236134,
-  "seen:EW1b9rcLAJe634mgxb5r4bVYxDoGU37o7YazBzjTpump": 1793974992.236134,
-  "seen:5BWHo2duxhkRR4ftnZWErnB8GoXpFgZ4ZR9UN8LDpump": 1793974992.236134,
-  "seen:A6rVjxZbTyAD8CTURMKnHmhQ3QHN1yyMnaXUCRcApump": 1793975175.6148636,
-  "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1793975175.6148636,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793975175.6148636,
-  "seen:A4oL7WDF3nw9TWtuVP5uVaJ9CVR3u4a9j2htqZKQpump": 1793975356.7183042,
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1793975356.7183042,
-  "seen:519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump": 1793975356.7183042,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793975356.7183042,
-  "control:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793975357.056577,
   "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793975539.9806044,
-  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793975539.9806044
+  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793975539.9806044,
+  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793975724.6172242,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793975724.6172242,
+  "seen:4D35EPY2Pbihp5QvQH4ohpUCrVXNRhinHoWLqix2pump": 1793975724.6172242,
+  "seen:MWwpztHKL672aaf3Jw8uz1hFJpCRh7ojKxFq5Gbpump": 1793975724.6172242,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793975724.6172242,
+  "seen:Kd6F1LRm8C7BdQg22V5TX5Nu8hojQM1AAwHH27Tpump": 1793975907.209161,
+  "seen:JA48whDA4ioKWeQ2LzkZGHJ3Bj7X43sa77bE9oEHpump": 1793975907.209161,
+  "seen:GDst7T2Apk4qJsJf1qZG2ndE9HP1jruEPn5izqGwpump": 1793975907.209161,
+  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793975907.209161,
+  "control:GDst7T2Apk4qJsJf1qZG2ndE9HP1jruEPn5izqGwpump": 1793975907.2643833,
+  "seen:A6rVjxZbTyAD8CTURMKnHmhQ3QHN1yyMnaXUCRcApump": 1793976089.493757,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793976089.493757,
+  "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1793976089.493757,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793976271.8055947,
+  "seen:519AMDtBqCpVk8CTYCg2i9kJQH62ZSkT5Uvfn71Upump": 1793976271.8055947,
+  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1793976271.8055947,
+  "seen:CASHx9KJUStyftLFWGvEVf59SGeG9sh5FfcnZMVPCASH": 1793976271.8055947,
+  "control:A6rVjxZbTyAD8CTURMKnHmhQ3QHN1yyMnaXUCRcApump": 1793976271.8542445
  },
  "talks": {
   "2026-10-21": 109
@@ -132,24 +149,24 @@
  ],
  "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793973909.9041224,
+  "t": 1793974824.627485,
   "crypto": [
+   "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins (0h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
    "U.S. added 165,000 jobs in October, blowing past 65,000 estimate (1h ago)",
    "Ethereum devs won\u2019t fork Glamsterdam on Hoodi until smart contract risks resolved (1h ago)",
    "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market (2h ago)",
    "Solana\u2019s Shanghai event halted over unauthorized promotion: Report (2h ago)",
    "Live updates: Bitcoin slips further after blowout October jobs numbers (2h ago)",
-   "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures (2h ago)",
+   "Bitcoin steadies after AI-led selloff as eyes turn to latest U.S. jobs figures (3h ago)",
    "Binance hackers had 8 weeks of access before $6.3B exploit, Security Alliance estimates (3h ago)",
-   "Bitcoin holds $75K as AI regulation fears see KOSPI halted after 8% crash (3h ago)",
-   "Greece approves 10% tax on crypto gains starting in 2027 (3h ago)"
+   "Bitcoin holds $75K as AI regulation fears see KOSPI halted after 8% crash (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m was 0.6h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change was 0.6h, forecast 65K, previous 29K",
-   "USD Unemployment Rate was 0.6h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m was 0.8h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change was 0.8h, forecast 65K, previous 29K",
+   "USD Unemployment Rate was 0.8h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
