@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-06 19:12 UTC. Runs so far: 73. Model: claude-haiku-5-5.
+Updated 2026-11-06 19:19 UTC. Runs so far: 73. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2059 | 31 | -53951.42 | -73686.05 |
+| control | meme | 2061 | 31 | -54051.34 | -73803.91 |
 | control | macro | 45 | 47 | -2.88 | -226.41 |
-| control | all | 2104 | 31 | -53954.3 | -73912.46 |
+| control | all | 2106 | 31 | -54054.22 | -74030.32 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GOLD long at 4069.6, stop 4054.07, target 4092.89, opened 2026-11-06 17:23 UTC
-- control: PIRATE long at 0.0002546, stop 0.00020368, target 0.00035644, opened 2026-11-06 18:36 UTC
 - control: CAPY long at 0.0003886, stop 0.00031088, target 0.00054404, opened 2026-11-06 19:09 UTC
-- control: BORDERLESS long at 7.947e-05, stop 6.3576e-05, target 0.000111258, opened 2026-11-06 19:12 UTC
 
 ## Team
 
@@ -33,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-06 19:12 UTC control: OPENED BORDERLESS long at 7.947e-05 (stop 6.3576e-05, target 0.000111258) - control: frozen v3 rules
+- control: CLOSED BORDERLESS (stop) P&L $-49.63 normal, $-58.61 pessimistic
 
