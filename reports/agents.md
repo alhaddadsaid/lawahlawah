@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-06 06:52 UTC. Runs so far: 71. Model: claude-haiku-5-5.
+Updated 2026-11-06 07:04 UTC. Runs so far: 71. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 1998 | 31 | -52472.28 | -71619.13 |
+| control | meme | 2001 | 31 | -52412.72 | -71591.86 |
 | control | macro | 42 | 45 | -176.51 | -388.64 |
-| control | all | 2040 | 31 | -52648.79 | -72007.77 |
+| control | all | 2043 | 31 | -52589.23 | -71980.5 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,8 +20,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: RICO long at 6.116e-05, stop 4.8928e-05, target 8.5624e-05, opened 2026-11-06 05:12 UTC
 - control: three long at 0.0006389, stop 0.00051112, target 0.00089446, opened 2026-11-06 05:24 UTC
 - control: ZELDA long at 0.0001316, stop 0.00010528, target 0.00018424, opened 2026-11-06 05:27 UTC
-- control: Bubbles long at 0.0001259, stop 0.00010072, target 0.00017626, opened 2026-11-06 06:12 UTC
-- control: fun long at 0.0001579, stop 0.00012632, target 0.00022106, opened 2026-11-06 06:46 UTC
+- control: COGE long at 0.0001009, stop 8.072e-05, target 0.00014126, opened 2026-11-06 07:01 UTC
 
 ## Team
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order Anakin REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED bracket (stop) P&L $-76.44 normal, $-84.73 pessimistic
 
