@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -42515.43740240093,
+   "cash": -42299.54900694642,
    "open": [
     {
      "id": 2019,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2021,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "GOLD",
-     "mint": "",
-     "side": -1,
-     "opened": 1793926875.7217674,
-     "entry": 4104.89990234375,
-     "stop": 4128.578578404018,
-     "target": 4069.3818882533483,
-     "size": 4.223209090975996,
-     "deadline": 1794013275.7217677,
-     "thesis": "control: random direction"
-    },
-    {
      "id": 2024,
      "desk": "control",
      "market": "meme",
@@ -50,21 +35,6 @@
      "target": 0.000139412,
      "size": 2008435.428800964,
      "deadline": 1793934991.5764565,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2026,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "coin",
-     "mint": "GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump",
-     "side": 1,
-     "opened": 1793928338.4854496,
-     "entry": 0.0001214,
-     "stop": 9.712e-05,
-     "target": 0.00016995999999999998,
-     "size": 1647446.4579901153,
-     "deadline": 1793935538.4854498,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -81,37 +51,46 @@
      "size": 1508295.6259426847,
      "deadline": 1793936626.4839664,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2029,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "coin",
+     "mint": "GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump",
+     "side": 1,
+     "opened": 1793930343.1672742,
+     "entry": 0.0001619,
+     "stop": 0.00012952000000000002,
+     "target": 0.00022666,
+     "size": 1235330.4508956145,
+     "deadline": 1793937543.1672745,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2029,
+ "next_id": 2030,
  "runs": 70,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 1793929779.7695205,
-  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793929779.7695205,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1793929779.7695205,
-  "seen:6Mt1oHb12F7JvJhFqcYERPJ3YqKgMGF9b8623uFYpump": 1793929779.7695205,
-  "seen:M1biEJsfuZBTmTjHRqziTASP51dUhjSHrB5rDjPpump": 1793929964.462212,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1793929964.462212,
-  "seen:QKpSShaTvqvZJGSoqr3CqgarMZij2EUEQawnidmpump": 1793929964.462212,
-  "seen:E1PpVMPtWPhPUKL7DbF6f2eAmuwo3CHBkKusKk54pump": 1793929964.462212,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793929964.462212,
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1793929964.462212,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793930141.9481697,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793930141.9481697,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1793930141.9481697,
-  "seen:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793930141.9481697,
-  "seen:9q17YrKCeBtSZ6qkBTmttyZnh5ZVEapF6TwTrtX2pump": 1793930326.3992355,
-  "seen:BQjiYCutv9LVtbgj7pKCN2Ce6k2eUM5RSKs6kDAzpump": 1793930326.3992355,
-  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1793930326.3992355,
-  "seen:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793930326.3992355,
-  "seen:BCxTfpfWmzfMKqUVAogUG37jdmrEkHtNv5d37bJrpump": 1793930326.3992355,
-  "control:BQjiYCutv9LVtbgj7pKCN2Ce6k2eUM5RSKs6kDAzpump": 1793930326.4839697,
   "seen:GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump": 1793930509.5635264,
   "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793930509.5635264,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793930509.5635264
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1793930509.5635264,
+  "seen:67REfENpdYCQk9F8N66rakxRx4WtS5DTUdnzW9fgg5Yo": 1793930692.1579854,
+  "seen:6Mt1oHb12F7JvJhFqcYERPJ3YqKgMGF9b8623uFYpump": 1793930692.1579854,
+  "seen:Hbpjmu51QXzwojmtvnzzFtwpgYdP8SUwxTTDACGxpump": 1793930692.1579854,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793930873.7843015,
+  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793930873.7843015,
+  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793931058.2020571,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793931058.2020571,
+  "seen:QKpSShaTvqvZJGSoqr3CqgarMZij2EUEQawnidmpump": 1793931058.2020571,
+  "seen:DWdBJoNezK9itTwmPDYrScYpBxvWySxeWWV8N9RcmdrT": 1793931058.2020571,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1793931058.2020571,
+  "seen:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793931243.0919867,
+  "seen:BQjiYCutv9LVtbgj7pKCN2Ce6k2eUM5RSKs6kDAzpump": 1793931243.0919867,
+  "seen:BCxTfpfWmzfMKqUVAogUG37jdmrEkHtNv5d37bJrpump": 1793931243.0919867,
+  "control:GdY4Z6pYUcr3HFrABV5FEZay3J4GnjN1Uzsw6Dvxpump": 1793931243.1672776
  },
  "talks": {
   "2026-10-21": 109
@@ -152,13 +131,13 @@
  ],
  "last_review": 1793898352.0549982,
  "news": {
-  "t": 1793929241.9561586,
+  "t": 1793930158.2102995,
   "crypto": [
    "Bitcoin developer proposes \u2018landmines\u2019 to make quantum thieves lose their own BTC (0h ago)",
-   "Core Scientific to quit Bitcoin mining by year-end as AI business surges (1h ago)",
+   "Core Scientific to quit Bitcoin mining by year-end as AI business surges (2h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "American Bitcoin\u2019s $126M profit masks mining pressure as rivals turn to AI (3h ago)",
-   "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express (3h ago)",
+   "Asian crypto exchanges batten down the hatches as hacks surge: Asia Express (4h ago)",
    "Crypto ally French Hill wins reelection but set to lose House chair (4h ago)",
    "Binance, Deribit revoke SignalPlus API keys after fake Teams invite attack (7h ago)",
    "U.S. Justice Department assembles force to shield against foreign AI threats (7h ago)",
@@ -167,9 +146,9 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Average Hourly Earnings m/m in 11.8h, forecast 0.3%, previous 0.1%",
-   "USD Non-Farm Employment Change in 11.8h, forecast 65K, previous 29K",
-   "USD Unemployment Rate in 11.8h, forecast 4.2%, previous 4.2%"
+   "USD Average Hourly Earnings m/m in 11.6h, forecast 0.3%, previous 0.1%",
+   "USD Non-Farm Employment Change in 11.6h, forecast 65K, previous 29K",
+   "USD Unemployment Rate in 11.6h, forecast 4.2%, previous 4.2%"
   ]
  },
  "spend": {
@@ -200,5 +179,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793928879.7772481
+ "last_macro_macro": 1793930158.2100964
 }
