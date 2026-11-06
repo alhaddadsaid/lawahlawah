@@ -36,26 +36,29 @@
      "size": 514668.03911477095,
      "deadline": 1793999366.3790264,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2129,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "LAURA",
+     "mint": "FugyvQb7hrg71eL8iWu6cpZvg9HyJBXN761dzxNFpump",
+     "side": 1,
+     "opened": 1793993987.8565109,
+     "entry": 8.036e-05,
+     "stop": 6.4288e-05,
+     "target": 0.00011250399999999999,
+     "size": 2488800.398208064,
+     "deadline": 1794001187.856511,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2129,
+ "next_id": 2130,
  "runs": 73,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Hbgvqrk9UJLQZQSsdxMugyTY8jTR5RBKWgaQNYkEpump": 1793993798.215336,
-  "seen:AZwkqWtPg485GAq2GYPob6yHVebicrRXmCZZ2gNpump": 1793993798.215336,
-  "seen:3rxXFMNgXgefmncUJnbmt9CWNyknbD6q7uZfZza3pump": 1793993798.215336,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793993798.215336,
-  "seen:mV9kZc5WEcsupy9KYZo1c7x52Ys1A5CDK73Ysg6pump": 1793993798.215336,
-  "seen:5VPSz1rbwyn9uAkpFpn1dLy6NDhe2DqMhB5o4JNDpump": 1793993980.0882466,
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793993980.0882466,
-  "seen:4QDPF5TtNAKtU5p5pvcq9h9b44nRSikRzNrKzsUfLoat": 1793993980.0882466,
-  "seen:FugyvQb7hrg71eL8iWu6cpZvg9HyJBXN761dzxNFpump": 1793993980.0882466,
-  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793994161.5652702,
-  "seen:85mEALGuRCMmmMo7YD51pMfEjWisbHHRwZX8t7Bpump": 1793994161.5652702,
-  "control:3rxXFMNgXgefmncUJnbmt9CWNyknbD6q7uZfZza3pump": 1793994161.6261318,
   "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793994342.1833348,
   "seen:69LjZUUzxj3Cb3Fxeo1X4QpYEQTboApkhXTysPpbpump": 1793994342.1833348,
   "seen:5v298tAgNiZQsMxEXG3jQ8hWjwYAZCH7X2Koqfv9pump": 1793994342.1833348,
@@ -63,7 +66,19 @@
   "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793994342.1833348,
   "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1793994523.7108147,
   "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793994523.7108147,
-  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793994523.7108147
+  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793994523.7108147,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793994707.0983794,
+  "seen:3rxXFMNgXgefmncUJnbmt9CWNyknbD6q7uZfZza3pump": 1793994707.0983794,
+  "seen:4QDPF5TtNAKtU5p5pvcq9h9b44nRSikRzNrKzsUfLoat": 1793994887.1434772,
+  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793994887.1434772,
+  "seen:FugyvQb7hrg71eL8iWu6cpZvg9HyJBXN761dzxNFpump": 1793994887.1434772,
+  "seen:HMYd9tosnUXuNHmq7pXmoePRVBLBBjA3JBfydq6upump": 1793994887.1434772,
+  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793994887.1434772,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1793994887.1434772,
+  "control:FugyvQb7hrg71eL8iWu6cpZvg9HyJBXN761dzxNFpump": 1793994887.856514,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793995068.5586925,
+  "seen:85mEALGuRCMmmMo7YD51pMfEjWisbHHRwZX8t7Bpump": 1793995068.5586925,
+  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793995068.5586925
  },
  "talks": {
   "2026-10-21": 109
@@ -104,7 +119,7 @@
  ],
  "last_review": 1793985795.032704,
  "news": {
-  "t": 1793993080.0965917,
+  "t": 1793993987.152029,
   "crypto": [
    "Russia finalizes crypto trading rules ahead of Nov. 17 rollout (1h ago)",
    "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders (1h ago)",
@@ -113,7 +128,7 @@
    "The crypto industry has found new ways to grow. Making money from them is another story (4h ago)",
    "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty (5h ago)",
    "What Democrats\u2019 US midterm sweep means for the CLARITY Act (5h ago)",
-   "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins (5h ago)",
+   "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins (6h ago)",
    "Here\u2019s what happened in crypto today (6h ago)",
    "U.S. added 165,000 jobs in October, blowing past 65,000 estimate (6h ago)"
   ],
