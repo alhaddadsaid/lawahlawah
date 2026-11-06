@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-06 21:28 UTC. Runs so far: 73. Model: claude-haiku-5-5.
+Updated 2026-11-06 21:44 UTC. Runs so far: 73. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2071 | 31 | -54356.14 | -74203.45 |
+| control | meme | 2072 | 31 | -54288.14 | -74147.45 |
 | control | macro | 45 | 47 | -2.88 | -226.41 |
-| control | all | 2116 | 31 | -54359.02 | -74429.86 |
+| control | all | 2117 | 31 | -54291.02 | -74373.86 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,8 +19,9 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: GOLD long at 4069.6, stop 4054.07, target 4092.89, opened 2026-11-06 17:23 UTC
 - control: Bubbles long at 0.0001308, stop 0.00010464, target 0.00018312, opened 2026-11-06 19:57 UTC
-- control: FUSE long at 0.0002121, stop 0.00016968, target 0.00029694, opened 2026-11-06 21:19 UTC
 - control: three long at 0.0005547, stop 0.00044376, target 0.00077658, opened 2026-11-06 21:28 UTC
+- control: SQRL long at 0.0002132, stop 0.00017056, target 0.00029848, opened 2026-11-06 21:37 UTC
+- control: FUSE long at 0.0002921, stop 0.00023368, target 0.00040894, opened 2026-11-06 21:44 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-06 21:28 UTC control: OPENED three long at 0.0005547 (stop 0.00044376, target 0.00077658) - control: frozen v3 rules
+- 2026-11-06 21:44 UTC control: OPENED FUSE long at 0.0002921 (stop 0.00023368, target 0.00040894) - control: frozen v3 rules
 
