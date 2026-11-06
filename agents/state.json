@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -44331.251360438255,
+   "cash": -44358.91898985018,
    "open": [
     {
      "id": 2110,
@@ -23,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 2126,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CAPY",
-     "mint": "DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr",
-     "side": 1,
-     "opened": 1793992166.3790262,
-     "entry": 0.0003886,
-     "stop": 0.0003108800000000001,
-     "target": 0.00054404,
-     "size": 514668.03911477095,
-     "deadline": 1793999366.3790264,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2131,
      "desk": "control",
      "market": "meme",
@@ -51,36 +36,6 @@
      "size": 1529051.987767584,
      "deadline": 1794002277.893282,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2136,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "FUSE",
-     "mint": "CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD",
-     "side": 1,
-     "opened": 1793998898.57772,
-     "entry": 0.0001376,
-     "stop": 0.00011008000000000002,
-     "target": 0.00019264,
-     "size": 1453488.372093023,
-     "deadline": 1794006098.57772,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2137,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GLITCHPEPE",
-     "mint": "Cy6F9HUKj29dTS9hUWopk2RkRLXRhcRaysrsQiXQpump",
-     "side": 1,
-     "opened": 1793999079.5561535,
-     "entry": 0.0003952,
-     "stop": 0.00031616,
-     "target": 0.00055328,
-     "size": 506072.8744939271,
-     "deadline": 1794006279.5561538,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,11 +44,6 @@
  "runs": 73,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793999251.119547,
-  "seen:8TYbrEjAYUk5J5kMZtzQpmDnSCmUoY1r7eCYuZXApump": 1793999435.4432168,
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793999435.4432168,
-  "seen:4QDPF5TtNAKtU5p5pvcq9h9b44nRSikRzNrKzsUfLoat": 1793999435.4432168,
-  "seen:HGHJCdysTaaYDJKwwQ3UmcodCw9xjpfFDvcShVVBpump": 1793999435.4432168,
   "seen:CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD": 1793999617.3170605,
   "seen:D9bzC1XvVERT47gampJS11rw5fCCoF3ftUfsUkLdpump": 1793999617.3170605,
   "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793999617.3170605,
@@ -108,7 +58,15 @@
   "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793999979.393304,
   "seen:5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump": 1793999979.393304,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793999979.393304,
-  "control:Cy6F9HUKj29dTS9hUWopk2RkRLXRhcRaysrsQiXQpump": 1793999979.556157
+  "control:Cy6F9HUKj29dTS9hUWopk2RkRLXRhcRaysrsQiXQpump": 1793999979.556157,
+  "seen:FTq73TCrVnuFSnRXZvQ8HvertNtLhTFkVn29Fwzzp2ap": 1794000163.1848779,
+  "seen:Tnq4TtgfHp8HBUdpgevxKRDaobS8sXJ8Df1CRUupump": 1794000163.1848779,
+  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1794000163.1848779,
+  "seen:5LYk5DBmPZAcpFCGVrxGf7RkpQmvAhJrgWATxEqvpump": 1794000344.0801432,
+  "seen:4VyS1DWXDEbu8jVyJUjqNJN3SXGgZYf2uo3YZ6QLpump": 1794000344.0801432,
+  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1794000344.0801432,
+  "seen:HGHJCdysTaaYDJKwwQ3UmcodCw9xjpfFDvcShVVBpump": 1794000344.0801432,
+  "seen:4QDPF5TtNAKtU5p5pvcq9h9b44nRSikRzNrKzsUfLoat": 1794000344.0801432
  },
  "talks": {
   "2026-10-21": 109
@@ -149,18 +107,18 @@
  ],
  "last_review": 1793985795.032704,
  "news": {
-  "t": 1793998535.4517841,
+  "t": 1793999444.088838,
   "crypto": [
-   "Binance hack is \u2018cyber war,\u2019 TRM Labs executive says (0h ago)",
+   "Gnosis Pay breach exposes card details, personal data and crypto wallet information (0h ago)",
+   "Binance hack is \u2018cyber war,\u2019 TRM Labs executive says (1h ago)",
    "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch (1h ago)",
    "US 401(k) proposal leaves door open to altcoins, but hurdles remain (1h ago)",
    "Russia finalizes crypto trading rules ahead of Nov. 17 rollout (2h ago)",
    "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders (3h ago)",
    "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound (3h ago)",
    "U.S. prediction markets regulator issues demand that clashes directly with courts (3h ago)",
-   "The crypto industry has found new ways to grow. Making money from them is another story (5h ago)",
-   "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty (6h ago)",
-   "What Democrats\u2019 US midterm sweep means for the CLARITY Act (6h ago)"
+   "The crypto industry has found new ways to grow. Making money from them is another story (6h ago)",
+   "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty (7h ago)"
   ],
   "macro": [],
   "calendar": []
