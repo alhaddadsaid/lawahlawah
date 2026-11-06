@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -44170.68082583613,
+   "cash": -44227.41925425378,
    "open": [
     {
      "id": 2110,
@@ -66,21 +66,6 @@
      "size": 1529051.987767584,
      "deadline": 1794002277.893282,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2132,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "LAURA",
-     "mint": "FugyvQb7hrg71eL8iWu6cpZvg9HyJBXN761dzxNFpump",
-     "side": 1,
-     "opened": 1793995259.1974304,
-     "entry": 5.574e-05,
-     "stop": 4.4592e-05,
-     "target": 7.8036e-05,
-     "size": 3588087.549336204,
-     "deadline": 1794002459.1974304,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,21 +74,6 @@
  "runs": 73,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Cy6F9HUKj29dTS9hUWopk2RkRLXRhcRaysrsQiXQpump": 1793995612.901621,
-  "seen:HrDmoHCFLrv7hSg7TjcKoFGSFpG8NF2P65Tvdj7ypump": 1793995612.901621,
-  "seen:4QDPF5TtNAKtU5p5pvcq9h9b44nRSikRzNrKzsUfLoat": 1793995795.7472951,
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793995795.7472951,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793995795.7472951,
-  "seen:GDst7T2Apk4qJsJf1qZG2ndE9HP1jruEPn5izqGwpump": 1793995795.7472951,
-  "control:GDst7T2Apk4qJsJf1qZG2ndE9HP1jruEPn5izqGwpump": 1793995796.4878125,
-  "seen:27MWeANM2Drh5uGs15ksmjSVSPjYP1wt1EzixP2nQQQW": 1793995977.7673385,
-  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793995977.7673385,
-  "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1793995977.7673385,
-  "seen:FugyvQb7hrg71eL8iWu6cpZvg9HyJBXN761dzxNFpump": 1793995977.7673385,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793995977.7673385,
-  "seen:85mEALGuRCMmmMo7YD51pMfEjWisbHHRwZX8t7Bpump": 1793995977.7673385,
-  "seen:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793995977.7673385,
-  "control:DNerJKigs1xZ5rCBDtU9a2ACxvskScMnSihWY9yYpump": 1793995977.893286,
   "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793996159.106918,
   "seen:AD2TBq5fP6mmGFnciRbofH93PJwkpd2mYTFBY3eRpump": 1793996159.106918,
   "seen:7zFXW5a3ySnfRXHuKX6sK9A9K5zQm35dA4JpwrdDpump": 1793996159.106918,
@@ -111,7 +81,17 @@
   "seen:BYifdTuFBiCWJ37tSUzPZZv4VvWJdrJYUJMZ4h942Ywb": 1793996340.2158816,
   "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793996340.2158816,
   "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1793996340.2158816,
-  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793996340.2158816
+  "seen:DBPTU2oKLDHXQjAEJ3rZi8bUGmt2uxUbipgg6xmXoMqr": 1793996340.2158816,
+  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1793996524.5061183,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1793996524.5061183,
+  "seen:ADJr5wxxQFG1VWwxFVXEHjoZkJAk56rDZXX1Jkuhpump": 1793996708.1311028,
+  "seen:4QDPF5TtNAKtU5p5pvcq9h9b44nRSikRzNrKzsUfLoat": 1793996708.1311028,
+  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793996708.1311028,
+  "seen:CAMJCW5oNwSKtVbaS3GSqjwZ75MXKmgYgs7Bemui4dVq": 1793996708.1311028,
+  "seen:6uyJRUZpMkcbJ1f2poYKMikF4nEQmMHCXuf3KEubpump": 1793996887.644174,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1793996887.644174,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793996887.644174,
+  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793996887.644174
  },
  "talks": {
   "2026-10-21": 109
@@ -152,18 +132,18 @@
  ],
  "last_review": 1793985795.032704,
  "news": {
-  "t": 1793994895.755761,
+  "t": 1793995808.1397402,
   "crypto": [
+   "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch (0h ago)",
    "Russia finalizes crypto trading rules ahead of Nov. 17 rollout (1h ago)",
    "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders (2h ago)",
    "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound (2h ago)",
    "U.S. prediction markets regulator issues demand that clashes directly with courts (2h ago)",
-   "The crypto industry has found new ways to grow. Making money from them is another story (4h ago)",
-   "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty (5h ago)",
-   "What Democrats\u2019 US midterm sweep means for the CLARITY Act (5h ago)",
+   "The crypto industry has found new ways to grow. Making money from them is another story (5h ago)",
+   "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty (6h ago)",
+   "What Democrats\u2019 US midterm sweep means for the CLARITY Act (6h ago)",
    "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins (6h ago)",
-   "Here\u2019s what happened in crypto today (6h ago)",
-   "U.S. added 165,000 jobs in October, blowing past 65,000 estimate (6h ago)"
+   "Here\u2019s what happened in crypto today (7h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -196,5 +176,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1793994712.909994
+ "last_macro_macro": 1793995987.6526766
 }
