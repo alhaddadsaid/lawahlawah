@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -43498.85340496412,
+   "cash": -43967.377151606706,
    "open": [
     {
      "id": 2110,
@@ -23,42 +23,47 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 2112,
+     "id": 2115,
      "desk": "control",
      "market": "meme",
-     "symbol": "PICASSO",
-     "mint": "Cgs33XVwju57dToPZSRxAiEMxj9qWGxR7CT8j44pump",
+     "symbol": "HODL",
+     "mint": "8csCzE6QWAjNRiVNNSSn7ifR2CZHFj3sWuTzGSDapump",
      "side": 1,
-     "opened": 1793986885.577705,
-     "entry": 0.0001249,
-     "stop": 9.992e-05,
-     "target": 0.00017486,
-     "size": 1601281.0248198558,
-     "deadline": 1793994085.5777051,
+     "opened": 1793987795.2140238,
+     "entry": 0.0001377,
+     "stop": 0.00011016000000000002,
+     "target": 0.00019278,
+     "size": 1452432.8249818445,
+     "deadline": 1793994995.2140243,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2114,
+ "next_id": 2117,
  "runs": 73,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FDzL4zJ3jNJ2rz4FsNUWTYTg6kNYssJXXvawTrFJpump": 1793987422.8046618,
-  "seen:4QDPF5TtNAKtU5p5pvcq9h9b44nRSikRzNrKzsUfLoat": 1793987603.9136934,
-  "seen:AgnsZbSP5MMiVCK8G2MJuxWEYV9X8PUUL1NtP6papump": 1793987603.9136934,
-  "seen:8csCzE6QWAjNRiVNNSSn7ifR2CZHFj3sWuTzGSDapump": 1793987603.9136934,
-  "seen:7zFXW5a3ySnfRXHuKX6sK9A9K5zQm35dA4JpwrdDpump": 1793987603.9136934,
-  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793987603.9136934,
-  "seen:8NfWsguFZMzemSL8XqhwovSYL8bNxWaksYPczbQXpump": 1793987603.9136934,
-  "seen:Cgs33XVwju57dToPZSRxAiEMxj9qWGxR7CT8j44pump": 1793987603.9136934,
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793987603.9136934,
-  "seen:4izrpFiuxGXv9vSGxX8RoWQUgXCFMwK5KmbaEhLspump": 1793987785.419289,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793987785.419289,
-  "control:Cgs33XVwju57dToPZSRxAiEMxj9qWGxR7CT8j44pump": 1793987785.5777082,
-  "seen:5nMbMFxkzCEUbStJQsjreiYco46bJWqzfer23Xwcpump": 1793987968.6532037,
-  "control:AgnsZbSP5MMiVCK8G2MJuxWEYV9X8PUUL1NtP6papump": 1793987968.9730086,
-  "seen:DKNGQFNGQmoBdXSRGKJ8tTu7uPDasw5JDcfMmWniNfow": 1793988150.7777355
+  "seen:DKNGQFNGQmoBdXSRGKJ8tTu7uPDasw5JDcfMmWniNfow": 1793988150.7777355,
+  "seen:FDzL4zJ3jNJ2rz4FsNUWTYTg6kNYssJXXvawTrFJpump": 1793988331.2537322,
+  "seen:4QDPF5TtNAKtU5p5pvcq9h9b44nRSikRzNrKzsUfLoat": 1793988513.259213,
+  "seen:8csCzE6QWAjNRiVNNSSn7ifR2CZHFj3sWuTzGSDapump": 1793988513.259213,
+  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1793988513.259213,
+  "seen:AgnsZbSP5MMiVCK8G2MJuxWEYV9X8PUUL1NtP6papump": 1793988513.259213,
+  "seen:Cgs33XVwju57dToPZSRxAiEMxj9qWGxR7CT8j44pump": 1793988513.259213,
+  "seen:7zFXW5a3ySnfRXHuKX6sK9A9K5zQm35dA4JpwrdDpump": 1793988513.259213,
+  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1793988513.259213,
+  "seen:FeMbDoX7R1Psc4GEcvJdsbNbZA3bfztcyDCatJVJpump": 1793988513.259213,
+  "control:4izrpFiuxGXv9vSGxX8RoWQUgXCFMwK5KmbaEhLspump": 1793988514.0251496,
+  "seen:4izrpFiuxGXv9vSGxX8RoWQUgXCFMwK5KmbaEhLspump": 1793988695.1504276,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1793988695.1504276,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1793988695.1504276,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1793988695.1504276,
+  "control:8csCzE6QWAjNRiVNNSSn7ifR2CZHFj3sWuTzGSDapump": 1793988695.2140267,
+  "seen:5nMbMFxkzCEUbStJQsjreiYco46bJWqzfer23Xwcpump": 1793988875.804345,
+  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1793988875.804345,
+  "seen:5aDjvdypu3N88vfC6ZN85CwjeR49N2Bcp7gL7C5Epump": 1793988875.804345,
+  "control:5nMbMFxkzCEUbStJQsjreiYco46bJWqzfer23Xwcpump": 1793988875.9194217
  },
  "talks": {
   "2026-10-21": 109
@@ -99,18 +104,18 @@
  ],
  "last_review": 1793985795.032704,
  "news": {
-  "t": 1793986703.9217849,
+  "t": 1793987613.2674148,
   "crypto": [
+   "U.S. prediction markets regulator issues demand that clashes directly with courts (0h ago)",
    "The crypto industry has found new ways to grow. Making money from them is another story (2h ago)",
    "Thailand moves to block Bitget as crypto exchange's local acquisition faces uncertainty (3h ago)",
    "What Democrats\u2019 US midterm sweep means for the CLARITY Act (3h ago)",
    "Nigeria sets new crypto licensing rules, bans algorithmic stablecoins (4h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
    "U.S. added 165,000 jobs in October, blowing past 65,000 estimate (4h ago)",
-   "Ethereum devs won\u2019t fork Glamsterdam on Hoodi until smart contract risks resolved (4h ago)",
+   "Ethereum devs won\u2019t fork Glamsterdam on Hoodi until smart contract risks resolved (5h ago)",
    "Over $1 billion in bullish bets liquidated while ETF flows suggest no help in spot market (5h ago)",
-   "Solana\u2019s Shanghai event halted over unauthorized promotion: Report (5h ago)",
-   "Live updates: Bitcoin holds in narrow range, stocks bounce after strong October jobs report (6h ago)"
+   "Solana\u2019s Shanghai event halted over unauthorized promotion: Report (6h ago)"
   ],
   "macro": [],
   "calendar": []
