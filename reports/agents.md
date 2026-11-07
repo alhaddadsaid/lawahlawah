@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-07 15:22 UTC. Runs so far: 76. Model: claude-haiku-5-5.
+Updated 2026-11-07 15:31 UTC. Runs so far: 76. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2147 | 31 | -56918.14 | -77479.23 |
+| control | meme | 2148 | 31 | -56985.41 | -77555.03 |
 | control | macro | 45 | 47 | -2.88 | -226.41 |
-| control | all | 2192 | 31 | -56921.02 | -77705.64 |
+| control | all | 2193 | 31 | -56988.29 | -77781.44 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,8 +20,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: GOLD long at 4069.6, stop 4054.07, target 4092.89, opened 2026-11-06 17:23 UTC
 - control: ARNOLD long at 0.000179, stop 0.0001432, target 0.0002506, opened 2026-11-07 13:32 UTC
 - control: SLOPCORE long at 0.0002573, stop 0.00020584, target 0.00036022, opened 2026-11-07 14:03 UTC
-- control: debtdog long at 8.805e-05, stop 7.044e-05, target 0.00012327, opened 2026-11-07 15:19 UTC
 - control: TRK long at 0.0001658, stop 0.00013264, target 0.00023212, opened 2026-11-07 15:22 UTC
+- control: FUSE long at 0.0002915, stop 0.0002332, target 0.0004081, opened 2026-11-07 15:28 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-07 15:22 UTC control: OPENED TRK long at 0.0001658 (stop 0.00013264, target 0.00023212) - control: frozen v3 rules
+- control: order debtdog REJECTED by guardrails: desk already has the maximum open positions
 
