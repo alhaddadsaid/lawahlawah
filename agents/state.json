@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -48849.481373429684,
+   "cash": -48898.97103369556,
    "open": [
-    {
-     "id": 2258,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Percolator",
-     "mint": "8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump",
-     "side": 1,
-     "opened": 1794086822.3518567,
-     "entry": 0.000677,
-     "stop": 0.0005416,
-     "target": 0.0009477999999999999,
-     "size": 295420.9748892171,
-     "deadline": 1794094022.3518572,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2268,
      "desk": "control",
@@ -36,34 +21,63 @@
      "size": 1121704.9915872125,
      "deadline": 1794098083.364095,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2269,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "TAOLF",
+     "mint": "3hWkYmr81vZbyVnTPzcSjSNxxZuSmSdrQUohx86Rrxqf",
+     "side": 1,
+     "opened": 1794091434.879897,
+     "entry": 0.0005038,
+     "stop": 0.00040304,
+     "target": 0.00070532,
+     "size": 396982.9297340214,
+     "deadline": 1794098634.8798974,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2270,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Percolator",
+     "mint": "8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump",
+     "side": 1,
+     "opened": 1794091801.2400823,
+     "entry": 0.000645,
+     "stop": 0.000516,
+     "target": 0.0009029999999999998,
+     "size": 310077.519379845,
+     "deadline": 1794099001.2400825,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2269,
+ "next_id": 2271,
  "runs": 78,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:61Zymfc5PMYNhWpZLKc9wLeYMmCHFushQB9PEMp9pump": 1794091232.4686444,
-  "seen:KpZoY9PAidzU3hFPrrcjZPFU9CQ3SLW5bjbEVTRpump": 1794091232.4686444,
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794091232.4686444,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794091415.8129263,
-  "seen:Ddg7ng6T5Bxo4kLbekNDC4NVcLHr9eFYEPHMqkrpump": 1794091415.8129263,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794091415.8129263,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794091415.8129263,
-  "seen:6B9i3svQSTDqucmMFqTjK8DLbttyfi9MQLk8hPNtpump": 1794091415.8129263,
-  "seen:F8kxsxFZzjpDfcckNefJ7qaiwho5wjJQPXamRyQgpump": 1794091600.2077482,
-  "seen:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1794091600.2077482,
-  "seen:o3oV5FTEqFhpJuRFhTBZbSyXFnXFoaqEz1yPBJqpump": 1794091600.2077482,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794091783.296266,
-  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794091783.296266,
-  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794091783.296266,
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794091783.296266,
-  "seen:CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD": 1794091783.296266,
-  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794091783.296266,
-  "control:CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD": 1794091783.3640974,
   "seen:3hWkYmr81vZbyVnTPzcSjSNxxZuSmSdrQUohx86Rrxqf": 1794091966.7671008,
-  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794091966.7671008
+  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794091966.7671008,
+  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794092151.190957,
+  "seen:5gzQya4V9iporEf4vafGMw2TjejxLWDAC44odWcxpump": 1794092334.8214786,
+  "seen:6B9i3svQSTDqucmMFqTjK8DLbttyfi9MQLk8hPNtpump": 1794092334.8214786,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794092334.8214786,
+  "seen:HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump": 1794092334.8214786,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794092334.8214786,
+  "control:3hWkYmr81vZbyVnTPzcSjSNxxZuSmSdrQUohx86Rrxqf": 1794092334.879899,
+  "seen:471iQyZ9AU4Ggypdtkuwp2YaMamQTPwuh7ujuZtfLoat": 1794092517.7355182,
+  "seen:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1794092517.7355182,
+  "seen:KpZoY9PAidzU3hFPrrcjZPFU9CQ3SLW5bjbEVTRpump": 1794092517.7355182,
+  "seen:8fV1ZSrozRPdfPqNSouVNg9uudWYVBw8GZNjtisnpump": 1794092701.1625714,
+  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794092701.1625714,
+  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794092701.1625714,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794092701.1625714,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794092701.1625714,
+  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794092701.1625714,
+  "control:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1794092701.2400858
  },
  "talks": {
   "2026-10-21": 109
@@ -104,7 +118,7 @@
  ],
  "last_review": 1794072362.9201233,
  "news": {
-  "t": 1794090332.475662,
+  "t": 1794091251.1972075,
   "crypto": [
    "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (3h ago)",
    "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (5h ago)",
@@ -112,10 +126,10 @@
    "Here\u2019s what happened in crypto today (8h ago)",
    "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (8h ago)",
    "Bitcoin holders have received eCash \u2014 What can you do with it? (9h ago)",
-   "US sanctions Canadian money-exchange firms over Iran ties (11h ago)",
-   "Suspicious prediction market activity seen before election poll release: NYT (13h ago)",
+   "US sanctions Canadian money-exchange firms over Iran ties (12h ago)",
+   "Suspicious prediction market activity seen before election poll release: NYT (14h ago)",
    "Nvidia may face a more hostile post-election Washington: Report (15h ago)",
-   "US Treasury cuts off MEXC over alleged $16B in illicit transactions (25h ago)"
+   "US Treasury cuts off MEXC over alleged $16B in illicit transactions (26h ago)"
   ],
   "macro": [],
   "calendar": []
