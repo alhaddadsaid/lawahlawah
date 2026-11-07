@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-07 13:23 UTC. Runs so far: 76. Model: claude-haiku-5-5.
+Updated 2026-11-07 13:40 UTC. Runs so far: 76. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2135 | 31 | -56648.75 | -77093.68 |
+| control | meme | 2137 | 31 | -56635.54 | -77101.32 |
 | control | macro | 45 | 47 | -2.88 | -226.41 |
-| control | all | 2180 | 31 | -56651.63 | -77320.09 |
+| control | all | 2182 | 31 | -56638.42 | -77327.73 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GOLD long at 4069.6, stop 4054.07, target 4092.89, opened 2026-11-06 17:23 UTC
-- control: SLINGFOLIO long at 7.881e-05, stop 6.3048e-05, target 0.000110334, opened 2026-11-07 12:10 UTC
 - control: Diamond long at 0.0002602, stop 0.00020816, target 0.00036428, opened 2026-11-07 12:35 UTC
-- control: duge long at 0.0001811, stop 0.00014488, target 0.00025354, opened 2026-11-07 13:17 UTC
+- control: ARNOLD long at 0.000179, stop 0.0001432, target 0.0002506, opened 2026-11-07 13:32 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order Diamond REJECTED by guardrails: Diamond already open
+- control: CLOSED duge (stop) P&L $-54.79 normal, $-63.64 pessimistic
 
