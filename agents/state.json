@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -46816.301980338256,
+   "cash": -46748.301980338256,
    "open": [
     {
      "id": 2110,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2208,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "debtdog",
-     "mint": "4gyubJ7sqYDySUDmVFEfSdvvC43F1eWLUXgEHDDWpump",
-     "side": 1,
-     "opened": 1794061290.0373795,
-     "entry": 9.678e-05,
-     "stop": 7.742400000000001e-05,
-     "target": 0.000135492,
-     "size": 2066542.6741062202,
-     "deadline": 1794068490.0373797,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2210,
      "desk": "control",
      "market": "meme",
@@ -89,17 +74,6 @@
  "runs": 76,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:tH8k9UDjoYgVeYJfhzbFC8Bj29jedpoKDVx78h4pump": 1794062555.5630438,
-  "seen:EphCWcWcVcG7fjtGhvk2UjCUqhRcRfpuTbCyn5xoBAGS": 1794062555.5630438,
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1794062555.5630438,
-  "seen:AWyXpCtfWUHgECfEBkmAPinaz7KWMv3rqQMpFW8Zpump": 1794062737.3161817,
-  "seen:DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": 1794062737.3161817,
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794062737.3161817,
-  "seen:6JmDY4eYXiBJhKFjLhM2oG95UiwkEoAN2daqq6tUpump": 1794062737.3161817,
-  "seen:9VwskTvuCwvKKgQkbxPwiRfM1X1LpSecWDL1HVzpump": 1794062737.3161817,
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794062921.0090373,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1794062921.0090373,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794062921.0090373,
   "seen:6dRcA4MBdxHFwRbARnwwAu3Y8eek6GzfyWEHgy3pump": 1794063102.8901484,
   "control:CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD": 1794063102.917656,
   "seen:FkCsLU7TVDFBex8oubEau2iq1wdLQiagjdBMqv8jpump": 1794063285.334419,
@@ -109,7 +83,20 @@
   "seen:4gyubJ7sqYDySUDmVFEfSdvvC43F1eWLUXgEHDDWpump": 1794063285.334419,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794063285.334419,
   "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794063285.334419,
-  "control:iW4XP2BWd3iqf1LMZvpsKidb49wVAh3S8SfNUsDpump": 1794063285.3629968
+  "control:iW4XP2BWd3iqf1LMZvpsKidb49wVAh3S8SfNUsDpump": 1794063285.3629968,
+  "seen:8SHhQMWkwRjYajUacKCXcaRNhGtcYCfkyPXSNgwWaaUx": 1794063468.7909508,
+  "seen:wMHBD2B8KbDagvXUEapginhtJdrH4QSvSezBM8Tpump": 1794063468.7909508,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1794063468.7909508,
+  "seen:ABNB56TteaTZG1S3DY2W8VMncQmHMvNCGaZgAba49CLP": 1794063650.8970947,
+  "seen:tH8k9UDjoYgVeYJfhzbFC8Bj29jedpoKDVx78h4pump": 1794063650.8970947,
+  "seen:AWyXpCtfWUHgECfEBkmAPinaz7KWMv3rqQMpFW8Zpump": 1794063650.8970947,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1794063650.8970947,
+  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794063650.8970947,
+  "seen:DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": 1794063650.8970947,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794063833.1639538,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794063833.1639538,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794063833.1639538,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1794063833.1639538
  },
  "talks": {
   "2026-10-21": 109
@@ -150,18 +137,18 @@
  ],
  "last_review": 1793985795.032704,
  "news": {
-  "t": 1794061837.3265116,
+  "t": 1794062750.9074242,
   "crypto": [
+   "Here\u2019s what happened in crypto today (0h ago)",
    "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (0h ago)",
    "Bitcoin holders have received eCash \u2014 What can you do with it? (1h ago)",
-   "US sanctions Canadian money-exchange firms over Iran ties (3h ago)",
-   "Suspicious prediction market activity seen before election poll release: NYT (5h ago)",
+   "US sanctions Canadian money-exchange firms over Iran ties (4h ago)",
+   "Suspicious prediction market activity seen before election poll release: NYT (6h ago)",
    "Nvidia may face a more hostile post-election Washington: Report (7h ago)",
-   "Here\u2019s what happened in crypto today (17h ago)",
-   "US Treasury cuts off MEXC over alleged $16B in illicit transactions (17h ago)",
+   "US Treasury cuts off MEXC over alleged $16B in illicit transactions (18h ago)",
    "Gnosis Pay breach exposes card details, personal data and crypto wallet information (18h ago)",
    "Binance hack is \u2018cyber war,\u2019 TRM Labs executive says (18h ago)",
-   "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch (18h ago)"
+   "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch (19h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -194,5 +181,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794061289.7416446
+ "last_macro_macro": 1794062568.801279
 }
