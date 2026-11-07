@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-07 18:54 UTC. Runs so far: 77. Model: claude-haiku-5-5.
+Updated 2026-11-07 19:06 UTC. Runs so far: 77. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2176 | 30 | -58146.88 | -78973.9 |
+| control | meme | 2177 | 30 | -58207.71 | -79043.42 |
 | control | macro | 46 | 48 | 28.03 | -198.72 |
-| control | all | 2222 | 31 | -58118.85 | -79172.62 |
+| control | all | 2223 | 31 | -58179.68 | -79242.14 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,8 +20,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: ALON long at 0.002505, stop 0.002004, target 0.003507, opened 2026-11-07 17:07 UTC
 - control: SI276 long at 0.0002621, stop 0.00020968, target 0.00036694, opened 2026-11-07 18:23 UTC
 - control: coin long at 0.000122, stop 9.76e-05, target 0.0001708, opened 2026-11-07 18:48 UTC
-- control: FUSE long at 0.000244, stop 0.0001952, target 0.0003416, opened 2026-11-07 18:51 UTC
 - control: PIRATE long at 0.0005711, stop 0.00045688, target 0.00079954, opened 2026-11-07 18:54 UTC
+- control: FUSE long at 0.0001943, stop 0.00015544, target 0.00027202, opened 2026-11-07 19:06 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-07 18:54 UTC control: OPENED PIRATE long at 0.0005711 (stop 0.00045688, target 0.00079954) - control: frozen v3 rules
+- 2026-11-07 19:06 UTC control: OPENED FUSE long at 0.0001943 (stop 0.00015544, target 0.00027202) - control: frozen v3 rules
 
