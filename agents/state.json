@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -44801.02061031126,
+   "cash": -44906.38099266347,
    "open": [
     {
      "id": 2110,
@@ -21,36 +21,6 @@
      "size": 6.439752534900094,
      "deadline": 1794072196.4922183,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 2153,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "FUSE",
-     "mint": "CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD",
-     "side": 1,
-     "opened": 1794013851.2416558,
-     "entry": 0.0002948,
-     "stop": 0.00023584000000000002,
-     "target": 0.00041271999999999994,
-     "size": 678426.0515603799,
-     "deadline": 1794021051.241656,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2156,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HATCH",
-     "mint": "46r5vJSK4vZWvU4roBXoQYoBZE8d4nmN3b6wRa6Gpump",
-     "side": 1,
-     "opened": 1794016027.7374897,
-     "entry": 6.356e-05,
-     "stop": 5.0848e-05,
-     "target": 8.898399999999999e-05,
-     "size": 3146633.1025802395,
-     "deadline": 1794023227.73749,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -59,29 +29,28 @@
  "runs": 74,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FzmSx4UuG8Jhsrxvyt1xNtk6qFxo7KY4zGwPifKZpump": 1794016742.1099565,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794016742.1099565,
-  "seen:5pdu9jrUf9ryLzCsv3S92ikoBiK3n2zA9tMN9Rr7pump": 1794016742.1099565,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794016742.1099565,
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1794016927.128889,
-  "seen:DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": 1794016927.128889,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794016927.128889,
-  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794016927.128889,
-  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1794016927.128889,
-  "seen:46r5vJSK4vZWvU4roBXoQYoBZE8d4nmN3b6wRa6Gpump": 1794016927.128889,
-  "control:46r5vJSK4vZWvU4roBXoQYoBZE8d4nmN3b6wRa6Gpump": 1794016927.737493,
-  "seen:ZFtb1eDmcDmkWtmyqSjVQDfGS7tdshyzzuJoTeEpump": 1794017107.425005,
-  "seen:Ey4YG29k4hQmTPfRr3aRrpzSx8THEeSWbgCo2yWypump": 1794017288.4476116,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794017288.4476116,
   "seen:CFYhdWXsYfS7swnJgHRwb5toTHMEQD7Ljd5gGwKLpump": 1794017473.340659,
   "seen:H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": 1794017473.340659,
-  "seen:CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD": 1794017473.340659
+  "seen:CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD": 1794017473.340659,
+  "seen:41WpXn15fxQXEGhiKnkqHcoJn14tNXXgmymLKE57pump": 1794017653.373145,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794017653.373145,
+  "seen:Ecxn2QcULfzvWwHyfXMganiR2wMUj5RT3bPGDhW8pump": 1794017653.373145,
+  "seen:5pdu9jrUf9ryLzCsv3S92ikoBiK3n2zA9tMN9Rr7pump": 1794017653.373145,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794017834.4162905,
+  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794017834.4162905,
+  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1794017834.4162905,
+  "seen:DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": 1794017834.4162905,
+  "seen:FzmSx4UuG8Jhsrxvyt1xNtk6qFxo7KY4zGwPifKZpump": 1794017834.4162905,
+  "seen:ZFtb1eDmcDmkWtmyqSjVQDfGS7tdshyzzuJoTeEpump": 1794018019.548537,
+  "seen:CXRT8bpLxm2aeJ1FteTCKESm8nseeZ1b36S3f4CYpump": 1794018019.548537,
+  "seen:Ey4YG29k4hQmTPfRr3aRrpzSx8THEeSWbgCo2yWypump": 1794018204.024348,
+  "seen:7tAjeX7mNQg2jsJkDH1ePwVNBG5J9xKoys2CMZdfpump": 1794018204.024348
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498336,
+ "ctrl_macro_hour": 498338,
  "team": [
   {
    "name": "Lead",
@@ -116,7 +85,7 @@
  ],
  "last_review": 1793985795.032704,
  "news": {
-  "t": 1794016027.1373966,
+  "t": 1794016934.424953,
   "crypto": [
    "Here\u2019s what happened in crypto today (4h ago)",
    "US Treasury cuts off MEXC over alleged $16B in illicit transactions (5h ago)",
@@ -125,7 +94,7 @@
    "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch (6h ago)",
    "US 401(k) proposal leaves door open to altcoins, but hurdles remain (6h ago)",
    "Russia finalizes crypto trading rules ahead of Nov. 17 rollout (7h ago)",
-   "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders (7h ago)",
+   "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders (8h ago)",
    "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound (8h ago)",
    "U.S. prediction markets regulator issues demand that clashes directly with courts (8h ago)"
   ],
