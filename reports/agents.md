@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-07 17:32 UTC. Runs so far: 77. Model: claude-haiku-5-5.
+Updated 2026-11-07 17:44 UTC. Runs so far: 77. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2164 | 30 | -57428.05 | -78150.42 |
+| control | meme | 2166 | 30 | -57532.55 | -78272.76 |
 | control | macro | 46 | 48 | 28.03 | -198.72 |
-| control | all | 2210 | 31 | -57400.02 | -78349.14 |
+| control | all | 2212 | 31 | -57504.52 | -78471.48 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,9 +19,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: ALON long at 0.002505, stop 0.002004, target 0.003507, opened 2026-11-07 17:07 UTC
 - control: Diamond long at 0.000194, stop 0.0001552, target 0.0002716, opened 2026-11-07 17:19 UTC
-- control: Elysion Pad long at 0.0001472, stop 0.00011776, target 0.00020608, opened 2026-11-07 17:23 UTC
-- control: duge long at 7.93e-05, stop 6.344e-05, target 0.00011102, opened 2026-11-07 17:26 UTC
 - control: shit long at 6.677e-05, stop 5.3416e-05, target 9.3478e-05, opened 2026-11-07 17:29 UTC
+- control: coin long at 0.0001779, stop 0.00014232, target 0.00024906, opened 2026-11-07 17:44 UTC
 
 ## Team
 
@@ -34,6 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
-- control: order piLL REJECTED by guardrails: desk already has the maximum open positions
+- 2026-11-07 17:44 UTC control: OPENED coin long at 0.0001779 (stop 0.00014232, target 0.00024906) - control: frozen v3 rules
 
