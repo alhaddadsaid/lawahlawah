@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -48536.25231985883,
+   "cash": -48596.44249711141,
    "open": [
     {
      "id": 2251,
@@ -20,21 +20,6 @@
      "target": 0.0005045599999999999,
      "size": 554938.9567147614,
      "deadline": 1794088525.630048,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2253,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Whitehouse",
-     "mint": "5UWfbqWEcLqDSrA2SwNXQpvbqEhZ2kPyh3LaPEmzpump",
-     "side": 1,
-     "opened": 1794082241.6940126,
-     "entry": 8.124e-05,
-     "stop": 6.4992e-05,
-     "target": 0.000113736,
-     "size": 2461841.4574101428,
-     "deadline": 1794089441.6940129,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -59,31 +44,29 @@
  "runs": 77,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:B85CZwwGQN7HpKduxYGyP1B6Wq3U58m94oQ3poWGpump": 1794084608.6851773,
-  "seen:5UWfbqWEcLqDSrA2SwNXQpvbqEhZ2kPyh3LaPEmzpump": 1794084608.6851773,
-  "seen:HtJFf3LNShtrakBsUX8UaThGCBuir6VcUB3sQ9m8pump": 1794084608.6851773,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794084608.6851773,
-  "seen:DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": 1794084792.0090473,
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794084792.0090473,
-  "seen:CASHx9KJUStyftLFWGvEVf59SGeG9sh5FfcnZMVPCASH": 1794084792.0090473,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794084792.0090473,
-  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794084972.358069,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794084972.358069,
-  "seen:HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": 1794084972.358069,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794084972.358069,
-  "seen:FCZoR7cQiT3JPACjr3b4GJ5QNVeHaJeqsZSAGYmHBAGS": 1794085155.370713,
-  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794085155.370713,
-  "seen:5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat": 1794085339.1873424,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794085339.1873424,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794085339.1873424,
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794085339.1873424,
-  "control:5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat": 1794085339.24181
+  "seen:AFfoew4h79qV3HSdCA19LQM6CimNpznBaY7jjpuXpump": 1794085886.74284,
+  "seen:HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": 1794085886.74284,
+  "seen:9wzpthiKV8iUMu1JfDramHtRJxaMBwnMXgS4WvWepump": 1794085886.74284,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794085886.74284,
+  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794086070.34052,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1794086070.34052,
+  "seen:BwJeGVxAEBj6csfrfvXpPKsFp3sGoRpQJ45MQH35pump": 1794086070.34052,
+  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794086070.34052,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794086253.5048606,
+  "seen:5NRzuqfyd4r7dHHKDpMY9HdGM2BMgSQhcZAbXTcfLoat": 1794086253.5048606,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794086253.5048606,
+  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794086253.5048606,
+  "seen:3hWkYmr81vZbyVnTPzcSjSNxxZuSmSdrQUohx86Rrxqf": 1794086437.280422,
+  "seen:6NeJZtxtRU6PpobjfkB1QHUMUt6gfVSL6ia9kgafLoat": 1794086437.280422,
+  "seen:DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": 1794086621.293041,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794086621.293041,
+  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1794086621.293041
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498355,
+ "ctrl_macro_hour": 498357,
  "team": [
   {
    "name": "Lead",
@@ -118,16 +101,16 @@
  ],
  "last_review": 1794072362.9201233,
  "news": {
-  "t": 1794083892.0198448,
+  "t": 1794085721.3038945,
   "crypto": [
-   "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (1h ago)",
-   "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (3h ago)",
+   "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (2h ago)",
+   "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (4h ago)",
    "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets (4h ago)",
-   "Here\u2019s what happened in crypto today (6h ago)",
-   "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (6h ago)",
-   "Bitcoin holders have received eCash \u2014 What can you do with it? (7h ago)",
-   "US sanctions Canadian money-exchange firms over Iran ties (9h ago)",
-   "Suspicious prediction market activity seen before election poll release: NYT (11h ago)",
+   "Here\u2019s what happened in crypto today (7h ago)",
+   "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (7h ago)",
+   "Bitcoin holders have received eCash \u2014 What can you do with it? (8h ago)",
+   "US sanctions Canadian money-exchange firms over Iran ties (10h ago)",
+   "Suspicious prediction market activity seen before election poll release: NYT (12h ago)",
    "Nvidia may face a more hostile post-election Washington: Report (13h ago)",
    "US Treasury cuts off MEXC over alleged $16B in illicit transactions (24h ago)"
   ],
@@ -162,5 +145,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794084255.3814738
+ "last_macro_macro": 1794085537.2913015
 }
