@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -46352.429422730056,
+   "cash": -46603.51378746105,
    "open": [
     {
      "id": 2110,
@@ -51,38 +51,14 @@
      "size": 2823662.2899901173,
      "deadline": 1794052402.5680053,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2195,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PODS",
-     "mint": "LTE6P1KHQVgkzrmvTrApwfx6nsDX8T9JEVNSLNrpump",
-     "side": 1,
-     "opened": 1794046481.0271826,
-     "entry": 0.0002219,
-     "stop": 0.00017752,
-     "target": 0.00031065999999999993,
-     "size": 901306.8949977467,
-     "deadline": 1794053681.0271828,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2196,
+ "next_id": 2197,
  "runs": 75,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794047019.6579392,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1794047019.6579392,
-  "seen:5VCEFq1aATjga39QtDunYjJqYBx67w8V8TXwHrqopump": 1794047019.6579392,
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1794047019.6579392,
-  "seen:LTE6P1KHQVgkzrmvTrApwfx6nsDX8T9JEVNSLNrpump": 1794047200.7659285,
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1794047200.7659285,
-  "seen:DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": 1794047200.7659285,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794047200.7659285,
-  "seen:GoqdpMVvqawNUvdfTmqXvvoSaDRrqDQexzG7wzf2pump": 1794047200.7659285,
   "seen:Bxw3zJMXDhm7VLNLMsFTuG5Csh5qGFruUvRH5C6ypump": 1794047380.9877236,
   "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794047380.9877236,
   "control:LTE6P1KHQVgkzrmvTrApwfx6nsDX8T9JEVNSLNrpump": 1794047381.0271852,
@@ -90,7 +66,19 @@
   "seen:euro5sNHrZC2wu2RoLvy6xxoVMc3Qnd1vjxoWf4MftA": 1794047569.0387812,
   "seen:FFgnd8bifG8zGBE7dij7g3HWp4gveJS4gDyjdk5epump": 1794047569.0387812,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794047569.0387812,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794047569.0387812
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794047569.0387812,
+  "seen:AVBN6kXdaw27ySuvMevKYzNTL8d39b7sGQFDCmsvpump": 1794047753.3720481,
+  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794047936.098918,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1794047936.098918,
+  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1794047936.098918,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1794047936.098918,
+  "seen:CXRT8bpLxm2aeJ1FteTCKESm8nseeZ1b36S3f4CYpump": 1794047936.098918,
+  "control:Bxw3zJMXDhm7VLNLMsFTuG5Csh5qGFruUvRH5C6ypump": 1794047936.1466675,
+  "seen:LTE6P1KHQVgkzrmvTrApwfx6nsDX8T9JEVNSLNrpump": 1794048117.419905,
+  "seen:H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": 1794048117.419905,
+  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1794048117.419905,
+  "seen:DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": 1794048117.419905,
+  "seen:GoqdpMVvqawNUvdfTmqXvvoSaDRrqDQexzG7wzf2pump": 1794048117.419905
  },
  "talks": {
   "2026-10-21": 109
@@ -131,17 +119,17 @@
  ],
  "last_review": 1793985795.032704,
  "news": {
-  "t": 1794046300.7747786,
+  "t": 1794047217.4289677,
   "crypto": [
    "Suspicious prediction market activity seen before election poll release: NYT (1h ago)",
-   "Nvidia may face a more hostile post-election Washington: Report (2h ago)",
+   "Nvidia may face a more hostile post-election Washington: Report (3h ago)",
    "Here\u2019s what happened in crypto today (12h ago)",
    "US Treasury cuts off MEXC over alleged $16B in illicit transactions (13h ago)",
-   "Gnosis Pay breach exposes card details, personal data and crypto wallet information (13h ago)",
+   "Gnosis Pay breach exposes card details, personal data and crypto wallet information (14h ago)",
    "Binance hack is \u2018cyber war,\u2019 TRM Labs executive says (14h ago)",
    "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch (14h ago)",
    "US 401(k) proposal leaves door open to altcoins, but hurdles remain (14h ago)",
-   "Russia finalizes crypto trading rules ahead of Nov. 17 rollout (15h ago)",
+   "Russia finalizes crypto trading rules ahead of Nov. 17 rollout (16h ago)",
    "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders (16h ago)"
   ],
   "macro": [],
@@ -175,5 +163,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794045935.5143867
+ "last_macro_macro": 1794047217.428851
 }
