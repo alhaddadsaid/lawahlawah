@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-07 18:14 UTC. Runs so far: 77. Model: claude-haiku-5-5.
+Updated 2026-11-07 18:23 UTC. Runs so far: 77. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2170 | 30 | -57657.26 | -78435.31 |
+| control | meme | 2171 | 30 | -57857.79 | -78640.95 |
 | control | macro | 46 | 48 | 28.03 | -198.72 |
-| control | all | 2216 | 31 | -57629.23 | -78634.03 |
+| control | all | 2217 | 31 | -57829.76 | -78839.67 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: Diamond long at 0.000194, stop 0.0001552, target 0.0002716, opened 2026-11-07 17:19 UTC
 - control: Elysion Pad long at 0.0001239, stop 9.912e-05, target 0.00017346, opened 2026-11-07 17:47 UTC
 - control: coin long at 0.0001552, stop 0.00012416, target 0.00021728, opened 2026-11-07 18:02 UTC
-- control: LUCIA long at 0.0001239, stop 9.912e-05, target 0.00017346, opened 2026-11-07 18:14 UTC
+- control: SI276 long at 0.0002621, stop 0.00020968, target 0.00036694, opened 2026-11-07 18:23 UTC
 
 ## Team
 
@@ -34,6 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
-- 2026-11-07 18:14 UTC control: OPENED LUCIA long at 0.0001239 (stop 9.912e-05, target 0.00017346) - control: frozen v3 rules
+- 2026-11-07 18:23 UTC control: OPENED SI276 long at 0.0002621 (stop 0.00020968, target 0.00036694) - control: frozen v3 rules
 
