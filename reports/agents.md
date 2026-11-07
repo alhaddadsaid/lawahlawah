@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-07 05:27 UTC. Runs so far: 75. Model: claude-haiku-5-5.
+Updated 2026-11-07 05:43 UTC. Runs so far: 75. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2104 | 31 | -54980.5 | -75150.26 |
+| control | meme | 2105 | 31 | -55032.47 | -75211.15 |
 | control | macro | 45 | 47 | -2.88 | -226.41 |
-| control | all | 2149 | 31 | -54983.38 | -75376.67 |
+| control | all | 2150 | 31 | -55035.35 | -75437.56 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GOLD long at 4069.6, stop 4054.07, target 4092.89, opened 2026-11-06 17:23 UTC
-- control: GabeHorn long at 6.821e-05, stop 5.4568e-05, target 9.5494e-05, opened 2026-11-07 05:15 UTC
 - control: SLOPCORE long at 0.0002177, stop 0.00017416, target 0.00030478, opened 2026-11-07 05:18 UTC
 - control: Twizter long at 0.0001114, stop 8.912e-05, target 0.00015596, opened 2026-11-07 05:24 UTC
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED PIRATE (time) P&L $-30.3 normal, $-39.78 pessimistic
+- control: CLOSED GabeHorn (stop) P&L $-51.97 normal, $-60.89 pessimistic
 
