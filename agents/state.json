@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -45255.19275344746,
+   "cash": -45456.82178570553,
    "open": [
     {
      "id": 2110,
@@ -51,21 +51,6 @@
      "size": 1803426.5103697025,
      "deadline": 1794040690.8906045,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2181,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Twizter",
-     "mint": "Fmu6ykGrbaBRsDHn4NZZYgsAwLnXTkjqWyMbn3XBpump",
-     "side": 1,
-     "opened": 1794033674.1223884,
-     "entry": 0.0001209,
-     "stop": 9.672000000000001e-05,
-     "target": 0.00016926,
-     "size": 1654259.718775848,
-     "deadline": 1794040874.1223884,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,24 +59,25 @@
  "runs": 75,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794033838.4447346,
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794033838.4447346,
-  "seen:H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": 1794033838.4447346,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794033838.4447346,
-  "seen:2SquPKDVfGw9rBFBBZjJ2QPzSaDYjfwBY72FGBHZpump": 1794034021.4887967,
-  "seen:Fmu6ykGrbaBRsDHn4NZZYgsAwLnXTkjqWyMbn3XBpump": 1794034021.4887967,
-  "seen:8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump": 1794034021.4887967,
-  "seen:ExCVDaYqPLkjiAMzbo9SyCuf41TNz1Esw4oZM2CYTL2Z": 1794034206.4328454,
-  "seen:Cp1qJ5CMyJCPakpSNJ9C7sbSMMENzeLidtamFk5gpump": 1794034206.4328454,
-  "control:3J9aZ8aJq8c5Xz7DmBHGPi1e4v6Dw1S87tatoPXYpump": 1794034206.5013795,
-  "seen:GoqdpMVvqawNUvdfTmqXvvoSaDRrqDQexzG7wzf2pump": 1794034390.0323856,
-  "seen:DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": 1794034390.0323856,
-  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794034390.0323856,
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1794034390.0323856,
-  "control:GoqdpMVvqawNUvdfTmqXvvoSaDRrqDQexzG7wzf2pump": 1794034390.8906076,
   "seen:3J9aZ8aJq8c5Xz7DmBHGPi1e4v6Dw1S87tatoPXYpump": 1794034574.0491824,
   "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794034574.0491824,
-  "control:Fmu6ykGrbaBRsDHn4NZZYgsAwLnXTkjqWyMbn3XBpump": 1794034574.1223915
+  "control:Fmu6ykGrbaBRsDHn4NZZYgsAwLnXTkjqWyMbn3XBpump": 1794034574.1223915,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794034757.4732459,
+  "seen:4AN9uwPTNFfFCFzR4n9KaVk3JyLmMACewf3aXV6Zpump": 1794034757.4732459,
+  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794034757.4732459,
+  "seen:2SquPKDVfGw9rBFBBZjJ2QPzSaDYjfwBY72FGBHZpump": 1794034942.3315363,
+  "seen:Fmu6ykGrbaBRsDHn4NZZYgsAwLnXTkjqWyMbn3XBpump": 1794034942.3315363,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794034942.3315363,
+  "seen:41WpXn15fxQXEGhiKnkqHcoJn14tNXXgmymLKE57pump": 1794034942.3315363,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1794034942.3315363,
+  "seen:ExCVDaYqPLkjiAMzbo9SyCuf41TNz1Esw4oZM2CYTL2Z": 1794035125.69849,
+  "seen:Cp1qJ5CMyJCPakpSNJ9C7sbSMMENzeLidtamFk5gpump": 1794035125.69849,
+  "seen:H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": 1794035125.69849,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794035125.69849,
+  "seen:DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": 1794035308.8085477,
+  "seen:GoqdpMVvqawNUvdfTmqXvvoSaDRrqDQexzG7wzf2pump": 1794035308.8085477,
+  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1794035308.8085477,
+  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794035308.8085477
  },
  "talks": {
   "2026-10-21": 109
@@ -132,16 +118,16 @@
  ],
  "last_review": 1793985795.032704,
  "news": {
-  "t": 1794033490.0478382,
+  "t": 1794034408.8168552,
   "crypto": [
    "Here\u2019s what happened in crypto today (9h ago)",
    "US Treasury cuts off MEXC over alleged $16B in illicit transactions (10h ago)",
    "Gnosis Pay breach exposes card details, personal data and crypto wallet information (10h ago)",
    "Binance hack is \u2018cyber war,\u2019 TRM Labs executive says (10h ago)",
-   "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch (10h ago)",
+   "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch (11h ago)",
    "US 401(k) proposal leaves door open to altcoins, but hurdles remain (11h ago)",
    "Russia finalizes crypto trading rules ahead of Nov. 17 rollout (12h ago)",
-   "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders (12h ago)",
+   "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders (13h ago)",
    "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound (13h ago)",
    "U.S. prediction markets regulator issues demand that clashes directly with courts (13h ago)"
   ],
@@ -176,5 +162,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794033121.4970593
+ "last_macro_macro": 1794034408.8167372
 }
