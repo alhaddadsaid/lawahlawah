@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -46618.3709303182,
+   "cash": -46669.52933777266,
    "open": [
     {
      "id": 2110,
@@ -21,21 +21,6 @@
      "size": 6.439752534900094,
      "deadline": 1794072196.4922183,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 2194,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "trauma ",
-     "mint": "FFgnd8bifG8zGBE7dij7g3HWp4gveJS4gDyjdk5epump",
-     "side": 1,
-     "opened": 1794045202.568005,
-     "entry": 7.083e-05,
-     "stop": 5.6664e-05,
-     "target": 9.9162e-05,
-     "size": 2823662.2899901173,
-     "deadline": 1794052402.5680053,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 2197,
@@ -59,25 +44,20 @@
  "runs": 76,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:96GvfRGGfnC2HZj5fBxoVU8V3ASFW8ofref9avBppump": 1794050159.8839703,
-  "seen:DSMxhe2o77m2Mf3nL6vy8a398dasosbuybGzj2Cpump": 1794050159.8839703,
-  "seen:3SeobiWgP4b2pJNgnFfTaqEtP7vRaVeKfCYuGvygdsSd": 1794050341.3762763,
-  "seen:GoqdpMVvqawNUvdfTmqXvvoSaDRrqDQexzG7wzf2pump": 1794050341.3762763,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794050341.3762763,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794050341.3762763,
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794050341.3762763,
-  "seen:iW4XP2BWd3iqf1LMZvpsKidb49wVAh3S8SfNUsDpump": 1794050523.181054,
-  "seen:6xLY8ZGFNbEvzy1jfKzZyJLtw22YtNRnEphYJeTkELKm": 1794050523.181054,
-  "seen:E8c9gvuE7gW4R8AVcaTCbbTG1zJGdUR9KGtS94eXBAGS": 1794050523.181054,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1794050523.181054,
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794050695.844455,
-  "seen:CXRT8bpLxm2aeJ1FteTCKESm8nseeZ1b36S3f4CYpump": 1794050695.844455,
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1794050888.9840991,
-  "seen:DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": 1794050888.9840991,
-  "seen:H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": 1794050888.9840991,
-  "seen:J47X5jJ1FwDthYCG2d16NTq6HRsocRwyjyDWj6Jpump": 1794050888.9840991,
-  "seen:3Eeutopgwx85nEBE3tUqshvftdQCtabMbBxHTry7pump": 1794050888.9840991,
-  "control:GoqdpMVvqawNUvdfTmqXvvoSaDRrqDQexzG7wzf2pump": 1794050889.3117607
+  "seen:tLEkZZNH95PYMnsF5RzYLXqkLF3fw21XgE9j3Kqpump": 1794051071.1257923,
+  "seen:DSMxhe2o77m2Mf3nL6vy8a398dasosbuybGzj2Cpump": 1794051071.1257923,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1794051071.1257923,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794051252.779792,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794051252.779792,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794051252.779792,
+  "seen:iW4XP2BWd3iqf1LMZvpsKidb49wVAh3S8SfNUsDpump": 1794051436.978862,
+  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794051436.978862,
+  "seen:GoqdpMVvqawNUvdfTmqXvvoSaDRrqDQexzG7wzf2pump": 1794051436.978862,
+  "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1794051436.978862,
+  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794051617.240122,
+  "seen:DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": 1794051797.119326,
+  "seen:H8WTvo3ZXSYHJAcYqzCforbG8coR1FDAX2kHFfqHBAGS": 1794051797.119326,
+  "seen:3Eeutopgwx85nEBE3tUqshvftdQCtabMbBxHTry7pump": 1794051797.119326
  },
  "talks": {
   "2026-10-21": 109
@@ -118,18 +98,18 @@
  ],
  "last_review": 1793985795.032704,
  "news": {
-  "t": 1794049988.9939566,
+  "t": 1794050897.1291723,
   "crypto": [
+   "US sanctions Canadian money-exchange firms over Iran ties (0h ago)",
    "Suspicious prediction market activity seen before election poll release: NYT (2h ago)",
-   "Nvidia may face a more hostile post-election Washington: Report (3h ago)",
+   "Nvidia may face a more hostile post-election Washington: Report (4h ago)",
    "Here\u2019s what happened in crypto today (13h ago)",
    "US Treasury cuts off MEXC over alleged $16B in illicit transactions (14h ago)",
-   "Gnosis Pay breach exposes card details, personal data and crypto wallet information (14h ago)",
+   "Gnosis Pay breach exposes card details, personal data and crypto wallet information (15h ago)",
    "Binance hack is \u2018cyber war,\u2019 TRM Labs executive says (15h ago)",
    "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch (15h ago)",
    "US 401(k) proposal leaves door open to altcoins, but hurdles remain (15h ago)",
-   "Russia finalizes crypto trading rules ahead of Nov. 17 rollout (16h ago)",
-   "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders (17h ago)"
+   "Russia finalizes crypto trading rules ahead of Nov. 17 rollout (17h ago)"
   ],
   "macro": [],
   "calendar": []
