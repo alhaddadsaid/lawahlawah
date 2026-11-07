@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-07 05:03 UTC. Runs so far: 75. Model: claude-haiku-5-5.
+Updated 2026-11-07 05:13 UTC. Runs so far: 75. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2098 | 31 | -55049.13 | -75155.59 |
+| control | meme | 2100 | 31 | -54913.13 | -75043.59 |
 | control | macro | 45 | 47 | -2.88 | -226.41 |
-| control | all | 2143 | 31 | -55052.01 | -75382.0 |
+| control | all | 2145 | 31 | -54916.01 | -75270.0 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,8 +19,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: GOLD long at 4069.6, stop 4054.07, target 4092.89, opened 2026-11-06 17:23 UTC
 - control: PIRATE long at 0.0001383, stop 0.00011064, target 0.00019362, opened 2026-11-07 03:27 UTC
-- control: Twizter long at 7.322e-05, stop 5.8576e-05, target 0.000102508, opened 2026-11-07 04:54 UTC
 - control: PALICO long at 6.179e-05, stop 4.9432e-05, target 8.6506e-05, opened 2026-11-07 05:03 UTC
+- control: Twizter long at 8.574e-05, stop 6.8592e-05, target 0.000120036, opened 2026-11-07 05:09 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-07 05:03 UTC control: OPENED PALICO long at 6.179e-05 (stop 4.9432e-05, target 8.6506e-05) - control: frozen v3 rules
+- control: CLOSED Capiboo (target) P&L $68.0 normal, $56.0 pessimistic
 

@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -45051.9082357553,
+   "cash": -44915.9082357553,
    "open": [
     {
      "id": 2110,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2165,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Twizter",
-     "mint": "Fmu6ykGrbaBRsDHn4NZZYgsAwLnXTkjqWyMbn3XBpump",
-     "side": 1,
-     "opened": 1794027249.0250742,
-     "entry": 7.322e-05,
-     "stop": 5.8575999999999996e-05,
-     "target": 0.00010250799999999999,
-     "size": 2731494.1272876267,
-     "deadline": 1794034449.0250745,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2166,
      "desk": "control",
      "market": "meme",
@@ -66,23 +51,29 @@
      "size": 3236769.703835572,
      "deadline": 1794034998.8152993,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2168,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Twizter",
+     "mint": "Fmu6ykGrbaBRsDHn4NZZYgsAwLnXTkjqWyMbn3XBpump",
+     "side": 1,
+     "opened": 1794028163.2638073,
+     "entry": 8.574e-05,
+     "stop": 6.859200000000001e-05,
+     "target": 0.000120036,
+     "size": 2332633.5432703523,
+     "deadline": 1794035363.2638075,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2167,
+ "next_id": 2169,
  "runs": 75,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794027922.879055,
-  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1794027922.879055,
-  "seen:DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": 1794027922.879055,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794028107.5969188,
-  "seen:9DubmcpjdeJvJv225TjDL3uz9579dT1U8nGrWa9xpump": 1794028148.945021,
-  "control:Fmu6ykGrbaBRsDHn4NZZYgsAwLnXTkjqWyMbn3XBpump": 1794028149.0250783,
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794028332.5413866,
-  "seen:C89aVBvoZjSGuXQzhsLvNzekDuJrhezzR58rEN9RMk4u": 1794028332.5413866,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794028332.5413866,
   "seen:GoqdpMVvqawNUvdfTmqXvvoSaDRrqDQexzG7wzf2pump": 1794028515.8372366,
   "seen:3J9aZ8aJq8c5Xz7DmBHGPi1e4v6Dw1S87tatoPXYpump": 1794028515.8372366,
   "seen:2SquPKDVfGw9rBFBBZjJ2QPzSaDYjfwBY72FGBHZpump": 1794028515.8372366,
@@ -91,7 +82,21 @@
   "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794028698.7718718,
   "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794028698.7718718,
   "seen:C1w2cSCc4GmXfUL2y5amkGLhDPsJT7Ts7VyS71inpump": 1794028698.7718718,
-  "control:GsZANz2KPDJdrQgcdmmYdmCUkxRWFfhkukcYeMSvpump": 1794028698.815303
+  "control:GsZANz2KPDJdrQgcdmmYdmCUkxRWFfhkukcYeMSvpump": 1794028698.815303,
+  "seen:5WGbr5VBdC7KqMKmHQAXsSSrvYMNfV4XvKMCgszeE8JC": 1794028879.456367,
+  "seen:oCZHH8HnEBCPipEGdEcP3f45pQAaM7nh7P6EkRPpump": 1794028879.456367,
+  "seen:3QcYNgx6tNRK8V8n1rS3xD2bjMkbFeEpg3qEGY7npump": 1794028879.456367,
+  "seen:5pdu9jrUf9ryLzCsv3S92ikoBiK3n2zA9tMN9Rr7pump": 1794028879.456367,
+  "seen:DKtofLM6bhb54GQy5YFSWQjQmGiZqAkjzkQJ1LTopump": 1794028879.456367,
+  "control:3J9aZ8aJq8c5Xz7DmBHGPi1e4v6Dw1S87tatoPXYpump": 1794028880.1757367,
+  "seen:4Nzm6p7FpsdrroZPUmfQ7arzs5rbtvzaC4YdQNbRwzds": 1794029063.189045,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794029063.189045,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1794029063.189045,
+  "seen:CXRT8bpLxm2aeJ1FteTCKESm8nseeZ1b36S3f4CYpump": 1794029063.189045,
+  "control:Fmu6ykGrbaBRsDHn4NZZYgsAwLnXTkjqWyMbn3XBpump": 1794029063.2638106,
+  "seen:41WpXn15fxQXEGhiKnkqHcoJn14tNXXgmymLKE57pump": 1794029246.2312717,
+  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794029246.2312717,
+  "seen:C89aVBvoZjSGuXQzhsLvNzekDuJrhezzR58rEN9RMk4u": 1794029246.2312717
  },
  "talks": {
   "2026-10-21": 109
@@ -132,7 +137,7 @@
  ],
  "last_review": 1793985795.032704,
  "news": {
-  "t": 1794027022.8879766,
+  "t": 1794027979.464222,
   "crypto": [
    "Here\u2019s what happened in crypto today (7h ago)",
    "US Treasury cuts off MEXC over alleged $16B in illicit transactions (8h ago)",
@@ -141,7 +146,7 @@
    "Apple, Meta reject OKX\u2013ICE tokenized stock plans, leaving crypto firms as the ones to watch (9h ago)",
    "US 401(k) proposal leaves door open to altcoins, but hurdles remain (9h ago)",
    "Russia finalizes crypto trading rules ahead of Nov. 17 rollout (10h ago)",
-   "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders (10h ago)",
+   "Strive buys 15,124 Bitcoin in October, closes in on top treasury holders (11h ago)",
    "Bitcoin price dips under $75K as crypto markets miss tech-stock rebound (11h ago)",
    "U.S. prediction markets regulator issues demand that clashes directly with courts (11h ago)"
   ],
@@ -176,5 +181,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794026654.646015
+ "last_macro_macro": 1794027979.4641352
 }
