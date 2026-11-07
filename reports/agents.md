@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-07 14:49 UTC. Runs so far: 76. Model: claude-haiku-5-5.
+Updated 2026-11-07 15:01 UTC. Runs so far: 76. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2142 | 31 | -56745.54 | -77259.78 |
+| control | meme | 2143 | 31 | -56810.28 | -77333.12 |
 | control | macro | 45 | 47 | -2.88 | -226.41 |
-| control | all | 2187 | 31 | -56748.42 | -77486.19 |
+| control | all | 2188 | 31 | -56813.16 | -77559.53 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,6 +21,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: ARNOLD long at 0.000179, stop 0.0001432, target 0.0002506, opened 2026-11-07 13:32 UTC
 - control: SLOPCORE long at 0.0002573, stop 0.00020584, target 0.00036022, opened 2026-11-07 14:03 UTC
 - control: duge long at 0.0001735, stop 0.0001388, target 0.0002429, opened 2026-11-07 14:39 UTC
+- control: debtdog long at 0.000153, stop 0.0001224, target 0.0002142, opened 2026-11-07 15:01 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED debtdog (target) P&L $68.0 normal, $56.0 pessimistic
+- 2026-11-07 15:01 UTC control: OPENED debtdog long at 0.000153 (stop 0.0001224, target 0.0002142) - control: frozen v3 rules
 
