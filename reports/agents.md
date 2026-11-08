@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-08 04:23 UTC. Runs so far: 79. Model: claude-haiku-5-5.
+Updated 2026-11-08 04:35 UTC. Runs so far: 79. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2243 | 30 | -60094.89 | -81559.09 |
+| control | meme | 2244 | 30 | -60295.55 | -81764.86 |
 | control | macro | 46 | 48 | 28.03 | -198.72 |
-| control | all | 2289 | 31 | -60066.86 | -81757.81 |
+| control | all | 2290 | 31 | -60267.52 | -81963.58 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,8 +19,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: Percolator long at 0.0001845, stop 0.0001476, target 0.0002583, opened 2026-11-08 03:13 UTC
 - control: TAOLF long at 0.0001149, stop 9.192e-05, target 0.00016086, opened 2026-11-08 03:37 UTC
-- control: SINK long at 9.385e-05, stop 7.508e-05, target 0.00013139, opened 2026-11-08 04:16 UTC
 - control: HABIBI long at 0.0001256, stop 0.00010048, target 0.00017584, opened 2026-11-08 04:23 UTC
+- control: APU long at 0.0002749, stop 0.00021992, target 0.00038486, opened 2026-11-08 04:35 UTC
 
 ## Team
 
@@ -33,5 +33,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-08 04:23 UTC control: OPENED HABIBI long at 0.0001256 (stop 0.00010048, target 0.00017584) - control: frozen v3 rules
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- 2026-11-08 04:35 UTC control: OPENED APU long at 0.0002749 (stop 0.00021992, target 0.00038486) - control: frozen v3 rules
 
