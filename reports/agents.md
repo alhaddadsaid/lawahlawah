@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-08 19:38 UTC. Runs so far: 81. Model: claude-haiku-5-5.
+Updated 2026-11-08 19:47 UTC. Runs so far: 81. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2315 | 31 | -60778.51 | -82963.62 |
+| control | meme | 2316 | 31 | -60827.96 | -83022.06 |
 | control | macro | 46 | 48 | 28.03 | -198.72 |
-| control | all | 2361 | 31 | -60750.48 | -83162.34 |
+| control | all | 2362 | 31 | -60799.93 | -83220.78 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: yarl long at 7.238e-05, stop 5.7904e-05, target 0.000101332, opened 2026-11-08 17:58 UTC
 - control: BTC long at 0.000731, stop 0.0005848, target 0.0010234, opened 2026-11-08 19:17 UTC
-- control: ARTCOIN long at 8.512e-05, stop 6.8096e-05, target 0.000119168, opened 2026-11-08 19:23 UTC
+- control: STOKE long at 6.882e-05, stop 5.5056e-05, target 9.6348e-05, opened 2026-11-08 19:41 UTC
 
 ## Team
 
@@ -32,5 +32,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
 - control: order BTC REJECTED by guardrails: BTC already open
 
