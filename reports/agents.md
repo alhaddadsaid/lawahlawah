@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-08 18:28 UTC. Runs so far: 81. Model: claude-haiku-5-5.
+Updated 2026-11-08 18:38 UTC. Runs so far: 81. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2307 | 31 | -60788.4 | -82891.2 |
+| control | meme | 2310 | 31 | -60879.29 | -83010.53 |
 | control | macro | 46 | 48 | 28.03 | -198.72 |
-| control | all | 2353 | 31 | -60760.37 | -83089.92 |
+| control | all | 2356 | 31 | -60851.26 | -83209.25 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: PIRATE long at 0.0004577, stop 0.00036616, target 0.00064078, opened 2026-11-08 17:19 UTC
-- control: JASON long at 0.000135, stop 0.000108, target 0.000189, opened 2026-11-08 17:25 UTC
 - control: Percolator long at 0.0002063, stop 0.00016504, target 0.00028882, opened 2026-11-08 17:31 UTC
 - control: yarl long at 7.238e-05, stop 5.7904e-05, target 0.000101332, opened 2026-11-08 17:58 UTC
-- control: BTC long at 0.0003726, stop 0.00029808, target 0.00052164, opened 2026-11-08 18:10 UTC
 
 ## Team
 
@@ -34,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order BTC REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED BTC (stop) P&L $-50.19 normal, $-59.16 pessimistic
 
