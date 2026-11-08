@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-08 15:36 UTC. Runs so far: 81. Model: claude-haiku-5-5.
+Updated 2026-11-08 15:45 UTC. Runs so far: 81. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2296 | 31 | -60491.73 | -82489.32 |
+| control | meme | 2297 | 31 | -60541.38 | -82547.96 |
 | control | macro | 46 | 48 | 28.03 | -198.72 |
-| control | all | 2342 | 31 | -60463.7 | -82688.04 |
+| control | all | 2343 | 31 | -60513.35 | -82746.68 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: APU long at 0.0003229, stop 0.00025832, target 0.00045206, opened 2026-11-08 14:07 UTC
 - control: PIRATE long at 0.0007495, stop 0.0005996, target 0.0010493, opened 2026-11-08 15:04 UTC
-- control: MELT long at 0.0002085, stop 0.0001668, target 0.0002919, opened 2026-11-08 15:36 UTC
 
 ## Team
 
@@ -32,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-08 15:36 UTC control: OPENED MELT long at 0.0002085 (stop 0.0001668, target 0.0002919) - control: frozen v3 rules
+- control: order PIRATE REJECTED by guardrails: PIRATE already open
 

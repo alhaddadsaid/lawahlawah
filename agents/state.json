@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -50463.53327173293,
+   "cash": -50513.18794799192,
    "open": [
     {
      "id": 2353,
@@ -36,21 +36,6 @@
      "size": 266844.56304202805,
      "deadline": 1794157491.6484833,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2364,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MELT",
-     "mint": "5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump",
-     "side": 1,
-     "opened": 1794152165.4411876,
-     "entry": 0.0002085,
-     "stop": 0.00016680000000000002,
-     "target": 0.0002919,
-     "size": 959232.6139088729,
-     "deadline": 1794159365.4411879,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -59,16 +44,6 @@
  "runs": 81,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1794152281.3609312,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794152281.3609312,
-  "seen:2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump": 1794152281.3609312,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794152281.3609312,
-  "seen:5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump": 1794152463.417305,
-  "seen:7mAcg6duNYnfeP4pVie1JMvGsXF9FP6A3Aah47rcpump": 1794152702.7066572,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794152702.7066572,
-  "seen:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794152702.7066572,
-  "seen:3JmVNVLfvSpcoVx5VEUXfejdYrok81GqenpZSqFbpump": 1794152702.7066572,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794152702.7066572,
   "seen:GXKH2nRJqu7BznzSdUELcMwk7C3ebNDcqB5YEgM4bbpK": 1794152884.007574,
   "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794152884.007574,
   "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794152884.007574,
@@ -77,7 +52,16 @@
   "control:BQn2Wz514RzRoMSg32wAa8YZa4xDvNSzh127SmYYpump": 1794152884.4245794,
   "seen:BQn2Wz514RzRoMSg32wAa8YZa4xDvNSzh127SmYYpump": 1794153065.3818786,
   "seen:2LgpbBroKxErfsgr3unzTqbNAyefLTcthS4tTMDbpump": 1794153065.3818786,
-  "control:5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump": 1794153065.4411924
+  "control:5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump": 1794153065.4411924,
+  "seen:BqnA3m6vDyS3sZh8yp6PdegeXdRsBzxWrVkQWim6dfsw": 1794153249.7111244,
+  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1794153249.7111244,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794153249.7111244,
+  "seen:5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump": 1794153430.6135411,
+  "seen:Eg1pbqzgzNGnoTiCvfBeiLYedXjqfRkhEvKSyEypump": 1794153430.6135411,
+  "seen:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794153612.224115,
+  "seen:7mAcg6duNYnfeP4pVie1JMvGsXF9FP6A3Aah47rcpump": 1794153612.224115,
+  "seen:1GoqNUNAx6DDw5CfFPYEkSJywKQbQdUvHvNkaDwpump": 1794153612.224115,
+  "seen:3hWkYmr81vZbyVnTPzcSjSNxxZuSmSdrQUohx86Rrxqf": 1794153612.224115
  },
  "talks": {
   "2026-10-21": 109
@@ -118,10 +102,10 @@
  ],
  "last_review": 1794072362.9201233,
  "news": {
-  "t": 1794151563.4247973,
+  "t": 1794152530.6226947,
   "crypto": [
    "Here\u2019s what happened in crypto today (2h ago)",
-   "Binance France emails announce closure of its users\u2019 accounts on Dec. 31 (2h ago)",
+   "Binance France emails announce closure of its users\u2019 accounts on Dec. 31 (3h ago)",
    "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000) (3h ago)",
    "Amsterdam protesters break into Microsoft data center construction site: Report (6h ago)",
    "Binance\u2019s  finance chief Kaiser Ng to leave company, report says (7h ago)",
