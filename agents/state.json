@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -49607.095097899524,
+   "cash": -49659.53412228977,
    "open": [
-    {
-     "id": 2282,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Percolator",
-     "mint": "8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump",
-     "side": 1,
-     "opened": 1794097127.3765216,
-     "entry": 0.0003198,
-     "stop": 0.00025584,
-     "target": 0.00044772,
-     "size": 625390.8692933082,
-     "deadline": 1794104327.3765216,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2287,
      "desk": "control",
@@ -36,23 +21,29 @@
      "size": 1036269.4300518135,
      "deadline": 1794106157.7576413,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2289,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Percolator",
+     "mint": "8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump",
+     "side": 1,
+     "opened": 1794102630.4501238,
+     "entry": 0.000243,
+     "stop": 0.0001944,
+     "target": 0.0003402,
+     "size": 823045.267489712,
+     "deadline": 1794109830.450124,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2289,
+ "next_id": 2290,
  "runs": 78,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HuZ6dVQWgBJgigd194b3qWzKA2r5AjJDkYJknBAZpump": 1794102244.0477023,
-  "seen:HGE5K8mQtD7zYGfTCimkPRQ7HLKuefS26Z58XNxzuWuf": 1794102244.0477023,
-  "seen:DSAKMZsWvRQL3c4RwhXpicbbygAJXiHz8PMCfoTUpump": 1794102428.8087244,
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794102428.8087244,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794102428.8087244,
-  "seen:TQjuRxYajQny2ZGyWoKsPqiveBNeccL7U1GAkkgpump": 1794102428.8087244,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794102612.3607662,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794102612.3607662,
-  "seen:CASHx9KJUStyftLFWGvEVf59SGeG9sh5FfcnZMVPCASH": 1794102612.3607662,
   "seen:HHgNzGNwvS4MPWqDXp2zkwLEpsxASiWZGtW3MYbV1NhF": 1794102795.0900233,
   "seen:J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": 1794102795.0900233,
   "seen:8SQXVMEfccBmErcbFsdvk3iMjyTYbFt2vUHGKyLYpump": 1794102795.0900233,
@@ -61,7 +52,15 @@
   "seen:H8pqscWCqPZn7rUT1ozuA4yMny4jFvFwD8fqL8Dipump": 1794102978.3256078,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794102978.3256078,
   "seen:3hWkYmr81vZbyVnTPzcSjSNxxZuSmSdrQUohx86Rrxqf": 1794102978.3256078,
-  "seen:5w3wVdJaESaJKyLmStM6Hv9UyUkmZ1b9DLQquAqqpump": 1794102978.3256078
+  "seen:5w3wVdJaESaJKyLmStM6Hv9UyUkmZ1b9DLQquAqqpump": 1794102978.3256078,
+  "seen:4QmzE5EiVqGmy6UYA6gv7cQFKqZvhT8rHkbqYt5vpump": 1794103162.9848924,
+  "seen:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1794103162.9848924,
+  "seen:DSAKMZsWvRQL3c4RwhXpicbbygAJXiHz8PMCfoTUpump": 1794103347.3330753,
+  "seen:HGE5K8mQtD7zYGfTCimkPRQ7HLKuefS26Z58XNxzuWuf": 1794103347.3330753,
+  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794103347.3330753,
+  "seen:DtUuVtA5HkhHkYJTGa68H42nKfUCGBaw4nqHR7mZCgq3": 1794103530.3840241,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794103530.3840241,
+  "control:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1794103530.4501274
  },
  "talks": {
   "2026-10-21": 109
@@ -102,18 +101,18 @@
  ],
  "last_review": 1794072362.9201233,
  "news": {
-  "t": 1794101344.054673,
+  "t": 1794102262.991657,
   "crypto": [
-   "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (6h ago)",
+   "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (7h ago)",
    "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (8h ago)",
    "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets (9h ago)",
    "Here\u2019s what happened in crypto today (11h ago)",
    "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (11h ago)",
    "Bitcoin holders have received eCash \u2014 What can you do with it? (12h ago)",
-   "US sanctions Canadian money-exchange firms over Iran ties (14h ago)",
-   "Suspicious prediction market activity seen before election poll release: NYT (16h ago)",
+   "US sanctions Canadian money-exchange firms over Iran ties (15h ago)",
+   "Suspicious prediction market activity seen before election poll release: NYT (17h ago)",
    "Nvidia may face a more hostile post-election Washington: Report (18h ago)",
-   "US Treasury cuts off MEXC over alleged $16B in illicit transactions (28h ago)"
+   "US Treasury cuts off MEXC over alleged $16B in illicit transactions (29h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -146,5 +145,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794100977.5091014
+ "last_macro_macro": 1794102262.9915948
 }
