@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -49693.997841041666,
+   "cash": -49625.997841041666,
    "open": [
     {
      "id": 2282,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2285,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MAGGIE",
-     "mint": "8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV",
-     "side": 1,
-     "opened": 1794098042.9057488,
-     "entry": 8.354e-05,
-     "stop": 6.6832e-05,
-     "target": 0.000116956,
-     "size": 2394062.7244433803,
-     "deadline": 1794105242.905749,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2286,
      "desk": "control",
      "market": "meme",
@@ -51,24 +36,29 @@
      "size": 997506.2344139651,
      "deadline": 1794105610.405833,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2287,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "TAOLF",
+     "mint": "3hWkYmr81vZbyVnTPzcSjSNxxZuSmSdrQUohx86Rrxqf",
+     "side": 1,
+     "opened": 1794098957.7576413,
+     "entry": 0.000193,
+     "stop": 0.0001544,
+     "target": 0.0002702,
+     "size": 1036269.4300518135,
+     "deadline": 1794106157.7576413,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2287,
+ "next_id": 2288,
  "runs": 78,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GC2mgugLJxmsECBiWn41EnigcyVx4nW4AvPuutRepump": 1794098573.7643304,
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794098573.7643304,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794098573.7643304,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794098757.3934033,
-  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794098757.3934033,
-  "control:3hWkYmr81vZbyVnTPzcSjSNxxZuSmSdrQUohx86Rrxqf": 1794098757.4874964,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794098942.8175771,
-  "seen:22JKmY9YZfnQfb3pGYb6hctL5Jyvv3zhL3nQ8oyNuoYp": 1794098942.8175771,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794098942.8175771,
-  "control:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794098942.9057524,
   "seen:74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump": 1794099126.6925218,
   "seen:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1794099126.6925218,
   "seen:5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij": 1794099310.0286067,
@@ -79,7 +69,15 @@
   "seen:HMFrT2kiqWBGgiPWXqQuavi3Y7eezEySgwn1yDwfpump": 1794099310.0286067,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794099310.0286067,
   "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794099310.0286067,
-  "control:5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij": 1794099310.405836
+  "control:5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij": 1794099310.405836,
+  "seen:5cFUrDaUbVrfWCFotcoBdoLXyejjeR5awcqa5yDr1yHj": 1794099490.0263774,
+  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794099490.0263774,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794099674.272372,
+  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794099674.272372,
+  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794099674.272372,
+  "seen:4TC5nT1B7p3YpYUqiJcGSFjgLoASiH1Upxi1h1Jdpump": 1794099857.6917005,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794099857.6917005,
+  "control:3hWkYmr81vZbyVnTPzcSjSNxxZuSmSdrQUohx86Rrxqf": 1794099857.7576447
  },
  "talks": {
   "2026-10-21": 109
@@ -120,7 +118,7 @@
  ],
  "last_review": 1794072362.9201233,
  "news": {
-  "t": 1794097673.771544,
+  "t": 1794098590.034419,
   "crypto": [
    "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (5h ago)",
    "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (7h ago)",
@@ -128,10 +126,10 @@
    "Here\u2019s what happened in crypto today (10h ago)",
    "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (10h ago)",
    "Bitcoin holders have received eCash \u2014 What can you do with it? (11h ago)",
-   "US sanctions Canadian money-exchange firms over Iran ties (13h ago)",
-   "Suspicious prediction market activity seen before election poll release: NYT (15h ago)",
+   "US sanctions Canadian money-exchange firms over Iran ties (14h ago)",
+   "Suspicious prediction market activity seen before election poll release: NYT (16h ago)",
    "Nvidia may face a more hostile post-election Washington: Report (17h ago)",
-   "US Treasury cuts off MEXC over alleged $16B in illicit transactions (27h ago)"
+   "US Treasury cuts off MEXC over alleged $16B in illicit transactions (28h ago)"
   ],
   "macro": [],
   "calendar": []
