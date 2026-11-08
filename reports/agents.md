@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-08 12:39 UTC. Runs so far: 80. Model: claude-haiku-5-5.
+Updated 2026-11-08 12:46 UTC. Runs so far: 80. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2276 | 30 | -60648.44 | -82436.89 |
+| control | meme | 2277 | 30 | -60727.66 | -82524.33 |
 | control | macro | 46 | 48 | 28.03 | -198.72 |
-| control | all | 2322 | 31 | -60620.41 | -82635.61 |
+| control | all | 2323 | 31 | -60699.63 | -82723.05 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: yarl long at 0.00013, stop 0.000104, target 0.000182, opened 2026-11-08 11:51 UTC
 - control: APU long at 0.0004332, stop 0.00034656, target 0.00060648, opened 2026-11-08 11:54 UTC
 - control: Percolator long at 0.0002674, stop 0.00021392, target 0.00037436, opened 2026-11-08 11:57 UTC
-- control: UNEMPLOYED long at 9.235e-05, stop 7.388e-05, target 0.00012929, opened 2026-11-08 12:39 UTC
+- control: FRONG long at 9.688e-05, stop 7.7504e-05, target 0.000135632, opened 2026-11-08 12:46 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-08 12:39 UTC control: OPENED UNEMPLOYED long at 9.235e-05 (stop 7.388e-05, target 0.00012929) - control: frozen v3 rules
+- 2026-11-08 12:46 UTC control: OPENED FRONG long at 9.688e-05 (stop 7.7504e-05, target 0.000135632) - control: frozen v3 rules
 
