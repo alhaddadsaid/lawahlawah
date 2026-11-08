@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -50799.77292766553,
+   "cash": -50799.85858668736,
    "open": [
-    {
-     "id": 2376,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "yarl",
-     "mint": "2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump",
-     "side": 1,
-     "opened": 1794160714.288889,
-     "entry": 7.238e-05,
-     "stop": 5.790399999999999e-05,
-     "target": 0.00010133199999999998,
-     "size": 2763194.2525559547,
-     "deadline": 1794167914.2888892,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2382,
      "desk": "control",
@@ -59,22 +44,26 @@
  "runs": 81,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:BYPPfvV8xdFeTS43nPFRZeLdJ8STPVELg7rvagtqpump": 1794167434.2031252,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794167434.2031252,
-  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794167615.5398302,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794167615.5398302,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794167615.5398302,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794167615.5398302,
-  "seen:DNYRJmZuD7cx3rXjaoosQyDx5QBV8ZS3eBWWnUFbpump": 1794167797.607618,
-  "seen:9qghVo6gqg1nVYGZCq14mhsFFUDH3e2z1iH4JtkfLoat": 1794167797.607618,
-  "seen:TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": 1794167797.607618,
-  "control:5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx": 1794167797.6907408,
-  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794167979.0791247,
-  "seen:5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx": 1794167979.0791247,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794167979.0791247,
-  "seen:DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump": 1794167979.0791247,
   "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794168160.6338682,
-  "seen:nUESj13byLn6bHFFaygmf7mCQbHZvb6yKqdHjjLWmj1": 1794168160.6338682
+  "seen:nUESj13byLn6bHFFaygmf7mCQbHZvb6yKqdHjjLWmj1": 1794168160.6338682,
+  "seen:BYPPfvV8xdFeTS43nPFRZeLdJ8STPVELg7rvagtqpump": 1794168343.6735997,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794168343.6735997,
+  "seen:CDuCawumXaemxYbE3ujZHdZAJDsdiAg29yXA1Pwypump": 1794168343.6735997,
+  "seen:8EJmZWQy18GNgG2XfNZMwCYrN8A3Lhm8qFeKzhXrpump": 1794168343.6735997,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794168524.6821613,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794168524.6821613,
+  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794168524.6821613,
+  "seen:TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": 1794168706.2446406,
+  "seen:9qghVo6gqg1nVYGZCq14mhsFFUDH3e2z1iH4JtkfLoat": 1794168706.2446406,
+  "seen:HwYBbVJ6SFBrVM4DJ86eXKPUvBfWxCbLbXZGiRKNpump": 1794168706.2446406,
+  "seen:DNYRJmZuD7cx3rXjaoosQyDx5QBV8ZS3eBWWnUFbpump": 1794168706.2446406,
+  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794168706.2446406,
+  "seen:HMKBqmMXLe4Nt2mmFZEWdWY2dbgrcTuopBmi6xVfpump": 1794168887.2509775,
+  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794168887.2509775,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794168887.2509775,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794168887.2509775,
+  "seen:HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump": 1794168887.2509775,
+  "seen:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794168887.2509775
  },
  "talks": {
   "2026-10-21": 109
@@ -115,10 +104,10 @@
  ],
  "last_review": 1794158898.5417633,
  "news": {
-  "t": 1794167079.0887234,
+  "t": 1794167987.2606947,
   "crypto": [
    "What the election results mean for crypto: State of Crypto (0h ago)",
-   "Stablecoin growth has stalled. The payments boom hasn't (0h ago)",
+   "Stablecoin growth has stalled. The payments boom hasn't (1h ago)",
    "Here\u2019s what happened in crypto today (6h ago)",
    "Binance France emails announce closure of its users\u2019 accounts on Dec. 31 (7h ago)",
    "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000) (7h ago)",
