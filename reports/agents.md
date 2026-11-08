@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-08 04:53 UTC. Runs so far: 79. Model: claude-haiku-5-5.
+Updated 2026-11-08 05:06 UTC. Runs so far: 79. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2245 | 30 | -60346.8 | -81825.05 |
+| control | meme | 2247 | 30 | -60442.5 | -81938.81 |
 | control | macro | 46 | 48 | 28.03 | -198.72 |
-| control | all | 2291 | 31 | -60318.77 | -82023.77 |
+| control | all | 2293 | 31 | -60414.47 | -82137.53 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: Percolator long at 0.0001845, stop 0.0001476, target 0.0002583, opened 2026-11-08 03:13 UTC
 - control: TAOLF long at 0.0001149, stop 9.192e-05, target 0.00016086, opened 2026-11-08 03:37 UTC
-- control: APU long at 0.0002749, stop 0.00021992, target 0.00038486, opened 2026-11-08 04:35 UTC
+- control: NETWORK long at 0.0002158, stop 0.00017264, target 0.00030212, opened 2026-11-08 05:03 UTC
+- control: APU long at 0.0003612, stop 0.00028896, target 0.00050568, opened 2026-11-08 05:06 UTC
 
 ## Team
 
@@ -32,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED HABIBI (stop) P&L $-51.25 normal, $-60.19 pessimistic
+- 2026-11-08 05:06 UTC control: OPENED APU long at 0.0003612 (stop 0.00028896, target 0.00050568) - control: frozen v3 rules
 
