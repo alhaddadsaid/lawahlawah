@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -50658.31586409057,
+   "cash": -50760.20354993837,
    "open": [
     {
      "id": 2370,
@@ -53,46 +53,45 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2374,
+     "id": 2376,
      "desk": "control",
      "market": "meme",
      "symbol": "yarl",
      "mint": "2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump",
      "side": 1,
-     "opened": 1794159263.4512055,
-     "entry": 8.164e-05,
-     "stop": 6.531200000000001e-05,
-     "target": 0.000114296,
-     "size": 2449779.519843214,
-     "deadline": 1794166463.4512057,
+     "opened": 1794160714.288889,
+     "entry": 7.238e-05,
+     "stop": 5.790399999999999e-05,
+     "target": 0.00010133199999999998,
+     "size": 2763194.2525559547,
+     "deadline": 1794167914.2888892,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2375,
+ "next_id": 2377,
  "runs": 81,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794160163.3768272,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794160163.3768272,
-  "seen:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794160163.3768272,
-  "seen:HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump": 1794160163.3768272,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794160163.3768272,
-  "seen:2CXZP52xSLcnUEgt6u4k2XSu1HEofiESAkk4rPUKpump": 1794160163.3768272,
-  "seen:2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump": 1794160163.3768272,
-  "control:2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump": 1794160163.4512093,
-  "seen:GXKH2nRJqu7BznzSdUELcMwk7C3ebNDcqB5YEgM4bbpK": 1794160344.258468,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794160344.258468,
-  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1794160344.258468,
-  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794160344.258468,
-  "seen:9qghVo6gqg1nVYGZCq14mhsFFUDH3e2z1iH4JtkfLoat": 1794160526.150103,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794160526.150103,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794160526.150103,
-  "seen:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1794160706.9480858,
-  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794160706.9480858,
-  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794160706.9480858,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794160888.4301116
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794160888.4301116,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794161070.611011,
+  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794161070.611011,
+  "seen:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794161070.611011,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794161070.611011,
+  "seen:Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": 1794161070.611011,
+  "seen:1Bdw3SMqTWR8nP1DqS55yEveyyDRJnYyZs2ZSNRpump": 1794161070.611011,
+  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794161251.1691012,
+  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794161251.1691012,
+  "control:9qghVo6gqg1nVYGZCq14mhsFFUDH3e2z1iH4JtkfLoat": 1794161251.2540705,
+  "seen:9qghVo6gqg1nVYGZCq14mhsFFUDH3e2z1iH4JtkfLoat": 1794161432.573118,
+  "seen:7hji4b88zqK97oEcj4jYwTok8e5LvqebVcd68f2ypump": 1794161432.573118,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794161432.573118,
+  "seen:HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump": 1794161432.573118,
+  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794161613.5740824,
+  "seen:2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump": 1794161613.5740824,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794161613.5740824,
+  "control:2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump": 1794161614.2888923
  },
  "talks": {
   "2026-10-21": 109
@@ -133,7 +132,7 @@
  ],
  "last_review": 1794158898.5417633,
  "news": {
-  "t": 1794159806.9574065,
+  "t": 1794160713.5834072,
   "crypto": [
    "Here\u2019s what happened in crypto today (4h ago)",
    "Binance France emails announce closure of its users\u2019 accounts on Dec. 31 (5h ago)",
@@ -143,7 +142,7 @@
    "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (23h ago)",
    "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (24h ago)",
    "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets (25h ago)",
-   "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (27h ago)",
+   "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (28h ago)",
    "Bitcoin holders have received eCash \u2014 What can you do with it? (28h ago)"
   ],
   "macro": [],
