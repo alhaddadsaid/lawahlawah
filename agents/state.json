@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -50776.526047323925,
+   "cash": -50750.32391450764,
    "open": [
-    {
-     "id": 2373,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Percolator",
-     "mint": "8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump",
-     "side": 1,
-     "opened": 1794159082.3055499,
-     "entry": 0.0002063,
-     "stop": 0.00016504,
-     "target": 0.00028881999999999996,
-     "size": 969461.9486185167,
-     "deadline": 1794166282.30555,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2376,
      "desk": "control",
@@ -74,24 +59,22 @@
  "runs": 81,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794166161.6609807,
-  "seen:5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx": 1794166161.6609807,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794166161.6609807,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794166343.5954795,
-  "control:9qghVo6gqg1nVYGZCq14mhsFFUDH3e2z1iH4JtkfLoat": 1794166343.6780114,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794166526.1868117,
-  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794166526.1868117,
-  "seen:nUESj13byLn6bHFFaygmf7mCQbHZvb6yKqdHjjLWmj1": 1794166707.653763,
-  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794166707.653763,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794166707.653763,
-  "seen:J8PDNQMpezE3cwVmfVyaMqNBExJBQSXjasLfrWZHpump": 1794166707.653763,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794166707.653763,
-  "control:nUESj13byLn6bHFFaygmf7mCQbHZvb6yKqdHjjLWmj1": 1794166707.740568,
   "seen:DNYRJmZuD7cx3rXjaoosQyDx5QBV8ZS3eBWWnUFbpump": 1794166888.70971,
   "seen:9qghVo6gqg1nVYGZCq14mhsFFUDH3e2z1iH4JtkfLoat": 1794166888.70971,
   "seen:HwYBbVJ6SFBrVM4DJ86eXKPUvBfWxCbLbXZGiRKNpump": 1794166888.70971,
   "seen:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794166888.70971,
-  "seen:45KZmACKQp4jHiSykjQU2Uc9t8EToj8GUKPeT3Sipump": 1794166888.70971
+  "seen:45KZmACKQp4jHiSykjQU2Uc9t8EToj8GUKPeT3Sipump": 1794166888.70971,
+  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794167070.4384418,
+  "seen:5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx": 1794167070.4384418,
+  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794167070.4384418,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794167070.4384418,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794167253.6176388,
+  "seen:BYPPfvV8xdFeTS43nPFRZeLdJ8STPVELg7rvagtqpump": 1794167434.2031252,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794167434.2031252,
+  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794167615.5398302,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794167615.5398302,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794167615.5398302,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794167615.5398302
  },
  "talks": {
   "2026-10-21": 109
@@ -132,18 +115,18 @@
  ],
  "last_review": 1794158898.5417633,
  "news": {
-  "t": 1794165261.6703644,
+  "t": 1794166170.448057,
   "crypto": [
+   "Stablecoin growth has stalled. The payments boom hasn't (0h ago)",
    "Here\u2019s what happened in crypto today (6h ago)",
-   "Binance France emails announce closure of its users\u2019 accounts on Dec. 31 (6h ago)",
-   "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000) (6h ago)",
-   "Amsterdam protesters break into Microsoft data center construction site: Report (9h ago)",
+   "Binance France emails announce closure of its users\u2019 accounts on Dec. 31 (7h ago)",
+   "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000) (7h ago)",
+   "Amsterdam protesters break into Microsoft data center construction site: Report (10h ago)",
    "Binance\u2019s  finance chief Kaiser Ng to leave company, report says (11h ago)",
    "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (24h ago)",
    "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (26h ago)",
-   "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets (26h ago)",
-   "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (29h ago)",
-   "Bitcoin holders have received eCash \u2014 What can you do with it? (30h ago)"
+   "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets (27h ago)",
+   "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (29h ago)"
   ],
   "macro": [],
   "calendar": []
