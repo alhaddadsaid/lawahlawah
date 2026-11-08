@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -49355.929543189464,
+   "cash": -49405.89320598016,
    "open": [
-    {
-     "id": 2275,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "FUSE",
-     "mint": "CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD",
-     "side": 1,
-     "opened": 1794094003.5824614,
-     "entry": 0.0001376,
-     "stop": 0.00011008000000000002,
-     "target": 0.00019264,
-     "size": 1453488.372093023,
-     "deadline": 1794101203.5824616,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2279,
      "desk": "control",
@@ -36,17 +21,29 @@
      "size": 615384.6153846154,
      "deadline": 1794103226.7093256,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2280,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Percolator",
+     "mint": "8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump",
+     "side": 1,
+     "opened": 1794096207.0886753,
+     "entry": 0.0004648,
+     "stop": 0.00037184,
+     "target": 0.00065072,
+     "size": 430292.59896729776,
+     "deadline": 1794103407.0886753,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2280,
+ "next_id": 2281,
  "runs": 78,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6nGocDUtGSJoSz1gUPgFGTpHtUSK3s7FN6zhB6AfLoat": 1794096189.5009763,
-  "seen:4wDXKYLnpHhbRRVwhtoKc6iRatECgQNC4DfQ5MJEFmb7": 1794096189.5009763,
-  "seen:HMFrT2kiqWBGgiPWXqQuavi3Y7eezEySgwn1yDwfpump": 1794096374.670739,
   "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794096557.646785,
   "seen:5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij": 1794096557.646785,
   "seen:CoWYU3GbHxWatjxdvHAN1BnhyRZBmjHPvW9PVXR4pump": 1794096557.646785,
@@ -61,7 +58,10 @@
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794096926.6485496,
   "seen:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1794096926.6485496,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794096926.6485496,
-  "control:3hWkYmr81vZbyVnTPzcSjSNxxZuSmSdrQUohx86Rrxqf": 1794096926.7093277
+  "control:3hWkYmr81vZbyVnTPzcSjSNxxZuSmSdrQUohx86Rrxqf": 1794096926.7093277,
+  "seen:6nGocDUtGSJoSz1gUPgFGTpHtUSK3s7FN6zhB6AfLoat": 1794097107.0151815,
+  "control:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1794097107.0886776,
+  "seen:HMFrT2kiqWBGgiPWXqQuavi3Y7eezEySgwn1yDwfpump": 1794097290.7683547
  },
  "talks": {
   "2026-10-21": 109
