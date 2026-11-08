@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -51502.20043692788,
+   "cash": -51607.44798101872,
    "open": [
     {
      "id": 2388,
@@ -38,45 +38,44 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2394,
+     "id": 2396,
      "desk": "control",
      "market": "meme",
      "symbol": "GPU",
      "mint": "FDZUnsTuyHKYSqriT8JJ1PKFRwbsYRNWhkV5DV9upump",
      "side": 1,
-     "opened": 1794174707.0214288,
-     "entry": 0.0001223,
-     "stop": 9.784e-05,
-     "target": 0.00017121999999999998,
-     "size": 1635322.976287817,
-     "deadline": 1794181907.021429,
+     "opened": 1794175622.1760802,
+     "entry": 9.605e-05,
+     "stop": 7.684000000000002e-05,
+     "target": 0.00013447,
+     "size": 2082248.8287350337,
+     "deadline": 1794182822.1760802,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2395,
+ "next_id": 2397,
  "runs": 82,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6qyXMbv2boPybfcYAtnJHoPg8NX7PaNGHprJk9KTBAGS": 1794175242.1300812,
-  "seen:PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m": 1794175242.1300812,
-  "seen:ARGGnM1zK12eYCzRYbULJECFsMh4DM7hKgxNk97Pearn": 1794175242.1300812,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794175242.1300812,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794175242.1300812,
-  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794175424.346795,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794175424.346795,
-  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794175424.346795,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794175606.9638462,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794175606.9638462,
-  "seen:9SNn5DRQ2G4H8izMomUZ4EJ54m6uJCKebMiGrviFpump": 1794175606.9638462,
-  "control:FDZUnsTuyHKYSqriT8JJ1PKFRwbsYRNWhkV5DV9upump": 1794175607.0214314,
   "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794175790.6202102,
   "seen:FDZUnsTuyHKYSqriT8JJ1PKFRwbsYRNWhkV5DV9upump": 1794175790.6202102,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794175790.6202102,
   "seen:BkYGs8BJzoc7ZgptAiMqAed8KQ31rVTsegBHdPTbpump": 1794175790.6202102,
   "seen:7xWZSw8KfLbPRiLiyPPMNboCq81j3oc53DpAYiXfLoat": 1794175790.6202102,
-  "seen:5b8LGwj96DedD5HzzDskfsd2BqTQQ4pFdQganEW9pump": 1794175972.9864078
+  "seen:5b8LGwj96DedD5HzzDskfsd2BqTQQ4pFdQganEW9pump": 1794175972.9864078,
+  "seen:5YMkXAYccHSGnHn9nob9xEvv6Pvka9DZWH7nTbotTu9E": 1794176155.0853586,
+  "seen:ARGGnM1zK12eYCzRYbULJECFsMh4DM7hKgxNk97Pearn": 1794176155.0853586,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794176155.0853586,
+  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794176338.7702186,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794176338.7702186,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794176338.7702186,
+  "control:5b8LGwj96DedD5HzzDskfsd2BqTQQ4pFdQganEW9pump": 1794176339.5889735,
+  "seen:59ELL1J1FaRzVd3ncB3Bb3Dwyc4eeHn3GEuypeGL6JsP": 1794176522.113172,
+  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794176522.113172,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794176522.113172,
+  "control:FDZUnsTuyHKYSqriT8JJ1PKFRwbsYRNWhkV5DV9upump": 1794176522.176083
  },
  "talks": {
   "2026-10-21": 109
@@ -117,11 +116,11 @@
  ],
  "last_review": 1794158898.5417633,
  "news": {
-  "t": 1794174524.3558388,
+  "t": 1794175438.7792554,
   "crypto": [
-   "What the election results mean for crypto: State of Crypto (2h ago)",
+   "What the election results mean for crypto: State of Crypto (3h ago)",
    "Stablecoin growth has stalled. The payments boom hasn't (3h ago)",
-   "Here\u2019s what happened in crypto today (8h ago)",
+   "Here\u2019s what happened in crypto today (9h ago)",
    "Binance France emails announce closure of its users\u2019 accounts on Dec. 31 (9h ago)",
    "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000) (9h ago)",
    "Amsterdam protesters break into Microsoft data center construction site: Report (12h ago)",
