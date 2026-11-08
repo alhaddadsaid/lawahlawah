@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -50692.941222655354,
+   "cash": -50624.941222655354,
    "open": [
-    {
-     "id": 2336,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MAGGIE",
-     "mint": "8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV",
-     "side": 1,
-     "opened": 1794135601.8019352,
-     "entry": 0.0001853,
-     "stop": 0.00014824,
-     "target": 0.00025942,
-     "size": 1079330.8148947651,
-     "deadline": 1794142801.8019352,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2338,
      "desk": "control",
@@ -44,26 +29,23 @@
  "runs": 80,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794136865.8179023,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794136865.8179023,
-  "seen:GXKH2nRJqu7BznzSdUELcMwk7C3ebNDcqB5YEgM4bbpK": 1794137045.5309122,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794137045.5309122,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794137045.5309122,
-  "seen:2wVaDCBXTmDfrBpyhVddWWWPHh9p8X7VSiUcMbF8rbcm": 1794137227.9321146,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794137227.9321146,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794137227.9321146,
-  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794137227.9321146,
-  "control:2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump": 1794137228.0121949,
-  "seen:FnZSZKjF26bgw9fKuyprzsZ5w54TMGgH5UfUvpxeeeRc": 1794137408.1154459,
-  "seen:FwSSnDHJJpTdh397tf4R1qggm1iEyeq5Fw4xjL2Kf8sd": 1794137408.1154459,
-  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794137408.1154459,
-  "seen:HxAyQ3CH4fpYE3gRAvaaDvbx4b1XyX87MyAGwgdipump": 1794137408.1154459,
-  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794137408.1154459,
-  "seen:2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump": 1794137593.1181574,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1794137593.1181574,
-  "seen:DSAKMZsWvRQL3c4RwhXpicbbygAJXiHz8PMCfoTUpump": 1794137593.1181574,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794137593.1181574,
-  "seen:nyNJvTX7tm83S4Jzf9LA6VDAddNSo264wY3ttJbpump": 1794137593.1181574
+  "seen:AxUJb9oac3wxKVjDgwQq7Ce2v9L8pdVU2VrdMJsUqL81": 1794138135.5611901,
+  "seen:2wVaDCBXTmDfrBpyhVddWWWPHh9p8X7VSiUcMbF8rbcm": 1794138135.5611901,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794138135.5611901,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794138135.5611901,
+  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794138315.739774,
+  "seen:SPYBo66VJPFjh1pXMb9Le53kDYWTK1zzYVDeVRWtsbi": 1794138315.739774,
+  "seen:HxAyQ3CH4fpYE3gRAvaaDvbx4b1XyX87MyAGwgdipump": 1794138315.739774,
+  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794138315.739774,
+  "seen:2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump": 1794138495.6058123,
+  "seen:DSAKMZsWvRQL3c4RwhXpicbbygAJXiHz8PMCfoTUpump": 1794138495.6058123,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794138495.6058123,
+  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794138495.6058123,
+  "seen:FBq8ajZSE7ULApvanTxfeSvBGv1zqrWrCggBcwp9pump": 1794138680.5434499,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794138680.5434499,
+  "seen:GXKH2nRJqu7BznzSdUELcMwk7C3ebNDcqB5YEgM4bbpK": 1794138865.7101355,
+  "seen:E3T6HzJwM7iYh2BsCjWvEubYYRFuwHwH6SqjXassWrW8": 1794138865.7101355,
+  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794138865.7101355
  },
  "talks": {
   "2026-10-21": 109
@@ -104,13 +86,13 @@
  ],
  "last_review": 1794072362.9201233,
  "news": {
-  "t": 1794136145.5384562,
+  "t": 1794137965.7173626,
   "crypto": [
-   "Amsterdam protesters break into Microsoft data center construction site: Report (1h ago)",
+   "Amsterdam protesters break into Microsoft data center construction site: Report (2h ago)",
    "Binance\u2019s  finance chief Kaiser Ng to leave company, report says (3h ago)",
    "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (16h ago)",
    "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (18h ago)",
-   "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets (18h ago)",
+   "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets (19h ago)",
    "Here\u2019s what happened in crypto today (21h ago)",
    "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (21h ago)",
    "Bitcoin holders have received eCash \u2014 What can you do with it? (22h ago)",
@@ -148,5 +130,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794136693.125466
+ "last_macro_macro": 1794137965.717237
 }
