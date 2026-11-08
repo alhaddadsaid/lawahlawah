@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -50267.37357665716,
+   "cash": -50318.62477092468,
    "open": [
     {
      "id": 2301,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2312,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HABIBI",
-     "mint": "GDRSWpEeKWngc26CVLFXZyZCUwo9fEzctZoEAp1qpump",
-     "side": 1,
-     "opened": 1794111783.684354,
-     "entry": 0.0001256,
-     "stop": 0.00010048,
-     "target": 0.00017583999999999997,
-     "size": 1592356.6878980894,
-     "deadline": 1794118983.6843543,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2313,
      "desk": "control",
      "market": "meme",
@@ -74,23 +59,22 @@
  "runs": 79,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1794113233.9905074,
-  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794113233.9905074,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794113233.9905074,
-  "seen:8pP2Hgkkq7s8Moabis5B4eWp9yJEme8Ni89gHeB5pump": 1794113417.960241,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794113417.960241,
-  "control:6nGocDUtGSJoSz1gUPgFGTpHtUSK3s7FN6zhB6AfLoat": 1794113418.2438698,
-  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794113597.5806537,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794113597.5806537,
-  "seen:GDRSWpEeKWngc26CVLFXZyZCUwo9fEzctZoEAp1qpump": 1794113597.5806537,
-  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794113597.5806537,
   "seen:9GpJDZrgXvGXxGjffCZhhYfyLyZ94QTezQoipn74pump": 1794113780.6555383,
   "seen:HxAyQ3CH4fpYE3gRAvaaDvbx4b1XyX87MyAGwgdipump": 1794113780.6555383,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794113780.6555383,
   "seen:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794113964.114167,
   "seen:GTdy1uDaGbtMah4u5cYwwLKLvSzXVN73yCefGpF9pump": 1794113964.114167,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794113964.114167,
-  "seen:iZgJnvD4hyG9s6yg4yYbfTPoExJSKPdp8N68pkhpump": 1794113964.114167
+  "seen:iZgJnvD4hyG9s6yg4yYbfTPoExJSKPdp8N68pkhpump": 1794113964.114167,
+  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1794114148.466933,
+  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794114148.466933,
+  "seen:8pP2Hgkkq7s8Moabis5B4eWp9yJEme8Ni89gHeB5pump": 1794114332.3827221,
+  "seen:JpA7Wz7Vhhiyb7YSSxSjKYCPAHd56ZF4wp8QKULpump": 1794114332.3827221,
+  "seen:GDRSWpEeKWngc26CVLFXZyZCUwo9fEzctZoEAp1qpump": 1794114515.6565888,
+  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794114515.6565888,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794114515.6565888,
+  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794114515.6565888,
+  "seen:8Nw2EFGk56dxphcTGf2sxcaAUnaiqWPWJffjQEMypump": 1794114515.6565888
  },
  "talks": {
   "2026-10-21": 109
@@ -131,18 +115,18 @@
  ],
  "last_review": 1794072362.9201233,
  "news": {
-  "t": 1794112333.9976642,
+  "t": 1794113248.4739404,
   "crypto": [
-   "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (9h ago)",
+   "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (10h ago)",
    "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (11h ago)",
    "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets (12h ago)",
    "Here\u2019s what happened in crypto today (14h ago)",
-   "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (14h ago)",
+   "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (15h ago)",
    "Bitcoin holders have received eCash \u2014 What can you do with it? (15h ago)",
-   "US sanctions Canadian money-exchange firms over Iran ties (17h ago)",
-   "Suspicious prediction market activity seen before election poll release: NYT (19h ago)",
+   "US sanctions Canadian money-exchange firms over Iran ties (18h ago)",
+   "Suspicious prediction market activity seen before election poll release: NYT (20h ago)",
    "Nvidia may face a more hostile post-election Washington: Report (21h ago)",
-   "US Treasury cuts off MEXC over alleged $16B in illicit transactions (31h ago)"
+   "US Treasury cuts off MEXC over alleged $16B in illicit transactions (32h ago)"
   ],
   "macro": [],
   "calendar": []
