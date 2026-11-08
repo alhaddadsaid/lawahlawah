@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-08 02:14 UTC. Runs so far: 78. Model: claude-haiku-5-5.
+Updated 2026-11-08 02:30 UTC. Runs so far: 78. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2223 | 30 | -59619.71 | -80890.96 |
+| control | meme | 2225 | 30 | -59737.65 | -81026.39 |
 | control | macro | 46 | 48 | 28.03 | -198.72 |
-| control | all | 2269 | 31 | -59591.68 | -81089.68 |
+| control | all | 2271 | 31 | -59709.62 | -81225.11 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: TAOLF long at 0.000193, stop 0.0001544, target 0.0002702, opened 2026-11-08 00:49 UTC
 - control: Percolator long at 0.000243, stop 0.0001944, target 0.0003402, opened 2026-11-08 01:50 UTC
 - control: EVE long at 0.0002042, stop 0.00016336, target 0.00028588, opened 2026-11-08 02:11 UTC
-- control: MAGGIE long at 0.0001808, stop 0.00014464, target 0.00025312, opened 2026-11-08 02:14 UTC
+- control: SINK long at 0.0001102, stop 8.816e-05, target 0.00015428, opened 2026-11-08 02:24 UTC
+- control: invest long at 0.000117, stop 9.36e-05, target 0.0001638, opened 2026-11-08 02:27 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-08 02:14 UTC control: OPENED MAGGIE long at 0.0001808 (stop 0.00014464, target 0.00025312) - control: frozen v3 rules
+- control: CLOSED TAOLF (stop) P&L $-51.42 normal, $-60.36 pessimistic
 
