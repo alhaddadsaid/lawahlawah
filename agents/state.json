@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -50691.517822865215,
+   "cash": -50623.517822865215,
    "open": [
     {
      "id": 2339,
@@ -51,23 +51,29 @@
      "size": 747943.1563201197,
      "deadline": 1794146263.9051404,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2343,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "UNEMPLOYED",
+     "mint": "HJSJ7NUXYZ8es3UZ4w35XEsw7YRJLakKetBsz1WDpump",
+     "side": 1,
+     "opened": 1794139789.055938,
+     "entry": 6.917e-05,
+     "stop": 5.533600000000001e-05,
+     "target": 9.6838e-05,
+     "size": 2891426.919184617,
+     "deadline": 1794146989.0559382,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2342,
+ "next_id": 2344,
  "runs": 80,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump": 1794139417.3028715,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794139417.3028715,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794139601.2121365,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794139601.2121365,
-  "control:2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump": 1794139601.2719278,
-  "seen:GXKH2nRJqu7BznzSdUELcMwk7C3ebNDcqB5YEgM4bbpK": 1794139782.8522708,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794139782.8522708,
-  "seen:6nGocDUtGSJoSz1gUPgFGTpHtUSK3s7FN6zhB6AfLoat": 1794139782.8522708,
-  "control:6nGocDUtGSJoSz1gUPgFGTpHtUSK3s7FN6zhB6AfLoat": 1794139783.4619765,
   "seen:2wVaDCBXTmDfrBpyhVddWWWPHh9p8X7VSiUcMbF8rbcm": 1794139963.87042,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794139963.87042,
   "seen:DSAKMZsWvRQL3c4RwhXpicbbygAJXiHz8PMCfoTUpump": 1794139963.87042,
@@ -79,7 +85,18 @@
   "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794140146.0645628,
   "seen:HxAyQ3CH4fpYE3gRAvaaDvbx4b1XyX87MyAGwgdipump": 1794140146.0645628,
   "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794140146.0645628,
-  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794140146.0645628
+  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794140146.0645628,
+  "seen:2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump": 1794140327.6717253,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794140327.6717253,
+  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794140327.6717253,
+  "control:HxAyQ3CH4fpYE3gRAvaaDvbx4b1XyX87MyAGwgdipump": 1794140327.7084947,
+  "seen:DofpewrYk8Hf5gLnUJg4StC7pA6jhdyPwspqA9adpump": 1794140508.3655927,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794140508.3655927,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794140508.3655927,
+  "seen:GXKH2nRJqu7BznzSdUELcMwk7C3ebNDcqB5YEgM4bbpK": 1794140688.535111,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794140688.535111,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794140688.535111,
+  "control:HJSJ7NUXYZ8es3UZ4w35XEsw7YRJLakKetBsz1WDpump": 1794140689.055941
  },
  "talks": {
   "2026-10-21": 109
@@ -120,16 +137,16 @@
  ],
  "last_review": 1794072362.9201233,
  "news": {
-  "t": 1794138882.859439,
+  "t": 1794139788.5425274,
   "crypto": [
    "Amsterdam protesters break into Microsoft data center construction site: Report (2h ago)",
    "Binance\u2019s  finance chief Kaiser Ng to leave company, report says (4h ago)",
    "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (17h ago)",
-   "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (18h ago)",
+   "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (19h ago)",
    "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets (19h ago)",
    "Here\u2019s what happened in crypto today (22h ago)",
    "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (22h ago)",
-   "Bitcoin holders have received eCash \u2014 What can you do with it? (22h ago)",
+   "Bitcoin holders have received eCash \u2014 What can you do with it? (23h ago)",
    "US sanctions Canadian money-exchange firms over Iran ties (25h ago)",
    "Suspicious prediction market activity seen before election poll release: NYT (27h ago)"
   ],
