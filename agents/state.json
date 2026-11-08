@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -51674.495421717846,
+   "cash": -51606.495421717846,
    "open": [
     {
      "id": 2388,
@@ -38,45 +38,43 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2396,
+     "id": 2398,
      "desk": "control",
      "market": "meme",
      "symbol": "GPU",
      "mint": "FDZUnsTuyHKYSqriT8JJ1PKFRwbsYRNWhkV5DV9upump",
      "side": 1,
-     "opened": 1794175622.1760802,
-     "entry": 9.605e-05,
-     "stop": 7.684000000000002e-05,
-     "target": 0.00013447,
-     "size": 2082248.8287350337,
-     "deadline": 1794182822.1760802,
+     "opened": 1794177084.5939608,
+     "entry": 0.0001302,
+     "stop": 0.00010416,
+     "target": 0.00018228,
+     "size": 1536098.3102918589,
+     "deadline": 1794184284.5939608,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2398,
+ "next_id": 2399,
  "runs": 82,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794176338.7702186,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794176338.7702186,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794176338.7702186,
-  "control:5b8LGwj96DedD5HzzDskfsd2BqTQQ4pFdQganEW9pump": 1794176339.5889735,
-  "seen:59ELL1J1FaRzVd3ncB3Bb3Dwyc4eeHn3GEuypeGL6JsP": 1794176522.113172,
-  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794176522.113172,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794176522.113172,
-  "control:FDZUnsTuyHKYSqriT8JJ1PKFRwbsYRNWhkV5DV9upump": 1794176522.176083,
-  "seen:HLaSzRgp4mkZeDrAEKTJvr2UhSokYPxRS7auuYmg3xDX": 1794176704.578799,
-  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794176704.578799,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794176704.578799,
-  "seen:BkYGs8BJzoc7ZgptAiMqAed8KQ31rVTsegBHdPTbpump": 1794176704.578799,
-  "seen:FDZUnsTuyHKYSqriT8JJ1PKFRwbsYRNWhkV5DV9upump": 1794176704.578799,
-  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1794176888.5672972,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794177071.0297835,
-  "seen:ARGGnM1zK12eYCzRYbULJECFsMh4DM7hKgxNk97Pearn": 1794177071.0297835,
-  "seen:5b8LGwj96DedD5HzzDskfsd2BqTQQ4pFdQganEW9pump": 1794177071.0297835,
-  "control:ARGGnM1zK12eYCzRYbULJECFsMh4DM7hKgxNk97Pearn": 1794177071.3347528
+  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794177253.7014463,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794177253.7014463,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794177253.7014463,
+  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794177253.7014463,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794177253.7014463,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794177436.568304,
+  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794177436.568304,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794177436.568304,
+  "seen:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794177436.568304,
+  "seen:kLDAciuGuEgpRpZHGNMPV9Tv18iSgV47hPtn3Aopump": 1794177620.268882,
+  "seen:FDZUnsTuyHKYSqriT8JJ1PKFRwbsYRNWhkV5DV9upump": 1794177620.268882,
+  "seen:BkYGs8BJzoc7ZgptAiMqAed8KQ31rVTsegBHdPTbpump": 1794177620.268882,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794177802.246547,
+  "seen:8iyrWEVfFz9uWsdHtcRSDJKtTH4sTMB8gYDKDzopump": 1794177802.246547,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794177802.246547,
+  "control:FDZUnsTuyHKYSqriT8JJ1PKFRwbsYRNWhkV5DV9upump": 1794177984.593964
  },
  "talks": {
   "2026-10-21": 109
@@ -117,17 +115,17 @@
  ],
  "last_review": 1794158898.5417633,
  "news": {
-  "t": 1794175438.7792554,
+  "t": 1794176353.7105567,
   "crypto": [
    "What the election results mean for crypto: State of Crypto (3h ago)",
    "Stablecoin growth has stalled. The payments boom hasn't (3h ago)",
    "Here\u2019s what happened in crypto today (9h ago)",
    "Binance France emails announce closure of its users\u2019 accounts on Dec. 31 (9h ago)",
    "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000) (9h ago)",
-   "Amsterdam protesters break into Microsoft data center construction site: Report (12h ago)",
+   "Amsterdam protesters break into Microsoft data center construction site: Report (13h ago)",
    "Binance\u2019s  finance chief Kaiser Ng to leave company, report says (14h ago)",
    "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (27h ago)",
-   "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (28h ago)",
+   "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (29h ago)",
    "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets (29h ago)"
   ],
   "macro": [],
