@@ -66,30 +66,49 @@
      "size": 1084010.840108401,
      "deadline": 1794114780.798381,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2302,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SINK",
+     "mint": "984e63aof7rNPgWif3qYT4Jaj8F23EQGrEGqW63Qpump",
+     "side": 1,
+     "opened": 1794107761.3597603,
+     "entry": 0.0001394,
+     "stop": 0.00011152000000000002,
+     "target": 0.00019516,
+     "size": 1434720.2295552366,
+     "deadline": 1794114961.3597605,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2302,
+ "next_id": 2303,
  "runs": 78,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:984e63aof7rNPgWif3qYT4Jaj8F23EQGrEGqW63Qpump": 1794107748.933665,
-  "seen:G1evzzdxVXa7q3ypytdrEWstKdaS2rvDG8q76jDTpump": 1794107929.7192216,
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794107929.7192216,
-  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794107929.7192216,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794107929.7192216,
-  "seen:GDRSWpEeKWngc26CVLFXZyZCUwo9fEzctZoEAp1qpump": 1794108113.0024703,
-  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794108113.0024703,
-  "seen:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1794108113.0024703,
-  "control:GDRSWpEeKWngc26CVLFXZyZCUwo9fEzctZoEAp1qpump": 1794108113.0631616,
   "seen:9GpJDZrgXvGXxGjffCZhhYfyLyZ94QTezQoipn74pump": 1794108296.815586,
   "seen:HxAyQ3CH4fpYE3gRAvaaDvbx4b1XyX87MyAGwgdipump": 1794108296.815586,
   "seen:DSAKMZsWvRQL3c4RwhXpicbbygAJXiHz8PMCfoTUpump": 1794108296.815586,
   "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1794108296.815586,
   "seen:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794108480.725879,
   "seen:6su7bnRHedae92kCE98uyuN7nqYHdCkMK6G9Z3uhpump": 1794108480.725879,
-  "control:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1794108480.798383
+  "control:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1794108480.798383,
+  "seen:984e63aof7rNPgWif3qYT4Jaj8F23EQGrEGqW63Qpump": 1794108660.6781156,
+  "seen:bVRV4tjH5au5s6NLQQsGujW1gBP3JcrRaA4HTgupump": 1794108660.6781156,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794108660.6781156,
+  "control:984e63aof7rNPgWif3qYT4Jaj8F23EQGrEGqW63Qpump": 1794108661.3597627,
+  "seen:2c5dM9PJrGi4zZwUT9nphUu6WpQau7gdB17RLfTypWBo": 1794108844.6789486,
+  "seen:HQV9cMMbpAjy5QQnRbTz7wMbNn4AUa9y2kTKr6TKYgZT": 1794108844.6789486,
+  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794108844.6789486,
+  "seen:4suXD49z5pzGNRBsxrFHE2vHzzJy6f1cQi5pHieqpump": 1794109028.1316392,
+  "seen:GDRSWpEeKWngc26CVLFXZyZCUwo9fEzctZoEAp1qpump": 1794109028.1316392,
+  "seen:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1794109028.1316392,
+  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794109028.1316392,
+  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794109028.1316392,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794109028.1316392
  },
  "talks": {
   "2026-10-21": 109
@@ -130,17 +149,17 @@
  ],
  "last_review": 1794072362.9201233,
  "news": {
-  "t": 1794106848.9408805,
+  "t": 1794107760.685134,
   "crypto": [
    "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (8h ago)",
-   "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (9h ago)",
+   "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (10h ago)",
    "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets (10h ago)",
    "Here\u2019s what happened in crypto today (13h ago)",
    "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (13h ago)",
    "Bitcoin holders have received eCash \u2014 What can you do with it? (14h ago)",
    "US sanctions Canadian money-exchange firms over Iran ties (16h ago)",
    "Suspicious prediction market activity seen before election poll release: NYT (18h ago)",
-   "Nvidia may face a more hostile post-election Washington: Report (19h ago)",
+   "Nvidia may face a more hostile post-election Washington: Report (20h ago)",
    "US Treasury cuts off MEXC over alleged $16B in illicit transactions (30h ago)"
   ],
   "macro": [],
