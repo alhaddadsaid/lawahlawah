@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-08 01:01 UTC. Runs so far: 78. Model: claude-haiku-5-5.
+Updated 2026-11-08 01:10 UTC. Runs so far: 78. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2219 | 30 | -59654.17 | -80883.52 |
+| control | meme | 2220 | 30 | -59586.17 | -80827.52 |
 | control | macro | 46 | 48 | 28.03 | -198.72 |
-| control | all | 2265 | 31 | -59626.14 | -81082.24 |
+| control | all | 2266 | 31 | -59558.14 | -81026.24 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: Percolator long at 0.0003198, stop 0.00025584, target 0.00044772, opened 2026-11-08 00:18 UTC
 - control: invest long at 0.0002005, stop 0.0001604, target 0.0002807, opened 2026-11-08 00:40 UTC
 - control: TAOLF long at 0.000193, stop 0.0001544, target 0.0002702, opened 2026-11-08 00:49 UTC
-- control: MAGGIE long at 0.0001196, stop 9.568e-05, target 0.00016744, opened 2026-11-08 00:58 UTC
 
 ## Team
 
@@ -33,6 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
-- control: order GOLD REJECTED by guardrails: GOLD market closed or data stale
+- control: order TAOLF REJECTED by guardrails: TAOLF already open
 
