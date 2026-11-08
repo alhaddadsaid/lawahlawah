@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -49557.997841041666,
+   "cash": -49607.095097899524,
    "open": [
     {
      "id": 2282,
@@ -20,21 +20,6 @@
      "target": 0.00044772,
      "size": 625390.8692933082,
      "deadline": 1794104327.3765216,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2286,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "invest",
-     "mint": "5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij",
-     "side": 1,
-     "opened": 1794098410.4058328,
-     "entry": 0.0002005,
-     "stop": 0.0001604,
-     "target": 0.00028069999999999994,
-     "size": 997506.2344139651,
-     "deadline": 1794105610.405833,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -59,16 +44,6 @@
  "runs": 78,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FevRmdX2AdU5227ihMKCi8YLQgeaEEmyrcUk3FUEpump": 1794100404.1176093,
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794100404.1176093,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794100404.1176093,
-  "control:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794100404.8688807,
-  "seen:DSAKMZsWvRQL3c4RwhXpicbbygAJXiHz8PMCfoTUpump": 1794100587.918929,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794100587.918929,
-  "seen:GC2mgugLJxmsECBiWn41EnigcyVx4nW4AvPuutRepump": 1794100587.918929,
-  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794100587.918929,
-  "seen:74SBV4zDXxTRgv1pEMoECskKBkZHc2yGPnc7GYVepump": 1794100772.7178917,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794100772.7178917,
   "seen:J8PSdNP3QewKq2Z1JJJFDMaqF7KcaiJhR7gbr5KZpump": 1794100956.3466399,
   "seen:HHgNzGNwvS4MPWqDXp2zkwLEpsxASiWZGtW3MYbV1NhF": 1794100956.3466399,
   "seen:8SQXVMEfccBmErcbFsdvk3iMjyTYbFt2vUHGKyLYpump": 1794100956.3466399,
@@ -78,7 +53,16 @@
   "seen:3hWkYmr81vZbyVnTPzcSjSNxxZuSmSdrQUohx86Rrxqf": 1794101139.7017398,
   "seen:HMFrT2kiqWBGgiPWXqQuavi3Y7eezEySgwn1yDwfpump": 1794101139.7017398,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794101139.7017398,
-  "seen:5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij": 1794101139.7017398
+  "seen:5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij": 1794101139.7017398,
+  "seen:CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD": 1794101324.9131947,
+  "seen:TQjuRxYajQny2ZGyWoKsPqiveBNeccL7U1GAkkgpump": 1794101324.9131947,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794101324.9131947,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794101509.0498319,
+  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794101509.0498319,
+  "seen:GC2mgugLJxmsECBiWn41EnigcyVx4nW4AvPuutRepump": 1794101509.0498319,
+  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794101509.0498319,
+  "seen:DSWbaZt4hrmZpgtV83fSQ4zvm2WAWQL89yZ2tsHkpump": 1794101692.6079686,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794101692.6079686
  },
  "talks": {
   "2026-10-21": 109
@@ -119,14 +103,14 @@
  ],
  "last_review": 1794072362.9201233,
  "news": {
-  "t": 1794099504.125196,
+  "t": 1794100424.9210002,
   "crypto": [
    "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (6h ago)",
-   "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (7h ago)",
+   "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (8h ago)",
    "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets (8h ago)",
    "Here\u2019s what happened in crypto today (11h ago)",
    "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (11h ago)",
-   "Bitcoin holders have received eCash \u2014 What can you do with it? (11h ago)",
+   "Bitcoin holders have received eCash \u2014 What can you do with it? (12h ago)",
    "US sanctions Canadian money-exchange firms over Iran ties (14h ago)",
    "Suspicious prediction market activity seen before election poll release: NYT (16h ago)",
    "Nvidia may face a more hostile post-election Washington: Report (17h ago)",
