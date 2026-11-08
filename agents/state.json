@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -50350.9645183641,
+   "cash": -50282.9645183641,
    "open": [
     {
      "id": 2315,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2316,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "APU",
-     "mint": "6nGocDUtGSJoSz1gUPgFGTpHtUSK3s7FN6zhB6AfLoat",
-     "side": 1,
-     "opened": 1794114368.057269,
-     "entry": 0.0003612,
-     "stop": 0.00028896,
-     "target": 0.0005056799999999999,
-     "size": 553709.8560354374,
-     "deadline": 1794121568.0572693,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2318,
      "desk": "control",
      "market": "meme",
@@ -51,32 +36,47 @@
      "size": 839983.2003359933,
      "deadline": 1794122297.172795,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2320,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "TAOLF",
+     "mint": "3hWkYmr81vZbyVnTPzcSjSNxxZuSmSdrQUohx86Rrxqf",
+     "side": 1,
+     "opened": 1794116914.2341428,
+     "entry": 0.000125,
+     "stop": 0.0001,
+     "target": 0.00017499999999999997,
+     "size": 1600000.0,
+     "deadline": 1794124114.234143,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2320,
+ "next_id": 2321,
  "runs": 79,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:EqmfJhKumCvtaAFwW1CziPR4dACPDyofcr76zzyGpump": 1794116542.0451996,
-  "seen:HxAyQ3CH4fpYE3gRAvaaDvbx4b1XyX87MyAGwgdipump": 1794116542.0451996,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794116542.0451996,
-  "seen:2itMfeMcccmvtHqW8EwZSegHFyPzT7sM51cJBjvQY7sB": 1794116722.908641,
-  "seen:5p6YZzL4VLK7Gn4miYz6BUtaUN6sS8i3epGpxF2Tbzei": 1794116722.908641,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794116722.908641,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794116722.908641,
-  "seen:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794116722.908641,
-  "seen:5cxhUCLS72AthmgeL2oLnLFk7KNiyTvt2q8voZKgpump": 1794116722.908641,
-  "seen:GXKH2nRJqu7BznzSdUELcMwk7C3ebNDcqB5YEgM4bbpK": 1794116904.4883943,
-  "seen:2NE9a9gWFv8pztvHQa91oKDThS6skxWEqBGHVNEDpump": 1794116904.4883943,
-  "seen:8pP2Hgkkq7s8Moabis5B4eWp9yJEme8Ni89gHeB5pump": 1794117086.0707307,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794117086.0707307,
-  "control:8pP2Hgkkq7s8Moabis5B4eWp9yJEme8Ni89gHeB5pump": 1794117086.1996942,
-  "seen:HhJxFcHkLaEr7x1Wi8Li7S9gCjDVkuqR1t1F6hgVhdJ4": 1794117268.7216768,
-  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794117268.7216768,
-  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794117268.7216768,
-  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794117268.7216768
+  "seen:6Deksqa8cwi5qUsBbApkKfQHiig9jv4UVhWN7uiDpump": 1794117450.1731043,
+  "seen:HxAyQ3CH4fpYE3gRAvaaDvbx4b1XyX87MyAGwgdipump": 1794117450.1731043,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794117450.1731043,
+  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1794117450.1731043,
+  "seen:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794117631.3784375,
+  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794117631.3784375,
+  "seen:5cxhUCLS72AthmgeL2oLnLFk7KNiyTvt2q8voZKgpump": 1794117631.3784375,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794117631.3784375,
+  "seen:GXKH2nRJqu7BznzSdUELcMwk7C3ebNDcqB5YEgM4bbpK": 1794117813.6500807,
+  "seen:2NE9a9gWFv8pztvHQa91oKDThS6skxWEqBGHVNEDpump": 1794117813.6500807,
+  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794117813.6500807,
+  "seen:3hWkYmr81vZbyVnTPzcSjSNxxZuSmSdrQUohx86Rrxqf": 1794117813.6500807,
+  "control:3hWkYmr81vZbyVnTPzcSjSNxxZuSmSdrQUohx86Rrxqf": 1794117814.2341452,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794117995.5751736,
+  "seen:8N6Xy7SAh7gW4bZDT7kwyYUMANKCwAVEooXC96Lipump": 1794118176.4263544,
+  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794118176.4263544,
+  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794118176.4263544,
+  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794118176.4263544
  },
  "talks": {
   "2026-10-21": 109
@@ -117,18 +117,18 @@
  ],
  "last_review": 1794072362.9201233,
  "news": {
-  "t": 1794116004.4953327,
+  "t": 1794116913.65711,
   "crypto": [
-   "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (10h ago)",
+   "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (11h ago)",
    "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (12h ago)",
    "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets (13h ago)",
    "Here\u2019s what happened in crypto today (15h ago)",
-   "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (15h ago)",
+   "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (16h ago)",
    "Bitcoin holders have received eCash \u2014 What can you do with it? (16h ago)",
-   "US sanctions Canadian money-exchange firms over Iran ties (18h ago)",
-   "Suspicious prediction market activity seen before election poll release: NYT (20h ago)",
+   "US sanctions Canadian money-exchange firms over Iran ties (19h ago)",
+   "Suspicious prediction market activity seen before election poll release: NYT (21h ago)",
    "Nvidia may face a more hostile post-election Washington: Report (22h ago)",
-   "US Treasury cuts off MEXC over alleged $16B in illicit transactions (32h ago)"
+   "US Treasury cuts off MEXC over alleged $16B in illicit transactions (33h ago)"
   ],
   "macro": [],
   "calendar": []
