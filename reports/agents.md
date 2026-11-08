@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-08 14:52 UTC. Runs so far: 80. Model: claude-haiku-5-5.
+Updated 2026-11-08 15:01 UTC. Runs so far: 80. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2288 | 31 | -60545.38 | -82459.54 |
+| control | meme | 2290 | 31 | -60409.38 | -82347.54 |
 | control | macro | 46 | 48 | 28.03 | -198.72 |
-| control | all | 2334 | 31 | -60517.35 | -82658.26 |
+| control | all | 2336 | 31 | -60381.35 | -82546.26 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: MELT long at 0.0001957, stop 0.00015656, target 0.00027398, opened 2026-11-08 14:04 UTC
 - control: APU long at 0.0003229, stop 0.00025832, target 0.00045206, opened 2026-11-08 14:07 UTC
 - control: yarl long at 0.0001388, stop 0.00011104, target 0.00019432, opened 2026-11-08 14:19 UTC
 - control: invest long at 0.0001355, stop 0.0001084, target 0.0001897, opened 2026-11-08 14:25 UTC
-- control: PIRATE long at 0.0005267, stop 0.00042136, target 0.00073738, opened 2026-11-08 14:43 UTC
+- control: DV long at 0.0004446, stop 0.00035568, target 0.00062244, opened 2026-11-08 15:01 UTC
 
 ## Team
 
@@ -34,5 +33,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order DV REJECTED by guardrails: desk already has the maximum open positions
+- 2026-11-08 15:01 UTC control: OPENED DV long at 0.0004446 (stop 0.00035568, target 0.00062244) - control: frozen v3 rules
+- control: order GOLD REJECTED by guardrails: GOLD market closed or data stale
 

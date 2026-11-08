@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -50517.18473007572,
+   "cash": -50381.18473007572,
    "open": [
-    {
-     "id": 2352,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MELT",
-     "mint": "5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump",
-     "side": 1,
-     "opened": 1794146666.3823469,
-     "entry": 0.0001957,
-     "stop": 0.00015656000000000003,
-     "target": 0.00027398,
-     "size": 1021972.4067450179,
-     "deadline": 1794153866.382347,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2353,
      "desk": "control",
@@ -68,37 +53,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2358,
+     "id": 2359,
      "desk": "control",
      "market": "meme",
-     "symbol": "PIRATE",
-     "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
+     "symbol": "DV",
+     "mint": "BQn2Wz514RzRoMSg32wAa8YZa4xDvNSzh127SmYYpump",
      "side": 1,
-     "opened": 1794149021.3443968,
-     "entry": 0.0005267,
-     "stop": 0.00042135999999999996,
-     "target": 0.0007373799999999999,
-     "size": 379722.8023542814,
-     "deadline": 1794156221.344397,
+     "opened": 1794150109.720802,
+     "entry": 0.0004446,
+     "stop": 0.00035568000000000004,
+     "target": 0.00062244,
+     "size": 449842.55510571296,
+     "deadline": 1794157309.720802,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2359,
+ "next_id": 2360,
  "runs": 80,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GXKH2nRJqu7BznzSdUELcMwk7C3ebNDcqB5YEgM4bbpK": 1794149739.2583444,
-  "seen:5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump": 1794149739.2583444,
-  "seen:HmGTHFH5cuKky43qdXXAG4DwZ27txEGTueu6ag5Qpump": 1794149739.2583444,
-  "seen:5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij": 1794149739.2583444,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794149921.2498934,
-  "seen:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794149921.2498934,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794149921.2498934,
-  "control:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1794149921.3443995,
-  "seen:2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump": 1794150101.7164028,
-  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794150101.7164028,
   "seen:bSPM9hWvCagiBR6uvQonRCAezKzi6LL4hJYrW6ZKMXD": 1794150281.7119048,
   "seen:BQn2Wz514RzRoMSg32wAa8YZa4xDvNSzh127SmYYpump": 1794150281.7119048,
   "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794150281.7119048,
@@ -106,13 +81,24 @@
   "seen:9KodgZ5ZiN6xL1z2jyHDiCzXfR1eGqz867phn8bMpump": 1794150462.3043818,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794150462.3043818,
   "seen:DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump": 1794150462.3043818,
-  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794150462.3043818
+  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794150462.3043818,
+  "seen:GXKH2nRJqu7BznzSdUELcMwk7C3ebNDcqB5YEgM4bbpK": 1794150643.7515476,
+  "seen:5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump": 1794150643.7515476,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1794150643.7515476,
+  "seen:5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij": 1794150643.7515476,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794150824.4920955,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794150824.4920955,
+  "seen:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794150824.4920955,
+  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794150824.4920955,
+  "seen:HmGTHFH5cuKky43qdXXAG4DwZ27txEGTueu6ag5Qpump": 1794150824.4920955,
+  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794151009.6253679,
+  "control:BQn2Wz514RzRoMSg32wAa8YZa4xDvNSzh127SmYYpump": 1794151009.720806
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498361,
+ "ctrl_macro_hour": 498375,
  "team": [
   {
    "name": "Lead",
@@ -147,17 +133,17 @@
  ],
  "last_review": 1794072362.9201233,
  "news": {
-  "t": 1794148839.2658937,
+  "t": 1794149743.7637792,
   "crypto": [
    "Here\u2019s what happened in crypto today (1h ago)",
    "Binance France emails announce closure of its users\u2019 accounts on Dec. 31 (2h ago)",
    "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000) (2h ago)",
    "Amsterdam protesters break into Microsoft data center construction site: Report (5h ago)",
-   "Binance\u2019s  finance chief Kaiser Ng to leave company, report says (6h ago)",
-   "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (19h ago)",
+   "Binance\u2019s  finance chief Kaiser Ng to leave company, report says (7h ago)",
+   "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (20h ago)",
    "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (21h ago)",
    "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets (22h ago)",
-   "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (24h ago)",
+   "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (25h ago)",
    "Bitcoin holders have received eCash \u2014 What can you do with it? (25h ago)"
   ],
   "macro": [],
