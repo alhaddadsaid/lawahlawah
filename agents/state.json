@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -50381.18473007572,
+   "cash": -50362.94337560886,
    "open": [
     {
      "id": 2353,
@@ -23,36 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2355,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "yarl",
-     "mint": "2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump",
-     "side": 1,
-     "opened": 1794147572.1841545,
-     "entry": 0.0001388,
-     "stop": 0.00011104000000000001,
-     "target": 0.00019431999999999997,
-     "size": 1440922.190201729,
-     "deadline": 1794154772.1841545,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2356,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "invest",
-     "mint": "5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij",
-     "side": 1,
-     "opened": 1794147935.1881618,
-     "entry": 0.0001355,
-     "stop": 0.00010839999999999999,
-     "target": 0.00018969999999999998,
-     "size": 1476014.7601476016,
-     "deadline": 1794155135.188162,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2359,
      "desk": "control",
      "market": "meme",
@@ -66,33 +36,64 @@
      "size": 449842.55510571296,
      "deadline": 1794157309.720802,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2360,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PIRATE",
+     "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
+     "side": 1,
+     "opened": 1794150291.6484833,
+     "entry": 0.0007495,
+     "stop": 0.0005995999999999999,
+     "target": 0.0010492999999999998,
+     "size": 266844.56304202805,
+     "deadline": 1794157491.6484833,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2361,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "yarl",
+     "mint": "2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump",
+     "side": 1,
+     "opened": 1794150472.4677927,
+     "entry": 0.0001012,
+     "stop": 8.096e-05,
+     "target": 0.00014167999999999996,
+     "size": 1976284.5849802373,
+     "deadline": 1794157672.467793,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2360,
+ "next_id": 2362,
  "runs": 80,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:bSPM9hWvCagiBR6uvQonRCAezKzi6LL4hJYrW6ZKMXD": 1794150281.7119048,
-  "seen:BQn2Wz514RzRoMSg32wAa8YZa4xDvNSzh127SmYYpump": 1794150281.7119048,
-  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794150281.7119048,
-  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1794150462.3043818,
-  "seen:9KodgZ5ZiN6xL1z2jyHDiCzXfR1eGqz867phn8bMpump": 1794150462.3043818,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794150462.3043818,
-  "seen:DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump": 1794150462.3043818,
-  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794150462.3043818,
-  "seen:GXKH2nRJqu7BznzSdUELcMwk7C3ebNDcqB5YEgM4bbpK": 1794150643.7515476,
-  "seen:5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump": 1794150643.7515476,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1794150643.7515476,
-  "seen:5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij": 1794150643.7515476,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794150824.4920955,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794150824.4920955,
   "seen:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794150824.4920955,
   "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794150824.4920955,
   "seen:HmGTHFH5cuKky43qdXXAG4DwZ27txEGTueu6ag5Qpump": 1794150824.4920955,
   "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794151009.6253679,
-  "control:BQn2Wz514RzRoMSg32wAa8YZa4xDvNSzh127SmYYpump": 1794151009.720806
+  "control:BQn2Wz514RzRoMSg32wAa8YZa4xDvNSzh127SmYYpump": 1794151009.720806,
+  "seen:BQn2Wz514RzRoMSg32wAa8YZa4xDvNSzh127SmYYpump": 1794151191.5614226,
+  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794151191.5614226,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794151191.5614226,
+  "control:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1794151191.648487,
+  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1794151372.3927712,
+  "seen:3kq7isckaGAPMYpyH4MX3TwbRnnrLcRonpXfkx4apump": 1794151372.3927712,
+  "seen:2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump": 1794151372.3927712,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794151372.3927712,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794151372.3927712,
+  "control:2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump": 1794151372.4677963,
+  "seen:2jH7KVHtRYzyg9P7sqKMufQ8PduxoAmLRzBRKNuajNLd": 1794151552.7800605,
+  "seen:5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump": 1794151552.7800605,
+  "seen:CzwzQw6eGr9RjF3ZLmEPxcxspSk6csRg9Gpvsnycz5eD": 1794151552.7800605
  },
  "talks": {
   "2026-10-21": 109
@@ -133,18 +134,18 @@
  ],
  "last_review": 1794072362.9201233,
  "news": {
-  "t": 1794149743.7637792,
+  "t": 1794150652.7881093,
   "crypto": [
-   "Here\u2019s what happened in crypto today (1h ago)",
+   "Here\u2019s what happened in crypto today (2h ago)",
    "Binance France emails announce closure of its users\u2019 accounts on Dec. 31 (2h ago)",
    "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000) (2h ago)",
    "Amsterdam protesters break into Microsoft data center construction site: Report (5h ago)",
    "Binance\u2019s  finance chief Kaiser Ng to leave company, report says (7h ago)",
    "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (20h ago)",
-   "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (21h ago)",
+   "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (22h ago)",
    "Gnosis Pay breach exposes card numbers, home addresses and linked crypto wallets (22h ago)",
    "Ex-FBI counterintelligence agent stole almost $2.5M in crypto (25h ago)",
-   "Bitcoin holders have received eCash \u2014 What can you do with it? (25h ago)"
+   "Bitcoin holders have received eCash \u2014 What can you do with it? (26h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -177,5 +178,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794149381.7194011
+ "last_macro_macro": 1794150652.7878947
 }
