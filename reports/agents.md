@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-08 18:59 UTC. Runs so far: 81. Model: claude-haiku-5-5.
+Updated 2026-11-08 19:08 UTC. Runs so far: 81. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2310 | 31 | -60879.29 | -83010.53 |
+| control | meme | 2311 | 31 | -60811.29 | -82954.53 |
 | control | macro | 46 | 48 | 28.03 | -198.72 |
-| control | all | 2356 | 31 | -60851.26 | -83209.25 |
+| control | all | 2357 | 31 | -60783.26 | -83153.25 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,8 +20,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: PIRATE long at 0.0004577, stop 0.00036616, target 0.00064078, opened 2026-11-08 17:19 UTC
 - control: Percolator long at 0.0002063, stop 0.00016504, target 0.00028882, opened 2026-11-08 17:31 UTC
 - control: yarl long at 7.238e-05, stop 5.7904e-05, target 0.000101332, opened 2026-11-08 17:58 UTC
-- control: BTC long at 0.0003754, stop 0.00030032, target 0.00052556, opened 2026-11-08 18:47 UTC
 - control: STOKE long at 0.000142, stop 0.0001136, target 0.0001988, opened 2026-11-08 18:53 UTC
+- control: ARTCOIN long at 7.706e-05, stop 6.1648e-05, target 0.000107884, opened 2026-11-08 19:08 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order SLINGOOR REJECTED by guardrails: desk already has the maximum open positions
+- 2026-11-08 19:08 UTC control: OPENED ARTCOIN long at 7.706e-05 (stop 6.1648e-05, target 0.000107884) - control: frozen v3 rules
 

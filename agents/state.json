@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -50851.099259911665,
+   "cash": -50783.099259911665,
    "open": [
     {
      "id": 2370,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2379,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "BTC",
-     "mint": "9qghVo6gqg1nVYGZCq14mhsFFUDH3e2z1iH4JtkfLoat",
-     "side": 1,
-     "opened": 1794163625.301734,
-     "entry": 0.0003754,
-     "stop": 0.0003003200000000001,
-     "target": 0.00052556,
-     "size": 532765.0506126798,
-     "deadline": 1794170825.3017342,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2380,
      "desk": "control",
      "market": "meme",
@@ -81,32 +66,47 @@
      "size": 1408450.704225352,
      "deadline": 1794171189.2851698,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2381,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ARTCOIN",
+     "mint": "nUESj13byLn6bHFFaygmf7mCQbHZvb6yKqdHjjLWmj1",
+     "side": 1,
+     "opened": 1794164896.7644753,
+     "entry": 7.706e-05,
+     "stop": 6.1648e-05,
+     "target": 0.00010788399999999997,
+     "size": 2595380.2232026993,
+     "deadline": 1794172096.7644756,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2381,
+ "next_id": 2382,
  "runs": 81,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794164525.2395396,
-  "control:9qghVo6gqg1nVYGZCq14mhsFFUDH3e2z1iH4JtkfLoat": 1794164525.3017378,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794164707.5025167,
-  "seen:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794164707.5025167,
-  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794164707.5025167,
-  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794164889.2340424,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794164889.2340424,
-  "seen:2VGosxKwVW8HCgfb65Mn4w2LgdwmdwmDzFyt2V6Ypump": 1794164889.2340424,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794164889.2340424,
-  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794164889.2340424,
-  "control:5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx": 1794164889.2851734,
   "seen:9qghVo6gqg1nVYGZCq14mhsFFUDH3e2z1iH4JtkfLoat": 1794165070.1355257,
   "seen:DNYRJmZuD7cx3rXjaoosQyDx5QBV8ZS3eBWWnUFbpump": 1794165070.1355257,
   "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794165070.1355257,
   "seen:5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx": 1794165251.334358,
   "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794165251.334358,
   "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794165251.334358,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794165251.334358
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794165251.334358,
+  "seen:UCRTdFYQNijy3gRrQMwm1hvDoPkShvdrfexrfHKpump": 1794165433.870871,
+  "seen:DWKA4PJfBH6cfzHhuFBRWKtaFh1GDYg6jnpdGzhfpump": 1794165433.870871,
+  "seen:7tAcA9QX4y7NQtE2esjyJpw3xAZi67NnJSg2Xsympump": 1794165615.453163,
+  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794165615.453163,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1794165615.453163,
+  "seen:2XtLMG4AQ7ngf53hyUVufhswPy5HmLxThMRRZNPNpump": 1794165615.453163,
+  "seen:nUESj13byLn6bHFFaygmf7mCQbHZvb6yKqdHjjLWmj1": 1794165796.6939242,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794165796.6939242,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794165796.6939242,
+  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794165796.6939242,
+  "control:nUESj13byLn6bHFFaygmf7mCQbHZvb6yKqdHjjLWmj1": 1794165796.7644787
  },
  "talks": {
   "2026-10-21": 109
@@ -191,5 +191,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794163443.1659293
+ "last_macro_macro": 1794164715.4626281
 }
