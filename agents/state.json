@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -50529.036879343555,
+   "cash": -50517.18473007572,
    "open": [
     {
      "id": 2352,
@@ -35,21 +35,6 @@
      "target": 0.00045205999999999995,
      "size": 619386.8070610096,
      "deadline": 1794154047.878479,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2354,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DV",
-     "mint": "BQn2Wz514RzRoMSg32wAa8YZa4xDvNSzh127SmYYpump",
-     "side": 1,
-     "opened": 1794147391.513213,
-     "entry": 0.0004234,
-     "stop": 0.00033872000000000004,
-     "target": 0.0005927599999999999,
-     "size": 472366.5564478035,
-     "deadline": 1794154591.5132132,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -85,30 +70,28 @@
    ]
   }
  },
- "next_id": 2357,
+ "next_id": 2358,
  "runs": 80,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:BQn2Wz514RzRoMSg32wAa8YZa4xDvNSzh127SmYYpump": 1794148472.0183308,
-  "seen:d2Kz4Xenwm3rVZX3sU2WTPLfagux48ounr81LQApump": 1794148472.0183308,
-  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794148472.0183308,
-  "seen:8UQdy5sHMVWUWSHeA5B3ZuuAVNumjSLPXdf19MXcpump": 1794148472.0183308,
-  "control:2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump": 1794148472.1841583,
-  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794148652.7026196,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794148652.7026196,
-  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1794148652.7026196,
-  "seen:GXKH2nRJqu7BznzSdUELcMwk7C3ebNDcqB5YEgM4bbpK": 1794148834.611966,
-  "seen:5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump": 1794148834.611966,
-  "seen:3S6Je9FfjsAys3zEte67VhorzqzqjtZjSJDFjKQfZxUg": 1794148834.611966,
-  "seen:5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij": 1794148834.611966,
-  "seen:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794148834.611966,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794148834.611966,
-  "control:5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij": 1794148835.1881657,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794149015.560604,
   "seen:5EEUHg6r3uDRrJ7sR1pyrhPixDKfPepM6hxf3xUHpump": 1794149015.560604,
   "seen:8r1dELDh8c15fnNxqtAEpRnhK34fSRFWvcSSs98mpump": 1794149015.560604,
   "seen:mhtvtMfxbZGpBurbGZVfLURjfYuLFKjaXQunauapump": 1794149196.575427,
-  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794149196.575427
+  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794149196.575427,
+  "seen:bSPM9hWvCagiBR6uvQonRCAezKzi6LL4hJYrW6ZKMXD": 1794149378.613621,
+  "seen:BQn2Wz514RzRoMSg32wAa8YZa4xDvNSzh127SmYYpump": 1794149378.613621,
+  "seen:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1794149378.613621,
+  "seen:DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump": 1794149378.613621,
+  "control:BQn2Wz514RzRoMSg32wAa8YZa4xDvNSzh127SmYYpump": 1794149378.6710267,
+  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1794149559.0319893,
+  "seen:BWh8q5etuPwekJ2JEDkbMxMQWy4FysoJ8LEwE3rFpump": 1794149559.0319893,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794149559.0319893,
+  "seen:2cdswcuZfeRgdTeKheCUQWMqz2NiQkDeb635smkZpump": 1794149559.0319893,
+  "seen:GXKH2nRJqu7BznzSdUELcMwk7C3ebNDcqB5YEgM4bbpK": 1794149739.2583444,
+  "seen:5PmU19opZfFbRTVHzhFdUDp5Z4RdaMxVh2uHxqbGpump": 1794149739.2583444,
+  "seen:HmGTHFH5cuKky43qdXXAG4DwZ27txEGTueu6ag5Qpump": 1794149739.2583444,
+  "seen:5shzBFRCpn5H8fJcWyCpd1s7avjgY1gMbPBU6nFvukij": 1794149739.2583444
  },
  "talks": {
   "2026-10-21": 109
@@ -149,11 +132,11 @@
  ],
  "last_review": 1794072362.9201233,
  "news": {
-  "t": 1794147934.6198559,
+  "t": 1794148839.2658937,
   "crypto": [
    "Here\u2019s what happened in crypto today (1h ago)",
-   "Binance France emails announce closure of its users\u2019 accounts on Dec. 31 (1h ago)",
-   "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000) (1h ago)",
+   "Binance France emails announce closure of its users\u2019 accounts on Dec. 31 (2h ago)",
+   "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000) (2h ago)",
    "Amsterdam protesters break into Microsoft data center construction site: Report (5h ago)",
    "Binance\u2019s  finance chief Kaiser Ng to leave company, report says (6h ago)",
    "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (19h ago)",
