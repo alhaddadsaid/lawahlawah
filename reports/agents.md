@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-09 02:44 UTC. Runs so far: 82. Model: claude-haiku-5-5.
+Updated 2026-11-09 02:53 UTC. Runs so far: 82. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2356 | 31 | -62275.63 | -84842.83 |
+| control | meme | 2357 | 31 | -62334.44 | -84910.39 |
 | control | macro | 46 | 48 | 28.03 | -198.72 |
-| control | all | 2402 | 31 | -62247.6 | -85041.55 |
+| control | all | 2403 | 31 | -62306.41 | -85109.11 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: GOLD short at 4132.9, stop 4152.43, target 4103.61, opened 2026-11-09 02:01 UTC
 - control: LMAO! long at 0.000389, stop 0.0003112, target 0.0005446, opened 2026-11-09 02:38 UTC
 - control: PIRATE long at 0.0005758, stop 0.00046064, target 0.00080612, opened 2026-11-09 02:41 UTC
-- control: QUINN long at 5.613e-05, stop 4.4904e-05, target 7.8582e-05, opened 2026-11-09 02:44 UTC
+- control: SIGNS long at 6.954e-05, stop 5.5632e-05, target 9.7356e-05, opened 2026-11-09 02:53 UTC
 
 ## Team
 
@@ -33,5 +33,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-09 02:44 UTC control: OPENED QUINN long at 5.613e-05 (stop 4.4904e-05, target 7.8582e-05) - control: frozen v3 rules
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- 2026-11-09 02:53 UTC control: OPENED SIGNS long at 6.954e-05 (stop 5.5632e-05, target 9.7356e-05) - control: frozen v3 rules
 
