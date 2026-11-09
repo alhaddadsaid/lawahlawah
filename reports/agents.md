@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-09 16:45 UTC. Runs so far: 85. Model: claude-haiku-5-5.
+Updated 2026-11-09 16:57 UTC. Runs so far: 85. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2427 | 31 | -63596.01 | -86857.55 |
+| control | meme | 2429 | 31 | -63615.39 | -86896.95 |
 | control | macro | 48 | 48 | -3.39 | -239.93 |
-| control | all | 2475 | 31 | -63599.4 | -87097.48 |
+| control | all | 2477 | 31 | -63618.78 | -87136.88 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: AMD long at 0.0003109, stop 0.00024872, target 0.00043526, opened 2026-11-09 16:14 UTC
 - control: NVIDIH long at 0.0001259, stop 0.00010072, target 0.00017626, opened 2026-11-09 16:36 UTC
-- control: Cupsey long at 0.0001042, stop 8.336e-05, target 0.00014588, opened 2026-11-09 16:42 UTC
+- control: PIRATE long at 0.0001562, stop 0.00012496, target 0.00021868, opened 2026-11-09 16:54 UTC
+- control: NATO long at 6.081e-05, stop 4.8648e-05, target 8.5134e-05, opened 2026-11-09 16:57 UTC
 
 ## Team
 
@@ -32,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED PIRATE (stop) P&L $-68.51 normal, $-77.01 pessimistic
+- 2026-11-09 16:57 UTC control: OPENED NATO long at 6.081e-05 (stop 4.8648e-05, target 8.5134e-05) - control: frozen v3 rules
 

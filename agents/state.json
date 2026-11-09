@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -53599.194757822166,
+   "cash": -53618.57719544213,
    "open": [
     {
      "id": 2494,
@@ -38,47 +38,62 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2497,
+     "id": 2499,
      "desk": "control",
      "market": "meme",
-     "symbol": "Cupsey",
-     "mint": "BXpidzC6Q6589J1nyVqmFkhLLA6RaUXxvaykqjWPpump",
+     "symbol": "PIRATE",
+     "mint": "2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat",
      "side": 1,
-     "opened": 1794242538.9393795,
-     "entry": 0.0001042,
-     "stop": 8.336e-05,
-     "target": 0.00014587999999999998,
-     "size": 1919385.7965451055,
-     "deadline": 1794249738.9393797,
+     "opened": 1794243275.822639,
+     "entry": 0.0001562,
+     "stop": 0.00012496,
+     "target": 0.00021868,
+     "size": 1280409.7311139565,
+     "deadline": 1794250475.8226395,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2500,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "NATO",
+     "mint": "7nZR4SVMeDPEXwRegXkiGtf8UCBPN5JjF4UwCFPbpump",
+     "side": 1,
+     "opened": 1794243458.9947913,
+     "entry": 6.081e-05,
+     "stop": 4.8648000000000006e-05,
+     "target": 8.5134e-05,
+     "size": 3288932.74132544,
+     "deadline": 1794250658.9947913,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2498,
+ "next_id": 2501,
  "runs": 85,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:BXpidzC6Q6589J1nyVqmFkhLLA6RaUXxvaykqjWPpump": 1794242887.0309763,
-  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794242887.0309763,
-  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794242887.0309763,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794242887.0309763,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794242887.0309763,
-  "seen:BSHVzT8DZhvByt5kNj3s1W86bxJy7AvB2nF6VZmvpump": 1794243070.5202813,
-  "seen:DZVTnTUtsHZJcjALZep6EjV8NtQpzktujkZ51yPxpump": 1794243070.5202813,
-  "seen:3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump": 1794243070.5202813,
-  "control:3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump": 1794243070.5975883,
-  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794243254.2412665,
-  "seen:6kmkcwKxxmoREhkxrbBvwDY3N2KSfpdMMtWtNoPpump": 1794243438.5557508,
-  "seen:7nZR4SVMeDPEXwRegXkiGtf8UCBPN5JjF4UwCFPbpump": 1794243438.5557508,
-  "control:BXpidzC6Q6589J1nyVqmFkhLLA6RaUXxvaykqjWPpump": 1794243438.939383,
   "seen:BGmQ6b635PJYPu13mVjjuTUWi1pmNiN6Dao5S2zSpump": 1794243622.5481772,
   "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794243622.5481772,
   "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1794243622.5481772,
   "seen:H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": 1794243622.5481772,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794243622.5481772,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794243622.5481772,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1794243622.5481772
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1794243622.5481772,
+  "seen:2Tef3P9qRhUTEAKTyQDHCdn67RK3yTbaLU72fcn5pump": 1794243806.6517708,
+  "seen:7cu4GWjXCdPP9DFMm6VmszRA2vYUGPmPbySDc6MYpump": 1794243806.6517708,
+  "seen:G2ZbzLvPsMDttz5iStCYwCMh1BAewzHGMrvKdm8upump": 1794243991.6388404,
+  "seen:DZVTnTUtsHZJcjALZep6EjV8NtQpzktujkZ51yPxpump": 1794243991.6388404,
+  "control:6kmkcwKxxmoREhkxrbBvwDY3N2KSfpdMMtWtNoPpump": 1794243991.7147164,
+  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794244175.702839,
+  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794244175.702839,
+  "control:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1794244175.822642,
+  "seen:6kmkcwKxxmoREhkxrbBvwDY3N2KSfpdMMtWtNoPpump": 1794244358.9204798,
+  "seen:7nZR4SVMeDPEXwRegXkiGtf8UCBPN5JjF4UwCFPbpump": 1794244358.9204798,
+  "seen:ARmzcuHBYXa1LbXsLEsEoPK8uPCRD17ohohqnxRBpump": 1794244358.9204798,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794244358.9204798,
+  "control:7nZR4SVMeDPEXwRegXkiGtf8UCBPN5JjF4UwCFPbpump": 1794244358.9947941
  },
  "talks": {
   "2026-10-21": 109
