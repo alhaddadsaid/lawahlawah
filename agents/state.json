@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -53496.424335571246,
+   "cash": -53480.433981873495,
    "open": [
-    {
-     "id": 2489,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "NVIDIH",
-     "mint": "3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump",
-     "side": 1,
-     "opened": 1794239967.6384997,
-     "entry": 0.0001555,
-     "stop": 0.00012440000000000002,
-     "target": 0.0002177,
-     "size": 1286173.6334405143,
-     "deadline": 1794247167.6385002,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2491,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Pepetide",
-     "mint": "22JKmY9YZfnQfb3pGYb6hctL5Jyvv3zhL3nQ8oyNuoYp",
-     "side": 1,
-     "opened": 1794240334.842705,
-     "entry": 0.0005584,
-     "stop": 0.00044672000000000006,
-     "target": 0.0007817599999999999,
-     "size": 358166.18911174784,
-     "deadline": 1794247534.8427052,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2492,
      "desk": "control",
@@ -81,37 +51,47 @@
      "size": 635727.9084551812,
      "deadline": 1794248269.3706121,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2496,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "NVIDIH",
+     "mint": "3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump",
+     "side": 1,
+     "opened": 1794242170.597586,
+     "entry": 0.0001259,
+     "stop": 0.00010072,
+     "target": 0.00017626,
+     "size": 1588562.3510722797,
+     "deadline": 1794249370.597586,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2496,
+ "next_id": 2497,
  "runs": 85,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HPSpaNgQxqZRwzoW8E9hecgMq4cDoV1CMCfteyu5h53z": 1794241421.053682,
-  "seen:5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx": 1794241421.053682,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794241421.053682,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794241421.053682,
-  "control:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794241421.1306803,
-  "control:HPSpaNgQxqZRwzoW8E9hecgMq4cDoV1CMCfteyu5h53z": 1794241602.2186847,
-  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794241785.3852136,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1794241785.3852136,
-  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794241785.3852136,
-  "seen:H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": 1794241785.3852136,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794241785.3852136,
-  "seen:5JHHcudrqibzuc4S9tGgthmfLNoRof4E3KWWGQsrpump": 1794241785.3852136,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794241785.3852136,
-  "control:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1794241786.0671167,
-  "seen:B2EtcKkQnMoHLkviNppv7MqaJqBvw4U9KdydMcD1pump": 1794241969.2832093,
-  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794241969.2832093,
-  "seen:doqTAq8Kq3CpsQhXG3jnFP8dEzDvmdsfy3UFVwkpump": 1794241969.2832093,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794241969.2832093,
-  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1794241969.2832093,
-  "control:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1794241969.3706148,
-  "seen:52USWR2FhpEGz2AixGDo7ajsM5hUmoHhWNcSRBdKpump": 1794242150.3327646,
-  "seen:DZVTnTUtsHZJcjALZep6EjV8NtQpzktujkZ51yPxpump": 1794242150.3327646,
-  "seen:4bSWWscwftPv5N9dgxXPX6f272rmwYzTXFMY7p4Rpump": 1794242150.3327646
+  "seen:6kmkcwKxxmoREhkxrbBvwDY3N2KSfpdMMtWtNoPpump": 1794242518.1506307,
+  "seen:7nZR4SVMeDPEXwRegXkiGtf8UCBPN5JjF4UwCFPbpump": 1794242518.1506307,
+  "seen:5exitWC61vtoaKWieYmuKyWGrZWpaF46WU2RZz7tpump": 1794242518.1506307,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1794242703.2454221,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794242703.2454221,
+  "seen:H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": 1794242703.2454221,
+  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794242703.2454221,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794242703.2454221,
+  "seen:BXpidzC6Q6589J1nyVqmFkhLLA6RaUXxvaykqjWPpump": 1794242887.0309763,
+  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794242887.0309763,
+  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794242887.0309763,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794242887.0309763,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794242887.0309763,
+  "seen:BSHVzT8DZhvByt5kNj3s1W86bxJy7AvB2nF6VZmvpump": 1794243070.5202813,
+  "seen:DZVTnTUtsHZJcjALZep6EjV8NtQpzktujkZ51yPxpump": 1794243070.5202813,
+  "seen:3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump": 1794243070.5202813,
+  "control:3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump": 1794243070.5975883,
+  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794243254.2412665
  },
  "talks": {
   "2026-10-21": 109
@@ -152,23 +132,23 @@
  ],
  "last_review": 1794158898.5417633,
  "news": {
-  "t": 1794240885.3924575,
+  "t": 1794241803.2524066,
   "crypto": [
+   "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees (0h ago)",
    "Google\u2019s AI chip push adds more pressure on Nvidia (1h ago)",
    "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack (1h ago)",
-   "Analysts see no broader \u2018contagion\u2019 from $6.3B Binance hack (2h ago)",
+   "Analysts see no broader \u2018contagion\u2019 from $6.3B Binance hack (3h ago)",
    "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race (3h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "The $2.85B Binance hackers lost shows why the UK needs stablecoin freeze rules (3h ago)",
    "Strategy buys 1,036 Bitcoin as BTC holdings climb to 850,364 (3h ago)",
    "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy (4h ago)",
-   "Trump says he knows \u2018nothing\u2019 about World Liberty\u2019s UAE ties as Justin Sun challenges filings (4h ago)",
-   "Bitcoin bulls can't rely on ETF flows (4h ago)"
+   "Trump says he knows \u2018nothing\u2019 about World Liberty\u2019s UAE ties as Justin Sun challenges filings (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core CPI m/m in 21.3h, forecast 0.2%, previous 0.3%",
-   "USD CPI m/m in 21.3h, forecast 0.3%, previous 0.6%"
+   "USD Core CPI m/m in 21.0h, forecast 0.2%, previous 0.3%",
+   "USD CPI m/m in 21.0h, forecast 0.3%, previous 0.6%"
   ]
  },
  "spend": {
