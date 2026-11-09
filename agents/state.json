@@ -66,30 +66,45 @@
      "size": 1086956.5217391304,
      "deadline": 1794200780.9033823,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2430,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "HEREWEGO",
+     "mint": "483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump",
+     "side": 1,
+     "opened": 1794195049.355239,
+     "entry": 0.0001211,
+     "stop": 9.688000000000001e-05,
+     "target": 0.00016954,
+     "size": 1651527.6630883566,
+     "deadline": 1794202249.3552392,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2430,
+ "next_id": 2431,
  "runs": 83,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794194849.1906903,
-  "seen:7WZ9HiHWoiFRAj4gip3fCKNGuBZMZQAubVE9kbCTpump": 1794194849.1906903,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794194849.1906903,
-  "control:7WZ9HiHWoiFRAj4gip3fCKNGuBZMZQAubVE9kbCTpump": 1794194849.8741915,
-  "seen:CPkCGzTuKCm9vLguz2AvRSkb2e2y8KaA3SxJ5Zdhpump": 1794195032.470312,
-  "seen:8rHoAfpdE89bi1SRRKaYUWfng3YpntoxZQyEQy9GPmZV": 1794195032.470312,
-  "seen:GgN3jfbg75SiW4qJKmak4VJrnWQvQdnUmN4NLHW5pump": 1794195216.7236602,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794195216.7236602,
-  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794195216.7236602,
-  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794195216.7236602,
-  "seen:H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": 1794195216.7236602,
-  "control:GgN3jfbg75SiW4qJKmak4VJrnWQvQdnUmN4NLHW5pump": 1794195216.76289,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794195399.2417824,
-  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1794195399.2417824,
   "seen:3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump": 1794195582.0192406,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794195582.0192406
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794195582.0192406,
+  "seen:7WZ9HiHWoiFRAj4gip3fCKNGuBZMZQAubVE9kbCTpump": 1794195765.6904123,
+  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794195765.6904123,
+  "seen:J8yZUqhRPwwWx85KmQHG3rggiVfKpYNN8mhEVUQwpump": 1794195949.308462,
+  "seen:CPkCGzTuKCm9vLguz2AvRSkb2e2y8KaA3SxJ5Zdhpump": 1794195949.308462,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794195949.308462,
+  "control:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794195949.3552423,
+  "seen:GgN3jfbg75SiW4qJKmak4VJrnWQvQdnUmN4NLHW5pump": 1794196132.3061256,
+  "seen:AxWd7zsqNmgcPyt8evEzycPAAgfAPNdZh8nToP1bpump": 1794196132.3061256,
+  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794196132.3061256,
+  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794196132.3061256,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794196132.3061256,
+  "seen:H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": 1794196132.3061256,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794196314.8095615,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794196314.8095615
  },
  "talks": {
   "2026-10-21": 109
@@ -130,18 +145,18 @@
  ],
  "last_review": 1794158898.5417633,
  "news": {
-  "t": 1794193949.2006493,
+  "t": 1794194865.7001295,
   "crypto": [
+   "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility (0h ago)",
    "Vitalik \u2018pivots\u2019 ETH to store of value, crypto suffers after US midterms: Hodler\u2019s Digest (4h ago)",
    "What the election results mean for crypto: State of Crypto (8h ago)",
    "Stablecoin growth has stalled. The payments boom hasn't (8h ago)",
    "Here\u2019s what happened in crypto today (14h ago)",
    "Binance France emails announce closure of its users\u2019 accounts on Dec. 31 (14h ago)",
-   "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000) (14h ago)",
-   "Amsterdam protesters break into Microsoft data center construction site: Report (17h ago)",
+   "These Finland homes get free heat from bitcoin miners (as long as BTC stays above $70,000) (15h ago)",
+   "Amsterdam protesters break into Microsoft data center construction site: Report (18h ago)",
    "Binance\u2019s  finance chief Kaiser Ng to leave company, report says (19h ago)",
-   "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (32h ago)",
-   "U.S. Treasury moves to cut off crypto exchange MEXC over $16 billion in alleged illicit flows (34h ago)"
+   "Binance users in some European countries told to pull crypto before fees kick in, with accounts closing by year end (32h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -174,5 +189,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794194132.4799495
+ "last_macro_macro": 1794195414.8220677
 }
