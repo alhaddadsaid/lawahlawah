@@ -51,26 +51,29 @@
      "size": 1511715.7974300832,
      "deadline": 1794234482.1915698,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2476,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "BANK",
+     "mint": "HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump",
+     "side": 1,
+     "opened": 1794227833.9499478,
+     "entry": 0.0001213,
+     "stop": 9.704e-05,
+     "target": 0.00016981999999999997,
+     "size": 1648804.6166529267,
+     "deadline": 1794235033.949948,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2476,
+ "next_id": 2477,
  "runs": 84,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794227814.68522,
-  "seen:2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1": 1794227814.68522,
-  "seen:DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump": 1794227814.68522,
-  "seen:5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx": 1794227814.68522,
-  "seen:HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump": 1794227814.68522,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794227814.68522,
-  "control:HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump": 1794227815.4413614,
-  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794227998.233394,
-  "seen:CDaGFSGPvKT5LEzz7gY2634jMnHSZSPVgJJegVM9pump": 1794228182.1164684,
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1794228182.1164684,
-  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1794228182.1164684,
-  "control:2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1": 1794228182.1915736,
   "seen:HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump": 1794228365.1202667,
   "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794228365.1202667,
   "seen:H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": 1794228365.1202667,
@@ -78,7 +81,18 @@
   "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794228548.696729,
   "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794228548.696729,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794228548.696729,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794228548.696729
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794228548.696729,
+  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794228733.2772193,
+  "seen:2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1": 1794228733.2772193,
+  "seen:8ctbRatrLwS6m35mNajbDimiaM4x7bmfGTprBmZnpump": 1794228733.2772193,
+  "seen:HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump": 1794228733.2772193,
+  "control:HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump": 1794228733.9499502,
+  "seen:BEd8GoJccoDA9gpfYdxqGupVFZwKrMWWMHnJYqnrpump": 1794228917.0437567,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794228917.0437567,
+  "seen:5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx": 1794228917.0437567,
+  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794228917.0437567,
+  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794228917.0437567,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1794229100.3370905
  },
  "talks": {
   "2026-10-21": 109
@@ -119,18 +133,18 @@
  ],
  "last_review": 1794158898.5417633,
  "news": {
-  "t": 1794226914.6933372,
+  "t": 1794227833.284938,
   "crypto": [
+   "Bitcoin bulls can't rely on ETF flows (0h ago)",
+   "EU taps industry to set standards for tokenized securities (0h ago)",
    "Nvidia-led tech selloff weighs on crypto majors (1h ago)",
    "Coinbase\u2019s US national trust bank charter takes effect (1h ago)",
    "Robinhood opens access to US IPOs for UK retail investors (1h ago)",
-   "Zcash developers want 20-second blocks just days after major speed upgrade (1h ago)",
+   "Zcash developers want 20-second blocks just days after major speed upgrade (2h ago)",
    "Live news: Bitcoin slides to $74,000 as Huang scandal weighs on Nvidia (2h ago)",
-   "BTC price eyes $73K amid Nvidia volatility: Three things to know in Bitcoin this week (2h ago)",
-   "Coinbase gets full U.S. trust charter from federal banking regulator (2h ago)",
-   "U.S. inflation, corporate earnings: Crypto Week Ahead (3h ago)",
-   "Binance, Tether and Trump crypto firms face Senate records deadline (3h ago)",
-   "Bitcoin ETFs shed $1.3B in biggest weekly outflow since late June (4h ago)"
+   "BTC price eyes $73K amid Nvidia volatility: Three things to know in Bitcoin this week (3h ago)",
+   "Coinbase gets full U.S. trust charter from federal banking regulator (3h ago)",
+   "U.S. inflation, corporate earnings: Crypto Week Ahead (3h ago)"
   ],
   "macro": [],
   "calendar": []
