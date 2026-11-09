@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-09 17:19 UTC. Runs so far: 85. Model: claude-haiku-5-5.
+Updated 2026-11-09 17:28 UTC. Runs so far: 85. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2435 | 31 | -64002.46 | -87335.65 |
+| control | meme | 2437 | 31 | -64117.66 | -87468.41 |
 | control | macro | 48 | 48 | -3.39 | -239.93 |
-| control | all | 2483 | 31 | -64005.85 | -87575.58 |
+| control | all | 2485 | 31 | -64121.05 | -87708.34 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,8 +19,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: AMD long at 0.0003109, stop 0.00024872, target 0.00043526, opened 2026-11-09 16:14 UTC
 - control: PIRATE long at 0.0001562, stop 0.00012496, target 0.00021868, opened 2026-11-09 16:54 UTC
-- control: BMT long at 8.686e-05, stop 6.9488e-05, target 0.000121604, opened 2026-11-09 17:13 UTC
-- control: Pepetide long at 0.0008384, stop 0.00067072, target 0.00117376, opened 2026-11-09 17:16 UTC
+- control: LASTTRUCK long at 0.0001308, stop 0.00010464, target 0.00018312, opened 2026-11-09 17:28 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order PIRATE REJECTED by guardrails: PIRATE already open
+- 2026-11-09 17:28 UTC control: OPENED LASTTRUCK long at 0.0001308 (stop 0.00010464, target 0.00018312) - control: frozen v3 rules
 
