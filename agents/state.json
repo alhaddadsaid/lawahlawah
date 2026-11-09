@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -54123.268086965596,
+   "cash": -54232.97530212967,
    "open": [
-    {
-     "id": 2511,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "STOKE",
-     "mint": "5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx",
-     "side": 1,
-     "opened": 1794246402.5081646,
-     "entry": 0.0001066,
-     "stop": 8.528000000000001e-05,
-     "target": 0.00014924,
-     "size": 1876172.6078799248,
-     "deadline": 1794253602.508165,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2512,
      "desk": "control",
@@ -51,34 +36,63 @@
      "size": 3615982.643283312,
      "deadline": 1794257995.431211,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2521,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "LASTTRUCK",
+     "mint": "6kmkcwKxxmoREhkxrbBvwDY3N2KSfpdMMtWtNoPpump",
+     "side": 1,
+     "opened": 1794251526.7355182,
+     "entry": 0.00023,
+     "stop": 0.00018400000000000003,
+     "target": 0.00032199999999999997,
+     "size": 869565.2173913043,
+     "deadline": 1794258726.7355185,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2523,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SI",
+     "mint": "B1wk5PYYUAAA7YasYW3WhrTprKH1fmMHto9H567epump",
+     "side": 1,
+     "opened": 1794252077.093614,
+     "entry": 0.0001082,
+     "stop": 8.656000000000001e-05,
+     "target": 0.00015147999999999998,
+     "size": 1848428.8354898337,
+     "deadline": 1794259277.0936143,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2521,
+ "next_id": 2524,
  "runs": 85,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FjNotAgWAD3UPQRXvzjSsjPC4JuFQkqLJvfj68a1pump": 1794250963.8045125,
-  "seen:6C5USgghERG9Rwhr2D1Ny9wTb62HdHhAt5QQ7qgZZZTe": 1794250963.8045125,
-  "seen:BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": 1794250963.8045125,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794250963.8045125,
-  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794251148.4025204,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794251148.4025204,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794251148.4025204,
-  "seen:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": 1794251148.4025204,
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794251148.4025204,
-  "seen:3xQYoRyycadwD4ZJvFejabeHetva5xDAjggBhFW9pump": 1794251328.0918186,
-  "seen:3mCvCUtgELaFwWjkeDQn3bkTYnKquec732dJFsCUpump": 1794251328.0918186,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794251328.0918186,
-  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1794251328.0918186,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794251328.0918186,
-  "seen:B1wk5PYYUAAA7YasYW3WhrTprKH1fmMHto9H567epump": 1794251511.3951333,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1794251511.3951333,
-  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794251511.3951333,
-  "control:6kmkcwKxxmoREhkxrbBvwDY3N2KSfpdMMtWtNoPpump": 1794251511.4814894,
-  "seen:6kmkcwKxxmoREhkxrbBvwDY3N2KSfpdMMtWtNoPpump": 1794251695.3464966,
-  "control:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794251695.431214
+  "seen:3mCvCUtgELaFwWjkeDQn3bkTYnKquec732dJFsCUpump": 1794252243.424549,
+  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794252243.424549,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794252243.424549,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794252243.424549,
+  "seen:Dz5CFfrig6KqC83gAomRvtvftrk7Xmwxo6vkXcJUpump": 1794252426.3669457,
+  "seen:B1wk5PYYUAAA7YasYW3WhrTprKH1fmMHto9H567epump": 1794252426.3669457,
+  "control:6kmkcwKxxmoREhkxrbBvwDY3N2KSfpdMMtWtNoPpump": 1794252426.735522,
+  "seen:6kmkcwKxxmoREhkxrbBvwDY3N2KSfpdMMtWtNoPpump": 1794252609.7486784,
+  "seen:FjNotAgWAD3UPQRXvzjSsjPC4JuFQkqLJvfj68a1pump": 1794252793.1402779,
+  "seen:2yFqfjLJo6aMsZgreUh63mAmhsPticZBjKQGtvTBpump": 1794252793.1402779,
+  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1794252793.1402779,
+  "control:6C5USgghERG9Rwhr2D1Ny9wTb62HdHhAt5QQ7qgZZZTe": 1794252793.8315103,
+  "seen:6C5USgghERG9Rwhr2D1Ny9wTb62HdHhAt5QQ7qgZZZTe": 1794252976.9689376,
+  "seen:Hc6295k1Cu9emcLYzMZNZHoqg87CqKXkpPvBMjramk9q": 1794252976.9689376,
+  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794252976.9689376,
+  "seen:2sVyPPesT2SskXRdT7KXTcX57MqDESeZrCSCHqXPpump": 1794252976.9689376,
+  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794252976.9689376,
+  "seen:H5CPUyFcLWRsNKmxnqGBboXErgPv43MUkfTft7nA5BzE": 1794252976.9689376,
+  "control:B1wk5PYYUAAA7YasYW3WhrTprKH1fmMHto9H567epump": 1794252977.0936193
  },
  "talks": {
   "2026-10-21": 109
@@ -119,23 +133,23 @@
  ],
  "last_review": 1794245301.6954384,
  "news": {
-  "t": 1794250063.8119416,
+  "t": 1794251893.1477373,
   "crypto": [
-   "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals (0h ago)",
+   "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals (1h ago)",
    "PNC Bank tests turning USDC payments into dollar deposits (1h ago)",
-   "Avalanche\u2019s AVAX leads crypto gains following NYSE tokenization deal (1h ago)",
+   "Avalanche\u2019s AVAX leads crypto gains following NYSE tokenization deal (2h ago)",
    "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target (2h ago)",
-   "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees (2h ago)",
-   "Google\u2019s AI chip push adds more pressure on Nvidia (3h ago)",
+   "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees (3h ago)",
+   "Google\u2019s AI chip push adds more pressure on Nvidia (4h ago)",
    "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack (4h ago)",
    "Analysts see no broader \u2018contagion\u2019 from $6.3B Binance hack (5h ago)",
-   "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race (5h ago)",
-   "Here\u2019s what happened in crypto today (5h ago)"
+   "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race (6h ago)",
+   "Here\u2019s what happened in crypto today (6h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core CPI m/m in 18.7h, forecast 0.2%, previous 0.3%",
-   "USD CPI m/m in 18.7h, forecast 0.3%, previous 0.6%"
+   "USD Core CPI m/m in 18.2h, forecast 0.2%, previous 0.3%",
+   "USD CPI m/m in 18.2h, forecast 0.3%, previous 0.6%"
   ]
  },
  "spend": {
@@ -166,5 +180,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794250248.4098167
+ "last_macro_macro": 1794251526.3741689
 }
