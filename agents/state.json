@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -52618.6120362755,
+   "cash": -52550.6120362755,
    "open": [
     {
      "id": 2418,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2451,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "BUIDL",
-     "mint": "8MuTFfgeFCYa7BKMkKzRbxPLjgdEZFfHtNM2XWSfdtH2",
-     "side": 1,
-     "opened": 1794207352.237326,
-     "entry": 8.102e-05,
-     "stop": 6.4816e-05,
-     "target": 0.00011342799999999999,
-     "size": 2468526.2898049867,
-     "deadline": 1794214552.2373261,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2452,
      "desk": "control",
      "market": "meme",
@@ -81,31 +66,46 @@
      "size": 2759762.6604112047,
      "deadline": 1794214919.3709524,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2453,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "BUIDL",
+     "mint": "8MuTFfgeFCYa7BKMkKzRbxPLjgdEZFfHtNM2XWSfdtH2",
+     "side": 1,
+     "opened": 1794208816.267741,
+     "entry": 0.0001107,
+     "stop": 8.855999999999999e-05,
+     "target": 0.00015497999999999996,
+     "size": 1806684.7335140018,
+     "deadline": 1794216016.2677412,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2453,
+ "next_id": 2454,
  "runs": 83,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794208252.1967735,
-  "seen:HMGVzsA3prGa51t3SAapNEGM5pFApmUXowNUV5rkpump": 1794208252.1967735,
-  "seen:H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": 1794208252.1967735,
-  "control:8MuTFfgeFCYa7BKMkKzRbxPLjgdEZFfHtNM2XWSfdtH2": 1794208252.237329,
-  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794208434.969303,
-  "seen:JD1i2iDxqeMQZUUmwzrK5bi8PnjsmjNTKbh97oxFpump": 1794208434.969303,
-  "seen:8MuTFfgeFCYa7BKMkKzRbxPLjgdEZFfHtNM2XWSfdtH2": 1794208434.969303,
-  "seen:3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump": 1794208434.969303,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794208434.969303,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794208618.910497,
-  "seen:36j6WL2xHeRCoHoQwt2ha538bzgsidCWJHGf3dqRpump": 1794208618.910497,
-  "control:CJE1ayid5jogwAP7Z42VR4H6buQsPkhkbDws7DCWpump": 1794208619.370956,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794208801.9840941,
   "seen:TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": 1794208984.441363,
   "seen:CJE1ayid5jogwAP7Z42VR4H6buQsPkhkbDws7DCWpump": 1794208984.441363,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794208984.441363,
-  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794208984.441363
+  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794208984.441363,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794209168.108248,
+  "seen:HMGVzsA3prGa51t3SAapNEGM5pFApmUXowNUV5rkpump": 1794209168.108248,
+  "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794209168.108248,
+  "seen:H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": 1794209168.108248,
+  "seen:JD1i2iDxqeMQZUUmwzrK5bi8PnjsmjNTKbh97oxFpump": 1794209350.4453285,
+  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794209350.4453285,
+  "seen:3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump": 1794209350.4453285,
+  "seen:8MuTFfgeFCYa7BKMkKzRbxPLjgdEZFfHtNM2XWSfdtH2": 1794209350.4453285,
+  "seen:DMxLgvueiehQY3JYSWtP7rXNqzXtYpEzP6DjTxMUpump": 1794209350.4453285,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794209533.1518092,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794209533.1518092,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794209716.1972303,
+  "control:8MuTFfgeFCYa7BKMkKzRbxPLjgdEZFfHtNM2XWSfdtH2": 1794209716.2677448
  },
  "talks": {
   "2026-10-21": 109
@@ -146,12 +146,12 @@
  ],
  "last_review": 1794158898.5417633,
  "news": {
-  "t": 1794207718.9203608,
+  "t": 1794208633.1616929,
   "crypto": [
    "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile (0h ago)",
-   "Solana moves to scrap the transaction feature used in the $270 million Drift hack (0h ago)",
-   "Here\u2019s what happened in crypto today (1h ago)",
-   "Zcash devs propose another block time cut days after NU7 upgrade (1h ago)",
+   "Solana moves to scrap the transaction feature used in the $270 million Drift hack (1h ago)",
+   "Here\u2019s what happened in crypto today (2h ago)",
+   "Zcash devs propose another block time cut days after NU7 upgrade (2h ago)",
    "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts (2h ago)",
    "Binance's bitcoin mining pool finds just one block in a week as shutdown nears (2h ago)",
    "tBTC bridge partially resumes as $120M Aave reserve remains frozen (3h ago)",
@@ -190,5 +190,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794206986.0821154
+ "last_macro_macro": 1794208268.1180308
 }
