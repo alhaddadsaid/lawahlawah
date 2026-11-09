@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-09 07:38 UTC. Runs so far: 83. Model: claude-haiku-5-5.
+Updated 2026-11-09 07:48 UTC. Runs so far: 83. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2386 | 31 | -62527.41 | -85395.85 |
-| control | macro | 46 | 48 | 28.03 | -198.72 |
-| control | all | 2432 | 31 | -62499.38 | -85594.57 |
+| control | meme | 2387 | 31 | -62725.58 | -85599.19 |
+| control | macro | 47 | 49 | 175.47 | -53.84 |
+| control | all | 2434 | 31 | -62550.11 | -85653.03 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: GOLD short at 4132.9, stop 4152.43, target 4103.61, opened 2026-11-09 02:01 UTC
-- control: HEREWEGO long at 0.0001011, stop 8.088e-05, target 0.00014154, opened 2026-11-09 06:34 UTC
+- control: BUIDL long at 0.0001527, stop 0.00012216, target 0.00021378, opened 2026-11-09 07:44 UTC
 
 ## Team
 
@@ -31,5 +30,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order HEREWEGO REJECTED by guardrails: HEREWEGO already open
+- control: CLOSED GOLD (target) P&L $147.44 normal, $144.88 pessimistic
 
