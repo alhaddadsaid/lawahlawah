@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-09 14:27 UTC. Runs so far: 84. Model: claude-haiku-5-5.
+Updated 2026-11-09 16:08 UTC. Runs so far: 85. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2418 | 31 | -63224.06 | -86402.82 |
-| control | macro | 47 | 49 | 175.47 | -53.84 |
-| control | all | 2465 | 31 | -63048.59 | -86456.66 |
+| control | meme | 2422 | 31 | -63561.24 | -86772.39 |
+| control | macro | 48 | 48 | -3.39 | -239.93 |
+| control | all | 2470 | 31 | -63564.63 | -87012.32 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: CATPAD long at 0.0001323, stop 0.00010584, target 0.00018522, opened 2026-11-09 12:28 UTC
-- control: PIRATE long at 0.0004394, stop 0.00035152, target 0.00061516, opened 2026-11-09 13:20 UTC
-- control: GBPUSD long at 1.34181, stop 1.34098, target 1.34306, opened 2026-11-09 14:02 UTC
-- control: GINGATO long at 0.0003279, stop 0.00026232, target 0.00045906, opened 2026-11-09 14:24 UTC
+- control: NVIDIH long at 0.0001555, stop 0.0001244, target 0.0002177, opened 2026-11-09 15:59 UTC
+- control: Pepetide long at 0.0005584, stop 0.00044672, target 0.00078176, opened 2026-11-09 16:05 UTC
+- control: ELYSION long at 0.0001234, stop 9.872e-05, target 0.00017276, opened 2026-11-09 16:08 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-## Run ended 2026-11-09 14:27 UTC
+- 2026-11-09 16:08 UTC control: OPENED ELYSION long at 0.0001234 (stop 9.872e-05, target 0.00017276) - control: frozen v3 rules
 
