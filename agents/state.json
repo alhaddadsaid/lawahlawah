@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -53008.85001379228,
+   "cash": -53064.27430663754,
    "open": [
     {
      "id": 2470,
@@ -21,33 +21,49 @@
      "size": 463821.892393321,
      "deadline": 1794230086.3723137,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2473,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "STOKE",
+     "mint": "5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx",
+     "side": 1,
+     "opened": 1794226548.6218421,
+     "entry": 0.0001866,
+     "stop": 0.00014928,
+     "target": 0.00026124,
+     "size": 1071811.3612004286,
+     "deadline": 1794233748.6218424,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2473,
+ "next_id": 2475,
  "runs": 84,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump": 1794226531.9884634,
-  "seen:H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": 1794226531.9884634,
-  "seen:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": 1794226531.9884634,
-  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794226714.8168325,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794226714.8168325,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794226714.8168325,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794226714.8168325,
-  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794226897.7949398,
-  "seen:ELz53jCTcgkfmuBGM52mesCeMPEsQp4tPidVvH3Kpump": 1794226897.7949398,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794226897.7949398,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794226897.7949398,
-  "seen:DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump": 1794226897.7949398,
-  "seen:5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx": 1794226897.7949398,
   "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794227081.120644,
   "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794227081.120644,
   "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1794227081.120644,
   "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1794227081.120644,
   "seen:8ctbRatrLwS6m35mNajbDimiaM4x7bmfGTprBmZnpump": 1794227264.3923838,
-  "seen:Ao6rgPZBa12yHaT6Eaa7W35qDq1Zx3xuvKiNXmppump": 1794227264.3923838
+  "seen:Ao6rgPZBa12yHaT6Eaa7W35qDq1Zx3xuvKiNXmppump": 1794227264.3923838,
+  "seen:HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump": 1794227448.5505555,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794227448.5505555,
+  "seen:3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump": 1794227448.5505555,
+  "seen:H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": 1794227448.5505555,
+  "control:5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx": 1794227448.6218445,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794227631.5556376,
+  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794227631.5556376,
+  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794227814.68522,
+  "seen:2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1": 1794227814.68522,
+  "seen:DDDfDJGreM6pYbKEiB8NqkZ3RhgG9Q1zKK58SvcHpump": 1794227814.68522,
+  "seen:5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx": 1794227814.68522,
+  "seen:HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump": 1794227814.68522,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794227814.68522,
+  "control:HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump": 1794227815.4413614
  },
  "talks": {
   "2026-10-21": 109
@@ -88,13 +104,13 @@
  ],
  "last_review": 1794158898.5417633,
  "news": {
-  "t": 1794225997.8027456,
+  "t": 1794226914.6933372,
   "crypto": [
-   "Nvidia-led tech selloff weighs on crypto majors (0h ago)",
-   "Coinbase\u2019s US national trust bank charter takes effect (0h ago)",
+   "Nvidia-led tech selloff weighs on crypto majors (1h ago)",
+   "Coinbase\u2019s US national trust bank charter takes effect (1h ago)",
    "Robinhood opens access to US IPOs for UK retail investors (1h ago)",
    "Zcash developers want 20-second blocks just days after major speed upgrade (1h ago)",
-   "Live news: Nvidia slides on CEO allegations as bitcoin hovers just above its 200-day average (1h ago)",
+   "Live news: Bitcoin slides to $74,000 as Huang scandal weighs on Nvidia (2h ago)",
    "BTC price eyes $73K amid Nvidia volatility: Three things to know in Bitcoin this week (2h ago)",
    "Coinbase gets full U.S. trust charter from federal banking regulator (2h ago)",
    "U.S. inflation, corporate earnings: Crypto Week Ahead (3h ago)",
