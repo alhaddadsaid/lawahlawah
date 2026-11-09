@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-09 10:01 UTC. Runs so far: 84. Model: claude-haiku-5-5.
+Updated 2026-11-09 10:10 UTC. Runs so far: 84. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,19 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2394 | 31 | -62881.94 | -85823.33 |
+| control | meme | 2395 | 31 | -62901.15 | -85852.3 |
 | control | macro | 47 | 49 | 175.47 | -53.84 |
-| control | all | 2441 | 31 | -62706.47 | -85877.17 |
+| control | all | 2442 | 31 | -62725.68 | -85906.14 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: PIRATE long at 0.0004722, stop 0.00037776, target 0.00066108, opened 2026-11-09 08:05 UTC
 - control: COGE long at 0.0001299, stop 0.00010392, target 0.00018186, opened 2026-11-09 08:36 UTC
 - control: JASON long at 0.000127, stop 0.0001016, target 0.0001778, opened 2026-11-09 08:54 UTC
 - control: Steve long at 6.551e-05, stop 5.2408e-05, target 9.1714e-05, opened 2026-11-09 10:01 UTC
+- control: Pepetide long at 0.0004523, stop 0.00036184, target 0.00063322, opened 2026-11-09 10:07 UTC
+- control: hoss long at 6.215e-05, stop 4.972e-05, target 8.701e-05, opened 2026-11-09 10:10 UTC
 
 ## Team
 
@@ -33,6 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
-- 2026-11-09 10:01 UTC control: OPENED Steve long at 6.551e-05 (stop 5.2408e-05, target 9.1714e-05) - control: frozen v3 rules
+- 2026-11-09 10:10 UTC control: OPENED hoss long at 6.215e-05 (stop 4.972e-05, target 8.701e-05) - control: frozen v3 rules
 
