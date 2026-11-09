@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -53064.27430663754,
+   "cash": -53113.94949212806,
    "open": [
     {
      "id": 2470,
@@ -53,46 +53,64 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2476,
+     "id": 2477,
      "desk": "control",
      "market": "meme",
      "symbol": "BANK",
      "mint": "HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump",
      "side": 1,
-     "opened": 1794227833.9499478,
-     "entry": 0.0001213,
-     "stop": 9.704e-05,
-     "target": 0.00016981999999999997,
-     "size": 1648804.6166529267,
-     "deadline": 1794235033.949948,
+     "opened": 1794228751.7814045,
+     "entry": 9.125e-05,
+     "stop": 7.3e-05,
+     "target": 0.00012775,
+     "size": 2191780.821917808,
+     "deadline": 1794235951.7814047,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2478,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "shiken",
+     "mint": "BEd8GoJccoDA9gpfYdxqGupVFZwKrMWWMHnJYqnrpump",
+     "side": 1,
+     "opened": 1794228934.7919533,
+     "entry": 7.506e-05,
+     "stop": 6.0048000000000005e-05,
+     "target": 0.000105084,
+     "size": 2664535.0386357578,
+     "deadline": 1794236134.7919533,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2477,
+ "next_id": 2479,
  "runs": 84,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump": 1794228365.1202667,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794228365.1202667,
-  "seen:H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": 1794228365.1202667,
-  "seen:3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump": 1794228365.1202667,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794228548.696729,
-  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794228548.696729,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794228548.696729,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794228548.696729,
-  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794228733.2772193,
-  "seen:2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1": 1794228733.2772193,
-  "seen:8ctbRatrLwS6m35mNajbDimiaM4x7bmfGTprBmZnpump": 1794228733.2772193,
-  "seen:HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump": 1794228733.2772193,
-  "control:HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump": 1794228733.9499502,
-  "seen:BEd8GoJccoDA9gpfYdxqGupVFZwKrMWWMHnJYqnrpump": 1794228917.0437567,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794228917.0437567,
-  "seen:5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx": 1794228917.0437567,
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794228917.0437567,
-  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794228917.0437567,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1794229100.3370905
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1794229100.3370905,
+  "seen:HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump": 1794229284.570608,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794229284.570608,
+  "seen:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": 1794229284.570608,
+  "seen:H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": 1794229284.570608,
+  "seen:3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump": 1794229284.570608,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794229284.570608,
+  "seen:HGSTgEqamV4Q7aL1D58yXB5rkJz8BPnezEfk5yaWRq4t": 1794229467.9331777,
+  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794229467.9331777,
+  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794229650.7582626,
+  "seen:HW2Sz6nNonYCfD59Ng5AeV1xtuU43xu7oktb2PPfpump": 1794229650.7582626,
+  "seen:8ctbRatrLwS6m35mNajbDimiaM4x7bmfGTprBmZnpump": 1794229650.7582626,
+  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794229650.7582626,
+  "seen:2gTbp2gwH46rqExzabSyrdR3294SLwCp2rSqWDS6Sim1": 1794229650.7582626,
+  "control:HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump": 1794229651.781407,
+  "seen:BEd8GoJccoDA9gpfYdxqGupVFZwKrMWWMHnJYqnrpump": 1794229834.7116747,
+  "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1794229834.7116747,
+  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794229834.7116747,
+  "seen:G1ij1UjWBcUFtVHz5GVDAopPNMQcbwtdegH94LU6Jray": 1794229834.7116747,
+  "seen:Ao6rgPZBa12yHaT6Eaa7W35qDq1Zx3xuvKiNXmppump": 1794229834.7116747,
+  "seen:DwegTbCGUZ1qvb1v9JpuHQ87zo7i9HkFhir92yz7pump": 1794229834.7116747,
+  "control:BEd8GoJccoDA9gpfYdxqGupVFZwKrMWWMHnJYqnrpump": 1794229834.791956
  },
  "talks": {
   "2026-10-21": 109
@@ -133,18 +151,18 @@
  ],
  "last_review": 1794158898.5417633,
  "news": {
-  "t": 1794227833.284938,
+  "t": 1794228750.7663743,
   "crypto": [
+   "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy (0h ago)",
+   "Trump says he knows \u2018nothing\u2019 about World Liberty\u2019s UAE ties as Justin Sun challenges filings (0h ago)",
    "Bitcoin bulls can't rely on ETF flows (0h ago)",
    "EU taps industry to set standards for tokenized securities (0h ago)",
    "Nvidia-led tech selloff weighs on crypto majors (1h ago)",
    "Coinbase\u2019s US national trust bank charter takes effect (1h ago)",
-   "Robinhood opens access to US IPOs for UK retail investors (1h ago)",
+   "Robinhood opens access to US IPOs for UK retail investors (2h ago)",
    "Zcash developers want 20-second blocks just days after major speed upgrade (2h ago)",
    "Live news: Bitcoin slides to $74,000 as Huang scandal weighs on Nvidia (2h ago)",
-   "BTC price eyes $73K amid Nvidia volatility: Three things to know in Bitcoin this week (3h ago)",
-   "Coinbase gets full U.S. trust charter from federal banking regulator (3h ago)",
-   "U.S. inflation, corporate earnings: Crypto Week Ahead (3h ago)"
+   "BTC price eyes $73K amid Nvidia volatility: Three things to know in Bitcoin this week (3h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -177,5 +195,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794227465.1284618
+ "last_macro_macro": 1794228750.7662928
 }
