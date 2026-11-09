@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-09 17:49 UTC. Runs so far: 85. Model: claude-haiku-5-5.
+Updated 2026-11-09 17:58 UTC. Runs so far: 85. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2440 | 31 | -64031.01 | -87414.75 |
+| control | meme | 2441 | 31 | -64083.07 | -87475.73 |
 | control | macro | 48 | 48 | -3.39 | -239.93 |
-| control | all | 2488 | 31 | -64034.4 | -87654.68 |
+| control | all | 2489 | 31 | -64086.46 | -87715.66 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,9 +19,9 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: AMD long at 0.0003109, stop 0.00024872, target 0.00043526, opened 2026-11-09 16:14 UTC
 - control: PIRATE long at 0.0001562, stop 0.00012496, target 0.00021868, opened 2026-11-09 16:54 UTC
-- control: Elysium long at 8.846e-05, stop 7.0768e-05, target 0.000123844, opened 2026-11-09 17:37 UTC
 - control: STOKE long at 0.0001066, stop 8.528e-05, target 0.00014924, opened 2026-11-09 17:46 UTC
 - control: SPSC long at 0.000163, stop 0.0001304, target 0.0002282, opened 2026-11-09 17:49 UTC
+- control: Steve long at 7.11e-05, stop 5.688e-05, target 9.954e-05, opened 2026-11-09 17:55 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-09 17:49 UTC control: OPENED SPSC long at 0.000163 (stop 0.0001304, target 0.0002282) - control: frozen v3 rules
+- control: order Elysium REJECTED by guardrails: desk already has the maximum open positions
 
