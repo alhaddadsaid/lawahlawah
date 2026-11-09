@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-09 16:39 UTC. Runs so far: 85. Model: claude-haiku-5-5.
+Updated 2026-11-09 16:45 UTC. Runs so far: 85. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2425 | 31 | -63477.25 | -86721.32 |
+| control | meme | 2427 | 31 | -63596.01 | -86857.55 |
 | control | macro | 48 | 48 | -3.39 | -239.93 |
-| control | all | 2473 | 31 | -63480.64 | -86961.25 |
+| control | all | 2475 | 31 | -63599.4 | -87097.48 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: ELYSION long at 0.0001234, stop 9.872e-05, target 0.00017276, opened 2026-11-09 16:08 UTC
 - control: AMD long at 0.0003109, stop 0.00024872, target 0.00043526, opened 2026-11-09 16:14 UTC
-- control: PIRATE long at 0.0003146, stop 0.00025168, target 0.00044044, opened 2026-11-09 16:17 UTC
 - control: NVIDIH long at 0.0001259, stop 0.00010072, target 0.00017626, opened 2026-11-09 16:36 UTC
+- control: Cupsey long at 0.0001042, stop 8.336e-05, target 0.00014588, opened 2026-11-09 16:42 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order AMD REJECTED by guardrails: AMD already open
+- control: CLOSED PIRATE (stop) P&L $-68.51 normal, $-77.01 pessimistic
 
