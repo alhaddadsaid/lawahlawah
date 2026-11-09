@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -54412.90301371962,
+   "cash": -54533.37612041689,
    "open": [
-    {
-     "id": 2512,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SPSC",
-     "mint": "4nswj3o1Lo9iWYvvRJxUD8vbCy9ay7QQoXYcncHNbonk",
-     "side": 1,
-     "opened": 1794246586.532481,
-     "entry": 0.000163,
-     "stop": 0.0001304,
-     "target": 0.0002282,
-     "size": 1226993.8650306747,
-     "deadline": 1794253786.5324812,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2520,
      "desk": "control",
@@ -40,27 +25,28 @@
    ]
   }
  },
- "next_id": 2525,
+ "next_id": 2527,
  "runs": 85,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794253162.1189883,
-  "seen:PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m": 1794253162.1189883,
-  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794253162.1189883,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794253162.1189883,
-  "control:H5CPUyFcLWRsNKmxnqGBboXErgPv43MUkfTft7nA5BzE": 1794253162.2109706,
-  "seen:Caq5k1cGGMyLbpMt5UfUaa3DbmND2Hx2Fi4QmYyRpump": 1794253345.4948244,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794253345.4948244,
-  "seen:CXz596uKfWb5tkyz5Vh5a9QCKKh38io6hdgGrKKcpump": 1794253345.4948244,
-  "seen:6kmkcwKxxmoREhkxrbBvwDY3N2KSfpdMMtWtNoPpump": 1794253528.8617055,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794253528.8617055,
-  "seen:6USthxiSZFoCJWhd5bUTcStagAJ2rFd8q8SiF2kupump": 1794253714.011399,
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794253714.011399,
   "seen:6C5USgghERG9Rwhr2D1Ny9wTb62HdHhAt5QQ7qgZZZTe": 1794253897.932319,
   "seen:Hc6295k1Cu9emcLYzMZNZHoqg87CqKXkpPvBMjramk9q": 1794253897.932319,
   "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794253897.932319,
   "seen:H5CPUyFcLWRsNKmxnqGBboXErgPv43MUkfTft7nA5BzE": 1794253897.932319,
-  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1794253897.932319
+  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1794253897.932319,
+  "seen:59tKHU17fe31NHw7AabcK7s6Jhb7DvNNxEtigu8upump": 1794254080.9296181,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794254080.9296181,
+  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794254080.9296181,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794254080.9296181,
+  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794254265.539297,
+  "seen:Caq5k1cGGMyLbpMt5UfUaa3DbmND2Hx2Fi4QmYyRpump": 1794254265.539297,
+  "control:6kmkcwKxxmoREhkxrbBvwDY3N2KSfpdMMtWtNoPpump": 1794254265.6251025,
+  "seen:6kmkcwKxxmoREhkxrbBvwDY3N2KSfpdMMtWtNoPpump": 1794254448.5851283,
+  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1794254448.5851283,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794254448.5851283,
+  "control:6C5USgghERG9Rwhr2D1Ny9wTb62HdHhAt5QQ7qgZZZTe": 1794254448.6756048,
+  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794254632.4179313,
+  "seen:6USthxiSZFoCJWhd5bUTcStagAJ2rFd8q8SiF2kupump": 1794254632.4179313
  },
  "talks": {
   "2026-10-21": 109
@@ -101,23 +87,23 @@
  ],
  "last_review": 1794245301.6954384,
  "news": {
-  "t": 1794252814.0188673,
+  "t": 1794253732.4253857,
   "crypto": [
+   "Robinhood backs tokenization of its stock on OKX\u2013ICE platform even as most companies opt out (0h ago)",
    "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals (1h ago)",
    "PNC Bank tests turning USDC payments into dollar deposits (2h ago)",
    "Avalanche\u2019s AVAX leads crypto gains following NYSE tokenization deal (2h ago)",
-   "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target (2h ago)",
+   "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target (3h ago)",
    "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees (3h ago)",
    "Google\u2019s AI chip push adds more pressure on Nvidia (4h ago)",
    "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack (5h ago)",
    "Analysts see no broader \u2018contagion\u2019 from $6.3B Binance hack (6h ago)",
-   "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race (6h ago)",
-   "Here\u2019s what happened in crypto today (6h ago)"
+   "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race (6h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core CPI m/m in 17.9h, forecast 0.2%, previous 0.3%",
-   "USD CPI m/m in 17.9h, forecast 0.3%, previous 0.6%"
+   "USD Core CPI m/m in 17.7h, forecast 0.2%, previous 0.3%",
+   "USD CPI m/m in 17.7h, forecast 0.3%, previous 0.6%"
   ]
  },
  "spend": {
