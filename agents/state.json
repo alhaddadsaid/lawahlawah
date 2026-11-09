@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -53070.5564834343,
+   "cash": -53121.73169215416,
    "open": [
     {
      "id": 2475,
@@ -36,21 +36,6 @@
      "size": 455166.13563950843,
      "deadline": 1794237600.5891728,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2483,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "BANK",
-     "mint": "HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump",
-     "side": 1,
-     "opened": 1794231130.7859018,
-     "entry": 8.624e-05,
-     "stop": 6.8992e-05,
-     "target": 0.00012073599999999999,
-     "size": 2319109.461966605,
-     "deadline": 1794238330.785902,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -59,16 +44,6 @@
  "runs": 84,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794231483.6471562,
-  "seen:KENJSUYLASHUMfHyy5o4Hp2FdNqZg1AsUPhfH2kYvEP": 1794231483.6471562,
-  "seen:AhMWqC77W2YUx6rPXtoju3N3L1pA89p5JvZxYWN3dHUf": 1794231483.6471562,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794231483.6471562,
-  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794231483.6471562,
-  "control:AhMWqC77W2YUx6rPXtoju3N3L1pA89p5JvZxYWN3dHUf": 1794231484.2526712,
-  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794231667.3588483,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794231667.3588483,
-  "seen:BEd8GoJccoDA9gpfYdxqGupVFZwKrMWWMHnJYqnrpump": 1794231667.3588483,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794231667.3588483,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794231847.2640045,
   "seen:2StNe98imN7M6K341a7a4xvc8eNTvLCde5EugAKfLoat": 1794231847.2640045,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794231847.2640045,
@@ -79,7 +54,13 @@
   "seen:5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx": 1794232030.7165663,
   "control:HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump": 1794232030.7859042,
   "seen:H4MwFCiMNRirS4fruLZD6CChtQjxi1x4Ju6kJPkrpump": 1794232213.9906569,
-  "seen:cKUhnkogHpFmaN9RdayCPWMyxSMTNbvE4whH83vpump": 1794232213.9906569
+  "seen:cKUhnkogHpFmaN9RdayCPWMyxSMTNbvE4whH83vpump": 1794232213.9906569,
+  "seen:4aqpn2d7wKGLrDCUuL1ucL6soQrPwNkrbtsduCo9pump": 1794232398.506789,
+  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794232398.506789,
+  "seen:3cemrLWv6XqQ4Vdfcd7PaLagoNy3PTgzMZAL9JuEpump": 1794232398.506789,
+  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794232582.5994053,
+  "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794232582.5994053,
+  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1794232582.5994053
  },
  "talks": {
   "2026-10-21": 109
@@ -120,8 +101,10 @@
  ],
  "last_review": 1794158898.5417633,
  "news": {
-  "t": 1794230583.654826,
+  "t": 1794231498.5143156,
   "crypto": [
+   "The $2.85B Binance hackers lost shows why the UK needs stablecoin freeze rules (0h ago)",
+   "Strategy buys 1,036 Bitcoin as BTC holdings climb to 850,364 (0h ago)",
    "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy (1h ago)",
    "Trump says he knows \u2018nothing\u2019 about World Liberty\u2019s UAE ties as Justin Sun challenges filings (1h ago)",
    "Bitcoin bulls can't rely on ETF flows (1h ago)",
@@ -129,12 +112,13 @@
    "Nvidia-led tech selloff weighs on crypto majors (2h ago)",
    "Coinbase\u2019s US national trust bank charter takes effect (2h ago)",
    "Robinhood opens access to US IPOs for UK retail investors (2h ago)",
-   "Zcash developers want 20-second blocks just days after major speed upgrade (3h ago)",
-   "Live news: Bitcoin slides to $74,000 as Huang scandal weighs on Nvidia (3h ago)",
-   "BTC price eyes $73K amid Nvidia volatility: Three things to know in Bitcoin this week (3h ago)"
+   "Zcash developers want 20-second blocks just days after major speed upgrade (3h ago)"
   ],
   "macro": [],
-  "calendar": []
+  "calendar": [
+   "USD Core CPI m/m in 23.9h, forecast 0.2%, previous 0.3%",
+   "USD CPI m/m in 23.9h, forecast 0.3%, previous 0.6%"
+  ]
  },
  "spend": {
   "2026-11-09": 0.0
