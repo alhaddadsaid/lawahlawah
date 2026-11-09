@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-09 00:24 UTC. Runs so far: 82. Model: claude-haiku-5-5.
+Updated 2026-11-09 00:33 UTC. Runs so far: 82. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2336 | 30 | -61856.58 | -84229.4 |
+| control | meme | 2337 | 30 | -61907.86 | -84289.63 |
 | control | macro | 46 | 48 | 28.03 | -198.72 |
-| control | all | 2382 | 31 | -61828.55 | -84428.12 |
+| control | all | 2383 | 31 | -61879.83 | -84488.35 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: MAGGIE long at 0.0002058, stop 0.00016464, target 0.00028812, opened 2026-11-08 23:38 UTC
 - control: PIRATE long at 0.0003974, stop 0.00031792, target 0.00055636, opened 2026-11-08 23:41 UTC
-- control: S&P500 long at 0.0001502, stop 0.00012016, target 0.00021028, opened 2026-11-09 00:14 UTC
+- control: S&P500 long at 0.0001232, stop 9.856e-05, target 0.00017248, opened 2026-11-09 00:33 UTC
 
 ## Team
 
@@ -32,6 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
-- control: order MAGGIE REJECTED by guardrails: MAGGIE already open
+- 2026-11-09 00:33 UTC control: OPENED S&P500 long at 0.0001232 (stop 9.856e-05, target 0.00017248) - control: frozen v3 rules
 
