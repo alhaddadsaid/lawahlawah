@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -54874.992087765015,
+   "cash": -54939.15743922793,
    "open": [
     {
      "id": 2528,
@@ -51,21 +51,6 @@
      "size": 354735.721887194,
      "deadline": 1794263684.059654,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2534,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ClipCat",
-     "mint": "2iWEAgSNhNwMiXkwGzjY2dEztYvuirTbGAFTiWEbpump",
-     "side": 1,
-     "opened": 1794259231.170477,
-     "entry": 8.237e-05,
-     "stop": 6.589600000000001e-05,
-     "target": 0.000115318,
-     "size": 2428068.471530897,
-     "deadline": 1794266431.1704772,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,29 +59,30 @@
  "runs": 85,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7owLEuw5JpXDMdiqRb1aq3ZEx6HbuZwzDUS2HwQ6pump": 1794259394.929214,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794259394.929214,
-  "seen:22JKmY9YZfnQfb3pGYb6hctL5Jyvv3zhL3nQ8oyNuoYp": 1794259394.929214,
-  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794259394.929214,
-  "seen:A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": 1794259394.929214,
-  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1794259394.929214,
-  "control:FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs": 1794259394.9876907,
-  "seen:BMSFHPMiP4FVboz1oN7bcWP7U4yW3tqey3sDNGkWpump": 1794259580.4633896,
-  "seen:LLYuwZ33keFihgwoxXsBawy31AiRFLFSva32TYq5TvD": 1794259580.4633896,
-  "seen:Gi8vpPaRzC6m8qvb8tdUHfJxX2GfJe5Gf1h8niiRpump": 1794259580.4633896,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794259580.4633896,
-  "seen:TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": 1794259761.5118194,
-  "seen:HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep": 1794259761.5118194,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794259761.5118194,
-  "seen:HqZZhbXWm17vnY29uj4cgczNUWo9o8VLUWsN4RH8pump": 1794259945.621779,
-  "seen:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": 1794259945.621779,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794259945.621779,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794259945.621779,
   "seen:2iWEAgSNhNwMiXkwGzjY2dEztYvuirTbGAFTiWEbpump": 1794260130.1852722,
   "seen:FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs": 1794260130.1852722,
   "seen:GNMiw6C5x8F8CKzMDigs7RHs6J4UnfgbnvUEuG97pump": 1794260130.1852722,
   "seen:EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump": 1794260130.1852722,
-  "control:2iWEAgSNhNwMiXkwGzjY2dEztYvuirTbGAFTiWEbpump": 1794260131.17048
+  "control:2iWEAgSNhNwMiXkwGzjY2dEztYvuirTbGAFTiWEbpump": 1794260131.17048,
+  "seen:22JKmY9YZfnQfb3pGYb6hctL5Jyvv3zhL3nQ8oyNuoYp": 1794260311.7078693,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794260311.7078693,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1794260311.7078693,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1794260311.7078693,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794260311.7078693,
+  "seen:5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx": 1794260311.7078693,
+  "seen:7q6EBhFtfP1MP9wX5q1bgBkRFPU2mv8uhYxPH6DSpump": 1794260496.1769197,
+  "seen:BMSFHPMiP4FVboz1oN7bcWP7U4yW3tqey3sDNGkWpump": 1794260496.1769197,
+  "seen:7wS9EHZzXA3KtfRHPySCCamcNmDNMdPpnqQgM32pump": 1794260496.1769197,
+  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794260496.1769197,
+  "seen:8PzFWyLpCVEmbZmVJcaRTU5r69XKJx1rd7YGpWvnpump": 1794260496.1769197,
+  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794260496.1769197,
+  "seen:8ctbRatrLwS6m35mNajbDimiaM4x7bmfGTprBmZnpump": 1794260496.1769197,
+  "seen:8qC2e7YxK2A4d8VLdZTo8jcMFDMQNDB9xdFdRZYMpump": 1794260681.2090673,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794260681.2090673,
+  "seen:5yC9BM8KUsJTPbWPLfA2N8qH1s9V8DQ3Vcw1G6Jdpump": 1794260681.2090673,
+  "seen:DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump": 1794260865.5198247,
+  "seen:HqZZhbXWm17vnY29uj4cgczNUWo9o8VLUWsN4RH8pump": 1794260865.5198247,
+  "seen:TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": 1794260865.5198247
  },
  "talks": {
   "2026-10-21": 109
