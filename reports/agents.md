@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-09 19:30 UTC. Runs so far: 85. Model: claude-haiku-5-5.
+Updated 2026-11-09 19:39 UTC. Runs so far: 85. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2454 | 31 | -64355.03 | -87874.04 |
+| control | meme | 2455 | 31 | -64409.71 | -87937.57 |
 | control | macro | 48 | 48 | -3.39 | -239.93 |
-| control | all | 2502 | 31 | -64358.42 | -88113.97 |
+| control | all | 2503 | 31 | -64413.1 | -88177.5 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: SPSC long at 0.000163, stop 0.0001304, target 0.0002282, opened 2026-11-09 17:49 UTC
 - control: BTC long at 5.531e-05, stop 4.4248e-05, target 7.7434e-05, opened 2026-11-09 18:59 UTC
-- control: LASTTRUCK long at 0.00023, stop 0.000184, target 0.000322, opened 2026-11-09 19:12 UTC
 
 ## Team
 
@@ -32,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order LASTTRUCK REJECTED by guardrails: LASTTRUCK already open
+- control: CLOSED LASTTRUCK (stop) P&L $-54.68 normal, $-63.53 pessimistic
 
