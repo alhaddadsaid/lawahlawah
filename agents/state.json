@@ -66,20 +66,29 @@
      "size": 2468526.2898049867,
      "deadline": 1794214552.2373261,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2452,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "hoss",
+     "mint": "CJE1ayid5jogwAP7Z42VR4H6buQsPkhkbDws7DCWpump",
+     "side": 1,
+     "opened": 1794207719.3709521,
+     "entry": 7.247e-05,
+     "stop": 5.7976e-05,
+     "target": 0.00010145799999999999,
+     "size": 2759762.6604112047,
+     "deadline": 1794214919.3709524,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2452,
+ "next_id": 2453,
  "runs": 83,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1794207703.1342494,
-  "seen:TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": 1794207703.1342494,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794207886.0722198,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794208069.9613008,
-  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794208069.9613008,
-  "seen:CJE1ayid5jogwAP7Z42VR4H6buQsPkhkbDws7DCWpump": 1794208069.9613008,
   "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794208252.1967735,
   "seen:HMGVzsA3prGa51t3SAapNEGM5pFApmUXowNUV5rkpump": 1794208252.1967735,
   "seen:H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": 1794208252.1967735,
@@ -88,7 +97,15 @@
   "seen:JD1i2iDxqeMQZUUmwzrK5bi8PnjsmjNTKbh97oxFpump": 1794208434.969303,
   "seen:8MuTFfgeFCYa7BKMkKzRbxPLjgdEZFfHtNM2XWSfdtH2": 1794208434.969303,
   "seen:3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump": 1794208434.969303,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794208434.969303
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794208434.969303,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794208618.910497,
+  "seen:36j6WL2xHeRCoHoQwt2ha538bzgsidCWJHGf3dqRpump": 1794208618.910497,
+  "control:CJE1ayid5jogwAP7Z42VR4H6buQsPkhkbDws7DCWpump": 1794208619.370956,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794208801.9840941,
+  "seen:TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": 1794208984.441363,
+  "seen:CJE1ayid5jogwAP7Z42VR4H6buQsPkhkbDws7DCWpump": 1794208984.441363,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794208984.441363,
+  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794208984.441363
  },
  "talks": {
   "2026-10-21": 109
@@ -129,18 +146,18 @@
  ],
  "last_review": 1794158898.5417633,
  "news": {
-  "t": 1794206803.1444716,
+  "t": 1794207718.9203608,
   "crypto": [
+   "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile (0h ago)",
+   "Solana moves to scrap the transaction feature used in the $270 million Drift hack (0h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
    "Zcash devs propose another block time cut days after NU7 upgrade (1h ago)",
-   "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts (1h ago)",
+   "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts (2h ago)",
    "Binance's bitcoin mining pool finds just one block in a week as shutdown nears (2h ago)",
    "tBTC bridge partially resumes as $120M Aave reserve remains frozen (3h ago)",
-   "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility (3h ago)",
+   "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility (4h ago)",
    "Vitalik \u2018pivots\u2019 ETH to store of value, crypto suffers after US midterms: Hodler\u2019s Digest (8h ago)",
-   "What the election results mean for crypto: State of Crypto (11h ago)",
-   "Stablecoin growth has stalled. The payments boom hasn't (12h ago)",
-   "Binance France emails announce closure of its users\u2019 accounts on Dec. 31 (18h ago)"
+   "What the election results mean for crypto: State of Crypto (12h ago)"
   ],
   "macro": [],
   "calendar": []
