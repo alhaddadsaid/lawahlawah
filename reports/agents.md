@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-09 18:29 UTC. Runs so far: 85. Model: claude-haiku-5-5.
+Updated 2026-11-09 18:38 UTC. Runs so far: 85. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2445 | 31 | -64140.52 | -87572.73 |
+| control | meme | 2446 | 31 | -64198.86 | -87639.83 |
 | control | macro | 48 | 48 | -3.39 | -239.93 |
-| control | all | 2493 | 31 | -64143.91 | -87812.66 |
+| control | all | 2494 | 31 | -64202.25 | -87879.76 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: PIRATE long at 0.0001562, stop 0.00012496, target 0.00021868, opened 2026-11-09 16:54 UTC
 - control: STOKE long at 0.0001066, stop 8.528e-05, target 0.00014924, opened 2026-11-09 17:46 UTC
 - control: SPSC long at 0.000163, stop 0.0001304, target 0.0002282, opened 2026-11-09 17:49 UTC
-- control: NVIDIOT long at 6.773e-05, stop 5.4184e-05, target 9.4822e-05, opened 2026-11-09 18:26 UTC
+- control: LASTTRUCK long at 0.0003069, stop 0.00024552, target 0.00042966, opened 2026-11-09 18:35 UTC
+- control: GTA long at 0.0001412, stop 0.00011296, target 0.00019768, opened 2026-11-09 18:38 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- 2026-11-09 18:38 UTC control: OPENED GTA long at 0.0001412 (stop 0.00011296, target 0.00019768) - control: frozen v3 rules
 

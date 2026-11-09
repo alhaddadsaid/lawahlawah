@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -54143.707917339525,
+   "cash": -54202.047648625514,
    "open": [
     {
      "id": 2499,
@@ -53,47 +53,64 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2516,
+     "id": 2517,
      "desk": "control",
      "market": "meme",
-     "symbol": "NVIDIOT",
-     "mint": "FyVLetA1Jt84CPYPZTvxb8noxMrwbKj178ZoqkdWeVjc",
+     "symbol": "LASTTRUCK",
+     "mint": "6kmkcwKxxmoREhkxrbBvwDY3N2KSfpdMMtWtNoPpump",
      "side": 1,
-     "opened": 1794248780.591607,
-     "entry": 6.773e-05,
-     "stop": 5.418400000000001e-05,
-     "target": 9.4822e-05,
-     "size": 2952901.225454008,
-     "deadline": 1794255980.591607,
+     "opened": 1794249328.484072,
+     "entry": 0.0003069,
+     "stop": 0.00024552,
+     "target": 0.00042965999999999995,
+     "size": 651678.0710329098,
+     "deadline": 1794256528.4840722,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2518,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "GTA",
+     "mint": "3xQYoRyycadwD4ZJvFejabeHetva5xDAjggBhFW9pump",
+     "side": 1,
+     "opened": 1794249511.350432,
+     "entry": 0.0001412,
+     "stop": 0.00011296,
+     "target": 0.00019767999999999996,
+     "size": 1416430.59490085,
+     "deadline": 1794256711.3504322,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2517,
+ "next_id": 2519,
  "runs": 85,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6C5USgghERG9Rwhr2D1Ny9wTb62HdHhAt5QQ7qgZZZTe": 1794249133.0767841,
-  "seen:FjNotAgWAD3UPQRXvzjSsjPC4JuFQkqLJvfj68a1pump": 1794249133.0767841,
-  "seen:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": 1794249133.0767841,
-  "seen:B1wk5PYYUAAA7YasYW3WhrTprKH1fmMHto9H567epump": 1794249317.3158503,
-  "seen:FyVLetA1Jt84CPYPZTvxb8noxMrwbKj178ZoqkdWeVjc": 1794249317.3158503,
-  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794249317.3158503,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794249317.3158503,
-  "seen:3xQYoRyycadwD4ZJvFejabeHetva5xDAjggBhFW9pump": 1794249497.4273386,
-  "seen:A5oX91q9LdyJpzRvLH7xdMPCxw6qMPkLu9hd58tVpump": 1794249497.4273386,
-  "seen:3mCvCUtgELaFwWjkeDQn3bkTYnKquec732dJFsCUpump": 1794249497.4273386,
-  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794249497.4273386,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794249497.4273386,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794249497.4273386,
   "seen:VVWoFCEx5a2Q2hSanw79tSMxqwCxsRhLr7KShNHpump": 1794249680.51262,
   "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794249680.51262,
   "control:FyVLetA1Jt84CPYPZTvxb8noxMrwbKj178ZoqkdWeVjc": 1794249680.59161,
   "seen:6kmkcwKxxmoREhkxrbBvwDY3N2KSfpdMMtWtNoPpump": 1794249863.5771613,
   "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1794249863.5771613,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794249863.5771613,
-  "seen:3AgytyBs815xU5JAbvpaXNscDqQ35N3325PsNABVpump": 1794249863.5771613
+  "seen:3AgytyBs815xU5JAbvpaXNscDqQ35N3325PsNABVpump": 1794249863.5771613,
+  "seen:FjNotAgWAD3UPQRXvzjSsjPC4JuFQkqLJvfj68a1pump": 1794250044.6155891,
+  "seen:6C5USgghERG9Rwhr2D1Ny9wTb62HdHhAt5QQ7qgZZZTe": 1794250044.6155891,
+  "seen:DXMQqwDQAKZzppeX41ykGyt9pxw9mwJp6JG85SX2pump": 1794250228.4151678,
+  "seen:H5CPUyFcLWRsNKmxnqGBboXErgPv43MUkfTft7nA5BzE": 1794250228.4151678,
+  "seen:B1wk5PYYUAAA7YasYW3WhrTprKH1fmMHto9H567epump": 1794250228.4151678,
+  "seen:EDd9xX3bR17r2NaQqHJ9gP5XZ4v3SQvSqJqi8DJmpump": 1794250228.4151678,
+  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794250228.4151678,
+  "control:6kmkcwKxxmoREhkxrbBvwDY3N2KSfpdMMtWtNoPpump": 1794250228.4840748,
+  "seen:A5oX91q9LdyJpzRvLH7xdMPCxw6qMPkLu9hd58tVpump": 1794250411.3038225,
+  "seen:3xQYoRyycadwD4ZJvFejabeHetva5xDAjggBhFW9pump": 1794250411.3038225,
+  "seen:3mCvCUtgELaFwWjkeDQn3bkTYnKquec732dJFsCUpump": 1794250411.3038225,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794250411.3038225,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794250411.3038225,
+  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1794250411.3038225,
+  "control:3xQYoRyycadwD4ZJvFejabeHetva5xDAjggBhFW9pump": 1794250411.350435
  },
  "talks": {
   "2026-10-21": 109
@@ -134,23 +151,23 @@
  ],
  "last_review": 1794245301.6954384,
  "news": {
-  "t": 1794248233.0840724,
+  "t": 1794249144.6231797,
   "crypto": [
-   "PNC Bank tests turning USDC payments into dollar deposits (0h ago)",
+   "PNC Bank tests turning USDC payments into dollar deposits (1h ago)",
    "Avalanche\u2019s AVAX leads crypto gains following NYSE tokenization deal (1h ago)",
    "Bitcoin, tech stocks brush off Nvidia nerves as analyst mulls $68K target (1h ago)",
    "A Bitcoin block just neared a 2015 transaction record, but paid only $180 in fees (2h ago)",
    "Google\u2019s AI chip push adds more pressure on Nvidia (3h ago)",
-   "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack (3h ago)",
-   "Analysts see no broader \u2018contagion\u2019 from $6.3B Binance hack (4h ago)",
+   "North Korean hackers are creating memecoins to wash loot from $6.3 billion Binance hack (4h ago)",
+   "Analysts see no broader \u2018contagion\u2019 from $6.3B Binance hack (5h ago)",
    "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race (5h ago)",
    "Here\u2019s what happened in crypto today (5h ago)",
    "The $2.85B Binance hackers lost shows why the UK needs stablecoin freeze rules (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core CPI m/m in 19.2h, forecast 0.2%, previous 0.3%",
-   "USD CPI m/m in 19.2h, forecast 0.3%, previous 0.6%"
+   "USD Core CPI m/m in 19.0h, forecast 0.2%, previous 0.3%",
+   "USD CPI m/m in 19.0h, forecast 0.3%, previous 0.6%"
   ]
  },
  "spend": {
