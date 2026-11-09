@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-09 14:02 UTC. Runs so far: 84. Model: claude-haiku-5-5.
+Updated 2026-11-09 14:16 UTC. Runs so far: 84. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2415 | 31 | -63297.41 | -86443.52 |
+| control | meme | 2418 | 31 | -63224.06 | -86402.82 |
 | control | macro | 47 | 49 | 175.47 | -53.84 |
-| control | all | 2462 | 31 | -63121.94 | -86497.36 |
+| control | all | 2465 | 31 | -63048.59 | -86456.66 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,8 +19,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: CATPAD long at 0.0001323, stop 0.00010584, target 0.00018522, opened 2026-11-09 12:28 UTC
 - control: PIRATE long at 0.0004394, stop 0.00035152, target 0.00061516, opened 2026-11-09 13:20 UTC
-- control: BANK long at 7.256e-05, stop 5.8048e-05, target 0.000101584, opened 2026-11-09 13:47 UTC
-- control: GINGATO long at 0.0002441, stop 0.00019528, target 0.00034174, opened 2026-11-09 14:02 UTC
 - control: GBPUSD long at 1.34181, stop 1.34098, target 1.34306, opened 2026-11-09 14:02 UTC
 
 ## Team
@@ -34,6 +32,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-09 14:02 UTC control: OPENED GINGATO long at 0.0002441 (stop 0.00019528, target 0.00034174) - control: frozen v3 rules
-- 2026-11-09 14:02 UTC control: OPENED GBPUSD long at 1.34181 (stop 1.34098, target 1.34306) - control: random direction
+- control: CLOSED BANK (stop) P&L $-62.65 normal, $-71.3 pessimistic
+- control: CLOSED Titcoin (target) P&L $68.0 normal, $56.0 pessimistic
 

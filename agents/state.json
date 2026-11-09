@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -53121.73169215416,
+   "cash": -53048.37846723685,
    "open": [
     {
      "id": 2475,
@@ -38,36 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2484,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "BANK",
-     "mint": "HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump",
-     "side": 1,
-     "opened": 1794232050.1228743,
-     "entry": 7.256e-05,
-     "stop": 5.8048e-05,
-     "target": 0.000101584,
-     "size": 2756339.5810363838,
-     "deadline": 1794239250.1228747,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2485,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GINGATO",
-     "mint": "AA5U5hNETgeqVouYMefdLVvF5edP5jmNujqdSRjtpump",
-     "side": 1,
-     "opened": 1794232964.5273166,
-     "entry": 0.0002441,
-     "stop": 0.00019528000000000004,
-     "target": 0.00034174,
-     "size": 819336.3375665711,
-     "deadline": 1794240164.5273168,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2486,
      "desk": "control",
      "market": "macro",
@@ -85,27 +55,30 @@
    ]
   }
  },
- "next_id": 2487,
+ "next_id": 2488,
  "runs": 84,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": 1794233133.6352816,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794233133.6352816,
-  "seen:4aqpn2d7wKGLrDCUuL1ucL6soQrPwNkrbtsduCo9pump": 1794233316.8649168,
-  "seen:3cemrLWv6XqQ4Vdfcd7PaLagoNy3PTgzMZAL9JuEpump": 1794233316.8649168,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794233316.8649168,
-  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794233316.8649168,
-  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794233500.8581924,
-  "seen:9kz2xFmNsEMNzfCn91xiwDPAsCwHbR5kKNNGoXmTpump": 1794233500.8581924,
-  "seen:cKUhnkogHpFmaN9RdayCPWMyxSMTNbvE4whH83vpump": 1794233500.8581924,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794233681.1256804,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794233681.1256804,
   "seen:AA5U5hNETgeqVouYMefdLVvF5edP5jmNujqdSRjtpump": 1794233864.4558043,
   "seen:8iSPN523hkUTMRyREQZfruN8GYUULnZ1VxNPg2qZpump": 1794233864.4558043,
   "seen:1RLp87BUsakyXMuWbDx5pd8iMHtypw1o58VDMmtpump": 1794233864.4558043,
   "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794233864.4558043,
   "control:AA5U5hNETgeqVouYMefdLVvF5edP5jmNujqdSRjtpump": 1794233864.5273187,
-  "control:GBPUSD": 1794233864.7625055
+  "control:GBPUSD": 1794233864.7625055,
+  "seen:CZRtwCDJy4cKNvtVwtgGqeEGzLnCDJdTkexgpEsMpump": 1794234048.9439998,
+  "seen:H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": 1794234048.9439998,
+  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794234229.6996722,
+  "seen:3cemrLWv6XqQ4Vdfcd7PaLagoNy3PTgzMZAL9JuEpump": 1794234229.6996722,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794234229.6996722,
+  "seen:9kz2xFmNsEMNzfCn91xiwDPAsCwHbR5kKNNGoXmTpump": 1794234414.3376558,
+  "seen:HA9JHZn8S8VhtGtHtQcDVoLFBAssFPce9VthA2Pgpump": 1794234414.3376558,
+  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794234414.3376558,
+  "seen:cKUhnkogHpFmaN9RdayCPWMyxSMTNbvE4whH83vpump": 1794234414.3376558,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794234414.3376558,
+  "seen:3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump": 1794234414.3376558,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794234598.9288435,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794234598.9288435,
+  "control:9kz2xFmNsEMNzfCn91xiwDPAsCwHbR5kKNNGoXmTpump": 1794234598.998507
  },
  "talks": {
   "2026-10-21": 109
@@ -146,23 +119,23 @@
  ],
  "last_review": 1794158898.5417633,
  "news": {
-  "t": 1794232416.8736973,
+  "t": 1794233329.7073498,
   "crypto": [
+   "Analysts see no broader \u2018contagion\u2019 from $6.3B Binance hack (0h ago)",
    "NYSE picks Avalanche to settle tokenized stocks amid Wall Street's blockchain race (0h ago)",
-   "Here\u2019s what happened in crypto today (0h ago)",
-   "The $2.85B Binance hackers lost shows why the UK needs stablecoin freeze rules (0h ago)",
-   "Strategy buys 1,036 Bitcoin as BTC holdings climb to 850,364 (0h ago)",
+   "Here\u2019s what happened in crypto today (1h ago)",
+   "The $2.85B Binance hackers lost shows why the UK needs stablecoin freeze rules (1h ago)",
+   "Strategy buys 1,036 Bitcoin as BTC holdings climb to 850,364 (1h ago)",
    "Solana set for its first tokenized stock venue under SEC framework, listing Galaxy (1h ago)",
-   "Trump says he knows \u2018nothing\u2019 about World Liberty\u2019s UAE ties as Justin Sun challenges filings (1h ago)",
-   "Bitcoin bulls can't rely on ETF flows (1h ago)",
-   "EU taps industry to set standards for tokenized securities (1h ago)",
-   "Nvidia-led tech selloff weighs on crypto majors (2h ago)",
-   "Coinbase\u2019s US national trust bank charter takes effect (2h ago)"
+   "Trump says he knows \u2018nothing\u2019 about World Liberty\u2019s UAE ties as Justin Sun challenges filings (2h ago)",
+   "Bitcoin bulls can't rely on ETF flows (2h ago)",
+   "EU taps industry to set standards for tokenized securities (2h ago)",
+   "Nvidia-led tech selloff weighs on crypto majors (2h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core CPI m/m in 23.6h, forecast 0.2%, previous 0.3%",
-   "USD CPI m/m in 23.6h, forecast 0.3%, previous 0.6%"
+   "USD Core CPI m/m in 23.4h, forecast 0.2%, previous 0.3%",
+   "USD CPI m/m in 23.4h, forecast 0.3%, previous 0.6%"
   ]
  },
  "spend": {
