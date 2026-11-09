@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -52538.83944071872,
+   "cash": -52499.18224189404,
    "open": [
     {
      "id": 2418,
@@ -21,21 +21,6 @@
      "size": 5.120713242201524,
      "deadline": 1794276097.7720292,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 2443,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "JENSEN",
-     "mint": "GgN3jfbg75SiW4qJKmak4VJrnWQvQdnUmN4NLHW5pump",
-     "side": 1,
-     "opened": 1794202593.5150964,
-     "entry": 6.126e-05,
-     "stop": 4.900800000000001e-05,
-     "target": 8.5764e-05,
-     "size": 3264773.09826967,
-     "deadline": 1794209793.5150967,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 2449,
@@ -59,13 +44,6 @@
  "runs": 83,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794209533.1518092,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794209533.1518092,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794209716.1972303,
-  "control:8MuTFfgeFCYa7BKMkKzRbxPLjgdEZFfHtNM2XWSfdtH2": 1794209716.2677448,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794209900.4503746,
-  "seen:CJE1ayid5jogwAP7Z42VR4H6buQsPkhkbDws7DCWpump": 1794209900.4503746,
-  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794209900.4503746,
   "seen:483nprwoMSoGQgrojSHWiePMbKPre7ZRDy4f8YNSpump": 1794210082.6187532,
   "seen:AxWd7zsqNmgcPyt8evEzycPAAgfAPNdZh8nToP1bpump": 1794210082.6187532,
   "seen:H2ZViwA4dwxHd3bctARCUDUqTwTqfVrbmKQMrwBmpump": 1794210082.6187532,
@@ -75,7 +53,15 @@
   "seen:3mPaWq3s4MoF7mXLHPo3N9ueRjG4oRQVPqnHTJLkpump": 1794210265.0542371,
   "seen:AWaBBNoVuwQ22B8Y5nEtLne2uEfk8UaYEFws7vT7pump": 1794210265.0542371,
   "seen:GgN3jfbg75SiW4qJKmak4VJrnWQvQdnUmN4NLHW5pump": 1794210265.0542371,
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1794210265.0542371
+  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1794210265.0542371,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794210448.6142187,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794210632.0424147,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794210632.0424147,
+  "seen:CJE1ayid5jogwAP7Z42VR4H6buQsPkhkbDws7DCWpump": 1794210812.8628967,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794210812.8628967,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794210812.8628967,
+  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794210812.8628967,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794210812.8628967
  },
  "talks": {
   "2026-10-21": 109
@@ -116,17 +102,17 @@
  ],
  "last_review": 1794158898.5417633,
  "news": {
-  "t": 1794208633.1616929,
+  "t": 1794209548.624667,
   "crypto": [
-   "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile (0h ago)",
+   "SpaceX proposes a $24 billion Texas supercomputer worth 17 times its bitcoin pile (1h ago)",
    "Solana moves to scrap the transaction feature used in the $270 million Drift hack (1h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "Zcash devs propose another block time cut days after NU7 upgrade (2h ago)",
    "Two rival Ethereum proposals aim to stop Glamsterdam breaking old contracts (2h ago)",
-   "Binance's bitcoin mining pool finds just one block in a week as shutdown nears (2h ago)",
+   "Binance's bitcoin mining pool finds just one block in a week as shutdown nears (3h ago)",
    "tBTC bridge partially resumes as $120M Aave reserve remains frozen (3h ago)",
    "Bitcoin drops, then pops as Nvidia cheating scandal and failed Iran talks trigger volatility (4h ago)",
-   "Vitalik \u2018pivots\u2019 ETH to store of value, crypto suffers after US midterms: Hodler\u2019s Digest (8h ago)",
+   "Vitalik \u2018pivots\u2019 ETH to store of value, crypto suffers after US midterms: Hodler\u2019s Digest (9h ago)",
    "What the election results mean for crypto: State of Crypto (12h ago)"
   ],
   "macro": [],
@@ -160,5 +146,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794208268.1180308
+ "last_macro_macro": 1794209548.6244788
 }
