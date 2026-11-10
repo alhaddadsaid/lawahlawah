@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -55155.26630008102,
+   "cash": -55087.26630008102,
    "open": [
     {
      "id": 2558,
@@ -51,21 +51,6 @@
      "size": 3469812.630117974,
      "deadline": 1794308870.1670322,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2561,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "X",
-     "mint": "9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump",
-     "side": 1,
-     "opened": 1794302588.9110756,
-     "entry": 0.0001183,
-     "stop": 9.464e-05,
-     "target": 0.00016562,
-     "size": 1690617.0752324597,
-     "deadline": 1794309788.9110758,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,21 +59,22 @@
  "runs": 87,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794302755.2493863,
-  "seen:EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump": 1794302755.2493863,
-  "seen:45F77uiNszHeN1tYrecbAbsCL7yyg3GLKWo6TkZepump": 1794302940.829666,
-  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794302940.829666,
-  "seen:BbShAo3Ke29UQBZAb6fvpyhjoeBcC7vpNUM3Ccz3pump": 1794302940.829666,
-  "seen:FgoLzGV2nVrghVHCWwAh6388iZkcLZSedykJ5trRpump": 1794303120.8186498,
-  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794303120.8186498,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794303120.8186498,
-  "seen:34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": 1794303120.8186498,
-  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794303304.996915,
-  "seen:F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump": 1794303304.996915,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794303304.996915,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794303488.8786323,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794303488.8786323,
-  "control:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794303488.9110792
+  "seen:45F77uiNszHeN1tYrecbAbsCL7yyg3GLKWo6TkZepump": 1794303858.178224,
+  "seen:FgoLzGV2nVrghVHCWwAh6388iZkcLZSedykJ5trRpump": 1794304039.2613642,
+  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794304039.2613642,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794304039.2613642,
+  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794304039.2613642,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1794304039.2613642,
+  "seen:Dogugj3qeWNELSsUcxneeKwZWsyejKpnin4q8jbusB67": 1794304221.1218596,
+  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794304221.1218596,
+  "seen:F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump": 1794304221.1218596,
+  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794304221.1218596,
+  "seen:yjF8ynR8zcF4umGmFpX2kjG63xBBrXe7rUQjAYBpump": 1794304402.3091962,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794304402.3091962,
+  "seen:7rff9fbKvwZwoSv2ut2tkeuZLyzAy14JoVqat3vDpump": 1794304583.9594455,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794304583.9594455,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794304583.9594455,
+  "seen:87CQtouHSb6YCXaPZ1pp8jD56VudRMXBVqU3oDMD1UJT": 1794304583.9594455
  },
  "talks": {
   "2026-10-21": 109
@@ -129,23 +115,23 @@
  ],
  "last_review": 1794245301.6954384,
  "news": {
-  "t": 1794302220.8279767,
+  "t": 1794303139.2688127,
   "crypto": [
    "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures (0h ago)",
    "BitGo Q3 profit nearly doubles on crypto gains as revenue falls 51% (0h ago)",
-   "BlackRock Bitcoin ETF outflows hit $1.66B over seven trading sessions (1h ago)",
-   "Securitize agrees to buy River One to expand into asset-backed lending (1h ago)",
-   "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes (2h ago)",
-   "Here\u2019s what happened in crypto today (3h ago)",
+   "BlackRock Bitcoin ETF outflows hit $1.66B over seven trading sessions (2h ago)",
+   "Securitize agrees to buy River One to expand into asset-backed lending (2h ago)",
+   "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes (3h ago)",
+   "Here\u2019s what happened in crypto today (4h ago)",
    "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more (4h ago)",
    "Crypto exchanges need hard dollar caps on hot wallets, CertiK says (4h ago)",
-   "XRP Ledger maps out quantum-proof accounts, with no extra fees for users (4h ago)",
+   "XRP Ledger maps out quantum-proof accounts, with no extra fees for users (5h ago)",
    "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough (6h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core CPI m/m in 4.2h, forecast 0.2%, previous 0.3%",
-   "USD CPI m/m in 4.2h, forecast 0.3%, previous 0.6%"
+   "USD Core CPI m/m in 4.0h, forecast 0.2%, previous 0.3%",
+   "USD CPI m/m in 4.0h, forecast 0.3%, previous 0.6%"
   ]
  },
  "spend": {
@@ -176,5 +162,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794302405.0047398
+ "last_macro_macro": 1794303683.9682853
 }
