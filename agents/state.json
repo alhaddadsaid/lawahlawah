@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -54917.33813746802,
+   "cash": -54968.514742972606,
    "open": [
     {
      "id": 2568,
@@ -36,21 +36,6 @@
      "size": 2452483.139178418,
      "deadline": 1794321835.9322567,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2573,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CHAINCHOMP131",
-     "mint": "DigVnUDwgbSSWNMNsgzGNw8EQhqwjniPU2EsfD4Wpump",
-     "side": 1,
-     "opened": 1794315911.671666,
-     "entry": 6.54e-05,
-     "stop": 5.232000000000001e-05,
-     "target": 9.156000000000001e-05,
-     "size": 3058103.975535168,
-     "deadline": 1794323111.6716661,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -59,17 +44,6 @@
  "runs": 87,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:tx41eAXzN6jHH22LSgF7eSxpTNvJXwcbrcGsbDrpump": 1794318086.987183,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794318086.987183,
-  "seen:CPBpMNsU3ZdRYvJE3G2tsktt1QKLuwyRoTAgAzWTpump": 1794318086.987183,
-  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794318086.987183,
-  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794318270.0972981,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794318270.0972981,
-  "seen:DigVnUDwgbSSWNMNsgzGNw8EQhqwjniPU2EsfD4Wpump": 1794318270.0972981,
-  "seen:7BdeSjH9kDwhxJ3kysbiWzJHXcguMJQnaaC2wGKdpump": 1794318270.0972981,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794318270.0972981,
-  "seen:8QCqrCmjCTmFarmq8SxCryuxzMBLVEWasbFaZQgXpump": 1794318451.9546058,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794318451.9546058,
   "seen:5YMkXAYccHSGnHn9nob9xEvv6Pvka9DZWH7nTbotTu9E": 1794318633.4378366,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794318633.4378366,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794318633.4378366,
@@ -77,7 +51,19 @@
   "seen:EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump": 1794318633.4378366,
   "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794318633.4378366,
   "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794318815.5828178,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794318815.5828178
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794318815.5828178,
+  "seen:tx41eAXzN6jHH22LSgF7eSxpTNvJXwcbrcGsbDrpump": 1794318998.8441916,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794318998.8441916,
+  "seen:X7Fk2APb7rjMnPDNjHhYvb2L8tWbNfVxXzr7RWspump": 1794318998.8441916,
+  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794318998.8441916,
+  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794319180.510661,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794319180.510661,
+  "seen:7BdeSjH9kDwhxJ3kysbiWzJHXcguMJQnaaC2wGKdpump": 1794319180.510661,
+  "seen:CApbCPRbZcp97fHEdeZX4SPCoQETEPsAHRVLwaa8pump": 1794319180.510661,
+  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794319180.510661,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794319362.1685426,
+  "seen:DigVnUDwgbSSWNMNsgzGNw8EQhqwjniPU2EsfD4Wpump": 1794319362.1685426,
+  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794319362.1685426
  },
  "talks": {
   "2026-10-21": 109
