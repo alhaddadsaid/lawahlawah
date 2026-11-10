@@ -66,16 +66,29 @@
      "size": 971817.2983479106,
      "deadline": 1794278515.659889,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2542,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "GBPUSD",
+     "mint": "",
+     "side": 1,
+     "opened": 1794272405.627188,
+     "entry": 1.3435442447662354,
+     "stop": 1.3425507375172205,
+     "target": 1.3450345056397575,
+     "size": 100653.51822964805,
+     "deadline": 1794358805.6271884,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 2542,
+ "next_id": 2543,
  "runs": 86,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DJmHV336iEsAv8vDYhxLH8pAhvm6W8vhMJBRaJLuSPWN": 1794272395.8487666,
-  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794272395.8487666,
   "seen:SuiKhqAXdSXmxtEyGMrysWs6Px9mLmFDi3fKcompump": 1794272581.101818,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794272581.101818,
   "seen:6QGe5ocSEyLjgVYBaohv4BKxNPvNZLCJ3FhdcK8Jpump": 1794272581.101818,
@@ -91,13 +104,16 @@
   "seen:BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp": 1794273123.9816391,
   "seen:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": 1794273123.9816391,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794273123.9816391,
-  "control:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794273124.0974638
+  "control:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794273124.0974638,
+  "seen:F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1794273305.4475389,
+  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794273305.4475389,
+  "control:GBPUSD": 1794273305.6271923
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498404,
+ "ctrl_macro_hour": 498409,
  "team": [
   {
    "name": "Lead",
