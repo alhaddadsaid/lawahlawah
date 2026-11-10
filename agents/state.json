@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -55185.61566963707,
+   "cash": -55173.502876298684,
    "open": [
     {
      "id": 2528,
@@ -38,21 +38,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 2548,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Chud",
-     "mint": "6yjNqPzTSanBWSa6dxVEgTjePXBrZ2FoHLDQwYwEsyM6",
-     "side": 1,
-     "opened": 1794280413.8276145,
-     "entry": 0.0006605,
-     "stop": 0.0005283999999999999,
-     "target": 0.0009246999999999999,
-     "size": 302800.90840272524,
-     "deadline": 1794287613.8276148,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2552,
      "desk": "control",
      "market": "macro",
@@ -81,32 +66,49 @@
      "size": 394088.6699507389,
      "deadline": 1794294599.8316214,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2554,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "MOMO",
+     "mint": "488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump",
+     "side": 1,
+     "opened": 1794287929.4797592,
+     "entry": 0.0001782,
+     "stop": 0.00014256,
+     "target": 0.00024948,
+     "size": 1122334.455667789,
+     "deadline": 1794295129.4797595,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2554,
+ "next_id": 2555,
  "runs": 86,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": 1794287532.2348828,
-  "seen:6G6p82ieTBmdg6GAdUaWAQSMZLKDhorwC1M9Czntpump": 1794287532.2348828,
-  "seen:8CykGobYKN3og6VqeU17Dfhk5RZe6v7VJLQC8oUoC7yN": 1794287733.6290276,
-  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794287733.6290276,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794287733.6290276,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794287935.652128,
-  "seen:488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump": 1794287935.652128,
-  "seen:22JKmY9YZfnQfb3pGYb6hctL5Jyvv3zhL3nQ8oyNuoYp": 1794287935.652128,
-  "seen:C49xbi6go9jaok4ZrribjDAjqyTkXwiCBtoBNEBkpump": 1794287935.652128,
-  "seen:F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump": 1794287935.652128,
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794287935.652128,
   "seen:AmaENUv7SQowxEaWrZtT9gyR9HHJUBg9ULx6wce4pump": 1794288117.4521086,
   "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794288117.4521086,
   "seen:Eqx3sZXKgZ49XrZfKkUAdNz8D8keZtQtNG83wisxpump": 1794288117.4521086,
   "seen:DMvcPrWsThg3eyM96jEFTqFYrVSEV7jVzU5HEggRdTzP": 1794288299.7694952,
   "seen:52N8mH4XGpnsQJbpexD3oxw1G2zZn7m2jX6VSpkd6btd": 1794288299.7694952,
   "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794288299.7694952,
-  "control:22JKmY9YZfnQfb3pGYb6hctL5Jyvv3zhL3nQ8oyNuoYp": 1794288299.831625
+  "control:22JKmY9YZfnQfb3pGYb6hctL5Jyvv3zhL3nQ8oyNuoYp": 1794288299.831625,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794288465.7359898,
+  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794288465.7359898,
+  "seen:6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 1794288465.7359898,
+  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794288647.922047,
+  "seen:TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": 1794288647.922047,
+  "seen:34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": 1794288647.922047,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794288829.4119213,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794288829.4119213,
+  "control:488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump": 1794288829.4797623,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794289011.394557,
+  "seen:F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump": 1794289011.394557,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794289011.394557,
+  "seen:22JKmY9YZfnQfb3pGYb6hctL5Jyvv3zhL3nQ8oyNuoYp": 1794289011.394557
  },
  "talks": {
   "2026-10-21": 109
@@ -147,23 +149,23 @@
  ],
  "last_review": 1794245301.6954384,
  "news": {
-  "t": 1794286632.2452908,
+  "t": 1794287565.746209,
   "crypto": [
    "XRP Ledger maps out quantum-proof accounts, with no extra fees for users (0h ago)",
    "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough (2h ago)",
    "OpenAI builds kill switch to stop rogue agents within 35 seconds (2h ago)",
-   "HIVE, MARA mine more Bitcoin but earn less as crypto prices fall (4h ago)",
+   "HIVE, MARA mine more Bitcoin but earn less as crypto prices fall (5h ago)",
    "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition (6h ago)",
    "Here\u2019s what happened in crypto today (7h ago)",
    "Should you leave Australia to avoid paying 47% tax on crypto gains? (8h ago)",
    "North Korean hackers create memecoins to launder funds from Binance hack: Elliptic (9h ago)",
    "Formation Securities plans Solana stock trading venue under SEC exemption (9h ago)",
-   "Robinhood backs tokenization of its stock on OKX\u2013ICE platform even as most companies opt out (9h ago)"
+   "Robinhood backs tokenization of its stock on OKX\u2013ICE platform even as most companies opt out (10h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core CPI m/m in 8.5h, forecast 0.2%, previous 0.3%",
-   "USD CPI m/m in 8.5h, forecast 0.3%, previous 0.6%"
+   "USD Core CPI m/m in 8.3h, forecast 0.2%, previous 0.3%",
+   "USD CPI m/m in 8.3h, forecast 0.3%, previous 0.6%"
   ]
  },
  "spend": {
