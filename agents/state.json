@@ -6,27 +6,63 @@
   },
   "control": {
    "cash": -55252.74123304948,
-   "open": []
+   "open": [
+    {
+     "id": 2575,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "HWAN",
+     "mint": "FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs",
+     "side": 1,
+     "opened": 1794330661.8011916,
+     "entry": 0.0001079,
+     "stop": 8.632e-05,
+     "target": 0.00015105999999999998,
+     "size": 1853568.1186283596,
+     "deadline": 1794337861.801192,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2576,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "forg",
+     "mint": "2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump",
+     "side": 1,
+     "opened": 1794331024.2137215,
+     "entry": 0.0001138,
+     "stop": 9.104000000000001e-05,
+     "target": 0.00015931999999999999,
+     "size": 1757469.244288225,
+     "deadline": 1794338224.2137218,
+     "thesis": "control: frozen v3 rules"
+    }
+   ]
   }
  },
- "next_id": 2575,
+ "next_id": 2577,
  "runs": 88,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794330835.49903,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794330835.49903,
-  "seen:Ereedz94JPD19GHJpe3uPYsKYE4qBspNYeyHtUetpump": 1794330835.49903,
-  "seen:4HLzQoz5KkhXFrwKfX1Jb2iEFBd9QseFAEJvjqDdpump": 1794330835.49903,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794330835.49903,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794330835.49903,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794330835.49903,
-  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1794330835.49903,
-  "control:Ereedz94JPD19GHJpe3uPYsKYE4qBspNYeyHtUetpump": 1794330836.9816005,
-  "seen:8Wi8V2kPzWUckgAgLjJrhS3zqDf8fKr4jv7zaiZepump": 1794331015.5878143,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794331015.5878143,
-  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794331015.5878143,
-  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794331015.5878143,
-  "seen:F79xtW3sbKAUFCGuB1ZD7S9UPfmtv4Wet1bBeoj2pump": 1794331015.5878143
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794331198.2089925,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794331380.6447814,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794331380.6447814,
+  "seen:FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs": 1794331561.7320538,
+  "control:FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs": 1794331561.8011947,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794331740.142612,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794331740.142612,
+  "seen:4HLzQoz5KkhXFrwKfX1Jb2iEFBd9QseFAEJvjqDdpump": 1794331740.142612,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794331740.142612,
+  "seen:BTJTo1ESLNmWZ3RpiG1yhkBWxNnj2MypvbBu8v2Qpump": 1794331740.142612,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794331740.142612,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794331740.142612,
+  "seen:HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": 1794331740.142612,
+  "seen:BxyJ8onib6gjBr6QENELRLdE9gQra4sLLw8KGiK1pump": 1794331924.1180081,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794331924.1180081,
+  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794331924.1180081,
+  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1794331924.1180081,
+  "seen:2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump": 1794331924.1180081,
+  "control:2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump": 1794331924.2137253
  },
  "talks": {
   "2026-10-21": 109
@@ -67,18 +103,18 @@
  ],
  "last_review": 1794245301.6954384,
  "news": {
-  "t": 1794329935.506457,
+  "t": 1794330840.1496215,
   "crypto": [
+   "Crypto teams up with U.S. government to defend stock perps in legal fight (0h ago)",
    "Bitcoin nears 11-week low after \u2018discouraging\u2019 US CPI inflation beat (1h ago)",
    "Plume affiliate lands broker-dealer license to bring real U.S. assets onchain (1h ago)",
    "Will stablecoins survive once the banks catch up? (3h ago)",
-   "Poland\u2019s lower house backs sanctions bill covering crypto freezes (3h ago)",
-   "Here\u2019s what happened in crypto today (3h ago)",
-   "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3% (3h ago)",
-   "Bitcoin\u2019s \u2018best buying opportunity ever\u2019 has arrived: Mark Moss (3h ago)",
+   "Poland\u2019s lower house backs sanctions bill covering crypto freezes (4h ago)",
+   "Here\u2019s what happened in crypto today (4h ago)",
+   "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3% (4h ago)",
+   "Bitcoin\u2019s \u2018best buying opportunity ever\u2019 has arrived: Mark Moss (4h ago)",
    "Bitcoin may benefit as global tightening slows, Binance Research says (4h ago)",
-   "Ripple Prime head Marc Asch to step down, Noel Kimmel named successor (4h ago)",
-   "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings (5h ago)"
+   "Ripple Prime head Marc Asch to step down, Noel Kimmel named successor (5h ago)"
   ],
   "macro": [],
   "calendar": []
