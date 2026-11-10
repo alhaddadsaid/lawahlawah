@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -55173.502876298684,
+   "cash": -55033.56822812166,
    "open": [
     {
      "id": 2528,
@@ -20,21 +20,6 @@
      "target": 1.1212026349135809,
      "size": 108392.95227372061,
      "deadline": 1794340867.4577298,
-     "thesis": "control: random direction"
-    },
-    {
-     "id": 2542,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "GBPUSD",
-     "mint": "",
-     "side": 1,
-     "opened": 1794272405.627188,
-     "entry": 1.3435442447662354,
-     "stop": 1.3425507375172205,
-     "target": 1.3450345056397575,
-     "size": 100653.51822964805,
-     "deadline": 1794358805.6271884,
      "thesis": "control: random direction"
     },
     {
@@ -89,26 +74,25 @@
  "runs": 86,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:AmaENUv7SQowxEaWrZtT9gyR9HHJUBg9ULx6wce4pump": 1794288117.4521086,
-  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794288117.4521086,
-  "seen:Eqx3sZXKgZ49XrZfKkUAdNz8D8keZtQtNG83wisxpump": 1794288117.4521086,
-  "seen:DMvcPrWsThg3eyM96jEFTqFYrVSEV7jVzU5HEggRdTzP": 1794288299.7694952,
-  "seen:52N8mH4XGpnsQJbpexD3oxw1G2zZn7m2jX6VSpkd6btd": 1794288299.7694952,
-  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794288299.7694952,
-  "control:22JKmY9YZfnQfb3pGYb6hctL5Jyvv3zhL3nQ8oyNuoYp": 1794288299.831625,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794288465.7359898,
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794288465.7359898,
-  "seen:6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 1794288465.7359898,
-  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794288647.922047,
-  "seen:TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": 1794288647.922047,
-  "seen:34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": 1794288647.922047,
   "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794288829.4119213,
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794288829.4119213,
   "control:488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump": 1794288829.4797623,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794289011.394557,
   "seen:F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump": 1794289011.394557,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794289011.394557,
-  "seen:22JKmY9YZfnQfb3pGYb6hctL5Jyvv3zhL3nQ8oyNuoYp": 1794289011.394557
+  "seen:22JKmY9YZfnQfb3pGYb6hctL5Jyvv3zhL3nQ8oyNuoYp": 1794289011.394557,
+  "seen:488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump": 1794289195.4619055,
+  "seen:AmaENUv7SQowxEaWrZtT9gyR9HHJUBg9ULx6wce4pump": 1794289195.4619055,
+  "seen:GydpvgKppv8a4gGQqAQsyQJxtQN4S6Ym9gKxjnN3mfun": 1794289195.4619055,
+  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794289195.4619055,
+  "seen:52N8mH4XGpnsQJbpexD3oxw1G2zZn7m2jX6VSpkd6btd": 1794289377.4834623,
+  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794289377.4834623,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794289377.4834623,
+  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794289377.4834623,
+  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794289559.4621744,
+  "seen:kDNNgLUXchdkzEpgHdUvuNaSYJpSjjo4v6CnwaVpump": 1794289559.4621744,
+  "seen:TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": 1794289559.4621744,
+  "seen:6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 1794289559.4621744
  },
  "talks": {
   "2026-10-21": 109
@@ -149,23 +133,23 @@
  ],
  "last_review": 1794245301.6954384,
  "news": {
-  "t": 1794287565.746209,
+  "t": 1794288477.4936097,
   "crypto": [
-   "XRP Ledger maps out quantum-proof accounts, with no extra fees for users (0h ago)",
+   "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more (0h ago)",
+   "Crypto exchanges need hard dollar caps on hot wallets, CertiK says (0h ago)",
+   "XRP Ledger maps out quantum-proof accounts, with no extra fees for users (1h ago)",
    "Bitcoin faces U.S. CPI test as analysts warn inflation relief may not be enough (2h ago)",
    "OpenAI builds kill switch to stop rogue agents within 35 seconds (2h ago)",
    "HIVE, MARA mine more Bitcoin but earn less as crypto prices fall (5h ago)",
-   "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition (6h ago)",
-   "Here\u2019s what happened in crypto today (7h ago)",
+   "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition (7h ago)",
    "Should you leave Australia to avoid paying 47% tax on crypto gains? (8h ago)",
    "North Korean hackers create memecoins to launder funds from Binance hack: Elliptic (9h ago)",
-   "Formation Securities plans Solana stock trading venue under SEC exemption (9h ago)",
-   "Robinhood backs tokenization of its stock on OKX\u2013ICE platform even as most companies opt out (10h ago)"
+   "Formation Securities plans Solana stock trading venue under SEC exemption (10h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core CPI m/m in 8.3h, forecast 0.2%, previous 0.3%",
-   "USD CPI m/m in 8.3h, forecast 0.3%, previous 0.6%"
+   "USD Core CPI m/m in 8.0h, forecast 0.2%, previous 0.3%",
+   "USD CPI m/m in 8.0h, forecast 0.3%, previous 0.6%"
   ]
  },
  "spend": {
@@ -196,5 +180,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794287217.4622371
+ "last_macro_macro": 1794288477.4934168
 }
