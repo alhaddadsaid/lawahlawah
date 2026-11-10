@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -55252.74123304948,
+   "cash": -55450.817346793556,
    "open": [
     {
      "id": 2575,
@@ -66,30 +66,52 @@
      "size": 1577287.066246057,
      "deadline": 1794340789.8442752,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2580,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PPP",
+     "mint": "Ho7iohoM6UN96yoxzBNzz9aXZpNW3AyUVuEmBdAQpump",
+     "side": 1,
+     "opened": 1794336344.8347476,
+     "entry": 8.132e-05,
+     "stop": 6.5056e-05,
+     "target": 0.000113848,
+     "size": 2459419.5769798327,
+     "deadline": 1794343544.8347478,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2579,
+ "next_id": 2581,
  "runs": 88,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794335221.8176234,
-  "seen:6mwuYnY3fHdxed9GnrdY5BkXhJwMi1uz39MPsYUcpump": 1794335405.8045666,
-  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794335405.8045666,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794335405.8045666,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794335405.8045666,
-  "seen:GJWUiTouUCLw94wVcinybQYBusrJLEWXY31dAnKFpump": 1794335405.8045666,
-  "seen:Ho7iohoM6UN96yoxzBNzz9aXZpNW3AyUVuEmBdAQpump": 1794335590.4505847,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794335590.4505847,
-  "seen:8i5WdXLkzco6Kmb5QoyRKU66fPALpqHScieryvUYpump": 1794335590.4505847,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794335590.4505847,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794335590.4505847,
-  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794335774.5132327,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794335774.5132327,
-  "seen:6dhKENbCU9M9hsjvsG7GahMmxVXpRKkf3Q7zCXgUpump": 1794335958.4611783,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794335958.4611783,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794335958.4611783
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794336506.9844582,
+  "seen:GJWUiTouUCLw94wVcinybQYBusrJLEWXY31dAnKFpump": 1794336506.9844582,
+  "seen:8i5WdXLkzco6Kmb5QoyRKU66fPALpqHScieryvUYpump": 1794336506.9844582,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794336506.9844582,
+  "seen:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 1794336690.585252,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794336690.585252,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794336690.585252,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794336690.585252,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794336874.1213498,
+  "seen:EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump": 1794336874.1213498,
+  "seen:Ho7iohoM6UN96yoxzBNzz9aXZpNW3AyUVuEmBdAQpump": 1794337058.9707975,
+  "seen:4GercVwQjRQTxpxHvsJnY5rARaor2NcwiakNn6rrpump": 1794337058.9707975,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794337058.9707975,
+  "seen:7xWHgFHrFqpg9DzgwqAErrzEXQDFLw2Bd37GNk1Tpump": 1794337058.9707975,
+  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794337058.9707975,
+  "control:4GercVwQjRQTxpxHvsJnY5rARaor2NcwiakNn6rrpump": 1794337059.059605,
+  "seen:wSkmmtpipUSwwWG2kMWxAj6ay6WRwcxunQXU7rFpump": 1794337243.6749825,
+  "seen:6mwuYnY3fHdxed9GnrdY5BkXhJwMi1uz39MPsYUcpump": 1794337243.6749825,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794337243.6749825,
+  "seen:66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump": 1794337243.6749825,
+  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794337243.6749825,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794337243.6749825,
+  "control:Ho7iohoM6UN96yoxzBNzz9aXZpNW3AyUVuEmBdAQpump": 1794337244.8347504
  },
  "talks": {
   "2026-10-21": 109
@@ -130,18 +152,18 @@
  ],
  "last_review": 1794331754.3904452,
  "news": {
-  "t": 1794334505.8121367,
+  "t": 1794336343.6824706,
   "crypto": [
+   "Mercado Bitcoin to resume cash withdrawals after $49M hack (1h ago)",
    "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture (1h ago)",
    "Hot US inflation raises odds of half-point Fed hike in December (1h ago)",
-   "Polymarket US trading volume jumps 266% despite regulatory battles (1h ago)",
-   "Crypto is now teamed up with U.S. government in two legal battles over perps (1h ago)",
+   "Polymarket US trading volume jumps 266% despite regulatory battles (2h ago)",
+   "Crypto is now teamed up with U.S. government in two legal battles over perps (2h ago)",
    "Bitcoin nears 11-week low after \u2018discouraging\u2019 US CPI inflation beat (2h ago)",
-   "Plume affiliate lands broker-dealer license to bring real U.S. assets onchain (2h ago)",
-   "Will stablecoins survive once the banks catch up? (4h ago)",
+   "Plume affiliate lands broker-dealer license to bring real U.S. assets onchain (3h ago)",
+   "Will stablecoins survive once the banks catch up? (5h ago)",
    "Poland\u2019s lower house backs sanctions bill covering crypto freezes (5h ago)",
-   "Here\u2019s what happened in crypto today (5h ago)",
-   "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3% (5h ago)"
+   "Here\u2019s what happened in crypto today (5h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -174,5 +196,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794335058.4682891
+ "last_macro_macro": 1794336343.682384
 }
