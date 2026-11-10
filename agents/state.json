@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -55141.20985617167,
+   "cash": -55122.29940841048,
    "open": [
-    {
-     "id": 2584,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CYBERLEEK",
-     "mint": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-     "side": 1,
-     "opened": 1794339446.4727323,
-     "entry": 0.00201,
-     "stop": 0.001608,
-     "target": 0.002814,
-     "size": 99502.48756218905,
-     "deadline": 1794346646.4727328,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2589,
      "desk": "control",
@@ -51,24 +36,29 @@
      "size": 5.6157064289184015,
      "deadline": 1794430968.0500424,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 2596,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "GTA",
+     "mint": "EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump",
+     "side": 1,
+     "opened": 1794346578.3808823,
+     "entry": 0.0001365,
+     "stop": 0.00010920000000000001,
+     "target": 0.0001911,
+     "size": 1465201.4652014652,
+     "deadline": 1794353778.3808823,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2596,
+ "next_id": 2597,
  "runs": 88,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Fbz2EjdbMhzTQ2c7ZnydmPwRoBn9UcnQBhHmnWThLRtf": 1794346379.8181245,
-  "seen:5XqUpNXSy2prDGQrU3vykX9mVTr78G2PJmZNJwrZpump": 1794346379.8181245,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794346379.8181245,
-  "seen:63v89FpovHDigff3b5ziidY7R14NULUwwadoDjdypump": 1794346379.8181245,
-  "seen:2uQw2gvnhYYQ5T5jJf3MvLPyUquQ54VFHbMHBTtCpump": 1794346561.3273935,
-  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794346561.3273935,
-  "seen:B4HQq8sjtGUyekyYtfmuvcbMo9VAXnQQ41j2S2Hkpump": 1794346561.3273935,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794346561.3273935,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794346561.3273935,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794346561.3273935,
   "seen:69wEj3LXDWmGZJ9cuVr1inewMwdG4yBFdM6CehvNBAGS": 1794346742.6246066,
   "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794346742.6246066,
   "seen:F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1794346742.6246066,
@@ -77,7 +67,18 @@
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794346927.0347993,
   "seen:NXAongSDdxTRbSQAPbdUjQ1i1uFxa7rTHGrckerpump": 1794347111.4352424,
   "seen:BYCNogKA4DjbhBa2LaVWLPyszFDzDsUNSYdLqdNnpump": 1794347111.4352424,
-  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1794347111.4352424
+  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1794347111.4352424,
+  "seen:5XqUpNXSy2prDGQrU3vykX9mVTr78G2PJmZNJwrZpump": 1794347292.833899,
+  "seen:63v89FpovHDigff3b5ziidY7R14NULUwwadoDjdypump": 1794347292.833899,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794347292.833899,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794347292.833899,
+  "seen:B4HQq8sjtGUyekyYtfmuvcbMo9VAXnQQ41j2S2Hkpump": 1794347477.9709792,
+  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794347477.9709792,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794347477.9709792,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794347477.9709792,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794347477.9709792,
+  "seen:EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump": 1794347477.9709792,
+  "control:EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump": 1794347478.3808842
  },
  "talks": {
   "2026-10-21": 109
@@ -118,8 +119,9 @@
  ],
  "last_review": 1794331754.3904452,
  "news": {
-  "t": 1794345479.8262873,
+  "t": 1794346392.8419409,
   "crypto": [
+   "Ava Labs exec says NYSE deal marks end of blockchain\u2019s \u2018general purpose era\u2019 (0h ago)",
    "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets? (1h ago)",
    "Kimber Digital Securities gains broker-dealer status for tokenized assets (1h ago)",
    "Former NYSE president says stock issuers hold the key to tokenization as Bullish builds its platform (1h ago)",
@@ -128,8 +130,7 @@
    "Hot US inflation raises odds of half-point Fed hike in December (4h ago)",
    "Polymarket US trading volume jumps 266% despite regulatory battles (4h ago)",
    "Crypto is now teamed up with U.S. government in two legal battles over perps (4h ago)",
-   "Bitcoin nears 11-week low after \u2018discouraging\u2019 US CPI inflation beat (5h ago)",
-   "Plume affiliate lands broker-dealer license to bring real U.S. assets onchain (5h ago)"
+   "Bitcoin nears 11-week low after \u2018discouraging\u2019 US CPI inflation beat (5h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -162,5 +163,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794345294.067789
+ "last_macro_macro": 1794346577.979145
 }
