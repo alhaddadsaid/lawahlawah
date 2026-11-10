@@ -66,19 +66,29 @@
      "size": 100653.51822964805,
      "deadline": 1794358805.6271884,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 2545,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "LMAO!",
+     "mint": "H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump",
+     "side": 1,
+     "opened": 1794274767.9266183,
+     "entry": 0.0003528,
+     "stop": 0.00028224,
+     "target": 0.00049392,
+     "size": 566893.4240362812,
+     "deadline": 1794281967.9266186,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2545,
+ "next_id": 2546,
  "runs": 86,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2ZLU8yV2mgG9M3PFNDskTeJRcfWYFQ86Byhmk3Jppump": 1794274758.873955,
-  "seen:F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump": 1794274758.873955,
-  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794274758.873955,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794274758.873955,
-  "seen:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": 1794274758.873955,
   "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794274940.5950115,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794274940.5950115,
   "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794274940.5950115,
@@ -91,7 +101,12 @@
   "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794275303.5453,
   "seen:GNj9z8cL5x2bFUQ2KmgU72bfCKjNdEe9pxENy6rBEGju": 1794275484.3789625,
   "seen:AD8JDmK2pgycssKBANNwSezmBaHi8XWhsueVJNbrpump": 1794275484.3789625,
-  "seen:5GgRAEmv8ZxF2PR5hY72Qs5x1bnQ6UK2RbTPoqJ3wSwW": 1794275484.3789625
+  "seen:5GgRAEmv8ZxF2PR5hY72Qs5x1bnQ6UK2RbTPoqJ3wSwW": 1794275484.3789625,
+  "seen:F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump": 1794275667.1941853,
+  "seen:2ZLU8yV2mgG9M3PFNDskTeJRcfWYFQ86Byhmk3Jppump": 1794275667.1941853,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1794275667.1941853,
+  "seen:2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump": 1794275667.1941853,
+  "control:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1794275667.9266214
  },
  "talks": {
   "2026-10-21": 109
@@ -132,12 +147,12 @@
  ],
  "last_review": 1794245301.6954384,
  "news": {
-  "t": 1794273858.8838944,
+  "t": 1794274767.2042837,
   "crypto": [
    "HIVE\u2019s Bitcoin output jumps 49%, but mining revenue still falls (1h ago)",
-   "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition (2h ago)",
-   "Here\u2019s what happened in crypto today (3h ago)",
-   "Should you leave Australia to avoid paying 47% tax on crypto gains? (4h ago)",
+   "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition (3h ago)",
+   "Here\u2019s what happened in crypto today (4h ago)",
+   "Should you leave Australia to avoid paying 47% tax on crypto gains? (5h ago)",
    "North Korean hackers create memecoins to launder funds from Binance hack: Elliptic (5h ago)",
    "Formation Securities plans Solana stock trading venue under SEC exemption (6h ago)",
    "Robinhood backs tokenization of its stock on OKX\u2013ICE platform even as most companies opt out (6h ago)",
@@ -147,8 +162,8 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Core CPI m/m in 12.1h, forecast 0.2%, previous 0.3%",
-   "USD CPI m/m in 12.1h, forecast 0.3%, previous 0.6%"
+   "USD Core CPI m/m in 11.8h, forecast 0.2%, previous 0.3%",
+   "USD CPI m/m in 11.8h, forecast 0.3%, previous 0.6%"
   ]
  },
  "spend": {
