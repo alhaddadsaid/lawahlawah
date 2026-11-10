@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -55447.88372818755,
+   "cash": -55395.53678941204,
    "open": [
     {
      "id": 2528,
@@ -21,21 +21,6 @@
      "size": 108392.95227372061,
      "deadline": 1794340867.4577298,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 2540,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PIRATE",
-     "mint": "6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump",
-     "side": 1,
-     "opened": 1794271315.6598887,
-     "entry": 0.0002058,
-     "stop": 0.00016464,
-     "target": 0.00028811999999999995,
-     "size": 971817.2983479106,
-     "deadline": 1794278515.659889,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 2542,
@@ -89,23 +74,24 @@
  "runs": 86,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump": 1794278395.8153994,
-  "seen:UwS6Mu2ADhb5uqJyCYwRux4PckeYewCAHSasVbnpump": 1794278395.8153994,
-  "seen:2ZLU8yV2mgG9M3PFNDskTeJRcfWYFQ86Byhmk3Jppump": 1794278395.8153994,
-  "seen:5GgRAEmv8ZxF2PR5hY72Qs5x1bnQ6UK2RbTPoqJ3wSwW": 1794278395.8153994,
-  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794278577.0568385,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794278577.0568385,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794278577.0568385,
-  "seen:CXz596uKfWb5tkyz5Vh5a9QCKKh38io6hdgGrKKcpump": 1794278577.0568385,
-  "seen:A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": 1794278577.0568385,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794278577.0568385,
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794278577.0568385,
-  "seen:BCG1ksWvKySmgWEgy8BbYxqngMNYLH2JNrTcBVm5AESY": 1794278759.434083,
   "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1794278940.5950801,
   "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794278940.5950801,
   "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794278940.5950801,
   "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794279121.8413982,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794279121.8413982
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794279121.8413982,
+  "seen:2ZLU8yV2mgG9M3PFNDskTeJRcfWYFQ86Byhmk3Jppump": 1794279304.8039126,
+  "seen:F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump": 1794279304.8039126,
+  "seen:6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 1794279304.8039126,
+  "seen:5GgRAEmv8ZxF2PR5hY72Qs5x1bnQ6UK2RbTPoqJ3wSwW": 1794279304.8039126,
+  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794279486.4054537,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794279486.4054537,
+  "seen:D1uniynqT3GTJPtC6F9TRr8NKTM1p7tgkQKEh9H8pump": 1794279486.4054537,
+  "seen:A75Xx6SeftAmWduv9KGwb2GCjXUAhxozcCUCys9jpump": 1794279486.4054537,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794279486.4054537,
+  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794279486.4054537,
+  "seen:dVtLRADcoSmswp7BrNrGHGwUxSpht7ERQtjMi9rpump": 1794279486.4054537,
+  "seen:BCG1ksWvKySmgWEgy8BbYxqngMNYLH2JNrTcBVm5AESY": 1794279667.8074954,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1794279667.8074954
  },
  "talks": {
   "2026-10-21": 109
@@ -146,12 +132,12 @@
  ],
  "last_review": 1794245301.6954384,
  "news": {
-  "t": 1794277495.8256574,
+  "t": 1794278404.8141105,
   "crypto": [
    "HIVE, MARA mine more Bitcoin but earn less as crypto prices fall (2h ago)",
-   "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition (3h ago)",
-   "Here\u2019s what happened in crypto today (4h ago)",
-   "Should you leave Australia to avoid paying 47% tax on crypto gains? (5h ago)",
+   "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition (4h ago)",
+   "Here\u2019s what happened in crypto today (5h ago)",
+   "Should you leave Australia to avoid paying 47% tax on crypto gains? (6h ago)",
    "North Korean hackers create memecoins to launder funds from Binance hack: Elliptic (6h ago)",
    "Formation Securities plans Solana stock trading venue under SEC exemption (7h ago)",
    "Robinhood backs tokenization of its stock on OKX\u2013ICE platform even as most companies opt out (7h ago)",
@@ -161,8 +147,8 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Core CPI m/m in 11.1h, forecast 0.2%, previous 0.3%",
-   "USD CPI m/m in 11.1h, forecast 0.3%, previous 0.6%"
+   "USD Core CPI m/m in 10.8h, forecast 0.2%, previous 0.3%",
+   "USD CPI m/m in 10.8h, forecast 0.3%, previous 0.6%"
   ]
  },
  "spend": {
