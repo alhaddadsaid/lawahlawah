@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -55087.26630008102,
+   "cash": -55102.708160546135,
    "open": [
-    {
-     "id": 2558,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CYBERLEEK",
-     "mint": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-     "side": 1,
-     "opened": 1794300942.8830216,
-     "entry": 0.00172,
-     "stop": 0.001376,
-     "target": 0.002408,
-     "size": 116279.06976744186,
-     "deadline": 1794308142.8830218,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2559,
      "desk": "control",
@@ -81,31 +66,48 @@
      "size": 937207.122774133,
      "deadline": 1794313246.0871356,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2564,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "X",
+     "mint": "9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump",
+     "side": 1,
+     "opened": 1794308231.784171,
+     "entry": 7.782e-05,
+     "stop": 6.2256e-05,
+     "target": 0.00010894799999999999,
+     "size": 2570033.410434336,
+     "deadline": 1794315431.7841713,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2564,
+ "next_id": 2565,
  "runs": 87,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FgoLzGV2nVrghVHCWwAh6388iZkcLZSedykJ5trRpump": 1794307677.853721,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794307677.853721,
-  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794307677.853721,
-  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794307677.853721,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794307858.3482547,
-  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794307858.3482547,
-  "seen:F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump": 1794307858.3482547,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794307858.3482547,
-  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794308038.1805212,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794308038.1805212,
-  "seen:CNu5qZKNV5ioPkdvoBH5tLSBsjTCiz93QHN8gyyypump": 1794308221.5498626,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794308221.5498626,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794308221.5498626,
-  "seen:SCGBBnSwnekytGFHgyeHHxPMiN7xDxsWFGg9JgFSTNK": 1794308221.5498626,
   "seen:QUBTAD8C9bMU9LvmMNgKPhrmBGbHvxpu6vfWQtThxxw": 1794308407.9342356,
   "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794308407.9342356,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794308407.9342356
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794308407.9342356,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794308589.544613,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794308589.544613,
+  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794308589.544613,
+  "seen:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 1794308589.544613,
+  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794308589.544613,
+  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794308771.4562228,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794308771.4562228,
+  "seen:F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump": 1794308771.4562228,
+  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794308771.4562228,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794308952.6618674,
+  "seen:2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump": 1794308952.6618674,
+  "seen:6gj2RXG1hreCgR5y4FBaqMyheU7mmAKixpYsDtSVpump": 1794309131.7550287,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794309131.7550287,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794309131.7550287,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794309131.7550287,
+  "control:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794309131.7841744
  },
  "talks": {
   "2026-10-21": 109
@@ -146,23 +148,23 @@
  ],
  "last_review": 1794245301.6954384,
  "news": {
-  "t": 1794306777.8630416,
+  "t": 1794307689.5540504,
   "crypto": [
-   "Bitcoin price eyes $74K as Fed rate-hike bets hit 96% after Waller speech (0h ago)",
+   "Live news: Traders price in fed rate hike for December as bitcoin and gold retreat (0h ago)",
+   "Bitcoin price eyes $74K as Fed rate-hike bets hit 96% after Waller speech (1h ago)",
    "The crypto wallet that grew up inside Telegram is striking out on its own (1h ago)",
-   "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures (1h ago)",
-   "BitGo Q3 profit nearly doubles on crypto gains as revenue falls 51% (1h ago)",
+   "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures (2h ago)",
+   "BitGo Q3 profit nearly doubles on crypto gains as revenue falls 51% (2h ago)",
    "BlackRock Bitcoin ETF outflows hit $1.66B over seven trading sessions (3h ago)",
    "Securitize agrees to buy River One to expand into asset-backed lending (3h ago)",
    "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes (4h ago)",
    "Here\u2019s what happened in crypto today (5h ago)",
-   "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more (5h ago)",
-   "Crypto exchanges need hard dollar caps on hot wallets, CertiK says (5h ago)"
+   "Bitcoin miner MARA sold 13,597 BTC for $1.1 billion in six weeks, plans to sell more (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core CPI m/m in 3.0h, forecast 0.2%, previous 0.3%",
-   "USD CPI m/m in 3.0h, forecast 0.3%, previous 0.6%"
+   "USD Core CPI m/m in 2.7h, forecast 0.2%, previous 0.3%",
+   "USD CPI m/m in 2.7h, forecast 0.3%, previous 0.6%"
   ]
  },
  "spend": {
