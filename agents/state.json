@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -55382.817346793556,
+   "cash": -55391.093068308786,
    "open": [
-    {
-     "id": 2575,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HWAN",
-     "mint": "FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs",
-     "side": 1,
-     "opened": 1794330661.8011916,
-     "entry": 0.0001079,
-     "stop": 8.632e-05,
-     "target": 0.00015105999999999998,
-     "size": 1853568.1186283596,
-     "deadline": 1794337861.801192,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2576,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "forg",
-     "mint": "2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump",
-     "side": 1,
-     "opened": 1794331024.2137215,
-     "entry": 0.0001138,
-     "stop": 9.104000000000001e-05,
-     "target": 0.00015931999999999999,
-     "size": 1757469.244288225,
-     "deadline": 1794338224.2137218,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2577,
      "desk": "control",
@@ -81,27 +51,29 @@
      "size": 2299908.003679853,
      "deadline": 1794344273.083829,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2582,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PPP",
+     "mint": "Ho7iohoM6UN96yoxzBNzz9aXZpNW3AyUVuEmBdAQpump",
+     "side": 1,
+     "opened": 1794337984.0075903,
+     "entry": 9.016e-05,
+     "stop": 7.212800000000001e-05,
+     "target": 0.000126224,
+     "size": 2218278.6157941436,
+     "deadline": 1794345184.0075903,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2582,
+ "next_id": 2583,
  "runs": 88,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Ho7iohoM6UN96yoxzBNzz9aXZpNW3AyUVuEmBdAQpump": 1794337973.002308,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794337973.002308,
-  "seen:6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump": 1794337973.002308,
-  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794337973.002308,
-  "control:AQ2gmhnqAiPDd2P6jgYrrVvVh8X1de2pBKPLKQbKpump": 1794337973.083832,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794338153.9553509,
-  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794338153.9553509,
-  "seen:6mwuYnY3fHdxed9GnrdY5BkXhJwMi1uz39MPsYUcpump": 1794338153.9553509,
-  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794338153.9553509,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794338153.9553509,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794338153.9553509,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794338153.9553509,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794338153.9553509,
   "seen:mVAi21hm1FeBgH3mXNKidKznj8bsMZMhSjNQK7Zpump": 1794338338.769803,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794338338.769803,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794338338.769803,
@@ -113,7 +85,17 @@
   "seen:CQ8zNLYwMEAVVBHEswusZrsUraCvc7HjiBPwgTbRpump": 1794338703.2465136,
   "seen:34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": 1794338703.2465136,
   "seen:66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump": 1794338703.2465136,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794338703.2465136
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794338703.2465136,
+  "seen:ArmvjdanhQXa9hWua268vkh6keMHEYmm8B9KNo2Dpump": 1794338883.919039,
+  "seen:Ho7iohoM6UN96yoxzBNzz9aXZpNW3AyUVuEmBdAQpump": 1794338883.919039,
+  "seen:57S4UK7ELBhcovJ57yxGNXA7fTEUbGy4wWQHWhwpump": 1794338883.919039,
+  "control:Ho7iohoM6UN96yoxzBNzz9aXZpNW3AyUVuEmBdAQpump": 1794338884.0075924,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794339068.091271,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794339068.091271,
+  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794339068.091271,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794339068.091271,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794339068.091271,
+  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794339068.091271
  },
  "talks": {
   "2026-10-21": 109
@@ -154,18 +136,18 @@
  ],
  "last_review": 1794331754.3904452,
  "news": {
-  "t": 1794337253.9628396,
+  "t": 1794338168.0986729,
   "crypto": [
    "Mercado Bitcoin to resume cash withdrawals after $49M hack (1h ago)",
-   "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture (1h ago)",
-   "Hot US inflation raises odds of half-point Fed hike in December (1h ago)",
+   "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture (2h ago)",
+   "Hot US inflation raises odds of half-point Fed hike in December (2h ago)",
    "Polymarket US trading volume jumps 266% despite regulatory battles (2h ago)",
    "Crypto is now teamed up with U.S. government in two legal battles over perps (2h ago)",
    "Bitcoin nears 11-week low after \u2018discouraging\u2019 US CPI inflation beat (3h ago)",
    "Plume affiliate lands broker-dealer license to bring real U.S. assets onchain (3h ago)",
    "Will stablecoins survive once the banks catch up? (5h ago)",
-   "Poland\u2019s lower house backs sanctions bill covering crypto freezes (5h ago)",
-   "Here\u2019s what happened in crypto today (5h ago)"
+   "Poland\u2019s lower house backs sanctions bill covering crypto freezes (6h ago)",
+   "Here\u2019s what happened in crypto today (6h ago)"
   ],
   "macro": [],
   "calendar": []
