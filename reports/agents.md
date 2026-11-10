@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-10 00:44 UTC. Runs so far: 86. Model: claude-haiku-5-5.
+Updated 2026-11-10 00:57 UTC. Runs so far: 86. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2468 | 30 | -65124.6 | -88767.47 |
+| control | meme | 2470 | 30 | -65235.34 | -88895.88 |
 | control | macro | 48 | 48 | -3.39 | -239.93 |
-| control | all | 2516 | 31 | -65127.99 | -89007.4 |
+| control | all | 2518 | 31 | -65238.73 | -89135.81 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: EURUSD short at 1.12259, stop 1.12351, target 1.1212, opened 2026-11-09 20:01 UTC
 - control: Pepetide long at 0.00037, stop 0.000296, target 0.000518, opened 2026-11-10 00:17 UTC
-- control: FAIR long at 0.0001136, stop 9.088e-05, target 0.00015904, opened 2026-11-10 00:26 UTC
 - control: HWAN long at 7.184e-05, stop 5.7472e-05, target 0.000100576, opened 2026-11-10 00:32 UTC
 - control: PIRATE long at 0.0002058, stop 0.00016464, target 0.00028812, opened 2026-11-10 00:41 UTC
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order FAIR REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED FAIR (stop) P&L $-61.05 normal, $-69.74 pessimistic
 
