@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -54970.85810921474,
+   "cash": -55024.22509105831,
    "open": [
-    {
-     "id": 2565,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "X",
-     "mint": "9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump",
-     "side": 1,
-     "opened": 1794309692.8386676,
-     "entry": 0.0001171,
-     "stop": 9.368000000000001e-05,
-     "target": 0.00016394,
-     "size": 1707941.9299743809,
-     "deadline": 1794316892.8386679,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2566,
      "desk": "control",
@@ -51,48 +36,33 @@
      "size": 684931.5068493151,
      "deadline": 1794319444.8023133,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2569,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CHAINCHOMP131",
-     "mint": "DigVnUDwgbSSWNMNsgzGNw8EQhqwjniPU2EsfD4Wpump",
-     "side": 1,
-     "opened": 1794313360.186236,
-     "entry": 7.61e-05,
-     "stop": 6.088000000000001e-05,
-     "target": 0.00010654,
-     "size": 2628120.8935611034,
-     "deadline": 1794320560.1862361,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2570,
+ "next_id": 2571,
  "runs": 87,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794313684.7058403,
-  "seen:5JHHcudrqibzuc4S9tGgthmfLNoRof4E3KWWGQsrpump": 1794313684.7058403,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794313684.7058403,
-  "seen:Ffs4KXjK7HmQMVmdjc86BUAEvHmQoqbNLyDv96Qzpump": 1794313684.7058403,
-  "seen:EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump": 1794313684.7058403,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794313779.9613926,
-  "seen:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 1794313895.859698,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794313895.859698,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794313895.859698,
-  "seen:C4qHPWr9TzMG1x8X5oAMyZF9SodmR5BodNbxYrTtpump": 1794314078.5316331,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794314078.5316331,
-  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794314078.5316331,
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794314078.5316331,
-  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794314078.5316331,
   "seen:DigVnUDwgbSSWNMNsgzGNw8EQhqwjniPU2EsfD4Wpump": 1794314260.1563437,
   "seen:6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 1794314260.1563437,
   "seen:34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": 1794314260.1563437,
   "control:DigVnUDwgbSSWNMNsgzGNw8EQhqwjniPU2EsfD4Wpump": 1794314260.1862395,
-  "seen:EcabZVASzC2UcFTWfZxPoa6KtEZDpsiYi4tgoERTpump": 1794314441.933314
+  "seen:EcabZVASzC2UcFTWfZxPoa6KtEZDpsiYi4tgoERTpump": 1794314441.933314,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794314624.8910067,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794314624.8910067,
+  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794314624.8910067,
+  "seen:Gq2XyHbTNRp53Mjtb8fQNJWAiECbvtTo7VPdYzpwpump": 1794314624.8910067,
+  "control:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794314624.9263937,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794314806.6316724,
+  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794314806.6316724,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1794314806.6316724,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794314988.6619163,
+  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794314988.6619163,
+  "seen:C4qHPWr9TzMG1x8X5oAMyZF9SodmR5BodNbxYrTtpump": 1794314988.6619163,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794314988.6619163,
+  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794314988.6619163,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794314988.6619163
  },
  "talks": {
   "2026-10-21": 109
@@ -133,23 +103,23 @@
  ],
  "last_review": 1794245301.6954384,
  "news": {
-  "t": 1794313178.541701,
+  "t": 1794314088.6717718,
   "crypto": [
    "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings (0h ago)",
    "Coinbase, Kalshi join lawsuit backing CFTC over US stock perp futures (1h ago)",
    "Binance warns iOS flaw could expose crypto wallet keys (1h ago)",
    "Bitcoin lags stock rebound in advance of U.S. inflation report (1h ago)",
-   "Ex-employee sues Ethereum Foundation and Vitalik Buterin over firing (1h ago)",
+   "Ex-employee sues Ethereum Foundation and Vitalik Buterin over firing (2h ago)",
    "Bitcoin slips before U.S. inflation report as traders price in Fed rate increase (2h ago)",
    "Live news: Traders price in Fed rate hike for December as bitcoin, gold retreat (2h ago)",
    "Bitcoin price eyes $74K as Fed rate-hike bets hit 96% after Waller speech (2h ago)",
-   "The crypto wallet that grew up inside Telegram is striking out on its own (2h ago)",
+   "The crypto wallet that grew up inside Telegram is striking out on its own (3h ago)",
    "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core CPI m/m in 1.2h, forecast 0.2%, previous 0.3%",
-   "USD CPI m/m in 1.2h, forecast 0.3%, previous 0.6%"
+   "USD Core CPI m/m in 0.9h, forecast 0.2%, previous 0.3%",
+   "USD CPI m/m in 0.9h, forecast 0.3%, previous 0.6%"
   ]
  },
  "spend": {
@@ -180,5 +150,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794312784.7154756
+ "last_macro_macro": 1794314088.6716006
 }
