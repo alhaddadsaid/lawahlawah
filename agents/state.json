@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -55238.53273470222,
+   "cash": -55377.67379421279,
    "open": [
     {
      "id": 2528,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2539,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HWAN",
-     "mint": "FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs",
-     "side": 1,
-     "opened": 1794270768.7505865,
-     "entry": 7.184e-05,
-     "stop": 5.747200000000001e-05,
-     "target": 0.000100576,
-     "size": 2783964.3652561246,
-     "deadline": 1794277968.750587,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2540,
      "desk": "control",
      "market": "meme",
@@ -81,32 +66,49 @@
      "size": 100653.51822964805,
      "deadline": 1794358805.6271884,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 2544,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "FAIR",
+     "mint": "FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg",
+     "side": 1,
+     "opened": 1794274040.6605144,
+     "entry": 8.236e-05,
+     "stop": 6.5888e-05,
+     "target": 0.00011530399999999999,
+     "size": 2428363.2831471586,
+     "deadline": 1794281240.6605144,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2543,
+ "next_id": 2545,
  "runs": 86,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2ECeFpEh8HC8pvumAPDJKPPpEKVLvMBtbVFAmsDHpump": 1794273666.801995,
-  "seen:AD8JDmK2pgycssKBANNwSezmBaHi8XWhsueVJNbrpump": 1794273666.801995,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794273666.801995,
-  "seen:2ZLU8yV2mgG9M3PFNDskTeJRcfWYFQ86Byhmk3Jppump": 1794273848.9452264,
-  "seen:HiMSSzzwkZkrXJ4PGVJRdtfLaANeAztjjcgk5Dxe7Lwx": 1794273848.9452264,
-  "seen:F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump": 1794273848.9452264,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794273848.9452264,
-  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794274028.7596724,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794274028.7596724,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794274028.7596724,
-  "seen:2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump": 1794274028.7596724,
   "seen:EaxAUcXxNnVwcqm2BBocbows7D1XVY2Q63V38NEypump": 1794274215.438441,
   "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794274215.438441,
   "seen:SuiKhqAXdSXmxtEyGMrysWs6Px9mLmFDi3fKcompump": 1794274396.0000322,
   "seen:3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt": 1794274396.0000322,
   "seen:6QGe5ocSEyLjgVYBaohv4BKxNPvNZLCJ3FhdcK8Jpump": 1794274396.0000322,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794274396.0000322,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794274396.0000322
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794274396.0000322,
+  "seen:AD8JDmK2pgycssKBANNwSezmBaHi8XWhsueVJNbrpump": 1794274578.148997,
+  "seen:FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs": 1794274578.148997,
+  "control:SuiKhqAXdSXmxtEyGMrysWs6Px9mLmFDi3fKcompump": 1794274578.2183802,
+  "seen:2ZLU8yV2mgG9M3PFNDskTeJRcfWYFQ86Byhmk3Jppump": 1794274758.873955,
+  "seen:F22QdNn7VYrtTgYDHEYcqQKVtDH8msh2xs6tnGxepump": 1794274758.873955,
+  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794274758.873955,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794274758.873955,
+  "seen:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": 1794274758.873955,
+  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794274940.5950115,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794274940.5950115,
+  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794274940.5950115,
+  "seen:22JKmY9YZfnQfb3pGYb6hctL5Jyvv3zhL3nQ8oyNuoYp": 1794274940.5950115,
+  "control:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794274940.6605175
  },
  "talks": {
   "2026-10-21": 109
@@ -147,23 +149,23 @@
  ],
  "last_review": 1794245301.6954384,
  "news": {
-  "t": 1794272948.955304,
+  "t": 1794273858.8838944,
   "crypto": [
-   "HIVE\u2019s Bitcoin output jumps 49%, but mining revenue still falls (0h ago)",
+   "HIVE\u2019s Bitcoin output jumps 49%, but mining revenue still falls (1h ago)",
    "Securitize pushes into $6 trillion asset-backed finance market with River One acquisition (2h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "Should you leave Australia to avoid paying 47% tax on crypto gains? (4h ago)",
    "North Korean hackers create memecoins to launder funds from Binance hack: Elliptic (5h ago)",
-   "Formation Securities plans Solana stock trading venue under SEC exemption (5h ago)",
+   "Formation Securities plans Solana stock trading venue under SEC exemption (6h ago)",
    "Robinhood backs tokenization of its stock on OKX\u2013ICE platform even as most companies opt out (6h ago)",
    "Mercado Bitcoin begins post-hack reopening without a timeline for withdrawals (7h ago)",
-   "PNC Bank tests turning USDC payments into dollar deposits (7h ago)",
-   "Avalanche\u2019s AVAX leads crypto gains following NYSE tokenization deal (7h ago)"
+   "PNC Bank tests turning USDC payments into dollar deposits (8h ago)",
+   "Avalanche\u2019s AVAX leads crypto gains following NYSE tokenization deal (8h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core CPI m/m in 12.3h, forecast 0.2%, previous 0.3%",
-   "USD CPI m/m in 12.3h, forecast 0.3%, previous 0.6%"
+   "USD Core CPI m/m in 12.1h, forecast 0.2%, previous 0.3%",
+   "USD CPI m/m in 12.1h, forecast 0.3%, previous 0.6%"
   ]
  },
  "spend": {
