@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-09 21:44 UTC. Runs so far: 85. Model: claude-haiku-5-5.
+Updated 2026-11-10 00:17 UTC. Runs so far: 86. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2465 | 31 | -64985.16 | -88600.83 |
+| control | meme | 2468 | 30 | -65124.6 | -88767.47 |
 | control | macro | 48 | 48 | -3.39 | -239.93 |
-| control | all | 2513 | 31 | -64988.55 | -88840.76 |
+| control | all | 2516 | 31 | -65127.99 | -89007.4 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: EURUSD short at 1.12259, stop 1.12351, target 1.1212, opened 2026-11-09 20:01 UTC
-- control: Percolator long at 0.0002059, stop 0.00016472, target 0.00028826, opened 2026-11-09 20:25 UTC
-- control: Pepetide long at 0.0005638, stop 0.00045104, target 0.00078932, opened 2026-11-09 20:34 UTC
+- control: Pepetide long at 0.00037, stop 0.000296, target 0.000518, opened 2026-11-10 00:17 UTC
 
 ## Team
 
@@ -32,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-## Run ended 2026-11-09 21:44 UTC
+- 2026-11-10 00:17 UTC control: OPENED Pepetide long at 0.00037 (stop 0.000296, target 0.000518) - control: frozen v3 rules
 
