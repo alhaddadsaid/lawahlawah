@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -55103.77048686147,
+   "cash": -55044.91334400432,
    "open": [
     {
      "id": 2592,
@@ -21,21 +21,6 @@
      "size": 5.6157064289184015,
      "deadline": 1794430968.0500424,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 2596,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GTA",
-     "mint": "EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump",
-     "side": 1,
-     "opened": 1794346578.3808823,
-     "entry": 0.0001365,
-     "stop": 0.00010920000000000001,
-     "target": 0.0001911,
-     "size": 1465201.4652014652,
-     "deadline": 1794353778.3808823,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 2598,
@@ -70,31 +55,29 @@
    ]
   }
  },
- "next_id": 2601,
+ "next_id": 2602,
  "runs": 89,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794353199.5565295,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794353199.5565295,
-  "seen:7DHLy5PFeBWy9X3GaVDenm8qw1Qy34hpmqhYug6Xpump": 1794353199.5565295,
-  "seen:6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 1794353199.5565295,
-  "seen:BoTx8y9ynfdxf5ZjWtCoBVkff52qKA82ysaLU8ZM6d8T": 1794353384.6679363,
-  "seen:4zZmvZeM8yqjcrT57HCdCNW2jq6bvtpokFE762UWpump": 1794353384.6679363,
-  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794353384.6679363,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794353384.6679363,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794353384.6679363,
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794353384.6679363,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794353567.3737056,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794353567.3737056,
-  "seen:66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump": 1794353567.3737056,
-  "seen:2HhH7LwfNHrxqMrSoXZ6Ri7GdmRYSJ4e8qSra9Krpump": 1794353567.3737056,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794353567.3737056,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794353750.4398513,
-  "seen:34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": 1794353750.4398513,
-  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794353933.6442833,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794353933.6442833,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794353933.6442833,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794353933.6442833
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794354118.3671641,
+  "seen:6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 1794354118.3671641,
+  "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794354118.3671641,
+  "seen:7ETtD1R93rjLsKjvevZQLXySu6Ag3jNRm9xF8FVXpump": 1794354118.3671641,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794354301.2484078,
+  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1794354301.2484078,
+  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794354301.2484078,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794354301.2484078,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794354301.2484078,
+  "seen:HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": 1794354301.2484078,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794354484.062329,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794354484.062329,
+  "seen:5RZrv4NWrHLqgW1UWCiG1uqyqBLRqoVabnxGZZQvpump": 1794354666.3381133,
+  "seen:BDYQgba7FVBpqaMyMcLW1ENP81VEYwGfCs6TsC5Fpump": 1794354666.3381133,
+  "seen:Tm2iqbxYjKpW8xCMe6q1xUraNMNzcG5xMztAir3pump": 1794354666.3381133,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794354666.3381133,
+  "control:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794354666.6955385,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1794354849.5647993,
+  "seen:488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump": 1794354849.5647993
  },
  "talks": {
   "2026-10-21": 109
@@ -135,10 +118,10 @@
  ],
  "last_review": 1794331754.3904452,
  "news": {
-  "t": 1794352850.4585245,
+  "t": 1794353766.3502493,
   "crypto": [
    "Global banks commit $270M to stablecoin venture targeting 2027 launch (0h ago)",
-   "Here\u2019s what happened in crypto today (1h ago)",
+   "Here\u2019s what happened in crypto today (2h ago)",
    "Can crypto trust firms compete with banks in US derivatives settlements? (2h ago)",
    "Across Protocol warns users to avoid app amid reports of drained wallets (2h ago)",
    "Ava Labs exec says NYSE deal marks end of blockchain\u2019s \u2018general purpose era\u2019 (2h ago)",
