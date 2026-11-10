@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -54956.22509105831,
+   "cash": -54917.33813746802,
    "open": [
-    {
-     "id": 2566,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GTA",
-     "mint": "EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump",
-     "side": 1,
-     "opened": 1794310422.1955562,
-     "entry": 8.899e-05,
-     "stop": 7.119199999999999e-05,
-     "target": 0.000124586,
-     "size": 2247443.5329812337,
-     "deadline": 1794317622.1955564,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2568,
      "desk": "control",
@@ -74,23 +59,25 @@
  "runs": 87,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794317358.542668,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794317358.542668,
-  "seen:DigVnUDwgbSSWNMNsgzGNw8EQhqwjniPU2EsfD4Wpump": 1794317358.542668,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794317358.542668,
-  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794317358.542668,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794317358.542668,
-  "seen:66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump": 1794317539.9606607,
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794317723.1084418,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794317723.1084418,
-  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794317723.1084418,
-  "seen:34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": 1794317723.1084418,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794317905.498418,
-  "seen:X7Fk2APb7rjMnPDNjHhYvb2L8tWbNfVxXzr7RWspump": 1794317905.498418,
   "seen:tx41eAXzN6jHH22LSgF7eSxpTNvJXwcbrcGsbDrpump": 1794318086.987183,
   "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794318086.987183,
   "seen:CPBpMNsU3ZdRYvJE3G2tsktt1QKLuwyRoTAgAzWTpump": 1794318086.987183,
-  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794318086.987183
+  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794318086.987183,
+  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794318270.0972981,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794318270.0972981,
+  "seen:DigVnUDwgbSSWNMNsgzGNw8EQhqwjniPU2EsfD4Wpump": 1794318270.0972981,
+  "seen:7BdeSjH9kDwhxJ3kysbiWzJHXcguMJQnaaC2wGKdpump": 1794318270.0972981,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794318270.0972981,
+  "seen:8QCqrCmjCTmFarmq8SxCryuxzMBLVEWasbFaZQgXpump": 1794318451.9546058,
+  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794318451.9546058,
+  "seen:5YMkXAYccHSGnHn9nob9xEvv6Pvka9DZWH7nTbotTu9E": 1794318633.4378366,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794318633.4378366,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794318633.4378366,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794318633.4378366,
+  "seen:EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump": 1794318633.4378366,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794318633.4378366,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794318815.5828178,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794318815.5828178
  },
  "talks": {
   "2026-10-21": 109
@@ -131,23 +118,23 @@
  ],
  "last_review": 1794245301.6954384,
  "news": {
-  "t": 1794316823.1170182,
+  "t": 1794317733.446374,
   "crypto": [
+   "U.S. CPI rose stronger than expected 0.4% in October; core rate rose 0.3% (0h ago)",
    "Bitcoin may benefit as global tightening slows, Binance Research says (0h ago)",
    "Ripple Prime head Marc Asch to step down, Noel Kimmel named successor (1h ago)",
    "Bitcoin breaks with stocks, declines as ETF outflows mount, MARA reduces holdings (1h ago)",
    "Coinbase, Kalshi join lawsuit backing CFTC over US stock perp futures (2h ago)",
    "Binance warns iOS flaw could expose crypto wallet keys (2h ago)",
    "Bitcoin lags stock rebound in advance of U.S. inflation report (2h ago)",
-   "Ex-employee sues Ethereum Foundation and Vitalik Buterin over firing (2h ago)",
+   "Ex-employee sues Ethereum Foundation and Vitalik Buterin over firing (3h ago)",
    "Bitcoin slips before U.S. inflation report as traders price in Fed rate increase (3h ago)",
-   "Live news: Bitcoin falls back to $74,000 ahead of CPI as traders fully price in Fed rate hike (3h ago)",
-   "Bitcoin price eyes $74K as Fed rate-hike bets hit 96% after Waller speech (3h ago)"
+   "Live news: Bitcoin falls back to $74,000 ahead of CPI as traders fully price in Fed rate hike (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core CPI m/m in 0.2h, forecast 0.2%, previous 0.3%",
-   "USD CPI m/m in 0.2h, forecast 0.3%, previous 0.6%"
+   "USD Core CPI m/m was 0.1h, forecast 0.2%, previous 0.3%",
+   "USD CPI m/m was 0.1h, forecast 0.3%, previous 0.6%"
   ]
  },
  "spend": {
@@ -178,5 +165,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794316639.9688952
+ "last_macro_macro": 1794317915.592417
 }
