@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-10 20:20 UTC. Runs so far: 88. Model: claude-haiku-5-5.
+Updated 2026-11-10 20:26 UTC. Runs so far: 88. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2515 | 31 | -65662.5 | -89773.57 |
+| control | meme | 2516 | 31 | -65594.5 | -89717.57 |
 | control | macro | 52 | 50 | 233.2 | -26.95 |
-| control | all | 2567 | 31 | -65429.3 | -89800.52 |
+| control | all | 2568 | 31 | -65361.3 | -89744.52 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,6 +20,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: CYBERLEEK long at 0.00201, stop 0.001608, target 0.002814, opened 2026-11-10 19:37 UTC
 - control: Catcity long at 0.0001286, stop 0.00010288, target 0.00018004, opened 2026-11-10 19:55 UTC
 - control: FAIR long at 0.0001254, stop 0.00010032, target 0.00017556, opened 2026-11-10 20:07 UTC
+- control: X long at 0.0001524, stop 0.00012192, target 0.00021336, opened 2026-11-10 20:26 UTC
 
 ## Team
 
@@ -32,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order Catcity REJECTED by guardrails: Catcity already open
+- 2026-11-10 20:26 UTC control: OPENED X long at 0.0001524 (stop 0.00012192, target 0.00021336) - control: frozen v3 rules
 
