@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -55020.07210852037,
+   "cash": -54952.07210852037,
    "open": [
-    {
-     "id": 2562,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GTA",
-     "mint": "EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump",
-     "side": 1,
-     "opened": 1794305685.4119291,
-     "entry": 6.093e-05,
-     "stop": 4.8744000000000006e-05,
-     "target": 8.530199999999999e-05,
-     "size": 3282455.276546857,
-     "deadline": 1794312885.4119291,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2563,
      "desk": "control",
@@ -51,21 +36,29 @@
      "size": 1707941.9299743809,
      "deadline": 1794316892.8386679,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2566,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "GTA",
+     "mint": "EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump",
+     "side": 1,
+     "opened": 1794310422.1955562,
+     "entry": 8.899e-05,
+     "stop": 7.119199999999999e-05,
+     "target": 0.000124586,
+     "size": 2247443.5329812337,
+     "deadline": 1794317622.1955564,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2566,
+ "next_id": 2567,
  "runs": 87,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794310221.8859138,
-  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794310409.7254925,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794310409.7254925,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794310409.7254925,
-  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794310409.7254925,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1794310409.7254925,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794310409.7254925,
   "seen:8CykGobYKN3og6VqeU17Dfhk5RZe6v7VJLQC8oUoC7yN": 1794310592.8063576,
   "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794310592.8063576,
   "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794310592.8063576,
@@ -77,7 +70,15 @@
   "seen:6gj2RXG1hreCgR5y4FBaqMyheU7mmAKixpYsDtSVpump": 1794310957.6023414,
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794310957.6023414,
   "seen:EMfnF5D4XaUn4qQ6UMWeHCCvkm1Yyuj3DGuvHfCWpump": 1794310957.6023414,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794310957.6023414
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794310957.6023414,
+  "seen:EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump": 1794311140.4753978,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794311140.4753978,
+  "seen:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 1794311321.7854884,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794311321.7854884,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794311321.7854884,
+  "seen:BAftaSb1HVqBn5723w72WLcXU7YASSgmVxQxJJAJpump": 1794311321.7854884,
+  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794311321.7854884,
+  "control:EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump": 1794311322.1955593
  },
  "talks": {
   "2026-10-21": 109
@@ -118,23 +119,23 @@
  ],
  "last_review": 1794245301.6954384,
  "news": {
-  "t": 1794309509.7356844,
+  "t": 1794310421.794692,
   "crypto": [
-   "Ex-employee sues Ethereum Foundation and Vitalik Buterin over firing (0h ago)",
-   "Bitcoin slips before U.S. inflation report as traders price in Fed rate increase (0h ago)",
-   "Live news: Traders price in fed rate hike for December as bitcoin and gold retreat (1h ago)",
+   "Binance warns iOS flaw could expose crypto wallet keys (0h ago)",
+   "Bitcoin lags stock rebound in advance of U.S. inflation report (0h ago)",
+   "Ex-employee sues Ethereum Foundation and Vitalik Buterin over firing (1h ago)",
+   "Bitcoin slips before U.S. inflation report as traders price in Fed rate increase (1h ago)",
+   "Live news: Traders price in Fed rate hike for December as bitcoin, gold retreat (1h ago)",
    "Bitcoin price eyes $74K as Fed rate-hike bets hit 96% after Waller speech (1h ago)",
-   "The crypto wallet that grew up inside Telegram is striking out on its own (1h ago)",
+   "The crypto wallet that grew up inside Telegram is striking out on its own (2h ago)",
    "Coinbase, Kalshi, Kraken parent back CFTC in legal fight over stock perpetual futures (2h ago)",
    "BitGo Q3 profit nearly doubles on crypto gains as revenue falls 51% (2h ago)",
-   "BlackRock Bitcoin ETF outflows hit $1.66B over seven trading sessions (3h ago)",
-   "Securitize agrees to buy River One to expand into asset-backed lending (3h ago)",
-   "An 11-year-old Ethereum wallet moved $4.6 million and dodged a scam set up in minutes (4h ago)"
+   "BlackRock Bitcoin ETF outflows hit $1.66B over seven trading sessions (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core CPI m/m in 2.2h, forecast 0.2%, previous 0.3%",
-   "USD CPI m/m in 2.2h, forecast 0.3%, previous 0.6%"
+   "USD Core CPI m/m in 1.9h, forecast 0.2%, previous 0.3%",
+   "USD CPI m/m in 1.9h, forecast 0.3%, previous 0.6%"
   ]
  },
  "spend": {
