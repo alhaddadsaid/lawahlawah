@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -55391.093068308786,
+   "cash": -55392.124001241566,
    "open": [
-    {
-     "id": 2577,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PUSSY",
-     "mint": "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat",
-     "side": 1,
-     "opened": 1794331939.0607271,
-     "entry": 0.0007398,
-     "stop": 0.00059184,
-     "target": 0.00103572,
-     "size": 270343.3360367667,
-     "deadline": 1794339139.0607274,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2578,
      "desk": "control",
@@ -38,36 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2581,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "VC",
-     "mint": "AQ2gmhnqAiPDd2P6jgYrrVvVh8X1de2pBKPLKQbKpump",
-     "side": 1,
-     "opened": 1794337073.0838287,
-     "entry": 8.696e-05,
-     "stop": 6.9568e-05,
-     "target": 0.00012174399999999998,
-     "size": 2299908.003679853,
-     "deadline": 1794344273.083829,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2582,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PPP",
-     "mint": "Ho7iohoM6UN96yoxzBNzz9aXZpNW3AyUVuEmBdAQpump",
-     "side": 1,
-     "opened": 1794337984.0075903,
-     "entry": 9.016e-05,
-     "stop": 7.212800000000001e-05,
-     "target": 0.000126224,
-     "size": 2218278.6157941436,
-     "deadline": 1794345184.0075903,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2583,
      "desk": "control",
      "market": "meme",
@@ -81,34 +36,64 @@
      "size": 2471576.866040534,
      "deadline": 1794345917.1545782,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2584,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CYBERLEEK",
+     "mint": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
+     "side": 1,
+     "opened": 1794339446.4727323,
+     "entry": 0.00201,
+     "stop": 0.001608,
+     "target": 0.002814,
+     "size": 99502.48756218905,
+     "deadline": 1794346646.4727328,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2585,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "VC",
+     "mint": "AQ2gmhnqAiPDd2P6jgYrrVvVh8X1de2pBKPLKQbKpump",
+     "side": 1,
+     "opened": 1794339630.3365226,
+     "entry": 0.0001406,
+     "stop": 0.00011248000000000001,
+     "target": 0.00019684,
+     "size": 1422475.106685633,
+     "deadline": 1794346830.3365228,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2584,
+ "next_id": 2586,
  "runs": 88,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794339068.091271,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794339068.091271,
-  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794339068.091271,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794339068.091271,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794339068.091271,
-  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794339068.091271,
-  "seen:43YakhC3TcSuTgSXnxFgw8uKL8VkuLuFa4M6Bninpump": 1794339252.6337025,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794339252.6337025,
-  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1794339252.6337025,
-  "seen:FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs": 1794339432.505729,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794339432.505729,
-  "seen:9Uz1XmRQGjD2NspWH1FYAtVromkt74s45FXEwXpmpump": 1794339617.0462773,
-  "seen:CQ8zNLYwMEAVVBHEswusZrsUraCvc7HjiBPwgTbRpump": 1794339617.0462773,
-  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794339617.0462773,
-  "seen:66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump": 1794339617.0462773,
-  "seen:AQ2gmhnqAiPDd2P6jgYrrVvVh8X1de2pBKPLKQbKpump": 1794339617.0462773,
-  "seen:FjPKUGnF5zBpdEv18gT8FJCtxh3MKrFkoeYekgYr1win": 1794339617.0462773,
-  "control:66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump": 1794339617.1545808,
   "seen:Ho7iohoM6UN96yoxzBNzz9aXZpNW3AyUVuEmBdAQpump": 1794339801.1743171,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794339801.1743171
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794339801.1743171,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794339982.512488,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794339982.512488,
+  "seen:48z1sBMdy6a3yqrhXVrV5MzG2cZAQtTjHSEH1WFUpump": 1794339982.512488,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794339982.512488,
+  "seen:5ds8Cx1Q7UjEZ6CwRQjowNTvqPwcWi18VD1zmdMepump": 1794339982.512488,
+  "seen:57S4UK7ELBhcovJ57yxGNXA7fTEUbGy4wWQHWhwpump": 1794339982.512488,
+  "seen:6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 1794339982.512488,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794340161.517962,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794340161.517962,
+  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1794340346.2613232,
+  "control:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1794340346.4727356,
+  "seen:CQ8zNLYwMEAVVBHEswusZrsUraCvc7HjiBPwgTbRpump": 1794340530.244899,
+  "seen:9Uz1XmRQGjD2NspWH1FYAtVromkt74s45FXEwXpmpump": 1794340530.244899,
+  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794340530.244899,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794340530.244899,
+  "seen:AQ2gmhnqAiPDd2P6jgYrrVvVh8X1de2pBKPLKQbKpump": 1794340530.244899,
+  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794340530.244899,
+  "control:AQ2gmhnqAiPDd2P6jgYrrVvVh8X1de2pBKPLKQbKpump": 1794340530.3365252
  },
  "talks": {
   "2026-10-21": 109
@@ -149,7 +134,7 @@
  ],
  "last_review": 1794331754.3904452,
  "news": {
-  "t": 1794338168.0986729,
+  "t": 1794339082.5206468,
   "crypto": [
    "Mercado Bitcoin to resume cash withdrawals after $49M hack (1h ago)",
    "Goldman Sachs, Citi among banks said to commit $270 million to stablecoin venture (2h ago)",
@@ -157,8 +142,8 @@
    "Polymarket US trading volume jumps 266% despite regulatory battles (2h ago)",
    "Crypto is now teamed up with U.S. government in two legal battles over perps (2h ago)",
    "Bitcoin nears 11-week low after \u2018discouraging\u2019 US CPI inflation beat (3h ago)",
-   "Plume affiliate lands broker-dealer license to bring real U.S. assets onchain (3h ago)",
-   "Will stablecoins survive once the banks catch up? (5h ago)",
+   "Plume affiliate lands broker-dealer license to bring real U.S. assets onchain (4h ago)",
+   "Will stablecoins survive once the banks catch up? (6h ago)",
    "Poland\u2019s lower house backs sanctions bill covering crypto freezes (6h ago)",
    "Here\u2019s what happened in crypto today (6h ago)"
   ],
