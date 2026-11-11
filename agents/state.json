@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -56179.36706473048,
+   "cash": -56230.62573616206,
    "open": [
     {
      "id": 2674,
@@ -38,37 +38,27 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 2678,
+     "id": 2680,
      "desk": "control",
      "market": "meme",
      "symbol": "BURNIE",
      "mint": "CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump",
      "side": 1,
-     "opened": 1794433068.926869,
-     "entry": 0.0009514,
-     "stop": 0.0007611200000000001,
-     "target": 0.0013319599999999999,
-     "size": 210216.52301870927,
-     "deadline": 1794440268.9268694,
+     "opened": 1794433983.4360461,
+     "entry": 0.0007376,
+     "stop": 0.0005900800000000001,
+     "target": 0.00103264,
+     "size": 271149.67462039046,
+     "deadline": 1794441183.4360461,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2680,
+ "next_id": 2681,
  "runs": 92,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794433784.888149,
-  "seen:HPSpaNgQxqZRwzoW8E9hecgMq4cDoV1CMCfteyu5h53z": 1794433784.888149,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794433784.888149,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1794433784.888149,
-  "seen:8bTJDVTG1xPuP4GsaXVKCRrbG4mRehhn5AyFy9yapump": 1794433784.888149,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794433968.4929235,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794433968.4929235,
-  "seen:4Dgjitjn8br3LcdcBnkc9tYJ8d1cnCCJd2nsVgzZpump": 1794433968.4929235,
-  "seen:7fNYfFkDefatZugpcgaHqGxQuwm6JzcRYDQrdajqpump": 1794433968.4929235,
-  "control:CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": 1794433968.9268725,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794434151.5740883,
   "seen:89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": 1794434151.5740883,
   "seen:4t7og34RxGP2eG2mzZovbqAVH5cyLDWQitHVxFSepump": 1794434334.337039,
@@ -79,7 +69,13 @@
   "seen:Xs6B6zawENwAbWVi7w92rjazLuAr5Az59qgWKcNb45x": 1794434516.8885436,
   "seen:3m24jWizt9h9QHNYtKuJ6jTfVfPEoU4rKm4Quasapump": 1794434516.8885436,
   "seen:HzwVr7KjPhUriHK9MrJbFzbTDTPwUXGrL2Ah2wVhpump": 1794434516.8885436,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794434516.8885436
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794434516.8885436,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794434700.5566103,
+  "seen:HPSpaNgQxqZRwzoW8E9hecgMq4cDoV1CMCfteyu5h53z": 1794434700.5566103,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794434700.5566103,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794434700.5566103,
+  "seen:4Dgjitjn8br3LcdcBnkc9tYJ8d1cnCCJd2nsVgzZpump": 1794434882.9368112,
+  "control:CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": 1794434883.4360492
  },
  "talks": {
   "2026-10-21": 109
@@ -120,8 +116,9 @@
  ],
  "last_review": 1794422115.8723295,
  "news": {
-  "t": 1794433068.5053532,
+  "t": 1794433982.9491904,
   "crypto": [
+   "Nomura explores sale of crypto unit Laser Digital: Bloomberg (0h ago)",
    "US data center restrictions could give Bitcoin miners an edge in AI, though challenges remain (1h ago)",
    "OKXICE moves ahead with tokenized stocks as blue chips push back (3h ago)",
    "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound (5h ago)",
@@ -130,12 +127,11 @@
    "Here\u2019s what happened in crypto today (8h ago)",
    "Paraguay bank collapse shows stablecoins can offer a lifeline... of sorts (8h ago)",
    "Bitcoin Covenants Part 5: MATT and OP_CHECKCONTRACTVERIFY \u2014 How Bitcoin could carry state across transactions (8h ago)",
-   "CoreWeave stock jumps 15% premarket after Q3 revenue beats estimates (9h ago)",
-   "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month (9h ago)"
+   "CoreWeave stock jumps 15% premarket after Q3 revenue beats estimates (9h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP GDP m/m in 9.4h, forecast 0.0%, previous 0.1%"
+   "GBP GDP m/m in 9.1h, forecast 0.0%, previous 0.1%"
   ]
  },
  "spend": {
