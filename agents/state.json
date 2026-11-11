@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -55320.354467055826,
+   "cash": -55369.44537614674,
    "open": [
     {
      "id": 2621,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2636,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "VEYL",
-     "mint": "GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump",
-     "side": 1,
-     "opened": 1794394779.6564908,
-     "entry": 0.0001716,
-     "stop": 0.00013728000000000001,
-     "target": 0.00024024,
-     "size": 1165501.1655011654,
-     "deadline": 1794401979.656491,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2637,
      "desk": "control",
      "market": "meme",
@@ -81,24 +66,29 @@
      "size": 3481894.1504178275,
      "deadline": 1794403256.0045547,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2639,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "VEYL",
+     "mint": "GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump",
+     "side": 1,
+     "opened": 1794396421.8398159,
+     "entry": 0.0001372,
+     "stop": 0.00010976,
+     "target": 0.00019208,
+     "size": 1457725.9475218658,
+     "deadline": 1794403621.839816,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2639,
+ "next_id": 2640,
  "runs": 91,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794396227.2535765,
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794396227.2535765,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794396410.2144353,
-  "seen:8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": 1794396410.2144353,
-  "seen:GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump": 1794396410.2144353,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1794396410.2144353,
-  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794396410.2144353,
-  "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794396410.2144353,
-  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794396410.2144353,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794396410.2144353,
   "seen:CmX3zEbuQuYSxNQ2zgcQEhMCNkBLpMTN19fMt8A7pump": 1794396592.259246,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794396592.259246,
   "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794396592.259246,
@@ -108,7 +98,16 @@
   "seen:FP7NvFXQXoZL1nQC5QZtE1bzwgALdxj1TeA9J25epump": 1794396774.2390044,
   "seen:uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY": 1794396955.97303,
   "seen:CQ8zNLYwMEAVVBHEswusZrsUraCvc7HjiBPwgTbRpump": 1794396955.97303,
-  "control:7cin51XTpSkesiZMLJvEGNXqd5DFFqSBixcvn7Ppump": 1794396956.0045578
+  "control:7cin51XTpSkesiZMLJvEGNXqd5DFFqSBixcvn7Ppump": 1794396956.0045578,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794397139.68251,
+  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794397321.579531,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794397321.579531,
+  "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794397321.579531,
+  "seen:8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": 1794397321.579531,
+  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794397321.579531,
+  "seen:GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump": 1794397321.579531,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794397321.579531,
+  "control:GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump": 1794397321.8398201
  },
  "talks": {
   "2026-10-21": 109
@@ -149,22 +148,22 @@
  ],
  "last_review": 1794331754.3904452,
  "news": {
-  "t": 1794395510.226696,
+  "t": 1794396421.5919907,
   "crypto": [
-   "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion (0h ago)",
-   "Bitcoin holds steady as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation (0h ago)",
+   "Bitcoin short-term holders send 47K BTC to exchanges at a loss (0h ago)",
+   "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion (1h ago)",
+   "Bitcoin holds steady as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation (1h ago)",
    "Bitget Wallet reports sevenfold jump in crypto phishing risk alerts (1h ago)",
    "Bitmine posts $6.3B net loss for fiscal 2026 as Ether prices slide (1h ago)",
    "ECB warns legislative delays could postpone digital euro launch (2h ago)",
-   "Stock ETF buyers pounce on dip as Bitcoin funds bleed $1.6 billion (2h ago)",
-   "SEC enforcement actions fall 24%, crypto cases in spotlight (2h ago)",
+   "Stock ETF buyers pounce on dip as Bitcoin funds bleed $1.6 billion (3h ago)",
+   "SEC enforcement actions fall 24%, crypto cases in spotlight (3h ago)",
    "Here\u2019s what happened in crypto today (5h ago)",
-   "Initia confirms second exploit in 3 weeks, $3.27M stolen in latest attack (5h ago)",
-   "Across Protocol restores website after hackers hijack domain (6h ago)"
+   "Initia confirms second exploit in 3 weeks, $3.27M stolen in latest attack (6h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP GDP m/m in 19.8h, forecast 0.0%, previous 0.1%"
+   "GBP GDP m/m in 19.5h, forecast 0.0%, previous 0.1%"
   ]
  },
  "spend": {
@@ -195,5 +194,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794394963.1896396
+ "last_macro_macro": 1794396239.6950574
 }
