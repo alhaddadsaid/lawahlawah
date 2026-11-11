@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -55542.75840057219,
+   "cash": -55574.85958024551,
    "open": [
     {
      "id": 2621,
@@ -21,21 +21,6 @@
      "size": 8.900174141939752,
      "deadline": 1794466964.639253,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 2635,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GTA",
-     "mint": "EJv8TgQfN6gtYN8Z6KGyBeNPbVYmogmudfxiRA2Fpump",
-     "side": 1,
-     "opened": 1794394597.672357,
-     "entry": 0.0001102,
-     "stop": 8.816e-05,
-     "target": 0.00015428,
-     "size": 1814882.0326678767,
-     "deadline": 1794401797.6723576,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 2637,
@@ -74,21 +59,23 @@
  "runs": 91,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794401699.1390493,
-  "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794401882.3882592,
-  "seen:8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": 1794401882.3882592,
-  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794401882.3882592,
-  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794401882.3882592,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1794401882.3882592,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794402064.5642116,
-  "control:BLVpn8ofkjnAzpWGaVpspZ5bHTeXDbXFgX4vn3fkpump": 1794402064.6057315,
   "seen:3NrRyteTFwD4baFdfkEEiEkoaPbCrxPLfn1HnnMUpump": 1794402246.5625498,
   "seen:BLVpn8ofkjnAzpWGaVpspZ5bHTeXDbXFgX4vn3fkpump": 1794402246.5625498,
   "seen:uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY": 1794402246.5625498,
   "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1794402246.5625498,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794402429.0404396,
   "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794402429.0404396,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794402429.0404396
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794402429.0404396,
+  "seen:2GjiwCcL9MvneLyTjGyHsFaoMRs5U13spXXnJBvipump": 1794402612.3502438,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794402612.3502438,
+  "seen:CQ8zNLYwMEAVVBHEswusZrsUraCvc7HjiBPwgTbRpump": 1794402612.3502438,
+  "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794402794.4129925,
+  "seen:DqhyxZUgqcoJFqJF2ajW54gEXNsqUSNZc7PQ1SDJpump": 1794402794.4129925,
+  "seen:8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": 1794402794.4129925,
+  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794402794.4129925,
+  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794402794.4129925,
+  "seen:5jLj1jr2BtTBL8czd6xdpYoFkEqyG89W3bz5Jq6Mpump": 1794402976.8439832,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794402976.8439832
  },
  "talks": {
   "2026-10-21": 109
@@ -129,22 +116,22 @@
  ],
  "last_review": 1794331754.3904452,
  "news": {
-  "t": 1794400982.401424,
+  "t": 1794401894.4252765,
   "crypto": [
+   "Meet Spiko, the largest tokenized fund in the world you\u2019ve probably never heard about (0h ago)",
+   "FSB urgest Turkey to tighten crypto oversight, set stablecoin rules (0h ago)",
    "Zcash falls below $1,000 for first time since September (0h ago)",
-   "Live news: CoreWeave jumps 14% as earnings fuel rebound across battered AI stocks (0h ago)",
-   "Bitcoin barely flinches at hot CPI as ETF selling slows (0h ago)",
+   "Live news: CoreWeave jumps 14% as earnings fuel rebound across battered AI stocks (1h ago)",
+   "Bitcoin barely flinches at hot CPI as ETF selling slows (1h ago)",
    "Barclays boosts BlackRock Bitcoin ETF stake 48% as banks expand holdings (1h ago)",
    "Bitcoin sits out stock rebound as ETF outflows extend to fourth day (1h ago)",
    "Kraken parent adds over 200 tokenized UK and EU stocks to xStocks (1h ago)",
    "Bitcoin short-term holders send 47K BTC to exchanges at a loss (2h ago)",
-   "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion (2h ago)",
-   "Bitcoin holds steady as CoreWeave earnings revive AI outlook, Anthropic said to raise IPO valuation (2h ago)",
-   "Bitget Wallet reports sevenfold jump in crypto phishing risk alerts (3h ago)"
+   "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion (2h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP GDP m/m in 18.3h, forecast 0.0%, previous 0.1%"
+   "GBP GDP m/m in 18.0h, forecast 0.0%, previous 0.1%"
   ]
  },
  "spend": {
