@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -55277.26125044086,
+   "cash": -55220.191298135614,
    "open": [
     {
      "id": 2598,
@@ -21,21 +21,6 @@
      "size": 79789.46109736802,
      "deadline": 1794434439.4379025,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 2617,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PAID",
-     "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
-     "side": 1,
-     "opened": 1794375971.27344,
-     "entry": 0.001258,
-     "stop": 0.0010064,
-     "target": 0.0017611999999999999,
-     "size": 158982.5119236884,
-     "deadline": 1794383171.2734404,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 2621,
@@ -55,25 +40,28 @@
    ]
   }
  },
- "next_id": 2622,
+ "next_id": 2623,
  "runs": 90,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794382747.781733,
-  "seen:5dReBkDjES5SyRuasNHytYDmCqdupyoWTRUSTRgtpump": 1794382747.781733,
-  "seen:BoRsyzgtFw56gHqWgqb7wL45bMr9vQMF564j1Gvtcash": 1794382934.0199142,
-  "seen:uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY": 1794382934.0199142,
-  "seen:EGDvWn2UCeGoJg7hRHxqQAKkkR8D7qu2QScfaYWBX39P": 1794383115.28309,
-  "seen:GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump": 1794383115.28309,
-  "seen:8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": 1794383115.28309,
-  "seen:8qcdF3M5odGeLuL8yCTqRvjLj3B3PDJTMbDBj2cSpump": 1794383115.28309,
-  "seen:8oadC9GWmEKwBsbm5YwCZHmHjVgT3rjCTzCh5q3ppump": 1794383298.8845162,
-  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794383298.8845162,
-  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794383298.8845162,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794383483.3863575,
   "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794383483.3863575,
   "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794383483.3863575,
-  "seen:zHU8ocUYexYxiaKM5Yysf1USZVd2batkN7UPS5tpump": 1794383483.3863575
+  "seen:zHU8ocUYexYxiaKM5Yysf1USZVd2batkN7UPS5tpump": 1794383483.3863575,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794383668.9321702,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794383668.9321702,
+  "seen:5dReBkDjES5SyRuasNHytYDmCqdupyoWTRUSTRgtpump": 1794383668.9321702,
+  "seen:BoRsyzgtFw56gHqWgqb7wL45bMr9vQMF564j1Gvtcash": 1794383850.407187,
+  "seen:uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY": 1794383850.407187,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794383850.407187,
+  "seen:66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump": 1794383850.407187,
+  "seen:GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump": 1794384035.1514585,
+  "seen:8qcdF3M5odGeLuL8yCTqRvjLj3B3PDJTMbDBj2cSpump": 1794384035.1514585,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794384035.1514585,
+  "seen:8oadC9GWmEKwBsbm5YwCZHmHjVgT3rjCTzCh5q3ppump": 1794384218.9326296,
+  "seen:8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": 1794384218.9326296,
+  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794384218.9326296,
+  "control:BoRsyzgtFw56gHqWgqb7wL45bMr9vQMF564j1Gvtcash": 1794384218.9865234
  },
  "talks": {
   "2026-10-21": 109
@@ -114,22 +102,22 @@
  ],
  "last_review": 1794331754.3904452,
  "news": {
-  "t": 1794382215.2914062,
+  "t": 1794383135.159738,
   "crypto": [
    "Here\u2019s what happened in crypto today (2h ago)",
    "Initia confirms second exploit in 3 weeks, $3.27M stolen in latest attack (2h ago)",
    "Across Protocol restores website after hackers hijack domain (3h ago)",
-   "Crypto ally Tom Emmer elected House GOP minority whip (4h ago)",
+   "Crypto ally Tom Emmer elected House GOP minority whip (5h ago)",
    "LNbits rushes emergency patch after reported Bitcoin wallet thefts (6h ago)",
    "CFTC warns Kalshi of imminent charges over notification of contracts: Politico (8h ago)",
-   "Global banks commit $270M to stablecoin venture targeting 2027 launch (8h ago)",
+   "Global banks commit $270M to stablecoin venture targeting 2027 launch (9h ago)",
    "Can crypto trust firms compete with banks in US derivatives settlements? (10h ago)",
    "Across Protocol warns users to avoid app amid reports of drained wallets (10h ago)",
-   "Ava Labs exec says NYSE deal marks end of blockchain\u2019s \u2018general purpose era\u2019 (10h ago)"
+   "Ava Labs exec says NYSE deal marks end of blockchain\u2019s \u2018general purpose era\u2019 (11h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP GDP m/m in 23.5h, forecast 0.0%, previous 0.1%"
+   "GBP GDP m/m in 23.2h, forecast 0.0%, previous 0.1%"
   ]
  },
  "spend": {
