@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -55545.731816117746,
+   "cash": -55400.18190318871,
    "open": [
-    {
-     "id": 2621,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "GOLD",
-     "mint": "",
-     "side": -1,
-     "opened": 1794380564.6392522,
-     "entry": 4065.300048828125,
-     "stop": 4076.5357840401784,
-     "target": 4048.446446010045,
-     "size": 8.900174141939752,
-     "deadline": 1794466964.639253,
-     "thesis": "control: random direction"
-    },
     {
      "id": 2643,
      "desk": "control",
@@ -36,34 +21,52 @@
      "size": 1343183.344526528,
      "deadline": 1794408364.6057286,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2644,
+     "desk": "control",
+     "market": "meme",
+     "symbol": ":3",
+     "mint": "FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump",
+     "side": 1,
+     "opened": 1794403172.28119,
+     "entry": 0.0001581,
+     "stop": 0.00012648,
+     "target": 0.00022133999999999996,
+     "size": 1265022.1378874131,
+     "deadline": 1794410372.2811902,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2644,
+ "next_id": 2645,
  "runs": 91,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794402794.4129925,
-  "seen:DqhyxZUgqcoJFqJF2ajW54gEXNsqUSNZc7PQ1SDJpump": 1794402794.4129925,
-  "seen:8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": 1794402794.4129925,
-  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794402794.4129925,
-  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794402794.4129925,
-  "seen:5jLj1jr2BtTBL8czd6xdpYoFkEqyG89W3bz5Jq6Mpump": 1794402976.8439832,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794402976.8439832,
-  "seen:BLVpn8ofkjnAzpWGaVpspZ5bHTeXDbXFgX4vn3fkpump": 1794403160.1875541,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794403160.1875541,
-  "seen:uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY": 1794403160.1875541,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794403342.0346477,
-  "seen:3d1qHSAkQhoN7kN1C6tvpAArCkXWxwYdBng6taXCDM6u": 1794403342.0346477,
-  "seen:FBtWVXoExs1adygkJBoHxpxjegZYnK94ETm4g6W3pump": 1794403342.0346477,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794403342.0346477,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794403342.0346477,
   "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794403524.0674791,
   "seen:2GjiwCcL9MvneLyTjGyHsFaoMRs5U13spXXnJBvipump": 1794403524.0674791,
   "seen:CQ8zNLYwMEAVVBHEswusZrsUraCvc7HjiBPwgTbRpump": 1794403524.0674791,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794403524.0674791,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794403524.0674791
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794403524.0674791,
+  "seen:8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": 1794403707.6932967,
+  "seen:7XdCaKpqLmKE2K7yr9xaeWB1H2CVZ1oGwxB6hmd9pump": 1794403707.6932967,
+  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794403707.6932967,
+  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794403707.6932967,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794403707.6932967,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1794403890.366535,
+  "seen:8wbxHYCKbGimALpDvNkxcvzGm1tAG4GN69Jzfejtpump": 1794404072.2402947,
+  "seen:BLVpn8ofkjnAzpWGaVpspZ5bHTeXDbXFgX4vn3fkpump": 1794404072.2402947,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794404072.2402947,
+  "seen:9aEzV3Lj15r4mmsEKEsa95FiY1MGacHq5Vm1gswGpump": 1794404072.2402947,
+  "seen:EJAxERvKU4kEVXn3NarjvRtgaMaJyP9ZuMeKA7JJpump": 1794404072.2402947,
+  "control:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794404072.281193,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794404254.214105,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794404254.214105,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794404254.214105,
+  "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794404254.214105,
+  "seen:HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7": 1794404254.214105,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794404254.214105
  },
  "talks": {
   "2026-10-21": 109
@@ -104,22 +107,22 @@
  ],
  "last_review": 1794331754.3904452,
  "news": {
-  "t": 1794401894.4252765,
+  "t": 1794402807.7061276,
   "crypto": [
+   "CoreWeave stock jumps 15% premarket after Q3 revenue beats estimates (0h ago)",
+   "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month (0h ago)",
    "Meet Spiko, the largest tokenized fund in the world you\u2019ve probably never heard about (0h ago)",
    "FSB urgest Turkey to tighten crypto oversight, set stablecoin rules (0h ago)",
-   "Zcash falls below $1,000 for first time since September (0h ago)",
-   "Live news: CoreWeave jumps 14% as earnings fuel rebound across battered AI stocks (1h ago)",
+   "Zcash falls below $1,000 for first time since September (1h ago)",
+   "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound (1h ago)",
    "Bitcoin barely flinches at hot CPI as ETF selling slows (1h ago)",
    "Barclays boosts BlackRock Bitcoin ETF stake 48% as banks expand holdings (1h ago)",
-   "Bitcoin sits out stock rebound as ETF outflows extend to fourth day (1h ago)",
-   "Kraken parent adds over 200 tokenized UK and EU stocks to xStocks (1h ago)",
-   "Bitcoin short-term holders send 47K BTC to exchanges at a loss (2h ago)",
-   "Kraken's xStocks adds 200 UK and EU shares as its assets top $1.1 billion (2h ago)"
+   "Bitcoin sits out stock rebound as ETF outflows extend to fourth day (2h ago)",
+   "Kraken parent adds over 200 tokenized UK and EU stocks to xStocks (2h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP GDP m/m in 18.0h, forecast 0.0%, previous 0.1%"
+   "GBP GDP m/m in 17.8h, forecast 0.0%, previous 0.1%"
   ]
  },
  "spend": {
