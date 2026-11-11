@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-11 19:51 UTC. Runs so far: 92. Model: claude-haiku-5-5.
+Updated 2026-11-11 20:03 UTC. Runs so far: 92. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2595 | 31 | -66400.65 | -91313.27 |
+| control | meme | 2596 | 31 | -66458.97 | -91380.35 |
 | control | macro | 55 | 53 | 670.35 | 398.96 |
-| control | all | 2650 | 31 | -65730.3 | -90914.31 |
+| control | all | 2651 | 31 | -65788.62 | -90981.39 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,6 +19,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: BOXCAT long at 8.219e-05, stop 6.5752e-05, target 0.000115066, opened 2026-11-11 19:32 UTC
 - control: ClapCat long at 0.0002165, stop 0.0001732, target 0.0003031, opened 2026-11-11 19:45 UTC
+- control: Quacky long at 0.0002915, stop 0.0002332, target 0.0004081, opened 2026-11-11 19:57 UTC
 
 ## Team
 
@@ -31,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED Quacky (target) P&L $68.0 normal, $56.0 pessimistic
+- control: CLOSED BERNIAO (stop) P&L $-58.32 normal, $-67.08 pessimistic
 
