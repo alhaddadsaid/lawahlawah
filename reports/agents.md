@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-11 05:55 UTC. Runs so far: 90. Model: claude-haiku-5-5.
+Updated 2026-11-11 06:10 UTC. Runs so far: 90. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2541 | 31 | -65423.27 | -89807.11 |
+| control | meme | 2542 | 31 | -65472.62 | -89865.45 |
 | control | macro | 53 | 51 | 380.39 | 117.43 |
-| control | all | 2594 | 31 | -65042.88 | -89689.68 |
+| control | all | 2595 | 31 | -65092.23 | -89748.02 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: DIGS long at 0.0001042, stop 8.336e-05, target 0.00014588, opened 2026-11-11 05:24 UTC
 - control: mihao long at 0.000134, stop 0.0001072, target 0.0001876, opened 2026-11-11 05:36 UTC
 - control: PAID long at 0.001258, stop 0.0010064, target 0.0017612, opened 2026-11-11 05:46 UTC
-- control: BLUQO long at 0.0001005, stop 8.04e-05, target 0.0001407, opened 2026-11-11 05:55 UTC
 
 ## Team
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-11 05:55 UTC control: OPENED BLUQO long at 0.0001005 (stop 8.04e-05, target 0.0001407) - control: frozen v3 rules
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
 

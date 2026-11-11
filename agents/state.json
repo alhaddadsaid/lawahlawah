@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -55042.63991560908,
+   "cash": -55091.98916934042,
    "open": [
     {
      "id": 2598,
@@ -66,21 +66,6 @@
      "size": 158982.5119236884,
      "deadline": 1794383171.2734404,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2618,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "BLUQO",
-     "mint": "FQMJg81Xee3HLkXKXEexmcsr42hDzKmLMb4U8Nempump",
-     "side": 1,
-     "opened": 1794376521.8767474,
-     "entry": 0.0001005,
-     "stop": 8.04e-05,
-     "target": 0.0001407,
-     "size": 1990049.751243781,
-     "deadline": 1794383721.8767476,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,27 +74,24 @@
  "runs": 90,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump": 1794376686.4227219,
-  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794376686.4227219,
-  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1794376871.2053657,
-  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794376871.2053657,
-  "seen:8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": 1794376871.2053657,
-  "control:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1794376871.2734427,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794377056.1819332,
-  "seen:4cuKSoX9Kgt9tzCjqpjqoDamyZmnUseJKWVwBxHKpump": 1794377056.1819332,
-  "seen:C2YgrapZZibR6iMQFUupcz4RJWuRBw1wbqicNB4Epump": 1794377056.1819332,
-  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794377056.1819332,
-  "seen:vL4SwVwEfiaUQKtmJpkXPvfZZAeBwdH1mLSSfsC7FVM": 1794377237.5173426,
-  "seen:4f2KsphcoyUCWRh9UEFiALJ338E3ShfWXWRkqwSvpump": 1794377237.5173426,
-  "seen:FQMJg81Xee3HLkXKXEexmcsr42hDzKmLMb4U8Nempump": 1794377237.5173426,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794377237.5173426,
-  "seen:GAV37UD3cvysYvvPSeKboFKwarG387RvznM3BBhBpump": 1794377237.5173426,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794377237.5173426,
-  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794377421.7545137,
-  "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794377421.7545137,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1794377421.7545137,
-  "seen:66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump": 1794377421.7545137,
-  "control:FQMJg81Xee3HLkXKXEexmcsr42hDzKmLMb4U8Nempump": 1794377421.876751
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794377606.0322127,
+  "seen:GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump": 1794377606.0322127,
+  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794377606.0322127,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794377786.9543698,
+  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794377786.9543698,
+  "seen:8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": 1794377786.9543698,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794377786.9543698,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794377971.019573,
+  "seen:4cuKSoX9Kgt9tzCjqpjqoDamyZmnUseJKWVwBxHKpump": 1794377971.019573,
+  "seen:uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY": 1794378155.8776116,
+  "seen:4f2KsphcoyUCWRh9UEFiALJ338E3ShfWXWRkqwSvpump": 1794378155.8776116,
+  "seen:FQMJg81Xee3HLkXKXEexmcsr42hDzKmLMb4U8Nempump": 1794378155.8776116,
+  "seen:CQ8zNLYwMEAVVBHEswusZrsUraCvc7HjiBPwgTbRpump": 1794378155.8776116,
+  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794378155.8776116,
+  "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794378340.6504002,
+  "seen:ESjaHUxdAuB3PxaNhvhbw8e9k2KDZJpkjucQHtq8pump": 1794378340.6504002,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794378340.6504002,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794378340.6504002
  },
  "talks": {
   "2026-10-21": 109
@@ -150,18 +132,18 @@
  ],
  "last_review": 1794331754.3904452,
  "news": {
-  "t": 1794375786.430732,
+  "t": 1794376706.0401103,
   "crypto": [
    "Across Protocol restores website after hackers hijack domain (1h ago)",
    "Crypto ally Tom Emmer elected House GOP minority whip (3h ago)",
-   "LNbits rushes emergency patch after reported Bitcoin wallet thefts (4h ago)",
+   "LNbits rushes emergency patch after reported Bitcoin wallet thefts (5h ago)",
    "CFTC warns Kalshi of imminent charges over notification of contracts: Politico (6h ago)",
    "Global banks commit $270M to stablecoin venture targeting 2027 launch (7h ago)",
    "Can crypto trust firms compete with banks in US derivatives settlements? (8h ago)",
-   "Across Protocol warns users to avoid app amid reports of drained wallets (8h ago)",
+   "Across Protocol warns users to avoid app amid reports of drained wallets (9h ago)",
    "Ava Labs exec says NYSE deal marks end of blockchain\u2019s \u2018general purpose era\u2019 (9h ago)",
    "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets? (9h ago)",
-   "Kimber Digital Securities gains broker-dealer status for tokenized assets (9h ago)"
+   "Kimber Digital Securities gains broker-dealer status for tokenized assets (10h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -194,5 +176,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794376156.1897178
+ "last_macro_macro": 1794377440.6581683
 }
