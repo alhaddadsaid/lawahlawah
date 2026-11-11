@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -55401.768394212886,
+   "cash": -55440.11628954602,
    "open": [
-    {
-     "id": 2645,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "FAIR",
-     "mint": "FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg",
-     "side": 1,
-     "opened": 1794403537.4007277,
-     "entry": 8.887e-05,
-     "stop": 7.1096e-05,
-     "target": 0.00012441799999999997,
-     "size": 2250478.2266231575,
-     "deadline": 1794410737.400728,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2649,
      "desk": "control",
@@ -68,40 +53,42 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2656,
+     "id": 2657,
      "desk": "control",
      "market": "meme",
-     "symbol": "BINKY",
-     "mint": "2g23GpSneyx7Uqb25YKA6i66m8f1VDYwpGCVGXhdwK8h",
+     "symbol": "\u2588\u2588\u2588",
+     "mint": "EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump",
      "side": 1,
-     "opened": 1794410647.7753222,
-     "entry": 0.0001617,
-     "stop": 0.00012936,
-     "target": 0.00022637999999999998,
-     "size": 1236858.3797155225,
-     "deadline": 1794417847.7753224,
+     "opened": 1794411012.9496868,
+     "entry": 0.000281,
+     "stop": 0.00022480000000000002,
+     "target": 0.00039339999999999997,
+     "size": 711743.7722419929,
+     "deadline": 1794418212.949687,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2658,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "FAIR",
+     "mint": "FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg",
+     "side": 1,
+     "opened": 1794411195.0672028,
+     "entry": 9.25e-05,
+     "stop": 7.400000000000001e-05,
+     "target": 0.00012949999999999998,
+     "size": 2162162.1621621624,
+     "deadline": 1794418395.067203,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2657,
+ "next_id": 2659,
  "runs": 91,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2g23GpSneyx7Uqb25YKA6i66m8f1VDYwpGCVGXhdwK8h": 1794410818.2477465,
-  "seen:34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": 1794410818.2477465,
-  "seen:CvDCgLqPnUpck2GbdZbT8ukawnJin1ubQx5JHxmnpump": 1794410818.2477465,
-  "seen:D9Ug6YSxD51SuAQbK8RUUTQp5DgFcQhxjb2VT2yMpump": 1794411001.539555,
-  "seen:2u1tszSeqZ3qBWF3uNGPFc8TzMk2tdiwknnRMWGWjGWH": 1794411001.539555,
-  "seen:8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": 1794411001.539555,
-  "seen:CQ8zNLYwMEAVVBHEswusZrsUraCvc7HjiBPwgTbRpump": 1794411001.539555,
-  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794411001.539555,
-  "seen:AWL7bYYUH3StCYySsyHPb5Gog5VC7SxWrbR3TTHspump": 1794411183.7917607,
-  "seen:6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 1794411183.7917607,
-  "seen:BLVpn8ofkjnAzpWGaVpspZ5bHTeXDbXFgX4vn3fkpump": 1794411183.7917607,
-  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794411183.7917607,
-  "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794411183.7917607,
   "seen:9zRvNa96CXwHZCvcw5nfKVEUbtLrSsu3VVezwjBspump": 1794411365.702058,
   "seen:3MxLn7mkU4ZBF1orgXXPmS8P165Xnm9Ck41s3gutpump": 1794411365.702058,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794411365.702058,
@@ -112,7 +99,18 @@
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794411547.7135665,
   "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794411547.7135665,
   "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794411547.7135665,
-  "control:2g23GpSneyx7Uqb25YKA6i66m8f1VDYwpGCVGXhdwK8h": 1794411547.7753265
+  "control:2g23GpSneyx7Uqb25YKA6i66m8f1VDYwpGCVGXhdwK8h": 1794411547.7753265,
+  "seen:CvDCgLqPnUpck2GbdZbT8ukawnJin1ubQx5JHxmnpump": 1794411730.9684775,
+  "seen:2g23GpSneyx7Uqb25YKA6i66m8f1VDYwpGCVGXhdwK8h": 1794411730.9684775,
+  "seen:CGqWKhZzH86dZJLbJTpS4AfqtzWy59rLNnBeFowhpump": 1794411912.3545933,
+  "seen:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1794411912.3545933,
+  "seen:8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": 1794411912.3545933,
+  "control:EwX2T1p2PmgTsSq2Bi6XtQYxPC5krR4P2fxPfN4Qpump": 1794411912.9496908,
+  "seen:AWL7bYYUH3StCYySsyHPb5Gog5VC7SxWrbR3TTHspump": 1794412095.0086288,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794412095.0086288,
+  "seen:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794412095.0086288,
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794412095.0086288,
+  "control:FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg": 1794412095.0672069
  },
  "talks": {
   "2026-10-21": 109
@@ -153,22 +151,22 @@
  ],
  "last_review": 1794331754.3904452,
  "news": {
-  "t": 1794410101.553281,
+  "t": 1794411012.367909,
   "crypto": [
    "Deutsche Bank launches crypto custody for companies and institutions (1h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "Paraguay bank collapse shows stablecoins can offer a lifeline... of sorts (2h ago)",
    "Bitcoin Covenants Part 5: MATT and OP_CHECKCONTRACTVERIFY \u2014 How Bitcoin could carry state across transactions (2h ago)",
    "CoreWeave stock jumps 15% premarket after Q3 revenue beats estimates (2h ago)",
-   "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month (2h ago)",
-   "Meet Spiko, the largest tokenized fund in the world you\u2019ve probably never heard about (2h ago)",
+   "OKXICE to debut tokenized stock trading with Strategy, Coinbase, Circle this month (3h ago)",
+   "Meet Spiko, the largest tokenized fund in the world you\u2019ve probably never heard about (3h ago)",
    "FSB urgest Turkey to tighten crypto oversight, set stablecoin rules (3h ago)",
    "Zcash falls below $1,000 for first time since September (3h ago)",
    "Live news: Bitcoin remains under pressure as CoreWeave, Nvidia lead AI rebound (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP GDP m/m in 15.7h, forecast 0.0%, previous 0.1%"
+   "GBP GDP m/m in 15.5h, forecast 0.0%, previous 0.1%"
   ]
  },
  "spend": {
