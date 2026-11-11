@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -56286.49978610777,
+   "cash": -56303.2950567985,
    "open": [
-    {
-     "id": 2674,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DIGS",
-     "mint": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-     "side": 1,
-     "opened": 1794429775.934056,
-     "entry": 0.0001607,
-     "stop": 0.00012856,
-     "target": 0.00022497999999999998,
-     "size": 1244555.0715619165,
-     "deadline": 1794436975.9340563,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2676,
      "desk": "control",
@@ -81,22 +66,29 @@
      "size": 2884338.044418806,
      "deadline": 1794443745.496585,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2684,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "GPU",
+     "mint": "EFYdWBh6hQJLduR4QYnLNKLMq93PLqjjU5WwhNPgpump",
+     "side": 1,
+     "opened": 1794437095.1555238,
+     "entry": 6.374e-05,
+     "stop": 5.0992e-05,
+     "target": 8.923599999999998e-05,
+     "size": 3137747.097583935,
+     "deadline": 1794444295.155524,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2684,
+ "next_id": 2685,
  "runs": 92,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794436713.0303986,
-  "seen:Hsj6jjTTAStMQo4uebMjxCd9T7gEGbX6jcWg7LZByJHn": 1794436896.028815,
-  "seen:BbKoG2mA3Ra2KncntHWywuqaXY36NudprPP7zA7npump": 1794436896.028815,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794436896.028815,
-  "seen:9RyENt3gJ1MEsFPiJAMyNerYYngLDuyZfVP4GBqepump": 1794436896.028815,
-  "seen:EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA": 1794437079.8968968,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794437079.8968968,
-  "control:EN2nnxrg8uUi6x2sJkzNPd2eT6rB9rdSoQNNaENA4RZA": 1794437080.2187045,
   "seen:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794437263.3558817,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794437263.3558817,
   "seen:HzwVr7KjPhUriHK9MrJbFzbTDTPwUXGrL2Ah2wVhpump": 1794437263.3558817,
@@ -107,7 +99,17 @@
   "seen:5vo6UbTfJzQRgChjefcFGs5zxcSdk48Qoh6MPPYMpump": 1794437445.4480367,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794437445.4480367,
   "seen:F2xQeTCTqnczXxXQaBWAfDpUnpxn4wQHRPSqvUYJpump": 1794437445.4480367,
-  "control:FjFVmDDM3w7qVLS9uxLkXnDM4qCGsqXSow6d32phpump": 1794437445.4965887
+  "control:FjFVmDDM3w7qVLS9uxLkXnDM4qCGsqXSow6d32phpump": 1794437445.4965887,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794437629.7970166,
+  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794437629.7970166,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1794437812.7350192,
+  "seen:9RyENt3gJ1MEsFPiJAMyNerYYngLDuyZfVP4GBqepump": 1794437812.7350192,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794437812.7350192,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794437812.7350192,
+  "seen:EFYdWBh6hQJLduR4QYnLNKLMq93PLqjjU5WwhNPgpump": 1794437995.077087,
+  "seen:5Kjxg6X13axntM98AxJGjNQCB82YZWhSnvJVX78cpump": 1794437995.077087,
+  "seen:89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": 1794437995.077087,
+  "control:EFYdWBh6hQJLduR4QYnLNKLMq93PLqjjU5WwhNPgpump": 1794437995.1555278
  },
  "talks": {
   "2026-10-21": 109
@@ -148,22 +150,22 @@
  ],
  "last_review": 1794422115.8723295,
  "news": {
-  "t": 1794435813.0432625,
+  "t": 1794436729.8096495,
   "crypto": [
    "Here\u2019s what happened in crypto today (0h ago)",
-   "Uncalled US House races could send more crypto allies to Congress (0h ago)",
+   "Uncalled US House races could send more crypto allies to Congress (1h ago)",
    "Nomura explores sale of crypto unit Laser Digital: Bloomberg (1h ago)",
    "US data center restrictions could give Bitcoin miners an edge in AI, though challenges remain (2h ago)",
    "OKXICE moves ahead with tokenized stocks as blue chips push back (4h ago)",
    "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound (6h ago)",
-   "Crypto Long & Short: The GENIUS Act\u2019s guarantees don\u2019t cover DeFi lending (6h ago)",
-   "Deutsche Bank launches crypto custody for companies and institutions (8h ago)",
+   "Crypto Long & Short: The GENIUS Act\u2019s guarantees don\u2019t cover DeFi lending (7h ago)",
+   "Deutsche Bank launches crypto custody for companies and institutions (9h ago)",
    "Paraguay bank collapse shows stablecoins can offer a lifeline... of sorts (9h ago)",
    "Bitcoin Covenants Part 5: MATT and OP_CHECKCONTRACTVERIFY \u2014 How Bitcoin could carry state across transactions (9h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP GDP m/m in 8.6h, forecast 0.0%, previous 0.1%"
+   "GBP GDP m/m in 8.4h, forecast 0.0%, previous 0.1%"
   ]
  },
  "spend": {
