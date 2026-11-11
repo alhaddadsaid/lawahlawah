@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -55380.71514723759,
+   "cash": -55469.0599748238,
    "open": [
     {
      "id": 2598,
@@ -66,21 +66,6 @@
      "size": 1627339.3002441009,
      "deadline": 1794391975.0987024,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2628,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MOCHI",
-     "mint": "zHU8ocUYexYxiaKM5Yysf1USZVd2batkN7UPS5tpump",
-     "side": 1,
-     "opened": 1794387152.4402666,
-     "entry": 5.655e-05,
-     "stop": 4.524000000000001e-05,
-     "target": 7.916999999999999e-05,
-     "size": 3536693.191865606,
-     "deadline": 1794394352.4402668,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,16 +74,6 @@
  "runs": 90,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794387315.5859704,
-  "seen:zHU8ocUYexYxiaKM5Yysf1USZVd2batkN7UPS5tpump": 1794387315.5859704,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794387315.5859704,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794387315.5859704,
-  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794387315.5859704,
-  "seen:FP7NvFXQXoZL1nQC5QZtE1bzwgALdxj1TeA9J25epump": 1794387315.5859704,
-  "seen:BoRsyzgtFw56gHqWgqb7wL45bMr9vQMF564j1Gvtcash": 1794387496.4927652,
-  "seen:B5oY8vNuFeWZWsiMN5PMi9XdFzWTnmcBR1m8Fddapump": 1794387496.4927652,
-  "seen:GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump": 1794387681.601393,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794387681.601393,
   "seen:8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": 1794387867.11994,
   "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794387867.11994,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794387867.11994,
@@ -106,7 +81,16 @@
   "seen:uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY": 1794388052.3775346,
   "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794388052.3775346,
   "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794388052.3775346,
-  "control:zHU8ocUYexYxiaKM5Yysf1USZVd2batkN7UPS5tpump": 1794388052.4402697
+  "control:zHU8ocUYexYxiaKM5Yysf1USZVd2batkN7UPS5tpump": 1794388052.4402697,
+  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794388233.5985148,
+  "seen:CQ8zNLYwMEAVVBHEswusZrsUraCvc7HjiBPwgTbRpump": 1794388233.5985148,
+  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794388233.5985148,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794388233.5985148,
+  "seen:BoRsyzgtFw56gHqWgqb7wL45bMr9vQMF564j1Gvtcash": 1794388417.1499276,
+  "seen:B5oY8vNuFeWZWsiMN5PMi9XdFzWTnmcBR1m8Fddapump": 1794388417.1499276,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794388417.1499276,
+  "seen:GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump": 1794388599.231406,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794388599.231406
  },
  "talks": {
   "2026-10-21": 109
@@ -147,22 +131,22 @@
  ],
  "last_review": 1794331754.3904452,
  "news": {
-  "t": 1794386781.6100035,
+  "t": 1794387699.239757,
   "crypto": [
+   "SEC enforcement actions fall 24%, crypto cases in spotlight (0h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "Initia confirms second exploit in 3 weeks, $3.27M stolen in latest attack (3h ago)",
    "Across Protocol restores website after hackers hijack domain (4h ago)",
    "Crypto ally Tom Emmer elected House GOP minority whip (6h ago)",
-   "LNbits rushes emergency patch after reported Bitcoin wallet thefts (7h ago)",
+   "LNbits rushes emergency patch after reported Bitcoin wallet thefts (8h ago)",
    "CFTC warns Kalshi of imminent charges over notification of contracts: Politico (9h ago)",
    "Global banks commit $270M to stablecoin venture targeting 2027 launch (10h ago)",
    "Can crypto trust firms compete with banks in US derivatives settlements? (11h ago)",
-   "Across Protocol warns users to avoid app amid reports of drained wallets (11h ago)",
-   "Ava Labs exec says NYSE deal marks end of blockchain\u2019s \u2018general purpose era\u2019 (12h ago)"
+   "Across Protocol warns users to avoid app amid reports of drained wallets (12h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP GDP m/m in 22.2h, forecast 0.0%, previous 0.1%"
+   "GBP GDP m/m in 22.0h, forecast 0.0%, previous 0.1%"
   ]
  },
  "spend": {
@@ -193,5 +177,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794386415.5944421
+ "last_macro_macro": 1794387699.2396677
 }
