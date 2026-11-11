@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-11 16:25 UTC. Runs so far: 91. Model: claude-haiku-5-5.
+Updated 2026-11-11 18:42 UTC. Runs so far: 92. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2584 | 31 | -66256.53 | -91060.04 |
+| control | meme | 2589 | 31 | -66277.72 | -91131.96 |
 | control | macro | 55 | 53 | 670.35 | 398.96 |
-| control | all | 2639 | 31 | -65586.18 | -90661.08 |
+| control | all | 2644 | 31 | -65607.37 | -90733.0 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: DIGS long at 0.0001648, stop 0.00013184, target 0.00023072, opened 2026-11-11 15:08 UTC
-- control: ███ long at 0.000281, stop 0.0002248, target 0.0003934, opened 2026-11-11 15:30 UTC
-- control: FAIR long at 9.25e-05, stop 7.4e-05, target 0.0001295, opened 2026-11-11 15:33 UTC
-- control: BOXCAT long at 0.0001194, stop 9.552e-05, target 0.00016716, opened 2026-11-11 16:24 UTC
+- control: HAOGPT long at 0.0001093, stop 8.744e-05, target 0.00015302, opened 2026-11-11 18:41 UTC
 
 ## Team
 
@@ -33,5 +30,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-## Run ended 2026-11-11 16:25 UTC
+- control: CLOSED BURNIE (target) P&L $68.0 normal, $56.0 pessimistic
 
