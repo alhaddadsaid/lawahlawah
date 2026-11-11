@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -55157.089679560595,
+   "cash": -55146.817402332876,
    "open": [
     {
      "id": 2592,
@@ -38,21 +38,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 2600,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "FAIR",
-     "mint": "FairDR2UmRqHxsVPdPcetePCjFaDqVYv3oQX9fcQTpTg",
-     "side": 1,
-     "opened": 1794352116.4054332,
-     "entry": 0.000101,
-     "stop": 8.080000000000001e-05,
-     "target": 0.0001414,
-     "size": 1980198.0198019801,
-     "deadline": 1794359316.4054337,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2602,
      "desk": "control",
      "market": "meme",
@@ -74,25 +59,23 @@
  "runs": 89,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CRhbTris4J34SXobaLFnrEv2RD3dD99ddGdiPPzgpump": 1794358326.0611362,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794358326.0611362,
-  "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794358509.3896313,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794358509.3896313,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794358509.3896313,
-  "seen:HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7": 1794358509.3896313,
-  "control:85gJ7HucRUpPjLZP9KVWEKyB85uBxtwMfqzm9ufNpump": 1794358509.4389043,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794358692.1387193,
-  "seen:8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": 1794358692.1387193,
-  "seen:Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": 1794358692.1387193,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794358875.9073992,
-  "seen:6bFAqDnEQhwiZaoT4VFbwAGfFtg23DrB3bNKjPFji2QU": 1794358875.9073992,
-  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794358875.9073992,
-  "seen:TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": 1794358875.9073992,
-  "seen:85gJ7HucRUpPjLZP9KVWEKyB85uBxtwMfqzm9ufNpump": 1794358875.9073992,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794359059.1309004,
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794359059.1309004,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794359059.1309004,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794359059.1309004
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794359606.379731,
+  "seen:8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": 1794359606.379731,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794359606.379731,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794359606.379731,
+  "seen:6bFAqDnEQhwiZaoT4VFbwAGfFtg23DrB3bNKjPFji2QU": 1794359789.0474503,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794359789.0474503,
+  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794359789.0474503,
+  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1794359789.0474503,
+  "seen:DePBhD8yQWuxnF4GEiztp2E21QGocRmWa94UhwFiJWJ6": 1794359789.0474503,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794359971.5023992,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794359971.5023992,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1794360153.8952892,
+  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794360153.8952892,
+  "seen:CRhbTris4J34SXobaLFnrEv2RD3dD99ddGdiPPzgpump": 1794360153.8952892,
+  "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794360336.8330083,
+  "seen:Bp7Lk2CfPdK7yfc15gdmqMKSFBsHFbiish1SZ9enpump": 1794360336.8330083,
+  "seen:C5xph2yL6gMdxmuLGxJBkGpmuDFfyi5fqkBNhvL6pump": 1794360336.8330083
  },
  "talks": {
   "2026-10-21": 109
@@ -133,18 +116,18 @@
  ],
  "last_review": 1794331754.3904452,
  "news": {
-  "t": 1794357426.0731215,
+  "t": 1794359253.9077382,
   "crypto": [
    "CFTC warns Kalshi of imminent charges over notification of contracts: Politico (1h ago)",
-   "Global banks commit $270M to stablecoin venture targeting 2027 launch (1h ago)",
+   "Global banks commit $270M to stablecoin venture targeting 2027 launch (2h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
-   "Can crypto trust firms compete with banks in US derivatives settlements? (3h ago)",
-   "Across Protocol warns users to avoid app amid reports of drained wallets (3h ago)",
-   "Ava Labs exec says NYSE deal marks end of blockchain\u2019s \u2018general purpose era\u2019 (3h ago)",
-   "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets? (4h ago)",
-   "Kimber Digital Securities gains broker-dealer status for tokenized assets (4h ago)",
-   "Former NYSE president says stock issuers hold the key to tokenization as Bullish builds its platform (4h ago)",
-   "Mercado Bitcoin to resume cash withdrawals after $49M hack (6h ago)"
+   "Can crypto trust firms compete with banks in US derivatives settlements? (4h ago)",
+   "Across Protocol warns users to avoid app amid reports of drained wallets (4h ago)",
+   "Ava Labs exec says NYSE deal marks end of blockchain\u2019s \u2018general purpose era\u2019 (4h ago)",
+   "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets? (5h ago)",
+   "Kimber Digital Securities gains broker-dealer status for tokenized assets (5h ago)",
+   "Former NYSE president says stock issuers hold the key to tokenization as Bullish builds its platform (5h ago)",
+   "Mercado Bitcoin to resume cash withdrawals after $49M hack (7h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -177,5 +160,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794358159.1431704
+ "last_macro_macro": 1794359436.845412
 }
