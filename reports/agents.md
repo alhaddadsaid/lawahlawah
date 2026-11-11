@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-11 15:11 UTC. Runs so far: 91. Model: claude-haiku-5-5.
+Updated 2026-11-11 15:24 UTC. Runs so far: 91. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2576 | 31 | -66140.37 | -90864.8 |
+| control | meme | 2577 | 31 | -66072.37 | -90808.8 |
 | control | macro | 55 | 53 | 670.35 | 398.96 |
-| control | all | 2631 | 31 | -65470.02 | -90465.84 |
+| control | all | 2632 | 31 | -65402.02 | -90409.84 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,8 +20,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: FAIR long at 8.887e-05, stop 7.1096e-05, target 0.000124418, opened 2026-11-11 13:25 UTC
 - control: BOXCAT long at 0.0001789, stop 0.00014312, target 0.00025046, opened 2026-11-11 14:08 UTC
 - control: woohao long at 0.0001379, stop 0.00011032, target 0.00019306, opened 2026-11-11 14:38 UTC
-- control: bro long at 9.573e-05, stop 7.6584e-05, target 0.000134022, opened 2026-11-11 14:53 UTC
 - control: DIGS long at 0.0001648, stop 0.00013184, target 0.00023072, opened 2026-11-11 15:08 UTC
+- control: BINKY long at 0.0001617, stop 0.00012936, target 0.00022638, opened 2026-11-11 15:24 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order woohao REJECTED by guardrails: desk already has the maximum open positions
+- 2026-11-11 15:24 UTC control: OPENED BINKY long at 0.0001617 (stop 0.00012936, target 0.00022638) - control: frozen v3 rules
 
