@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -55798.043692341664,
+   "cash": -55730.043692341664,
    "open": [
     {
      "id": 2669,
@@ -20,21 +20,6 @@
      "target": 0.00011506599999999999,
      "size": 2433386.0566978953,
      "deadline": 1794432779.9602008,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2670,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Quacky",
-     "mint": "8mkdKC4krnsGsDDSx7nGioWwZiBgeUrECcJg8Gd4pump",
-     "side": 1,
-     "opened": 1794425763.7417881,
-     "entry": 0.0001917,
-     "stop": 0.00015336,
-     "target": 0.00026838,
-     "size": 1043296.8179447053,
-     "deadline": 1794432963.7417884,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -59,17 +44,6 @@
  "runs": 92,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CQ8zNLYwMEAVVBHEswusZrsUraCvc7HjiBPwgTbRpump": 1794426479.884285,
-  "seen:7XdCaKpqLmKE2K7yr9xaeWB1H2CVZ1oGwxB6hmd9pump": 1794426479.884285,
-  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794426479.884285,
-  "control:CQ8zNLYwMEAVVBHEswusZrsUraCvc7HjiBPwgTbRpump": 1794426479.960204,
-  "seen:7osjTJ15Dx4YNhcseKB7rX4GnNJy7e3ANWhBfYnLpump": 1794426663.3960092,
-  "seen:CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": 1794426663.3960092,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794426663.3960092,
-  "seen:bonerpW3GSWw9RHsMKRE757EohtsYDf1kpDdxG2S4t1": 1794426663.3960092,
-  "seen:89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": 1794426663.3960092,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794426663.3960092,
-  "control:8mkdKC4krnsGsDDSx7nGioWwZiBgeUrECcJg8Gd4pump": 1794426663.7417924,
   "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1794426845.766562,
   "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1794426845.766562,
   "seen:8mkdKC4krnsGsDDSx7nGioWwZiBgeUrECcJg8Gd4pump": 1794427027.8078072,
@@ -78,7 +52,16 @@
   "seen:AsgPcWMGx7pkkYZiWPaxec61ucJGyh6LD7MkAz1apump": 1794427209.6921577,
   "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794427209.6921577,
   "seen:5BjfgmtfqvNpAWx1CnZynoWLWNMnrwHLhTFzQ81vkEc8": 1794427209.6921577,
-  "control:5BjfgmtfqvNpAWx1CnZynoWLWNMnrwHLhTFzQ81vkEc8": 1794427209.727319
+  "control:5BjfgmtfqvNpAWx1CnZynoWLWNMnrwHLhTFzQ81vkEc8": 1794427209.727319,
+  "seen:DaWgMWCiJrP4M5PdQvvy1LDcP6rr2EZpuWkaC42kpump": 1794427394.0894406,
+  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794427394.0894406,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794427394.0894406,
+  "seen:7FxGzQZjdxL87R9hTvtghmtn1vCUc79oVvKiV31azZrQ": 1794427575.8418667,
+  "seen:CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": 1794427575.8418667,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794427575.8418667,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794427575.8418667,
+  "seen:89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": 1794427575.8418667,
+  "seen:77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump": 1794427575.8418667
  },
  "talks": {
   "2026-10-21": 109
@@ -119,7 +102,7 @@
  ],
  "last_review": 1794422115.8723295,
  "news": {
-  "t": 1794425763.408072,
+  "t": 1794426675.8539836,
   "crypto": [
    "OKXICE moves ahead with tokenized stocks as blue chips push back (1h ago)",
    "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound (3h ago)",
@@ -134,7 +117,7 @@
   ],
   "macro": [],
   "calendar": [
-   "GBP GDP m/m in 11.4h, forecast 0.0%, previous 0.1%"
+   "GBP GDP m/m in 11.1h, forecast 0.0%, previous 0.1%"
   ]
  },
  "spend": {
