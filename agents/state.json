@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -55421.042941813896,
+   "cash": -55353.042941813896,
    "open": [
     {
      "id": 2592,
@@ -53,34 +53,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2609,
+     "id": 2610,
      "desk": "control",
      "market": "meme",
-     "symbol": "BABYMINHAO",
-     "mint": "6bFAqDnEQhwiZaoT4VFbwAGfFtg23DrB3bNKjPFji2QU",
+     "symbol": "PAID",
+     "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
      "side": 1,
-     "opened": 1794366197.338295,
-     "entry": 5.509e-05,
-     "stop": 4.407200000000001e-05,
-     "target": 7.712599999999999e-05,
-     "size": 3630422.9442730076,
-     "deadline": 1794373397.3382952,
+     "opened": 1794366564.7620392,
+     "entry": 0.00134,
+     "stop": 0.001072,
+     "target": 0.0018759999999999998,
+     "size": 149253.73134328358,
+     "deadline": 1794373764.76204,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2610,
+ "next_id": 2611,
  "runs": 89,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": 1794366364.2781653,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794366364.2781653,
-  "seen:6bFAqDnEQhwiZaoT4VFbwAGfFtg23DrB3bNKjPFji2QU": 1794366364.2781653,
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794366364.2781653,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794366546.6810668,
-  "seen:66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump": 1794366546.6810668,
-  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794366546.6810668,
   "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794366729.3654392,
   "seen:6iA73gWCKkLWKbVr8rgibV57MMRxzsaqS9cWpgKBpump": 1794366729.3654392,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794366729.3654392,
@@ -93,7 +86,16 @@
   "seen:HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": 1794366914.5614254,
   "seen:4DYpQAiKQA872y9xuSGFLSguho8XZn9mQBmVcRQZpump": 1794367097.3061178,
   "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794367097.3061178,
-  "control:6bFAqDnEQhwiZaoT4VFbwAGfFtg23DrB3bNKjPFji2QU": 1794367097.338298
+  "control:6bFAqDnEQhwiZaoT4VFbwAGfFtg23DrB3bNKjPFji2QU": 1794367097.338298,
+  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794367280.3331277,
+  "seen:6bFAqDnEQhwiZaoT4VFbwAGfFtg23DrB3bNKjPFji2QU": 1794367280.3331277,
+  "seen:8tbfkL8LZYUN3ygzWMKfffqVd7tLRpWkuh2fowsepump": 1794367464.2829108,
+  "seen:66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump": 1794367464.2829108,
+  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794367464.2829108,
+  "seen:5hrzoyv9yze7Kavp2qVh9V76PoMmgBB5tMFNheEspump": 1794367464.2829108,
+  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1794367464.2829108,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794367464.2829108,
+  "control:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1794367464.7620435
  },
  "talks": {
   "2026-10-21": 109
@@ -134,17 +136,17 @@
  ],
  "last_review": 1794331754.3904452,
  "news": {
-  "t": 1794365646.6938653,
+  "t": 1794366564.2957814,
   "crypto": [
    "LNbits rushes emergency patch after reported Bitcoin wallet thefts (2h ago)",
    "CFTC warns Kalshi of imminent charges over notification of contracts: Politico (3h ago)",
    "Global banks commit $270M to stablecoin venture targeting 2027 launch (4h ago)",
    "Here\u2019s what happened in crypto today (5h ago)",
-   "Can crypto trust firms compete with banks in US derivatives settlements? (5h ago)",
-   "Across Protocol warns users to avoid app amid reports of drained wallets (5h ago)",
+   "Can crypto trust firms compete with banks in US derivatives settlements? (6h ago)",
+   "Across Protocol warns users to avoid app amid reports of drained wallets (6h ago)",
    "Ava Labs exec says NYSE deal marks end of blockchain\u2019s \u2018general purpose era\u2019 (6h ago)",
-   "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets? (6h ago)",
-   "Kimber Digital Securities gains broker-dealer status for tokenized assets (6h ago)",
+   "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets? (7h ago)",
+   "Kimber Digital Securities gains broker-dealer status for tokenized assets (7h ago)",
    "Former NYSE president says stock issuers hold the key to tokenization as Bullish builds its platform (7h ago)"
   ],
   "macro": [],
