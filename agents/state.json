@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -55285.042941813896,
+   "cash": -55307.01079373791,
    "open": [
     {
      "id": 2592,
@@ -36,21 +36,6 @@
      "size": 79789.46109736802,
      "deadline": 1794434439.4379025,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 2608,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "\u6211\u7684\u5200\u76fe",
-     "mint": "6iA73gWCKkLWKbVr8rgibV57MMRxzsaqS9cWpgKBpump",
-     "side": 1,
-     "opened": 1794365829.6954906,
-     "entry": 0.0002053,
-     "stop": 0.00016424,
-     "target": 0.00028741999999999993,
-     "size": 974184.120798831,
-     "deadline": 1794373029.6954906,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 2610,
@@ -89,14 +74,6 @@
  "runs": 90,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4f2KsphcoyUCWRh9UEFiALJ338E3ShfWXWRkqwSvpump": 1794372628.8274875,
-  "seen:FQMJg81Xee3HLkXKXEexmcsr42hDzKmLMb4U8Nempump": 1794372628.8274875,
-  "seen:AMC1qwR9KhiyrQBRPrxnfo4JfMeMZqEBvt5tgTytNNoc": 1794372628.8274875,
-  "seen:C2YgrapZZibR6iMQFUupcz4RJWuRBw1wbqicNB4Epump": 1794372628.8274875,
-  "seen:4cuKSoX9Kgt9tzCjqpjqoDamyZmnUseJKWVwBxHKpump": 1794372813.7694519,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794372996.164716,
-  "seen:6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump": 1794372996.164716,
-  "seen:GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump": 1794372996.164716,
   "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794373176.7189116,
   "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794373176.7189116,
   "seen:AcpjKtQ7KNLncnvkpXZXTU28YaHj7SEjmycs7EcHpump": 1794373176.7189116,
@@ -104,7 +81,16 @@
   "seen:FvWiHK27haTqetaL5KjRY1UgRnN8sx1cxpDJKui8pump": 1794373357.0854132,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794373357.0854132,
   "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794373357.0854132,
-  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794373357.0854132
+  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794373357.0854132,
+  "seen:66KbLTkLpPBPdhkRZs8XZk7Yw1DwuV3KYHKNTvmbpump": 1794373538.0283682,
+  "seen:FQMJg81Xee3HLkXKXEexmcsr42hDzKmLMb4U8Nempump": 1794373538.0283682,
+  "seen:4f2KsphcoyUCWRh9UEFiALJ338E3ShfWXWRkqwSvpump": 1794373538.0283682,
+  "seen:C2YgrapZZibR6iMQFUupcz4RJWuRBw1wbqicNB4Epump": 1794373538.0283682,
+  "seen:8yLBuP74RnFmjSRS8BGFebvyoTo8uiEjPB71h3Zgpump": 1794373538.0283682,
+  "seen:9VZerdNL1x6EjetDqRnh5bYcdmk1y8sLAGs1ybzGpump": 1794373717.806323,
+  "seen:4cuKSoX9Kgt9tzCjqpjqoDamyZmnUseJKWVwBxHKpump": 1794373717.806323,
+  "seen:6yXjaaaC6D9987UvJpBHHzU53jK3hPxGpbhcUNXxpump": 1794373903.054421,
+  "seen:GHtnAtTCPFz8MRTMQiEyuEob283EUgqd1d1Fysnhpump": 1794373903.054421
  },
  "talks": {
   "2026-10-21": 109
@@ -145,18 +131,18 @@
  ],
  "last_review": 1794331754.3904452,
  "news": {
-  "t": 1794372096.1719992,
+  "t": 1794373003.0619957,
   "crypto": [
+   "Across Protocol restores website after hackers hijack domain (0h ago)",
    "Crypto ally Tom Emmer elected House GOP minority whip (2h ago)",
-   "LNbits rushes emergency patch after reported Bitcoin wallet thefts (3h ago)",
+   "LNbits rushes emergency patch after reported Bitcoin wallet thefts (4h ago)",
    "CFTC warns Kalshi of imminent charges over notification of contracts: Politico (5h ago)",
    "Global banks commit $270M to stablecoin venture targeting 2027 launch (6h ago)",
    "Here\u2019s what happened in crypto today (7h ago)",
    "Can crypto trust firms compete with banks in US derivatives settlements? (7h ago)",
-   "Across Protocol warns users to avoid app amid reports of drained wallets (7h ago)",
+   "Across Protocol warns users to avoid app amid reports of drained wallets (8h ago)",
    "Ava Labs exec says NYSE deal marks end of blockchain\u2019s \u2018general purpose era\u2019 (8h ago)",
-   "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets? (8h ago)",
-   "Kimber Digital Securities gains broker-dealer status for tokenized assets (8h ago)"
+   "Warren: What is White House doing to prevent a repeat of teleprompter's Trump bets? (8h ago)"
   ],
   "macro": [],
   "calendar": []

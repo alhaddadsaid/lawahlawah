@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-11 04:47 UTC. Runs so far: 90. Model: claude-haiku-5-5.
+Updated 2026-11-11 04:57 UTC. Runs so far: 90. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2536 | 31 | -65518.47 | -89848.6 |
+| control | meme | 2537 | 31 | -65540.44 | -89880.26 |
 | control | macro | 52 | 50 | 233.2 | -26.95 |
-| control | all | 2588 | 31 | -65285.27 | -89875.55 |
+| control | all | 2589 | 31 | -65307.24 | -89907.21 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: GOLD long at 4042.7, stop 4024.89, target 4069.41, opened 2026-11-10 21:02 UTC
 - control: EURUSD short at 1.11607, stop 1.11732, target 1.11419, opened 2026-11-10 22:00 UTC
-- control: 我的刀盾 long at 0.0002053, stop 0.00016424, target 0.00028742, opened 2026-11-11 02:57 UTC
 - control: PAID long at 0.00134, stop 0.001072, target 0.001876, opened 2026-11-11 03:09 UTC
 - control: WIZARD long at 0.00032, stop 0.000256, target 0.000448, opened 2026-11-11 03:49 UTC
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order ORVIX REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED 我的刀盾 (time) P&L $-21.97 normal, $-31.66 pessimistic
 
