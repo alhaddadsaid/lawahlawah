@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-11 14:23 UTC. Runs so far: 91. Model: claude-haiku-5-5.
+Updated 2026-11-11 14:41 UTC. Runs so far: 91. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2572 | 31 | -66043.11 | -90729.01 |
+| control | meme | 2575 | 31 | -66091.13 | -90806.57 |
 | control | macro | 55 | 53 | 670.35 | 398.96 |
-| control | all | 2627 | 31 | -65372.76 | -90330.05 |
+| control | all | 2630 | 31 | -65420.78 | -90407.61 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: FAIR long at 8.887e-05, stop 7.1096e-05, target 0.000124418, opened 2026-11-11 13:25 UTC
-- control: If long at 0.0001382, stop 0.00011056, target 0.00019348, opened 2026-11-11 13:46 UTC
 - control: BOXCAT long at 0.0001789, stop 0.00014312, target 0.00025046, opened 2026-11-11 14:08 UTC
-- control: woohao long at 0.0001874, stop 0.00014992, target 0.00026236, opened 2026-11-11 14:23 UTC
+- control: woohao long at 0.0001379, stop 0.00011032, target 0.00019306, opened 2026-11-11 14:38 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-11 14:23 UTC control: OPENED woohao long at 0.0001874 (stop 0.00014992, target 0.00026236) - control: frozen v3 rules
+- control: CLOSED If (target) P&L $68.0 normal, $56.0 pessimistic
 
