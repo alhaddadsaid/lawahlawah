@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -55607.11969756827,
+   "cash": -55671.95640277058,
    "open": [
     {
      "id": 2664,
@@ -21,32 +21,51 @@
      "size": 1829826.166514181,
      "deadline": 1794429680.1944745,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2665,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "M\u0101o",
+     "mint": "AWL7bYYUH3StCYySsyHPb5Gog5VC7SxWrbR3TTHspump",
+     "side": 1,
+     "opened": 1794422846.045716,
+     "entry": 6.78e-05,
+     "stop": 5.4239999999999996e-05,
+     "target": 9.491999999999999e-05,
+     "size": 2949852.5073746317,
+     "deadline": 1794430046.0457163,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2665,
+ "next_id": 2667,
  "runs": 92,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8AP8cp2ZwdqgiDUjjXnGT2omzUsqhYzkWDxWQnncpump": 1794423015.8587165,
-  "seen:bn5DhJnkB8EVDoAgV9qCV3Kbv7XmEEp7mxW4npDpump": 1794423015.8587165,
-  "seen:89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": 1794423015.8587165,
-  "seen:CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": 1794423015.8587165,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794423015.8587165,
-  "seen:823KzDWd5HTSkWWJe1yZbka79pGAU7ZR8FXB5fKhpump": 1794423015.8587165,
-  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794423015.8587165,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794423015.8587165,
-  "control:CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": 1794423016.6624892,
-  "seen:BSB1KMuipGHXRQpV2iob5W7e78uMFxChdzT6N9bACET1": 1794423198.5608914,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794423198.5608914,
-  "seen:FR5oAtzmCL5bM8HmxDgGKkHxc7ARoZmk7NWm89Q9pump": 1794423198.5608914,
-  "seen:Hg3w7GdPViZ5URuCNnK6EwXLzSTmVwX6UXLeD6Pbpump": 1794423198.5608914,
-  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794423198.5608914,
   "seen:8bTJDVTG1xPuP4GsaXVKCRrbG4mRehhn5AyFy9yapump": 1794423380.1552978,
   "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794423380.1552978,
   "seen:CQ8zNLYwMEAVVBHEswusZrsUraCvc7HjiBPwgTbRpump": 1794423380.1552978,
-  "control:823KzDWd5HTSkWWJe1yZbka79pGAU7ZR8FXB5fKhpump": 1794423380.1944773
+  "control:823KzDWd5HTSkWWJe1yZbka79pGAU7ZR8FXB5fKhpump": 1794423380.1944773,
+  "seen:GyJgDT7zpASFmPMxTA3omXVuq5bA6ja158jVKp3hpump": 1794423561.869505,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794423561.869505,
+  "seen:AWL7bYYUH3StCYySsyHPb5Gog5VC7SxWrbR3TTHspump": 1794423746.0098999,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794423746.0098999,
+  "control:AWL7bYYUH3StCYySsyHPb5Gog5VC7SxWrbR3TTHspump": 1794423746.0457199,
+  "seen:CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": 1794423927.9823005,
+  "seen:uNjcrxJH5GQjw51NVgpFHi4q3m1Gxtq8xSDhbjupump": 1794423927.9823005,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794423927.9823005,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794423927.9823005,
+  "seen:DpByrfTANBAyV3eiBoBwX17G5wSJiD4fxMNUy6C7pump": 1794423927.9823005,
+  "seen:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794423927.9823005,
+  "seen:823KzDWd5HTSkWWJe1yZbka79pGAU7ZR8FXB5fKhpump": 1794423927.9823005,
+  "seen:89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": 1794423927.9823005,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794424109.845345,
+  "seen:TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": 1794424109.845345,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794424109.845345,
+  "seen:FR5oAtzmCL5bM8HmxDgGKkHxc7ARoZmk7NWm89Q9pump": 1794424109.845345,
+  "control:5tBXkPVh716zSXHNZSr8i1PX7e6Uuj46JnBLdYchpump": 1794424109.8855462
  },
  "talks": {
   "2026-10-21": 109
@@ -87,7 +106,7 @@
  ],
  "last_review": 1794422115.8723295,
  "news": {
-  "t": 1794422116.1651866,
+  "t": 1794423027.9941008,
   "crypto": [
    "OKXICE moves ahead with tokenized stocks as blue chips push back (0h ago)",
    "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound (2h ago)",
@@ -102,7 +121,7 @@
   ],
   "macro": [],
   "calendar": [
-   "GBP GDP m/m in 12.4h, forecast 0.0%, previous 0.1%"
+   "GBP GDP m/m in 12.2h, forecast 0.0%, previous 0.1%"
   ]
  },
  "spend": {
