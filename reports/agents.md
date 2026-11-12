@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-12 07:12 UTC control: OPENED FLC long at 0.0001286 (stop 0.00010288, target 0.00018004) - control: frozen v3 rules
+## Run ended 2026-11-12 07:12 UTC
 
