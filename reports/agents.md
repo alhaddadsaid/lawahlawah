@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-12 01:55 UTC. Runs so far: 93. Model: claude-haiku-5-5.
+Updated 2026-11-12 02:05 UTC. Runs so far: 93. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2615 | 31 | -67001.58 | -92103.93 |
+| control | meme | 2618 | 31 | -67207.88 | -92335.71 |
 | control | macro | 56 | 52 | 561.9 | 286.03 |
-| control | all | 2671 | 31 | -66439.68 | -91817.9 |
+| control | all | 2674 | 31 | -66645.98 | -92049.68 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,8 +19,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: BURNIE long at 0.0009337, stop 0.00074696, target 0.00130718, opened 2026-11-12 00:16 UTC
 - control: PAYDAY long at 0.0001703, stop 0.00013624, target 0.00023842, opened 2026-11-12 01:40 UTC
-- control: Max long at 0.0002877, stop 0.00023016, target 0.00040278, opened 2026-11-12 01:43 UTC
-- control: BACKERS long at 0.000173, stop 0.0001384, target 0.0002422, opened 2026-11-12 01:55 UTC
+- control: EURUSD short at 1.11, stop 1.11092, target 1.10863, opened 2026-11-12 02:01 UTC
+- control: Max long at 0.0001962, stop 0.00015696, target 0.00027468, opened 2026-11-12 02:04 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED X (time) P&L $-3.9 normal, $-14.06 pessimistic
+- control: CLOSED X (stop) P&L $-102.92 normal, $-110.54 pessimistic
 

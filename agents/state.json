@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -56439.44204232439,
+   "cash": -56645.74843102427,
    "open": [
     {
      "id": 2690,
@@ -38,68 +38,68 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2693,
+     "id": 2696,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "EURUSD",
+     "mint": "",
+     "side": -1,
+     "opened": 1794448883.172992,
+     "entry": 1.1100010871887207,
+     "stop": 1.1109165464128767,
+     "target": 1.1086278983524867,
+     "size": 109234.7942555174,
+     "deadline": 1794535283.1729922,
+     "thesis": "control: random direction"
+    },
+    {
+     "id": 2697,
      "desk": "control",
      "market": "meme",
      "symbol": "Max",
      "mint": "HPSpaNgQxqZRwzoW8E9hecgMq4cDoV1CMCfteyu5h53z",
      "side": 1,
-     "opened": 1794447787.6672277,
-     "entry": 0.0002877,
-     "stop": 0.00023016,
-     "target": 0.00040278,
-     "size": 695168.5783802572,
-     "deadline": 1794454987.667228,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2694,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "BACKERS",
-     "mint": "CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump",
-     "side": 1,
-     "opened": 1794448520.3923826,
-     "entry": 0.000173,
-     "stop": 0.00013840000000000003,
-     "target": 0.0002422,
-     "size": 1156069.3641618497,
-     "deadline": 1794455720.3923829,
+     "opened": 1794449065.955742,
+     "entry": 0.0001962,
+     "stop": 0.00015696000000000002,
+     "target": 0.00027467999999999997,
+     "size": 1019367.9918450561,
+     "deadline": 1794456265.9557421,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2695,
+ "next_id": 2698,
  "runs": 93,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794448687.2586205,
-  "seen:8WtgZqLihJWkgUowcNeiyzJwJkLt1WvRJW4VmrhbRFGn": 1794448687.2586205,
-  "seen:3dqeBW7EJYAPnv9tGJeQAwBoxZsC2vomFk7ah7GrFoss": 1794448687.2586205,
-  "seen:6mb1WzFveWXa9AeBwQ2mbyoxJhw8KCgmyQaDZziZBAGS": 1794448687.2586205,
-  "seen:H57bUBka6sBfPQph6f58TsQvUvxugJQmqMANFV1mpump": 1794448687.2586205,
-  "seen:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794448687.2586205,
-  "seen:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": 1794448687.2586205,
-  "seen:HzwVr7KjPhUriHK9MrJbFzbTDTPwUXGrL2Ah2wVhpump": 1794448687.2586205,
-  "control:HPSpaNgQxqZRwzoW8E9hecgMq4cDoV1CMCfteyu5h53z": 1794448687.6672316,
-  "seen:AJFnmpiF4VTKeqEWtwBUarib5zKKbXcs594UyrMHpump": 1794448870.0890956,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794448870.0890956,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794448870.0890956,
-  "seen:uHMWNFjUNxbPy1q43WrdbzygmJwdeh6AiQm1NKdxPAY": 1794449053.4191635,
-  "seen:9Sunhg3DWCxnjcN1UzBY3X8W46v9DXhesBhuJLDtgrok": 1794449053.4191635,
-  "seen:89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": 1794449053.4191635,
-  "seen:C4oB7jkVt5kfqRPGRaLPUvKWuppyzqn8hqr2qcoXpump": 1794449053.4191635,
   "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794449236.9138143,
   "seen:BoRsyzgtFw56gHqWgqb7wL45bMr9vQMF564j1Gvtcash": 1794449420.352489,
   "seen:GSVHcmP2U5P5qHgZgY1yQE7Q7PtC52xLULLyoDigpump": 1794449420.352489,
-  "control:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": 1794449420.3923855
+  "control:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": 1794449420.3923855,
+  "seen:7GM6DTUa3q9V2Dv6efRuGhrvW4aDz6Gk2GAgoC4AUTd9": 1794449599.2771924,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794449599.2771924,
+  "seen:3dqeBW7EJYAPnv9tGJeQAwBoxZsC2vomFk7ah7GrFoss": 1794449599.2771924,
+  "seen:6mb1WzFveWXa9AeBwQ2mbyoxJhw8KCgmyQaDZziZBAGS": 1794449599.2771924,
+  "seen:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794449599.2771924,
+  "seen:CBLx6CRcCTtbmgTdxpqnF2dP1MpWbMUjngtNbFTApump": 1794449599.2771924,
+  "seen:H57bUBka6sBfPQph6f58TsQvUvxugJQmqMANFV1mpump": 1794449599.2771924,
+  "seen:3Pmrc9W82zF832W1pgTgUoPXvhufyrHueeJ2YgEspump": 1794449783.0848439,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794449783.0848439,
+  "seen:AJFnmpiF4VTKeqEWtwBUarib5zKKbXcs594UyrMHpump": 1794449783.0848439,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794449783.0848439,
+  "control:6mb1WzFveWXa9AeBwQ2mbyoxJhw8KCgmyQaDZziZBAGS": 1794449783.129985,
+  "control:EURUSD": 1794449783.1729956,
+  "seen:HPSpaNgQxqZRwzoW8E9hecgMq4cDoV1CMCfteyu5h53z": 1794449965.9174285,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794449965.9174285,
+  "control:HPSpaNgQxqZRwzoW8E9hecgMq4cDoV1CMCfteyu5h53z": 1794449965.9557447
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498453,
+ "ctrl_macro_hour": 498458,
  "team": [
   {
    "name": "Lead",
@@ -134,22 +134,22 @@
  ],
  "last_review": 1794422115.8723295,
  "news": {
-  "t": 1794447787.2685618,
+  "t": 1794448699.28739,
   "crypto": [
    "MSCI confirms Strategy\u2019s removal from indexes at end of November (2h ago)",
-   "Suiet wallet to shut down in latest exit from Sui ecosystem (2h ago)",
+   "Suiet wallet to shut down in latest exit from Sui ecosystem (3h ago)",
    "Nvidia preparing to oust CEO Jensen Huang after affairs: WSJ (3h ago)",
-   "Here\u2019s what happened in crypto today (3h ago)",
+   "Here\u2019s what happened in crypto today (4h ago)",
    "Uncalled US House races could send more crypto allies to Congress (4h ago)",
    "Nomura explores sale of crypto unit Laser Digital: Bloomberg (4h ago)",
    "US data center restrictions could give Bitcoin miners an edge in AI, though challenges remain (5h ago)",
    "OKXICE moves ahead with tokenized stocks as blue chips push back (7h ago)",
-   "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound (9h ago)",
+   "Bitcoin hovers near $74K as stocks rise despite US bond yield rebound (10h ago)",
    "Crypto Long & Short: The GENIUS Act\u2019s guarantees don\u2019t cover DeFi lending (10h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP GDP m/m in 5.3h, forecast 0.0%, previous 0.1%"
+   "GBP GDP m/m in 5.0h, forecast 0.0%, previous 0.1%"
   ]
  },
  "spend": {
