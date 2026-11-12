@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -57505.575896114606,
+   "cash": -57554.72883729108,
    "open": [
     {
      "id": 2739,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2743,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Shitcoin",
-     "mint": "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
-     "side": 1,
-     "opened": 1794490195.0317602,
-     "entry": 0.000102,
-     "stop": 8.16e-05,
-     "target": 0.0001428,
-     "size": 1960784.3137254901,
-     "deadline": 1794497395.0317605,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2744,
      "desk": "control",
      "market": "meme",
@@ -51,33 +36,63 @@
      "size": 3141196.795979268,
      "deadline": 1794497945.3384705,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2745,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Shitcoin",
+     "mint": "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
+     "side": 1,
+     "opened": 1794491112.5500875,
+     "entry": 8.152e-05,
+     "stop": 6.521600000000001e-05,
+     "target": 0.000114128,
+     "size": 2453385.672227674,
+     "deadline": 1794498312.5500877,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2746,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "nihaomax",
+     "mint": "6BucbgqbTDpUfWiN8Zrc5Lsf7ru6uUEzEPLPhb5ppump",
+     "side": 1,
+     "opened": 1794491477.821153,
+     "entry": 6.066e-05,
+     "stop": 4.8528e-05,
+     "target": 8.492399999999999e-05,
+     "size": 3297065.6116056712,
+     "deadline": 1794498677.8211532,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2745,
+ "next_id": 2747,
  "runs": 94,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:oPpPbTMMAD4hSYaHDXjeEeE6W8yX7FjLNZHymqPpump": 1794490911.66976,
-  "seen:89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": 1794490911.66976,
-  "seen:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794491094.0394459,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794491094.0394459,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794491094.0394459,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794491094.0394459,
-  "control:8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": 1794491095.0317645,
-  "seen:8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": 1794491278.327973,
-  "seen:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794491278.327973,
-  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794491278.327973,
-  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794491278.327973,
-  "seen:AJFnmpiF4VTKeqEWtwBUarib5zKKbXcs594UyrMHpump": 1794491278.327973,
-  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1794491278.327973,
-  "seen:3GtAaSMSVQnM4YU2ws2FN37Hb1ZkauMWwDA8KtLnVNVJ": 1794491462.483383,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794491462.483383,
-  "seen:VCE9b98Kruc5G8zu7kSmcvcfaRerj4HJyzZfnjapump": 1794491462.483383,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794491462.483383,
   "seen:Bd9WHu5qtbxzsCuxH5omFQb6XmSSeEVsPKn8erTCpump": 1794491645.2005699,
-  "control:VCE9b98Kruc5G8zu7kSmcvcfaRerj4HJyzZfnjapump": 1794491645.3384743
+  "control:VCE9b98Kruc5G8zu7kSmcvcfaRerj4HJyzZfnjapump": 1794491645.3384743,
+  "seen:77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump": 1794491827.6523473,
+  "seen:89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": 1794491827.6523473,
+  "seen:Bev9PB2tSRPWhrnfsY95a7t5qnE2jettmcAqF2Mkpump": 1794492011.859804,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794492011.859804,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794492011.859804,
+  "seen:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794492011.859804,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794492011.859804,
+  "seen:8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump": 1794492011.859804,
+  "control:8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": 1794492012.5500915,
+  "seen:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794492195.1983306,
+  "seen:8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": 1794492195.1983306,
+  "seen:AJFnmpiF4VTKeqEWtwBUarib5zKKbXcs594UyrMHpump": 1794492195.1983306,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794492377.7276714,
+  "seen:VCE9b98Kruc5G8zu7kSmcvcfaRerj4HJyzZfnjapump": 1794492377.7276714,
+  "seen:6BucbgqbTDpUfWiN8Zrc5Lsf7ru6uUEzEPLPhb5ppump": 1794492377.7276714,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794492377.7276714,
+  "control:6BucbgqbTDpUfWiN8Zrc5Lsf7ru6uUEzEPLPhb5ppump": 1794492377.8211572
  },
  "talks": {
   "2026-10-21": 109
@@ -118,21 +133,24 @@
  ],
  "last_review": 1794422115.8723295,
  "news": {
-  "t": 1794490194.0522761,
+  "t": 1794491111.8726654,
   "crypto": [
+   "Crypto hack losses equal 57 cents per $1 earned onchain: Ark\u2019s Valente (0h ago)",
+   "Are Alt-L1s over? Security, costs drive smaller chains to Ethereum (0h ago)",
    "Uber\u2019s UK banking partner Griffin raises $20M for stablecoin services (0h ago)",
    "EU DeFi proposals could push users to riskier platforms, says Coinbase exec (1h ago)",
-   "Bitcoin weakness erases September's bullish signal (1h ago)",
-   "UK bank Griffin raises $20 million to expand into stablecoin payments (1h ago)",
+   "Bitcoin weakness erases September's bullish signal (2h ago)",
+   "UK bank Griffin raises $20 million to expand into stablecoin payments (2h ago)",
    "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027 (2h ago)",
    "Stablecoin supply falls $14.2B in biggest 30-day drop since June 2022 (2h ago)",
    "Bitcoin dips with Nvidia as ETF outflows reach day five (2h ago)",
-   "Tron and Tether bring in Chainalysis after T3 crime unit folds (2h ago)",
-   "Polymarket trims workforce under investor pressure as Kalshi surges ahead (3h ago)",
-   "Nomura weighs Laser Digital sale as European losses hit four straight quarters (3h ago)"
+   "Tron and Tether bring in Chainalysis after T3 crime unit folds (3h ago)"
   ],
   "macro": [],
-  "calendar": []
+  "calendar": [
+   "USD Core PPI m/m in 23.7h, forecast 0.3%, previous 0.7%",
+   "USD PPI m/m in 23.7h, forecast 0.4%, previous 1.3%"
+  ]
  },
  "spend": {
   "2026-11-12": 0.0
