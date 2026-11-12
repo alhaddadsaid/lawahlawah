@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -57459.05288458262,
+   "cash": -57517.082129099275,
    "open": [
     {
      "id": 2739,
@@ -21,21 +21,6 @@
      "size": 315656.56565656565,
      "deadline": 1794493920.9994,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2740,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Shitcoin",
-     "mint": "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
-     "side": 1,
-     "opened": 1794488183.0869658,
-     "entry": 0.0001231,
-     "stop": 9.848000000000002e-05,
-     "target": 0.00017234,
-     "size": 1624695.3696181965,
-     "deadline": 1794495383.086966,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -44,22 +29,26 @@
  "runs": 94,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794488351.5306957,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794488351.5306957,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794488351.5306957,
-  "seen:89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": 1794488351.5306957,
-  "seen:2vw8nKyaX5HuLUnYNntFuhsJEe5RFZpeVm3dKPbSBQmr": 1794488534.3824487,
-  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794488534.3824487,
-  "seen:89dAp5e7nzr2KiW9atFtQPzaUxj4BM94Hi5ojetUpump": 1794488534.3824487,
-  "seen:8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": 1794488534.3824487,
-  "seen:8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump": 1794488716.8699448,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794488716.8699448,
-  "seen:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794488716.8699448,
-  "seen:77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump": 1794488716.8699448,
-  "seen:Hj3iyUwYPJR5q4HSwxZ23CB32ry42ybwwDDEUbLYpump": 1794488899.2013404,
   "seen:oPpPbTMMAD4hSYaHDXjeEeE6W8yX7FjLNZHymqPpump": 1794489083.046194,
   "seen:AJFnmpiF4VTKeqEWtwBUarib5zKKbXcs594UyrMHpump": 1794489083.046194,
-  "control:8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": 1794489083.08697
+  "control:8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": 1794489083.08697,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794489265.6429565,
+  "seen:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794489265.6429565,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794489265.6429565,
+  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794489265.6429565,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794489265.6429565,
+  "seen:3GtAaSMSVQnM4YU2ws2FN37Hb1ZkauMWwDA8KtLnVNVJ": 1794489448.2642496,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794489448.2642496,
+  "seen:8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": 1794489448.2642496,
+  "seen:89dAp5e7nzr2KiW9atFtQPzaUxj4BM94Hi5ojetUpump": 1794489448.2642496,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794489448.2642496,
+  "seen:8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump": 1794489631.73873,
+  "seen:77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump": 1794489631.73873,
+  "seen:CBbLn4Xz1oroeoE8eAoEueufBKJ1kZgAP76fagwppump": 1794489631.73873,
+  "seen:EzvNzXnZqP28npxu34vXJ2GzW97ELZCaQVfMAPknpump": 1794489631.73873,
+  "seen:4ow2vG7ZPfChYa945Hrn6oqdzd563WH3BETrtoy2pump": 1794489813.9549341,
+  "seen:HGE9j5vuTzZWqvjZXjuNb5WxQKDUHY8QFvCXVUKppump": 1794489813.9549341,
+  "seen:89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": 1794489813.9549341
  },
  "talks": {
   "2026-10-21": 109
@@ -100,10 +89,10 @@
  ],
  "last_review": 1794422115.8723295,
  "news": {
-  "t": 1794487451.5433984,
+  "t": 1794488365.6557293,
   "crypto": [
-   "EU DeFi proposals could push users to riskier platforms, says Coinbase exec (0h ago)",
-   "Bitcoin weakness erases September's bullish signal (0h ago)",
+   "EU DeFi proposals could push users to riskier platforms, says Coinbase exec (1h ago)",
+   "Bitcoin weakness erases September's bullish signal (1h ago)",
    "UK bank Griffin raises $20 million to expand into stablecoin payments (1h ago)",
    "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027 (1h ago)",
    "Stablecoin supply falls $14.2B in biggest 30-day drop since June 2022 (1h ago)",
