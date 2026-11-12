@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-12 00:19 UTC control: OPENED Mustache long at 7.276e-05 (stop 5.8208e-05, target 0.000101864) - control: frozen v3 rules
+## Run ended 2026-11-12 00:19 UTC
 
