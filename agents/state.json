@@ -21,31 +21,48 @@
      "size": 890868.5968819598,
      "deadline": 1794487528.382859,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2738,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "FLC",
+     "mint": "7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump",
+     "side": 1,
+     "opened": 1794485989.7989364,
+     "entry": 0.0001822,
+     "stop": 0.00014576000000000001,
+     "target": 0.00025508,
+     "size": 1097694.840834248,
+     "deadline": 1794493189.7989368,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2738,
+ "next_id": 2739,
  "runs": 94,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794485612.4319987,
-  "seen:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794485612.4319987,
-  "seen:8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": 1794485612.4319987,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794485612.4319987,
-  "seen:6BgK6H8RxafFHhGCtmMK5NW5y8oiqx9YyreXaFpVpump": 1794485612.4319987,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794485612.4319987,
-  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794485795.131753,
-  "seen:CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": 1794485977.3606465,
-  "seen:3Yoj6vQYTHfFVVBwHGNDbxBhh6R7iw41BSrNSGJ4pump": 1794485977.3606465,
-  "seen:Hj3iyUwYPJR5q4HSwxZ23CB32ry42ybwwDDEUbLYpump": 1794485977.3606465,
   "seen:HboHtoVXPncFkfoSyiVSkYsLtKwoJD2nAEYaoNZ7pump": 1794486159.188218,
   "seen:AJFnmpiF4VTKeqEWtwBUarib5zKKbXcs594UyrMHpump": 1794486159.188218,
   "seen:8QNTve7SQ8vTgB2AubRuamcfLhG1AEo9dCnELFJrpump": 1794486159.188218,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794486159.188218,
   "control:HboHtoVXPncFkfoSyiVSkYsLtKwoJD2nAEYaoNZ7pump": 1794486159.253811,
   "seen:FjDRwnBryF6kVLQGuAy5t1baHe45RQbGXvXRdYKypump": 1794486341.5219598,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794486341.5219598
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794486341.5219598,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794486525.264434,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794486525.264434,
+  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794486525.264434,
+  "seen:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794486525.264434,
+  "seen:77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump": 1794486525.264434,
+  "seen:6BgK6H8RxafFHhGCtmMK5NW5y8oiqx9YyreXaFpVpump": 1794486525.264434,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794486525.264434,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794486707.6899345,
+  "seen:8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump": 1794486707.6899345,
+  "seen:BA6HRBdNCGkioW7iCcNEcbNiPPSbTcrUG89Gh2skdhqY": 1794486889.756937,
+  "seen:Hj3iyUwYPJR5q4HSwxZ23CB32ry42ybwwDDEUbLYpump": 1794486889.756937,
+  "control:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794486889.79894
  },
  "talks": {
   "2026-10-21": 109
@@ -86,18 +103,18 @@
  ],
  "last_review": 1794422115.8723295,
  "news": {
-  "t": 1794484712.4445791,
+  "t": 1794485625.2770479,
   "crypto": [
-   "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027 (0h ago)",
-   "Stablecoin supply falls $14.2B in biggest 30-day drop since June 2022 (0h ago)",
-   "Bitcoin dips with Nvidia as ETF outflows reach day five (0h ago)",
+   "UK bank Griffin raises $20 million to expand into stablecoin payments (0h ago)",
+   "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027 (1h ago)",
+   "Stablecoin supply falls $14.2B in biggest 30-day drop since June 2022 (1h ago)",
+   "Bitcoin dips with Nvidia as ETF outflows reach day five (1h ago)",
    "Tron and Tether bring in Chainalysis after T3 crime unit folds (1h ago)",
-   "Polymarket trims workforce under investor pressure as Kalshi surges ahead (1h ago)",
-   "Nomura weighs Laser Digital sale as European losses hit four straight quarters (1h ago)",
-   "Ethlabs drops Hegot\u00e1 slot proposal in push for 2027 quantum readiness (1h ago)",
+   "Polymarket trims workforce under investor pressure as Kalshi surges ahead (2h ago)",
+   "Nomura weighs Laser Digital sale as European losses hit four straight quarters (2h ago)",
+   "Ethlabs drops Hegot\u00e1 slot proposal in push for 2027 quantum readiness (2h ago)",
    "India\u2019s financial crimes watchdog raids crypto exchanges CoinDCX and Delta over alleged illegal cross-border trades (2h ago)",
-   "Live updates: Bitcoin ETFs bleed $300 million as AI stocks slide again (3h ago)",
-   "Gemini sells UK and European operations to stablecoin payments firm KAST for under $10 million (3h ago)"
+   "Live updates: Bitcoin ETFs bleed $300 million as AI stocks slide again (3h ago)"
   ],
   "macro": [],
   "calendar": []
