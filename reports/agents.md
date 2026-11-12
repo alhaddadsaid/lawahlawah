@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-12 21:30 UTC. Runs so far: 95. Model: claude-haiku-5-5.
+Updated 2026-11-12 21:36 UTC. Runs so far: 95. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2690 | 31 | -69027.51 | -94847.12 |
+| control | meme | 2692 | 31 | -68891.51 | -94735.12 |
 | control | macro | 57 | 53 | 704.25 | 422.92 |
-| control | all | 2747 | 31 | -68323.26 | -94424.2 |
+| control | all | 2749 | 31 | -68187.26 | -94312.2 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,8 +19,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: GBPUSD short at 1.32298, stop 1.32424, target 1.32109, opened 2026-11-12 18:08 UTC
 - control: EURUSD long at 1.10583, stop 1.10467, target 1.10756, opened 2026-11-12 20:01 UTC
-- control: Hero long at 9.9e-05, stop 7.92e-05, target 0.0001386, opened 2026-11-12 21:11 UTC
-- control: JensenHao long at 0.0001148, stop 9.184e-05, target 0.00016072, opened 2026-11-12 21:30 UTC
+- control: Hero long at 0.0001137, stop 9.096e-05, target 0.00015918, opened 2026-11-12 21:36 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-12 21:30 UTC control: OPENED JensenHao long at 0.0001148 (stop 9.184e-05, target 0.00016072) - control: frozen v3 rules
+- 2026-11-12 21:36 UTC control: OPENED Hero long at 0.0001137 (stop 9.096e-05, target 0.00015918) - control: frozen v3 rules
 
