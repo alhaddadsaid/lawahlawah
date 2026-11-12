@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -57559.655463856754,
+   "cash": -57491.655463856754,
    "open": [
     {
      "id": 2731,
@@ -38,47 +38,44 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2733,
+     "id": 2734,
      "desk": "control",
      "market": "meme",
      "symbol": "Shiqi",
      "mint": "2UMho4zUPqSKb2fbJbKNPf1dU1WKD6SfbNmVkvphpump",
      "side": 1,
-     "opened": 1794477951.9319873,
-     "entry": 8.052e-05,
-     "stop": 6.4416e-05,
-     "target": 0.000112728,
-     "size": 2483854.9428713364,
-     "deadline": 1794485151.9319875,
+     "opened": 1794478864.4288251,
+     "entry": 0.0001289,
+     "stop": 0.00010312,
+     "target": 0.00018045999999999996,
+     "size": 1551590.3801396433,
+     "deadline": 1794486064.4288254,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2734,
+ "next_id": 2735,
  "runs": 94,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794478121.450816,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794478121.450816,
-  "seen:2UMho4zUPqSKb2fbJbKNPf1dU1WKD6SfbNmVkvphpump": 1794478303.6262162,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794478303.6262162,
-  "seen:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794478303.6262162,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794478303.6262162,
-  "seen:AJFnmpiF4VTKeqEWtwBUarib5zKKbXcs594UyrMHpump": 1794478303.6262162,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794478303.6262162,
-  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794478485.9104376,
-  "seen:8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump": 1794478485.9104376,
-  "seen:32w5u6FWHPi8SBV9xW6KAzwQ51ULCTkooteps6xrpump": 1794478485.9104376,
-  "seen:89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": 1794478485.9104376,
-  "seen:GTRpVMM2ojva65Z4jaSZWTpf6vdxPMUMJJEFLS2gpump": 1794478669.4154167,
-  "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794478669.4154167,
-  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1794478669.4154167,
-  "seen:CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": 1794478669.4154167,
-  "control:CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": 1794478669.8174615,
-  "seen:8sTA3v7me1CDAw6zLDTwfbeVGaFG6RiHTASF7aLpump": 1794478851.8967829,
-  "seen:5tePJcGmdKAoNVXe3fp2tmf8n7cmr5d3YBkYKj4Cpump": 1794478851.8967829,
-  "control:2UMho4zUPqSKb2fbJbKNPf1dU1WKD6SfbNmVkvphpump": 1794478851.931991
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794479034.0705242,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794479034.0705242,
+  "seen:2UMho4zUPqSKb2fbJbKNPf1dU1WKD6SfbNmVkvphpump": 1794479217.555216,
+  "seen:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794479217.555216,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794479217.555216,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794479217.555216,
+  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1794479217.555216,
+  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794479400.350519,
+  "seen:8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump": 1794479400.350519,
+  "seen:32w5u6FWHPi8SBV9xW6KAzwQ51ULCTkooteps6xrpump": 1794479400.350519,
+  "seen:AJFnmpiF4VTKeqEWtwBUarib5zKKbXcs594UyrMHpump": 1794479400.350519,
+  "seen:7XdCaKpqLmKE2K7yr9xaeWB1H2CVZ1oGwxB6hmd9pump": 1794479400.350519,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794479582.347759,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794479582.347759,
+  "seen:7GM6DTUa3q9V2Dv6efRuGhrvW4aDz6Gk2GAgoC4AUTd9": 1794479764.391328,
+  "seen:53rCdyDEpUV3eZ8YNw5aGCzLuCeXF51xSkpYPpcEpump": 1794479764.391328,
+  "control:2UMho4zUPqSKb2fbJbKNPf1dU1WKD6SfbNmVkvphpump": 1794479764.428828
  },
  "talks": {
   "2026-10-21": 109
@@ -119,12 +116,12 @@
  ],
  "last_review": 1794422115.8723295,
  "news": {
-  "t": 1794477403.6384091,
+  "t": 1794478317.5677533,
   "crypto": [
    "Live news: AI stocks slide with Nasdaq 100 futures in retreat following Wednesday's rally (1h ago)",
    "Gemini sells UK and European operations to stablecoin payments firm KAST for under $10 million (1h ago)",
    "BlackRock Bitcoin ETF outflows hit $2B over nine sessions (2h ago)",
-   "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96% (2h ago)",
+   "Canaan may sell more bitcoin for stock buybacks as mining-rig revenue falls 96% (3h ago)",
    "MSCI is dropping Strategy from its index, and the exclusion could hit its bitcoin-buying machine (3h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
    "South Korea to permit crypto withdrawal freezes during hacking threats (4h ago)",
@@ -133,9 +130,7 @@
    "Ripple\u2019s bank-lending system moves closer to launch on the XRP Ledger (5h ago)"
   ],
   "macro": [],
-  "calendar": [
-   "GBP GDP m/m was 2.9h, forecast 0.0%, previous 0.1%"
-  ]
+  "calendar": []
  },
  "spend": {
   "2026-11-12": 0.0
