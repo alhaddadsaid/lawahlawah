@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -57992.12223451067,
+   "cash": -58131.5551794166,
    "open": [
     {
      "id": 2755,
@@ -53,43 +53,46 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 2765,
+     "id": 2767,
      "desk": "control",
      "market": "meme",
      "symbol": "AMD",
      "mint": "2Er3UtbQGWyNgeKMyUs218i11Z6v4gtfgwmqoSNPpump",
      "side": 1,
-     "opened": 1794515879.8698635,
-     "entry": 0.0002198,
-     "stop": 0.00017584000000000002,
-     "target": 0.00030772,
-     "size": 909918.1073703367,
-     "deadline": 1794523079.8698637,
+     "opened": 1794517166.2645814,
+     "entry": 0.0001545,
+     "stop": 0.0001236,
+     "target": 0.00021629999999999995,
+     "size": 1294498.3818770228,
+     "deadline": 1794524366.2645817,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2766,
+ "next_id": 2768,
  "runs": 95,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794516045.5830588,
-  "seen:2Er3UtbQGWyNgeKMyUs218i11Z6v4gtfgwmqoSNPpump": 1794516045.5830588,
-  "seen:4cyPWVPcPBo5j5JWfp8Qhgo8ijfmzv1xQJvz3RCxpump": 1794516045.5830588,
-  "seen:3BPpwhQP4SUFqZ6P53uWbF5jiS7Tdq1CH35N1YZRpump": 1794516045.5830588,
-  "seen:9rSaajQRUzmo1wZBeRKzof1CiBiw2FSDcQE8aiUSpump": 1794516228.8530908,
-  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794516228.8530908,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794516413.5932896,
-  "seen:F3fEfTxGhAfhkbAaxtiErdcDEMZdTrqssXbfMVKbpump": 1794516413.5932896,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794516413.5932896,
-  "seen:91wjaiPv4uhsDUA1qo8NwNAkYNgqnjV7TvSCPeA7pump": 1794516596.7511668,
-  "seen:4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump": 1794516596.7511668,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794516596.7511668,
-  "seen:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794516596.7511668,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794516779.6931653,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794516779.6931653,
-  "control:2Er3UtbQGWyNgeKMyUs218i11Z6v4gtfgwmqoSNPpump": 1794516779.8698666
+  "seen:F3fEfTxGhAfhkbAaxtiErdcDEMZdTrqssXbfMVKbpump": 1794517332.0557804,
+  "seen:3BPpwhQP4SUFqZ6P53uWbF5jiS7Tdq1CH35N1YZRpump": 1794517332.0557804,
+  "seen:478PuXdVMyM8K23kPnprBguEHYER8G4LBjcXWbPTpump": 1794517515.9860098,
+  "seen:91wjaiPv4uhsDUA1qo8NwNAkYNgqnjV7TvSCPeA7pump": 1794517515.9860098,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794517515.9860098,
+  "seen:4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump": 1794517515.9860098,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794517515.9860098,
+  "seen:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794517515.9860098,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1794517699.0758505,
+  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794517699.0758505,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794517699.0758505,
+  "seen:77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump": 1794517699.0758505,
+  "seen:2Er3UtbQGWyNgeKMyUs218i11Z6v4gtfgwmqoSNPpump": 1794517882.2706997,
+  "seen:3u2Enou6XnEYBGAkMQcx1rCukVc9BwGUp73xjNYepump": 1794517882.2706997,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794517882.2706997,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794517882.2706997,
+  "control:91wjaiPv4uhsDUA1qo8NwNAkYNgqnjV7TvSCPeA7pump": 1794517882.676079,
+  "seen:2T56GBrvcyeWWyhUAzsTFW4AcFag1nr7xyzrtZn7pump": 1794518066.0851347,
+  "control:2Er3UtbQGWyNgeKMyUs218i11Z6v4gtfgwmqoSNPpump": 1794518066.2645848
  },
  "talks": {
   "2026-10-21": 109
@@ -130,23 +133,23 @@
  ],
  "last_review": 1794508556.3622153,
  "news": {
-  "t": 1794515145.5958917,
+  "t": 1794516982.2837286,
   "crypto": [
-   "DTCC Plans Solana Expansion as Wallet Rules Limit Access (0h ago)",
+   "DTCC Plans Solana Expansion as Wallet Rules Limit Access (1h ago)",
    "Illinois crypto tax is impossible to enforce as written, crypto industry tells court (4h ago)",
    "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down (5h ago)",
    "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout (5h ago)",
    "Crypto for Advisors: The blockchain built to run financial markets (5h ago)",
    "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform (6h ago)",
-   "The next Congress will write rules for AI and emerging tech. They should use the stuff first. (6h ago)",
-   "Jensen Huang resigns as Nvidia CEO, exits board; shares plunge (6h ago)",
-   "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump (6h ago)",
+   "The next Congress will write rules for AI and emerging tech. They should use the stuff first. (7h ago)",
+   "Jensen Huang resigns as Nvidia CEO, exits board; shares plunge (7h ago)",
+   "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump (7h ago)",
    "Bit Digital stock falls 5% in pre-market after Q3 revenue miss (7h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core PPI m/m in 17.1h, forecast 0.3%, previous 0.7%",
-   "USD PPI m/m in 17.1h, forecast 0.4%, previous 1.3%"
+   "USD Core PPI m/m in 16.6h, forecast 0.3%, previous 0.7%",
+   "USD PPI m/m in 16.6h, forecast 0.4%, previous 1.3%"
   ]
  },
  "spend": {
@@ -177,5 +180,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794515879.7059095
+ "last_macro_macro": 1794517166.097863
 }
