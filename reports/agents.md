@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-12 13:29 UTC. Runs so far: 94. Model: claude-haiku-5-5.
+Updated 2026-11-12 13:39 UTC. Runs so far: 94. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -19,6 +19,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: BURNIE long at 0.0006336, stop 0.00050688, target 0.00088704, opened 2026-11-12 12:32 UTC
 - control: Shitcoin long at 0.000102, stop 8.16e-05, target 0.0001428, opened 2026-11-12 13:29 UTC
+- control: Robinhood long at 6.367e-05, stop 5.0936e-05, target 8.9138e-05, opened 2026-11-12 13:39 UTC
 
 ## Team
 
@@ -31,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-12 13:29 UTC control: OPENED Shitcoin long at 0.000102 (stop 8.16e-05, target 0.0001428) - control: frozen v3 rules
+- 2026-11-12 13:39 UTC control: OPENED Robinhood long at 6.367e-05 (stop 5.0936e-05, target 8.9138e-05) - control: frozen v3 rules
 
