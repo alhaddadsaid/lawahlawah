@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -57554.72883729108,
+   "cash": -57540.00104043141,
    "open": [
     {
      "id": 2739,
@@ -20,36 +20,6 @@
      "target": 0.00088704,
      "size": 315656.56565656565,
      "deadline": 1794493920.9994,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2744,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Robinhood",
-     "mint": "VCE9b98Kruc5G8zu7kSmcvcfaRerj4HJyzZfnjapump",
-     "side": 1,
-     "opened": 1794490745.3384702,
-     "entry": 6.367e-05,
-     "stop": 5.093600000000001e-05,
-     "target": 8.9138e-05,
-     "size": 3141196.795979268,
-     "deadline": 1794497945.3384705,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2745,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Shitcoin",
-     "mint": "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
-     "side": 1,
-     "opened": 1794491112.5500875,
-     "entry": 8.152e-05,
-     "stop": 6.521600000000001e-05,
-     "target": 0.000114128,
-     "size": 2453385.672227674,
-     "deadline": 1794498312.5500877,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -74,17 +44,6 @@
  "runs": 94,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Bd9WHu5qtbxzsCuxH5omFQb6XmSSeEVsPKn8erTCpump": 1794491645.2005699,
-  "control:VCE9b98Kruc5G8zu7kSmcvcfaRerj4HJyzZfnjapump": 1794491645.3384743,
-  "seen:77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump": 1794491827.6523473,
-  "seen:89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": 1794491827.6523473,
-  "seen:Bev9PB2tSRPWhrnfsY95a7t5qnE2jettmcAqF2Mkpump": 1794492011.859804,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794492011.859804,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794492011.859804,
-  "seen:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794492011.859804,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794492011.859804,
-  "seen:8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump": 1794492011.859804,
-  "control:8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": 1794492012.5500915,
   "seen:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794492195.1983306,
   "seen:8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": 1794492195.1983306,
   "seen:AJFnmpiF4VTKeqEWtwBUarib5zKKbXcs594UyrMHpump": 1794492195.1983306,
@@ -92,7 +51,18 @@
   "seen:VCE9b98Kruc5G8zu7kSmcvcfaRerj4HJyzZfnjapump": 1794492377.7276714,
   "seen:6BucbgqbTDpUfWiN8Zrc5Lsf7ru6uUEzEPLPhb5ppump": 1794492377.7276714,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794492377.7276714,
-  "control:6BucbgqbTDpUfWiN8Zrc5Lsf7ru6uUEzEPLPhb5ppump": 1794492377.8211572
+  "control:6BucbgqbTDpUfWiN8Zrc5Lsf7ru6uUEzEPLPhb5ppump": 1794492377.8211572,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794492560.2028017,
+  "seen:Bbh2kpPTxuf3DxcutYq3DofKmeJm5ptCZUUMAF6kpump": 1794492743.9548295,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794492743.9548295,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794492743.9548295,
+  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1794492743.9548295,
+  "seen:C7BXVNAsv5VV67eqyxvC5Tyw5oLM5nCSe1G8YpQXUEnu": 1794492926.9231384,
+  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1794492926.9231384,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794492926.9231384,
+  "seen:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794492926.9231384,
+  "seen:77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump": 1794492926.9231384,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794492926.9231384
  },
  "talks": {
   "2026-10-21": 109
@@ -133,23 +103,23 @@
  ],
  "last_review": 1794422115.8723295,
  "news": {
-  "t": 1794491111.8726654,
+  "t": 1794492026.936267,
   "crypto": [
+   "Nvidia shares plunge 10% as Jensen Huang resigns (0h ago)",
+   "Bit Digital stock falls 5% in pre-market after Q3 revenue miss (0h ago)",
+   "Thailand proposes $148K daily cap on stablecoin deposits and withdrawals (0h ago)",
    "Crypto hack losses equal 57 cents per $1 earned onchain: Ark\u2019s Valente (0h ago)",
-   "Are Alt-L1s over? Security, costs drive smaller chains to Ethereum (0h ago)",
-   "Uber\u2019s UK banking partner Griffin raises $20M for stablecoin services (0h ago)",
-   "EU DeFi proposals could push users to riskier platforms, says Coinbase exec (1h ago)",
+   "Are Alt-L1s over? Security, costs drive smaller chains to Ethereum (1h ago)",
+   "Uber\u2019s UK banking partner Griffin raises $20M for stablecoin services (1h ago)",
+   "EU DeFi proposals could push users to riskier platforms, says Coinbase exec (2h ago)",
    "Bitcoin weakness erases September's bullish signal (2h ago)",
    "UK bank Griffin raises $20 million to expand into stablecoin payments (2h ago)",
-   "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027 (2h ago)",
-   "Stablecoin supply falls $14.2B in biggest 30-day drop since June 2022 (2h ago)",
-   "Bitcoin dips with Nvidia as ETF outflows reach day five (2h ago)",
-   "Tron and Tether bring in Chainalysis after T3 crime unit folds (3h ago)"
+   "Ethereum researchers drop faster blocks to race toward quantum defenses in 2027 (2h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core PPI m/m in 23.7h, forecast 0.3%, previous 0.7%",
-   "USD PPI m/m in 23.7h, forecast 0.4%, previous 1.3%"
+   "USD Core PPI m/m in 23.5h, forecast 0.3%, previous 0.7%",
+   "USD PPI m/m in 23.5h, forecast 0.4%, previous 1.3%"
   ]
  },
  "spend": {
@@ -180,5 +150,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794490562.4959667
+ "last_macro_macro": 1794491843.9675167
 }
