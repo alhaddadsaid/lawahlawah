@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-12 03:08 UTC. Runs so far: 93. Model: claude-haiku-5-5.
+Updated 2026-11-12 03:17 UTC. Runs so far: 93. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2624 | 31 | -67262.49 | -92450.46 |
+| control | meme | 2625 | 31 | -67194.49 | -92394.46 |
 | control | macro | 57 | 53 | 704.25 | 422.92 |
-| control | all | 2681 | 31 | -66558.24 | -92027.54 |
+| control | all | 2682 | 31 | -66490.24 | -91971.54 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: HOLD long at 0.0001546, stop 0.00012368, target 0.00021644, opened 2026-11-12 02:10 UTC
 - control: Max long at 0.0001254, stop 0.00010032, target 0.00017556, opened 2026-11-12 02:28 UTC
 - control: BACKERS long at 0.0002198, stop 0.00017584, target 0.00030772, opened 2026-11-12 03:02 UTC
-- control: X long at 0.000179, stop 0.0001432, target 0.0002506, opened 2026-11-12 03:05 UTC
+- control: MAX long at 0.000137, stop 0.0001096, target 0.0001918, opened 2026-11-12 03:14 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order CASHTAG REJECTED by guardrails: desk already has the maximum open positions
+- control: order BACKERS REJECTED by guardrails: desk already has the maximum open positions
 
