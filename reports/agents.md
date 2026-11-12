@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-12 06:56 UTC. Runs so far: 93. Model: claude-haiku-5-5.
+Updated 2026-11-12 07:12 UTC. Runs so far: 93. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2645 | 31 | -67969.19 | -93354.4 |
+| control | meme | 2648 | 31 | -68154.81 | -93566.03 |
 | control | macro | 57 | 53 | 704.25 | 422.92 |
-| control | all | 2702 | 31 | -67264.94 | -92931.48 |
+| control | all | 2705 | 31 | -67450.56 | -93143.11 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: CYBERLEEK long at 0.001577, stop 0.0012616, target 0.0022078, opened 2026-11-12 05:22 UTC
 - control: ███ long at 0.0002372, stop 0.00018976, target 0.00033208, opened 2026-11-12 05:40 UTC
 - control: X long at 8.75e-05, stop 7e-05, target 0.0001225, opened 2026-11-12 05:46 UTC
-- control: FLC long at 9.796e-05, stop 7.8368e-05, target 0.000137144, opened 2026-11-12 06:56 UTC
+- control: Max long at 0.0001077, stop 8.616e-05, target 0.00015078, opened 2026-11-12 07:09 UTC
+- control: FLC long at 0.0001286, stop 0.00010288, target 0.00018004, opened 2026-11-12 07:12 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-12 06:56 UTC control: OPENED FLC long at 9.796e-05 (stop 7.8368e-05, target 0.000137144) - control: frozen v3 rules
+- 2026-11-12 07:12 UTC control: OPENED FLC long at 0.0001286 (stop 0.00010288, target 0.00018004) - control: frozen v3 rules
 
