@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -58258.3306293947,
+   "cash": -58307.347396376645,
    "open": [
     {
      "id": 2755,
@@ -36,34 +36,62 @@
      "size": 86411.77266974481,
      "deadline": 1794600075.184022,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 2772,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Hero",
+     "mint": "91wjaiPv4uhsDUA1qo8NwNAkYNgqnjV7TvSCPeA7pump",
+     "side": 1,
+     "opened": 1794520289.4112859,
+     "entry": 5.484e-05,
+     "stop": 4.3872e-05,
+     "target": 7.677599999999998e-05,
+     "size": 3646973.0123997084,
+     "deadline": 1794527489.411286,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2774,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "HUNG",
+     "mint": "4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump",
+     "side": 1,
+     "opened": 1794520839.7799027,
+     "entry": 0.0003306,
+     "stop": 0.00026448000000000004,
+     "target": 0.00046284,
+     "size": 604960.6775559589,
+     "deadline": 1794528039.779903,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2772,
+ "next_id": 2775,
  "runs": 95,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2T56GBrvcyeWWyhUAzsTFW4AcFag1nr7xyzrtZn7pump": 1794519905.400968,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794519905.400968,
-  "control:9QtxNyxsS4aM6kNecXfNoRQd36hvnEk4vjzzGoAppump": 1794519905.4406154,
-  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1794520090.3444462,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794520090.3444462,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794520090.3444462,
-  "seen:a9zoLRHvqn12KiGxERC298Gr2rS8YQxuMuN9VFMpump": 1794520273.094895,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794520273.094895,
-  "seen:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794520273.094895,
-  "seen:2s9kHmkeHU3oKwuJYV1VTiBTsZwUWUbMUVtBgoJFpump": 1794520273.094895,
-  "seen:91wjaiPv4uhsDUA1qo8NwNAkYNgqnjV7TvSCPeA7pump": 1794520273.094895,
-  "seen:BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp": 1794520273.094895,
-  "control:91wjaiPv4uhsDUA1qo8NwNAkYNgqnjV7TvSCPeA7pump": 1794520273.1291115,
-  "seen:4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump": 1794520456.1126487,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794520456.1126487,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794520456.1126487,
-  "seen:E4qkcsf1wcVjeKVKWd3Q9kWK68jv4J6PWKnTocFSw83Q": 1794520640.4556658,
-  "seen:3uZCVKJWnuKrEnmwWHviwJXWNbS2TZdttjW4jNyVpump": 1794520640.4556658,
-  "seen:9QtxNyxsS4aM6kNecXfNoRQd36hvnEk4vjzzGoAppump": 1794520640.4556658,
-  "seen:7xf4P3B2qXaXWN1QnCfKA34VXp2nNVYUKinH5wGxpump": 1794520640.4556658
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794521005.5543191,
+  "seen:a9zoLRHvqn12KiGxERC298Gr2rS8YQxuMuN9VFMpump": 1794521189.3752496,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794521189.3752496,
+  "seen:2s9kHmkeHU3oKwuJYV1VTiBTsZwUWUbMUVtBgoJFpump": 1794521189.3752496,
+  "seen:91wjaiPv4uhsDUA1qo8NwNAkYNgqnjV7TvSCPeA7pump": 1794521189.3752496,
+  "seen:DSyNHiLkoKv94XKuKbZb15rJbh1dqyihCCpGT7khpump": 1794521189.3752496,
+  "control:91wjaiPv4uhsDUA1qo8NwNAkYNgqnjV7TvSCPeA7pump": 1794521189.4112887,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794521372.6280951,
+  "seen:7xf4P3B2qXaXWN1QnCfKA34VXp2nNVYUKinH5wGxpump": 1794521555.745663,
+  "seen:9QtxNyxsS4aM6kNecXfNoRQd36hvnEk4vjzzGoAppump": 1794521555.745663,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794521555.745663,
+  "control:2s9kHmkeHU3oKwuJYV1VTiBTsZwUWUbMUVtBgoJFpump": 1794521556.0612316,
+  "seen:2T56GBrvcyeWWyhUAzsTFW4AcFag1nr7xyzrtZn7pump": 1794521739.7382662,
+  "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1794521739.7382662,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794521739.7382662,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794521739.7382662,
+  "seen:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794521739.7382662,
+  "control:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794521739.7799056
  },
  "talks": {
   "2026-10-21": 109
@@ -104,7 +132,7 @@
  ],
  "last_review": 1794508556.3622153,
  "news": {
-  "t": 1794519740.468608,
+  "t": 1794520655.7587028,
   "crypto": [
    "Kalshi ends Donald Trump Jr.\u2019s advisory contract over 1789 Capital\u2019s Polymarket investment (1h ago)",
    "US Justice Department, business groups and DeFi firms challenge Illinois crypto tax (1h ago)",
@@ -114,13 +142,13 @@
    "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout (6h ago)",
    "Crypto for Advisors: The blockchain built to run financial markets (6h ago)",
    "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform (7h ago)",
-   "The next Congress will write rules for AI and emerging tech. They should use the stuff first. (7h ago)",
+   "The next Congress will write rules for AI and emerging tech. They should use the stuff first. (8h ago)",
    "Jensen Huang resigns as Nvidia CEO, exits board; shares plunge (8h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core PPI m/m in 15.8h, forecast 0.3%, previous 0.7%",
-   "USD PPI m/m in 15.8h, forecast 0.4%, previous 1.3%"
+   "USD Core PPI m/m in 15.5h, forecast 0.3%, previous 0.7%",
+   "USD PPI m/m in 15.5h, forecast 0.4%, previous 1.3%"
   ]
  },
  "spend": {
