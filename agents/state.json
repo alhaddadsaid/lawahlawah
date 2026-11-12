@@ -5,70 +5,45 @@
    "open": []
   },
   "control": {
-   "cash": -57882.507102636366,
+   "cash": -57957.80914423173,
    "open": [
     {
-     "id": 2751,
+     "id": 2755,
      "desk": "control",
-     "market": "meme",
-     "symbol": "BUTTHOLE",
-     "mint": "7ssJZGFT3twGqeYA1kvpoMWwZYvMZvrMEbjRaWgg46BL",
-     "side": 1,
-     "opened": 1794495690.8359568,
-     "entry": 0.0004567,
-     "stop": 0.00036536,
-     "target": 0.0006393799999999999,
-     "size": 437924.2391066346,
-     "deadline": 1794502890.835957,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2753,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PUSSY",
-     "mint": "FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat",
-     "side": 1,
-     "opened": 1794496058.860243,
-     "entry": 0.0008003,
-     "stop": 0.00064024,
-     "target": 0.00112042,
-     "size": 249906.28514307135,
-     "deadline": 1794503258.8602436,
-     "thesis": "control: frozen v3 rules"
+     "market": "macro",
+     "symbol": "GBPUSD",
+     "mint": "",
+     "side": -1,
+     "opened": 1794506919.7994137,
+     "entry": 1.3229788541793823,
+     "stop": 1.3242400544030326,
+     "target": 1.321087053843907,
+     "size": 79289.55143265889,
+     "deadline": 1794593319.799414,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 2755,
- "runs": 94,
+ "next_id": 2756,
+ "runs": 95,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794497323.7686508,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794497323.7686508,
-  "seen:4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump": 1794497507.886756,
-  "seen:KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump": 1794497507.886756,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794497507.886756,
-  "control:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794497508.6640954,
-  "seen:8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump": 1794497691.4553628,
-  "seen:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794497691.4553628,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794497691.4553628,
-  "seen:GzQH2JLfVzUV7XMX9gj49H9MBHrU7PBuH3876C3Cpump": 1794497874.246454,
-  "seen:E4svSaEgHcbwEvrZiv677c3YQCAuzfBaSWeXbRzpump": 1794497874.246454,
-  "seen:77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump": 1794497874.246454,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794497874.246454,
-  "seen:5v5zdVrnB15fCzpHmi5Zmp1a3t2BnMgDfCV6sehppump": 1794498057.4540095,
-  "seen:GcyEnJLRM9R7mWC1Qh6up173RVjZg2dbssdSEcbxpump": 1794498057.4540095,
-  "seen:ExJnLySb5ktxBz9AXaVRmxjUTFCxeLuhvdKLkz2xpump": 1794498057.4540095,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794498057.4540095,
-  "seen:RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh": 1794498057.4540095,
-  "seen:FZxHLUGiGchY5uvvoeqh1EKiXTrGdN67WUBhUc1fLoat": 1794498057.4540095
+  "seen:8n193t3VxaHJqNn91eENDJGZtSqiN8FM77MUzo14pump": 1794507819.2591002,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794507819.2591002,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794507819.2591002,
+  "seen:J9t2LsAZLrNHocuvoyEKoiyS7RKXLJv2u9bnFJTCpump": 1794507819.2591002,
+  "seen:73UpjVFTWj3ZpkiRxz8GKfYSX5xg8UXtWzxUSg9apump": 1794507819.2591002,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794507819.2591002,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794507819.2591002,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794507819.2591002,
+  "control:GBPUSD": 1794507819.7994182
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498458,
+ "ctrl_macro_hour": 498474,
  "team": [
   {
    "name": "Lead",
@@ -103,23 +78,23 @@
  ],
  "last_review": 1794422115.8723295,
  "news": {
-  "t": 1794496607.8996632,
+  "t": 1794506919.272751,
   "crypto": [
-   "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform (1h ago)",
-   "The next Congress will write rules for AI and emerging tech. They should use the stuff first. (1h ago)",
-   "Jensen Huang resigns as Nvidia CEO, exits board; shares plunge 13% (1h ago)",
-   "Nvidia shares plunge as much as 14% as Jensen Huang resigns (1h ago)",
-   "Bit Digital stock falls 5% in pre-market after Q3 revenue miss (1h ago)",
-   "Thailand proposes $148K daily cap on stablecoin deposits and withdrawals (2h ago)",
-   "Crypto hack losses equal 57 cents per $1 earned onchain: Ark\u2019s Valente (2h ago)",
-   "Are Alt-L1s over? Security, costs drive smaller chains to Ethereum (2h ago)",
-   "Uber\u2019s UK banking partner Griffin raises $20M for stablecoin services (2h ago)",
-   "EU DeFi proposals could push users to riskier platforms, says Coinbase exec (3h ago)"
+   "Illinois crypto tax is impossible to enforce as written, crypto industry tells court (1h ago)",
+   "Bitcoin slides toward $71K as Nvidia stock tumbles after Huang steps down (2h ago)",
+   "DTCC adds Solana to Wall Street tokenization plans, targeting 2027 rollout (2h ago)",
+   "Crypto for Advisors: The blockchain built to run financial markets (3h ago)",
+   "Jupiter adds Anchorage-backed USDGO to its $1 billion Solana lending platform (3h ago)",
+   "The next Congress will write rules for AI and emerging tech. They should use the stuff first. (4h ago)",
+   "Jensen Huang resigns as Nvidia CEO, exits board; shares plunge (4h ago)",
+   "Nvidia CEO Huang quits company he co-founded, led for 3 decades. Shares slump (4h ago)",
+   "Bit Digital stock falls 5% in pre-market after Q3 revenue miss (4h ago)",
+   "Thailand proposes $148K daily cap on stablecoin deposits and withdrawals (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core PPI m/m in 22.2h, forecast 0.3%, previous 0.7%",
-   "USD PPI m/m in 22.2h, forecast 0.4%, previous 1.3%"
+   "USD Core PPI m/m in 19.4h, forecast 0.3%, previous 0.7%",
+   "USD PPI m/m in 19.4h, forecast 0.4%, previous 1.3%"
   ]
  },
  "spend": {
@@ -150,5 +125,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794496974.259153
+ "last_macro_macro": 1794506919.2725303
 }

@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-12 15:26 UTC. Runs so far: 94. Model: claude-haiku-5-5.
+Updated 2026-11-12 18:08 UTC. Runs so far: 95. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2676 | 31 | -68587.01 | -94274.32 |
+| control | meme | 2678 | 31 | -68662.31 | -94368.2 |
 | control | macro | 57 | 53 | 704.25 | 422.92 |
-| control | all | 2733 | 31 | -67882.76 | -93851.4 |
+| control | all | 2735 | 31 | -67958.06 | -93945.28 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: BUTTHOLE long at 0.0004567, stop 0.00036536, target 0.00063938, opened 2026-11-12 15:01 UTC
-- control: PUSSY long at 0.0008003, stop 0.00064024, target 0.00112042, opened 2026-11-12 15:07 UTC
+- control: GBPUSD short at 1.32298, stop 1.32424, target 1.32109, opened 2026-11-12 18:08 UTC
 
 ## Team
 
@@ -31,5 +30,9 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-## Run ended 2026-11-12 15:26 UTC
+## Run started 2026-11-12 18:08 UTC
+- control: CLOSED BUTTHOLE (time, while away) P&L $-17.3 normal, $-27.11 pessimistic
+- control: CLOSED PUSSY (stop, while away) P&L $-58.0 normal, $-66.77 pessimistic
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- 2026-11-12 18:08 UTC control: OPENED GBPUSD short at 1.32298 (stop 1.32424, target 1.32109) - control: random direction
 
