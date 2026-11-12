@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -57111.5333985468,
+   "cash": -57160.84344965413,
    "open": [
-    {
-     "id": 2714,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HOLD",
-     "mint": "4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump",
-     "side": 1,
-     "opened": 1794460399.6005352,
-     "entry": 0.0001761,
-     "stop": 0.00014088000000000002,
-     "target": 0.00024653999999999995,
-     "size": 1135718.341851221,
-     "deadline": 1794467599.6005352,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2716,
      "desk": "control",
@@ -66,33 +51,48 @@
      "size": 2285714.285714286,
      "deadline": 1794469609.491867,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2723,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "FLC",
+     "mint": "7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump",
+     "side": 1,
+     "opened": 1794465332.9067938,
+     "entry": 8.438e-05,
+     "stop": 6.750400000000001e-05,
+     "target": 0.000118132,
+     "size": 2370229.9123014933,
+     "deadline": 1794472532.906794,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2723,
+ "next_id": 2724,
  "runs": 93,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794464955.4724069,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794464955.4724069,
-  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794464955.4724069,
-  "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794464955.4724069,
-  "seen:Eh5zz6vrPK66MHzhBLrzEFHvATE7Z1SqoALzcNu4pump": 1794465137.4410274,
-  "seen:HzwVr7KjPhUriHK9MrJbFzbTDTPwUXGrL2Ah2wVhpump": 1794465137.4410274,
-  "seen:BPA2AoMbUZVJhkno5ryCwFbQLX1KfXwzaCuQJETfpump": 1794465137.4410274,
-  "seen:7BWrHRyQcsKYMwq7W3XCsbnZMdXohboMoasrUWRZpump": 1794465137.4410274,
-  "seen:EMQXFRfSZnQzZoPH78hCqR4tvvZxAfZyuYNtGoqLLP65": 1794465319.1515927,
-  "seen:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794465319.1515927,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794465319.1515927,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1794465319.1515927,
-  "seen:8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump": 1794465319.1515927,
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794465503.1128945,
   "seen:9sRDQgAWDMjVLmtJfcF2dPC2YE3A3x597H8o4ketpump": 1794465685.3129382,
   "seen:AJFnmpiF4VTKeqEWtwBUarib5zKKbXcs594UyrMHpump": 1794465685.3129382,
   "seen:77HqxiDCgYfXUsDXDD6YVefPhTTz1Z2n8jX4gTxipump": 1794465685.3129382,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794465685.3129382,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794465685.3129382
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794465685.3129382,
+  "seen:HS1TquYQW71B3vHsDktegr1dwBbXdasBKEpPE48NCDaB": 1794465867.4755104,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794465867.4755104,
+  "seen:7BWrHRyQcsKYMwq7W3XCsbnZMdXohboMoasrUWRZpump": 1794466050.69917,
+  "seen:Eh5zz6vrPK66MHzhBLrzEFHvATE7Z1SqoALzcNu4pump": 1794466050.69917,
+  "seen:7XdCaKpqLmKE2K7yr9xaeWB1H2CVZ1oGwxB6hmd9pump": 1794466050.69917,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794466232.570876,
+  "seen:EMQXFRfSZnQzZoPH78hCqR4tvvZxAfZyuYNtGoqLLP65": 1794466232.570876,
+  "seen:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794466232.570876,
+  "seen:HzwVr7KjPhUriHK9MrJbFzbTDTPwUXGrL2Ah2wVhpump": 1794466232.570876,
+  "seen:4iJ7xEQrUvVUQH9KVStvw3FaY2PZDd7RtR4L9zx2pump": 1794466232.570876,
+  "seen:8AAVuQpJcqpvCuutxyBTVvgBEXZJSkZoNv1sExpBpump": 1794466232.570876,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794466232.570876,
+  "control:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794466232.9067967
  },
  "talks": {
   "2026-10-21": 109
@@ -133,22 +133,22 @@
  ],
  "last_review": 1794422115.8723295,
  "news": {
-  "t": 1794464419.162501,
+  "t": 1794465332.5816708,
   "crypto": [
-   "Here\u2019s what happened in crypto today (0h ago)",
-   "South Korea to permit crypto withdrawal freezes during hacking threats (0h ago)",
+   "Here\u2019s what happened in crypto today (1h ago)",
+   "South Korea to permit crypto withdrawal freezes during hacking threats (1h ago)",
    "Zcash holders to vote on pulling 50,000 ZEC, worth $50 million, from grants treasury (1h ago)",
    "Bitcoin Core reveals bug that made thousands of nodes trust any stranger on Tor (1h ago)",
    "Ripple\u2019s bank-lending system moves closer to launch on the XRP Ledger (1h ago)",
    "Binance CSO unwittingly foreshadowed $6.3B hack tactic months before attack (1h ago)",
-   "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe (2h ago)",
+   "Nvidia perps crash 7% as CEO Jensen Huang reportedly faces the axe (3h ago)",
    "MSCI confirms Strategy\u2019s removal from indexes at end of November (6h ago)",
    "Suiet wallet to shut down in latest exit from Sui ecosystem (7h ago)",
    "Nvidia preparing to oust CEO Jensen Huang after affairs: WSJ (8h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP GDP m/m in 0.7h, forecast 0.0%, previous 0.1%"
+   "GBP GDP m/m in 0.4h, forecast 0.0%, previous 0.1%"
   ]
  },
  "spend": {
