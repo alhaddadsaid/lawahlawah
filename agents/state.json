@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -57449.082129099275,
+   "cash": -57505.575896114606,
    "open": [
     {
      "id": 2739,
@@ -23,34 +23,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2742,
+     "id": 2743,
      "desk": "control",
      "market": "meme",
-     "symbol": "GTA Six",
-     "mint": "oPpPbTMMAD4hSYaHDXjeEeE6W8yX7FjLNZHymqPpump",
+     "symbol": "Shitcoin",
+     "mint": "8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump",
      "side": 1,
-     "opened": 1794489827.9790592,
-     "entry": 6.979e-05,
-     "stop": 5.5832e-05,
-     "target": 9.7706e-05,
-     "size": 2865740.077374982,
-     "deadline": 1794497027.9790595,
+     "opened": 1794490195.0317602,
+     "entry": 0.000102,
+     "stop": 8.16e-05,
+     "target": 0.0001428,
+     "size": 1960784.3137254901,
+     "deadline": 1794497395.0317605,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2743,
+ "next_id": 2744,
  "runs": 94,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:oPpPbTMMAD4hSYaHDXjeEeE6W8yX7FjLNZHymqPpump": 1794489996.2684023,
-  "seen:AJFnmpiF4VTKeqEWtwBUarib5zKKbXcs594UyrMHpump": 1794489996.2684023,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794490179.99143,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794490179.99143,
-  "seen:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794490179.99143,
-  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794490179.99143,
-  "control:8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": 1794490180.794998,
   "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794490363.2599406,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794490363.2599406,
   "seen:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794490363.2599406,
@@ -61,7 +54,14 @@
   "seen:VCE9b98Kruc5G8zu7kSmcvcfaRerj4HJyzZfnjapump": 1794490545.6470788,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794490545.6470788,
   "seen:6BucbgqbTDpUfWiN8Zrc5Lsf7ru6uUEzEPLPhb5ppump": 1794490727.8507228,
-  "control:oPpPbTMMAD4hSYaHDXjeEeE6W8yX7FjLNZHymqPpump": 1794490727.9790635
+  "control:oPpPbTMMAD4hSYaHDXjeEeE6W8yX7FjLNZHymqPpump": 1794490727.9790635,
+  "seen:oPpPbTMMAD4hSYaHDXjeEeE6W8yX7FjLNZHymqPpump": 1794490911.66976,
+  "seen:89iRVoDVPd8tuRrMyhgPfe58eDneasPsdEVu5AUMpump": 1794490911.66976,
+  "seen:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794491094.0394459,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794491094.0394459,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794491094.0394459,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794491094.0394459,
+  "control:8p7GCo3fWJ55LFQbhkBd8hCpw3ACk98PgK7Lsd6Upump": 1794491095.0317645
  },
  "talks": {
   "2026-10-21": 109
@@ -102,8 +102,9 @@
  ],
  "last_review": 1794422115.8723295,
  "news": {
-  "t": 1794489280.0042095,
+  "t": 1794490194.0522761,
   "crypto": [
+   "Uber\u2019s UK banking partner Griffin raises $20M for stablecoin services (0h ago)",
    "EU DeFi proposals could push users to riskier platforms, says Coinbase exec (1h ago)",
    "Bitcoin weakness erases September's bullish signal (1h ago)",
    "UK bank Griffin raises $20 million to expand into stablecoin payments (1h ago)",
@@ -112,8 +113,7 @@
    "Bitcoin dips with Nvidia as ETF outflows reach day five (2h ago)",
    "Tron and Tether bring in Chainalysis after T3 crime unit folds (2h ago)",
    "Polymarket trims workforce under investor pressure as Kalshi surges ahead (3h ago)",
-   "Nomura weighs Laser Digital sale as European losses hit four straight quarters (3h ago)",
-   "Ethlabs drops Hegot\u00e1 slot proposal in push for 2027 quantum readiness (3h ago)"
+   "Nomura weighs Laser Digital sale as European losses hit four straight quarters (3h ago)"
   ],
   "macro": [],
   "calendar": []
