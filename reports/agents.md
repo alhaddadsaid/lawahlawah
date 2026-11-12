@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-12 02:53 UTC. Runs so far: 93. Model: claude-haiku-5-5.
+Updated 2026-11-12 03:08 UTC. Runs so far: 93. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2623 | 31 | -67212.68 | -92391.67 |
+| control | meme | 2624 | 31 | -67262.49 | -92450.46 |
 | control | macro | 57 | 53 | 704.25 | 422.92 |
-| control | all | 2680 | 31 | -66508.43 | -91968.75 |
+| control | all | 2681 | 31 | -66558.24 | -92027.54 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: PAYDAY long at 0.0001703, stop 0.00013624, target 0.00023842, opened 2026-11-12 01:40 UTC
 - control: HOLD long at 0.0001546, stop 0.00012368, target 0.00021644, opened 2026-11-12 02:10 UTC
 - control: Max long at 0.0001254, stop 0.00010032, target 0.00017556, opened 2026-11-12 02:28 UTC
-- control: BACKERS long at 0.000288, stop 0.0002304, target 0.0004032, opened 2026-11-12 02:44 UTC
+- control: BACKERS long at 0.0002198, stop 0.00017584, target 0.00030772, opened 2026-11-12 03:02 UTC
+- control: X long at 0.000179, stop 0.0001432, target 0.0002506, opened 2026-11-12 03:05 UTC
 
 ## Team
 
@@ -33,6 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
-- control: order HOLD REJECTED by guardrails: HOLD already open
+- control: order CASHTAG REJECTED by guardrails: desk already has the maximum open positions
 
