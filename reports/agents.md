@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-13 22:44 UTC. Runs so far: 99. Model: claude-haiku-5-5.
+Updated 2026-11-13 22:56 UTC. Runs so far: 99. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -21,6 +21,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: Sakura long at 0.0001993, stop 0.00015944, target 0.00027902, opened 2026-11-13 21:34 UTC
 - control: plumber long at 0.0001062, stop 8.496e-05, target 0.00014868, opened 2026-11-13 21:43 UTC
 - control: PEACEFROG long at 0.0002326, stop 0.00018608, target 0.00032564, opened 2026-11-13 22:38 UTC
+- control: AURA long at 8.34e-05, stop 6.672e-05, target 0.00011676, opened 2026-11-13 22:56 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED WISHMAS (stop) P&L $-57.12 normal, $-65.92 pessimistic
+- 2026-11-13 22:56 UTC control: OPENED AURA long at 8.34e-05 (stop 6.672e-05, target 0.00011676) - control: frozen v3 rules
 
