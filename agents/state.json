@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -60156.51134783721,
+   "cash": -60232.20209076173,
    "open": [
     {
      "id": 2847,
@@ -21,21 +21,6 @@
      "size": 7.017561035305731,
      "deadline": 1794686566.9968958,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 2850,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Punch",
-     "mint": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
-     "side": 1,
-     "opened": 1794602365.2071729,
-     "entry": 0.0003392,
-     "stop": 0.00027136,
-     "target": 0.00047487999999999995,
-     "size": 589622.641509434,
-     "deadline": 1794609565.207173,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 2854,
@@ -85,19 +70,10 @@
    ]
   }
  },
- "next_id": 2859,
+ "next_id": 2860,
  "runs": 99,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794609866.8523612,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794609866.8523612,
-  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794609866.8523612,
-  "seen:AUpCMjSdzQX91Sh7LKr2XwtvnZ1TdMwZ4dv49Lczpump": 1794609866.8523612,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794609866.8523612,
-  "seen:XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo": 1794609866.8523612,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794609866.8523612,
-  "seen:9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": 1794609866.8523612,
-  "control:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794609867.4685442,
   "seen:9ELbLEniMY2B8jgZ1KdwLVPgRcr1HS3wXM9HkiRDpump": 1794610050.6532412,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794610050.6532412,
   "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794610050.6532412,
@@ -108,7 +84,18 @@
   "seen:62MnzU6NVvGrVRLHyqKrwrSnCJsZGHm9bE8aHaB82ray": 1794610233.8998554,
   "seen:BuX6ZsJ9GVjesq3DFioKKgFjEFE17CtrVEWFzDWppump": 1794610416.5530322,
   "seen:m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump": 1794610416.5530322,
-  "control:m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump": 1794610416.5940058
+  "control:m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump": 1794610416.5940058,
+  "seen:CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump": 1794610596.9825659,
+  "seen:4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": 1794610596.9825659,
+  "seen:7csfMgiRcBy9Y4GbGVMz8qJWFUk718KG58xfCKpXpump": 1794610596.9825659,
+  "seen:HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump": 1794610596.9825659,
+  "control:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794610597.01754,
+  "seen:6DN9qkg45N7GWvS46zYvUf6ADDYLc9FWYyWim28ut49X": 1794610779.8806405,
+  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794610779.8806405,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794610779.8806405,
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794610779.8806405,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794610779.8806405,
+  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794610779.8806405
  },
  "talks": {
   "2026-10-21": 109
@@ -149,18 +136,18 @@
  ],
  "last_review": 1794595040.63846,
  "news": {
-  "t": 1794608966.8665931,
+  "t": 1794609879.8938503,
   "crypto": [
-   "Here\u2019s what happened in crypto today (0h ago)",
-   "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex (0h ago)",
+   "Here\u2019s what happened in crypto today (1h ago)",
+   "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex (1h ago)",
    "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system (1h ago)",
-   "Kraken parent Payward gains market share as slower trading weighs on earnings (1h ago)",
+   "Kraken parent Payward gains market share as slower trading weighs on earnings (2h ago)",
    "US regulators move ahead on crypto trust charters as Senate scrutiny grows (2h ago)",
    "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters (4h ago)",
    "Metaplanet swings to $170M loss as Bitcoin sale hits earnings (4h ago)",
-   "U.S. Senate Banking Committee races toward hearing on new SEC nominations (5h ago)",
+   "U.S. Senate Banking Committee races toward hearing on new SEC nominations (6h ago)",
    "Bitcoin holds below $70K as stocks slip despite a cooler US PPI print (6h ago)",
-   "Bitcoin heads for sixth weekly loss as Anthropic\u2019s blockbuster IPO looms (6h ago)"
+   "Bitcoin heads for sixth weekly loss as Anthropic\u2019s blockbuster IPO looms (7h ago)"
   ],
   "macro": [],
   "calendar": []
