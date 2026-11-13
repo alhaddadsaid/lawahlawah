@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-13 21:28 UTC. Runs so far: 98. Model: claude-haiku-5-5.
+Updated 2026-11-13 21:34 UTC. Runs so far: 98. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2772 | 31 | -70496.59 | -97119.56 |
+| control | meme | 2773 | 31 | -70547.4 | -97179.33 |
 | control | macro | 59 | 51 | 389.92 | 99.5 |
-| control | all | 2831 | 31 | -70106.67 | -97020.06 |
+| control | all | 2832 | 31 | -70157.48 | -97079.83 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: GOLD long at 3876.6, stop 3862.35, target 3897.98, opened 2026-11-13 20:02 UTC
 - control: Punch long at 0.0003392, stop 0.00027136, target 0.00047488, opened 2026-11-13 20:39 UTC
-- control: GR00T2 long at 8.151e-05, stop 6.5208e-05, target 0.000114114, opened 2026-11-13 21:22 UTC
+- control: Sakura long at 0.0001993, stop 0.00015944, target 0.00027902, opened 2026-11-13 21:34 UTC
 
 ## Team
 
@@ -32,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- control: CLOSED GR00T2 (stop) P&L $-50.81 normal, $-59.77 pessimistic
 
