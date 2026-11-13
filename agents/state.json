@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -59629.36055200305,
+   "cash": -59680.001834568175,
    "open": [
     {
      "id": 2833,
@@ -66,36 +66,48 @@
      "size": 1011633.7885685381,
      "deadline": 1794604252.057502,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2842,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Sakura",
+     "mint": "ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump",
+     "side": 1,
+     "opened": 1794598149.5143828,
+     "entry": 5.916e-05,
+     "stop": 4.732800000000001e-05,
+     "target": 8.2824e-05,
+     "size": 3380662.6098715346,
+     "deadline": 1794605349.514383,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2841,
+ "next_id": 2843,
  "runs": 98,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump": 1794597768.1651502,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794597768.1651502,
-  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794597951.607137,
-  "seen:7G9eBFMA38HqdKKWvdryr1NKMnF79Qo2ToDwNP17pump": 1794597951.607137,
-  "seen:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": 1794597951.607137,
-  "seen:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": 1794597951.607137,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794597951.607137,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794597951.607137,
-  "seen:D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump": 1794597951.607137,
-  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794597951.607137,
-  "control:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": 1794597952.0575047,
-  "seen:ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump": 1794598134.249894,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794598134.249894,
-  "seen:BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump": 1794598134.249894,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794598134.249894,
-  "control:ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump": 1794598134.332182,
   "seen:HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7": 1794598316.4071774,
   "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794598316.4071774,
   "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794598316.4071774,
   "seen:755es8abNhAsXAME8A7Vqg8FGax8QwyQyrwnMo7Rpump": 1794598498.440578,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794598498.440578,
-  "seen:4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": 1794598498.440578
+  "seen:4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": 1794598498.440578,
+  "seen:9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump": 1794598682.0666962,
+  "control:9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump": 1794598682.1116455,
+  "seen:7G9eBFMA38HqdKKWvdryr1NKMnF79Qo2ToDwNP17pump": 1794598865.300773,
+  "seen:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": 1794598865.300773,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794598865.300773,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794598865.300773,
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794598865.300773,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794599049.4631848,
+  "seen:Ha9GjG2j1pMDEsxK3fE1jxyshYHELvnEvxUN3XA3pump": 1794599049.4631848,
+  "seen:ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump": 1794599049.4631848,
+  "seen:BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump": 1794599049.4631848,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794599049.4631848,
+  "control:ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump": 1794599049.514386
  },
  "talks": {
   "2026-10-21": 109
@@ -136,7 +148,7 @@
  ],
  "last_review": 1794595040.63846,
  "news": {
-  "t": 1794597051.6180625,
+  "t": 1794597965.3116696,
   "crypto": [
    "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters (1h ago)",
    "Metaplanet swings to $170M loss as Bitcoin sale hits earnings (1h ago)",
@@ -144,8 +156,8 @@
    "Bitcoin holds below $70K as stocks slip despite a cooler US PPI print (3h ago)",
    "Bitcoin heads for sixth weekly loss as Anthropic\u2019s blockbuster IPO looms (3h ago)",
    "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline (5h ago)",
-   "Here\u2019s what happened in crypto today (5h ago)",
-   "Arthur Hayes \u2018flattered\u2019 as Coinbase backs US stock perps (5h ago)",
+   "Here\u2019s what happened in crypto today (6h ago)",
+   "Arthur Hayes \u2018flattered\u2019 as Coinbase backs US stock perps (6h ago)",
    "Nakamoto shares fall 6% premarket after Q3 revenue turns negative (6h ago)",
    "Israeli police arrest five in $5M WhatsApp crypto trading probe (7h ago)"
   ],
