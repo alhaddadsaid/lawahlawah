@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -59978.71806687756,
+   "cash": -59984.257865596686,
    "open": [
-    {
-     "id": 2837,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "fone",
-     "mint": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
-     "side": 1,
-     "opened": 1794596136.94382,
-     "entry": 0.001093,
-     "stop": 0.0008744,
-     "target": 0.0015302,
-     "size": 182982.61665141812,
-     "deadline": 1794603336.94382,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2847,
      "desk": "control",
@@ -74,15 +59,6 @@
  "runs": 98,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794603082.466336,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794603082.466336,
-  "seen:BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump": 1794603082.466336,
-  "seen:9jh6f2mEsoPMwrQ1XJA17Rzy3Y9VWmH4FvGXXhZJpump": 1794603265.1655996,
-  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794603265.1655996,
-  "seen:NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": 1794603265.1655996,
-  "control:NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": 1794603265.2071757,
-  "seen:HcJGYDM5bS19fDSMUHNcH6wKP68kmHksNmXsTW2Wpump": 1794603449.9208295,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794603449.9208295,
   "seen:6bakXGrUydoKFq9atJ66A8J5kbvKrMF9GfpFCug5pump": 1794603633.3647308,
   "seen:C5jaQ3sUjdKJLcyTS4tSnmj2PsiXkYWZXyA3gxm3pump": 1794603633.3647308,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794603633.3647308,
@@ -92,7 +68,21 @@
   "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794603816.823911,
   "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794603816.823911,
   "seen:6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 1794603816.823911,
-  "control:HcJGYDM5bS19fDSMUHNcH6wKP68kmHksNmXsTW2Wpump": 1794603816.878023
+  "control:HcJGYDM5bS19fDSMUHNcH6wKP68kmHksNmXsTW2Wpump": 1794603816.878023,
+  "seen:8YUjNT9Had6PoMvDBMNz9Rnbp9ksH5JRH4UnuMXtpump": 1794604000.1150978,
+  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794604000.1150978,
+  "seen:BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump": 1794604000.1150978,
+  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794604000.1150978,
+  "seen:HXxJdaQbrYRvwTAM8M8mUPyoRPvmyuUbPFBRkiAAMASS": 1794604000.1150978,
+  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794604184.6199706,
+  "seen:4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": 1794604184.6199706,
+  "seen:MoR1whCWjcLiUqAan4GHLRcn8wK4Jktk2DyDryNmeta": 1794604184.6199706,
+  "seen:9J41toneswGA3hZJyfYiWkC9jMm8doMDP3QEBYM1pump": 1794604184.6199706,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1794604184.6199706,
+  "seen:5LEGND95QBhYtQecbyak9HzYeq2SeJL8YwDsX8PLpump": 1794604367.2890563,
+  "seen:otgeY6A8M27DVvk4Er9xkGP5KCaDdeucaYJQBi9AeXB": 1794604367.2890563,
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794604367.2890563,
+  "seen:2T56GBrvcyeWWyhUAzsTFW4AcFag1nr7xyzrtZn7pump": 1794604367.2890563
  },
  "talks": {
   "2026-10-21": 109
@@ -133,8 +123,9 @@
  ],
  "last_review": 1794595040.63846,
  "news": {
-  "t": 1794602549.932083,
+  "t": 1794603467.3002453,
   "crypto": [
+   "US regulators move ahead on crypto trust charters as Senate scrutiny grows (0h ago)",
    "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters (2h ago)",
    "Metaplanet swings to $170M loss as Bitcoin sale hits earnings (2h ago)",
    "U.S. Senate Banking Committee races toward hearing on new SEC nominations (4h ago)",
@@ -143,8 +134,7 @@
    "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline (7h ago)",
    "Here\u2019s what happened in crypto today (7h ago)",
    "Arthur Hayes \u2018flattered\u2019 as Coinbase backs US stock perps (7h ago)",
-   "Nakamoto shares fall 6% premarket after Q3 revenue turns negative (8h ago)",
-   "Israeli police arrest five in $5M WhatsApp crypto trading probe (8h ago)"
+   "Nakamoto shares fall 6% premarket after Q3 revenue turns negative (8h ago)"
   ],
   "macro": [],
   "calendar": []
