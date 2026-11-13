@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -58880.05342054391,
+   "cash": -59080.8077234699,
    "open": [
     {
      "id": 2764,
@@ -35,21 +35,6 @@
      "target": 0.00052164,
      "size": 536768.6527106817,
      "deadline": 1794570592.6376302,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2816,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "WRENCHP",
-     "mint": "45yf6UuhLUfkDKrNDUq4WSiLxb1e1NiggpyWjiRKpump",
-     "side": 1,
-     "opened": 1794563761.0602424,
-     "entry": 0.0001162,
-     "stop": 9.296e-05,
-     "target": 0.00016268,
-     "size": 1721170.395869191,
-     "deadline": 1794570961.0602427,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -89,23 +74,24 @@
  "runs": 97,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3V5qFZzqFr3TivY44nA1DRQxEpgjF3EzYrD99p1Lpump": 1794565944.3014393,
-  "seen:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794565944.3014393,
-  "seen:ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v": 1794565944.3014393,
-  "control:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794565979.0316682,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794566128.5164773,
-  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794566128.5164773,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794566128.5164773,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794566128.5164773,
-  "seen:4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump": 1794566128.5164773,
-  "control:4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump": 1794566129.065326,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794566312.6063097,
   "seen:BQ1onbEAtSdwoXiMB8Png6akW4tJsKEBX9BpxfmhBDEJ": 1794566496.1913826,
   "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794566496.1913826,
   "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794566496.1913826,
   "seen:HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7": 1794566679.4139094,
   "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794566679.4139094,
-  "seen:NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": 1794566679.4139094
+  "seen:NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": 1794566679.4139094,
+  "seen:3V5qFZzqFr3TivY44nA1DRQxEpgjF3EzYrD99p1Lpump": 1794566864.7772756,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794566864.7772756,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794566864.7772756,
+  "seen:Fe8RQXQeVeuqqvL9VXE1pEnQosQvX3MqzwgSLNF3FZXS": 1794567048.2004929,
+  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794567048.2004929,
+  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794567048.2004929,
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794567048.2004929,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794567048.2004929,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794567048.2004929,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794567048.2004929,
+  "seen:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794567231.901288,
+  "seen:45yf6UuhLUfkDKrNDUq4WSiLxb1e1NiggpyWjiRKpump": 1794567231.901288
  },
  "talks": {
   "2026-10-21": 109
@@ -146,23 +132,23 @@
  ],
  "last_review": 1794508556.3622153,
  "news": {
-  "t": 1794565228.526086,
+  "t": 1794566148.2097318,
   "crypto": [
-   "Unocoin keeps deposits and withdrawals halted over suspect transfers (0h ago)",
+   "Unocoin keeps deposits and withdrawals halted over suspect transfers (1h ago)",
    "Bitcoin returns to 200-week trend line as analyst sees risk of $57.7K next (1h ago)",
    "DOJ moves to seize $1.2B from Binance hack, disrupts FaceStealer scam (1h ago)",
    "Live news: Bitcoin drops below 200-week moving average as dollar strength pressures risk assets (1h ago)",
-   "Jane Street boosts Fidelity Bitcoin ETF holdings nearly 8x, trims IBIT (1h ago)",
+   "Jane Street boosts Fidelity Bitcoin ETF holdings nearly 8x, trims IBIT (2h ago)",
    "Microsoft 365 outage hits Outlook email and Teams calendars worldwide (2h ago)",
-   "Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy (3h ago)",
+   "Ethereum treasury firm BTCS sold ether at a loss to keep $64 million Aave loan healthy (4h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
-   "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value (4h ago)",
-   "Bitcoin slides below $70K amid thin liquidity, ETF outflows (4h ago)"
+   "Bitcoin firm Nakamoto owes Kraken $165 million, more than its entire market value (5h ago)",
+   "Bitcoin slides below $70K amid thin liquidity, ETF outflows (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core PPI m/m in 3.2h, forecast 0.3%, previous 0.7%",
-   "USD PPI m/m in 3.2h, forecast 0.4%, previous 1.3%"
+   "USD Core PPI m/m in 2.9h, forecast 0.3%, previous 0.7%",
+   "USD PPI m/m in 2.9h, forecast 0.4%, previous 1.3%"
   ]
  },
  "spend": {
@@ -193,5 +179,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794565044.310022
+ "last_macro_macro": 1794566331.9101214
 }
