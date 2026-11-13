@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-13 19:39 UTC. Runs so far: 98. Model: claude-haiku-5-5.
+Updated 2026-11-13 19:50 UTC. Runs so far: 98. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2760 | 31 | -70122.59 | -96632.07 |
+| control | meme | 2761 | 31 | -70193.26 | -96711.18 |
 | control | macro | 59 | 51 | 389.92 | 99.5 |
-| control | all | 2819 | 31 | -69732.67 | -96532.57 |
+| control | all | 2820 | 31 | -69803.34 | -96611.68 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,6 +21,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: AI long at 0.0001525, stop 0.000122, target 0.0002135, opened 2026-11-13 18:43 UTC
 - control: fone long at 0.001093, stop 0.0008744, target 0.0015302, opened 2026-11-13 18:55 UTC
 - control: BAWSAQ long at 0.0001977, stop 0.00015816, target 0.00027678, opened 2026-11-13 19:10 UTC
+- control: LUCIA long at 9.204e-05, stop 7.3632e-05, target 0.000128856, opened 2026-11-13 19:47 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED Sakura (stop) P&L $-52.45 normal, $-61.37 pessimistic
+- control: order BAWSAQ REJECTED by guardrails: desk already has the maximum open positions
 
