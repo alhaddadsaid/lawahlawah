@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -59211.75334332414,
+   "cash": -59313.008203397956,
    "open": [
     {
      "id": 2826,
@@ -20,21 +20,6 @@
      "target": 0.00026151999999999995,
      "size": 1070663.8115631694,
      "deadline": 1794593288.712428,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2829,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Punch",
-     "mint": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
-     "side": 1,
-     "opened": 1794586819.6656344,
-     "entry": 0.0004697,
-     "stop": 0.00037576,
-     "target": 0.00065758,
-     "size": 425803.7044922291,
-     "deadline": 1794594019.6656344,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -53,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2831,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Huang",
-     "mint": "4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump",
-     "side": 1,
-     "opened": 1794589379.204168,
-     "entry": 0.0002006,
-     "stop": 0.00016048,
-     "target": 0.00028084000000000003,
-     "size": 997008.9730807578,
-     "deadline": 1794596579.2041686,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2832,
      "desk": "control",
      "market": "meme",
@@ -81,22 +51,29 @@
      "size": 972289.7423432182,
      "deadline": 1794596761.3426037,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2833,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Punch",
+     "mint": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
+     "side": 1,
+     "opened": 1794592483.9545434,
+     "entry": 0.0003805,
+     "stop": 0.0003044,
+     "target": 0.0005327,
+     "size": 525624.1787122207,
+     "deadline": 1794599683.9545436,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2833,
+ "next_id": 2834,
  "runs": 98,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:91fxZsD9St9CFJJ8yDAwkFRmQVEdUP29E27ARrjapump": 1794592288.2702014,
-  "seen:4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump": 1794592288.2702014,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794592288.2702014,
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1794592471.447471,
-  "seen:BEJWz9HuLeAVsAhJ9QwiHcHpTrwoUyv3RoKot1Rnpump": 1794592471.447471,
-  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794592471.447471,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794592471.447471,
-  "seen:4133mikhNVsXGtrJhJDEZGSfMRAS9AkGHHuuJCzCpump": 1794592471.447471,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794592653.67184,
   "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794592653.67184,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794592653.67184,
@@ -106,7 +83,16 @@
   "seen:HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7": 1794592835.707363,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794592835.707363,
   "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794593017.654163,
-  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794593017.654163
+  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794593017.654163,
+  "seen:91fxZsD9St9CFJJ8yDAwkFRmQVEdUP29E27ARrjapump": 1794593200.968558,
+  "seen:BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump": 1794593200.968558,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794593200.968558,
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794593383.0668328,
+  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794593383.0668328,
+  "seen:SATqS9DYpLQsM2z51P4QCoqJRHa5wboV4qjJerJRUSH": 1794593383.0668328,
+  "seen:NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": 1794593383.0668328,
+  "seen:D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump": 1794593383.0668328,
+  "control:NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": 1794593383.9545467
  },
  "talks": {
   "2026-10-21": 109
@@ -147,7 +133,7 @@
  ],
  "last_review": 1794508556.3622153,
  "news": {
-  "t": 1794591571.458156,
+  "t": 1794592483.0776856,
   "crypto": [
    "U.S. Senate Banking Committee races toward hearing on new SEC nominations (1h ago)",
    "Bitcoin holds below $70K as stocks slip despite a cooler US PPI print (1h ago)",
@@ -156,8 +142,8 @@
    "Here\u2019s what happened in crypto today (4h ago)",
    "Arthur Hayes \u2018flattered\u2019 as Coinbase backs US stock perps (4h ago)",
    "Nakamoto shares fall 6% premarket after Q3 revenue turns negative (5h ago)",
-   "Israeli police arrest five in $5M WhatsApp crypto trading probe (5h ago)",
-   "Bitcoin's momentum gauge is turning red, could send prices back below $60,000 (5h ago)",
+   "Israeli police arrest five in $5M WhatsApp crypto trading probe (6h ago)",
+   "Bitcoin's momentum gauge is turning red, could send prices back below $60,000 (6h ago)",
    "Bitcoin hits 12-week low as dollar rallies on interest-rate outlook, liquidations top $1.6 billion (6h ago)"
   ],
   "macro": [],
@@ -191,5 +177,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794591205.874532
+ "last_macro_macro": 1794592483.077535
 }
