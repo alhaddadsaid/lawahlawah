@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -58383.97547600945,
+   "cash": -58373.77097703195,
    "open": [
     {
      "id": 2755,
@@ -36,21 +36,6 @@
      "size": 86411.77266974481,
      "deadline": 1794600075.184022,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 2777,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Jimothy",
-     "mint": "Ge87EtsjwRQbHaqQmKRno69RFTwh9bfSsm99XNxTpump",
-     "side": 1,
-     "opened": 1794522679.2592437,
-     "entry": 0.001467,
-     "stop": 0.0011736000000000001,
-     "target": 0.0020537999999999997,
-     "size": 136332.651670075,
-     "deadline": 1794529879.259244,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 2779,
@@ -89,29 +74,23 @@
  "runs": 96,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794529333.042201,
-  "seen:9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": 1794529333.042201,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794529333.042201,
-  "seen:2T56GBrvcyeWWyhUAzsTFW4AcFag1nr7xyzrtZn7pump": 1794529333.042201,
-  "seen:EZyMpc1477jpZfRh8c8HrRzVFhwq7uKXxBT54cpepump": 1794529333.042201,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794529333.042201,
-  "seen:SATqS9DYpLQsM2z51P4QCoqJRHa5wboV4qjJerJRUSH": 1794529333.042201,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794529333.042201,
-  "control:EZyMpc1477jpZfRh8c8HrRzVFhwq7uKXxBT54cpepump": 1794529333.6728425,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794529513.306962,
-  "seen:D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump": 1794529513.306962,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794529513.306962,
-  "seen:HAsTKXYvv65zM7J6Cu5o5PcZsiKMQYo5oz4WPjgqwP6k": 1794529513.306962,
-  "seen:7yLCJpWQvE2bnX3JZGbmmKrCkCSrSGbqTmgA8tMdpump": 1794529513.306962,
-  "seen:4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump": 1794529513.306962,
-  "control:4FP2GRQS3WYPsZSE2dwaVzqkajrBpHcXyVSTVt83pump": 1794529513.3559937,
-  "seen:7YZWqzcpNLpoY55pvhnyH6YeGnBFHuKha3hAYHcdpump": 1794529698.3785188,
-  "seen:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1794529698.3785188,
-  "control:9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": 1794529698.7171175,
-  "seen:CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": 1794529883.9527078,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794529883.9527078,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794529883.9527078,
-  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794530065.8855286
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794530250.8219533,
+  "seen:EZyMpc1477jpZfRh8c8HrRzVFhwq7uKXxBT54cpepump": 1794530250.8219533,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794530250.8219533,
+  "seen:9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": 1794530250.8219533,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794530250.8219533,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1794530250.8219533,
+  "seen:KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump": 1794530250.8219533,
+  "seen:SATqS9DYpLQsM2z51P4QCoqJRHa5wboV4qjJerJRUSH": 1794530250.8219533,
+  "seen:ttwocSxKgj4NpQEUzBaFzLxEFzVdLytUbLsnnjGew9v": 1794530431.3495326,
+  "seen:8mMKCKDpvHXbNsN9Dvp6paJtMU7Sf1SnVsVQY28kpump": 1794530431.3495326,
+  "seen:D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump": 1794530431.3495326,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794530431.3495326,
+  "seen:8THZ69JP2ErZuHVj4G5rcwkFfsQafp5mQsaoQReApump": 1794530431.3495326,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794530793.112264,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794530977.6511612,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794530977.6511612,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794530977.6511612
  },
  "talks": {
   "2026-10-21": 109
@@ -152,23 +131,23 @@
  ],
  "last_review": 1794508556.3622153,
  "news": {
-  "t": 1794528433.0502107,
+  "t": 1794529350.830469,
   "crypto": [
    "Maple Finance\u2019s strategy rift sends co-founder, COO to the exits (1h ago)",
    "North Korea's Binance hack faces U.S. crackdown as DOJ targets $1.2 billion in stolen crypto (1h ago)",
-   "U.S. President Trump names CFTC, SEC nominees for first time in a year (1h ago)",
+   "U.S. President Trump names CFTC, SEC nominees for first time in a year (2h ago)",
    "NK hackers join memecoin trenches, xStocks adds Hong Kong equities: Asia Express (2h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "Kalshi ends Donald Trump Jr. advisory role over Polymarket investment: Reuters (2h ago)",
-   "Strategy stock sheds 5% amid MSCI index removal, Bitcoin sell-off (2h ago)",
+   "Strategy stock sheds 5% amid MSCI index removal, Bitcoin sell-off (3h ago)",
    "Kalshi ends Donald Trump Jr.\u2019s advisory contract over 1789 Capital\u2019s Polymarket investment (3h ago)",
    "US Justice Department, business groups and DeFi firms challenge Illinois crypto tax (3h ago)",
    "DTCC Plans Solana Expansion as Wallet Rules Limit Access (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core PPI m/m in 13.4h, forecast 0.3%, previous 0.7%",
-   "USD PPI m/m in 13.4h, forecast 0.4%, previous 1.3%"
+   "USD Core PPI m/m in 13.1h, forecast 0.3%, previous 0.7%",
+   "USD PPI m/m in 13.1h, forecast 0.4%, previous 1.3%"
   ]
  },
  "spend": {
@@ -199,5 +178,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794528798.3857787
+ "last_macro_macro": 1794530077.6589007
 }
