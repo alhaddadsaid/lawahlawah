@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -59803.1241993255,
+   "cash": -59689.47505346479,
    "open": [
-    {
-     "id": 2833,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Punch",
-     "mint": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
-     "side": 1,
-     "opened": 1794592483.9545434,
-     "entry": 0.0003805,
-     "stop": 0.0003044,
-     "target": 0.0005327,
-     "size": 525624.1787122207,
-     "deadline": 1794599683.9545436,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2836,
      "desk": "control",
@@ -53,48 +38,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2839,
+     "id": 2845,
      "desk": "control",
      "market": "meme",
-     "symbol": "BAWSAQ",
-     "mint": "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
+     "symbol": "Sakura",
+     "mint": "ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump",
      "side": 1,
-     "opened": 1794597052.057502,
-     "entry": 0.0001977,
-     "stop": 0.00015816000000000002,
-     "target": 0.00027678,
-     "size": 1011633.7885685381,
-     "deadline": 1794604252.057502,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2844,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "LUCIA",
-     "mint": "7G9eBFMA38HqdKKWvdryr1NKMnF79Qo2ToDwNP17pump",
-     "side": 1,
-     "opened": 1794599252.0370293,
-     "entry": 9.204e-05,
-     "stop": 7.363200000000002e-05,
-     "target": 0.000128856,
-     "size": 2172968.27466319,
-     "deadline": 1794606452.0370297,
+     "opened": 1794599621.7026353,
+     "entry": 5.71e-05,
+     "stop": 4.568e-05,
+     "target": 7.994e-05,
+     "size": 3502626.970227671,
+     "deadline": 1794606821.7026355,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2845,
+ "next_id": 2846,
  "runs": 98,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HXxJdaQbrYRvwTAM8M8mUPyoRPvmyuUbPFBRkiAAMASS": 1794599600.4218502,
-  "seen:9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump": 1794599600.4218502,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794599600.4218502,
-  "seen:7G9eBFMA38HqdKKWvdryr1NKMnF79Qo2ToDwNP17pump": 1794599781.9894683,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794599781.9894683,
-  "seen:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": 1794599781.9894683,
   "seen:BALLFiNPXRhugiUXxstiegkpPeE4oWZhzHVohAxWbG2v": 1794599966.396985,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794599966.396985,
   "seen:Ha9GjG2j1pMDEsxK3fE1jxyshYHELvnEvxUN3XA3pump": 1794599966.396985,
@@ -109,7 +73,14 @@
   "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794600340.2352157,
   "seen:BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump": 1794600340.2352157,
   "seen:HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7": 1794600340.2352157,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794600340.2352157
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794600340.2352157,
+  "seen:9oJk7eMccQchx3evoN5C5pKQD5Xodb4C1qkhemjjpump": 1794600521.6621344,
+  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794600521.6621344,
+  "control:ANYq8tELPCSTvEjWVpxzgvtHu2K5vXFZZEmnNJfQpump": 1794600521.7026384,
+  "seen:7G9eBFMA38HqdKKWvdryr1NKMnF79Qo2ToDwNP17pump": 1794600704.922619,
+  "seen:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": 1794600704.922619,
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794600704.922619,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794600704.922619
  },
  "talks": {
   "2026-10-21": 109
@@ -150,7 +121,7 @@
  ],
  "last_review": 1794595040.63846,
  "news": {
-  "t": 1794598882.0004005,
+  "t": 1794599804.9336784,
   "crypto": [
    "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters (1h ago)",
    "Metaplanet swings to $170M loss as Bitcoin sale hits earnings (1h ago)",
@@ -161,7 +132,7 @@
    "Here\u2019s what happened in crypto today (6h ago)",
    "Arthur Hayes \u2018flattered\u2019 as Coinbase backs US stock perps (6h ago)",
    "Nakamoto shares fall 6% premarket after Q3 revenue turns negative (7h ago)",
-   "Israeli police arrest five in $5M WhatsApp crypto trading probe (7h ago)"
+   "Israeli police arrest five in $5M WhatsApp crypto trading probe (8h ago)"
   ],
   "macro": [],
   "calendar": []
