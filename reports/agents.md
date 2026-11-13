@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-13 04:19 UTC. Runs so far: 96. Model: claude-haiku-5-5.
+Updated 2026-11-13 04:28 UTC. Runs so far: 96. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2713 | 31 | -69273.92 | -95323.1 |
+| control | meme | 2714 | 31 | -69205.92 | -95267.1 |
 | control | macro | 57 | 53 | 704.25 | 422.92 |
-| control | all | 2770 | 31 | -68569.67 | -94900.18 |
+| control | all | 2771 | 31 | -68501.67 | -94844.18 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: EURUSD long at 1.10583, stop 1.10467, target 1.10756, opened 2026-11-12 20:01 UTC
 - control: HUNG long at 0.0002678, stop 0.00021424, target 0.00037492, opened 2026-11-13 03:09 UTC
 - control: Huang long at 9.819e-05, stop 7.8552e-05, target 0.000137466, opened 2026-11-13 03:48 UTC
-- control: CHARITY long at 8.156e-05, stop 6.5248e-05, target 0.000114184, opened 2026-11-13 04:19 UTC
+- control: JENSWAN long at 0.000106, stop 8.48e-05, target 0.0001484, opened 2026-11-13 04:28 UTC
 
 ## Team
 
@@ -34,5 +34,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-13 04:19 UTC control: OPENED CHARITY long at 8.156e-05 (stop 6.5248e-05, target 0.000114184) - control: frozen v3 rules
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- 2026-11-13 04:28 UTC control: OPENED JENSWAN long at 0.000106 (stop 8.48e-05, target 0.0001484) - control: frozen v3 rules
 
