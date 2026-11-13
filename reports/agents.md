@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-13 04:50 UTC. Runs so far: 96. Model: claude-haiku-5-5.
+Updated 2026-11-13 04:58 UTC. Runs so far: 96. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2716 | 31 | -69306.6 | -95385.72 |
+| control | meme | 2717 | 31 | -69238.6 | -95329.72 |
 | control | macro | 57 | 53 | 704.25 | 422.92 |
-| control | all | 2773 | 31 | -68602.35 | -94962.8 |
+| control | all | 2774 | 31 | -68534.35 | -94906.8 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: GBPUSD short at 1.32298, stop 1.32424, target 1.32109, opened 2026-11-12 18:08 UTC
 - control: EURUSD long at 1.10583, stop 1.10467, target 1.10756, opened 2026-11-12 20:01 UTC
 - control: HUNG long at 0.0002678, stop 0.00021424, target 0.00037492, opened 2026-11-13 03:09 UTC
-- control: CHARITY long at 0.0001305, stop 0.0001044, target 0.0001827, opened 2026-11-13 04:46 UTC
+- control: ODDME long at 0.0001286, stop 0.00010288, target 0.00018004, opened 2026-11-13 04:52 UTC
 
 ## Team
 
@@ -33,6 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
-- control: order HUNG REJECTED by guardrails: HUNG already open
+- control: CLOSED CHARITY (target) P&L $68.0 normal, $56.0 pessimistic
 
