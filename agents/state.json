@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -60290.18050802792,
+   "cash": -60229.538761916534,
    "open": [
     {
      "id": 2847,
@@ -21,21 +21,6 @@
      "size": 7.017561035305731,
      "deadline": 1794686566.9968958,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 2854,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Sakura",
-     "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
-     "side": 1,
-     "opened": 1794605670.1114805,
-     "entry": 0.0001993,
-     "stop": 0.00015944,
-     "target": 0.00027901999999999994,
-     "size": 1003512.2930255895,
-     "deadline": 1794612870.1114807,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 2855,
@@ -66,21 +51,6 @@
      "size": 859845.2278589854,
      "deadline": 1794616716.594002,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2861,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "WISHMAS",
-     "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
-     "side": 1,
-     "opened": 1794611715.0117733,
-     "entry": 7.875e-05,
-     "stop": 6.3e-05,
-     "target": 0.00011025,
-     "size": 2539682.5396825396,
-     "deadline": 1794618915.0117736,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,16 +59,6 @@
  "runs": 99,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5ZSSAd3jKiSKEMww3zrB7dY4tLci5YL4jxxSGgCWpump": 1794612431.4556966,
-  "seen:4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": 1794612431.4556966,
-  "seen:CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump": 1794612431.4556966,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794612431.4556966,
-  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794612614.5335743,
-  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794612614.5335743,
-  "seen:EHVpQJ76sEKqm7VvtZzW5UGg362q9B8HcpQBNps7pump": 1794612614.5335743,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794612614.5335743,
-  "control:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794612615.011777,
-  "seen:HXxJdaQbrYRvwTAM8M8mUPyoRPvmyuUbPFBRkiAAMASS": 1794612798.3164086,
   "seen:DcjQG6tceT5PSVbDggAj1ev6E4SYdGyNPppCggxqpump": 1794612983.0032947,
   "seen:Ac3TV6pUmnpArtEauZbsAKHgjL2kucNXqpVDeNygpump": 1794612983.0032947,
   "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794612983.0032947,
@@ -108,7 +68,19 @@
   "seen:EeTf7Pp9bBGZmy2diaf7UbrTQSthMXB4eJ6zd2zwpump": 1794613165.7239995,
   "seen:m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump": 1794613165.7239995,
   "seen:XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo": 1794613165.7239995,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794613165.7239995
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794613165.7239995,
+  "seen:HJWMayjf5H6EzuNTbpk4uq9Dfp4P5CLnjZCpZvKHpump": 1794613348.4369154,
+  "seen:CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump": 1794613348.4369154,
+  "seen:4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": 1794613348.4369154,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794613348.4369154,
+  "seen:BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump": 1794613348.4369154,
+  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794613532.7185688,
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794613532.7185688,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794613532.7185688,
+  "seen:DMiBmfbaBjzRNrjoFLdiu2eeK4b7CWQTjT35gM4rpump": 1794613532.7185688,
+  "seen:DQPf7iyK3NoejBKkrXUvzqAeyodRdNtHNx9HByKFpump": 1794613715.4772012,
+  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794613715.4772012,
+  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794613715.4772012
  },
  "talks": {
   "2026-10-21": 109
@@ -149,13 +121,13 @@
  ],
  "last_review": 1794595040.63846,
  "news": {
-  "t": 1794611714.5464308,
+  "t": 1794612632.7313943,
   "crypto": [
    "Here\u2019s what happened in crypto today (1h ago)",
    "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex (1h ago)",
-   "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system (1h ago)",
+   "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system (2h ago)",
    "Kraken parent Payward gains market share as slower trading weighs on earnings (2h ago)",
-   "US regulators move ahead on crypto trust charters as Senate scrutiny grows (2h ago)",
+   "US regulators move ahead on crypto trust charters as Senate scrutiny grows (3h ago)",
    "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters (5h ago)",
    "Metaplanet swings to $170M loss as Bitcoin sale hits earnings (5h ago)",
    "U.S. Senate Banking Committee races toward hearing on new SEC nominations (6h ago)",
@@ -193,5 +165,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794611531.4682152
+ "last_macro_macro": 1794612815.4898446
 }
