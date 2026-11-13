@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-13 09:47 UTC. Runs so far: 97. Model: claude-haiku-5-5.
+Updated 2026-11-13 09:56 UTC. Runs so far: 97. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2733 | 31 | -69501.67 | -95750.15 |
+| control | meme | 2735 | 31 | -69544.59 | -95812.48 |
 | control | macro | 58 | 52 | 596.31 | 310.22 |
-| control | all | 2791 | 31 | -68905.36 | -95439.93 |
+| control | all | 2793 | 31 | -68948.28 | -95502.26 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: EURUSD long at 1.10583, stop 1.10467, target 1.10756, opened 2026-11-12 20:01 UTC
-- control: Huang long at 7.042e-05, stop 5.6336e-05, target 9.8588e-05, opened 2026-11-13 07:53 UTC
-- control: Shitcoin long at 0.0001497, stop 0.00011976, target 0.00020958, opened 2026-11-13 09:22 UTC
+- control: Punch long at 0.0003726, stop 0.00029808, target 0.00052164, opened 2026-11-13 09:49 UTC
+- control: Shitcoin long at 0.0001158, stop 9.264e-05, target 0.00016212, opened 2026-11-13 09:52 UTC
+- control: WRENCHP long at 0.0001162, stop 9.296e-05, target 0.00016268, opened 2026-11-13 09:56 UTC
 
 ## Team
 
@@ -32,5 +33,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED Punch (stop) P&L $-54.37 normal, $-63.24 pessimistic
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- 2026-11-13 09:56 UTC control: OPENED WRENCHP long at 0.0001162 (stop 9.296e-05, target 0.00016268) - control: frozen v3 rules
 
