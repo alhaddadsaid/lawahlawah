@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -60157.26622853135,
+   "cash": -60224.51134783721,
    "open": [
     {
      "id": 2847,
@@ -51,34 +51,49 @@
      "size": 1003512.2930255895,
      "deadline": 1794612870.1114807,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2855,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "plumber",
+     "mint": "9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump",
+     "side": 1,
+     "opened": 1794606221.1759784,
+     "entry": 0.0001062,
+     "stop": 8.496e-05,
+     "target": 0.00014868,
+     "size": 1883239.1713747645,
+     "deadline": 1794613421.1759787,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2855,
+ "next_id": 2857,
  "runs": 98,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo": 1794605837.0271568,
-  "seen:EtVFUXdLwKEwNXg7eoQ1JJX2BG6LCUxRq5oxBuSnpump": 1794605837.0271568,
-  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794605837.0271568,
-  "control:EtVFUXdLwKEwNXg7eoQ1JJX2BG6LCUxRq5oxBuSnpump": 1794605837.0717113,
-  "seen:7ymF66Z6VhgNiwadtVhjTtT6U7iQRpSxeiRrhfufhigh": 1794606019.0211132,
-  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794606019.0211132,
-  "seen:4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": 1794606019.0211132,
-  "seen:CRWVJeR2yEZuDUKYfGuKCHvLz8ywn4LGvovHfy5WiFmi": 1794606202.144333,
-  "seen:9y6FgwuQDzUW8XzhF3W26kyCeFF2wWQXU3BRDkZTpump": 1794606202.144333,
-  "seen:DDmGnuvroxVrb7CSyjYcezFU8gnAfhKasg4ZZezmpump": 1794606202.144333,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794606202.144333,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794606202.144333,
-  "seen:Q1vecEMQEgDyrw1txmBgFwUrkeQurqkEe1bGMzFpump": 1794606385.6453,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794606385.6453,
-  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794606385.6453,
-  "seen:3DFVNA39Df2XJEdeSqhaHumRWb3JUDKTTcagEiAvpump": 1794606570.0243673,
-  "seen:7csfMgiRcBy9Y4GbGVMz8qJWFUk718KG58xfCKpXpump": 1794606570.0243673,
-  "seen:BMKdM4yUxX12moFqVk195k7coMbaybd4RUKCUdm7D1Sk": 1794606570.0243673,
-  "seen:85xrw1gHPUMeauAhGhy5k2eGJ37hk4Tf1UvK9bNQpump": 1794606570.0243673,
-  "control:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794606570.111484
+  "seen:XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo": 1794606753.5342572,
+  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794606753.5342572,
+  "seen:9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": 1794606753.5342572,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794606753.5342572,
+  "seen:BArimz1PcKZr8PcPh3tcZ2dg4S7FJLk3cw6R5F8GsHKg": 1794606936.502741,
+  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794606936.502741,
+  "seen:4cPQ6skqbj4qLGddcaJDxZSHoyB94sA3kfNKCptepump": 1794606936.502741,
+  "seen:EtVFUXdLwKEwNXg7eoQ1JJX2BG6LCUxRq5oxBuSnpump": 1794606936.502741,
+  "seen:BeLVQE2tK7fVvg6EpVgUzUWhSi95XpL7mqJM3nANpump": 1794607120.6317058,
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794607120.6317058,
+  "control:9a13W5HdqE95g3YE8Dk9wCHPucrCH33h6BTfdFvRpump": 1794607121.1759818,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794607304.2966447,
+  "seen:HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump": 1794607304.2966447,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794607304.2966447,
+  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794607304.2966447,
+  "seen:BMKdM4yUxX12moFqVk195k7coMbaybd4RUKCUdm7D1Sk": 1794607487.0423572,
+  "seen:85xrw1gHPUMeauAhGhy5k2eGJ37hk4Tf1UvK9bNQpump": 1794607487.0423572,
+  "seen:7csfMgiRcBy9Y4GbGVMz8qJWFUk718KG58xfCKpXpump": 1794607487.0423572,
+  "seen:MoR1whCWjcLiUqAan4GHLRcn8wK4Jktk2DyDryNmeta": 1794607487.0423572,
+  "control:HMTwjQPHbf82woGKMwDyPHAxgpwVj4boFQPMwk5Bpump": 1794607487.347911
  },
  "talks": {
   "2026-10-21": 109
@@ -119,16 +134,16 @@
  ],
  "last_review": 1794595040.63846,
  "news": {
-  "t": 1794605302.1554673,
+  "t": 1794606220.6430604,
   "crypto": [
-   "Kraken parent Payward gains market share as slower trading weighs on earnings (0h ago)",
+   "Kraken parent Payward gains market share as slower trading weighs on earnings (1h ago)",
    "US regulators move ahead on crypto trust charters as Senate scrutiny grows (1h ago)",
    "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters (3h ago)",
    "Metaplanet swings to $170M loss as Bitcoin sale hits earnings (3h ago)",
-   "U.S. Senate Banking Committee races toward hearing on new SEC nominations (4h ago)",
+   "U.S. Senate Banking Committee races toward hearing on new SEC nominations (5h ago)",
    "Bitcoin holds below $70K as stocks slip despite a cooler US PPI print (5h ago)",
-   "Bitcoin heads for sixth weekly loss as Anthropic\u2019s blockbuster IPO looms (5h ago)",
-   "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline (7h ago)",
+   "Bitcoin heads for sixth weekly loss as Anthropic\u2019s blockbuster IPO looms (6h ago)",
+   "Kraken parent Payward says expansion outside crypto trading helps cushion revenue decline (8h ago)",
    "Here\u2019s what happened in crypto today (8h ago)",
    "Arthur Hayes \u2018flattered\u2019 as Coinbase backs US stock perps (8h ago)"
   ],
@@ -163,5 +178,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794605302.1553383
+ "last_macro_macro": 1794606587.0534296
 }
