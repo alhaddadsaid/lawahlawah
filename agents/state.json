@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -60754.94073030211,
+   "cash": -60805.963374568,
    "open": [
     {
      "id": 2847,
@@ -36,33 +36,45 @@
      "size": 806451.6129032258,
      "deadline": 1794638893.3008053,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2885,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "AOL",
+     "mint": "2oQNkePakuPbHzrVVkQ875WHeewLHCd2cAwfwiLQbonk",
+     "side": 1,
+     "opened": 1794632979.9962041,
+     "entry": 0.000274,
+     "stop": 0.00021920000000000002,
+     "target": 0.00038359999999999995,
+     "size": 729927.0072992701,
+     "deadline": 1794640179.9962044,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2884,
+ "next_id": 2886,
  "runs": 100,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:H9yG3dirMGTpV7hPiHavXYVbX7gzF5MnrvrboFTopump": 1794632776.0955026,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794632776.0955026,
-  "control:A5bpyAGdSPKwX3YDyF563DmbVSfM3EcYgBPjPna8pump": 1794632776.6568274,
-  "seen:A5bpyAGdSPKwX3YDyF563DmbVSfM3EcYgBPjPna8pump": 1794632959.8720055,
-  "seen:4B1mCGeSjTadzH7okALwdFm8taxoHbZBFCTA1nZRpump": 1794632959.8720055,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794632959.8720055,
-  "seen:DWsutTNJSjG5mkhGsPevvT8xbRtVYQBLZdxqxm2Upump": 1794632959.8720055,
-  "seen:EjoWiu2PLuEs6roeM1H9YxApa3LQ3guo9E27Lcu5pump": 1794632959.8720055,
-  "seen:DVhVTCqGSYcWMyEarx59oKnPuJYj2hLCamCkv14KsJa1": 1794632959.8720055,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794632959.8720055,
-  "seen:BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump": 1794632959.8720055,
-  "control:EjoWiu2PLuEs6roeM1H9YxApa3LQ3guo9E27Lcu5pump": 1794632960.2165504,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794633144.8598452,
   "seen:2oQNkePakuPbHzrVVkQ875WHeewLHCd2cAwfwiLQbonk": 1794633328.607651,
   "seen:XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo": 1794633328.607651,
   "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794633328.607651,
   "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794633328.607651,
   "seen:CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump": 1794633328.607651,
-  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794633511.8609865
+  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794633511.8609865,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794633696.3416185,
+  "control:A5bpyAGdSPKwX3YDyF563DmbVSfM3EcYgBPjPna8pump": 1794633696.797993,
+  "seen:A5bpyAGdSPKwX3YDyF563DmbVSfM3EcYgBPjPna8pump": 1794633879.923449,
+  "seen:DWsutTNJSjG5mkhGsPevvT8xbRtVYQBLZdxqxm2Upump": 1794633879.923449,
+  "seen:4B1mCGeSjTadzH7okALwdFm8taxoHbZBFCTA1nZRpump": 1794633879.923449,
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794633879.923449,
+  "seen:EjoWiu2PLuEs6roeM1H9YxApa3LQ3guo9E27Lcu5pump": 1794633879.923449,
+  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794633879.923449,
+  "control:2oQNkePakuPbHzrVVkQ875WHeewLHCd2cAwfwiLQbonk": 1794633879.9962068
  },
  "talks": {
   "2026-10-21": 109
@@ -103,17 +115,17 @@
  ],
  "last_review": 1794595040.63846,
  "news": {
-  "t": 1794631876.1153996,
+  "t": 1794632796.3529155,
   "crypto": [
-   "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011 (0h ago)",
-   "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out (5h ago)",
+   "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011 (1h ago)",
+   "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out (6h ago)",
    "Here\u2019s what happened in crypto today (7h ago)",
    "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex (7h ago)",
    "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system (7h ago)",
    "Kraken parent Payward gains market share as slower trading weighs on earnings (8h ago)",
    "US regulators move ahead on crypto trust charters as Senate scrutiny grows (8h ago)",
    "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters (10h ago)",
-   "Metaplanet swings to $170M loss as Bitcoin sale hits earnings (10h ago)",
+   "Metaplanet swings to $170M loss as Bitcoin sale hits earnings (11h ago)",
    "U.S. Senate Banking Committee races toward hearing on new SEC nominations (12h ago)"
   ],
   "macro": [],
