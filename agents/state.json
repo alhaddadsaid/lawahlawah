@@ -51,23 +51,29 @@
      "size": 938526.5133740028,
      "deadline": 1794624047.5119238,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2868,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Punch",
+     "mint": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
+     "side": 1,
+     "opened": 1794617215.186326,
+     "entry": 0.0002855,
+     "stop": 0.00022840000000000002,
+     "target": 0.00039969999999999996,
+     "size": 700525.3940455342,
+     "deadline": 1794624415.1863265,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2868,
+ "next_id": 2869,
  "runs": 99,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:MoR1whCWjcLiUqAan4GHLRcn8wK4Jktk2DyDryNmeta": 1794617012.1932683,
-  "seen:CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump": 1794617012.1932683,
-  "seen:6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 1794617012.1932683,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794617012.1932683,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794617197.7310617,
-  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794617197.7310617,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794617197.7310617,
-  "seen:HJWMayjf5H6EzuNTbpk4uq9Dfp4P5CLnjZCpZvKHpump": 1794617381.0253308,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794617381.0253308,
   "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794617564.3029456,
   "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794617564.3029456,
   "seen:m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump": 1794617564.3029456,
@@ -76,7 +82,18 @@
   "seen:27UnW8kJufYjPS2yxNrNhCFNR4arnnqnPTSEqtzBpump": 1794617747.4724343,
   "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794617747.4724343,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794617747.4724343,
-  "control:m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump": 1794617747.511927
+  "control:m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump": 1794617747.511927,
+  "seen:CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump": 1794617932.0221827,
+  "seen:62MnzU6NVvGrVRLHyqKrwrSnCJsZGHm9bE8aHaB82ray": 1794617932.0221827,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794617932.0221827,
+  "seen:KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump": 1794617932.0221827,
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794618114.867742,
+  "seen:NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": 1794618114.867742,
+  "seen:6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 1794618114.867742,
+  "control:NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": 1794618115.1863294,
+  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794618298.6479502,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794618298.6479502,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1794618298.6479502
  },
  "talks": {
   "2026-10-21": 109
@@ -117,17 +134,17 @@
  ],
  "last_review": 1794595040.63846,
  "news": {
-  "t": 1794616297.7439237,
+  "t": 1794617214.8806639,
   "crypto": [
    "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out (1h ago)",
-   "Here\u2019s what happened in crypto today (2h ago)",
+   "Here\u2019s what happened in crypto today (3h ago)",
    "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex (3h ago)",
    "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system (3h ago)",
-   "Kraken parent Payward gains market share as slower trading weighs on earnings (3h ago)",
+   "Kraken parent Payward gains market share as slower trading weighs on earnings (4h ago)",
    "US regulators move ahead on crypto trust charters as Senate scrutiny grows (4h ago)",
    "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters (6h ago)",
    "Metaplanet swings to $170M loss as Bitcoin sale hits earnings (6h ago)",
-   "U.S. Senate Banking Committee races toward hearing on new SEC nominations (7h ago)",
+   "U.S. Senate Banking Committee races toward hearing on new SEC nominations (8h ago)",
    "Bitcoin holds below $70K as stocks slip despite a cooler US PPI print (8h ago)"
   ],
   "macro": [],
