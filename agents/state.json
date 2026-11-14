@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -62232.950965944605,
+   "cash": -62284.218897457795,
    "open": [
     {
      "id": 2958,
@@ -38,29 +38,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2971,
+     "id": 2972,
      "desk": "control",
      "market": "meme",
-     "symbol": "greg",
-     "mint": "27sDLLwdhfd4bAn3Lq8KfEoaie2924vRbQsyjdjjpump",
+     "symbol": "bill",
+     "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
      "side": 1,
-     "opened": 1794691259.3478189,
-     "entry": 6.483e-05,
-     "stop": 5.1864000000000004e-05,
-     "target": 9.0762e-05,
-     "size": 3084991.5162733304,
-     "deadline": 1794698459.3478189,
+     "opened": 1794691438.8745651,
+     "entry": 0.0001895,
+     "stop": 0.0001516,
+     "target": 0.0002653,
+     "size": 1055408.9709762533,
+     "deadline": 1794698638.8745651,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2972,
+ "next_id": 2973,
  "runs": 102,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794691424.4428892,
-  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794691424.4428892,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794691606.9624715,
   "seen:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794691606.9624715,
   "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794691791.9497814,
@@ -74,7 +72,12 @@
   "seen:Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": 1794692159.2806137,
   "seen:HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7": 1794692159.2806137,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794692159.2806137,
-  "control:27sDLLwdhfd4bAn3Lq8KfEoaie2924vRbQsyjdjjpump": 1794692159.347821
+  "control:27sDLLwdhfd4bAn3Lq8KfEoaie2924vRbQsyjdjjpump": 1794692159.347821,
+  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1794692338.8136961,
+  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794692338.8136961,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794692338.8136961,
+  "seen:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": 1794692338.8136961,
+  "control:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794692338.8745685
  },
  "talks": {
   "2026-10-21": 109
