@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -61993.13891366737,
+   "cash": -62046.317631266276,
    "open": [
     {
      "id": 2847,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2952,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SHIT",
-     "mint": "6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump",
-     "side": 1,
-     "opened": 1794680614.6949263,
-     "entry": 9.529e-05,
-     "stop": 7.623200000000001e-05,
-     "target": 0.000133406,
-     "size": 2098856.12341274,
-     "deadline": 1794687814.6949265,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2955,
      "desk": "control",
      "market": "meme",
@@ -81,32 +66,48 @@
      "size": 3606202.6685899748,
      "deadline": 1794689650.329147,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2956,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "billie",
+     "mint": "3531MEu4B5n5RvTP3mWQQWJv9uNRD4Z5SYGcqYkppump",
+     "side": 1,
+     "opened": 1794684284.6210337,
+     "entry": 8.325e-05,
+     "stop": 6.66e-05,
+     "target": 0.00011655,
+     "size": 2402402.4024024024,
+     "deadline": 1794691484.621034,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2956,
+ "next_id": 2957,
  "runs": 102,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:G8Yp5m5VmBTh1myNUyoy1Gb7uY6ek3jkcTkYGxE8jQLN": 1794684085.0045161,
-  "seen:BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": 1794684085.0045161,
-  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794684085.0045161,
-  "seen:6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump": 1794684085.0045161,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794684085.0045161,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794684269.7408311,
-  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794684269.7408311,
-  "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794684269.7408311,
-  "seen:CisKjUE5PaZeGC69PAER2e9GX49jJZkp5WBDJqcxpump": 1794684449.861133,
-  "seen:7aDArKPnnNe9YfcvKpPh3hpURmtrWXiPtgy2h9wEpump": 1794684449.861133,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1794684449.861133,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794684449.861133,
   "seen:5BeD1Uc3Rz2Eha5FqGEnVUpGRNRk8khkXLXQNxynPyTx": 1794684634.471822,
   "seen:HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7": 1794684634.471822,
   "seen:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": 1794684634.471822,
   "seen:3531MEu4B5n5RvTP3mWQQWJv9uNRD4Z5SYGcqYkppump": 1794684819.5634696,
   "seen:F5tfztTnE4sYsMhZT5KrFpWvHmYSfJZoRjCuxKPbpump": 1794684819.5634696,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794684819.5634696
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794684819.5634696,
+  "seen:4dd3Mc6yHoPww1Q4sh4nNbmSW7WqZy1iUfJ1ATDhjcqj": 1794685000.4866452,
+  "seen:G8Yp5m5VmBTh1myNUyoy1Gb7uY6ek3jkcTkYGxE8jQLN": 1794685000.4866452,
+  "seen:6sZUjgnHTdezsZoMdbTcxsi58bXqnsz6mkj49Wgxpump": 1794685000.4866452,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1794685000.4866452,
+  "seen:Hys8218U9PqSzA7B7hprwydyXJ43mcGXTkVPHH7Gpump": 1794685184.547054,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794685184.547054,
+  "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794685184.547054,
+  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794685184.547054,
+  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794685184.547054,
+  "control:3531MEu4B5n5RvTP3mWQQWJv9uNRD4Z5SYGcqYkppump": 1794685184.621037,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794685369.0460184,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794685369.0460184,
+  "seen:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794685369.0460184
  },
  "talks": {
   "2026-10-21": 109
@@ -191,5 +192,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794683185.0137374
+ "last_macro_macro": 1794684469.0548985
 }
