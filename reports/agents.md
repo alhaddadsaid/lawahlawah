@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-14 06:42 UTC. Runs so far: 100. Model: claude-haiku-5-5.
+Updated 2026-11-14 06:53 UTC. Runs so far: 100. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2811 | 31 | -71260.99 | -98264.36 |
+| control | meme | 2812 | 31 | -71315.5 | -98327.73 |
 | control | macro | 59 | 51 | 389.92 | 99.5 |
-| control | all | 2870 | 31 | -70871.07 | -98164.86 |
+| control | all | 2871 | 31 | -70925.58 | -98228.23 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: GOLD long at 3876.6, stop 3862.35, target 3897.98, opened 2026-11-13 20:02 UTC
 - control: TETSUO long at 0.0001421, stop 0.00011368, target 0.00019894, opened 2026-11-14 05:46 UTC
 - control: WISHMAS long at 0.0001307, stop 0.00010456, target 0.00018298, opened 2026-11-14 06:20 UTC
-- control: UP long at 0.0001075, stop 8.6e-05, target 0.0001505, opened 2026-11-14 06:38 UTC
+- control: Twinothy long at 6.686e-05, stop 5.3488e-05, target 9.3604e-05, opened 2026-11-14 06:47 UTC
+- control: UP long at 6.917e-05, stop 5.5336e-05, target 9.6838e-05, opened 2026-11-14 06:53 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED SWJ (target) P&L $68.0 normal, $56.0 pessimistic
+- 2026-11-14 06:53 UTC control: OPENED UP long at 6.917e-05 (stop 5.5336e-05, target 9.6838e-05) - control: frozen v3 rules
 

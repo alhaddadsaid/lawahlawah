@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -60870.84169521102,
+   "cash": -60925.35611381567,
    "open": [
     {
      "id": 2847,
@@ -53,43 +53,59 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2893,
+     "id": 2894,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Twinothy",
+     "mint": "9W2NkHVVjS4p1KGrxBX9dJACiW3UtdkDHLAjnkyxpump",
+     "side": 1,
+     "opened": 1794638861.0388317,
+     "entry": 6.686e-05,
+     "stop": 5.3488e-05,
+     "target": 9.360399999999998e-05,
+     "size": 2991325.157044571,
+     "deadline": 1794646061.038832,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2895,
      "desk": "control",
      "market": "meme",
      "symbol": "UP",
      "mint": "A5bpyAGdSPKwX3YDyF563DmbVSfM3EcYgBPjPna8pump",
      "side": 1,
-     "opened": 1794638309.7717795,
-     "entry": 0.0001075,
-     "stop": 8.600000000000002e-05,
-     "target": 0.0001505,
-     "size": 1860465.1162790698,
-     "deadline": 1794645509.7717798,
+     "opened": 1794639227.860405,
+     "entry": 6.917e-05,
+     "stop": 5.533600000000001e-05,
+     "target": 9.6838e-05,
+     "size": 2891426.919184617,
+     "deadline": 1794646427.860405,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2894,
+ "next_id": 2896,
  "runs": 100,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794638843.0242393,
-  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794638843.0242393,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794638843.0242393,
-  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794639026.113896,
-  "seen:CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump": 1794639026.113896,
-  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794639026.113896,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794639026.113896,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794639026.113896,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794639209.2641914,
-  "seen:9W2NkHVVjS4p1KGrxBX9dJACiW3UtdkDHLAjnkyxpump": 1794639209.2641914,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794639209.2641914,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794639209.2641914,
-  "control:A5bpyAGdSPKwX3YDyF563DmbVSfM3EcYgBPjPna8pump": 1794639209.7717829,
   "seen:DWsutTNJSjG5mkhGsPevvT8xbRtVYQBLZdxqxm2Upump": 1794639392.8403537,
   "seen:A5bpyAGdSPKwX3YDyF563DmbVSfM3EcYgBPjPna8pump": 1794639392.8403537,
-  "seen:TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": 1794639392.8403537
+  "seen:TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": 1794639392.8403537,
+  "seen:4B1mCGeSjTadzH7okALwdFm8taxoHbZBFCTA1nZRpump": 1794639576.4050448,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794639576.4050448,
+  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794639760.9775572,
+  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794639760.9775572,
+  "control:9W2NkHVVjS4p1KGrxBX9dJACiW3UtdkDHLAjnkyxpump": 1794639761.0388355,
+  "seen:Hx1H9xGMuFRJcnVyzJb7VVyiFXnDh47xUYWt5JGtpump": 1794639944.2923653,
+  "seen:CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump": 1794639944.2923653,
+  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794639944.2923653,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794639944.2923653,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794639944.2923653,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794640127.309973,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794640127.309973,
+  "seen:9W2NkHVVjS4p1KGrxBX9dJACiW3UtdkDHLAjnkyxpump": 1794640127.309973,
+  "control:A5bpyAGdSPKwX3YDyF563DmbVSfM3EcYgBPjPna8pump": 1794640127.860408
  },
  "talks": {
   "2026-10-21": 109
@@ -130,18 +146,18 @@
  ],
  "last_review": 1794595040.63846,
  "news": {
-  "t": 1794638309.2755065,
+  "t": 1794639227.3212757,
   "crypto": [
+   "Bitcoin ETFs shed $2.35B in two weeks as BlackRock\u2019s losing streak hits 11 sessions (0h ago)",
    "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011 (2h ago)",
    "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out (7h ago)",
-   "Here\u2019s what happened in crypto today (8h ago)",
+   "Here\u2019s what happened in crypto today (9h ago)",
    "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex (9h ago)",
    "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system (9h ago)",
    "Kraken parent Payward gains market share as slower trading weighs on earnings (10h ago)",
    "US regulators move ahead on crypto trust charters as Senate scrutiny grows (10h ago)",
    "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters (12h ago)",
-   "Metaplanet swings to $170M loss as Bitcoin sale hits earnings (12h ago)",
-   "U.S. Senate Banking Committee races toward hearing on new SEC nominations (14h ago)"
+   "Metaplanet swings to $170M loss as Bitcoin sale hits earnings (12h ago)"
   ],
   "macro": [],
   "calendar": []
