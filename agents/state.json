@@ -21,25 +21,29 @@
      "size": 7.017561035305731,
      "deadline": 1794686566.9968958,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 2878,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "HARAMBE",
+     "mint": "EjoWiu2PLuEs6roeM1H9YxApa3LQ3guo9E27Lcu5pump",
+     "side": 1,
+     "opened": 1794629314.65967,
+     "entry": 0.0001018,
+     "stop": 8.144e-05,
+     "target": 0.00014251999999999998,
+     "size": 1964636.5422396858,
+     "deadline": 1794636514.6596706,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2878,
+ "next_id": 2879,
  "runs": 99,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump": 1794629117.8055394,
-  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794629117.8055394,
-  "control:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794629118.4781559,
-  "seen:EjoWiu2PLuEs6roeM1H9YxApa3LQ3guo9E27Lcu5pump": 1794629301.0254447,
-  "seen:CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": 1794629301.0254447,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794629301.0254447,
-  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794629301.0254447,
-  "seen:4B1mCGeSjTadzH7okALwdFm8taxoHbZBFCTA1nZRpump": 1794629301.0254447,
-  "seen:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": 1794629484.8591437,
-  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794629484.8591437,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794629484.8591437,
   "seen:BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump": 1794629667.1798964,
   "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794629667.1798964,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794629667.1798964,
@@ -48,7 +52,16 @@
   "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794629667.1798964,
   "seen:DWsutTNJSjG5mkhGsPevvT8xbRtVYQBLZdxqxm2Upump": 1794629849.4736366,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794629849.4736366,
-  "seen:NKEda5nHhNGgjrE9nDdMvaEmkmJ96qqxzBVZEcKmjSg": 1794629849.4736366
+  "seen:NKEda5nHhNGgjrE9nDdMvaEmkmJ96qqxzBVZEcKmjSg": 1794629849.4736366,
+  "seen:4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": 1794630032.7251403,
+  "seen:EjoWiu2PLuEs6roeM1H9YxApa3LQ3guo9E27Lcu5pump": 1794630214.623873,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794630214.623873,
+  "seen:XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo": 1794630214.623873,
+  "seen:4B1mCGeSjTadzH7okALwdFm8taxoHbZBFCTA1nZRpump": 1794630214.623873,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794630214.623873,
+  "control:EjoWiu2PLuEs6roeM1H9YxApa3LQ3guo9E27Lcu5pump": 1794630214.6596746,
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794630397.188478,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794630397.188478
  },
  "talks": {
   "2026-10-21": 109
@@ -89,16 +102,16 @@
  ],
  "last_review": 1794595040.63846,
  "news": {
-  "t": 1794628217.8187456,
+  "t": 1794629132.7383692,
   "crypto": [
-   "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out (4h ago)",
+   "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out (5h ago)",
    "Here\u2019s what happened in crypto today (6h ago)",
    "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex (6h ago)",
    "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system (6h ago)",
    "Kraken parent Payward gains market share as slower trading weighs on earnings (7h ago)",
    "US regulators move ahead on crypto trust charters as Senate scrutiny grows (7h ago)",
    "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters (9h ago)",
-   "Metaplanet swings to $170M loss as Bitcoin sale hits earnings (9h ago)",
+   "Metaplanet swings to $170M loss as Bitcoin sale hits earnings (10h ago)",
    "U.S. Senate Banking Committee races toward hearing on new SEC nominations (11h ago)",
    "Bitcoin holds below $70K as stocks slip despite a cooler US PPI print (11h ago)"
   ],
@@ -133,5 +146,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794628217.8185966
+ "last_macro_macro": 1794629497.2016284
 }
