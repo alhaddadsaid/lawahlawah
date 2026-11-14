@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-14 05:37 UTC. Runs so far: 100. Model: claude-haiku-5-5.
+Updated 2026-11-14 05:51 UTC. Runs so far: 100. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2806 | 31 | -71311.93 | -98262.71 |
+| control | meme | 2808 | 31 | -71345.57 | -98316.0 |
 | control | macro | 59 | 51 | 389.92 | 99.5 |
-| control | all | 2865 | 31 | -70922.01 | -98163.21 |
+| control | all | 2867 | 31 | -70955.65 | -98216.5 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GOLD long at 3876.6, stop 3862.35, target 3897.98, opened 2026-11-13 20:02 UTC
-- control: AOL long at 0.000274, stop 0.0002192, target 0.0003836, opened 2026-11-14 05:09 UTC
-- control: UP long at 0.0001354, stop 0.00010832, target 0.00018956, opened 2026-11-14 05:24 UTC
 - control: SWJ long at 0.0001831, stop 0.00014648, target 0.00025634, opened 2026-11-14 05:28 UTC
+- control: TETSUO long at 0.0001421, stop 0.00011368, target 0.00019894, opened 2026-11-14 05:46 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- control: CLOSED UP (stop) P&L $-101.64 normal, $-109.29 pessimistic
 
