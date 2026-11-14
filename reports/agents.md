@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-14 04:17 UTC. Runs so far: 100. Model: claude-haiku-5-5.
+Updated 2026-11-14 04:33 UTC. Runs so far: 100. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2798 | 31 | -71141.39 | -98014.49 |
+| control | meme | 2800 | 31 | -71125.45 | -98019.48 |
 | control | macro | 59 | 51 | 389.92 | 99.5 |
-| control | all | 2857 | 31 | -70751.47 | -97914.99 |
+| control | all | 2859 | 31 | -70735.53 | -97919.98 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GOLD long at 3876.6, stop 3862.35, target 3897.98, opened 2026-11-13 20:02 UTC
-- control: HARAMBE long at 0.0001018, stop 8.144e-05, target 0.00014252, opened 2026-11-14 04:08 UTC
-- control: ASTRALIS long at 9.862e-05, stop 7.8896e-05, target 0.000138068, opened 2026-11-14 04:17 UTC
 
 ## Team
 
@@ -32,5 +30,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-14 04:17 UTC control: OPENED ASTRALIS long at 9.862e-05 (stop 7.8896e-05, target 0.000138068) - control: frozen v3 rules
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
 
