@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-14 11:37 UTC. Runs so far: 101. Model: claude-haiku-5-5.
+Updated 2026-11-14 11:49 UTC. Runs so far: 101. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,19 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2838 | 31 | -71337.6 | -98615.94 |
+| control | meme | 2839 | 31 | -71390.68 | -98677.92 |
 | control | macro | 59 | 51 | 389.92 | 99.5 |
-| control | all | 2897 | 32 | -70947.68 | -98516.44 |
+| control | all | 2898 | 32 | -71000.76 | -98578.42 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GOLD long at 3876.6, stop 3862.35, target 3897.98, opened 2026-11-13 20:02 UTC
-- control: Sakura long at 0.0001548, stop 0.00012384, target 0.00021672, opened 2026-11-14 10:11 UTC
 - control: LIA long at 9.291e-05, stop 7.4328e-05, target 0.000130074, opened 2026-11-14 11:31 UTC
+- control: fone long at 0.001046, stop 0.0008368, target 0.0014644, opened 2026-11-14 11:40 UTC
+- control: WISHMAS long at 0.0001087, stop 8.696e-05, target 0.00015218, opened 2026-11-14 11:43 UTC
+- control: Sakura long at 0.0001192, stop 9.536e-05, target 0.00016688, opened 2026-11-14 11:49 UTC
 
 ## Team
 
@@ -32,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order Sakura REJECTED by guardrails: Sakura already open
+- 2026-11-14 11:49 UTC control: OPENED Sakura long at 0.0001192 (stop 9.536e-05, target 0.00016688) - control: frozen v3 rules
 

@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -60947.45493156741,
+   "cash": -61000.53632691625,
    "open": [
     {
      "id": 2847,
@@ -23,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 2913,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Sakura",
-     "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
-     "side": 1,
-     "opened": 1794651110.5451977,
-     "entry": 0.0001548,
-     "stop": 0.00012384,
-     "target": 0.00021671999999999997,
-     "size": 1291989.6640826873,
-     "deadline": 1794658310.545198,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2919,
      "desk": "control",
      "market": "meme",
@@ -51,33 +36,81 @@
      "size": 2152620.8158432893,
      "deadline": 1794663075.42006,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2920,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "fone",
+     "mint": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
+     "side": 1,
+     "opened": 1794656426.4357247,
+     "entry": 0.001046,
+     "stop": 0.0008368000000000001,
+     "target": 0.0014644,
+     "size": 191204.58891013384,
+     "deadline": 1794663626.435725,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2921,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "WISHMAS",
+     "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+     "side": 1,
+     "opened": 1794656609.4890394,
+     "entry": 0.0001087,
+     "stop": 8.696000000000001e-05,
+     "target": 0.00015218,
+     "size": 1839926.4029438822,
+     "deadline": 1794663809.4890394,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2922,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Sakura",
+     "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
+     "side": 1,
+     "opened": 1794656975.439569,
+     "entry": 0.0001192,
+     "stop": 9.536000000000001e-05,
+     "target": 0.00016687999999999997,
+     "size": 1677852.3489932886,
+     "deadline": 1794664175.4395692,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2920,
+ "next_id": 2923,
  "runs": 101,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:22hXYVLhjRxFr6CXdhB8uWqXJkJKMKr6UQQSMueXpump": 1794656409.0400958,
-  "seen:5ZDiuBxCLuAjjxSKiBdumQJ36P7Jd9mh5HFLY94Ppump": 1794656409.0400958,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794656409.0400958,
-  "seen:FNxVZo25dGerP4Tw49f4aHg9xac5qw1FER9F7EzK9cTs": 1794656409.0400958,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794656409.0400958,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794656590.4439979,
-  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794656590.4439979,
-  "seen:4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": 1794656590.4439979,
-  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794656590.4439979,
-  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1794656590.4439979,
-  "control:8HdzcabjCJQLQsnnoxEhC7HqEWnbkhmysNXzZbidpump": 1794656590.4896371,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794656775.1337595,
-  "control:ARw3xcaVbxk9yRoSmVCZHYus1mbkekM12z7uSFrCw7pD": 1794656775.420063,
-  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794656958.4967837,
-  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794656958.4967837,
   "seen:8HdzcabjCJQLQsnnoxEhC7HqEWnbkhmysNXzZbidpump": 1794657141.788528,
   "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794657141.788528,
   "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1794657141.788528,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794657141.788528
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794657141.788528,
+  "seen:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794657326.0441558,
+  "seen:22hXYVLhjRxFr6CXdhB8uWqXJkJKMKr6UQQSMueXpump": 1794657326.0441558,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794657326.0441558,
+  "control:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1794657326.4357276,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794657509.4535542,
+  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794657509.4535542,
+  "seen:HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7": 1794657509.4535542,
+  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794657509.4535542,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794657509.4535542,
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794657509.4535542,
+  "control:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794657509.4890423,
+  "seen:8EjEgyvB22rjiBJTQtG64MEh7tU9yMnZiZtD8SGmpump": 1794657692.159167,
+  "seen:Egw2fX7vFePa5D9YCdBWVu8eHn6MmPqva1evWcxSBbkq": 1794657692.159167,
+  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1794657692.159167,
+  "seen:5VN29jA325Tw9kRGwsUyZ58Jm8QujBam81V849PKFuzK": 1794657875.3174012,
+  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794657875.3174012,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794657875.3174012,
+  "control:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794657875.4395723
  },
  "talks": {
   "2026-10-21": 109
@@ -118,17 +151,17 @@
  ],
  "last_review": 1794595040.63846,
  "news": {
-  "t": 1794655875.1422749,
+  "t": 1794656792.1677163,
   "crypto": [
    "Here\u2019s what happened in crypto today (0h ago)",
    "Microsoft confirms global outage resolved, rules out cyberattack (1h ago)",
-   "MegaETH parent cuts 20% of staff amid restructuring, AI push (3h ago)",
+   "MegaETH parent cuts 20% of staff amid restructuring, AI push (4h ago)",
    "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock\u2019s losing streak hits 11 (5h ago)",
    "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011 (7h ago)",
    "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out (12h ago)",
    "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex (14h ago)",
    "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system (14h ago)",
-   "Kraken parent Payward gains market share as slower trading weighs on earnings (14h ago)",
+   "Kraken parent Payward gains market share as slower trading weighs on earnings (15h ago)",
    "US regulators move ahead on crypto trust charters as Senate scrutiny grows (15h ago)"
   ],
   "macro": [],
@@ -162,5 +195,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794655141.6139085
+ "last_macro_macro": 1794656426.0523205
 }
