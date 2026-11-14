@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-14 20:28 UTC. Runs so far: 102. Model: claude-haiku-5-5.
+Updated 2026-11-14 20:41 UTC. Runs so far: 102. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2883 | 31 | -72463.3 | -100174.34 |
+| control | meme | 2885 | 31 | -72570.0 | -100298.82 |
 | control | macro | 60 | 52 | 454.48 | 160.55 |
-| control | all | 2943 | 31 | -72008.82 | -100013.79 |
+| control | all | 2945 | 31 | -72115.52 | -100138.27 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,9 +19,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: Aliens long at 0.0002292, stop 0.00018336, target 0.00032088, opened 2026-11-14 19:43 UTC
 - control: GTA$ long at 0.0001705, stop 0.0001364, target 0.0002387, opened 2026-11-14 20:04 UTC
-- control: kibble long at 5.634e-05, stop 4.5072e-05, target 7.8876e-05, opened 2026-11-14 20:22 UTC
 - control: GIGAPIG long at 6.271e-05, stop 5.0168e-05, target 8.7794e-05, opened 2026-11-14 20:25 UTC
-- control: bill long at 0.0002803, stop 0.00022424, target 0.00039242, opened 2026-11-14 20:28 UTC
+- control: DOGCOIN long at 0.000134, stop 0.0001072, target 0.0001876, opened 2026-11-14 20:41 UTC
 
 ## Team
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-14 20:28 UTC control: OPENED bill long at 0.0002803 (stop 0.00022424, target 0.00039242) - control: frozen v3 rules
+- control: CLOSED kibble (stop) P&L $-55.79 normal, $-64.62 pessimistic
 
