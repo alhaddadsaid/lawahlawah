@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -61700.485570539786,
+   "cash": -61632.485570539786,
    "open": [
     {
      "id": 2847,
@@ -21,21 +21,6 @@
      "size": 7.017561035305731,
      "deadline": 1794686566.9968958,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 2938,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ASTRALIS",
-     "mint": "DWsutTNJSjG5mkhGsPevvT8xbRtVYQBLZdxqxm2Upump",
-     "side": 1,
-     "opened": 1794670905.076234,
-     "entry": 0.0001394,
-     "stop": 0.00011152,
-     "target": 0.00019516,
-     "size": 1434720.2295552366,
-     "deadline": 1794678105.0762343,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -44,13 +29,6 @@
  "runs": 101,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8SUanYKYLaNGeUrCWFs1BiFbzd9Fs4qtrGDkNP87pump": 1794671075.6880682,
-  "seen:82GJS2XA8x8d82Gkdq58GSP6oAzwrRsnvrrvHETKpump": 1794671075.6880682,
-  "seen:8JNcbK2bWFxQnZsR6xQtgB3en7DcFSXW5xSyh6fYpump": 1794671075.6880682,
-  "seen:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": 1794671075.6880682,
-  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794671075.6880682,
-  "seen:FvQHUAqNV4U8X559sFmjqSm6juzprVJLxgimNrKDaray": 1794671075.6880682,
-  "seen:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794671075.6880682,
   "seen:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": 1794671257.1281717,
   "seen:AUfKbxEbRjZgzZEpZzfwD5MggW7HwXJd3t486JnRpump": 1794671257.1281717,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794671257.1281717,
@@ -66,7 +44,11 @@
   "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794671805.038705,
   "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794671805.038705,
   "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794671805.038705,
-  "control:DWsutTNJSjG5mkhGsPevvT8xbRtVYQBLZdxqxm2Upump": 1794671805.0762377
+  "control:DWsutTNJSjG5mkhGsPevvT8xbRtVYQBLZdxqxm2Upump": 1794671805.0762377,
+  "seen:8SUanYKYLaNGeUrCWFs1BiFbzd9Fs4qtrGDkNP87pump": 1794671984.3912592,
+  "seen:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794671984.3912592,
+  "seen:8JNcbK2bWFxQnZsR6xQtgB3en7DcFSXW5xSyh6fYpump": 1794671984.3912592,
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794671984.3912592
  },
  "talks": {
   "2026-10-21": 109
