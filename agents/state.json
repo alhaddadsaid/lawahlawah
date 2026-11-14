@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -61169.977350395486,
+   "cash": -61226.318917686796,
    "open": [
     {
      "id": 2847,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2928,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Sakura",
-     "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
-     "side": 1,
-     "opened": 1794660830.043351,
-     "entry": 8.218e-05,
-     "stop": 6.5744e-05,
-     "target": 0.000115052,
-     "size": 2433682.161109759,
-     "deadline": 1794668030.0433514,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 2929,
      "desk": "control",
      "market": "meme",
@@ -81,25 +66,29 @@
      "size": 757862.826828344,
      "deadline": 1794668764.2789032,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2930,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ZAPZEKE",
+     "mint": "8azHd6ZpAdpyFzGAaNkofyKhr19RWNNquSC8bAGEpump",
+     "side": 1,
+     "opened": 1794662298.5648918,
+     "entry": 5.716e-05,
+     "stop": 4.572800000000001e-05,
+     "target": 8.002399999999999e-05,
+     "size": 3498950.3149055284,
+     "deadline": 1794669498.564892,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2930,
+ "next_id": 2931,
  "runs": 101,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794661913.8969662,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794661913.8969662,
-  "seen:HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7": 1794661913.8969662,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794662095.8658345,
-  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794662095.8658345,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794662095.8658345,
-  "seen:Gta6uoekEj831ppDPD4EiX3Xj9tW8SxR5rzCsF7cLeEk": 1794662095.8658345,
-  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794662095.8658345,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1794662280.7534108,
-  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794662280.7534108,
-  "seen:EcCpMnjc3wJQrCKSsyrzyJiXRwY6AZPLzSaWR2bPpump": 1794662280.7534108,
   "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794662463.9552062,
   "seen:NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": 1794662463.9552062,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794662463.9552062,
@@ -107,7 +96,19 @@
   "seen:8azHd6ZpAdpyFzGAaNkofyKhr19RWNNquSC8bAGEpump": 1794662647.991166,
   "seen:HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": 1794662647.991166,
   "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794662647.991166,
-  "seen:22hXYVLhjRxFr6CXdhB8uWqXJkJKMKr6UQQSMueXpump": 1794662647.991166
+  "seen:22hXYVLhjRxFr6CXdhB8uWqXJkJKMKr6UQQSMueXpump": 1794662647.991166,
+  "seen:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794662832.6125226,
+  "seen:HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7": 1794662832.6125226,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794662832.6125226,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794663015.4198248,
+  "seen:XsoBhf2ufR8fTyNSjqfU71DYGaE6Z3SUGAidpzriAA4": 1794663015.4198248,
+  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794663015.4198248,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794663015.4198248,
+  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794663015.4198248,
+  "seen:3MwjGmRAXU3m7EyeZuVfsNrWgRZjuXZYNCywFXK432AH": 1794663198.2827833,
+  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794663198.2827833,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794663198.2827833,
+  "control:8azHd6ZpAdpyFzGAaNkofyKhr19RWNNquSC8bAGEpump": 1794663198.564894
  },
  "talks": {
   "2026-10-21": 109
@@ -148,14 +149,14 @@
  ],
  "last_review": 1794595040.63846,
  "news": {
-  "t": 1794661380.761938,
+  "t": 1794662298.2908964,
   "crypto": [
    "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill (0h ago)",
    "A behind the scenes force may amplify bitcoin and ether price volatility (0h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
-   "Microsoft confirms global outage resolved, rules out cyberattack (2h ago)",
+   "Microsoft confirms global outage resolved, rules out cyberattack (3h ago)",
    "MegaETH parent cuts 20% of staff amid restructuring, AI push (5h ago)",
-   "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock\u2019s losing streak hits 11 (6h ago)",
+   "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock\u2019s losing streak hits 11 (7h ago)",
    "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011 (9h ago)",
    "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out (14h ago)",
    "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex (15h ago)",
