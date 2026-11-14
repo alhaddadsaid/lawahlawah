@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-14 14:48 UTC. Runs so far: 101. Model: claude-haiku-5-5.
+Updated 2026-11-14 15:02 UTC. Runs so far: 101. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2854 | 31 | -71889.33 | -99317.64 |
+| control | meme | 2855 | 31 | -71954.7 | -99391.59 |
 | control | macro | 59 | 51 | 389.92 | 99.5 |
-| control | all | 2913 | 32 | -71499.41 | -99218.14 |
+| control | all | 2914 | 32 | -71564.78 | -99292.09 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -31,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED ZAPZEKE (stop) P&L $-200.52 normal, $-205.64 pessimistic
+- control: order GBPUSD REJECTED by guardrails: GBPUSD market closed or data stale
 
