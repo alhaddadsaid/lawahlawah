@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -62115.31585566109,
+   "cash": -62184.790855661086,
    "open": [
     {
      "id": 2958,
@@ -53,36 +53,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 2968,
+     "id": 2969,
      "desk": "control",
      "market": "meme",
-     "symbol": "DOGCOIN",
-     "mint": "46sup1Mc1AdQPpikrdNLUjmzSgZcEYdV3pk8XPPXpump",
+     "symbol": "bill",
+     "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
      "side": 1,
-     "opened": 1794688870.9429426,
-     "entry": 0.000134,
-     "stop": 0.0001072,
-     "target": 0.0001876,
-     "size": 1492537.3134328357,
-     "deadline": 1794696070.9429426,
+     "opened": 1794689239.7109106,
+     "entry": 0.000214,
+     "stop": 0.00017120000000000001,
+     "target": 0.00029959999999999996,
+     "size": 934579.4392523365,
+     "deadline": 1794696439.7109108,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2969,
+ "next_id": 2970,
  "runs": 102,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1794689035.9173746,
-  "seen:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": 1794689035.9173746,
-  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794689035.9173746,
-  "control:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794689035.9876285,
-  "seen:3uvU1VbrQx5M3U1VAPdKrFPfUB21RjPbxDLs8uexpump": 1794689220.4584942,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794689220.4584942,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794689220.4584942,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794689220.4584942,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794689220.4584942,
   "seen:46sup1Mc1AdQPpikrdNLUjmzSgZcEYdV3pk8XPPXpump": 1794689404.5845773,
   "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794689404.5845773,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794689404.5845773,
@@ -96,7 +87,16 @@
   "seen:6vtfL1Zi8YQqQrsxwLqguFNFCvwmER5SnYSBYDTRpump": 1794689770.8813004,
   "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1794689770.8813004,
   "seen:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794689770.8813004,
-  "control:46sup1Mc1AdQPpikrdNLUjmzSgZcEYdV3pk8XPPXpump": 1794689770.9429674
+  "control:46sup1Mc1AdQPpikrdNLUjmzSgZcEYdV3pk8XPPXpump": 1794689770.9429674,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794689955.7403934,
+  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1794689955.7403934,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1794689955.7403934,
+  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794689955.7403934,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794690138.896503,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794690138.896503,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794690138.896503,
+  "seen:ELbCDkRuUTuzPCR6CarMVtR1CYh71AzGhuZTBPePpump": 1794690138.896503,
+  "control:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794690139.7109149
  },
  "talks": {
   "2026-10-21": 109
@@ -137,7 +137,7 @@
  ],
  "last_review": 1794681533.5686712,
  "news": {
-  "t": 1794688320.4671974,
+  "t": 1794689238.9055614,
   "crypto": [
    "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave (4h ago)",
    "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (4h ago)",
@@ -147,7 +147,7 @@
    "A behind the scenes force may amplify bitcoin and ether price volatility (8h ago)",
    "Here\u2019s what happened in crypto today (9h ago)",
    "Microsoft confirms global outage resolved, rules out cyberattack (10h ago)",
-   "MegaETH parent cuts 20% of staff amid restructuring, AI push (12h ago)",
+   "MegaETH parent cuts 20% of staff amid restructuring, AI push (13h ago)",
    "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock\u2019s losing streak hits 11 (14h ago)"
   ],
   "macro": [],
