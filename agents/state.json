@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -62627.74637208112,
+   "cash": -62630.342166473645,
    "open": [
-    {
-     "id": 2979,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GTA$",
-     "mint": "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
-     "side": 1,
-     "opened": 1794696396.055369,
-     "entry": 0.0001645,
-     "stop": 0.0001316,
-     "target": 0.00023029999999999996,
-     "size": 1215805.4711246202,
-     "deadline": 1794703596.0553694,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2980,
      "desk": "control",
@@ -51,21 +36,6 @@
      "size": 1576044.1292356187,
      "deadline": 1794705243.6890717,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2983,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "J*B",
-     "mint": "3Kf7Jxy1dB5TH56qFkC6XUW9S3qtMZQJzuUPzbdMpump",
-     "side": 1,
-     "opened": 1794699692.9926183,
-     "entry": 8.132e-05,
-     "stop": 6.505600000000001e-05,
-     "target": 0.000113848,
-     "size": 2459419.5769798327,
-     "deadline": 1794706892.9926183,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,15 +44,6 @@
  "runs": 103,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794699858.2172227,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794699858.2172227,
-  "seen:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794699858.2172227,
-  "seen:8UR3BDBHhuyjJNsN3xM4fUyXDCWkoNRyxZkNPJU7ZwHU": 1794700041.5825076,
-  "seen:Aen9DXF7mtWbVKEoQhCXrS38DxvoghfzXvkJ88a9tEnZ": 1794700041.5825076,
-  "seen:Hi6qQHwHBnx9uaxT3KyBxaHaUn4JTAG6ijygQbiopump": 1794700041.5825076,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794700226.3510945,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794700226.3510945,
-  "seen:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": 1794700226.3510945,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794700409.6431897,
   "seen:AvRSpY1rPA9iVFxYHc5D5JQW6oU5tjGQZdsW2e5upump": 1794700409.6431897,
   "seen:3Kf7Jxy1dB5TH56qFkC6XUW9S3qtMZQJzuUPzbdMpump": 1794700409.6431897,
@@ -92,7 +53,16 @@
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794700592.8909092,
   "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794700592.8909092,
   "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794700592.8909092,
-  "control:3Kf7Jxy1dB5TH56qFkC6XUW9S3qtMZQJzuUPzbdMpump": 1794700592.9926217
+  "control:3Kf7Jxy1dB5TH56qFkC6XUW9S3qtMZQJzuUPzbdMpump": 1794700592.9926217,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794700777.9022257,
+  "seen:7R3RnGmpV9mZXwSyHyKN5LEddiZRmGsYrAZPgDJqpump": 1794700777.9022257,
+  "seen:7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump": 1794700961.7744763,
+  "seen:Hi6qQHwHBnx9uaxT3KyBxaHaUn4JTAG6ijygQbiopump": 1794700961.7744763,
+  "seen:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794700961.7744763,
+  "seen:DbHr5Pa3gQ8egkSmGQG4zzN3aZHpAG5SdLLhBKDVpump": 1794701145.0073051,
+  "seen:6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump": 1794701145.0073051,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794701145.0073051,
+  "seen:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": 1794701145.0073051
  },
  "talks": {
   "2026-10-21": 109
@@ -133,7 +103,7 @@
  ],
  "last_review": 1794681533.5686712,
  "news": {
-  "t": 1794699326.3638394,
+  "t": 1794700245.0202737,
   "crypto": [
    "Bitcoin crashes to 3-month low below $64,000 as analyst flags fourth capitulation wave (7h ago)",
    "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (7h ago)",
@@ -143,7 +113,7 @@
    "A behind the scenes force may amplify bitcoin and ether price volatility (11h ago)",
    "Here\u2019s what happened in crypto today (12h ago)",
    "Microsoft confirms global outage resolved, rules out cyberattack (13h ago)",
-   "MegaETH parent cuts 20% of staff amid restructuring, AI push (15h ago)",
+   "MegaETH parent cuts 20% of staff amid restructuring, AI push (16h ago)",
    "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock\u2019s losing streak hits 11 (17h ago)"
   ],
   "macro": [],
@@ -177,5 +147,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794698594.5691102
+ "last_macro_macro": 1794699877.9152036
 }
