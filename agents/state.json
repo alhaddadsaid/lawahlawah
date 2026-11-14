@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -60562.430549953766,
+   "cash": -60560.29362049318,
    "open": [
     {
      "id": 2847,
@@ -21,21 +21,6 @@
      "size": 7.017561035305731,
      "deadline": 1794686566.9968958,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 2864,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Sakura",
-     "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
-     "side": 1,
-     "opened": 1794614466.6223598,
-     "entry": 0.0001687,
-     "stop": 0.00013496000000000002,
-     "target": 0.00023617999999999998,
-     "size": 1185536.4552459987,
-     "deadline": 1794621666.62236,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 2868,
@@ -74,21 +59,25 @@
  "runs": 99,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794620872.575669,
-  "seen:m7SihqeaWimE1zpBzjHBwKJbbhuaczX5fHvGoNupump": 1794620872.575669,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794620872.575669,
-  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794621056.2012126,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794621056.2012126,
-  "seen:27UnW8kJufYjPS2yxNrNhCFNR4arnnqnPTSEqtzBpump": 1794621237.3699229,
-  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794621237.3699229,
-  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794621237.3699229,
-  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794621237.3699229,
-  "seen:HJWMayjf5H6EzuNTbpk4uq9Dfp4P5CLnjZCpZvKHpump": 1794621237.3699229,
-  "seen:AUH2LBseFhiYBxr1xsdyBhr7m4HSGMk9oWRB7f2qpump": 1794621420.6392705,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794621420.6392705,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794621420.6392705,
-  "seen:CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump": 1794621600.747519,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794621600.747519
+  "seen:4PxYxGrMpfzFkb9ubTNoXC5dXnT4F8AJPRgrw5eNpump": 1794621783.9388728,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794621783.9388728,
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794621783.9388728,
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794621783.9388728,
+  "seen:5pwFhhzm3Bbt7gXqtGLqUBiNty925PozrFBSPFkZgiyK": 1794621967.2386367,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794621967.2386367,
+  "seen:6mXFCoZ515w37YfmwXGJMPfQfiK5tr9WkihW3oN9pump": 1794621967.2386367,
+  "seen:BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump": 1794622151.745331,
+  "seen:27Rc6BcRCEdtUnXyx9yUrrQuWeE31Cu3x6sNdnmBpump": 1794622151.745331,
+  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794622151.745331,
+  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794622151.745331,
+  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794622151.745331,
+  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794622151.745331,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794622334.66388,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794622334.66388,
+  "seen:9T9JyZtJQjYNfSYvhMB4uXkPJLUv6MTfVRBNRq5Spump": 1794622518.2324328,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794622518.2324328,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794622518.2324328,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794622518.2324328
  },
  "talks": {
   "2026-10-21": 109
@@ -129,17 +118,17 @@
  ],
  "last_review": 1794595040.63846,
  "news": {
-  "t": 1794619972.588778,
+  "t": 1794620883.9520001,
   "crypto": [
    "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out (2h ago)",
-   "Here\u2019s what happened in crypto today (3h ago)",
+   "Here\u2019s what happened in crypto today (4h ago)",
    "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex (4h ago)",
    "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system (4h ago)",
    "Kraken parent Payward gains market share as slower trading weighs on earnings (5h ago)",
    "US regulators move ahead on crypto trust charters as Senate scrutiny grows (5h ago)",
    "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters (7h ago)",
    "Metaplanet swings to $170M loss as Bitcoin sale hits earnings (7h ago)",
-   "U.S. Senate Banking Committee races toward hearing on new SEC nominations (8h ago)",
+   "U.S. Senate Banking Committee races toward hearing on new SEC nominations (9h ago)",
    "Bitcoin holds below $70K as stocks slip despite a cooler US PPI print (9h ago)"
   ],
   "macro": [],
