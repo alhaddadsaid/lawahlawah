@@ -51,29 +51,44 @@
      "size": 1218769.043266301,
      "deadline": 1794629182.2580075,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2874,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "HARAMBE",
+     "mint": "EjoWiu2PLuEs6roeM1H9YxApa3LQ3guo9E27Lcu5pump",
+     "side": 1,
+     "opened": 1794625100.4010825,
+     "entry": 5.701e-05,
+     "stop": 4.5608e-05,
+     "target": 7.981399999999999e-05,
+     "size": 3508156.463778285,
+     "deadline": 1794632300.401083,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2874,
+ "next_id": 2875,
  "runs": 99,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794624531.5670986,
-  "seen:BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump": 1794624716.4210565,
-  "seen:EjoWiu2PLuEs6roeM1H9YxApa3LQ3guo9E27Lcu5pump": 1794624716.4210565,
-  "seen:4B1mCGeSjTadzH7okALwdFm8taxoHbZBFCTA1nZRpump": 1794624716.4210565,
-  "seen:5ZDiuBxCLuAjjxSKiBdumQJ36P7Jd9mh5HFLY94Ppump": 1794624716.4210565,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794624899.183433,
-  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794624899.183433,
-  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794624899.183433,
-  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794624899.183433,
-  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794624899.183433,
-  "seen:4HwfkLiQtJYGUCb6Na9KVy6c8ScHjaJmgRXYpbghpump": 1794625082.0845277,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794625082.0845277,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794625082.0845277,
-  "seen:HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7": 1794625082.0845277,
-  "seen:CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump": 1794625266.1413033
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794625449.3046916,
+  "seen:EjoWiu2PLuEs6roeM1H9YxApa3LQ3guo9E27Lcu5pump": 1794625632.6777685,
+  "seen:4B1mCGeSjTadzH7okALwdFm8taxoHbZBFCTA1nZRpump": 1794625632.6777685,
+  "seen:5ZDiuBxCLuAjjxSKiBdumQJ36P7Jd9mh5HFLY94Ppump": 1794625632.6777685,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794625632.6777685,
+  "seen:HsZXb9rppRQarZHHCvuLkKP7sAKPMCwrarf5KTTcpump": 1794625817.1613224,
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794625817.1613224,
+  "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794625817.1613224,
+  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794625817.1613224,
+  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794625817.1613224,
+  "seen:4HwfkLiQtJYGUCb6Na9KVy6c8ScHjaJmgRXYpbghpump": 1794626000.368341,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794626000.368341,
+  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794626000.368341,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794626000.368341,
+  "control:EjoWiu2PLuEs6roeM1H9YxApa3LQ3guo9E27Lcu5pump": 1794626000.401086
  },
  "talks": {
   "2026-10-21": 109
@@ -114,17 +129,17 @@
  ],
  "last_review": 1794595040.63846,
  "news": {
-  "t": 1794623631.5802271,
+  "t": 1794624549.317891,
   "crypto": [
    "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out (3h ago)",
-   "Here\u2019s what happened in crypto today (4h ago)",
+   "Here\u2019s what happened in crypto today (5h ago)",
    "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex (5h ago)",
    "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system (5h ago)",
    "Kraken parent Payward gains market share as slower trading weighs on earnings (6h ago)",
    "US regulators move ahead on crypto trust charters as Senate scrutiny grows (6h ago)",
    "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters (8h ago)",
    "Metaplanet swings to $170M loss as Bitcoin sale hits earnings (8h ago)",
-   "U.S. Senate Banking Committee races toward hearing on new SEC nominations (9h ago)",
+   "U.S. Senate Banking Committee races toward hearing on new SEC nominations (10h ago)",
    "Bitcoin holds below $70K as stocks slip despite a cooler US PPI print (10h ago)"
   ],
   "macro": [],
