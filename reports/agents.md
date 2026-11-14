@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-14 17:27 UTC. Runs so far: 102. Model: claude-haiku-5-5.
+Updated 2026-11-14 17:37 UTC. Runs so far: 102. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2861 | 31 | -72143.58 | -99637.17 |
+| control | meme | 2862 | 31 | -72193.59 | -99696.16 |
 | control | macro | 59 | 51 | 389.92 | 99.5 |
-| control | all | 2920 | 31 | -71753.66 | -99537.67 |
+| control | all | 2921 | 31 | -71803.67 | -99596.66 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GOLD long at 3876.6, stop 3862.35, target 3897.98, opened 2026-11-13 20:02 UTC
-- control: Angel long at 0.0001001, stop 8.008e-05, target 0.00014014, opened 2026-11-14 17:10 UTC
+- control: Angel long at 8.681e-05, stop 6.9448e-05, target 0.000121534, opened 2026-11-14 17:31 UTC
+- control: GTA$ long at 0.0001246, stop 9.968e-05, target 0.00017444, opened 2026-11-14 17:34 UTC
+- control: boob long at 0.0001766, stop 0.00014128, target 0.00024724, opened 2026-11-14 17:37 UTC
 
 ## Team
 
@@ -31,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED YoungBull (stop) P&L $-51.75 normal, $-60.68 pessimistic
+- 2026-11-14 17:37 UTC control: OPENED boob long at 0.0001766 (stop 0.00014128, target 0.00024724) - control: frozen v3 rules
 
