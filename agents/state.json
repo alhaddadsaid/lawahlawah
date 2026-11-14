@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -61000.53632691625,
+   "cash": -61050.370638996785,
    "open": [
     {
      "id": 2847,
@@ -66,21 +66,6 @@
      "size": 1839926.4029438822,
      "deadline": 1794663809.4890394,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2922,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Sakura",
-     "mint": "9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump",
-     "side": 1,
-     "opened": 1794656975.439569,
-     "entry": 0.0001192,
-     "stop": 9.536000000000001e-05,
-     "target": 0.00016687999999999997,
-     "size": 1677852.3489932886,
-     "deadline": 1794664175.4395692,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,15 +74,6 @@
  "runs": 101,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8EjEgyvB22rjiBJTQtG64MEh7tU9yMnZiZtD8SGmpump": 1794657692.159167,
-  "seen:Egw2fX7vFePa5D9YCdBWVu8eHn6MmPqva1evWcxSBbkq": 1794657692.159167,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1794657692.159167,
-  "seen:5VN29jA325Tw9kRGwsUyZ58Jm8QujBam81V849PKFuzK": 1794657875.3174012,
-  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794657875.3174012,
-  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794657875.3174012,
-  "control:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794657875.4395723,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794658057.1241577,
-  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794658057.1241577,
   "seen:ARw3xcaVbxk9yRoSmVCZHYus1mbkekM12z7uSFrCw7pD": 1794658245.5630684,
   "seen:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794658245.5630684,
   "seen:8HdzcabjCJQLQsnnoxEhC7HqEWnbkhmysNXzZbidpump": 1794658245.5630684,
@@ -110,7 +86,13 @@
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794658428.4636576,
   "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794658428.4636576,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794658428.4636576,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794658428.4636576
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794658428.4636576,
+  "seen:GajYRbxbc68yKH4PoknBmB1ZcHCLJHkwozoAiWXvspxA": 1794658613.713876,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794658613.713876,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794658797.3341758,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794658980.3863204,
+  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794658980.3863204,
+  "seen:Gta6uoekEj831ppDPD4EiX3Xj9tW8SxR5rzCsF7cLeEk": 1794658980.3863204
  },
  "talks": {
   "2026-10-21": 109
@@ -151,14 +133,14 @@
  ],
  "last_review": 1794595040.63846,
  "news": {
-  "t": 1794656792.1677163,
+  "t": 1794657713.7223856,
   "crypto": [
-   "Here\u2019s what happened in crypto today (0h ago)",
+   "Here\u2019s what happened in crypto today (1h ago)",
    "Microsoft confirms global outage resolved, rules out cyberattack (1h ago)",
    "MegaETH parent cuts 20% of staff amid restructuring, AI push (4h ago)",
    "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock\u2019s losing streak hits 11 (5h ago)",
-   "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011 (7h ago)",
-   "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out (12h ago)",
+   "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011 (8h ago)",
+   "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out (13h ago)",
    "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex (14h ago)",
    "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system (14h ago)",
    "Kraken parent Payward gains market share as slower trading weighs on earnings (15h ago)",
@@ -195,5 +177,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794656426.0523205
+ "last_macro_macro": 1794657713.7221828
 }
