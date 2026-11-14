@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-14 13:18 UTC. Runs so far: 101. Model: claude-haiku-5-5.
+Updated 2026-11-14 13:30 UTC. Runs so far: 101. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2847 | 31 | -71616.46 | -98979.96 |
+| control | meme | 2848 | 31 | -71548.46 | -98923.96 |
 | control | macro | 59 | 51 | 389.92 | 99.5 |
-| control | all | 2906 | 32 | -71226.54 | -98880.46 |
+| control | all | 2907 | 32 | -71158.54 | -98824.46 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,9 +19,9 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: GOLD long at 3876.6, stop 3862.35, target 3897.98, opened 2026-11-13 20:02 UTC
 - control: fone long at 0.001046, stop 0.0008368, target 0.0014644, opened 2026-11-14 11:40 UTC
-- control: WISHMAS long at 0.0001087, stop 8.696e-05, target 0.00015218, opened 2026-11-14 11:43 UTC
 - control: Punch long at 0.0002639, stop 0.00021112, target 0.00036946, opened 2026-11-14 13:06 UTC
 - control: ZAPZEKE long at 5.716e-05, stop 4.5728e-05, target 8.0024e-05, opened 2026-11-14 13:18 UTC
+- control: DYC long at 0.000172, stop 0.0001376, target 0.0002408, opened 2026-11-14 13:27 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-14 13:18 UTC control: OPENED ZAPZEKE long at 5.716e-05 (stop 4.5728e-05, target 8.0024e-05) - control: frozen v3 rules
+- control: order Sakura REJECTED by guardrails: desk already has the maximum open positions
 
