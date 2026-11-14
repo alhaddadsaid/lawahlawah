@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-14 22:09 UTC. Runs so far: 102. Model: claude-haiku-5-5.
+Updated 2026-11-14 22:18 UTC. Runs so far: 102. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2894 | 31 | -72927.17 | -100739.13 |
+| control | meme | 2895 | 31 | -72859.17 | -100683.13 |
 | control | macro | 60 | 52 | 454.48 | 160.55 |
-| control | all | 2954 | 31 | -72472.69 | -100578.58 |
+| control | all | 2955 | 31 | -72404.69 | -100522.58 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GIGAPIG long at 6.271e-05, stop 5.0168e-05, target 8.7794e-05, opened 2026-11-14 20:25 UTC
-- control: bill long at 0.0002155, stop 0.0001724, target 0.0003017, opened 2026-11-14 21:48 UTC
 - control: NUREMBERG long at 0.0001257, stop 0.00010056, target 0.00017598, opened 2026-11-14 21:51 UTC
 
 ## Team
@@ -32,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order bill REJECTED by guardrails: bill already open
+- control: CLOSED bill (target) P&L $68.0 normal, $56.0 pessimistic
 

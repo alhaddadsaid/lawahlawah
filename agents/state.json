@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -62472.48861749296,
+   "cash": -62404.48861749296,
    "open": [
     {
      "id": 2966,
@@ -20,21 +20,6 @@
      "target": 8.779399999999998e-05,
      "size": 3189284.005740711,
      "deadline": 1794695153.2788534,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2974,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "bill",
-     "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
-     "side": 1,
-     "opened": 1794692906.2096825,
-     "entry": 0.0002155,
-     "stop": 0.00017240000000000002,
-     "target": 0.0003017,
-     "size": 928074.2459396751,
-     "deadline": 1794700106.2096827,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -59,25 +44,22 @@
  "runs": 102,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794694356.9826088,
-  "seen:F4vEFNoH9H2oLYRabaQQ2Z6jAAi2AhRVdTdVH6Nn2J1q": 1794694356.9826088,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794694356.9826088,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1794694540.1171184,
-  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794694540.1171184,
-  "seen:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794694540.1171184,
-  "seen:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": 1794694540.1171184,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794694540.1171184,
-  "control:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794694540.2215564,
-  "seen:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 1794694720.5929067,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794694720.5929067,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794694720.5929067,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1794694720.5929067,
   "seen:7R3RnGmpV9mZXwSyHyKN5LEddiZRmGsYrAZPgDJqpump": 1794694904.2576413,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794694904.2576413,
   "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794694904.2576413,
   "seen:3Kf7Jxy1dB5TH56qFkC6XUW9S3qtMZQJzuUPzbdMpump": 1794695087.6598809,
   "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794695087.6598809,
-  "seen:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": 1794695087.6598809
+  "seen:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": 1794695087.6598809,
+  "seen:8xvdAmaW6ZB8zGqTMbchCBVnsrWq8fzkpLzNg1NBpump": 1794695270.9416606,
+  "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794695270.9416606,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794695270.9416606,
+  "seen:F4vEFNoH9H2oLYRabaQQ2Z6jAAi2AhRVdTdVH6Nn2J1q": 1794695270.9416606,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794695455.8067105,
+  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794695455.8067105,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794695638.5584483,
+  "seen:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 1794695638.5584483,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794695638.5584483,
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794695638.5584483
  },
  "talks": {
   "2026-10-21": 109
@@ -118,16 +100,16 @@
  ],
  "last_review": 1794681533.5686712,
  "news": {
-  "t": 1794693820.6026516,
+  "t": 1794694738.5678563,
   "crypto": [
    "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave (6h ago)",
    "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (6h ago)",
-   "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale (6h ago)",
+   "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale (7h ago)",
    "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground (7h ago)",
    "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill (9h ago)",
    "A behind the scenes force may amplify bitcoin and ether price volatility (9h ago)",
    "Here\u2019s what happened in crypto today (11h ago)",
-   "Microsoft confirms global outage resolved, rules out cyberattack (11h ago)",
+   "Microsoft confirms global outage resolved, rules out cyberattack (12h ago)",
    "MegaETH parent cuts 20% of staff amid restructuring, AI push (14h ago)",
    "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock\u2019s losing streak hits 11 (16h ago)"
   ],
@@ -162,5 +144,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794693456.9921558
+ "last_macro_macro": 1794694738.5677571
 }
