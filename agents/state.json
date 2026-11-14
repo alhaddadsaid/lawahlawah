@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -61158.318917686796,
+   "cash": -61261.70938135793,
    "open": [
     {
      "id": 2847,
@@ -21,21 +21,6 @@
      "size": 7.017561035305731,
      "deadline": 1794686566.9968958,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 2920,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "fone",
-     "mint": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
-     "side": 1,
-     "opened": 1794656426.4357247,
-     "entry": 0.001046,
-     "stop": 0.0008368000000000001,
-     "target": 0.0014644,
-     "size": 191204.58891013384,
-     "deadline": 1794663626.435725,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 2929,
@@ -66,21 +51,6 @@
      "size": 3498950.3149055284,
      "deadline": 1794669498.564892,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2931,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DYC",
-     "mint": "97o3Kb9R7hMjHW6o9BunWk4jF1dFLhCpydPmh64npump",
-     "side": 1,
-     "opened": 1794662849.673082,
-     "entry": 0.000172,
-     "stop": 0.0001376,
-     "target": 0.0002408,
-     "size": 1162790.6976744186,
-     "deadline": 1794670049.673082,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,19 +59,6 @@
  "runs": 101,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3MwjGmRAXU3m7EyeZuVfsNrWgRZjuXZYNCywFXK432AH": 1794663198.2827833,
-  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794663198.2827833,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794663198.2827833,
-  "control:8azHd6ZpAdpyFzGAaNkofyKhr19RWNNquSC8bAGEpump": 1794663198.564894,
-  "seen:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": 1794663383.7712157,
-  "seen:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": 1794663383.7712157,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794663383.7712157,
-  "seen:97o3Kb9R7hMjHW6o9BunWk4jF1dFLhCpydPmh64npump": 1794663566.627673,
-  "seen:8azHd6ZpAdpyFzGAaNkofyKhr19RWNNquSC8bAGEpump": 1794663566.627673,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794663566.627673,
-  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794663566.627673,
-  "seen:22hXYVLhjRxFr6CXdhB8uWqXJkJKMKr6UQQSMueXpump": 1794663566.627673,
-  "seen:F4vEFNoH9H2oLYRabaQQ2Z6jAAi2AhRVdTdVH6Nn2J1q": 1794663566.627673,
   "seen:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794663749.3350463,
   "seen:HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7": 1794663749.3350463,
   "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794663749.3350463,
@@ -111,7 +68,18 @@
   "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794663932.7971985,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794663932.7971985,
   "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794663932.7971985,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794663932.7971985
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794663932.7971985,
+  "seen:Gta6uoekEj831ppDPD4EiX3Xj9tW8SxR5rzCsF7cLeEk": 1794664118.1204655,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794664118.1204655,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794664301.0593436,
+  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794664301.0593436,
+  "seen:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": 1794664301.0593436,
+  "seen:2eS62Qq2oroFqRMRpt6tgXh24uuNYWez3Mbq2XwRpump": 1794664484.777108,
+  "seen:97o3Kb9R7hMjHW6o9BunWk4jF1dFLhCpydPmh64npump": 1794664484.777108,
+  "seen:8azHd6ZpAdpyFzGAaNkofyKhr19RWNNquSC8bAGEpump": 1794664484.777108,
+  "seen:F4vEFNoH9H2oLYRabaQQ2Z6jAAi2AhRVdTdVH6Nn2J1q": 1794664484.777108,
+  "seen:22hXYVLhjRxFr6CXdhB8uWqXJkJKMKr6UQQSMueXpump": 1794664484.777108,
+  "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794664484.777108
  },
  "talks": {
   "2026-10-21": 109
@@ -152,18 +120,18 @@
  ],
  "last_review": 1794595040.63846,
  "news": {
-  "t": 1794662298.2908964,
+  "t": 1794663218.1286523,
   "crypto": [
-   "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill (0h ago)",
-   "A behind the scenes force may amplify bitcoin and ether price volatility (0h ago)",
+   "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill (1h ago)",
+   "A behind the scenes force may amplify bitcoin and ether price volatility (1h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "Microsoft confirms global outage resolved, rules out cyberattack (3h ago)",
    "MegaETH parent cuts 20% of staff amid restructuring, AI push (5h ago)",
    "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock\u2019s losing streak hits 11 (7h ago)",
    "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011 (9h ago)",
    "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out (14h ago)",
-   "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex (15h ago)",
-   "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system (15h ago)"
+   "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex (16h ago)",
+   "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system (16h ago)"
   ],
   "macro": [],
   "calendar": []
