@@ -66,23 +66,29 @@
      "size": 1910219.6752626554,
      "deadline": 1794646974.6824877,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2897,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Punch",
+     "mint": "NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump",
+     "side": 1,
+     "opened": 1794640143.6500366,
+     "entry": 0.0003285,
+     "stop": 0.00026280000000000005,
+     "target": 0.0004599,
+     "size": 608828.00608828,
+     "deadline": 1794647343.6500368,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2897,
+ "next_id": 2898,
  "runs": 100,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Hx1H9xGMuFRJcnVyzJb7VVyiFXnDh47xUYWt5JGtpump": 1794639944.2923653,
-  "seen:CRwB4GxVDM4Bnh8QMqh9Nk8UZNscced3xec824vxpump": 1794639944.2923653,
-  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794639944.2923653,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794639944.2923653,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794639944.2923653,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794640127.309973,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794640127.309973,
-  "seen:9W2NkHVVjS4p1KGrxBX9dJACiW3UtdkDHLAjnkyxpump": 1794640127.309973,
-  "control:A5bpyAGdSPKwX3YDyF563DmbVSfM3EcYgBPjPna8pump": 1794640127.860408,
   "seen:DWsutTNJSjG5mkhGsPevvT8xbRtVYQBLZdxqxm2Upump": 1794640308.4816663,
   "seen:A5bpyAGdSPKwX3YDyF563DmbVSfM3EcYgBPjPna8pump": 1794640308.4816663,
   "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794640308.4816663,
@@ -94,7 +100,18 @@
   "seen:FyHakvZH3L4UABSQYK7e9ECEzWV37u7GTkmAbHXspump": 1794640674.3419433,
   "seen:XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo": 1794640674.3419433,
   "seen:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794640674.3419433,
-  "control:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794640674.6824908
+  "control:9sFGCTjEsBk78uC2bCdxtwuUM1aartbBhe8WQXwRpump": 1794640674.6824908,
+  "seen:BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump": 1794640857.8570387,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794640857.8570387,
+  "seen:HWya5CpQiQWLnJfJVRDF9o8AHaUPnPMRa3vfQRczpump": 1794640857.8570387,
+  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794640857.8570387,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794640857.8570387,
+  "seen:TiMSdJrkVwUpeEWJpuqRvHt4wVS7uH77LbNPGGVJXNw": 1794640857.8570387,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794641043.2076938,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794641043.2076938,
+  "seen:HuAXPyDWDaMYFKuwQHpqL1oPnj93zdzWmtvFGzCeCUa7": 1794641043.2076938,
+  "seen:NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": 1794641043.2076938,
+  "control:NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": 1794641043.6500404
  },
  "talks": {
   "2026-10-21": 109
@@ -135,18 +152,18 @@
  ],
  "last_review": 1794595040.63846,
  "news": {
-  "t": 1794639227.3212757,
+  "t": 1794640143.2192934,
   "crypto": [
-   "Bitcoin ETFs shed $2.35B in two weeks as BlackRock\u2019s losing streak hits 11 sessions (0h ago)",
-   "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011 (2h ago)",
-   "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out (7h ago)",
+   "Bitcoin ETFs shed $2.35B in two weeks as BlackRock\u2019s losing streak hits 11 sessions (1h ago)",
+   "Satoshi-era wallet served in a $260 billion lawsuit moves 75 BTC it held since 2011 (3h ago)",
+   "Bitcoin miners pay Paraguay $350 million a year, but AI is pushing them out (8h ago)",
    "Here\u2019s what happened in crypto today (9h ago)",
    "OpenAI launches AI payments in ChatGPT with Visa, Mastercard and Amex (9h ago)",
    "Adam Back makes case for simpler security as Blockstream launches Bitcoin custody system (9h ago)",
    "Kraken parent Payward gains market share as slower trading weighs on earnings (10h ago)",
    "US regulators move ahead on crypto trust charters as Senate scrutiny grows (10h ago)",
    "Bitcoin plunges to $68,000 as Anthropic IPO frenzy adds to market jitters (12h ago)",
-   "Metaplanet swings to $170M loss as Bitcoin sale hits earnings (12h ago)"
+   "Metaplanet swings to $170M loss as Bitcoin sale hits earnings (13h ago)"
   ],
   "macro": [],
   "calendar": []
