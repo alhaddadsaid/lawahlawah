@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -62394.400977777,
+   "cash": -62420.3957421749,
    "open": [
-    {
-     "id": 2958,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Aliens",
-     "mint": "F5tfztTnE4sYsMhZT5KrFpWvHmYSfJZoRjCuxKPbpump",
-     "side": 1,
-     "opened": 1794685383.6051757,
-     "entry": 0.0002292,
-     "stop": 0.00018336,
-     "target": 0.00032088,
-     "size": 872600.3490401397,
-     "deadline": 1794692583.605176,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2966,
      "desk": "control",
@@ -36,32 +21,64 @@
      "size": 3189284.005740711,
      "deadline": 1794695153.2788534,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2974,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "bill",
+     "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+     "side": 1,
+     "opened": 1794692906.2096825,
+     "entry": 0.0002155,
+     "stop": 0.00017240000000000002,
+     "target": 0.0003017,
+     "size": 928074.2459396751,
+     "deadline": 1794700106.2096827,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2975,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "NUREMBERG",
+     "mint": "7R3RnGmpV9mZXwSyHyKN5LEddiZRmGsYrAZPgDJqpump",
+     "side": 1,
+     "opened": 1794693089.3487716,
+     "entry": 0.0001257,
+     "stop": 0.00010056,
+     "target": 0.00017597999999999998,
+     "size": 1591089.8965791569,
+     "deadline": 1794700289.3487716,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2974,
+ "next_id": 2976,
  "runs": 102,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1794692338.8136961,
-  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794692338.8136961,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794692338.8136961,
-  "seen:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": 1794692338.8136961,
-  "control:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794692338.8745685,
-  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794692521.6094046,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794692521.6094046,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794692704.7731028,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794692704.7731028,
-  "seen:27sDLLwdhfd4bAn3Lq8KfEoaie2924vRbQsyjdjjpump": 1794692888.8116758,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794692888.8116758,
-  "seen:BTCmcoKg6J767Bum7nXVDPLsWAZs3ZdYwTQr7YnXpump": 1794692888.8116758,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794692888.8116758,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794692888.8116758,
-  "seen:EcCpMnjc3wJQrCKSsyrzyJiXRwY6AZPLzSaWR2bPpump": 1794692888.8116758,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794693071.9346857,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1794693071.9346857,
-  "control:27sDLLwdhfd4bAn3Lq8KfEoaie2924vRbQsyjdjjpump": 1794693072.3442504
+  "seen:7R3RnGmpV9mZXwSyHyKN5LEddiZRmGsYrAZPgDJqpump": 1794693255.8359628,
+  "seen:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": 1794693255.8359628,
+  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794693255.8359628,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794693255.8359628,
+  "seen:3J45tRot6eMjdagG7tBhrccEy9ccFEH5UbmzzKod6844": 1794693438.7229283,
+  "seen:HWA17ggpNtLaxCe5b9r3gzg9FcV5KAGk2A2Z9UMmpump": 1794693438.7229283,
+  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794693438.7229283,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794693438.7229283,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794693623.1317222,
+  "seen:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794693623.1317222,
+  "seen:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 1794693805.5544372,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794693805.5544372,
+  "seen:3531MEu4B5n5RvTP3mWQQWJv9uNRD4Z5SYGcqYkppump": 1794693805.5544372,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794693805.5544372,
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794693805.5544372,
+  "control:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794693806.209685,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794693989.262509,
+  "seen:A3JUqWEvV93RfUMBYvj6vV181P5BAGqsBCQAZoEfpump": 1794693989.262509,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794693989.262509,
+  "control:7R3RnGmpV9mZXwSyHyKN5LEddiZRmGsYrAZPgDJqpump": 1794693989.348775
  },
  "talks": {
   "2026-10-21": 109
@@ -102,7 +119,7 @@
  ],
  "last_review": 1794681533.5686712,
  "news": {
-  "t": 1794691988.8209796,
+  "t": 1794692905.5633273,
   "crypto": [
    "Bitcoin slides to 3-month low of $65,000 as analyst flags fourth capitulation wave (5h ago)",
    "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (5h ago)",
@@ -112,7 +129,7 @@
    "A behind the scenes force may amplify bitcoin and ether price volatility (9h ago)",
    "Here\u2019s what happened in crypto today (10h ago)",
    "Microsoft confirms global outage resolved, rules out cyberattack (11h ago)",
-   "MegaETH parent cuts 20% of staff amid restructuring, AI push (13h ago)",
+   "MegaETH parent cuts 20% of staff amid restructuring, AI push (14h ago)",
    "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock\u2019s losing streak hits 11 (15h ago)"
   ],
   "macro": [],
