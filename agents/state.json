@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -64575.996408024046,
+   "cash": -64643.044705809116,
    "open": [
     {
      "id": 3049,
@@ -20,21 +20,6 @@
      "target": 0.00033628,
      "size": 832639.4671107411,
      "deadline": 1794754694.0673306,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3053,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "rockstar",
-     "mint": "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
-     "side": 1,
-     "opened": 1794750048.3266447,
-     "entry": 9.752e-05,
-     "stop": 7.8016e-05,
-     "target": 0.00013652800000000002,
-     "size": 2050861.3617719442,
-     "deadline": 1794757248.3266447,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -59,22 +44,25 @@
  "runs": 105,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Cbkk1jFZhTKUrHNrD6Jfeh8RWgzRdcg9ngConpxEp1B": 1794752223.3337293,
-  "seen:CiMyaPC9icicJxkFqvqpgL2YT2FjEQmGx1YVdG78pump": 1794752223.3337293,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794752223.3337293,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794752404.7202387,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794752404.7202387,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794752404.7202387,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794752404.7202387,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794752588.4589622,
-  "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794752588.4589622,
-  "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1794752588.4589622,
-  "seen:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": 1794752588.4589622,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794752588.4589622,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794752769.4830387,
   "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794752952.3168056,
   "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794752952.3168056,
-  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794752952.3168056
+  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794752952.3168056,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1794753136.6453068,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1794753136.6453068,
+  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794753136.6453068,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794753318.1567595,
+  "seen:5C8oJo6GUAjbvM5gihCEzypNx5Jo1CJ5cxeRRe8hpump": 1794753318.1567595,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794753318.1567595,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794753318.1567595,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794753318.1567595,
+  "seen:8WvWwttzaLfW1nbjx6wmYL5jozWpvy95WktAg5cipump": 1794753499.9838483,
+  "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794753499.9838483,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794753499.9838483,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794753499.9838483,
+  "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1794753499.9838483,
+  "seen:GUkwiQYxXzutiaF1io6i1j67BDd7UzJsgMinLRQ8pump": 1794753681.0914586,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794753681.0914586,
+  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794753681.0914586
  },
  "talks": {
   "2026-10-21": 109
@@ -115,7 +103,7 @@
  ],
  "last_review": 1794681533.5686712,
  "news": {
-  "t": 1794751504.7317693,
+  "t": 1794752418.1682053,
   "crypto": [
    "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session (0h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
@@ -125,7 +113,7 @@
    "XRP crashes to its lowest since November 2024 as money leaves crypto (11h ago)",
    "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave (22h ago)",
    "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (22h ago)",
-   "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale (22h ago)",
+   "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale (23h ago)",
    "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground (23h ago)"
   ],
   "macro": [],
@@ -159,5 +147,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794750957.4196694
+ "last_macro_macro": 1794752236.657394
 }
