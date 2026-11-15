@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-15 13:04 UTC. Runs so far: 105. Model: claude-haiku-5-5.
+Updated 2026-11-15 13:13 UTC. Runs so far: 105. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2965 | 31 | -74544.31 | -103042.98 |
+| control | meme | 2967 | 31 | -74673.4 | -103189.27 |
 | control | macro | 60 | 52 | 454.48 | 160.55 |
-| control | all | 3025 | 32 | -74089.83 | -102882.43 |
+| control | all | 3027 | 31 | -74218.92 | -103028.72 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,8 +19,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: fone long at 0.0009731, stop 0.00077848, target 0.00136234, opened 2026-11-15 11:30 UTC
 - control: DIGS long at 0.0001744, stop 0.00013952, target 0.00024416, opened 2026-11-15 11:45 UTC
-- control: PAW long at 7.13e-05, stop 5.704e-05, target 9.982e-05, opened 2026-11-15 12:24 UTC
-- control: JENSEN long at 0.0001276, stop 0.00010208, target 0.00017864, opened 2026-11-15 12:40 UTC
 - control: FOOD long at 0.0002402, stop 0.00019216, target 0.00033628, opened 2026-11-15 12:58 UTC
 
 ## Team
@@ -34,5 +32,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order DIGS REJECTED by guardrails: desk already has the maximum open positions
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- control: order DIGS REJECTED by guardrails: DIGS already open
 
