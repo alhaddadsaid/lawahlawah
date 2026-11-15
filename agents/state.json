@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -64825.32435469432,
+   "cash": -64757.32435469432,
    "open": [
     {
      "id": 3067,
@@ -66,21 +66,6 @@
      "size": 1359619.3065941536,
      "deadline": 1794770899.4268413,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3075,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Nyajira",
-     "mint": "8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump",
-     "side": 1,
-     "opened": 1794767160.0583496,
-     "entry": 6.71e-05,
-     "stop": 5.3680000000000015e-05,
-     "target": 9.394000000000001e-05,
-     "size": 2980625.9314456033,
-     "deadline": 1794774360.0583498,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,11 +74,6 @@
  "runs": 106,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump": 1794768060.0155036,
-  "seen:BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": 1794768060.0155036,
-  "control:8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump": 1794768060.058353,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794768237.352889,
-  "seen:13EAww2eo8g1Xp9U7qrLNg1WoHFHKbs9xy2EQJjfpump": 1794768237.352889,
   "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794768440.3211815,
   "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794768440.3211815,
   "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1794768440.3211815,
@@ -107,7 +87,13 @@
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794768790.706374,
   "seen:3GN46GsmAUQSpHXtY3oasJFYAbp9RBzVoR7X8ar1pump": 1794768790.706374,
   "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1794768790.706374,
-  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794768790.706374
+  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794768790.706374,
+  "seen:5p6uh5Fszrvo8pFPTjydBTBtFYCTimJiRjYFzC81pump": 1794768973.9664893,
+  "seen:ABzi3M1iwaFzq2xDuaiMGbYARZEtpbE3Comh96wncbCP": 1794768973.9664893,
+  "seen:7yMKHhRVtc68rVuSQjSJ3fD5bgKw4eNJ3iLrBJkfuMgp": 1794768973.9664893,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794769162.2572086,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794769162.2572086,
+  "seen:A3vB4dggaaMScchjNW9WifagMRiWaWtDAzunooDYcREQ": 1794769340.220498
  },
  "talks": {
   "2026-10-21": 109
@@ -146,15 +132,15 @@
    "instructions": "Before any trade, check the hypothesis against the journal and costs. Reject any idea without a pre-registered entry, stop, target, max hold and expected net edge. Track hit rate and net P&L per hypothesis."
   }
  ],
- "last_review": 1794681533.5686712,
+ "last_review": 1794768073.977952,
  "news": {
-  "t": 1794767337.3646295,
+  "t": 1794768262.2688997,
   "crypto": [
    "Enterprise blockchain is going to come back from the dead (4h ago)",
-   "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session (4h ago)",
+   "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session (5h ago)",
    "Here\u2019s what happened in crypto today (7h ago)",
    "Bitcoin falls to four-month low near $62K as crypto selloff deepens (8h ago)",
-   "Coinone warns of phishing, identity theft after customer data breach (10h ago)",
+   "Coinone warns of phishing, identity theft after customer data breach (11h ago)",
    "RWA protocol stUSDT winds down three years after $2.3B TVL peak (12h ago)",
    "XRP crashes to its lowest since November 2024 as money leaves crypto (16h ago)",
    "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave (26h ago)",
@@ -163,7 +149,7 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 22.5h"
+   "USD Fed Chairman Warsh Speaks in 22.3h"
   ]
  },
  "spend": {
@@ -194,5 +180,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794766977.837282
+ "last_macro_macro": 1794768262.2686176
 }
