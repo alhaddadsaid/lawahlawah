@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-15 20:39 UTC. Runs so far: 106. Model: claude-haiku-5-5.
+Updated 2026-11-15 20:49 UTC. Runs so far: 106. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3003 | 31 | -75456.42 | -104321.45 |
+| control | meme | 3004 | 31 | -75388.42 | -104265.45 |
 | control | macro | 60 | 52 | 454.48 | 160.55 |
-| control | all | 3063 | 32 | -75001.94 | -104160.9 |
+| control | all | 3064 | 32 | -74933.94 | -104104.9 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: Nyajira long at 6.207e-05, stop 4.9656e-05, target 8.6898e-05, opened 2026-11-15 19:32 UTC
 - control: BAWSAQ long at 0.0001834, stop 0.00014672, target 0.00025676, opened 2026-11-15 19:38 UTC
 - control: Socks long at 0.0001431, stop 0.00011448, target 0.00020034, opened 2026-11-15 19:57 UTC
-- control: BUTTHOLE long at 0.0003136, stop 0.00025088, target 0.00043904, opened 2026-11-15 20:18 UTC
+- control: DYC long at 8.776e-05, stop 7.0208e-05, target 0.000122864, opened 2026-11-15 20:42 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order GTA REJECTED by guardrails: desk already has the maximum open positions
+- control: order TAIL REJECTED by guardrails: desk already has the maximum open positions
 
