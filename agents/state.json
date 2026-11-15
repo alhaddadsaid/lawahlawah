@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -64912.22413817715,
+   "cash": -64844.22413817715,
    "open": [
     {
      "id": 3067,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3068,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Nyajira",
-     "mint": "8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump",
-     "side": 1,
-     "opened": 1794762058.0669246,
-     "entry": 6.145e-05,
-     "stop": 4.9160000000000004e-05,
-     "target": 8.603e-05,
-     "size": 3254678.6004882017,
-     "deadline": 1794769258.0669248,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3069,
      "desk": "control",
      "market": "meme",
@@ -51,23 +36,44 @@
      "size": 934142.9238673517,
      "deadline": 1794769441.0018458,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3070,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Socks",
+     "mint": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
+     "side": 1,
+     "opened": 1794762604.041502,
+     "entry": 0.000111,
+     "stop": 8.880000000000002e-05,
+     "target": 0.0001554,
+     "size": 1801801.801801802,
+     "deadline": 1794769804.0415022,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3071,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "DIGS",
+     "mint": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
+     "side": 1,
+     "opened": 1794762784.7775202,
+     "entry": 0.0001711,
+     "stop": 0.00013688,
+     "target": 0.00023954,
+     "size": 1168907.0718877849,
+     "deadline": 1794769984.7775204,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3070,
+ "next_id": 3072,
  "runs": 106,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794762776.892102,
-  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1794762776.892102,
-  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794762776.892102,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794762776.892102,
-  "seen:CiMyaPC9icicJxkFqvqpgL2YT2FjEQmGx1YVdG78pump": 1794762776.892102,
-  "seen:7XdCaKpqLmKE2K7yr9xaeWB1H2CVZ1oGwxB6hmd9pump": 1794762776.892102,
-  "seen:8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump": 1794762776.892102,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794762776.892102,
-  "control:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1794762777.932939,
   "seen:8NZpt9vb9oFiHcizDWJTyDYXuiAtZRXGv3mDj8D7pump": 1794762958.024195,
   "seen:AzeNfRi7DX5HndH7dUgCxMD5sQPV7FPFH1cwDkoqpump": 1794762958.024195,
   "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794762958.024195,
@@ -80,7 +86,19 @@
   "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794763140.9553823,
   "seen:34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": 1794763140.9553823,
   "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794763140.9553823,
-  "control:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794763141.001849
+  "control:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794763141.001849,
+  "seen:9saVhF12eXhKzBQVZ5QHeKM9BhDB2nvupE6ASM13pump": 1794763321.20833,
+  "seen:4JhX8T75P9z4gk91SBnQeAb7h7qCe7iWAiVgucVypump": 1794763321.20833,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794763321.20833,
+  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794763321.20833,
+  "seen:B82PFKmT4aM38EUUqVoZs6sZdAfxDHHrB6DSXxCKpump": 1794763503.9926777,
+  "control:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794763504.041505,
+  "seen:AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M": 1794763684.1965592,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794763684.1965592,
+  "seen:8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump": 1794763684.1965592,
+  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794763684.1965592,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1794763684.1965592,
+  "control:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794763684.777524
  },
  "talks": {
   "2026-10-21": 109
@@ -121,21 +139,23 @@
  ],
  "last_review": 1794681533.5686712,
  "news": {
-  "t": 1794761876.9046705,
+  "t": 1794762784.2090173,
   "crypto": [
-   "Enterprise blockchain is going to come back from the dead (2h ago)",
+   "Enterprise blockchain is going to come back from the dead (3h ago)",
    "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session (3h ago)",
    "Here\u2019s what happened in crypto today (6h ago)",
    "Bitcoin falls to four-month low near $62K as crypto selloff deepens (7h ago)",
    "Coinone warns of phishing, identity theft after customer data breach (9h ago)",
    "RWA protocol stUSDT winds down three years after $2.3B TVL peak (11h ago)",
    "XRP crashes to its lowest since November 2024 as money leaves crypto (14h ago)",
-   "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave (24h ago)",
-   "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (24h ago)",
-   "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale (25h ago)"
+   "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave (25h ago)",
+   "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (25h ago)",
+   "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale (26h ago)"
   ],
   "macro": [],
-  "calendar": []
+  "calendar": [
+   "USD Fed Chairman Warsh Speaks in 23.8h"
+  ]
  },
  "spend": {
   "2026-11-15": 0.0
