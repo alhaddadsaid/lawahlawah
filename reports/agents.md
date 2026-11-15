@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-15 23:31 UTC. Runs so far: 107. Model: claude-haiku-5-5.
+Updated 2026-11-15 23:40 UTC. Runs so far: 107. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3020 | 31 | -75872.69 | -104901.39 |
+| control | meme | 3021 | 31 | -75928.18 | -104965.72 |
 | control | macro | 60 | 52 | 454.48 | 160.55 |
-| control | all | 3080 | 32 | -75418.21 | -104740.84 |
+| control | all | 3081 | 32 | -75473.7 | -104805.17 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: bill long at 0.0002671, stop 0.00021368, target 0.00037394, opened 2026-11-15 22:43 UTC
 - control: BUTTHOLE long at 0.0005535, stop 0.0004428, target 0.0007749, opened 2026-11-15 22:49 UTC
 - control: WISHMAS long at 0.0001851, stop 0.00014808, target 0.00025914, opened 2026-11-15 22:52 UTC
-- control: WIGGLES long at 6.571e-05, stop 5.2568e-05, target 9.1994e-05, opened 2026-11-15 23:10 UTC
 
 ## Team
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order WIGGLES REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED WIGGLES (stop) P&L $-55.49 normal, $-64.33 pessimistic
 
