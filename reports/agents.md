@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-15 15:58 UTC. Runs so far: 105. Model: claude-haiku-5-5.
+Updated 2026-11-15 17:04 UTC. Runs so far: 106. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2985 | 31 | -75364.59 | -104047.35 |
+| control | meme | 2987 | 31 | -75366.91 | -104070.12 |
 | control | macro | 60 | 52 | 454.48 | 160.55 |
-| control | all | 3045 | 31 | -74910.11 | -103886.8 |
+| control | all | 3047 | 31 | -74912.43 | -103909.57 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: Nyajira long at 5.288e-05, stop 4.2304e-05, target 7.4032e-05, opened 2026-11-15 15:20 UTC
-- control: Socks long at 0.0001513, stop 0.00012104, target 0.00021182, opened 2026-11-15 15:26 UTC
+- control: fone long at 0.0009263, stop 0.00074104, target 0.00129682, opened 2026-11-15 16:57 UTC
+- control: Nyajira long at 6.145e-05, stop 4.916e-05, target 8.603e-05, opened 2026-11-15 17:00 UTC
+- control: FOOD long at 0.0002141, stop 0.00017128, target 0.00029974, opened 2026-11-15 17:04 UTC
 
 ## Team
 
@@ -31,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-## Run ended 2026-11-15 15:58 UTC
+- 2026-11-15 17:04 UTC control: OPENED FOOD long at 0.0002141 (stop 0.00017128, target 0.00029974) - control: frozen v3 rules
 
