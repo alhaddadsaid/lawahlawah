@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -64708.22413817715,
+   "cash": -64825.32435469432,
    "open": [
     {
      "id": 3067,
@@ -66,21 +66,6 @@
      "size": 1359619.3065941536,
      "deadline": 1794770899.4268413,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3074,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "WANTED",
-     "mint": "CiMyaPC9icicJxkFqvqpgL2YT2FjEQmGx1YVdG78pump",
-     "side": 1,
-     "opened": 1794765151.6723874,
-     "entry": 9.699e-05,
-     "stop": 7.759200000000001e-05,
-     "target": 0.00013578600000000002,
-     "size": 2062068.2544592225,
-     "deadline": 1794772351.6723876,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,20 +74,6 @@
  "runs": 106,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:411YFFYg9TtnwF9HhpDRRYp4yC4m3Gq4X5TKRNTVjMut": 1794766234.2248304,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1794766234.2248304,
-  "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794766234.2248304,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794766234.2248304,
-  "seen:CM65K38bqGePYkNQBjGRRDYMhyxgh9xTQg2HPQTFpump": 1794766417.8578277,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794766417.8578277,
-  "seen:G69C53wwbhRDCpAkkoqBGWjeBfPoUsRMbNg3jmU8pump": 1794766417.8578277,
-  "seen:AxPzkSJKU3ACqZu7qpq8ov29g4BENZBM4SAZwUUUFo8M": 1794766417.8578277,
-  "seen:8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump": 1794766417.8578277,
-  "seen:B82PFKmT4aM38EUUqVoZs6sZdAfxDHHrB6DSXxCKpump": 1794766417.8578277,
-  "seen:y3kJExXh4qDTrzs7Vk7sGDtubXVskLAmhRm65ewpump": 1794766607.0471807,
-  "seen:BLJz1rEPpiLKM5JY7TJggkhWoLJ9Qwfe3ZWXFBcZEagV": 1794766607.0471807,
-  "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794766607.0471807,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794766607.0471807,
   "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794766787.4755385,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794766787.4755385,
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794766787.4755385,
@@ -110,7 +81,19 @@
   "seen:3GN46GsmAUQSpHXtY3oasJFYAbp9RBzVoR7X8ar1pump": 1794766971.8379338,
   "seen:CiMyaPC9icicJxkFqvqpgL2YT2FjEQmGx1YVdG78pump": 1794766971.8379338,
   "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794766971.8379338,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794766971.8379338
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794766971.8379338,
+  "seen:HgBRWfYxEfvPhtqkaeymCQtHCrKE46qQ43pKe8HCpump": 1794767152.681185,
+  "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794767152.681185,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794767152.681185,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794767332.662569,
+  "seen:Hh3oTaqDCKKfdBgsQEvxp9sUwyNf8x9qmKqEMLBWpump": 1794767332.662569,
+  "seen:9vPoUdH6dubZJ8TCAsRnZ8nNJtJ37RDmxcJiZxdcpump": 1794767332.662569,
+  "seen:13EAww2eo8g1Xp9U7qrLNg1WoHFHKbs9xy2EQJjfpump": 1794767332.662569,
+  "seen:2tHPtosmh76mmJHeskid7nYUeHjGUQ4ZAYChwdGJpump": 1794767332.662569,
+  "seen:82Z6CcE5g3o1jW3vgtcqr95jP4XFx8jg1SJe8ikepump": 1794767332.662569,
+  "seen:3w2TvVmTrtq4kSkoFVrTFQgz6MX7ThzDVrx9r5c3pump": 1794767513.3037386,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794767513.3037386,
+  "seen:7XdCaKpqLmKE2K7yr9xaeWB1H2CVZ1oGwxB6hmd9pump": 1794767513.3037386
  },
  "talks": {
   "2026-10-21": 109
@@ -151,22 +134,22 @@
  ],
  "last_review": 1794681533.5686712,
  "news": {
-  "t": 1794765517.8692496,
+  "t": 1794766432.6741729,
   "crypto": [
-   "Enterprise blockchain is going to come back from the dead (3h ago)",
+   "Enterprise blockchain is going to come back from the dead (4h ago)",
    "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session (4h ago)",
    "Here\u2019s what happened in crypto today (7h ago)",
    "Bitcoin falls to four-month low near $62K as crypto selloff deepens (8h ago)",
    "Coinone warns of phishing, identity theft after customer data breach (10h ago)",
    "RWA protocol stUSDT winds down three years after $2.3B TVL peak (12h ago)",
    "XRP crashes to its lowest since November 2024 as money leaves crypto (15h ago)",
-   "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave (25h ago)",
-   "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (25h ago)",
-   "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale (26h ago)"
+   "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave (26h ago)",
+   "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (26h ago)",
+   "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale (27h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 23.0h"
+   "USD Fed Chairman Warsh Speaks in 22.8h"
   ]
  },
  "spend": {
