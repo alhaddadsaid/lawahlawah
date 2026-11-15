@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -64757.32435469432,
+   "cash": -64763.95611546297,
    "open": [
-    {
-     "id": 3067,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "fone",
-     "mint": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
-     "side": 1,
-     "opened": 1794761877.9329355,
-     "entry": 0.0009263,
-     "stop": 0.0007410400000000001,
-     "target": 0.00129682,
-     "size": 215912.77124041886,
-     "deadline": 1794769077.9329357,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3069,
      "desk": "control",
@@ -66,34 +51,46 @@
      "size": 1359619.3065941536,
      "deadline": 1794770899.4268413,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3076,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "BAWSAQ",
+     "mint": "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
+     "side": 1,
+     "opened": 1794768805.2638147,
+     "entry": 0.0002326,
+     "stop": 0.00018607999999999998,
+     "target": 0.00032564,
+     "size": 859845.2278589854,
+     "deadline": 1794776005.263815,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3076,
+ "next_id": 3077,
  "runs": 106,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794768440.3211815,
-  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794768440.3211815,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1794768440.3211815,
-  "seen:2tHPtosmh76mmJHeskid7nYUeHjGUQ4ZAYChwdGJpump": 1794768440.3211815,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794768608.6829278,
-  "seen:CiMyaPC9icicJxkFqvqpgL2YT2FjEQmGx1YVdG78pump": 1794768608.6829278,
-  "seen:8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump": 1794768608.6829278,
-  "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794768608.6829278,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794768608.6829278,
-  "seen:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": 1794768790.706374,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794768790.706374,
-  "seen:3GN46GsmAUQSpHXtY3oasJFYAbp9RBzVoR7X8ar1pump": 1794768790.706374,
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1794768790.706374,
-  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794768790.706374,
-  "seen:5p6uh5Fszrvo8pFPTjydBTBtFYCTimJiRjYFzC81pump": 1794768973.9664893,
-  "seen:ABzi3M1iwaFzq2xDuaiMGbYARZEtpbE3Comh96wncbCP": 1794768973.9664893,
-  "seen:7yMKHhRVtc68rVuSQjSJ3fD5bgKw4eNJ3iLrBJkfuMgp": 1794768973.9664893,
   "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794769162.2572086,
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794769162.2572086,
-  "seen:A3vB4dggaaMScchjNW9WifagMRiWaWtDAzunooDYcREQ": 1794769340.220498
+  "seen:A3vB4dggaaMScchjNW9WifagMRiWaWtDAzunooDYcREQ": 1794769340.220498,
+  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794769523.1829407,
+  "seen:CiMyaPC9icicJxkFqvqpgL2YT2FjEQmGx1YVdG78pump": 1794769523.1829407,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794769523.1829407,
+  "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794769523.1829407,
+  "seen:2tHPtosmh76mmJHeskid7nYUeHjGUQ4ZAYChwdGJpump": 1794769523.1829407,
+  "seen:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": 1794769523.1829407,
+  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794769705.2030904,
+  "seen:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": 1794769705.2030904,
+  "seen:8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump": 1794769705.2030904,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794769705.2030904,
+  "seen:3GN46GsmAUQSpHXtY3oasJFYAbp9RBzVoR7X8ar1pump": 1794769705.2030904,
+  "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794769705.2030904,
+  "control:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": 1794769705.2638185,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794769896.297897
  },
  "talks": {
   "2026-10-21": 109
