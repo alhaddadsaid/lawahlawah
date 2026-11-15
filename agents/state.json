@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -64030.68597332489,
+   "cash": -63962.68597332489,
    "open": [
     {
      "id": 3027,
@@ -38,45 +38,59 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3030,
+     "id": 3032,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PAW",
+     "mint": "HxPrDS84HH3ijsJhiCLF55MN7DqLfxzbt99RnSuSpump",
+     "side": 1,
+     "opened": 1794734780.8549485,
+     "entry": 0.0001122,
+     "stop": 8.976000000000002e-05,
+     "target": 0.00015708,
+     "size": 1782531.1942959002,
+     "deadline": 1794741980.8549488,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3033,
      "desk": "control",
      "market": "meme",
      "symbol": "HOGE",
      "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
      "side": 1,
-     "opened": 1794733142.711832,
-     "entry": 7.077e-05,
-     "stop": 5.6616e-05,
-     "target": 9.907799999999999e-05,
-     "size": 2826056.2385191466,
-     "deadline": 1794740342.7118325,
+     "opened": 1794734962.0665207,
+     "entry": 9.161e-05,
+     "stop": 7.3288e-05,
+     "target": 0.00012825399999999998,
+     "size": 2183167.7764436197,
+     "deadline": 1794742162.066521,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3032,
+ "next_id": 3034,
  "runs": 104,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794734413.3986495,
-  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794734413.3986495,
-  "seen:8JCsa61htnPj2af7g1KSyU1UEncruHE1Ph9aNR6rpump": 1794734413.3986495,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794734593.9650333,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794734593.9650333,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794734593.9650333,
-  "control:HxPrDS84HH3ijsJhiCLF55MN7DqLfxzbt99RnSuSpump": 1794734594.0244455,
-  "seen:FL3LnVeZTtn7uvcpytRLyAYsqUJtznskjdE4p1HSpump": 1794734773.3979013,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794734773.3979013,
-  "seen:7YQNVYZb73Lraae4tbeJwFCtRtQRtpzvfKxoSccipump": 1794734954.3672986,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794734954.3672986,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794734954.3672986,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794734954.3672986,
   "seen:HxPrDS84HH3ijsJhiCLF55MN7DqLfxzbt99RnSuSpump": 1794735135.52288,
   "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794735135.52288,
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794735135.52288,
   "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794735135.52288,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794735313.0101418
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794735313.0101418,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794735500.3941977,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794735500.3941977,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794735500.3941977,
+  "seen:5r6uX887ZxsPG6iEdyyU2sQTFMpwHVzqVFkANuepump": 1794735500.3941977,
+  "seen:8JCsa61htnPj2af7g1KSyU1UEncruHE1Ph9aNR6rpump": 1794735500.3941977,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1794735680.7779455,
+  "control:HxPrDS84HH3ijsJhiCLF55MN7DqLfxzbt99RnSuSpump": 1794735680.8549523,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794735861.5297847,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794735861.5297847,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794735861.5297847,
+  "seen:FL3LnVeZTtn7uvcpytRLyAYsqUJtznskjdE4p1HSpump": 1794735861.5297847,
+  "control:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794735862.0665238
  },
  "talks": {
   "2026-10-21": 109
@@ -117,17 +131,17 @@
  ],
  "last_review": 1794681533.5686712,
  "news": {
-  "t": 1794734054.3771548,
+  "t": 1794734961.5397556,
   "crypto": [
    "Coinone warns of phishing, identity theft after customer data breach (1h ago)",
    "RWA protocol stUSDT winds down three years after $2.3B TVL peak (3h ago)",
-   "XRP crashes to its lowest since November 2024 as money leaves crypto (6h ago)",
+   "XRP crashes to its lowest since November 2024 as money leaves crypto (7h ago)",
    "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave (17h ago)",
    "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (17h ago)",
    "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale (18h ago)",
    "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground (18h ago)",
    "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill (20h ago)",
-   "A behind the scenes force may amplify bitcoin and ether price volatility (20h ago)",
+   "A behind the scenes force may amplify bitcoin and ether price volatility (21h ago)",
    "Here\u2019s what happened in crypto today (22h ago)"
   ],
   "macro": [],

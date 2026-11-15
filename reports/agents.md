@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-15 09:20 UTC. Runs so far: 104. Model: claude-haiku-5-5.
+Updated 2026-11-15 09:29 UTC. Runs so far: 104. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2949 | 31 | -74485.35 | -102821.44 |
+| control | meme | 2950 | 31 | -74417.35 | -102765.44 |
 | control | macro | 60 | 52 | 454.48 | 160.55 |
-| control | all | 3009 | 31 | -74030.87 | -102660.89 |
+| control | all | 3010 | 31 | -73962.87 | -102604.89 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: ニャジラ long at 0.0001284, stop 0.00010272, target 0.00017976, opened 2026-11-15 08:25 UTC
 - control: DIGS long at 0.0001309, stop 0.00010472, target 0.00018326, opened 2026-11-15 08:49 UTC
-- control: HOGE long at 7.077e-05, stop 5.6616e-05, target 9.9078e-05, opened 2026-11-15 08:59 UTC
+- control: PAW long at 0.0001122, stop 8.976e-05, target 0.00015708, opened 2026-11-15 09:26 UTC
+- control: HOGE long at 9.161e-05, stop 7.3288e-05, target 0.000128254, opened 2026-11-15 09:29 UTC
 
 ## Team
 
@@ -32,6 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
-- control: order HOGE REJECTED by guardrails: HOGE already open
+- 2026-11-15 09:29 UTC control: OPENED HOGE long at 9.161e-05 (stop 7.3288e-05, target 0.000128254) - control: frozen v3 rules
 
