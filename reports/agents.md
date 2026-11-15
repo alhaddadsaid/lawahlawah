@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-15 11:22 UTC. Runs so far: 105. Model: claude-haiku-5-5.
+Updated 2026-11-15 11:33 UTC. Runs so far: 105. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2959 | 31 | -74424.21 | -102864.42 |
+| control | meme | 2960 | 31 | -74474.18 | -102923.37 |
 | control | macro | 60 | 52 | 454.48 | 160.55 |
-| control | all | 3019 | 32 | -73969.73 | -102703.87 |
+| control | all | 3020 | 31 | -74019.7 | -102762.82 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: GTA$ long at 0.0001237, stop 9.896e-05, target 0.00017318, opened 2026-11-15 10:32 UTC
 - control: ニャジラ long at 0.0001291, stop 0.00010328, target 0.00018074, opened 2026-11-15 10:35 UTC
-- control: poorcat long at 8.244e-05, stop 6.5952e-05, target 0.000115416, opened 2026-11-15 11:21 UTC
+- control: fone long at 0.0009731, stop 0.00077848, target 0.00136234, opened 2026-11-15 11:30 UTC
+- control: PAW long at 0.0001053, stop 8.424e-05, target 0.00014742, opened 2026-11-15 11:33 UTC
 
 ## Team
 
@@ -32,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED PAW (stop) P&L $-51.61 normal, $-60.54 pessimistic
+- 2026-11-15 11:33 UTC control: OPENED PAW long at 0.0001053 (stop 8.424e-05, target 0.00014742) - control: frozen v3 rules
 
