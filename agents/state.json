@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -64763.95611546297,
+   "cash": -64741.2587777703,
    "open": [
-    {
-     "id": 3069,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "FOOD",
-     "mint": "FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump",
-     "side": 1,
-     "opened": 1794762241.0018456,
-     "entry": 0.0002141,
-     "stop": 0.00017128,
-     "target": 0.00029974,
-     "size": 934142.9238673517,
-     "deadline": 1794769441.0018458,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3071,
      "desk": "control",
@@ -66,23 +51,29 @@
      "size": 859845.2278589854,
      "deadline": 1794776005.263815,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3077,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "BUTTHOLE",
+     "mint": "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump",
+     "side": 1,
+     "opened": 1794769358.8201966,
+     "entry": 0.0003852,
+     "stop": 0.00030816,
+     "target": 0.00053928,
+     "size": 519210.7995846314,
+     "deadline": 1794776558.8201969,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3077,
+ "next_id": 3078,
  "runs": 106,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794769162.2572086,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794769162.2572086,
-  "seen:A3vB4dggaaMScchjNW9WifagMRiWaWtDAzunooDYcREQ": 1794769340.220498,
-  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794769523.1829407,
-  "seen:CiMyaPC9icicJxkFqvqpgL2YT2FjEQmGx1YVdG78pump": 1794769523.1829407,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794769523.1829407,
-  "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794769523.1829407,
-  "seen:2tHPtosmh76mmJHeskid7nYUeHjGUQ4ZAYChwdGJpump": 1794769523.1829407,
-  "seen:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": 1794769523.1829407,
   "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794769705.2030904,
   "seen:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": 1794769705.2030904,
   "seen:8cWGfiHyKqxgLrLtkPt2NnLkSUV2JbcLBf4RN6Fapump": 1794769705.2030904,
@@ -90,13 +81,25 @@
   "seen:3GN46GsmAUQSpHXtY3oasJFYAbp9RBzVoR7X8ar1pump": 1794769705.2030904,
   "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794769705.2030904,
   "control:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": 1794769705.2638185,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794769896.297897
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794769896.297897,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794770067.492206,
+  "seen:B82PFKmT4aM38EUUqVoZs6sZdAfxDHHrB6DSXxCKpump": 1794770067.492206,
+  "seen:mAWnfGt4EHpsicnZnynCuZbPcK7YmrN5dNjnVLipump": 1794770067.492206,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794770067.492206,
+  "seen:A3vB4dggaaMScchjNW9WifagMRiWaWtDAzunooDYcREQ": 1794770258.778359,
+  "seen:7jGdREhmTaGj6EVkrhmiadSSiNSvE5w6qfGccud5pump": 1794770258.778359,
+  "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794770258.778359,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794770258.778359,
+  "control:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794770258.8202002,
+  "seen:7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump": 1794770432.1695697,
+  "seen:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": 1794770432.1695697,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794770432.1695697
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498545,
+ "ctrl_macro_hour": 498547,
  "team": [
   {
    "name": "Lead",
@@ -131,14 +134,14 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794768262.2688997,
+  "t": 1794769167.5040188,
   "crypto": [
    "Enterprise blockchain is going to come back from the dead (4h ago)",
    "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session (5h ago)",
-   "Here\u2019s what happened in crypto today (7h ago)",
-   "Bitcoin falls to four-month low near $62K as crypto selloff deepens (8h ago)",
+   "Here\u2019s what happened in crypto today (8h ago)",
+   "Bitcoin falls to four-month low near $62K as crypto selloff deepens (9h ago)",
    "Coinone warns of phishing, identity theft after customer data breach (11h ago)",
-   "RWA protocol stUSDT winds down three years after $2.3B TVL peak (12h ago)",
+   "RWA protocol stUSDT winds down three years after $2.3B TVL peak (13h ago)",
    "XRP crashes to its lowest since November 2024 as money leaves crypto (16h ago)",
    "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave (26h ago)",
    "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (26h ago)",
@@ -146,7 +149,7 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 22.3h"
+   "USD Fed Chairman Warsh Speaks in 22.0h"
   ]
  },
  "spend": {
@@ -177,5 +180,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794768262.2686176
+ "last_macro_macro": 1794769532.181184
 }
