@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-15 00:15 UTC. Runs so far: 103. Model: claude-haiku-5-5.
+Updated 2026-11-15 00:33 UTC. Runs so far: 103. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2904 | 31 | -73071.23 | -100982.05 |
+| control | meme | 2905 | 31 | -73128.95 | -101048.55 |
 | control | macro | 60 | 52 | 454.48 | 160.55 |
-| control | all | 2964 | 31 | -72616.75 | -100821.5 |
+| control | all | 2965 | 31 | -72674.47 | -100888.0 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,6 +20,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: NUREMBERG long at 9.349e-05, stop 7.4792e-05, target 0.000130886, opened 2026-11-14 23:10 UTC
 - control: greg long at 0.0001269, stop 0.00010152, target 0.00017766, opened 2026-11-14 23:14 UTC
 - control: GTA$ long at 0.0001568, stop 0.00012544, target 0.00021952, opened 2026-11-15 00:12 UTC
+- control: RWA long at 9.965e-05, stop 7.972e-05, target 0.00013951, opened 2026-11-15 00:33 UTC
 
 ## Team
 
@@ -32,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order NUREMBERG REJECTED by guardrails: NUREMBERG already open
+- 2026-11-15 00:33 UTC control: OPENED RWA long at 9.965e-05 (stop 7.972e-05, target 0.00013951) - control: frozen v3 rules
 

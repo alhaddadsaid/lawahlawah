@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -62616.548715592035,
+   "cash": -62674.27192155662,
    "open": [
     {
      "id": 2980,
@@ -51,35 +51,48 @@
      "size": 1275510.2040816327,
      "deadline": 1794708725.6428056,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2988,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "RWA",
+     "mint": "6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump",
+     "side": 1,
+     "opened": 1794702812.5731995,
+     "entry": 9.965e-05,
+     "stop": 7.972e-05,
+     "target": 0.00013951,
+     "size": 2007024.586051179,
+     "deadline": 1794710012.5732,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2987,
+ "next_id": 2989,
  "runs": 103,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump": 1794701879.580352,
-  "seen:Hi6qQHwHBnx9uaxT3KyBxaHaUn4JTAG6ijygQbiopump": 1794701879.580352,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794701879.580352,
-  "seen:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794701879.580352,
-  "seen:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": 1794701879.580352,
-  "seen:6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump": 1794702058.852248,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794702058.852248,
-  "seen:2L9RzqPSwbRy7WaN7Qq1Dsq6ZjAU1t56bvFBafq8pump": 1794702058.852248,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794702058.852248,
-  "seen:3Kf7Jxy1dB5TH56qFkC6XUW9S3qtMZQJzuUPzbdMpump": 1794702058.852248,
-  "seen:AvRSpY1rPA9iVFxYHc5D5JQW6oU5tjGQZdsW2e5upump": 1794702242.754358,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1794702242.754358,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794702242.754358,
-  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794702425.55415,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794702425.55415,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794702425.55415,
-  "seen:FL3LnVeZTtn7uvcpytRLyAYsqUJtznskjdE4p1HSpump": 1794702425.55415,
-  "control:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794702425.6428092,
-  "seen:513YLzsTSHaqXidg6bgDs8LCk5LGixFWcMUTheQVpump": 1794702610.4296725,
-  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794702610.4296725,
-  "seen:7R3RnGmpV9mZXwSyHyKN5LEddiZRmGsYrAZPgDJqpump": 1794702610.4296725
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794702976.5740426,
+  "seen:6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump": 1794702976.5740426,
+  "seen:CTaZ1bq3Qvr1J8ESgZFgQEwSV2nLUpV6D6J3WrP8pump": 1794703160.2890265,
+  "seen:AvRSpY1rPA9iVFxYHc5D5JQW6oU5tjGQZdsW2e5upump": 1794703160.2890265,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794703344.9444666,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794703344.9444666,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794703344.9444666,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794703344.9444666,
+  "control:AvRSpY1rPA9iVFxYHc5D5JQW6oU5tjGQZdsW2e5upump": 1794703345.4145114,
+  "seen:26TKMwBtY2wRxZB77byEgGcyzc6GtwRXQRJdLqEuXasR": 1794703528.6523488,
+  "seen:513YLzsTSHaqXidg6bgDs8LCk5LGixFWcMUTheQVpump": 1794703528.6523488,
+  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794703528.6523488,
+  "seen:7R3RnGmpV9mZXwSyHyKN5LEddiZRmGsYrAZPgDJqpump": 1794703528.6523488,
+  "seen:HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": 1794703712.4998367,
+  "seen:Hi6qQHwHBnx9uaxT3KyBxaHaUn4JTAG6ijygQbiopump": 1794703712.4998367,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794703712.4998367,
+  "seen:7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump": 1794703712.4998367,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794703712.4998367,
+  "control:6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump": 1794703712.5732026
  },
  "talks": {
   "2026-10-21": 109
@@ -120,11 +133,11 @@
  ],
  "last_review": 1794681533.5686712,
  "news": {
-  "t": 1794701158.8650944,
+  "t": 1794702076.5866914,
   "crypto": [
    "Bitcoin crashes to 3-month low below $64,000 as analyst flags fourth capitulation wave (8h ago)",
    "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (8h ago)",
-   "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale (8h ago)",
+   "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale (9h ago)",
    "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground (9h ago)",
    "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill (11h ago)",
    "A behind the scenes force may amplify bitcoin and ether price volatility (11h ago)",
@@ -164,5 +177,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794701158.8648381
+ "last_macro_macro": 1794702444.9573977
 }
