@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -63034.80297928589,
+   "cash": -63297.505268626766,
    "open": [
-    {
-     "id": 2986,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GTA$",
-     "mint": "6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump",
-     "side": 1,
-     "opened": 1794701525.6428053,
-     "entry": 0.0001568,
-     "stop": 0.00012544,
-     "target": 0.00021951999999999996,
-     "size": 1275510.2040816327,
-     "deadline": 1794708725.6428056,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 2995,
      "desk": "control",
@@ -35,21 +20,6 @@
      "target": 0.00017065999999999997,
      "size": 1640689.0894175554,
      "deadline": 1794714233.7697842,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2997,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DACAT",
-     "mint": "ErtyXjRNeCkcKsrJJ8NwGCVQAoYQoVPnzs6Fr2Jmpump",
-     "side": 1,
-     "opened": 1794707770.6961224,
-     "entry": 0.00011,
-     "stop": 8.800000000000001e-05,
-     "target": 0.000154,
-     "size": 1818181.8181818181,
-     "deadline": 1794714970.6961226,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -70,31 +40,31 @@
    ]
   }
  },
- "next_id": 2999,
+ "next_id": 3000,
  "runs": 103,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794708301.3548586,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794708301.3548586,
-  "seen:3k62fdCfbP9TsoWbdCUrUu21ExzKyxfPwJsZ2REYpump": 1794708301.3548586,
-  "control:6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump": 1794708301.4427488,
-  "seen:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": 1794708484.8878715,
-  "seen:7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump": 1794708484.8878715,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794708484.8878715,
-  "seen:HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": 1794708484.8878715,
-  "seen:CiMyaPC9icicJxkFqvqpgL2YT2FjEQmGx1YVdG78pump": 1794708670.6191607,
-  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794708670.6191607,
-  "seen:ErtyXjRNeCkcKsrJJ8NwGCVQAoYQoVPnzs6Fr2Jmpump": 1794708670.6191607,
-  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794708670.6191607,
-  "seen:7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump": 1794708670.6191607,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794708670.6191607,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794708670.6191607,
-  "control:ErtyXjRNeCkcKsrJJ8NwGCVQAoYQoVPnzs6Fr2Jmpump": 1794708670.6961255,
-  "seen:ABgXjaJ3iUg66vxhitQ77gj3cSechFJ3qyiPiRpqpump": 1794708854.0545695,
   "seen:6Nh9cmDoQvd2FvjNm44VmTwbyiKtxgmM7SCuhREhpump": 1794709037.325629,
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794709037.325629,
   "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794709037.325629,
-  "control:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794709037.3967643
+  "control:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794709037.3967643,
+  "seen:8nBBchmN5MszfBctSKogVzzvXnWQG6GW6hT9gp8CcEU8": 1794709220.3949306,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794709220.3949306,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794709220.3949306,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794709220.3949306,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794709405.3693135,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794709405.3693135,
+  "seen:7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump": 1794709405.3693135,
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794709405.3693135,
+  "seen:CiMyaPC9icicJxkFqvqpgL2YT2FjEQmGx1YVdG78pump": 1794709589.495358,
+  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794709589.495358,
+  "seen:ErtyXjRNeCkcKsrJJ8NwGCVQAoYQoVPnzs6Fr2Jmpump": 1794709589.495358,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794709589.495358,
+  "seen:7mH4PaR9BMxAid2i1QNDBmziAwxyXBsPNKSMiWySpump": 1794709589.495358,
+  "seen:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": 1794709589.495358,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1794709589.495358,
+  "seen:7R3RnGmpV9mZXwSyHyKN5LEddiZRmGsYrAZPgDJqpump": 1794709772.449915,
+  "control:ErtyXjRNeCkcKsrJJ8NwGCVQAoYQoVPnzs6Fr2Jmpump": 1794709772.830992
  },
  "talks": {
   "2026-10-21": 109
@@ -135,18 +105,18 @@
  ],
  "last_review": 1794681533.5686712,
  "news": {
-  "t": 1794707584.9009755,
+  "t": 1794708505.3821688,
   "crypto": [
-   "Bitcoin crashes to 3-month low below $64,000 as analyst flags fourth capitulation wave (9h ago)",
-   "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (9h ago)",
+   "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave (10h ago)",
+   "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (10h ago)",
    "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale (10h ago)",
    "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground (11h ago)",
    "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill (13h ago)",
    "A behind the scenes force may amplify bitcoin and ether price volatility (13h ago)",
-   "Here\u2019s what happened in crypto today (14h ago)",
-   "Microsoft confirms global outage resolved, rules out cyberattack (15h ago)",
+   "Here\u2019s what happened in crypto today (15h ago)",
+   "Microsoft confirms global outage resolved, rules out cyberattack (16h ago)",
    "MegaETH parent cuts 20% of staff amid restructuring, AI push (18h ago)",
-   "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock\u2019s losing streak hits 11 (19h ago)"
+   "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock\u2019s losing streak hits 11 (20h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -179,5 +149,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794707584.9007041
+ "last_macro_macro": 1794708872.4629562
 }

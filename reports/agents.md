@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-15 02:02 UTC. Runs so far: 103. Model: claude-haiku-5-5.
+Updated 2026-11-15 02:15 UTC. Runs so far: 103. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2915 | 31 | -73489.47 | -101502.4 |
+| control | meme | 2918 | 31 | -73752.17 | -101789.13 |
 | control | macro | 60 | 52 | 454.48 | 160.55 |
-| control | all | 2975 | 31 | -73034.99 | -101341.85 |
+| control | all | 2978 | 31 | -73297.69 | -101628.58 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: GTA$ long at 0.0001568, stop 0.00012544, target 0.00021952, opened 2026-11-15 00:12 UTC
 - control: greg long at 0.0001219, stop 9.752e-05, target 0.00017066, opened 2026-11-15 01:43 UTC
-- control: DACAT long at 0.00011, stop 8.8e-05, target 0.000154, opened 2026-11-15 01:56 UTC
 - control: DIGS long at 0.0001108, stop 8.864e-05, target 0.00015512, opened 2026-11-15 02:02 UTC
 
 ## Team
@@ -33,6 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-15 02:02 UTC control: OPENED DIGS long at 0.0001108 (stop 8.864e-05, target 0.00015512) - control: frozen v3 rules
-- control: order GOLD REJECTED by guardrails: GOLD market closed or data stale
+- control: CLOSED DACAT (stop) P&L $-199.17 normal, $-204.32 pessimistic
 
