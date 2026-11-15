@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-15 13:34 UTC. Runs so far: 105. Model: claude-haiku-5-5.
+Updated 2026-11-15 13:45 UTC. Runs so far: 105. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 2970 | 31 | -74901.35 | -103442.15 |
+| control | meme | 2972 | 31 | -75011.02 | -103569.52 |
 | control | macro | 60 | 52 | 454.48 | 160.55 |
-| control | all | 3030 | 31 | -74446.87 | -103281.6 |
+| control | all | 3032 | 31 | -74556.54 | -103408.97 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: DIGS long at 0.0001744, stop 0.00013952, target 0.00024416, opened 2026-11-15 11:45 UTC
 - control: FOOD long at 0.0002402, stop 0.00019216, target 0.00033628, opened 2026-11-15 12:58 UTC
+- control: rockstar long at 9.752e-05, stop 7.8016e-05, target 0.000136528, opened 2026-11-15 13:40 UTC
+- control: Socks long at 0.0001489, stop 0.00011912, target 0.00020846, opened 2026-11-15 13:43 UTC
 
 ## Team
 
@@ -31,6 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
-- control: order DIGS REJECTED by guardrails: DIGS already open
+- control: CLOSED DIGS (time) P&L $-36.5 normal, $-45.82 pessimistic
 
