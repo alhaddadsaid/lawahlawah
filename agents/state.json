@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -63730.9184283722,
+   "cash": -63736.28782151204,
    "open": [
-    {
-     "id": 3011,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PAID",
-     "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
-     "side": 1,
-     "opened": 1794720226.739719,
-     "entry": 0.001137,
-     "stop": 0.0009096,
-     "target": 0.0015918,
-     "size": 175901.4951627089,
-     "deadline": 1794727426.739719,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3014,
      "desk": "control",
@@ -81,23 +66,29 @@
      "size": 1388888.8888888888,
      "deadline": 1794733071.1792593,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3019,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "HOGE",
+     "mint": "FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump",
+     "side": 1,
+     "opened": 1794727686.8360713,
+     "entry": 0.0001668,
+     "stop": 0.00013344,
+     "target": 0.00023351999999999997,
+     "size": 1199040.7673860912,
+     "deadline": 1794734886.8360715,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3019,
+ "next_id": 3020,
  "runs": 104,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2GKjHA4zydtLqFegLs4vin17f8Ud133Rj6WNZtJMVWkY": 1794727318.7248523,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794727318.7248523,
-  "seen:APtwtJqJSr3aHW56B8wfJtPYB1WzPKAjwEneUKzmZgA3": 1794727499.6875193,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794727499.6875193,
-  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794727499.6875193,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794727499.6875193,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794727680.6224308,
-  "seen:G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": 1794727680.6224308,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794727680.6224308,
   "seen:FzDKd7oN3V4Z36M6JAceaUfuPf642f8ANMCKGtXZAYQ8": 1794727862.3525796,
   "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794727862.3525796,
   "seen:2tHPtosmh76mmJHeskid7nYUeHjGUQ4ZAYChwdGJpump": 1794727862.3525796,
@@ -105,7 +96,18 @@
   "seen:Dueav76X9spnoLomhM2jMkkWorVggbeWucLs3YLupump": 1794728043.3410335,
   "seen:CiMyaPC9icicJxkFqvqpgL2YT2FjEQmGx1YVdG78pump": 1794728043.3410335,
   "seen:8JCsa61htnPj2af7g1KSyU1UEncruHE1Ph9aNR6rpump": 1794728043.3410335,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794728043.3410335
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794728043.3410335,
+  "seen:2VzGJJU1RtujshPiAyPQm5bwk2sVTVdydQo4WH4E2rQw": 1794728225.2877686,
+  "seen:CqG166bBK8eLPsAJKZiqABqZnaetW8zknRp6GNjfUKeB": 1794728225.2877686,
+  "seen:76uLFhP9riMVNddfFEiJSYCJH2mKAetW9zSzNEdMpump": 1794728225.2877686,
+  "seen:7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump": 1794728225.2877686,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794728405.767605,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794728405.767605,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794728586.3133893,
+  "seen:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": 1794728586.3133893,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794728586.3133893,
+  "seen:G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": 1794728586.3133893,
+  "control:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794728586.8360748
  },
  "talks": {
   "2026-10-21": 109
@@ -146,16 +148,16 @@
  ],
  "last_review": 1794681533.5686712,
  "news": {
-  "t": 1794726780.6317098,
+  "t": 1794727686.323363,
   "crypto": [
    "RWA protocol stUSDT winds down three years after $2.3B TVL peak (1h ago)",
-   "XRP crashes to its lowest since November 2024 as money leaves crypto (4h ago)",
+   "XRP crashes to its lowest since November 2024 as money leaves crypto (5h ago)",
    "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave (15h ago)",
    "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (15h ago)",
    "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale (16h ago)",
    "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground (16h ago)",
    "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill (18h ago)",
-   "A behind the scenes force may amplify bitcoin and ether price volatility (18h ago)",
+   "A behind the scenes force may amplify bitcoin and ether price volatility (19h ago)",
    "Here\u2019s what happened in crypto today (20h ago)",
    "Microsoft confirms global outage resolved, rules out cyberattack (21h ago)"
   ],
