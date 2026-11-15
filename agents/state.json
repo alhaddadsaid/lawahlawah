@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -62606.27192155662,
+   "cash": -62876.0597752801,
    "open": [
     {
      "id": 2980,
@@ -51,47 +51,33 @@
      "size": 1275510.2040816327,
      "deadline": 1794708725.6428056,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 2989,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SWIF",
-     "mint": "Hi6qQHwHBnx9uaxT3KyBxaHaUn4JTAG6ijygQbiopump",
-     "side": 1,
-     "opened": 1794703358.8256788,
-     "entry": 8.21e-05,
-     "stop": 6.568000000000001e-05,
-     "target": 0.00011494,
-     "size": 2436053.59317905,
-     "deadline": 1794710558.825679,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2990,
+ "next_id": 2991,
  "runs": 103,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:26TKMwBtY2wRxZB77byEgGcyzc6GtwRXQRJdLqEuXasR": 1794703528.6523488,
-  "seen:513YLzsTSHaqXidg6bgDs8LCk5LGixFWcMUTheQVpump": 1794703528.6523488,
-  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794703528.6523488,
-  "seen:7R3RnGmpV9mZXwSyHyKN5LEddiZRmGsYrAZPgDJqpump": 1794703528.6523488,
-  "seen:HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": 1794703712.4998367,
-  "seen:Hi6qQHwHBnx9uaxT3KyBxaHaUn4JTAG6ijygQbiopump": 1794703712.4998367,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794703712.4998367,
-  "seen:7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump": 1794703712.4998367,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794703712.4998367,
-  "control:6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump": 1794703712.5732026,
-  "seen:6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump": 1794703892.3106155,
-  "seen:7mEhH5gsuwPeBC9n9C2XQJdXinWhKGfNhrt4r8db47Cn": 1794703892.3106155,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794703892.3106155,
-  "seen:WENWENvqqNya429ubCdR81ZmD69brwQaaBYY6p3LCpk": 1794703892.3106155,
   "seen:AvRSpY1rPA9iVFxYHc5D5JQW6oU5tjGQZdsW2e5upump": 1794704075.8476412,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794704258.7171988,
   "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794704258.7171988,
-  "control:Hi6qQHwHBnx9uaxT3KyBxaHaUn4JTAG6ijygQbiopump": 1794704258.8256822
+  "control:Hi6qQHwHBnx9uaxT3KyBxaHaUn4JTAG6ijygQbiopump": 1794704258.8256822,
+  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794704443.98696,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794704443.98696,
+  "seen:ArokAnvdAKYidzJaEqYT48kSmnTMJLWzo9F3nFAgpump": 1794704443.98696,
+  "control:AvRSpY1rPA9iVFxYHc5D5JQW6oU5tjGQZdsW2e5upump": 1794704444.077344,
+  "seen:HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": 1794704627.413817,
+  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794704627.413817,
+  "seen:Hi6qQHwHBnx9uaxT3KyBxaHaUn4JTAG6ijygQbiopump": 1794704627.413817,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794704627.413817,
+  "seen:7R3RnGmpV9mZXwSyHyKN5LEddiZRmGsYrAZPgDJqpump": 1794704627.413817,
+  "seen:7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump": 1794704627.413817,
+  "seen:6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump": 1794704811.008079,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794704811.008079,
+  "seen:2L9RzqPSwbRy7WaN7Qq1Dsq6ZjAU1t56bvFBafq8pump": 1794704811.008079,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794704811.008079,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794704811.008079
  },
  "talks": {
   "2026-10-21": 109
@@ -132,7 +118,7 @@
  ],
  "last_review": 1794681533.5686712,
  "news": {
-  "t": 1794702992.323664,
+  "t": 1794703911.020986,
   "crypto": [
    "Bitcoin crashes to 3-month low below $64,000 as analyst flags fourth capitulation wave (8h ago)",
    "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (8h ago)",
@@ -142,7 +128,7 @@
    "A behind the scenes force may amplify bitcoin and ether price volatility (12h ago)",
    "Here\u2019s what happened in crypto today (13h ago)",
    "Microsoft confirms global outage resolved, rules out cyberattack (14h ago)",
-   "MegaETH parent cuts 20% of staff amid restructuring, AI push (16h ago)",
+   "MegaETH parent cuts 20% of staff amid restructuring, AI push (17h ago)",
    "Bitcoin ETFs shed $2.35B in 2 weeks, BlackRock\u2019s losing streak hits 11 (18h ago)"
   ],
   "macro": [],
@@ -176,5 +162,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794702444.9573977
+ "last_macro_macro": 1794703727.426922
 }
