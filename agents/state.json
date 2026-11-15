@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -64934.604152658845,
+   "cash": -65001.740392440865,
    "open": [
     {
      "id": 3080,
@@ -66,23 +66,29 @@
      "size": 1397624.039133473,
      "deadline": 1794779822.6945686,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3087,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "BUTTHOLE",
+     "mint": "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump",
+     "side": 1,
+     "opened": 1794773896.6856732,
+     "entry": 0.0003136,
+     "stop": 0.00025088,
+     "target": 0.0004390399999999999,
+     "size": 637755.1020408163,
+     "deadline": 1794781096.6856735,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3086,
+ "next_id": 3088,
  "runs": 106,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7H2sHeLHyHR8jxENGmsqn7RxTkYZa4KwXvKYcoxBpump": 1794773522.6232896,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794773522.6232896,
-  "control:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794773522.6945724,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794773703.9722335,
-  "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794773703.9722335,
-  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794773703.9722335,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794773703.9722335,
-  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794773884.2362182,
-  "control:7H2sHeLHyHR8jxENGmsqn7RxTkYZa4KwXvKYcoxBpump": 1794773884.2781959,
   "seen:Da5Gbwd8GCuKwd5fv4pk7bBh12UKjUg5iH3VthDWCity": 1794774098.9107966,
   "seen:BDDdnX85YSmqDNHTyHjktmUd8ZzGLyXiWMAT1FLppump": 1794774098.9107966,
   "seen:7jGdREhmTaGj6EVkrhmiadSSiNSvE5w6qfGccud5pump": 1794774098.9107966,
@@ -93,7 +99,16 @@
   "seen:H74CYmXgMkYHYuSRsZt6RJb4NYp2u72Vw8BS5huApump": 1794774274.8136353,
   "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794774274.8136353,
   "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794774274.8136353,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794774274.8136353
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794774274.8136353,
+  "seen:7H2sHeLHyHR8jxENGmsqn7RxTkYZa4KwXvKYcoxBpump": 1794774432.194075,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794774432.194075,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794774613.8760052,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794774613.8760052,
+  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794774613.8760052,
+  "control:Da5Gbwd8GCuKwd5fv4pk7bBh12UKjUg5iH3VthDWCity": 1794774614.2841954,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794774796.639489,
+  "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794774796.639489,
+  "control:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794774796.6856775
  },
  "talks": {
   "2026-10-21": 109
@@ -134,7 +149,7 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794772803.9841144,
+  "t": 1794773713.8881912,
   "crypto": [
    "Did prediction markets call the U.S. midterm election?: State of Crypto (1h ago)",
    "Enterprise blockchain is going to come back from the dead (6h ago)",
@@ -144,12 +159,12 @@
    "Coinone warns of phishing, identity theft after customer data breach (12h ago)",
    "RWA protocol stUSDT winds down three years after $2.3B TVL peak (14h ago)",
    "XRP crashes to its lowest since November 2024 as money leaves crypto (17h ago)",
-   "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave (27h ago)",
-   "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (27h ago)"
+   "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave (28h ago)",
+   "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (28h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 21.0h"
+   "USD Fed Chairman Warsh Speaks in 20.7h"
   ]
  },
  "spend": {
