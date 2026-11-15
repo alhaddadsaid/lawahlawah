@@ -21,23 +21,29 @@
      "size": 1275510.2040816327,
      "deadline": 1794708725.6428056,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 2995,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "greg",
+     "mint": "4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump",
+     "side": 1,
+     "opened": 1794707033.769784,
+     "entry": 0.0001219,
+     "stop": 9.752000000000001e-05,
+     "target": 0.00017065999999999997,
+     "size": 1640689.0894175554,
+     "deadline": 1794714233.7697842,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 2995,
+ "next_id": 2996,
  "runs": 103,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump": 1794706645.6991026,
-  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794706829.5021665,
-  "seen:ErtyXjRNeCkcKsrJJ8NwGCVQAoYQoVPnzs6Fr2Jmpump": 1794706829.5021665,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794706829.5021665,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794706829.5021665,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794707014.2167318,
-  "seen:FTu55MyigXns96jz4nTCDDiTCjYJjyrHSceCgG9Upump": 1794707014.2167318,
-  "seen:AvRSpY1rPA9iVFxYHc5D5JQW6oU5tjGQZdsW2e5upump": 1794707014.2167318,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794707014.2167318,
   "seen:4RVnHu75hkYPURRCzUiNoRsDwuYrmY3MGJdL7QGDqkAB": 1794707197.8225086,
   "seen:GWfkt89PP92cA1eg4NMRE2FqftZPwLgFyY2YRNLwpump": 1794707197.8225086,
   "seen:4b3ypv8i8vKUfCfETpbbPSLtvvW39eQVt5M41PxCpump": 1794707197.8225086,
@@ -46,7 +52,18 @@
   "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794707381.7467148,
   "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1794707381.7467148,
   "seen:HHoDt9mEET28qFFWtUPNTqGcmRQPh3TJChAWHmBopump": 1794707381.7467148,
-  "control:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794707381.8261197
+  "control:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794707381.8261197,
+  "seen:6edJUFSC85CyyLFB1QcCvYu7uzqaD4kV9o5YUPxrpump": 1794707566.2084987,
+  "seen:7N2g5tHX2isAXyKmtUek72waREtNKSFuR6KW2xthpump": 1794707566.2084987,
+  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794707750.1566105,
+  "seen:ErtyXjRNeCkcKsrJJ8NwGCVQAoYQoVPnzs6Fr2Jmpump": 1794707750.1566105,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794707750.1566105,
+  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794707750.1566105,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794707750.1566105,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794707933.53903,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794707933.53903,
+  "seen:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": 1794707933.53903,
+  "control:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": 1794707933.7697883
  },
  "talks": {
   "2026-10-21": 109
@@ -87,14 +104,14 @@
  ],
  "last_review": 1794681533.5686712,
  "news": {
-  "t": 1794705745.711836,
+  "t": 1794706666.2213047,
   "crypto": [
    "Bitcoin crashes to 3-month low below $64,000 as analyst flags fourth capitulation wave (9h ago)",
    "Ethereum scaling project MegaETH slashes staff by 20% as it pursues AI business (9h ago)",
    "Kazakhstan plans tokenized government bonds in first quarter after $22 million note sale (10h ago)",
-   "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground (10h ago)",
-   "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill (12h ago)",
-   "A behind the scenes force may amplify bitcoin and ether price volatility (12h ago)",
+   "UK, Singapore, and Thailand central banks test cross-border FX settlement as stablecoins gain ground (11h ago)",
+   "Britain could turn wasted Scottish wind power into bitcoin to cut its $1.3 billion grid bill (13h ago)",
+   "A behind the scenes force may amplify bitcoin and ether price volatility (13h ago)",
    "Here\u2019s what happened in crypto today (14h ago)",
    "Microsoft confirms global outage resolved, rules out cyberattack (15h ago)",
    "MegaETH parent cuts 20% of staff amid restructuring, AI push (17h ago)",
