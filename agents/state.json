@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -66536.70178486405,
+   "cash": -66468.70178486405,
    "open": [
     {
      "id": 3150,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3152,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "WASTED6",
-     "mint": "3wyRvbB6nFD7Y9cuozSXrUajZs1EoJxrcBCDBxwupump",
-     "side": 1,
-     "opened": 1794832226.0524082,
-     "entry": 5.23e-05,
-     "stop": 4.184e-05,
-     "target": 7.322e-05,
-     "size": 3824091.778202677,
-     "deadline": 1794839426.0524085,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3153,
      "desk": "control",
      "market": "meme",
@@ -66,32 +51,48 @@
      "size": 862812.7696289906,
      "deadline": 1794839604.7182467,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3154,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "WASTED6",
+     "mint": "3wyRvbB6nFD7Y9cuozSXrUajZs1EoJxrcBCDBxwupump",
+     "side": 1,
+     "opened": 1794834605.0700972,
+     "entry": 7.072e-05,
+     "stop": 5.6576e-05,
+     "target": 9.9008e-05,
+     "size": 2828054.298642534,
+     "deadline": 1794841805.0700977,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3154,
+ "next_id": 3155,
  "runs": 109,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1794834400.1431546,
-  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794834400.1431546,
-  "seen:G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": 1794834400.1431546,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794834400.1431546,
-  "seen:CRKqYn9bnEZaXK6K2uk627szTFjait52RXeY6CEnpump": 1794834585.1132135,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794834585.1132135,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794834585.1132135,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794834585.1132135,
-  "seen:3wyRvbB6nFD7Y9cuozSXrUajZs1EoJxrcBCDBxwupump": 1794834770.4800215,
-  "seen:CZEB3WNZuF2Yz1z2H81RcCk8T7fsw82KB33zqamASVsg": 1794834770.4800215,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794834770.4800215,
   "seen:5JEauFGYh461xWuDpJA1gdPsciUodDNXmxriYTzpump": 1794834954.8583536,
   "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794834954.8583536,
   "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1794835139.3551936,
   "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794835139.3551936,
   "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794835139.3551936,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794835139.3551936,
-  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794835139.3551936
+  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794835139.3551936,
+  "seen:9fNQ9U9eZifLRGpNRZ3hDMYG35HqwgTWAbJPPzDwpump": 1794835320.287352,
+  "seen:G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": 1794835320.287352,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794835504.9480658,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794835504.9480658,
+  "seen:CRKqYn9bnEZaXK6K2uk627szTFjait52RXeY6CEnpump": 1794835504.9480658,
+  "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794835504.9480658,
+  "seen:HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": 1794835504.9480658,
+  "control:3wyRvbB6nFD7Y9cuozSXrUajZs1EoJxrcBCDBxwupump": 1794835505.070101,
+  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794835689.8418303,
+  "seen:3wyRvbB6nFD7Y9cuozSXrUajZs1EoJxrcBCDBxwupump": 1794835689.8418303,
+  "seen:CZEB3WNZuF2Yz1z2H81RcCk8T7fsw82KB33zqamASVsg": 1794835689.8418303,
+  "seen:9iG6qBMgzzuYyq2kfXcAD49bkTFrpGp5gr1QHJiZMwoi": 1794835689.8418303
  },
  "talks": {
   "2026-10-21": 109
@@ -132,22 +133,22 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794833500.1578596,
+  "t": 1794834420.3021472,
   "crypto": [
+   "Solana drops \u2018beta\u2019 label after more than six years (0h ago)",
+   "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes (0h ago)",
+   "HKMA, Swift explore tokenized deposits for cross-border bank payments (0h ago)",
    "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why. (1h ago)",
    "Singapore, Germany test cross-border payments to reduce settlement risk (1h ago)",
    "Bitcoin slips after rebounding from July 14 low that triggered $2 billion of liquidations (2h ago)",
    "Singapore, Germany test cross-border FX settlement with CBDCs (2h ago)",
    "BTC price tags 18-week low into Nvidia earnings: Three things to know in Bitcoin this week (2h ago)",
-   "Live updates: Bitcoin holding weekend plunge as November losses deepen to 17% (3h ago)",
-   "FOMC minutes, Nvidia earnings, Russia\u2019s retail crypto rules: Crypto Week Ahead (3h ago)",
-   "DBS, JPMorgan\u2019s Kinexys launch 24/7 transfers of tokenized deposits (4h ago)",
-   "JPMorgan and DBS let clients move dollars across borders on weekends (4h ago)",
-   "Harvard, Dartmouth keep Bitcoin ETF stakes steady as fund gains 42% in Q3 (4h ago)"
+   "Live updates: Bitcoin holding weekend plunge as November losses deepen to 17% (4h ago)",
+   "FOMC minutes, Nvidia earnings, Russia\u2019s retail crypto rules: Crypto Week Ahead (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 4.1h"
+   "USD Fed Chairman Warsh Speaks in 3.9h"
   ]
  },
  "spend": {
@@ -178,5 +179,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794833500.1576905
+ "last_macro_macro": 1794834789.857152
 }
