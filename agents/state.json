@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -65997.95587436609,
+   "cash": -66047.31209121936,
    "open": [
     {
      "id": 3118,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3122,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "XRL",
-     "mint": "Fww6zaNKcjpJaB33JayvUzsofBUobX5JaHiuQBN1Jf9g",
-     "side": 1,
-     "opened": 1794796261.196873,
-     "entry": 6.788e-05,
-     "stop": 5.4303999999999994e-05,
-     "target": 9.5032e-05,
-     "size": 2946375.9575721864,
-     "deadline": 1794803461.1968732,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3123,
      "desk": "control",
      "market": "meme",
@@ -74,16 +59,6 @@
  "runs": 107,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9iG6qBMgzzuYyq2kfXcAD49bkTFrpGp5gr1QHJiZMwoi": 1794796612.5978835,
-  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794796612.5978835,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794796612.5978835,
-  "seen:FwVsiYsWBDCs4QifGcDRGGxQ3xh6CYLnWWFLUDiupump": 1794796794.5224655,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794796794.5224655,
-  "control:FwVsiYsWBDCs4QifGcDRGGxQ3xh6CYLnWWFLUDiupump": 1794796794.8910885,
-  "seen:Cxf4sN6MT7o3rMgS86JwFEnh6Fiisk5GDzxWHr4Ppump": 1794796978.6202579,
-  "seen:Fww6zaNKcjpJaB33JayvUzsofBUobX5JaHiuQBN1Jf9g": 1794796978.6202579,
-  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794796978.6202579,
-  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794796978.6202579,
   "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794797160.8554444,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794797160.8554444,
   "seen:A5xsAQhwGeKsNTKPiyB3jYydffWxPyzyWVodSA4hpump": 1794797160.8554444,
@@ -92,7 +67,19 @@
   "control:Fww6zaNKcjpJaB33JayvUzsofBUobX5JaHiuQBN1Jf9g": 1794797161.1968756,
   "seen:2YxbK7V6ZTKSxcavk3V4kFzdtZ4uywhhoyuSxapjpump": 1794797344.2721305,
   "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794797344.2721305,
-  "control:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794797344.313096
+  "control:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794797344.313096,
+  "seen:9iG6qBMgzzuYyq2kfXcAD49bkTFrpGp5gr1QHJiZMwoi": 1794797528.1362972,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794797528.1362972,
+  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1794797528.1362972,
+  "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1794797528.1362972,
+  "seen:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": 1794797528.1362972,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794797710.1664612,
+  "seen:5qRxJ9W45zUrUtGGDneysiRBKZaceNriEqVUei1Rpump": 1794797710.1664612,
+  "seen:DTJbHA1ntTzsp6FXKRhwwD4E3CLcd5trkWhSV8ivpump": 1794797710.1664612,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794797710.1664612,
+  "seen:Cxf4sN6MT7o3rMgS86JwFEnh6Fiisk5GDzxWHr4Ppump": 1794797892.8021667,
+  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794797892.8021667,
+  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794797892.8021667
  },
  "talks": {
   "2026-10-21": 109
@@ -133,22 +120,22 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794795894.5347717,
+  "t": 1794796810.178814,
   "crypto": [
+   "Luxor CEO warns of AI \u2018dark forest\u2019 after Bitcoin miner hijack (0h ago)",
    "Jensen Huang weighs Nvidia comeback days after shock exit: FT (3h ago)",
    "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler\u2019s Digest (4h ago)",
    "Did prediction markets call the U.S. midterm election?: State of Crypto (7h ago)",
    "Enterprise blockchain is going to come back from the dead (12h ago)",
-   "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session (12h ago)",
+   "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session (13h ago)",
    "Here\u2019s what happened in crypto today (15h ago)",
    "Bitcoin falls to four-month low near $62K as crypto selloff deepens (16h ago)",
-   "Coinone warns of phishing, identity theft after customer data breach (18h ago)",
-   "RWA protocol stUSDT winds down three years after $2.3B TVL peak (20h ago)",
-   "XRP crashes to its lowest since November 2024 as money leaves crypto (24h ago)"
+   "Coinone warns of phishing, identity theft after customer data breach (19h ago)",
+   "RWA protocol stUSDT winds down three years after $2.3B TVL peak (20h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 14.6h"
+   "USD Fed Chairman Warsh Speaks in 14.3h"
   ]
  },
  "spend": {
