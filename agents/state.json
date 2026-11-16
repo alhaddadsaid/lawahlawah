@@ -66,39 +66,51 @@
      "size": 2263980.076975323,
      "deadline": 1794815228.753186,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3137,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "GBPUSD",
+     "mint": "",
+     "side": 1,
+     "opened": 1794808944.546259,
+     "entry": 1.3206899166107178,
+     "stop": 1.3200890166418893,
+     "target": 1.3215912665639604,
+     "size": 166417.04973784016,
+     "deadline": 1794895344.5462594,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 3137,
+ "next_id": 3138,
  "runs": 108,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794808196.0118098,
-  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794808196.0118098,
-  "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794808196.0118098,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794808196.0118098,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794808378.1699815,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794808378.1699815,
-  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794808378.1699815,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794808378.1699815,
-  "seen:67Ke9FXwssh2knJ22fzDxku9QMPZ5Ls6REKdqHxLpump": 1794808563.4420624,
-  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794808563.4420624,
-  "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794808563.4420624,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794808563.4420624,
-  "seen:Fww6zaNKcjpJaB33JayvUzsofBUobX5JaHiuQBN1Jf9g": 1794808563.4420624,
-  "seen:BTCmcoKg6J767Bum7nXVDPLsWAZs3ZdYwTQr7YnXpump": 1794808563.4420624,
-  "control:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794808746.0232396,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794808928.712358,
-  "seen:G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": 1794808928.712358,
-  "seen:BARobVaVawPxpjaHLsvrdLn2SpVJQDFYx4BY2R5Kpump": 1794808928.712358,
-  "control:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794808928.753189
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794809294.274876,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794809294.274876,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794809294.274876,
+  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794809294.274876,
+  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794809476.1341934,
+  "seen:67Ke9FXwssh2knJ22fzDxku9QMPZ5Ls6REKdqHxLpump": 1794809476.1341934,
+  "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794809476.1341934,
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794809657.967385,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794809844.4526238,
+  "seen:G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": 1794809844.4526238,
+  "control:GBPUSD": 1794809844.5462627,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794810022.7212787,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794810022.7212787,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794810022.7212787,
+  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794810022.7212787,
+  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1794810022.7212787
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498552,
+ "ctrl_macro_hour": 498558,
  "team": [
   {
    "name": "Lead",
@@ -133,9 +145,9 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794807845.3742251,
+  "t": 1794808757.9799263,
   "crypto": [
-   "Aster CEO suspects foul play after token plunges 32% in minutes (0h ago)",
+   "Aster CEO suspects foul play after token plunges 32% in minutes (1h ago)",
    "Bitcoin\u2019s biggest bet is now a drop below $60,000, not a rally above $100,000 (1h ago)",
    "Asian chip stocks tumble ahead of Nvidia Q3 earnings (1h ago)",
    "Luxor CEO warns of AI \u2018dark forest\u2019 following Bitcoin miner hijack (3h ago)",
@@ -144,11 +156,11 @@
    "Did prediction markets call the U.S. midterm election?: State of Crypto (10h ago)",
    "Enterprise blockchain is going to come back from the dead (15h ago)",
    "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session (16h ago)",
-   "Bitcoin falls to 4-month low near $62K as crypto selloff deepens (19h ago)"
+   "Bitcoin falls to 4-month low near $62K as crypto selloff deepens (20h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 11.3h"
+   "USD Fed Chairman Warsh Speaks in 11.0h"
   ]
  },
  "spend": {
@@ -179,5 +191,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794807845.3740737
+ "last_macro_macro": 1794809122.7333999
 }
