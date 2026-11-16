@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -66578.14647396599,
+   "cash": -66592.85075412162,
    "open": [
-    {
-     "id": 3138,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "bill",
-     "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
-     "side": 1,
-     "opened": 1794811318.6574883,
-     "entry": 0.0001285,
-     "stop": 0.00010280000000000002,
-     "target": 0.00017989999999999998,
-     "size": 1556420.233463035,
-     "deadline": 1794818518.6574886,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3140,
      "desk": "control",
@@ -89,23 +74,21 @@
  "runs": 108,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794818230.2842684,
-  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794818230.2842684,
-  "seen:G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": 1794818230.2842684,
-  "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1794818230.2842684,
-  "seen:Bv5s6pGf2Yv2vmpBaG6F9nqMZtqmsro2PVy1hzPvpump": 1794818412.2632189,
-  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794818412.2632189,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794818412.2632189,
-  "control:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794818412.3091633,
-  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794818594.304625,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794818594.304625,
-  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794818594.304625,
-  "seen:2fj37tQcLEbLAcmAGWGzMAAUfteJaC9wdVnWdhWopump": 1794818777.826092,
-  "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794818777.826092,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794818777.826092,
   "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794818960.2021105,
   "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794818960.2021105,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794818960.2021105
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794818960.2021105,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794819143.5516784,
+  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794819143.5516784,
+  "seen:G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": 1794819143.5516784,
+  "seen:Bv5s6pGf2Yv2vmpBaG6F9nqMZtqmsro2PVy1hzPvpump": 1794819326.0799525,
+  "seen:CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt": 1794819326.0799525,
+  "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1794819326.0799525,
+  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794819509.2676437,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794819509.2676437,
+  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794819509.2676437,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794819509.2676437,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794819509.2676437,
+  "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794819691.1794376
  },
  "talks": {
   "2026-10-21": 109
@@ -146,22 +129,22 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794817877.8388522,
+  "t": 1794818791.1925418,
   "crypto": [
+   "JPMorgan and DBS let clients move dollars across borders on weekends (0h ago)",
+   "Harvard, Dartmouth keep Bitcoin ETF stakes steady as fund gains 42% in Q3 (0h ago)",
    "Vitalik Buterin flips to \u2018total bull\u2019 on a faster route to quantum-safe Ethereum (0h ago)",
    "Bitcoin miners were hijacked and their BTC rewards redirected to an attacker (1h ago)",
    "Cardano holders vote down $5 million bid to buy warehouse copper (2h ago)",
-   "Trump administration to name Nvidia, OpenAI and several others as AI national champions (2h ago)",
+   "Trump administration to name Nvidia, OpenAI and several others as AI national champions (3h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "Aster CEO suspects foul play after token plunges 32% in minutes (3h ago)",
    "Bitcoin\u2019s biggest bet is now a drop below $60,000, not a rally above $100,000 (4h ago)",
-   "Asian chip stocks tumble ahead of Nvidia Q3 earnings (4h ago)",
-   "Luxor CEO warns of AI \u2018dark forest\u2019 following Bitcoin miner hijack (6h ago)",
-   "Jensen Huang weighs Nvidia comeback days after shock exit: FT (9h ago)"
+   "Asian chip stocks tumble ahead of Nvidia Q3 earnings (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 8.5h"
+   "USD Fed Chairman Warsh Speaks in 8.2h"
   ]
  },
  "spend": {
