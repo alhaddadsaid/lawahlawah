@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -66154.06856068276,
+   "cash": -66164.7041539031,
    "open": [
-    {
-     "id": 3118,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "bill",
-     "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
-     "side": 1,
-     "opened": 1794794799.613635,
-     "entry": 0.0001534,
-     "stop": 0.00012272,
-     "target": 0.00021475999999999996,
-     "size": 1303780.964797914,
-     "deadline": 1794801999.613635,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3123,
      "desk": "control",
@@ -81,31 +66,48 @@
      "size": 1795332.1364452424,
      "deadline": 1794805107.99498,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3128,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Neil",
+     "mint": "9iG6qBMgzzuYyq2kfXcAD49bkTFrpGp5gr1QHJiZMwoi",
+     "side": 1,
+     "opened": 1794802110.9090147,
+     "entry": 0.0001336,
+     "stop": 0.00010688,
+     "target": 0.00018703999999999997,
+     "size": 1497005.988023952,
+     "deadline": 1794809310.9090147,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3128,
+ "next_id": 3129,
  "runs": 107,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9iG6qBMgzzuYyq2kfXcAD49bkTFrpGp5gr1QHJiZMwoi": 1794802095.3679688,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794802095.3679688,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794802095.3679688,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794802095.3679688,
-  "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794802277.8868651,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794802277.8868651,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794802462.101322,
-  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794802462.101322,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794802462.101322,
-  "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794802462.101322,
   "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794802645.1333072,
   "seen:Fww6zaNKcjpJaB33JayvUzsofBUobX5JaHiuQBN1Jf9g": 1794802645.1333072,
   "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794802645.1333072,
   "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794802827.4512002,
   "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1794802827.4512002,
   "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1794802827.4512002,
-  "seen:KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump": 1794802827.4512002
+  "seen:KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump": 1794802827.4512002,
+  "seen:9iG6qBMgzzuYyq2kfXcAD49bkTFrpGp5gr1QHJiZMwoi": 1794803010.8641691,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794803010.8641691,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794803010.8641691,
+  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794803010.8641691,
+  "control:9iG6qBMgzzuYyq2kfXcAD49bkTFrpGp5gr1QHJiZMwoi": 1794803010.9090178,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794803193.438932,
+  "seen:34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": 1794803193.438932,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794803375.8915555,
+  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794803375.8915555,
+  "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794803375.8915555,
+  "seen:8JCsa61htnPj2af7g1KSyU1UEncruHE1Ph9aNR6rpump": 1794803375.8915555,
+  "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794803375.8915555
  },
  "talks": {
   "2026-10-21": 109
@@ -146,22 +148,22 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794801377.8992746,
+  "t": 1794802293.4512002,
   "crypto": [
-   "Luxor CEO warns of AI \u2018dark forest\u2019 after Bitcoin miner hijack (1h ago)",
+   "Luxor CEO warns of AI \u2018dark forest\u2019 after Bitcoin miner hijack (2h ago)",
    "Jensen Huang weighs Nvidia comeback days after shock exit: FT (4h ago)",
    "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler\u2019s Digest (5h ago)",
-   "Did prediction markets call the U.S. midterm election?: State of Crypto (8h ago)",
-   "Enterprise blockchain is going to come back from the dead (13h ago)",
+   "Did prediction markets call the U.S. midterm election?: State of Crypto (9h ago)",
+   "Enterprise blockchain is going to come back from the dead (14h ago)",
    "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session (14h ago)",
    "Here\u2019s what happened in crypto today (17h ago)",
    "Bitcoin falls to four-month low near $62K as crypto selloff deepens (18h ago)",
    "Coinone warns of phishing, identity theft after customer data breach (20h ago)",
-   "RWA protocol stUSDT winds down three years after $2.3B TVL peak (21h ago)"
+   "RWA protocol stUSDT winds down three years after $2.3B TVL peak (22h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 13.1h"
+   "USD Fed Chairman Warsh Speaks in 12.8h"
   ]
  },
  "spend": {
