@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-16 14:35 UTC. Runs so far: 109. Model: claude-haiku-5-5.
+Updated 2026-11-16 14:46 UTC. Runs so far: 109. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3079 | 31 | -76627.52 | -106241.98 |
+| control | meme | 3082 | 31 | -76664.53 | -106308.82 |
 | control | macro | 62 | 50 | 221.89 | -87.52 |
-| control | all | 3141 | 32 | -76405.63 | -106329.5 |
+| control | all | 3144 | 32 | -76442.64 | -106396.34 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,8 +20,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: BUTTHOLE long at 0.0007328, stop 0.00058624, target 0.00102592, opened 2026-11-16 13:55 UTC
 - control: Socks long at 9.029e-05, stop 7.2232e-05, target 0.000126406, opened 2026-11-16 13:58 UTC
 - control: GBPUSD long at 1.32003, stop 1.31894, target 1.32166, opened 2026-11-16 14:02 UTC
-- control: Stumpy long at 0.0001052, stop 8.416e-05, target 0.00014728, opened 2026-11-16 14:29 UTC
-- control: ICEINU long at 4.278e-05, stop 3.4224e-05, target 5.9892e-05, opened 2026-11-16 14:35 UTC
+- control: hello long at 0.000127, stop 0.0001016, target 0.0001778, opened 2026-11-16 14:41 UTC
 
 ## Team
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-16 14:35 UTC control: OPENED ICEINU long at 4.278e-05 (stop 3.4224e-05, target 5.9892e-05) - control: frozen v3 rules
+- control: CLOSED Stumpy (stop) P&L $-51.12 normal, $-60.07 pessimistic
 
