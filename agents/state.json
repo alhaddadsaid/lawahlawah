@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -66047.31209121936,
+   "cash": -66102.06476501614,
    "open": [
     {
      "id": 3118,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3119,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "BAWSAQ",
-     "mint": "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
-     "side": 1,
-     "opened": 1794794982.512716,
-     "entry": 8.976e-05,
-     "stop": 7.1808e-05,
-     "target": 0.000125664,
-     "size": 2228163.9928698754,
-     "deadline": 1794802182.5127163,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3123,
      "desk": "control",
      "market": "meme",
@@ -51,35 +36,81 @@
      "size": 449438.20224719105,
      "deadline": 1794803644.3130934,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3124,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SAME",
+     "mint": "5qRxJ9W45zUrUtGGDneysiRBKZaceNriEqVUei1Rpump",
+     "side": 1,
+     "opened": 1794797176.853629,
+     "entry": 6.323e-05,
+     "stop": 5.0584e-05,
+     "target": 8.8522e-05,
+     "size": 3163055.5116242287,
+     "deadline": 1794804376.8536294,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3125,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "BAWSAQ",
+     "mint": "7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump",
+     "side": 1,
+     "opened": 1794797541.7058678,
+     "entry": 7.422e-05,
+     "stop": 5.937600000000001e-05,
+     "target": 0.000103908,
+     "size": 2694691.4578280784,
+     "deadline": 1794804741.705868,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3126,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "WISHMAS",
+     "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+     "side": 1,
+     "opened": 1794797724.3700774,
+     "entry": 0.0001721,
+     "stop": 0.00013768000000000002,
+     "target": 0.00024094,
+     "size": 1162115.0493898895,
+     "deadline": 1794804924.3700774,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3124,
+ "next_id": 3127,
  "runs": 107,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794797160.8554444,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794797160.8554444,
-  "seen:A5xsAQhwGeKsNTKPiyB3jYydffWxPyzyWVodSA4hpump": 1794797160.8554444,
-  "seen:C5X8tVbt8cGw7iaaEuAVGTxFVZ4uSjscmiUbVpVwpump": 1794797160.8554444,
-  "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794797160.8554444,
-  "control:Fww6zaNKcjpJaB33JayvUzsofBUobX5JaHiuQBN1Jf9g": 1794797161.1968756,
-  "seen:2YxbK7V6ZTKSxcavk3V4kFzdtZ4uywhhoyuSxapjpump": 1794797344.2721305,
-  "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794797344.2721305,
-  "control:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794797344.313096,
-  "seen:9iG6qBMgzzuYyq2kfXcAD49bkTFrpGp5gr1QHJiZMwoi": 1794797528.1362972,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794797528.1362972,
-  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1794797528.1362972,
-  "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1794797528.1362972,
-  "seen:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": 1794797528.1362972,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794797710.1664612,
-  "seen:5qRxJ9W45zUrUtGGDneysiRBKZaceNriEqVUei1Rpump": 1794797710.1664612,
-  "seen:DTJbHA1ntTzsp6FXKRhwwD4E3CLcd5trkWhSV8ivpump": 1794797710.1664612,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794797710.1664612,
   "seen:Cxf4sN6MT7o3rMgS86JwFEnh6Fiisk5GDzxWHr4Ppump": 1794797892.8021667,
   "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794797892.8021667,
-  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794797892.8021667
+  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794797892.8021667,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794798076.8116612,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794798076.8116612,
+  "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1794798076.8116612,
+  "seen:Fww6zaNKcjpJaB33JayvUzsofBUobX5JaHiuQBN1Jf9g": 1794798076.8116612,
+  "control:5qRxJ9W45zUrUtGGDneysiRBKZaceNriEqVUei1Rpump": 1794798076.8536325,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794798259.3748965,
+  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1794798259.3748965,
+  "seen:JB9mSMG6smRXvm1sGKC5JhADxLFKEDLKKLKc7L3ePA1w": 1794798441.3539398,
+  "seen:9iG6qBMgzzuYyq2kfXcAD49bkTFrpGp5gr1QHJiZMwoi": 1794798441.3539398,
+  "seen:2YxbK7V6ZTKSxcavk3V4kFzdtZ4uywhhoyuSxapjpump": 1794798441.3539398,
+  "seen:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": 1794798441.3539398,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794798441.3539398,
+  "seen:CHuLmJXz8F3YXUyv984PRxeECfSvqD5MZ3W1FoDmpump": 1794798441.3539398,
+  "control:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": 1794798441.7058706,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794798623.870676,
+  "seen:5qRxJ9W45zUrUtGGDneysiRBKZaceNriEqVUei1Rpump": 1794798623.870676,
+  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1794798623.870676,
+  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794798623.870676,
+  "control:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794798624.3700805
  },
  "talks": {
   "2026-10-21": 109
@@ -120,7 +151,7 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794796810.178814,
+  "t": 1794797723.8831031,
   "crypto": [
    "Luxor CEO warns of AI \u2018dark forest\u2019 after Bitcoin miner hijack (0h ago)",
    "Jensen Huang weighs Nvidia comeback days after shock exit: FT (3h ago)",
@@ -128,14 +159,14 @@
    "Did prediction markets call the U.S. midterm election?: State of Crypto (7h ago)",
    "Enterprise blockchain is going to come back from the dead (12h ago)",
    "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session (13h ago)",
-   "Here\u2019s what happened in crypto today (15h ago)",
-   "Bitcoin falls to four-month low near $62K as crypto selloff deepens (16h ago)",
+   "Here\u2019s what happened in crypto today (16h ago)",
+   "Bitcoin falls to four-month low near $62K as crypto selloff deepens (17h ago)",
    "Coinone warns of phishing, identity theft after customer data breach (19h ago)",
    "RWA protocol stUSDT winds down three years after $2.3B TVL peak (20h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 14.3h"
+   "USD Fed Chairman Warsh Speaks in 14.1h"
   ]
  },
  "spend": {
@@ -166,5 +197,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794796260.8674436
+ "last_macro_macro": 1794797541.3658044
 }
