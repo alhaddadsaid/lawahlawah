@@ -51,33 +51,49 @@
      "size": 91549.42041299427,
      "deadline": 1794916976.3670733,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 3151,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "bill",
+     "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
+     "side": 1,
+     "opened": 1794831861.1130705,
+     "entry": 0.0001749,
+     "stop": 0.00013992,
+     "target": 0.00024485999999999996,
+     "size": 1143510.5774728416,
+     "deadline": 1794839061.113071,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3151,
+ "next_id": 3152,
  "runs": 109,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794831111.2201986,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794831111.2201986,
-  "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1794831111.2201986,
-  "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794831111.2201986,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794831293.559525,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794831293.559525,
-  "seen:8sS3ELDe87aZQGBrdznhsp3LaNJAYQrdB1JDL9ApEZfV": 1794831476.2000904,
-  "seen:CZEB3WNZuF2Yz1z2H81RcCk8T7fsw82KB33zqamASVsg": 1794831476.2000904,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794831476.2000904,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794831476.2000904,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794831476.2000904,
-  "control:GBPUSD": 1794831476.3670769,
-  "seen:DdpwR8QXfnS11HUrSdNmnNvXj3XDMcePoHsWGJrdpump": 1794831656.4305553,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794831656.4305553,
-  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794831656.4305553,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794831656.4305553,
-  "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1794831656.4305553,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794831840.8897402,
-  "seen:6XGN3oMrjLuWvDyvHL1VZNNPN5d7dTspD9N7LKjAnime": 1794831840.8897402
+  "seen:EpvfjFE39EP6mMihv5p7ir9AZYtX5vexVBFKTsn8FohR": 1794832025.9920847,
+  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794832025.9920847,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794832206.8636503,
+  "seen:BARobVaVawPxpjaHLsvrdLn2SpVJQDFYx4BY2R5Kpump": 1794832206.8636503,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794832391.8706722,
+  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794832391.8706722,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794832391.8706722,
+  "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794832391.8706722,
+  "seen:G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": 1794832391.8706722,
+  "seen:CZEB3WNZuF2Yz1z2H81RcCk8T7fsw82KB33zqamASVsg": 1794832575.635114,
+  "seen:DdpwR8QXfnS11HUrSdNmnNvXj3XDMcePoHsWGJrdpump": 1794832575.635114,
+  "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1794832575.635114,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794832575.635114,
+  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794832575.635114,
+  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794832575.635114,
+  "seen:CJM5pVb8qq6W99kxgF5pYefwVqLqUovDqSyodkxFukiP": 1794832760.966772,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794832760.966772,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794832760.966772,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794832760.966772,
+  "control:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794832761.1130745
  },
  "talks": {
   "2026-10-21": 109
@@ -118,22 +134,22 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794830756.4452076,
+  "t": 1794831675.6496906,
   "crypto": [
-   "Singapore, Germany test cross-border payments to reduce settlement risk (0h ago)",
+   "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why. (0h ago)",
+   "Singapore, Germany test cross-border payments to reduce settlement risk (1h ago)",
    "Bitcoin slips after rebounding from July 14 low that triggered $2 billion of liquidations (1h ago)",
-   "Singapore, Germany test cross-border FX settlement with CBDCs (1h ago)",
-   "BTC price tags 18-week low into Nvidia earnings: Three things to know in Bitcoin this week (1h ago)",
+   "Singapore, Germany test cross-border FX settlement with CBDCs (2h ago)",
+   "BTC price tags 18-week low into Nvidia earnings: Three things to know in Bitcoin this week (2h ago)",
    "Live news: Bitcoin posts sixth weekly loss as tech stocks and metals slide (3h ago)",
    "FOMC minutes, Nvidia earnings, Russia\u2019s retail crypto rules: Crypto Week Ahead (3h ago)",
-   "DBS, JPMorgan\u2019s Kinexys launch 24/7 transfers of tokenized deposits (3h ago)",
-   "JPMorgan and DBS let clients move dollars across borders on weekends (3h ago)",
-   "Harvard, Dartmouth keep Bitcoin ETF stakes steady as fund gains 42% in Q3 (4h ago)",
-   "Vitalik Buterin flips to \u2018total bull\u2019 on a faster route to quantum-safe Ethereum (4h ago)"
+   "DBS, JPMorgan\u2019s Kinexys launch 24/7 transfers of tokenized deposits (4h ago)",
+   "JPMorgan and DBS let clients move dollars across borders on weekends (4h ago)",
+   "Harvard, Dartmouth keep Bitcoin ETF stakes steady as fund gains 42% in Q3 (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 4.9h"
+   "USD Fed Chairman Warsh Speaks in 4.6h"
   ]
  },
  "spend": {
