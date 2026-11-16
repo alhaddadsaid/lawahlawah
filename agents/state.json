@@ -5,66 +5,63 @@
    "open": []
   },
   "control": {
-   "cash": -67304.52443071481,
+   "cash": -67289.96502477421,
    "open": [
     {
-     "id": 3176,
+     "id": 3178,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "LOCKIN",
+     "mint": "8Ki8DpuWNxu9VsS3kQbarsCWMcFGWkzzA8pUPto9zBd5",
+     "side": 1,
+     "opened": 1794862055.3053677,
+     "entry": 0.0006151,
+     "stop": 0.0004920800000000001,
+     "target": 0.00086114,
+     "size": 325150.38205169886,
+     "deadline": 1794869255.305368,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3179,
      "desk": "control",
      "market": "meme",
      "symbol": "BANK",
      "mint": "667tvUtaFVbesmSZDYCgQzYkJW4y36PdbmacRZGipump",
      "side": 1,
-     "opened": 1794860590.752712,
-     "entry": 0.0001818,
-     "stop": 0.00014544000000000002,
-     "target": 0.00025452,
-     "size": 1100110.0110011,
-     "deadline": 1794867790.7527122,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3177,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Trader",
-     "mint": "7TnXXR1ytJ9PZDxgSA8VwbyKmEWZmiA2YAn55YyVpump",
-     "side": 1,
-     "opened": 1794861137.61278,
-     "entry": 0.000163,
-     "stop": 0.00013040000000000003,
-     "target": 0.0002282,
-     "size": 1226993.8650306747,
-     "deadline": 1794868337.6127803,
+     "opened": 1794862420.9740264,
+     "entry": 0.0001669,
+     "stop": 0.00013352,
+     "target": 0.00023365999999999998,
+     "size": 1198322.3487118036,
+     "deadline": 1794869620.9740267,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3178,
+ "next_id": 3180,
  "runs": 110,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794862036.9393854,
-  "seen:667tvUtaFVbesmSZDYCgQzYkJW4y36PdbmacRZGipump": 1794862036.9393854,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1794862036.9393854,
-  "seen:DitHyRMQiSDhn5cnKMJV2CDDt6sVct96YrECiM49pump": 1794862036.9393854,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794862036.9393854,
-  "seen:Ugp1hEeDscu8RXkzd2teXLACYB4wrxVEht5mghDpump": 1794862036.9393854,
-  "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1794862036.9393854,
-  "seen:HsWkLse36Aog3pK8n6cNHRG6s1kc9KVgz5VNMBcRpump": 1794862036.9393854,
-  "control:7TnXXR1ytJ9PZDxgSA8VwbyKmEWZmiA2YAn55YyVpump": 1794862037.6127832,
-  "seen:GkX7o6xym5Ywdncexzkmd1xFMFaryTPWukm5UfsUpump": 1794862220.4730976,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794862220.4730976,
-  "seen:Pre8AREmFPtoJFT8mQSXQLh56cwJmM7CFDRuoGBZiUP": 1794862220.4730976,
-  "seen:3EDLvS4PMWXmN5oj7aGWwR16yC3zgZSdWL2BeVK8sent": 1794862404.7241626,
-  "seen:SPYBo66VJPFjh1pXMb9Le53kDYWTK1zzYVDeVRWtsbi": 1794862404.7241626,
-  "seen:7TnXXR1ytJ9PZDxgSA8VwbyKmEWZmiA2YAn55YyVpump": 1794862404.7241626,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794862404.7241626,
   "seen:FU1q8vJpZNUrmqsciSjp8bAKKidGsLmouB8CBdf8TKQv": 1794862587.4499402,
   "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794862587.4499402,
   "seen:3Ag5XsdWbPZrrcdfcsQqfHPv2syhZWpNx8CDaDcWpump": 1794862770.02644,
   "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794862770.02644,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794862770.02644
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794862770.02644,
+  "seen:D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794862954.5614357,
+  "seen:8Ki8DpuWNxu9VsS3kQbarsCWMcFGWkzzA8pUPto9zBd5": 1794862954.5614357,
+  "seen:667tvUtaFVbesmSZDYCgQzYkJW4y36PdbmacRZGipump": 1794862954.5614357,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1794862954.5614357,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794862954.5614357,
+  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794862954.5614357,
+  "control:8Ki8DpuWNxu9VsS3kQbarsCWMcFGWkzzA8pUPto9zBd5": 1794862955.3053713,
+  "seen:Pre8AREmFPtoJFT8mQSXQLh56cwJmM7CFDRuoGBZiUP": 1794863138.3240118,
+  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794863138.3240118,
+  "seen:8q74mAMERS7PrychaRch2p1MK3JKoy4Y7BjJ7ucppump": 1794863138.3240118,
+  "seen:HhvPaeDYh5mTRP4pokL1UCJVQN5iGzvKPVinCkQB8HfN": 1794863320.8832612,
+  "seen:7TnXXR1ytJ9PZDxgSA8VwbyKmEWZmiA2YAn55YyVpump": 1794863320.8832612,
+  "control:667tvUtaFVbesmSZDYCgQzYkJW4y36PdbmacRZGipump": 1794863320.97403
  },
  "talks": {
   "2026-10-21": 109
@@ -105,23 +102,23 @@
  ],
  "last_review": 1794860224.8598948,
  "news": {
-  "t": 1794861136.952273,
+  "t": 1794862054.5736072,
   "crypto": [
+   "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off (0h ago)",
    "Boris Johnson says UK must lead blockchain development despite crypto doubts (0h ago)",
    "Coinbase and Broadridge propose standard for tokenized stock disclosures (1h ago)",
    "U.S. Senate Democrats tell CFTC to back off its demand prediction markets defy bans (2h ago)",
-   "Nvidia turmoil tests Bitcoin miners\u2019 AI funding plans (2h ago)",
+   "Nvidia turmoil tests Bitcoin miners\u2019 AI funding plans (3h ago)",
    "Safe wallet reportedly loses $6.5M as Zodiac suspects key compromise (3h ago)",
    "Lighter suspends all withdrawals after $10.4 million crypto exploit (4h ago)",
    "Bitcoin price fails to hold $65K as US stocks drop further on AI nerves (4h ago)",
    "Brazil's central bank faces backlash over stablecoin money laundering remarks (5h ago)",
-   "German parliament proposes crypto seizures without criminal charges (5h ago)",
-   "Zelle picks Solana for ZelleUSD stablecoin and international payments (6h ago)"
+   "German parliament proposes crypto seizures without criminal charges (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core Retail Sales m/m in 17.0h, forecast 0.4%, previous 0.9%",
-   "USD Retail Sales m/m in 17.0h, forecast 0.2%, previous 0.8%"
+   "USD Core Retail Sales m/m in 16.7h, forecast 0.4%, previous 0.9%",
+   "USD Retail Sales m/m in 16.7h, forecast 0.2%, previous 0.8%"
   ]
  },
  "spend": {
