@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -66288.3180706364,
+   "cash": -66337.3180706364,
    "open": [
     {
      "id": 3129,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3133,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "XRL",
-     "mint": "Fww6zaNKcjpJaB33JayvUzsofBUobX5JaHiuQBN1Jf9g",
-     "side": 1,
-     "opened": 1794805489.9207387,
-     "entry": 0.000126,
-     "stop": 0.00010080000000000001,
-     "target": 0.00017639999999999998,
-     "size": 1587301.5873015872,
-     "deadline": 1794812689.9207392,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3134,
      "desk": "control",
      "market": "meme",
@@ -74,27 +59,21 @@
  "runs": 108,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:cvkarf1CtN3tbLRk961vsaEf4T8QbnihDkCHa93pump": 1794806913.9997125,
-  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794806913.9997125,
-  "seen:EuU1j5r3zAMAyQ6YcF9VY9QeV8TDoKWVAMGF1vU3JRUa": 1794807096.3875291,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1794807096.3875291,
-  "seen:4W7BNgGspH3YFbLsP5T7AnKAzr6REGMMBGK9xDZKpump": 1794807096.3875291,
-  "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794807096.3875291,
-  "control:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794807096.4283817,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794807279.8742323,
-  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794807279.8742323,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794807279.8742323,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794807279.8742323,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794807279.8742323,
-  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794807279.8742323,
-  "seen:CWKbSd7jwMXXexP3pbwLAWMzr4HXAXTvt4R9pk2Vyyyc": 1794807461.8634872,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794807461.8634872,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794807461.8634872,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794807461.8634872,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794807461.8634872,
   "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794807647.7574522,
   "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794807647.7574522,
-  "seen:Fww6zaNKcjpJaB33JayvUzsofBUobX5JaHiuQBN1Jf9g": 1794807647.7574522
+  "seen:Fww6zaNKcjpJaB33JayvUzsofBUobX5JaHiuQBN1Jf9g": 1794807647.7574522,
+  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1794807831.0056796,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794808013.400433,
+  "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794808013.400433,
+  "seen:G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": 1794808013.400433,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794808196.0118098,
+  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794808196.0118098,
+  "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794808196.0118098,
+  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794808196.0118098,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794808378.1699815,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794808378.1699815,
+  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794808378.1699815,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794808378.1699815
  },
  "talks": {
   "2026-10-21": 109
@@ -135,13 +114,13 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794806014.0113993,
+  "t": 1794806931.0175695,
   "crypto": [
    "Bitcoin\u2019s biggest bet is now a drop below $60,000, not a rally above $100,000 (0h ago)",
    "Asian chip stocks tumble ahead of Nvidia Q3 earnings (1h ago)",
    "Luxor CEO warns of AI \u2018dark forest\u2019 after Bitcoin miner hijack (3h ago)",
-   "Jensen Huang weighs Nvidia comeback days after shock exit: FT (5h ago)",
-   "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler\u2019s Digest (6h ago)",
+   "Jensen Huang weighs Nvidia comeback days after shock exit: FT (6h ago)",
+   "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler\u2019s Digest (7h ago)",
    "Did prediction markets call the U.S. midterm election?: State of Crypto (10h ago)",
    "Enterprise blockchain is going to come back from the dead (15h ago)",
    "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session (15h ago)",
@@ -150,7 +129,7 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 11.8h"
+   "USD Fed Chairman Warsh Speaks in 11.5h"
   ]
  },
  "spend": {
