@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -66484.18526262787,
+   "cash": -66597.07612406733,
    "open": [
-    {
-     "id": 3159,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "BUTTHOLE",
-     "mint": "4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump",
-     "side": 1,
-     "opened": 1794837357.2023351,
-     "entry": 0.0007328,
-     "stop": 0.00058624,
-     "target": 0.00102592,
-     "size": 272925.76419213973,
-     "deadline": 1794844557.2023358,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3160,
      "desk": "control",
@@ -53,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3169,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "JENSEN",
-     "mint": "B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump",
-     "side": 1,
-     "opened": 1794841203.6676614,
-     "entry": 0.0001655,
-     "stop": 0.00013240000000000002,
-     "target": 0.0002317,
-     "size": 1208459.2145015106,
-     "deadline": 1794848403.6676617,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3170,
      "desk": "control",
      "market": "meme",
@@ -89,15 +59,6 @@
  "runs": 109,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1794841737.350864,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794841737.350864,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794841737.350864,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794841737.350864,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794841922.173152,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794841922.173152,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794841922.173152,
-  "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794842103.2464316,
-  "control:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794842103.6676657,
   "seen:3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt": 1794842286.792568,
   "seen:EugsQhveCEQGoapBEUrMQxJxWNdshJrSmaLtN4ArRMM1": 1794842286.792568,
   "seen:2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ": 1794842286.792568,
@@ -107,7 +68,17 @@
   "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794842469.956552,
   "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794842469.956552,
   "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794842469.956552,
-  "control:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794842470.0367837
+  "control:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794842470.0367837,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794842654.39764,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794842654.39764,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794842654.39764,
+  "seen:B2YpP21vQBESJ2jtnuhPujEUT61KVRxZ2X5gsDcUpump": 1794842654.39764,
+  "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1794842654.39764,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794842837.798608,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794842837.798608,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794842837.798608,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1794843022.4657881,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794843022.4657881
  },
  "talks": {
   "2026-10-21": 109
@@ -148,24 +119,24 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794840837.3659925,
+  "t": 1794841754.413098,
   "crypto": [
+   "Zelle picks Solana for ZelleUSD stablecoin and international payments (0h ago)",
    "Lighter pauses withdrawals after reported $10M account theft (1h ago)",
-   "Here\u2019s what happened in crypto today (1h ago)",
-   "Banks are banning AI agents over security... and competition concerns (1h ago)",
-   "Strategy buys $33M in Bitcoin, spends $228M on STRC buybacks (1h ago)",
+   "Here\u2019s what happened in crypto today (2h ago)",
+   "Banks are banning AI agents over security... and competition concerns (2h ago)",
+   "Strategy buys $33M in Bitcoin, spends $228M on STRC buybacks (2h ago)",
    "Solana drops \u2018beta\u2019 label after more than six years (2h ago)",
    "Binance Pay Later offers credit backed by Bitcoin, Ether and BNB holdings (2h ago)",
    "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes (2h ago)",
    "HKMA, Swift explore tokenized deposits for cross-border bank payments (2h ago)",
-   "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why. (3h ago)",
-   "Singapore, Germany test cross-border payments to reduce settlement risk (3h ago)"
+   "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why. (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 2.1h",
-   "USD Core Retail Sales m/m in 22.6h, forecast 0.4%, previous 0.9%",
-   "USD Retail Sales m/m in 22.6h, forecast 0.2%, previous 0.8%"
+   "USD Fed Chairman Warsh Speaks in 1.8h",
+   "USD Core Retail Sales m/m in 22.3h, forecast 0.4%, previous 0.9%",
+   "USD Retail Sales m/m in 22.3h, forecast 0.2%, previous 0.8%"
   ]
  },
  "spend": {
