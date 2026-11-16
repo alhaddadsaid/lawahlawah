@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -66337.3180706364,
+   "cash": -66386.8963838894,
    "open": [
     {
      "id": 3129,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3130,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Socks",
-     "mint": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
-     "side": 1,
-     "opened": 1794804741.9299972,
-     "entry": 0.0001079,
-     "stop": 8.632e-05,
-     "target": 0.00015105999999999998,
-     "size": 1853568.1186283596,
-     "deadline": 1794811941.9299977,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3134,
      "desk": "control",
      "market": "meme",
@@ -51,21 +36,44 @@
      "size": 441208.91242003086,
      "deadline": 1794813396.4283793,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3135,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "WISHMAS",
+     "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
+     "side": 1,
+     "opened": 1794807846.0232372,
+     "entry": 0.0001735,
+     "stop": 0.00013879999999999999,
+     "target": 0.00024289999999999997,
+     "size": 1152737.7521613834,
+     "deadline": 1794815046.0232372,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3136,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Socks",
+     "mint": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
+     "side": 1,
+     "opened": 1794808028.7531857,
+     "entry": 8.834e-05,
+     "stop": 7.0672e-05,
+     "target": 0.000123676,
+     "size": 2263980.076975323,
+     "deadline": 1794815228.753186,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3135,
+ "next_id": 3137,
  "runs": 108,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794807647.7574522,
-  "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794807647.7574522,
-  "seen:Fww6zaNKcjpJaB33JayvUzsofBUobX5JaHiuQBN1Jf9g": 1794807647.7574522,
-  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1794807831.0056796,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794808013.400433,
-  "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794808013.400433,
-  "seen:G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": 1794808013.400433,
   "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794808196.0118098,
   "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794808196.0118098,
   "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794808196.0118098,
@@ -73,7 +81,18 @@
   "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794808378.1699815,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794808378.1699815,
   "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794808378.1699815,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794808378.1699815
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794808378.1699815,
+  "seen:67Ke9FXwssh2knJ22fzDxku9QMPZ5Ls6REKdqHxLpump": 1794808563.4420624,
+  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794808563.4420624,
+  "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794808563.4420624,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794808563.4420624,
+  "seen:Fww6zaNKcjpJaB33JayvUzsofBUobX5JaHiuQBN1Jf9g": 1794808563.4420624,
+  "seen:BTCmcoKg6J767Bum7nXVDPLsWAZs3ZdYwTQr7YnXpump": 1794808563.4420624,
+  "control:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794808746.0232396,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794808928.712358,
+  "seen:G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": 1794808928.712358,
+  "seen:BARobVaVawPxpjaHLsvrdLn2SpVJQDFYx4BY2R5Kpump": 1794808928.712358,
+  "control:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794808928.753189
  },
  "talks": {
   "2026-10-21": 109
@@ -114,22 +133,22 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794806931.0175695,
+  "t": 1794807845.3742251,
   "crypto": [
-   "Bitcoin\u2019s biggest bet is now a drop below $60,000, not a rally above $100,000 (0h ago)",
+   "Aster CEO suspects foul play after token plunges 32% in minutes (0h ago)",
+   "Bitcoin\u2019s biggest bet is now a drop below $60,000, not a rally above $100,000 (1h ago)",
    "Asian chip stocks tumble ahead of Nvidia Q3 earnings (1h ago)",
-   "Luxor CEO warns of AI \u2018dark forest\u2019 after Bitcoin miner hijack (3h ago)",
+   "Luxor CEO warns of AI \u2018dark forest\u2019 following Bitcoin miner hijack (3h ago)",
    "Jensen Huang weighs Nvidia comeback days after shock exit: FT (6h ago)",
    "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler\u2019s Digest (7h ago)",
    "Did prediction markets call the U.S. midterm election?: State of Crypto (10h ago)",
    "Enterprise blockchain is going to come back from the dead (15h ago)",
-   "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session (15h ago)",
-   "Here\u2019s what happened in crypto today (18h ago)",
-   "Bitcoin falls to four-month low near $62K as crypto selloff deepens (19h ago)"
+   "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session (16h ago)",
+   "Bitcoin falls to 4-month low near $62K as crypto selloff deepens (19h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 11.5h"
+   "USD Fed Chairman Warsh Speaks in 11.3h"
   ]
  },
  "spend": {
@@ -160,5 +179,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794806561.8753226
+ "last_macro_macro": 1794807845.3740737
 }
