@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-16 21:27 UTC. Runs so far: 110. Model: claude-haiku-5-5.
+Updated 2026-11-16 21:32 UTC. Runs so far: 110. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3098 | 31 | -77456.81 | -107244.9 |
+| control | meme | 3099 | 31 | -77506.38 | -107303.45 |
 | control | macro | 63 | 49 | 112.17 | -202.74 |
-| control | all | 3161 | 32 | -77344.64 | -107447.64 |
+| control | all | 3162 | 32 | -77394.21 | -107506.19 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: LOCKIN long at 0.0006151, stop 0.00049208, target 0.00086114, opened 2026-11-16 20:47 UTC
 - control: WIGGLES long at 0.0001585, stop 0.0001268, target 0.0002219, opened 2026-11-16 21:02 UTC
-- control: BELLA long at 8.339e-05, stop 6.6712e-05, target 0.000116746, opened 2026-11-16 21:12 UTC
 - control: POOLZ long at 8.635e-05, stop 6.908e-05, target 0.00012089, opened 2026-11-16 21:24 UTC
 - control: BANK long at 0.0001293, stop 0.00010344, target 0.00018102, opened 2026-11-16 21:27 UTC
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-16 21:27 UTC control: OPENED BANK long at 0.0001293 (stop 0.00010344, target 0.00018102) - control: frozen v3 rules
+- control: CLOSED BELLA (stop) P&L $-49.57 normal, $-58.55 pessimistic
 
