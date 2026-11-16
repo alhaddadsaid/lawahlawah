@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -66429.9636459172,
+   "cash": -66361.9636459172,
    "open": [
     {
      "id": 3151,
@@ -20,21 +20,6 @@
      "target": 0.00024485999999999996,
      "size": 1143510.5774728416,
      "deadline": 1794839061.113071,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3154,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "WASTED6",
-     "mint": "3wyRvbB6nFD7Y9cuozSXrUajZs1EoJxrcBCDBxwupump",
-     "side": 1,
-     "opened": 1794834605.0700972,
-     "entry": 7.072e-05,
-     "stop": 5.6576e-05,
-     "target": 9.9008e-05,
-     "size": 2828054.298642534,
-     "deadline": 1794841805.0700977,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -66,25 +51,44 @@
      "size": 272925.76419213973,
      "deadline": 1794844557.2023358,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3160,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Socks",
+     "mint": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
+     "side": 1,
+     "opened": 1794837537.197056,
+     "entry": 9.029e-05,
+     "stop": 7.223200000000001e-05,
+     "target": 0.000126406,
+     "size": 2215084.7269908073,
+     "deadline": 1794844737.1970565,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3161,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "GBPUSD",
+     "mint": "",
+     "side": 1,
+     "opened": 1794837720.51598,
+     "entry": 1.320027470588684,
+     "stop": 1.3189366715294975,
+     "target": 1.3216636691774641,
+     "size": 91675.91332042981,
+     "deadline": 1794924120.5159802,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 3160,
+ "next_id": 3162,
  "runs": 109,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3wyRvbB6nFD7Y9cuozSXrUajZs1EoJxrcBCDBxwupump": 1794837561.6367145,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794837561.6367145,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794837561.6367145,
-  "seen:G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": 1794837561.6367145,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794837706.727781,
-  "control:83GtPpfNSau1mtDZZ7Vx6YCf8gA5eBxniWCoDsvK2avy": 1794837706.8503637,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794837890.0147653,
-  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794837890.0147653,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794837890.0147653,
-  "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794837890.0147653,
-  "control:CRKqYn9bnEZaXK6K2uk627szTFjait52RXeY6CEnpump": 1794837890.0898247,
   "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1794838073.1715748,
   "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794838073.1715748,
   "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794838073.1715748,
@@ -92,13 +96,25 @@
   "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794838256.7397327,
   "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794838256.7397327,
   "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794838256.7397327,
-  "control:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794838257.2023392
+  "control:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794838257.2023392,
+  "seen:CRKqYn9bnEZaXK6K2uk627szTFjait52RXeY6CEnpump": 1794838437.104417,
+  "control:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794838437.19706,
+  "seen:2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ": 1794838620.3452942,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794838620.3452942,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794838620.3452942,
+  "control:GBPUSD": 1794838620.515984,
+  "seen:7EjoVVM1JDFfZgaQB9TR1r16vcjyYfdxTheggb8882Q8": 1794838805.8217094,
+  "seen:CEQnejxG1FPzMS6UiLbcxNiMKrZM3x6GTZucpJoSeByy": 1794838805.8217094,
+  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794838805.8217094,
+  "seen:GiN92K5sixL3bYNgaC8gVFD7guCTEdEo2x1YGKWfvA6p": 1794838805.8217094,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794838805.8217094,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794838805.8217094
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498565,
+ "ctrl_macro_hour": 498566,
  "team": [
   {
    "name": "Lead",
