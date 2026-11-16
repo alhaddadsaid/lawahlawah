@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -65991.57030222678,
+   "cash": -65923.57030222678,
    "open": [
     {
      "id": 3118,
@@ -36,34 +36,49 @@
      "size": 2228163.9928698754,
      "deadline": 1794802182.5127163,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3121,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "N\u0435il",
+     "mint": "FwVsiYsWBDCs4QifGcDRGGxQ3xh6CYLnWWFLUDiupump",
+     "side": 1,
+     "opened": 1794795894.8910854,
+     "entry": 6.03e-05,
+     "stop": 4.8240000000000006e-05,
+     "target": 8.442e-05,
+     "size": 3316749.5854063015,
+     "deadline": 1794803094.8910856,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3120,
+ "next_id": 3122,
  "runs": 107,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Cxf4sN6MT7o3rMgS86JwFEnh6Fiisk5GDzxWHr4Ppump": 1794795151.9356105,
-  "seen:C5X8tVbt8cGw7iaaEuAVGTxFVZ4uSjscmiUbVpVwpump": 1794795151.9356105,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794795151.9356105,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794795333.9128032,
-  "seen:2YxbK7V6ZTKSxcavk3V4kFzdtZ4uywhhoyuSxapjpump": 1794795333.9128032,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794795333.9128032,
-  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794795333.9128032,
-  "control:9iG6qBMgzzuYyq2kfXcAD49bkTFrpGp5gr1QHJiZMwoi": 1794795333.9717388,
-  "seen:9iG6qBMgzzuYyq2kfXcAD49bkTFrpGp5gr1QHJiZMwoi": 1794795699.5430245,
-  "seen:CHuLmJXz8F3YXUyv984PRxeECfSvqD5MZ3W1FoDmpump": 1794795699.5430245,
-  "seen:4B1mCGeSjTadzH7okALwdFm8taxoHbZBFCTA1nZRpump": 1794795699.5430245,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794795699.5430245,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794795699.5430245,
-  "control:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794795699.6136382,
-  "seen:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": 1794795881.8238642,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794795881.8238642,
-  "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794795881.8238642,
-  "seen:FwVsiYsWBDCs4QifGcDRGGxQ3xh6CYLnWWFLUDiupump": 1794795881.8238642,
-  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794795881.8238642,
-  "control:7dzdHo9DKx2dqnXBVXRyMUJUETQhfwFoV4NwcgfVpump": 1794795882.5127192
+  "seen:Fww6zaNKcjpJaB33JayvUzsofBUobX5JaHiuQBN1Jf9g": 1794796064.651308,
+  "seen:Cxf4sN6MT7o3rMgS86JwFEnh6Fiisk5GDzxWHr4Ppump": 1794796064.651308,
+  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794796064.651308,
+  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794796064.651308,
+  "seen:C5X8tVbt8cGw7iaaEuAVGTxFVZ4uSjscmiUbVpVwpump": 1794796064.651308,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794796247.82849,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794796247.82849,
+  "seen:DTJbHA1ntTzsp6FXKRhwwD4E3CLcd5trkWhSV8ivpump": 1794796247.82849,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794796247.82849,
+  "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794796247.82849,
+  "control:9iG6qBMgzzuYyq2kfXcAD49bkTFrpGp5gr1QHJiZMwoi": 1794796247.8716607,
+  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794796430.141991,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794796430.141991,
+  "seen:2YxbK7V6ZTKSxcavk3V4kFzdtZ4uywhhoyuSxapjpump": 1794796430.141991,
+  "seen:9iG6qBMgzzuYyq2kfXcAD49bkTFrpGp5gr1QHJiZMwoi": 1794796612.5978835,
+  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794796612.5978835,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794796612.5978835,
+  "seen:FwVsiYsWBDCs4QifGcDRGGxQ3xh6CYLnWWFLUDiupump": 1794796794.5224655,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794796794.5224655,
+  "control:FwVsiYsWBDCs4QifGcDRGGxQ3xh6CYLnWWFLUDiupump": 1794796794.8910885
  },
  "talks": {
   "2026-10-21": 109
@@ -104,10 +119,10 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794794981.8360827,
+  "t": 1794795894.5347717,
   "crypto": [
-   "Jensen Huang weighs Nvidia comeback days after shock exit: FT (2h ago)",
-   "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler\u2019s Digest (3h ago)",
+   "Jensen Huang weighs Nvidia comeback days after shock exit: FT (3h ago)",
+   "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler\u2019s Digest (4h ago)",
    "Did prediction markets call the U.S. midterm election?: State of Crypto (7h ago)",
    "Enterprise blockchain is going to come back from the dead (12h ago)",
    "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session (12h ago)",
@@ -115,11 +130,11 @@
    "Bitcoin falls to four-month low near $62K as crypto selloff deepens (16h ago)",
    "Coinone warns of phishing, identity theft after customer data breach (18h ago)",
    "RWA protocol stUSDT winds down three years after $2.3B TVL peak (20h ago)",
-   "XRP crashes to its lowest since November 2024 as money leaves crypto (23h ago)"
+   "XRP crashes to its lowest since November 2024 as money leaves crypto (24h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 14.8h"
+   "USD Fed Chairman Warsh Speaks in 14.6h"
   ]
  },
  "spend": {

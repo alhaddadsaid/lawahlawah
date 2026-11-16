@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-16 02:10 UTC. Runs so far: 107. Model: claude-haiku-5-5.
+Updated 2026-11-16 02:24 UTC. Runs so far: 107. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3038 | 31 | -76446.25 | -105644.85 |
+| control | meme | 3039 | 31 | -76378.25 | -105588.85 |
 | control | macro | 60 | 52 | 454.48 | 160.55 |
-| control | all | 3098 | 32 | -75991.77 | -105484.3 |
+| control | all | 3099 | 32 | -75923.77 | -105428.3 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,6 +19,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: bill long at 0.0001534, stop 0.00012272, target 0.00021476, opened 2026-11-16 02:06 UTC
 - control: BAWSAQ long at 8.976e-05, stop 7.1808e-05, target 0.000125664, opened 2026-11-16 02:09 UTC
+- control: Nеil long at 6.03e-05, stop 4.824e-05, target 8.442e-05, opened 2026-11-16 02:24 UTC
 
 ## Team
 
@@ -31,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED Neil (stop) P&L $-54.41 normal, $-63.27 pessimistic
+- 2026-11-16 02:24 UTC control: OPENED Nеil long at 6.03e-05 (stop 4.824e-05, target 8.442e-05) - control: frozen v3 rules
 
