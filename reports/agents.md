@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-16 12:24 UTC. Runs so far: 109. Model: claude-haiku-5-5.
+Updated 2026-11-16 12:33 UTC. Runs so far: 109. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,19 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3067 | 31 | -76939.8 | -106423.18 |
+| control | meme | 3068 | 31 | -76922.54 | -106416.62 |
 | control | macro | 61 | 51 | 336.31 | 32.39 |
-| control | all | 3128 | 31 | -76603.49 | -106390.79 |
+| control | all | 3129 | 32 | -76586.23 | -106384.23 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: GTA long at 0.0001781, stop 0.00014248, target 0.00024934, opened 2026-11-16 10:28 UTC
 - control: Socks long at 9.453e-05, stop 7.5624e-05, target 0.000132342, opened 2026-11-16 10:52 UTC
 - control: GBPUSD short at 1.31928, stop 1.32037, target 1.31764, opened 2026-11-16 12:02 UTC
 - control: bill long at 0.0001749, stop 0.00013992, target 0.00024486, opened 2026-11-16 12:24 UTC
+- control: WASTED6 long at 5.23e-05, stop 4.184e-05, target 7.322e-05, opened 2026-11-16 12:30 UTC
+- control: Marvin long at 0.0002318, stop 0.00018544, target 0.00032452, opened 2026-11-16 12:33 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-16 12:24 UTC control: OPENED bill long at 0.0001749 (stop 0.00013992, target 0.00024486) - control: frozen v3 rules
+- 2026-11-16 12:33 UTC control: OPENED Marvin long at 0.0002318 (stop 0.00018544, target 0.00032452) - control: frozen v3 rules
 
