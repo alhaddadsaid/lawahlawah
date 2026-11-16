@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-16 06:05 UTC. Runs so far: 108. Model: claude-haiku-5-5.
+Updated 2026-11-16 06:17 UTC. Runs so far: 108. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,15 +9,14 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3053 | 31 | -76841.58 | -106183.89 |
+| control | meme | 3054 | 31 | -76891.79 | -106243.07 |
 | control | macro | 60 | 52 | 454.48 | 160.55 |
-| control | all | 3113 | 31 | -76387.1 | -106023.34 |
+| control | all | 3114 | 31 | -76437.31 | -106082.52 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: bill long at 0.0001615, stop 0.0001292, target 0.0002261, opened 2026-11-16 04:37 UTC
 - control: BUTTHOLE long at 0.0004533, stop 0.00036264, target 0.00063462, opened 2026-11-16 05:16 UTC
 - control: WISHMAS long at 0.0001735, stop 0.0001388, target 0.0002429, opened 2026-11-16 05:44 UTC
 - control: Socks long at 8.834e-05, stop 7.0672e-05, target 0.000123676, opened 2026-11-16 05:47 UTC
@@ -34,6 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
-- control: order WISHMAS REJECTED by guardrails: desk already has the maximum open positions
+- control: order BUTTHOLE REJECTED by guardrails: BUTTHOLE already open
 
