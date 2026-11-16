@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -66519.54759739872,
+   "cash": -66565.9636459172,
    "open": [
-    {
-     "id": 3150,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "GBPUSD",
-     "mint": "",
-     "side": -1,
-     "opened": 1794830576.367073,
-     "entry": 1.319278597831726,
-     "stop": 1.3203709040369307,
-     "target": 1.3176401385239191,
-     "size": 91549.42041299427,
-     "deadline": 1794916976.3670733,
-     "thesis": "control: random direction"
-    },
     {
      "id": 3151,
      "desk": "control",
@@ -66,21 +51,6 @@
      "size": 2828054.298642534,
      "deadline": 1794841805.0700977,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3156,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DOUG",
-     "mint": "CRKqYn9bnEZaXK6K2uk627szTFjait52RXeY6CEnpump",
-     "side": 1,
-     "opened": 1794835887.9620273,
-     "entry": 0.0001183,
-     "stop": 9.464e-05,
-     "target": 0.00016562,
-     "size": 1690617.0752324597,
-     "deadline": 1794843087.9620278,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,22 +59,25 @@
  "runs": 109,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Euj4Mx9GemNfFb36fAXYMKBaA2S9qgnt5qptmo8CKbX6": 1794836239.8801796,
-  "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1794836239.8801796,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794836239.8801796,
-  "seen:83GtPpfNSau1mtDZZ7Vx6YCf8gA5eBxniWCoDsvK2avy": 1794836418.954633,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794836418.954633,
-  "seen:CRKqYn9bnEZaXK6K2uk627szTFjait52RXeY6CEnpump": 1794836418.954633,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794836418.954633,
-  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794836418.954633,
-  "seen:3wyRvbB6nFD7Y9cuozSXrUajZs1EoJxrcBCDBxwupump": 1794836603.9603524,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794836603.9603524,
   "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794836787.858358,
   "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1794836787.858358,
   "control:CRKqYn9bnEZaXK6K2uk627szTFjait52RXeY6CEnpump": 1794836787.9620316,
   "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794836972.2078068,
   "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794836972.2078068,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794836972.2078068
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794836972.2078068,
+  "seen:H4FuCCkTJxPodQQEmXeA5cEh8USL2Lz93EjusjexMX2U": 1794837153.3169997,
+  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794837153.3169997,
+  "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1794837153.3169997,
+  "seen:83GtPpfNSau1mtDZZ7Vx6YCf8gA5eBxniWCoDsvK2avy": 1794837338.2076154,
+  "seen:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 1794837338.2076154,
+  "seen:CRKqYn9bnEZaXK6K2uk627szTFjait52RXeY6CEnpump": 1794837338.2076154,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794837338.2076154,
+  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794837338.2076154,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794837338.2076154,
+  "seen:3wyRvbB6nFD7Y9cuozSXrUajZs1EoJxrcBCDBxwupump": 1794837561.6367145,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794837561.6367145,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794837561.6367145,
+  "seen:G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": 1794837561.6367145
  },
  "talks": {
   "2026-10-21": 109
@@ -145,22 +118,24 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794835339.8956678,
+  "t": 1794836253.3325045,
   "crypto": [
-   "Solana drops \u2018beta\u2019 label after more than six years (0h ago)",
-   "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes (0h ago)",
-   "HKMA, Swift explore tokenized deposits for cross-border bank payments (0h ago)",
+   "Banks are banning AI agents over security... and competition concerns (0h ago)",
+   "Strategy buys $33M in Bitcoin, spends $228M on STRC buybacks (0h ago)",
+   "Here\u2019s what happened in crypto today (0h ago)",
+   "Solana drops \u2018beta\u2019 label after more than six years (1h ago)",
+   "Binance Pay Later offers credit backed by Bitcoin, Ether and BNB holdings (1h ago)",
+   "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes (1h ago)",
+   "HKMA, Swift explore tokenized deposits for cross-border bank payments (1h ago)",
    "Bitcoin was supposed to gain as AI faltered, but it crashed. Here's why. (1h ago)",
    "Singapore, Germany test cross-border payments to reduce settlement risk (2h ago)",
-   "Bitcoin slips after rebounding from July 14 low that triggered $2 billion of liquidations (2h ago)",
-   "Singapore, Germany test cross-border FX settlement with CBDCs (3h ago)",
-   "BTC price tags 18-week low into Nvidia earnings: Three things to know in Bitcoin this week (3h ago)",
-   "Live updates: Bitcoin holding weekend plunge as November losses deepen to 17% (4h ago)",
-   "FOMC minutes, Nvidia earnings, Russia\u2019s retail crypto rules: Crypto Week Ahead (4h ago)"
+   "Bitcoin slips after rebounding from July 14 low that triggered $2 billion of liquidations (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 3.6h"
+   "USD Fed Chairman Warsh Speaks in 3.4h",
+   "USD Core Retail Sales m/m in 23.9h, forecast 0.4%, previous 0.9%",
+   "USD Retail Sales m/m in 23.9h, forecast 0.2%, previous 0.8%"
   ]
  },
  "spend": {
