@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -65473.49115010932,
+   "cash": -65529.120128020215,
    "open": [
     {
      "id": 3098,
@@ -20,21 +20,6 @@
      "target": 0.00018914,
      "size": 1480384.900074019,
      "deadline": 1794788374.721462,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3100,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "bill",
-     "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
-     "side": 1,
-     "opened": 1794782590.2929382,
-     "entry": 0.0002671,
-     "stop": 0.00021368,
-     "target": 0.00037393999999999996,
-     "size": 748783.2272557095,
-     "deadline": 1794789790.2929385,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -81,32 +66,48 @@
      "size": 2379819.133745835,
      "deadline": 1794793594.2691467,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3106,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ANIME",
+     "mint": "6XGN3oMrjLuWvDyvHL1VZNNPN5d7dTspD9N7LKjAnime",
+     "side": 1,
+     "opened": 1794787673.5443895,
+     "entry": 5.455e-05,
+     "stop": 4.364e-05,
+     "target": 7.636999999999999e-05,
+     "size": 3666361.1365719526,
+     "deadline": 1794794873.5443897,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3106,
+ "next_id": 3107,
  "runs": 107,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DnAbkueg3Mbs9DrTMQMxCM2goeMhkgByRd3ofKofLoat": 1794787476.5741608,
-  "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1794787476.5741608,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794787476.5741608,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794787476.5741608,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794787476.5741608,
-  "seen:CHuLmJXz8F3YXUyv984PRxeECfSvqD5MZ3W1FoDmpump": 1794787658.787207,
-  "seen:6XGN3oMrjLuWvDyvHL1VZNNPN5d7dTspD9N7LKjAnime": 1794787658.787207,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794787658.787207,
-  "seen:GgDHtSGcXn5YrADnpsQSVHFAa5xLwVEuD7FWeRgvpump": 1794787658.787207,
-  "seen:C5X8tVbt8cGw7iaaEuAVGTxFVZ4uSjscmiUbVpVwpump": 1794787842.707806,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794787842.707806,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794787842.707806,
   "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794788024.8880246,
   "seen:2gVNeu8dP7XiLoaWfUvUJXUM5AdXY8418aft8xhUpump": 1794788024.8880246,
   "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794788024.8880246,
   "seen:AVnUz8xzfthxXAvYZjoxpGYyYTE3HoZDtWHRfcAipump": 1794788206.9530277,
   "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794788206.9530277,
-  "seen:B82PFKmT4aM38EUUqVoZs6sZdAfxDHHrB6DSXxCKpump": 1794788206.9530277
+  "seen:B82PFKmT4aM38EUUqVoZs6sZdAfxDHHrB6DSXxCKpump": 1794788206.9530277,
+  "seen:DnAbkueg3Mbs9DrTMQMxCM2goeMhkgByRd3ofKofLoat": 1794788390.8353758,
+  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794788390.8353758,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794788390.8353758,
+  "seen:CHuLmJXz8F3YXUyv984PRxeECfSvqD5MZ3W1FoDmpump": 1794788573.0342276,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794788573.0342276,
+  "seen:6XGN3oMrjLuWvDyvHL1VZNNPN5d7dTspD9N7LKjAnime": 1794788573.0342276,
+  "seen:GgDHtSGcXn5YrADnpsQSVHFAa5xLwVEuD7FWeRgvpump": 1794788573.0342276,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794788573.0342276,
+  "control:6XGN3oMrjLuWvDyvHL1VZNNPN5d7dTspD9N7LKjAnime": 1794788573.544392,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1794788755.7109668,
+  "seen:C5X8tVbt8cGw7iaaEuAVGTxFVZ4uSjscmiUbVpVwpump": 1794788755.7109668,
+  "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1794788755.7109668,
+  "seen:GxRPJsRK9TE9EgBhLxrFGcRYLGqPJe4fxtiPmdXCpump": 1794788755.7109668
  },
  "talks": {
   "2026-10-21": 109
@@ -147,22 +148,22 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794786758.7991385,
+  "t": 1794787673.0463142,
   "crypto": [
    "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler\u2019s Digest (1h ago)",
-   "Did prediction markets call the U.S. midterm election?: State of Crypto (4h ago)",
-   "Enterprise blockchain is going to come back from the dead (9h ago)",
+   "Did prediction markets call the U.S. midterm election?: State of Crypto (5h ago)",
+   "Enterprise blockchain is going to come back from the dead (10h ago)",
    "Crypto insiders aren't counting on silver linings in Congress' 'lame duck' session (10h ago)",
    "Here\u2019s what happened in crypto today (13h ago)",
-   "Bitcoin falls to four-month low near $62K as crypto selloff deepens (13h ago)",
+   "Bitcoin falls to four-month low near $62K as crypto selloff deepens (14h ago)",
    "Coinone warns of phishing, identity theft after customer data breach (16h ago)",
-   "RWA protocol stUSDT winds down three years after $2.3B TVL peak (17h ago)",
+   "RWA protocol stUSDT winds down three years after $2.3B TVL peak (18h ago)",
    "XRP crashes to its lowest since November 2024 as money leaves crypto (21h ago)",
-   "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave (31h ago)"
+   "Bitcoin crashes to 3-month low below $63,000 as analyst flags fourth capitulation wave (32h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 17.1h"
+   "USD Fed Chairman Warsh Speaks in 16.9h"
   ]
  },
  "spend": {
