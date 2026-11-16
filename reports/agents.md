@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-16 14:50 UTC. Runs so far: 109. Model: claude-haiku-5-5.
+Updated 2026-11-16 15:06 UTC. Runs so far: 109. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3082 | 31 | -76664.53 | -106308.82 |
-| control | macro | 62 | 50 | 221.89 | -87.52 |
-| control | all | 3144 | 32 | -76442.64 | -106396.34 |
+| control | meme | 3083 | 31 | -76596.53 | -106252.82 |
+| control | macro | 63 | 49 | 112.17 | -202.74 |
+| control | all | 3146 | 32 | -76484.36 | -106455.56 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,9 +19,9 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: BUTTHOLE long at 0.0007328, stop 0.00058624, target 0.00102592, opened 2026-11-16 13:55 UTC
 - control: Socks long at 9.029e-05, stop 7.2232e-05, target 0.000126406, opened 2026-11-16 13:58 UTC
-- control: GBPUSD long at 1.32003, stop 1.31894, target 1.32166, opened 2026-11-16 14:02 UTC
-- control: hello long at 0.000127, stop 0.0001016, target 0.0001778, opened 2026-11-16 14:41 UTC
 - control: DIGS long at 0.0001774, stop 0.00014192, target 0.00024836, opened 2026-11-16 14:50 UTC
+- control: JENSEN long at 0.0001655, stop 0.0001324, target 0.0002317, opened 2026-11-16 15:00 UTC
+- control: bill long at 0.0001257, stop 0.00010056, target 0.00017598, opened 2026-11-16 15:06 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-16 14:50 UTC control: OPENED DIGS long at 0.0001774 (stop 0.00014192, target 0.00024836) - control: frozen v3 rules
+- 2026-11-16 15:06 UTC control: OPENED bill long at 0.0001257 (stop 0.00010056, target 0.00017598) - control: frozen v3 rules
 
