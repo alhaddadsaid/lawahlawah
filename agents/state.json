@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -66437.10381422995,
+   "cash": -66555.27874862133,
    "open": [
     {
      "id": 3134,
@@ -53,36 +53,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3137,
+     "id": 3138,
      "desk": "control",
-     "market": "macro",
-     "symbol": "GBPUSD",
-     "mint": "",
+     "market": "meme",
+     "symbol": "bill",
+     "mint": "85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump",
      "side": 1,
-     "opened": 1794808944.546259,
-     "entry": 1.3206899166107178,
-     "stop": 1.3200890166418893,
-     "target": 1.3215912665639604,
-     "size": 166417.04973784016,
-     "deadline": 1794895344.5462594,
-     "thesis": "control: random direction"
+     "opened": 1794811318.6574883,
+     "entry": 0.0001285,
+     "stop": 0.00010280000000000002,
+     "target": 0.00017989999999999998,
+     "size": 1556420.233463035,
+     "deadline": 1794818518.6574886,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3138,
+ "next_id": 3139,
  "runs": 108,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794811302.6840181,
-  "seen:67Ke9FXwssh2knJ22fzDxku9QMPZ5Ls6REKdqHxLpump": 1794811302.6840181,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794811302.6840181,
-  "seen:8JCsa61htnPj2af7g1KSyU1UEncruHE1Ph9aNR6rpump": 1794811302.6840181,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1794811486.6044137,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794811670.0343926,
-  "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794811670.0343926,
-  "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794811670.0343926,
-  "seen:G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": 1794811670.0343926,
   "seen:2mttYgbY3kXpTwTz2GSRQMSeehvqVBTMhr3XCvMknMyC": 1794811852.2678866,
   "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794811852.2678866,
   "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794811852.2678866,
@@ -90,7 +81,20 @@
   "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794812034.7801704,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794812034.7801704,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794812034.7801704,
-  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1794812034.7801704
+  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1794812034.7801704,
+  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794812218.5741074,
+  "seen:37aZEsMC7Dk7CqzqPU53ag3egiJhzrePJknj58k9VYZF": 1794812218.5741074,
+  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794812218.5741074,
+  "seen:67Ke9FXwssh2knJ22fzDxku9QMPZ5Ls6REKdqHxLpump": 1794812218.5741074,
+  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794812218.5741074,
+  "control:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794812218.6574922,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794812401.356785,
+  "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794812401.356785,
+  "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794812401.356785,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794812401.356785,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794812581.340147,
+  "seen:G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": 1794812581.340147,
+  "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794812581.340147
  },
  "talks": {
   "2026-10-21": 109
@@ -131,13 +135,13 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794810586.6166,
+  "t": 1794811501.3693643,
   "crypto": [
    "Cardano holders vote down $5 million bid to buy warehouse copper (0h ago)",
-   "Trump administration to name Nvidia, OpenAI and several others as AI national champions (0h ago)",
-   "Here\u2019s what happened in crypto today (0h ago)",
+   "Trump administration to name Nvidia, OpenAI and several others as AI national champions (1h ago)",
+   "Here\u2019s what happened in crypto today (1h ago)",
    "Aster CEO suspects foul play after token plunges 32% in minutes (1h ago)",
-   "Bitcoin\u2019s biggest bet is now a drop below $60,000, not a rally above $100,000 (1h ago)",
+   "Bitcoin\u2019s biggest bet is now a drop below $60,000, not a rally above $100,000 (2h ago)",
    "Asian chip stocks tumble ahead of Nvidia Q3 earnings (2h ago)",
    "Luxor CEO warns of AI \u2018dark forest\u2019 following Bitcoin miner hijack (4h ago)",
    "Jensen Huang weighs Nvidia comeback days after shock exit: FT (7h ago)",
@@ -146,7 +150,7 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 10.5h"
+   "USD Fed Chairman Warsh Speaks in 10.2h"
   ]
  },
  "spend": {
@@ -177,5 +181,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794810402.6959088
+ "last_macro_macro": 1794811681.3522143
 }
