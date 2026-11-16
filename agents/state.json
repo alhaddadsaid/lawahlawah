@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -66646.14647396599,
+   "cash": -66578.14647396599,
    "open": [
     {
      "id": 3138,
@@ -53,37 +53,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3142,
+     "id": 3143,
      "desk": "control",
      "market": "meme",
      "symbol": "Socks",
      "mint": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
      "side": 1,
-     "opened": 1794815508.6838536,
-     "entry": 8.299e-05,
-     "stop": 6.639200000000001e-05,
-     "target": 0.000116186,
-     "size": 2409928.9070972404,
-     "deadline": 1794822708.6838539,
+     "opened": 1794817146.9715264,
+     "entry": 0.0001107,
+     "stop": 8.855999999999999e-05,
+     "target": 0.00015497999999999996,
+     "size": 1806684.7335140018,
+     "deadline": 1794824346.9715266,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3143,
+ "next_id": 3144,
  "runs": 108,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794816771.207793,
-  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794816771.207793,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794816771.207793,
-  "seen:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": 1794816954.5056438,
-  "seen:2YxbK7V6ZTKSxcavk3V4kFzdtZ4uywhhoyuSxapjpump": 1794816954.5056438,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794816954.5056438,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794817136.7505424,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794817136.7505424,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794817136.7505424,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794817136.7505424,
   "seen:GQ68t9unc9YK92ZwG1ZqKCh4bfKrSJHKASzyLKtkdgcD": 1794817318.7036223,
   "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794817318.7036223,
   "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794817318.7036223,
@@ -92,7 +82,17 @@
   "seen:Bv5s6pGf2Yv2vmpBaG6F9nqMZtqmsro2PVy1hzPvpump": 1794817500.586873,
   "seen:CHuLmJXz8F3YXUyv984PRxeECfSvqD5MZ3W1FoDmpump": 1794817500.586873,
   "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794817500.586873,
-  "seen:BARobVaVawPxpjaHLsvrdLn2SpVJQDFYx4BY2R5Kpump": 1794817500.586873
+  "seen:BARobVaVawPxpjaHLsvrdLn2SpVJQDFYx4BY2R5Kpump": 1794817500.586873,
+  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794817683.8582592,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794817683.8582592,
+  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794817683.8582592,
+  "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794817683.8582592,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794817864.71747,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794818046.8930285,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794818046.8930285,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794818046.8930285,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794818046.8930285,
+  "control:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794818046.9715297
  },
  "talks": {
   "2026-10-21": 109
@@ -133,7 +133,7 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794816054.5185807,
+  "t": 1794816964.7302418,
   "crypto": [
    "Bitcoin miners were hijacked and their BTC rewards redirected to an attacker (0h ago)",
    "Cardano holders vote down $5 million bid to buy warehouse copper (2h ago)",
@@ -141,14 +141,14 @@
    "Here\u2019s what happened in crypto today (2h ago)",
    "Aster CEO suspects foul play after token plunges 32% in minutes (3h ago)",
    "Bitcoin\u2019s biggest bet is now a drop below $60,000, not a rally above $100,000 (3h ago)",
-   "Asian chip stocks tumble ahead of Nvidia Q3 earnings (3h ago)",
-   "Luxor CEO warns of AI \u2018dark forest\u2019 following Bitcoin miner hijack (5h ago)",
+   "Asian chip stocks tumble ahead of Nvidia Q3 earnings (4h ago)",
+   "Luxor CEO warns of AI \u2018dark forest\u2019 following Bitcoin miner hijack (6h ago)",
    "Jensen Huang weighs Nvidia comeback days after shock exit: FT (8h ago)",
    "US sellers drive Bitcoin crash, Jensen plots Nvidia comeback: Hodler\u2019s Digest (9h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 9.0h"
+   "USD Fed Chairman Warsh Speaks in 8.7h"
   ]
  },
  "spend": {
@@ -179,5 +179,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794815508.289793
+ "last_macro_macro": 1794816783.870747
 }
