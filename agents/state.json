@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -66361.9636459172,
+   "cash": -66293.9636459172,
    "open": [
     {
      "id": 3151,
@@ -20,21 +20,6 @@
      "target": 0.00024485999999999996,
      "size": 1143510.5774728416,
      "deadline": 1794839061.113071,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3158,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DOUG",
-     "mint": "CRKqYn9bnEZaXK6K2uk627szTFjait52RXeY6CEnpump",
-     "side": 1,
-     "opened": 1794836990.0898206,
-     "entry": 0.0001266,
-     "stop": 0.00010127999999999999,
-     "target": 0.00017723999999999998,
-     "size": 1579778.8309636652,
-     "deadline": 1794844190.0898209,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -89,16 +74,6 @@
  "runs": 109,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1794838073.1715748,
-  "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794838073.1715748,
-  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794838073.1715748,
-  "seen:83GtPpfNSau1mtDZZ7Vx6YCf8gA5eBxniWCoDsvK2avy": 1794838256.7397327,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794838256.7397327,
-  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794838256.7397327,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794838256.7397327,
-  "control:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794838257.2023392,
-  "seen:CRKqYn9bnEZaXK6K2uk627szTFjait52RXeY6CEnpump": 1794838437.104417,
-  "control:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794838437.19706,
   "seen:2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ": 1794838620.3452942,
   "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794838620.3452942,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794838620.3452942,
@@ -108,7 +83,16 @@
   "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794838805.8217094,
   "seen:GiN92K5sixL3bYNgaC8gVFD7guCTEdEo2x1YGKWfvA6p": 1794838805.8217094,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794838805.8217094,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794838805.8217094
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794838805.8217094,
+  "seen:3wyRvbB6nFD7Y9cuozSXrUajZs1EoJxrcBCDBxwupump": 1794838988.149774,
+  "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1794838988.149774,
+  "seen:BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": 1794838988.149774,
+  "seen:3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt": 1794839168.1575537,
+  "seen:83GtPpfNSau1mtDZZ7Vx6YCf8gA5eBxniWCoDsvK2avy": 1794839168.1575537,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794839168.1575537,
+  "seen:6FSeHaz5gnna5xZEXyqRayZwMGBvTSWSuFuhcdxDpump": 1794839348.3570957,
+  "seen:CRKqYn9bnEZaXK6K2uk627szTFjait52RXeY6CEnpump": 1794839348.3570957,
+  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794839348.3570957
  },
  "talks": {
   "2026-10-21": 109
@@ -149,11 +133,11 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794837173.1870887,
+  "t": 1794838088.1653788,
   "crypto": [
-   "Here\u2019s what happened in crypto today (0h ago)",
-   "Banks are banning AI agents over security... and competition concerns (0h ago)",
-   "Strategy buys $33M in Bitcoin, spends $228M on STRC buybacks (0h ago)",
+   "Here\u2019s what happened in crypto today (1h ago)",
+   "Banks are banning AI agents over security... and competition concerns (1h ago)",
+   "Strategy buys $33M in Bitcoin, spends $228M on STRC buybacks (1h ago)",
    "Solana drops \u2018beta\u2019 label after more than six years (1h ago)",
    "Binance Pay Later offers credit backed by Bitcoin, Ether and BNB holdings (1h ago)",
    "Old crypto feud reignites: Why OKX's Star Xu blames Binance for two years of October crashes (1h ago)",
@@ -164,9 +148,9 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 3.1h",
-   "USD Core Retail Sales m/m in 23.6h, forecast 0.4%, previous 0.9%",
-   "USD Retail Sales m/m in 23.6h, forecast 0.2%, previous 0.8%"
+   "USD Fed Chairman Warsh Speaks in 2.9h",
+   "USD Core Retail Sales m/m in 23.4h, forecast 0.4%, previous 0.9%",
+   "USD Retail Sales m/m in 23.4h, forecast 0.2%, previous 0.8%"
   ]
  },
  "spend": {
