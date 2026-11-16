@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -66648.73040727578,
+   "cash": -66646.14647396599,
    "open": [
-    {
-     "id": 3135,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "WISHMAS",
-     "mint": "9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump",
-     "side": 1,
-     "opened": 1794807846.0232372,
-     "entry": 0.0001735,
-     "stop": 0.00013879999999999999,
-     "target": 0.00024289999999999997,
-     "size": 1152737.7521613834,
-     "deadline": 1794815046.0232372,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3136,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Socks",
-     "mint": "FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump",
-     "side": 1,
-     "opened": 1794808028.7531857,
-     "entry": 8.834e-05,
-     "stop": 7.0672e-05,
-     "target": 0.000123676,
-     "size": 2263980.076975323,
-     "deadline": 1794815228.753186,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3138,
      "desk": "control",
@@ -66,21 +36,29 @@
      "size": 531914.8936170213,
      "deadline": 1794821617.147105,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3141,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "AURA",
+     "mint": "EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump",
+     "side": 1,
+     "opened": 1794815147.4237216,
+     "entry": 0.0001039,
+     "stop": 8.312e-05,
+     "target": 0.00014546,
+     "size": 1924927.8152069296,
+     "deadline": 1794822347.4237218,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3141,
+ "next_id": 3142,
  "runs": 108,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794814953.7164762,
-  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794814953.7164762,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794814953.7164762,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794814953.7164762,
-  "seen:6x8voEFfKaaD2UHfnUunExwbyYsYLdBPMf5PE41jpump": 1794815135.7193518,
-  "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794815135.7193518,
-  "control:EJvUBkKf4HKKy7m1xrSQfk6yLH2U8dsR1adREbkNpump": 1794815136.4306247,
   "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794815317.1034725,
   "seen:FS1pBmZKp2Qw1atC64GoLamHstECAos9ot8bGPgDpump": 1794815317.1034725,
   "control:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794815317.1471076,
@@ -91,7 +69,17 @@
   "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794815681.3565466,
   "seen:9cmXfuC26anZtH9AUWVzpUxU1UJ7PPogYxftYTepump": 1794815681.3565466,
   "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794815681.3565466,
-  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1794815681.3565466
+  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1794815681.3565466,
+  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794815864.9891171,
+  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794815864.9891171,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794815864.9891171,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794815864.9891171,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794815864.9891171,
+  "seen:2YxbK7V6ZTKSxcavk3V4kFzdtZ4uywhhoyuSxapjpump": 1794816047.057416,
+  "seen:6x8voEFfKaaD2UHfnUunExwbyYsYLdBPMf5PE41jpump": 1794816047.057416,
+  "seen:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794816047.057416,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794816047.057416,
+  "control:EvbSSzACWAxqFhXdiPypjv6jMhRfHU257x65oFrjpump": 1794816047.4237251
  },
  "talks": {
   "2026-10-21": 109
@@ -132,13 +120,13 @@
  ],
  "last_review": 1794768073.977952,
  "news": {
-  "t": 1794814235.7316327,
+  "t": 1794815147.0702083,
   "crypto": [
    "Cardano holders vote down $5 million bid to buy warehouse copper (1h ago)",
-   "Trump administration to name Nvidia, OpenAI and several others as AI national champions (1h ago)",
+   "Trump administration to name Nvidia, OpenAI and several others as AI national champions (2h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "Aster CEO suspects foul play after token plunges 32% in minutes (2h ago)",
-   "Bitcoin\u2019s biggest bet is now a drop below $60,000, not a rally above $100,000 (2h ago)",
+   "Bitcoin\u2019s biggest bet is now a drop below $60,000, not a rally above $100,000 (3h ago)",
    "Asian chip stocks tumble ahead of Nvidia Q3 earnings (3h ago)",
    "Luxor CEO warns of AI \u2018dark forest\u2019 following Bitcoin miner hijack (5h ago)",
    "Jensen Huang weighs Nvidia comeback days after shock exit: FT (8h ago)",
@@ -147,7 +135,7 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Fed Chairman Warsh Speaks in 9.5h"
+   "USD Fed Chairman Warsh Speaks in 9.2h"
   ]
  },
  "spend": {
