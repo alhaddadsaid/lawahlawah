@@ -51,40 +51,54 @@
      "size": 2115730.455939913,
      "deadline": 1794833572.9100683,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3150,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "GBPUSD",
+     "mint": "",
+     "side": -1,
+     "opened": 1794830576.367073,
+     "entry": 1.319278597831726,
+     "stop": 1.3203709040369307,
+     "target": 1.3176401385239191,
+     "size": 91549.42041299427,
+     "deadline": 1794916976.3670733,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 3150,
+ "next_id": 3151,
  "runs": 109,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DVz8WcS1ABAeTWD7Be25Uh2bMuxxSXdvj3BsKWq8ok8j": 1794830202.5441635,
-  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794830202.5441635,
-  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794830202.5441635,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794830202.5441635,
-  "seen:33jENUQnjoitkMFpvNJcSHyLAHFWJuHwT6E3E8CNpump": 1794830381.5385358,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794830381.5385358,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794830381.5385358,
-  "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1794830562.6269388,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794830562.6269388,
-  "seen:G9ZMir6uh66Y7viPkXAy7myA9jjE4T1YgheVUmGDpump": 1794830562.6269388,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794830562.6269388,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1794830562.6269388,
-  "seen:4B8CdHPZ8ng1CtMP2Jk2W8wGAwJ5nJnap1deVsz2pump": 1794830562.6269388,
   "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794830743.7206204,
   "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794830743.7206204,
   "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794830743.7206204,
   "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794830926.884593,
   "seen:BARobVaVawPxpjaHLsvrdLn2SpVJQDFYx4BY2R5Kpump": 1794830926.884593,
   "seen:34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": 1794830926.884593,
-  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794830926.884593
+  "seen:85RhcSEMy15SNhFLmSArNm7udPKXVagVgsq4YmSopump": 1794830926.884593,
+  "seen:2NUaS6Gfrm5rBuPBn7svHka8t33SrSkpXGQiUvZLpump": 1794831111.2201986,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794831111.2201986,
+  "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1794831111.2201986,
+  "seen:DSKM3d518BBaQShSKqaqZcG1XMRf81UFB6a1eavhSTNK": 1794831111.2201986,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794831293.559525,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794831293.559525,
+  "seen:8sS3ELDe87aZQGBrdznhsp3LaNJAYQrdB1JDL9ApEZfV": 1794831476.2000904,
+  "seen:CZEB3WNZuF2Yz1z2H81RcCk8T7fsw82KB33zqamASVsg": 1794831476.2000904,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794831476.2000904,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794831476.2000904,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794831476.2000904,
+  "control:GBPUSD": 1794831476.3670769
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498558,
+ "ctrl_macro_hour": 498564,
  "team": [
   {
    "name": "Lead",
