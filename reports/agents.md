@@ -32,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-17 02:02 UTC control: OPENED Jojo long at 0.0001072 (stop 8.576e-05, target 0.00015008) - control: frozen v3 rules
+## Run ended 2026-11-17 02:02 UTC
 
