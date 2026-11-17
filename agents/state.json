@@ -51,23 +51,29 @@
      "size": 1663893.510815308,
      "deadline": 1794939279.5851564,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3261,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CHAR",
+     "mint": "9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump",
+     "side": 1,
+     "opened": 1794932629.3291981,
+     "entry": 0.0001052,
+     "stop": 8.416000000000001e-05,
+     "target": 0.00014727999999999999,
+     "size": 1901140.6844106466,
+     "deadline": 1794939829.3291984,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3261,
+ "next_id": 3262,
  "runs": 112,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794932430.193359,
-  "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794932430.193359,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1794932430.193359,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794932430.193359,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794932614.5236273,
-  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794932614.5236273,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794932614.5236273,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794932614.5236273,
-  "seen:2FcsqRrhvgSfYxJWh32xW873vyqBZ9jmMyXqYSPgNtuZ": 1794932614.5236273,
   "seen:6PrBbWUciChkoYKEaJZJXjtiQnRJqiAgLMYTEnXbpump": 1794932797.3901455,
   "seen:A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm": 1794932797.3901455,
   "seen:Dys6SYbjUsy8kksaqrXqo5L2GzgCYDiguGGcS8B5rkrv": 1794932797.3901455,
@@ -79,7 +85,19 @@
   "seen:GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump": 1794933162.9889798,
   "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794933162.9889798,
   "seen:ANt31zPFtdqb327BxLcvPnSUSTMzm5Rf7xfKN5kbpump": 1794933162.9889798,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794933162.9889798
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794933162.9889798,
+  "seen:CzijRUbGc85WEeEi92GehUmNDHqH4K8pL9WLLXh7pump": 1794933346.9808688,
+  "seen:XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo": 1794933346.9808688,
+  "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794933346.9808688,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794933346.9808688,
+  "seen:9AhHRV5UWdz8MJgP97LczfrVBB2No9u1vse992mQpump": 1794933528.8040466,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794933528.8040466,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794933528.8040466,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794933528.8040466,
+  "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794933528.8040466,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794933528.8040466,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1794933528.8040466,
+  "control:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794933529.3292012
  },
  "talks": {
   "2026-10-21": 109
@@ -120,11 +138,11 @@
  ],
  "last_review": 1794860224.8598948,
  "news": {
-  "t": 1794931714.5361052,
+  "t": 1794932628.8169928,
   "crypto": [
    "Hong Kong, Swift test tokenized deposits as banks chase stablecoin-style speed (1h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
-   "Solana Foundation takes majority interest in crypto data firm CoinGecko (1h ago)",
+   "Solana Foundation takes majority interest in crypto data firm CoinGecko (2h ago)",
    "Bitcoin to $1M by 2030? \u2018Almost certainly not,\u2019 says Dragonfly\u2019s Qureshi (3h ago)",
    "ARK sells $85M in Nvidia shares ahead of chipmaker\u2019s Q3 earnings results (3h ago)",
    "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps (3h ago)",
@@ -135,10 +153,10 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Core Retail Sales m/m was 2.6h, forecast 0.4%, previous 0.9%",
-   "USD Retail Sales m/m was 2.6h, forecast 0.1%, previous 0.8%",
-   "GBP CPI y/y in 14.9h, forecast 3.6%, previous 3.5%",
-   "GBP BOE Gov Bailey Speaks in 22.9h"
+   "USD Core Retail Sales m/m was 2.9h, forecast 0.4%, previous 0.9%",
+   "USD Retail Sales m/m was 2.9h, forecast 0.1%, previous 0.8%",
+   "GBP CPI y/y in 14.6h, forecast 3.6%, previous 3.5%",
+   "GBP BOE Gov Bailey Speaks in 22.6h"
   ]
  },
  "spend": {
