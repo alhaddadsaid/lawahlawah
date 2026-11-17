@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -68844.69801926408,
+   "cash": -68895.77309215037,
    "open": [
     {
      "id": 3211,
@@ -53,45 +53,61 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3226,
+     "id": 3227,
      "desk": "control",
      "market": "meme",
-     "symbol": "Mischio",
-     "mint": "EULWnfX3hvnuod8wARSVFPyU1VnJxTB8YBaJFDvrpump",
+     "symbol": "WIGGLES",
+     "mint": "2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump",
      "side": 1,
-     "opened": 1794893621.7663999,
-     "entry": 6.86e-05,
-     "stop": 5.488e-05,
-     "target": 9.604e-05,
-     "size": 2915451.8950437317,
-     "deadline": 1794900821.7664,
+     "opened": 1794894171.9011178,
+     "entry": 0.000125,
+     "stop": 0.0001,
+     "target": 0.000175,
+     "size": 1600000.0,
+     "deadline": 1794901371.901118,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3228,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "MELNOK",
+     "mint": "3ig9E5SQKs8RjVn9EuW1YaprjaMd6dEftG63hBcMpump",
+     "side": 1,
+     "opened": 1794894354.523406,
+     "entry": 9.253e-05,
+     "stop": 7.402400000000001e-05,
+     "target": 0.000129542,
+     "size": 2161461.1477358695,
+     "deadline": 1794901554.5234063,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3227,
+ "next_id": 3229,
  "runs": 111,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794894154.145392,
-  "seen:3ig9E5SQKs8RjVn9EuW1YaprjaMd6dEftG63hBcMpump": 1794894154.145392,
-  "seen:Dys6SYbjUsy8kksaqrXqo5L2GzgCYDiguGGcS8B5rkrv": 1794894154.145392,
-  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794894337.3388884,
-  "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794894337.3388884,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794894337.3388884,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794894521.7269983,
-  "seen:HAL82rp6PZ3o2LE6kVSVxk2PRpeVVUHi4Q5mykT3Q1rX": 1794894521.7269983,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794894521.7269983,
-  "seen:HfsdobuJma32W4ezRGbsD47C3Y7CVqYZoJCJmoJftjaG": 1794894521.7269983,
-  "seen:EULWnfX3hvnuod8wARSVFPyU1VnJxTB8YBaJFDvrpump": 1794894521.7269983,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794894521.7269983,
-  "control:EULWnfX3hvnuod8wARSVFPyU1VnJxTB8YBaJFDvrpump": 1794894521.7664037,
   "seen:2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump": 1794894704.4606428,
   "seen:D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794894704.4606428,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794894704.4606428,
   "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794894887.196727,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794894887.196727
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794894887.196727,
+  "seen:3ig9E5SQKs8RjVn9EuW1YaprjaMd6dEftG63hBcMpump": 1794895071.5658891,
+  "seen:2MhHi1yKNyAWwGgzQVefLNLhYiWXMYzEYTeH6sZLpump": 1794895071.5658891,
+  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794895071.5658891,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794895071.5658891,
+  "control:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794895071.9011219,
+  "seen:Dys6SYbjUsy8kksaqrXqo5L2GzgCYDiguGGcS8B5rkrv": 1794895254.4746618,
+  "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794895254.4746618,
+  "control:3ig9E5SQKs8RjVn9EuW1YaprjaMd6dEftG63hBcMpump": 1794895254.5234096,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794895437.4395447,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794895437.4395447,
+  "seen:Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump": 1794895437.4395447,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794895437.4395447,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794895437.4395447,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794895437.4395447
  },
  "talks": {
   "2026-10-21": 109
@@ -132,23 +148,23 @@
  ],
  "last_review": 1794860224.8598948,
  "news": {
-  "t": 1794893254.1602106,
+  "t": 1794894171.5806239,
   "crypto": [
-   "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60% (0h ago)",
+   "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion (0h ago)",
+   "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60% (1h ago)",
    "Trezor customer data exposed in 3rd partner breach this year (2h ago)",
-   "Hackers inject credit card, crypto-stealing malware into 178 major websites (4h ago)",
+   "Hackers inject credit card, crypto-stealing malware into 178 major websites (5h ago)",
    "Nvidia shares fall 4% as board reportedly rules out Huang return (6h ago)",
    "Custodia Bank loses Supreme Court bid for direct Fed payment access (7h ago)",
    "German lawmakers back crypto freezes outside criminal cases (7h ago)",
    "Binance hack may push institutions to outside custody, FalconX exec says (7h ago)",
    "Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid (8h ago)",
-   "Bitmine edges toward 5% of ETH supply as treasuries report buys amid market slump (9h ago)",
-   "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off (9h ago)"
+   "Bitmine edges toward 5% of ETH supply as treasuries report buys amid market slump (9h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core Retail Sales m/m in 8.0h, forecast 0.4%, previous 0.9%",
-   "USD Retail Sales m/m in 8.0h, forecast 0.1%, previous 0.8%"
+   "USD Core Retail Sales m/m in 7.8h, forecast 0.4%, previous 0.9%",
+   "USD Retail Sales m/m in 7.8h, forecast 0.1%, previous 0.8%"
   ]
  },
  "spend": {
@@ -179,5 +195,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794893254.1598752
+ "last_macro_macro": 1794894537.4538622
 }
