@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -68131.62487083669,
+   "cash": -68181.47076124765,
    "open": [
     {
      "id": 3203,
@@ -23,37 +23,42 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3204,
+     "id": 3205,
      "desk": "control",
      "market": "meme",
-     "symbol": "Debu",
-     "mint": "D2uhMKwe4uLc7mhN4PKgwNPziLnrtYgz8V3j9ee5pump",
+     "symbol": "DIGS",
+     "mint": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
      "side": 1,
-     "opened": 1794877261.166333,
-     "entry": 5.256e-05,
-     "stop": 4.2048e-05,
-     "target": 7.358399999999999e-05,
-     "size": 3805175.0380517505,
-     "deadline": 1794884461.1663332,
+     "opened": 1794877445.713189,
+     "entry": 0.0002036,
+     "stop": 0.00016288,
+     "target": 0.00028503999999999997,
+     "size": 982318.2711198429,
+     "deadline": 1794884645.713189,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3206,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "LUCIA",
+     "mint": "HgDyiDQ2hfcPiYoSgzfu7848Aw4iFyPt6sWpmXnSpump",
+     "side": 1,
+     "opened": 1794877811.8509746,
+     "entry": 9.559e-05,
+     "stop": 7.647200000000001e-05,
+     "target": 0.00013382599999999998,
+     "size": 2092269.0658018622,
+     "deadline": 1794885011.8509746,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3205,
+ "next_id": 3207,
  "runs": 110,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794877429.1652877,
-  "seen:HR9QrcYYsiHzmPhLpdGYn3uduEkoCcZR9HN2xwxRpump": 1794877429.1652877,
-  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1794877429.1652877,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794877611.969739,
-  "seen:HgDyiDQ2hfcPiYoSgzfu7848Aw4iFyPt6sWpmXnSpump": 1794877611.969739,
-  "seen:CUmQsPuWxK97tYYWV44qhHXEu69oM4nj3CpYBTw796ea": 1794877611.969739,
-  "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794877611.969739,
-  "control:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794877612.504559,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794877795.2916205,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794877795.2916205,
   "seen:D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794877978.3902845,
   "seen:2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump": 1794877978.3902845,
   "seen:D2uhMKwe4uLc7mhN4PKgwNPziLnrtYgz8V3j9ee5pump": 1794877978.3902845,
@@ -61,7 +66,19 @@
   "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794877978.3902845,
   "seen:27Ggmg2ZmaehHX7L5vZqCeTRoQmPaBtR5vqvaRLbpump": 1794878161.0871425,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794878161.0871425,
-  "control:D2uhMKwe4uLc7mhN4PKgwNPziLnrtYgz8V3j9ee5pump": 1794878161.166336
+  "control:D2uhMKwe4uLc7mhN4PKgwNPziLnrtYgz8V3j9ee5pump": 1794878161.166336,
+  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794878345.639075,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1794878345.639075,
+  "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1794878345.639075,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794878345.639075,
+  "control:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794878345.713192,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794878528.5520437,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794878528.5520437,
+  "seen:CUmQsPuWxK97tYYWV44qhHXEu69oM4nj3CpYBTw796ea": 1794878528.5520437,
+  "seen:HgDyiDQ2hfcPiYoSgzfu7848Aw4iFyPt6sWpmXnSpump": 1794878528.5520437,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794878528.5520437,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794878711.7807643,
+  "control:HgDyiDQ2hfcPiYoSgzfu7848Aw4iFyPt6sWpmXnSpump": 1794878711.8509772
  },
  "talks": {
   "2026-10-21": 109
@@ -102,8 +119,9 @@
  ],
  "last_review": 1794860224.8598948,
  "news": {
-  "t": 1794876711.9826303,
+  "t": 1794877628.5645285,
   "crypto": [
+   "Hackers inject credit card, crypto-stealing malware into 178 major websites (0h ago)",
    "Nvidia shares fall 4% as board reportedly rules out Huang return (1h ago)",
    "Custodia Bank loses Supreme Court bid for direct Fed payment access (2h ago)",
    "German lawmakers back crypto freezes outside criminal cases (2h ago)",
@@ -111,14 +129,13 @@
    "Here\u2019s what happened in crypto today (3h ago)",
    "Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid (3h ago)",
    "Bitmine edges toward 5% of ETH supply as treasuries report buys amid market slump (4h ago)",
-   "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off (4h ago)",
-   "Boris Johnson says UK must lead blockchain development despite crypto doubts (5h ago)",
-   "Coinbase and Broadridge propose standard for tokenized stock disclosures (5h ago)"
+   "Bitcoin risks falling below $60,000 as Nvidia earnings threaten to deepen crypto sell-off (5h ago)",
+   "Boris Johnson says UK must lead blockchain development despite crypto doubts (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core Retail Sales m/m in 12.6h, forecast 0.4%, previous 0.9%",
-   "USD Retail Sales m/m in 12.6h, forecast 0.1%, previous 0.8%"
+   "USD Core Retail Sales m/m in 12.4h, forecast 0.4%, previous 0.9%",
+   "USD Retail Sales m/m in 12.4h, forecast 0.1%, previous 0.8%"
   ]
  },
  "spend": {
