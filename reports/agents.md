@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-17 17:28 UTC. Runs so far: 112. Model: claude-haiku-5-5.
+Updated 2026-11-17 17:32 UTC. Runs so far: 112. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3179 | 31 | -80074.87 | -110626.57 |
+| control | meme | 3180 | 31 | -80125.13 | -110685.79 |
 | control | macro | 66 | 48 | 12.52 | -319.08 |
-| control | all | 3245 | 31 | -80062.35 | -110945.65 |
+| control | all | 3246 | 31 | -80112.61 | -111004.87 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GEKKO long at 0.0001432, stop 0.00011456, target 0.00020048, opened 2026-11-17 16:54 UTC
-- control: BRAVO long at 0.0001366, stop 0.00010928, target 0.00019124, opened 2026-11-17 17:09 UTC
 - control: GROKIA long at 9.033e-05, stop 7.2264e-05, target 0.000126462, opened 2026-11-17 17:18 UTC
 
 ## Team
@@ -32,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED CHAR (stop) P&L $-51.07 normal, $-60.02 pessimistic
+- control: CLOSED BRAVO (stop) P&L $-50.26 normal, $-59.22 pessimistic
 
