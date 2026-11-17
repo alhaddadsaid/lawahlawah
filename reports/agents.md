@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-17 06:22 UTC. Runs so far: 111. Model: claude-haiku-5-5.
+Updated 2026-11-17 06:31 UTC. Runs so far: 111. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3144 | 31 | -79165.79 | -109381.82 |
+| control | meme | 3145 | 31 | -79228.74 | -109453.41 |
 | control | macro | 63 | 49 | 112.17 | -202.74 |
-| control | all | 3207 | 31 | -79053.62 | -109584.56 |
+| control | all | 3208 | 31 | -79116.57 | -109656.15 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: EURUSD long at 1.10084, stop 1.09996, target 1.10215, opened 2026-11-17 03:40 UTC
 - control: WIGGLES long at 0.000125, stop 0.0001, target 0.000175, opened 2026-11-17 05:42 UTC
 - control: KINS long at 0.0004156, stop 0.00033248, target 0.00058184, opened 2026-11-17 06:04 UTC
-- control: Mischio long at 6.53e-05, stop 5.224e-05, target 9.142e-05, opened 2026-11-17 06:22 UTC
+- control: MELNOK long at 5.456e-05, stop 4.3648e-05, target 7.6384e-05, opened 2026-11-17 06:28 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-17 06:22 UTC control: OPENED Mischio long at 6.53e-05 (stop 5.224e-05, target 9.142e-05) - control: frozen v3 rules
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
 
