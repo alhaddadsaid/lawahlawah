@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -69411.3326902724,
+   "cash": -69343.3326902724,
    "open": [
     {
      "id": 3233,
@@ -51,21 +51,6 @@
      "size": 423998.304006784,
      "deadline": 1794910701.7887542,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3240,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "cepump",
-     "mint": "DQRNzNt2QRbLj9iPDRGDBNxCN6skYdne7Qxv819Bpump",
-     "side": 1,
-     "opened": 1794904961.6093297,
-     "entry": 6.137e-05,
-     "stop": 4.9096000000000006e-05,
-     "target": 8.5918e-05,
-     "size": 3258921.297050676,
-     "deadline": 1794912161.60933,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,12 +59,6 @@
  "runs": 111,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DQRNzNt2QRbLj9iPDRGDBNxCN6skYdne7Qxv819Bpump": 1794905131.2911756,
-  "seen:PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": 1794905131.2911756,
-  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794905131.2911756,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794905131.2911756,
-  "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794905131.2911756,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794905497.065292,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794905679.2892594,
   "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1794905679.2892594,
   "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794905679.2892594,
@@ -88,7 +67,14 @@
   "seen:D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794905861.5771096,
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794905861.5771096,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794905861.5771096,
-  "control:DQRNzNt2QRbLj9iPDRGDBNxCN6skYdne7Qxv819Bpump": 1794905861.6093326
+  "control:DQRNzNt2QRbLj9iPDRGDBNxCN6skYdne7Qxv819Bpump": 1794905861.6093326,
+  "seen:DQRNzNt2QRbLj9iPDRGDBNxCN6skYdne7Qxv819Bpump": 1794906046.0308907,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794906046.0308907,
+  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794906046.0308907,
+  "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794906046.0308907,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794906046.0308907,
+  "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1794906228.5088649,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794906410.5299447
  },
  "talks": {
   "2026-10-21": 109
@@ -129,24 +115,24 @@
  ],
  "last_review": 1794860224.8598948,
  "news": {
-  "t": 1794904231.3061817,
+  "t": 1794905146.0457277,
   "crypto": [
    "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says (1h ago)",
    "Cardano Foundation seeks $5 million from treasury using ADA price 33% above market (2h ago)",
    "Ex-Robinhood engineer pleads guilty to $125K Hyperliquid trading scheme (2h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion (3h ago)",
-   "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60% (3h ago)",
+   "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60% (4h ago)",
    "Trezor customer data exposed in 3rd partner breach this year (5h ago)",
-   "Hackers inject credit card, crypto-stealing malware into 178 major websites (7h ago)",
+   "Hackers inject credit card, crypto-stealing malware into 178 major websites (8h ago)",
    "Nvidia shares fall 4% as board reportedly rules out Huang return (9h ago)",
    "Custodia Bank loses Supreme Court bid for direct Fed payment access (10h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core Retail Sales m/m in 5.0h, forecast 0.4%, previous 0.9%",
-   "USD Retail Sales m/m in 5.0h, forecast 0.1%, previous 0.8%",
-   "GBP CPI y/y in 22.5h, forecast 3.6%, previous 3.5%"
+   "USD Core Retail Sales m/m in 4.7h, forecast 0.4%, previous 0.9%",
+   "USD Retail Sales m/m in 4.7h, forecast 0.1%, previous 0.8%",
+   "GBP CPI y/y in 22.2h, forecast 3.6%, previous 3.5%"
   ]
  },
  "spend": {
