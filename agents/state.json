@@ -51,36 +51,67 @@
      "size": 481231.9538017324,
      "deadline": 1794902653.7515736,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3232,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "MELNOK",
+     "mint": "3ig9E5SQKs8RjVn9EuW1YaprjaMd6dEftG63hBcMpump",
+     "side": 1,
+     "opened": 1794898560.550876,
+     "entry": 0.0001059,
+     "stop": 8.472e-05,
+     "target": 0.00014826,
+     "size": 1888574.1265344664,
+     "deadline": 1794905760.5508761,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3233,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Marvin",
+     "mint": "HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump",
+     "side": 1,
+     "opened": 1794898744.34062,
+     "entry": 0.0001081,
+     "stop": 8.648e-05,
+     "target": 0.00015134,
+     "size": 1850138.7604070306,
+     "deadline": 1794905944.3406205,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3232,
+ "next_id": 3234,
  "runs": 111,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794898549.7703598,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794898733.8963907,
-  "seen:3ig9E5SQKs8RjVn9EuW1YaprjaMd6dEftG63hBcMpump": 1794898733.8963907,
-  "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794898733.8963907,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794898733.8963907,
-  "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794898733.8963907,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794898916.6129782,
-  "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1794898916.6129782,
-  "seen:2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump": 1794898916.6129782,
   "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794899102.9572484,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794899102.9572484,
   "seen:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794899102.9572484,
   "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794899280.7041643,
   "seen:FeXxj4hz71FKzDChxnUgG9amSoZCJ5pkyJ6MFdaWpump": 1794899280.7041643,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794899280.7041643,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794899280.7041643
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794899280.7041643,
+  "seen:D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794899460.5162997,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794899460.5162997,
+  "control:3ig9E5SQKs8RjVn9EuW1YaprjaMd6dEftG63hBcMpump": 1794899460.5508795,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794899643.9938538,
+  "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794899643.9938538,
+  "seen:3ig9E5SQKs8RjVn9EuW1YaprjaMd6dEftG63hBcMpump": 1794899643.9938538,
+  "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794899643.9938538,
+  "control:HkRQ6Qcadi5yuoNpZdA1Q7yVF3r7LdEmAw1aKkSxpump": 1794899644.3406243,
+  "seen:3yjHj9s9MukEHr7b7qhMiUfH5fSUz97Eb5J8SRjdpump": 1794899826.4643471,
+  "seen:2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump": 1794899826.4643471
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498581,
+ "ctrl_macro_hour": 498583,
  "team": [
   {
    "name": "Lead",
@@ -115,8 +146,9 @@
  ],
  "last_review": 1794860224.8598948,
  "news": {
-  "t": 1794897833.9112191,
+  "t": 1794898744.0087526,
   "crypto": [
+   "Cardano Foundation seeks $5 million from treasury using ADA price 33% above market (0h ago)",
    "Ex-Robinhood engineer pleads guilty to $125K Hyperliquid trading scheme (0h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
    "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion (1h ago)",
@@ -125,13 +157,12 @@
    "Hackers inject credit card, crypto-stealing malware into 178 major websites (6h ago)",
    "Nvidia shares fall 4% as board reportedly rules out Huang return (7h ago)",
    "Custodia Bank loses Supreme Court bid for direct Fed payment access (8h ago)",
-   "German lawmakers back crypto freezes outside criminal cases (8h ago)",
-   "Binance hack may push institutions to outside custody, FalconX exec says (8h ago)"
+   "German lawmakers back crypto freezes outside criminal cases (8h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core Retail Sales m/m in 6.8h, forecast 0.4%, previous 0.9%",
-   "USD Retail Sales m/m in 6.8h, forecast 0.1%, previous 0.8%"
+   "USD Core Retail Sales m/m in 6.5h, forecast 0.4%, previous 0.9%",
+   "USD Retail Sales m/m in 6.5h, forecast 0.1%, previous 0.8%"
   ]
  },
  "spend": {
