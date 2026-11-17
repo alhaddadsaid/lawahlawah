@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -68895.77309215037,
+   "cash": -68931.16811379539,
    "open": [
     {
      "id": 3211,
@@ -21,21 +21,6 @@
      "size": 114478.94177623598,
      "deadline": 1794973250.1534019,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 3215,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Lemon",
-     "mint": "FsFqQGxCNd7dbFuimCW4hMiFRdvvM8PoLyp4WZrxAUnN",
-     "side": 1,
-     "opened": 1794887944.182061,
-     "entry": 5.544e-05,
-     "stop": 4.4352e-05,
-     "target": 7.7616e-05,
-     "size": 3607503.607503608,
-     "deadline": 1794895144.1820612,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 3223,
@@ -89,25 +74,26 @@
  "runs": 111,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump": 1794894704.4606428,
-  "seen:D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794894704.4606428,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794894704.4606428,
-  "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794894887.196727,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794894887.196727,
-  "seen:3ig9E5SQKs8RjVn9EuW1YaprjaMd6dEftG63hBcMpump": 1794895071.5658891,
-  "seen:2MhHi1yKNyAWwGgzQVefLNLhYiWXMYzEYTeH6sZLpump": 1794895071.5658891,
-  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794895071.5658891,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794895071.5658891,
-  "control:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1794895071.9011219,
-  "seen:Dys6SYbjUsy8kksaqrXqo5L2GzgCYDiguGGcS8B5rkrv": 1794895254.4746618,
-  "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794895254.4746618,
-  "control:3ig9E5SQKs8RjVn9EuW1YaprjaMd6dEftG63hBcMpump": 1794895254.5234096,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794895437.4395447,
   "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794895437.4395447,
   "seen:Gg5aWvfucyMwihDzyfCEaLgyeeNE2dkob2LTwWfHpump": 1794895437.4395447,
   "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794895437.4395447,
   "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794895437.4395447,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794895437.4395447
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794895437.4395447,
+  "seen:2L54BYYLFyCDGLo1578Eb7dErysokTAQX9Q7NMHb9rkK": 1794895619.9904926,
+  "seen:2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump": 1794895619.9904926,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1794895803.9781642,
+  "seen:Tqj8yFmagrg7oorpQkVGYR52r96RFTamvWfth9bpump": 1794895803.9781642,
+  "seen:D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794895803.9781642,
+  "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794895803.9781642,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794895803.9781642,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794895986.681902,
+  "seen:3ig9E5SQKs8RjVn9EuW1YaprjaMd6dEftG63hBcMpump": 1794895986.681902,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794895986.681902,
+  "seen:EULWnfX3hvnuod8wARSVFPyU1VnJxTB8YBaJFDvrpump": 1794896169.5844052,
+  "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794896169.5844052,
+  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794896169.5844052,
+  "seen:2MhHi1yKNyAWwGgzQVefLNLhYiWXMYzEYTeH6sZLpump": 1794896169.5844052
  },
  "talks": {
   "2026-10-21": 109
@@ -148,7 +134,7 @@
  ],
  "last_review": 1794860224.8598948,
  "news": {
-  "t": 1794894171.5806239,
+  "t": 1794895086.6968403,
   "crypto": [
    "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion (0h ago)",
    "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60% (1h ago)",
@@ -157,14 +143,14 @@
    "Nvidia shares fall 4% as board reportedly rules out Huang return (6h ago)",
    "Custodia Bank loses Supreme Court bid for direct Fed payment access (7h ago)",
    "German lawmakers back crypto freezes outside criminal cases (7h ago)",
-   "Binance hack may push institutions to outside custody, FalconX exec says (7h ago)",
+   "Binance hack may push institutions to outside custody, FalconX exec says (8h ago)",
    "Former Robinhood engineer pleads guilty to insider trading scheme on Hyperliquid (8h ago)",
    "Bitmine edges toward 5% of ETH supply as treasuries report buys amid market slump (9h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core Retail Sales m/m in 7.8h, forecast 0.4%, previous 0.9%",
-   "USD Retail Sales m/m in 7.8h, forecast 0.1%, previous 0.8%"
+   "USD Core Retail Sales m/m in 7.5h, forecast 0.4%, previous 0.9%",
+   "USD Retail Sales m/m in 7.5h, forecast 0.1%, previous 0.8%"
   ]
  },
  "spend": {
