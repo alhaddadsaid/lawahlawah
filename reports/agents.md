@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-17 03:59 UTC. Runs so far: 111. Model: claude-haiku-5-5.
+Updated 2026-11-17 04:03 UTC. Runs so far: 111. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3129 | 31 | -78714.3 | -108788.09 |
+| control | meme | 3130 | 31 | -78766.36 | -108849.07 |
 | control | macro | 63 | 49 | 112.17 | -202.74 |
-| control | all | 3192 | 31 | -78602.13 | -108990.83 |
+| control | all | 3193 | 31 | -78654.19 | -109051.81 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: EURUSD long at 1.10084, stop 1.09996, target 1.10215, opened 2026-11-17 03:40 UTC
 - control: WIGGLES long at 5.663e-05, stop 4.5304e-05, target 7.9282e-05, opened 2026-11-17 03:49 UTC
-- control: MELNOK long at 0.0001128, stop 9.024e-05, target 0.00015792, opened 2026-11-17 03:56 UTC
 - control: Lemon long at 5.544e-05, stop 4.4352e-05, target 7.7616e-05, opened 2026-11-17 03:59 UTC
 
 ## Team
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-17 03:59 UTC control: OPENED Lemon long at 5.544e-05 (stop 4.4352e-05, target 7.7616e-05) - control: frozen v3 rules
+- control: CLOSED MELNOK (stop) P&L $-52.06 normal, $-60.98 pessimistic
 
