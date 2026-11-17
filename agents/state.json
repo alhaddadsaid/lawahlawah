@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -69490.31283117754,
+   "cash": -69613.12355846395,
    "open": [
     {
      "id": 3252,
@@ -21,21 +21,6 @@
      "size": 3560619.5478013176,
      "deadline": 1794934331.376206,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3254,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "GBPUSD",
-     "mint": "",
-     "side": -1,
-     "opened": 1794927679.9742649,
-     "entry": 1.3192437887191772,
-     "stop": 1.3203749997275216,
-     "target": 1.3175469722066606,
-     "size": 88400.83703425163,
-     "deadline": 1795014079.974265,
-     "thesis": "control: random direction"
     },
     {
      "id": 3255,
@@ -66,32 +51,64 @@
      "size": 1474926.2536873159,
      "deadline": 1794936346.9800234,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3257,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SOYOUARE",
+     "mint": "GbGzZQugMJtZnhcnNyHUamXg2xGZw4C4RWy1uSvVpump",
+     "side": 1,
+     "opened": 1794929883.4919937,
+     "entry": 7.426e-05,
+     "stop": 5.9408e-05,
+     "target": 0.000103964,
+     "size": 2693239.9676811206,
+     "deadline": 1794937083.491994,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3258,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "BRAVO",
+     "mint": "BjFcaSPgxVmeX8RtmT4suLqDoRpB9smHtg7aRBJagpad",
+     "side": 1,
+     "opened": 1794930431.1259193,
+     "entry": 0.0001789,
+     "stop": 0.00014312,
+     "target": 0.00025046,
+     "size": 1117942.9849077696,
+     "deadline": 1794937631.1259196,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3257,
+ "next_id": 3259,
  "runs": 112,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794929863.276329,
-  "seen:BjFcaSPgxVmeX8RtmT4suLqDoRpB9smHtg7aRBJagpad": 1794929863.276329,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794929863.276329,
-  "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794929863.276329,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794929863.276329,
-  "control:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794930046.980026,
-  "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794930231.5717652,
-  "seen:A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm": 1794930231.5717652,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1794930231.5717652,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794930231.5717652,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1794930231.5717652,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794930415.2629645,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794930415.2629645,
-  "seen:GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump": 1794930415.2629645,
-  "seen:3K8KgxKAfe4iWcgD2D3wNuyGmet6RsNeusmLkVGRpump": 1794930415.2629645,
   "seen:GbGzZQugMJtZnhcnNyHUamXg2xGZw4C4RWy1uSvVpump": 1794930598.4743552,
   "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794930598.4743552,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794930598.4743552
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794930598.4743552,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794930783.0887158,
+  "seen:6PrBbWUciChkoYKEaJZJXjtiQnRJqiAgLMYTEnXbpump": 1794930783.0887158,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794930783.0887158,
+  "seen:BjFcaSPgxVmeX8RtmT4suLqDoRpB9smHtg7aRBJagpad": 1794930783.0887158,
+  "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794930783.0887158,
+  "control:GbGzZQugMJtZnhcnNyHUamXg2xGZw4C4RWy1uSvVpump": 1794930783.4919975,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794931149.0350735,
+  "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794931149.0350735,
+  "seen:D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794931149.0350735,
+  "seen:9hcGkiESMMLXJjMv9ktJjDDQpt5SyKJDZ5CKAt2Qpump": 1794931331.031617,
+  "seen:GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump": 1794931331.031617,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794931331.031617,
+  "seen:2J8PNqveSc5HcK9mF1U8aXpYjiFYK4RuGuKUMXkKpump": 1794931331.031617,
+  "seen:3K8KgxKAfe4iWcgD2D3wNuyGmet6RsNeusmLkVGRpump": 1794931331.031617,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794931331.031617,
+  "seen:A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm": 1794931331.031617,
+  "control:BjFcaSPgxVmeX8RtmT4suLqDoRpB9smHtg7aRBJagpad": 1794931331.125923
  },
  "talks": {
   "2026-10-21": 109
@@ -132,25 +149,25 @@
  ],
  "last_review": 1794860224.8598948,
  "news": {
-  "t": 1794928963.288783,
+  "t": 1794929883.1015291,
   "crypto": [
    "Hong Kong, Swift test tokenized deposits as banks chase stablecoin-style speed (0h ago)",
-   "Here\u2019s what happened in crypto today (0h ago)",
+   "Here\u2019s what happened in crypto today (1h ago)",
    "Solana Foundation takes majority interest in crypto data firm CoinGecko (1h ago)",
    "Bitcoin to $1M by 2030? \u2018Almost certainly not,\u2019 says Dragonfly\u2019s Qureshi (2h ago)",
    "ARK sells $85M in Nvidia shares ahead of chipmaker\u2019s Q3 earnings results (2h ago)",
-   "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps (2h ago)",
-   "Decentralized exchange Grvt looks to makes commodity trading more predictable with stable funding perps (2h ago)",
+   "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps (3h ago)",
+   "Decentralized exchange Grvt looks to makes commodity trading more predictable with stable funding perps (3h ago)",
    "Revolut plans four blockchain-based funds for private markets, chair says (3h ago)",
    "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows (3h ago)",
-   "Ex-OpenAI researcher fund dumps bitcoin miners, cuts IREN 94% after portfolio slump (3h ago)"
+   "Ex-OpenAI researcher fund dumps bitcoin miners, cuts IREN 94% after portfolio slump (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core Retail Sales m/m was 1.9h, forecast 0.4%, previous 0.9%",
-   "USD Retail Sales m/m was 1.9h, forecast 0.1%, previous 0.8%",
-   "GBP CPI y/y in 15.6h, forecast 3.6%, previous 3.5%",
-   "GBP BOE Gov Bailey Speaks in 23.6h"
+   "USD Core Retail Sales m/m was 2.1h, forecast 0.4%, previous 0.9%",
+   "USD Retail Sales m/m was 2.1h, forecast 0.1%, previous 0.8%",
+   "GBP CPI y/y in 15.4h, forecast 3.6%, previous 3.5%",
+   "GBP BOE Gov Bailey Speaks in 23.4h"
   ]
  },
  "spend": {
