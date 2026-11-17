@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -69399.71666575401,
+   "cash": -69331.71666575401,
    "open": [
     {
      "id": 3233,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3236,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "cepump",
-     "mint": "DQRNzNt2QRbLj9iPDRGDBNxCN6skYdne7Qxv819Bpump",
-     "side": 1,
-     "opened": 1794902952.3566477,
-     "entry": 8.261e-05,
-     "stop": 6.6088e-05,
-     "target": 0.00011565399999999997,
-     "size": 2421014.40503571,
-     "deadline": 1794910152.356648,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3237,
      "desk": "control",
      "market": "meme",
@@ -51,19 +36,29 @@
      "size": 3508156.463778285,
      "deadline": 1794910334.541483,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3238,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PsyopAnime",
+     "mint": "2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump",
+     "side": 1,
+     "opened": 1794903501.788754,
+     "entry": 0.0004717,
+     "stop": 0.00037736,
+     "target": 0.0006603799999999999,
+     "size": 423998.304006784,
+     "deadline": 1794910701.7887542,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3238,
+ "next_id": 3239,
  "runs": 111,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DQRNzNt2QRbLj9iPDRGDBNxCN6skYdne7Qxv819Bpump": 1794903303.8701808,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794903303.8701808,
-  "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794903303.8701808,
-  "control:7bY3viK42FcTvojjVcdNcM3PV79P3VWwBwJQ2baVpump": 1794903304.293925,
-  "seen:BRf3SXRk8BdXmBZDJfKyEhbYmqBVf8843ctEMcD4pump": 1794903486.6039846,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794903670.3175378,
   "seen:7bY3viK42FcTvojjVcdNcM3PV79P3VWwBwJQ2baVpump": 1794903670.3175378,
   "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794903670.3175378,
@@ -78,7 +73,12 @@
   "seen:D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794904034.5058615,
   "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794904034.5058615,
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794904034.5058615,
-  "control:3ghMZsrHkWKzigd2pxvuLMGMcVYJt1JjDcatsfMhpump": 1794904034.5414865
+  "control:3ghMZsrHkWKzigd2pxvuLMGMcVYJt1JjDcatsfMhpump": 1794904034.5414865,
+  "seen:DQRNzNt2QRbLj9iPDRGDBNxCN6skYdne7Qxv819Bpump": 1794904218.5597873,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794904218.5597873,
+  "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794904218.5597873,
+  "seen:2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump": 1794904401.4441648,
+  "control:2nP9yKQNSGQy851iyawDvBkzkK2R2aqKArQCKc2gpump": 1794904401.7887573
  },
  "talks": {
   "2026-10-21": 109
@@ -119,13 +119,13 @@
  ],
  "last_review": 1794860224.8598948,
  "news": {
-  "t": 1794902403.8852718,
+  "t": 1794903318.574764,
   "crypto": [
-   "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says (0h ago)",
+   "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says (1h ago)",
    "Cardano Foundation seeks $5 million from treasury using ADA price 33% above market (1h ago)",
-   "Ex-Robinhood engineer pleads guilty to $125K Hyperliquid trading scheme (1h ago)",
+   "Ex-Robinhood engineer pleads guilty to $125K Hyperliquid trading scheme (2h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
-   "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion (2h ago)",
+   "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion (3h ago)",
    "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60% (3h ago)",
    "Trezor customer data exposed in 3rd partner breach this year (4h ago)",
    "Hackers inject credit card, crypto-stealing malware into 178 major websites (7h ago)",
@@ -134,9 +134,9 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Core Retail Sales m/m in 5.5h, forecast 0.4%, previous 0.9%",
-   "USD Retail Sales m/m in 5.5h, forecast 0.1%, previous 0.8%",
-   "GBP CPI y/y in 23.0h, forecast 3.6%, previous 3.5%"
+   "USD Core Retail Sales m/m in 5.2h, forecast 0.4%, previous 0.9%",
+   "USD Retail Sales m/m in 5.2h, forecast 0.1%, previous 0.8%",
+   "GBP CPI y/y in 22.7h, forecast 3.6%, previous 3.5%"
   ]
  },
  "spend": {
@@ -167,5 +167,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794902221.7860236
+ "last_macro_macro": 1794903501.4587271
 }
