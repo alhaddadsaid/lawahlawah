@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-17 09:10 UTC. Runs so far: 111. Model: claude-haiku-5-5.
+Updated 2026-11-17 09:22 UTC. Runs so far: 111. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3155 | 31 | -79315.05 | -109640.07 |
+| control | meme | 3156 | 31 | -79247.05 | -109584.07 |
 | control | macro | 64 | 48 | -6.73 | -327.36 |
-| control | all | 3219 | 31 | -79321.78 | -109967.43 |
+| control | all | 3220 | 31 | -79253.78 | -109911.43 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: SUPERPLUMB long at 5.701e-05, stop 4.5608e-05, target 7.9814e-05, opened 2026-11-17 08:12 UTC
 - control: PsyopAnime long at 0.0004717, stop 0.00037736, target 0.00066038, opened 2026-11-17 08:18 UTC
+- control: SUPERPLUMB long at 7.992e-05, stop 6.3936e-05, target 0.000111888, opened 2026-11-17 09:16 UTC
 
 ## Team
 
@@ -31,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order SUPERPLUMB REJECTED by guardrails: SUPERPLUMB already open
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
 
