@@ -5,46 +5,62 @@
    "open": []
   },
   "control": {
-   "cash": -69405.59531269412,
+   "cash": -69476.75363883734,
    "open": [
     {
-     "id": 3246,
+     "id": 3248,
      "desk": "control",
      "market": "meme",
-     "symbol": "SOYOUARE",
-     "mint": "GbGzZQugMJtZnhcnNyHUamXg2xGZw4C4RWy1uSvVpump",
+     "symbol": "Grokia",
+     "mint": "4htgg1WaAis8nui7d5PrHiou6YyNykzzA35yA53Vpump",
      "side": 1,
-     "opened": 1794922929.577572,
-     "entry": 6.954e-05,
-     "stop": 5.5632000000000005e-05,
-     "target": 9.7356e-05,
-     "size": 2876042.5654299683,
-     "deadline": 1794930129.577572,
+     "opened": 1794924756.8651273,
+     "entry": 5.646e-05,
+     "stop": 4.5168e-05,
+     "target": 7.9044e-05,
+     "size": 3542330.853701736,
+     "deadline": 1794931956.8651276,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3249,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "GEKKO",
+     "mint": "GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump",
+     "side": 1,
+     "opened": 1794924939.1648114,
+     "entry": 7.193e-05,
+     "stop": 5.7544e-05,
+     "target": 0.00010070199999999999,
+     "size": 2780481.023217017,
+     "deadline": 1794932139.1648116,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3248,
+ "next_id": 3250,
  "runs": 112,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794924377.6234298,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794924377.6234298,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794924377.6234298,
-  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794924377.6234298,
-  "seen:6sBvfTnThBPUQsEWjiXdgCnHwxGZfEDqegtVu4vLpump": 1794924560.0806272,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794924560.0806272,
-  "seen:A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm": 1794924560.0806272,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794924560.0806272,
-  "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794924560.0806272,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794924560.0806272,
-  "seen:ANNzAQ2ADnquKGoKMsMt3ByLASo93pFnA23D8KW7pump": 1794924743.451132,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794924743.451132,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794924743.451132,
-  "seen:GbGzZQugMJtZnhcnNyHUamXg2xGZw4C4RWy1uSvVpump": 1794924743.451132,
-  "control:6sBvfTnThBPUQsEWjiXdgCnHwxGZfEDqegtVu4vLpump": 1794924743.4953868,
-  "seen:BRf3SXRk8BdXmBZDJfKyEhbYmqBVf8843ctEMcD4pump": 1794924925.790287
+  "seen:4htgg1WaAis8nui7d5PrHiou6YyNykzzA35yA53Vpump": 1794925107.6784067,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794925292.4934747,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794925292.4934747,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794925292.4934747,
+  "seen:A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm": 1794925474.7269256,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794925474.7269256,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794925474.7269256,
+  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794925474.7269256,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794925474.7269256,
+  "seen:ANNzAQ2ADnquKGoKMsMt3ByLASo93pFnA23D8KW7pump": 1794925656.8218102,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794925656.8218102,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794925656.8218102,
+  "seen:Dys6SYbjUsy8kksaqrXqo5L2GzgCYDiguGGcS8B5rkrv": 1794925656.8218102,
+  "control:4htgg1WaAis8nui7d5PrHiou6YyNykzzA35yA53Vpump": 1794925656.8651314,
+  "seen:GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump": 1794925839.0872798,
+  "seen:BjFcaSPgxVmeX8RtmT4suLqDoRpB9smHtg7aRBJagpad": 1794925839.0872798,
+  "control:GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump": 1794925839.164816
  },
  "talks": {
   "2026-10-21": 109
@@ -85,24 +101,24 @@
  ],
  "last_review": 1794860224.8598948,
  "news": {
-  "t": 1794923477.635977,
+  "t": 1794924392.506147,
   "crypto": [
-   "Bitcoin to $1M by 2030? \u2018Almost certainly not,\u2019 says Dragonfly\u2019s Qureshi (0h ago)",
+   "Bitcoin to $1M by 2030? \u2018Almost certainly not,\u2019 says Dragonfly\u2019s Qureshi (1h ago)",
    "ARK sells $85M in Nvidia shares ahead of chipmaker\u2019s Q3 earnings results (1h ago)",
    "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps (1h ago)",
    "Decentralized exchange Grvt looks to makes commodity trading more predictable with stable funding perps (1h ago)",
-   "Revolut plans four blockchain-based funds for private markets, chair says (1h ago)",
+   "Revolut plans four blockchain-based funds for private markets, chair says (2h ago)",
    "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows (2h ago)",
    "Ex-OpenAI researcher fund dumps bitcoin miners, cuts IREN 94% after portfolio slump (2h ago)",
-   "US senators seek SEC answers on tokenized stock money laundering risks (2h ago)",
-   "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends (2h ago)",
-   "Solana Foundation takes majority stake in crypto data provider CoinGecko (2h ago)"
+   "US senators seek SEC answers on tokenized stock money laundering risks (3h ago)",
+   "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends (3h ago)",
+   "Solana Foundation takes majority stake in crypto data provider CoinGecko (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core Retail Sales m/m was 0.4h, forecast 0.4%, previous 0.9%",
-   "USD Retail Sales m/m was 0.4h, forecast 0.1%, previous 0.8%",
-   "GBP CPI y/y in 17.1h, forecast 3.6%, previous 3.5%"
+   "USD Core Retail Sales m/m was 0.6h, forecast 0.4%, previous 0.9%",
+   "USD Retail Sales m/m was 0.6h, forecast 0.1%, previous 0.8%",
+   "GBP CPI y/y in 16.9h, forecast 3.6%, previous 3.5%"
   ]
  },
  "spend": {
@@ -133,5 +149,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794923295.220611
+ "last_macro_macro": 1794924574.7393017
 }
