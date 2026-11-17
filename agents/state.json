@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -69871.8495899563,
+   "cash": -69926.53911614083,
    "open": [
     {
      "id": 3255,
@@ -38,36 +38,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3263,
+     "id": 3264,
      "desk": "control",
      "market": "meme",
-     "symbol": "Cyber",
-     "mint": "9AhHRV5UWdz8MJgP97LczfrVBB2No9u1vse992mQpump",
+     "symbol": "GEKKO",
+     "mint": "GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump",
      "side": 1,
-     "opened": 1794934087.8498106,
-     "entry": 0.0001203,
-     "stop": 9.624e-05,
-     "target": 0.00016842,
-     "size": 1662510.3906899418,
-     "deadline": 1794941287.8498108,
+     "opened": 1794934454.9074318,
+     "entry": 0.0001432,
+     "stop": 0.00011456000000000001,
+     "target": 0.00020048,
+     "size": 1396648.0446927373,
+     "deadline": 1794941654.907432,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3264,
+ "next_id": 3265,
  "runs": 112,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9DH6sGTvTnwyXYQi5eY4Ls6mLPwyD9hKW2UC4oQTpump": 1794934261.8169117,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794934261.8169117,
-  "seen:A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm": 1794934261.8169117,
-  "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794934261.8169117,
-  "seen:9AhHRV5UWdz8MJgP97LczfrVBB2No9u1vse992mQpump": 1794934440.426232,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794934440.426232,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794934440.426232,
-  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794934440.426232,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794934440.426232,
   "seen:6PrBbWUciChkoYKEaJZJXjtiQnRJqiAgLMYTEnXbpump": 1794934623.5484073,
   "seen:ANt31zPFtdqb327BxLcvPnSUSTMzm5Rf7xfKN5kbpump": 1794934623.5484073,
   "seen:Dys6SYbjUsy8kksaqrXqo5L2GzgCYDiguGGcS8B5rkrv": 1794934805.42562,
@@ -76,7 +67,19 @@
   "seen:GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump": 1794934987.8058484,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794934987.8058484,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794934987.8058484,
-  "control:9AhHRV5UWdz8MJgP97LczfrVBB2No9u1vse992mQpump": 1794934987.8498135
+  "control:9AhHRV5UWdz8MJgP97LczfrVBB2No9u1vse992mQpump": 1794934987.8498135,
+  "seen:4ULpYvaTGRq1KnaCiPhz52nyQFx86wN1vqqX3ny8refu": 1794935172.230326,
+  "seen:XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo": 1794935172.230326,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794935172.230326,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794935172.230326,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794935172.230326,
+  "seen:9AhHRV5UWdz8MJgP97LczfrVBB2No9u1vse992mQpump": 1794935354.4424021,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794935354.4424021,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794935354.4424021,
+  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794935354.4424021,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794935354.4424021,
+  "seen:9DH6sGTvTnwyXYQi5eY4Ls6mLPwyD9hKW2UC4oQTpump": 1794935354.4424021,
+  "control:GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump": 1794935354.9074347
  },
  "talks": {
   "2026-10-21": 109
@@ -117,23 +120,23 @@
  ],
  "last_review": 1794860224.8598948,
  "news": {
-  "t": 1794933540.4391224,
+  "t": 1794934454.4554882,
   "crypto": [
-   "Hong Kong, Swift test tokenized deposits as banks chase stablecoin-style speed (1h ago)",
+   "Bitcoin drops 2.5% as Nvidia stock risks new 5-month lows into Q3 earnings (0h ago)",
+   "Hong Kong, Swift test tokenized deposits as banks chase stablecoin-style speed (2h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "Solana Foundation takes majority interest in crypto data firm CoinGecko (2h ago)",
    "Bitcoin to $1M by 2030? \u2018Almost certainly not,\u2019 says Dragonfly\u2019s Qureshi (3h ago)",
-   "ARK sells $85M in Nvidia shares ahead of chipmaker\u2019s Q3 earnings results (3h ago)",
+   "ARK sells $85M in Nvidia shares ahead of chipmaker\u2019s Q3 earnings results (4h ago)",
    "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps (4h ago)",
    "Decentralized exchange Grvt looks to makes commodity trading more predictable with stable funding perps (4h ago)",
    "Revolut plans four blockchain-based funds for private markets, chair says (4h ago)",
-   "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows (4h ago)",
-   "Ex-OpenAI researcher fund dumps bitcoin miners, cuts IREN 94% after portfolio slump (5h ago)"
+   "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP CPI y/y in 14.3h, forecast 3.6%, previous 3.5%",
-   "GBP BOE Gov Bailey Speaks in 22.3h"
+   "GBP CPI y/y in 14.1h, forecast 3.6%, previous 3.5%",
+   "GBP BOE Gov Bailey Speaks in 22.1h"
   ]
  },
  "spend": {
