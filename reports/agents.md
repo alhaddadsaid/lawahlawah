@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-17 00:30 UTC. Runs so far: 110. Model: claude-haiku-5-5.
+Updated 2026-11-17 00:39 UTC. Runs so far: 110. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,14 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3116 | 31 | -78132.09 | -108087.48 |
+| control | meme | 3117 | 31 | -78064.09 | -108031.48 |
 | control | macro | 63 | 49 | 112.17 | -202.74 |
-| control | all | 3179 | 32 | -78019.92 | -108290.22 |
+| control | all | 3180 | 32 | -77951.92 | -108234.22 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
+- control: LUCIA long at 0.000103, stop 8.24e-05, target 0.0001442, opened 2026-11-17 00:36 UTC
+- control: gtacoin long at 0.0001297, stop 0.00010376, target 0.00018158, opened 2026-11-17 00:39 UTC
 
 ## Team
 
@@ -29,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED Debu (stop) P&L $-53.65 normal, $-62.53 pessimistic
+- 2026-11-17 00:39 UTC control: OPENED gtacoin long at 0.0001297 (stop 0.00010376, target 0.00018158) - control: frozen v3 rules
 
