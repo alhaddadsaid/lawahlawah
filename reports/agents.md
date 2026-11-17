@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-17 07:42 UTC. Runs so far: 111. Model: claude-haiku-5-5.
+Updated 2026-11-17 08:00 UTC. Runs so far: 111. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -10,16 +10,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
 | control | meme | 3149 | 31 | -79317.49 | -109580.91 |
-| control | macro | 63 | 49 | 112.17 | -202.74 |
-| control | all | 3212 | 31 | -79205.32 | -109783.65 |
+| control | macro | 64 | 48 | -6.73 | -327.36 |
+| control | all | 3213 | 31 | -79324.22 | -109908.27 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: EURUSD long at 1.10084, stop 1.09996, target 1.10215, opened 2026-11-17 03:40 UTC
 - control: KINS long at 0.0004156, stop 0.00033248, target 0.00058184, opened 2026-11-17 06:04 UTC
 - control: Marvin long at 0.0001081, stop 8.648e-05, target 0.00015134, opened 2026-11-17 06:59 UTC
+- control: SACK long at 6.98e-05, stop 5.584e-05, target 9.772e-05, opened 2026-11-17 08:00 UTC
 
 ## Team
 
@@ -32,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED WIGGLES (time) P&L $-29.19 normal, $-38.7 pessimistic
+- 2026-11-17 08:00 UTC control: OPENED SACK long at 6.98e-05 (stop 5.584e-05, target 9.772e-05) - control: frozen v3 rules
 

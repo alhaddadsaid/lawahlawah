@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -69205.1238908839,
+   "cash": -69324.01891251431,
    "open": [
-    {
-     "id": 3211,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "EURUSD",
-     "mint": "",
-     "side": 1,
-     "opened": 1794886850.1534014,
-     "entry": 1.1008366346359253,
-     "stop": 1.0999631115368433,
-     "target": 1.102146919284548,
-     "size": 114478.94177623598,
-     "deadline": 1794973250.1534019,
-     "thesis": "control: random direction"
-    },
     {
      "id": 3229,
      "desk": "control",
@@ -51,30 +36,47 @@
      "size": 1850138.7604070306,
      "deadline": 1794905944.3406205,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3235,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SACK",
+     "mint": "7bY3viK42FcTvojjVcdNcM3PV79P3VWwBwJQ2baVpump",
+     "side": 1,
+     "opened": 1794902404.2939215,
+     "entry": 6.98e-05,
+     "stop": 5.584000000000001e-05,
+     "target": 9.771999999999999e-05,
+     "size": 2865329.5128939827,
+     "deadline": 1794909604.2939217,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3235,
+ "next_id": 3236,
  "runs": 111,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3ig9E5SQKs8RjVn9EuW1YaprjaMd6dEftG63hBcMpump": 1794901475.1218872,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794901475.1218872,
-  "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794901475.1218872,
-  "seen:2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump": 1794901658.3130062,
-  "seen:k24SHEZLoLv3sZ8Gmpv8Boi7LVCBq5uJeRmkG54tkRg": 1794901842.3196926,
-  "seen:7bY3viK42FcTvojjVcdNcM3PV79P3VWwBwJQ2baVpump": 1794901842.3196926,
-  "seen:3yjHj9s9MukEHr7b7qhMiUfH5fSUz97Eb5J8SRjdpump": 1794901842.3196926,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794901842.3196926,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794901842.3196926,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794902024.8556128,
-  "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794902024.8556128,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1794902024.8556128,
-  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794902207.3359783,
-  "seen:D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794902207.3359783,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794902207.3359783,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794902207.3359783
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794902574.4782388,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794902574.4782388,
+  "seen:9xkFqNw1JbSpKz7d54N61jgMEUaDmhvYtApiRbuP1h2x": 1794902757.003083,
+  "seen:7bY3viK42FcTvojjVcdNcM3PV79P3VWwBwJQ2baVpump": 1794902757.003083,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794902757.003083,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794902757.003083,
+  "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794902939.5302224,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1794902939.5302224,
+  "seen:3yjHj9s9MukEHr7b7qhMiUfH5fSUz97Eb5J8SRjdpump": 1794902939.5302224,
+  "seen:3ghMZsrHkWKzigd2pxvuLMGMcVYJt1JjDcatsfMhpump": 1794903121.7705503,
+  "seen:D9EcoQZeAytCrF1kQFSpRNpoPhibJUvJcmRHXhubpump": 1794903121.7705503,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794903121.7705503,
+  "seen:2cMcMEX3Eqo86tUrVe5dgHp5GZNwqQ6crqm22UeZpump": 1794903121.7705503,
+  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794903121.7705503,
+  "seen:DQRNzNt2QRbLj9iPDRGDBNxCN6skYdne7Qxv819Bpump": 1794903303.8701808,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794903303.8701808,
+  "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794903303.8701808,
+  "control:7bY3viK42FcTvojjVcdNcM3PV79P3VWwBwJQ2baVpump": 1794903304.293925
  },
  "talks": {
   "2026-10-21": 109
@@ -115,24 +117,24 @@
  ],
  "last_review": 1794860224.8598948,
  "news": {
-  "t": 1794900575.1366863,
+  "t": 1794902403.8852718,
   "crypto": [
+   "Bitcoin could slide into the $50,000s as Fed rate hike bets build, Wintermute says (0h ago)",
    "Cardano Foundation seeks $5 million from treasury using ADA price 33% above market (1h ago)",
    "Ex-Robinhood engineer pleads guilty to $125K Hyperliquid trading scheme (1h ago)",
-   "Here\u2019s what happened in crypto today (1h ago)",
+   "Here\u2019s what happened in crypto today (2h ago)",
    "Wells Fargo's reported BlackRock bitcoin ETF holdings double to $2.35 billion (2h ago)",
-   "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60% (2h ago)",
+   "Ripple-backed Evernorth has written down its pre-listing XRP holdings by 60% (3h ago)",
    "Trezor customer data exposed in 3rd partner breach this year (4h ago)",
-   "Hackers inject credit card, crypto-stealing malware into 178 major websites (6h ago)",
+   "Hackers inject credit card, crypto-stealing malware into 178 major websites (7h ago)",
    "Nvidia shares fall 4% as board reportedly rules out Huang return (8h ago)",
-   "Custodia Bank loses Supreme Court bid for direct Fed payment access (9h ago)",
-   "German lawmakers back crypto freezes outside criminal cases (9h ago)"
+   "Custodia Bank loses Supreme Court bid for direct Fed payment access (9h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core Retail Sales m/m in 6.0h, forecast 0.4%, previous 0.9%",
-   "USD Retail Sales m/m in 6.0h, forecast 0.1%, previous 0.8%",
-   "GBP CPI y/y in 23.5h, forecast 3.6%, previous 3.5%"
+   "USD Core Retail Sales m/m in 5.5h, forecast 0.4%, previous 0.9%",
+   "USD Retail Sales m/m in 5.5h, forecast 0.1%, previous 0.8%",
+   "GBP CPI y/y in 23.0h, forecast 3.6%, previous 3.5%"
   ]
  },
  "spend": {
@@ -163,5 +165,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794900942.3343854
+ "last_macro_macro": 1794902221.7860236
 }
