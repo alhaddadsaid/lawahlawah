@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-17 18:28 UTC. Runs so far: 112. Model: claude-haiku-5-5.
+Updated 2026-11-17 18:31 UTC. Runs so far: 112. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,15 +9,14 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3185 | 31 | -80179.11 | -110789.67 |
+| control | meme | 3186 | 31 | -80229.46 | -110848.99 |
 | control | macro | 66 | 48 | 12.52 | -319.08 |
-| control | all | 3251 | 31 | -80166.59 | -111108.75 |
+| control | all | 3252 | 31 | -80216.94 | -111168.07 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: Altruists long at 0.000216, stop 0.0001728, target 0.0003024, opened 2026-11-17 17:43 UTC
 - control: GEKKO long at 6.57e-05, stop 5.256e-05, target 9.198e-05, opened 2026-11-17 18:16 UTC
 - control: duh long at 0.0001366, stop 0.00010928, target 0.00019124, opened 2026-11-17 18:28 UTC
 
@@ -32,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED Lucia (target) P&L $68.0 normal, $56.0 pessimistic
+- control: CLOSED Altruists (stop) P&L $-50.35 normal, $-59.32 pessimistic
 
