@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-17 15:16 UTC. Runs so far: 112. Model: claude-haiku-5-5.
+Updated 2026-11-17 15:25 UTC. Runs so far: 112. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3167 | 31 | -79693.84 | -110132.23 |
+| control | meme | 3168 | 31 | -79625.84 | -110076.23 |
 | control | macro | 65 | 49 | 135.33 | -190.97 |
-| control | all | 3232 | 31 | -79558.51 | -110323.2 |
+| control | all | 3233 | 31 | -79490.51 | -110267.2 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: SUPERPLUMB long at 5.617e-05, stop 4.4936e-05, target 7.8638e-05, opened 2026-11-17 14:52 UTC
-- control: CHAR long at 8.953e-05, stop 7.1624e-05, target 0.000125342, opened 2026-11-17 14:55 UTC
 - control: GBPUSD short at 1.31924, stop 1.32037, target 1.31755, opened 2026-11-17 15:01 UTC
 - control: FUTA long at 0.0001014, stop 8.112e-05, target 0.00014196, opened 2026-11-17 15:04 UTC
+- control: CHAR long at 0.0001356, stop 0.00010848, target 0.00018984, opened 2026-11-17 15:25 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order SUPERPLUMB REJECTED by guardrails: SUPERPLUMB already open
+- 2026-11-17 15:25 UTC control: OPENED CHAR long at 0.0001356 (stop 0.00010848, target 0.00018984) - control: frozen v3 rules
 
