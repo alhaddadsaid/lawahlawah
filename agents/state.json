@@ -5,45 +5,47 @@
    "open": []
   },
   "control": {
-   "cash": -69408.75363883734,
+   "cash": -69508.39518411871,
    "open": [
     {
-     "id": 3248,
+     "id": 3251,
      "desk": "control",
      "market": "meme",
-     "symbol": "Grokia",
-     "mint": "4htgg1WaAis8nui7d5PrHiou6YyNykzzA35yA53Vpump",
+     "symbol": "BRAVO",
+     "mint": "BjFcaSPgxVmeX8RtmT4suLqDoRpB9smHtg7aRBJagpad",
      "side": 1,
-     "opened": 1794924756.8651273,
-     "entry": 5.646e-05,
-     "stop": 4.5168e-05,
-     "target": 7.9044e-05,
-     "size": 3542330.853701736,
-     "deadline": 1794931956.8651276,
+     "opened": 1794926582.9683547,
+     "entry": 0.00017,
+     "stop": 0.00013600000000000003,
+     "target": 0.000238,
+     "size": 1176470.588235294,
+     "deadline": 1794933782.9683552,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3250,
+ "next_id": 3252,
  "runs": 112,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794926205.0720048,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794926205.0720048,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794926205.0720048,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794926387.619419,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794926387.619419,
-  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794926387.619419,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1794926387.619419,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794926387.619419,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794926570.8643146,
   "seen:GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump": 1794926752.69747,
   "seen:BjFcaSPgxVmeX8RtmT4suLqDoRpB9smHtg7aRBJagpad": 1794926752.69747,
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794926934.8173487,
   "seen:A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm": 1794926934.8173487,
   "seen:2NWgu4fqN2AxS5pp5v3f3SH54qArP9JepQFJm58gpump": 1794926934.8173487,
-  "seen:4htgg1WaAis8nui7d5PrHiou6YyNykzzA35yA53Vpump": 1794926934.8173487
+  "seen:4htgg1WaAis8nui7d5PrHiou6YyNykzzA35yA53Vpump": 1794926934.8173487,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1794927119.0601895,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794927119.0601895,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1794927300.6866324,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1794927300.6866324,
+  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794927300.6866324,
+  "seen:Dys6SYbjUsy8kksaqrXqo5L2GzgCYDiguGGcS8B5rkrv": 1794927300.6866324,
+  "control:Dys6SYbjUsy8kksaqrXqo5L2GzgCYDiguGGcS8B5rkrv": 1794927300.7341368,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794927482.9226263,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794927482.9226263,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794927482.9226263,
+  "control:BjFcaSPgxVmeX8RtmT4suLqDoRpB9smHtg7aRBJagpad": 1794927482.9683585
  },
  "talks": {
   "2026-10-21": 109
@@ -84,24 +86,24 @@
  ],
  "last_review": 1794860224.8598948,
  "news": {
-  "t": 1794925305.0844855,
+  "t": 1794926219.0725954,
   "crypto": [
    "Bitcoin to $1M by 2030? \u2018Almost certainly not,\u2019 says Dragonfly\u2019s Qureshi (1h ago)",
    "ARK sells $85M in Nvidia shares ahead of chipmaker\u2019s Q3 earnings results (1h ago)",
-   "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps (1h ago)",
-   "Decentralized exchange Grvt looks to makes commodity trading more predictable with stable funding perps (1h ago)",
+   "Ethereum's Glamsterdam upgrade risks breaking up to 15,000 automated apps (2h ago)",
+   "Decentralized exchange Grvt looks to makes commodity trading more predictable with stable funding perps (2h ago)",
    "Revolut plans four blockchain-based funds for private markets, chair says (2h ago)",
    "Crypto's 'casino-chips' are disappearing, adding to pain from spot ETF outflows (2h ago)",
-   "Ex-OpenAI researcher fund dumps bitcoin miners, cuts IREN 94% after portfolio slump (2h ago)",
+   "Ex-OpenAI researcher fund dumps bitcoin miners, cuts IREN 94% after portfolio slump (3h ago)",
    "US senators seek SEC answers on tokenized stock money laundering risks (3h ago)",
    "Bitcoin remains penned in near $64,000 even as ETF outflow streak ends (3h ago)",
    "Solana Foundation takes majority stake in crypto data provider CoinGecko (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core Retail Sales m/m was 0.9h, forecast 0.4%, previous 0.9%",
-   "USD Retail Sales m/m was 0.9h, forecast 0.1%, previous 0.8%",
-   "GBP CPI y/y in 16.6h, forecast 3.6%, previous 3.5%"
+   "USD Core Retail Sales m/m was 1.1h, forecast 0.4%, previous 0.9%",
+   "USD Retail Sales m/m was 1.1h, forecast 0.1%, previous 0.8%",
+   "GBP CPI y/y in 16.4h, forecast 3.6%, previous 3.5%"
   ]
  },
  "spend": {
