@@ -66,32 +66,47 @@
      "size": 3645643.4560699966,
      "deadline": 1794986979.939257,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3309,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ANT",
+     "mint": "EadD2LMp6EbH9PrbXUFWcrZKMhoKVrZN1gpwRhH5pump",
+     "side": 1,
+     "opened": 1794981026.5527956,
+     "entry": 0.0001978,
+     "stop": 0.00015824000000000003,
+     "target": 0.00027692,
+     "size": 1011122.3458038422,
+     "deadline": 1794988226.552796,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3309,
+ "next_id": 3310,
  "runs": 114,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:BM52Wwq9ikCqnmJUdUjMbUohyWsuDaHb1mKhw4yqpump": 1794981008.0922723,
-  "seen:A8mt1ypn7fX5jidk5xNRjpNGpSGZiU6ZXKW1ZzJRpump": 1794981008.0922723,
-  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794981008.0922723,
-  "seen:2AHWVb19PKLqjijsbWqBapdf6j7KaMb6qxvtFYUw5xXt": 1794981191.765073,
-  "seen:AQKJc3kbEcp7GBZpf5oTrmgxctYgk1Y77juGYHQvdbnA": 1794981376.501645,
-  "seen:6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump": 1794981376.501645,
-  "seen:AWytauWViaF8yBAPqBE6AxxVDq14smvhjP3K9is1yhzE": 1794981376.501645,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794981560.203046,
-  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794981560.203046,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794981560.203046,
-  "seen:EadD2LMp6EbH9PrbXUFWcrZKMhoKVrZN1gpwRhH5pump": 1794981560.203046,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794981560.203046,
-  "control:A8mt1ypn7fX5jidk5xNRjpNGpSGZiU6ZXKW1ZzJRpump": 1794981560.6403067,
   "seen:5Kjxg6X13axntM98AxJGjNQCB82YZWhSnvJVX78cpump": 1794981744.5804684,
   "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794981744.5804684,
   "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1794981744.5804684,
   "seen:7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump": 1794981744.5804684,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794981744.5804684
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794981744.5804684,
+  "seen:A8mt1ypn7fX5jidk5xNRjpNGpSGZiU6ZXKW1ZzJRpump": 1794981926.499275,
+  "control:EadD2LMp6EbH9PrbXUFWcrZKMhoKVrZN1gpwRhH5pump": 1794981926.5527985,
+  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794982105.3084028,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794982105.3084028,
+  "seen:AQKJc3kbEcp7GBZpf5oTrmgxctYgk1Y77juGYHQvdbnA": 1794982288.8993914,
+  "seen:BM52Wwq9ikCqnmJUdUjMbUohyWsuDaHb1mKhw4yqpump": 1794982288.8993914,
+  "seen:6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump": 1794982288.8993914,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794982472.3699834,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794982472.3699834,
+  "seen:EadD2LMp6EbH9PrbXUFWcrZKMhoKVrZN1gpwRhH5pump": 1794982472.3699834,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794982472.3699834,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794982472.3699834,
+  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794982472.3699834
  },
  "talks": {
   "2026-10-21": 109
@@ -132,24 +147,24 @@
  ],
  "last_review": 1794953449.383586,
  "news": {
-  "t": 1794980660.212662,
+  "t": 1794981572.3791947,
   "crypto": [
    "U.S. judge says Ethereum has \u2018no terms of use,\u2019 clears MIT brothers of $25 million fraud (0h ago)",
    "Bitcoin's 12% slide through key support looks scary, but history says give it 3 months. (1h ago)",
-   "XRP whales moved $270 million during the selloff. The coins didn\u2019t go to exchanges (1h ago)",
+   "XRP whales moved $270 million during the selloff. The coins didn\u2019t go to exchanges (2h ago)",
    "Ledger hardware implant saga reaches Dubai\u2019s Virgin Megastore (3h ago)",
    "CFTC nominee questions public benefit of prediction markets as legal fight grows (5h ago)",
-   "Nvidia board rejects Huang comeback despite record $116B quarter (5h ago)",
-   "CFTC halts some Kalshi Trump mention markets over manipulation concerns (7h ago)",
+   "Nvidia board rejects Huang comeback despite record $116B quarter (6h ago)",
+   "CFTC halts some Kalshi Trump mention markets over manipulation concerns (8h ago)",
    "Maple Finance CEO targets up to $15B in assets by the end of 2027 (8h ago)",
-   "Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty (8h ago)",
+   "Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty (9h ago)",
    "Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins (10h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP CPI y/y in 1.3h, forecast 3.6%, previous 3.5%",
-   "GBP BOE Gov Bailey Speaks in 9.3h",
-   "USD FOMC Meeting Minutes in 13.3h"
+   "GBP CPI y/y in 1.0h, forecast 3.6%, previous 3.5%",
+   "GBP BOE Gov Bailey Speaks in 9.0h",
+   "USD FOMC Meeting Minutes in 13.0h"
   ]
  },
  "spend": {
