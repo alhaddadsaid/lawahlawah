@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -70244.49305368474,
+   "cash": -70204.77649406451,
    "open": [
-    {
-     "id": 3284,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "GROKIA",
-     "mint": "A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm",
-     "side": 1,
-     "opened": 1794959488.816253,
-     "entry": 7.162e-05,
-     "stop": 5.7296e-05,
-     "target": 0.00010026799999999998,
-     "size": 2792516.056967328,
-     "deadline": 1794966688.8162532,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3285,
      "desk": "control",
@@ -66,33 +51,46 @@
      "size": 3007518.796992481,
      "deadline": 1794970544.9998908,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3289,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Spud",
+     "mint": "47mUZNAjSFA3nmxnRa1y7P9Jmi5WPWpVP1ACPQZqpump",
+     "side": 1,
+     "opened": 1794966281.5999515,
+     "entry": 7.516e-05,
+     "stop": 6.0128000000000004e-05,
+     "target": 0.00010522400000000001,
+     "size": 2660989.8882384244,
+     "deadline": 1794973481.599952,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3289,
+ "next_id": 3290,
  "runs": 113,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:47mUZNAjSFA3nmxnRa1y7P9Jmi5WPWpVP1ACPQZqpump": 1794965343.8047438,
-  "seen:6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump": 1794965343.8047438,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794965343.8047438,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794965343.8047438,
-  "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1794965343.8047438,
-  "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794965343.8047438,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794965343.8047438,
-  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794965524.0349422,
-  "seen:9u38pGHGiXXtbjzcKwyTTETdoG3bqdmPBG54zV1jpump": 1794965524.0349422,
-  "seen:PresTj4Yc2bAR197Er7wz4UUKSfqt6FryBEdAriBoQB": 1794965708.4006186,
-  "seen:PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m": 1794965708.4006186,
-  "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1794965708.4006186,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794965892.928981,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794965892.928981,
-  "seen:CJWT8fw4xFoLYiPWE2GXhBdBjq2Hbv7hnSsB5RMwpump": 1794966074.4393022,
-  "seen:EBCpGdXuS34WZuX13thrku2KmuLSe3Tf2gMtMKndpump": 1794966074.4393022,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794966074.4393022,
-  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794966074.4393022,
-  "seen:4ULpYvaTGRq1KnaCiPhz52nyQFx86wN1vqqX3ny8refu": 1794966074.4393022
+  "seen:AQqYJ5XaVCQd2PESVZitmyotD5d3qPjmZoEscEPDpump": 1794966810.9633186,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794966810.9633186,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794966810.9633186,
+  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794966995.9783988,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794966995.9783988,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794966995.9783988,
+  "seen:AAPrKDtxeAGDEuKcxyKrXg9BL3EoMjkMW9bbmxSKRJQG": 1794967180.6531162,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794967180.6531162,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794967180.6531162,
+  "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1794967180.6531162,
+  "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794967180.6531162,
+  "control:47mUZNAjSFA3nmxnRa1y7P9Jmi5WPWpVP1ACPQZqpump": 1794967181.599955,
+  "seen:FrzLGK1zurHufFaEKHS3qxw6p1zhBejtJkuMXZjLsv5E": 1794967360.7228222,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794967360.7228222,
+  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794967360.7228222,
+  "seen:6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump": 1794967360.7228222,
+  "seen:47mUZNAjSFA3nmxnRa1y7P9Jmi5WPWpVP1ACPQZqpump": 1794967546.0600517
  },
  "talks": {
   "2026-10-21": 109
@@ -133,24 +131,24 @@
  ],
  "last_review": 1794953449.383586,
  "news": {
-  "t": 1794964443.8176858,
+  "t": 1794966280.6658773,
   "crypto": [
-   "CFTC nominee questions public benefit of prediction markets as legal fight grows (0h ago)",
+   "CFTC nominee questions public benefit of prediction markets as legal fight grows (1h ago)",
    "Nvidia board rejects Huang comeback despite record $116B quarter (1h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "CFTC halts some Kalshi Trump mention markets over manipulation concerns (3h ago)",
-   "Maple Finance CEO targets up to $15B in assets by the end of 2027 (3h ago)",
+   "Maple Finance CEO targets up to $15B in assets by the end of 2027 (4h ago)",
    "Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty (4h ago)",
-   "Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins (5h ago)",
-   "Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade (5h ago)",
+   "Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins (6h ago)",
+   "Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade (6h ago)",
    "Predictions platform Kalshi complies with order to halt Trump mention contracts (6h ago)",
-   "Lighter incident exposes risks beyond withdrawal controls (7h ago)"
+   "Lighter incident exposes risks beyond withdrawal controls (8h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP CPI y/y in 5.8h, forecast 3.6%, previous 3.5%",
-   "GBP BOE Gov Bailey Speaks in 13.8h",
-   "USD FOMC Meeting Minutes in 17.8h"
+   "GBP CPI y/y in 5.3h, forecast 3.6%, previous 3.5%",
+   "GBP BOE Gov Bailey Speaks in 13.3h",
+   "USD FOMC Meeting Minutes in 17.3h"
   ]
  },
  "spend": {
@@ -181,5 +179,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794964992.9417353
+ "last_macro_macro": 1794966280.6655605
 }
