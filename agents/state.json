@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -71023.90367639062,
+   "cash": -71074.8591081455,
    "open": [
-    {
-     "id": 3319,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HUGH",
-     "mint": "Fpzcd2R1y2MPdezgMRigQuBx7aCPPn5sZBXpvtP3pump",
-     "side": 1,
-     "opened": 1795010025.4664788,
-     "entry": 0.0001795,
-     "stop": 0.0001436,
-     "target": 0.0002513,
-     "size": 1114206.1281337047,
-     "deadline": 1795017225.466479,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3320,
      "desk": "control",
@@ -36,30 +21,47 @@
      "size": 88348.96485316101,
      "deadline": 1795096972.765692,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 3323,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Doubloon",
+     "mint": "9Xhg9eRG92jZGbBZvNdcWyEoyz7kjHtA9BP6BxniUPWL",
+     "side": 1,
+     "opened": 1795013684.7567005,
+     "entry": 9.343e-05,
+     "stop": 7.474400000000001e-05,
+     "target": 0.00013080199999999999,
+     "size": 2140640.051375361,
+     "deadline": 1795020884.7567005,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3323,
+ "next_id": 3324,
  "runs": 115,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump": 1795012752.080185,
-  "seen:HZbiEpF2oM658EpjNRRqxharz5L9Ddm8akpSH2R5pump": 1795012752.080185,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795012752.080185,
-  "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1795012937.264103,
-  "seen:8Mi9E1V2bdPeAaRkR5yxUsAvpzP6UBUEEUrYmgKNpump": 1795012937.264103,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795013117.9409301,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795013117.9409301,
-  "control:9Xhg9eRG92jZGbBZvNdcWyEoyz7kjHtA9BP6BxniUPWL": 1795013118.3574526,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795013303.227585,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795013303.227585,
-  "seen:VAYMVikuYQpWz5sXCeCsQDeho2QcGqDSNq9rhCspump": 1795013303.227585,
-  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1795013303.227585,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795013487.3775437,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795013487.3775437,
-  "seen:9Xhg9eRG92jZGbBZvNdcWyEoyz7kjHtA9BP6BxniUPWL": 1795013487.3775437,
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795013487.3775437
+  "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1795013849.4525228,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795013849.4525228,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795014033.1823328,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795014214.3806129,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795014214.3806129,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795014214.3806129,
+  "seen:7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump": 1795014214.3806129,
+  "seen:EqAPAYswiTNwiJUKTATeWTiMDUqkgswveJEXpbdrSiVu": 1795014399.473248,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795014399.473248,
+  "seen:9Xhg9eRG92jZGbBZvNdcWyEoyz7kjHtA9BP6BxniUPWL": 1795014399.473248,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795014399.473248,
+  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795014399.473248,
+  "seen:cY4bFXhBPwp4EY2AKJn5kTMgRA1YEyEPyhmHRYSpump": 1795014584.689607,
+  "seen:2GXayia3pt2x2mdxeqUmEcnSaf5FVwZrDfwJ8Kyopump": 1795014584.689607,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1795014584.689607,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795014584.689607,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795014584.689607,
+  "control:9Xhg9eRG92jZGbBZvNdcWyEoyz7kjHtA9BP6BxniUPWL": 1795014584.7567034
  },
  "talks": {
   "2026-10-21": 109
@@ -100,9 +102,9 @@
  ],
  "last_review": 1794953449.383586,
  "news": {
-  "t": 1795012403.2367516,
+  "t": 1795013314.390971,
   "crypto": [
-   "Bitcoin Covenants Part 6: FE Covenants \u2014 Enforcing covenants through cryptographically restricted signing keys (0h ago)",
+   "Bitcoin Covenants Part 6: FE Covenants \u2014 Enforcing covenants through cryptographically restricted signing keys (1h ago)",
    "CoinShares sells all treasury ETH, halves SOL holdings for buybacks (1h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
    "Sanctions fears loom over Russia\u2019s regulated crypto trading launch (1h ago)",
@@ -111,12 +113,12 @@
    "Tokenized Nvidia market cap surges 159% amid Jensen Huang\u2019s exit (2h ago)",
    "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes (2h ago)",
    "Circle turns to DBS as banks build rival digital payment systems across Asia (2h ago)",
-   "Blaming Anthropic\u2019s IPO for bitcoin\u2019s slide is 'easy to believe,' but flawed, analysts say (2h ago)"
+   "Blaming Anthropic\u2019s IPO for bitcoin\u2019s slide is 'easy to believe,' but flawed, analysts say (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Gov Bailey Speaks in 0.4h",
-   "USD FOMC Meeting Minutes in 4.4h"
+   "GBP BOE Gov Bailey Speaks in 0.2h",
+   "USD FOMC Meeting Minutes in 4.2h"
   ]
  },
  "spend": {
@@ -147,5 +149,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795012217.9508183
+ "last_macro_macro": 1795013499.4831986
 }

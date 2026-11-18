@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-18 14:38 UTC. Runs so far: 115. Model: claude-haiku-5-5.
+Updated 2026-11-18 14:55 UTC. Runs so far: 115. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3233 | 31 | -81328.24 | -112401.64 |
+| control | meme | 3234 | 31 | -81379.2 | -112461.55 |
 | control | macro | 68 | 50 | 304.13 | -34.26 |
-| control | all | 3301 | 31 | -81024.11 | -112435.9 |
+| control | all | 3302 | 31 | -81075.07 | -112495.81 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: HUGH long at 0.0001795, stop 0.0001436, target 0.0002513, opened 2026-11-18 13:53 UTC
 - control: GBPUSD short at 1.3166, stop 1.31774, target 1.31491, opened 2026-11-18 14:02 UTC
+- control: Doubloon long at 9.343e-05, stop 7.4744e-05, target 0.000130802, opened 2026-11-18 14:54 UTC
 
 ## Team
 
@@ -31,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED Doubloon (stop) P&L $-56.28 normal, $-65.09 pessimistic
+- control: CLOSED HUGH (stop) P&L $-50.96 normal, $-59.91 pessimistic
 
