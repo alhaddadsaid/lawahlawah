@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -71108.46606739028,
+   "cash": -71234.06178297826,
    "open": [
     {
      "id": 3333,
@@ -51,32 +51,48 @@
      "size": 838574.4234800838,
      "deadline": 1795030949.985035,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3341,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "APCY",
+     "mint": "H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump",
+     "side": 1,
+     "opened": 1795025396.2146184,
+     "entry": 0.0001099,
+     "stop": 8.792000000000001e-05,
+     "target": 0.00015386,
+     "size": 1819836.2147406733,
+     "deadline": 1795032596.2146187,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3340,
+ "next_id": 3342,
  "runs": 115,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump": 1795023915.5384352,
-  "seen:97t435T2vc7wwnR7F5GNQc14h3AE2CoeCRUYhSeEpump": 1795023915.5384352,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795024096.6426637,
-  "seen:H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump": 1795024096.6426637,
-  "seen:6qNMHrswqq4tB9aSBCa66orADDH3vYRcoQiS2XnJpump": 1795024096.6426637,
-  "seen:7fZK84wYShNUXKJnBkfXkeu5h2edduNkZV3p2B2LBCgC": 1795024096.6426637,
-  "seen:79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": 1795024280.7810786,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795024280.7810786,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795024280.7810786,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795024280.7810786,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795024280.7810786,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795024280.7810786,
-  "seen:3tjPCXfx3KrgMY53yo7pa67D2QQZMbLTRaqQckJmpump": 1795024466.0441997,
-  "seen:9YkVkXQ2fHY8zksNbTudpUEj2Mvv9jvsKKdTYS7Tpump": 1795024466.0441997,
-  "seen:GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump": 1795024466.0441997,
-  "seen:CC6NEsE5FjeVmRN9kcKgosuezi2ccnqc1LqC8z5Xpump": 1795024649.6350434,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795024649.6350434,
-  "control:GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump": 1795024649.985038
+  "seen:CC6NEsE5FjeVmRN9kcKgosuezi2ccnqc1LqC8z5Xpump": 1795025558.1119404,
+  "seen:6Mkm2cd5vMceqWtXRC83tNusBMScsQyV6mHatqFyfBoG": 1795025742.4582946,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795025742.4582946,
+  "seen:97t435T2vc7wwnR7F5GNQc14h3AE2CoeCRUYhSeEpump": 1795025742.4582946,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795025742.4582946,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795025926.4900088,
+  "seen:H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump": 1795025926.4900088,
+  "seen:7fZK84wYShNUXKJnBkfXkeu5h2edduNkZV3p2B2LBCgC": 1795025926.4900088,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795025926.4900088,
+  "seen:79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": 1795026110.9299333,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795026110.9299333,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795026110.9299333,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795026110.9299333,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795026110.9299333,
+  "control:97t435T2vc7wwnR7F5GNQc14h3AE2CoeCRUYhSeEpump": 1795026111.644525,
+  "seen:GUmgNeyZCLrjQW2TaLhqkTUas8isQc86YuzKQ6Fppump": 1795026296.143467,
+  "seen:PWgvriarawbNhP9Kwc3S4Q8PaQrT1vjr7q2FG1Hpump": 1795026296.143467,
+  "seen:GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump": 1795026296.143467,
+  "control:H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump": 1795026296.214622
  },
  "talks": {
   "2026-10-21": 109
@@ -117,23 +133,22 @@
  ],
  "last_review": 1794953449.383586,
  "news": {
-  "t": 1795023380.791861,
+  "t": 1795025210.9404159,
   "crypto": [
+   "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook (1h ago)",
    "$25M Ethereum MEV acquittal tests criminal enforcement limits (1h ago)",
    "Polymarket US takes rapid-fire crypto trading format to oil, natural gas (1h ago)",
-   "Bitcoin, stocks wobble as Fed\u2019s Waller talks of \u2018shock\u2019 50-point rate hike (1h ago)",
+   "Bitcoin, stocks wobble as Fed\u2019s Waller talks of \u2018shock\u2019 50-point rate hike (2h ago)",
    "Crypto Long & Short: Crypto exchanges shouldn\u2019t double as the vault (2h ago)",
    "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin (2h ago)",
-   "Hong Kong wants banks to use AI to catch crypto crime before money disappears (2h ago)",
+   "Hong Kong wants banks to use AI to catch crypto crime before money disappears (3h ago)",
    "Bitcoin Covenants Part 6: FE Covenants \u2014 Enforcing covenants through cryptographically restricted signing keys (4h ago)",
    "CoinShares sells all treasury ETH, halves SOL holdings for buybacks (4h ago)",
-   "Here\u2019s what happened in crypto today (4h ago)",
-   "Sanctions fears loom over Russia\u2019s regulated crypto trading launch (4h ago)"
+   "Here\u2019s what happened in crypto today (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Gov Bailey Speaks was 2.6h",
-   "USD FOMC Meeting Minutes in 1.4h"
+   "USD FOMC Meeting Minutes in 0.9h"
   ]
  },
  "spend": {
@@ -164,5 +179,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795023749.645395
+ "last_macro_macro": 1795025026.5011048
 }
