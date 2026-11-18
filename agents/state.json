@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -70473.803247634,
+   "cash": -70605.03141057956,
    "open": [
     {
      "id": 3285,
@@ -23,36 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 3291,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CHAR",
-     "mint": "9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump",
-     "side": 1,
-     "opened": 1794968295.8827732,
-     "entry": 0.0001242,
-     "stop": 9.936000000000001e-05,
-     "target": 0.00017388,
-     "size": 1610305.9581320449,
-     "deadline": 1794975495.8827734,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3295,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PENGYOUHAO",
-     "mint": "BYHRxthRZUWnug1QvehGeWLav6tPzoe71c7ZRTtCpump",
-     "side": 1,
-     "opened": 1794972871.8542273,
-     "entry": 0.000111,
-     "stop": 8.880000000000002e-05,
-     "target": 0.0001554,
-     "size": 1801801.801801802,
-     "deadline": 1794980071.8542275,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3296,
      "desk": "control",
      "market": "meme",
@@ -66,31 +36,47 @@
      "size": 198609.73187686194,
      "deadline": 1794980438.2298882,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3297,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PENGYOUHAO",
+     "mint": "BYHRxthRZUWnug1QvehGeWLav6tPzoe71c7ZRTtCpump",
+     "side": 1,
+     "opened": 1794973974.231464,
+     "entry": 7.018e-05,
+     "stop": 5.6143999999999996e-05,
+     "target": 9.8252e-05,
+     "size": 2849814.7620404675,
+     "deadline": 1794981174.2314641,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3297,
+ "next_id": 3298,
  "runs": 113,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794973406.9843411,
-  "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1794973591.0873635,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794973591.0873635,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794973591.0873635,
-  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794973591.0873635,
-  "seen:A8mt1ypn7fX5jidk5xNRjpNGpSGZiU6ZXKW1ZzJRpump": 1794973771.7151423,
-  "seen:6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump": 1794973771.7151423,
-  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794973771.7151423,
-  "control:BYHRxthRZUWnug1QvehGeWLav6tPzoe71c7ZRTtCpump": 1794973771.8542306,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794973953.2808778,
-  "seen:7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump": 1794973953.2808778,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794973953.2808778,
-  "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794973953.2808778,
   "seen:8J69rbLTzWWgUJziFY8jeu5tDwEPBwUz4pKBMr5rpump": 1794974138.0111291,
   "seen:BYHRxthRZUWnug1QvehGeWLav6tPzoe71c7ZRTtCpump": 1794974138.0111291,
   "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1794974138.0111291,
-  "control:8J69rbLTzWWgUJziFY8jeu5tDwEPBwUz4pKBMr5rpump": 1794974138.2298915
+  "control:8J69rbLTzWWgUJziFY8jeu5tDwEPBwUz4pKBMr5rpump": 1794974138.2298915,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794974323.0200725,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794974504.08052,
+  "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1794974504.08052,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1794974504.08052,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794974504.08052,
+  "seen:A8mt1ypn7fX5jidk5xNRjpNGpSGZiU6ZXKW1ZzJRpump": 1794974689.0879543,
+  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794974689.0879543,
+  "seen:AWytauWViaF8yBAPqBE6AxxVDq14smvhjP3K9is1yhzE": 1794974689.0879543,
+  "seen:6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump": 1794974689.0879543,
+  "seen:EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump": 1794974689.0879543,
+  "seen:EadD2LMp6EbH9PrbXUFWcrZKMhoKVrZN1gpwRhH5pump": 1794974873.8396063,
+  "seen:7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump": 1794974873.8396063,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794974873.8396063,
+  "control:BYHRxthRZUWnug1QvehGeWLav6tPzoe71c7ZRTtCpump": 1794974874.2314672
  },
  "talks": {
   "2026-10-21": 109
@@ -131,24 +117,24 @@
  ],
  "last_review": 1794953449.383586,
  "news": {
-  "t": 1794972691.1005242,
+  "t": 1794973604.0943015,
   "crypto": [
    "Ledger hardware implant saga reaches Dubai\u2019s Virgin Megastore (1h ago)",
    "CFTC nominee questions public benefit of prediction markets as legal fight grows (3h ago)",
-   "Nvidia board rejects Huang comeback despite record $116B quarter (3h ago)",
+   "Nvidia board rejects Huang comeback despite record $116B quarter (4h ago)",
    "Here\u2019s what happened in crypto today (5h ago)",
    "CFTC halts some Kalshi Trump mention markets over manipulation concerns (5h ago)",
    "Maple Finance CEO targets up to $15B in assets by the end of 2027 (6h ago)",
    "Nvidia shares rise on earnings beat, raised outlook despite leadership uncertainty (6h ago)",
-   "Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins (7h ago)",
+   "Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins (8h ago)",
    "Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade (8h ago)",
-   "Predictions platform Kalshi complies with order to halt Trump mention contracts (8h ago)"
+   "Predictions platform Kalshi complies with order to halt Trump mention contracts (9h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP CPI y/y in 3.5h, forecast 3.6%, previous 3.5%",
-   "GBP BOE Gov Bailey Speaks in 11.5h",
-   "USD FOMC Meeting Minutes in 15.5h"
+   "GBP CPI y/y in 3.2h, forecast 3.6%, previous 3.5%",
+   "GBP BOE Gov Bailey Speaks in 11.2h",
+   "USD FOMC Meeting Minutes in 15.2h"
   ]
  },
  "spend": {
@@ -179,5 +165,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794972691.1001685
+ "last_macro_macro": 1794973973.85244
 }
