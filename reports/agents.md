@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-18 22:46 UTC. Runs so far: 116. Model: claude-haiku-5-5.
+Updated 2026-11-18 22:56 UTC. Runs so far: 116. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3263 | 31 | -82218.56 | -113576.81 |
+| control | meme | 3266 | 31 | -82138.79 | -113529.86 |
 | control | macro | 69 | 51 | 445.3 | 101.6 |
-| control | all | 3332 | 31 | -81773.26 | -113475.21 |
+| control | all | 3335 | 31 | -81693.49 | -113428.26 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GOLD long at 3743.3, stop 3724.55, target 3771.43, opened 2026-11-18 17:02 UTC
-- control: ANT long at 0.0001415, stop 0.0001132, target 0.0001981, opened 2026-11-18 22:25 UTC
-- control: CRIME long at 0.0001073, stop 8.584e-05, target 0.00015022, opened 2026-11-18 22:31 UTC
-- control: Apocrycoin long at 0.0001637, stop 0.00013096, target 0.00022918, opened 2026-11-18 22:40 UTC
 - control: Founder long at 0.0001803, stop 0.00014424, target 0.00025242, opened 2026-11-18 22:43 UTC
+- control: CRIME long at 0.0001003, stop 8.024e-05, target 0.00014042, opened 2026-11-18 22:55 UTC
 
 ## Team
 
@@ -34,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order CRIME REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED ANT (target) P&L $68.0 normal, $56.0 pessimistic
 
