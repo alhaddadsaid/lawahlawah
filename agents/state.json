@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -71300.30837078535,
+   "cash": -71347.04184805609,
    "open": [
-    {
-     "id": 3333,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CYBERLEEK",
-     "mint": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-     "side": 1,
-     "opened": 1795019549.7504246,
-     "entry": 0.0013,
-     "stop": 0.00104,
-     "target": 0.0018199999999999998,
-     "size": 153846.15384615384,
-     "deadline": 1795026749.7504246,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3336,
      "desk": "control",
@@ -36,54 +21,14 @@
      "size": 5.33333829365537,
      "deadline": 1795107777.985269,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 3339,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DCTY",
-     "mint": "GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump",
-     "side": 1,
-     "opened": 1795023749.9850347,
-     "entry": 0.0002385,
-     "stop": 0.00019080000000000003,
-     "target": 0.0003339,
-     "size": 838574.4234800838,
-     "deadline": 1795030949.985035,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3342,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "APCY",
-     "mint": "H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump",
-     "side": 1,
-     "opened": 1795026489.3714595,
-     "entry": 0.0001165,
-     "stop": 9.32e-05,
-     "target": 0.00016309999999999998,
-     "size": 1716738.1974248928,
-     "deadline": 1795033689.3714597,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3343,
+ "next_id": 3344,
  "runs": 115,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3tjPCXfx3KrgMY53yo7pa67D2QQZMbLTRaqQckJmpump": 1795026662.3438606,
-  "seen:AKotzk1dhcNangAJBtvNKtT9bhbSVZc2mMhRFgkFpump": 1795026662.3438606,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795026843.2238414,
-  "seen:5ydWEXu7fG8U8AXvV9beFFNeEGpZLSbeq6QeXCdUpump": 1795026843.2238414,
-  "seen:H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump": 1795026843.2238414,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795026843.2238414,
-  "seen:79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": 1795027024.5342433,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795027024.5342433,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795027024.5342433,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795027024.5342433,
   "seen:PWgvriarawbNhP9Kwc3S4Q8PaQrT1vjr7q2FG1Hpump": 1795027204.592748,
   "seen:GUmgNeyZCLrjQW2TaLhqkTUas8isQc86YuzKQ6Fppump": 1795027204.592748,
   "seen:GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump": 1795027204.592748,
@@ -91,7 +36,17 @@
   "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795027389.3033137,
   "seen:CC6NEsE5FjeVmRN9kcKgosuezi2ccnqc1LqC8z5Xpump": 1795027389.3033137,
   "seen:6qNMHrswqq4tB9aSBCa66orADDH3vYRcoQiS2XnJpump": 1795027389.3033137,
-  "control:H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump": 1795027389.3714623
+  "control:H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump": 1795027389.3714623,
+  "seen:3tjPCXfx3KrgMY53yo7pa67D2QQZMbLTRaqQckJmpump": 1795027574.9771857,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795027574.9771857,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795027755.257045,
+  "seen:H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump": 1795027755.257045,
+  "seen:HgDMWzq998ZKB61zAtfutgToKjLbiwcufoRh376Dpump": 1795027755.257045,
+  "seen:B2qjRYNwgJzWy9TiHSw37J84cUBDCNcj6RdWcf55pump": 1795027937.813789,
+  "seen:79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": 1795027937.813789,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795027937.813789,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795027937.813789,
+  "control:HgDMWzq998ZKB61zAtfutgToKjLbiwcufoRh376Dpump": 1795027938.444903
  },
  "talks": {
   "2026-10-21": 109
@@ -132,22 +87,22 @@
  ],
  "last_review": 1794953449.383586,
  "news": {
-  "t": 1795026124.5446625,
+  "t": 1795027037.8242965,
   "crypto": [
+   "MARA prices $185M debt offering after $1.1B Bitcoin sale (0h ago)",
    "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook (1h ago)",
-   "$25M Ethereum MEV acquittal tests criminal enforcement limits (1h ago)",
-   "Polymarket US takes rapid-fire crypto trading format to oil, natural gas (1h ago)",
+   "$25M Ethereum MEV acquittal tests criminal enforcement limits (2h ago)",
+   "Polymarket US takes rapid-fire crypto trading format to oil, natural gas (2h ago)",
    "Bitcoin, stocks wobble as Fed\u2019s Waller talks of \u2018shock\u2019 50-point rate hike (2h ago)",
-   "Crypto Long & Short: Crypto exchanges shouldn\u2019t double as the vault (2h ago)",
+   "Crypto Long & Short: Crypto exchanges shouldn\u2019t double as the vault (3h ago)",
    "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin (3h ago)",
    "Hong Kong wants banks to use AI to catch crypto crime before money disappears (3h ago)",
-   "Bitcoin Covenants Part 6: FE Covenants \u2014 Enforcing covenants through cryptographically restricted signing keys (4h ago)",
-   "CoinShares sells all treasury ETH, halves SOL holdings for buybacks (5h ago)",
-   "Here\u2019s what happened in crypto today (5h ago)"
+   "Bitcoin Covenants Part 6: FE Covenants \u2014 Enforcing covenants through cryptographically restricted signing keys (5h ago)",
+   "CoinShares sells all treasury ETH, halves SOL holdings for buybacks (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD FOMC Meeting Minutes in 0.6h"
+   "USD FOMC Meeting Minutes in 0.4h"
   ]
  },
  "spend": {
