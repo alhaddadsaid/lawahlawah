@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -70137.41685434018,
+   "cash": -70215.84582336404,
    "open": [
-    {
-     "id": 3280,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "pwease",
-     "mint": "CniPCE4b3s8gSUPhUiyMjXnytrEqUrMfSsnbBjLCpump",
-     "side": 1,
-     "opened": 1794955461.9239895,
-     "entry": 0.002046,
-     "stop": 0.0016368,
-     "target": 0.0028644,
-     "size": 97751.71065493645,
-     "deadline": 1794962661.9239898,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3283,
      "desk": "control",
@@ -68,44 +53,46 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 3286,
+     "id": 3287,
      "desk": "control",
      "market": "meme",
-     "symbol": "GEKKO",
-     "mint": "GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump",
+     "symbol": "CHAR",
+     "mint": "9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump",
      "side": 1,
-     "opened": 1794960954.9188614,
-     "entry": 9.521e-05,
-     "stop": 7.6168e-05,
-     "target": 0.000133294,
-     "size": 2100619.6828064276,
-     "deadline": 1794968154.9188614,
+     "opened": 1794962794.53981,
+     "entry": 0.0001535,
+     "stop": 0.0001228,
+     "target": 0.00021489999999999997,
+     "size": 1302931.5960912053,
+     "deadline": 1794969994.5398104,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3287,
+ "next_id": 3288,
  "runs": 113,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump": 1794962589.7519307,
-  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794962589.7519307,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794962589.7519307,
-  "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794962589.7519307,
-  "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1794962589.7519307,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794962589.7519307,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794962774.9206676,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794962774.9206676,
-  "seen:BjxBTh9CrdcdgD6weA4ymMYvPy8Xe7cJ9uTf7EVScsDm": 1794962959.3896585,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794962959.3896585,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794962959.3896585,
-  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794962959.3896585,
   "seen:EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump": 1794963143.6743557,
   "seen:GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump": 1794963143.6743557,
   "seen:2f6ayAMX6ebMntvsDqiRawGSJ9Agrg4Jn92Uo2vQHrqj": 1794963328.2316818,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794963328.2316818,
-  "seen:2wFebWh1YQMRDmEZmWA5gCEzjWz1V8fPbQvfPv1Jpump": 1794963328.2316818
+  "seen:2wFebWh1YQMRDmEZmWA5gCEzjWz1V8fPbQvfPv1Jpump": 1794963328.2316818,
+  "seen:6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump": 1794963509.6432557,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794963509.6432557,
+  "seen:CbcyNo7m1amFWqEQm2m4PLv1UNvpcL3C1Ujm6AkzpKoU": 1794963509.6432557,
+  "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1794963509.6432557,
+  "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794963509.6432557,
+  "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1794963509.6432557,
+  "seen:BmDEZcKCDvkYnHnt2kDMgytu7w13dq3NiXG62XeKPHVJ": 1794963694.4623687,
+  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794963694.4623687,
+  "control:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794963694.5398133,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794963879.1567032,
+  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794963879.1567032,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794963879.1567032,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794963879.1567032,
+  "seen:4ULpYvaTGRq1KnaCiPhz52nyQFx86wN1vqqX3ny8refu": 1794963879.1567032
  },
  "talks": {
   "2026-10-21": 109
@@ -146,14 +133,14 @@
  ],
  "last_review": 1794953449.383586,
  "news": {
-  "t": 1794961689.7645319,
+  "t": 1794962609.6561291,
   "crypto": [
    "Nvidia board rejects Huang comeback despite record $116B quarter (0h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "CFTC halts some Kalshi Trump mention markets over manipulation concerns (2h ago)",
    "Maple Finance CEO targets up to $15B in assets by the end of 2027 (3h ago)",
    "Nvidia tops estimates, issues strong guidance; shares rise (3h ago)",
-   "Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins (4h ago)",
+   "Eastern Europe crypto flows fall 7.9% as Ukraine draws $12B in stablecoins (5h ago)",
    "Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade (5h ago)",
    "Predictions platform Kalshi complies with order to halt Trump mention contracts (5h ago)",
    "Lighter incident exposes risks beyond withdrawal controls (7h ago)",
@@ -161,9 +148,9 @@
   ],
   "macro": [],
   "calendar": [
-   "GBP CPI y/y in 6.5h, forecast 3.6%, previous 3.5%",
-   "GBP BOE Gov Bailey Speaks in 14.5h",
-   "USD FOMC Meeting Minutes in 18.5h"
+   "GBP CPI y/y in 6.3h, forecast 3.6%, previous 3.5%",
+   "GBP BOE Gov Bailey Speaks in 14.3h",
+   "USD FOMC Meeting Minutes in 18.3h"
   ]
  },
  "spend": {
