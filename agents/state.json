@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -71062.40015491848,
+   "cash": -71115.24106400939,
    "open": [
     {
      "id": 3320,
@@ -21,33 +21,48 @@
      "size": 88348.96485316101,
      "deadline": 1795096972.765692,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 3326,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Doubloon",
+     "mint": "9Xhg9eRG92jZGbBZvNdcWyEoyz7kjHtA9BP6BxniUPWL",
+     "side": 1,
+     "opened": 1795016256.7200615,
+     "entry": 0.0001365,
+     "stop": 0.00010920000000000003,
+     "target": 0.0001911,
+     "size": 1465201.4652014652,
+     "deadline": 1795023456.7200615,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3325,
+ "next_id": 3327,
  "runs": 115,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:cY4bFXhBPwp4EY2AKJn5kTMgRA1YEyEPyhmHRYSpump": 1795015873.914622,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795015873.914622,
-  "seen:9X65BD1D258zVeSJMvsANqackQQh1v4xKzBqBhfVpump": 1795015873.914622,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795016054.52836,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795016054.52836,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795016054.52836,
-  "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1795016054.52836,
-  "seen:34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": 1795016054.52836,
-  "seen:7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump": 1795016054.52836,
-  "seen:9Xhg9eRG92jZGbBZvNdcWyEoyz7kjHtA9BP6BxniUPWL": 1795016240.8245845,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1795016240.8245845,
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795016240.8245845,
   "seen:VAYMVikuYQpWz5sXCeCsQDeho2QcGqDSNq9rhCspump": 1795016419.7909982,
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795016419.7909982,
   "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795016419.7909982,
   "seen:3q6oyri5LVmMfzKLk5nqhuGokvAvijQmy8mDeuSmpump": 1795016604.6224906,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795016604.6224906,
   "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1795016604.6224906,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795016604.6224906
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795016604.6224906,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795016789.0979292,
+  "seen:6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump": 1795016789.0979292,
+  "control:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795016789.1811752,
+  "seen:8C7jJYCmjyodWH6Zh9imFHqG6Ln3xbjGkcX78mEidQJd": 1795016972.6820712,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795016972.6820712,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795016972.6820712,
+  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1795016972.6820712,
+  "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1795016972.6820712,
+  "seen:9Xhg9eRG92jZGbBZvNdcWyEoyz7kjHtA9BP6BxniUPWL": 1795017156.6405277,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795017156.6405277,
+  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795017156.6405277,
+  "control:9Xhg9eRG92jZGbBZvNdcWyEoyz7kjHtA9BP6BxniUPWL": 1795017156.7200637
  },
  "talks": {
   "2026-10-21": 109
@@ -88,23 +103,23 @@
  ],
  "last_review": 1794953449.383586,
  "news": {
-  "t": 1795015154.5388286,
+  "t": 1795016072.69211,
   "crypto": [
+   "Hong Kong wants banks to use AI to catch crypto crime before money disappears (0h ago)",
    "Bitcoin Covenants Part 6: FE Covenants \u2014 Enforcing covenants through cryptographically restricted signing keys (1h ago)",
    "CoinShares sells all treasury ETH, halves SOL holdings for buybacks (2h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "Sanctions fears loom over Russia\u2019s regulated crypto trading launch (2h ago)",
    "How to preserve wealth and access funds during a national emergency (2h ago)",
-   "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans (2h ago)",
-   "Tokenized Nvidia market cap surges 159% amid Jensen Huang\u2019s exit (2h ago)",
+   "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans (3h ago)",
+   "Tokenized Nvidia market cap surges 159% amid Jensen Huang\u2019s exit (3h ago)",
    "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes (3h ago)",
-   "Circle turns to DBS as banks build rival digital payment systems across Asia (3h ago)",
-   "Blaming Anthropic\u2019s IPO for bitcoin\u2019s slide is 'easy to believe,' but flawed, analysts say (3h ago)"
+   "Circle turns to DBS as banks build rival digital payment systems across Asia (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Gov Bailey Speaks was 0.3h",
-   "USD FOMC Meeting Minutes in 3.7h"
+   "GBP BOE Gov Bailey Speaks was 0.6h",
+   "USD FOMC Meeting Minutes in 3.4h"
   ]
  },
  "spend": {
@@ -135,5 +150,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795014787.0524733
+ "last_macro_macro": 1795016072.6919801
 }
