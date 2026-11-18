@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -71347.04184805609,
+   "cash": -71279.04184805609,
    "open": [
     {
      "id": 3336,
@@ -23,46 +23,77 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 3344,
+     "id": 3345,
      "desk": "control",
      "market": "meme",
-     "symbol": "APCY",
-     "mint": "H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump",
+     "symbol": "DCTY",
+     "mint": "GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump",
      "side": 1,
-     "opened": 1795027402.775823,
-     "entry": 0.0001081,
-     "stop": 8.648e-05,
-     "target": 0.00015134,
-     "size": 1850138.7604070306,
-     "deadline": 1795034602.7758234,
+     "opened": 1795028136.6328862,
+     "entry": 0.0002334,
+     "stop": 0.00018672000000000003,
+     "target": 0.00032676,
+     "size": 856898.0291345329,
+     "deadline": 1795035336.6328864,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3346,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "FISH",
+     "mint": "HgDMWzq998ZKB61zAtfutgToKjLbiwcufoRh376Dpump",
+     "side": 1,
+     "opened": 1795028321.4472346,
+     "entry": 0.0001263,
+     "stop": 0.00010104000000000001,
+     "target": 0.00017682,
+     "size": 1583531.2747426762,
+     "deadline": 1795035521.4472346,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3347,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "JALU",
+     "mint": "BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump",
+     "side": 1,
+     "opened": 1795028506.0305924,
+     "entry": 8.489e-05,
+     "stop": 6.7912e-05,
+     "target": 0.00011884599999999998,
+     "size": 2355990.1048415597,
+     "deadline": 1795035706.0305927,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3345,
+ "next_id": 3348,
  "runs": 115,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795027755.257045,
-  "seen:H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump": 1795027755.257045,
-  "seen:HgDMWzq998ZKB61zAtfutgToKjLbiwcufoRh376Dpump": 1795027755.257045,
-  "seen:B2qjRYNwgJzWy9TiHSw37J84cUBDCNcj6RdWcf55pump": 1795027937.813789,
-  "seen:79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": 1795027937.813789,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795027937.813789,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795027937.813789,
-  "control:HgDMWzq998ZKB61zAtfutgToKjLbiwcufoRh376Dpump": 1795027938.444903,
-  "seen:PWgvriarawbNhP9Kwc3S4Q8PaQrT1vjr7q2FG1Hpump": 1795028122.6219661,
-  "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1795028122.6219661,
-  "seen:GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump": 1795028122.6219661,
-  "seen:GUmgNeyZCLrjQW2TaLhqkTUas8isQc86YuzKQ6Fppump": 1795028122.6219661,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795028302.6805904,
-  "seen:6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump": 1795028302.6805904,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795028302.6805904,
-  "control:H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump": 1795028302.7758267,
-  "seen:3tjPCXfx3KrgMY53yo7pa67D2QQZMbLTRaqQckJmpump": 1795028486.5925596,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795028486.5925596,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795028486.5925596
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795028671.5746558,
+  "seen:8HXsCMy8ma8QP2yVZXG5SZYyaTZw5AUrUDha1G4upump": 1795028671.5746558,
+  "seen:HgDMWzq998ZKB61zAtfutgToKjLbiwcufoRh376Dpump": 1795028671.5746558,
+  "seen:FmfDTbuvkWg5SR1L1fxYMSV68d9XZVhdeHPWUsikpump": 1795028671.5746558,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795028853.1756673,
+  "seen:79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": 1795028853.1756673,
+  "seen:H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump": 1795028853.1756673,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795028853.1756673,
+  "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1795029036.5411487,
+  "seen:GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump": 1795029036.5411487,
+  "seen:348S93Yzx5zKcA5aMtthXa6ipRmEzLiRLHrLpgKMpump": 1795029036.5411487,
+  "seen:GUmgNeyZCLrjQW2TaLhqkTUas8isQc86YuzKQ6Fppump": 1795029036.5411487,
+  "control:GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump": 1795029036.6328895,
+  "seen:PWgvriarawbNhP9Kwc3S4Q8PaQrT1vjr7q2FG1Hpump": 1795029221.3644328,
+  "control:HgDMWzq998ZKB61zAtfutgToKjLbiwcufoRh376Dpump": 1795029221.447238,
+  "seen:HTLJifKcWvfZCzzR4iXwbXwzvNGJCqLWTzQ7XRwhpump": 1795029405.9564073,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795029405.9564073,
+  "seen:7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump": 1795029405.9564073,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795029405.9564073,
+  "control:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1795029406.0305965
  },
  "talks": {
   "2026-10-21": 109
@@ -103,10 +134,10 @@
  ],
  "last_review": 1794953449.383586,
  "news": {
-  "t": 1795027037.8242965,
+  "t": 1795027953.186952,
   "crypto": [
    "MARA prices $185M debt offering after $1.1B Bitcoin sale (0h ago)",
-   "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook (1h ago)",
+   "A $1.5 billion crypto startup is taking on Hyperliquid with a Wall Street playbook (2h ago)",
    "$25M Ethereum MEV acquittal tests criminal enforcement limits (2h ago)",
    "Polymarket US takes rapid-fire crypto trading format to oil, natural gas (2h ago)",
    "Bitcoin, stocks wobble as Fed\u2019s Waller talks of \u2018shock\u2019 50-point rate hike (2h ago)",
@@ -118,7 +149,7 @@
   ],
   "macro": [],
   "calendar": [
-   "USD FOMC Meeting Minutes in 0.4h"
+   "USD FOMC Meeting Minutes in 0.1h"
   ]
  },
  "spend": {
