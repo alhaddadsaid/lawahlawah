@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-18 17:21 UTC. Runs so far: 115. Model: claude-haiku-5-5.
+Updated 2026-11-18 17:33 UTC. Runs so far: 115. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3247 | 31 | -81471.07 | -112684.39 |
+| control | meme | 3248 | 31 | -81553.97 | -112775.42 |
 | control | macro | 69 | 51 | 445.3 | 101.6 |
-| control | all | 3316 | 31 | -81025.77 | -112582.79 |
+| control | all | 3317 | 31 | -81108.67 | -112673.82 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: CYBERLEEK long at 0.0013, stop 0.00104, target 0.00182, opened 2026-11-18 16:32 UTC
 - control: GOLD long at 3743.3, stop 3724.55, target 3771.43, opened 2026-11-18 17:02 UTC
-- control: GTA long at 9.343e-05, stop 7.4744e-05, target 0.000130802, opened 2026-11-18 17:12 UTC
 
 ## Team
 
@@ -32,6 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
-- control: order GTA REJECTED by guardrails: GTA already open
+- control: CLOSED GTA (stop) P&L $-82.9 normal, $-91.03 pessimistic
 
