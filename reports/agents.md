@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-18 09:08 UTC. Runs so far: 114. Model: claude-haiku-5-5.
+Updated 2026-11-18 09:21 UTC. Runs so far: 114. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3226 | 31 | -81064.06 | -112072.45 |
+| control | meme | 3227 | 31 | -80996.06 | -112016.45 |
 | control | macro | 68 | 50 | 304.13 | -34.26 |
-| control | all | 3294 | 31 | -80759.93 | -112106.71 |
+| control | all | 3295 | 31 | -80691.93 | -112050.71 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: COIL long at 0.0001819, stop 0.00014552, target 0.00025466, opened 2026-11-18 07:28 UTC
 - control: GAMER long at 0.0001058, stop 8.464e-05, target 0.00014812, opened 2026-11-18 08:08 UTC
-- control: GROKIA long at 9.531e-05, stop 7.6248e-05, target 0.000133434, opened 2026-11-18 08:47 UTC
 
 ## Team
 
@@ -32,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED controller (stop) P&L $-55.14 normal, $-63.98 pessimistic
+- control: CLOSED GROKIA (target) P&L $68.0 normal, $56.0 pessimistic
 
