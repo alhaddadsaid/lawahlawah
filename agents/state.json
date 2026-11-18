@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -70291.80616410177,
+   "cash": -70351.92102411613,
    "open": [
     {
      "id": 3285,
@@ -51,21 +51,6 @@
      "size": 3007518.796992481,
      "deadline": 1794970544.9998908,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3290,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Spud",
-     "mint": "47mUZNAjSFA3nmxnRa1y7P9Jmi5WPWpVP1ACPQZqpump",
-     "side": 1,
-     "opened": 1794967382.7995965,
-     "entry": 5.572e-05,
-     "stop": 4.4576e-05,
-     "target": 7.8008e-05,
-     "size": 3589375.448671931,
-     "deadline": 1794974582.7995968,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,13 +59,6 @@
  "runs": 113,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:47mUZNAjSFA3nmxnRa1y7P9Jmi5WPWpVP1ACPQZqpump": 1794967546.0600517,
-  "seen:AQqYJ5XaVCQd2PESVZitmyotD5d3qPjmZoEscEPDpump": 1794967732.4057777,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794967732.4057777,
-  "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1794967732.4057777,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794967732.4057777,
-  "seen:EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump": 1794967732.4057777,
-  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794967917.652042,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794968102.2416737,
   "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1794968102.2416737,
   "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794968102.2416737,
@@ -88,7 +66,14 @@
   "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794968282.5636532,
   "seen:6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump": 1794968282.5636532,
   "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794968282.5636532,
-  "control:47mUZNAjSFA3nmxnRa1y7P9Jmi5WPWpVP1ACPQZqpump": 1794968282.7995996
+  "control:47mUZNAjSFA3nmxnRa1y7P9Jmi5WPWpVP1ACPQZqpump": 1794968282.7995996,
+  "seen:47mUZNAjSFA3nmxnRa1y7P9Jmi5WPWpVP1ACPQZqpump": 1794968464.736028,
+  "seen:7XdCaKpqLmKE2K7yr9xaeWB1H2CVZ1oGwxB6hmd9pump": 1794968464.736028,
+  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1794968644.533951,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794968644.533951,
+  "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1794968644.533951,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794968644.533951,
+  "seen:AQqYJ5XaVCQd2PESVZitmyotD5d3qPjmZoEscEPDpump": 1794968644.533951
  },
  "talks": {
   "2026-10-21": 109
@@ -177,5 +162,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794966280.6655605
+ "last_macro_macro": 1794967564.748684
 }
