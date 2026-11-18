@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -71789.85782068028,
+   "cash": -71721.85782068028,
    "open": [
     {
      "id": 3336,
@@ -21,21 +21,6 @@
      "size": 5.33333829365537,
      "deadline": 1795107777.985269,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 3349,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Mabel",
-     "mint": "EhjRG9DDTeP9z9N8UByx1FGpXNCVKidHXsVwkQ4jpump",
-     "side": 1,
-     "opened": 1795038511.0813174,
-     "entry": 9.327e-05,
-     "stop": 7.4616e-05,
-     "target": 0.000130578,
-     "size": 2144312.2118580462,
-     "deadline": 1795045711.0813177,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 3352,
@@ -59,10 +44,6 @@
  "runs": 116,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7no4DN8bKbbEYnaa9h4LgobGoeT4HGk8fjQ5ZPMCpump": 1795039776.987597,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795039776.987597,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795039776.987597,
-  "control:Z2mNryhqfdGLHnkrBLbX57m5LgzobZcwBdxvpm7GTA6": 1795039777.067936,
   "seen:BUm7phoWgN4hjbXvKtrL6vkoTpU8rfEoiZ1zYN79pump": 1795039960.2624574,
   "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795040140.8419313,
   "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795040325.1752114,
@@ -76,7 +57,9 @@
   "seen:3tjPCXfx3KrgMY53yo7pa67D2QQZMbLTRaqQckJmpump": 1795040508.0578358,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795040508.0578358,
   "seen:CyfdugHk3PT44hEUxpnU25CXAJsVQ9EdipKWCHEBKSdS": 1795040508.0578358,
-  "control:96WnzbBGRm3RadEMZcn6VfGQKTk7AaNYrUmTXNx9pump": 1795040508.1003625
+  "control:96WnzbBGRm3RadEMZcn6VfGQKTk7AaNYrUmTXNx9pump": 1795040508.1003625,
+  "seen:pp6SutEifuohJtxBDduiuKja1SbBChg9ohrT7Ukpump": 1795040692.8573854,
+  "seen:7wkPPoNPfrp3qVZCAme7wEXd6XhwP3G6xxrWeu8GTA6": 1795040692.8573854
  },
  "talks": {
   "2026-10-21": 109
@@ -161,5 +144,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795038510.2338974
+ "last_macro_macro": 1795039792.869812
 }
