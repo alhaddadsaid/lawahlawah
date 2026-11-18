@@ -66,28 +66,29 @@
      "size": 79229.64082359409,
      "deadline": 1795046448.199188,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 3286,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "GEKKO",
+     "mint": "GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump",
+     "side": 1,
+     "opened": 1794960954.9188614,
+     "entry": 9.521e-05,
+     "stop": 7.6168e-05,
+     "target": 0.000133294,
+     "size": 2100619.6828064276,
+     "deadline": 1794968154.9188614,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3286,
+ "next_id": 3287,
  "runs": 113,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1794960754.1386054,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794960754.1386054,
-  "seen:6uUU2z5GBasaxnkcqiQVHa2SXL68mAXDsq1zYN5Qxrm7": 1794960754.1386054,
-  "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1794960754.1386054,
-  "seen:EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump": 1794960754.1386054,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794960948.0760791,
-  "seen:A4zQMT7ZFC2mM8fZDDQEqCs5bLFifA9XhDAJtHc3Lzbm": 1794960948.0760791,
-  "control:EURUSD": 1794960948.1991913,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1794961120.0006824,
-  "seen:9Bg8sX2bnMM4KwaXAeEtqpYQAkv2vmqFD7wzJ6eopump": 1794961120.0006824,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794961120.0006824,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1794961120.0006824,
-  "seen:GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump": 1794961120.0006824,
-  "seen:WENWENvqqNya429ubCdR81ZmD69brwQaaBYY6p3LCpk": 1794961120.0006824,
   "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1794961304.2729564,
   "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1794961304.2729564,
   "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1794961304.2729564,
@@ -97,7 +98,20 @@
   "seen:F4vEFNoH9H2oLYRabaQQ2Z6jAAi2AhRVdTdVH6Nn2J1q": 1794961489.2804165,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1794961489.2804165,
   "seen:Dys6SYbjUsy8kksaqrXqo5L2GzgCYDiguGGcS8B5rkrv": 1794961489.2804165,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794961489.2804165
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1794961489.2804165,
+  "seen:6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump": 1794961670.2453425,
+  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1794961670.2453425,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1794961670.2453425,
+  "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1794961670.2453425,
+  "seen:9k2nqjUrSh9p2ZBnWxNE3QRWYiLocrWZfoDm3Vdxpump": 1794961670.2453425,
+  "seen:5H5QZnuf3oDd7ptaHoDVotz6waSFZzBTv8vrc7yh7twy": 1794961854.7937424,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1794961854.7937424,
+  "seen:EVbsBwxqdbMqadwAsVZ6KP9SJiaNmLSHAAb4W2mUpump": 1794961854.7937424,
+  "control:GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump": 1794961854.918865,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1794962039.3442342,
+  "seen:GYZ3toP3xAc7xgHfnGBc419ksvtX1w8oP6Tc2bVupump": 1794962039.3442342,
+  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1794962039.3442342,
+  "seen:BWJfBNeXpapG7uoqByp5KSwWgCQba8QcDmA2DQiEpump": 1794962039.3442342
  },
  "talks": {
   "2026-10-21": 109
@@ -138,9 +152,9 @@
  ],
  "last_review": 1794953449.383586,
  "news": {
-  "t": 1794959854.151289,
+  "t": 1794960770.2577326,
   "crypto": [
-   "Here\u2019s what happened in crypto today (1h ago)",
+   "Here\u2019s what happened in crypto today (2h ago)",
    "CFTC halts some Kalshi Trump mention markets over manipulation concerns (2h ago)",
    "Maple Finance CEO targets up to $15B in assets by the end of 2027 (2h ago)",
    "Nvidia tops estimates, issues strong guidance; shares rise (3h ago)",
@@ -148,18 +162,18 @@
    "Coinbase CEO says AI agents will account for '99.9%' of transactions within a decade (4h ago)",
    "Predictions platform Kalshi complies with order to halt Trump mention contracts (5h ago)",
    "Lighter incident exposes risks beyond withdrawal controls (6h ago)",
-   "Druckenmiller says he is short copper, warns of economic weakness in 2027 (6h ago)",
-   "Fed\u2019s Waller cites Binance hack in warning over tokenized finance (6h ago)"
+   "Druckenmiller says he is short copper, warns of economic weakness in 2027 (7h ago)",
+   "Fed\u2019s Waller cites Binance hack in warning over tokenized finance (7h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP CPI y/y in 7.0h, forecast 3.6%, previous 3.5%",
-   "GBP BOE Gov Bailey Speaks in 15.0h",
-   "USD FOMC Meeting Minutes in 19.0h"
+   "GBP CPI y/y in 6.8h, forecast 3.6%, previous 3.5%",
+   "GBP BOE Gov Bailey Speaks in 14.8h",
+   "USD FOMC Meeting Minutes in 18.8h"
   ]
  },
  "spend": {
-  "2026-11-17": 0.0
+  "2026-11-18": 0.0
  },
  "last_meme_all": 1792657775.803504,
  "last_macro_all": 1792657227.9469385,
@@ -186,5 +200,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1794959854.151105
+ "last_macro_macro": 1794961139.3567247
 }
