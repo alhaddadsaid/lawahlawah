@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -71035.62549026878,
+   "cash": -70967.62549026878,
    "open": [
     {
      "id": 3319,
@@ -36,21 +36,6 @@
      "size": 88348.96485316101,
      "deadline": 1795096972.765692,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 3321,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Doubloon",
-     "mint": "9Xhg9eRG92jZGbBZvNdcWyEoyz7kjHtA9BP6BxniUPWL",
-     "side": 1,
-     "opened": 1795011301.32818,
-     "entry": 6.458e-05,
-     "stop": 5.1664e-05,
-     "target": 9.041199999999999e-05,
-     "size": 3096934.0353050483,
-     "deadline": 1795018501.32818,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -59,17 +44,6 @@
  "runs": 115,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795011471.8344955,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795011471.8344955,
-  "seen:7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump": 1795011471.8344955,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795011471.8344955,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795011471.8344955,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795011471.8344955,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795011471.8344955,
-  "control:GBPUSD": 1795011472.7656968,
-  "seen:9Xhg9eRG92jZGbBZvNdcWyEoyz7kjHtA9BP6BxniUPWL": 1795011651.891575,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1795011651.891575,
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795011651.891575,
   "seen:6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump": 1795011832.7688234,
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795011832.7688234,
   "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795011832.7688234,
@@ -77,7 +51,18 @@
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795012017.3092084,
   "seen:34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": 1795012017.3092084,
   "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1795012017.3092084,
-  "control:9Xhg9eRG92jZGbBZvNdcWyEoyz7kjHtA9BP6BxniUPWL": 1795012201.3281837
+  "control:9Xhg9eRG92jZGbBZvNdcWyEoyz7kjHtA9BP6BxniUPWL": 1795012201.3281837,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795012381.4421232,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795012381.4421232,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795012381.4421232,
+  "seen:7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump": 1795012381.4421232,
+  "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1795012381.4421232,
+  "seen:VAYMVikuYQpWz5sXCeCsQDeho2QcGqDSNq9rhCspump": 1795012381.4421232,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795012567.533999,
+  "seen:9Xhg9eRG92jZGbBZvNdcWyEoyz7kjHtA9BP6BxniUPWL": 1795012567.533999,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795012567.533999,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795012567.533999,
+  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795012567.533999
  },
  "talks": {
   "2026-10-21": 109
@@ -118,23 +103,23 @@
  ],
  "last_review": 1794953449.383586,
  "news": {
-  "t": 1795010571.8451831,
+  "t": 1795011481.4516633,
   "crypto": [
-   "CoinShares sells all treasury ETH, halves SOL holdings for buybacks (0h ago)",
-   "Here\u2019s what happened in crypto today (0h ago)",
+   "Bitcoin Covenants Part 6: FE Covenants \u2014 Enforcing covenants through cryptographically restricted signing keys (0h ago)",
+   "CoinShares sells all treasury ETH, halves SOL holdings for buybacks (1h ago)",
+   "Here\u2019s what happened in crypto today (1h ago)",
    "Sanctions fears loom over Russia\u2019s regulated crypto trading launch (1h ago)",
    "How to preserve wealth and access funds during a national emergency (1h ago)",
    "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans (1h ago)",
    "Tokenized Nvidia market cap surges 159% amid Jensen Huang\u2019s exit (1h ago)",
-   "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes (1h ago)",
+   "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes (2h ago)",
    "Circle turns to DBS as banks build rival digital payment systems across Asia (2h ago)",
-   "Blaming Anthropic\u2019s IPO for bitcoin\u2019s slide is 'easy to believe,' but flawed, analysts say (2h ago)",
-   "Bitcoin drops as Nvidia earnings report drives stock index futures higher (2h ago)"
+   "Blaming Anthropic\u2019s IPO for bitcoin\u2019s slide is 'easy to believe,' but flawed, analysts say (2h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Gov Bailey Speaks in 1.0h",
-   "USD FOMC Meeting Minutes in 5.0h"
+   "GBP BOE Gov Bailey Speaks in 0.7h",
+   "USD FOMC Meeting Minutes in 4.7h"
   ]
  },
  "spend": {
