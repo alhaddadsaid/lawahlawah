@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-18 22:28 UTC. Runs so far: 116. Model: claude-haiku-5-5.
+Updated 2026-11-18 22:31 UTC. Runs so far: 116. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3262 | 31 | -82167.37 | -113516.67 |
+| control | meme | 3263 | 31 | -82218.56 | -113576.81 |
 | control | macro | 69 | 51 | 445.3 | 101.6 |
-| control | all | 3331 | 31 | -81722.07 | -113415.07 |
+| control | all | 3332 | 31 | -81773.26 | -113475.21 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GOLD long at 3743.3, stop 3724.55, target 3771.43, opened 2026-11-18 17:02 UTC
-- control: CRIME long at 0.0001406, stop 0.00011248, target 0.00019684, opened 2026-11-18 22:06 UTC
 - control: ANT long at 0.0001415, stop 0.0001132, target 0.0001981, opened 2026-11-18 22:25 UTC
+- control: CRIME long at 0.0001073, stop 8.584e-05, target 0.00015022, opened 2026-11-18 22:31 UTC
 
 ## Team
 
@@ -32,5 +32,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order CRIME REJECTED by guardrails: CRIME already open
+- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
+- 2026-11-18 22:31 UTC control: OPENED CRIME long at 0.0001073 (stop 8.584e-05, target 0.00015022) - control: frozen v3 rules
 
