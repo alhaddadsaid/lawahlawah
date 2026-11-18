@@ -21,22 +21,29 @@
      "size": 1114206.1281337047,
      "deadline": 1795017225.466479,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3320,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "GBPUSD",
+     "mint": "",
+     "side": -1,
+     "opened": 1795010572.7656913,
+     "entry": 1.316603660583496,
+     "stop": 1.3177355357578822,
+     "target": 1.3149058478219169,
+     "size": 88348.96485316101,
+     "deadline": 1795096972.765692,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 3320,
+ "next_id": 3321,
  "runs": 115,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795010561.877069,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795010561.877069,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795010561.877069,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1795010561.877069,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795010561.877069,
-  "seen:34DXEU2ttEtBSb1TqGJm7izgvYTTkqKcCoiNWdPDpump": 1795010561.877069,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795010561.877069,
-  "seen:7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump": 1795010561.877069,
   "seen:5jz9nmbonSX16raGZz19gukSPW153uFDNiVHJtqwpump": 1795010743.7963672,
   "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1795010743.7963672,
   "seen:6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump": 1795010743.7963672,
@@ -44,13 +51,24 @@
   "seen:Fpzcd2R1y2MPdezgMRigQuBx7aCPPn5sZBXpvtP3pump": 1795010743.7963672,
   "seen:4La95NEVJdYK9kr375SfKPXnLA8ef8GtsjfVfW27pump": 1795010925.3865666,
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795010925.3865666,
-  "control:Fpzcd2R1y2MPdezgMRigQuBx7aCPPn5sZBXpvtP3pump": 1795010925.466484
+  "control:Fpzcd2R1y2MPdezgMRigQuBx7aCPPn5sZBXpvtP3pump": 1795010925.466484,
+  "seen:Bs2SRPPn1pQPN3M5fvCLxvnnFzT5tdarRFUSwFDtpump": 1795011108.0324564,
+  "seen:Ga3ytAHRek5CNivnEf2CYhPUFzxYpqwyZoQxuvUDHhCC": 1795011108.0324564,
+  "seen:BSsmLA6UN8fzJ8qUkV4KwC5LxR7ab3TaUtcwvAyJpump": 1795011108.0324564,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795011471.8344955,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795011471.8344955,
+  "seen:7KBFymfGAe8MmKEuNersoM59TvpiHzZ76jP7rSLrpump": 1795011471.8344955,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795011471.8344955,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795011471.8344955,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795011471.8344955,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795011471.8344955,
+  "control:GBPUSD": 1795011472.7656968
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498606,
+ "ctrl_macro_hour": 498614,
  "team": [
   {
    "name": "Lead",
@@ -85,23 +103,23 @@
  ],
  "last_review": 1794953449.383586,
  "news": {
-  "t": 1795009661.8880093,
+  "t": 1795010571.8451831,
   "crypto": [
+   "CoinShares sells all treasury ETH, halves SOL holdings for buybacks (0h ago)",
    "Here\u2019s what happened in crypto today (0h ago)",
-   "Sanctions fears loom over Russia\u2019s regulated crypto trading launch (0h ago)",
-   "How to preserve wealth and access funds during a national emergency (0h ago)",
+   "Sanctions fears loom over Russia\u2019s regulated crypto trading launch (1h ago)",
+   "How to preserve wealth and access funds during a national emergency (1h ago)",
    "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans (1h ago)",
    "Tokenized Nvidia market cap surges 159% amid Jensen Huang\u2019s exit (1h ago)",
    "Bullish beats revenue estimates as institutional services offset sluggish spot crypto volumes (1h ago)",
-   "Circle turns to DBS as banks build rival digital payment systems across Asia (1h ago)",
+   "Circle turns to DBS as banks build rival digital payment systems across Asia (2h ago)",
    "Blaming Anthropic\u2019s IPO for bitcoin\u2019s slide is 'easy to believe,' but flawed, analysts say (2h ago)",
-   "Bitcoin drops as Nvidia earnings report drives stock index futures higher (2h ago)",
-   "Bitcoin outpaces gold even as both assets tumble ahead of a likely Fed rate hike (3h ago)"
+   "Bitcoin drops as Nvidia earnings report drives stock index futures higher (2h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Gov Bailey Speaks in 1.2h",
-   "USD FOMC Meeting Minutes in 5.2h"
+   "GBP BOE Gov Bailey Speaks in 1.0h",
+   "USD FOMC Meeting Minutes in 5.0h"
   ]
  },
  "spend": {
