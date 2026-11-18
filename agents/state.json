@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -71161.5628243206,
+   "cash": -71025.5628243206,
    "open": [
     {
      "id": 3333,
@@ -23,51 +23,49 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3335,
+     "id": 3336,
      "desk": "control",
-     "market": "meme",
-     "symbol": "GTA",
-     "mint": "6vofxAisDWYuD2o9jfRD4EkvpL8gs2qVbgAzDsLypump",
+     "market": "macro",
+     "symbol": "GOLD",
+     "mint": "",
      "side": 1,
-     "opened": 1795020646.9132223,
-     "entry": 9.542e-05,
-     "stop": 7.633600000000001e-05,
-     "target": 0.000133588,
-     "size": 2095996.6464053656,
-     "deadline": 1795027846.9132226,
-     "thesis": "control: frozen v3 rules"
+     "opened": 1795021377.985268,
+     "entry": 3743.300048828125,
+     "stop": 3724.550066266741,
+     "target": 3771.425022670201,
+     "size": 5.33333829365537,
+     "deadline": 1795107777.985269,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 3336,
+ "next_id": 3338,
  "runs": 115,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795021360.971561,
-  "control:79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": 1795021361.0374057,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795021545.9939268,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795021545.9939268,
-  "seen:79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": 1795021545.9939268,
-  "seen:6vofxAisDWYuD2o9jfRD4EkvpL8gs2qVbgAzDsLypump": 1795021545.9939268,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795021545.9939268,
-  "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1795021545.9939268,
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795021545.9939268,
-  "control:6vofxAisDWYuD2o9jfRD4EkvpL8gs2qVbgAzDsLypump": 1795021546.9132257,
-  "seen:GgyKtbWS99pzkvqaG7wvxdKCbRxuLDLRDm4TtfDdpump": 1795021729.528297,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795021912.573984,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795021912.573984,
   "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795021912.573984,
   "seen:6wiaCq8oQiupFfeDU4ouAuYnCKXCch581HAmpvrxpump": 1795021912.573984,
   "seen:97t435T2vc7wwnR7F5GNQc14h3AE2CoeCRUYhSeEpump": 1795022096.436636,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795022096.436636,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795022096.436636
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795022096.436636,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795022277.7147312,
+  "seen:7fZK84wYShNUXKJnBkfXkeu5h2edduNkZV3p2B2LBCgC": 1795022277.7147312,
+  "control:GOLD": 1795022277.9852734,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795022461.4713504,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795022461.4713504,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795022461.4713504,
+  "seen:79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": 1795022461.4713504,
+  "seen:6vofxAisDWYuD2o9jfRD4EkvpL8gs2qVbgAzDsLypump": 1795022461.4713504,
+  "control:7fZK84wYShNUXKJnBkfXkeu5h2edduNkZV3p2B2LBCgC": 1795022462.742926
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498614,
+ "ctrl_macro_hour": 498617,
  "team": [
   {
    "name": "Lead",
@@ -102,23 +100,23 @@
  ],
  "last_review": 1794953449.383586,
  "news": {
-  "t": 1795020646.005065,
+  "t": 1795021561.4827173,
   "crypto": [
-   "Bitcoin, stocks wobble as Fed\u2019s Waller talks of \u2018shock\u2019 50-point rate hike (0h ago)",
+   "Bitcoin, stocks wobble as Fed\u2019s Waller talks of \u2018shock\u2019 50-point rate hike (1h ago)",
    "Crypto Long & Short: Crypto exchanges shouldn\u2019t double as the vault (1h ago)",
    "German judge proposes dropping Movie2k case if operator hands over $2.56 billion in bitcoin (1h ago)",
-   "Hong Kong wants banks to use AI to catch crypto crime before money disappears (1h ago)",
+   "Hong Kong wants banks to use AI to catch crypto crime before money disappears (2h ago)",
    "Bitcoin Covenants Part 6: FE Covenants \u2014 Enforcing covenants through cryptographically restricted signing keys (3h ago)",
    "CoinShares sells all treasury ETH, halves SOL holdings for buybacks (3h ago)",
-   "Here\u2019s what happened in crypto today (3h ago)",
-   "Sanctions fears loom over Russia\u2019s regulated crypto trading launch (3h ago)",
-   "How to preserve wealth and access funds during a national emergency (3h ago)",
+   "Here\u2019s what happened in crypto today (4h ago)",
+   "Sanctions fears loom over Russia\u2019s regulated crypto trading launch (4h ago)",
+   "How to preserve wealth and access funds during a national emergency (4h ago)",
    "Bitcoin miner MARA raises $185 million in debt after selling $1 billion BTC to repay loans (4h ago)"
   ],
   "macro": [],
   "calendar": [
-   "GBP BOE Gov Bailey Speaks was 1.8h",
-   "USD FOMC Meeting Minutes in 2.2h"
+   "GBP BOE Gov Bailey Speaks was 2.1h",
+   "USD FOMC Meeting Minutes in 1.9h"
   ]
  },
  "spend": {
