@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-19 06:15 UTC. Runs so far: 117. Model: claude-haiku-5-5.
+Updated 2026-11-19 06:24 UTC. Runs so far: 117. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3298 | 31 | -83273.7 | -114963.89 |
+| control | meme | 3301 | 31 | -83239.62 | -114961.45 |
 | control | macro | 70 | 50 | 329.03 | -17.33 |
-| control | all | 3368 | 31 | -82944.67 | -114981.22 |
+| control | all | 3371 | 31 | -82910.59 | -114978.78 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: Dacity long at 0.000253, stop 0.0002024, target 0.0003542, opened 2026-11-19 04:16 UTC
 - control: PAPA long at 5.506e-05, stop 4.4048e-05, target 7.7084e-05, opened 2026-11-19 05:08 UTC
 - control: MAGACITY long at 5.64e-05, stop 4.512e-05, target 7.896e-05, opened 2026-11-19 05:11 UTC
-- control: phubber long at 0.0001401, stop 0.00011208, target 0.00019614, opened 2026-11-19 06:15 UTC
+- control: CRIME long at 8.678e-05, stop 6.9424e-05, target 0.000121492, opened 2026-11-19 06:21 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-19 06:15 UTC control: OPENED phubber long at 0.0001401 (stop 0.00011208, target 0.00019614) - control: frozen v3 rules
+- control: CLOSED DacityCoin (stop) P&L $-49.66 normal, $-58.64 pessimistic
 
