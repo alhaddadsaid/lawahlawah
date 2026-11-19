@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -71910.64810894619,
+   "cash": -71961.25231369938,
    "open": [
     {
      "id": 3336,
@@ -21,21 +21,6 @@
      "size": 5.33333829365537,
      "deadline": 1795107777.985269,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 3366,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "LUCIA",
-     "mint": "3ZhsX6y2aEYoiwRFCu7mtwuMWSFH654dhyR2aGRVpump",
-     "side": 1,
-     "opened": 1795054249.2721086,
-     "entry": 0.0001094,
-     "stop": 8.752e-05,
-     "target": 0.00015316,
-     "size": 1828153.5648994516,
-     "deadline": 1795061449.2721088,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -44,7 +29,6 @@
  "runs": 116,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1795054417.392885,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795054600.4282103,
   "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795054600.4282103,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795054600.4282103,
@@ -65,7 +49,9 @@
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795055149.2304688,
   "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1795055149.2304688,
   "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795055149.2304688,
-  "control:3ZhsX6y2aEYoiwRFCu7mtwuMWSFH654dhyR2aGRVpump": 1795055149.2721121
+  "control:3ZhsX6y2aEYoiwRFCu7mtwuMWSFH654dhyR2aGRVpump": 1795055149.2721121,
+  "seen:B5VNXjLZs3xRFAVFU1tFc9pFCVRSgkf5UuvXR5Vfpump": 1795055333.7964835,
+  "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1795055333.7964835
  },
  "talks": {
   "2026-10-21": 109
