@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-19 03:08 UTC. Runs so far: 116. Model: claude-haiku-5-5.
+Updated 2026-11-19 03:18 UTC. Runs so far: 116. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,14 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3282 | 31 | -82706.23 | -114246.84 |
+| control | meme | 3285 | 31 | -82626.0 | -114199.44 |
 | control | macro | 70 | 50 | 329.03 | -17.33 |
-| control | all | 3352 | 31 | -82377.2 | -114264.17 |
+| control | all | 3355 | 31 | -82296.97 | -114216.77 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: NASDUCK long at 0.0001426, stop 0.00011408, target 0.00019964, opened 2026-11-19 02:50 UTC
-- control: DCTC long at 5.832e-05, stop 4.6656e-05, target 8.1648e-05, opened 2026-11-19 03:08 UTC
 
 ## Team
 
@@ -31,6 +29,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 400: Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.
-- 2026-11-19 03:08 UTC control: OPENED DCTC long at 5.832e-05 (stop 4.6656e-05, target 8.1648e-05) - control: frozen v3 rules
+- control: CLOSED NASDUCK (target) P&L $68.0 normal, $56.0 pessimistic
 
