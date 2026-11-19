@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -72139.15757839971,
+   "cash": -72204.29527354092,
    "open": [
     {
      "id": 3336,
@@ -23,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 3370,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DCTC",
-     "mint": "BM5wUne5TCtqVn6QTwrQCZ6LAgY7pgVr7KSMzV1Gpump",
-     "side": 1,
-     "opened": 1795056437.5113974,
-     "entry": 5.701e-05,
-     "stop": 4.5608e-05,
-     "target": 7.981399999999999e-05,
-     "size": 3508156.463778285,
-     "deadline": 1795063637.5113976,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3371,
      "desk": "control",
      "market": "meme",
@@ -51,28 +36,29 @@
      "size": 1402524.5441795231,
      "deadline": 1795063822.7076404,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3372,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "DCTC",
+     "mint": "47f8bEDWs6VDpnnmxegyL4A3GbBVVcssrMQeBjPvpump",
+     "side": 1,
+     "opened": 1795057169.4938912,
+     "entry": 0.0001441,
+     "stop": 0.00011528000000000001,
+     "target": 0.00020174,
+     "size": 1387925.0520471893,
+     "deadline": 1795064369.4938915,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3372,
+ "next_id": 3373,
  "runs": 116,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795056791.0769417,
-  "seen:47f8bEDWs6VDpnnmxegyL4A3GbBVVcssrMQeBjPvpump": 1795056791.0769417,
-  "seen:A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump": 1795056791.0769417,
-  "seen:EadD2LMp6EbH9PrbXUFWcrZKMhoKVrZN1gpwRhH5pump": 1795056791.0769417,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1795056791.0769417,
-  "control:47f8bEDWs6VDpnnmxegyL4A3GbBVVcssrMQeBjPvpump": 1795056791.5259001,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1795056974.9148142,
-  "seen:8zHjeXjf5zs3v9cQ116GGfbTqAP6BYkkucNF1f8Hpump": 1795056974.9148142,
-  "seen:3ZhsX6y2aEYoiwRFCu7mtwuMWSFH654dhyR2aGRVpump": 1795056974.9148142,
-  "control:8zHjeXjf5zs3v9cQ116GGfbTqAP6BYkkucNF1f8Hpump": 1795056974.955956,
-  "seen:8HXsCMy8ma8QP2yVZXG5SZYyaTZw5AUrUDha1G4upump": 1795057154.4650922,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795057154.4650922,
-  "seen:7qgvmEdQSp5xhAss5efBRgCgywe1PRGMgb9ZAJsBpump": 1795057154.4650922,
-  "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1795057154.4650922,
   "seen:BM5wUne5TCtqVn6QTwrQCZ6LAgY7pgVr7KSMzV1Gpump": 1795057337.1596775,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795057337.1596775,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795057337.1596775,
@@ -81,7 +67,17 @@
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795057522.620474,
   "seen:3tjPCXfx3KrgMY53yo7pa67D2QQZMbLTRaqQckJmpump": 1795057522.620474,
   "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795057522.620474,
-  "control:7qgvmEdQSp5xhAss5efBRgCgywe1PRGMgb9ZAJsBpump": 1795057522.7076428
+  "control:7qgvmEdQSp5xhAss5efBRgCgywe1PRGMgb9ZAJsBpump": 1795057522.7076428,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795057703.2126646,
+  "seen:A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump": 1795057703.2126646,
+  "seen:47f8bEDWs6VDpnnmxegyL4A3GbBVVcssrMQeBjPvpump": 1795057703.2126646,
+  "seen:EadD2LMp6EbH9PrbXUFWcrZKMhoKVrZN1gpwRhH5pump": 1795057703.2126646,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1795057886.417241,
+  "seen:8zHjeXjf5zs3v9cQ116GGfbTqAP6BYkkucNF1f8Hpump": 1795057886.417241,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795057886.417241,
+  "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1795058069.45154,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795058069.45154,
+  "control:47f8bEDWs6VDpnnmxegyL4A3GbBVVcssrMQeBjPvpump": 1795058069.4938943
  },
  "talks": {
   "2026-10-21": 109
@@ -122,17 +118,17 @@
  ],
  "last_review": 1795039977.6567757,
  "news": {
-  "t": 1795055891.090017,
+  "t": 1795056803.2257626,
   "crypto": [
    "Trump administration unveils new center to choke off scam payments (1h ago)",
    "Fed officials saw October rate hold as a \u2018close call,\u2019 minutes show (2h ago)",
    "Another U.S. appellate court goes against Kalshi, building the industry's legal headwinds (2h ago)",
    "Payward, the owner of crypto exchange Kraken, is buying its CEO\u2019s venture capital business, Tribe (4h ago)",
-   "Here\u2019s what happened in crypto today (4h ago)",
+   "Here\u2019s what happened in crypto today (5h ago)",
    "Tether invokes The Big Short in swipe at S&P over USDT reserve risks (5h ago)",
-   "Ledger warns Berlin customers as hardware wallet tampering investigation expands (5h ago)",
+   "Ledger warns Berlin customers as hardware wallet tampering investigation expands (6h ago)",
    "Bain Capital Crypto leads $110M Variational round at $1.5B valuation (6h ago)",
-   "Binance says it obtained $6.5B worldwide freezing order after hack (6h ago)",
+   "Binance says it obtained $6.5B worldwide freezing order after hack (7h ago)",
    "MARA prices $185M debt offering after $1.1B Bitcoin sale (8h ago)"
   ],
   "macro": [],
