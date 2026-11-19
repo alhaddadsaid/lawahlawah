@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-19 22:32 UTC. Runs so far: 119. Model: claude-haiku-5-5.
+Updated 2026-11-19 22:38 UTC. Runs so far: 119. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,14 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3347 | 31 | -84364.27 | -116529.06 |
+| control | meme | 3349 | 31 | -84404.1 | -116588.38 |
 | control | macro | 71 | 49 | 223.65 | -125.55 |
-| control | all | 3418 | 31 | -84140.62 | -116654.61 |
+| control | all | 3420 | 31 | -84180.45 | -116713.93 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: AI long at 8.684e-05, stop 6.9472e-05, target 0.000121576, opened 2026-11-19 21:28 UTC
-- control: ONI long at 8.322e-05, stop 6.6576e-05, target 0.000116508, opened 2026-11-19 21:37 UTC
 - control: CYBERLEEK long at 0.001827, stop 0.0014616, target 0.0025578, opened 2026-11-19 21:53 UTC
 - control: PIPI long at 0.0002385, stop 0.0001908, target 0.0003339, opened 2026-11-19 21:56 UTC
 - control: CATMARIO long at 0.00014, stop 0.000112, target 0.000196, opened 2026-11-19 22:20 UTC
@@ -34,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order CYBERLEEK REJECTED by guardrails: desk already has the maximum open positions
+- control: order CYBERLEEK REJECTED by guardrails: CYBERLEEK already open
 
