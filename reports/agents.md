@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-19 23:12 UTC. Runs so far: 119. Model: claude-haiku-5-5.
+Updated 2026-11-19 23:21 UTC. Runs so far: 119. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3349 | 31 | -84404.1 | -116588.38 |
+| control | meme | 3350 | 31 | -84336.1 | -116532.38 |
 | control | macro | 71 | 49 | 223.65 | -125.55 |
-| control | all | 3420 | 31 | -84180.45 | -116713.93 |
+| control | all | 3421 | 31 | -84112.45 | -116657.93 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,8 +19,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: CYBERLEEK long at 0.001827, stop 0.0014616, target 0.0025578, opened 2026-11-19 21:53 UTC
 - control: PIPI long at 0.0002385, stop 0.0001908, target 0.0003339, opened 2026-11-19 21:56 UTC
-- control: CATMARIO long at 0.00014, stop 0.000112, target 0.000196, opened 2026-11-19 22:20 UTC
 - control: WIGGLES long at 0.000107, stop 8.56e-05, target 0.0001498, opened 2026-11-19 22:57 UTC
+- control: DacityCoin long at 0.0003497, stop 0.00027976, target 0.00048958, opened 2026-11-19 23:15 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order CYBERLEEK REJECTED by guardrails: CYBERLEEK already open
+- control: order PIPI REJECTED by guardrails: PIPI already open
 
