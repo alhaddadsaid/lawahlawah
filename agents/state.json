@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -73014.33758638534,
+   "cash": -73041.01747911358,
    "open": [
-    {
-     "id": 3383,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PAPA",
-     "mint": "3hdXmQqZHmm7gWWweFKGdkjnxyWQZ2SWVNt1Jty5pump",
-     "side": 1,
-     "opened": 1795064927.2999053,
-     "entry": 5.506e-05,
-     "stop": 4.4047999999999996e-05,
-     "target": 7.708399999999998e-05,
-     "size": 3632401.017072285,
-     "deadline": 1795072127.2999055,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3384,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MAGACITY",
-     "mint": "8zHjeXjf5zs3v9cQ116GGfbTqAP6BYkkucNF1f8Hpump",
-     "side": 1,
-     "opened": 1795065090.6613595,
-     "entry": 5.64e-05,
-     "stop": 4.512e-05,
-     "target": 7.896e-05,
-     "size": 3546099.2907801415,
-     "deadline": 1795072290.6613598,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3392,
      "desk": "control",
@@ -66,33 +36,45 @@
      "size": 140252.4544179523,
      "deadline": 1795078700.196558,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3397,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Dacity",
+     "mint": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
+     "side": 1,
+     "opened": 1795072412.2051435,
+     "entry": 0.0003749,
+     "stop": 0.00029992,
+     "target": 0.00052486,
+     "size": 533475.5934915978,
+     "deadline": 1795079612.2051437,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3397,
+ "next_id": 3398,
  "runs": 117,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795072034.8014722,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795072034.8014722,
-  "seen:4rYsDHMfKmt6VuVGcM8cGzBgkZNgQT3w2DhdEmtVpump": 1795072217.2032208,
-  "seen:5PsLet5shktTrZqB1MDQQim4WxQz57AEszPTWuSXGZ28": 1795072217.2032208,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795072217.2032208,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795072217.2032208,
-  "seen:8J2VUcwne16c5LeYCSGBagPf32tDSFeGDzmD5B7nfmkY": 1795072399.8987072,
-  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795072399.8987072,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795072399.8987072,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795072399.8987072,
-  "seen:8CnvwZJLRpQazvn6LszkzmXJxkmMY2bTQ4Q3NN4fpump": 1795072399.8987072,
-  "control:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795072400.1965609,
   "seen:d9HSZAePQaSiMp28H817umk9daSQj7NKJpGrptepump": 1795072583.1267614,
   "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1795072583.1267614,
   "seen:CyfdugHk3PT44hEUxpnU25CXAJsVQ9EdipKWCHEBKSdS": 1795072583.1267614,
   "seen:ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795072766.099015,
   "seen:CBcjQNdtgb4SHwKDqKFxD3yPSk7pEMpKHQiMmZrgpump": 1795072766.099015,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795072766.099015,
-  "seen:A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump": 1795072766.099015
+  "seen:A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump": 1795072766.099015,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795072946.0389836,
+  "seen:4rYsDHMfKmt6VuVGcM8cGzBgkZNgQT3w2DhdEmtVpump": 1795073129.1991246,
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1795073129.1991246,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795073129.1991246,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795073311.8578143,
+  "seen:8CnvwZJLRpQazvn6LszkzmXJxkmMY2bTQ4Q3NN4fpump": 1795073311.8578143,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795073311.8578143,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795073311.8578143,
+  "control:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1795073312.2051468
  },
  "talks": {
   "2026-10-21": 109
@@ -133,18 +115,18 @@
  ],
  "last_review": 1795039977.6567757,
  "news": {
-  "t": 1795071499.909146,
+  "t": 1795072411.8679194,
   "crypto": [
    "Fed's rate hike push may be a mistake. Here's why (1h ago)",
    "Bitcoin carry trades could beat Treasury bills in 2027, Sygnum predicts (1h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
-   "Ethereum block builders received the most in a $3.4 million vault hack, data shows (1h ago)",
+   "Ethereum block builders received the most in a $3.4 million vault hack, data shows (2h ago)",
    "Senators warn GENIUS Act rules could push stablecoin firms toward federal oversight (2h ago)",
    "Binance hackers stole 192 tokens across 11 networks, court docs show (2h ago)",
    "Bitcoin miner that sold its last BTC warns it may run short of cash for $1.2 billion AI deal (2h ago)",
-   "CZ says tokenized Anthropic is coming to BNB Chain on IPO day (3h ago)",
+   "CZ says tokenized Anthropic is coming to BNB Chain on IPO day (4h ago)",
    "Trump administration unveils new center to choke off scam payments (5h ago)",
-   "Fed officials saw October rate hold as a \u2018close call,\u2019 minutes show (6h ago)"
+   "Fed officials saw October rate hold as a \u2018close call,\u2019 minutes show (7h ago)"
   ],
   "macro": [],
   "calendar": []
