@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-19 08:13 UTC. Runs so far: 117. Model: claude-haiku-5-5.
+Updated 2026-11-19 08:23 UTC. Runs so far: 117. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3307 | 31 | -83480.21 | -115257.41 |
+| control | meme | 3309 | 31 | -83416.32 | -115215.67 |
 | control | macro | 70 | 50 | 329.03 | -17.33 |
-| control | all | 3377 | 31 | -83151.18 | -115274.74 |
+| control | all | 3379 | 31 | -83087.29 | -115233.0 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: CRIME long at 8.678e-05, stop 6.9424e-05, target 0.000121492, opened 2026-11-19 06:21 UTC
 - control: CYBERLEEK long at 0.001426, stop 0.0011408, target 0.0019964, opened 2026-11-19 06:58 UTC
-- control: Apocrycoin long at 0.0001301, stop 0.00010408, target 0.00018214, opened 2026-11-19 07:44 UTC
 - control: DacityCoin long at 0.0003206, stop 0.00025648, target 0.00044884, opened 2026-11-19 08:02 UTC
+- control: After long at 6.006e-05, stop 4.8048e-05, target 8.4084e-05, opened 2026-11-19 08:23 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED Dacity (stop) P&L $-49.27 normal, $-58.26 pessimistic
+- 2026-11-19 08:23 UTC control: OPENED After long at 6.006e-05 (stop 4.8048e-05, target 8.4084e-05) - control: frozen v3 rules
 
