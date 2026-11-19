@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -72436.17400965055,
+   "cash": -72495.549596505,
    "open": [
-    {
-     "id": 3379,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DCTC",
-     "mint": "47f8bEDWs6VDpnnmxegyL4A3GbBVVcssrMQeBjPvpump",
-     "side": 1,
-     "opened": 1795060147.8180676,
-     "entry": 0.0001278,
-     "stop": 0.00010224,
-     "target": 0.00017891999999999997,
-     "size": 1564945.226917058,
-     "deadline": 1795067347.8180678,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3381,
      "desk": "control",
@@ -59,26 +44,20 @@
  "runs": 117,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8J2VUcwne16c5LeYCSGBagPf32tDSFeGDzmD5B7nfmkY": 1795063062.7234163,
-  "seen:DEgAkPNxz3dtMsesD2FDkNA2S6sch5YWfGUDT7R2pump": 1795063062.7234163,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795063062.7234163,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795063246.6206515,
-  "seen:A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump": 1795063246.6206515,
-  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1795063246.6206515,
-  "seen:7qgvmEdQSp5xhAss5efBRgCgywe1PRGMgb9ZAJsBpump": 1795063246.6206515,
-  "seen:EadD2LMp6EbH9PrbXUFWcrZKMhoKVrZN1gpwRhH5pump": 1795063246.6206515,
-  "seen:CyfdugHk3PT44hEUxpnU25CXAJsVQ9EdipKWCHEBKSdS": 1795063429.5538392,
-  "seen:47f8bEDWs6VDpnnmxegyL4A3GbBVVcssrMQeBjPvpump": 1795063612.1471093,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1795063612.1471093,
-  "seen:ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795063797.0395367,
-  "seen:8zHjeXjf5zs3v9cQ116GGfbTqAP6BYkkucNF1f8Hpump": 1795063797.0395367,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795063797.0395367,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795063797.0395367,
-  "seen:Eyo1o3QYKQwdvP6UtK9dQLTZj2BBtoJdN4tMWB2Dpump": 1795063797.0395367,
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795063797.0395367,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795063797.0395367,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795063797.0395367,
-  "control:8zHjeXjf5zs3v9cQ116GGfbTqAP6BYkkucNF1f8Hpump": 1795063797.2907674
+  "seen:DEgAkPNxz3dtMsesD2FDkNA2S6sch5YWfGUDT7R2pump": 1795063980.819254,
+  "seen:EkTfN4Pb7K3NXzxsbzkn3AA4MGbsdTniFJ3G2RsVpump": 1795063980.819254,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795063980.819254,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795064163.2469513,
+  "seen:7qgvmEdQSp5xhAss5efBRgCgywe1PRGMgb9ZAJsBpump": 1795064163.2469513,
+  "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1795064163.2469513,
+  "seen:A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump": 1795064163.2469513,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1795064345.7281003,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795064345.7281003,
+  "seen:EadD2LMp6EbH9PrbXUFWcrZKMhoKVrZN1gpwRhH5pump": 1795064530.1125515,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795064712.4366324,
+  "seen:Eyo1o3QYKQwdvP6UtK9dQLTZj2BBtoJdN4tMWB2Dpump": 1795064712.4366324,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795064712.4366324,
+  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795064712.4366324
  },
  "talks": {
   "2026-10-21": 109
@@ -119,15 +98,15 @@
  ],
  "last_review": 1795039977.6567757,
  "news": {
-  "t": 1795062346.6305163,
+  "t": 1795063263.2568696,
   "crypto": [
    "CZ says tokenized Anthropic is coming to BNB Chain on IPO day (1h ago)",
    "Trump administration unveils new center to choke off scam payments (3h ago)",
    "Fed officials saw October rate hold as a \u2018close call,\u2019 minutes show (4h ago)",
    "Another U.S. appellate court goes against Kalshi, building the industry's legal headwinds (4h ago)",
    "Payward, the owner of crypto exchange Kraken, is buying its CEO\u2019s venture capital business, Tribe (6h ago)",
-   "Here\u2019s what happened in crypto today (6h ago)",
-   "Tether invokes The Big Short in swipe at S&P over USDT reserve risks (6h ago)",
+   "Here\u2019s what happened in crypto today (7h ago)",
+   "Tether invokes The Big Short in swipe at S&P over USDT reserve risks (7h ago)",
    "Ledger warns Berlin customers as hardware wallet tampering investigation expands (7h ago)",
    "Bain Capital Crypto leads $110M Variational round at $1.5B valuation (8h ago)",
    "Binance says it obtained $6.5B worldwide freezing order after hack (8h ago)"
