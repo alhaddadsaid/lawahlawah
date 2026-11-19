@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -73114.63925414368,
+   "cash": -73171.89114331244,
    "open": [
     {
      "id": 3404,
@@ -51,21 +51,6 @@
      "size": 565450.9471303364,
      "deadline": 1795101239.1537325,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3410,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PIPI",
-     "mint": "Bd7mSgkiBbMs6jGG2651KXGnUNqFW89u5gTEMieppump",
-     "side": 1,
-     "opened": 1795094224.0211532,
-     "entry": 0.0001985,
-     "stop": 0.0001588,
-     "target": 0.0002779,
-     "size": 1007556.6750629722,
-     "deadline": 1795101424.0211535,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,25 +59,22 @@
  "runs": 118,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": 1795094388.613687,
-  "seen:Bd7mSgkiBbMs6jGG2651KXGnUNqFW89u5gTEMieppump": 1795094388.613687,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795094388.613687,
-  "seen:ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795094388.613687,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795094388.613687,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795094388.613687,
-  "seen:A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump": 1795094388.613687,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795094388.613687,
-  "control:79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": 1795094389.2302384,
-  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795094572.1002347,
-  "seen:2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX": 1795094572.1002347,
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795094572.1002347,
-  "seen:79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": 1795094572.1002347,
-  "control:2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX": 1795094572.1497283,
-  "seen:GD8GhsCv7GHaimi3N5wZU5ZGsZGY3LB6vLN7LgJYpump": 1795094756.3092258,
-  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1795094756.3092258,
-  "control:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795094939.1537359,
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795095122.8664641,
-  "control:Bd7mSgkiBbMs6jGG2651KXGnUNqFW89u5gTEMieppump": 1795095124.021157
+  "control:Bd7mSgkiBbMs6jGG2651KXGnUNqFW89u5gTEMieppump": 1795095124.021157,
+  "seen:6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": 1795095303.1752646,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795095303.1752646,
+  "seen:Bd7mSgkiBbMs6jGG2651KXGnUNqFW89u5gTEMieppump": 1795095303.1752646,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795095303.1752646,
+  "seen:ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795095303.1752646,
+  "seen:A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump": 1795095303.1752646,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795095303.1752646,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795095303.1752646,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795095487.18452,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1795095487.18452,
+  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795095487.18452,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795095670.5676858,
+  "seen:2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX": 1795095670.5676858,
+  "seen:GD8GhsCv7GHaimi3N5wZU5ZGsZGY3LB6vLN7LgJYpump": 1795095670.5676858
  },
  "talks": {
   "2026-10-21": 109
@@ -133,18 +115,18 @@
  ],
  "last_review": 1795039977.6567757,
  "news": {
-  "t": 1795093488.6262736,
+  "t": 1795094403.1881642,
   "crypto": [
-   "Hong Kong adds Hyperliquid to list of \u2018suspicious\u2019 crypto platforms (0h ago)",
-   "Trump Media wants to clear $884 million of debt without selling its bitcoin (0h ago)",
+   "Crypto traders vs. Wall Street: OKX\u2019s Anthropic markets put IPO pricing to the test (0h ago)",
+   "Hong Kong adds Hyperliquid to list of \u2018suspicious\u2019 crypto platforms (1h ago)",
+   "Trump Media wants to clear $884 million of debt without selling its bitcoin (1h ago)",
    "GTA VI publisher racks up nearly 3x Nvidia\u2019s tokenized stock volume (1h ago)",
    "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut (1h ago)",
    "Bitcoin holds above $63,750 but Fed rate-hike threats loom large (1h ago)",
    "North Korean hackers used Sky's stablecoin system, putting billions at freeze risk (2h ago)",
    "Sweden\u2019s H100 could tap Bitcoin trading pool to fund share buybacks (2h ago)",
    "Anthropic\u2019s $107 billion sale set to top SpaceX\u2019s IPO as tokenized stocks gain traction (2h ago)",
-   "Financial firms must act now as quantum computers grow \u2018highly advanced,\u2019 IOSCO warns (2h ago)",
-   "Live updates: Bitcoin nears $64,000 as Anthropic\u2019s record IPO lifts tech (2h ago)"
+   "Financial firms must act now as quantum computers grow \u2018highly advanced,\u2019 IOSCO warns (2h ago)"
   ],
   "macro": [],
   "calendar": []
