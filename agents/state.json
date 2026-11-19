@@ -21,23 +21,29 @@
      "size": 2303086.1354214647,
      "deadline": 1795130919.4595213,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3437,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ONI",
+     "mint": "FSfZuwaRFVcTtVBsiJ45NYK7Mwi3ANRcVT8kpbevtPGj",
+     "side": 1,
+     "opened": 1795124269.4846048,
+     "entry": 8.322e-05,
+     "stop": 6.657600000000001e-05,
+     "target": 0.000116508,
+     "size": 2403268.445085316,
+     "deadline": 1795131469.484605,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3437,
+ "next_id": 3438,
  "runs": 119,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4bkDXwerxgdjHUv8c7jWeBAgSV7ibofTHpXardhvBYyJ": 1795124251.6981997,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795124251.6981997,
-  "seen:FieLZjbD3zkQ21ZCP7555jWUysSpqMLwEayjyR4KBp7k": 1795124251.6981997,
-  "seen:9aPK8yAJV7HAoYg31QFtsPSMN2FC4J5muuCRvtKgpump": 1795124251.6981997,
-  "seen:GQngHP8P6s45MxWnU7JsocfV2HjPQdJZmCEAYKpBpump": 1795124251.6981997,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795124251.6981997,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795124251.6981997,
-  "seen:EfFoZZgpDjJywmWqpA8Lqs5gC4NH6cj5N1G5D43vpump": 1795124251.6981997,
-  "control:9aPK8yAJV7HAoYg31QFtsPSMN2FC4J5muuCRvtKgpump": 1795124252.4804676,
   "seen:97Fz7Ki7GzBDLCz4LV69CTCyw4VqZV7GwL6dS9zsBtcJ": 1795124436.7150054,
   "seen:82u71wqQSa4NmD1UTTDwKyh5EUm3xe9pMp4UZXhFpump": 1795124436.7150054,
   "seen:5EpUkeRekk1uzWKoJz9fyYYA3Vwt6bTtdRNpVtkMpump": 1795124436.7150054,
@@ -48,7 +54,18 @@
   "seen:FCAqkB6agD2L1MrkS1iy1fmhHrGeKfY3W8Q14venpump": 1795124619.3313372,
   "seen:Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": 1795124619.3313372,
   "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795124619.3313372,
-  "control:6Pz9QBD23VJ5DUt3wMBqELwTEEHUPqRQBy25Ls6BoPX2": 1795124619.4595253
+  "control:6Pz9QBD23VJ5DUt3wMBqELwTEEHUPqRQBy25Ls6BoPX2": 1795124619.4595253,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795124803.2683613,
+  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795124803.2683613,
+  "seen:F2WDARive6KV3NWkmptudRDMGBs429LeRCU1DiLipump": 1795124985.6146264,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795124985.6146264,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795125168.9213932,
+  "seen:3hcJWcNvWJu3QBq6PiC8xavYQJJwBnr6adhdpHXppump": 1795125168.9213932,
+  "seen:GQngHP8P6s45MxWnU7JsocfV2HjPQdJZmCEAYKpBpump": 1795125168.9213932,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795125168.9213932,
+  "seen:EfFoZZgpDjJywmWqpA8Lqs5gC4NH6cj5N1G5D43vpump": 1795125168.9213932,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795125168.9213932,
+  "control:FSfZuwaRFVcTtVBsiJ45NYK7Mwi3ANRcVT8kpbevtPGj": 1795125169.4846094
  },
  "talks": {
   "2026-10-21": 109
@@ -89,17 +106,17 @@
  ],
  "last_review": 1795039977.6567757,
  "news": {
-  "t": 1795123351.7154202,
+  "t": 1795124268.9362652,
   "crypto": [
-   "MoonPay seeks US bank charter for stablecoin, custody services (0h ago)",
+   "MoonPay seeks US bank charter for stablecoin, custody services (1h ago)",
    "Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price (1h ago)",
-   "Trump\u2019s SEC nominee Johnson backs formal rulemaking for tokenized stock trading (1h ago)",
-   "Sky's USDS stablecoin shrinks 35% as $1.5 billion exits reserves after illicit-finance report (1h ago)",
+   "Trump\u2019s SEC nominee Johnson backs formal rulemaking for tokenized stock trading (2h ago)",
+   "Sky's USDS stablecoin shrinks 35% as $1.5 billion exits reserves after illicit-finance report (2h ago)",
    "Ethereum\u2019s Glamsterdam upgrade could slip to May 2027 over compatibility concerns (3h ago)",
    "Trump's Democratic SEC pick suggests tokenization policy deserves full rule process (3h ago)",
    "Why higher rates could slow Bitcoin buying at treasury firms (3h ago)",
-   "Bitcoin price ignores Anthropic debut as ANT share price dips below $100 (3h ago)",
-   "Anthropic gains after IPO, but pulls off highest levels (4h ago)",
+   "Bitcoin price ignores Anthropic debut as ANT share price dips below $100 (4h ago)",
+   "Anthropic gains after IPO, but pulls off highest levels (5h ago)",
    "Crypto for Advisors: Falling prices drove October\u2019s 10% drop in institutional crypto exposure (5h ago)"
   ],
   "macro": [],
