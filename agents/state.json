@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -73221.21366239642,
+   "cash": -73207.17729876006,
    "open": [
     {
      "id": 3404,
@@ -23,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 3407,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Apocrycoin",
-     "mint": "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump",
-     "side": 1,
-     "opened": 1795093489.2302356,
-     "entry": 0.0002569,
-     "stop": 0.00020552000000000002,
-     "target": 0.00035966,
-     "size": 778513.0400934216,
-     "deadline": 1795100689.2302358,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3409,
      "desk": "control",
      "market": "meme",
@@ -53,45 +38,44 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3412,
+     "id": 3413,
      "desk": "control",
      "market": "meme",
      "symbol": "PIPI",
      "mint": "Bd7mSgkiBbMs6jGG2651KXGnUNqFW89u5gTEMieppump",
      "side": 1,
-     "opened": 1795096419.4661174,
-     "entry": 0.0001375,
-     "stop": 0.00011,
-     "target": 0.0001925,
-     "size": 1454545.4545454544,
-     "deadline": 1795103619.4661174,
+     "opened": 1795097337.4852805,
+     "entry": 9.855e-05,
+     "stop": 7.884e-05,
+     "target": 0.00013796999999999998,
+     "size": 2029426.6869609335,
+     "deadline": 1795104537.4852808,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3413,
+ "next_id": 3414,
  "runs": 118,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5EpUkeRekk1uzWKoJz9fyYYA3Vwt6bTtdRNpVtkMpump": 1795096790.404612,
-  "seen:ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795097135.9991055,
-  "seen:6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": 1795097135.9991055,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795097135.9991055,
-  "seen:Bd7mSgkiBbMs6jGG2651KXGnUNqFW89u5gTEMieppump": 1795097135.9991055,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795097135.9991055,
-  "seen:A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump": 1795097135.9991055,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795097135.9991055,
-  "seen:DD9YaiEC1cyrztQ5aGSbwZZkRGxRm7Mh3Y7b2kfFpump": 1795097319.1843271,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795097319.1843271,
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795097319.1843271,
-  "control:Bd7mSgkiBbMs6jGG2651KXGnUNqFW89u5gTEMieppump": 1795097319.4661205,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795097502.6449807,
   "seen:2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX": 1795097502.6449807,
   "seen:79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": 1795097502.6449807,
   "seen:Fp4JkqEcKYKBKhb9iMu9NSDeo71HWgq2q9QtXaaKpump": 1795097685.7516835,
   "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795097685.7516835,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795097685.7516835
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795097685.7516835,
+  "seen:ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795098053.6328294,
+  "seen:6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": 1795098053.6328294,
+  "seen:Bd7mSgkiBbMs6jGG2651KXGnUNqFW89u5gTEMieppump": 1795098053.6328294,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795098053.6328294,
+  "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1795098053.6328294,
+  "seen:GF1VwALjnVn88iteQ3foCiJtJSoJ4pqaxDVvwt7VzWk7": 1795098237.402243,
+  "seen:5rbhRMh2tXaGQVpoj23WVRUJTPHKMXxgGKvqS5Jfc5cV": 1795098237.402243,
+  "seen:DD9YaiEC1cyrztQ5aGSbwZZkRGxRm7Mh3Y7b2kfFpump": 1795098237.402243,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795098237.402243,
+  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795098237.402243,
+  "control:Bd7mSgkiBbMs6jGG2651KXGnUNqFW89u5gTEMieppump": 1795098237.4852839
  },
  "talks": {
   "2026-10-21": 109
@@ -132,18 +116,18 @@
  ],
  "last_review": 1795039977.6567757,
  "news": {
-  "t": 1795096236.0120254,
+  "t": 1795097153.645804,
   "crypto": [
-   "Ethereum\u2019s new DeFi security tool raises questions over censorship (0h ago)",
+   "Here\u2019s what happened in crypto today (0h ago)",
+   "Ethereum\u2019s new DeFi security tool raises questions over censorship (1h ago)",
    "Crypto traders vs. Wall Street: OKX\u2019s Anthropic markets put IPO pricing to the test (1h ago)",
    "Hong Kong adds Hyperliquid to list of \u2018suspicious\u2019 crypto platforms (1h ago)",
    "Trump Media wants to clear $884 million of debt without selling its bitcoin (1h ago)",
-   "GTA VI publisher racks up nearly 3x Nvidia\u2019s tokenized stock volume (1h ago)",
-   "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut (1h ago)",
+   "GTA VI publisher racks up nearly 3x Nvidia\u2019s tokenized stock volume (2h ago)",
+   "Bitcoin ETF outflows show waning crypto appetite ahead of Anthropic's Nasdaq debut (2h ago)",
    "Bitcoin holds above $63,750 but Fed rate-hike threats loom large (2h ago)",
-   "North Korean hackers used Sky's stablecoin system, putting billions at freeze risk (2h ago)",
-   "Sweden\u2019s H100 could tap Bitcoin trading pool to fund share buybacks (3h ago)",
-   "Anthropic\u2019s $107 billion sale set to top SpaceX\u2019s IPO as tokenized stocks gain traction (3h ago)"
+   "North Korean hackers used Sky's stablecoin system, putting billions at freeze risk (3h ago)",
+   "Sweden\u2019s H100 could tap Bitcoin trading pool to fund share buybacks (3h ago)"
   ],
   "macro": [],
   "calendar": []
