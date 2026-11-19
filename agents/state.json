@@ -6,16 +6,29 @@
   },
   "control": {
    "cash": -72347.82327637804,
-   "open": []
+   "open": [
+    {
+     "id": 3376,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "DCTC",
+     "mint": "47f8bEDWs6VDpnnmxegyL4A3GbBVVcssrMQeBjPvpump",
+     "side": 1,
+     "opened": 1795059174.1375515,
+     "entry": 0.0001952,
+     "stop": 0.00015616000000000002,
+     "target": 0.00027328,
+     "size": 1024590.1639344263,
+     "deadline": 1795066374.1375515,
+     "thesis": "control: frozen v3 rules"
+    }
+   ]
   }
  },
- "next_id": 3376,
+ "next_id": 3377,
  "runs": 116,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795059165.3626251,
-  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1795059165.3626251,
-  "seen:7qgvmEdQSp5xhAss5efBRgCgywe1PRGMgb9ZAJsBpump": 1795059165.3626251,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795059346.3985267,
   "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795059346.3985267,
   "seen:BM5wUne5TCtqVn6QTwrQCZ6LAgY7pgVr7KSMzV1Gpump": 1795059346.3985267,
@@ -29,7 +42,10 @@
   "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1795059710.7844079,
   "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1795059891.5531683,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795059891.5531683,
-  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1795059891.5531683
+  "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1795059891.5531683,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795060074.091852,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795060074.091852,
+  "control:47f8bEDWs6VDpnnmxegyL4A3GbBVVcssrMQeBjPvpump": 1795060074.1375546
  },
  "talks": {
   "2026-10-21": 109
