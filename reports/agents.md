@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-19 06:46 UTC. Runs so far: 117. Model: claude-haiku-5-5.
+Updated 2026-11-19 07:04 UTC. Runs so far: 117. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3302 | 31 | -83288.76 | -115019.59 |
+| control | meme | 3303 | 31 | -83343.57 | -115083.25 |
 | control | macro | 70 | 50 | 329.03 | -17.33 |
-| control | all | 3372 | 31 | -82959.73 | -115036.92 |
+| control | all | 3373 | 31 | -83014.54 | -115100.58 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: PAPA long at 5.506e-05, stop 4.4048e-05, target 7.7084e-05, opened 2026-11-19 05:08 UTC
 - control: MAGACITY long at 5.64e-05, stop 4.512e-05, target 7.896e-05, opened 2026-11-19 05:11 UTC
 - control: CRIME long at 8.678e-05, stop 6.9424e-05, target 0.000121492, opened 2026-11-19 06:21 UTC
-- control: WhatUp long at 0.0001819, stop 0.00014552, target 0.00025466, opened 2026-11-19 06:46 UTC
+- control: CYBERLEEK long at 0.001426, stop 0.0011408, target 0.0019964, opened 2026-11-19 06:58 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-19 06:46 UTC control: OPENED WhatUp long at 0.0001819 (stop 0.00014552, target 0.00025466) - control: frozen v3 rules
+- control: CLOSED WhatUp (stop) P&L $-54.81 normal, $-63.66 pessimistic
 
