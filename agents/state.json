@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -73356.52493362591,
+   "cash": -73488.51266197054,
    "open": [
-    {
-     "id": 3417,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Apocrycoin",
-     "mint": "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump",
-     "side": 1,
-     "opened": 1795102281.2682142,
-     "entry": 0.0002099,
-     "stop": 0.00016792,
-     "target": 0.00029386,
-     "size": 952834.6831824678,
-     "deadline": 1795109481.2682145,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3418,
      "desk": "control",
@@ -38,42 +23,60 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3421,
+     "id": 3422,
      "desk": "control",
      "market": "meme",
-     "symbol": "MORALS",
-     "mint": "BmGMo3SDXw1y2L4fFMY8bsxonWNZ5MitUzuAkV3jmor",
+     "symbol": "AI",
+     "mint": "EE6CRsqqpvHwkCYK8hF15RmNccdq32vdbcQdX4afLoat",
      "side": 1,
-     "opened": 1795105747.392554,
-     "entry": 0.0001036,
-     "stop": 8.288e-05,
-     "target": 0.00014503999999999998,
-     "size": 1930501.9305019306,
-     "deadline": 1795112947.3925543,
+     "opened": 1795106114.9349616,
+     "entry": 0.0005339,
+     "stop": 0.00042712,
+     "target": 0.0007474599999999999,
+     "size": 374601.9853905226,
+     "deadline": 1795113314.934962,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3423,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "GME",
+     "mint": "8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB",
+     "side": 1,
+     "opened": 1795106297.629542,
+     "entry": 0.0003181,
+     "stop": 0.00025448,
+     "target": 0.00044533999999999996,
+     "size": 628733.1027978624,
+     "deadline": 1795113497.6295424,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3422,
+ "next_id": 3424,
  "runs": 118,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795105915.567616,
-  "seen:BoTx8y9ynfdxf5ZjWtCoBVkff52qKA82ysaLU8ZM6d8T": 1795105915.567616,
-  "seen:pwtKLrLyRZy78eM2mR74xxe7mzREH1MxGcbvZWApump": 1795106097.6558235,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795106097.6558235,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795106097.6558235,
-  "control:EE6CRsqqpvHwkCYK8hF15RmNccdq32vdbcQdX4afLoat": 1795106097.697347,
-  "seen:EE6CRsqqpvHwkCYK8hF15RmNccdq32vdbcQdX4afLoat": 1795106281.9526482,
-  "seen:6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": 1795106281.9526482,
-  "seen:FtSWWxVmKNXz8ksJxzJJ7BdDWXbQb3vC94J99oyypump": 1795106281.9526482,
   "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1795106465.1828067,
   "seen:BmGMo3SDXw1y2L4fFMY8bsxonWNZ5MitUzuAkV3jmor": 1795106465.1828067,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795106465.1828067,
   "seen:Au6Lx5eEQUsANpPaMttLj1anZDXvVQj9fXyYwMpSpump": 1795106465.1828067,
   "seen:2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX": 1795106647.3513331,
-  "control:BmGMo3SDXw1y2L4fFMY8bsxonWNZ5MitUzuAkV3jmor": 1795106647.392557
+  "control:BmGMo3SDXw1y2L4fFMY8bsxonWNZ5MitUzuAkV3jmor": 1795106647.392557,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795106829.7657406,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795106829.7657406,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795107014.8919744,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795107014.8919744,
+  "seen:pwtKLrLyRZy78eM2mR74xxe7mzREH1MxGcbvZWApump": 1795107014.8919744,
+  "seen:EKEWAk7hfnwfR8DBb1cTayPPambqyC7pwNiYkaYQKQHp": 1795107014.8919744,
+  "seen:8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB": 1795107014.8919744,
+  "control:EE6CRsqqpvHwkCYK8hF15RmNccdq32vdbcQdX4afLoat": 1795107014.9349658,
+  "seen:EE6CRsqqpvHwkCYK8hF15RmNccdq32vdbcQdX4afLoat": 1795107197.1962175,
+  "seen:6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": 1795107197.1962175,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795107197.1962175,
+  "control:8wXtPeU6557ETkp9WHFY1n1EcU6NxDvbAggHGsMYiHsB": 1795107197.6295452
  },
  "talks": {
   "2026-10-21": 109
@@ -114,10 +117,10 @@
  ],
  "last_review": 1795039977.6567757,
  "news": {
-  "t": 1795105381.9658396,
+  "t": 1795106297.2096977,
   "crypto": [
    "Crypto for Advisors: Falling prices drove October\u2019s 10% drop in institutional crypto exposure (0h ago)",
-   "Anthropic shares expected to open 26.5% above $83 IPO price (0h ago)",
+   "Anthropic shares expected to open 26.5% above $83 IPO price (1h ago)",
    "Binance wins $6.5 billion feezing order against hackers behind crypto's largest theft (1h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "Ethereum\u2019s new DeFi security tool raises questions over censorship (3h ago)",
