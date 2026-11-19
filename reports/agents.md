@@ -31,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-19 18:34 UTC control: OPENED KFC long at 7.807e-05 (stop 6.2456e-05, target 0.000109298) - control: frozen v3 rules
+## Run ended 2026-11-19 18:34 UTC
 
