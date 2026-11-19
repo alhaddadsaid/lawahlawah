@@ -5,38 +5,30 @@
    "open": []
   },
   "control": {
-   "cash": -72347.82327637804,
+   "cash": -72335.37655506657,
    "open": [
     {
-     "id": 3376,
+     "id": 3378,
      "desk": "control",
      "market": "meme",
-     "symbol": "DCTC",
-     "mint": "47f8bEDWs6VDpnnmxegyL4A3GbBVVcssrMQeBjPvpump",
+     "symbol": "Dacity",
+     "mint": "nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump",
      "side": 1,
-     "opened": 1795059174.1375515,
-     "entry": 0.0001952,
-     "stop": 0.00015616000000000002,
-     "target": 0.00027328,
-     "size": 1024590.1639344263,
-     "deadline": 1795066374.1375515,
+     "opened": 1795059597.9338157,
+     "entry": 0.0003139,
+     "stop": 0.00025112,
+     "target": 0.00043945999999999997,
+     "size": 637145.5877668047,
+     "deadline": 1795066797.933816,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3377,
- "runs": 116,
+ "next_id": 3379,
+ "runs": 117,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795059346.3985267,
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795059346.3985267,
-  "seen:BM5wUne5TCtqVn6QTwrQCZ6LAgY7pgVr7KSMzV1Gpump": 1795059346.3985267,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795059528.4693558,
-  "seen:47f8bEDWs6VDpnnmxegyL4A3GbBVVcssrMQeBjPvpump": 1795059528.4693558,
-  "seen:A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump": 1795059528.4693558,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795059528.4693558,
-  "control:92m4S52bu3dZyqzPmPStu8Krz6JcpzHdsG4D5QBqpump": 1795059528.9549458,
   "seen:EadD2LMp6EbH9PrbXUFWcrZKMhoKVrZN1gpwRhH5pump": 1795059710.7844079,
   "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795059710.7844079,
   "seen:8Xg89xT8Ve34sKiYqYuMs46mycREsCA2F362UscRpump": 1795059710.7844079,
@@ -45,7 +37,18 @@
   "seen:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1795059891.5531683,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795060074.091852,
   "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795060074.091852,
-  "control:47f8bEDWs6VDpnnmxegyL4A3GbBVVcssrMQeBjPvpump": 1795060074.1375546
+  "control:47f8bEDWs6VDpnnmxegyL4A3GbBVVcssrMQeBjPvpump": 1795060074.1375546,
+  "seen:8J2VUcwne16c5LeYCSGBagPf32tDSFeGDzmD5B7nfmkY": 1795060132.785886,
+  "seen:7qgvmEdQSp5xhAss5efBRgCgywe1PRGMgb9ZAJsBpump": 1795060132.785886,
+  "seen:8zHjeXjf5zs3v9cQ116GGfbTqAP6BYkkucNF1f8Hpump": 1795060132.785886,
+  "control:8zHjeXjf5zs3v9cQ116GGfbTqAP6BYkkucNF1f8Hpump": 1795060132.8278384,
+  "seen:43Z5f8GboUfc6M6wtaGGtFciEhLXixJEwQKv8wBUpump": 1795060316.2206807,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795060316.2206807,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795060497.6037273,
+  "seen:A4jXnWk1rDRDth6HmDASi45c89n1AguTHivAQPTVpump": 1795060497.6037273,
+  "seen:47f8bEDWs6VDpnnmxegyL4A3GbBVVcssrMQeBjPvpump": 1795060497.6037273,
+  "seen:92m4S52bu3dZyqzPmPStu8Krz6JcpzHdsG4D5QBqpump": 1795060497.6037273,
+  "control:nxPqZ4F7ux8Vph5NFu25rEP6Kx9Gr1U6Fmj36Rjpump": 1795060497.9338188
  },
  "talks": {
   "2026-10-21": 109
@@ -86,14 +89,14 @@
  ],
  "last_review": 1795039977.6567757,
  "news": {
-  "t": 1795058628.4824414,
+  "t": 1795059597.6141024,
   "crypto": [
    "Trump administration unveils new center to choke off scam payments (2h ago)",
    "Fed officials saw October rate hold as a \u2018close call,\u2019 minutes show (3h ago)",
    "Another U.S. appellate court goes against Kalshi, building the industry's legal headwinds (3h ago)",
    "Payward, the owner of crypto exchange Kraken, is buying its CEO\u2019s venture capital business, Tribe (5h ago)",
-   "Here\u2019s what happened in crypto today (5h ago)",
-   "Tether invokes The Big Short in swipe at S&P over USDT reserve risks (5h ago)",
+   "Here\u2019s what happened in crypto today (6h ago)",
+   "Tether invokes The Big Short in swipe at S&P over USDT reserve risks (6h ago)",
    "Ledger warns Berlin customers as hardware wallet tampering investigation expands (6h ago)",
    "Bain Capital Crypto leads $110M Variational round at $1.5B valuation (7h ago)",
    "Binance says it obtained $6.5B worldwide freezing order after hack (7h ago)",
