@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-20 06:07 UTC. Runs so far: 120. Model: claude-haiku-5-5.
+Updated 2026-11-20 06:16 UTC. Runs so far: 120. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3386 | 31 | -85175.85 | -117719.83 |
+| control | meme | 3387 | 31 | -85240.13 | -117792.72 |
 | control | macro | 71 | 49 | 223.65 | -125.55 |
-| control | all | 3457 | 31 | -84952.2 | -117845.38 |
+| control | all | 3458 | 31 | -85016.48 | -117918.27 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,6 +20,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: AI long at 5.96e-05, stop 4.768e-05, target 8.344e-05, opened 2026-11-20 04:30 UTC
 - control: Apocrycoin long at 0.0002154, stop 0.00017232, target 0.00030156, opened 2026-11-20 05:30 UTC
 - control: RUGGED long at 0.0001082, stop 8.656e-05, target 0.00015148, opened 2026-11-20 05:33 UTC
+- control: apocry  long at 0.0001632, stop 0.00013056, target 0.00022848, opened 2026-11-20 06:16 UTC
 
 ## Team
 
@@ -32,6 +33,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED apocry  (target) P&L $68.0 normal, $56.0 pessimistic
-- control: CLOSED CRIME (stop) P&L $-165.62 normal, $-171.63 pessimistic
+- team: model call failed:  HTTP 401: invalid x-api-key
+- 2026-11-20 06:16 UTC control: OPENED apocry  long at 0.0001632 (stop 0.00013056, target 0.00022848) - control: frozen v3 rules
 
