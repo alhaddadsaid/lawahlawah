@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -74854.38326542244,
+   "cash": -74952.000623913,
    "open": [
     {
      "id": 3468,
@@ -51,50 +51,36 @@
      "size": 1848428.8354898337,
      "deadline": 1795160035.5761185,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3478,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "apocry ",
-     "mint": "HVxXzEt87QszpC95kMKAfrHdboj4K1TVxYNMzwmbpump",
-     "side": 1,
-     "opened": 1795154113.5555496,
-     "entry": 0.000166,
-     "stop": 0.0001328,
-     "target": 0.00023239999999999998,
-     "size": 1204819.2771084337,
-     "deadline": 1795161313.5555499,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3479,
+ "next_id": 3480,
  "runs": 120,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795154283.4725397,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795154283.4725397,
-  "seen:KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump": 1795154283.4725397,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795154283.4725397,
-  "seen:5Qyjb6Znvqs7eD2pySarD5UAb3Wgevo5ot5E8r65MiS5": 1795154465.5500064,
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795154465.5500064,
-  "seen:8s9mb8VJE8D8fZzRqjGjuGpfhbXCq4bXMVvMK2N3KF48": 1795154647.611753,
-  "seen:Csoj9XHJfBAxsKswqKKBENnGeoRDHtACfyYi7HmJpump": 1795154647.611753,
-  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795154647.611753,
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1795154647.611753,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795154647.611753,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795154647.611753,
-  "seen:8VvT87FRAZY9m2VsvpvVA5zhHSZGXd5eC2SrPDHbpump": 1795154831.3040028,
-  "seen:86hUfyujsZsWkWtcCumFzJNwuDAkzqGHDrFJvyGxpump": 1795154831.3040028,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795154831.3040028,
-  "control:8VvT87FRAZY9m2VsvpvVA5zhHSZGXd5eC2SrPDHbpump": 1795154831.348371,
   "seen:Hj3Y3Gj9uF4dGDGTCdygQRNxG7QySWX4SYPHVv3Ppump": 1795155013.4013474,
   "seen:HVxXzEt87QszpC95kMKAfrHdboj4K1TVxYNMzwmbpump": 1795155013.4013474,
   "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795155013.4013474,
   "seen:ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795155013.4013474,
-  "control:HVxXzEt87QszpC95kMKAfrHdboj4K1TVxYNMzwmbpump": 1795155013.5555534
+  "control:HVxXzEt87QszpC95kMKAfrHdboj4K1TVxYNMzwmbpump": 1795155013.5555534,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795155195.380101,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795155195.380101,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795155195.380101,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795155195.380101,
+  "seen:KMifrkYmDdAKtVXAVBEPEQxJ7qP2iLgUcfZjUZipump": 1795155195.380101,
+  "seen:GT8WxWKEgxzZiKL89Uu288vb8jnescwpNSrvyHzcpump": 1795155195.380101,
+  "control:8s9mb8VJE8D8fZzRqjGjuGpfhbXCq4bXMVvMK2N3KF48": 1795155378.7701144,
+  "seen:8s9mb8VJE8D8fZzRqjGjuGpfhbXCq4bXMVvMK2N3KF48": 1795155560.78293,
+  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795155560.78293,
+  "seen:Csoj9XHJfBAxsKswqKKBENnGeoRDHtACfyYi7HmJpump": 1795155560.78293,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795155560.78293,
+  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795155560.78293,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795155560.78293,
+  "seen:8VvT87FRAZY9m2VsvpvVA5zhHSZGXd5eC2SrPDHbpump": 1795155743.1458988,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795155743.1458988,
+  "seen:Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": 1795155743.1458988,
+  "seen:79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump": 1795155743.1458988
  },
  "talks": {
   "2026-10-21": 109
@@ -135,18 +121,18 @@
  ],
  "last_review": 1795126461.9547899,
  "news": {
-  "t": 1795153747.6249607,
+  "t": 1795154660.796617,
   "crypto": [
-   "This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive (0h ago)",
-   "Big money bought a net $4 billion of bitcoin funds in Q3, ending 9 months of selling (0h ago)",
+   "Here\u2019s what happened in crypto today (0h ago)",
+   "This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive (1h ago)",
+   "Big money bought a net $4 billion of bitcoin funds in Q3, ending 9 months of selling (1h ago)",
    "Ethereum\u2019s next big upgrade is pushed into 2027 by apps it would break (1h ago)",
-   "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs (1h ago)",
-   "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak (2h ago)",
-   "Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt (2h ago)",
+   "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs (2h ago)",
+   "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak (3h ago)",
+   "Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt (3h ago)",
    "Ledger CTO Charles Guillemet to leave after nine years at company (6h ago)",
-   "Binance\u2019s $6.5B freeze order, Hong Kong \u2018suspicious\u2019 of HYPE: Asia Express (7h ago)",
-   "MoonPay seeks US bank charter for stablecoin, custody services (9h ago)",
-   "Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price (9h ago)"
+   "Binance\u2019s $6.5B freeze order, Hong Kong \u2018suspicious\u2019 of HYPE: Asia Express (8h ago)",
+   "MoonPay seeks US bank charter for stablecoin, custody services (9h ago)"
   ],
   "macro": [],
   "calendar": []
