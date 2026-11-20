@@ -66,29 +66,45 @@
      "size": 2143852.502947797,
      "deadline": 1795166059.1392643,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3489,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PATRICK",
+     "mint": "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump",
+     "side": 1,
+     "opened": 1795160496.8943279,
+     "entry": 6.468e-05,
+     "stop": 5.1744e-05,
+     "target": 9.0552e-05,
+     "size": 3092145.9492888064,
+     "deadline": 1795167696.894328,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3489,
+ "next_id": 3490,
  "runs": 120,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": 1795160488.0125546,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795160488.0125546,
-  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795160488.0125546,
-  "seen:HVxXzEt87QszpC95kMKAfrHdboj4K1TVxYNMzwmbpump": 1795160488.0125546,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795160669.6682088,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795160669.6682088,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795160669.6682088,
-  "seen:6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": 1795160669.6682088,
-  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795160669.6682088,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795160852.902744,
-  "seen:8rYCfBoCMxQLgfuPdfs8uFoMS6xYHJpZtqEecV8fyMaG": 1795161034.2553298,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795161034.2553298,
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795161034.2553298,
   "seen:43EbdMhpeoj6CmWhW7EDSmkxXqavwQxzR7RkLvZS7MWP": 1795161216.5821576,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795161216.5821576
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795161216.5821576,
+  "seen:8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": 1795161396.764113,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795161396.764113,
+  "seen:HVxXzEt87QszpC95kMKAfrHdboj4K1TVxYNMzwmbpump": 1795161396.764113,
+  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795161396.764113,
+  "control:8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": 1795161396.8943312,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795161583.8785114,
+  "seen:9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump": 1795161583.8785114,
+  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795161583.8785114,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795161583.8785114,
+  "seen:H4BpLUZm4r9269UXJziP9bUetMgJv5fWWPBsUP2bpump": 1795161583.8785114,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795161765.5374084,
+  "seen:6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": 1795161765.5374084,
+  "seen:CP2ignAgzsVgEzRfM43GZH1a5VYqZuBtKbyWCeEfvpHr": 1795161947.200815,
+  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795161947.200815
  },
  "talks": {
   "2026-10-21": 109
@@ -129,11 +145,11 @@
  ],
  "last_review": 1795126461.9547899,
  "news": {
-  "t": 1795160134.269062,
+  "t": 1795161047.2143698,
   "crypto": [
    "Anthropic\u2019s $81B IPO draws half the net retail buying of SpaceX\u2019s (1h ago)",
-   "Here's what's crashing gold and likely weighing on bitcoin too (1h ago)",
-   "Anthropic shares may fall 5% at Friday\u2019s open, crypto futures suggest (1h ago)",
+   "Here's what's crashing gold and likely weighing on bitcoin too (2h ago)",
+   "Anthropic shares may fall 5% at Friday\u2019s open, crypto futures suggest (2h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive (2h ago)",
    "Big money bought a net $4 billion of bitcoin funds in Q3, ending 9 months of selling (2h ago)",
@@ -173,5 +189,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795159222.7066267
+ "last_macro_macro": 1795160496.7775626
 }
