@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-20 06:16 UTC. Runs so far: 120. Model: claude-haiku-5-5.
+Updated 2026-11-20 06:25 UTC. Runs so far: 120. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -21,6 +21,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: Apocrycoin long at 0.0002154, stop 0.00017232, target 0.00030156, opened 2026-11-20 05:30 UTC
 - control: RUGGED long at 0.0001082, stop 8.656e-05, target 0.00015148, opened 2026-11-20 05:33 UTC
 - control: apocry  long at 0.0001632, stop 0.00013056, target 0.00022848, opened 2026-11-20 06:16 UTC
+- control: APCY long at 7.925e-05, stop 6.34e-05, target 0.00011095, opened 2026-11-20 06:22 UTC
 
 ## Team
 
@@ -33,6 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 401: invalid x-api-key
-- 2026-11-20 06:16 UTC control: OPENED apocry  long at 0.0001632 (stop 0.00013056, target 0.00022848) - control: frozen v3 rules
+- control: order ANTCAP REJECTED by guardrails: desk already has the maximum open positions
 
