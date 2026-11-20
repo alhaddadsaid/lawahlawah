@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-20 00:22 UTC. Runs so far: 119. Model: claude-haiku-5-5.
+Updated 2026-11-20 00:34 UTC. Runs so far: 119. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3356 | 31 | -84470.35 | -116724.72 |
+| control | meme | 3357 | 31 | -84402.35 | -116668.72 |
 | control | macro | 71 | 49 | 223.65 | -125.55 |
-| control | all | 3427 | 31 | -84246.7 | -116850.27 |
+| control | all | 3428 | 31 | -84178.7 | -116794.27 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: CYBERLEEK long at 0.00193, stop 0.001544, target 0.002702, opened 2026-11-20 00:10 UTC
 - control: Mandy long at 0.0001984, stop 0.00015872, target 0.00027776, opened 2026-11-20 00:13 UTC
 - control: PIPI long at 0.000254, stop 0.0002032, target 0.0003556, opened 2026-11-20 00:16 UTC
-- control: COOKIE long at 0.0001884, stop 0.00015072, target 0.00026376, opened 2026-11-20 00:22 UTC
 
 ## Team
 
@@ -34,5 +33,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-20 00:22 UTC control: OPENED COOKIE long at 0.0001884 (stop 0.00015072, target 0.00026376) - control: frozen v3 rules
+- team: model call failed:  HTTP 401: invalid x-api-key
+- control: order PIPI REJECTED by guardrails: PIPI already open
 
