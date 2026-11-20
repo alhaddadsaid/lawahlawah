@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -74943.04824940933,
+   "cash": -74997.56640270381,
    "open": [
     {
      "id": 3485,
@@ -51,36 +51,46 @@
      "size": 1141552.511415525,
      "deadline": 1795168793.0534172,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3492,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PAID",
+     "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+     "side": 1,
+     "opened": 1795162869.8653865,
+     "entry": 0.001228,
+     "stop": 0.0009824,
+     "target": 0.0017192,
+     "size": 162866.44951140066,
+     "deadline": 1795170069.8653865,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3491,
+ "next_id": 3493,
  "runs": 120,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CFv1JsjhW4zX4VJVVgZt6jbMVB8gE5vMNvNJ3SF1PBMr": 1795162311.3174758,
-  "seen:AMC1qwR9KhiyrQBRPrxnfo4JfMeMZqEBvt5tgTytNNoc": 1795162311.3174758,
-  "seen:Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": 1795162311.3174758,
-  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795162311.3174758,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795162311.3174758,
-  "seen:HVxXzEt87QszpC95kMKAfrHdboj4K1TVxYNMzwmbpump": 1795162311.3174758,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795162311.3174758,
-  "seen:GSDmcATcR5s7vXZfN38UzBQxBEFWKxcfM3vaww9Bpump": 1795162493.0116668,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795162493.0116668,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795162493.0116668,
-  "seen:4JXD928hGokbE3SEbkUBHiqGb1qMUPGQdnvGyfZupump": 1795162493.0116668,
-  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795162493.0116668,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795162493.0116668,
-  "control:Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": 1795162493.0534198,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795162676.4386687,
-  "seen:9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump": 1795162676.4386687,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795162676.4386687,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795162676.4386687,
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795162858.2312102,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795162858.2312102,
-  "seen:UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL": 1795162858.2312102,
-  "seen:7gGPVk1P9d8Pe5r63QtGUyijqx9HREHne65EmShDpump": 1795162858.2312102
+  "seen:AMC1qwR9KhiyrQBRPrxnfo4JfMeMZqEBvt5tgTytNNoc": 1795163223.9305654,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795163223.9305654,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795163223.9305654,
+  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795163223.9305654,
+  "seen:HVxXzEt87QszpC95kMKAfrHdboj4K1TVxYNMzwmbpump": 1795163223.9305654,
+  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795163223.9305654,
+  "seen:6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": 1795163223.9305654,
+  "control:HVxXzEt87QszpC95kMKAfrHdboj4K1TVxYNMzwmbpump": 1795163223.9725587,
+  "seen:AFWLkaPWJ9AAYyHt9vjurwRF2qBw5vSCQFSZ78TNd6oz": 1795163405.8953621,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795163405.8953621,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795163405.8953621,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795163587.53291,
+  "seen:9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump": 1795163587.53291,
+  "seen:7gGPVk1P9d8Pe5r63QtGUyijqx9HREHne65EmShDpump": 1795163769.4224908,
+  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795163769.4224908,
+  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1795163769.4224908,
+  "control:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1795163769.8653893
  },
  "talks": {
   "2026-10-21": 109
@@ -121,9 +131,10 @@
  ],
  "last_review": 1795126461.9547899,
  "news": {
-  "t": 1795161958.245129,
+  "t": 1795162869.4364033,
   "crypto": [
    "Wrapped Monero token plunges 99% as issuer-linked wallet sells $13.5 million (0h ago)",
+   "SEC charges eight firms over fake crypto platforms tied to $37M fraud (0h ago)",
    "Anthropic\u2019s $81B IPO draws half the net retail buying of SpaceX\u2019s (2h ago)",
    "Here's what's crashing gold and likely weighing on bitcoin too (2h ago)",
    "Anthropic shares may fall 5% at Friday\u2019s open, crypto futures suggest (2h ago)",
@@ -131,8 +142,7 @@
    "This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive (3h ago)",
    "Big money bought a net $4 billion of bitcoin funds in Q3, ending 9 months of selling (3h ago)",
    "Ethereum\u2019s next big upgrade is pushed into 2027 by apps it would break (3h ago)",
-   "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs (4h ago)",
-   "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak (5h ago)"
+   "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs (4h ago)"
   ],
   "macro": [],
   "calendar": []
