@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -75619.86894594265,
+   "cash": -75731.75103407781,
    "open": [
-    {
-     "id": 3515,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CATMARIO",
-     "mint": "Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump",
-     "side": 1,
-     "opened": 1795183910.605981,
-     "entry": 0.0001245,
-     "stop": 9.960000000000001e-05,
-     "target": 0.00017429999999999998,
-     "size": 1606425.702811245,
-     "deadline": 1795191110.6059813,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3516,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "RUDY",
-     "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
-     "side": 1,
-     "opened": 1795188830.8399897,
-     "entry": 0.0001104,
-     "stop": 8.832000000000001e-05,
-     "target": 0.00015455999999999998,
-     "size": 1811594.2028985508,
-     "deadline": 1795196030.83999,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3517,
      "desk": "control",
@@ -51,32 +21,61 @@
      "size": 1855287.569573284,
      "deadline": 1795196940.9505305,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3518,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "RUDY",
+     "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
+     "side": 1,
+     "opened": 1795190654.8689601,
+     "entry": 8.472e-05,
+     "stop": 6.777600000000001e-05,
+     "target": 0.000118608,
+     "size": 2360717.658168083,
+     "deadline": 1795197854.8689606,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3519,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "fone",
+     "mint": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
+     "side": 1,
+     "opened": 1795191019.9754488,
+     "entry": 0.0006063,
+     "stop": 0.00048504000000000006,
+     "target": 0.00084882,
+     "size": 329869.70146792015,
+     "deadline": 1795198219.9754493,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3518,
+ "next_id": 3520,
  "runs": 121,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795190640.9070826,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795190640.9070826,
-  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795190640.9070826,
-  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795190640.9070826,
-  "seen:HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep": 1795190640.9070826,
-  "control:HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep": 1795190640.9505336,
-  "seen:6v1kBSPzK2LCA3hzLv7WNMsgEF735nTSLBwgQ15bpump": 1795190824.838523,
-  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795190824.838523,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795190824.838523,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795190824.838523,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795190824.838523,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795191007.1540504,
-  "seen:DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": 1795191007.1540504,
   "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1795191189.4354732,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795191189.4354732,
   "seen:GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": 1795191189.4354732,
   "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795191189.4354732,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795191371.4648912
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795191371.4648912,
+  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795191554.8228366,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795191554.8228366,
+  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795191554.8228366,
+  "control:GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": 1795191554.8689644,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795191736.7811244,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795191736.7811244,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795191736.7811244,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795191736.7811244,
+  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795191736.7811244,
+  "seen:DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": 1795191919.9341726,
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1795191919.9341726,
+  "control:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1795191919.9754527
  },
  "talks": {
   "2026-10-21": 109
@@ -117,18 +116,18 @@
  ],
  "last_review": 1795126461.9547899,
  "news": {
-  "t": 1795189924.8588786,
+  "t": 1795190836.798617,
   "crypto": [
-   "DBS bets it can lose the deposit and keep the client (0h ago)",
+   "US Senate advances prediction market restrictions with DEATH BETS Act (0h ago)",
+   "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off (0h ago)",
+   "DBS bets it can lose the deposit and keep the client (1h ago)",
+   "Former Point72 head of proprietary research says AI could turn data into a new asset class for Wall Street (1h ago)",
    "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians (1h ago)",
-   "U.S. Senate passes bill to ban prediction market bets on war and death (1h ago)",
-   "Live news: Bitcoin slips to fresh lows near $60,000 as Anthropic slides after Nasdaq debut (2h ago)",
-   "Bitcoin bots pounced within seconds when researchers exposed their wallet keys (2h ago)",
-   "Here\u2019s what happened in crypto today (2h ago)",
-   "Lagarde warns Europe could miss chance to unify tokenized markets (3h ago)",
-   "ECB\u2019s Lagarde warns Europe could lose control of growing tokenized asset market (3h ago)",
-   "Bitcoin, stocks and gold traders getting nervous, and volatility gauges are surging (4h ago)",
-   "Bitcoin drops for third straight day as Asian tech shares slide (4h ago)"
+   "U.S. Senate passes bill to ban prediction market bets on war and death (2h ago)",
+   "Live news: Bitcoin slips to fresh lows near $60,000 as Anthropic slides after Nasdaq debut (3h ago)",
+   "Bitcoin bots pounced within seconds when researchers exposed their wallet keys (3h ago)",
+   "Here\u2019s what happened in crypto today (3h ago)",
+   "Lagarde warns Europe could miss chance to unify tokenized markets (3h ago)"
   ],
   "macro": [],
   "calendar": []

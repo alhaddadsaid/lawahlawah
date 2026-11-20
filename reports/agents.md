@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-20 16:01 UTC. Runs so far: 121. Model: claude-haiku-5-5.
+Updated 2026-11-20 16:10 UTC. Runs so far: 121. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3423 | 31 | -85731.25 | -118640.5 |
+| control | meme | 3425 | 31 | -85843.13 | -118770.03 |
 | control | macro | 72 | 49 | 111.21 | -244.14 |
-| control | all | 3495 | 31 | -85620.04 | -118884.64 |
+| control | all | 3497 | 31 | -85731.92 | -119014.17 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: CATMARIO long at 0.0001245, stop 9.96e-05, target 0.0001743, opened 2026-11-20 14:11 UTC
-- control: RUDY long at 0.0001104, stop 8.832e-05, target 0.00015456, opened 2026-11-20 15:33 UTC
 - control: THUG long at 0.0001078, stop 8.624e-05, target 0.00015092, opened 2026-11-20 15:49 UTC
+- control: RUDY long at 8.472e-05, stop 6.7776e-05, target 0.000118608, opened 2026-11-20 16:04 UTC
+- control: fone long at 0.0006063, stop 0.00048504, target 0.00084882, opened 2026-11-20 16:10 UTC
 
 ## Team
 
@@ -32,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order RUDY REJECTED by guardrails: RUDY already open
+- 2026-11-20 16:10 UTC control: OPENED fone long at 0.0006063 (stop 0.00048504, target 0.00084882) - control: frozen v3 rules
 
