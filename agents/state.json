@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -75016.27769397669,
+   "cash": -74943.25340484394,
    "open": [
-    {
-     "id": 3468,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "AI",
-     "mint": "42W5HzJeTWudP5DdGCAuj9WyZRJHdZpvxiDu3CD952y8",
-     "side": 1,
-     "opened": 1795149001.3285856,
-     "entry": 5.96e-05,
-     "stop": 4.7680000000000004e-05,
-     "target": 8.343999999999999e-05,
-     "size": 3355704.697986577,
-     "deadline": 1795156201.328586,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3474,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Apocrycoin",
-     "mint": "79rE2ac8JhN3U12QLhymgDmCTiwBN1d4maTcK1fhpump",
-     "side": 1,
-     "opened": 1795152652.978649,
-     "entry": 0.0002154,
-     "stop": 0.00017232,
-     "target": 0.00030156,
-     "size": 928505.1067780872,
-     "deadline": 1795159852.9786491,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3475,
      "desk": "control",
@@ -53,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3481,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "apocry ",
-     "mint": "HVxXzEt87QszpC95kMKAfrHdboj4K1TVxYNMzwmbpump",
-     "side": 1,
-     "opened": 1795155391.2878952,
-     "entry": 0.0001632,
-     "stop": 0.00013056000000000002,
-     "target": 0.00022848,
-     "size": 1225490.1960784313,
-     "deadline": 1795162591.2878954,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3482,
      "desk": "control",
      "market": "meme",
@@ -81,35 +36,48 @@
      "size": 2523659.3059936906,
      "deadline": 1795162956.8913324,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3483,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CATMARIO",
+     "mint": "Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump",
+     "side": 1,
+     "opened": 1795156304.9506657,
+     "entry": 0.0001323,
+     "stop": 0.00010584,
+     "target": 0.00018521999999999996,
+     "size": 1511715.7974300832,
+     "deadline": 1795163504.950666,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3483,
+ "next_id": 3484,
  "runs": 120,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795156108.7678146,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795156108.7678146,
-  "seen:ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795156108.7678146,
-  "control:Csoj9XHJfBAxsKswqKKBENnGeoRDHtACfyYi7HmJpump": 1795156108.8121228,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795156291.1526625,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795156291.1526625,
-  "control:HVxXzEt87QszpC95kMKAfrHdboj4K1TVxYNMzwmbpump": 1795156291.287898,
-  "seen:Hadb2KHBRYhuepQuXzPFEZZnQFaoYbWjgHdxKtwgfaJq": 1795156473.2373326,
-  "seen:Csoj9XHJfBAxsKswqKKBENnGeoRDHtACfyYi7HmJpump": 1795156473.2373326,
-  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795156473.2373326,
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795156473.2373326,
-  "seen:FSkyjfqB26u6c2GSgpACrjbxp9yQAR8rutxprVNppump": 1795156473.2373326,
-  "seen:Hj3Y3Gj9uF4dGDGTCdygQRNxG7QySWX4SYPHVv3Ppump": 1795156656.846466,
-  "seen:8VvT87FRAZY9m2VsvpvVA5zhHSZGXd5eC2SrPDHbpump": 1795156656.846466,
-  "control:Hj3Y3Gj9uF4dGDGTCdygQRNxG7QySWX4SYPHVv3Ppump": 1795156656.8913355,
   "seen:EbMwuXWcGN4pmGgAs25Qp1EjCtYZPtCW1tTy5NHhCjiW": 1795156839.5495398,
   "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795156839.5495398,
   "seen:32HhehDvg6RcDZmtXNuxcdKcSUzzDMpv35mA1YNHpump": 1795156839.5495398,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795156839.5495398,
   "seen:HVxXzEt87QszpC95kMKAfrHdboj4K1TVxYNMzwmbpump": 1795156839.5495398,
-  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795156839.5495398
+  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795156839.5495398,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795157021.7324107,
+  "seen:UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL": 1795157021.7324107,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795157021.7324107,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795157204.9071796,
+  "seen:EU9E8FThg982kRfTMQfw4wFAD2iMMVorRzXeGrn6pump": 1795157204.9071796,
+  "seen:Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": 1795157204.9071796,
+  "control:Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": 1795157204.9506686,
+  "seen:Hadb2KHBRYhuepQuXzPFEZZnQFaoYbWjgHdxKtwgfaJq": 1795157386.9895687,
+  "seen:Csoj9XHJfBAxsKswqKKBENnGeoRDHtACfyYi7HmJpump": 1795157386.9895687,
+  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795157386.9895687,
+  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795157386.9895687,
+  "seen:7xumDqxh6AfkPov41c2R6SdCiPrZdWJJTsbogiSepump": 1795157386.9895687,
+  "seen:ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795157569.4382982
  },
  "talks": {
   "2026-10-21": 109
@@ -150,18 +118,18 @@
  ],
  "last_review": 1795126461.9547899,
  "news": {
-  "t": 1795155573.250312,
+  "t": 1795156487.0030205,
   "crypto": [
+   "Anthropic\u2019s $81B IPO draws half the net retail buying of SpaceX\u2019s (0h ago)",
    "Here's what's crashing gold and likely weighing on bitcoin too (0h ago)",
    "Anthropic shares may fall 5% at Friday\u2019s open, crypto futures suggest (0h ago)",
-   "Here\u2019s what happened in crypto today (0h ago)",
+   "Here\u2019s what happened in crypto today (1h ago)",
    "This Bitcoin miner sold 267 BTC to clear $22 million debt. It still may not survive (1h ago)",
    "Big money bought a net $4 billion of bitcoin funds in Q3, ending 9 months of selling (1h ago)",
-   "Ethereum\u2019s next big upgrade is pushed into 2027 by apps it would break (1h ago)",
+   "Ethereum\u2019s next big upgrade is pushed into 2027 by apps it would break (2h ago)",
    "VanEck drops Gemini as custodian of its bitcoin, ether and SOL ETFs (2h ago)",
    "Institutions pile back into US Bitcoin ETFs in Q3 after selling streak (3h ago)",
-   "Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt (3h ago)",
-   "Ledger CTO Charles Guillemet to leave after nine years at company (7h ago)"
+   "Bitcoin hits four-month low after Anthropic's IPO as tech stocks wilt (3h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -194,5 +162,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795155391.1659646
+ "last_macro_macro": 1795156669.4516556
 }
