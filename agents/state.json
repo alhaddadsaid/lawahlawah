@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -75731.75103407781,
+   "cash": -75782.14586410613,
    "open": [
     {
      "id": 3517,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3518,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "RUDY",
-     "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
-     "side": 1,
-     "opened": 1795190654.8689601,
-     "entry": 8.472e-05,
-     "stop": 6.777600000000001e-05,
-     "target": 0.000118608,
-     "size": 2360717.658168083,
-     "deadline": 1795197854.8689606,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3519,
      "desk": "control",
      "market": "meme",
@@ -51,22 +36,29 @@
      "size": 329869.70146792015,
      "deadline": 1795198219.9754493,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3520,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "RUDY",
+     "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
+     "side": 1,
+     "opened": 1795191935.364775,
+     "entry": 8.636e-05,
+     "stop": 6.9088e-05,
+     "target": 0.00012090399999999999,
+     "size": 2315886.9847151455,
+     "deadline": 1795199135.3647752,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3520,
+ "next_id": 3521,
  "runs": 121,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795191736.7811244,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795191736.7811244,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795191736.7811244,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795191736.7811244,
-  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795191736.7811244,
-  "seen:DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": 1795191919.9341726,
-  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1795191919.9341726,
-  "control:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1795191919.9754527,
   "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1795192103.705724,
   "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795192103.705724,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795192103.705724,
@@ -75,7 +67,15 @@
   "seen:5kDzqvfJGh8wYqwefP7JWWeoT8rq5RR5CBQFc65ipump": 1795192286.3463438,
   "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795192286.3463438,
   "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795192468.418143,
-  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795192468.418143
+  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795192468.418143,
+  "seen:33VG5BFRPfK58F4Xon84B2zY6qRuS7AMpXkcFiXVY8ZU": 1795192652.8968883,
+  "seen:5jo52CReMKa15JRHhHvBNVsfJEFLdMeDkhnXmL9Rpump": 1795192652.8968883,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795192652.8968883,
+  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795192652.8968883,
+  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1795192652.8968883,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795192652.8968883,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795192652.8968883,
+  "control:GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": 1795192835.364779
  },
  "talks": {
   "2026-10-21": 109
@@ -116,15 +116,15 @@
  ],
  "last_review": 1795126461.9547899,
  "news": {
-  "t": 1795190836.798617,
+  "t": 1795191752.9142315,
   "crypto": [
    "US Senate advances prediction market restrictions with DEATH BETS Act (0h ago)",
-   "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off (0h ago)",
+   "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off (1h ago)",
    "DBS bets it can lose the deposit and keep the client (1h ago)",
    "Former Point72 head of proprietary research says AI could turn data into a new asset class for Wall Street (1h ago)",
-   "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians (1h ago)",
+   "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians (2h ago)",
    "U.S. Senate passes bill to ban prediction market bets on war and death (2h ago)",
-   "Live news: Bitcoin slips to fresh lows near $60,000 as Anthropic slides after Nasdaq debut (3h ago)",
+   "Live news: Bitcoin slips to fresh lows below $60,000 as Anthropic slides after Nasdaq debut (3h ago)",
    "Bitcoin bots pounced within seconds when researchers exposed their wallet keys (3h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "Lagarde warns Europe could miss chance to unify tokenized markets (3h ago)"
