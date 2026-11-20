@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -75321.8285047782,
+   "cash": -75333.45006510477,
    "open": [
-    {
-     "id": 3499,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "scat",
-     "mint": "5EpUkeRekk1uzWKoJz9fyYYA3Vwt6bTtdRNpVtkMpump",
-     "side": 1,
-     "opened": 1795175887.8066883,
-     "entry": 6.614e-05,
-     "stop": 5.2912000000000004e-05,
-     "target": 9.259599999999999e-05,
-     "size": 3023888.720895071,
-     "deadline": 1795183087.8066885,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3509,
      "desk": "control",
@@ -51,33 +36,65 @@
      "size": 1561280.24980484,
      "deadline": 1795189651.7107005,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3511,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "DacityCoin",
+     "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
+     "side": 1,
+     "opened": 1795182632.564772,
+     "entry": 0.0002738,
+     "stop": 0.00021904,
+     "target": 0.00038332,
+     "size": 730460.1899196494,
+     "deadline": 1795189832.5647721,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3512,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Catnomics",
+     "mint": "BR3TZmbCPtyTpgLBtUvJocMbxPt2pw3CBSUJ5oq6pump",
+     "side": 1,
+     "opened": 1795182814.3721745,
+     "entry": 5.848e-05,
+     "stop": 4.6784e-05,
+     "target": 8.1872e-05,
+     "size": 3419972.640218878,
+     "deadline": 1795190014.3721747,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3511,
+ "next_id": 3513,
  "runs": 121,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795182622.6599016,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795182622.6599016,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795182622.6599016,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795182622.6599016,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795182622.6599016,
-  "control:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795182623.2076716,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795182805.726801,
-  "seen:AMC1qwR9KhiyrQBRPrxnfo4JfMeMZqEBvt5tgTytNNoc": 1795182805.726801,
-  "seen:GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": 1795182805.726801,
-  "seen:Gt9qKqRKdDK2mSczG9WYgRqS8pZkCw47ZW71iW34pump": 1795182805.726801,
-  "seen:9pktL7hPzun1Y1e3T4dLKSqsPiSDSoyxSYtmsnJcpump": 1795182988.580161,
-  "seen:7ycjv7RnffKDdLifHuRUDRhBbe3oQk9qp7EvViGshcMr": 1795182988.580161,
-  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795182988.580161,
   "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795183170.040728,
   "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795183170.040728,
   "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795183351.584176,
   "seen:gHZhqEnFnitWCJ1MA2i9BzqTReFMhsGmbdL17xypump": 1795183351.584176,
   "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795183351.584176,
-  "control:GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": 1795183351.7107043
+  "control:GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": 1795183351.7107043,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795183532.186451,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795183532.186451,
+  "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795183532.186451,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795183532.186451,
+  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795183532.186451,
+  "control:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795183532.5647755,
+  "seen:AMC1qwR9KhiyrQBRPrxnfo4JfMeMZqEBvt5tgTytNNoc": 1795183714.3305123,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795183714.3305123,
+  "seen:BR3TZmbCPtyTpgLBtUvJocMbxPt2pw3CBSUJ5oq6pump": 1795183714.3305123,
+  "seen:GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": 1795183714.3305123,
+  "seen:Gt9qKqRKdDK2mSczG9WYgRqS8pZkCw47ZW71iW34pump": 1795183714.3305123,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795183714.3305123,
+  "control:BR3TZmbCPtyTpgLBtUvJocMbxPt2pw3CBSUJ5oq6pump": 1795183714.3721783,
+  "seen:471Yr1qyfEdG6uryG27FiqypymWr9cX99BPGewwXhGz2": 1795183897.7574747,
+  "seen:7ycjv7RnffKDdLifHuRUDRhBbe3oQk9qp7EvViGshcMr": 1795183897.7574747
  },
  "talks": {
   "2026-10-21": 109
@@ -118,18 +135,18 @@
  ],
  "last_review": 1795126461.9547899,
  "news": {
-  "t": 1795181722.6765363,
+  "t": 1795182632.203423,
   "crypto": [
+   "Live news: Bitcoin hovers just above $61,000 as Anthropic slides 13% after Nasdaq debut (0h ago)",
    "Bitcoin bots pounced within seconds when researchers exposed their wallet keys (0h ago)",
    "Here\u2019s what happened in crypto today (0h ago)",
    "Lagarde warns Europe could miss chance to unify tokenized markets (0h ago)",
-   "ECB\u2019s Largarde warns Europe could lose control of growing tokenized asset market (0h ago)",
-   "Bitcoin, stocks and gold traders getting nervous, and volatility gauges are surging (1h ago)",
+   "ECB\u2019s Largarde warns Europe could lose control of growing tokenized asset market (1h ago)",
+   "Bitcoin, stocks and gold traders getting nervous, and volatility gauges are surging (2h ago)",
    "Bitcoin drops for third straight day as Asian tech shares slide (2h ago)",
    "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip (2h ago)",
    "VanEck to end Gemini ETF custody deals, keeps Coinbase (3h ago)",
-   "Coinbase targets first-half 2027 for its own prediction market contracts (3h ago)",
-   "Bitcoin nears repeat of chart pattern that preceded 2023\u2019s $25K retest (3h ago)"
+   "Coinbase targets first-half 2027 for its own prediction market contracts (3h ago)"
   ],
   "macro": [],
   "calendar": []
