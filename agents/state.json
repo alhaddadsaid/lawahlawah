@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -74178.50380796794,
+   "cash": -74234.64357174747,
    "open": [
     {
      "id": 3444,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3450,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PIPI",
-     "mint": "6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump",
-     "side": 1,
-     "opened": 1795133786.5405006,
-     "entry": 0.000254,
-     "stop": 0.0002032,
-     "target": 0.00035559999999999997,
-     "size": 787401.5748031497,
-     "deadline": 1795140986.5405009,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3452,
      "desk": "control",
      "market": "meme",
@@ -89,26 +74,22 @@
  "runs": 119,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GiNDGcqc7xk9F88sgE9KF7Bo5migm4Bh8Y8CJVM7pump": 1795136511.7941241,
-  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795136511.7941241,
-  "seen:6s2pE1BvFHx55YE6EPxEMHheg5E1yp6Xv8ok6oWapump": 1795136695.7146506,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795136695.7146506,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795136695.7146506,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795136695.7146506,
-  "seen:6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": 1795136695.7146506,
-  "seen:72Uxzwsgv99kfMtXzmK9LnwQ4Y2P7A9XG926haKtpump": 1795136879.7871463,
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795136879.7871463,
-  "seen:ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795136879.7871463,
-  "seen:F6HWZT8sdhQWebdcgVgNNAoFH8EQG2v5fCVByh1Y6WXp": 1795137060.0710976,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795137060.0710976,
-  "seen:2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX": 1795137060.0710976,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795137060.0710976,
-  "seen:Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": 1795137060.0710976,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795137060.0710976,
-  "seen:CrJBEGkuaYqtx2W5QHnagg4RL6A2f7bZhiFcssQ5pump": 1795137245.1710923,
-  "seen:7q3j8jkgGzVuk7pcQ2uQqWaFwyYzJiCanoRdBtHHpump": 1795137245.1710923,
-  "seen:Q8epAD6hoSfGTTpHfNKz6z78A3pP8tMkHBAuvYTpump": 1795137245.1710923,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795137245.1710923
+  "seen:5qB4paQnWcJGe9S7YiHeH8kACfcJvt5a5qCUHUSupump": 1795137429.1172967,
+  "seen:GiNDGcqc7xk9F88sgE9KF7Bo5migm4Bh8Y8CJVM7pump": 1795137429.1172967,
+  "seen:AMC1qwR9KhiyrQBRPrxnfo4JfMeMZqEBvt5tgTytNNoc": 1795137429.1172967,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795137612.5675333,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795137612.5675333,
+  "seen:5Kjxg6X13axntM98AxJGjNQCB82YZWhSnvJVX78cpump": 1795137612.5675333,
+  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795137793.0509467,
+  "seen:72Uxzwsgv99kfMtXzmK9LnwQ4Y2P7A9XG926haKtpump": 1795137793.0509467,
+  "seen:AzeNfRi7DX5HndH7dUgCxMD5sQPV7FPFH1cwDkoqpump": 1795137793.0509467,
+  "seen:92SbArahghsp41mkzjjd7Vi3JAhXYFZzG5pe4YKopump": 1795137976.9311502,
+  "seen:7sE3DokDn5oHZekZu9DTCLpyUxGyFHFazfwJGZcyCNVD": 1795137976.9311502,
+  "seen:GT8WxWKEgxzZiKL89Uu288vb8jnescwpNSrvyHzcpump": 1795137976.9311502,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795137976.9311502,
+  "seen:7q3j8jkgGzVuk7pcQ2uQqWaFwyYzJiCanoRdBtHHpump": 1795138161.1561964,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795138161.1561964,
+  "seen:CrJBEGkuaYqtx2W5QHnagg4RL6A2f7bZhiFcssQ5pump": 1795138161.1561964
  },
  "talks": {
   "2026-10-21": 109
@@ -149,13 +130,13 @@
  ],
  "last_review": 1795126461.9547899,
  "news": {
-  "t": 1795136160.0855348,
+  "t": 1795137076.946142,
   "crypto": [
    "Ledger CTO Charles Guillemet to leave after nine years at company (1h ago)",
    "Binance\u2019s $6.5B freeze order, Hong Kong \u2018suspicious\u2019 of HYPE: Asia Express (3h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
    "MoonPay seeks US bank charter for stablecoin, custody services (4h ago)",
-   "Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price (4h ago)",
+   "Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price (5h ago)",
    "Trump\u2019s SEC nominee Johnson backs formal rulemaking for tokenized stock trading (5h ago)",
    "Sky's USDS stablecoin shrinks 35% as $1.5 billion exits reserves after illicit-finance report (5h ago)",
    "Ethereum\u2019s Glamsterdam upgrade could slip to May 2027 over compatibility concerns (7h ago)",
