@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -74986.5405161778,
+   "cash": -75098.97810239677,
    "open": [
-    {
-     "id": 3494,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "GBPUSD",
-     "mint": "",
-     "side": 1,
-     "opened": 1795173513.935758,
-     "entry": 1.3109767436981201,
-     "stop": 1.310001986367362,
-     "target": 1.3124388796942574,
-     "size": 102589.63625564438,
-     "deadline": 1795259913.9357584,
-     "thesis": "control: random direction"
-    },
     {
      "id": 3495,
      "desk": "control",
@@ -51,32 +36,67 @@
      "size": 2004208.838560978,
      "deadline": 1795182357.3508627,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3498,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "RUDY",
+     "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
+     "side": 1,
+     "opened": 1795175341.8505318,
+     "entry": 0.0002005,
+     "stop": 0.0001604,
+     "target": 0.0002807,
+     "size": 997506.2344139651,
+     "deadline": 1795182541.850532,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3499,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "scat",
+     "mint": "5EpUkeRekk1uzWKoJz9fyYYA3Vwt6bTtdRNpVtkMpump",
+     "side": 1,
+     "opened": 1795175887.8066883,
+     "entry": 6.614e-05,
+     "stop": 5.2912000000000004e-05,
+     "target": 9.259599999999999e-05,
+     "size": 3023888.720895071,
+     "deadline": 1795183087.8066885,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3498,
+ "next_id": 3500,
  "runs": 121,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795175326.8768504,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795175326.8768504,
-  "seen:J7bLsZcpkfky92ir8k36Munz91nHKtcDNhDy8d3Qpump": 1795175326.8768504,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795175326.8768504,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795175326.8768504,
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795175326.8768504,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795175326.8768504,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795175326.8768504,
-  "seen:RBLXDGRD64AtRamHMFVcjqne3Ar7NLWtFtYNtsrf1cE": 1795175509.2787397,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795175509.2787397,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795175509.2787397,
-  "seen:GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": 1795175692.7281232,
-  "seen:AMC1qwR9KhiyrQBRPrxnfo4JfMeMZqEBvt5tgTytNNoc": 1795175692.7281232,
-  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795175874.7280872,
   "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795176057.310798,
   "seen:6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": 1795176057.310798,
   "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795176057.310798,
-  "control:6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": 1795176057.350866
+  "control:6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": 1795176057.350866,
+  "seen:AoD9dmysXztMKpB4Deqnupk5gAswZhR1adqEPb82Hynh": 1795176241.1274946,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795176241.1274946,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795176241.1274946,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795176241.1274946,
+  "seen:J7bLsZcpkfky92ir8k36Munz91nHKtcDNhDy8d3Qpump": 1795176241.1274946,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795176241.1274946,
+  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795176241.1274946,
+  "seen:Hm9Jp2DE96FWCJSvRe2AbEE6wZ1EVjdFFCZMvDVfpump": 1795176241.1274946,
+  "control:GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": 1795176241.8505363,
+  "seen:BR3TZmbCPtyTpgLBtUvJocMbxPt2pw3CBSUJ5oq6pump": 1795176423.7857401,
+  "seen:RBLXDGRD64AtRamHMFVcjqne3Ar7NLWtFtYNtsrf1cE": 1795176423.7857401,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795176423.7857401,
+  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795176423.7857401,
+  "seen:GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": 1795176606.0954185,
+  "seen:AMC1qwR9KhiyrQBRPrxnfo4JfMeMZqEBvt5tgTytNNoc": 1795176606.0954185,
+  "seen:7bQmFyQbEf97rxZcdjLwc3aSHMuGcXvipo2gbTnbpump": 1795176787.7688305,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795176787.7688305,
+  "seen:5EpUkeRekk1uzWKoJz9fyYYA3Vwt6bTtdRNpVtkMpump": 1795176787.7688305,
+  "control:5EpUkeRekk1uzWKoJz9fyYYA3Vwt6bTtdRNpVtkMpump": 1795176787.8066924
  },
  "talks": {
   "2026-10-21": 109
@@ -117,18 +137,18 @@
  ],
  "last_review": 1795126461.9547899,
  "news": {
-  "t": 1795174426.8950386,
+  "t": 1795175341.1442542,
   "crypto": [
+   "Bitcoin drops for third straight day as Asian tech shares slide (0h ago)",
+   "Binance hacker moves nearly $600M in ETH, routes funds through THORChain, Chainflip (0h ago)",
    "VanEck to end Gemini ETF custody deals, keeps Coinbase (1h ago)",
    "Coinbase targets first-half 2027 for its own prediction market contracts (1h ago)",
    "Bitcoin nears repeat of chart pattern that preceded 2023\u2019s $25K retest (1h ago)",
    "No special rules for Hyperliquid or other onchain trading platforms, CFTC says (2h ago)",
    "Cathie Wood's Ark Invest piled into Anthropic IPO, buying $90 million worth of shares (2h ago)",
-   "BlackRock\u2019s IBIT loses record $541M amid Anthropic market debut (3h ago)",
-   "Wrapped Monero token plunges 99% as issuer-linked wallet sells $13.5 million (3h ago)",
-   "SEC charges eight firms over fake crypto platforms tied to $37M fraud (4h ago)",
-   "Anthropic\u2019s $81B IPO draws half the net retail buying of SpaceX\u2019s (5h ago)",
-   "Here's what's crashing gold and likely weighing on bitcoin too (5h ago)"
+   "BlackRock\u2019s IBIT loses record $541M amid Anthropic market debut (4h ago)",
+   "Wrapped Monero token plunges 99% as issuer-linked wallet sells $13.5 million (4h ago)",
+   "SEC charges eight firms over fake crypto platforms tied to $37M fraud (4h ago)"
   ],
   "macro": [],
   "calendar": []
