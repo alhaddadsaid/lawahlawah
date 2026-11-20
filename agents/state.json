@@ -6,21 +6,29 @@
   },
   "control": {
    "cash": -75897.20363973455,
-   "open": []
+   "open": [
+    {
+     "id": 3525,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CATMARIO",
+     "mint": "Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump",
+     "side": 1,
+     "opened": 1795205614.563503,
+     "entry": 7.664e-05,
+     "stop": 6.1312e-05,
+     "target": 0.00010729599999999998,
+     "size": 2609603.3402922754,
+     "deadline": 1795212814.5635033,
+     "thesis": "control: frozen v3 rules"
+    }
+   ]
   }
  },
- "next_id": 3525,
+ "next_id": 3526,
  "runs": 122,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": 1795205602.3673794,
-  "seen:C2As2w55q3V3snKVCyA3nZvmQJSx2NApM5SLK5krpump": 1795205602.3673794,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795205602.3673794,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795205602.3673794,
-  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795205602.3673794,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1795205602.3673794,
-  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795205602.3673794,
-  "seen:CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": 1795205602.3673794,
   "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1795205784.7862902,
   "seen:3fWhdo8bQCamw5ed6yNGdvaru1qS5UVwB6dYp9znpump": 1795205784.7862902,
   "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795205784.7862902,
@@ -29,7 +37,15 @@
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795205784.7862902,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795205784.7862902,
   "seen:3SqtczzgSzTnfsWMTmxB9iMaKRNcb361vmoQbqA5pump": 1795205966.7768023,
-  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795205966.7768023
+  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795205966.7768023,
+  "seen:8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": 1795206513.8610194,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795206513.8610194,
+  "seen:C2As2w55q3V3snKVCyA3nZvmQJSx2NApM5SLK5krpump": 1795206513.8610194,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1795206513.8610194,
+  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795206513.8610194,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795206513.8610194,
+  "seen:Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": 1795206513.8610194,
+  "control:Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": 1795206514.5635076
  },
  "talks": {
   "2026-10-21": 109
@@ -70,17 +86,17 @@
  ],
  "last_review": 1795126461.9547899,
  "news": {
-  "t": 1795204702.384969,
+  "t": 1795205613.8777795,
   "crypto": [
-   "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit (0h ago)",
-   "Sky Protocol sees $2 billion in stablecoin withdrawals, disputes illicit fund claims (1h ago)",
+   "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit (1h ago)",
+   "Sky Protocol sees $2 billion in stablecoin withdrawals, disputes illicit fund claims (2h ago)",
    "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play (2h ago)",
    "Bitcoin falls below $60K for first time since July amid broader market selloff (3h ago)",
    "US Senate advances prediction market restrictions with DEATH BETS Act (4h ago)",
    "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off (4h ago)",
-   "DBS bets it can lose the deposit and keep the client (4h ago)",
+   "DBS bets it can lose the deposit and keep the client (5h ago)",
    "Former Point72 head of proprietary research says AI could turn data into a new asset class for Wall Street (5h ago)",
-   "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians (5h ago)",
+   "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians (6h ago)",
    "U.S. Senate passes bill to ban prediction market bets on war and death (6h ago)"
   ],
   "macro": [],
