@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -74387.53303576447,
+   "cash": -74448.28460152648,
    "open": [
     {
      "id": 3456,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3457,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "QUATS",
-     "mint": "Q8epAD6hoSfGTTpHfNKz6z78A3pP8tMkHBAuvYTpump",
-     "side": 1,
-     "opened": 1795138905.7176433,
-     "entry": 0.0001437,
-     "stop": 0.00011496,
-     "target": 0.00020118,
-     "size": 1391788.4481558804,
-     "deadline": 1795146105.7176435,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3458,
      "desk": "control",
      "market": "meme",
@@ -51,24 +36,29 @@
      "size": 463606.8613815484,
      "deadline": 1795149223.6155097,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3459,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "EMBER",
+     "mint": "5dvXTZ5qwgafnHtwu3Ls3QrWx1U4LQsFeCuJgkk4QEC6",
+     "side": 1,
+     "opened": 1795142572.351227,
+     "entry": 0.0002835,
+     "stop": 0.0002268,
+     "target": 0.0003969,
+     "size": 705467.3721340388,
+     "deadline": 1795149772.3512273,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3459,
+ "next_id": 3460,
  "runs": 119,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795142186.2269034,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795142186.2269034,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795142369.5590367,
-  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795142369.5590367,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795142369.5590367,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795142369.5590367,
-  "seen:Q8epAD6hoSfGTTpHfNKz6z78A3pP8tMkHBAuvYTpump": 1795142369.5590367,
-  "seen:GT8WxWKEgxzZiKL89Uu288vb8jnescwpNSrvyHzcpump": 1795142554.7300673,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795142554.7300673,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1795142554.7300673,
   "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795142739.6499271,
   "seen:CrJBEGkuaYqtx2W5QHnagg4RL6A2f7bZhiFcssQ5pump": 1795142739.6499271,
   "seen:ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795142739.6499271,
@@ -76,7 +66,20 @@
   "seen:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795142923.4764736,
   "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795142923.4764736,
   "seen:5EpUkeRekk1uzWKoJz9fyYYA3Vwt6bTtdRNpVtkMpump": 1795142923.4764736,
-  "control:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795142923.615513
+  "control:DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump": 1795142923.615513,
+  "seen:Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": 1795143107.909528,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795143107.909528,
+  "seen:BHuwFCFKnYuKenUJauqVxwScsu9NDjYmcP96XMycPAN1": 1795143287.9751022,
+  "seen:BLdC7hwRijHudKYDmtEkx1SHUdBWm8XbjBCSvwa6pump": 1795143287.9751022,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795143287.9751022,
+  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795143287.9751022,
+  "seen:GT8WxWKEgxzZiKL89Uu288vb8jnescwpNSrvyHzcpump": 1795143471.5001075,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795143471.5001075,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795143471.5001075,
+  "seen:5dvXTZ5qwgafnHtwu3Ls3QrWx1U4LQsFeCuJgkk4QEC6": 1795143471.5001075,
+  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795143471.5001075,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1795143471.5001075,
+  "control:5dvXTZ5qwgafnHtwu3Ls3QrWx1U4LQsFeCuJgkk4QEC6": 1795143472.3512309
  },
  "talks": {
   "2026-10-21": 109
@@ -117,18 +120,18 @@
  ],
  "last_review": 1795126461.9547899,
  "news": {
-  "t": 1795141654.7450464,
+  "t": 1795142571.514921,
   "crypto": [
    "Ledger CTO Charles Guillemet to leave after nine years at company (3h ago)",
    "Binance\u2019s $6.5B freeze order, Hong Kong \u2018suspicious\u2019 of HYPE: Asia Express (4h ago)",
    "Here\u2019s what happened in crypto today (5h ago)",
-   "MoonPay seeks US bank charter for stablecoin, custody services (5h ago)",
+   "MoonPay seeks US bank charter for stablecoin, custody services (6h ago)",
    "Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price (6h ago)",
-   "Trump\u2019s SEC nominee Johnson backs formal rulemaking for tokenized stock trading (6h ago)",
+   "Trump\u2019s SEC nominee Johnson backs formal rulemaking for tokenized stock trading (7h ago)",
    "Sky's USDS stablecoin shrinks 35% as $1.5 billion exits reserves after illicit-finance report (7h ago)",
    "Ethereum\u2019s Glamsterdam upgrade could slip to May 2027 over compatibility concerns (8h ago)",
    "Trump's Democratic SEC pick suggests tokenization policy deserves full rule process (8h ago)",
-   "Why higher rates could slow Bitcoin buying at treasury firms (8h ago)"
+   "Why higher rates could slow Bitcoin buying at treasury firms (9h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -161,5 +164,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795141286.241382
+ "last_macro_macro": 1795142571.5145469
 }
