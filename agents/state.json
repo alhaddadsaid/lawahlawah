@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -75616.06507450364,
+   "cash": -75619.86894594265,
    "open": [
-    {
-     "id": 3511,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DacityCoin",
-     "mint": "DKYcjobF7HPtL9RyQBRdeRQ2iWvizpfbgWwPWNXdpump",
-     "side": 1,
-     "opened": 1795182632.564772,
-     "entry": 0.0002738,
-     "stop": 0.00021904,
-     "target": 0.00038332,
-     "size": 730460.1899196494,
-     "deadline": 1795189832.5647721,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3515,
      "desk": "control",
@@ -51,29 +36,47 @@
      "size": 1811594.2028985508,
      "deadline": 1795196030.83999,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3517,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "THUG",
+     "mint": "HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep",
+     "side": 1,
+     "opened": 1795189740.9505305,
+     "entry": 0.0001078,
+     "stop": 8.624000000000001e-05,
+     "target": 0.00015092,
+     "size": 1855287.569573284,
+     "deadline": 1795196940.9505305,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3517,
+ "next_id": 3518,
  "runs": 121,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795189001.185731,
-  "seen:DcoWF2vnsVVJj5g8qgPe9AEQ6W9kQ34QUjJWMqxNpump": 1795189001.185731,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795189001.185731,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795189001.185731,
-  "seen:gHZhqEnFnitWCJ1MA2i9BzqTReFMhsGmbdL17xypump": 1795189001.185731,
-  "seen:GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": 1795189183.8761892,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795189364.3649192,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795189364.3649192,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795189542.1996505,
-  "seen:HUWb6ppEydr4UDCYPT9GU9whBuFZhRryVhMBEPeTpump": 1795189730.7176938,
-  "seen:6v1kBSPzK2LCA3hzLv7WNMsgEF735nTSLBwgQ15bpump": 1795189730.7176938,
-  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795189730.7176938,
-  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795189730.7176938,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795189730.7176938,
-  "control:GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": 1795189730.839994
+  "seen:CJsKL1cL5pCVxjQdkKhtiXn2AfCMBeVsnsN8R9PaXFx2": 1795189912.5424838,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795189912.5424838,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795189912.5424838,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795189912.5424838,
+  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795189912.5424838,
+  "seen:DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": 1795190094.4411354,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795190094.4411354,
+  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1795190277.7410517,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795190277.7410517,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795190277.7410517,
+  "seen:GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": 1795190277.7410517,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795190459.3514092,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795190640.9070826,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795190640.9070826,
+  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795190640.9070826,
+  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795190640.9070826,
+  "seen:HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep": 1795190640.9070826,
+  "control:HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep": 1795190640.9505336
  },
  "talks": {
   "2026-10-21": 109
@@ -114,7 +117,7 @@
  ],
  "last_review": 1795126461.9547899,
  "news": {
-  "t": 1795188101.2027094,
+  "t": 1795189012.5601134,
   "crypto": [
    "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians (1h ago)",
    "U.S. Senate passes bill to ban prediction market bets on war and death (1h ago)",
