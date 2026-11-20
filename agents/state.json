@@ -51,42 +51,57 @@
      "size": 879507.4758135445,
      "deadline": 1795215191.172425,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3531,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "GBPUSD",
+     "mint": "",
+     "side": 1,
+     "opened": 1795208539.6901863,
+     "entry": 1.3081128597259521,
+     "stop": 1.3068738324301583,
+     "target": 1.3099714006696428,
+     "size": 80708.4721534973,
+     "deadline": 1795294939.6901865,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 3531,
+ "next_id": 3532,
  "runs": 122,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": 1795208340.7555563,
-  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795208340.7555563,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795208340.7555563,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795208340.7555563,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1795208340.7555563,
-  "seen:NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": 1795208523.7125075,
-  "seen:CDpTzrbzTsc65ocCboqv6F2c4HFG6VueKTA67bq3pump": 1795208523.7125075,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795208523.7125075,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795208523.7125075,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795208523.7125075,
-  "control:8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": 1795208523.7611704,
-  "seen:CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump": 1795208708.4849792,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795208708.4849792,
-  "control:7DQQejSWt4bgNmGFFD6QPPUA1YLoMxWhz4roN5CQjE9k": 1795208708.56147,
-  "seen:3vgopg7xm3EWkXfxmWPUpcf7g939hecfqg18sLuXDzVt": 1795208891.1238472,
-  "seen:7DQQejSWt4bgNmGFFD6QPPUA1YLoMxWhz4roN5CQjE9k": 1795208891.1238472,
-  "control:NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": 1795208891.172428,
   "seen:BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": 1795209073.6077917,
   "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795209073.6077917,
   "seen:BYZFvGN23m1Ey6DTd7RGSKYrgsmo3A8RxvAedVjMpump": 1795209073.6077917,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795209073.6077917,
-  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795209073.6077917
+  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795209073.6077917,
+  "seen:8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": 1795209256.0425172,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795209256.0425172,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795209256.0425172,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1795209256.0425172,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795209439.4780052,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795209439.4780052,
+  "seen:NV2RYH954cTJ3ckFUpvfqaQXU4ARqqDH3562nFSpump": 1795209439.4780052,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795209439.4780052,
+  "control:GBPUSD": 1795209439.6901903,
+  "seen:CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump": 1795209623.2549207,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795209623.2549207,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795209623.2549207,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795209623.2549207,
+  "seen:71sqJNReKwCS5PDA5A3i2qFcWdVaMGxKsbbfU959d4eT": 1795209803.2255847,
+  "seen:GUtHGr6xcn9e78ew6qY7Jg7foyuAhf67mNBNntn5pump": 1795209803.2255847,
+  "seen:7DQQejSWt4bgNmGFFD6QPPUA1YLoMxWhz4roN5CQjE9k": 1795209803.2255847,
+  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795209803.2255847
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498667,
+ "ctrl_macro_hour": 498669,
  "team": [
   {
    "name": "Lead",
@@ -121,7 +136,7 @@
  ],
  "last_review": 1795126461.9547899,
  "news": {
-  "t": 1795207440.7715178,
+  "t": 1795208356.0592375,
   "crypto": [
    "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit (1h ago)",
    "Sky Protocol sees $2 billion in stablecoin withdrawals, disputes illicit fund claims (2h ago)",
@@ -132,7 +147,7 @@
    "DBS bets it can lose the deposit and keep the client (5h ago)",
    "Former Point72 head of proprietary research says AI could turn data into a new asset class for Wall Street (6h ago)",
    "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians (6h ago)",
-   "U.S. Senate passes bill to ban prediction market bets on war and death (6h ago)"
+   "U.S. Senate passes bill to ban prediction market bets on war and death (7h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -165,5 +180,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795207258.2697268
+ "last_macro_macro": 1795208539.4937224
 }
