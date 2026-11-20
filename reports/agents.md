@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-20 08:52 UTC. Runs so far: 120. Model: claude-haiku-5-5.
+Updated 2026-11-20 11:27 UTC. Runs so far: 121. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3399 | 31 | -85258.21 | -117933.42 |
+| control | meme | 3403 | 31 | -85278.39 | -117994.11 |
 | control | macro | 71 | 49 | 223.65 | -125.55 |
-| control | all | 3470 | 31 | -85034.56 | -118058.97 |
+| control | all | 3474 | 31 | -85054.74 | -118119.66 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: QUATS long at 6.013e-05, stop 4.8104e-05, target 8.4182e-05, opened 2026-11-20 07:05 UTC
-- control: CATMARIO long at 0.0001752, stop 0.00014016, target 0.00024528, opened 2026-11-20 07:59 UTC
-- control: PAID long at 0.001228, stop 0.0009824, target 0.0017192, opened 2026-11-20 08:21 UTC
-- control: PIPI long at 0.0001291, stop 0.00010328, target 0.00018074, opened 2026-11-20 08:27 UTC
+- control: GBPUSD long at 1.31098, stop 1.31, target 1.31244, opened 2026-11-20 11:18 UTC
+- control: CATMARIO long at 0.0001337, stop 0.00010696, target 0.00018718, opened 2026-11-20 11:21 UTC
+- control: RUDY long at 0.0001721, stop 0.00013768, target 0.00024094, opened 2026-11-20 11:27 UTC
 
 ## Team
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-## Run ended 2026-11-20 08:52 UTC
+- 2026-11-20 11:27 UTC control: OPENED RUDY long at 0.0001721 (stop 0.00013768, target 0.00024094) - control: frozen v3 rules
 
