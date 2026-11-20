@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-20 02:42 UTC. Runs so far: 119. Model: claude-haiku-5-5.
+Updated 2026-11-20 02:56 UTC. Runs so far: 119. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,15 +9,14 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3366 | 31 | -84672.13 | -117023.9 |
+| control | meme | 3367 | 31 | -84723.03 | -117083.76 |
 | control | macro | 71 | 49 | 223.65 | -125.55 |
-| control | all | 3437 | 31 | -84448.48 | -117149.45 |
+| control | all | 3438 | 31 | -84499.38 | -117209.31 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: PIPI long at 0.0001659, stop 0.00013272, target 0.00023226, opened 2026-11-20 01:38 UTC
 - control: DacityCoin long at 0.0004314, stop 0.00034512, target 0.00060396, opened 2026-11-20 02:33 UTC
 - control: EMBER long at 0.0002835, stop 0.0002268, target 0.0003969, opened 2026-11-20 02:42 UTC
 
@@ -32,6 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 401: invalid x-api-key
-- 2026-11-20 02:42 UTC control: OPENED EMBER long at 0.0002835 (stop 0.0002268, target 0.0003969) - control: frozen v3 rules
+- control: CLOSED PIPI (stop) P&L $-50.9 normal, $-59.86 pessimistic
 
