@@ -51,26 +51,44 @@
      "size": 720720.7207207207,
      "deadline": 1795222719.9712062,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3539,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Singularity",
+     "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
+     "side": 1,
+     "opened": 1795215704.9458873,
+     "entry": 0.0001288,
+     "stop": 0.00010303999999999999,
+     "target": 0.00018031999999999998,
+     "size": 1552795.0310559007,
+     "deadline": 1795222904.9458876,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3540,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "rockstar",
+     "mint": "9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump",
+     "side": 1,
+     "opened": 1795215888.1046064,
+     "entry": 8.096e-05,
+     "stop": 6.4768e-05,
+     "target": 0.00011334399999999999,
+     "size": 2470355.7312252964,
+     "deadline": 1795223088.1046066,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3539,
+ "next_id": 3541,
  "runs": 122,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CKhLonB7wvi94op6XScJa8Y6jKEsw3VngbVNXB5Uik9M": 1795215687.1679833,
-  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1795215687.1679833,
-  "seen:8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": 1795215687.1679833,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795215687.1679833,
-  "seen:5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump": 1795215870.2538226,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795215870.2538226,
-  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795215870.2538226,
-  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795215870.2538226,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795215870.2538226,
-  "control:8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": 1795215870.3519018,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795216054.940386,
-  "seen:CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump": 1795216054.940386,
   "seen:UPSqUeMHcWbkdg784XuBUEF9DtySSnW9ur5LAVdcuB9": 1795216237.563177,
   "seen:EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump": 1795216237.563177,
   "seen:PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": 1795216237.563177,
@@ -82,13 +100,28 @@
   "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795216419.883887,
   "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795216419.883887,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795216419.883887,
-  "control:BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": 1795216419.9712093
+  "control:BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": 1795216419.9712093,
+  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1795216604.4817438,
+  "control:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795216604.9458907,
+  "seen:5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump": 1795216788.0564373,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795216788.0564373,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795216788.0564373,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1795216788.0564373,
+  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795216788.0564373,
+  "seen:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1795216788.0564373,
+  "control:9HFUEab7sompLDPTAaTGkryMNGbtBaFMhHMVpJEBpump": 1795216788.1046095,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795216971.6558576,
+  "seen:4dXAFK3eL6MSmNtxoSni1u9493bJ9wweJDqSRkijpump": 1795216971.6558576,
+  "seen:Fpzcd2R1y2MPdezgMRigQuBx7aCPPn5sZBXpvtP3pump": 1795216971.6558576,
+  "seen:2KRbMf4itijwsTHb5dQtiBpfptyNmhpVzmpdj4qqN2yx": 1795216971.6558576,
+  "seen:CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump": 1795216971.6558576,
+  "seen:8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": 1795216971.6558576
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498669,
+ "ctrl_macro_hour": 498671,
  "team": [
   {
    "name": "Lead",
@@ -123,8 +156,9 @@
  ],
  "last_review": 1795212949.883366,
  "news": {
-  "t": 1795214787.184858,
+  "t": 1795215704.498587,
   "crypto": [
+   "Kalshi races to get ahead of New York order that could shut down exchange (0h ago)",
    "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment (1h ago)",
    "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit (3h ago)",
    "Sky Protocol sees $2 billion in stablecoin withdrawals, disputes illicit fund claims (4h ago)",
@@ -133,8 +167,7 @@
    "US Senate advances prediction market restrictions with DEATH BETS Act (7h ago)",
    "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off (7h ago)",
    "DBS bets it can lose the deposit and keep the client (7h ago)",
-   "Former Point72 head of proprietary research says AI could turn data into a new asset class for Wall Street (8h ago)",
-   "Hong Kong moves to extend crypto licensing rules to brokers, advisers and custodians (8h ago)"
+   "Former Point72 head of proprietary research says AI could turn data into a new asset class for Wall Street (8h ago)"
   ],
   "macro": [],
   "calendar": []
