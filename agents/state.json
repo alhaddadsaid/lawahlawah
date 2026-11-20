@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -74189.59857598373,
+   "cash": -74246.50380796794,
    "open": [
     {
      "id": 3444,
@@ -20,21 +20,6 @@
      "target": 0.00048958,
      "size": 571918.7875321704,
      "deadline": 1795137320.6525476,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3446,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CATMARIO",
-     "mint": "Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump",
-     "side": 1,
-     "opened": 1795132326.4347262,
-     "entry": 9.117e-05,
-     "stop": 7.2936e-05,
-     "target": 0.000127638,
-     "size": 2193704.069321049,
-     "deadline": 1795139526.4347265,
      "thesis": "control: frozen v3 rules"
     },
     {
@@ -66,25 +51,44 @@
      "size": 1008064.5161290322,
      "deadline": 1795140805.9904435,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3450,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PIPI",
+     "mint": "6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump",
+     "side": 1,
+     "opened": 1795133786.5405006,
+     "entry": 0.000254,
+     "stop": 0.0002032,
+     "target": 0.00035559999999999997,
+     "size": 787401.5748031497,
+     "deadline": 1795140986.5405009,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3451,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "COOKIE",
+     "mint": "7q3j8jkgGzVuk7pcQ2uQqWaFwyYzJiCanoRdBtHHpump",
+     "side": 1,
+     "opened": 1795134154.1331522,
+     "entry": 0.0001884,
+     "stop": 0.00015072000000000002,
+     "target": 0.00026376,
+     "size": 1061571.1252653927,
+     "deadline": 1795141354.1331525,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3450,
+ "next_id": 3452,
  "runs": 119,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4F5Bi9T8K7ws8JTCvNg2Wi2hGxPK1aH64nouGsz5pump": 1795133775.8506422,
-  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1795133775.8506422,
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795133775.8506422,
-  "control:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1795133775.91978,
-  "seen:AJsDVx4C7Y8Wehdp7ZnqAXAi3PZVQ6htxCm8gGPXpump": 1795133960.1953464,
-  "seen:Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": 1795133960.1953464,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795133960.1953464,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795133960.1953464,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795134140.7697642,
-  "seen:4fT6JSPkK5SxfNwqEkvsVbidLTSGBXsNk3wpAeU1pump": 1795134140.7697642,
-  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1795134140.7697642,
   "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795134324.7783132,
   "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795134324.7783132,
   "seen:2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX": 1795134324.7783132,
@@ -96,7 +100,17 @@
   "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795134505.743521,
   "seen:Q8epAD6hoSfGTTpHfNKz6z78A3pP8tMkHBAuvYTpump": 1795134505.743521,
   "seen:6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": 1795134505.743521,
-  "control:2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX": 1795134505.9904473
+  "control:2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX": 1795134505.9904473,
+  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795134686.4643643,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795134686.4643643,
+  "control:6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": 1795134686.540505,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795134870.2644155,
+  "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1795134870.2644155,
+  "seen:ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795134870.2644155,
+  "seen:4fT6JSPkK5SxfNwqEkvsVbidLTSGBXsNk3wpAeU1pump": 1795135054.0616093,
+  "seen:Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": 1795135054.0616093,
+  "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1795135054.0616093,
+  "control:7q3j8jkgGzVuk7pcQ2uQqWaFwyYzJiCanoRdBtHHpump": 1795135054.133156
  },
  "talks": {
   "2026-10-21": 109
