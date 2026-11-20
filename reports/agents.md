@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-20 11:36 UTC. Runs so far: 121. Model: claude-haiku-5-5.
+Updated 2026-11-20 11:45 UTC. Runs so far: 121. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -19,6 +19,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: GBPUSD long at 1.31098, stop 1.31, target 1.31244, opened 2026-11-20 11:18 UTC
 - control: CATMARIO long at 0.0001337, stop 0.00010696, target 0.00018718, opened 2026-11-20 11:21 UTC
+- control: PIPI long at 9.979e-05, stop 7.9832e-05, target 0.000139706, opened 2026-11-20 11:45 UTC
 
 ## Team
 
@@ -31,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED RUDY (target) P&L $68.0 normal, $56.0 pessimistic
+- 2026-11-20 11:45 UTC control: OPENED PIPI long at 9.979e-05 (stop 7.9832e-05, target 0.000139706) - control: frozen v3 rules
 
