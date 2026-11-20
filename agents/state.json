@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -75054.5405161778,
+   "cash": -74986.5405161778,
    "open": [
     {
      "id": 3494,
@@ -36,21 +36,6 @@
      "size": 1495886.3126402395,
      "deadline": 1795180900.4585288,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3496,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "RUDY",
-     "mint": "GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump",
-     "side": 1,
-     "opened": 1795174064.8996558,
-     "entry": 0.0001721,
-     "stop": 0.00013768000000000002,
-     "target": 0.00024094,
-     "size": 1162115.0493898895,
-     "deadline": 1795181264.8996563,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -59,24 +44,22 @@
  "runs": 121,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795174413.061114,
-  "seen:J7bLsZcpkfky92ir8k36Munz91nHKtcDNhDy8d3Qpump": 1795174413.061114,
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795174413.061114,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795174413.061114,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795174413.061114,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795174413.061114,
-  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795174413.061114,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795174413.061114,
-  "control:GBPUSD": 1795174413.9357631,
-  "seen:RBLXDGRD64AtRamHMFVcjqne3Ar7NLWtFtYNtsrf1cE": 1795174600.416183,
-  "seen:Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": 1795174600.416183,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795174600.416183,
-  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795174600.416183,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795174600.416183,
-  "control:Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": 1795174600.4585326,
   "seen:4hh5ZvUbngTPUBA4dbBetX82J2cewHQYAM5Dr2sj4omM": 1795174782.2158122,
   "seen:GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": 1795174782.2158122,
-  "control:GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": 1795174964.8996599
+  "control:GRMRQSkBGg2Cc8Y9GePNBcJVk49YepWkXUDQBXAMpump": 1795174964.8996599,
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795175144.4366581,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795175144.4366581,
+  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795175326.8768504,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795175326.8768504,
+  "seen:J7bLsZcpkfky92ir8k36Munz91nHKtcDNhDy8d3Qpump": 1795175326.8768504,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795175326.8768504,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795175326.8768504,
+  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795175326.8768504,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795175326.8768504,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795175326.8768504,
+  "seen:RBLXDGRD64AtRamHMFVcjqne3Ar7NLWtFtYNtsrf1cE": 1795175509.2787397,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795175509.2787397,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795175509.2787397
  },
  "talks": {
   "2026-10-21": 109
@@ -117,16 +100,16 @@
  ],
  "last_review": 1795126461.9547899,
  "news": {
-  "t": 1795173513.0797703,
+  "t": 1795174426.8950386,
   "crypto": [
-   "VanEck to end Gemini ETF custody deals, keeps Coinbase (0h ago)",
+   "VanEck to end Gemini ETF custody deals, keeps Coinbase (1h ago)",
    "Coinbase targets first-half 2027 for its own prediction market contracts (1h ago)",
    "Bitcoin nears repeat of chart pattern that preceded 2023\u2019s $25K retest (1h ago)",
-   "No special rules for Hyperliquid or other onchain trading platforms, CFTC says (1h ago)",
-   "Cathie Wood's Ark Invest piled into Anthropic IPO, buying $90 million worth of shares (1h ago)",
+   "No special rules for Hyperliquid or other onchain trading platforms, CFTC says (2h ago)",
+   "Cathie Wood's Ark Invest piled into Anthropic IPO, buying $90 million worth of shares (2h ago)",
    "BlackRock\u2019s IBIT loses record $541M amid Anthropic market debut (3h ago)",
    "Wrapped Monero token plunges 99% as issuer-linked wallet sells $13.5 million (3h ago)",
-   "SEC charges eight firms over fake crypto platforms tied to $37M fraud (3h ago)",
+   "SEC charges eight firms over fake crypto platforms tied to $37M fraud (4h ago)",
    "Anthropic\u2019s $81B IPO draws half the net retail buying of SpaceX\u2019s (5h ago)",
    "Here's what's crashing gold and likely weighing on bitcoin too (5h ago)"
   ],
