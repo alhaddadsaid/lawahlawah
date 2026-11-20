@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -74189.86330591475,
+   "cash": -74138.07714239274,
    "open": [
-    {
-     "id": 3440,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PIPI",
-     "mint": "6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump",
-     "side": 1,
-     "opened": 1795125369.9414144,
-     "entry": 0.0002385,
-     "stop": 0.00019079999999999998,
-     "target": 0.00033389999999999993,
-     "size": 838574.4234800838,
-     "deadline": 1795132569.9414146,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3443,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "WIGGLES",
-     "mint": "2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump",
-     "side": 1,
-     "opened": 1795129027.46975,
-     "entry": 0.000107,
-     "stop": 8.560000000000001e-05,
-     "target": 0.00014979999999999998,
-     "size": 1869158.878504673,
-     "deadline": 1795136227.4697502,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3444,
      "desk": "control",
@@ -66,25 +36,29 @@
      "size": 2193704.069321049,
      "deadline": 1795139526.4347265,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3447,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "WIGGLES",
+     "mint": "2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump",
+     "side": 1,
+     "opened": 1795132875.9197757,
+     "entry": 0.0001423,
+     "stop": 0.00011384,
+     "target": 0.00019921999999999998,
+     "size": 1405481.3773717498,
+     "deadline": 1795140075.9197762,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3447,
+ "next_id": 3448,
  "runs": 119,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795132489.4658425,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795132489.4658425,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795132489.4658425,
-  "seen:ejrz94zR4A2ScS8LdvRaQih2xUxaE2ydreqUNKmpump": 1795132489.4658425,
-  "seen:2xCd5qHX5tW6pGUo7zfgHSSAnRjJwPA7Sz1Fu4fWcJjX": 1795132489.4658425,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1795132673.4890413,
-  "seen:Q8epAD6hoSfGTTpHfNKz6z78A3pP8tMkHBAuvYTpump": 1795132673.4890413,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795132673.4890413,
-  "seen:9zsfz8g8jFnGZ73d3DUn3Jen7QuRgC5bDGGotz1Epump": 1795132858.4819968,
-  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795132858.4819968,
-  "seen:7HgfXftRBBqsYtAEYcqjGLQrNJLL6Tww9ek4rE3Apump": 1795132858.4819968,
   "seen:Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": 1795133042.4229596,
   "seen:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1795133042.4229596,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795133042.4229596,
@@ -92,7 +66,21 @@
   "seen:BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp": 1795133226.2149143,
   "seen:6MKD1NkLvWRqdbFtqmgACBwUV5o6GJpZry8HkNgzpump": 1795133226.2149143,
   "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795133226.2149143,
-  "control:Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": 1795133226.4347298
+  "control:Cc5aMEFwovjGpETSqW64sXLW1NnUbVei8D4TagRcpump": 1795133226.4347298,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795133406.6866324,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795133406.6866324,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795133406.6866324,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795133406.6866324,
+  "seen:GQngHP8P6s45MxWnU7JsocfV2HjPQdJZmCEAYKpBpump": 1795133406.6866324,
+  "seen:C8S6Fd4SAANG2quu6DDsPDheYUo58ELHyEraDxnKR9Qh": 1795133591.7914002,
+  "seen:7q3j8jkgGzVuk7pcQ2uQqWaFwyYzJiCanoRdBtHHpump": 1795133591.7914002,
+  "seen:5EpUkeRekk1uzWKoJz9fyYYA3Vwt6bTtdRNpVtkMpump": 1795133591.7914002,
+  "seen:Q8epAD6hoSfGTTpHfNKz6z78A3pP8tMkHBAuvYTpump": 1795133591.7914002,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795133591.7914002,
+  "seen:4F5Bi9T8K7ws8JTCvNg2Wi2hGxPK1aH64nouGsz5pump": 1795133775.8506422,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1795133775.8506422,
+  "seen:9rbKkz2BDQBVgZmrHY6d7PTq2ge91gkpEyE4y9PPpump": 1795133775.8506422,
+  "control:2kWx47CUrcXtzptFNnbSXKq3vo1ebqyLBhRytKRGpump": 1795133775.91978
  },
  "talks": {
   "2026-10-21": 109
@@ -133,18 +121,18 @@
  ],
  "last_review": 1795126461.9547899,
  "news": {
-  "t": 1795131589.4802516,
+  "t": 1795132506.7009702,
   "crypto": [
+   "Ledger CTO Charles Guillemet to leave after nine years at company (0h ago)",
    "Binance\u2019s $6.5B freeze order, Hong Kong \u2018suspicious\u2019 of HYPE: Asia Express (1h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "MoonPay seeks US bank charter for stablecoin, custody services (3h ago)",
    "Hyperliquid Anthropic futures priced within 1% of Nasdaq opening price (3h ago)",
    "Trump\u2019s SEC nominee Johnson backs formal rulemaking for tokenized stock trading (4h ago)",
    "Sky's USDS stablecoin shrinks 35% as $1.5 billion exits reserves after illicit-finance report (4h ago)",
-   "Ethereum\u2019s Glamsterdam upgrade could slip to May 2027 over compatibility concerns (5h ago)",
-   "Trump's Democratic SEC pick suggests tokenization policy deserves full rule process (5h ago)",
-   "Why higher rates could slow Bitcoin buying at treasury firms (6h ago)",
-   "Bitcoin price ignores Anthropic debut as ANT share price dips below $100 (6h ago)"
+   "Ethereum\u2019s Glamsterdam upgrade could slip to May 2027 over compatibility concerns (6h ago)",
+   "Trump's Democratic SEC pick suggests tokenization policy deserves full rule process (6h ago)",
+   "Why higher rates could slow Bitcoin buying at treasury firms (6h ago)"
   ],
   "macro": [],
   "calendar": []
