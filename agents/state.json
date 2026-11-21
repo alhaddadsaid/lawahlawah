@@ -6,31 +6,47 @@
   },
   "control": {
    "cash": -78959.3036219643,
-   "open": []
+   "open": [
+    {
+     "id": 3619,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "URANUS",
+     "mint": "DUvFjnaE3r46WLbz9rz6MNk2bq9xPFPUfMd8bDgmpump",
+     "side": 1,
+     "opened": 1795300743.3730204,
+     "entry": 5.916e-05,
+     "stop": 4.7328000000000005e-05,
+     "target": 8.2824e-05,
+     "size": 3380662.6098715346,
+     "deadline": 1795307943.3730206,
+     "thesis": "control: frozen v3 rules"
+    }
+   ]
   }
  },
- "next_id": 3619,
+ "next_id": 3620,
  "runs": 125,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9tX1UpBGeNqMb1VqqzVumwzW71ybsNZFyWKYiL8Ppump": 1795300373.4929855,
-  "seen:692gVUNkah3DBD1bKCwv9ZWU9mWpAm1hZUX74rYKpump": 1795300373.4929855,
-  "seen:bgE5PRyeYTZQ7sbgrcgcUb9k4ggzoH6iwYcwn6mpump": 1795300373.4929855,
-  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795300373.4929855,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795300373.4929855,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795300373.4929855,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795300373.4929855,
-  "seen:DUvFjnaE3r46WLbz9rz6MNk2bq9xPFPUfMd8bDgmpump": 1795300373.4929855,
-  "control:DUvFjnaE3r46WLbz9rz6MNk2bq9xPFPUfMd8bDgmpump": 1795300373.6899192,
-  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795300555.4921184,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795300555.4921184,
-  "seen:Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": 1795300738.0976596,
   "seen:J6o1qegMvhsHGER7tAtjCq5YQi5mkrHcearNkpj9aokx": 1795300918.989706,
   "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795300918.989706,
   "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1795300918.989706,
   "seen:27u3diWofnXGUkddjLGhcy1nRssFKHW3RtNbpWzUpump": 1795300918.989706,
   "seen:BSF5xg7CuxkQWsbJWyHYw2HnuNbQtKybGaNhz9cCpump": 1795301099.4663267,
-  "control:9tX1UpBGeNqMb1VqqzVumwzW71ybsNZFyWKYiL8Ppump": 1795301099.4964821
+  "control:9tX1UpBGeNqMb1VqqzVumwzW71ybsNZFyWKYiL8Ppump": 1795301099.4964821,
+  "seen:692gVUNkah3DBD1bKCwv9ZWU9mWpAm1hZUX74rYKpump": 1795301280.552186,
+  "seen:9tX1UpBGeNqMb1VqqzVumwzW71ybsNZFyWKYiL8Ppump": 1795301280.552186,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795301280.552186,
+  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795301280.552186,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795301280.552186,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795301280.552186,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795301462.3756914,
+  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795301462.3756914,
+  "seen:2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump": 1795301642.950941,
+  "seen:7GUnr7krtQhJwd6ASY2VUprd9t4c64zcgCsjdmZepump": 1795301642.950941,
+  "seen:DUvFjnaE3r46WLbz9rz6MNk2bq9xPFPUfMd8bDgmpump": 1795301642.950941,
+  "control:DUvFjnaE3r46WLbz9rz6MNk2bq9xPFPUfMd8bDgmpump": 1795301643.3730233
  },
  "talks": {
   "2026-10-21": 109
@@ -71,7 +87,7 @@
  ],
  "last_review": 1795299473.5066411,
  "news": {
-  "t": 1795299838.1117043,
+  "t": 1795300742.9649234,
   "crypto": [
    "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave (5h ago)",
    "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain (6h ago)",
@@ -80,7 +96,7 @@
    "ECB seeks industry partners for tokenized deposits, securities experiments (13h ago)",
    "US lawmakers propose up to 30% rewards for prediction market whistleblowers (15h ago)",
    "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug (16h ago)",
-   "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion (16h ago)",
+   "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion (17h ago)",
    "Hong Kong pushes to bring crypto custodians, advisers under licensing rules (17h ago)",
    "Bitcoin tanks below $57,000 for the first time in two years, and its not alone (18h ago)"
   ],
@@ -115,5 +131,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795299473.506641
+ "last_macro_macro": 1795300742.9647608
 }
