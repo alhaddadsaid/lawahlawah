@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -76460.42907433824,
+   "cash": -76515.19739894557,
    "open": [
     {
      "id": 3531,
@@ -68,44 +68,46 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3558,
+     "id": 3559,
      "desk": "control",
      "market": "meme",
-     "symbol": "LOOSY",
-     "mint": "HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump",
+     "symbol": "PAID",
+     "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
      "side": 1,
-     "opened": 1795225242.185976,
-     "entry": 0.0001146,
-     "stop": 9.168e-05,
-     "target": 0.00016043999999999997,
-     "size": 1745200.6980802794,
-     "deadline": 1795232442.1859763,
+     "opened": 1795227608.3874254,
+     "entry": 0.001049,
+     "stop": 0.0008392,
+     "target": 0.0014686,
+     "size": 190657.76930409914,
+     "deadline": 1795234808.387426,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3559,
+ "next_id": 3560,
  "runs": 123,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795227229.3674335,
-  "seen:HoqJaoes6yfL8YEsHGfENwVKT7LrAPy97ZDg9hmBu4Ep": 1795227411.832159,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795227411.832159,
-  "seen:CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump": 1795227411.832159,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795227595.3995922,
-  "seen:9yxz4fpcAr5ZufxJZrERivC5Pr7yzERB1Wm6eRzbpump": 1795227595.3995922,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795227595.3995922,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795227595.3995922,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795227777.848657,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795227777.848657,
-  "seen:8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": 1795227777.848657,
-  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795227777.848657,
   "seen:DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump": 1795227960.3103647,
   "seen:Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": 1795227960.3103647,
   "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795227960.3103647,
   "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795227960.3103647,
-  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795227960.3103647
+  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795227960.3103647,
+  "seen:DdwecY5BnnWTwhayALJ7N7magvTVw1aFXWFg7thJpump": 1795228143.8796046,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795228143.8796046,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1795228143.8796046,
+  "seen:Fpzcd2R1y2MPdezgMRigQuBx7aCPPn5sZBXpvtP3pump": 1795228143.8796046,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795228325.7875862,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795228325.7875862,
+  "seen:CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump": 1795228325.7875862,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795228507.945333,
+  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1795228507.945333,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795228507.945333,
+  "control:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1795228508.387431,
+  "seen:7WCR1tjR5XHYn5xX7d6rXPh1B8RrBkLnJnPwN7bxpump": 1795228691.6061292,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795228691.6061292,
+  "seen:8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": 1795228691.6061292
  },
  "talks": {
   "2026-10-21": 109
@@ -146,12 +148,12 @@
  ],
  "last_review": 1795212949.883366,
  "news": {
-  "t": 1795226695.4170508,
+  "t": 1795227607.9618313,
   "crypto": [
    "Kalshi races to get ahead of New York order that could shut down exchange (3h ago)",
    "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment (4h ago)",
-   "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit (6h ago)",
-   "Sky Protocol sees $2 billion in stablecoin withdrawals, disputes illicit fund claims (7h ago)",
+   "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit (7h ago)",
+   "Sky Protocol sees $2 billion in stablecoin withdrawals, disputes illicit fund claims (8h ago)",
    "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play (8h ago)",
    "Bitcoin falls below $60K for first time since July amid broader market selloff (9h ago)",
    "US Senate advances prediction market restrictions with DEATH BETS Act (10h ago)",
@@ -190,5 +192,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795226511.8484774
+ "last_macro_macro": 1795227791.6223903
 }
