@@ -10,14 +10,13 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
 | control | meme | 3521 | 31 | -89186.59 | -123012.48 |
-| control | macro | 73 | 49 | 253.03 | -107.23 |
-| control | all | 3594 | 31 | -88933.56 | -123119.71 |
+| control | macro | 74 | 49 | 250.49 | -114.61 |
+| control | all | 3595 | 31 | -88936.1 | -123127.09 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: GBPUSD long at 1.30811, stop 1.30687, target 1.30997, opened 2026-11-20 21:02 UTC
 - control: RAMBO long at 9.467e-05, stop 7.5736e-05, target 0.000132538, opened 2026-11-21 19:27 UTC
 
 ## Team
@@ -31,5 +30,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order GOLD REJECTED by guardrails: GOLD market closed or data stale
+- control: CLOSED GBPUSD (time) P&L $-2.54 normal, $-7.38 pessimistic
 
