@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-21 12:05 UTC. Runs so far: 124. Model: claude-haiku-5-5.
+Updated 2026-11-21 12:18 UTC. Runs so far: 124. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -20,6 +20,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: GBPUSD long at 1.30811, stop 1.30687, target 1.30997, opened 2026-11-20 21:02 UTC
 - control: DIGS long at 0.000267, stop 0.0002136, target 0.0003738, opened 2026-11-21 10:25 UTC
 - control: Trader long at 0.0002011, stop 0.00016088, target 0.00028154, opened 2026-11-21 10:43 UTC
+- control: CYBERLEEK long at 0.001746, stop 0.0013968, target 0.0024444, opened 2026-11-21 12:08 UTC
+- control: Singularity long at 9.943e-05, stop 7.9544e-05, target 0.000139202, opened 2026-11-21 12:11 UTC
 
 ## Team
 
@@ -32,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 401: invalid x-api-key
+- control: order HUSS REJECTED by guardrails: desk already has the maximum open positions
 
