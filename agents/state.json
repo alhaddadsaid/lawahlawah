@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -76935.9929581607,
+   "cash": -76987.89884051363,
    "open": [
     {
      "id": 3531,
@@ -51,21 +51,6 @@
      "size": 1928640.3085824493,
      "deadline": 1795238644.2059922,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3564,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CC131",
-     "mint": "GKFSuSc9nYioKCjgUPFy2J5K6K2Ur7ZnpXH9XEiQH63R",
-     "side": 1,
-     "opened": 1795231992.5286715,
-     "entry": 0.000102,
-     "stop": 8.16e-05,
-     "target": 0.0001428,
-     "size": 1960784.3137254901,
-     "deadline": 1795239192.528672,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,18 +59,6 @@
  "runs": 123,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GKFSuSc9nYioKCjgUPFy2J5K6K2Ur7ZnpXH9XEiQH63R": 1795232161.3931394,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795232161.3931394,
-  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795232161.3931394,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795232161.3931394,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795232161.3931394,
-  "seen:1urRZDT83BsB4XCjA5CdxAvp6idm46AwthJu5m5sQf5": 1795232344.1404395,
-  "seen:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": 1795232344.1404395,
-  "seen:C8S48SdQPgTrxh7Ghf67mfb74y8msUjTtotpTT4Mpump": 1795232344.1404395,
-  "seen:8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": 1795232344.1404395,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795232344.1404395,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795232344.1404395,
-  "control:8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": 1795232344.2059956,
   "seen:HK64kGr5Pqonta3rijg2hxHCGfNfbPSF2wcY47WVpump": 1795232527.8956852,
   "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795232527.8956852,
   "seen:DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump": 1795232527.8956852,
@@ -93,7 +66,17 @@
   "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795232710.323407,
   "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795232892.4874237,
   "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795232892.4874237,
-  "control:GKFSuSc9nYioKCjgUPFy2J5K6K2Ur7ZnpXH9XEiQH63R": 1795232892.5286748
+  "control:GKFSuSc9nYioKCjgUPFy2J5K6K2Ur7ZnpXH9XEiQH63R": 1795232892.5286748,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1795233076.2565658,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795233076.2565658,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795233076.2565658,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795233076.2565658,
+  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795233076.2565658,
+  "seen:1urRZDT83BsB4XCjA5CdxAvp6idm46AwthJu5m5sQf5": 1795233258.8558085,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795233258.8558085,
+  "seen:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": 1795233258.8558085,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795233258.8558085,
+  "seen:Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": 1795233258.8558085
  },
  "talks": {
   "2026-10-21": 109
@@ -134,18 +117,18 @@
  ],
  "last_review": 1795212949.883366,
  "news": {
-  "t": 1795231261.4094243,
+  "t": 1795232176.2734616,
   "crypto": [
-   "Kalshi races to get ahead of New York order that could shut down exchange (4h ago)",
-   "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment (5h ago)",
+   "Kalshi races to get ahead of New York order that could shut down exchange (5h ago)",
+   "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment (6h ago)",
    "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit (8h ago)",
    "Sky Protocol sees $2 billion in stablecoin withdrawals, disputes illicit fund claims (9h ago)",
    "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play (9h ago)",
-   "Bitcoin falls below $60K for first time since July amid broader market selloff (10h ago)",
-   "US Senate advances prediction market restrictions with DEATH BETS Act (11h ago)",
-   "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off (11h ago)",
+   "Bitcoin falls below $60K for first time since July amid broader market selloff (11h ago)",
+   "US Senate advances prediction market restrictions with DEATH BETS Act (12h ago)",
+   "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off (12h ago)",
    "DBS bets it can lose the deposit and keep the client (12h ago)",
-   "Former Point72 head of proprietary research says AI could turn data into a new asset class for Wall Street (12h ago)"
+   "Former Point72 head of proprietary research says AI could turn data into a new asset class for Wall Street (13h ago)"
   ],
   "macro": [],
   "calendar": []
