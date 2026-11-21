@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -78241.14953665945,
+   "cash": -78310.93094849744,
    "open": [
     {
      "id": 3531,
@@ -23,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 3598,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "jingyu",
-     "mint": "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump",
-     "side": 1,
-     "opened": 1795264034.5913196,
-     "entry": 9.503e-05,
-     "stop": 7.6024e-05,
-     "target": 0.000133042,
-     "size": 2104598.547827002,
-     "deadline": 1795271234.5913198,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3599,
      "desk": "control",
      "market": "meme",
@@ -51,29 +36,47 @@
      "size": 755001.8875047188,
      "deadline": 1795272335.1754875,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3601,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Bust",
+     "mint": "EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump",
+     "side": 1,
+     "opened": 1795271006.3912683,
+     "entry": 7.522e-05,
+     "stop": 6.0176e-05,
+     "target": 0.000105308,
+     "size": 2658867.322520606,
+     "deadline": 1795278206.3912685,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3600,
+ "next_id": 3602,
  "runs": 124,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795270807.9842505,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795270807.9842505,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795270807.9842505,
-  "seen:6qmVTdMG9CtogD7AJx3UJhnoCVEjNCf5aRsEGi6mpump": 1795270992.0033543,
-  "seen:EK2tRRD5jqNUxohdMjbjnJ5Q3t9TYGBkZVjtMceDpump": 1795270992.0033543,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795270992.0033543,
-  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795270992.0033543,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795270992.0033543,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795271172.3674684,
-  "seen:2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump": 1795271172.3674684,
-  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1795271172.3674684,
-  "seen:3b7WvfRxRaoMuq4j6JWJzrL5mym3Km3QzfX5dqCopump": 1795271355.4695966,
-  "seen:FJKt1LxbWBpTRt9BaDEB6Wr2qL5LZzjFF5sx8rXnpump": 1795271355.4695966,
   "seen:DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump": 1795271539.0005448,
-  "seen:Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": 1795271539.0005448
+  "seen:Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": 1795271539.0005448,
+  "seen:8Wj18dstju6wghWDEsRdRzRmPTz8fD5Z5QwyfHjzpump": 1795271723.2615254,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795271723.2615254,
+  "seen:EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump": 1795271723.2615254,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795271723.2615254,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795271723.2615254,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795271723.2615254,
+  "control:EK2tRRD5jqNUxohdMjbjnJ5Q3t9TYGBkZVjtMceDpump": 1795271723.3209178,
+  "seen:EK2tRRD5jqNUxohdMjbjnJ5Q3t9TYGBkZVjtMceDpump": 1795271906.3473582,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795271906.3473582,
+  "seen:D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump": 1795271906.3473582,
+  "control:EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump": 1795271906.3912716,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795272089.6647582,
+  "seen:2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump": 1795272089.6647582,
+  "seen:3b7WvfRxRaoMuq4j6JWJzrL5mym3Km3QzfX5dqCopump": 1795272273.0694249,
+  "seen:FJKt1LxbWBpTRt9BaDEB6Wr2qL5LZzjFF5sx8rXnpump": 1795272273.0694249,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795272273.0694249
  },
  "talks": {
   "2026-10-21": 109
@@ -114,17 +117,17 @@
  ],
  "last_review": 1795212949.883366,
  "news": {
-  "t": 1795270272.3840785,
+  "t": 1795271189.6815176,
   "crypto": [
    "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated (2h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
-   "ECB seeks industry partners for tokenized deposits, securities experiments (4h ago)",
-   "US lawmakers propose up to 30% rewards for prediction market whistleblowers (6h ago)",
+   "ECB seeks industry partners for tokenized deposits, securities experiments (5h ago)",
+   "US lawmakers propose up to 30% rewards for prediction market whistleblowers (7h ago)",
    "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug (8h ago)",
    "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion (8h ago)",
    "Hong Kong pushes to bring crypto custodians, advisers under licensing rules (9h ago)",
    "Bitcoin tanks below $57,000 for the first time in two years, and its not alone (10h ago)",
-   "Kalshi races to get ahead of New York order that could shut down exchange (15h ago)",
+   "Kalshi races to get ahead of New York order that could shut down exchange (16h ago)",
    "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment (16h ago)"
   ],
   "macro": [],
