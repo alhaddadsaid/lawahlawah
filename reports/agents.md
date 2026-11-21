@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-21 07:06 UTC. Runs so far: 123. Model: claude-haiku-5-5.
+Updated 2026-11-21 07:15 UTC. Runs so far: 123. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,19 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3491 | 31 | -87963.1 | -121512.6 |
+| control | meme | 3492 | 31 | -88045.78 | -121603.42 |
 | control | macro | 73 | 49 | 253.03 | -107.23 |
-| control | all | 3564 | 31 | -87710.07 | -121619.83 |
+| control | all | 3565 | 31 | -87792.75 | -121710.65 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GBPUSD long at 1.30811, stop 1.30687, target 1.30997, opened 2026-11-20 21:02 UTC
-- control: PATRICK long at 0.0001152, stop 9.216e-05, target 0.00016128, opened 2026-11-21 05:59 UTC
 - control: Singularity long at 0.0001408, stop 0.00011264, target 0.00019712, opened 2026-11-21 06:54 UTC
 - control: PAID long at 0.001148, stop 0.0009184, target 0.0016072, opened 2026-11-21 07:06 UTC
+- control: BTC long at 9.618e-05, stop 7.6944e-05, target 0.000134652, opened 2026-11-21 07:12 UTC
+- control: PATRICK long at 6.668e-05, stop 5.3344e-05, target 9.3352e-05, opened 2026-11-21 07:15 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-21 07:06 UTC control: OPENED PAID long at 0.001148 (stop 0.0009184, target 0.0016072) - control: frozen v3 rules
+- 2026-11-21 07:15 UTC control: OPENED PATRICK long at 6.668e-05 (stop 5.3344e-05, target 9.3352e-05) - control: frozen v3 rules
 
