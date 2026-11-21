@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -77647.0496183248,
+   "cash": -77709.94390108105,
    "open": [
     {
      "id": 3531,
@@ -38,36 +38,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3585,
+     "id": 3586,
      "desk": "control",
      "market": "meme",
-     "symbol": "VAREXON",
-     "mint": "FQNz7BKQejsQR3aFyCY746Km2smesUS9DWYsU9nopump",
+     "symbol": "Singularity",
+     "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
      "side": 1,
-     "opened": 1795243509.2696843,
-     "entry": 8.693e-05,
-     "stop": 6.9544e-05,
-     "target": 0.00012170199999999997,
-     "size": 2300701.714022777,
-     "deadline": 1795250709.2696846,
+     "opened": 1795244057.2570977,
+     "entry": 0.0001408,
+     "stop": 0.00011264,
+     "target": 0.00019712,
+     "size": 1420454.5454545454,
+     "deadline": 1795251257.257098,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3586,
+ "next_id": 3587,
  "runs": 123,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795243679.864992,
-  "seen:CREDBHvVqREBCAxMihzr8D1nepHMr2gmQoZWpmgGmeta": 1795243679.864992,
-  "seen:2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump": 1795243679.864992,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795243679.864992,
-  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1795243861.872414,
-  "seen:FQNz7BKQejsQR3aFyCY746Km2smesUS9DWYsU9nopump": 1795243861.872414,
-  "seen:CBhuYzoXmaFHiRxLWjiJCVTCVHBrQGmCfAfrY5ELpump": 1795244044.9522617,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795244044.9522617,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795244044.9522617,
   "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795244227.3252265,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795244227.3252265,
   "seen:2GiS8L6jzveE7cQ61bjGN6wVn5MS9FcBjarSAMFppump": 1795244227.3252265,
@@ -77,7 +68,15 @@
   "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1795244409.2052417,
   "seen:FJKt1LxbWBpTRt9BaDEB6Wr2qL5LZzjFF5sx8rXnpump": 1795244409.2052417,
   "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795244409.2052417,
-  "control:FQNz7BKQejsQR3aFyCY746Km2smesUS9DWYsU9nopump": 1795244409.2696867
+  "control:FQNz7BKQejsQR3aFyCY746Km2smesUS9DWYsU9nopump": 1795244409.2696867,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795244592.549826,
+  "seen:2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump": 1795244592.549826,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795244592.549826,
+  "seen:FQNz7BKQejsQR3aFyCY746Km2smesUS9DWYsU9nopump": 1795244775.0310276,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795244775.0310276,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795244775.0310276,
+  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795244956.8632398,
+  "control:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795244957.2571008
  },
  "talks": {
   "2026-10-21": 109
@@ -118,17 +117,17 @@
  ],
  "last_review": 1795212949.883366,
  "news": {
-  "t": 1795243144.9692893,
+  "t": 1795244056.882218,
   "crypto": [
-   "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug (0h ago)",
+   "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug (1h ago)",
    "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion (1h ago)",
    "Hong Kong pushes to bring crypto custodians, advisers under licensing rules (1h ago)",
-   "Bitcoin tanks below $57,000 for the first time in two years, and its not alone (2h ago)",
+   "Bitcoin tanks below $57,000 for the first time in two years, and its not alone (3h ago)",
    "Kalshi races to get ahead of New York order that could shut down exchange (8h ago)",
    "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment (9h ago)",
    "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit (11h ago)",
    "Sky Protocol sees $2 billion in stablecoin withdrawals, disputes illicit fund claims (12h ago)",
-   "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play (12h ago)",
+   "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play (13h ago)",
    "Bitcoin falls below $60K for first time since July amid broader market selloff (14h ago)"
   ],
   "macro": [],
