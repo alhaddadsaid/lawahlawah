@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -76211.45235038629,
+   "cash": -76143.45235038629,
    "open": [
     {
      "id": 3531,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3546,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PATRICK",
-     "mint": "8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump",
-     "side": 1,
-     "opened": 1795218273.0360355,
-     "entry": 0.0001443,
-     "stop": 0.00011544000000000002,
-     "target": 0.00020202,
-     "size": 1386001.386001386,
-     "deadline": 1795225473.0360358,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3548,
      "desk": "control",
      "market": "meme",
@@ -89,18 +74,6 @@
  "runs": 122,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795219356.0107217,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795219356.0107217,
-  "seen:EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump": 1795219356.0107217,
-  "seen:DEgAkPNxz3dtMsesD2FDkNA2S6sch5YWfGUDT7R2pump": 1795219356.0107217,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795219356.0107217,
-  "control:5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump": 1795219356.5854404,
-  "seen:5kLah7PHaD6A4RmU2tdF7Tv3zXHGrkvxgfFtKUfApump": 1795219539.4016159,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795219539.4016159,
-  "seen:7i8AXjBdKGjGpRo4Ex5aDKUaX55xed5Hrgoww1G9pump": 1795219539.4016159,
-  "seen:Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": 1795219723.5237172,
-  "seen:2KRbMf4itijwsTHb5dQtiBpfptyNmhpVzmpdj4qqN2yx": 1795219723.5237172,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795219723.5237172,
   "seen:8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": 1795219906.6785548,
   "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1795219906.6785548,
   "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795219906.6785548,
@@ -109,7 +82,18 @@
   "seen:BYKQkHKMWHidNBLQXgt7NX4PLUtJZRYGLWQYkJzPGenX": 1795220089.372767,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795220089.372767,
   "seen:CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump": 1795220089.372767,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795220089.372767
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795220089.372767,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795220273.9313724,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795220273.9313724,
+  "seen:EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump": 1795220273.9313724,
+  "seen:HF2RBPrfNBk9TxggL2cYZFEKSgirzh5HKCngLENTpump": 1795220273.9313724,
+  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795220273.9313724,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795220457.1602468,
+  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795220457.1602468,
+  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795220457.1602468,
+  "seen:DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump": 1795220640.187528,
+  "seen:Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": 1795220640.187528,
+  "seen:2KRbMf4itijwsTHb5dQtiBpfptyNmhpVzmpdj4qqN2yx": 1795220640.187528
  },
  "talks": {
   "2026-10-21": 109
@@ -150,7 +134,7 @@
  ],
  "last_review": 1795212949.883366,
  "news": {
-  "t": 1795218456.027863,
+  "t": 1795219373.9478922,
   "crypto": [
    "Kalshi races to get ahead of New York order that could shut down exchange (1h ago)",
    "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment (2h ago)",
@@ -160,7 +144,7 @@
    "Bitcoin falls below $60K for first time since July amid broader market selloff (7h ago)",
    "US Senate advances prediction market restrictions with DEATH BETS Act (8h ago)",
    "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off (8h ago)",
-   "DBS bets it can lose the deposit and keep the client (8h ago)",
+   "DBS bets it can lose the deposit and keep the client (9h ago)",
    "Former Point72 head of proprietary research says AI could turn data into a new asset class for Wall Street (9h ago)"
   ],
   "macro": [],
