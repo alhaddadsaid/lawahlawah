@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -78190.59650019287,
+   "cash": -78210.18845100339,
    "open": [
     {
      "id": 3531,
@@ -21,21 +21,6 @@
      "size": 80708.4721534973,
      "deadline": 1795294939.6901865,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 3591,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CYBERLEEK",
-     "mint": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-     "side": 1,
-     "opened": 1795255056.8548875,
-     "entry": 0.001789,
-     "stop": 0.0014312,
-     "target": 0.0025046,
-     "size": 111794.29849077697,
-     "deadline": 1795262256.8548877,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 3592,
@@ -89,22 +74,21 @@
  "runs": 124,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:D5D2ieKCyhBToJjKJWWM3HeakiH8DPAVoCYkfd38pump": 1795261824.8873014,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795261824.8873014,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795261824.8873014,
-  "seen:2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump": 1795262009.5617788,
-  "seen:DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump": 1795262009.5617788,
-  "seen:Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": 1795262009.5617788,
-  "seen:DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": 1795262009.5617788,
-  "seen:FJKt1LxbWBpTRt9BaDEB6Wr2qL5LZzjFF5sx8rXnpump": 1795262193.3062615,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795262193.3062615,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795262193.3062615,
-  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1795262193.3062615,
   "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795262376.2032921,
   "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795262376.2032921,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795262559.5375512,
   "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795262559.5375512,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795262559.5375512
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795262559.5375512,
+  "seen:D5D2ieKCyhBToJjKJWWM3HeakiH8DPAVoCYkfd38pump": 1795262743.861212,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795262743.861212,
+  "seen:2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump": 1795262923.835535,
+  "seen:Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": 1795262923.835535,
+  "seen:DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": 1795262923.835535,
+  "seen:DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump": 1795262923.835535,
+  "seen:3umHFkiMHyphCkLxtbf8Aabie8r5hxn86QeBAovTpump": 1795263103.9316468,
+  "seen:FJKt1LxbWBpTRt9BaDEB6Wr2qL5LZzjFF5sx8rXnpump": 1795263103.9316468,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795263103.9316468,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795263103.9316468
  },
  "talks": {
   "2026-10-21": 109
@@ -145,15 +129,15 @@
  ],
  "last_review": 1795212949.883366,
  "news": {
-  "t": 1795261109.578338,
+  "t": 1795262023.8545628,
   "crypto": [
-   "Here\u2019s what happened in crypto today (0h ago)",
+   "Here\u2019s what happened in crypto today (1h ago)",
    "ECB seeks industry partners for tokenized deposits, securities experiments (2h ago)",
    "US lawmakers propose up to 30% rewards for prediction market whistleblowers (4h ago)",
-   "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug (5h ago)",
+   "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug (6h ago)",
    "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion (6h ago)",
    "Hong Kong pushes to bring crypto custodians, advisers under licensing rules (6h ago)",
-   "Bitcoin tanks below $57,000 for the first time in two years, and its not alone (7h ago)",
+   "Bitcoin tanks below $57,000 for the first time in two years, and its not alone (8h ago)",
    "Kalshi races to get ahead of New York order that could shut down exchange (13h ago)",
    "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment (14h ago)",
    "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit (16h ago)"
