@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-21 15:20 UTC. Runs so far: 124. Model: claude-haiku-5-5.
+Updated 2026-11-21 17:20 UTC. Runs so far: 125. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3513 | 31 | -88793.98 | -122547.87 |
+| control | meme | 3516 | 31 | -88790.8 | -122575.54 |
 | control | macro | 73 | 49 | 253.03 | -107.23 |
-| control | all | 3586 | 31 | -88540.95 | -122655.1 |
+| control | all | 3589 | 31 | -88537.77 | -122682.77 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GBPUSD long at 1.30811, stop 1.30687, target 1.30997, opened 2026-11-20 21:02 UTC
-- control: DIGS long at 0.0002834, stop 0.00022672, target 0.00039676, opened 2026-11-21 14:47 UTC
-- control: Bigfoot long at 7.191e-05, stop 5.7528e-05, target 0.000100674, opened 2026-11-21 15:03 UTC
-- control: win long at 0.0001856, stop 0.00014848, target 0.00025984, opened 2026-11-21 15:06 UTC
 
 ## Team
 
@@ -33,5 +30,9 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-## Run ended 2026-11-21 15:20 UTC
+## Run started 2026-11-21 17:19 UTC
+- control: CLOSED DIGS (time, while away) P&L $9.06 normal, $-1.43 pessimistic
+- control: CLOSED Bigfoot (target, while away) P&L $68.0 normal, $56.0 pessimistic
+- control: CLOSED win (stop, while away) P&L $-73.88 normal, $-82.24 pessimistic
+- team: model call failed:  HTTP 401: invalid x-api-key
 
