@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-21 04:43 UTC. Runs so far: 123. Model: claude-haiku-5-5.
+Updated 2026-11-21 04:53 UTC. Runs so far: 123. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3472 | 31 | -87239.63 | -120612.79 |
+| control | meme | 3474 | 31 | -87221.12 | -120615.27 |
 | control | macro | 73 | 49 | 253.03 | -107.23 |
-| control | all | 3545 | 31 | -86986.6 | -120720.02 |
+| control | all | 3547 | 31 | -86968.09 | -120722.5 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: PATRICK long at 0.0001037, stop 8.296e-05, target 0.00014518, opened 2026-11-21 03:24 UTC
 - control: CYBERLEEK long at 0.001645, stop 0.001316, target 0.002303, opened 2026-11-21 03:45 UTC
 - control: jingyu long at 9.077e-05, stop 7.2616e-05, target 0.000127078, opened 2026-11-21 04:06 UTC
-- control: CC131 long at 7.867e-05, stop 6.2936e-05, target 0.000110138, opened 2026-11-21 04:43 UTC
 
 ## Team
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-21 04:43 UTC control: OPENED CC131 long at 7.867e-05 (stop 6.2936e-05, target 0.000110138) - control: frozen v3 rules
+- control: CLOSED PENNY (stop) P&L $-49.49 normal, $-58.48 pessimistic
 
