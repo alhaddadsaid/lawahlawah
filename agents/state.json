@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -77259.02568897817,
+   "cash": -77302.24754038769,
    "open": [
     {
      "id": 3531,
@@ -23,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 3565,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CYBERLEEK",
-     "mint": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-     "side": 1,
-     "opened": 1795232724.876224,
-     "entry": 0.001645,
-     "stop": 0.0013160000000000001,
-     "target": 0.002303,
-     "size": 121580.54711246201,
-     "deadline": 1795239924.8762243,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3574,
      "desk": "control",
      "market": "meme",
@@ -53,37 +38,42 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3576,
+     "id": 3577,
      "desk": "control",
      "market": "meme",
-     "symbol": "VAREXON",
-     "mint": "FQNz7BKQejsQR3aFyCY746Km2smesUS9DWYsU9nopump",
+     "symbol": "PENNY",
+     "mint": "8fWsV1u1SYcN358tSA6dyTjfpmaQTziftcHwKBFSpump",
      "side": 1,
-     "opened": 1795239304.8440444,
-     "entry": 7.808e-05,
-     "stop": 6.2464e-05,
-     "target": 0.00010931199999999999,
-     "size": 2561475.4098360655,
-     "deadline": 1795246504.8440447,
+     "opened": 1795239489.4452848,
+     "entry": 9.11e-05,
+     "stop": 7.288000000000001e-05,
+     "target": 0.00012754,
+     "size": 2195389.681668496,
+     "deadline": 1795246689.4452848,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3578,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "BTC",
+     "mint": "CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump",
+     "side": 1,
+     "opened": 1795239854.1339982,
+     "entry": 0.0001101,
+     "stop": 8.808000000000001e-05,
+     "target": 0.00015413999999999998,
+     "size": 1816530.4268846503,
+     "deadline": 1795247054.1339984,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3577,
+ "next_id": 3579,
  "runs": 123,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795239473.9150085,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795239473.9150085,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795239473.9150085,
-  "control:DbMPw1vSRtE93EK5Sqw23xHuDtkD569RpqANLvdqpump": 1795239474.4192743,
-  "seen:KENJSUYLASHUMfHyy5o4Hp2FdNqZg1AsUPhfH2kYvEP": 1795239656.6675942,
-  "seen:FJKt1LxbWBpTRt9BaDEB6Wr2qL5LZzjFF5sx8rXnpump": 1795239840.2031205,
-  "seen:DbMPw1vSRtE93EK5Sqw23xHuDtkD569RpqANLvdqpump": 1795239840.2031205,
-  "seen:7M7yAQmtvo9jJ6TgrMPEj5eXbxFiJCJjqWfQyMQrpump": 1795239840.2031205,
-  "seen:DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump": 1795239840.2031205,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795239840.2031205,
   "seen:2TngN4B7XaoGSKsYvttq5bFAdM4Z4xCSnuyRwGiFpump": 1795240022.3189352,
   "seen:8fWsV1u1SYcN358tSA6dyTjfpmaQTziftcHwKBFSpump": 1795240022.3189352,
   "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795240022.3189352,
@@ -91,7 +81,19 @@
   "seen:FQNz7BKQejsQR3aFyCY746Km2smesUS9DWYsU9nopump": 1795240204.7403498,
   "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1795240204.7403498,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795240204.7403498,
-  "control:FQNz7BKQejsQR3aFyCY746Km2smesUS9DWYsU9nopump": 1795240204.8440487
+  "control:FQNz7BKQejsQR3aFyCY746Km2smesUS9DWYsU9nopump": 1795240204.8440487,
+  "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1795240388.7836168,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795240388.7836168,
+  "control:8fWsV1u1SYcN358tSA6dyTjfpmaQTziftcHwKBFSpump": 1795240389.4452877,
+  "seen:2GiS8L6jzveE7cQ61bjGN6wVn5MS9FcBjarSAMFppump": 1795240571.9140205,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795240571.9140205,
+  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795240571.9140205,
+  "seen:FJKt1LxbWBpTRt9BaDEB6Wr2qL5LZzjFF5sx8rXnpump": 1795240754.078778,
+  "seen:DbMPw1vSRtE93EK5Sqw23xHuDtkD569RpqANLvdqpump": 1795240754.078778,
+  "seen:7M7yAQmtvo9jJ6TgrMPEj5eXbxFiJCJjqWfQyMQrpump": 1795240754.078778,
+  "seen:DkHsZ1kjd2Fua8sgKE6PhHhyCdXYscbDVN7mAfiGpump": 1795240754.078778,
+  "seen:CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump": 1795240754.078778,
+  "control:CUfphqswgDK3VP3FX7CiShVCTdGQneFusYRFViABpump": 1795240754.134002
  },
  "talks": {
   "2026-10-21": 109
@@ -132,16 +134,16 @@
  ],
  "last_review": 1795212949.883366,
  "news": {
-  "t": 1795238573.9324248,
+  "t": 1795239488.8002074,
   "crypto": [
    "Bitcoin tanks below $57,000 for the first time in two years, and its not alone (1h ago)",
    "Kalshi races to get ahead of New York order that could shut down exchange (7h ago)",
-   "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment (7h ago)",
+   "Fairmint plans tokenized stock venue on Canton, Ethereum under SEC experiment (8h ago)",
    "Wrapped Monero token crashes 99.8% amid suspected $13.5M exploit (10h ago)",
    "Sky Protocol sees $2 billion in stablecoin withdrawals, disputes illicit fund claims (11h ago)",
    "Bitcoin plunges below $59,000 as rush to cash puts new bear market lows back in play (11h ago)",
-   "Bitcoin falls below $60K for first time since July amid broader market selloff (12h ago)",
-   "US Senate advances prediction market restrictions with DEATH BETS Act (13h ago)",
+   "Bitcoin falls below $60K for first time since July amid broader market selloff (13h ago)",
+   "US Senate advances prediction market restrictions with DEATH BETS Act (14h ago)",
    "Bitcoin price drops to $60K as Anthropic drops to $87 in tech sell-off (14h ago)",
    "DBS bets it can lose the deposit and keep the client (14h ago)"
   ],
