@@ -5,35 +5,30 @@
    "open": []
   },
   "control": {
-   "cash": -80207.73664636716,
+   "cash": -80209.64846233091,
    "open": [
     {
-     "id": 3687,
+     "id": 3689,
      "desk": "control",
      "market": "meme",
      "symbol": "DIGS",
      "mint": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
      "side": 1,
-     "opened": 1795356341.6501281,
-     "entry": 0.0002869,
-     "stop": 0.00022952,
-     "target": 0.0004016599999999999,
-     "size": 697107.0059254096,
-     "deadline": 1795363541.6501284,
+     "opened": 1795363597.3444202,
+     "entry": 0.000289,
+     "stop": 0.00023119999999999998,
+     "target": 0.00040459999999999997,
+     "size": 692041.5224913495,
+     "deadline": 1795370797.3444204,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3689,
+ "next_id": 3690,
  "runs": 128,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:v4GK8f24ZJJa5qLoTJ4mJ5d6jsNUXHScwGaRHdfpump": 1795363593.0989249,
-  "seen:3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump": 1795363593.0989249,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795363593.0989249,
-  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795363593.0989249,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795363593.0989249,
   "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1795363773.1501155,
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1795363773.1501155,
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795363773.1501155,
@@ -49,7 +44,12 @@
   "seen:3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": 1795364135.1845207,
   "seen:6RE3WnDYmkKquontjFXD2me6vuqjan45EHVCtL3kpump": 1795364135.1845207,
   "seen:SHDWyBxihqiCj6YekG2GUr7wqKLeLAMK1gHZck9pL6y": 1795364315.5512779,
-  "seen:MRNAzXzhNcaEXJPibHEn8cd4vyekCDiivTyEwswLUCT": 1795364315.5512779
+  "seen:MRNAzXzhNcaEXJPibHEn8cd4vyekCDiivTyEwswLUCT": 1795364315.5512779,
+  "seen:3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump": 1795364496.7899637,
+  "seen:v4GK8f24ZJJa5qLoTJ4mJ5d6jsNUXHScwGaRHdfpump": 1795364496.7899637,
+  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795364496.7899637,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795364496.7899637,
+  "control:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795364497.3444242
  },
  "talks": {
   "2026-10-21": 109
@@ -90,17 +90,17 @@
  ],
  "last_review": 1795299473.5066411,
  "news": {
-  "t": 1795362693.113585,
+  "t": 1795363596.8045666,
   "crypto": [
-   "The future of onchain FX could start with users, not institutional liquidity (1h ago)",
+   "The future of onchain FX could start with users, not institutional liquidity (2h ago)",
    "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins (2h ago)",
-   "Here\u2019s what happened in crypto today (4h ago)",
-   "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades (6h ago)",
-   "South Korean exchanges halt CYBER transfers amid suspected bridge exploit (8h ago)",
-   "Chainflip confirms $12M hack, offers attacker 10% bounty (10h ago)",
+   "Here\u2019s what happened in crypto today (5h ago)",
+   "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades (7h ago)",
+   "South Korean exchanges halt CYBER transfers amid suspected bridge exploit (9h ago)",
+   "Chainflip confirms $12M hack, offers attacker 10% bounty (11h ago)",
    "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave (22h ago)",
    "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain (23h ago)",
-   "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated (27h ago)",
+   "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated (28h ago)",
    "ECB seeks industry partners for tokenized deposits, securities experiments (30h ago)"
   ],
   "macro": [],
