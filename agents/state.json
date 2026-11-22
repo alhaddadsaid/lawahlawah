@@ -6,30 +6,44 @@
   },
   "control": {
    "cash": -80093.48307278643,
-   "open": []
+   "open": [
+    {
+     "id": 3681,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "HIPPO",
+     "mint": "95NAbTyZopHGJK9TuisJZUHKAZSqRoSB3JPfqAqHpump",
+     "side": 1,
+     "opened": 1795348700.6673605,
+     "entry": 0.0001091,
+     "stop": 8.727999999999999e-05,
+     "target": 0.00015273999999999998,
+     "size": 1833180.5682859763,
+     "deadline": 1795355900.6673608,
+     "thesis": "control: frozen v3 rules"
+    }
+   ]
   }
  },
- "next_id": 3681,
+ "next_id": 3682,
  "runs": 128,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:95NAbTyZopHGJK9TuisJZUHKAZSqRoSB3JPfqAqHpump": 1795348135.0859811,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1795348135.0859811,
-  "seen:3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump": 1795348135.0859811,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795348135.0859811,
-  "seen:3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": 1795348135.0859811,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795348135.0859811,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795348319.5170608,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1795348319.5170608,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795348319.5170608,
-  "control:95NAbTyZopHGJK9TuisJZUHKAZSqRoSB3JPfqAqHpump": 1795348319.5618746,
-  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795348504.7164237,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795348504.7164237,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795348504.7164237,
-  "seen:FZ71ymWrXexjL5a6Zri7mbSqLeuQts5o23juqCcXpump": 1795348504.7164237,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795348504.7164237,
-  "seen:Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": 1795348689.2378538,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795348689.2378538
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1795349051.6869967,
+  "seen:95NAbTyZopHGJK9TuisJZUHKAZSqRoSB3JPfqAqHpump": 1795349051.6869967,
+  "seen:3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump": 1795349051.6869967,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795349051.6869967,
+  "seen:3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": 1795349051.6869967,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1795349236.1592925,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795349236.1592925,
+  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1795349236.1592925,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795349236.1592925,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795349416.609807,
+  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795349416.609807,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795349416.609807,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795349416.609807,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795349416.609807,
+  "control:95NAbTyZopHGJK9TuisJZUHKAZSqRoSB3JPfqAqHpump": 1795349600.6673644
  },
  "talks": {
   "2026-10-21": 109
@@ -70,7 +84,7 @@
  ],
  "last_review": 1795299473.5066411,
  "news": {
-  "t": 1795347235.1031628,
+  "t": 1795348151.7012699,
   "crypto": [
    "Here\u2019s what happened in crypto today (0h ago)",
    "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades (2h ago)",
@@ -81,7 +95,7 @@
    "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated (23h ago)",
    "ECB seeks industry partners for tokenized deposits, securities experiments (26h ago)",
    "US lawmakers propose up to 30% rewards for prediction market whistleblowers (28h ago)",
-   "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug (29h ago)"
+   "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug (30h ago)"
   ],
   "macro": [],
   "calendar": []
