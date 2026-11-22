@@ -36,20 +36,29 @@
      "size": 128287.36369467607,
      "deadline": 1795340321.691197,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3674,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CORONA",
+     "mint": "6fVQAutGBLpyYJRiekVjSjvKidsmgZx14bKV5HSSpump",
+     "side": 1,
+     "opened": 1795336604.0444942,
+     "entry": 5.748e-05,
+     "stop": 4.5984e-05,
+     "target": 8.047199999999998e-05,
+     "size": 3479471.120389701,
+     "deadline": 1795343804.0444946,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3674,
+ "next_id": 3675,
  "runs": 127,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GYcPEeSmq7pXWQWucNQuW2ehyf7EtNKCySaggbS8HqpM": 1795336408.4296784,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795336408.4296784,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795336408.4296784,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795336408.4296784,
-  "seen:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": 1795336592.9124427,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795336592.9124427,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795336773.8673851,
   "seen:3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump": 1795336773.8673851,
   "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795336773.8673851,
@@ -61,7 +70,12 @@
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795336958.1873407,
   "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1795336958.1873407,
   "seen:7SL2VnfYsChvog5oQY9Nmtqu1wceaMiQzWoqoLQpump": 1795337143.2695699,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795337143.2695699
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795337143.2695699,
+  "seen:BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp": 1795337322.818465,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795337322.818465,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795337322.818465,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795337322.818465,
+  "control:6fVQAutGBLpyYJRiekVjSjvKidsmgZx14bKV5HSSpump": 1795337504.0444977
  },
  "talks": {
   "2026-10-21": 109
@@ -102,7 +116,7 @@
  ],
  "last_review": 1795299473.5066411,
  "news": {
-  "t": 1795335692.929006,
+  "t": 1795336603.6835399,
   "crypto": [
    "South Korean exchanges halt CYBER transfers amid suspected bridge exploit (1h ago)",
    "Chainflip confirms $12M hack, offers attacker 10% bounty (3h ago)",
@@ -111,9 +125,9 @@
    "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated (20h ago)",
    "Here\u2019s what happened in crypto today (21h ago)",
    "ECB seeks industry partners for tokenized deposits, securities experiments (23h ago)",
-   "US lawmakers propose up to 30% rewards for prediction market whistleblowers (24h ago)",
+   "US lawmakers propose up to 30% rewards for prediction market whistleblowers (25h ago)",
    "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug (26h ago)",
-   "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion (26h ago)"
+   "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion (27h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -146,5 +160,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795335323.5149038
+ "last_macro_macro": 1795336603.6833723
 }
