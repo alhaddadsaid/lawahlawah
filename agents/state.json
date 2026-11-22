@@ -36,18 +36,29 @@
      "size": 128287.36369467607,
      "deadline": 1795340321.691197,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3673,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CORONA",
+     "mint": "6fVQAutGBLpyYJRiekVjSjvKidsmgZx14bKV5HSSpump",
+     "side": 1,
+     "opened": 1795334775.2946875,
+     "entry": 6.76e-05,
+     "stop": 5.4080000000000004e-05,
+     "target": 9.463999999999999e-05,
+     "size": 2958579.8816568046,
+     "deadline": 1795341975.2946877,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3673,
+ "next_id": 3674,
  "runs": 127,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795334574.9992254,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795334574.9992254,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1795334574.9992254,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795334756.2086632,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795334940.8157911,
   "seen:3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump": 1795334940.8157911,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795334940.8157911,
@@ -58,7 +69,13 @@
   "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795335125.6543324,
   "seen:6fVQAutGBLpyYJRiekVjSjvKidsmgZx14bKV5HSSpump": 1795335310.0498044,
   "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795335310.0498044,
-  "seen:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": 1795335310.0498044
+  "seen:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": 1795335310.0498044,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795335494.3698258,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795335494.3698258,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795335494.3698258,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795335675.0425797,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1795335675.0425797,
+  "control:6fVQAutGBLpyYJRiekVjSjvKidsmgZx14bKV5HSSpump": 1795335675.2946906
  },
  "talks": {
   "2026-10-21": 109
@@ -99,13 +116,13 @@
  ],
  "last_review": 1795299473.5066411,
  "news": {
-  "t": 1795333856.2260263,
+  "t": 1795334775.0601707,
   "crypto": [
-   "South Korean exchanges halt CYBER transfers amid suspected bridge exploit (0h ago)",
-   "Chainflip confirms $12M hack, offers attacker 10% bounty (2h ago)",
+   "South Korean exchanges halt CYBER transfers amid suspected bridge exploit (1h ago)",
+   "Chainflip confirms $12M hack, offers attacker 10% bounty (3h ago)",
    "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave (14h ago)",
    "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain (15h ago)",
-   "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated (19h ago)",
+   "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated (20h ago)",
    "Here\u2019s what happened in crypto today (21h ago)",
    "ECB seeks industry partners for tokenized deposits, securities experiments (22h ago)",
    "US lawmakers propose up to 30% rewards for prediction market whistleblowers (24h ago)",
