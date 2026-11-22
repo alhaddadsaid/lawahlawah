@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -79200.06240382494,
+   "cash": -79436.08961881055,
    "open": [
     {
      "id": 3644,
@@ -23,36 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3645,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "RIZZMAS",
-     "mint": "6J3ApVu8dSLg1TJjBLWSTgmnvJXcH2YyF2iDC48Fpump",
-     "side": 1,
-     "opened": 1795321310.9479296,
-     "entry": 0.0001069,
-     "stop": 8.552000000000001e-05,
-     "target": 0.00014965999999999997,
-     "size": 1870907.390084191,
-     "deadline": 1795328510.9479299,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3646,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SHIT",
-     "mint": "Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump",
-     "side": 1,
-     "opened": 1795321493.241444,
-     "entry": 0.0001713,
-     "stop": 0.00013704,
-     "target": 0.00023981999999999996,
-     "size": 1167542.3234092237,
-     "deadline": 1795328693.2414443,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3647,
      "desk": "control",
      "market": "meme",
@@ -66,35 +36,66 @@
      "size": 2017349.2031470647,
      "deadline": 1795328875.4227822,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3648,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "DIGS",
+     "mint": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
+     "side": 1,
+     "opened": 1795321859.5670278,
+     "entry": 0.0002799,
+     "stop": 0.00022391999999999998,
+     "target": 0.00039185999999999995,
+     "size": 714540.9074669526,
+     "deadline": 1795329059.567028,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3649,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "CATEMAS",
+     "mint": "kPqBsUZuogprbq15ZpACwDzbUHSAxTxbhRrxmrDpump",
+     "side": 1,
+     "opened": 1795322041.4982913,
+     "entry": 0.0002441,
+     "stop": 0.00019528000000000001,
+     "target": 0.00034174,
+     "size": 819336.3375665711,
+     "deadline": 1795329241.4982915,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3648,
+ "next_id": 3650,
  "runs": 126,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795321845.2941186,
-  "seen:kPqBsUZuogprbq15ZpACwDzbUHSAxTxbhRrxmrDpump": 1795321845.2941186,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795321845.2941186,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795321845.2941186,
-  "seen:8T3ztDSKxYK15SUBseqLeviqQwfcG9wUeDGP1wjBpump": 1795322027.6519005,
-  "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1795322027.6519005,
-  "seen:6J3ApVu8dSLg1TJjBLWSTgmnvJXcH2YyF2iDC48Fpump": 1795322027.6519005,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795322027.6519005,
-  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795322027.6519005,
-  "seen:3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump": 1795322027.6519005,
-  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795322027.6519005,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795322210.8985348,
-  "seen:82mseLFauphc2yutbaDGgViahquJ1jGVLpyof99xpump": 1795322210.8985348,
-  "control:6J3ApVu8dSLg1TJjBLWSTgmnvJXcH2YyF2iDC48Fpump": 1795322210.9479332,
   "seen:HWxs8qisDEVsapunx1dTw2ZZEmZaKSLu8YvpjFgmc2pm": 1795322393.1982198,
   "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795322393.1982198,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795322393.1982198,
   "control:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1795322393.2414477,
   "seen:B7a7t2hRCfDWvWCXniiL2RXr1ViUNfQrQ4ATr79wpump": 1795322575.3795824,
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1795322575.3795824,
-  "control:8T3ztDSKxYK15SUBseqLeviqQwfcG9wUeDGP1wjBpump": 1795322575.4227853
+  "control:8T3ztDSKxYK15SUBseqLeviqQwfcG9wUeDGP1wjBpump": 1795322575.4227853,
+  "seen:kPqBsUZuogprbq15ZpACwDzbUHSAxTxbhRrxmrDpump": 1795322759.1666207,
+  "seen:83XmTBM8F2HV77cWyd7r6q9mqHeCmGRCRS8S8Pb6pump": 1795322759.1666207,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795322759.1666207,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795322759.1666207,
+  "control:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795322759.5670314,
+  "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1795322941.4505818,
+  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795322941.4505818,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795322941.4505818,
+  "seen:3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump": 1795322941.4505818,
+  "seen:6J3ApVu8dSLg1TJjBLWSTgmnvJXcH2YyF2iDC48Fpump": 1795322941.4505818,
+  "seen:Gbu7JAKhTVtGyRryg8cYPiKNhonXpUqbrZuCDjfUpump": 1795322941.4505818,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795322941.4505818,
+  "control:kPqBsUZuogprbq15ZpACwDzbUHSAxTxbhRrxmrDpump": 1795322941.4982953,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795323123.5332139,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795323123.5332139
  },
  "talks": {
   "2026-10-21": 109
@@ -135,16 +136,16 @@
  ],
  "last_review": 1795299473.5066411,
  "news": {
-  "t": 1795320945.3108034,
+  "t": 1795321859.183869,
   "crypto": [
-   "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave (10h ago)",
+   "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave (11h ago)",
    "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain (12h ago)",
    "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated (16h ago)",
    "Here\u2019s what happened in crypto today (17h ago)",
-   "ECB seeks industry partners for tokenized deposits, securities experiments (18h ago)",
-   "US lawmakers propose up to 30% rewards for prediction market whistleblowers (20h ago)",
+   "ECB seeks industry partners for tokenized deposits, securities experiments (19h ago)",
+   "US lawmakers propose up to 30% rewards for prediction market whistleblowers (21h ago)",
    "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug (22h ago)",
-   "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion (22h ago)",
+   "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion (23h ago)",
    "Hong Kong pushes to bring crypto custodians, advisers under licensing rules (23h ago)",
    "Bitcoin tanks below $57,000 for the first time in two years, and its not alone (24h ago)"
   ],
