@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-22 07:32 UTC. Runs so far: 127. Model: claude-haiku-5-5.
+Updated 2026-11-22 07:41 UTC. Runs so far: 127. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3574 | 31 | -89958.64 | -124308.33 |
+| control | meme | 3575 | 31 | -90009.84 | -124368.47 |
 | control | macro | 74 | 49 | 250.49 | -114.61 |
-| control | all | 3648 | 31 | -89708.15 | -124422.94 |
+| control | all | 3649 | 31 | -89759.35 | -124483.08 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: fone long at 0.0007526, stop 0.00060208, target 0.00105364, opened 2026-11-22 05:54 UTC
 - control: LEONIDA long at 0.0001203, stop 9.624e-05, target 0.00016842, opened 2026-11-22 07:05 UTC
 - control: CATEMAS long at 0.0001059, stop 8.472e-05, target 0.00014826, opened 2026-11-22 07:23 UTC
-- control: CORONA long at 5.192e-05, stop 4.1536e-05, target 7.2688e-05, opened 2026-11-22 07:26 UTC
+- control: CYBERLEEK long at 0.001559, stop 0.0012472, target 0.0021826, opened 2026-11-22 07:38 UTC
 
 ## Team
 
@@ -33,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 401: invalid x-api-key
+- control: CLOSED CORONA (stop) P&L $-51.2 normal, $-60.14 pessimistic
 
