@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -80255.1212329651,
+   "cash": -80289.34191021032,
    "open": [
     {
      "id": 3691,
@@ -36,36 +36,6 @@
      "size": 675447.4839581223,
      "deadline": 1795379612.9976652,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3697,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SINGULARTY",
-     "mint": "DJcHva2UJnRUPxzVfczcYyqxRtpwDTPcok6irtNmpump",
-     "side": 1,
-     "opened": 1795376062.9313548,
-     "entry": 6.113e-05,
-     "stop": 4.890400000000001e-05,
-     "target": 8.558200000000001e-05,
-     "size": 3271716.0150498934,
-     "deadline": 1795383262.9313552,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3698,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MCAT",
-     "mint": "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi",
-     "side": 1,
-     "opened": 1795376243.3010623,
-     "entry": 0.0002496,
-     "stop": 0.00019967999999999999,
-     "target": 0.00034943999999999996,
-     "size": 801282.0512820513,
-     "deadline": 1795383443.3010626,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,12 +44,6 @@
  "runs": 129,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795376417.0237203,
-  "seen:DJcHva2UJnRUPxzVfczcYyqxRtpwDTPcok6irtNmpump": 1795376598.0910394,
-  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795376598.0910394,
-  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795376598.0910394,
-  "seen:2MdCPWNFufmJSZhajSvi1yqBFTB24GQ4ipjNcB8Vpump": 1795376598.0910394,
-  "seen:6EiCk8WmoLai1ziCHa8D2aujGdB7rYr3xGs3x2avpump": 1795376598.0910394,
   "seen:EczUJ9Yc8VXRiC6LUMp2C4pMocmXywwqirfaxNDwpump": 1795376962.8997812,
   "seen:FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": 1795376962.8997812,
   "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795376962.8997812,
@@ -90,7 +54,20 @@
   "seen:3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": 1795377143.2641923,
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795377143.2641923,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795377143.2641923,
-  "control:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795377143.3010654
+  "control:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795377143.3010654,
+  "seen:G4MwNXFJkJTNj53DiL2GKezHUZ5QeMr5GCKmxJZaNhxv": 1795377325.2230558,
+  "seen:CH3WtieJabaXvVyAQqMgd1kNQL14WKJLmbXqiX4qpump": 1795377325.2230558,
+  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795377325.2230558,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795377325.2230558,
+  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795377509.6785553,
+  "seen:9ref3puA9wJ41bH65P7GvAVmC4JeWBAQC5SVaAzHpump": 1795377509.6785553,
+  "seen:DJcHva2UJnRUPxzVfczcYyqxRtpwDTPcok6irtNmpump": 1795377509.6785553,
+  "seen:2MdCPWNFufmJSZhajSvi1yqBFTB24GQ4ipjNcB8Vpump": 1795377509.6785553,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795377509.6785553,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1795377694.747366,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795377694.747366,
+  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795377694.747366,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795377694.747366
  },
  "talks": {
   "2026-10-21": 109
@@ -131,18 +108,18 @@
  ],
  "last_review": 1795299473.5066411,
  "news": {
-  "t": 1795375698.108016,
+  "t": 1795376609.6957455,
   "crypto": [
+   "More on the pending oversight hearings: State of Crypto (0h ago)",
    "The future of onchain FX could start with users, not institutional liquidity (5h ago)",
-   "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins (5h ago)",
+   "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins (6h ago)",
    "Here\u2019s what happened in crypto today (8h ago)",
    "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades (10h ago)",
    "South Korean exchanges halt CYBER transfers amid suspected bridge exploit (12h ago)",
    "Chainflip confirms $12M hack, offers attacker 10% bounty (14h ago)",
    "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave (26h ago)",
    "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain (27h ago)",
-   "OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos (29h ago)",
-   "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated (31h ago)"
+   "OpenAI, Anthropic and rivals seek AI agent rules to prevent commerce chaos (30h ago)"
   ],
   "macro": [],
   "calendar": []
