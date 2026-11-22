@@ -33,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-22 04:49 UTC control: OPENED CATEMAS long at 0.0001979 (stop 0.00015832, target 0.00027706) - control: frozen v3 rules
+## Run ended 2026-11-22 04:49 UTC
 
