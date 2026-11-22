@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -79599.35971573222,
+   "cash": -79586.2774488218,
    "open": [
     {
      "id": 3654,
@@ -51,36 +51,6 @@
      "size": 2572347.2668810287,
      "deadline": 1795336294.9861138,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3666,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "snowball",
-     "mint": "3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump",
-     "side": 1,
-     "opened": 1795329276.1988585,
-     "entry": 8.924e-05,
-     "stop": 7.139200000000001e-05,
-     "target": 0.000124936,
-     "size": 2241147.4675033614,
-     "deadline": 1795336476.1988587,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3667,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CORONA",
-     "mint": "6fVQAutGBLpyYJRiekVjSjvKidsmgZx14bKV5HSSpump",
-     "side": 1,
-     "opened": 1795329460.860466,
-     "entry": 8.205e-05,
-     "stop": 6.564e-05,
-     "target": 0.00011486999999999999,
-     "size": 2437538.086532602,
-     "deadline": 1795336660.8604662,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,15 +59,6 @@
  "runs": 127,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL": 1795329810.493314,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795329810.493314,
-  "seen:kPqBsUZuogprbq15ZpACwDzbUHSAxTxbhRrxmrDpump": 1795329810.493314,
-  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795329810.493314,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795329994.897169,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795329994.897169,
-  "control:UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL": 1795329994.986118,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1795330175.9026365,
-  "control:3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": 1795330176.1988618,
   "seen:6fVQAutGBLpyYJRiekVjSjvKidsmgZx14bKV5HSSpump": 1795330360.8269372,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795330360.8269372,
   "seen:3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump": 1795330360.8269372,
@@ -106,7 +67,18 @@
   "seen:3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": 1795330546.0122952,
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795330546.0122952,
   "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795330546.0122952,
-  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1795330546.0122952
+  "seen:CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump": 1795330546.0122952,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795330727.032878,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795330727.032878,
+  "seen:3XsFunPdji9U1EgJXokZysw8SB3t74un89b6KLEVpump": 1795330727.032878,
+  "seen:CBquG2jxh6PJB4Jr8JjFQ5MwKZnQg1aAupYBKgrwoRKV": 1795330911.6865861,
+  "seen:BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": 1795330911.6865861,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795330911.6865861,
+  "seen:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": 1795330911.6865861,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795330911.6865861,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795331096.067416,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795331096.067416,
+  "seen:5qaP7oKUqKffwwo5DaEqDoTtsBLMpdbQTxEkCDaTpump": 1795331096.067416
  },
  "talks": {
   "2026-10-21": 109
@@ -147,16 +119,16 @@
  ],
  "last_review": 1795299473.5066411,
  "news": {
-  "t": 1795329275.9191124,
+  "t": 1795330196.0844538,
   "crypto": [
    "Chainflip confirms $12M hack, offers attacker 10% bounty (1h ago)",
    "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave (13h ago)",
    "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain (14h ago)",
    "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated (18h ago)",
-   "Here\u2019s what happened in crypto today (19h ago)",
+   "Here\u2019s what happened in crypto today (20h ago)",
    "ECB seeks industry partners for tokenized deposits, securities experiments (21h ago)",
    "US lawmakers propose up to 30% rewards for prediction market whistleblowers (23h ago)",
-   "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug (24h ago)",
+   "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug (25h ago)",
    "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion (25h ago)",
    "Hong Kong pushes to bring crypto custodians, advisers under licensing rules (25h ago)"
   ],
@@ -191,5 +163,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795328910.5100224
+ "last_macro_macro": 1795330196.0842664
 }
