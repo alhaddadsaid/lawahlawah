@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -80199.57513700631,
+   "cash": -80250.49640505215,
    "open": [
     {
      "id": 3682,
@@ -21,21 +21,6 @@
      "size": 687757.9092159559,
      "deadline": 1795356261.6293411,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3684,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HIPPO",
-     "mint": "95NAbTyZopHGJK9TuisJZUHKAZSqRoSB3JPfqAqHpump",
-     "side": 1,
-     "opened": 1795352698.0501068,
-     "entry": 6.719e-05,
-     "stop": 5.3751999999999996e-05,
-     "target": 9.406599999999999e-05,
-     "size": 2976633.427593392,
-     "deadline": 1795359898.0501068,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -44,25 +29,22 @@
  "runs": 128,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:v4GK8f24ZJJa5qLoTJ4mJ5d6jsNUXHScwGaRHdfpump": 1795353416.451514,
-  "seen:GTBxUiw6wJdmmkCGZgRHLyYxqu1vG4KtRpeox6yDpump": 1795353416.451514,
-  "seen:3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": 1795353597.644055,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1795353597.644055,
-  "seen:95NAbTyZopHGJK9TuisJZUHKAZSqRoSB3JPfqAqHpump": 1795353597.644055,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795353597.644055,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795353597.644055,
-  "seen:3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump": 1795353597.644055,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795353597.644055,
-  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795353597.644055,
-  "control:95NAbTyZopHGJK9TuisJZUHKAZSqRoSB3JPfqAqHpump": 1795353598.0501108,
-  "seen:4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 1795353778.3361719,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1795353778.3361719,
   "seen:Awe61oS3Nk2DvJxCdDBquzfwf66r1QX8DJFJrfq4nEor": 1795353963.1909268,
   "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795353963.1909268,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795353963.1909268,
   "seen:6fZW81Wx1tFnZAhFeU5H2TM74cntKRy5ekcuQsZqgFiJ": 1795354148.2768373,
   "seen:7KEPApdbBMByrmqihz3bht2uMhFQcatjfSFQCKq66kH3": 1795354148.2768373,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795354148.2768373
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795354148.2768373,
+  "seen:v4GK8f24ZJJa5qLoTJ4mJ5d6jsNUXHScwGaRHdfpump": 1795354329.4783468,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795354329.4783468,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1795354514.101112,
+  "seen:3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": 1795354514.101112,
+  "seen:3K6EUFoAE8zngTFMfPavqcMFhDqYTRemoaXYAjNPpump": 1795354514.101112,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795354514.101112,
+  "seen:3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump": 1795354514.101112,
+  "seen:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": 1795354514.101112,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1795354694.2268126,
+  "seen:4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 1795354694.2268126
  },
  "talks": {
   "2026-10-21": 109
@@ -103,16 +85,16 @@
  ],
  "last_review": 1795299473.5066411,
  "news": {
-  "t": 1795352697.6584506,
+  "t": 1795353614.1154282,
   "crypto": [
    "Here\u2019s what happened in crypto today (2h ago)",
    "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades (4h ago)",
    "South Korean exchanges halt CYBER transfers amid suspected bridge exploit (6h ago)",
    "Chainflip confirms $12M hack, offers attacker 10% bounty (8h ago)",
-   "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave (19h ago)",
-   "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain (20h ago)",
+   "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave (20h ago)",
+   "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain (21h ago)",
    "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated (25h ago)",
-   "ECB seeks industry partners for tokenized deposits, securities experiments (27h ago)",
+   "ECB seeks industry partners for tokenized deposits, securities experiments (28h ago)",
    "US lawmakers propose up to 30% rewards for prediction market whistleblowers (29h ago)",
    "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug (31h ago)"
   ],
