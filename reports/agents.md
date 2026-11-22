@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-22 11:36 UTC. Runs so far: 128. Model: claude-haiku-5-5.
+Updated 2026-11-22 11:46 UTC. Runs so far: 128. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,15 +9,14 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3586 | 31 | -90290.24 | -124754.5 |
+| control | meme | 3587 | 31 | -90344.08 | -124817.22 |
 | control | macro | 74 | 49 | 250.49 | -114.61 |
-| control | all | 3660 | 31 | -90039.75 | -124869.11 |
+| control | all | 3661 | 31 | -90093.59 | -124931.83 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: HIPPO long at 0.0001115, stop 8.92e-05, target 0.0001561, opened 2026-11-22 11:36 UTC
 
 ## Team
 
@@ -30,5 +29,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-22 11:36 UTC control: OPENED HIPPO long at 0.0001115 (stop 8.92e-05, target 0.0001561) - control: frozen v3 rules
+- control: CLOSED HIPPO (stop) P&L $-53.84 normal, $-62.72 pessimistic
 
