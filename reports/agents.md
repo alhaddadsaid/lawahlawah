@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-22 02:17 UTC. Runs so far: 126. Model: claude-haiku-5-5.
+Updated 2026-11-22 02:20 UTC. Runs so far: 126. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3541 | 31 | -89507.93 | -123530.7 |
+| control | meme | 3543 | 31 | -89506.22 | -123549.55 |
 | control | macro | 74 | 49 | 250.49 | -114.61 |
-| control | all | 3615 | 31 | -89257.44 | -123645.31 |
+| control | all | 3617 | 31 | -89255.73 | -123664.16 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: jingyu long at 0.0001024, stop 8.192e-05, target 0.00014336, opened 2026-11-22 01:10 UTC
-- control: RIZZMAS3 long at 0.0001451, stop 0.00011608, target 0.00020314, opened 2026-11-22 01:58 UTC
-- control: RIZZMAS long at 6.824e-05, stop 5.4592e-05, target 9.5536e-05, opened 2026-11-22 02:17 UTC
 
 ## Team
 
@@ -32,5 +30,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-22 02:17 UTC control: OPENED RIZZMAS long at 6.824e-05 (stop 5.4592e-05, target 9.5536e-05) - control: frozen v3 rules
+- control: CLOSED RIZZMAS3 (target) P&L $68.0 normal, $56.0 pessimistic
+- control: CLOSED RIZZMAS (stop) P&L $-66.29 normal, $-74.85 pessimistic
 
