@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-22 19:25 UTC. Runs so far: 129. Model: claude-haiku-5-5.
+Updated 2026-11-22 19:37 UTC. Runs so far: 129. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3600 | 31 | -90454.61 | -125058.24 |
+| control | meme | 3601 | 31 | -90505.73 | -125118.3 |
 | control | macro | 74 | 49 | 250.49 | -114.61 |
-| control | all | 3674 | 31 | -90204.12 | -125172.85 |
+| control | all | 3675 | 31 | -90255.24 | -125232.91 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: snowball long at 0.0001558, stop 0.00012464, target 0.00021812, opened 2026-11-22 18:30 UTC
 - control: DIGS long at 0.0002961, stop 0.00023688, target 0.00041454, opened 2026-11-22 18:33 UTC
-- control: MCAT long at 0.0003097, stop 0.00024776, target 0.00043358, opened 2026-11-22 19:22 UTC
+- control: SINGULARTY long at 6.113e-05, stop 4.8904e-05, target 8.5582e-05, opened 2026-11-22 19:34 UTC
+- control: MCAT long at 0.0002496, stop 0.00019968, target 0.00034944, opened 2026-11-22 19:37 UTC
 
 ## Team
 
@@ -32,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order snowball REJECTED by guardrails: snowball already open
+- 2026-11-22 19:37 UTC control: OPENED MCAT long at 0.0002496 (stop 0.00019968, target 0.00034944) - control: frozen v3 rules
 
