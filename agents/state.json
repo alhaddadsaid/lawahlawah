@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -79759.23570495332,
+   "cash": -79827.70105267887,
    "open": [
-    {
-     "id": 3661,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "fone",
-     "mint": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump",
-     "side": 1,
-     "opened": 1795326889.452258,
-     "entry": 0.0007526,
-     "stop": 0.00060208,
-     "target": 0.0010536399999999998,
-     "size": 265745.41589157586,
-     "deadline": 1795334089.4522583,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3668,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "LEONIDA",
-     "mint": "8T3ztDSKxYK15SUBseqLeviqQwfcG9wUeDGP1wjBpump",
-     "side": 1,
-     "opened": 1795331110.5480213,
-     "entry": 0.0001203,
-     "stop": 9.624e-05,
-     "target": 0.00016842,
-     "size": 1662510.3906899418,
-     "deadline": 1795338310.5480216,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3670,
      "desk": "control",
@@ -74,31 +44,27 @@
  "runs": 127,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795333476.4030485,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795333476.4030485,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795333660.6113026,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795333660.6113026,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795333660.6113026,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1795333660.6113026,
-  "seen:BCdwQBAn8dYB5YjTsoB6TdHAWokxv28k2oZUodERpump": 1795333837.171622,
-  "seen:26iFWxkdpcf8qNzbzuuvJw9NrKnFPmu7tzLc6NWkpump": 1795334021.659412,
-  "seen:3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump": 1795334021.659412,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795334021.659412,
-  "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795334021.659412,
-  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795334021.659412,
-  "seen:kPqBsUZuogprbq15ZpACwDzbUHSAxTxbhRrxmrDpump": 1795334021.659412,
-  "control:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795334021.6911995,
-  "seen:3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": 1795334204.6021712,
-  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1795334204.6021712,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795334204.6021712,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795334204.6021712,
-  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795334204.6021712
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795334574.9992254,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795334574.9992254,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1795334574.9992254,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795334756.2086632,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795334940.8157911,
+  "seen:3N6Mp8YQuVDfEtyuyJS72s4MRrgQuKY34gvYZD5Kpump": 1795334940.8157911,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795334940.8157911,
+  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795334940.8157911,
+  "seen:3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": 1795335125.6543324,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1795335125.6543324,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795335125.6543324,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795335125.6543324,
+  "seen:6fVQAutGBLpyYJRiekVjSjvKidsmgZx14bKV5HSSpump": 1795335310.0498044,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795335310.0498044,
+  "seen:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": 1795335310.0498044
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498702,
+ "ctrl_macro_hour": 498704,
  "team": [
   {
    "name": "Lead",
@@ -133,17 +99,17 @@
  ],
  "last_review": 1795299473.5066411,
  "news": {
-  "t": 1795332937.1889098,
+  "t": 1795333856.2260263,
   "crypto": [
    "South Korean exchanges halt CYBER transfers amid suspected bridge exploit (0h ago)",
    "Chainflip confirms $12M hack, offers attacker 10% bounty (2h ago)",
    "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave (14h ago)",
    "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain (15h ago)",
    "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated (19h ago)",
-   "Here\u2019s what happened in crypto today (20h ago)",
+   "Here\u2019s what happened in crypto today (21h ago)",
    "ECB seeks industry partners for tokenized deposits, securities experiments (22h ago)",
    "US lawmakers propose up to 30% rewards for prediction market whistleblowers (24h ago)",
-   "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug (25h ago)",
+   "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug (26h ago)",
    "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion (26h ago)"
   ],
   "macro": [],
@@ -177,5 +143,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795332760.6284773
+ "last_macro_macro": 1795334040.832273
 }
