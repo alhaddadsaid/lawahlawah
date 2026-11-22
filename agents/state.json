@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -80299.7489799367,
+   "cash": -80231.7489799367,
    "open": [
     {
      "id": 3703,
@@ -51,21 +51,6 @@
      "size": 382116.9277799006,
      "deadline": 1795390201.1644564,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3708,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ASS",
-     "mint": "8U9611BhPXG8ubN77wkeN7Gs1ooAXQLy65KQDZr9pump",
-     "side": 1,
-     "opened": 1795383180.9721897,
-     "entry": 5.34e-05,
-     "stop": 4.272e-05,
-     "target": 7.476e-05,
-     "size": 3745318.3520599254,
-     "deadline": 1795390380.97219,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,21 +59,6 @@
  "runs": 129,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7NTrtxQ1xKSxcHZ9nR8HNZfGWwNpMYWECYCSzMwnpump": 1795383719.1332572,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795383719.1332572,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795383719.1332572,
-  "seen:4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 1795383900.6107,
-  "seen:GF3iRhn9EmtYZVbHv65XGrDNjGaWu3GGBNT8EabSNMWW": 1795383900.6107,
-  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795383900.6107,
-  "seen:8U9611BhPXG8ubN77wkeN7Gs1ooAXQLy65KQDZr9pump": 1795383900.6107,
-  "seen:BwgcBr42Zw5GsYQTiepwTng1pU2FRDK9oMvgj3tipump": 1795383900.6107,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795383900.6107,
-  "control:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795383901.1644595,
-  "seen:CtccfX9ncjV62Ak1z6gCpa7hus3mJF8W74PMjrwsME53": 1795384080.93797,
-  "seen:zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": 1795384080.93797,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795384080.93797,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795384080.93797,
-  "control:8U9611BhPXG8ubN77wkeN7Gs1ooAXQLy65KQDZr9pump": 1795384080.9721928,
   "seen:E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": 1795384265.7750342,
   "seen:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP": 1795384265.7750342,
   "seen:FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": 1795384265.7750342,
@@ -99,7 +69,16 @@
   "seen:G5mUiEgYhVSa4ARAmuijcABjw6gkxUHvDVXBmFSjZdyJ": 1795384450.4310644,
   "seen:9M4PDviTGpG41e7SeKyJqwv71Nnq9EUwgC2ib1bppump": 1795384450.4310644,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795384450.4310644,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795384450.4310644
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795384450.4310644,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795384631.328987,
+  "seen:GazrXMLD9WxAsVrHtWa5ibh6UJGBH1dJqmPowBdoC5Vd": 1795384816.1517773,
+  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795384816.1517773,
+  "seen:8U9611BhPXG8ubN77wkeN7Gs1ooAXQLy65KQDZr9pump": 1795384816.1517773,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795384816.1517773,
+  "seen:4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 1795384816.1517773,
+  "seen:zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": 1795385003.901802,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795385003.901802,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795385003.901802
  },
  "talks": {
   "2026-10-21": 109
@@ -140,7 +119,7 @@
  ],
  "last_review": 1795299473.5066411,
  "news": {
-  "t": 1795383000.6275418,
+  "t": 1795383916.1685722,
   "crypto": [
    "More on the pending oversight hearings: State of Crypto (2h ago)",
    "The future of onchain FX could start with users, not institutional liquidity (7h ago)",
