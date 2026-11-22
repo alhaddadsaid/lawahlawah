@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-22 04:59 UTC. Runs so far: 127. Model: claude-haiku-5-5.
+Updated 2026-11-22 05:09 UTC. Runs so far: 127. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3555 | 31 | -89741.41 | -123901.8 |
+| control | meme | 3556 | 31 | -89673.41 | -123845.8 |
 | control | macro | 74 | 49 | 250.49 | -114.61 |
-| control | all | 3629 | 31 | -89490.92 | -124016.41 |
+| control | all | 3630 | 31 | -89422.92 | -123960.41 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: DIGS long at 0.0002799, stop 0.00022392, target 0.00039186, opened 2026-11-22 04:30 UTC
 - control: SHIT long at 8.92e-05, stop 7.136e-05, target 0.00012488, opened 2026-11-22 04:43 UTC
 - control: CATEMAS long at 0.0001979, stop 0.00015832, target 0.00027706, opened 2026-11-22 04:49 UTC
-- control: LEONIDA long at 0.0001299, stop 0.00010392, target 0.00018186, opened 2026-11-22 04:56 UTC
+- control: RIZZMAS long at 6.921e-05, stop 5.5368e-05, target 9.6894e-05, opened 2026-11-22 05:06 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order SHIT REJECTED by guardrails: desk already has the maximum open positions
+- control: order Snowball REJECTED by guardrails: desk already has the maximum open positions
 
