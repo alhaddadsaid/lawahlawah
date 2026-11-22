@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -79276.66796029305,
+   "cash": -79325.15699337353,
    "open": [
     {
      "id": 3622,
@@ -23,21 +23,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3624,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Bust",
-     "mint": "EoV9JQYi57tqjyQbWLdXVarYpEu82FsP8SDnkbFmpump",
-     "side": 1,
-     "opened": 1795303966.2900918,
-     "entry": 8.153e-05,
-     "stop": 6.5224e-05,
-     "target": 0.00011414199999999999,
-     "size": 2453084.754078253,
-     "deadline": 1795311166.290092,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3625,
      "desk": "control",
      "market": "meme",
@@ -51,41 +36,14 @@
      "size": 118553.64552459988,
      "deadline": 1795311531.6536782,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3628,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "BOOBILLIONS",
-     "mint": "13qebRhFyiB32FH9b1YYTgh8RW4VvmNEbi79eG28pump",
-     "side": 1,
-     "opened": 1795308898.8467686,
-     "entry": 0.0001038,
-     "stop": 8.304e-05,
-     "target": 0.00014532,
-     "size": 1926782.2736030829,
-     "deadline": 1795316098.8467689,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3629,
+ "next_id": 3630,
  "runs": 126,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GSR9ZVR7MH6z3dp6sAtPua5Xk8FWTVtjquk2vhVfpump": 1795309068.7063062,
-  "seen:13qebRhFyiB32FH9b1YYTgh8RW4VvmNEbi79eG28pump": 1795309068.7063062,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795309068.7063062,
-  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795309068.7063062,
-  "seen:4gMdy8TDhFTpk2aK2eJXSaLffFTeV18tDBep3CLNMJkr": 1795309251.1110795,
-  "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1795309251.1110795,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795309251.1110795,
-  "seen:82mseLFauphc2yutbaDGgViahquJ1jGVLpyof99xpump": 1795309434.4719627,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795309434.4719627,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795309434.4719627,
-  "seen:DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": 1795309434.4719627,
-  "control:BQcV4Ryfu9bZK8egAF89AhkojdJqAaDt4xTFwUQ2pump": 1795309434.5153065,
   "seen:Ak8pAMMeiqbu3tyE2MU33o8W2RfhLk1hXYsscnFkpump": 1795309616.9224455,
   "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795309616.9224455,
   "seen:BQcV4Ryfu9bZK8egAF89AhkojdJqAaDt4xTFwUQ2pump": 1795309798.7977333,
@@ -93,7 +51,17 @@
   "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795309798.7977333,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795309798.7977333,
   "seen:G74SSWk4qF4BeWfyR53fVZYqdNWo9wH7UR55jF4uuxds": 1795309798.7977333,
-  "control:13qebRhFyiB32FH9b1YYTgh8RW4VvmNEbi79eG28pump": 1795309798.8467717
+  "control:13qebRhFyiB32FH9b1YYTgh8RW4VvmNEbi79eG28pump": 1795309798.8467717,
+  "seen:13qebRhFyiB32FH9b1YYTgh8RW4VvmNEbi79eG28pump": 1795309982.830305,
+  "seen:4Ye6Y6Vaic8cyPdfW2f9PcLhXkysBtSmV84G8X7spump": 1795309982.830305,
+  "control:Ak8pAMMeiqbu3tyE2MU33o8W2RfhLk1hXYsscnFkpump": 1795309983.398251,
+  "seen:Fn95NtGXWPaJXc4N5y9rVkUq1NwZbjBNJzPVvNRLpump": 1795310165.4517968,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795310165.4517968,
+  "seen:B1oGtkaVAVZkdtWV7SXrHnFkcWC1Kd45sYpy6RYTpump": 1795310347.2667384,
+  "seen:82mseLFauphc2yutbaDGgViahquJ1jGVLpyof99xpump": 1795310347.2667384,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795310347.2667384,
+  "seen:EV7J2QaPXPytSkM1LD9GPRkgAbmSEr9R3kYiXBzbpump": 1795310347.2667384,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795310347.2667384
  },
  "talks": {
   "2026-10-21": 109
@@ -134,15 +102,15 @@
  ],
  "last_review": 1795299473.5066411,
  "news": {
-  "t": 1795308168.722355,
+  "t": 1795309082.8465455,
   "crypto": [
    "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave (7h ago)",
    "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain (8h ago)",
    "Ether treasury firm BTCS warns SEC its $54 million Aave loan could be liquidated (12h ago)",
-   "Here\u2019s what happened in crypto today (13h ago)",
+   "Here\u2019s what happened in crypto today (14h ago)",
    "ECB seeks industry partners for tokenized deposits, securities experiments (15h ago)",
    "US lawmakers propose up to 30% rewards for prediction market whistleblowers (17h ago)",
-   "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug (18h ago)",
+   "Bitcoin nodes could be stalled by repeating one ID 50,000 times. AI found the bug (19h ago)",
    "XRP falls 10% as long bets unwind and ETF assets slip below $1 billion (19h ago)",
    "Hong Kong pushes to bring crypto custodians, advisers under licensing rules (19h ago)",
    "Bitcoin tanks below $57,000 for the first time in two years, and its not alone (21h ago)"
