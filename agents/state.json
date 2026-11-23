@@ -66,34 +66,52 @@
      "size": 1338688.0856760375,
      "deadline": 1795401039.8799694,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3722,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "GOLD",
+     "mint": "",
+     "side": 1,
+     "opened": 1795395671.3506505,
+     "entry": 3573.199951171875,
+     "stop": 3544.5142124720983,
+     "target": 3616.2285592215403,
+     "size": 3.486052809955295,
+     "deadline": 1795482071.350651,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 3722,
+ "next_id": 3723,
  "runs": 130,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": 1795395285.580095,
-  "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795395285.580095,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795395285.580095,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1795395471.3622155,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795395471.3622155,
-  "seen:E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": 1795395471.3622155,
-  "seen:UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL": 1795395471.3622155,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795395471.3622155,
   "seen:4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 1795395838.155944,
   "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795395838.155944,
   "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795395838.155944,
   "seen:63aEoSt7oGthFR5koz1572CAL9dd7NYGp7sWeQyjpump": 1795396023.883621,
   "seen:AQfw8J74V17erZsmMz4oK474eVLBaP44gD33vVbhtHo5": 1795396023.883621,
-  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795396023.883621
+  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795396023.883621,
+  "seen:9A9r56osVvVfDo5GeAeTZER15B6pXTW64kWjP2A5uryS": 1795396203.8568032,
+  "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795396203.8568032,
+  "seen:zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": 1795396203.8568032,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795396203.8568032,
+  "seen:UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL": 1795396386.993986,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795396386.993986,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1795396386.993986,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795396386.993986,
+  "seen:E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": 1795396386.993986,
+  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795396571.1577785,
+  "control:GOLD": 1795396571.3506544
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498719,
+ "ctrl_macro_hour": 498721,
  "team": [
   {
    "name": "Lead",
