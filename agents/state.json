@@ -5,38 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -81243.63428873854,
+   "cash": -81203.32444924099,
    "open": [
-    {
-     "id": 3752,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "jingyu",
-     "mint": "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump",
-     "side": 1,
-     "opened": 1795424747.5766907,
-     "entry": 0.0001433,
-     "stop": 0.00011464,
-     "target": 0.00020061999999999996,
-     "size": 1395673.4124214936,
-     "deadline": 1795431947.5766912,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3753,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HOLD",
-     "mint": "9AiHB952pXVrHuct9m3RKWoWv4LG52p58FYjMvUkpump",
-     "side": 1,
-     "opened": 1795429866.0340374,
-     "entry": 9.169e-05,
-     "stop": 7.335200000000001e-05,
-     "target": 0.00012836599999999998,
-     "size": 2181262.951248773,
-     "deadline": 1795437066.0340378,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3754,
      "desk": "control",
@@ -66,24 +36,29 @@
      "size": 804181.7450743869,
      "deadline": 1795439072.4804344,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3756,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ZOL",
+     "mint": "UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL",
+     "side": 1,
+     "opened": 1795432238.7444746,
+     "entry": 0.0001259,
+     "stop": 0.00010072,
+     "target": 0.00017626,
+     "size": 1588562.3510722797,
+     "deadline": 1795439438.744475,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3756,
+ "next_id": 3757,
  "runs": 131,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795432045.8771074,
-  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795432045.8771074,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795432045.8771074,
-  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795432227.42509,
-  "seen:E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": 1795432227.42509,
-  "seen:Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump": 1795432227.42509,
-  "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795432227.42509,
-  "seen:93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump": 1795432227.42509,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795432227.42509,
-  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795432227.42509,
   "seen:MRVLSjkR2ceUBukujaD3xCyHP1H3B2SzpsNTZF546jo": 1795432410.2945914,
   "seen:2Rg1wcfTHRWBnhdpFwXC9ba6Nvbc3R9X7FML2KwKpump": 1795432410.2945914,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795432410.2945914,
@@ -91,7 +66,18 @@
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795432615.51213,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795432615.51213,
   "seen:UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL": 1795432772.4316645,
-  "control:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795432772.4804378
+  "control:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795432772.4804378,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795432956.126513,
+  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795432956.126513,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795432956.126513,
+  "seen:E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": 1795433138.1045911,
+  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795433138.1045911,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795433138.1045911,
+  "seen:Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump": 1795433138.1045911,
+  "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795433138.1045911,
+  "seen:93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump": 1795433138.1045911,
+  "seen:6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump": 1795433138.1045911,
+  "control:UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL": 1795433138.7444792
  },
  "talks": {
   "2026-10-21": 109
@@ -132,11 +118,11 @@
  ],
  "last_review": 1795385934.2681973,
  "news": {
-  "t": 1795431327.4424412,
+  "t": 1795432238.1211286,
   "crypto": [
    "South Korea to expand cryptocurrency account freezes and curb illicit transfers abroad (0h ago)",
-   "Bitcoin breaks a record streak of 'lower highs.' Here's what it means (0h ago)",
-   "U.S. inflation, Thanksgiving trading: Crypto Week Ahead (1h ago)",
+   "Bitcoin breaks a record streak of 'lower highs.' Here's what it means (1h ago)",
+   "U.S. inflation, Thanksgiving trading: Crypto Week Ahead (2h ago)",
    "\u2018MoldyRoost\u2019 ads can steal crypto wallet recovery phrases from iPhones (2h ago)",
    "Bitcoin ETFs shed $1.8B in third-largest weekly outflow (3h ago)",
    "Crypto thieves are using online ads to infect iPhones with a single tap, research finds (3h ago)",
