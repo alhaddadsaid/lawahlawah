@@ -5,114 +5,61 @@
    "open": []
   },
   "control": {
-   "cash": -81624.44205378924,
+   "cash": -81882.75741445953,
    "open": [
     {
-     "id": 3761,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CYBERLEEK",
-     "mint": "ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg",
-     "side": 1,
-     "opened": 1795437895.610288,
-     "entry": 0.001409,
-     "stop": 0.0011272,
-     "target": 0.0019726,
-     "size": 141944.64158978,
-     "deadline": 1795445095.6102881,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3763,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DIGS",
-     "mint": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-     "side": 1,
-     "opened": 1795439536.8166914,
-     "entry": 0.0002365,
-     "stop": 0.00018920000000000002,
-     "target": 0.00033109999999999997,
-     "size": 845665.9619450317,
-     "deadline": 1795446736.8166916,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3764,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "ZOL",
-     "mint": "UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL",
-     "side": 1,
-     "opened": 1795440084.6064553,
-     "entry": 8.149e-05,
-     "stop": 6.5192e-05,
-     "target": 0.00011408599999999998,
-     "size": 2454288.869799976,
-     "deadline": 1795447284.6064556,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3765,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "HUNG",
-     "mint": "4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump",
-     "side": 1,
-     "opened": 1795443373.8890717,
-     "entry": 0.0002846,
-     "stop": 0.00022768,
-     "target": 0.00039843999999999996,
-     "size": 702740.6886858749,
-     "deadline": 1795450573.889072,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3766,
+     "id": 3767,
      "desk": "control",
      "market": "meme",
      "symbol": "MCAT",
      "mint": "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi",
      "side": 1,
-     "opened": 1795444106.9789665,
-     "entry": 0.0002903,
-     "stop": 0.00023224,
-     "target": 0.00040642,
-     "size": 688942.4733034791,
-     "deadline": 1795451306.9789667,
+     "opened": 1795468329.4791963,
+     "entry": 0.000237,
+     "stop": 0.00018959999999999997,
+     "target": 0.00033179999999999993,
+     "size": 843881.8565400845,
+     "deadline": 1795475529.4791968,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3768,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "EURUSD",
+     "mint": "",
+     "side": -1,
+     "opened": 1795468329.592179,
+     "entry": 1.0906314849853516,
+     "stop": 1.0921760201454163,
+     "target": 1.0883146822452545,
+     "size": 64744.39856442712,
+     "deadline": 1795554729.5921795,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 3767,
- "runs": 131,
+ "next_id": 3769,
+ "runs": 132,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DJVZ9hKSLsDAPjdq73nX5bYPnjvfntUN87RRxdN2pump": 1795444822.3571024,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795444822.3571024,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795444822.3571024,
-  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795445006.6588266,
-  "seen:Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump": 1795445006.6588266,
-  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795445006.6588266,
-  "control:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795445006.97897,
-  "seen:Dqotg1vothycy7Xa3Q2GEfFRzuzsp41jTw91dxjNwSEz": 1795445190.1272852,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795445190.1272852,
-  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795445190.1272852,
-  "seen:E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": 1795445190.1272852,
-  "seen:AxyCBHmHYjYjc75sLKDAwmjJLaGgmgaYaQtkAdGtpump": 1795445372.2532685,
-  "seen:4xgqefa5WcdHWKXzqvM9MRJqWYGaHVEUnpUL4Vq5pump": 1795445372.2532685,
-  "seen:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP": 1795445372.2532685,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795445555.0599916,
-  "seen:93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump": 1795445555.0599916,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795445555.0599916,
-  "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795445555.0599916
+  "seen:FztWN8TPyZfy47NkPKoUA5WEzvU1arQHBrjnHHDRpump": 1795469228.9868352,
+  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1795469228.9868352,
+  "seen:PEPEqnuuCDbBC89p1u9vpnP1KQ2oj1xTcQBsjt9X55m": 1795469228.9868352,
+  "seen:9Gu5JYt4Pas6cW4S6qtyFkDucFj6GMtpJiDC9sQbpump": 1795469228.9868352,
+  "seen:816hX5ah459t2z37LPQC8X11uZECsgHwvs8iBRWcpump": 1795469228.9868352,
+  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795469228.9868352,
+  "seen:HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump": 1795469228.9868352,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795469228.9868352,
+  "control:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795469229.4792008,
+  "control:EURUSD": 1795469229.5921843
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498722,
+ "ctrl_macro_hour": 498741,
  "team": [
   {
    "name": "Lead",
@@ -147,18 +94,18 @@
  ],
  "last_review": 1795385934.2681973,
  "news": {
-  "t": 1795444106.6758382,
+  "t": 1795468329.0060825,
   "crypto": [
-   "Jensen Huang returns as Nvidia CEO as shares jump 27% (0h ago)",
-   "Here\u2019s what happened in crypto today (0h ago)",
-   "OKX, ICE launch 113 tokenized assets despite issuer objections (0h ago)",
-   "Fidelity Investments, Strive, Etoro join OKX-ICE tokenized securities venue (1h ago)",
-   "Trump-linked American Bitcoin secures $150M credit line from FalconX (1h ago)",
-   "Strategy buys 457 Bitcoin, spends $212M on preferred share buybacks (1h ago)",
-   "AI agents are using credit cards. Where does that leave crypto? (1h ago)",
-   "Critics of Netflix\u2019s FTX drama point to Obama\u2019s producer credit (1h ago)",
-   "Live updates: Nasdaq jumps nearly 7% as Nvidia brings back Jensen Huang (1h ago)",
-   "Bitcoin's losing streak is second-longest ever, and some observers see more downside (2h ago)"
+   "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack (0h ago)",
+   "Kalshi secures temporary win in New York gambling law dispute (1h ago)",
+   "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn (2h ago)",
+   "Base makes quantum security a 2027 priority as regulators warn of risks (2h ago)",
+   "New York judge declines to block Kalshi from operating in the state for now (3h ago)",
+   "Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO (3h ago)",
+   "Cuomo says rivals urged companies to opt out of OKXICE tokenized stocks (3h ago)",
+   "Bitcoin rebound already losing steam as AI trade returns with a bang (4h ago)",
+   "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations (4h ago)",
+   "Cathie Wood's ARK Invest pulls the plug on two planned crypto ETFs (5h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -191,5 +138,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795444472.2707129
+ "last_macro_macro": 1795468329.0057948
 }
