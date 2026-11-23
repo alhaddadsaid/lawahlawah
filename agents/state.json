@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -81008.37868028754,
+   "cash": -81098.10006115375,
    "open": [
     {
      "id": 3731,
@@ -23,73 +23,60 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 3746,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "snowball",
-     "mint": "3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump",
-     "side": 1,
-     "opened": 1795410163.3010437,
-     "entry": 0.0001015,
-     "stop": 8.120000000000001e-05,
-     "target": 0.0001421,
-     "size": 1970443.3497536946,
-     "deadline": 1795417363.301044,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3748,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MCAT",
-     "mint": "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi",
-     "side": 1,
-     "opened": 1795412710.8860893,
-     "entry": 0.0004515,
-     "stop": 0.0003612000000000001,
-     "target": 0.0006321,
-     "size": 442967.8848283499,
-     "deadline": 1795419910.8860893,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3749,
+     "id": 3750,
      "desk": "control",
      "market": "meme",
      "symbol": "DIGS",
      "mint": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
      "side": 1,
-     "opened": 1795412892.3999956,
-     "entry": 0.0002287,
-     "stop": 0.00018296000000000002,
-     "target": 0.00032018,
-     "size": 874508.0891998251,
-     "deadline": 1795420092.3999958,
+     "opened": 1795424017.6315036,
+     "entry": 0.0002405,
+     "stop": 0.00019240000000000001,
+     "target": 0.00033669999999999994,
+     "size": 831600.8316008316,
+     "deadline": 1795431217.6315038,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3751,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "MCAT",
+     "mint": "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi",
+     "side": 1,
+     "opened": 1795424562.4770286,
+     "entry": 0.0003822,
+     "stop": 0.00030576,
+     "target": 0.00053508,
+     "size": 523286.2375719518,
+     "deadline": 1795431762.477029,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3750,
- "runs": 130,
+ "next_id": 3752,
+ "runs": 131,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4SPcFBdGy7q4xXxwuihSi4z8NHiwSYZLRnQe9fxJwW59": 1795413425.6928015,
-  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795413425.6928015,
-  "seen:93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump": 1795413610.783126,
-  "seen:DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump": 1795413610.783126,
-  "seen:84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc": 1795413610.783126,
-  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795413610.783126,
-  "control:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795413610.8860931,
-  "seen:5aozJAuwA1Qs5afMXpXf7hy8C2mdPo6vAPyrta46Z37J": 1795413792.3135169,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795413792.3135169,
-  "seen:2FYs4vApfj4ErsggpFDfzMv1WvxnyiLtzNEj84mS6TLh": 1795413792.3135169,
-  "control:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795413792.3999994,
-  "seen:E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": 1795413976.810849,
-  "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795413976.810849,
-  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795413976.810849,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795413976.810849,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795414161.2646635
+  "seen:6UQT9ZhZgcf1njNZZMk98nVjoP1AuCJdXXXVc34dbtSN": 1795424916.9253073,
+  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795424916.9253073,
+  "seen:Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump": 1795424916.9253073,
+  "seen:93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump": 1795424916.9253073,
+  "seen:E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": 1795424916.9253073,
+  "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795424916.9253073,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795424916.9253073,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795424916.9253073,
+  "control:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795424917.6315076,
+  "seen:FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": 1795425098.3875947,
+  "seen:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP": 1795425098.3875947,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795425098.3875947,
+  "seen:4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 1795425098.3875947,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795425280.0883052,
+  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795425462.4301248,
+  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795425462.4301248,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795425462.4301248,
+  "control:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795425462.4770324
  },
  "talks": {
   "2026-10-21": 109
@@ -130,18 +117,18 @@
  ],
  "last_review": 1795385934.2681973,
  "news": {
-  "t": 1795412525.7090747,
+  "t": 1795424016.9425173,
   "crypto": [
-   "Market rout kills 50 basis points December Fed rate hike bets (1h ago)",
-   "Trump renews call for Nvidia to rehire Jensen Huang as CEO (2h ago)",
-   "Billionaire Bill Ackman warns Fed will make a rate \u2018mistake\u2019 in December (3h ago)",
-   "Half of wallets on Trump\u2019s dinner list got tokens from non-US exchanges (5h ago)",
-   "Will Bitcoin\u2019s big rebound hold? More tampered Ledgers found: Hodler\u2019s Digest (7h ago)",
-   "More on the pending oversight hearings: State of Crypto (10h ago)",
-   "The future of onchain FX could start with users, not institutional liquidity (15h ago)",
-   "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins (16h ago)",
-   "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades (20h ago)",
-   "South Korean exchanges halt CYBER transfers amid suspected bridge exploit (22h ago)"
+   "Bitcoin ETFs shed $1.8B in third-largest weekly outflow (1h ago)",
+   "Crypto thieves are using online ads to infect iPhones with a single tap, research finds (1h ago)",
+   "This Swedish bitcoin treasury firm lost 30 BTC trading part of its own stack (2h ago)",
+   "Cardano holders are turning down a $4 million request for running its flagship event (3h ago)",
+   "Here\u2019s what happened in crypto today (3h ago)",
+   "Bitcoin sold for $17,000 on Kraken's Canadian dollar market, and the trades stand (3h ago)",
+   "Market rout kills 50 basis points December Fed rate hike bets (4h ago)",
+   "Trump renews call for Nvidia to rehire Jensen Huang as CEO (5h ago)",
+   "Billionaire Bill Ackman warns Fed will make a rate \u2018mistake\u2019 in December (6h ago)",
+   "Half of wallets on Trump\u2019s dinner list got tokens from non-US exchanges (8h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -174,5 +161,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795413076.8260996
+ "last_macro_macro": 1795424016.9423096
 }
