@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -80238.05395757315,
+   "cash": -80170.05395757315,
    "open": [
-    {
-     "id": 3713,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "snowball",
-     "mint": "3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump",
-     "side": 1,
-     "opened": 1795388858.714327,
-     "entry": 8.546e-05,
-     "stop": 6.8368e-05,
-     "target": 0.00011964399999999998,
-     "size": 2340276.152586005,
-     "deadline": 1795396058.7143273,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3715,
      "desk": "control",
@@ -66,23 +51,29 @@
      "size": 427899.0158322636,
      "deadline": 1795399689.5839655,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3719,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ZOL",
+     "mint": "EWTJeCWUpyu5Mj2wH7qJuY1yPn7FfswHnmiTLpnapump",
+     "side": 1,
+     "opened": 1795393290.9827256,
+     "entry": 6.911e-05,
+     "stop": 5.5287999999999996e-05,
+     "target": 9.675399999999999e-05,
+     "size": 2893937.2015627264,
+     "deadline": 1795400490.9827259,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3719,
- "runs": 129,
+ "next_id": 3720,
+ "runs": 130,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795392842.6290028,
-  "seen:HhkwewG9Xm2mFdAhpTZv8s7Ms6rAaxCjXEriyv9Spump": 1795393025.4502027,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795393025.4502027,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795393025.4502027,
-  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795393025.4502027,
-  "control:ADs7gnpeYvkBLthYhqRcrVTeGSFQuqfYnv3PbS6Bpump": 1795393025.8046725,
-  "seen:EWTJeCWUpyu5Mj2wH7qJuY1yPn7FfswHnmiTLpnapump": 1795393207.5110002,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795393207.5110002,
-  "seen:89DKn95R7QvjAcGSeqHvmj3pq7TJFbJcckURqjvuHsHp": 1795393207.5110002,
   "seen:BPnRoroABJJsCPtTJKRz8CmjanQ7X3XVhtw5RaCeDNhV": 1795393389.4735506,
   "seen:zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": 1795393389.4735506,
   "seen:ADs7gnpeYvkBLthYhqRcrVTeGSFQuqfYnv3PbS6Bpump": 1795393389.4735506,
@@ -91,7 +82,19 @@
   "seen:UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL": 1795393571.1557646,
   "seen:4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 1795393571.1557646,
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1795393571.1557646,
-  "seen:FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": 1795393571.1557646
+  "seen:FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": 1795393571.1557646,
+  "seen:E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": 1795393640.1030903,
+  "seen:7Hybws2HmX8mtqLV6veyh3VcxUsFMdxA1uWuLiuz4whG": 1795393823.5895734,
+  "seen:EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump": 1795393823.5895734,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795394006.9956677,
+  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795394006.9956677,
+  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795394006.9956677,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795394006.9956677,
+  "seen:89DKn95R7QvjAcGSeqHvmj3pq7TJFbJcckURqjvuHsHp": 1795394190.9232159,
+  "seen:EWTJeCWUpyu5Mj2wH7qJuY1yPn7FfswHnmiTLpnapump": 1795394190.9232159,
+  "seen:EV7J2QaPXPytSkM1LD9GPRkgAbmSEr9R3kYiXBzbpump": 1795394190.9232159,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795394190.9232159,
+  "control:EWTJeCWUpyu5Mj2wH7qJuY1yPn7FfswHnmiTLpnapump": 1795394190.98273
  },
  "talks": {
   "2026-10-21": 109
@@ -132,18 +135,18 @@
  ],
  "last_review": 1795385934.2681973,
  "news": {
-  "t": 1795392125.4671936,
+  "t": 1795393107.0120373,
   "crypto": [
-   "Will Bitcoin\u2019s big rebound hold? More tampered Ledgers found: Hodler\u2019s Digest (1h ago)",
+   "Will Bitcoin\u2019s big rebound hold? More tampered Ledgers found: Hodler\u2019s Digest (2h ago)",
    "More on the pending oversight hearings: State of Crypto (5h ago)",
    "The future of onchain FX could start with users, not institutional liquidity (10h ago)",
    "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins (10h ago)",
    "Here\u2019s what happened in crypto today (13h ago)",
-   "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades (14h ago)",
+   "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades (15h ago)",
    "South Korean exchanges halt CYBER transfers amid suspected bridge exploit (17h ago)",
    "Chainflip confirms $12M hack, offers attacker 10% bounty (19h ago)",
    "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave (30h ago)",
-   "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain (31h ago)"
+   "Cross-chain protocol Chainflip's FLIP tanks 30% after suspected $4.86 million vault drain (32h ago)"
   ],
   "macro": [],
   "calendar": []
