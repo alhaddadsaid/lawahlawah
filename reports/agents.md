@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-22 23:49 UTC. Runs so far: 129. Model: claude-haiku-5-5.
+Updated 2026-11-23 00:00 UTC. Runs so far: 129. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,15 +9,14 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3618 | 31 | -90575.02 | -125360.15 |
+| control | meme | 3619 | 31 | -90539.21 | -125335.52 |
 | control | macro | 74 | 49 | 250.49 | -114.61 |
-| control | all | 3692 | 31 | -90324.53 | -125474.76 |
+| control | all | 3693 | 31 | -90288.72 | -125450.13 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: MCAT long at 0.0004155, stop 0.0003324, target 0.0005817, opened 2026-11-22 22:00 UTC
 - control: PushCoin long at 0.0001073, stop 8.584e-05, target 0.00015022, opened 2026-11-22 22:06 UTC
 - control: snowball long at 8.546e-05, stop 6.8368e-05, target 0.000119644, opened 2026-11-22 23:07 UTC
 - control: DIGS long at 0.0002306, stop 0.00018448, target 0.00032284, opened 2026-11-22 23:22 UTC
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order AxiomCoin REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED MCAT (time) P&L $35.81 normal, $24.63 pessimistic
 
