@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-23 11:13 UTC. Runs so far: 131. Model: claude-haiku-5-5.
+Updated 2026-11-23 11:22 UTC. Runs so far: 131. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -20,6 +20,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: snowball long at 5.923e-05, stop 4.7384e-05, target 8.2922e-05, opened 2026-11-23 10:40 UTC
 - control: DIGS long at 0.0002487, stop 0.00019896, target 0.00034818, opened 2026-11-23 11:04 UTC
 - control: ZOL long at 0.0001259, stop 0.00010072, target 0.00017626, opened 2026-11-23 11:10 UTC
+- control: HOLD long at 0.0001131, stop 9.048e-05, target 0.00015834, opened 2026-11-23 11:19 UTC
 
 ## Team
 
@@ -32,5 +33,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED HOLD (target) P&L $68.0 normal, $56.0 pessimistic
+- team: model call failed:  HTTP 401: invalid x-api-key
+- control: order DIGS REJECTED by guardrails: DIGS already open
 
