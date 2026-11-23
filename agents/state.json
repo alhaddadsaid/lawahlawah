@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -81026.77677616842,
+   "cash": -81022.22453736245,
    "open": [
     {
      "id": 3731,
@@ -21,21 +21,6 @@
      "size": 116076.61181122246,
      "deadline": 1795485738.3547,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 3739,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "QI",
-     "mint": "8TiMkgvsrat9tM2esko8zVTt99LZLpefUM4SnZaziXaQ",
-     "side": 1,
-     "opened": 1795404281.9535956,
-     "entry": 0.000134,
-     "stop": 0.0001072,
-     "target": 0.0001876,
-     "size": 1492537.3134328357,
-     "deadline": 1795411481.9535956,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 3741,
@@ -89,25 +74,23 @@
  "runs": 130,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": 1795411063.228911,
-  "seen:J9AvtJRDreHG8B8PnW4tNMvH5c2c1jxfUfDvjrWtpump": 1795411063.228911,
-  "seen:DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump": 1795411063.228911,
-  "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795411063.228911,
-  "control:3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": 1795411063.3010476,
-  "seen:H3N2FAdkQmpnCAFxXeweqUCpFUrFsYQ2LWQa2jxyKcpo": 1795411246.9537995,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795411246.9537995,
-  "seen:Gj8nURKAVfkjNRNp3iqd3h6R1JsFtbb7pTe9zc6Wpump": 1795411246.9537995,
-  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795411430.9160352,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795411430.9160352,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795411430.9160352,
-  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795411430.9160352,
-  "seen:BXX4gc1miXWE62auzAcnNEMJkpegwcwai5AzbJudk9qe": 1795411595.337002,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795411595.337002,
-  "seen:4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 1795411595.337002,
   "seen:FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": 1795411779.7222762,
   "seen:84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc": 1795411779.7222762,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795411779.7222762,
-  "seen:2FYs4vApfj4ErsggpFDfzMv1WvxnyiLtzNEj84mS6TLh": 1795411779.7222762
+  "seen:2FYs4vApfj4ErsggpFDfzMv1WvxnyiLtzNEj84mS6TLh": 1795411779.7222762,
+  "seen:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP": 1795411960.24662,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795411960.24662,
+  "seen:Cs6DtbmQ1uydTfRbaiqYAkqarHMvjhRApgXaQTbKpump": 1795412140.3354933,
+  "seen:J9AvtJRDreHG8B8PnW4tNMvH5c2c1jxfUfDvjrWtpump": 1795412140.3354933,
+  "seen:E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": 1795412140.3354933,
+  "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795412140.3354933,
+  "seen:3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": 1795412140.3354933,
+  "seen:UQLWvkwiSsnViuVBy7oArMtzb5RAZyrdJ79amQFrzoL": 1795412140.3354933,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795412324.5003362,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795412324.5003362,
+  "seen:4SPcFBdGy7q4xXxwuihSi4z8NHiwSYZLRnQe9fxJwW59": 1795412508.760629,
+  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795412508.760629,
+  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795412508.760629
  },
  "talks": {
   "2026-10-21": 109
@@ -148,13 +131,13 @@
  ],
  "last_review": 1795385934.2681973,
  "news": {
-  "t": 1795410530.9313314,
+  "t": 1795411608.7768714,
   "crypto": [
-   "Market rout kills 50 basis points December Fed rate hike bets (0h ago)",
+   "Market rout kills 50 basis points December Fed rate hike bets (1h ago)",
    "Trump renews call for Nvidia to rehire Jensen Huang as CEO (2h ago)",
-   "Billionaire Bill Ackman warns Fed will make a rate \u2018mistake\u2019 in December (2h ago)",
-   "Half of wallets on Trump\u2019s dinner list got tokens from non-US exchanges (4h ago)",
-   "Will Bitcoin\u2019s big rebound hold? More tampered Ledgers found: Hodler\u2019s Digest (6h ago)",
+   "Billionaire Bill Ackman warns Fed will make a rate \u2018mistake\u2019 in December (3h ago)",
+   "Half of wallets on Trump\u2019s dinner list got tokens from non-US exchanges (5h ago)",
+   "Will Bitcoin\u2019s big rebound hold? More tampered Ledgers found: Hodler\u2019s Digest (7h ago)",
    "More on the pending oversight hearings: State of Crypto (10h ago)",
    "The future of onchain FX could start with users, not institutional liquidity (15h ago)",
    "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins (15h ago)",
