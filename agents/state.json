@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -81823.3129696122,
+   "cash": -81864.4159579177,
    "open": [
     {
      "id": 3768,
@@ -21,21 +21,6 @@
      "size": 64744.39856442712,
      "deadline": 1795554729.5921795,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 3769,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Singularity",
-     "mint": "7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump",
-     "side": 1,
-     "opened": 1795470526.4969776,
-     "entry": 0.0001483,
-     "stop": 0.00011864,
-     "target": 0.00020762,
-     "size": 1348617.6668914363,
-     "deadline": 1795477726.4969778,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 3771,
@@ -66,21 +51,6 @@
      "size": 797448.1658692184,
      "deadline": 1795482864.4853013,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3775,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "THANKS",
-     "mint": "BECqBzwZmkzM7A3tWimc2qvm7ookzYi8XACHMZgipump",
-     "side": 1,
-     "opened": 1795477133.640986,
-     "entry": 0.0001213,
-     "stop": 9.704e-05,
-     "target": 0.00016982,
-     "size": 1648804.6166529267,
-     "deadline": 1795484333.6409862,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,15 +59,6 @@
  "runs": 132,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1795477482.3305218,
-  "seen:62QTa8TvNAoUz62V93hgdBkwJfYWQLcQ8qVMA9UPpump": 1795477482.3305218,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795477482.3305218,
-  "seen:BECqBzwZmkzM7A3tWimc2qvm7ookzYi8XACHMZgipump": 1795477482.3305218,
-  "seen:488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump": 1795477482.3305218,
-  "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795477482.3305218,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795477482.3305218,
-  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795477665.5774822,
-  "seen:H8ZXG9SfwKb4pmQB2YnDpnMFF29xdDss4jPvDhp1icJB": 1795477665.5774822,
   "seen:GZmEWs7YAkyj1vBP9LKVBdQPVaBcHqHKkmertNsMrvTd": 1795477850.4192507,
   "seen:DsfD8dPLKgrAAosTxcE6ohx9HZWVsHVuVb5QH3U4pump": 1795477850.4192507,
   "seen:ApZuxdpzMrbEYTGEzeY9afh5pj9d6qPRJCTgQYiipbKg": 1795477850.4192507,
@@ -108,7 +69,17 @@
   "seen:2kXxWxKJRNScZEL8vN2UKjbtpMArkXvEMbRgDnq4pump": 1795478216.5528238,
   "seen:GvV7sFu6FHJsSVXfpG7xqFnWar3c7YkcC74rqe7Bpump": 1795478216.5528238,
   "seen:A5euULARiF254xqxSqZ1bdC8zCGiKW2FRh2zYstWZWZs": 1795478216.5528238,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795478216.5528238
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795478216.5528238,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795478400.9275663,
+  "seen:3uiodaXi8dg7CBaNHeRTUqhX46k2BCFuYq9iabD4pump": 1795478400.9275663,
+  "seen:BECqBzwZmkzM7A3tWimc2qvm7ookzYi8XACHMZgipump": 1795478400.9275663,
+  "seen:62QTa8TvNAoUz62V93hgdBkwJfYWQLcQ8qVMA9UPpump": 1795478400.9275663,
+  "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795478400.9275663,
+  "seen:488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump": 1795478400.9275663,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795478400.9275663,
+  "seen:HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump": 1795478400.9275663,
+  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795478584.5946877,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795478584.5946877
  },
  "talks": {
   "2026-10-21": 109
@@ -149,15 +120,15 @@
  ],
  "last_review": 1795472356.234243,
  "news": {
-  "t": 1795476582.3470135,
+  "t": 1795477500.9454074,
   "crypto": [
    "Here\u2019s what happened in crypto today (2h ago)",
-   "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack (2h ago)",
+   "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack (3h ago)",
    "Kalshi secures temporary win in New York gambling law dispute (3h ago)",
    "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn (4h ago)",
    "Base makes quantum security a 2027 priority as regulators warn of risks (4h ago)",
    "New York judge declines to block Kalshi from operating in the state for now (5h ago)",
-   "Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO (5h ago)",
+   "Nvidia's Jensen Huang faces Senate scrutiny despite Trump-backed return as CEO (6h ago)",
    "Cuomo says rivals urged companies to opt out of OKXICE tokenized stocks (6h ago)",
    "Bitcoin rebound already losing steam as AI trade returns with a bang (6h ago)",
    "Bitcoin rebounds 17% from $55K lows as Nvidia rally sparks $500M crypto liquidations (7h ago)"
