@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -80670.08761732114,
+   "cash": -80742.65503614338,
    "open": [
     {
      "id": 3723,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3730,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "QI",
-     "mint": "8TiMkgvsrat9tM2esko8zVTt99LZLpefUM4SnZaziXaQ",
-     "side": 1,
-     "opened": 1795399338.245733,
-     "entry": 0.0001817,
-     "stop": 0.00014536,
-     "target": 0.00025437999999999996,
-     "size": 1100715.465052284,
-     "deadline": 1795406538.2457333,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3731,
      "desk": "control",
      "market": "macro",
@@ -66,27 +51,29 @@
      "size": 116076.61181122246,
      "deadline": 1795485738.3547,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 3732,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Hedge",
+     "mint": "7S8k5qQfP2M48ixDLxDh6AgtwDo92eKxZ7WNmZt7pump",
+     "side": 1,
+     "opened": 1795399888.3780105,
+     "entry": 0.0001102,
+     "stop": 8.816000000000001e-05,
+     "target": 0.00015427999999999997,
+     "size": 1814882.0326678767,
+     "deadline": 1795407088.378011,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3732,
+ "next_id": 3733,
  "runs": 130,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:HsGyRVUifzZsLDGvojUzmNLdJfL7oWAKtLp84gZEPyZK": 1795399501.4089122,
-  "seen:4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 1795399501.4089122,
-  "seen:AQfw8J74V17erZsmMz4oK474eVLBaP44gD33vVbhtHo5": 1795399685.5425942,
-  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795399685.5425942,
-  "seen:63aEoSt7oGthFR5koz1572CAL9dd7NYGp7sWeQyjpump": 1795399685.5425942,
-  "seen:FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": 1795399685.5425942,
-  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795399685.5425942,
-  "seen:zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": 1795399685.5425942,
-  "seen:7S8k5qQfP2M48ixDLxDh6AgtwDo92eKxZ7WNmZt7pump": 1795399870.622505,
-  "seen:QUBTAD8C9bMU9LvmMNgKPhrmBGbHvxpu6vfWQtThxxw": 1795399870.622505,
-  "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795399870.622505,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795399870.622505,
-  "control:7S8k5qQfP2M48ixDLxDh6AgtwDo92eKxZ7WNmZt7pump": 1795399870.8879929,
   "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1795400054.5338695,
   "seen:8TiMkgvsrat9tM2esko8zVTt99LZLpefUM4SnZaziXaQ": 1795400054.5338695,
   "seen:CGEDT9QZDvvH5GmVkWJH2BXiMJqMJySC9ihWyr7Spump": 1795400054.5338695,
@@ -96,7 +83,19 @@
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795400238.119292,
   "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795400238.119292,
   "control:8TiMkgvsrat9tM2esko8zVTt99LZLpefUM4SnZaziXaQ": 1795400238.245737,
-  "control:EURUSD": 1795400238.3547041
+  "control:EURUSD": 1795400238.3547041,
+  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795400419.1951592,
+  "seen:J9AvtJRDreHG8B8PnW4tNMvH5c2c1jxfUfDvjrWtpump": 1795400419.1951592,
+  "seen:HuN5y4fJU7LNkaPjV9LhxkY7LUwpynW7yhL4qoVhpump": 1795400419.1951592,
+  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795400603.8832624,
+  "seen:AQfw8J74V17erZsmMz4oK474eVLBaP44gD33vVbhtHo5": 1795400603.8832624,
+  "seen:FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": 1795400603.8832624,
+  "seen:DTsMPr9UAisgBkZ2WGjZipaoALuhuoYCbR6euExi5JAQ": 1795400603.8832624,
+  "seen:7S8k5qQfP2M48ixDLxDh6AgtwDo92eKxZ7WNmZt7pump": 1795400788.2650068,
+  "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795400788.2650068,
+  "seen:zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": 1795400788.2650068,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795400788.2650068,
+  "control:7S8k5qQfP2M48ixDLxDh6AgtwDo92eKxZ7WNmZt7pump": 1795400788.3780148
  },
  "talks": {
   "2026-10-21": 109
@@ -137,17 +136,17 @@
  ],
  "last_review": 1795385934.2681973,
  "news": {
-  "t": 1795398601.4249175,
+  "t": 1795399519.2116265,
   "crypto": [
    "Half of wallets on Trump\u2019s dinner list got tokens from non-US exchanges (1h ago)",
    "Will Bitcoin\u2019s big rebound hold? More tampered Ledgers found: Hodler\u2019s Digest (3h ago)",
-   "More on the pending oversight hearings: State of Crypto (6h ago)",
-   "The future of onchain FX could start with users, not institutional liquidity (11h ago)",
+   "More on the pending oversight hearings: State of Crypto (7h ago)",
+   "The future of onchain FX could start with users, not institutional liquidity (12h ago)",
    "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins (12h ago)",
-   "Here\u2019s what happened in crypto today (14h ago)",
-   "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades (16h ago)",
-   "South Korean exchanges halt CYBER transfers amid suspected bridge exploit (18h ago)",
-   "Chainflip confirms $12M hack, offers attacker 10% bounty (20h ago)",
+   "Here\u2019s what happened in crypto today (15h ago)",
+   "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades (17h ago)",
+   "South Korean exchanges halt CYBER transfers amid suspected bridge exploit (19h ago)",
+   "Chainflip confirms $12M hack, offers attacker 10% bounty (21h ago)",
    "Bitcoin rebounds above $60,000 after $1.8 billion crypto liquidation wave (32h ago)"
   ],
   "macro": [],
