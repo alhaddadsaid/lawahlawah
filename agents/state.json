@@ -51,29 +51,49 @@
      "size": 1588562.3510722797,
      "deadline": 1795439438.744475,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3758,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Fly",
+     "mint": "84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc",
+     "side": 1,
+     "opened": 1795435885.95519,
+     "entry": 0.0001538,
+     "stop": 0.00012304000000000001,
+     "target": 0.00021532,
+     "size": 1300390.1170351105,
+     "deadline": 1795443085.9551902,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3758,
+ "next_id": 3759,
  "runs": 131,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:EwUVBpdM5vw1CJHRMSLywzVjyQSJZpy6qboxEPBKpump": 1795435689.0309038,
-  "seen:E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": 1795435872.6351662,
-  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795435872.6351662,
-  "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795435872.6351662,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795435872.6351662,
-  "seen:Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump": 1795435872.6351662,
-  "seen:93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump": 1795435872.6351662,
-  "seen:FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": 1795435872.6351662,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795435872.6351662,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795436054.7822495,
   "seen:A2nbXtQvvRMvWtifCkV8cYepwcC4M7iA1jVMwAh6pump": 1795436237.5549018,
   "seen:4dAVohqConTz7sFPNURgQ4JiX7xCPBaSFHQkPdfNpump": 1795436237.5549018,
   "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795436237.5549018,
   "seen:GiFukwUFNsFFpGnPUfJKAHtT7zNu8jqQfYLAHo63pump": 1795436237.5549018,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795436420.2512457
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795436420.2512457,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795436602.193369,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795436602.193369,
+  "seen:E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": 1795436785.461183,
+  "seen:Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump": 1795436785.461183,
+  "seen:FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": 1795436785.461183,
+  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795436785.461183,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795436785.461183,
+  "seen:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP": 1795436785.461183,
+  "seen:93uamrbDerKbUh8MSjNF1wDtxYvEUD1CS9BcHn1apump": 1795436785.461183,
+  "seen:84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc": 1795436785.461183,
+  "control:84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc": 1795436785.955194,
+  "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795436968.0293918,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795436968.0293918,
+  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795436968.0293918,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795436968.0293918
  },
  "talks": {
   "2026-10-21": 109
@@ -114,16 +134,16 @@
  ],
  "last_review": 1795385934.2681973,
  "news": {
-  "t": 1795434972.6527016,
+  "t": 1795435885.4779925,
   "crypto": [
    "Bitcoin rebounds from 2-year low as Wall Street futures recover (0h ago)",
    "ECB to let banks pledge more tokenized securities as collateral (0h ago)",
-   "Japan to ramp up crypto tax audits after uncovering $24.5 million in hidden income (0h ago)",
-   "Live updates: Bitcoin climbs back above $61,000 as stocks rebound from AI rout (0h ago)",
+   "Japan to ramp up crypto tax audits after uncovering $24.5 million in hidden income (1h ago)",
+   "Live updates: Bitcoin climbs back above $61,000 as stocks rebound from AI rout (1h ago)",
    "BTC price gains 12% from $55K: Three things to know in Bitcoin this week (1h ago)",
    "South Korea to expand cryptocurrency account freezes and curb illicit transfers abroad (1h ago)",
-   "Bitcoin breaks a record streak of 'lower highs.' Here's what it means (1h ago)",
-   "U.S. inflation, Thanksgiving trading: Crypto Week Ahead (2h ago)",
+   "Bitcoin breaks a record streak of 'lower highs.' Here's what it means (2h ago)",
+   "U.S. inflation, Thanksgiving trading: Crypto Week Ahead (3h ago)",
    "\u2018MoldyRoost\u2019 ads can steal crypto wallet recovery phrases from iPhones (3h ago)",
    "Bitcoin ETFs shed $1.8B in third-largest weekly outflow (4h ago)"
   ],
