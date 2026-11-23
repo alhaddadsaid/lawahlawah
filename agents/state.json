@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -81020.81120730615,
+   "cash": -81039.27677616842,
    "open": [
     {
      "id": 3731,
@@ -21,21 +21,6 @@
      "size": 116076.61181122246,
      "deadline": 1795485738.3547,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 3734,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SI",
-     "mint": "9aqmJjCnnMQv42TXLk921ceUkN35nea2QP969n1caqjj",
-     "side": 1,
-     "opened": 1795400618.836112,
-     "entry": 0.0001336,
-     "stop": 0.00010688,
-     "target": 0.00018703999999999997,
-     "size": 1497005.988023952,
-     "deadline": 1795407818.8361125,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 3739,
@@ -81,30 +66,47 @@
      "size": 2547121.7524197656,
      "deadline": 1795413868.0754733,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3744,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "snowball",
+     "mint": "3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump",
+     "side": 1,
+     "opened": 1795407948.6672208,
+     "entry": 0.000132,
+     "stop": 0.00010560000000000002,
+     "target": 0.0001848,
+     "size": 1515151.5151515151,
+     "deadline": 1795415148.6672208,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3744,
+ "next_id": 3745,
  "runs": 130,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:61yuZf1JyTKqoCfS784SusFGVekA6YUsGTfDg3o6pump": 1795407383.3255203,
-  "seen:J9AvtJRDreHG8B8PnW4tNMvH5c2c1jxfUfDvjrWtpump": 1795407383.3255203,
-  "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795407383.3255203,
-  "seen:E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": 1795407383.3255203,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795407383.3255203,
-  "seen:4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 1795407383.3255203,
-  "seen:zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": 1795407383.3255203,
-  "seen:EV7J2QaPXPytSkM1LD9GPRkgAbmSEr9R3kYiXBzbpump": 1795407567.8850586,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795407567.8850586,
-  "control:2FYs4vApfj4ErsggpFDfzMv1WvxnyiLtzNEj84mS6TLh": 1795407568.0754766,
-  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795407749.592263,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795407749.592263,
-  "seen:2FYs4vApfj4ErsggpFDfzMv1WvxnyiLtzNEj84mS6TLh": 1795407932.8602765,
-  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795407932.8602765,
   "seen:84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc": 1795408117.3474948,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795408117.3474948
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795408117.3474948,
+  "seen:3HdKfHifcZbgWgS8tQpMp5XRi6DGQNsAkHUQB4eRdtyk": 1795408298.0674098,
+  "seen:61yuZf1JyTKqoCfS784SusFGVekA6YUsGTfDg3o6pump": 1795408298.0674098,
+  "seen:E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": 1795408298.0674098,
+  "seen:J9AvtJRDreHG8B8PnW4tNMvH5c2c1jxfUfDvjrWtpump": 1795408298.0674098,
+  "seen:zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": 1795408298.0674098,
+  "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795408298.0674098,
+  "seen:3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": 1795408298.0674098,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795408483.3196545,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795408483.3196545,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795408483.3196545,
+  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795408662.3921256,
+  "seen:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP": 1795408662.3921256,
+  "seen:DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump": 1795408848.4529893,
+  "seen:2FYs4vApfj4ErsggpFDfzMv1WvxnyiLtzNEj84mS6TLh": 1795408848.4529893,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795408848.4529893,
+  "control:3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": 1795408848.6672242
  },
  "talks": {
   "2026-10-21": 109
@@ -145,12 +147,12 @@
  ],
  "last_review": 1795385934.2681973,
  "news": {
-  "t": 1795406849.6090443,
+  "t": 1795407762.40887,
   "crypto": [
    "Trump renews call for Nvidia to rehire Jensen Huang as CEO (1h ago)",
-   "Billionaire Bill Ackman warns Fed will make a rate \u2018mistake\u2019 in December (1h ago)",
+   "Billionaire Bill Ackman warns Fed will make a rate \u2018mistake\u2019 in December (2h ago)",
    "Half of wallets on Trump\u2019s dinner list got tokens from non-US exchanges (3h ago)",
-   "Will Bitcoin\u2019s big rebound hold? More tampered Ledgers found: Hodler\u2019s Digest (5h ago)",
+   "Will Bitcoin\u2019s big rebound hold? More tampered Ledgers found: Hodler\u2019s Digest (6h ago)",
    "More on the pending oversight hearings: State of Crypto (9h ago)",
    "The future of onchain FX could start with users, not institutional liquidity (14h ago)",
    "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins (14h ago)",
@@ -189,5 +191,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795406667.9004688
+ "last_macro_macro": 1795407948.4771152
 }
