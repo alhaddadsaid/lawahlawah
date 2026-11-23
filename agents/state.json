@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -81039.27677616842,
+   "cash": -80971.27677616842,
    "open": [
     {
      "id": 3731,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3743,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "hCAT",
-     "mint": "2FYs4vApfj4ErsggpFDfzMv1WvxnyiLtzNEj84mS6TLh",
-     "side": 1,
-     "opened": 1795406668.075473,
-     "entry": 7.852e-05,
-     "stop": 6.2816e-05,
-     "target": 0.000109928,
-     "size": 2547121.7524197656,
-     "deadline": 1795413868.0754733,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3744,
      "desk": "control",
      "market": "meme",
@@ -89,14 +74,6 @@
  "runs": 130,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795408662.3921256,
-  "seen:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP": 1795408662.3921256,
-  "seen:DKu9kykSfbN5LBfFXtNNDPaX35o4Fv6vJ9FKk7pZpump": 1795408848.4529893,
-  "seen:2FYs4vApfj4ErsggpFDfzMv1WvxnyiLtzNEj84mS6TLh": 1795408848.4529893,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795408848.4529893,
-  "control:3D7YQcnXi6RMjWxheiE8VLuGXJTtgQkmyugGYvzjpump": 1795408848.6672242,
-  "seen:84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc": 1795409029.6962483,
-  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795409029.6962483,
   "seen:J9AvtJRDreHG8B8PnW4tNMvH5c2c1jxfUfDvjrWtpump": 1795409214.1882255,
   "seen:E9rWKjVhHMxQkxfREr7Li8Yy46rVcWiWHoKVQAe9pump": 1795409214.1882255,
   "seen:61yuZf1JyTKqoCfS784SusFGVekA6YUsGTfDg3o6pump": 1795409214.1882255,
@@ -104,7 +81,17 @@
   "seen:BAKsQrynzwadyACDMsg3J5R8a4CTvj1u7kEYyjq7pump": 1795409214.1882255,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795409398.883058,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795409398.883058,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795409398.883058
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795409398.883058,
+  "seen:H3N2FAdkQmpnCAFxXeweqUCpFUrFsYQ2LWQa2jxyKcpo": 1795409580.008044,
+  "seen:BXX4gc1miXWE62auzAcnNEMJkpegwcwai5AzbJudk9qe": 1795409580.008044,
+  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795409580.008044,
+  "seen:DEW9dSN6QpWyNthphCpMmAbZP1Q4cEKR9xQXAri98WDP": 1795409580.008044,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795409580.008044,
+  "seen:FuKY3dk7QmpbDdQRjzbjB3G6PiCuqKNvN4dAWDpwpump": 1795409760.1665006,
+  "seen:2FYs4vApfj4ErsggpFDfzMv1WvxnyiLtzNEj84mS6TLh": 1795409760.1665006,
+  "seen:KENJSUYLASHUMfHyy5o4Hp2FdNqZg1AsUPhfH2kYvEP": 1795409760.1665006,
+  "seen:84tAcSK5L9kuQEVM8C8vMHXnfdA83nGBT2nYfSbPUcAc": 1795409943.9813087,
+  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795409943.9813087
  },
  "talks": {
   "2026-10-21": 109
@@ -145,15 +132,15 @@
  ],
  "last_review": 1795385934.2681973,
  "news": {
-  "t": 1795407762.40887,
+  "t": 1795408680.0242534,
   "crypto": [
    "Trump renews call for Nvidia to rehire Jensen Huang as CEO (1h ago)",
    "Billionaire Bill Ackman warns Fed will make a rate \u2018mistake\u2019 in December (2h ago)",
-   "Half of wallets on Trump\u2019s dinner list got tokens from non-US exchanges (3h ago)",
+   "Half of wallets on Trump\u2019s dinner list got tokens from non-US exchanges (4h ago)",
    "Will Bitcoin\u2019s big rebound hold? More tampered Ledgers found: Hodler\u2019s Digest (6h ago)",
    "More on the pending oversight hearings: State of Crypto (9h ago)",
    "The future of onchain FX could start with users, not institutional liquidity (14h ago)",
-   "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins (14h ago)",
+   "Bitcoin's quantum security challenge extends to bridges, custodians and millions of coins (15h ago)",
    "Here\u2019s what happened in crypto today (17h ago)",
    "Bitcoin briefly drops to $17K on Kraken, exchange upholds trades (19h ago)",
    "South Korean exchanges halt CYBER transfers amid suspected bridge exploit (21h ago)"
