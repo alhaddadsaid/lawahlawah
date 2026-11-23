@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-23 23:32 UTC. Runs so far: 132. Model: claude-haiku-5-5.
+Updated 2026-11-23 23:41 UTC. Runs so far: 132. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -21,6 +21,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: Singularity long at 0.0001483, stop 0.00011864, target 0.00020762, opened 2026-11-23 21:48 UTC
 - control: CYBERLEEK long at 0.001399, stop 0.0011192, target 0.0019586, opened 2026-11-23 22:01 UTC
 - control: MOMO long at 0.0002508, stop 0.00020064, target 0.00035112, opened 2026-11-23 23:14 UTC
+- control: THANKS long at 0.0001213, stop 9.704e-05, target 0.00016982, opened 2026-11-23 23:38 UTC
 
 ## Team
 
@@ -33,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order MOMO REJECTED by guardrails: MOMO already open
+- team: model call failed:  HTTP 401: invalid x-api-key
 
