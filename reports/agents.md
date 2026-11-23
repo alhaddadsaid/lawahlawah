@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-23 00:21 UTC. Runs so far: 130. Model: claude-haiku-5-5.
+Updated 2026-11-23 00:30 UTC. Runs so far: 130. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3622 | 31 | -90420.66 | -125250.78 |
+| control | meme | 3624 | 31 | -90535.37 | -125383.07 |
 | control | macro | 74 | 49 | 250.49 | -114.61 |
-| control | all | 3696 | 31 | -90170.17 | -125365.39 |
+| control | all | 3698 | 31 | -90284.88 | -125497.68 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: DIGS long at 0.0002306, stop 0.00018448, target 0.00032284, opened 2026-11-22 23:22 UTC
 - control: Max long at 0.0004559, stop 0.00036472, target 0.00063826, opened 2026-11-22 23:28 UTC
 - control: MCAT long at 0.0004674, stop 0.00037392, target 0.00065436, opened 2026-11-23 00:08 UTC
-- control: ZOL long at 6.911e-05, stop 5.5288e-05, target 9.6754e-05, opened 2026-11-23 00:21 UTC
+- control: ZOL long at 0.0001494, stop 0.00011952, target 0.00020916, opened 2026-11-23 00:30 UTC
 
 ## Team
 
@@ -33,5 +33,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-23 00:21 UTC control: OPENED ZOL long at 6.911e-05 (stop 5.5288e-05, target 9.6754e-05) - control: frozen v3 rules
+- team: model call failed:  HTTP 401: invalid x-api-key
+- 2026-11-23 00:30 UTC control: OPENED ZOL long at 0.0001494 (stop 0.00011952, target 0.00020916) - control: frozen v3 rules
 
