@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-23 02:54 UTC. Runs so far: 130. Model: claude-haiku-5-5.
+Updated 2026-11-23 03:00 UTC. Runs so far: 130. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3637 | 31 | -91287.45 | -126249.2 |
+| control | meme | 3639 | 31 | -91274.0 | -126256.61 |
 | control | macro | 75 | 49 | 398.75 | 31.9 |
-| control | all | 3712 | 31 | -90888.7 | -126217.3 |
+| control | all | 3714 | 31 | -90875.25 | -126224.71 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: snowball long at 9.248e-05, stop 7.3984e-05, target 0.000129472, opened 2026-11-23 01:25 UTC
 - control: EURUSD long at 1.09878, stop 1.09792, target 1.10007, opened 2026-11-23 02:02 UTC
 - control: SI long at 0.0001336, stop 0.00010688, target 0.00018704, opened 2026-11-23 02:23 UTC
-- control: QI long at 0.0001533, stop 0.00012264, target 0.00021462, opened 2026-11-23 02:38 UTC
 
 ## Team
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order Hedge REJECTED by guardrails: desk already has the maximum open positions
+- team: model call failed:  HTTP 401: invalid x-api-key
 
