@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -83121.77780416238,
+   "cash": -83232.31201380175,
    "open": [
     {
      "id": 3829,
@@ -36,21 +36,6 @@
      "size": 1828153.5648994516,
      "deadline": 1795558752.112492,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3831,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "SANTIA",
-     "mint": "2YKce3apGESoWhqt4N7MGg5t4UEKgPPL4ArheEvPpump",
-     "side": 1,
-     "opened": 1795552640.3122518,
-     "entry": 8.901e-05,
-     "stop": 7.120800000000001e-05,
-     "target": 0.000124614,
-     "size": 2246938.5462307604,
-     "deadline": 1795559840.312252,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -59,24 +44,27 @@
  "runs": 134,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795552994.6340938,
-  "seen:AemA1kpGhu1pdHE1DLnbQsgVJGzvz3F82PAhbNedCUcg": 1795553179.788557,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795553179.788557,
-  "seen:GzDqH7FnMqtuMupdc2ZQF6KX2yk9A4CbUBzs2Kaspump": 1795553179.788557,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795553179.788557,
-  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795553179.788557,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795553179.788557,
-  "seen:F4V5yMyUzCPw8DSycktE2jjVJdHhKDvy88mfZEMDpump": 1795553359.2357435,
-  "seen:3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795553359.2357435,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795553359.2357435,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795553359.2357435,
   "seen:2YKce3apGESoWhqt4N7MGg5t4UEKgPPL4ArheEvPpump": 1795553540.154552,
   "control:2YKce3apGESoWhqt4N7MGg5t4UEKgPPL4ArheEvPpump": 1795553540.3122551,
   "seen:55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump": 1795553725.6663587,
   "seen:6GLetugFEmy7P7SmLtg3zyZdz6rWCQ8gHPbPYZs9pump": 1795553725.6663587,
   "seen:zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": 1795553725.6663587,
   "seen:6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump": 1795553725.6663587,
-  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795553725.6663587
+  "seen:4kjruqGHDsSqkMdFfCjV7Vb62HPFhtXyWc2t6JpQzDnz": 1795553725.6663587,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795553906.6496263,
+  "seen:488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump": 1795553906.6496263,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795553906.6496263,
+  "seen:DCSX5MxQRAYiXEn1X9XuXiHmq87Tza4rJNNL9ETXM65i": 1795554092.3254359,
+  "seen:GEHehS5Rr4rNCjvrHLjjV1avD4bjMsn53ywDGv1spump": 1795554092.3254359,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795554092.3254359,
+  "seen:GzDqH7FnMqtuMupdc2ZQF6KX2yk9A4CbUBzs2Kaspump": 1795554092.3254359,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795554092.3254359,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795554092.3254359,
+  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795554092.3254359,
+  "seen:7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": 1795554092.3254359,
+  "seen:FaSj86PNgYAQSvKJbwPWUtVbv9s2j3WGDBdjTpkamYG": 1795554277.7089264,
+  "seen:XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo": 1795554277.7089264,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795554277.7089264
  },
  "talks": {
   "2026-10-21": 109
@@ -117,23 +105,23 @@
  ],
  "last_review": 1795472356.234243,
  "news": {
-  "t": 1795552279.8076828,
+  "t": 1795553192.3432643,
   "crypto": [
    "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares (1h ago)",
-   "Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years (1h ago)",
+   "Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years (2h ago)",
    "CFTC sets new prediction market rules as more firms seek US entry (2h ago)",
-   "BlackRock launches tokenized money market fund accepting stablecoins in Hong Kong (2h ago)",
+   "BlackRock launches tokenized money market fund accepting stablecoins in Hong Kong (3h ago)",
    "Utah moves to drop criminal pursuit of Kalshi after the firm halted services there (3h ago)",
-   "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price (3h ago)",
+   "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price (4h ago)",
    "How South Korea\u2019s proposed 20% cap could change who runs Upbit (4h ago)",
    "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story (5h ago)",
-   "Anchorage Digital to unveil new asset-management subsidiary (5h ago)",
+   "Anchorage Digital to unveil new asset-management subsidiary (6h ago)",
    "South Korea proposes ending 2017 ICO ban to boost jobs and onshore crypto investment (6h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core PCE Price Index m/m in 17.0h, forecast 0.3%, previous 0.3%",
-   "USD Prelim GDP q/q in 17.0h, forecast 3.5%, previous 3.4%"
+   "USD Core PCE Price Index m/m in 16.7h, forecast 0.3%, previous 0.3%",
+   "USD Prelim GDP q/q in 16.7h, forecast 3.5%, previous 3.4%"
   ]
  },
  "spend": {
