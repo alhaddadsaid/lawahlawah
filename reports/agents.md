@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-24 02:24 UTC. Runs so far: 132. Model: claude-haiku-5-5.
+Updated 2026-11-24 02:33 UTC. Runs so far: 132. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3689 | 31 | -92280.17 | -127749.79 |
+| control | meme | 3691 | 31 | -92432.35 | -127918.58 |
 | control | macro | 77 | 48 | 159.83 | -216.06 |
-| control | all | 3766 | 31 | -92120.34 | -127965.85 |
+| control | all | 3768 | 31 | -92272.52 | -128134.64 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: GBPUSD long at 1.30353, stop 1.3019, target 1.30596, opened 2026-11-24 00:00 UTC
 - control: Flatulence long at 0.0001433, stop 0.00011464, target 0.00020062, opened 2026-11-24 02:08 UTC
 - control: HUSS long at 6.392e-05, stop 5.1136e-05, target 8.9488e-05, opened 2026-11-24 02:11 UTC
-- control: STACK long at 6.515e-05, stop 5.212e-05, target 9.121e-05, opened 2026-11-24 02:14 UTC
 - control: CLAUDIO long at 5.87e-05, stop 4.696e-05, target 8.218e-05, opened 2026-11-24 02:18 UTC
 
 ## Team
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order CHIBI REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED CHIBI (stop) P&L $-56.1 normal, $-64.92 pessimistic
 
