@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -81990.62990123333,
+   "cash": -82003.11926293546,
    "open": [
-    {
-     "id": 3803,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DIGS",
-     "mint": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-     "side": 1,
-     "opened": 1795507107.959592,
-     "entry": 0.0002115,
-     "stop": 0.0001692,
-     "target": 0.0002961,
-     "size": 945626.4775413712,
-     "deadline": 1795514307.9595923,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3809,
      "desk": "control",
@@ -81,32 +66,47 @@
      "size": 1579778.8309636652,
      "deadline": 1795520909.1863718,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3814,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Scamsem",
+     "mint": "5JWeGmA9z6yHd5F9P6B23A8wthho8BpZuDmQv5DfLoat",
+     "side": 1,
+     "opened": 1795514649.1929247,
+     "entry": 0.0001232,
+     "stop": 9.856000000000002e-05,
+     "target": 0.00017248,
+     "size": 1623376.6233766233,
+     "deadline": 1795521849.192925,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3814,
+ "next_id": 3815,
  "runs": 133,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5JWeGmA9z6yHd5F9P6B23A8wthho8BpZuDmQv5DfLoat": 1795514240.9420018,
-  "seen:CFPkPq1eYPR8GLzEo59wUbbMioX4bshaTQiSGzTSpump": 1795514240.9420018,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795514240.9420018,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795514240.9420018,
-  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795514240.9420018,
-  "control:CFPkPq1eYPR8GLzEo59wUbbMioX4bshaTQiSGzTSpump": 1795514241.1991985,
-  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795514423.4791613,
-  "seen:65iH8k736QNhuUHm1tt8X7yJXpJ517HPPq8BrVdwring": 1795514423.4791613,
-  "seen:3T9e85d5yZMxSYZWGVaq95MoQrPoeGMchRohWaqFpump": 1795514423.4791613,
-  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795514423.4791613,
-  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795514608.9848962,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795514608.9848962,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795514608.9848962,
-  "control:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795514609.1863742,
   "seen:3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795514792.065774,
   "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795514792.065774,
   "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795514974.7069328,
-  "seen:5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": 1795514974.7069328
+  "seen:5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": 1795514974.7069328,
+  "seen:5JWeGmA9z6yHd5F9P6B23A8wthho8BpZuDmQv5DfLoat": 1795515159.464771,
+  "seen:26KrRe8FRNuQMKSiTyzSrWCZpqEAAHUC7haMkMF475zQ": 1795515159.464771,
+  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795515159.464771,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795515159.464771,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795515159.464771,
+  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795515342.336486,
+  "seen:5St93zSNQvWxK22Cj5mJBXcjUNNB452h5uNmrttSpump": 1795515342.336486,
+  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795515342.336486,
+  "seen:HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump": 1795515342.336486,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795515549.1317694,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795515549.1317694,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795515549.1317694,
+  "seen:Eic8jkt5ehJaBknqn6kJZ1g5RLjSijutFTSNBuVZpump": 1795515549.1317694,
+  "control:5JWeGmA9z6yHd5F9P6B23A8wthho8BpZuDmQv5DfLoat": 1795515549.192928
  },
  "talks": {
   "2026-10-21": 109
@@ -147,15 +147,15 @@
  ],
  "last_review": 1795472356.234243,
  "news": {
-  "t": 1795513340.9529507,
+  "t": 1795514259.4758506,
   "crypto": [
-   "Bitcoin dips back under $60K as gold seals worst 60-day loss since 1980s (0h ago)",
+   "Bitcoin dips back under $60K as gold seals worst 60-day loss since 1980s (1h ago)",
    "Bitcoin ETFs keep bleeding as BlackRock\u2019s IBIT shares gain nearly 5% (2h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
    "Why 42 Macro says it\u2019s waiting to buy the Bitcoin dip (5h ago)",
-   "Google wants to make you the star of your own AI slop movies (6h ago)",
+   "Google wants to make you the star of your own AI slop movies (7h ago)",
    "Ethereum Foundation doubles protocol security team ahead of overhaul (9h ago)",
-   "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes (9h ago)",
+   "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes (10h ago)",
    "CFTC staff say exchanges can count Bitcoin toward operating reserves (10h ago)",
    "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack (13h ago)",
    "Kalshi secures temporary win in New York gambling law dispute (13h ago)"
