@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -82091.60693768077,
+   "cash": -82083.88517693507,
    "open": [
     {
      "id": 3777,
@@ -21,36 +21,6 @@
      "size": 61623.97783561655,
      "deadline": 1795564855.034234,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 3796,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DIGS",
-     "mint": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-     "side": 1,
-     "opened": 1795499797.5915766,
-     "entry": 0.0001882,
-     "stop": 0.00015056,
-     "target": 0.00026347999999999996,
-     "size": 1062699.2561105208,
-     "deadline": 1795506997.5915768,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3797,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "MCAT",
-     "mint": "BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi",
-     "side": 1,
-     "opened": 1795499979.2104568,
-     "entry": 0.0001504,
-     "stop": 0.00012032,
-     "target": 0.00021056,
-     "size": 1329787.2340425532,
-     "deadline": 1795507179.2104568,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 3801,
@@ -81,35 +51,71 @@
      "size": 2999850.007499625,
      "deadline": 1795512659.6762621,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3803,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "DIGS",
+     "mint": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
+     "side": 1,
+     "opened": 1795507107.959592,
+     "entry": 0.0002115,
+     "stop": 0.0001692,
+     "target": 0.0002961,
+     "size": 945626.4775413712,
+     "deadline": 1795514307.9595923,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3804,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Satoshi",
+     "mint": "DXkCsXhXeh2xTfQ8Um8dicQcwseTfuHvDwriTcJLpump",
+     "side": 1,
+     "opened": 1795507474.3806794,
+     "entry": 7.808e-05,
+     "stop": 6.2464e-05,
+     "target": 0.00010931199999999999,
+     "size": 2561475.4098360655,
+     "deadline": 1795514674.3806796,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3803,
+ "next_id": 3805,
  "runs": 133,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795506907.6354296,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795506907.6354296,
-  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795506907.6354296,
-  "seen:HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump": 1795506907.6354296,
-  "seen:GSp4qePZUHBtt5f4gE6AsRC9JUUqeZEJLeN2JZxLpump": 1795506907.6354296,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795507088.4110014,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795507088.4110014,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795507268.6142943,
-  "seen:3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795507268.6142943,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795507268.6142943,
-  "seen:DXkCsXhXeh2xTfQ8Um8dicQcwseTfuHvDwriTcJLpump": 1795507456.5083141,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795507456.5083141,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795507456.5083141,
-  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1795507456.5083141,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795507638.125154
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795507638.125154,
+  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795507823.5159235,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795507823.5159235,
+  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795507823.5159235,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795507823.5159235,
+  "seen:HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump": 1795507823.5159235,
+  "seen:5St93zSNQvWxK22Cj5mJBXcjUNNB452h5uNmrttSpump": 1795507823.5159235,
+  "seen:Jd3NCawdFiDNWpLiTtsMqoeoBMjC1ZQMrMScRVzpump": 1795508007.8975432,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795508007.8975432,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795508007.8975432,
+  "control:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795508007.9595952,
+  "seen:wG5KTn4ZGfSXKM6xsFGanR9VqhWmCDirdNBq63Wpump": 1795508191.6118798,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795508191.6118798,
+  "seen:31Ddm1MYvU41FVu5HBZTZ7KrdzQ7T8gy2nYAMoj1pump": 1795508191.6118798,
+  "seen:3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795508191.6118798,
+  "seen:4GSorgkMkDQozFtdSxJ6421erXHafHFTe7gJVwFt6j9z": 1795508374.341015,
+  "seen:DXkCsXhXeh2xTfQ8Um8dicQcwseTfuHvDwriTcJLpump": 1795508374.341015,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1795508374.341015,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795508374.341015,
+  "seen:488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump": 1795508374.341015,
+  "control:DXkCsXhXeh2xTfQ8Um8dicQcwseTfuHvDwriTcJLpump": 1795508374.3806827
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498744,
+ "ctrl_macro_hour": 498752,
  "team": [
   {
    "name": "Lead",
@@ -144,18 +150,18 @@
  ],
  "last_review": 1795472356.234243,
  "news": {
-  "t": 1795506007.646771,
+  "t": 1795506923.527051,
   "crypto": [
+   "Bitcoin ETFs keep bleeding as BlackRock\u2019s IBIT shares gain nearly 5% (0h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
    "Why 42 Macro says it\u2019s waiting to buy the Bitcoin dip (3h ago)",
-   "Google wants to make you the star of your own AI slop movies (4h ago)",
+   "Google wants to make you the star of your own AI slop movies (5h ago)",
    "Ethereum Foundation doubles protocol security team ahead of overhaul (7h ago)",
-   "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes (7h ago)",
+   "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes (8h ago)",
    "CFTC staff say exchanges can count Bitcoin toward operating reserves (8h ago)",
    "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack (11h ago)",
    "Kalshi secures temporary win in New York gambling law dispute (11h ago)",
-   "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn (12h ago)",
-   "Base makes quantum security a 2027 priority as regulators warn of risks (12h ago)"
+   "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn (12h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -188,5 +194,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795506007.6464617
+ "last_macro_macro": 1795507291.622566
 }
