@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-24 10:25 UTC. Runs so far: 133. Model: claude-haiku-5-5.
+Updated 2026-11-24 10:34 UTC. Runs so far: 133. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3714 | 31 | -92508.13 | -128228.34 |
+| control | meme | 3715 | 31 | -92562.38 | -128291.46 |
 | control | macro | 78 | 49 | 303.67 | -75.92 |
-| control | all | 3792 | 31 | -92204.46 | -128304.26 |
+| control | all | 3793 | 31 | -92258.71 | -128367.38 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: MCAT long at 0.0001978, stop 0.00015824, target 0.00027692, opened 2026-11-24 09:17 UTC
 - control: CYBERLEEK long at 0.001269, stop 0.0010152, target 0.0017766, opened 2026-11-24 09:30 UTC
 - control: CLAUDIO long at 0.0001415, stop 0.0001132, target 0.0001981, opened 2026-11-24 10:22 UTC
-- control: Scamsem long at 8.002e-05, stop 6.4016e-05, target 0.000112028, opened 2026-11-24 10:25 UTC
+- control: UCASH long at 7.388e-05, stop 5.9104e-05, target 0.000103432, opened 2026-11-24 10:28 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-24 10:25 UTC control: OPENED Scamsem long at 8.002e-05 (stop 6.4016e-05, target 0.000112028) - control: frozen v3 rules
+- control: order WIZARD REJECTED by guardrails: desk already has the maximum open positions
 
