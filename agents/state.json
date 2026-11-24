@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -83164.31201380175,
+   "cash": -83363.7944001654,
    "open": [
     {
      "id": 3829,
@@ -66,21 +66,6 @@
      "size": 1785714.2857142857,
      "deadline": 1795562584.4176223,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3835,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "embarrassment",
-     "mint": "E81BaGGWBzvFgcgWr7UKDdmuc9TxG4jCRMmb8NYxpump",
-     "side": 1,
-     "opened": 1795555569.9039917,
-     "entry": 5.28e-05,
-     "stop": 4.224e-05,
-     "target": 7.392e-05,
-     "size": 3787878.7878787876,
-     "deadline": 1795562769.9039917,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -89,26 +74,23 @@
  "runs": 134,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795555743.8002017,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795555743.8002017,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795555743.8002017,
-  "seen:DCSX5MxQRAYiXEn1X9XuXiHmq87Tza4rJNNL9ETXM65i": 1795555924.563111,
-  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795555924.563111,
-  "seen:XsoBhf2ufR8fTyNSjqfU71DYGaE6Z3SUGAidpzriAA4": 1795555924.563111,
-  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795555924.563111,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795555924.563111,
-  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795555924.563111,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795555924.563111,
-  "control:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795555925.1964204,
-  "seen:J1RnF3my1mndhxtdNmrc6xpgske8TXe425L54k51izEW": 1795556104.0619633,
-  "seen:E81BaGGWBzvFgcgWr7UKDdmuc9TxG4jCRMmb8NYxpump": 1795556104.0619633,
-  "seen:3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795556104.0619633,
-  "seen:7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": 1795556284.2192955,
-  "control:55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump": 1795556284.4176254,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795556469.8466685,
-  "seen:55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump": 1795556469.8466685,
-  "seen:Ar3z9kK8RxboXifCJ6czkw6GK7bkXQoe44uCxpw8pump": 1795556469.8466685,
-  "control:E81BaGGWBzvFgcgWr7UKDdmuc9TxG4jCRMmb8NYxpump": 1795556469.9039953
+  "seen:7bQL4aLYyFXPLXXngC8xmxLx6keZVfyfQcP3diU1pump": 1795556653.5170286,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795556653.5170286,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795556653.5170286,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795556653.5170286,
+  "seen:4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 1795556653.5170286,
+  "seen:DCSX5MxQRAYiXEn1X9XuXiHmq87Tza4rJNNL9ETXM65i": 1795556834.4105885,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795556834.4105885,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795556834.4105885,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795556834.4105885,
+  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795556834.4105885,
+  "seen:J1RnF3my1mndhxtdNmrc6xpgske8TXe425L54k51izEW": 1795557019.1681845,
+  "seen:Ec2xc9dxD12sPww3GqpbBaGAbF45LsEw9BLF3wqsVR9N": 1795557019.1681845,
+  "seen:CR4Tks2HjJkKVQQVDmKU41qW7iEaEBh1RRExdTRMpump": 1795557019.1681845,
+  "seen:3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795557019.1681845,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795557019.1681845,
+  "seen:55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump": 1795557385.0514715,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795557385.0514715
  },
  "talks": {
   "2026-10-21": 109
@@ -149,23 +131,23 @@
  ],
  "last_review": 1795472356.234243,
  "news": {
-  "t": 1795555024.5794806,
+  "t": 1795555934.427365,
   "crypto": [
-   "Utah moves to dismiss criminal charges against Kalshi after trading halt (0h ago)",
+   "Utah moves to dismiss criminal charges against Kalshi after trading halt (1h ago)",
    "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares (2h ago)",
    "Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years (2h ago)",
    "CFTC sets new prediction market rules as more firms seek US entry (3h ago)",
    "BlackRock launches tokenized money market fund accepting stablecoins in Hong Kong (3h ago)",
-   "Utah moves to drop criminal pursuit of Kalshi after the firm halted services there (3h ago)",
+   "Utah moves to drop criminal pursuit of Kalshi after the firm halted services there (4h ago)",
    "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price (4h ago)",
    "How South Korea\u2019s proposed 20% cap could change who runs Upbit (5h ago)",
-   "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story (5h ago)",
+   "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story (6h ago)",
    "Anchorage Digital to unveil new asset-management subsidiary (6h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core PCE Price Index m/m in 16.2h, forecast 0.3%, previous 0.3%",
-   "USD Prelim GDP q/q in 16.2h, forecast 3.5%, previous 3.4%"
+   "USD Core PCE Price Index m/m in 16.0h, forecast 0.3%, previous 0.3%",
+   "USD Prelim GDP q/q in 16.0h, forecast 3.5%, previous 3.4%"
   ]
  },
  "spend": {
