@@ -66,26 +66,29 @@
      "size": 1881467.5446848543,
      "deadline": 1795565328.9179363,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3837,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Memeployed",
+     "mint": "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn",
+     "side": 1,
+     "opened": 1795558865.796638,
+     "entry": 0.0001205,
+     "stop": 9.640000000000001e-05,
+     "target": 0.00016869999999999998,
+     "size": 1659751.0373443982,
+     "deadline": 1795566065.7966383,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3837,
+ "next_id": 3838,
  "runs": 134,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Bfm5FXqVdMbTgWjYeEBKM9rq8AyHRGpPZTpDoJ6HFHew": 1795558479.1579196,
-  "seen:2gdnxdyM1VnX3ZiNja1Tz1LjmGYqEPm1N11gNDubpump": 1795558479.1579196,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795558479.1579196,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795558479.1579196,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795558660.581259,
-  "seen:9qZfA8rQgLXRXThMU8MDUoQHykZeN6iQjrqrCtdHpump": 1795558660.581259,
-  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795558660.581259,
-  "seen:J1RnF3my1mndhxtdNmrc6xpgske8TXe425L54k51izEW": 1795558845.7325094,
-  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795558845.7325094,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795558845.7325094,
-  "seen:4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 1795558845.7325094,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795558845.7325094,
   "seen:DCSX5MxQRAYiXEn1X9XuXiHmq87Tza4rJNNL9ETXM65i": 1795559028.8252187,
   "seen:3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795559028.8252187,
   "seen:DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": 1795559028.8252187,
@@ -93,7 +96,17 @@
   "seen:Cocrz7BR2xE2sgKn3VbmaTXH6HTVgCiVFWTVWmyTpump": 1795559215.9927447,
   "seen:55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump": 1795559215.9927447,
   "seen:7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": 1795559215.9927447,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795559215.9927447
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795559215.9927447,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795559395.5749729,
+  "seen:5UUH9RTDiSpq6HKS6bp4NdU9PNJpXRXuiw6ShBTBhgH2": 1795559395.5749729,
+  "seen:4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn": 1795559395.5749729,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795559579.1855528,
+  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795559579.1855528,
+  "seen:J1RnF3my1mndhxtdNmrc6xpgske8TXe425L54k51izEW": 1795559765.5745687,
+  "seen:8C5xhpyzxEazMyqdFqzhSeUvQL7YZ7kW5Q3FNQp2diKJ": 1795559765.5745687,
+  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795559765.5745687,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795559765.5745687,
+  "control:4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn": 1795559765.796642
  },
  "talks": {
   "2026-10-21": 109
@@ -132,25 +145,25 @@
    "instructions": "Before any trade, check the hypothesis against the journal and costs. Reject any idea without a pre-registered entry, stop, target, max hold and expected net edge. Track hit rate and net P&L per hypothesis."
   }
  ],
- "last_review": 1795472356.234243,
+ "last_review": 1795558865.5950997,
  "news": {
-  "t": 1795557760.5981114,
+  "t": 1795558679.2022116,
   "crypto": [
    "Europol follows $28.5M crypto trail in streaming piracy crackdown (0h ago)",
    "Utah moves to dismiss criminal charges against Kalshi after trading halt (1h ago)",
-   "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares (2h ago)",
+   "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares (3h ago)",
    "Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years (3h ago)",
    "CFTC sets new prediction market rules as more firms seek US entry (4h ago)",
    "BlackRock launches tokenized money market fund accepting stablecoins in Hong Kong (4h ago)",
    "Utah moves to drop criminal pursuit of Kalshi after the firm halted services there (4h ago)",
    "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price (5h ago)",
-   "How South Korea\u2019s proposed 20% cap could change who runs Upbit (5h ago)",
+   "How South Korea\u2019s proposed 20% cap could change who runs Upbit (6h ago)",
    "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story (6h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core PCE Price Index m/m in 15.5h, forecast 0.3%, previous 0.3%",
-   "USD Prelim GDP q/q in 15.5h, forecast 3.5%, previous 3.4%"
+   "USD Core PCE Price Index m/m in 15.2h, forecast 0.3%, previous 0.3%",
+   "USD Prelim GDP q/q in 15.2h, forecast 3.5%, previous 3.4%"
   ]
  },
  "spend": {
