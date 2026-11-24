@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -83363.7944001654,
+   "cash": -83337.99894561994,
    "open": [
-    {
-     "id": 3829,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Memeployed",
-     "mint": "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn",
-     "side": 1,
-     "opened": 1795550822.1149404,
-     "entry": 0.0001144,
-     "stop": 9.152e-05,
-     "target": 0.00016015999999999998,
-     "size": 1748251.7482517483,
-     "deadline": 1795558022.1149406,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3832,
      "desk": "control",
@@ -66,33 +51,49 @@
      "size": 1785714.2857142857,
      "deadline": 1795562584.4176223,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3836,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "jingyu",
+     "mint": "DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump",
+     "side": 1,
+     "opened": 1795558128.917936,
+     "entry": 0.0001063,
+     "stop": 8.504e-05,
+     "target": 0.00014881999999999997,
+     "size": 1881467.5446848543,
+     "deadline": 1795565328.9179363,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3836,
+ "next_id": 3837,
  "runs": 134,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DCSX5MxQRAYiXEn1X9XuXiHmq87Tza4rJNNL9ETXM65i": 1795557746.0855348,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795557746.0855348,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795557746.0855348,
-  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795557746.0855348,
-  "seen:488SaFq6wHF2z2k6NLSD3PtoSkXDNZaPkJwxze11pump": 1795557746.0855348,
-  "seen:J1RnF3my1mndhxtdNmrc6xpgske8TXe425L54k51izEW": 1795557930.4384093,
-  "seen:HbwLomaLi4VH8jSbTSmaG4DW8qTeVJrft18gXqPym7xT": 1795557930.4384093,
-  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795557930.4384093,
-  "seen:EdKRxbu3kuHdbBmf2aHmtU7KmC3cSTC7Qn18LLUFpump": 1795557930.4384093,
-  "seen:3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795557930.4384093,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795557930.4384093,
-  "seen:4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 1795557930.4384093,
-  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795558111.4985137,
-  "seen:XsoBhf2ufR8fTyNSjqfU71DYGaE6Z3SUGAidpzriAA4": 1795558295.4690268,
-  "seen:55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump": 1795558295.4690268,
   "seen:Bfm5FXqVdMbTgWjYeEBKM9rq8AyHRGpPZTpDoJ6HFHew": 1795558479.1579196,
   "seen:2gdnxdyM1VnX3ZiNja1Tz1LjmGYqEPm1N11gNDubpump": 1795558479.1579196,
   "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795558479.1579196,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795558479.1579196
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795558479.1579196,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795558660.581259,
+  "seen:9qZfA8rQgLXRXThMU8MDUoQHykZeN6iQjrqrCtdHpump": 1795558660.581259,
+  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795558660.581259,
+  "seen:J1RnF3my1mndhxtdNmrc6xpgske8TXe425L54k51izEW": 1795558845.7325094,
+  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795558845.7325094,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795558845.7325094,
+  "seen:4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 1795558845.7325094,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795558845.7325094,
+  "seen:DCSX5MxQRAYiXEn1X9XuXiHmq87Tza4rJNNL9ETXM65i": 1795559028.8252187,
+  "seen:3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795559028.8252187,
+  "seen:DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": 1795559028.8252187,
+  "control:DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": 1795559028.9179394,
+  "seen:Cocrz7BR2xE2sgKn3VbmaTXH6HTVgCiVFWTVWmyTpump": 1795559215.9927447,
+  "seen:55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump": 1795559215.9927447,
+  "seen:7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": 1795559215.9927447,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795559215.9927447
  },
  "talks": {
   "2026-10-21": 109
@@ -133,23 +134,23 @@
  ],
  "last_review": 1795472356.234243,
  "news": {
-  "t": 1795556846.1017792,
+  "t": 1795557760.5981114,
   "crypto": [
+   "Europol follows $28.5M crypto trail in streaming piracy crackdown (0h ago)",
    "Utah moves to dismiss criminal charges against Kalshi after trading halt (1h ago)",
    "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares (2h ago)",
    "Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years (3h ago)",
-   "CFTC sets new prediction market rules as more firms seek US entry (3h ago)",
+   "CFTC sets new prediction market rules as more firms seek US entry (4h ago)",
    "BlackRock launches tokenized money market fund accepting stablecoins in Hong Kong (4h ago)",
    "Utah moves to drop criminal pursuit of Kalshi after the firm halted services there (4h ago)",
    "Bitcoin slides amid US tariff nerves as Anthropic falls below IPO price (5h ago)",
    "How South Korea\u2019s proposed 20% cap could change who runs Upbit (5h ago)",
-   "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story (6h ago)",
-   "Anchorage Digital to unveil new asset-management subsidiary (7h ago)"
+   "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story (6h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core PCE Price Index m/m in 15.7h, forecast 0.3%, previous 0.3%",
-   "USD Prelim GDP q/q in 15.7h, forecast 3.5%, previous 3.4%"
+   "USD Core PCE Price Index m/m in 15.5h, forecast 0.3%, previous 0.3%",
+   "USD Prelim GDP q/q in 15.5h, forecast 3.5%, previous 3.4%"
   ]
  },
  "spend": {
@@ -180,5 +181,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795556665.4083273
+ "last_macro_macro": 1795557945.7490919
 }
