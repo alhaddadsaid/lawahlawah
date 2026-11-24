@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -82159.60693768077,
+   "cash": -82091.60693768077,
    "open": [
     {
      "id": 3777,
@@ -51,21 +51,6 @@
      "size": 1329787.2340425532,
      "deadline": 1795507179.2104568,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3800,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "UCASH",
-     "mint": "7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump",
-     "side": 1,
-     "opened": 1795502902.852118,
-     "entry": 0.0001733,
-     "stop": 0.00013864000000000001,
-     "target": 0.00024262,
-     "size": 1154068.090017311,
-     "deadline": 1795510102.8521183,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,21 +59,23 @@
  "runs": 133,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3LCTvzwQJs8qhBrV1Mo42tp5c1H2uAszrEkJ5Vuepump": 1795503986.087235,
-  "seen:3VgcN1hEvaFLfCnqzQwcTpuKVSqSovZxwQGrXLPgpump": 1795503986.087235,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795503986.087235,
-  "seen:ntHUtpTDBYpDknJUHhLRPbdN8GrR3p5PCyvTWwwpump": 1795504166.356729,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795504166.356729,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795504166.356729,
-  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795504166.356729,
-  "seen:HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump": 1795504166.356729,
-  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795504166.356729,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795504166.356729,
-  "seen:GL4KFW76LkMbrPjrHUf2rrh49LP1Bzpvk4uZjcUjpump": 1795504351.333803,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795504351.333803,
   "seen:3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795504533.9840121,
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795504533.9840121,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795504714.2329116
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795504714.2329116,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795504894.2282624,
+  "seen:3VgcN1hEvaFLfCnqzQwcTpuKVSqSovZxwQGrXLPgpump": 1795504894.2282624,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795504894.2282624,
+  "seen:ntHUtpTDBYpDknJUHhLRPbdN8GrR3p5PCyvTWwwpump": 1795505082.4928408,
+  "seen:8s11PkgQt4ZzdZ7oo84hK5t9HG1EvdgAjcg4W7Lpump": 1795505082.4928408,
+  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795505082.4928408,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795505082.4928408,
+  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795505082.4928408,
+  "seen:HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump": 1795505082.4928408,
+  "seen:BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp": 1795505082.4928408,
+  "seen:FwpGBCzn6RvjBfTc41zsUDd6XyYirPxE1YDUrULv5FCF": 1795505266.4679918,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1795505266.4679918,
+  "seen:5St93zSNQvWxK22Cj5mJBXcjUNNB452h5uNmrttSpump": 1795505266.4679918,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795505266.4679918
  },
  "talks": {
   "2026-10-21": 109
@@ -129,17 +116,17 @@
  ],
  "last_review": 1795472356.234243,
  "news": {
-  "t": 1795503266.3677187,
+  "t": 1795504182.503899,
   "crypto": [
    "Here\u2019s what happened in crypto today (1h ago)",
    "Why 42 Macro says it\u2019s waiting to buy the Bitcoin dip (2h ago)",
    "Google wants to make you the star of your own AI slop movies (4h ago)",
-   "Ethereum Foundation doubles protocol security team ahead of overhaul (6h ago)",
-   "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes (6h ago)",
+   "Ethereum Foundation doubles protocol security team ahead of overhaul (7h ago)",
+   "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes (7h ago)",
    "CFTC staff say exchanges can count Bitcoin toward operating reserves (7h ago)",
    "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack (10h ago)",
-   "Kalshi secures temporary win in New York gambling law dispute (10h ago)",
-   "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn (11h ago)",
+   "Kalshi secures temporary win in New York gambling law dispute (11h ago)",
+   "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn (12h ago)",
    "Base makes quantum security a 2027 priority as regulators warn of risks (12h ago)"
   ],
   "macro": [],

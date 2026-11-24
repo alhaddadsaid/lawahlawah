@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-24 07:03 UTC. Runs so far: 133. Model: claude-haiku-5-5.
+Updated 2026-11-24 07:12 UTC. Runs so far: 133. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3700 | 31 | -92319.55 | -127900.99 |
+| control | meme | 3701 | 31 | -92251.55 | -127844.99 |
 | control | macro | 77 | 48 | 159.83 | -216.06 |
-| control | all | 3777 | 31 | -92159.72 | -128117.05 |
+| control | all | 3778 | 31 | -92091.72 | -128061.05 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,7 +20,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: GBPUSD long at 1.30353, stop 1.3019, target 1.30596, opened 2026-11-24 00:00 UTC
 - control: DIGS long at 0.0001882, stop 0.00015056, target 0.00026348, opened 2026-11-24 05:56 UTC
 - control: MCAT long at 0.0001504, stop 0.00012032, target 0.00021056, opened 2026-11-24 05:59 UTC
-- control: UCASH long at 0.0001733, stop 0.00013864, target 0.00024262, opened 2026-11-24 06:48 UTC
 
 ## Team
 
