@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -82164.40280466912,
+   "cash": -82096.40280466912,
    "open": [
     {
      "id": 3777,
@@ -21,21 +21,6 @@
      "size": 61623.97783561655,
      "deadline": 1795564855.034234,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 3795,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "UCASH",
-     "mint": "7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump",
-     "side": 1,
-     "opened": 1795499616.3293216,
-     "entry": 0.0001223,
-     "stop": 9.784e-05,
-     "target": 0.00017121999999999998,
-     "size": 1635322.976287817,
-     "deadline": 1795506816.329322,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 3796,
@@ -74,21 +59,21 @@
  "runs": 133,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:PmA2if8FR9htSqv456tcPmw6nVrWWhHJu3sn8Y1rTf3": 1795502160.1574821,
-  "seen:8mnJZnxaNLqVwkaWWGH7dKmoEzyYzGJx5pHaCp7spump": 1795502160.1574821,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795502343.523981,
-  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795502343.523981,
-  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795502343.523981,
-  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795502343.523981,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795502343.523981,
-  "seen:HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump": 1795502343.523981,
-  "seen:3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795502343.523981,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795502343.523981,
-  "control:5KDyvAjSU8HWofZfVnpkdY2N4UM1R2jxUkLupYmgpump": 1795502343.876272,
-  "seen:CdxaYiCC9oUu8w7rcCoQnbK4KuStKB87WatBRWeZ1E5R": 1795502527.231329,
   "seen:1Jv1rf5kbEY98hRepWgayjwmWqgkbE3zy9tEMuhpump": 1795502710.9615767,
   "seen:cZ9FE2JtR2XCmYu9hPpFpmxs6ciX6bpBmsVjMn2NUsb": 1795502890.5395553,
-  "seen:5KDyvAjSU8HWofZfVnpkdY2N4UM1R2jxUkLupYmgpump": 1795502890.5395553
+  "seen:5KDyvAjSU8HWofZfVnpkdY2N4UM1R2jxUkLupYmgpump": 1795502890.5395553,
+  "seen:FphbCgtea6LofrrSW7jLCgVaDH6ehMEZy9LqUNQFNNRP": 1795503076.6367528,
+  "seen:ntHUtpTDBYpDknJUHhLRPbdN8GrR3p5PCyvTWwwpump": 1795503076.6367528,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795503076.6367528,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795503076.6367528,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795503258.5618558,
+  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795503258.5618558,
+  "seen:7cFiqdT46zs7ooHWLFiLSaSQKLMibtokh9dBinsspump": 1795503258.5618558,
+  "seen:HKiMA2mKQHU2cjfZ4Kbmru5GBGCauSNqPtpu8cfmpump": 1795503258.5618558,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795503258.5618558,
+  "seen:3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795503258.5618558,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795503258.5618558,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795503438.5949054
  },
  "talks": {
   "2026-10-21": 109
@@ -129,15 +114,15 @@
  ],
  "last_review": 1795472356.234243,
  "news": {
-  "t": 1795501443.5349598,
+  "t": 1795502358.5727568,
   "crypto": [
-   "Here\u2019s what happened in crypto today (0h ago)",
-   "Why 42 Macro says it\u2019s waiting to buy the Bitcoin dip (1h ago)",
+   "Here\u2019s what happened in crypto today (1h ago)",
+   "Why 42 Macro says it\u2019s waiting to buy the Bitcoin dip (2h ago)",
    "Google wants to make you the star of your own AI slop movies (3h ago)",
    "Ethereum Foundation doubles protocol security team ahead of overhaul (6h ago)",
    "U.S. CFTC sets policies on event contract data, using crypto to check financial boxes (6h ago)",
    "CFTC staff say exchanges can count Bitcoin toward operating reserves (7h ago)",
-   "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack (9h ago)",
+   "US seeks to recover $1.1B in crypto stolen in North Korea-linked Binance hack (10h ago)",
    "Kalshi secures temporary win in New York gambling law dispute (10h ago)",
    "BTCS offloads $44M in ETH to reduce DeFi debt amid market downturn (11h ago)",
    "Base makes quantum security a 2027 priority as regulators warn of risks (11h ago)"
@@ -173,5 +158,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795500912.129607
+ "last_macro_macro": 1795502176.6473694
 }
