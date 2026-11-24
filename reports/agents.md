@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-24 19:49 UTC. Runs so far: 134. Model: claude-haiku-5-5.
+Updated 2026-11-24 19:57 UTC. Runs so far: 134. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,15 +9,14 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3728 | 31 | -93290.68 | -129134.42 |
+| control | meme | 3729 | 31 | -93326.31 | -129179.39 |
 | control | macro | 78 | 49 | 303.67 | -75.92 |
-| control | all | 3806 | 31 | -92987.01 | -129210.34 |
+| control | all | 3807 | 31 | -93022.64 | -129255.31 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: MOMO long at 9.846e-05, stop 7.8768e-05, target 0.000137844, opened 2026-11-24 17:53 UTC
 - control: DUVAL long at 0.0001371, stop 0.00010968, target 0.00019194, opened 2026-11-24 19:27 UTC
 
 ## Team
@@ -31,5 +30,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED Slingoor (stop) P&L $-54.48 normal, $-63.34 pessimistic
+- team: model call failed:  HTTP 401: invalid x-api-key
+- control: order DUVAL REJECTED by guardrails: DUVAL already open
 
