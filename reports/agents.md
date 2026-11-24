@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-24 08:13 UTC. Runs so far: 133. Model: claude-haiku-5-5.
+Updated 2026-11-24 08:22 UTC. Runs so far: 133. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3703 | 31 | -92243.83 | -127857.98 |
+| control | meme | 3705 | 31 | -92237.62 | -127872.45 |
 | control | macro | 77 | 48 | 159.83 | -216.06 |
-| control | all | 3780 | 31 | -92084.0 | -128074.04 |
+| control | all | 3782 | 31 | -92077.79 | -128088.51 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: Singularity long at 0.0002147, stop 0.00017176, target 0.00030058, opened 2026-11-24 07:21 UTC
 - control: CLAUDIO long at 6.667e-05, stop 5.3336e-05, target 9.3338e-05, opened 2026-11-24 07:30 UTC
 - control: DIGS long at 0.0002115, stop 0.0001692, target 0.0002961, opened 2026-11-24 07:58 UTC
-- control: Satoshi long at 7.808e-05, stop 6.2464e-05, target 0.000109312, opened 2026-11-24 08:04 UTC
 
 ## Team
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order Singularity REJECTED by guardrails: desk already has the maximum open positions
+- control: CLOSED JIMMY (stop) P&L $-61.79 normal, $-70.47 pessimistic
 
