@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-24 20:55 UTC. Runs so far: 134. Model: claude-haiku-5-5.
+Updated 2026-11-24 21:11 UTC. Runs so far: 134. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3732 | 31 | -93536.08 | -129414.56 |
+| control | meme | 3733 | 31 | -93468.08 | -129358.56 |
 | control | macro | 78 | 49 | 303.67 | -75.92 |
-| control | all | 3810 | 31 | -93232.41 | -129490.48 |
+| control | all | 3811 | 31 | -93164.41 | -129434.48 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: Memeployed long at 0.0001144, stop 9.152e-05, target 0.00016016, opened 2026-11-24 20:07 UTC
-- control: DUVAL long at 0.0001094, stop 8.752e-05, target 0.00015316, opened 2026-11-24 20:19 UTC
+- control: DUVAL long at 0.0001587, stop 0.00012696, target 0.00022218, opened 2026-11-24 21:11 UTC
 
 ## Team
 
@@ -31,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order DUVAL REJECTED by guardrails: DUVAL already open
+- 2026-11-24 21:11 UTC control: OPENED DUVAL long at 0.0001587 (stop 0.00012696, target 0.00022218) - control: frozen v3 rules
 
