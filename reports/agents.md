@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-24 00:55 UTC. Runs so far: 132. Model: claude-haiku-5-5.
+Updated 2026-11-24 01:13 UTC. Runs so far: 132. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3680 | 31 | -92011.8 | -127395.99 |
+| control | meme | 3682 | 31 | -92125.9 | -127527.68 |
 | control | macro | 76 | 49 | 264.62 | -108.03 |
-| control | all | 3756 | 31 | -91747.18 | -127504.02 |
+| control | all | 3758 | 31 | -91861.28 | -127635.71 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: MOMO long at 0.0002508, stop 0.00020064, target 0.00035112, opened 2026-11-23 23:14 UTC
 - control: GBPUSD long at 1.30353, stop 1.3019, target 1.30596, opened 2026-11-24 00:00 UTC
 - control: CYBERLEEK long at 0.001241, stop 0.0009928, target 0.0017374, opened 2026-11-24 00:12 UTC
-- control: TAKEOFF long at 0.0003179, stop 0.00025432, target 0.00044506, opened 2026-11-24 00:55 UTC
+- control: MCAT long at 0.0001617, stop 0.00012936, target 0.00022638, opened 2026-11-24 01:13 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-24 00:55 UTC control: OPENED TAKEOFF long at 0.0003179 (stop 0.00025432, target 0.00044506) - control: frozen v3 rules
+- 2026-11-24 01:13 UTC control: OPENED MCAT long at 0.0001617 (stop 0.00012936, target 0.00022638) - control: frozen v3 rules
 
