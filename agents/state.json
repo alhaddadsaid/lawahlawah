@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -83022.53571651565,
+   "cash": -83072.37955470943,
    "open": [
     {
      "id": 3827,
@@ -21,30 +21,52 @@
      "size": 1458789.2049598834,
      "deadline": 1795555647.8211071,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3829,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Memeployed",
+     "mint": "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn",
+     "side": 1,
+     "opened": 1795550822.1149404,
+     "entry": 0.0001144,
+     "stop": 9.152e-05,
+     "target": 0.00016015999999999998,
+     "size": 1748251.7482517483,
+     "deadline": 1795558022.1149406,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3828,
+ "next_id": 3830,
  "runs": 134,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GzDqH7FnMqtuMupdc2ZQF6KX2yk9A4CbUBzs2Kaspump": 1795550444.7139318,
-  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795550444.7139318,
-  "seen:CSocnzcRpgSCr1naKcNTieWZUxb6rABe45j844m7pump": 1795550444.7139318,
-  "seen:MukLDtJ8Cx9DxLbeyLRSWPSposTMWuwHANbuaudpump": 1795550444.7139318,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795550444.7139318,
-  "seen:XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo": 1795550623.443544,
-  "seen:55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump": 1795550623.443544,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795550623.443544,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795550623.443544,
-  "seen:7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": 1795550623.443544,
-  "seen:3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795550623.443544,
-  "seen:8K8gZvKDHpkxAGfRJW8jqAXwtXhNqhs2tF9GqoGHKyF6": 1795550808.305325,
-  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795550808.305325,
   "seen:6GLetugFEmy7P7SmLtg3zyZdz6rWCQ8gHPbPYZs9pump": 1795550983.021052,
   "seen:zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": 1795551172.326795,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795551172.326795
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795551172.326795,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795551353.1081176,
+  "seen:GzDqH7FnMqtuMupdc2ZQF6KX2yk9A4CbUBzs2Kaspump": 1795551353.1081176,
+  "seen:7R4MP6VX7n3RMNhL9zsk5Zu5ibZvwq8npUYnRq7epump": 1795551353.1081176,
+  "seen:5LDowscYVD3a6ZS4m8gCqG5nU16eLTwRXhciFi1bpump": 1795551353.1081176,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795551353.1081176,
+  "seen:AV2CkwKbj1Me7HaFMB4BekLVm9qzhyuxKeqRLaj4pump": 1795551353.1081176,
+  "seen:55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump": 1795551537.7424905,
+  "seen:6jmhyHEy1rDyYHyRkr1rbVVQnckKpMYWh3zoX7zLpump": 1795551537.7424905,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795551537.7424905,
+  "seen:3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795551537.7424905,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795551537.7424905,
+  "seen:7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": 1795551537.7424905,
+  "seen:6FhVPctYg363pQbs4iSvqyHe2cJzfsvFD96gePy6pump": 1795551537.7424905,
+  "control:6jmhyHEy1rDyYHyRkr1rbVVQnckKpMYWh3zoX7zLpump": 1795551537.8265116,
+  "seen:39REpAu9ipUthsruA9GRbXkscP9W9Cuqk7geqxoicQsf": 1795551722.0225568,
+  "seen:ASCz2yyX66U4TpK5pxPh9LqUupBpovH33HCNo9kbpump": 1795551722.0225568,
+  "seen:XsgSaSvNSqLTtFuyWPBhK9196Xb9Bbdyjj4fH3cPJGo": 1795551722.0225568,
+  "seen:4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn": 1795551722.0225568,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795551722.0225568,
+  "control:4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn": 1795551722.1149442
  },
  "talks": {
   "2026-10-21": 109
@@ -85,9 +107,10 @@
  ],
  "last_review": 1795472356.234243,
  "news": {
-  "t": 1795549544.7301054,
+  "t": 1795550453.1244793,
   "crypto": [
-   "Coldcard reveals how security reviews missed Bitcoin wallet flaw for over 5 years (1h ago)",
+   "Bitcoin sell-off driven by weak demand, forced liquidations: 21Shares (0h ago)",
+   "Coldcard reveals how Bitcoin wallet flaw went undetected for over 5 years (1h ago)",
    "CFTC sets new prediction market rules as more firms seek US entry (1h ago)",
    "BlackRock launches tokenized money market fund accepting stablecoins in Hong Kong (2h ago)",
    "Utah moves to drop criminal pursuit of Kalshi after the firm halted services there (2h ago)",
@@ -95,13 +118,12 @@
    "How South Korea\u2019s proposed 20% cap could change who runs Upbit (3h ago)",
    "'AI trade never died': Traders see room for market recovery, but bitcoin's participation is another story (4h ago)",
    "Anchorage Digital to unveil new asset-management subsidiary (5h ago)",
-   "South Korea proposes ending 2017 ICO ban to boost jobs and onshore crypto investment (5h ago)",
-   "USDT buyers face 22% VAT when Moscow Exchange opens crypto trading (6h ago)"
+   "South Korea proposes ending 2017 ICO ban to boost jobs and onshore crypto investment (5h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core PCE Price Index m/m in 17.7h, forecast 0.3%, previous 0.3%",
-   "USD Prelim GDP q/q in 17.7h, forecast 3.5%, previous 3.4%"
+   "USD Core PCE Price Index m/m in 17.5h, forecast 0.3%, previous 0.3%",
+   "USD Prelim GDP q/q in 17.5h, forecast 3.5%, previous 3.4%"
   ]
  },
  "spend": {
