@@ -32,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-25 18:19 UTC control: OPENED RECORDEGG long at 0.000103 (stop 8.24e-05, target 0.0001442) - control: frozen v3 rules
+## Run ended 2026-11-25 18:19 UTC
 
