@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-24 23:13 UTC. Runs so far: 134. Model: claude-haiku-5-5.
+Updated 2026-11-25 02:15 UTC. Runs so far: 135. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,14 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3740 | 31 | -93552.2 | -129512.32 |
+| control | meme | 3745 | 31 | -93792.68 | -129797.92 |
 | control | macro | 78 | 49 | 303.67 | -75.92 |
-| control | all | 3818 | 31 | -93248.53 | -129588.24 |
+| control | all | 3823 | 31 | -93489.01 | -129873.84 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: MCAT long at 0.0001417, stop 0.00011336, target 0.00019838, opened 2026-11-24 21:17 UTC
-- control: jingyu long at 0.0001063, stop 8.504e-05, target 0.00014882, opened 2026-11-24 22:08 UTC
-- control: Memeployed long at 7.89e-05, stop 6.312e-05, target 0.00011046, opened 2026-11-24 23:00 UTC
-- control: CHRISTMAS long at 8.605e-05, stop 6.884e-05, target 0.00012047, opened 2026-11-24 23:06 UTC
-- control: Singularity long at 0.0001802, stop 0.00014416, target 0.00025228, opened 2026-11-24 23:12 UTC
 
 ## Team
 
@@ -34,5 +29,11 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-## Run ended 2026-11-24 23:13 UTC
+## Run started 2026-11-25 02:14 UTC
+- control: CLOSED MCAT (stop, while away) P&L $-75.61 normal, $-83.93 pessimistic
+- control: CLOSED jingyu (time, while away) P&L $-35.48 normal, $-44.83 pessimistic
+- control: CLOSED Memeployed (time, while away) P&L $-31.01 normal, $-40.47 pessimistic
+- control: CLOSED CHRISTMAS (time, while away) P&L $-33.84 normal, $-43.23 pessimistic
+- control: CLOSED Singularity (stop, while away) P&L $-64.54 normal, $-73.14 pessimistic
+- team: model call failed:  HTTP 401: invalid x-api-key
 
