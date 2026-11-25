@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-25 18:19 UTC. Runs so far: 136. Model: claude-haiku-5-5.
+Updated 2026-11-25 22:32 UTC. Runs so far: 137. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3782 | 31 | -94949.18 | -131304.24 |
+| control | meme | 3786 | 31 | -95453.46 | -131836.63 |
 | control | macro | 80 | 49 | 295.36 | -95.35 |
-| control | all | 3862 | 31 | -94653.82 | -131399.59 |
+| control | all | 3866 | 31 | -95158.1 | -131931.98 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: PERRO long at 0.0001623, stop 0.00012984, target 0.00022722, opened 2026-11-25 17:42 UTC
-- control: CI long at 0.000122, stop 9.76e-05, target 0.0001708, opened 2026-11-25 18:16 UTC
-- control: RECORDEGG long at 0.000103, stop 8.24e-05, target 0.0001442, opened 2026-11-25 18:19 UTC
+- control: 4CHAN long at 0.0001688, stop 0.00013504, target 0.00023632, opened 2026-11-25 22:23 UTC
+- control: DIGS long at 0.0002713, stop 0.00021704, target 0.00037982, opened 2026-11-25 22:29 UTC
+- control: PERRO long at 6.084e-05, stop 4.8672e-05, target 8.5176e-05, opened 2026-11-25 22:32 UTC
 
 ## Team
 
@@ -32,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-## Run ended 2026-11-25 18:19 UTC
+- 2026-11-25 22:32 UTC control: OPENED PERRO long at 6.084e-05 (stop 4.8672e-05, target 8.5176e-05) - control: frozen v3 rules
 
