@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -85320.51285161194,
+   "cash": -85252.51285161194,
    "open": [
-    {
-     "id": 3885,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "4CHAN",
-     "mint": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
-     "side": 1,
-     "opened": 1795645426.3686917,
-     "entry": 0.0001688,
-     "stop": 0.00013504,
-     "target": 0.00023632,
-     "size": 1184834.1232227487,
-     "deadline": 1795652626.368692,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3887,
      "desk": "control",
@@ -44,23 +29,21 @@
  "runs": 137,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795649070.933905,
-  "seen:5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795649070.933905,
-  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795649070.933905,
-  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795649070.933905,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795649070.933905,
-  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795649070.933905,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795649254.8813415,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795649254.8813415,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795649254.8813415,
-  "seen:BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6": 1795649435.5876884,
-  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795649435.5876884,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795649435.5876884,
   "seen:9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump": 1795649618.6822991,
   "seen:DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": 1795649618.6822991,
   "seen:HWqqNLpcHvxJpNy43FJwnS1xDNsvobYtpLK8ostWhQwM": 1795649802.2459,
   "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795649802.2459,
-  "control:BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6": 1795649802.2996042
+  "control:BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6": 1795649802.2996042,
+  "seen:2ndz2hhsxDFgU1sQHi8Qjro7KRrTPgen1NJdUtNDpump": 1795649983.7634845,
+  "seen:6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795649983.7634845,
+  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795649983.7634845,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795649983.7634845,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795649983.7634845,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795650168.1640372,
+  "seen:5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795650168.1640372,
+  "seen:BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6": 1795650350.2239943,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795650350.2239943,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795650350.2239943
  },
  "talks": {
   "2026-10-21": 109
@@ -101,15 +84,15 @@
  ],
  "last_review": 1795645425.6072507,
  "news": {
-  "t": 1795648170.9481354,
+  "t": 1795649083.7777157,
   "crypto": [
    "Here\u2019s what happened in crypto today (1h ago)",
-   "Switzerland clears 57 jurisdictions for crypto tax data sharing (1h ago)",
+   "Switzerland clears 57 jurisdictions for crypto tax data sharing (2h ago)",
    "Braiins warns of Bitcoin mining attacks affecting over 1,000 sites (2h ago)",
    "Why ECB collateral eligibility could boost demand for tokenized bonds (2h ago)",
    "Ethereum Foundation backs Keccak-256 to counter quantum, AI threats (4h ago)",
    "French Senate blocks new crypto tax and wallet list critics called a kidnapping risk (5h ago)",
-   "US inflation rises to 3.8% ahead of December Fed meeting, clouding crypto outlook (5h ago)",
+   "US inflation rises to 3.8% ahead of December Fed meeting, clouding crypto outlook (6h ago)",
    "'This time actually seems different': Crypto veterans brace for more pain as bitcoin tumbles (6h ago)",
    "Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4% (6h ago)",
    "Nvidia agrees to $290M settlement over crypto mining revenue disclosures (6h ago)"
@@ -145,5 +128,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795647988.653488
+ "last_macro_macro": 1795649268.1785164
 }
