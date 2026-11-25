@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -84284.36581908018,
+   "cash": -84340.07393523803,
    "open": [
     {
      "id": 3870,
@@ -38,21 +38,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 3872,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DUVAL",
-     "mint": "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump",
-     "side": 1,
-     "opened": 1795612474.6836634,
-     "entry": 6.715e-05,
-     "stop": 5.372000000000001e-05,
-     "target": 9.401000000000002e-05,
-     "size": 2978406.552494415,
-     "deadline": 1795619674.6836636,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3873,
      "desk": "control",
      "market": "meme",
@@ -74,23 +59,26 @@
  "runs": 136,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:38EDdUxnJvrnDsJyB45E2W3pK26qLEjmWTvsEmMuG9ZR": 1795614287.3681414,
-  "seen:D7MyAD7k3AqJpg4uxjUcmL51EDHrEsJxkjUynsxcpump": 1795614287.3681414,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795614287.3681414,
-  "seen:5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795614470.042047,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795614470.042047,
-  "seen:DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": 1795614470.042047,
-  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795614655.8910828,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795614655.8910828,
-  "seen:2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": 1795614655.8910828,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795614655.8910828,
-  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795614655.8910828,
-  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795614655.8910828,
-  "seen:4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump": 1795614655.8910828,
-  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795614834.1457431,
   "seen:HEvDdGhrvH2AR6MxUVNVLMmGTRpb1ZdBWVreeFm4rNrw": 1795615019.6202023,
   "seen:BQYzmKyoSzdgeaeRiRwKJdWVaiLjpngUH6YT49PNNhsS": 1795615019.6202023,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795615019.6202023
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795615019.6202023,
+  "seen:38EDdUxnJvrnDsJyB45E2W3pK26qLEjmWTvsEmMuG9ZR": 1795615206.5739672,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795615206.5739672,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795615206.5739672,
+  "seen:5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795615385.6773014,
+  "seen:DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": 1795615385.6773014,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795615385.6773014,
+  "seen:7FyBxp3ewa6zW8ppjcxQtbvDCkPXv9eiJz6JzNibpump": 1795615385.6773014,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795615385.6773014,
+  "seen:3wrZTXRbMk3pCXmmNDWqkaowSsxGzhTnmhPTSXYApump": 1795615568.8549244,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795615568.8549244,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795615568.8549244,
+  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795615568.8549244,
+  "seen:2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": 1795615568.8549244,
+  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795615568.8549244,
+  "seen:4nSRQK6B9x3BdssQyVf8ZEgkDdpTJdqYn8xPvFdQmeme": 1795615752.0523477,
+  "seen:4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump": 1795615752.0523477,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795615752.0523477
  },
  "talks": {
   "2026-10-21": 109
@@ -131,23 +119,23 @@
  ],
  "last_review": 1795558865.5950997,
  "news": {
-  "t": 1795613755.908414,
+  "t": 1795614668.8733642,
   "crypto": [
    "Here\u2019s what happened in crypto today (0h ago)",
    "Ukraine passes bill to legalize crypto and tax profits at 23% (1h ago)",
-   "Fed\u2019s preferred inflation gauge lands with a December rate increase already priced in (1h ago)",
+   "Fed\u2019s preferred inflation gauge lands with a December rate increase already priced in (2h ago)",
    "Ether, DeFi fall twice as hard as bitcoin as equities selloff resumes (2h ago)",
    "Italy\u2019s UniCredit launches six-year bitcoin certificate with gains capped at 65% (2h ago)",
    "Japan\u2019s SBI, SMFG launch Solana venture for stablecoins, tokenization (2h ago)",
    "Hong Kong launches tokenized debt platform with 24-hour settlement (2h ago)",
    "Gold's haven status has lost its edge over bitcoin, and the Fed's to blame (2h ago)",
-   "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout (2h ago)",
-   "Bitcoin price may fall below $53K if bear-market history repeats (2h ago)"
+   "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout (3h ago)",
+   "Bitcoin price may fall below $53K if bear-market history repeats (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core PCE Price Index m/m was 0.1h, forecast 0.3%, previous 0.3%",
-   "USD Prelim GDP q/q was 0.1h, forecast 3.5%, previous 3.4%"
+   "USD Core PCE Price Index m/m was 0.4h, forecast 0.3%, previous 0.3%",
+   "USD Prelim GDP q/q was 0.4h, forecast 3.5%, previous 3.4%"
   ]
  },
  "spend": {
