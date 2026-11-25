@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -84069.10043385695,
+   "cash": -84218.69294004976,
    "open": [
-    {
-     "id": 3868,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "EURUSD",
-     "mint": "",
-     "side": 1,
-     "opened": 1795610094.8578072,
-     "entry": 1.095170259475708,
-     "stop": 1.0943225877625602,
-     "target": 1.0964417670454298,
-     "size": 117970.19818987694,
-     "deadline": 1795696494.8578074,
-     "thesis": "control: random direction"
-    },
     {
      "id": 3869,
      "desk": "control",
@@ -66,20 +51,29 @@
      "size": 87152.42851735899,
      "deadline": 1795698139.458587,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 3872,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "DUVAL",
+     "mint": "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump",
+     "side": 1,
+     "opened": 1795612474.6836634,
+     "entry": 6.715e-05,
+     "stop": 5.372000000000001e-05,
+     "target": 9.401000000000002e-05,
+     "size": 2978406.552494415,
+     "deadline": 1795619674.6836636,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3872,
+ "next_id": 3873,
  "runs": 136,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795611897.4749422,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795611897.4749422,
-  "seen:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795611897.4749422,
-  "control:BzPyyYCTmQNq2BcfQ4ANAvCYk54rnmQEXMFvFT8RhWMi": 1795611898.0479586,
-  "seen:8RVBk8vxLiUHueLUW1f4izFVqN3nWippLhkohKg6EGkS": 1795612082.2284691,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795612445.7824068,
   "seen:5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795612639.2893603,
   "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795612639.2893603,
   "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795612639.2893603,
@@ -88,7 +82,17 @@
   "seen:4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump": 1795612639.2893603,
   "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795612639.2893603,
   "control:4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump": 1795612639.3437793,
-  "control:GBPUSD": 1795612639.458591
+  "control:GBPUSD": 1795612639.458591,
+  "seen:7hQ6Dns8zNmquxTb8Vm6bipRQ55nBB2wkuKsM5vPpump": 1795612824.5436904,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795612824.5436904,
+  "seen:2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": 1795612824.5436904,
+  "seen:BsbsB3WLq7vbY5En3MBCAsTrcwaCxNKY2Mp5pGuLpump": 1795612824.5436904,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795612824.5436904,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795613008.04262,
+  "seen:GNihDAwwRf83884tCgZ1Z9TGFDu4GpgfZPBn4NQagf5p": 1795613191.8491852,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795613374.6331658,
+  "seen:7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": 1795613374.6331658,
+  "control:7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump": 1795613374.6836689
  },
  "talks": {
   "2026-10-21": 109
@@ -129,23 +133,23 @@
  ],
  "last_review": 1795558865.5950997,
  "news": {
-  "t": 1795610997.4938753,
+  "t": 1795611924.5613093,
   "crypto": [
+   "Ukraine passes bill to legalize crypto and tax profits at 23% (0h ago)",
    "Fed\u2019s preferred inflation gauge lands with a December rate increase already priced in (1h ago)",
    "Ether, DeFi fall twice as hard as bitcoin as equities selloff resumes (1h ago)",
    "Italy\u2019s UniCredit launches six-year bitcoin certificate with gains capped at 65% (1h ago)",
    "Japan\u2019s SBI, SMFG launch Solana venture for stablecoins, tokenization (1h ago)",
-   "Hong Kong launches tokenized debt platform with 24-hour settlement (1h ago)",
-   "Gold's haven status has lost its edge over bitcoin, and the Fed's to blame (1h ago)",
+   "Hong Kong launches tokenized debt platform with 24-hour settlement (2h ago)",
+   "Gold's haven status has lost its edge over bitcoin, and the Fed's to blame (2h ago)",
    "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout (2h ago)",
    "Bitcoin price may fall below $53K if bear-market history repeats (2h ago)",
-   "EU proposes $54.7 billion fund for AI, quantum startups alongside post-quantum security push (2h ago)",
-   "HYPE drops 8% as Trump bump gives way to 40% slide from peak (2h ago)"
+   "EU proposes $54.7 billion fund for AI, quantum startups alongside post-quantum security push (2h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core PCE Price Index m/m in 0.7h, forecast 0.3%, previous 0.3%",
-   "USD Prelim GDP q/q in 0.7h, forecast 3.5%, previous 3.4%"
+   "USD Core PCE Price Index m/m in 0.4h, forecast 0.3%, previous 0.3%",
+   "USD Prelim GDP q/q in 0.4h, forecast 3.5%, previous 3.4%"
   ]
  },
  "spend": {
