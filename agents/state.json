@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -84272.07393523803,
+   "cash": -84321.36498001416,
    "open": [
     {
      "id": 3871,
@@ -21,21 +21,6 @@
      "size": 87152.42851735899,
      "deadline": 1795698139.458587,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 3873,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "JaoJiu",
-     "mint": "2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy",
-     "side": 1,
-     "opened": 1795612656.864979,
-     "entry": 0.000134,
-     "stop": 0.0001072,
-     "target": 0.0001876,
-     "size": 1492537.3134328357,
-     "deadline": 1795619856.8649793,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -44,21 +29,26 @@
  "runs": 136,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3wrZTXRbMk3pCXmmNDWqkaowSsxGzhTnmhPTSXYApump": 1795615568.8549244,
-  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795615568.8549244,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795615568.8549244,
-  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795615568.8549244,
-  "seen:2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": 1795615568.8549244,
-  "seen:CUg7AzWL5p8imZVqqdjEPgRhUsXAkBMW5JxkSJ9fpump": 1795615568.8549244,
-  "seen:4nSRQK6B9x3BdssQyVf8ZEgkDdpTJdqYn8xPvFdQmeme": 1795615752.0523477,
-  "seen:4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump": 1795615752.0523477,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795615752.0523477,
   "seen:8CYEZN6WpLg8isWsk1GUwm1gsNupNoYXbWbd4JPmx3j3": 1795616118.731427,
   "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795616118.731427,
   "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795616118.731427,
   "seen:5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795616297.4163296,
   "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795616297.4163296,
-  "seen:DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": 1795616297.4163296
+  "seen:DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": 1795616297.4163296,
+  "seen:3wrZTXRbMk3pCXmmNDWqkaowSsxGzhTnmhPTSXYApump": 1795616481.5780175,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795616481.5780175,
+  "seen:7FyBxp3ewa6zW8ppjcxQtbvDCkPXv9eiJz6JzNibpump": 1795616481.5780175,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795616481.5780175,
+  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795616481.5780175,
+  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795616481.5780175,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795616481.5780175,
+  "seen:Hvi9xTj6vWCypxEZh3mCbiS9Ywshex8LyYAdBt7Epump": 1795616668.9036014,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795616668.9036014,
+  "seen:4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump": 1795616668.9036014,
+  "seen:2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": 1795616668.9036014,
+  "seen:npz2FhoufQ7pKqhGpaipYWacrAkidyW2yDpVWSvpump": 1795616854.8037865,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795616854.8037865,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795616854.8037865
  },
  "talks": {
   "2026-10-21": 109
@@ -99,23 +89,23 @@
  ],
  "last_review": 1795558865.5950997,
  "news": {
-  "t": 1795614668.8733642,
+  "t": 1795615581.5959454,
   "crypto": [
-   "Here\u2019s what happened in crypto today (0h ago)",
+   "Here\u2019s what happened in crypto today (1h ago)",
    "Ukraine passes bill to legalize crypto and tax profits at 23% (1h ago)",
    "Fed\u2019s preferred inflation gauge lands with a December rate increase already priced in (2h ago)",
    "Ether, DeFi fall twice as hard as bitcoin as equities selloff resumes (2h ago)",
    "Italy\u2019s UniCredit launches six-year bitcoin certificate with gains capped at 65% (2h ago)",
    "Japan\u2019s SBI, SMFG launch Solana venture for stablecoins, tokenization (2h ago)",
-   "Hong Kong launches tokenized debt platform with 24-hour settlement (2h ago)",
-   "Gold's haven status has lost its edge over bitcoin, and the Fed's to blame (2h ago)",
+   "Hong Kong launches tokenized debt platform with 24-hour settlement (3h ago)",
+   "Gold's haven status has lost its edge over bitcoin, and the Fed's to blame (3h ago)",
    "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout (3h ago)",
    "Bitcoin price may fall below $53K if bear-market history repeats (3h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core PCE Price Index m/m was 0.4h, forecast 0.3%, previous 0.3%",
-   "USD Prelim GDP q/q was 0.4h, forecast 3.5%, previous 3.4%"
+   "USD Core PCE Price Index m/m was 0.6h, forecast 0.3%, previous 0.3%",
+   "USD Prelim GDP q/q was 0.6h, forecast 3.5%, previous 3.4%"
   ]
  },
  "spend": {

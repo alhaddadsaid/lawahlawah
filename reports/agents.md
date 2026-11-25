@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-25 14:03 UTC. Runs so far: 136. Model: claude-haiku-5-5.
+Updated 2026-11-25 14:12 UTC. Runs so far: 136. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3773 | 31 | -94426.25 | -130702.41 |
+| control | meme | 3774 | 31 | -94475.54 | -130760.69 |
 | control | macro | 79 | 48 | 154.08 | -231.41 |
-| control | all | 3852 | 31 | -94272.17 | -130933.82 |
+| control | all | 3853 | 31 | -94321.46 | -130992.1 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GBPUSD short at 1.3069, stop 1.30805, target 1.30518, opened 2026-11-25 13:02 UTC
-- control: JaoJiu long at 0.000134, stop 0.0001072, target 0.0001876, opened 2026-11-25 13:17 UTC
 
 ## Team
 
@@ -31,5 +30,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order JaoJiu REJECTED by guardrails: JaoJiu already open
+- control: CLOSED JaoJiu (stop) P&L $-49.29 normal, $-58.28 pessimistic
 
