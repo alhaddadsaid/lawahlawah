@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-25 02:54 UTC. Runs so far: 135. Model: claude-haiku-5-5.
+Updated 2026-11-25 03:00 UTC. Runs so far: 135. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3745 | 31 | -93792.68 | -129797.92 |
+| control | meme | 3746 | 31 | -93871.81 | -129885.27 |
 | control | macro | 78 | 49 | 303.67 | -75.92 |
-| control | all | 3823 | 31 | -93489.01 | -129873.84 |
+| control | all | 3824 | 31 | -93568.14 | -129961.19 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: DONJENSEN long at 0.000108, stop 8.64e-05, target 0.0001512, opened 2026-11-25 02:27 UTC
-- control: TOUCAN long at 7.481e-05, stop 5.9848e-05, target 0.000104734, opened 2026-11-25 02:39 UTC
 
 ## Team
 
@@ -31,5 +30,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order TOUCAN REJECTED by guardrails: TOUCAN already open
+- control: CLOSED TOUCAN (stop) P&L $-79.13 normal, $-87.35 pessimistic
 
