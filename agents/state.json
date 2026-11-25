@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -83948.35714240091,
+   "cash": -83963.62786793848,
    "open": [
-    {
-     "id": 3846,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Holders",
-     "mint": "55RwtHpoNB81SgfiNvogeZTMfik2SfMGa5FaxKcXpump",
-     "side": 1,
-     "opened": 1795578205.217305,
-     "entry": 5.551e-05,
-     "stop": 4.4408000000000006e-05,
-     "target": 7.7714e-05,
-     "size": 3602954.4226265536,
-     "deadline": 1795585405.2173052,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3849,
      "desk": "control",
@@ -70,28 +55,29 @@
    ]
   }
  },
- "next_id": 3855,
+ "next_id": 3856,
  "runs": 135,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795584951.1203349,
-  "seen:DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": 1795584951.1203349,
-  "seen:RDDTGbhHwVXfyCvQMXzzowKjf5qrYBZAnehoXW83ooh": 1795584951.1203349,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795584951.1203349,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795584951.1203349,
-  "seen:4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump": 1795584951.1203349,
-  "seen:BNidyMmNZgae6FtjGgHzr7UJN6F6x612u65XgCbwjk57": 1795585135.1883662,
-  "seen:4UMErmfmKzDCVmHrwBUbnDnbQnVKVYAcT7X5AdTkpump": 1795585135.1883662,
-  "seen:CkwFsrupdFHzo5kYk8b5W47CVx1v5ymzeu6BBoDjpump": 1795585135.1883662,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795585135.1883662,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795585135.1883662,
-  "control:CkwFsrupdFHzo5kYk8b5W47CVx1v5ymzeu6BBoDjpump": 1795585135.2607696,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795585319.2979052,
-  "seen:GisWWjhwrSud4aFGSHvTMt85Ky14sY7LeBFCpfoFpump": 1795585319.2979052,
   "seen:E35iEA2yLLHc1tjm6et1Z3YuH8DhxJYWtWezPHgSpump": 1795585499.8365726,
   "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795585499.8365726,
   "seen:3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795585683.2305987,
-  "seen:DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": 1795585683.2305987
+  "seen:DUZrwdjEthcJ99ZiRXr31UuqTohoTg7VjTEyfGdBpump": 1795585683.2305987,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795585863.7696269,
+  "seen:DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": 1795585863.7696269,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795585863.7696269,
+  "seen:4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump": 1795585863.7696269,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795585863.7696269,
+  "seen:CkwFsrupdFHzo5kYk8b5W47CVx1v5ymzeu6BBoDjpump": 1795586052.747554,
+  "seen:4UMErmfmKzDCVmHrwBUbnDnbQnVKVYAcT7X5AdTkpump": 1795586052.747554,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795586052.747554,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795586052.747554,
+  "seen:4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn": 1795586052.747554,
+  "control:CkwFsrupdFHzo5kYk8b5W47CVx1v5ymzeu6BBoDjpump": 1795586052.8122559,
+  "seen:Ce2gx9KGXJ6C9Mp5b5x1sn9Mg87JwEbrQby4Zqo3pump": 1795586231.523705,
+  "seen:CzLSujWBLFsSjncfkh59rUFqvafWcY5tzedWJSuypump": 1795586231.523705,
+  "seen:4npJ3avxnGhCzKbWQpLrQXAHsjWzKr4JqBsbu5Fspump": 1795586231.523705,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795586231.523705
  },
  "talks": {
   "2026-10-21": 109
@@ -132,9 +118,9 @@
  ],
  "last_review": 1795558865.5950997,
  "news": {
-  "t": 1795584051.136592,
+  "t": 1795584963.7926111,
   "crypto": [
-   "Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive (0h ago)",
+   "Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive (1h ago)",
    "A year after buying bitcoin, Czech central bank won't say what it's worth (1h ago)",
    "Trump willing to pardon Jensen Huang, says it won\u2019t be necessary (1h ago)",
    "Trump says he's willing to give Nvidia's Huang a pardon, doesn't think he needs one (2h ago)",
@@ -147,8 +133,8 @@
   ],
   "macro": [],
   "calendar": [
-   "USD Core PCE Price Index m/m in 8.2h, forecast 0.3%, previous 0.3%",
-   "USD Prelim GDP q/q in 8.2h, forecast 3.5%, previous 3.4%"
+   "USD Core PCE Price Index m/m in 7.9h, forecast 0.3%, previous 0.3%",
+   "USD Prelim GDP q/q in 7.9h, forecast 3.5%, previous 3.4%"
   ]
  },
  "spend": {
