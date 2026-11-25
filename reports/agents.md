@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-25 07:59 UTC. Runs so far: 135. Model: claude-haiku-5-5.
+Updated 2026-11-25 12:34 UTC. Runs so far: 136. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3766 | 31 | -93995.61 | -130211.0 |
+| control | meme | 3769 | 31 | -94312.41 | -130550.45 |
 | control | macro | 78 | 49 | 303.67 | -75.92 |
-| control | all | 3844 | 31 | -93691.94 | -130286.92 |
+| control | all | 3847 | 31 | -94008.74 | -130626.37 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: DUVAL long at 0.0001134, stop 9.072e-05, target 0.00015876, opened 2026-11-25 06:46 UTC
-- control: Memeployed long at 5.891e-05, stop 4.7128e-05, target 8.2474e-05, opened 2026-11-25 07:28 UTC
-- control: CHUCK long at 0.0004306, stop 0.00034448, target 0.00060284, opened 2026-11-25 07:44 UTC
+- control: JaoJiu long at 0.0001104, stop 8.832e-05, target 0.00015456, opened 2026-11-25 12:34 UTC
+- control: EURUSD long at 1.09517, stop 1.09432, target 1.09644, opened 2026-11-25 12:34 UTC
 
 ## Team
 
@@ -32,5 +31,11 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-## Run ended 2026-11-25 07:59 UTC
+## Run started 2026-11-25 12:34 UTC
+- control: CLOSED DUVAL (stop, while away) P&L $-57.51 normal, $-66.29 pessimistic
+- control: CLOSED Memeployed (stop, while away) P&L $-75.08 normal, $-83.41 pessimistic
+- control: CLOSED CHUCK (stop, while away) P&L $-184.21 normal, $-189.75 pessimistic
+- team: model call failed:  HTTP 401: invalid x-api-key
+- 2026-11-25 12:34 UTC control: OPENED JaoJiu long at 0.0001104 (stop 8.832e-05, target 0.00015456) - control: frozen v3 rules
+- 2026-11-25 12:34 UTC control: OPENED EURUSD long at 1.09517 (stop 1.09432, target 1.09644) - control: random direction
 

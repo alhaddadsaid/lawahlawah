@@ -5,87 +5,61 @@
    "open": []
   },
   "control": {
-   "cash": -83691.83408981655,
+   "cash": -84008.63711863956,
    "open": [
     {
-     "id": 3861,
+     "id": 3867,
      "desk": "control",
      "market": "meme",
-     "symbol": "DUVAL",
-     "mint": "7fmD1p3jzva28EPP9bPqbDoxZGj5j398yJoE3EVypump",
+     "symbol": "JaoJiu",
+     "mint": "2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy",
      "side": 1,
-     "opened": 1795589177.258763,
-     "entry": 0.0001134,
-     "stop": 9.072000000000001e-05,
-     "target": 0.00015876,
-     "size": 1763668.430335097,
-     "deadline": 1795596377.2587633,
+     "opened": 1795610094.7418253,
+     "entry": 0.0001104,
+     "stop": 8.832000000000001e-05,
+     "target": 0.00015455999999999998,
+     "size": 1811594.2028985508,
+     "deadline": 1795617294.7418256,
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3864,
+     "id": 3868,
      "desk": "control",
-     "market": "meme",
-     "symbol": "Memeployed",
-     "mint": "4m2PS6yW2xDk5V9nJgPjnus1eguwCDSWXbA2YQeVkqxn",
+     "market": "macro",
+     "symbol": "EURUSD",
+     "mint": "",
      "side": 1,
-     "opened": 1795591734.8760617,
-     "entry": 5.891e-05,
-     "stop": 4.7128e-05,
-     "target": 8.2474e-05,
-     "size": 3395009.336275675,
-     "deadline": 1795598934.876062,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3865,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "CHUCK",
-     "mint": "F7FsMCj9GVxmW52qerHe9t7sDTYyZRiWDDVnR3HR5yCW",
-     "side": 1,
-     "opened": 1795592650.8858404,
-     "entry": 0.0004306,
-     "stop": 0.00034448000000000004,
-     "target": 0.00060284,
-     "size": 464468.1839294008,
-     "deadline": 1795599850.8858407,
-     "thesis": "control: frozen v3 rules"
+     "opened": 1795610094.8578072,
+     "entry": 1.095170259475708,
+     "stop": 1.0943225877625602,
+     "target": 1.0964417670454298,
+     "size": 117970.19818987694,
+     "deadline": 1795696494.8578074,
+     "thesis": "control: random direction"
     }
    ]
   }
  },
- "next_id": 3867,
- "runs": 135,
+ "next_id": 3869,
+ "runs": 136,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:F7FsMCj9GVxmW52qerHe9t7sDTYyZRiWDDVnR3HR5yCW": 1795593734.4376895,
-  "seen:GisWWjhwrSud4aFGSHvTMt85Ky14sY7LeBFCpfoFpump": 1795593734.4376895,
-  "seen:3cL47ohWa2HApLYKtqPsqkjaxJ6HLvT5Ri1KvWdXpump": 1795593734.4376895,
-  "seen:2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": 1795593914.9369102,
-  "seen:E35iEA2yLLHc1tjm6et1Z3YuH8DhxJYWtWezPHgSpump": 1795593914.9369102,
-  "seen:5tCju6YNxHq5zrA6tGndr6F7TK42mpUFmeE31cSFpump": 1795593914.9369102,
-  "seen:4Di56UJzpnb7E4D7aLXFf7aLF5TrpJYv9Q3mR398pump": 1795593914.9369102,
-  "seen:5nmZzANRvvKSR49QsodoAtspjbGft7pfwmFBPxrKpump": 1795593914.9369102,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795593914.9369102,
-  "control:2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": 1795593914.9962413,
-  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795594098.8063004,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795594098.8063004,
-  "seen:DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": 1795594098.8063004,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795594098.8063004,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795594098.8063004,
-  "seen:FRySi8LPkuByB7VPSCCggxpewFUeeJiwEGRKKuhwpKcX": 1795594283.2429473,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795594283.2429473,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795594283.2429473,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795594283.2429473,
-  "seen:4u9dYQHaAwQw3C8jJikXzKAiUapAcjYvsrWMWK4spump": 1795594497.1826549,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795594497.1826549
+  "seen:G3izvQGeG2B4GXXZRBDnwsHfLA5fxfbvZsjfbv5zn8pD": 1795610994.1880345,
+  "seen:5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795610994.1880345,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795610994.1880345,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795610994.1880345,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795610994.1880345,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795610994.1880345,
+  "seen:DD23R2DJFKxUCB2CUvogviVhHA7D9RTsjbrFKWBzpump": 1795610994.1880345,
+  "seen:2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": 1795610994.1880345,
+  "control:2UyrvgCRXiEwiKRVk96gs6B4myrBHZAfcLyMVLE8vSCy": 1795610994.7418292,
+  "control:EURUSD": 1795610994.8578105
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498774,
+ "ctrl_macro_hour": 498780,
  "team": [
   {
    "name": "Lead",
@@ -120,23 +94,23 @@
  ],
  "last_review": 1795558865.5950997,
  "news": {
-  "t": 1795593198.8238275,
+  "t": 1795610094.207546,
   "crypto": [
-   "South Korea\u2019s crypto bill could move stablecoin race beyond token issuance (1h ago)",
-   "Solana developers move to stop validators finishing work on blocks that already lost (1h ago)",
-   "Just 10 accounts drove all of the XRP Ledger's trading growth last quarter (2h ago)",
-   "Here\u2019s what happened in crypto today (2h ago)",
-   "Solana DEX Velocity halts trading over bug just months after relaunch (2h ago)",
-   "Crypto traders can now hedge Nvidia, Anthropic and oil bets on Derive (3h ago)",
-   "A year after buying bitcoin, Czech central bank won't say what it's worth (3h ago)",
-   "Trump willing to pardon Jensen Huang, says it won\u2019t be necessary (4h ago)",
-   "Trump says he's willing to give Nvidia's Huang a pardon, doesn't think he needs one (4h ago)",
-   "CleanSpark weighs selling more Bitcoin than it mines to de-risk books (6h ago)"
+   "Fed\u2019s preferred inflation gauge lands with a December rate increase already priced in (0h ago)",
+   "Ether, DeFi fall twice as hard as bitcoin as equities selloff resumes (1h ago)",
+   "Italy\u2019s UniCredit launches six-year bitcoin certificate with gains capped at 65% (1h ago)",
+   "Japan\u2019s SBI, SMFG launch Solana venture for stablecoins, tokenization (1h ago)",
+   "Hong Kong launches tokenized debt platform with 24-hour settlement (1h ago)",
+   "Gold's haven status has lost its edge over bitcoin, and the Fed's to blame (1h ago)",
+   "Bitcoin ETFs near $5B in record monthly outflows amid AI stock rout (1h ago)",
+   "Bitcoin price may fall below $53K if bear-market history repeats (1h ago)",
+   "EU proposes $54.7 billion fund for AI, quantum startups alongside post-quantum security push (2h ago)",
+   "HYPE drops 8% as Trump bump gives way to 40% slide from peak (2h ago)"
   ],
   "macro": [],
   "calendar": [
-   "USD Core PCE Price Index m/m in 5.6h, forecast 0.3%, previous 0.3%",
-   "USD Prelim GDP q/q in 5.6h, forecast 3.5%, previous 3.4%"
+   "USD Core PCE Price Index m/m in 0.9h, forecast 0.3%, previous 0.3%",
+   "USD Prelim GDP q/q in 0.9h, forecast 3.5%, previous 3.4%"
   ]
  },
  "spend": {
@@ -167,5 +141,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795593383.2590013
+ "last_macro_macro": 1795610094.207361
 }
