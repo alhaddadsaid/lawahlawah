@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-25 03:55 UTC. Runs so far: 135. Model: claude-haiku-5-5.
+Updated 2026-11-25 04:04 UTC. Runs so far: 135. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3747 | 31 | -94068.67 | -130087.34 |
+| control | meme | 3748 | 31 | -94129.75 | -130157.11 |
 | control | macro | 78 | 49 | 303.67 | -75.92 |
-| control | all | 3825 | 31 | -93765.0 | -130163.26 |
+| control | all | 3826 | 31 | -93826.08 | -130233.03 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: DUVAL long at 0.0001619, stop 0.00012952, target 0.00022666, opened 2026-11-25 03:12 UTC
 - control: Holders long at 5.551e-05, stop 4.4408e-05, target 7.7714e-05, opened 2026-11-25 03:43 UTC
-- control: YUMA long at 8.273e-05, stop 6.6184e-05, target 0.000115822, opened 2026-11-25 03:55 UTC
+- control: PERRO long at 0.000138, stop 0.0001104, target 0.0001932, opened 2026-11-25 04:01 UTC
+- control: LMAO! long at 0.0004657, stop 0.00037256, target 0.00065198, opened 2026-11-25 04:04 UTC
 
 ## Team
 
@@ -32,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-25 03:55 UTC control: OPENED YUMA long at 8.273e-05 (stop 6.6184e-05, target 0.000115822) - control: frozen v3 rules
+- 2026-11-25 04:04 UTC control: OPENED LMAO! long at 0.0004657 (stop 0.00037256, target 0.00065198) - control: frozen v3 rules
 
