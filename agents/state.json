@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -86173.03079932985,
+   "cash": -86224.41304114345,
    "open": [
-    {
-     "id": 3934,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Zero",
-     "mint": "DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump",
-     "side": 1,
-     "opened": 1795712055.1938217,
-     "entry": 0.0001588,
-     "stop": 0.00012704,
-     "target": 0.00022232,
-     "size": 1259445.8438287154,
-     "deadline": 1795719255.193822,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3935,
      "desk": "control",
@@ -66,39 +51,71 @@
      "size": 2210433.2449160037,
      "deadline": 1795722736.3545425,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3941,
+     "desk": "control",
+     "market": "macro",
+     "symbol": "EURUSD",
+     "mint": "",
+     "side": -1,
+     "opened": 1795716082.153201,
+     "entry": 1.0974539518356323,
+     "stop": 1.0982544337000166,
+     "target": 1.0962532290390559,
+     "size": 124924.75401290375,
+     "deadline": 1795802482.1532013,
+     "thesis": "control: random direction"
+    },
+    {
+     "id": 3942,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Kuro",
+     "mint": "AuVQxjSZt937unfV6ScNca1ZwwqZtjNSq3LfQtv4pump",
+     "side": 1,
+     "opened": 1795716446.2473483,
+     "entry": 7.211e-05,
+     "stop": 5.7688e-05,
+     "target": 0.000100954,
+     "size": 2773540.4243516847,
+     "deadline": 1795723646.2473485,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3941,
+ "next_id": 3943,
  "runs": 139,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:AuVQxjSZt937unfV6ScNca1ZwwqZtjNSq3LfQtv4pump": 1795716074.978369,
-  "seen:9tERTsZZj19ZHAqg7URtfkfPdaCiVeR4JkuPVoHrpump": 1795716074.978369,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795716074.978369,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795716074.978369,
-  "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795716254.5157855,
-  "seen:J9eBkCb4UtquAMQqB6duwBmR99fFSMoTnDcaMB9Wpump": 1795716254.5157855,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795716254.5157855,
-  "seen:AqWGR4sXRxUfgzmyDhcCy1jqRs51jdNF7Y1KM7LWAdHo": 1795716435.8192122,
-  "seen:32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump": 1795716435.8192122,
-  "seen:Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump": 1795716435.8192122,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795716435.8192122,
-  "control:J9eBkCb4UtquAMQqB6duwBmR99fFSMoTnDcaMB9Wpump": 1795716436.3545456,
   "seen:8TG9KGHbLYdArfk4mBRnbJNGKNXYkLFXDpNLbSeHpump": 1795716615.3121526,
   "seen:JhCxUeVy4JC8JpcYfTj9FYRmcsMPC4aSXJVQdJApump": 1795716615.3121526,
   "seen:DG2EJSEtPBge5F7zBCTZG78p27LTCiq8tUkJ39qupump": 1795716615.3121526,
   "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795716615.3121526,
   "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795716615.3121526,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795716800.4104848,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795716800.4104848
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795716800.4104848,
+  "seen:AuVQxjSZt937unfV6ScNca1ZwwqZtjNSq3LfQtv4pump": 1795716981.934484,
+  "seen:9tERTsZZj19ZHAqg7URtfkfPdaCiVeR4JkuPVoHrpump": 1795716981.934484,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795716981.934484,
+  "control:EURUSD": 1795716982.153205,
+  "seen:FYkyaog19L8DoCbsAJSZf2WuWSf5u8uyv83SusFUJDLZ": 1795717162.8400562,
+  "seen:J7ktxwa4M2SXKCfoDZwiLa3TPZGnNzYjWJgEUc53REtA": 1795717162.8400562,
+  "seen:CErq2oGNSJWVovVMjx8k1wuL6qR75q1teSxJNqrCpump": 1795717162.8400562,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795717162.8400562,
+  "seen:AaY6XtQZYYaxQ4fV8R8acConnMsgjg9zrZs341HUpump": 1795717162.8400562,
+  "seen:FVBzzG4ZcAgxSLW1rWjNC9EH9CgEgz1A4puNYexMpump": 1795717162.8400562,
+  "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795717162.8400562,
+  "seen:ARMYxiiNbzToMCrhH6dNE5rb5oq2v8iGZUx6uHfcopQh": 1795717345.7214115,
+  "seen:32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump": 1795717345.7214115,
+  "control:AuVQxjSZt937unfV6ScNca1ZwwqZtjNSq3LfQtv4pump": 1795717346.247352
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498809,
+ "ctrl_macro_hour": 498810,
  "team": [
   {
    "name": "Lead",
@@ -133,10 +150,10 @@
  ],
  "last_review": 1795645425.6072507,
  "news": {
-  "t": 1795715535.8387768,
+  "t": 1795716445.73981,
   "crypto": [
    "Crypto on notice as hawkish Fed risks December \u2018meltdown\u2019 (0h ago)",
-   "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds (0h ago)",
+   "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds (1h ago)",
    "Bitcoin\u2019s dormant supply rises, a behavior seen during previous bear-market bottoming phases (1h ago)",
    "BIS chief Pablo Hern\u00e1ndez de Cos set to become next ECB president: FT (1h ago)",
    "How EU brokers could lose access to Kyrgyz crypto exchanges (2h ago)",
@@ -144,7 +161,7 @@
    "Spain gives anti-laundering unit power to freeze crypto accounts without a judge (4h ago)",
    "Nasdaq exec pushes for common EU rules on tokenized securities (4h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
-   "7 bizarre things crypto whales spent a fortune on (4h ago)"
+   "7 bizarre things crypto whales spent a fortune on (5h ago)"
   ],
   "macro": [],
   "calendar": []
