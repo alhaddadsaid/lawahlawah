@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -85625.1079208971,
+   "cash": -85645.6079208971,
    "open": [
-    {
-     "id": 3906,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DIGS",
-     "mint": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
-     "side": 1,
-     "opened": 1795665945.9241111,
-     "entry": 0.000286,
-     "stop": 0.00022880000000000003,
-     "target": 0.0004004,
-     "size": 699300.6993006993,
-     "deadline": 1795673145.9241111,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3910,
      "desk": "control",
@@ -36,20 +21,44 @@
      "size": 1577287.066246057,
      "deadline": 1795678259.936227,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3913,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "DIGS",
+     "mint": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
+     "side": 1,
+     "opened": 1795673265.491239,
+     "entry": 0.0002702,
+     "stop": 0.00021616000000000002,
+     "target": 0.00037828,
+     "size": 740192.4500370095,
+     "deadline": 1795680465.4912393,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3914,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Pompom",
+     "mint": "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump",
+     "side": 1,
+     "opened": 1795673492.8415573,
+     "entry": 0.0001509,
+     "stop": 0.00012072000000000001,
+     "target": 0.00021126,
+     "size": 1325381.0470510272,
+     "deadline": 1795680692.8415575,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3913,
+ "next_id": 3915,
  "runs": 138,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795673253.0034883,
-  "seen:DeACAbp2GMzapB6Z2K8qdkTZupmNbKc6EZx9bnbCpump": 1795673427.9395597,
-  "seen:BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump": 1795673427.9395597,
-  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795673427.9395597,
-  "seen:Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump": 1795673427.9395597,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795673427.9395597,
   "seen:26eAyWoHTZfwGj8BvczSkRnyDAFXVx8HVxoXRNaSpump": 1795673610.6717596,
   "seen:6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795673610.6717596,
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795673610.6717596,
@@ -60,7 +69,18 @@
   "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795673976.888184,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795673976.888184,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795673976.888184,
-  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795673976.888184
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795673976.888184,
+  "seen:5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795674165.4313018,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795674165.4313018,
+  "control:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795674165.491242,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795674392.496581,
+  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795674392.496581,
+  "seen:BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump": 1795674392.496581,
+  "seen:Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump": 1795674392.496581,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795674392.496581,
+  "seen:6eBTZPbUL4RqJeru4uhQNEWTZXuBeAETpTRfykB6pump": 1795674392.496581,
+  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795674392.496581,
+  "control:5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795674392.84156
  },
  "talks": {
   "2026-10-21": 109
@@ -101,18 +121,18 @@
  ],
  "last_review": 1795645425.6072507,
  "news": {
-  "t": 1795672527.9506376,
+  "t": 1795673492.5075903,
   "crypto": [
-   "Ripple is worth $90 a share to one fund and $300 to another, SEC filings show (0h ago)",
-   "Sky proposes emergency vote on $25M transfer amid liquidity stress (0h ago)",
+   "Here\u2019s what happened in crypto today (0h ago)",
+   "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report (0h ago)",
+   "Ripple is worth $90 a share to one fund and $300 to another, SEC filings show (1h ago)",
+   "Sky proposes emergency vote on $25M transfer amid liquidity stress (1h ago)",
    "1Password hacker stole customer names and emails, but vaults safe (1h ago)",
    "Bill to lock up U.S. government bitcoin for 20 years advances to full House (1h ago)",
    "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions (2h ago)",
-   "AI labs likely sitting on cryptography \u2018bombshells,\u2019 computer scientist says (4h ago)",
+   "AI labs likely sitting on cryptography \u2018bombshells,\u2019 computer scientist says (5h ago)",
    "Switzerland clears 57 jurisdictions for crypto tax data sharing (8h ago)",
-   "Braiins warns of Bitcoin mining attacks affecting over 1,000 sites (9h ago)",
-   "Why ECB collateral eligibility could boost demand for tokenized bonds (9h ago)",
-   "Ethereum Foundation backs Keccak-256 to counter quantum, AI threats (11h ago)"
+   "Braiins warns of Bitcoin mining attacks affecting over 1,000 sites (9h ago)"
   ],
   "macro": [],
   "calendar": []
