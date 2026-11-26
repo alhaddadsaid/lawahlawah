@@ -21,31 +21,46 @@
      "size": 737191.3011426466,
      "deadline": 1795652993.5683663,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3892,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Pompom",
+     "mint": "5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump",
+     "side": 1,
+     "opened": 1795651101.1878366,
+     "entry": 0.0001663,
+     "stop": 0.00013304000000000001,
+     "target": 0.00023281999999999998,
+     "size": 1202645.8208057727,
+     "deadline": 1795658301.1878366,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3892,
+ "next_id": 3893,
  "runs": 137,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795650718.4351964,
-  "seen:HWqqNLpcHvxJpNy43FJwnS1xDNsvobYtpLK8ostWhQwM": 1795650718.4351964,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795650718.4351964,
-  "seen:6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795650901.5059986,
-  "seen:2ndz2hhsxDFgU1sQHi8Qjro7KRrTPgen1NJdUtNDpump": 1795650901.5059986,
-  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795650901.5059986,
-  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795650901.5059986,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795650901.5059986,
-  "seen:5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795651085.2012346,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795651085.2012346,
-  "seen:6C9r2gzu8Pr54hTevHo3x5gSj9JqtpApj7obJnrtpump": 1795651085.2012346,
   "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795651266.4114869,
   "seen:GRXSoGBqmTkS78Rrvm8QyBJH9XMe8562eZojzHj2pump": 1795651266.4114869,
   "seen:BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6": 1795651266.4114869,
   "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795651266.4114869,
   "seen:DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": 1795651449.2630732,
-  "seen:7ACq9bgHPCT33TWC6yaxLX5CfNQBbFachy9xKD7Spump": 1795651449.2630732
+  "seen:7ACq9bgHPCT33TWC6yaxLX5CfNQBbFachy9xKD7Spump": 1795651449.2630732,
+  "seen:HWqqNLpcHvxJpNy43FJwnS1xDNsvobYtpLK8ostWhQwM": 1795651632.5005348,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795651632.5005348,
+  "seen:9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump": 1795651632.5005348,
+  "seen:2ndz2hhsxDFgU1sQHi8Qjro7KRrTPgen1NJdUtNDpump": 1795651817.3558373,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795651817.3558373,
+  "seen:6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795651817.3558373,
+  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795651817.3558373,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795651817.3558373,
+  "seen:5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795652001.0633707,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795652001.0633707,
+  "control:5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795652001.18784
  },
  "talks": {
   "2026-10-21": 109
@@ -86,18 +101,18 @@
  ],
  "last_review": 1795645425.6072507,
  "news": {
-  "t": 1795650001.520213,
+  "t": 1795650917.3701727,
   "crypto": [
    "Here\u2019s what happened in crypto today (1h ago)",
    "Switzerland clears 57 jurisdictions for crypto tax data sharing (2h ago)",
-   "Braiins warns of Bitcoin mining attacks affecting over 1,000 sites (2h ago)",
-   "Why ECB collateral eligibility could boost demand for tokenized bonds (2h ago)",
+   "Braiins warns of Bitcoin mining attacks affecting over 1,000 sites (3h ago)",
+   "Why ECB collateral eligibility could boost demand for tokenized bonds (3h ago)",
    "Ethereum Foundation backs Keccak-256 to counter quantum, AI threats (5h ago)",
-   "French Senate blocks new crypto tax and wallet list critics called a kidnapping risk (5h ago)",
+   "French Senate blocks new crypto tax and wallet list critics called a kidnapping risk (6h ago)",
    "US inflation rises to 3.8% ahead of December Fed meeting, clouding crypto outlook (6h ago)",
    "'This time actually seems different': Crypto veterans brace for more pain as bitcoin tumbles (6h ago)",
    "Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4% (6h ago)",
-   "Nvidia agrees to $290M settlement over crypto mining revenue disclosures (6h ago)"
+   "Nvidia agrees to $290M settlement over crypto mining revenue disclosures (7h ago)"
   ],
   "macro": [],
   "calendar": []
