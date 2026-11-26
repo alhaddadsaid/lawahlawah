@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -85760.06106685693,
+   "cash": -85834.46206312094,
    "open": [
     {
      "id": 3913,
@@ -51,25 +51,29 @@
      "size": 2233888.0822070814,
      "deadline": 1795682839.6928473,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3920,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Fug",
+     "mint": "3QVBSB2kuJiQ75Po8qq4eV7msNFo7jMn22wfKuCTpump",
+     "side": 1,
+     "opened": 1795678221.7112985,
+     "entry": 6.072e-05,
+     "stop": 4.8576000000000004e-05,
+     "target": 8.500800000000001e-05,
+     "size": 3293807.6416337285,
+     "deadline": 1795685421.7112987,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3919,
+ "next_id": 3921,
  "runs": 138,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795678000.376875,
-  "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795678000.376875,
-  "control:BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump": 1795678000.4163606,
-  "seen:6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795678231.3036084,
-  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795678231.3036084,
-  "seen:7Sj4ufgwuvKkrhwVMRY9FoSsZnFZ8WMLLKRFL9pqpump": 1795678231.3036084,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795678231.3036084,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795678231.3036084,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795678231.3036084,
-  "seen:BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump": 1795678365.236514,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795678365.236514,
   "seen:AHsBWDbJR1oYKfNvxhEdZPhVgQVfVDQw1e45TG6fXhUZ": 1795678588.1410244,
   "seen:6k4dFR7ziQU3pZJz36zJGEnKLFsPPpE7UG48P9qRpump": 1795678588.1410244,
   "seen:3QVBSB2kuJiQ75Po8qq4eV7msNFo7jMn22wfKuCTpump": 1795678588.1410244,
@@ -77,7 +81,22 @@
   "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795678588.1410244,
   "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795678730.3094022,
   "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795678730.3094022,
-  "seen:Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump": 1795678730.3094022
+  "seen:Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump": 1795678730.3094022,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795678917.0544794,
+  "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795678917.0544794,
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795678917.0544794,
+  "control:BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump": 1795678917.123323,
+  "seen:DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": 1795679121.6690114,
+  "control:3QVBSB2kuJiQ75Po8qq4eV7msNFo7jMn22wfKuCTpump": 1795679121.711301,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795679287.5023055,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795679287.5023055,
+  "seen:6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795679287.5023055,
+  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795679287.5023055,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795679287.5023055,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795679287.5023055,
+  "seen:5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795679287.5023055,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795679287.5023055,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795679467.8033624
  },
  "talks": {
   "2026-10-21": 109
@@ -118,16 +137,16 @@
  ],
  "last_review": 1795645425.6072507,
  "news": {
-  "t": 1795677331.3148947,
+  "t": 1795678387.5135663,
   "crypto": [
    "Zcash developers want users to move $300 million out of an older privacy system (0h ago)",
    "Over 1,000 Bitcoin miners were tricked into working for a thief by a fake internet route (1h ago)",
-   "Here\u2019s what happened in crypto today (1h ago)",
-   "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report (1h ago)",
+   "Here\u2019s what happened in crypto today (2h ago)",
+   "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report (2h ago)",
    "Ripple is worth $90 a share to one fund and $300 to another, SEC filings show (2h ago)",
    "Sky proposes emergency vote on $25M transfer amid liquidity stress (2h ago)",
-   "1Password hacker stole customer names and emails, but vaults safe (2h ago)",
-   "Bill to lock up U.S. government bitcoin for 20 years advances to full House (2h ago)",
+   "1Password hacker stole customer names and emails, but vaults safe (3h ago)",
+   "Bill to lock up U.S. government bitcoin for 20 years advances to full House (3h ago)",
    "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions (3h ago)",
    "AI labs likely sitting on cryptography \u2018bombshells,\u2019 computer scientist says (6h ago)"
   ],
