@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-26 18:07 UTC. Runs so far: 139. Model: claude-haiku-5-5.
+Updated 2026-11-26 18:16 UTC. Runs so far: 139. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3838 | 31 | -96519.86 | -133409.03 |
+| control | meme | 3839 | 31 | -96719.74 | -133614.04 |
 | control | macro | 80 | 49 | 295.36 | -95.35 |
-| control | all | 3918 | 31 | -96224.5 | -133504.38 |
+| control | all | 3919 | 31 | -96424.38 | -133709.39 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: DIGS long at 0.0002538, stop 0.00020304, target 0.00035532, opened 2026-11-26 17:12 UTC
 - control: Investor long at 9.048e-05, stop 7.2384e-05, target 0.000126672, opened 2026-11-26 17:52 UTC
 - control: EURUSD short at 1.09745, stop 1.09825, target 1.09625, opened 2026-11-26 18:01 UTC
-- control: Kuro long at 7.211e-05, stop 5.7688e-05, target 0.000100954, opened 2026-11-26 18:07 UTC
 
 ## Team
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-26 18:07 UTC control: OPENED Kuro long at 7.211e-05 (stop 5.7688e-05, target 0.000100954) - control: frozen v3 rules
+- control: order DIGS REJECTED by guardrails: DIGS already open
 
