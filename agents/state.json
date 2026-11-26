@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -85709.45591882376,
+   "cash": -85762.48509863448,
    "open": [
-    {
-     "id": 3910,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "4CHAN",
-     "mint": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
-     "side": 1,
-     "opened": 1795671059.9362268,
-     "entry": 0.0001268,
-     "stop": 0.00010144,
-     "target": 0.00017751999999999997,
-     "size": 1577287.066246057,
-     "deadline": 1795678259.936227,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3913,
      "desk": "control",
@@ -51,30 +36,47 @@
      "size": 1325381.0470510272,
      "deadline": 1795680692.8415575,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3916,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "TEEETHY",
+     "mint": "BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump",
+     "side": 1,
+     "opened": 1795675459.0321994,
+     "entry": 6.042e-05,
+     "stop": 4.8336000000000006e-05,
+     "target": 8.4588e-05,
+     "size": 3310162.1979476996,
+     "deadline": 1795682659.0321996,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3916,
+ "next_id": 3917,
  "runs": 138,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795675087.2786155,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795675087.2786155,
-  "seen:6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795675458.4709954,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795675458.4709954,
-  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795675458.4709954,
-  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795675458.4709954,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795675458.4709954,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795675458.4709954,
-  "seen:Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump": 1795675458.4709954,
-  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795675458.4709954,
   "seen:BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump": 1795675623.6294198,
   "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795675623.6294198,
   "seen:5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795675623.6294198,
   "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795675805.9921896,
   "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795675805.9921896,
-  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795675805.9921896
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795675805.9921896,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795675990.631198,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795675990.631198,
+  "seen:ACSMvmx7fRf1SsLRm41UuYVpZJDME4QNzfMNN6nkbcXu": 1795676174.3146296,
+  "seen:8X4tgSHQZyqrqCBHQkBAjoqHHDtjmoKKEfgjz1o8eFEB": 1795676358.750032,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795676358.750032,
+  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795676358.750032,
+  "seen:6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795676358.750032,
+  "seen:DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": 1795676358.750032,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795676358.750032,
+  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1795676358.750032,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795676358.750032,
+  "control:BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump": 1795676359.0322025
  },
  "talks": {
   "2026-10-21": 109
@@ -115,10 +117,10 @@
  ],
  "last_review": 1795645425.6072507,
  "news": {
-  "t": 1795674558.4822745,
+  "t": 1795675458.761159,
   "crypto": [
    "Over 1,000 Bitcoin miners were tricked into working for a thief by a fake internet route (0h ago)",
-   "Here\u2019s what happened in crypto today (0h ago)",
+   "Here\u2019s what happened in crypto today (1h ago)",
    "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report (1h ago)",
    "Ripple is worth $90 a share to one fund and $300 to another, SEC filings show (1h ago)",
    "Sky proposes emergency vote on $25M transfer amid liquidity stress (1h ago)",
@@ -159,5 +161,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795673993.5523033
+ "last_macro_macro": 1795675274.3256812
 }
