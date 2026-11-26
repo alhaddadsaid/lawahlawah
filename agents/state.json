@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -85342.33694941884,
+   "cash": -85448.2588766105,
    "open": [
-    {
-     "id": 3893,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "4CHAN",
-     "mint": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
-     "side": 1,
-     "opened": 1795652755.3173225,
-     "entry": 0.0001867,
-     "stop": 0.00014936000000000002,
-     "target": 0.00026138,
-     "size": 1071237.2790573111,
-     "deadline": 1795659955.3173227,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3895,
      "desk": "control",
@@ -36,21 +21,6 @@
      "size": 1593625.4980079683,
      "deadline": 1795661417.4025183,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3898,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "PVE",
-     "mint": "BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6",
-     "side": 1,
-     "opened": 1795656232.9022694,
-     "entry": 0.0001676,
-     "stop": 0.00013408000000000002,
-     "target": 0.00023464,
-     "size": 1193317.4224343675,
-     "deadline": 1795663432.9022694,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -59,21 +29,25 @@
  "runs": 137,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795656399.7159367,
-  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795656399.7159367,
-  "seen:GRNDYDpqwpCm6jVxpbh4xT5AM4r3p391qYsKTHqgaET2": 1795656399.7159367,
-  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795656584.182567,
-  "seen:VVV4UdRywr7SLafPHzqXwRCw7myXkmgCtitXUvj8g8c": 1795656584.182567,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795656584.182567,
-  "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795656764.7173712,
-  "seen:BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6": 1795656764.7173712,
-  "seen:5CPiu3nmhYWWnj6BfebvMzqqwPUBm8UzBtNGW4cEpump": 1795656764.7173712,
-  "seen:DeACAbp2GMzapB6Z2K8qdkTZupmNbKc6EZx9bnbCpump": 1795656948.1750891,
   "seen:73R7L2jLfnweJTXxTiccHMZV6mECaVELPUy3PkHopump": 1795657132.8454518,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795657132.8454518,
   "seen:Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump": 1795657132.8454518,
   "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795657132.8454518,
-  "control:BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6": 1795657132.902272
+  "control:BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6": 1795657132.902272,
+  "seen:GRNDYDpqwpCm6jVxpbh4xT5AM4r3p391qYsKTHqgaET2": 1795657314.078359,
+  "seen:6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795657314.078359,
+  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795657314.078359,
+  "seen:CnozX9VZrfTSCzssxicM4ee86GTuf497G5t94rUvpump": 1795657314.078359,
+  "seen:5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795657314.078359,
+  "seen:DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump": 1795657493.528038,
+  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795657493.528038,
+  "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795657677.0190814,
+  "seen:BQTG5qcyt3YpU1nJ37RAsTwd4fJa3cZXKAp9WjMETQu6": 1795657677.0190814,
+  "seen:BAijHvUiHCoCxApyYAUnz5g6LnizZXVYoHwdMarqTWtw": 1795657677.0190814,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795657677.0190814,
+  "seen:VVV4UdRywr7SLafPHzqXwRCw7myXkmgCtitXUvj8g8c": 1795657860.2112403,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795657860.2112403,
+  "seen:5CPiu3nmhYWWnj6BfebvMzqqwPUBm8UzBtNGW4cEpump": 1795657860.2112403
  },
  "talks": {
   "2026-10-21": 109
@@ -114,15 +88,15 @@
  ],
  "last_review": 1795645425.6072507,
  "news": {
-  "t": 1795655499.7303693,
+  "t": 1795656414.0932438,
   "crypto": [
    "Here\u2019s what happened in crypto today (3h ago)",
-   "Switzerland clears 57 jurisdictions for crypto tax data sharing (3h ago)",
+   "Switzerland clears 57 jurisdictions for crypto tax data sharing (4h ago)",
    "Braiins warns of Bitcoin mining attacks affecting over 1,000 sites (4h ago)",
    "Why ECB collateral eligibility could boost demand for tokenized bonds (4h ago)",
-   "Ethereum Foundation backs Keccak-256 to counter quantum, AI threats (6h ago)",
+   "Ethereum Foundation backs Keccak-256 to counter quantum, AI threats (7h ago)",
    "French Senate blocks new crypto tax and wallet list critics called a kidnapping risk (7h ago)",
-   "US inflation rises to 3.8% ahead of December Fed meeting, clouding crypto outlook (7h ago)",
+   "US inflation rises to 3.8% ahead of December Fed meeting, clouding crypto outlook (8h ago)",
    "'This time actually seems different': Crypto veterans brace for more pain as bitcoin tumbles (8h ago)",
    "Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4% (8h ago)",
    "Nvidia agrees to $290M settlement over crypto mining revenue disclosures (8h ago)"
@@ -158,5 +132,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795655684.1966858
+ "last_macro_macro": 1795656960.22578
 }
