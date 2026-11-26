@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -85640.84566702195,
+   "cash": -85625.1079208971,
    "open": [
     {
      "id": 3906,
@@ -36,51 +36,37 @@
      "size": 1577287.066246057,
      "deadline": 1795678259.936227,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3911,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "TEEETHY",
-     "mint": "BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump",
-     "side": 1,
-     "opened": 1795671242.4351518,
-     "entry": 7.121e-05,
-     "stop": 5.696800000000001e-05,
-     "target": 9.9694e-05,
-     "size": 2808594.298553574,
-     "deadline": 1795678442.435152,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3912,
+ "next_id": 3913,
  "runs": 138,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump": 1795672519.897568,
-  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795672519.897568,
-  "seen:Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump": 1795672519.897568,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795672519.897568,
-  "seen:4VMwK3shXxsaMbiJ4qtBMMEgi63riezBSWFHfA6Vpump": 1795672689.3954806,
-  "seen:CWZ6BsdnjkDVTGkmL6bGbJXXig6ceef12KvyGQW14cMt": 1795672689.3954806,
-  "seen:6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795672689.3954806,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795672689.3954806,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795672689.3954806,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795673059.7646928,
-  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795673059.7646928,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795673059.7646928,
-  "seen:6eBTZPbUL4RqJeru4uhQNEWTZXuBeAETpTRfykB6pump": 1795673059.7646928,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795673059.7646928,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795673059.7646928,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795673253.0034883
+  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795673253.0034883,
+  "seen:DeACAbp2GMzapB6Z2K8qdkTZupmNbKc6EZx9bnbCpump": 1795673427.9395597,
+  "seen:BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump": 1795673427.9395597,
+  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795673427.9395597,
+  "seen:Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump": 1795673427.9395597,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795673427.9395597,
+  "seen:26eAyWoHTZfwGj8BvczSkRnyDAFXVx8HVxoXRNaSpump": 1795673610.6717596,
+  "seen:6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795673610.6717596,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795673610.6717596,
+  "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795673610.6717596,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795673610.6717596,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795673793.8776147,
+  "control:BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump": 1795673793.9682987,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795673976.888184,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795673976.888184,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795673976.888184,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795673976.888184
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498781,
+ "ctrl_macro_hour": 498798,
  "team": [
   {
    "name": "Lead",
@@ -115,17 +101,17 @@
  ],
  "last_review": 1795645425.6072507,
  "news": {
-  "t": 1795671619.9086454,
+  "t": 1795672527.9506376,
   "crypto": [
    "Ripple is worth $90 a share to one fund and $300 to another, SEC filings show (0h ago)",
    "Sky proposes emergency vote on $25M transfer amid liquidity stress (0h ago)",
    "1Password hacker stole customer names and emails, but vaults safe (1h ago)",
    "Bill to lock up U.S. government bitcoin for 20 years advances to full House (1h ago)",
-   "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions (1h ago)",
+   "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions (2h ago)",
    "AI labs likely sitting on cryptography \u2018bombshells,\u2019 computer scientist says (4h ago)",
    "Switzerland clears 57 jurisdictions for crypto tax data sharing (8h ago)",
-   "Braiins warns of Bitcoin mining attacks affecting over 1,000 sites (8h ago)",
-   "Why ECB collateral eligibility could boost demand for tokenized bonds (8h ago)",
+   "Braiins warns of Bitcoin mining attacks affecting over 1,000 sites (9h ago)",
+   "Why ECB collateral eligibility could boost demand for tokenized bonds (9h ago)",
    "Ethereum Foundation backs Keccak-256 to counter quantum, AI threats (11h ago)"
   ],
   "macro": [],
@@ -159,5 +145,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795671424.707547
+ "last_macro_macro": 1795672710.6826596
 }
