@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -86450.49677644389,
+   "cash": -86505.96657198292,
    "open": [
     {
      "id": 3935,
@@ -68,36 +68,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3949,
+     "id": 3950,
      "desk": "control",
      "market": "meme",
-     "symbol": "PAIR",
-     "mint": "32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump",
+     "symbol": "BASKET",
+     "mint": "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f",
      "side": 1,
-     "opened": 1795722465.1514459,
-     "entry": 0.0001076,
-     "stop": 8.608e-05,
-     "target": 0.00015063999999999998,
-     "size": 1858736.059479554,
-     "deadline": 1795729665.151446,
+     "opened": 1795723188.5861235,
+     "entry": 0.0005076,
+     "stop": 0.00040608,
+     "target": 0.0007106399999999998,
+     "size": 394011.0323089047,
+     "deadline": 1795730388.5861237,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3950,
+ "next_id": 3951,
  "runs": 139,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:FvitVJ528ZCyuy695DoqEGy816rFVafbZ2MSgMw3pump": 1795722817.7726502,
-  "seen:32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump": 1795722817.7726502,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795722817.7726502,
-  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795722817.7726502,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795723000.064854,
-  "seen:AqWGR4sXRxUfgzmyDhcCy1jqRs51jdNF7Y1KM7LWAdHo": 1795723180.1550124,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795723180.1550124,
-  "seen:HXxJdaQbrYRvwTAM8M8mUPyoRPvmyuUbPFBRkiAAMASS": 1795723180.1550124,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795723180.1550124,
   "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795723365.0795336,
   "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795723365.0795336,
   "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795723365.0795336,
@@ -106,7 +97,19 @@
   "seen:4ZosVumUi3KxHa4UqVt3igWkf7nruHu5hbhQSgFdpump": 1795723545.90326,
   "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795723545.90326,
   "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795723545.90326,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795723545.90326
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795723545.90326,
+  "seen:FvitVJ528ZCyuy695DoqEGy816rFVafbZ2MSgMw3pump": 1795723727.9231186,
+  "seen:VVV4UdRywr7SLafPHzqXwRCw7myXkmgCtitXUvj8g8c": 1795723727.9231186,
+  "seen:3FXQU7aFGcKoAAnEbAM28RjKoxB8FM9iNnBD6uXmfire": 1795723727.9231186,
+  "seen:32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump": 1795723727.9231186,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795723727.9231186,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795723908.1038554,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795723908.1038554,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795723908.1038554,
+  "seen:DG2EJSEtPBge5F7zBCTZG78p27LTCiq8tUkJ39qupump": 1795723908.1038554,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795724088.5177662,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795724088.5177662,
+  "control:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795724088.5861266
  },
  "talks": {
   "2026-10-21": 109
@@ -147,7 +150,7 @@
  ],
  "last_review": 1795645425.6072507,
  "news": {
-  "t": 1795721917.7908208,
+  "t": 1795722827.9411201,
   "crypto": [
    "Spain moves to grant financial watchdog power to freeze crypto accounts (1h ago)",
    "Crypto on notice as hawkish Fed risks December \u2018meltdown\u2019 (2h ago)",
@@ -191,5 +194,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795721737.5003703
+ "last_macro_macro": 1795723008.1218832
 }
