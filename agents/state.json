@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -85479.00949862269,
+   "cash": -85536.68795128244,
    "open": [
-    {
-     "id": 3901,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "4CHAN",
-     "mint": "DVdWuNK8ncn79B6z8nCiwcNAiwyFcmBPfChgxJGTpump",
-     "side": 1,
-     "opened": 1795659897.7582035,
-     "entry": 0.0001214,
-     "stop": 9.712e-05,
-     "target": 0.00016995999999999998,
-     "size": 1647446.4579901153,
-     "deadline": 1795667097.7582037,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3906,
      "desk": "control",
@@ -40,27 +25,26 @@
    ]
   }
  },
- "next_id": 3907,
- "runs": 137,
+ "next_id": 3908,
+ "runs": 138,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:DeACAbp2GMzapB6Z2K8qdkTZupmNbKc6EZx9bnbCpump": 1795666300.9567468,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795666300.9567468,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795666300.9567468,
-  "seen:CqpUBhhSxHsXbq6AGPKnbxDpWgECUXAVy3BCrwhGpump": 1795666481.1052942,
-  "seen:6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795666481.1052942,
-  "seen:Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump": 1795666481.1052942,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795666481.1052942,
-  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795666667.2479532,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795666667.2479532,
-  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795666667.2479532,
-  "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795666845.6562896,
-  "seen:9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump": 1795666845.6562896,
-  "control:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795666845.924115,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795667026.323422,
-  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795667026.323422,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795667026.323422,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795667026.323422
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795669765.7826767,
+  "seen:BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump": 1795669765.7826767,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795669765.7826767,
+  "seen:Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump": 1795669765.7826767,
+  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795669765.7826767,
+  "seen:DeACAbp2GMzapB6Z2K8qdkTZupmNbKc6EZx9bnbCpump": 1795669765.7826767,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795669765.7826767,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795669765.7826767,
+  "control:BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump": 1795669766.268061,
+  "seen:4VMwK3shXxsaMbiJ4qtBMMEgi63riezBSWFHfA6Vpump": 1795669949.1329625,
+  "seen:6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795669949.1329625,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795669949.1329625,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795669949.1329625,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795670132.1957078,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795670316.020682,
+  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795670316.020682
  },
  "talks": {
   "2026-10-21": 109
@@ -101,18 +85,18 @@
  ],
  "last_review": 1795645425.6072507,
  "news": {
-  "t": 1795665581.1200655,
+  "t": 1795668865.7951658,
   "crypto": [
-   "AI labs likely sitting on cryptography \u2018bombshells,\u2019 computer scientist says (2h ago)",
-   "Here\u2019s what happened in crypto today (5h ago)",
-   "Switzerland clears 57 jurisdictions for crypto tax data sharing (6h ago)",
-   "Braiins warns of Bitcoin mining attacks affecting over 1,000 sites (7h ago)",
-   "Why ECB collateral eligibility could boost demand for tokenized bonds (7h ago)",
-   "Ethereum Foundation backs Keccak-256 to counter quantum, AI threats (9h ago)",
+   "Bill to lock up U.S. government bitcoin for 20 years advances to full House (0h ago)",
+   "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions (0h ago)",
+   "AI labs likely sitting on cryptography \u2018bombshells,\u2019 computer scientist says (3h ago)",
+   "Here\u2019s what happened in crypto today (6h ago)",
+   "Switzerland clears 57 jurisdictions for crypto tax data sharing (7h ago)",
+   "Braiins warns of Bitcoin mining attacks affecting over 1,000 sites (8h ago)",
+   "Why ECB collateral eligibility could boost demand for tokenized bonds (8h ago)",
+   "Ethereum Foundation backs Keccak-256 to counter quantum, AI threats (10h ago)",
    "French Senate blocks new crypto tax and wallet list critics called a kidnapping risk (10h ago)",
-   "US inflation rises to 3.8% ahead of December Fed meeting, clouding crypto outlook (10h ago)",
-   "'This time actually seems different': Crypto veterans brace for more pain as bitcoin tumbles (10h ago)",
-   "Bitcoin falls toward $57K amid US tariff fears, hot PCE data as Nasdaq drops 4% (10h ago)"
+   "US inflation rises to 3.8% ahead of December Fed meeting, clouding crypto outlook (11h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -145,5 +129,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795665945.674513
+ "last_macro_macro": 1795668865.7949145
 }
