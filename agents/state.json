@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -85645.6079208971,
+   "cash": -85709.45591882376,
    "open": [
     {
      "id": 3910,
@@ -51,21 +51,6 @@
      "size": 1325381.0470510272,
      "deadline": 1795680692.8415575,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3915,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "TEEETHY",
-     "mint": "BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump",
-     "side": 1,
-     "opened": 1795673993.7921836,
-     "entry": 7.717e-05,
-     "stop": 6.1736e-05,
-     "target": 0.000108038,
-     "size": 2591680.704937152,
-     "deadline": 1795681193.7921839,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -74,24 +59,22 @@
  "runs": 138,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795674392.496581,
-  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795674392.496581,
-  "seen:BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump": 1795674392.496581,
-  "seen:Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump": 1795674392.496581,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795674392.496581,
-  "seen:6eBTZPbUL4RqJeru4uhQNEWTZXuBeAETpTRfykB6pump": 1795674392.496581,
-  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795674392.496581,
-  "control:5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795674392.84156,
-  "seen:6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795674525.3684878,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795674525.3684878,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795674525.3684878,
-  "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795674709.9445665,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795674893.5414014,
-  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795674893.5414014,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795674893.5414014,
-  "control:BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump": 1795674893.7921863,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795675087.2786155,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795675087.2786155
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795675087.2786155,
+  "seen:6HS1aeSk7osT5B1CzLp1HTRTAweFr5wurfMHS4vppump": 1795675458.4709954,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795675458.4709954,
+  "seen:3gmFG4sFDJErDV8pacFrL2uUPXeGJTYLjfRy4hFypump": 1795675458.4709954,
+  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795675458.4709954,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795675458.4709954,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795675458.4709954,
+  "seen:Bnw5JRPek5JvJhzUiB9yrs2cmzt4bLeFqSRzDzSppump": 1795675458.4709954,
+  "seen:FVzqGqRmr4UH1Fif6dewmwbJ1p4YUZCu8dcw4Efopump": 1795675458.4709954,
+  "seen:BbC8hVHJ2bo6xFcGh2X6zcMiv1T1rznQd3qWoxXApump": 1795675623.6294198,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795675623.6294198,
+  "seen:5EmvWDizkpjAXbcfCcVq69w1id8GaLzi4LLwtuSgpump": 1795675623.6294198,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795675805.9921896,
+  "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795675805.9921896,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795675805.9921896
  },
  "talks": {
   "2026-10-21": 109
@@ -132,18 +115,18 @@
  ],
  "last_review": 1795645425.6072507,
  "news": {
-  "t": 1795673492.5075903,
+  "t": 1795674558.4822745,
   "crypto": [
+   "Over 1,000 Bitcoin miners were tricked into working for a thief by a fake internet route (0h ago)",
    "Here\u2019s what happened in crypto today (0h ago)",
-   "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report (0h ago)",
+   "UK regulator plans tighter DeFi rules, citing $6.3B Binance hack: Report (1h ago)",
    "Ripple is worth $90 a share to one fund and $300 to another, SEC filings show (1h ago)",
    "Sky proposes emergency vote on $25M transfer amid liquidity stress (1h ago)",
-   "1Password hacker stole customer names and emails, but vaults safe (1h ago)",
-   "Bill to lock up U.S. government bitcoin for 20 years advances to full House (1h ago)",
+   "1Password hacker stole customer names and emails, but vaults safe (2h ago)",
+   "Bill to lock up U.S. government bitcoin for 20 years advances to full House (2h ago)",
    "Senate Democrats urge SEC to scrap crypto, tokenized stock exemptions (2h ago)",
    "AI labs likely sitting on cryptography \u2018bombshells,\u2019 computer scientist says (5h ago)",
-   "Switzerland clears 57 jurisdictions for crypto tax data sharing (8h ago)",
-   "Braiins warns of Bitcoin mining attacks affecting over 1,000 sites (9h ago)"
+   "Switzerland clears 57 jurisdictions for crypto tax data sharing (9h ago)"
   ],
   "macro": [],
   "calendar": []
