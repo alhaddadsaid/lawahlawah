@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-26 08:06 UTC. Runs so far: 138. Model: claude-haiku-5-5.
+Updated 2026-11-26 08:11 UTC. Runs so far: 138. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3818 | 31 | -96061.92 | -132757.7 |
+| control | meme | 3820 | 31 | -96086.59 | -132802.25 |
 | control | macro | 80 | 49 | 295.36 | -95.35 |
-| control | all | 3898 | 31 | -95766.56 | -132853.05 |
+| control | all | 3900 | 31 | -95791.23 | -132897.6 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: DIGS long at 0.0002702, stop 0.00021616, target 0.00037828, opened 2026-11-26 06:07 UTC
-- control: Pompom long at 0.0001509, stop 0.00012072, target 0.00021126, opened 2026-11-26 06:11 UTC
 - control: 4CHAN long at 8.953e-05, stop 7.1624e-05, target 0.000125342, opened 2026-11-26 06:47 UTC
+- control: DIGS long at 0.0002644, stop 0.00021152, target 0.00037016, opened 2026-11-26 08:09 UTC
 
 ## Team
 
@@ -32,6 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 401: invalid x-api-key
-- control: order DIGS REJECTED by guardrails: DIGS already open
+- control: CLOSED Pompom (time) P&L $-11.42 normal, $-21.39 pessimistic
 
