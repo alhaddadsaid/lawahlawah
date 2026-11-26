@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-26 05:43 UTC. Runs so far: 138. Model: claude-haiku-5-5.
+Updated 2026-11-26 05:52 UTC. Runs so far: 138. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3808 | 31 | -95884.22 | -132481.99 |
+| control | meme | 3809 | 31 | -95936.3 | -132542.99 |
 | control | macro | 80 | 49 | 295.36 | -95.35 |
-| control | all | 3888 | 31 | -95588.86 | -132577.34 |
+| control | all | 3889 | 31 | -95640.94 | -132638.34 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: DIGS long at 0.000286, stop 0.0002288, target 0.0004004, opened 2026-11-26 04:05 UTC
-- control: FRITZ long at 6.34e-05, stop 5.072e-05, target 8.876e-05, opened 2026-11-26 05:24 UTC
 - control: 4CHAN long at 0.0001268, stop 0.00010144, target 0.00017752, opened 2026-11-26 05:30 UTC
 - control: TEEETHY long at 7.121e-05, stop 5.6968e-05, target 9.9694e-05, opened 2026-11-26 05:34 UTC
 
@@ -33,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order FRITZ REJECTED by guardrails: FRITZ already open
+- control: order DIGS REJECTED by guardrails: DIGS already open
 
