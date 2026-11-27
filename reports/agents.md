@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-27 04:05 UTC. Runs so far: 140. Model: claude-haiku-5-5.
+Updated 2026-11-27 04:11 UTC. Runs so far: 140. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -19,6 +19,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: BASKET long at 0.0004291, stop 0.00034328, target 0.00060074, opened 2026-11-27 02:30 UTC
 - control: Dragon long at 6.942e-05, stop 5.5536e-05, target 9.7188e-05, opened 2026-11-27 04:05 UTC
+- control: DragonRiders long at 9.632e-05, stop 7.7056e-05, target 0.000134848, opened 2026-11-27 04:11 UTC
 
 ## Team
 
@@ -31,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-27 04:05 UTC control: OPENED Dragon long at 6.942e-05 (stop 5.5536e-05, target 9.7188e-05) - control: frozen v3 rules
+- 2026-11-27 04:11 UTC control: OPENED DragonRiders long at 9.632e-05 (stop 7.7056e-05, target 0.000134848) - control: frozen v3 rules
 
