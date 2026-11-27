@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -87981.10669292866,
+   "cash": -87998.15988441803,
    "open": [
     {
      "id": 4003,
@@ -21,21 +21,6 @@
      "size": 96850.16658419328,
      "deadline": 1795889294.6522377,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 4004,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Rizzmas",
-     "mint": "85cQsFgbi8mBZxiPppbpPXuV7j1hA8tBwhjF4gKW6mHg",
-     "side": 1,
-     "opened": 1795803076.077645,
-     "entry": 1.41e-06,
-     "stop": 1.128e-06,
-     "target": 1.974e-06,
-     "size": 141843971.63120568,
-     "deadline": 1795810276.0776453,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -44,23 +29,27 @@
  "runs": 142,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795809832.9115517,
-  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795809832.9115517,
-  "seen:CBm78VDv8zDJgwqGTMBj7o9Wkh8hBYNVsHbMDxvwsZLq": 1795810017.3819742,
-  "seen:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795810017.3819742,
-  "seen:Ba6SBoff1VuWJUtqUdYPJsgmufv7zcNbCkBRMMRvpump": 1795810017.3819742,
-  "seen:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795810017.3819742,
-  "seen:4WZLGbAp6oEPxFbDcsfADCo1AgYZkfiteQhtM5iwpump": 1795810017.3819742,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795810195.9513521,
-  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795810195.9513521,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795810195.9513521,
-  "seen:2EEFQNwAjsJwKHWXyjxUnmwgqGcsVQgStZBs1Je9pump": 1795810379.542862,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795810379.542862,
   "seen:6kqBYaV1BpNNhjYz8w2rQXrRWDBiua9RL6kJqwUbpump": 1795810607.984673,
   "seen:8sAxwsNzhRj6LF5npy1HtPir94TzSgP1QaczUmGcpump": 1795810607.984673,
   "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795810607.984673,
   "seen:AQFzxjKB66sXWHBUrEPpnrxQokPU3eDKKkkyprHBpump": 1795810607.984673,
-  "seen:CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump": 1795810607.984673
+  "seen:CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump": 1795810607.984673,
+  "seen:2JjmRdQ71UzAUkTCGsFXNEBdqYBAbh9LMzSb8eHnzYJT": 1795810751.7908819,
+  "seen:BFFxXi7xD9uhf7fKujN8kJzsmDouP4Y91z1nsPcapump": 1795810751.7908819,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795810751.7908819,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795810751.7908819,
+  "seen:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795810930.2085054,
+  "seen:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795810930.2085054,
+  "seen:4WZLGbAp6oEPxFbDcsfADCo1AgYZkfiteQhtM5iwpump": 1795810930.2085054,
+  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795810930.2085054,
+  "seen:GdDpHWwrRLDHR2soP75sEtqzDzY1rkATuVszAHv5pump": 1795811108.0864048,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795811108.0864048,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795811108.0864048,
+  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795811108.0864048,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1795811108.0864048,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795811291.0121944,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795811291.0121944,
+  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795811472.8446093
  },
  "talks": {
   "2026-10-21": 109
@@ -101,16 +90,16 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795809295.962904,
+  "t": 1795810208.0980198,
   "crypto": [
    "Bitcoin whales pile into BTC despite shrinking profit cushion (1h ago)",
-   "China sets March 2027 rollout for blockchain identity regulations (2h ago)",
+   "China sets March 2027 rollout for blockchain identity regulations (3h ago)",
    "Bitcoin price drops below $59K as Anthropic joins tech stock rebound (3h ago)",
    "What was Coinbase worth while Nasdaq was closed? (5h ago)",
    "Binance to launch tokenized IPO program after regulatory approval: Yi He (6h ago)",
-   "Here\u2019s what happened in crypto today (6h ago)",
+   "Here\u2019s what happened in crypto today (7h ago)",
    "Kalshi turns to small businesses as legal battles threaten forecasts on sports (7h ago)",
-   "Brazil\u2019s stock exchange pushes stablecoin launch back to 2027 (7h ago)",
+   "Brazil\u2019s stock exchange pushes stablecoin launch back to 2027 (8h ago)",
    "Austria-supervised crypto firms report 20.4B euros in H1 trading volume (8h ago)",
    "Bitcoin 'death cross' is coming. Here's what happened after previous 13. (8h ago)"
   ],
@@ -145,5 +134,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795809295.9626017
+ "last_macro_macro": 1795810572.855936
 }
