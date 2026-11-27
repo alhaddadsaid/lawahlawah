@@ -36,33 +36,61 @@
      "size": 2799944.001119978,
      "deadline": 1795793810.0897167,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 4001,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "VAULT",
+     "mint": "4tqzkSWA9tiWYhzYpSt81We3cVNkrEbkD1tzjFDZpump",
+     "side": 1,
+     "opened": 1795786976.3597791,
+     "entry": 8.434e-05,
+     "stop": 6.7472e-05,
+     "target": 0.00011807599999999999,
+     "size": 2371354.043158644,
+     "deadline": 1795794176.3597791,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 4002,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SNOWBALLY",
+     "mint": "3FYTVzMji7cN2gARmmFoxFVmEJ6zaz7fwZFMUzdHpump",
+     "side": 1,
+     "opened": 1795787158.1209135,
+     "entry": 5.643e-05,
+     "stop": 4.5144e-05,
+     "target": 7.9002e-05,
+     "size": 3544214.07052986,
+     "deadline": 1795794358.1209137,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 4001,
+ "next_id": 4003,
  "runs": 141,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795786779.445473,
-  "seen:4tqzkSWA9tiWYhzYpSt81We3cVNkrEbkD1tzjFDZpump": 1795786779.445473,
-  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795786779.445473,
-  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795786779.445473,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795786779.445473,
-  "seen:2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ": 1795786779.445473,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795786961.9097927,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795786961.9097927,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795786961.9097927,
-  "control:4tqzkSWA9tiWYhzYpSt81We3cVNkrEbkD1tzjFDZpump": 1795786961.943042,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795787145.3003707,
-  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795787145.3003707,
   "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795787327.4970853,
   "seen:2va3NUJtEcPemDYg2N1RgA79rPKGTGGJKo3gTY5zpump": 1795787327.4970853,
   "seen:7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump": 1795787510.0344748,
   "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795787510.0344748,
   "seen:ESTKGW9yTRXJCBA6s6ZCogjfxZGgLajuseZBAEkApump": 1795787510.0344748,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795787510.0344748,
-  "control:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795787510.0897195
+  "control:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795787510.0897195,
+  "seen:GXpQZkap4ExgQTTX4SXfETV7nt1YZKEZSakqos3hpump": 1795787693.6987064,
+  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795787693.6987064,
+  "seen:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795787693.6987064,
+  "seen:4tqzkSWA9tiWYhzYpSt81We3cVNkrEbkD1tzjFDZpump": 1795787693.6987064,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795787693.6987064,
+  "seen:3FYTVzMji7cN2gARmmFoxFVmEJ6zaz7fwZFMUzdHpump": 1795787876.3240697,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795787876.3240697,
+  "control:4tqzkSWA9tiWYhzYpSt81We3cVNkrEbkD1tzjFDZpump": 1795787876.3597817,
+  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795788057.9838228,
+  "control:3FYTVzMji7cN2gARmmFoxFVmEJ6zaz7fwZFMUzdHpump": 1795788058.1209168
  },
  "talks": {
   "2026-10-21": 109
@@ -103,18 +131,18 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795785879.461128,
+  "t": 1795786793.714091,
   "crypto": [
+   "Here\u2019s what happened in crypto today (0h ago)",
    "Kalshi turns to small businesses as legal battles threaten forecasts on sports (0h ago)",
    "Brazil\u2019s stock exchange pushes stablecoin launch back to 2027 (1h ago)",
    "Austria-supervised crypto firms report 20.4B euros in H1 trading volume (1h ago)",
    "Bitcoin 'death cross' is coming. Here's what happened after previous 13. (1h ago)",
    "Bitcoin on course to end seven-week losing streak while trailing stock rebound (2h ago)",
-   "Live news: Bitcoin rebounds above $61,000 as AI stocks lead premarket gains (2h ago)",
+   "Live updates: Bitcoin rebounds above $61,000 as AI stocks lead premarket gains (2h ago)",
    "Next ECB chief favors tokenized bank deposits over stablecoins and bitcoin (2h ago)",
    "Bitcoin supply metric hits 11-year low as new \u2018capitulation\u2019 signal arrives (2h ago)",
-   "Injective asks SEC to allow order books for tokenized stock trading (2h ago)",
-   "Brazil\u2019s stock exchange teams up with major banks to launch real-pegged stablecoin (3h ago)"
+   "Injective asks SEC to allow order books for tokenized stock trading (3h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -147,5 +175,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795785879.4607115
+ "last_macro_macro": 1795787157.9988432
 }
