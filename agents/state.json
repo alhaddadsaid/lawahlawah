@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -88142.08892206235,
+   "cash": -88225.15754195441,
    "open": [
     {
      "id": 4003,
@@ -21,21 +21,6 @@
      "size": 96850.16658419328,
      "deadline": 1795889294.6522377,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 4018,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "tooker",
-     "mint": "9EYScpiysGnEimnQPzazr7Jn9GVfxFYzgTEj85hV9L6U",
-     "side": 1,
-     "opened": 1795813503.4907115,
-     "entry": 0.0001297,
-     "stop": 0.00010376000000000002,
-     "target": 0.00018158,
-     "size": 1542020.0462606014,
-     "deadline": 1795820703.4907117,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 4019,
@@ -66,31 +51,63 @@
      "size": 1355932.2033898304,
      "deadline": 1795822722.1839843,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 4024,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Zero",
+     "mint": "DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump",
+     "side": 1,
+     "opened": 1795818817.8738801,
+     "entry": 0.0001564,
+     "stop": 0.00012512000000000002,
+     "target": 0.00021895999999999998,
+     "size": 1278772.378516624,
+     "deadline": 1795826017.8738801,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 4025,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Zhaki",
+     "mint": "2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump",
+     "side": 1,
+     "opened": 1795819184.973724,
+     "entry": 9.071e-05,
+     "stop": 7.2568e-05,
+     "target": 0.000126994,
+     "size": 2204828.5745783267,
+     "deadline": 1795826384.9737241,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 4024,
+ "next_id": 4026,
  "runs": 142,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:H2PjSbA2365uxBUJ3EBePSm67AYPuRMgcyswBnrVpump": 1795818435.79582,
-  "seen:9SMvQzDmGMpACAqET5PAmwUtHfBYdQ5a7SPLfQa4pump": 1795818435.79582,
-  "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795818435.79582,
-  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795818435.79582,
-  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795818619.183921,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795818619.183921,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795818619.183921,
-  "seen:Bv1a7cEj5aRnJQhMw4kRQqAFesMSd5LwcDnUzq52BMmr": 1795818802.4129236,
-  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795818802.4129236,
-  "seen:BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp": 1795818985.9043245,
-  "seen:3WsqUNArNSh5pYt6eTKbQ7uUJDgkPtFEA2XFvdEWpump": 1795818985.9043245,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795818985.9043245,
-  "seen:7dc3gFoyuDCPWjrfZfX99uasJJSceAJx5ucE8bDGpump": 1795818985.9043245,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795818985.9043245,
-  "seen:F5NjZLqXbYuEa9jBuRk76EzaqwAyVUP69nbW5yWNsHeW": 1795819165.937467,
-  "seen:GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump": 1795819165.937467,
-  "seen:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795819165.937467
+  "seen:H2PjSbA2365uxBUJ3EBePSm67AYPuRMgcyswBnrVpump": 1795819349.5913982,
+  "seen:3WHLxgCY7uvkiHMtDPKFhuMAk2nuG3vFLfTL2cHFpump": 1795819349.5913982,
+  "seen:9SMvQzDmGMpACAqET5PAmwUtHfBYdQ5a7SPLfQa4pump": 1795819349.5913982,
+  "seen:HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR": 1795819349.5913982,
+  "seen:3ycbjRrp3GWn1TvRGqSpyNyjdgrfzVspSYBzXhAzpump": 1795819533.0194192,
+  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795819533.0194192,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795819717.8110693,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795819717.8110693,
+  "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795819717.8110693,
+  "control:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795819717.8738835,
+  "seen:3WsqUNArNSh5pYt6eTKbQ7uUJDgkPtFEA2XFvdEWpump": 1795819901.112774,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795819901.112774,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795819901.112774,
+  "seen:7dc3gFoyuDCPWjrfZfX99uasJJSceAJx5ucE8bDGpump": 1795819901.112774,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795819901.112774,
+  "seen:AQ1VAV8JM1UuwCtgH6GPMDeDdujudfh697KP5XeV8vdY": 1795820084.932012,
+  "seen:GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump": 1795820084.932012,
+  "seen:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795820084.932012,
+  "control:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795820084.973728
  },
  "talks": {
   "2026-10-21": 109
@@ -131,15 +148,15 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795817535.8075404,
+  "t": 1795818449.6031055,
   "crypto": [
+   "Here\u2019s what happened in crypto today (0h ago)",
    "Franklin Templeton makes room for HYPE in crypto index ETF (1h ago)",
    "Bitcoin whales pile into BTC despite shrinking profit cushion (3h ago)",
    "China sets March 2027 rollout for blockchain identity regulations (5h ago)",
-   "Bitcoin price drops below $59K as Anthropic joins tech stock rebound (5h ago)",
+   "Bitcoin price drops below $59K as Anthropic joins tech stock rebound (6h ago)",
    "What was Coinbase worth while Nasdaq was closed? (8h ago)",
-   "Binance to launch tokenized IPO program after regulatory approval: Yi He (8h ago)",
-   "Here\u2019s what happened in crypto today (9h ago)",
+   "Binance to launch tokenized IPO program after regulatory approval: Yi He (9h ago)",
    "Kalshi turns to small businesses as legal battles threaten forecasts on sports (9h ago)",
    "Brazil\u2019s stock exchange pushes stablecoin launch back to 2027 (10h ago)",
    "Austria-supervised crypto firms report 20.4B euros in H1 trading volume (10h ago)"

@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-27 22:24 UTC. Runs so far: 142. Model: claude-haiku-5-5.
+Updated 2026-11-27 22:39 UTC. Runs so far: 142. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,18 +9,19 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3918 | 31 | -98197.25 | -135863.93 |
+| control | meme | 3919 | 31 | -98280.32 | -135955.13 |
 | control | macro | 82 | 48 | 55.09 | -347.67 |
-| control | all | 4000 | 31 | -98142.16 | -136211.6 |
+| control | all | 4001 | 31 | -98225.23 | -136302.8 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GBPUSD short at 1.30964, stop 1.31067, target 1.30809, opened 2026-11-27 18:08 UTC
-- control: tooker long at 0.0001297, stop 0.00010376, target 0.00018158, opened 2026-11-27 21:05 UTC
 - control: Kibo long at 6.328e-05, stop 5.0624e-05, target 8.8592e-05, opened 2026-11-27 21:08 UTC
 - control: Split long at 0.0001475, stop 0.000118, target 0.0002065, opened 2026-11-27 21:38 UTC
+- control: Zero long at 0.0001564, stop 0.00012512, target 0.00021896, opened 2026-11-27 22:33 UTC
+- control: Zhaki long at 9.071e-05, stop 7.2568e-05, target 0.000126994, opened 2026-11-27 22:39 UTC
 
 ## Team
 
@@ -33,6 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 401: invalid x-api-key
-- control: order Split REJECTED by guardrails: Split already open
+- 2026-11-27 22:39 UTC control: OPENED Zhaki long at 9.071e-05 (stop 7.2568e-05, target 0.000126994) - control: frozen v3 rules
 
