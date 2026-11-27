@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-27 20:46 UTC. Runs so far: 142. Model: claude-haiku-5-5.
+Updated 2026-11-27 20:58 UTC. Runs so far: 142. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3911 | 31 | -98038.01 | -135636.98 |
+| control | meme | 3912 | 31 | -98102.72 | -135710.29 |
 | control | macro | 82 | 48 | 55.09 | -347.67 |
-| control | all | 3993 | 31 | -97982.92 | -135984.65 |
+| control | all | 3994 | 31 | -98047.63 | -136057.96 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: GBPUSD short at 1.30964, stop 1.31067, target 1.30809, opened 2026-11-27 18:08 UTC
 - control: Kibo long at 8.48e-05, stop 6.784e-05, target 0.00011872, opened 2026-11-27 20:34 UTC
-- control: Fullball long at 0.0001092, stop 8.736e-05, target 0.00015288, opened 2026-11-27 20:46 UTC
+- control: Split long at 0.0001297, stop 0.00010376, target 0.00018158, opened 2026-11-27 20:55 UTC
 
 ## Team
 
@@ -32,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-27 20:46 UTC control: OPENED Fullball long at 0.0001092 (stop 8.736e-05, target 0.00015288) - control: frozen v3 rules
+- team: model call failed:  HTTP 401: invalid x-api-key
 
