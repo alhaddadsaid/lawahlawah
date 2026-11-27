@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-27 09:03 UTC. Runs so far: 141. Model: claude-haiku-5-5.
+Updated 2026-11-27 09:15 UTC. Runs so far: 141. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3879 | 31 | -96933.93 | -134232.98 |
+| control | meme | 3880 | 31 | -97029.8 | -134336.65 |
 | control | macro | 82 | 48 | 55.09 | -347.67 |
-| control | all | 3961 | 31 | -96878.84 | -134580.65 |
+| control | all | 3962 | 31 | -96974.71 | -134684.32 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -20,8 +20,8 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: BASKET long at 0.000431, stop 0.0003448, target 0.0006034, opened 2026-11-27 08:23 UTC
 - control: NETWORK long at 7.863e-05, stop 6.2904e-05, target 0.000110082, opened 2026-11-27 08:26 UTC
 - control: SNOWBALLZ long at 5.031e-05, stop 4.0248e-05, target 7.0434e-05, opened 2026-11-27 08:38 UTC
-- control: Kibo long at 0.0001335, stop 0.0001068, target 0.0001869, opened 2026-11-27 08:47 UTC
 - control: Investor long at 5.481e-05, stop 4.3848e-05, target 7.6734e-05, opened 2026-11-27 08:50 UTC
+- control: Kibo long at 7.281e-05, stop 5.8248e-05, target 0.000101934, opened 2026-11-27 09:15 UTC
 
 ## Team
 
@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order SNOWBALLZ REJECTED by guardrails: desk already has the maximum open positions
+- 2026-11-27 09:15 UTC control: OPENED Kibo long at 7.281e-05 (stop 5.8248e-05, target 0.000101934) - control: frozen v3 rules
 

@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -86878.75079828959,
+   "cash": -86974.62383199745,
    "open": [
     {
      "id": 3981,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3984,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Kibo",
-     "mint": "7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump",
-     "side": 1,
-     "opened": 1795769277.5906935,
-     "entry": 0.0001335,
-     "stop": 0.0001068,
-     "target": 0.00018689999999999996,
-     "size": 1498127.34082397,
-     "deadline": 1795776477.5906935,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3985,
      "desk": "control",
      "market": "meme",
@@ -81,29 +66,44 @@
      "size": 3648969.1662105457,
      "deadline": 1795776659.8455832,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3986,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Kibo",
+     "mint": "7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump",
+     "side": 1,
+     "opened": 1795770920.5453758,
+     "entry": 7.281e-05,
+     "stop": 5.8248e-05,
+     "target": 0.000101934,
+     "size": 2746875.429199286,
+     "deadline": 1795778120.545376,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3986,
+ "next_id": 3987,
  "runs": 141,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795770359.5881479,
-  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795770359.5881479,
-  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795770359.5881479,
-  "seen:G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump": 1795770359.5881479,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795770359.5881479,
-  "seen:DCFiFuRwjwdSKcYKmuz47gcSNsjjtZ6Rh8KkLaVCpump": 1795770359.5881479,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1795770359.5881479,
-  "control:J9eBkCb4UtquAMQqB6duwBmR99fFSMoTnDcaMB9Wpump": 1795770359.8455868,
-  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795770541.5964382,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795770541.5964382,
-  "seen:FF6oz9Fr1JXB2RZKg5JRPpGjQr5WgHWcnu9Vau9rpump": 1795770722.897842,
-  "seen:EbCpz1zmPhhFxSLSSt2u9tq3ti7WdHdXABCfe7w9Wy83": 1795770909.7097583,
-  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795770909.7097583,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795770909.7097583,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795770909.7097583
+  "seen:BABANGA4JE7Kkam4nTrALAwAVgsNJUuFJnnkF7S16BZp": 1795771275.380305,
+  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795771275.380305,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795771275.380305,
+  "seen:G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump": 1795771275.380305,
+  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795771275.380305,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795771275.380305,
+  "seen:DCFiFuRwjwdSKcYKmuz47gcSNsjjtZ6Rh8KkLaVCpump": 1795771275.380305,
+  "seen:2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ": 1795771275.380305,
+  "seen:zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": 1795771458.2692928,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795771458.2692928,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795771458.2692928,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795771640.5383227,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795771640.5383227,
+  "seen:2va3NUJtEcPemDYg2N1RgA79rPKGTGGJKo3gTY5zpump": 1795771820.510042,
+  "control:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795771820.5453784
  },
  "talks": {
   "2026-10-21": 109
@@ -144,17 +144,17 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795769459.6030354,
+  "t": 1795770375.3949285,
   "crypto": [
    "ESMA to overhaul EU\u2019s MiCA crypto register in 2027 (1h ago)",
-   "Monero suffers biggest single-day slide in over 5 months. Here\u2019s why (1h ago)",
+   "Monero suffers biggest single-day slide in over 5 months. Here\u2019s why (2h ago)",
    "New York AG secures $1.37B court judgment against NovaTech founders (2h ago)",
    "Here\u2019s what happened in crypto today (3h ago)",
-   "Japan\u2019s crypto security group taps SEAL to speed up hack response (3h ago)",
+   "Japan\u2019s crypto security group taps SEAL to speed up hack response (4h ago)",
    "Ripple's lending plan moves closer to tapping XRP Ledger's $800 million in stablecoins (4h ago)",
    "Ethereum devs set Glamsterdam\u2019s Hoodi rollout for mid-December after delays (4h ago)",
    "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack (4h ago)",
-   "Ethereum's much-awaited Glamsterdam upgrade cleared for December test. Here's what to know (4h ago)",
+   "Ethereum's much-awaited Glamsterdam upgrade cleared for December test. Here's what to know (5h ago)",
    "AI is driving a flood of crypto bug reports. Now it\u2019s helping sort them (7h ago)"
   ],
   "macro": [],
@@ -188,5 +188,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795769277.4865446
+ "last_macro_macro": 1795770558.284191
 }
