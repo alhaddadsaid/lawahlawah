@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-26 23:42 UTC. Runs so far: 140. Model: claude-haiku-5-5.
+Updated 2026-11-27 00:01 UTC. Runs so far: 140. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -20,6 +20,7 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: GBPUSD short at 1.31055, stop 1.31158, target 1.309, opened 2026-11-26 17:00 UTC
 - control: EURUSD short at 1.09745, stop 1.09825, target 1.09625, opened 2026-11-26 18:01 UTC
 - control: DIGS long at 0.0002421, stop 0.00019368, target 0.00033894, opened 2026-11-26 23:42 UTC
+- control: Zero long at 0.000101, stop 8.08e-05, target 0.0001414, opened 2026-11-27 00:01 UTC
 
 ## Team
 
@@ -32,10 +33,6 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-## Run started 2026-11-26 23:42 UTC
-- control: CLOSED DIGS (time, while away) P&L $-28.62 normal, $-38.14 pessimistic
-- control: CLOSED Zero (time, while away) P&L $52.63 normal, $41.03 pessimistic
-- control: CLOSED BASKET (time, while away) P&L $-8.54 normal, $-18.58 pessimistic
-- team: model call failed:  HTTP 401: invalid x-api-key
-- 2026-11-26 23:42 UTC control: OPENED DIGS long at 0.0002421 (stop 0.00019368, target 0.00033894) - control: frozen v3 rules
+- 2026-11-27 00:01 UTC control: OPENED Zero long at 0.000101 (stop 8.08e-05, target 0.0001414) - control: frozen v3 rules
+- control: order EURUSD REJECTED by guardrails: EURUSD already open
 
