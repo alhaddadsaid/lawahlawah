@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -86799.62635609455,
+   "cash": -86905.70423063658,
    "open": [
     {
      "id": 3971,
@@ -21,40 +21,14 @@
      "size": 2159593.99632869,
      "deadline": 1795760428.7959774,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3973,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DragonRiders",
-     "mint": "5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh",
-     "side": 1,
-     "opened": 1795753577.4388506,
-     "entry": 0.0001455,
-     "stop": 0.00011640000000000001,
-     "target": 0.00020370000000000002,
-     "size": 1374570.4467353951,
-     "deadline": 1795760777.4388509,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3976,
+ "next_id": 3977,
  "runs": 140,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GNWViinSuGu8KUYZ6GExrgicdSxSSrAEMaLwiMncHhMT": 1795754842.4640174,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795754842.4640174,
-  "seen:DDKtTw9ZtwMVhgW1L1tdVWxFoajmmxUS5vquTu569YKx": 1795755023.792776,
-  "seen:4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump": 1795755023.792776,
-  "seen:RBLXDGRD64AtRamHMFVcjqne3Ar7NLWtFtYNtsrf1cE": 1795755023.792776,
-  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795755206.8127747,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795755206.8127747,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795755206.8127747,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795755206.8127747,
-  "seen:52a6B3qpwGN9daQBTu8kvbXQVgThuiGMJE1mmCEgpump": 1795755206.8127747,
-  "seen:CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump": 1795755206.8127747,
   "seen:4tpCctMM4XzW8kEJR8TPsyV8amsbn7G5sSHmEGBbg2ZY": 1795755389.2101614,
   "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795755389.2101614,
   "seen:cg3HaDWhAKFfj9aq79TWUBgmxfs4G7byQ7feaxnpump": 1795755591.8530366,
@@ -64,7 +38,19 @@
   "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795755591.8530366,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795755591.8530366,
   "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795755591.8530366,
-  "control:cg3HaDWhAKFfj9aq79TWUBgmxfs4G7byQ7feaxnpump": 1795755591.8901281
+  "control:cg3HaDWhAKFfj9aq79TWUBgmxfs4G7byQ7feaxnpump": 1795755591.8901281,
+  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795755755.0311246,
+  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795755755.0311246,
+  "control:EomygbXHKGwb9bkCatVftQpCVgvBPmgAnMUuwusxpump": 1795755755.0730286,
+  "seen:9RPhjqKoLQXCLf9ktfnbMVwN1LVjooKesUVgjY9tzmHs": 1795755942.3179097,
+  "seen:hRJuU9ZrSE157KhraijP7w7WbP6yhggtgaiW2TYpump": 1795755942.3179097,
+  "seen:4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump": 1795755942.3179097,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795755942.3179097,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795756118.6768413,
+  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795756118.6768413,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795756118.6768413,
+  "seen:CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump": 1795756118.6768413,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795756118.6768413
  },
  "talks": {
   "2026-10-21": 109
@@ -105,18 +91,18 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795754306.8312638,
+  "t": 1795755218.695136,
   "crypto": [
+   "Ethereum devs set Glamsterdam\u2019s Hoodi rollout for mid-December after delays (0h ago)",
+   "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack (0h ago)",
    "Ethereum's much-awaited Glamsterdam upgrade cleared for December test. Here's what to know (0h ago)",
    "AI is driving a flood of crypto bug reports. Now it\u2019s helping sort them (3h ago)",
    "Privacy coins face diverging fortunes as KuCoin moves to drop Monero (4h ago)",
    "\u2018Very racist\u2019 Netflix SBF series, BitMart\u2019s $319M shortfall: Asia Express (6h ago)",
-   "Here\u2019s what happened in crypto today (6h ago)",
+   "Here\u2019s what happened in crypto today (7h ago)",
    "BNB Chain details new layer-1 for trading, private finance and AI (7h ago)",
    "Binance completes withdrawal recovery four weeks after $6.3B hack (7h ago)",
-   "UK is \u2018getting it wrong\u2019 on DeFi regulation, says Coinbase (7h ago)",
-   "Japan weighs tighter oversight of DeFi, self-custodial wallets (9h ago)",
-   "Spain moves to grant financial watchdog power to freeze crypto accounts (10h ago)"
+   "UK is \u2018getting it wrong\u2019 on DeFi regulation, says Coinbase (8h ago)"
   ],
   "macro": [],
   "calendar": []
