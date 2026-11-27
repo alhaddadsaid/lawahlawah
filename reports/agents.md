@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-27 19:15 UTC. Runs so far: 142. Model: claude-haiku-5-5.
+Updated 2026-11-27 19:28 UTC. Runs so far: 142. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3905 | 31 | -97987.39 | -135526.12 |
+| control | meme | 3906 | 31 | -98053.6 | -135600.89 |
 | control | macro | 82 | 48 | 55.09 | -347.67 |
-| control | all | 3987 | 31 | -97932.3 | -135873.79 |
+| control | all | 3988 | 31 | -97998.51 | -135948.56 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -21,7 +21,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 - control: Rizzmas long at 1.41e-06, stop 1.128e-06, target 1.974e-06, opened 2026-11-27 18:11 UTC
 - control: 67 long at 5.458e-05, stop 4.3664e-05, target 7.6412e-05, opened 2026-11-27 18:29 UTC
 - control: Kibo long at 7.066e-05, stop 5.6528e-05, target 9.8924e-05, opened 2026-11-27 19:12 UTC
-- control: WINSTON long at 6.067e-05, stop 4.8536e-05, target 8.4938e-05, opened 2026-11-27 19:15 UTC
 
 ## Team
 
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-27 19:15 UTC control: OPENED WINSTON long at 6.067e-05 (stop 4.8536e-05, target 8.4938e-05) - control: frozen v3 rules
+- control: CLOSED WINSTON (stop) P&L $-66.21 normal, $-74.77 pessimistic
 
