@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -86571.63635595379,
+   "cash": -86685.77312566731,
    "open": [
-    {
-     "id": 3941,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "EURUSD",
-     "mint": "",
-     "side": -1,
-     "opened": 1795716082.153201,
-     "entry": 1.0974539518356323,
-     "stop": 1.0982544337000166,
-     "target": 1.0962532290390559,
-     "size": 124924.75401290375,
-     "deadline": 1795802482.1532013,
-     "thesis": "control: random direction"
-    },
     {
      "id": 3958,
      "desk": "control",
@@ -66,32 +51,48 @@
      "size": 812347.6848090983,
      "deadline": 1795752195.802782,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3961,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "BASKET",
+     "mint": "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f",
+     "side": 1,
+     "opened": 1795746641.738507,
+     "entry": 0.0004291,
+     "stop": 0.00034328000000000006,
+     "target": 0.00060074,
+     "size": 466091.82008855743,
+     "deadline": 1795753841.7385073,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3961,
+ "next_id": 3962,
  "runs": 140,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump": 1795746447.0902355,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795746447.0902355,
-  "seen:G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump": 1795746447.0902355,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795746447.0902355,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795746447.0902355,
-  "seen:8KoMe1tH3hqMVsdDjiASwfCZzkvVt2e1L2Y7NEeypump": 1795746630.4906197,
-  "seen:7Ttmp4xBtErMzxpR6AhuzJjDf7u3YGJtWm5ibPsqpump": 1795746630.4906197,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795746630.4906197,
-  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795746630.4906197,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795746815.815824,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795746815.815824,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795746815.815824,
-  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795746815.815824,
   "seen:6CivJJZhRfkL9Efumy4mJWqcqMpmHpT9uY66TfE5pump": 1795746993.6182208,
   "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795746993.6182208,
   "seen:HMLRCJeYnuLpdJR8qiWV8ntiGArzb4E1v8DnZLbQ7M7L": 1795747176.2684014,
   "seen:3wBf3h6uxqAsb2RizqQudNGK1VAUKew2H9GpQtHDpump": 1795747176.2684014,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795747176.2684014
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795747176.2684014,
+  "seen:4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump": 1795747400.1669478,
+  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795747400.1669478,
+  "seen:G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump": 1795747400.1669478,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795747400.1669478,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795747400.1669478,
+  "seen:7Ttmp4xBtErMzxpR6AhuzJjDf7u3YGJtWm5ibPsqpump": 1795747541.6975005,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795747541.6975005,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795747541.6975005,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795747541.6975005,
+  "control:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795747541.7385106,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795747723.9574077,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795747723.9574077,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795747723.9574077,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795747723.9574077
  },
  "talks": {
   "2026-10-21": 109
@@ -132,7 +133,7 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795745915.833677,
+  "t": 1795746823.975685,
   "crypto": [
    "AI is driving a flood of crypto bug reports. Now it\u2019s helping sort them (1h ago)",
    "Privacy coins face diverging fortunes as KuCoin moves to drop Monero (2h ago)",
@@ -176,5 +177,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795745547.1078117
+ "last_macro_macro": 1795746823.975449
 }
