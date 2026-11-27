@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -87930.15988441803,
+   "cash": -87982.84392350598,
    "open": [
     {
      "id": 4003,
@@ -38,40 +38,27 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 4014,
+     "id": 4015,
      "desk": "control",
      "market": "meme",
-     "symbol": "Split",
-     "mint": "HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump",
+     "symbol": "Fullball",
+     "mint": "GdDpHWwrRLDHR2soP75sEtqzDzY1rkATuVszAHv5pump",
      "side": 1,
-     "opened": 1795811851.5830774,
-     "entry": 0.0001535,
-     "stop": 0.0001228,
-     "target": 0.00021489999999999997,
-     "size": 1302931.5960912053,
-     "deadline": 1795819051.5830777,
+     "opened": 1795812403.21699,
+     "entry": 0.0001092,
+     "stop": 8.736e-05,
+     "target": 0.00015287999999999999,
+     "size": 1831501.8315018315,
+     "deadline": 1795819603.21699,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 4015,
+ "next_id": 4016,
  "runs": 142,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GdDpHWwrRLDHR2soP75sEtqzDzY1rkATuVszAHv5pump": 1795812020.8861678,
-  "seen:GzdUV4xe5Rmt34iNBoNKBzf4t8b8y3Pigu3iRcT8pump": 1795812020.8861678,
-  "seen:7cPKubouxwsSy4aAKHtDKUETZ6uxVZDntRuy7Cappump": 1795812020.8861678,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795812020.8861678,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795812020.8861678,
-  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795812020.8861678,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795812020.8861678,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795812020.8861678,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795812199.8577883,
-  "seen:AjucUKL3i8wh7SvFL9h5cZbWkd3M9JibLkdvRJKppump": 1795812387.2087495,
-  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795812387.2087495,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795812387.2087495,
-  "control:GdDpHWwrRLDHR2soP75sEtqzDzY1rkATuVszAHv5pump": 1795812387.2490222,
   "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795812569.809392,
   "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795812569.809392,
   "seen:MAXXib7SQAQn4ymrwhhR9qMRUcYv8BNhbQxizJn5CCk": 1795812569.809392,
@@ -80,7 +67,20 @@
   "seen:7dc3gFoyuDCPWjrfZfX99uasJJSceAJx5ucE8bDGpump": 1795812751.4345465,
   "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795812751.4345465,
   "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795812751.4345465,
-  "control:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795812751.5830805
+  "control:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795812751.5830805,
+  "seen:GdDpHWwrRLDHR2soP75sEtqzDzY1rkATuVszAHv5pump": 1795812936.8454258,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795812936.8454258,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795812936.8454258,
+  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795812936.8454258,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795812936.8454258,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795812936.8454258,
+  "seen:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795813120.3521206,
+  "seen:AQFzxjKB66sXWHBUrEPpnrxQokPU3eDKKkkyprHBpump": 1795813120.3521206,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795813120.3521206,
+  "seen:3WsqUNArNSh5pYt6eTKbQ7uUJDgkPtFEA2XFvdEWpump": 1795813303.1772935,
+  "seen:AjucUKL3i8wh7SvFL9h5cZbWkd3M9JibLkdvRJKppump": 1795813303.1772935,
+  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795813303.1772935,
+  "control:GdDpHWwrRLDHR2soP75sEtqzDzY1rkATuVszAHv5pump": 1795813303.2169938
  },
  "talks": {
   "2026-10-21": 109
@@ -121,7 +121,7 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795811120.8977017,
+  "t": 1795812036.8570662,
   "crypto": [
    "Bitcoin whales pile into BTC despite shrinking profit cushion (1h ago)",
    "China sets March 2027 rollout for blockchain identity regulations (3h ago)",
