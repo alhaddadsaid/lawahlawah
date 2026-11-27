@@ -36,19 +36,29 @@
      "size": 1937984.496124031,
      "deadline": 1795783589.9706953,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3992,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "PAID",
+     "mint": "98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump",
+     "side": 1,
+     "opened": 1795779487.344365,
+     "entry": 0.001095,
+     "stop": 0.000876,
+     "target": 0.001533,
+     "size": 182648.401826484,
+     "deadline": 1795786687.3443651,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3992,
+ "next_id": 3993,
  "runs": 141,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4tqzkSWA9tiWYhzYpSt81We3cVNkrEbkD1tzjFDZpump": 1795779473.9101608,
-  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795779473.9101608,
-  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795779473.9101608,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795779473.9101608,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795779473.9101608,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795779658.9316018,
   "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795779658.9316018,
   "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795779845.3714054,
@@ -59,7 +69,13 @@
   "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795780027.963135,
   "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795780027.963135,
   "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795780027.963135,
-  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795780208.3723562
+  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795780208.3723562,
+  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795780386.91968,
+  "seen:4tqzkSWA9tiWYhzYpSt81We3cVNkrEbkD1tzjFDZpump": 1795780386.91968,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795780386.91968,
+  "seen:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1795780386.91968,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795780386.91968,
+  "control:98kfF7rmsg1QDUEoCqNE7g7M1FdrTt92TEp2CLzypump": 1795780387.3443687
  },
  "talks": {
   "2026-10-21": 109
@@ -100,18 +116,18 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795778573.925386,
+  "t": 1795779486.9348273,
   "crypto": [
+   "Next ECB chief favors tokenized bank deposits over stablecoins and bitcoin (0h ago)",
    "Bitcoin supply metric hits 11-year low as new \u2018capitulation\u2019 signal arrives (0h ago)",
-   "Injective asks SEC to allow order books for tokenized stock trading (0h ago)",
+   "Injective asks SEC to allow order books for tokenized stock trading (1h ago)",
    "Brazil\u2019s stock exchange teams up with major banks to launch real-pegged stablecoin (1h ago)",
    "Bluefin to shut down perps, refocus on spot trading and tokenized RWAs (1h ago)",
-   "Tether can freeze stolen crypto in minutes. Getting it back can take years. (1h ago)",
+   "Tether can freeze stolen crypto in minutes. Getting it back can take years. (2h ago)",
    "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday\u2019s rebound (2h ago)",
-   "ESMA to overhaul EU\u2019s MiCA crypto register in 2027 (3h ago)",
+   "ESMA to overhaul EU\u2019s MiCA crypto register in 2027 (4h ago)",
    "Monero suffers biggest single-day slide in over 5 months. Here\u2019s why (4h ago)",
-   "New York AG secures $1.37B court judgment against NovaTech founders (4h ago)",
-   "Here\u2019s what happened in crypto today (5h ago)"
+   "New York AG secures $1.37B court judgment against NovaTech founders (4h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -144,5 +160,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795778215.2301166
+ "last_macro_macro": 1795779486.9345393
 }
