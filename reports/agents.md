@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-27 10:34 UTC. Runs so far: 141. Model: claude-haiku-5-5.
+Updated 2026-11-27 10:46 UTC. Runs so far: 141. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,18 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3884 | 31 | -96918.41 | -134269.14 |
+| control | meme | 3886 | 31 | -96782.41 | -134157.14 |
 | control | macro | 82 | 48 | 55.09 | -347.67 |
-| control | all | 3966 | 31 | -96863.32 | -134616.81 |
+| control | all | 3968 | 31 | -96727.32 | -134504.81 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: Investor long at 5.481e-05, stop 4.3848e-05, target 7.6734e-05, opened 2026-11-27 08:50 UTC
-- control: SNOWBALLZ long at 7.277e-05, stop 5.8216e-05, target 0.000101878, opened 2026-11-27 09:36 UTC
-- control: Kibo long at 0.0001034, stop 8.272e-05, target 0.00014476, opened 2026-11-27 09:39 UTC
 - control: CINU long at 9.57e-05, stop 7.656e-05, target 0.00013398, opened 2026-11-27 10:31 UTC
 - control: BASKET long at 0.0004144, stop 0.00033152, target 0.00058016, opened 2026-11-27 10:34 UTC
+- control: SNOWBALLZ long at 0.0001032, stop 8.256e-05, target 0.00014448, opened 2026-11-27 10:46 UTC
 
 ## Team
 
@@ -34,6 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- team: model call failed:  HTTP 401: invalid x-api-key
-- 2026-11-27 10:34 UTC control: OPENED BASKET long at 0.0004144 (stop 0.00033152, target 0.00058016) - control: frozen v3 rules
+- 2026-11-27 10:46 UTC control: OPENED SNOWBALLZ long at 0.0001032 (stop 8.256e-05, target 0.00014448) - control: frozen v3 rules
 
