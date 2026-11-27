@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -88175.25235864214,
+   "cash": -88226.10320609977,
    "open": [
     {
      "id": 4003,
@@ -21,21 +21,6 @@
      "size": 96850.16658419328,
      "deadline": 1795889294.6522377,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 4022,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Split",
-     "mint": "HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump",
-     "side": 1,
-     "opened": 1795815522.183984,
-     "entry": 0.0001475,
-     "stop": 0.00011800000000000001,
-     "target": 0.0002065,
-     "size": 1355932.2033898304,
-     "deadline": 1795822722.1839843,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 4024,
@@ -74,26 +59,22 @@
  "runs": 142,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump": 1795820999.1947486,
-  "seen:7dc3gFoyuDCPWjrfZfX99uasJJSceAJx5ucE8bDGpump": 1795820999.1947486,
-  "seen:AQ1VAV8JM1UuwCtgH6GPMDeDdujudfh697KP5XeV8vdY": 1795821182.0530703,
-  "seen:H2PjSbA2365uxBUJ3EBePSm67AYPuRMgcyswBnrVpump": 1795821182.0530703,
-  "seen:9SMvQzDmGMpACAqET5PAmwUtHfBYdQ5a7SPLfQa4pump": 1795821182.0530703,
-  "seen:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795821182.0530703,
-  "seen:5TkyHpVZCnuW6w21q6mvFQ2Fgyvq3KySHJqfuki9pump": 1795821365.9191391,
-  "seen:JC6cvMboQf1det5nh3RDiBEixcNPWLP6fNfvGkHtpump": 1795821365.9191391,
-  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795821365.9191391,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795821365.9191391,
-  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795821365.9191391,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795821550.484967,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795821550.484967,
-  "seen:9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump": 1795821550.484967,
-  "seen:HshCSsRP6xLH5Wvc5q9mAW2JZuE8gQn72p29RcGJpump": 1795821733.4317803,
-  "seen:6DmC5KR6DF62Gfz5oe8uVkNFrQb5N3kdXpKswA7pump": 1795821733.4317803,
-  "seen:3WsqUNArNSh5pYt6eTKbQ7uUJDgkPtFEA2XFvdEWpump": 1795821733.4317803,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795821733.4317803,
-  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795821733.4317803,
-  "seen:GdDpHWwrRLDHR2soP75sEtqzDzY1rkATuVszAHv5pump": 1795821733.4317803
+  "seen:GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump": 1795821917.2573843,
+  "seen:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795821917.2573843,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795821917.2573843,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795821917.2573843,
+  "seen:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795822098.9967608,
+  "seen:7dc3gFoyuDCPWjrfZfX99uasJJSceAJx5ucE8bDGpump": 1795822098.9967608,
+  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795822282.4999163,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795822282.4999163,
+  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795822282.4999163,
+  "seen:9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump": 1795822467.5993996,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795822467.5993996,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795822467.5993996,
+  "seen:EgD7ugTPh8QTrA1NYF5WN6X6bvMUv8HzB3ezn7Yepump": 1795822647.175037,
+  "seen:SQQQAa3gUxgnqcEsdjPA4RQNQBgB97TnG2hJhk2WaGE": 1795822647.175037,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795822647.175037,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795822647.175037
  },
  "talks": {
   "2026-10-21": 109
@@ -134,17 +115,17 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795820282.0647871,
+  "t": 1795821199.0084908,
   "crypto": [
    "Here\u2019s what happened in crypto today (1h ago)",
    "Franklin Templeton makes room for HYPE in crypto index ETF (2h ago)",
    "Bitcoin whales pile into BTC despite shrinking profit cushion (4h ago)",
-   "China sets March 2027 rollout for blockchain identity regulations (5h ago)",
+   "China sets March 2027 rollout for blockchain identity regulations (6h ago)",
    "Bitcoin price drops below $59K as Anthropic joins tech stock rebound (6h ago)",
-   "What was Coinbase worth while Nasdaq was closed? (8h ago)",
+   "What was Coinbase worth while Nasdaq was closed? (9h ago)",
    "Binance to launch tokenized IPO program after regulatory approval: Yi He (9h ago)",
    "Kalshi turns to small businesses as legal battles threaten forecasts on sports (10h ago)",
-   "Brazil\u2019s stock exchange pushes stablecoin launch back to 2027 (10h ago)",
+   "Brazil\u2019s stock exchange pushes stablecoin launch back to 2027 (11h ago)",
    "Austria-supervised crypto firms report 20.4B euros in H1 trading volume (11h ago)"
   ],
   "macro": [],
