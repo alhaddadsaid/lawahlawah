@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-27 05:27 UTC. Runs so far: 140. Model: claude-haiku-5-5.
+Updated 2026-11-27 08:08 UTC. Runs so far: 141. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,16 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3876 | 31 | -96944.3 | -134212.32 |
+| control | meme | 3878 | 31 | -96882.22 | -134172.34 |
 | control | macro | 82 | 48 | 55.09 | -347.67 |
-| control | all | 3958 | 31 | -96889.21 | -134559.99 |
+| control | all | 3960 | 31 | -96827.13 | -134520.01 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: DragonRiders long at 0.0001097, stop 8.776e-05, target 0.00015358, opened 2026-11-27 04:59 UTC
-- control: LEVER long at 7.406e-05, stop 5.9248e-05, target 0.000103684, opened 2026-11-27 05:08 UTC
+- control: Kibo long at 0.0001259, stop 0.00010072, target 0.00017626, opened 2026-11-27 08:08 UTC
 
 ## Team
 
@@ -31,5 +30,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-## Run ended 2026-11-27 05:27 UTC
+- 2026-11-27 08:08 UTC control: OPENED Kibo long at 0.0001259 (stop 0.00010072, target 0.00017626) - control: frozen v3 rules
 
