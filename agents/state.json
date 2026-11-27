@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -86422.49301809551,
+   "cash": -86486.4619376811,
    "open": [
     {
      "id": 3935,
@@ -66,34 +66,51 @@
      "size": 1821493.6247723133,
      "deadline": 1795745426.868294,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3955,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "BASKET",
+     "mint": "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f",
+     "side": 1,
+     "opened": 1795738773.945676,
+     "entry": 0.0004632,
+     "stop": 0.00037056000000000003,
+     "target": 0.0006484799999999999,
+     "size": 431778.9291882556,
+     "deadline": 1795745973.9456763,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3954,
+ "next_id": 3956,
  "runs": 140,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9J2cy3AfDquDDKqjteYaFSrYEvUAGnb1Qxw8pZQApump": 1795738388.2208846,
-  "seen:81TW4gTEH4aNsSaKCoBhoznx9AG8AiYoBXfvEzJkpump": 1795738388.2208846,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795738388.2208846,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795738388.2208846,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795738388.2208846,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795738388.2208846,
-  "seen:CKiuTwHFMXKBaQ4V1WgsYctsdbLeit3wytXRkphzpump": 1795738576.861695,
-  "seen:CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump": 1795738576.861695,
-  "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795738576.861695,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795738576.861695,
-  "control:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795738576.9089417,
-  "seen:D43PBweGL9R9beB6NagU8SdTKgn1JhdUJ8XQwBKnpump": 1795738761.314563,
-  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795738761.314563,
-  "seen:2VeUSgG7uyFdEvvPVn8vhBWDagegU3mZ6pL51r9Bvv2r": 1795738761.314563,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795738761.314563,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795738943.8750658,
-  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795738943.8750658,
   "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795739126.8242962,
   "seen:J9eBkCb4UtquAMQqB6duwBmR99fFSMoTnDcaMB9Wpump": 1795739126.8242962,
-  "control:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795739126.8682976
+  "control:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795739126.8682976,
+  "seen:9J2cy3AfDquDDKqjteYaFSrYEvUAGnb1Qxw8pZQApump": 1795739306.6323214,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795739306.6323214,
+  "seen:81TW4gTEH4aNsSaKCoBhoznx9AG8AiYoBXfvEzJkpump": 1795739306.6323214,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795739306.6323214,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795739306.6323214,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795739306.6323214,
+  "seen:2KNE6xr1Jre7LoX3U82deuuyJbFVEsqcCtwyvkMfpump": 1795739306.6323214,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795739306.6323214,
+  "control:81TW4gTEH4aNsSaKCoBhoznx9AG8AiYoBXfvEzJkpump": 1795739307.208502,
+  "seen:DFKwjUFbbS3RZ3zFxoHkMgZVeLnrQLttgxhwbkdsidFD": 1795739490.2021399,
+  "seen:CKiuTwHFMXKBaQ4V1WgsYctsdbLeit3wytXRkphzpump": 1795739490.2021399,
+  "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795739490.2021399,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795739490.2021399,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795739673.9053295,
+  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795739673.9053295,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795739673.9053295,
+  "control:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795739673.9456809,
+  "seen:2VeUSgG7uyFdEvvPVn8vhBWDagegU3mZ6pL51r9Bvv2r": 1795739855.0415378,
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795739855.0415378
  },
  "talks": {
   "2026-10-21": 109
@@ -134,17 +151,17 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795737488.2392223,
+  "t": 1795738406.6503162,
   "crypto": [
-   "\u2018Very racist\u2019 Netflix SBF series, BitMart\u2019s $319M shortfall: Asia Express (1h ago)",
+   "\u2018Very racist\u2019 Netflix SBF series, BitMart\u2019s $319M shortfall: Asia Express (2h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
-   "BNB Chain details new layer-1 for trading, private finance and AI (2h ago)",
-   "Binance completes withdrawal recovery four weeks after $6.3B hack (2h ago)",
+   "BNB Chain details new layer-1 for trading, private finance and AI (3h ago)",
+   "Binance completes withdrawal recovery four weeks after $6.3B hack (3h ago)",
    "UK is \u2018getting it wrong\u2019 on DeFi regulation, says Coinbase (3h ago)",
    "Japan weighs tighter oversight of DeFi, self-custodial wallets (4h ago)",
    "Spain moves to grant financial watchdog power to freeze crypto accounts (6h ago)",
-   "Crypto on notice as hawkish Fed risks December \u2018meltdown\u2019 (6h ago)",
-   "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds (6h ago)",
+   "Crypto on notice as hawkish Fed risks December \u2018meltdown\u2019 (7h ago)",
+   "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds (7h ago)",
    "Bitcoin\u2019s dormant supply rises, a behavior seen during previous bear-market bottoming phases (7h ago)"
   ],
   "macro": [],
