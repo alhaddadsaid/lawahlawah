@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -86417.61126630157,
+   "cash": -86543.74451657555,
    "open": [
-    {
-     "id": 3935,
-     "desk": "control",
-     "market": "macro",
-     "symbol": "GBPUSD",
-     "mint": "",
-     "side": -1,
-     "opened": 1795712420.811705,
-     "entry": 1.3105472326278687,
-     "stop": 1.3115805983543396,
-     "target": 1.3089971840381622,
-     "size": 96771.1599469343,
-     "deadline": 1795798820.8117056,
-     "thesis": "control: random direction"
-    },
     {
      "id": 3941,
      "desk": "control",
@@ -81,33 +66,46 @@
      "size": 1355932.2033898304,
      "deadline": 1795751120.4645772,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3960,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "DIGS",
+     "mint": "9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump",
+     "side": 1,
+     "opened": 1795744995.8027816,
+     "entry": 0.0002462,
+     "stop": 0.00019696000000000004,
+     "target": 0.00034468,
+     "size": 812347.6848090983,
+     "deadline": 1795752195.802782,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3960,
+ "next_id": 3961,
  "runs": 140,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump": 1795744619.4660292,
-  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795744619.4660292,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795744619.4660292,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795744619.4660292,
-  "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795744619.4660292,
-  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795744619.4660292,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795744819.9527268,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795744819.9527268,
-  "control:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795744820.4645805,
-  "seen:2QChKk7EvS3K9ezWu7Qs7981Qd2aJz4FEPce1HBZpump": 1795744986.1750972,
-  "seen:6Zexdtc4e5bgwXMg21hFYfTcce77grdHdVUB5Wz2pump": 1795744986.1750972,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795744986.1750972,
-  "seen:CKiuTwHFMXKBaQ4V1WgsYctsdbLeit3wytXRkphzpump": 1795744986.1750972,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795744986.1750972,
   "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795745163.462844,
   "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795745163.462844,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795745163.462844,
   "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795745163.462844,
-  "seen:Epwpg5sXuZXoSqLwekCLu2jHyBdQg9tjzjxE456Xtq27": 1795745363.9597583
+  "seen:Epwpg5sXuZXoSqLwekCLu2jHyBdQg9tjzjxE456Xtq27": 1795745363.9597583,
+  "seen:4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump": 1795745527.6722639,
+  "seen:G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump": 1795745527.6722639,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795745527.6722639,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795745527.6722639,
+  "seen:Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": 1795745718.0858307,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795745718.0858307,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795745895.341165,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795745895.341165,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795745895.341165,
+  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795745895.341165,
+  "seen:CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump": 1795745895.341165,
+  "control:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795745895.8027859
  },
  "talks": {
   "2026-10-21": 109
@@ -148,8 +146,9 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795743919.9707801,
+  "t": 1795744995.3592362,
   "crypto": [
+   "AI is driving a flood of crypto bug reports. Now it\u2019s helping sort them (0h ago)",
    "Privacy coins face diverging fortunes as KuCoin moves to drop Monero (1h ago)",
    "\u2018Very racist\u2019 Netflix SBF series, BitMart\u2019s $319M shortfall: Asia Express (3h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
@@ -157,9 +156,8 @@
    "Binance completes withdrawal recovery four weeks after $6.3B hack (4h ago)",
    "UK is \u2018getting it wrong\u2019 on DeFi regulation, says Coinbase (5h ago)",
    "Japan weighs tighter oversight of DeFi, self-custodial wallets (6h ago)",
-   "Spain moves to grant financial watchdog power to freeze crypto accounts (7h ago)",
-   "Crypto on notice as hawkish Fed risks December \u2018meltdown\u2019 (8h ago)",
-   "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds (8h ago)"
+   "Spain moves to grant financial watchdog power to freeze crypto accounts (8h ago)",
+   "Crypto on notice as hawkish Fed risks December \u2018meltdown\u2019 (8h ago)"
   ],
   "macro": [],
   "calendar": []
