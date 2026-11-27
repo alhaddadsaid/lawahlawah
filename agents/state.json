@@ -21,25 +21,29 @@
      "size": 1823154.0565177759,
      "deadline": 1795762783.3491845,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3979,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "LEVER",
+     "mint": "52a6B3qpwGN9daQBTu8kvbXQVgThuiGMJE1mmCEgpump",
+     "side": 1,
+     "opened": 1795756130.7187,
+     "entry": 7.406e-05,
+     "stop": 5.9248000000000006e-05,
+     "target": 0.000103684,
+     "size": 2700513.0974885225,
+     "deadline": 1795763330.7187002,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3979,
+ "next_id": 3980,
  "runs": 140,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795756118.6768413,
-  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795756118.6768413,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795756118.6768413,
-  "seen:CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump": 1795756118.6768413,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795756118.6768413,
-  "seen:96Kj2jLPH14mkswCn6kib2PJtasatjBxwQZMQ9js6i1m": 1795756300.667137,
-  "seen:J9eBkCb4UtquAMQqB6duwBmR99fFSMoTnDcaMB9Wpump": 1795756300.667137,
-  "seen:AYfPJnkCMhyPsXpPKaSQY1Y9rzkpERejWisPaCrQpump": 1795756300.667137,
-  "seen:4tPsVjDAqgDjb5TzGazEDMvM2GK2xDvCG2LxpX8opump": 1795756483.3113005,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795756483.3113005,
-  "control:5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh": 1795756483.3491879,
   "seen:EomygbXHKGwb9bkCatVftQpCVgvBPmgAnMUuwusxpump": 1795756667.1275928,
   "seen:HfMbPyDdZH6QMaDDUokjYCkHxzjoGBMpgaUvpLWGbF5p": 1795756667.1275928,
   "seen:5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh": 1795756667.1275928,
@@ -50,7 +54,17 @@
   "control:EomygbXHKGwb9bkCatVftQpCVgvBPmgAnMUuwusxpump": 1795756667.237536,
   "seen:ADgpuUbnksqz1k3CbBcmW2TV1n9e7eyRhekWox2cpump": 1795756870.658503,
   "seen:4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump": 1795756870.658503,
-  "seen:G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump": 1795756870.658503
+  "seen:G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump": 1795756870.658503,
+  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795757030.2494235,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795757030.2494235,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795757030.2494235,
+  "control:52a6B3qpwGN9daQBTu8kvbXQVgThuiGMJE1mmCEgpump": 1795757030.7187033,
+  "seen:96Kj2jLPH14mkswCn6kib2PJtasatjBxwQZMQ9js6i1m": 1795757212.7054672,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795757212.7054672,
+  "seen:4tPsVjDAqgDjb5TzGazEDMvM2GK2xDvCG2LxpX8opump": 1795757393.502458,
+  "seen:PrekqLJvJ3qVdXmBGDiexvwUTF4rLFDa6HWS4HJbw9S": 1795757393.502458,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795757393.502458,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795757393.502458
  },
  "talks": {
   "2026-10-21": 109
@@ -91,17 +105,17 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795755218.695136,
+  "t": 1795756130.2678535,
   "crypto": [
    "Ethereum devs set Glamsterdam\u2019s Hoodi rollout for mid-December after delays (0h ago)",
    "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack (0h ago)",
-   "Ethereum's much-awaited Glamsterdam upgrade cleared for December test. Here's what to know (0h ago)",
+   "Ethereum's much-awaited Glamsterdam upgrade cleared for December test. Here's what to know (1h ago)",
    "AI is driving a flood of crypto bug reports. Now it\u2019s helping sort them (3h ago)",
-   "Privacy coins face diverging fortunes as KuCoin moves to drop Monero (4h ago)",
+   "Privacy coins face diverging fortunes as KuCoin moves to drop Monero (5h ago)",
    "\u2018Very racist\u2019 Netflix SBF series, BitMart\u2019s $319M shortfall: Asia Express (6h ago)",
    "Here\u2019s what happened in crypto today (7h ago)",
    "BNB Chain details new layer-1 for trading, private finance and AI (7h ago)",
-   "Binance completes withdrawal recovery four weeks after $6.3B hack (7h ago)",
+   "Binance completes withdrawal recovery four weeks after $6.3B hack (8h ago)",
    "UK is \u2018getting it wrong\u2019 on DeFi regulation, says Coinbase (8h ago)"
   ],
   "macro": [],
