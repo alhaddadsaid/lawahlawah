@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -86543.74451657555,
+   "cash": -86571.63635595379,
    "open": [
     {
      "id": 3941,
@@ -21,21 +21,6 @@
      "size": 124924.75401290375,
      "deadline": 1795802482.1532013,
      "thesis": "control: random direction"
-    },
-    {
-     "id": 3955,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "BASKET",
-     "mint": "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f",
-     "side": 1,
-     "opened": 1795738773.945676,
-     "entry": 0.0004632,
-     "stop": 0.00037056000000000003,
-     "target": 0.0006484799999999999,
-     "size": 431778.9291882556,
-     "deadline": 1795745973.9456763,
-     "thesis": "control: frozen v3 rules"
     },
     {
      "id": 3958,
@@ -89,24 +74,24 @@
  "runs": 140,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": 1795745718.0858307,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795745718.0858307,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795745895.341165,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795745895.341165,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795745895.341165,
-  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795745895.341165,
-  "seen:CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump": 1795745895.341165,
-  "control:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795745895.8027859,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795746097.310132,
-  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795746097.310132,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795746097.310132,
-  "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795746097.310132,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795746264.7261071,
   "seen:4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump": 1795746447.0902355,
   "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795746447.0902355,
   "seen:G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump": 1795746447.0902355,
   "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795746447.0902355,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795746447.0902355
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795746447.0902355,
+  "seen:8KoMe1tH3hqMVsdDjiASwfCZzkvVt2e1L2Y7NEeypump": 1795746630.4906197,
+  "seen:7Ttmp4xBtErMzxpR6AhuzJjDf7u3YGJtWm5ibPsqpump": 1795746630.4906197,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795746630.4906197,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795746630.4906197,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795746815.815824,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795746815.815824,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795746815.815824,
+  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795746815.815824,
+  "seen:6CivJJZhRfkL9Efumy4mJWqcqMpmHpT9uY66TfE5pump": 1795746993.6182208,
+  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795746993.6182208,
+  "seen:HMLRCJeYnuLpdJR8qiWV8ntiGArzb4E1v8DnZLbQ7M7L": 1795747176.2684014,
+  "seen:3wBf3h6uxqAsb2RizqQudNGK1VAUKew2H9GpQtHDpump": 1795747176.2684014,
+  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795747176.2684014
  },
  "talks": {
   "2026-10-21": 109
@@ -147,18 +132,18 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795744995.3592362,
+  "t": 1795745915.833677,
   "crypto": [
-   "AI is driving a flood of crypto bug reports. Now it\u2019s helping sort them (0h ago)",
-   "Privacy coins face diverging fortunes as KuCoin moves to drop Monero (1h ago)",
-   "\u2018Very racist\u2019 Netflix SBF series, BitMart\u2019s $319M shortfall: Asia Express (3h ago)",
+   "AI is driving a flood of crypto bug reports. Now it\u2019s helping sort them (1h ago)",
+   "Privacy coins face diverging fortunes as KuCoin moves to drop Monero (2h ago)",
+   "\u2018Very racist\u2019 Netflix SBF series, BitMart\u2019s $319M shortfall: Asia Express (4h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
-   "BNB Chain details new layer-1 for trading, private finance and AI (4h ago)",
-   "Binance completes withdrawal recovery four weeks after $6.3B hack (4h ago)",
+   "BNB Chain details new layer-1 for trading, private finance and AI (5h ago)",
+   "Binance completes withdrawal recovery four weeks after $6.3B hack (5h ago)",
    "UK is \u2018getting it wrong\u2019 on DeFi regulation, says Coinbase (5h ago)",
    "Japan weighs tighter oversight of DeFi, self-custodial wallets (6h ago)",
    "Spain moves to grant financial watchdog power to freeze crypto accounts (8h ago)",
-   "Crypto on notice as hawkish Fed risks December \u2018meltdown\u2019 (8h ago)"
+   "Crypto on notice as hawkish Fed risks December \u2018meltdown\u2019 (9h ago)"
   ],
   "macro": [],
   "calendar": []
