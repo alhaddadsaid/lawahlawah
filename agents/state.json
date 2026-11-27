@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -86486.4619376811,
+   "cash": -86478.18871363738,
    "open": [
     {
      "id": 3935,
@@ -53,21 +53,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3953,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DEXDATA",
-     "mint": "63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump",
-     "side": 1,
-     "opened": 1795738226.8682935,
-     "entry": 0.0001098,
-     "stop": 8.784e-05,
-     "target": 0.00015371999999999999,
-     "size": 1821493.6247723133,
-     "deadline": 1795745426.868294,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3955,
      "desk": "control",
      "market": "meme",
@@ -81,36 +66,54 @@
      "size": 431778.9291882556,
      "deadline": 1795745973.9456763,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3957,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "DEXDATA",
+     "mint": "63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump",
+     "side": 1,
+     "opened": 1795739505.068317,
+     "entry": 9.242e-05,
+     "stop": 7.3936e-05,
+     "target": 0.000129388,
+     "size": 2164033.7589266393,
+     "deadline": 1795746705.0683172,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3956,
+ "next_id": 3958,
  "runs": 140,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795739126.8242962,
-  "seen:J9eBkCb4UtquAMQqB6duwBmR99fFSMoTnDcaMB9Wpump": 1795739126.8242962,
-  "control:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795739126.8682976,
-  "seen:9J2cy3AfDquDDKqjteYaFSrYEvUAGnb1Qxw8pZQApump": 1795739306.6323214,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795739306.6323214,
-  "seen:81TW4gTEH4aNsSaKCoBhoznx9AG8AiYoBXfvEzJkpump": 1795739306.6323214,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795739306.6323214,
-  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795739306.6323214,
-  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795739306.6323214,
-  "seen:2KNE6xr1Jre7LoX3U82deuuyJbFVEsqcCtwyvkMfpump": 1795739306.6323214,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795739306.6323214,
-  "control:81TW4gTEH4aNsSaKCoBhoznx9AG8AiYoBXfvEzJkpump": 1795739307.208502,
-  "seen:DFKwjUFbbS3RZ3zFxoHkMgZVeLnrQLttgxhwbkdsidFD": 1795739490.2021399,
-  "seen:CKiuTwHFMXKBaQ4V1WgsYctsdbLeit3wytXRkphzpump": 1795739490.2021399,
-  "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795739490.2021399,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795739490.2021399,
   "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795739673.9053295,
   "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795739673.9053295,
   "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795739673.9053295,
   "control:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795739673.9456809,
   "seen:2VeUSgG7uyFdEvvPVn8vhBWDagegU3mZ6pL51r9Bvv2r": 1795739855.0415378,
-  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795739855.0415378
+  "seen:9hjBLBrc7WZW2H8UQvBAvG5WiTZotXUv2Bdcn4f4pump": 1795739855.0415378,
+  "seen:HYfjNrnCEq9huXzqmVApxTBDNpp8Az4tFrgxTF7Rpump": 1795740038.676738,
+  "seen:2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ": 1795740038.676738,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795740038.676738,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795740038.676738,
+  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795740038.676738,
+  "seen:9J2cy3AfDquDDKqjteYaFSrYEvUAGnb1Qxw8pZQApump": 1795740221.3248208,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795740221.3248208,
+  "seen:32rBxcFjCFnyqZ41CEPM5AL67X1dcw8w83vZt6Kxpump": 1795740221.3248208,
+  "seen:ngwxpGYdkauMcxLFrNTKp8qBgK7JV53zVvd7F2spump": 1795740221.3248208,
+  "seen:9QT8K685Hrae4k11dhGXirdtpfAaimExtyfwt8cPpump": 1795740221.3248208,
+  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795740221.3248208,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795740221.3248208,
+  "control:CKiuTwHFMXKBaQ4V1WgsYctsdbLeit3wytXRkphzpump": 1795740221.8944464,
+  "seen:DFKwjUFbbS3RZ3zFxoHkMgZVeLnrQLttgxhwbkdsidFD": 1795740405.0188699,
+  "seen:CKiuTwHFMXKBaQ4V1WgsYctsdbLeit3wytXRkphzpump": 1795740405.0188699,
+  "seen:RBLXDGRD64AtRamHMFVcjqne3Ar7NLWtFtYNtsrf1cE": 1795740405.0188699,
+  "seen:J9eBkCb4UtquAMQqB6duwBmR99fFSMoTnDcaMB9Wpump": 1795740405.0188699,
+  "seen:CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump": 1795740405.0188699,
+  "control:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795740405.0683208
  },
  "talks": {
   "2026-10-21": 109
@@ -151,7 +154,7 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795738406.6503162,
+  "t": 1795739321.342867,
   "crypto": [
    "\u2018Very racist\u2019 Netflix SBF series, BitMart\u2019s $319M shortfall: Asia Express (2h ago)",
    "Here\u2019s what happened in crypto today (2h ago)",
@@ -162,7 +165,7 @@
    "Spain moves to grant financial watchdog power to freeze crypto accounts (6h ago)",
    "Crypto on notice as hawkish Fed risks December \u2018meltdown\u2019 (7h ago)",
    "A tiny payment can expose the IP address behind a bitcoin wallet, developer finds (7h ago)",
-   "Bitcoin\u2019s dormant supply rises, a behavior seen during previous bear-market bottoming phases (7h ago)"
+   "Bitcoin\u2019s dormant supply rises, a behavior seen during previous bear-market bottoming phases (8h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -195,5 +198,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795737861.3326392
+ "last_macro_macro": 1795739138.6949697
 }
