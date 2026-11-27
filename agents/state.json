@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -86567.56908270952,
+   "cash": -86617.0693499463,
    "open": [
     {
      "id": 3960,
@@ -36,21 +36,6 @@
      "size": 466091.82008855743,
      "deadline": 1795753841.7385073,
      "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 3966,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "DragonRiders",
-     "mint": "5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh",
-     "side": 1,
-     "opened": 1795749195.7932327,
-     "entry": 0.0001871,
-     "stop": 0.00014968000000000002,
-     "target": 0.00026193999999999995,
-     "size": 1068947.0871191877,
-     "deadline": 1795756395.793233,
-     "thesis": "control: frozen v3 rules"
     }
    ]
   }
@@ -59,22 +44,22 @@
  "runs": 140,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:7Ttmp4xBtErMzxpR6AhuzJjDf7u3YGJtWm5ibPsqpump": 1795749366.4054968,
-  "seen:4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump": 1795749366.4054968,
-  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795749366.4054968,
-  "seen:G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump": 1795749366.4054968,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795749548.0435333,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795749548.0435333,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795749548.0435333,
-  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795749548.0435333,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795749548.0435333,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795749548.0435333,
-  "control:7Ttmp4xBtErMzxpR6AhuzJjDf7u3YGJtWm5ibPsqpump": 1795749548.4765406,
   "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795749916.0610619,
   "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795749916.0610619,
   "seen:5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh": 1795750095.7549336,
   "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795750095.7549336,
-  "control:5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh": 1795750095.793236
+  "control:5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh": 1795750095.793236,
+  "seen:4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump": 1795750277.8427668,
+  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795750277.8427668,
+  "seen:G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump": 1795750277.8427668,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795750277.8427668,
+  "seen:3vUHYsRg3FVN49KSjqxavciSUzAzfyVnP4dKqMHZg2bs": 1795750459.3268945,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795750459.3268945,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795750459.3268945,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795750459.3268945,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795750459.3268945,
+  "seen:J9eBkCb4UtquAMQqB6duwBmR99fFSMoTnDcaMB9Wpump": 1795750459.3268945,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795750635.4026601
  },
  "talks": {
   "2026-10-21": 109
@@ -115,18 +100,18 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795748648.0613427,
+  "t": 1795749559.3450954,
   "crypto": [
-   "AI is driving a flood of crypto bug reports. Now it\u2019s helping sort them (1h ago)",
-   "Privacy coins face diverging fortunes as KuCoin moves to drop Monero (2h ago)",
-   "\u2018Very racist\u2019 Netflix SBF series, BitMart\u2019s $319M shortfall: Asia Express (4h ago)",
+   "AI is driving a flood of crypto bug reports. Now it\u2019s helping sort them (2h ago)",
+   "Privacy coins face diverging fortunes as KuCoin moves to drop Monero (3h ago)",
+   "\u2018Very racist\u2019 Netflix SBF series, BitMart\u2019s $319M shortfall: Asia Express (5h ago)",
    "Here\u2019s what happened in crypto today (5h ago)",
-   "BNB Chain details new layer-1 for trading, private finance and AI (5h ago)",
+   "BNB Chain details new layer-1 for trading, private finance and AI (6h ago)",
    "Binance completes withdrawal recovery four weeks after $6.3B hack (6h ago)",
    "UK is \u2018getting it wrong\u2019 on DeFi regulation, says Coinbase (6h ago)",
    "Japan weighs tighter oversight of DeFi, self-custodial wallets (7h ago)",
    "Spain moves to grant financial watchdog power to freeze crypto accounts (9h ago)",
-   "Crypto on notice as hawkish Fed risks December \u2018meltdown\u2019 (9h ago)"
+   "Crypto on notice as hawkish Fed risks December \u2018meltdown\u2019 (10h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -159,5 +144,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795748107.958833
+ "last_macro_macro": 1795749377.86023
 }
