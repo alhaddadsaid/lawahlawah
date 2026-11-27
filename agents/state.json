@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -86535.59029245029,
+   "cash": -86467.59029245029,
    "open": [
     {
      "id": 3960,
@@ -36,32 +36,46 @@
      "size": 466091.82008855743,
      "deadline": 1795753841.7385073,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 3965,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "530A",
+     "mint": "7Ttmp4xBtErMzxpR6AhuzJjDf7u3YGJtWm5ibPsqpump",
+     "side": 1,
+     "opened": 1795748648.476537,
+     "entry": 6.365e-05,
+     "stop": 5.092000000000001e-05,
+     "target": 8.911e-05,
+     "size": 3142183.8177533383,
+     "deadline": 1795755848.4765372,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 3964,
+ "next_id": 3966,
  "runs": 140,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh": 1795748272.1824455,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795748272.1824455,
-  "control:5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh": 1795748272.2276747,
-  "seen:4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump": 1795748456.029025,
-  "seen:7Ttmp4xBtErMzxpR6AhuzJjDf7u3YGJtWm5ibPsqpump": 1795748456.029025,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795748456.029025,
-  "seen:G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump": 1795748456.029025,
-  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795748456.029025,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795748456.029025,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795748456.029025,
-  "control:7Ttmp4xBtErMzxpR6AhuzJjDf7u3YGJtWm5ibPsqpump": 1795748456.0744667,
-  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795748638.437956,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795748638.437956,
-  "seen:Cm6fNnMk7NfzStP9CZpsQA2v3jjzbcYGAxdJySmHpump": 1795748638.437956,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795748638.437956,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795748638.437956,
   "seen:DTSkmo3sCCKLCh91dJLiWCpwcKtK3yDBZMqZGSV1pump": 1795748820.9840472,
-  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795749007.9400723
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795749007.9400723,
+  "seen:5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh": 1795749185.8529525,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795749185.8529525,
+  "seen:CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump": 1795749185.8529525,
+  "control:5xrT8y2KU2YwzipwCMNxxTc8KAGQd4wjtGTc2WyJJCMh": 1795749185.8977818,
+  "seen:7Ttmp4xBtErMzxpR6AhuzJjDf7u3YGJtWm5ibPsqpump": 1795749366.4054968,
+  "seen:4obGGXRMVyqpWZr12UzyaBdNkgdYwz2GiY8enmd2pump": 1795749366.4054968,
+  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795749366.4054968,
+  "seen:G2ZDG8q3QMYk3KR58JFFYsvaTk4Gy94UzMo7Re7spump": 1795749366.4054968,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795749548.0435333,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795749548.0435333,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795749548.0435333,
+  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795749548.0435333,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795749548.0435333,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795749548.0435333,
+  "control:7Ttmp4xBtErMzxpR6AhuzJjDf7u3YGJtWm5ibPsqpump": 1795749548.4765406
  },
  "talks": {
   "2026-10-21": 109
@@ -102,17 +116,17 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795747738.4573634,
+  "t": 1795748648.0613427,
   "crypto": [
    "AI is driving a flood of crypto bug reports. Now it\u2019s helping sort them (1h ago)",
    "Privacy coins face diverging fortunes as KuCoin moves to drop Monero (2h ago)",
    "\u2018Very racist\u2019 Netflix SBF series, BitMart\u2019s $319M shortfall: Asia Express (4h ago)",
    "Here\u2019s what happened in crypto today (5h ago)",
    "BNB Chain details new layer-1 for trading, private finance and AI (5h ago)",
-   "Binance completes withdrawal recovery four weeks after $6.3B hack (5h ago)",
+   "Binance completes withdrawal recovery four weeks after $6.3B hack (6h ago)",
    "UK is \u2018getting it wrong\u2019 on DeFi regulation, says Coinbase (6h ago)",
    "Japan weighs tighter oversight of DeFi, self-custodial wallets (7h ago)",
-   "Spain moves to grant financial watchdog power to freeze crypto accounts (8h ago)",
+   "Spain moves to grant financial watchdog power to freeze crypto accounts (9h ago)",
    "Crypto on notice as hawkish Fed risks December \u2018meltdown\u2019 (9h ago)"
   ],
   "macro": [],
