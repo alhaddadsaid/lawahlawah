@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-27 12:26 UTC. Runs so far: 141. Model: claude-haiku-5-5.
+Updated 2026-11-27 12:34 UTC. Runs so far: 141. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,15 +9,14 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3890 | 31 | -96744.43 | -134161.16 |
+| control | meme | 3891 | 31 | -96740.36 | -134167.45 |
 | control | macro | 82 | 48 | 55.09 | -347.67 |
-| control | all | 3972 | 31 | -96689.34 | -134508.83 |
+| control | all | 3973 | 31 | -96685.27 | -134515.12 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: BASKET long at 0.0004144, stop 0.00033152, target 0.00058016, opened 2026-11-27 10:34 UTC
 - control: PAID long at 0.001095, stop 0.000876, target 0.001533, opened 2026-11-27 11:38 UTC
 - control: duk long at 0.0001076, stop 8.608e-05, target 0.00015064, opened 2026-11-27 11:53 UTC
 - control: VAULT long at 0.000123, stop 9.84e-05, target 0.0001722, opened 2026-11-27 12:20 UTC
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-27 12:26 UTC control: OPENED KAI long at 5.293e-05 (stop 4.2344e-05, target 7.4102e-05) - control: frozen v3 rules
+- control: CLOSED BASKET (time) P&L $4.07 normal, $-6.29 pessimistic
 
