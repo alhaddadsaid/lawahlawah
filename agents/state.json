@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -87802.33670963607,
+   "cash": -87932.21403036838,
    "open": [
     {
      "id": 4003,
@@ -38,36 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 4007,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "WINSTON",
-     "mint": "7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump",
-     "side": 1,
-     "opened": 1795803805.2917242,
-     "entry": 0.000132,
-     "stop": 0.00010560000000000002,
-     "target": 0.0001848,
-     "size": 1515151.5151515151,
-     "deadline": 1795811005.2917244,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 4008,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Kibo",
-     "mint": "7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump",
-     "side": 1,
-     "opened": 1795803990.403886,
-     "entry": 9.303e-05,
-     "stop": 7.4424e-05,
-     "target": 0.00013024199999999998,
-     "size": 2149844.136300118,
-     "deadline": 1795811190.4038863,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 4009,
      "desk": "control",
      "market": "meme",
@@ -81,24 +51,44 @@
      "size": 3664345.9142543054,
      "deadline": 1795811370.4205635,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 4010,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Kibo",
+     "mint": "7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump",
+     "side": 1,
+     "opened": 1795806738.7986834,
+     "entry": 7.066e-05,
+     "stop": 5.6528000000000005e-05,
+     "target": 9.8924e-05,
+     "size": 2830455.703368242,
+     "deadline": 1795813938.7986836,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 4011,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "WINSTON",
+     "mint": "7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump",
+     "side": 1,
+     "opened": 1795806922.145448,
+     "entry": 6.067e-05,
+     "stop": 4.853600000000001e-05,
+     "target": 8.4938e-05,
+     "size": 3296522.169111587,
+     "deadline": 1795814122.1454482,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 4010,
+ "next_id": 4012,
  "runs": 142,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795806541.0496516,
-  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795806541.0496516,
-  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795806541.0496516,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795806541.0496516,
-  "seen:7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump": 1795806541.0496516,
-  "seen:FK7bc3fR8UL8uogN2u8J9yEpEbQJKR7yKsp3G8rvpump": 1795806541.0496516,
-  "seen:AhUrUApPVEQkiz7ctvuy67eCsMUYy2QzJV52GGy2pump": 1795806725.035487,
-  "seen:9msLfYfXBrSbrApCZAPuPMCNmPqNtEL1VPKh1AEYpump": 1795806725.035487,
-  "seen:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 1795806725.035487,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795806725.035487,
   "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795807091.2205071,
   "seen:8sAxwsNzhRj6LF5npy1HtPir94TzSgP1QaczUmGcpump": 1795807091.2205071,
   "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1795807091.2205071,
@@ -107,7 +97,20 @@
   "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795807275.2912982,
   "seen:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795807275.2912982,
   "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795807275.2912982,
-  "seen:4WZLGbAp6oEPxFbDcsfADCo1AgYZkfiteQhtM5iwpump": 1795807275.2912982
+  "seen:4WZLGbAp6oEPxFbDcsfADCo1AgYZkfiteQhtM5iwpump": 1795807275.2912982,
+  "seen:8nd3NLZwt3B1NuXkZKcWw3hnGo9pLv891XsW5CDWpump": 1795807455.000607,
+  "seen:7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump": 1795807455.000607,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795807455.000607,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795807455.000607,
+  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795807455.000607,
+  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795807455.000607,
+  "seen:XsqE9cRRpzxcGKDXj1BJ7Xmg4GRhZoyY1KpmGSxAWT2": 1795807638.6509736,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795807638.6509736,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795807638.6509736,
+  "control:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795807638.7986867,
+  "seen:52a6B3qpwGN9daQBTu8kvbXQVgThuiGMJE1mmCEgpump": 1795807822.0096054,
+  "seen:5wsjHxT5nW5jQuVupXUNnYszF3WoWCfGGk9LMcsCJzY8": 1795807822.0096054,
+  "control:7Y2CVbnqZRvR5RUvEJ9RQ73fZEfv7ybNcysytAepump": 1795807822.1454518
  },
  "talks": {
   "2026-10-21": 109
@@ -148,13 +151,13 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795805641.0613174,
+  "t": 1795806555.0122204,
   "crypto": [
-   "China sets March 2027 rollout for blockchain identity regulations (1h ago)",
+   "China sets March 2027 rollout for blockchain identity regulations (2h ago)",
    "Bitcoin price drops below $59K as Anthropic joins tech stock rebound (2h ago)",
    "What was Coinbase worth while Nasdaq was closed? (4h ago)",
    "Binance to launch tokenized IPO program after regulatory approval: Yi He (5h ago)",
-   "Here\u2019s what happened in crypto today (5h ago)",
+   "Here\u2019s what happened in crypto today (6h ago)",
    "Kalshi turns to small businesses as legal battles threaten forecasts on sports (6h ago)",
    "Brazil\u2019s stock exchange pushes stablecoin launch back to 2027 (6h ago)",
    "Austria-supervised crypto firms report 20.4B euros in H1 trading volume (7h ago)",
@@ -192,5 +195,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795805457.7458503
+ "last_macro_macro": 1795806738.6621382
 }
