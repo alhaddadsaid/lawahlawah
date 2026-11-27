@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -87998.15988441803,
+   "cash": -87930.15988441803,
    "open": [
     {
      "id": 4003,
@@ -21,35 +21,66 @@
      "size": 96850.16658419328,
      "deadline": 1795889294.6522377,
      "thesis": "control: random direction"
+    },
+    {
+     "id": 4013,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Kibo",
+     "mint": "7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump",
+     "side": 1,
+     "opened": 1795811669.8500667,
+     "entry": 8.48e-05,
+     "stop": 6.784e-05,
+     "target": 0.00011871999999999999,
+     "size": 2358490.566037736,
+     "deadline": 1795818869.850067,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 4014,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "Split",
+     "mint": "HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump",
+     "side": 1,
+     "opened": 1795811851.5830774,
+     "entry": 0.0001535,
+     "stop": 0.0001228,
+     "target": 0.00021489999999999997,
+     "size": 1302931.5960912053,
+     "deadline": 1795819051.5830777,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 4012,
+ "next_id": 4015,
  "runs": 142,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:6kqBYaV1BpNNhjYz8w2rQXrRWDBiua9RL6kJqwUbpump": 1795810607.984673,
-  "seen:8sAxwsNzhRj6LF5npy1HtPir94TzSgP1QaczUmGcpump": 1795810607.984673,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795810607.984673,
-  "seen:AQFzxjKB66sXWHBUrEPpnrxQokPU3eDKKkkyprHBpump": 1795810607.984673,
-  "seen:CvXQ9qEriGgTbMWyF8L1U7oqn9ev8A49N1dzNE8cpump": 1795810607.984673,
-  "seen:2JjmRdQ71UzAUkTCGsFXNEBdqYBAbh9LMzSb8eHnzYJT": 1795810751.7908819,
-  "seen:BFFxXi7xD9uhf7fKujN8kJzsmDouP4Y91z1nsPcapump": 1795810751.7908819,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795810751.7908819,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795810751.7908819,
-  "seen:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795810930.2085054,
-  "seen:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795810930.2085054,
-  "seen:4WZLGbAp6oEPxFbDcsfADCo1AgYZkfiteQhtM5iwpump": 1795810930.2085054,
-  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795810930.2085054,
-  "seen:GdDpHWwrRLDHR2soP75sEtqzDzY1rkATuVszAHv5pump": 1795811108.0864048,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795811108.0864048,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795811108.0864048,
-  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795811108.0864048,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1795811108.0864048,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795811291.0121944,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795811291.0121944,
-  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795811472.8446093
+  "seen:GdDpHWwrRLDHR2soP75sEtqzDzY1rkATuVszAHv5pump": 1795812020.8861678,
+  "seen:GzdUV4xe5Rmt34iNBoNKBzf4t8b8y3Pigu3iRcT8pump": 1795812020.8861678,
+  "seen:7cPKubouxwsSy4aAKHtDKUETZ6uxVZDntRuy7Cappump": 1795812020.8861678,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795812020.8861678,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795812020.8861678,
+  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795812020.8861678,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795812020.8861678,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795812020.8861678,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795812199.8577883,
+  "seen:AjucUKL3i8wh7SvFL9h5cZbWkd3M9JibLkdvRJKppump": 1795812387.2087495,
+  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795812387.2087495,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795812387.2087495,
+  "control:GdDpHWwrRLDHR2soP75sEtqzDzY1rkATuVszAHv5pump": 1795812387.2490222,
+  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795812569.809392,
+  "seen:HsprHxBRgiVaQdRf3TnKNuZZtaX9JUSPgMFdAkk6pump": 1795812569.809392,
+  "seen:MAXXib7SQAQn4ymrwhhR9qMRUcYv8BNhbQxizJn5CCk": 1795812569.809392,
+  "control:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795812569.8500695,
+  "seen:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795812751.4345465,
+  "seen:7dc3gFoyuDCPWjrfZfX99uasJJSceAJx5ucE8bDGpump": 1795812751.4345465,
+  "seen:GexThZHgaswpAQ7Fi8QrHFubjPimUNSYhJiAA7XZpump": 1795812751.4345465,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795812751.4345465,
+  "control:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795812751.5830805
  },
  "talks": {
   "2026-10-21": 109
@@ -90,13 +121,13 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795810208.0980198,
+  "t": 1795811120.8977017,
   "crypto": [
    "Bitcoin whales pile into BTC despite shrinking profit cushion (1h ago)",
    "China sets March 2027 rollout for blockchain identity regulations (3h ago)",
-   "Bitcoin price drops below $59K as Anthropic joins tech stock rebound (3h ago)",
-   "What was Coinbase worth while Nasdaq was closed? (5h ago)",
-   "Binance to launch tokenized IPO program after regulatory approval: Yi He (6h ago)",
+   "Bitcoin price drops below $59K as Anthropic joins tech stock rebound (4h ago)",
+   "What was Coinbase worth while Nasdaq was closed? (6h ago)",
+   "Binance to launch tokenized IPO program after regulatory approval: Yi He (7h ago)",
    "Here\u2019s what happened in crypto today (7h ago)",
    "Kalshi turns to small businesses as legal battles threaten forecasts on sports (7h ago)",
    "Brazil\u2019s stock exchange pushes stablecoin launch back to 2027 (8h ago)",
@@ -134,5 +165,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795810572.855936
+ "last_macro_macro": 1795811851.4458022
 }
