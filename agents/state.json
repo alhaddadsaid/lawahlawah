@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -86757.25111599821,
+   "cash": -86689.25111599821,
    "open": [
     {
      "id": 3990,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 3993,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "VAULT",
-     "mint": "4tqzkSWA9tiWYhzYpSt81We3cVNkrEbkD1tzjFDZpump",
-     "side": 1,
-     "opened": 1795780220.7550852,
-     "entry": 0.0001122,
-     "stop": 8.976000000000001e-05,
-     "target": 0.00015708,
-     "size": 1782531.1942959002,
-     "deadline": 1795787420.7550855,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 3994,
      "desk": "control",
      "market": "meme",
@@ -74,24 +59,22 @@
  "runs": 141,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:4tqzkSWA9tiWYhzYpSt81We3cVNkrEbkD1tzjFDZpump": 1795781303.121666,
-  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795781303.121666,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795781303.121666,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795781303.121666,
-  "control:DG2EJSEtPBge5F7zBCTZG78p27LTCiq8tUkJ39qupump": 1795781303.639256,
-  "seen:J9eBkCb4UtquAMQqB6duwBmR99fFSMoTnDcaMB9Wpump": 1795781486.3086796,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795781486.3086796,
-  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795781486.3086796,
-  "seen:Hj1yVaRPSkWC5ysGeUgdd1NPTZfXj7yuMuzsYWBypump": 1795781670.2363453,
-  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795781670.2363453,
-  "seen:BFLRy1dMqALUz7WFoaXHXdZSJdqEJZnndD7yqz56pump": 1795781855.8450286,
-  "seen:2va3NUJtEcPemDYg2N1RgA79rPKGTGGJKo3gTY5zpump": 1795781855.8450286,
-  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1795781855.8450286,
-  "seen:DCFiFuRwjwdSKcYKmuz47gcSNsjjtZ6Rh8KkLaVCpump": 1795781855.8450286,
-  "seen:8rjgC1GsBo4fwuXjq7Hy12SAFxgFxbtSJJSFBYkVpump": 1795781855.8450286,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795782041.3734026,
   "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795782041.3734026,
-  "seen:DG2EJSEtPBge5F7zBCTZG78p27LTCiq8tUkJ39qupump": 1795782041.3734026
+  "seen:DG2EJSEtPBge5F7zBCTZG78p27LTCiq8tUkJ39qupump": 1795782041.3734026,
+  "seen:4tqzkSWA9tiWYhzYpSt81We3cVNkrEbkD1tzjFDZpump": 1795782224.3140595,
+  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795782224.3140595,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795782224.3140595,
+  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795782224.3140595,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795782404.835547,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795782404.835547,
+  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795782404.835547,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795782404.835547,
+  "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1795782766.7479444,
+  "seen:BFLRy1dMqALUz7WFoaXHXdZSJdqEJZnndD7yqz56pump": 1795782766.7479444,
+  "seen:2va3NUJtEcPemDYg2N1RgA79rPKGTGGJKo3gTY5zpump": 1795782766.7479444,
+  "seen:Hj1yVaRPSkWC5ysGeUgdd1NPTZfXj7yuMuzsYWBypump": 1795782766.7479444,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795782766.7479444
  },
  "talks": {
   "2026-10-21": 109
@@ -132,15 +115,15 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795780403.1367092,
+  "t": 1795781324.329363,
   "crypto": [
    "Bitcoin on course to end seven-week losing streak while trailing stock rebound (0h ago)",
-   "Live news: Bitcoin rebounds above $61,000 as AI stocks lead premarket gains (0h ago)",
+   "Live news: Bitcoin rebounds above $61,000 as AI stocks lead premarket gains (1h ago)",
    "Next ECB chief favors tokenized bank deposits over stablecoins and bitcoin (1h ago)",
    "Bitcoin supply metric hits 11-year low as new \u2018capitulation\u2019 signal arrives (1h ago)",
    "Injective asks SEC to allow order books for tokenized stock trading (1h ago)",
    "Brazil\u2019s stock exchange teams up with major banks to launch real-pegged stablecoin (1h ago)",
-   "Bluefin to shut down perps, refocus on spot trading and tokenized RWAs (1h ago)",
+   "Bluefin to shut down perps, refocus on spot trading and tokenized RWAs (2h ago)",
    "Tether can freeze stolen crypto in minutes. Getting it back can take years. (2h ago)",
    "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday\u2019s rebound (2h ago)",
    "ESMA to overhaul EU\u2019s MiCA crypto register in 2027 (4h ago)"
