@@ -31,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order DragonRiders REJECTED by guardrails: DragonRiders already open
+## Run ended 2026-11-27 05:27 UTC
 
