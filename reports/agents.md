@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-27 19:43 UTC. Runs so far: 142. Model: claude-haiku-5-5.
+Updated 2026-11-27 19:58 UTC. Runs so far: 142. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3907 | 31 | -97985.6 | -135544.89 |
+| control | meme | 3908 | 31 | -98036.28 | -135604.52 |
 | control | macro | 82 | 48 | 55.09 | -347.67 |
-| control | all | 3989 | 31 | -97930.51 | -135892.56 |
+| control | all | 3990 | 31 | -97981.19 | -135952.19 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: GBPUSD short at 1.30964, stop 1.31067, target 1.30809, opened 2026-11-27 18:08 UTC
 - control: Rizzmas long at 1.41e-06, stop 1.128e-06, target 1.974e-06, opened 2026-11-27 18:11 UTC
-- control: Kibo long at 7.066e-05, stop 5.6528e-05, target 9.8924e-05, opened 2026-11-27 19:12 UTC
 
 ## Team
 
@@ -32,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED 67 (target) P&L $68.0 normal, $56.0 pessimistic
+- control: CLOSED Kibo (stop) P&L $-50.68 normal, $-59.63 pessimistic
 
