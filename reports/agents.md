@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-27 04:26 UTC. Runs so far: 140. Model: claude-haiku-5-5.
+Updated 2026-11-27 04:30 UTC. Runs so far: 140. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,15 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3868 | 31 | -96780.28 | -133970.44 |
+| control | meme | 3871 | 31 | -96793.45 | -134014.04 |
 | control | macro | 82 | 48 | 55.09 | -347.67 |
-| control | all | 3950 | 31 | -96725.19 | -134318.11 |
+| control | all | 3953 | 31 | -96738.36 | -134361.71 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: BASKET long at 0.0004291, stop 0.00034328, target 0.00060074, opened 2026-11-27 02:30 UTC
 - control: LEVER long at 9.261e-05, stop 7.4088e-05, target 0.000129654, opened 2026-11-27 04:20 UTC
-- control: Dragon long at 6.273e-05, stop 5.0184e-05, target 8.7822e-05, opened 2026-11-27 04:23 UTC
 - control: DragonRiders long at 0.0001455, stop 0.0001164, target 0.0002037, opened 2026-11-27 04:26 UTC
 
 ## Team
@@ -33,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-27 04:26 UTC control: OPENED DragonRiders long at 0.0001455 (stop 0.0001164, target 0.0002037) - control: frozen v3 rules
+- control: CLOSED LUMINARE (stop) P&L $-62.44 normal, $-71.1 pessimistic
 
