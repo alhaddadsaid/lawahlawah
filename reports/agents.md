@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-27 10:16 UTC. Runs so far: 141. Model: claude-haiku-5-5.
+Updated 2026-11-27 10:25 UTC. Runs so far: 141. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,15 +9,14 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3882 | 31 | -96893.8 | -134224.65 |
+| control | meme | 3883 | 31 | -96904.84 | -134245.66 |
 | control | macro | 82 | 48 | 55.09 | -347.67 |
-| control | all | 3964 | 31 | -96838.71 | -134572.32 |
+| control | all | 3965 | 31 | -96849.75 | -134593.33 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
-- control: BASKET long at 0.000431, stop 0.0003448, target 0.0006034, opened 2026-11-27 08:23 UTC
 - control: NETWORK long at 7.863e-05, stop 6.2904e-05, target 0.000110082, opened 2026-11-27 08:26 UTC
 - control: Investor long at 5.481e-05, stop 4.3848e-05, target 7.6734e-05, opened 2026-11-27 08:50 UTC
 - control: SNOWBALLZ long at 7.277e-05, stop 5.8216e-05, target 0.000101878, opened 2026-11-27 09:36 UTC
@@ -34,5 +33,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: order Kibo REJECTED by guardrails: desk already has the maximum open positions
+- control: order Kibo REJECTED by guardrails: Kibo already open
 

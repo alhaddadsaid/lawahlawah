@@ -5,23 +5,8 @@
    "open": []
   },
   "control": {
-   "cash": -86838.62383199745,
+   "cash": -86849.66443524571,
    "open": [
-    {
-     "id": 3981,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "BASKET",
-     "mint": "3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f",
-     "side": 1,
-     "opened": 1795767816.6717496,
-     "entry": 0.000431,
-     "stop": 0.00034480000000000003,
-     "target": 0.0006034,
-     "size": 464037.12296983757,
-     "deadline": 1795775016.6717498,
-     "thesis": "control: frozen v3 rules"
-    },
     {
      "id": 3982,
      "desk": "control",
@@ -89,21 +74,24 @@
  "runs": 141,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:2Lw9FQA1iAwg5Wo1NTh8GTs3zmVQc7XHGBbexqZgqtWJ": 1795774735.5766473,
-  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795774735.5766473,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795774735.5766473,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795774917.1108665,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795774917.1108665,
-  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795774917.1108665,
-  "seen:zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": 1795774917.1108665,
-  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795775094.754359,
   "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795775281.1082013,
   "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795775281.1082013,
   "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795775281.1082013,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795775281.1082013,
   "seen:Hg5Ja55T5wESq4vyFoiVCMeHXtGyVA69X2UHq8hgpump": 1795775281.1082013,
   "seen:2va3NUJtEcPemDYg2N1RgA79rPKGTGGJKo3gTY5zpump": 1795775460.0223782,
-  "seen:DCFiFuRwjwdSKcYKmuz47gcSNsjjtZ6Rh8KkLaVCpump": 1795775460.0223782
+  "seen:DCFiFuRwjwdSKcYKmuz47gcSNsjjtZ6Rh8KkLaVCpump": 1795775460.0223782,
+  "seen:2j5SaS7xy776qCBpyPQbZjyQSAtKiFgrwjfErthnW2ZM": 1795775646.810441,
+  "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795775646.810441,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795775646.810441,
+  "seen:Dfh5DzRgSvvCFDoYc2ciTkMrbDfRKybA4SoFbPmApump": 1795775646.810441,
+  "seen:3Tg6YnNrfPdFfsY14MaNsDMWLseAyrUDS3myJtbaJN6f": 1795775646.810441,
+  "seen:EJEeWpvfviFyz1GQqSFHjXmvvXvUTkbjsRBWh1DLpump": 1795775826.434008,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795775826.434008,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795775826.434008,
+  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795775826.434008,
+  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795775826.434008,
+  "seen:zcRvzm7gAfYGde8gRwaSYxNryL47SjLVUQLAf1bdoor": 1795776005.7529237
  },
  "talks": {
   "2026-10-21": 109
@@ -144,18 +132,18 @@
  ],
  "last_review": 1795736575.375883,
  "news": {
-  "t": 1795774017.1254768,
+  "t": 1795774926.4491017,
   "crypto": [
    "Tether can freeze stolen crypto in minutes. Getting it back can take years. (0h ago)",
-   "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday\u2019s rebound (0h ago)",
+   "Bitcoin tops $61,000 as Nasdaq futures extend Wednesday\u2019s rebound (1h ago)",
    "ESMA to overhaul EU\u2019s MiCA crypto register in 2027 (2h ago)",
    "Monero suffers biggest single-day slide in over 5 months. Here\u2019s why (3h ago)",
    "New York AG secures $1.37B court judgment against NovaTech founders (3h ago)",
    "Here\u2019s what happened in crypto today (4h ago)",
    "Japan\u2019s crypto security group taps SEAL to speed up hack response (5h ago)",
    "Ripple's lending plan moves closer to tapping XRP Ledger's $800 million in stablecoins (5h ago)",
-   "Ethereum devs set Glamsterdam\u2019s Hoodi rollout for mid-December after delays (5h ago)",
-   "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack (5h ago)"
+   "Ethereum devs set Glamsterdam\u2019s Hoodi rollout for mid-December after delays (6h ago)",
+   "Binance says customer withdrawals are fully restored, four weeks after the $6.3 billion hack (6h ago)"
   ],
   "macro": [],
   "calendar": []
