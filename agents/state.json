@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -89166.84128361555,
+   "cash": -89098.84128361555,
    "open": [
     {
      "id": 4003,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 4066,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Split",
-     "mint": "HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump",
-     "side": 1,
-     "opened": 1795865577.392085,
-     "entry": 0.0001048,
-     "stop": 8.384e-05,
-     "target": 0.00014671999999999998,
-     "size": 1908396.9465648856,
-     "deadline": 1795872777.3920853,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 4067,
      "desk": "control",
      "market": "meme",
@@ -74,22 +59,19 @@
  "runs": 144,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:GTXyMteWZHnXab13XY5KT1EE2eBpRKjyBEj3NPCJpump": 1795869624.9417584,
-  "seen:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795869624.9417584,
-  "seen:8yUDvFWAHXBXSdgcRJZ7cWtFb1DZ1dwaQeYhb7kEpump": 1795869768.150081,
-  "seen:6AJcP7wuLwmRYLBNbi825wgguaPsWzPBEHcHndpRpump": 1795869768.150081,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795869768.150081,
-  "seen:28gkuW4xjXWchn3Dv6DnMeCsC3iZjgLHBRawhFYXoa1x": 1795869953.617482,
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795870146.2214959,
-  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795870146.2214959,
-  "seen:ATbAsdCwrhhVg23DRnWpjqx6kx7ivoK5o8ysNmu1pump": 1795870146.2214959,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795870146.2214959,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795870146.2214959,
-  "seen:viCEWiReoWxwmRRfGmWmpP1FFdB8Jm8PzZChVJ9dvg6": 1795870146.2214959,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795870146.2214959,
-  "seen:GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump": 1795870146.2214959,
-  "seen:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795870324.465516,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795870508.0379038
+  "seen:ATbAsdCwrhhVg23DRnWpjqx6kx7ivoK5o8ysNmu1pump": 1795871212.916511,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795871212.916511,
+  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795871212.916511,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795871212.916511,
+  "seen:GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump": 1795871212.916511,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795871421.9096515,
+  "seen:viCEWiReoWxwmRRfGmWmpP1FFdB8Jm8PzZChVJ9dvg6": 1795871421.9096515,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795871421.9096515,
+  "seen:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795871421.9096515,
+  "seen:63LfDmNb3MQ8mw9MtZ2To9bEA2M71kZUUGq5tiJxcqj9": 1795871595.0508018,
+  "seen:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795871595.0508018,
+  "seen:9G9Ssh55SZEoniFjMrMefug9fBy67bUvHzWAxb5Ypump": 1795871785.8262088,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795871785.8262088
  },
  "talks": {
   "2026-10-21": 109
@@ -130,13 +112,13 @@
  ],
  "last_review": 1795823025.0961003,
  "news": {
-  "t": 1795869246.2362027,
+  "t": 1795870312.931788,
   "crypto": [
    "ASEAN+3 agrees on initiative to explore crypto payments cooperation (2h ago)",
    "Trump-linked crypto token WLFI plunges 50% to record lows (3h ago)",
    "Binance plans Asia hub in Bhutan, receives preliminary approval (5h ago)",
-   "Here\u2019s what happened in crypto today (14h ago)",
-   "Franklin Templeton makes room for HYPE in crypto index ETF (15h ago)",
+   "Here\u2019s what happened in crypto today (15h ago)",
+   "Franklin Templeton makes room for HYPE in crypto index ETF (16h ago)",
    "Bitcoin whales pile into BTC despite shrinking profit cushion (17h ago)",
    "China sets March 2027 rollout for blockchain identity regulations (19h ago)",
    "Bitcoin price drops below $59K as Anthropic joins tech stock rebound (20h ago)",
@@ -174,5 +156,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795869608.0525646
+ "last_macro_macro": 1795870885.8407688
 }
