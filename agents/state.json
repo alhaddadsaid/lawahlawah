@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -89117.45485068872,
+   "cash": -89166.84128361555,
    "open": [
     {
      "id": 4003,
@@ -38,21 +38,6 @@
      "thesis": "control: frozen v3 rules"
     },
     {
-     "id": 4065,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Vicewire",
-     "mint": "viCEWiReoWxwmRRfGmWmpP1FFdB8Jm8PzZChVJ9dvg6",
-     "side": 1,
-     "opened": 1795865394.600659,
-     "entry": 0.0001312,
-     "stop": 0.00010496,
-     "target": 0.00018367999999999998,
-     "size": 1524390.243902439,
-     "deadline": 1795872594.6006591,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 4066,
      "desk": "control",
      "market": "meme",
@@ -74,28 +59,27 @@
  "runs": 144,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:G7vQWurMkMMm2dU3iZpXYFTHT9Biio4F4gZCrwFpKNwG": 1795866477.3469126,
-  "seen:HmGQsYJyeiWrV6jABUY2Cb3bEmVxwk6LzVxCchsCpump": 1795866477.3469126,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795866477.3469126,
-  "seen:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795866477.3469126,
-  "control:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795866477.3920884,
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795866658.6027296,
-  "seen:viCEWiReoWxwmRRfGmWmpP1FFdB8Jm8PzZChVJ9dvg6": 1795866999.4156096,
-  "seen:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795866999.4156096,
-  "seen:ATbAsdCwrhhVg23DRnWpjqx6kx7ivoK5o8ysNmu1pump": 1795867185.8732924,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795867185.8732924,
-  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795867185.8732924,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795867185.8732924,
-  "seen:GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump": 1795867185.8732924,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795867185.8732924,
   "seen:5gBCc4MYQjA9nvyRDZQKdSxLeyKGjTVGhPaMkD13pump": 1795867370.8766136,
-  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795867370.8766136
+  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795867370.8766136,
+  "seen:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795867572.059708,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795867740.7770896,
+  "seen:viCEWiReoWxwmRRfGmWmpP1FFdB8Jm8PzZChVJ9dvg6": 1795867929.228922,
+  "seen:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795867929.228922,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795867929.228922,
+  "seen:ANxUJcRwevw9xcWMQNrwgpzcdeSgXzNq6hLUxGG3pump": 1795868165.9434788,
+  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795868165.9434788,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795868165.9434788,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795868165.9434788,
+  "seen:ATbAsdCwrhhVg23DRnWpjqx6kx7ivoK5o8ysNmu1pump": 1795868165.9434788,
+  "seen:GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump": 1795868165.9434788,
+  "seen:GpG61ySpcKmKXvJVYJwUVYSKKPrT2XdmNXDwoa6Rpump": 1795868165.9434788,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795868165.9434788
  },
  "talks": {
   "2026-10-21": 109
  },
  "last_macro_talk": 1792560429.490425,
- "ctrl_macro_hour": 498847,
+ "ctrl_macro_hour": 498852,
  "team": [
   {
    "name": "Lead",
@@ -130,14 +114,14 @@
  ],
  "last_review": 1795823025.0961003,
  "news": {
-  "t": 1795866285.8884647,
+  "t": 1795867265.9582121,
   "crypto": [
-   "ASEAN+3 agrees on initiative to explore crypto payments cooperation (1h ago)",
+   "ASEAN+3 agrees on initiative to explore crypto payments cooperation (2h ago)",
    "Trump-linked crypto token WLFI plunges 50% to record lows (2h ago)",
    "Binance plans Asia hub in Bhutan, receives preliminary approval (4h ago)",
    "Here\u2019s what happened in crypto today (14h ago)",
-   "Franklin Templeton makes room for HYPE in crypto index ETF (14h ago)",
-   "Bitcoin whales pile into BTC despite shrinking profit cushion (16h ago)",
+   "Franklin Templeton makes room for HYPE in crypto index ETF (15h ago)",
+   "Bitcoin whales pile into BTC despite shrinking profit cushion (17h ago)",
    "China sets March 2027 rollout for blockchain identity regulations (18h ago)",
    "Bitcoin price drops below $59K as Anthropic joins tech stock rebound (19h ago)",
    "What was Coinbase worth while Nasdaq was closed? (21h ago)",
@@ -174,5 +158,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795865758.6172779
+ "last_macro_macro": 1795867029.2433922
 }
