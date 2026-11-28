@@ -34,5 +34,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-28 07:37 UTC control: OPENED FINGART long at 0.000105 (stop 8.4e-05, target 0.000147) - control: frozen v3 rules
+## Run ended 2026-11-28 07:37 UTC
 
