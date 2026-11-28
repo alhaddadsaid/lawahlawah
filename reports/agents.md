@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-28 06:21 UTC. Runs so far: 143. Model: claude-haiku-5-5.
+Updated 2026-11-28 06:36 UTC. Runs so far: 143. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,17 +9,16 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3949 | 31 | -98916.38 | -136882.55 |
+| control | meme | 3951 | 31 | -98780.38 | -136770.55 |
 | control | macro | 82 | 48 | 55.09 | -347.67 |
-| control | all | 4031 | 31 | -98861.29 | -137230.22 |
+| control | all | 4033 | 31 | -98725.29 | -137118.22 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GBPUSD short at 1.30964, stop 1.31067, target 1.30809, opened 2026-11-27 18:08 UTC
-- control: Split long at 8.031e-05, stop 6.4248e-05, target 0.000112434, opened 2026-11-28 06:15 UTC
-- control: RICE long at 5.602e-05, stop 4.4816e-05, target 7.8428e-05, opened 2026-11-28 06:21 UTC
+- control: RICE long at 7.524e-05, stop 6.0192e-05, target 0.000105336, opened 2026-11-28 06:36 UTC
 
 ## Team
 
@@ -32,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- 2026-11-28 06:21 UTC control: OPENED RICE long at 5.602e-05 (stop 4.4816e-05, target 7.8428e-05) - control: frozen v3 rules
+- 2026-11-28 06:36 UTC control: OPENED RICE long at 7.524e-05 (stop 6.0192e-05, target 0.000105336) - control: frozen v3 rules
 
