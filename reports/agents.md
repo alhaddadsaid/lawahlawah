@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-28 04:10 UTC. Runs so far: 143. Model: claude-haiku-5-5.
+Updated 2026-11-28 04:22 UTC. Runs so far: 143. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,9 +9,9 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3935 | 31 | -98568.05 | -136399.57 |
+| control | meme | 3936 | 31 | -98643.72 | -136483.55 |
 | control | macro | 82 | 48 | 55.09 | -347.67 |
-| control | all | 4017 | 31 | -98512.96 | -136747.24 |
+| control | all | 4018 | 31 | -98588.63 | -136831.22 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
@@ -19,7 +19,6 @@ Verdict: too early, 19 of 50 team trades needed before judging.
 
 - control: GBPUSD short at 1.30964, stop 1.31067, target 1.30809, opened 2026-11-27 18:08 UTC
 - control: Zhaki long at 0.0001268, stop 0.00010144, target 0.00017752, opened 2026-11-28 02:50 UTC
-- control: Vicewire long at 0.0001167, stop 9.336e-05, target 0.00016338, opened 2026-11-28 04:00 UTC
 
 ## Team
 
@@ -32,5 +31,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-- control: CLOSED semigenius (stop) P&L $-51.81 normal, $-60.74 pessimistic
+- team: model call failed:  HTTP 401: invalid x-api-key
 
