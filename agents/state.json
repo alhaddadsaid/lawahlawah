@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -88514.4767677869,
+   "cash": -88771.26201650484,
    "open": [
     {
      "id": 4003,
@@ -23,21 +23,6 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 4044,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "RICE",
-     "mint": "3rVr2RBzEXXKf1cVvZ6HBvFg2XmBK4iMgZv9q9q4pump",
-     "side": 1,
-     "opened": 1795842660.7476363,
-     "entry": 8.57e-05,
-     "stop": 6.856e-05,
-     "target": 0.00011997999999999999,
-     "size": 2333722.2870478416,
-     "deadline": 1795849860.7476366,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
      "id": 4047,
      "desk": "control",
      "market": "meme",
@@ -51,20 +36,29 @@
      "size": 2310269.1463555503,
      "deadline": 1795851328.929832,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 4049,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "RICE",
+     "mint": "3rVr2RBzEXXKf1cVvZ6HBvFg2XmBK4iMgZv9q9q4pump",
+     "side": 1,
+     "opened": 1795844494.8355448,
+     "entry": 7.06e-05,
+     "stop": 5.648e-05,
+     "target": 9.883999999999998e-05,
+     "size": 2832861.1898017,
+     "deadline": 1795851694.835545,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 4048,
+ "next_id": 4050,
  "runs": 143,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795844295.4137728,
-  "seen:9G9Ssh55SZEoniFjMrMefug9fBy67bUvHzWAxb5Ypump": 1795844295.4137728,
-  "seen:ATbAsdCwrhhVg23DRnWpjqx6kx7ivoK5o8ysNmu1pump": 1795844480.3899658,
-  "seen:3rVr2RBzEXXKf1cVvZ6HBvFg2XmBK4iMgZv9q9q4pump": 1795844480.3899658,
-  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795844480.3899658,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795844480.3899658,
   "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795844663.6339958,
   "seen:GGatn9GfrvRgFMFZy9ZSaTsKmpwnzCTogmocLHCjpump": 1795844846.5823708,
   "seen:7dc3gFoyuDCPWjrfZfX99uasJJSceAJx5ucE8bDGpump": 1795844846.5823708,
@@ -74,7 +68,17 @@
   "seen:HmGQsYJyeiWrV6jABUY2Cb3bEmVxwk6LzVxCchsCpump": 1795845028.884213,
   "seen:DtcicPCKTKeAh7TDEzTym3hXeoHAoMiBdYJhMYxZpump": 1795845028.884213,
   "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795845028.884213,
-  "control:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795845028.9298353
+  "control:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795845028.9298353,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795845209.8418279,
+  "seen:9G9Ssh55SZEoniFjMrMefug9fBy67bUvHzWAxb5Ypump": 1795845209.8418279,
+  "control:GGatn9GfrvRgFMFZy9ZSaTsKmpwnzCTogmocLHCjpump": 1795845209.8867817,
+  "seen:ATbAsdCwrhhVg23DRnWpjqx6kx7ivoK5o8ysNmu1pump": 1795845394.2341506,
+  "seen:3rVr2RBzEXXKf1cVvZ6HBvFg2XmBK4iMgZv9q9q4pump": 1795845394.2341506,
+  "seen:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795845394.2341506,
+  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795845394.2341506,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795845394.2341506,
+  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795845394.2341506,
+  "control:3rVr2RBzEXXKf1cVvZ6HBvFg2XmBK4iMgZv9q9q4pump": 1795845394.8355482
  },
  "talks": {
   "2026-10-21": 109
@@ -115,7 +119,7 @@
  ],
  "last_review": 1795823025.0961003,
  "news": {
-  "t": 1795843580.4053407,
+  "t": 1795844494.2494676,
   "crypto": [
    "Here\u2019s what happened in crypto today (7h ago)",
    "Franklin Templeton makes room for HYPE in crypto index ETF (8h ago)",
