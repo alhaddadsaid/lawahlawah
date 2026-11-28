@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -89073.94036532116,
+   "cash": -89123.90338307264,
    "open": [
     {
      "id": 4003,
@@ -66,35 +66,46 @@
      "size": 1079913.6069114471,
      "deadline": 1795885926.142698,
      "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 4077,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "ANSEM",
+     "mint": "CGYQExMmiTRVU4iuUS7CEopNNuJzWrcEZZXVDMt1pump",
+     "side": 1,
+     "opened": 1795879656.604043,
+     "entry": 6.12e-05,
+     "stop": 4.896e-05,
+     "target": 8.567999999999998e-05,
+     "size": 3267973.8562091505,
+     "deadline": 1795886856.6040432,
+     "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 4076,
+ "next_id": 4078,
  "runs": 144,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:9TKbd3VFaMSXsEAicD9JVQWpWwAoLi4fSgWmZL2cpump": 1795878735.6871705,
-  "seen:HnRPNwcYZFhsuRg5ChqdBEUR7DLx1XrGXdYkuSBqpump": 1795878968.4615257,
-  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795878968.4615257,
-  "seen:Dy2fe3MEeVB6DsNF9hw5jT1DUH13fGXnD7gdWrgYpump": 1795878968.4615257,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795878968.4615257,
-  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795878968.4615257,
-  "seen:63jDWWFwp25ChLvsofbVRMprRbhiXuWoWVxrwFfypump": 1795878968.4615257,
-  "seen:ATbAsdCwrhhVg23DRnWpjqx6kx7ivoK5o8ysNmu1pump": 1795878968.4615257,
-  "seen:GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump": 1795878968.4615257,
-  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795879107.4921343,
-  "seen:viCEWiReoWxwmRRfGmWmpP1FFdB8Jm8PzZChVJ9dvg6": 1795879107.4921343,
-  "seen:6sZYmvbTzXyLe7jr2om3Vmo6UPryLmQUko1Hgj89pump": 1795879284.290302,
-  "seen:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795879284.290302,
-  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795879284.290302,
-  "seen:HmGQsYJyeiWrV6jABUY2Cb3bEmVxwk6LzVxCchsCpump": 1795879433.2396162,
-  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795879433.2396162,
-  "seen:B8bkqfwkisTKcEQHpVZp5YeH5Wii2GWzjRiK4f7Cpump": 1795879433.2396162,
-  "control:HnRPNwcYZFhsuRg5ChqdBEUR7DLx1XrGXdYkuSBqpump": 1795879433.4222186,
-  "seen:q9VM1LRTCB7P7TNLRKyZJUPtdoH3e9FRuVFyY9Xpump": 1795879626.0982823,
-  "seen:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795879626.0982823,
-  "control:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795879626.142701
+  "seen:HnRPNwcYZFhsuRg5ChqdBEUR7DLx1XrGXdYkuSBqpump": 1795880008.1021235,
+  "seen:PgFtGGquvnv2zEkjG2N2QPvBTBrafuExGYEqahRpump": 1795880008.1021235,
+  "seen:Dy2fe3MEeVB6DsNF9hw5jT1DUH13fGXnD7gdWrgYpump": 1795880008.1021235,
+  "seen:ATbAsdCwrhhVg23DRnWpjqx6kx7ivoK5o8ysNmu1pump": 1795880008.1021235,
+  "seen:Ai66LHZG9MCzg1WKdawwqduVAXpNDUuV8M3uyq5ppump": 1795880008.1021235,
+  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795880008.1021235,
+  "seen:GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump": 1795880008.1021235,
+  "seen:5jjJWZfTTaZtG74zSpiEZbMBHNM2jieHEXM2UZvapump": 1795880172.0744214,
+  "seen:4CxjZyMNoF1p6eXHXHv1TWpS2X47CuUmLwtGe18spump": 1795880172.0744214,
+  "seen:CGYQExMmiTRVU4iuUS7CEopNNuJzWrcEZZXVDMt1pump": 1795880380.9150026,
+  "seen:6sZYmvbTzXyLe7jr2om3Vmo6UPryLmQUko1Hgj89pump": 1795880380.9150026,
+  "seen:9Pq7aLAbhDG2tTnS22cm6kuysZVcZpLFE368HWuypump": 1795880380.9150026,
+  "control:q9VM1LRTCB7P7TNLRKyZJUPtdoH3e9FRuVFyY9Xpump": 1795880381.0065913,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795880556.554013,
+  "seen:q9VM1LRTCB7P7TNLRKyZJUPtdoH3e9FRuVFyY9Xpump": 1795880556.554013,
+  "seen:EvN4RDyoqUTpCcrvz5QTAdHVqypgxV4MCR77Bfnjpump": 1795880556.554013,
+  "control:CGYQExMmiTRVU4iuUS7CEopNNuJzWrcEZZXVDMt1pump": 1795880556.6040463
  },
  "talks": {
   "2026-10-21": 109
@@ -135,18 +146,18 @@
  ],
  "last_review": 1795823025.0961003,
  "news": {
-  "t": 1795878068.4769773,
+  "t": 1795879108.117517,
   "crypto": [
    "Bybit\u2019s $1.4 billion hack postmortem is ready. You won\u2019t get to see it. (1h ago)",
    "Here\u2019s what happened in crypto today (1h ago)",
    "Justin Sun calls for Trump family-linked WLFI token to be delisted (2h ago)",
    "Bitcoin not delivering: The bear market has digital asset veteran questioning BTC's value (2h ago)",
    "ASEAN+3 agrees on initiative to explore crypto payments cooperation (5h ago)",
-   "Trump-linked crypto token WLFI plunges 50% to record lows (5h ago)",
-   "Binance plans Asia hub in Bhutan, receives preliminary approval (7h ago)",
+   "Trump-linked crypto token WLFI plunges 50% to record lows (6h ago)",
+   "Binance plans Asia hub in Bhutan, receives preliminary approval (8h ago)",
    "Franklin Templeton makes room for HYPE in crypto index ETF (18h ago)",
    "Bitcoin whales pile into BTC despite shrinking profit cushion (20h ago)",
-   "China sets March 2027 rollout for blockchain identity regulations (21h ago)"
+   "China sets March 2027 rollout for blockchain identity regulations (22h ago)"
   ],
   "macro": [],
   "calendar": []
