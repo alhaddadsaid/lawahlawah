@@ -1,6 +1,6 @@
 # Agent desk (paper trading)
 
-Updated 2026-11-28 07:37 UTC. Runs so far: 143. Model: claude-haiku-5-5.
+Updated 2026-11-28 10:13 UTC. Runs so far: 144. Model: claude-haiku-5-5.
 
 Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimistic) per side. Team desk: experimental, no strategy rules, sizes up to 10% (gold/forex with 10x leverage). Control desk: frozen v3 memecoin rules ($200 per trade) and random gold/forex trades risking $100.
 
@@ -9,19 +9,17 @@ Money is paper, $10,000 per desk. Memecoin costs 2.5% (normal) and 5% (pessimist
 | team | meme | 15 | 60 | -344.86 | -383.02 |
 | team | macro | 4 | 0 | -15.18 | -15.5 |
 | team | all | 19 | 47 | -360.04 | -398.52 |
-| control | meme | 3955 | 31 | -98753.48 | -136785.36 |
+| control | meme | 3959 | 31 | -99190.86 | -137252.55 |
 | control | macro | 82 | 48 | 55.09 | -347.67 |
-| control | all | 4037 | 31 | -98698.39 | -137133.03 |
+| control | all | 4041 | 31 | -99135.77 | -137600.22 |
 
 Verdict: too early, 19 of 50 team trades needed before judging.
 
 ## Open positions
 
 - control: GBPUSD short at 1.30964, stop 1.31067, target 1.30809, opened 2026-11-27 18:08 UTC
-- control: Split long at 0.0001401, stop 0.00011208, target 0.00019614, opened 2026-11-28 06:45 UTC
-- control: RICE long at 5.52e-05, stop 4.416e-05, target 7.728e-05, opened 2026-11-28 07:10 UTC
-- control: Kibo long at 6.371e-05, stop 5.0968e-05, target 8.9194e-05, opened 2026-11-28 07:25 UTC
-- control: FINGART long at 0.000105, stop 8.4e-05, target 0.000147, opened 2026-11-28 07:37 UTC
+- control: SPSC long at 0.000114, stop 9.12e-05, target 0.0001596, opened 2026-11-28 10:10 UTC
+- control: Split long at 0.0001388, stop 0.00011104, target 0.00019432, opened 2026-11-28 10:13 UTC
 
 ## Team
 
@@ -34,5 +32,5 @@ API spend today: $0.00 (cap $3, aiming for about $1.50)
 
 ## Last run
 
-## Run ended 2026-11-28 07:37 UTC
+- 2026-11-28 10:13 UTC control: OPENED Split long at 0.0001388 (stop 0.00011104, target 0.00019432) - control: frozen v3 rules
 

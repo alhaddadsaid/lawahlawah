@@ -5,7 +5,7 @@
    "open": []
   },
   "control": {
-   "cash": -88698.31489824888,
+   "cash": -89135.69620515557,
    "open": [
     {
      "id": 4003,
@@ -23,88 +23,56 @@
      "thesis": "control: random direction"
     },
     {
-     "id": 4056,
+     "id": 4062,
+     "desk": "control",
+     "market": "meme",
+     "symbol": "SPSC",
+     "mint": "EjdrRG2si1FQ3Bme5g6WSYNHJDrsKUrbGB4Z5xaopump",
+     "side": 1,
+     "opened": 1795860619.335287,
+     "entry": 0.000114,
+     "stop": 9.120000000000001e-05,
+     "target": 0.0001596,
+     "size": 1754385.9649122807,
+     "deadline": 1795867819.3352873,
+     "thesis": "control: frozen v3 rules"
+    },
+    {
+     "id": 4063,
      "desk": "control",
      "market": "meme",
      "symbol": "Split",
      "mint": "HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump",
      "side": 1,
-     "opened": 1795848336.7554204,
-     "entry": 0.0001401,
-     "stop": 0.00011208,
-     "target": 0.00019613999999999998,
-     "size": 1427551.7487508922,
-     "deadline": 1795855536.7554207,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 4057,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "RICE",
-     "mint": "3rVr2RBzEXXKf1cVvZ6HBvFg2XmBK4iMgZv9q9q4pump",
-     "side": 1,
-     "opened": 1795849803.026976,
-     "entry": 5.52e-05,
-     "stop": 4.4160000000000004e-05,
-     "target": 7.727999999999999e-05,
-     "size": 3623188.4057971016,
-     "deadline": 1795857003.0269763,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 4060,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "Kibo",
-     "mint": "7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump",
-     "side": 1,
-     "opened": 1795850723.0733337,
-     "entry": 6.371e-05,
-     "stop": 5.0968000000000004e-05,
-     "target": 8.919399999999999e-05,
-     "size": 3139224.6115209544,
-     "deadline": 1795857923.073334,
-     "thesis": "control: frozen v3 rules"
-    },
-    {
-     "id": 4061,
-     "desk": "control",
-     "market": "meme",
-     "symbol": "FINGART",
-     "mint": "WZVWLfThgm14NN8HRDoyiEeXVvdUDMzGMHUS3VLpump",
-     "side": 1,
-     "opened": 1795851456.2630382,
-     "entry": 0.000105,
-     "stop": 8.400000000000001e-05,
-     "target": 0.000147,
-     "size": 1904761.9047619046,
-     "deadline": 1795858656.2630382,
+     "opened": 1795860800.2166445,
+     "entry": 0.0001388,
+     "stop": 0.00011104000000000001,
+     "target": 0.00019432,
+     "size": 1440922.190201729,
+     "deadline": 1795868000.2166445,
      "thesis": "control: frozen v3 rules"
     }
    ]
   }
  },
- "next_id": 4062,
- "runs": 143,
+ "next_id": 4064,
+ "runs": 144,
  "created": "2026-10-20 13:54 UTC",
  "cool": {
-  "seen:CApUbkniaQBCaVbQAouJkf8t3AD4fQEYWVezMQF7WuQR": 1795851622.940979,
-  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795851622.940979,
-  "seen:3rVr2RBzEXXKf1cVvZ6HBvFg2XmBK4iMgZv9q9q4pump": 1795851622.940979,
-  "control:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795851623.073337,
-  "seen:B29od4bd54VAVAqJFToRKkKJadUGK5v8pkAVb5uvpump": 1795851837.0803158,
-  "seen:ATbAsdCwrhhVg23DRnWpjqx6kx7ivoK5o8ysNmu1pump": 1795851837.0803158,
-  "seen:7XSYaJygcuNe6Q3kPvwsJpg4ZrFL1AEUFb8kCuzppump": 1795851837.0803158,
-  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795851837.0803158,
-  "seen:SonicxvLud67EceaEzCLRnMTBqzYUUYNr93DBkBdDES": 1795851990.0121574,
-  "seen:WZVWLfThgm14NN8HRDoyiEeXVvdUDMzGMHUS3VLpump": 1795851990.0121574,
-  "seen:EjdrRG2si1FQ3Bme5g6WSYNHJDrsKUrbGB4Z5xaopump": 1795851990.0121574,
-  "seen:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795851990.0121574,
-  "seen:GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump": 1795852183.1880417,
-  "seen:HmGQsYJyeiWrV6jABUY2Cb3bEmVxwk6LzVxCchsCpump": 1795852356.216848,
-  "seen:9cRCn9rGT8V2imeM2BaKs13yhMEais3ruM3rPvTGpump": 1795852356.216848,
-  "control:WZVWLfThgm14NN8HRDoyiEeXVvdUDMzGMHUS3VLpump": 1795852356.2630417
+  "seen:LfZfNetLvyRdpuGpAgdUWkQoXny5LteLJEokYwubjmk": 1795861518.7784133,
+  "seen:ATbAsdCwrhhVg23DRnWpjqx6kx7ivoK5o8ysNmu1pump": 1795861518.7784133,
+  "seen:B34nXKzCgsJb9ChLuSHPRpXLE3WFSWyeT8Cqkzzmpump": 1795861518.7784133,
+  "seen:Fo2HAwr7ZAUM2bSZ7MWSi16e3aWGpbw5MsUDYCttpump": 1795861518.7784133,
+  "seen:B9wbjDJ4FbHMsZmoXAkJSTAwuePaJUKbySvnK5zApump": 1795861518.7784133,
+  "seen:4nQLJ8aFXW3tTwnrstXrVqzbDH5u9eTaqc5F2Baypump": 1795861518.7784133,
+  "seen:GXjSWDoMQkDEbhon9ALxz8chUUsVKg3x8V3NajjDpump": 1795861518.7784133,
+  "seen:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795861518.7784133,
+  "control:EjdrRG2si1FQ3Bme5g6WSYNHJDrsKUrbGB4Z5xaopump": 1795861519.3352907,
+  "seen:38M2z4UCfZEkUHFzD48vhKQhFhNyRGto8pZbLjNipump": 1795861700.172118,
+  "seen:GJAFwWjJ3vnTsrQVabjBVK2TYB1YtRCQXRDfDgUnpump": 1795861700.172118,
+  "seen:2YAfPhCrGSW82Ra33sWgurXt4dQ29SwXusvUXdJGpump": 1795861700.172118,
+  "seen:HmGQsYJyeiWrV6jABUY2Cb3bEmVxwk6LzVxCchsCpump": 1795861700.172118,
+  "control:HAP9FcXubD88SjRHMY1kr5iukpRZgeMAgCBam3Vtpump": 1795861700.216648
  },
  "talks": {
   "2026-10-21": 109
@@ -145,18 +113,18 @@
  ],
  "last_review": 1795823025.0961003,
  "news": {
-  "t": 1795850937.096128,
+  "t": 1795860618.7951052,
   "crypto": [
-   "Here\u2019s what happened in crypto today (9h ago)",
-   "Franklin Templeton makes room for HYPE in crypto index ETF (10h ago)",
-   "Bitcoin whales pile into BTC despite shrinking profit cushion (12h ago)",
-   "China sets March 2027 rollout for blockchain identity regulations (14h ago)",
-   "Bitcoin price drops below $59K as Anthropic joins tech stock rebound (15h ago)",
-   "What was Coinbase worth while Nasdaq was closed? (17h ago)",
-   "Binance to launch tokenized IPO program after regulatory approval: Yi He (18h ago)",
-   "Kalshi turns to small businesses as legal battles threaten forecasts on sports (18h ago)",
-   "Brazil\u2019s stock exchange pushes stablecoin launch back to 2027 (19h ago)",
-   "Austria-supervised crypto firms report 20.4B euros in H1 trading volume (19h ago)"
+   "Trump-linked crypto token WLFI plunges 50% to record lows (1h ago)",
+   "Binance receives in-principle approval, plans Asia hub in Bhutan (2h ago)",
+   "Here\u2019s what happened in crypto today (12h ago)",
+   "Franklin Templeton makes room for HYPE in crypto index ETF (13h ago)",
+   "Bitcoin whales pile into BTC despite shrinking profit cushion (15h ago)",
+   "China sets March 2027 rollout for blockchain identity regulations (17h ago)",
+   "Bitcoin price drops below $59K as Anthropic joins tech stock rebound (17h ago)",
+   "What was Coinbase worth while Nasdaq was closed? (19h ago)",
+   "Binance to launch tokenized IPO program after regulatory approval: Yi He (20h ago)",
+   "Kalshi turns to small businesses as legal battles threaten forecasts on sports (21h ago)"
   ],
   "macro": [],
   "calendar": []
@@ -189,5 +157,5 @@
   "2026-10-29 09:45 UTC [macro] 09:45 flat. GBPUSD 1.33097 above 1.3274 trigger; USD GDP (3.2% fcst) and Core PCE (0.3%) in ~2.9h, ECB rate/statement/presser in ~3.7-4.2h. Watch: GBPUSD short only on closed 1h bar < 1.3274 after the data window; entry "
  ],
  "reviewed_streak_at": 19,
- "last_macro_macro": 1795851283.203008
+ "last_macro_macro": 1795860618.7949145
 }
